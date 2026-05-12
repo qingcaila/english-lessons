@@ -35,13 +35,25 @@
   .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; color: var(--muted); }
 
   /* 卡片 */
+  /* 拆字唸:字母完全相連,底線用 ::after 畫且比 chunk 短,留視覺斷點 */
+  .word { display: inline-flex; gap: 0; align-items: baseline; }
   .word .chunk {
     display: inline-block;
-    border-bottom: 2px solid var(--accent); padding-bottom: 1px; cursor: pointer;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 3px;
   }
+  .chunk::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 3px;                       /* ← 底線比 chunk 短 3px,留斷點 */
+    height: 2px;
+    background: var(--accent);
+  }
+  .chunk:last-child::after { right: 0; }
   .chunk:hover, .chunk:active { background: var(--accent-soft); }
-  .word { display: inline-flex; gap: 0; align-items: baseline; }
-  .chunk + .chunk { margin-left: 2px; }  /* 字母看起來幾乎相連,只有底線視覺有微小斷點 */
 
   table { width: 100%; border-collapse: separate; border-spacing: 0; }
   tbody tr {
@@ -76,7 +88,8 @@
                display: flex; align-items: baseline; gap: 6px; flex-wrap: nowrap;
                min-width: 0; overflow: hidden; }
   .word { font-size: 16px; font-weight: 600; line-height: 1.1; flex-shrink: 0; }
-  .chunk { border-bottom-width: 1.5px; padding-bottom: 0; }
+  .chunk { padding-bottom: 2px; }
+  .chunk::after { height: 1.5px; }
   .pinyin { font-size: 10.5px; color: var(--muted); white-space: nowrap;
             overflow: hidden; text-overflow: ellipsis; min-width: 0; }
   .play-count { font-size: 9px; color: var(--muted); margin-left: 4px; opacity: .7; }
