@@ -235,4 +235,18 @@ git push
 
 ## 累積紀錄
 
-- **2026-05-13** / 對話 1 / +0(本檔案建立,基準 224 字)
+- **2026-05-13** / 對話 1(主對話,本檔建立)/ +0 / 基準 224 字
+- **2026-05-13** / 對話 2(平行)/ +16 / sight-words / 累計 240
+- **2026-05-13** / 對話 1(主對話)/ +196 / kitchen-utensils / bathroom / fruits / vegetables / drinks / desserts / shapes / directions / travel / shopping / restaurant / money / health / technology / 累計 **436**
+
+---
+
+## 並行對話協調規則(2026-05-13 新增)
+
+如果你看到上面累積紀錄裡**有同一日多個對話 push 過字**,代表這個學習者**同時有多個對話視窗在擴字**。動之前必須:
+
+1. `cd D:\英\lessons && git pull` — **強制先抓最新**,避免覆蓋別人的字
+2. **不要重寫 vocab.json**,只能用 Edit append 到 `words` 陣列尾端(JSON 注意逗號)
+3. 選的主題**避開別的對話正在做的**(看累積紀錄最近幾條的主題清單)
+4. push 之前再 `git pull --rebase` 一次保險
+5. 完成後**立刻**在累積紀錄 append 新紀錄,讓下個並行對話看到
