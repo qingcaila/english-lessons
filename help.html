@@ -271,22 +271,46 @@
 
     <h3>頂部控制列</h3>
     <ul class="feature-list">
-      <li>🔊 <b>全部</b> → 依序唸完 10 個字</li>
-      <li>⏹ <b>停止</b> → 中斷</li>
-      <li>速度 → <b>慢 / 正常 / 較快 / 原速</b>(預設慢)</li>
+      <li><b>←</b> → 回首頁</li>
+      <li>🔊 → 全部依序唸完整輪的字</li>
+      <li>⏹ → 停止播放</li>
+      <li>速度下拉 → 慢 / 正常 / 較快 / 原速(預設慢)</li>
       <li><b>注音</b> 按鈕 → 切換注音顯示(預設開)</li>
+      <li><b>結束 →</b> 橘色按鈕 → <b>隨時可按</b>,立刻結束本輪不用標完所有字</li>
+    </ul>
+    <p style="font-size:11px;color:var(--muted);">📋 控制列下方 chip 顯示本輪資訊:R1 · 模式 · 🔁複習 · 🆕新字 · 累計 · L4</p>
+
+    <h3>結束本輪</h3>
+    <p>兩種方式觸發結束:</p>
+    <ul class="feature-list">
+      <li>標完全部 10 字的 ✅/❌ → <b>自動跳</b> summary</li>
+      <li>隨時按 topbar 的 <span class="button-demo">結束 →</span> → 立刻跳 summary,沒標記的字會延到下一輪</li>
     </ul>
 
-    <h3>結束時</h3>
-    <p>全部 10 字標記完 ✅/❌ 後,跳出 emoji 自評:</p>
-    <table>
-      <tr><th>emoji</th><th>下一步系統會做</th></tr>
-      <tr><td>😎 太簡單</td><td>建議升難度 / 試挑戰模式</td></tr>
-      <tr><td>👍 剛剛好</td><td>維持節奏(<b>甜蜜帶</b>)</td></tr>
-      <tr><td>😅 偏難</td><td>下輪建議多複習,連續 2 次觸發放慢</td></tr>
-      <tr><td>😵 太難</td><td>立刻降一級,重建信心</td></tr>
-    </table>
-    <p>然後選:<span class="button-demo">▶ 下一輪</span>(延用設定)或 <span class="button-demo outline">🏠 回首頁</span></p>
+    <h3>結束時 summary</h3>
+    <p>summary 會顯示:</p>
+    <ul class="feature-list">
+      <li>✅ 會幾個 / ❌ 不會幾個 / 正確率(只算已標的)</li>
+      <li>⏭ 幾個沒標(會延到下一輪)</li>
+      <li>累計 L4 字數</li>
+    </ul>
+    <p style="margin-top:8px;"><b>然後三件事可做(都不強制)</b>:</p>
+    <ol style="font-size:13px;line-height:1.6;padding-left:20px;">
+      <li>選 emoji 自評(<b>可選</b>,不選也行)
+        <table style="margin-top:4px;">
+          <tr><th>emoji</th><th>系統回應</th></tr>
+          <tr><td>😎 太簡單</td><td>建議升難度 / 試挑戰模式</td></tr>
+          <tr><td>👍 剛剛好</td><td>甜蜜帶,維持節奏</td></tr>
+          <tr><td>😅 偏難</td><td>連續 2 次觸發放慢對策</td></tr>
+          <tr><td>😵 太難</td><td>立刻降一級,重建信心</td></tr>
+        </table>
+      </li>
+      <li>按 <span class="button-demo">▶ 下一輪</span> → 延用同設定立刻繼續</li>
+      <li>按 <span class="button-demo outline">🏠 回首頁</span> → 換模式 / 暫停</li>
+    </ol>
+    <div class="tip" style="margin-top:10px;">
+      <b>💡 重點</b>:**不選 emoji 也能走**,直接點下一輪 / 回首頁就行。emoji 純粹幫系統優化下一輪推薦。
+    </div>
   </div>
 
   <!-- 6 -->
