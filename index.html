@@ -107,8 +107,17 @@
 
   <!-- 目前位置 -->
   <div class="card">
-    <h2>目前位置</h2>
-    <div class="stage-name" id="stageName">載入中…</div>
+    <h2>目前位置 <span style="font-size:10px;color:var(--muted);text-transform:none;letter-spacing:0;">(切換 stage 不會洗任何資料)</span></h2>
+    <div style="display:flex;gap:8px;align-items:center;margin-bottom:6px;flex-wrap:wrap;">
+      <select id="stageSelector" style="font-size:16px;font-weight:600;padding:6px 10px;border-radius:6px;border:1px solid var(--border);background:#fff;font-family:inherit;color:var(--ink);">
+        <option value="0">Stage 0 — 超級基礎</option>
+        <option value="1">Stage 1 — 基礎</option>
+        <option value="2">Stage 2 — 中下</option>
+        <option value="3">Stage 3 — 中</option>
+        <option value="4">Stage 4 — 中上</option>
+      </select>
+      <span style="font-size:11px;color:var(--muted);">/ 5 階段</span>
+    </div>
     <div class="stage-meta" id="stageMeta"></div>
     <div class="progress"><div id="stageProgress" style="width:0%"></div></div>
     <div class="stat-row" style="margin-top:10px;">
@@ -231,7 +240,20 @@ async function loadAll() {
 function renderStage() {
   const state = SRS.loadState();
   const stage = state.stats.currentStage || 0;
-  document.getElementById("stageName").textContent = `Stage ${stage} — ${STAGE_NAMES[stage]}`;
+  // 設定下拉值(切換時不洗任何資料,只換視角)
+  const sel = document.getElementById("stageSelector");
+  if (sel) {
+    sel.value = String(stage);
+    sel.onchange = () => {
+      const newStage = parseInt(sel.value, 10);
+      const s = SRS.loadState();
+      // ⚠️ 只動 stats.currentStage,不碰 words / history / 任何進度
+      s.stats.currentStage = newStage;
+      SRS.saveState(s);
+      // 重新渲染所有依賴 stage 的卡片
+      renderStage(); renderThemes(); renderThemeStats();
+    };
+  }
   const [min, max] = STAGE_VOCAB_TARGET[stage];
   const l4 = SRS.l4Count();
   const total = SRS.totalLearned();
