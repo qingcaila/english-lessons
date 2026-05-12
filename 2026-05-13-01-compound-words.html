@@ -129,7 +129,7 @@
     </label>
     <span id="voiceLabel" class="voice-label"></span>
   </div>
-  <div class="hint">🔊 點任何卡片發音 · 優先用 Free Dictionary 真人錄音,沒有的字才用系統語音備援</div>
+  <div class="hint">🔊 點任何卡片發音</div>
 
   <table>
     <thead>
@@ -199,78 +199,31 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = loadVoices;
 }
 
-// ── Free Dictionary API 真人發音 ──────────────────────
-const audioCache = {};
-async function fetchAudioUrl(word) {
-  if (word in audioCache) return audioCache[word];
-  try {
-    const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`);
-    if (!r.ok) { audioCache[word] = null; return null; }
-    const data = await r.json();
-    for (const entry of data) {
-      for (const ph of (entry.phonetics || [])) {
-        if (ph.audio && /^https?:/.test(ph.audio)) {
-          audioCache[word] = ph.audio;
-          return ph.audio;
-        }
-      }
-    }
-    audioCache[word] = null; return null;
-  } catch (e) { audioCache[word] = null; return null; }
-}
-
-// ── 播音(真人優先,TTS 備援)─────────────────────────
-let currentAudio = null;
-function setBadge(n, kind) {
-  const tr = document.getElementById("row-" + n); if (!tr) return;
-  tr.querySelectorAll(".source-badge").forEach(b => b.remove());
-  const span = document.createElement("span");
-  span.className = "source-badge " + (kind === "human" ? "human" : "tts");
-  span.textContent = kind === "human" ? "真人" : "TTS";
-  const wordEl = tr.querySelector(".word"); if (wordEl) wordEl.appendChild(span);
-}
-function speakOne(n) { return speakWord(WORDS.find(x => x.n === n)); }
-async function speakWord(w) {
-  if (!w) return;
+// ── 播音(純系統 TTS)─────────────────────────────────
+function speakOne(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
   stopAll();
-  highlight(w.n);
-  const tr = document.getElementById("row-" + w.n);
-  tr?.classList.add("loading");
-  const url = await fetchAudioUrl(w.word);
-  tr?.classList.remove("loading");
-  return new Promise(resolve => {
-    if (url) {
-      const audio = new Audio(url);
-      currentAudio = audio;
-      audio.playbackRate = Math.max(0.6, Math.min(rate + 0.1, 1.2));
-      audio.onended = () => { unhighlight(w.n); currentAudio = null; resolve(); };
-      audio.onerror = () => ttsFallback(w, resolve);
-      audio.play().then(() => setBadge(w.n, "human")).catch(() => ttsFallback(w, resolve));
-    } else {
-      ttsFallback(w, resolve);
-    }
-  });
-}
-function ttsFallback(w, resolve) {
-  setBadge(w.n, "tts");
+  highlight(n);
   const u = new SpeechSynthesisUtterance(w.word);
   u.lang = "en-US"; u.rate = rate;
   if (chosenVoice) u.voice = chosenVoice;
-  u.onend = () => { unhighlight(w.n); resolve && resolve(); };
+  u.onend = () => unhighlight(n);
   speechSynthesis.speak(u);
 }
-async function speakAll() {
+function speakAll() {
   stopAll();
-  for (const w of WORDS) {
-    await speakWord(w);
-    await new Promise(r => setTimeout(r, 250));
-  }
+  WORDS.forEach(w => {
+    const u = new SpeechSynthesisUtterance(w.word);
+    u.lang = "en-US"; u.rate = rate;
+    if (chosenVoice) u.voice = chosenVoice;
+    u.onstart = () => highlight(w.n);
+    u.onend = () => unhighlight(w.n);
+    speechSynthesis.speak(u);
+  });
 }
 function stopAll() {
   speechSynthesis.cancel();
-  if (currentAudio) { try { currentAudio.pause(); } catch (e) {} currentAudio = null; }
   document.querySelectorAll("tr.active").forEach(tr => tr.classList.remove("active"));
-  document.querySelectorAll("tr.loading").forEach(tr => tr.classList.remove("loading"));
 }
 function highlight(n) { document.getElementById("row-" + n)?.classList.add("active"); }
 function unhighlight(n) { document.getElementById("row-" + n)?.classList.remove("active"); }
