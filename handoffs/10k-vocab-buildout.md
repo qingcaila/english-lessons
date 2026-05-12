@@ -1,0 +1,238 @@
+# 交接文件 — 把 vocab.json 擴建到 10,000+ 字
+
+> **這份是給接手 AI 的獨立工作指令**。讀完後不需要原對話脈絡也能執行。學習者本人會把這份貼給新對話。
+>
+> **目標總時程**:不限,可以分多次對話累積,每次累積 300-500 字。**不要試圖一次塞完 10K**——對話容量會爆,品質會掉。
+>
+> **建立日**:2026-05-13(基準:224 字)
+
+---
+
+## 0. 在動手之前你必須讀的檔案
+
+按順序讀,讀完就懂專案全貌:
+
+1. **`D:\英\CLAUDE.md`** ← 協作守則,所有硬規則的權威
+2. **`D:\英\profile.md`** 第 9 章「詞彙學習哲學」 ← 為什麼用 L4 計、為什麼不要狂加新字
+3. **`D:\英\syllabus.md`** ← 5 階段課綱、每階段字量目標
+4. **`D:\英\lessons\themes.json`** ← 50+ 主題與分類定義(已存在,擴字時不要動結構)
+5. **`D:\英\lessons\vocab.json`** ← 現有 224 字的格式範例,**新字要照同樣格式 append 到 `words` 陣列尾端**
+
+**禁忌**:
+- ❌ 不要重新評估學習者程度
+- ❌ 不要動 themes.json 的分類結構,只能 append themes(極少需要)
+- ❌ 不要碰 srs.js / lesson.html / index.html / quiz.html(那些是運作引擎)
+
+---
+
+## 1. 任務本身
+
+**現況**:`D:\英\lessons\vocab.json` 目前 224 字。
+**目標**:擴到 10,000+ 字,涵蓋 Stage 0-4 全主題。
+**做法**:每次對話 append 300-500 字到 `words` 陣列,品質優先於速度。
+
+**字量階段對照**(L4 計算):
+- Stage 0 超級基礎 → 500-1,000
+- Stage 1 基礎 → 2,000-3,000
+- Stage 2 中下 → 4,000-5,000
+- Stage 3 中 → 5,000-7,000
+- Stage 4 中上 → 8,000-10,000+
+
+---
+
+## 2. 單字格式規範(每筆 JSON 必須有這些欄位)
+
+```json
+{
+  "word": "bedtime",
+  "mean": "就寢時間",
+  "img": "🛏️🕘",
+  "chunks": ["bed","time"],
+  "py": "ㄅㄝㄉ-ㄊㄞㄇ",
+  "split": "bed (CVC) + time (silent-e)",
+  "theme": "phonics-compound",
+  "stage": 0
+}
+```
+
+### 各欄位規則
+
+| 欄位 | 規則 |
+|------|------|
+| `word` | 全小寫英文字。複合字不加連字號(`bedtime` 不是 `bed-time`) |
+| `mean` | 中文意思,**短,2-4 字最佳**。多義字用 `/` 分隔(例 `"short": "短 / 矮"`) |
+| `img` | emoji,**必須對得上字義**。沒有貼切 emoji 時用「概念近似」的 emoji。**禁止用無關 emoji 湊數**(例 `tail` 配 🐲 是錯的)。組合 emoji(像 🛏️🕘)兩個間不加空格 |
+| `chunks` | 拆字唸陣列。**所有字必須能拆 2+ 塊**(規則見下方 §3)。真正不規則才用單塊 |
+| `py` | 注音腳手架。不求 100% 準,目的是讓學習者敢開口唸。多音節用 `-` 連接(例 `ㄅㄝㄉ-ㄊㄞㄇ`) |
+| `split` | 拼讀塊 / 規則文字說明。讓學習者看見每塊用了什麼規則 |
+| `theme` | 必須是 `themes.json` 裡存在的 id。見 §4 |
+| `stage` | 0-4 整數。決定何時開放(學習者目前在 Stage X 時,只看得到 stage ≤ X 的字) |
+
+### 不可以做的事
+
+- ❌ 不加 `level / first / lastSeen / nextDue / ease / playCount` 等 SRS 欄位 —— 那些是執行時 srs.js 自動加在 localStorage 的,不是 vocab.json 該管的
+- ❌ 不要為 vocab.json 創造新的最外層欄位
+- ❌ JSON 不要有 trailing comma(JavaScript 嚴格 parser 會炸)
+
+---
+
+## 3. Chunks 拆字唸的詳細規則
+
+(權威來源:`CLAUDE.md`「課程網站架構 → 範本應內含 → chunks」段落)
+
+### 基本拆法
+| 字型 | 拆法 | 例 |
+|------|------|----|
+| 多音節 | 按音節分 | `bedtime` → `["bed","time"]`、`apple` → `["ap","ple"]` |
+| 單音節 CVC | onset + rime | `cat` → `["c","at"]`、`dog` → `["d","og"]` |
+| 單音節 silent-e | onset + silent-e rime | `cake` → `["c","ake"]`、`rice` → `["r","ice"]` |
+| 單音節 vowel team | onset + team rime | `moon` → `["m","oon"]`、`tea` → `["t","ea"]` |
+| Blend 起始 | 整 blend + 韻 | `snow` → `["sn","ow"]`、`three` → `["thr","ee"]` |
+| Digraph 起始 | digraph + 韻 | `ship` → `["sh","ip"]`、`sheep` → `["sh","eep"]` |
+| 無 onset(以母音開頭) | 整塊單塊 | `arm` → `["arm"]`、`ear` → `["ear"]` |
+
+### 「不規則」字也要盡量拆(用 §4 模式)
+
+| 模式 | 例 | 拆法 |
+|------|----|------|
+| `igh` 含 silent gh | night / light | `["n","ight"]` |
+| `eigh` | eight / weight | `["eigh","t"]` |
+| soft c (c+e/i/y) | ice / face | `["i","ce"]`、`["f","ace"]` |
+| soft g | age / gem | `["a","ge"]`、`["g","em"]` |
+| 雙子音 gg/ll/ss/tt | egg / ball | `["e","gg"]`、`["b","all"]` |
+| silent kn | know / knife | `["kn","ow"]` |
+| silent wr | write / wrap | `["wr","ite"]` |
+| silent h(字首)| hour | `["h","our"]` |
+| 不規則 ea | bread / friend | `["br","ead"]`、`["fr","iend"]` |
+| silent w | two | `["tw","o"]` |
+
+**真的不規則才單塊**:`one`、`eye`、`old`、`earth`、`eat`(這幾個沒清楚 onset/rime 邊界)
+
+---
+
+## 4. Themes 對應(用哪些 theme id)
+
+完整目錄在 `themes.json`。**新字的 `theme` 欄位必須是其中一個 id**。
+
+### 已有主題(寫字時用 id 填 `theme` 欄位)
+
+**daily 日常生活**:`numbers / time / family / body / colors / food / animals / clothing / weather / places / transportation / school / home-items / nature / kitchen-utensils / bathroom / fruits / vegetables / drinks / desserts / shapes / directions`
+
+**actions-feelings 動作與情緒**:`actions / adjectives / emotions / personality / relationships`
+
+**people-jobs 人物與職業**:`jobs / jobs-advanced / appearance`
+
+**entertainment 娛樂與興趣**:`sports / music / toys / art / hobbies / games / movies-tv`
+
+**social 社會與生活**:`travel / shopping / restaurant / money / emergencies / events / environment / crime`
+
+**health 健康與身體**:`health / medical / fitness / diseases`
+
+**tech-media 科技與媒體**:`technology / internet / media`
+
+**business 商業與經濟**:`office / business / economy`
+
+**academic 學術與抽象**:`science / history / geography / politics / law / religion / philosophy / literature / academic-words`
+
+**special 特別**:`phonics-compound / sight-words / idioms`
+
+### 每主題目標字數(粗估)
+
+|  主題類型 | 目標字數 / 主題 |
+|----------|----------------|
+| 高頻日常(numbers, time, family, body, colors, food...) | 30-50 |
+| 一般主題 | 50-150 |
+| 大領域(business, science, academic...) | 100-300 |
+| sight-words | ~500(Fry 高頻字補完) |
+| idioms | ~300-500 |
+| academic-words | ~570(AWL 完整) |
+
+---
+
+## 5. 加字優先順序
+
+**單次對話的建議流程**:
+
+1. 開頭讀 §0 那幾個檔案
+2. 用 `grep -c '"word":' D:\英\lessons\vocab.json` 看現在多少字
+3. 看現有字裡**哪些主題還少於目標**(`grep '"theme":"<id>"' | wc -l`)
+4. **選 2-4 個薄弱主題,每個補 50-150 字**(本輪累計 300-500)
+5. **照頻率排**:先填高頻字(Oxford 3000 / Fry / GSL 前面)
+6. **照階段排**:Stage 0-1 主題填滿之前不要往 Stage 3-4 跳
+7. Edit `vocab.json`:在 `words` 陣列的最後一個元素後 append(注意逗號)
+8. Commit + push(看 §7)
+
+---
+
+## 6. 品質範例
+
+### ✅ 好的條目
+```json
+{"word":"car","mean":"汽車","img":"🚗","chunks":["c","ar"],"py":"ㄎㄚㄦ","split":"c + ar (R-controlled)","theme":"transportation","stage":0}
+```
+- 中文簡潔
+- emoji 完全對得上字義
+- 拆字遵循 onset + rime 規則
+- 注音腳手架
+- split 點明用了什麼 phonics 規則
+- 主題 + 階段都對
+
+### ❌ 壞的條目(避免)
+```json
+{"word":"car","mean":"一種有四個輪子的交通工具,用引擎驅動","img":"🚙🚗🚕","chunks":["car"],"py":"car","split":"car","theme":"transport","stage":0}
+```
+問題:
+- 中文太長
+- emoji 太多湊數
+- chunks 沒拆
+- 注音不是注音
+- split 沒講規則
+- theme id 拼錯(應是 `transportation` 不是 `transport`)
+
+---
+
+## 7. Commit & Push 流程
+
+每次 append 完一批字:
+
+```powershell
+Set-Location "D:\英\lessons"
+git add vocab.json
+git commit -m "vocab: +N 字 (主題A / 主題B / 主題C)"
+git push
+```
+
+學習者已設好 GitHub Pages(`qingcaila/english-lessons`),push 後 30 秒部署。
+
+**Commit message 規則**:
+- 開頭 `vocab:` 表示是字量擴建
+- 寫**新增的字數**和**涵蓋的主題**
+- 例:`vocab: +250 字 (kitchen-utensils / bathroom / fruits / vegetables)`
+
+---
+
+## 8. 跨對話累積的紀錄
+
+每次對話結束前,在這個檔案末端 append 一筆紀錄:
+
+```markdown
+## 累積紀錄
+- 2026-05-13 / 對話 1 / +0(本檔案建立,基準 224 字)
+- 2026-MM-DD / 對話 N / +XXX 字 / 涵蓋主題 / 累計 YYY
+```
+
+讓下次接手 AI 一眼看到進度。
+
+---
+
+## 9. 給接手 AI 的最後三條提醒
+
+1. **不要重新評估學習者程度**(profile.md 第 10 章寫了)。直接執行字量擴建任務。
+2. **不要主動提及任何個人識別資訊**(學習者極在意這條)。本任務不需要任何個人資訊。
+3. **品質 > 數量**。寧可這次只加 200 個好字,也不要塞 1000 個爛字。Phonics 拆解錯誤、emoji 不對、注音亂寫,**比沒加更糟**(學習者會學到錯的)。
+
+---
+
+## 累積紀錄
+
+- **2026-05-13** / 對話 1 / +0(本檔案建立,基準 224 字)
