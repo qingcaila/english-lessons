@@ -121,15 +121,15 @@
 <body>
 <div class="wrap">
   <h1>第一輪 — 複合字拆字唸(全部用舊規則組合)</h1>
-  <div class="subtitle">2026-05-13 · 8 個字 · 複習池子:CVC · silent-e · sh · oo · ee · ai · oa</div>
+  <div class="subtitle">2026-05-13 · 10 個字 · 複習池子:CVC · silent-e · sh · oo · ee · ai · oa</div>
 
   <div class="topbar">
     <button class="primary" onclick="speakAll()">🔊 全部依序唸</button>
     <button onclick="stopAll()">⏹ 停止</button>
     <label>速度
       <select id="rate" onchange="updateRate()">
-        <option value="0.6">慢</option>
-        <option value="0.75" selected>正常(學習者用)</option>
+        <option value="0.6" selected>慢(初學者預設)</option>
+        <option value="0.75">正常</option>
         <option value="0.9">較快</option>
         <option value="1">原速</option>
       </select>
@@ -160,6 +160,8 @@ const WORDS = [
   { n:6, mean:"鬆餅",     img:"🥞",    word:"pancake",    py:"ㄆㄢ-ㄎㄟㄎ",     split:"pan (CVC) + cake (silent-e)" },
   { n:7, mean:"陽光",     img:"☀️",    word:"sunshine",   py:"ㄙㄢ-ㄒㄞㄣ",     split:"sun (CVC) + shine (sh+silent-e)" },
   { n:8, mean:"週末",     img:"📅",    word:"weekend",    py:"ㄨㄧ-ㄎㄝㄣㄉ",   split:"week (ee) + end (CVC)" },
+  { n:9, mean:"日出",     img:"☀️⬆️",  word:"sunrise",    py:"ㄙㄢ-ㄖㄞㄗ",     split:"sun (CVC) + rise (silent-e: i-e)" },
+  { n:10,mean:"鐵路",     img:"🚂🛤️",  word:"railroad",   py:"ㄖㄟㄛ-ㄖㄡㄉ",   split:"rail (ai) + road (oa)" },
 ];
 
 const tbody = document.getElementById("rows");
@@ -180,7 +182,7 @@ WORDS.forEach(w => {
   tbody.appendChild(tr);
 });
 
-let rate = 0.85;
+let rate = 0.6;
 function updateRate() { rate = parseFloat(document.getElementById("rate").value); }
 
 // ── 系統 TTS 備援用 ────────────────────────────────────
