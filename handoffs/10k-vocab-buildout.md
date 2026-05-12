@@ -233,6 +233,52 @@ git push
 
 ---
 
+## 批次地圖(2026-05-13 學習者確認:依序做完到 10,000+)
+
+每批 300-400 字。**接手的對話 = 找下方第一個未勾選的批次去做**。完成後在批次號旁打勾 `[x]`,並在「累積紀錄」append 一行。
+
+### Stage A:Stage 0-1 日常底盤(741 → 2,100)
+- [ ] **A1**(+~310 / 累計 ~1,050)numbers / time / colors / animals 各推到 50
+- [ ] **A2**(+~350 / 累計 ~1,400)clothing / weather / food / school / home-items 各推到 50
+- [ ] **A3**(+~350 / 累計 ~1,750)jobs / sports / music / nature / phonics-compound 各推到 50
+- [ ] **A4**(+~350 / 累計 ~2,100)sight-words 推到 250(Fry 第二段)
+
+### Stage B:Stage 1-2 廣度鋪開(2,100 → 4,200)
+- [ ] **B1**(+~350 / 累計 ~2,450)family / body / emotions / actions 各推到 100
+- [ ] **B2**(+~350 / 累計 ~2,800)adjectives / kitchen-utensils / bathroom / fruits / vegetables 各推到 100
+- [ ] **B3**(+~350 / 累計 ~3,150)drinks / desserts / shapes / directions / transportation / places 各推到 80
+- [ ] **B4**(+~350 / 累計 ~3,500)travel / shopping / restaurant / money / health 各推到 80
+- [ ] **B5**(+~350 / 累計 ~3,850)technology / sight-words 推到 400
+- [ ] **B6**(+~350 / 累計 ~4,200)過去式動詞 + 片語動詞(actions 進階)+ 連接副詞 ← 對應 profile.md 閱讀斷崖
+
+### Stage C:Stage 2-3 抽象 + 領域(4,200 → 6,500)
+- [ ] **C1**(+~400 / 累計 ~4,600)jobs-advanced / appearance / personality / relationships
+- [ ] **C2**(+~400 / 累計 ~5,000)toys / art / hobbies / games / movies-tv
+- [ ] **C3**(+~400 / 累計 ~5,400)medical / fitness / diseases / office / business
+- [ ] **C4**(+~400 / 累計 ~5,800)economy / internet / media / events / environment
+- [ ] **C5**(+~400 / 累計 ~6,200)science / history / geography
+- [ ] **C6**(+~300 / 累計 ~6,500)emergencies / crime / law(基礎)
+
+### Stage D:Stage 3-4 學術 + 收尾(6,500 → 10,000+)
+- [ ] **D1**(+~400 / 累計 ~6,900)politics / religion / philosophy
+- [ ] **D2**(+~400 / 累計 ~7,300)literature / sight-words 推到 500(Fry 完成)
+- [ ] **D3**(+~400 / 累計 ~7,700)academic-words 1(AWL Sublist 1-3)
+- [ ] **D4**(+~400 / 累計 ~8,100)academic-words 2(AWL Sublist 4-6)
+- [ ] **D5**(+~400 / 累計 ~8,500)academic-words 3(AWL Sublist 7-10,完成 ~570)
+- [ ] **D6**(+~400 / 累計 ~8,900)idioms 1(常見 100 條)
+- [ ] **D7**(+~400 / 累計 ~9,300)idioms 2 + phrasal verbs 進階
+- [ ] **D8**(+~400 / 累計 ~9,700)抽象詞補完 / 學術領域補漏
+- [ ] **D9**(+~300 / 累計 10,000+)收尾 + 看哪些主題還不夠就補
+
+### 批次操作守則
+1. 動工前 `git pull`,參考「並行對話協調規則」
+2. 一輪只動 2-4 個主題,**不要為了打勾跨多個批次**(品質先)
+3. 完成後:(a) 把該批 `[ ]` 改成 `[x]` (b) 累積紀錄 append 紀錄 (c) commit + push
+4. 平行對話:從**未勾批次裡跳一段挑**,避撞主題(例如對話 A 做 A1、對話 B 做 A3)
+5. 如果學習者實際停在某 Stage 太久,可暫停批次衝刺、改成只補學習者卡的主題
+
+---
+
 ## 累積紀錄
 
 - **2026-05-13** / 對話 1(主對話,本檔建立)/ +0 / 基準 224 字
