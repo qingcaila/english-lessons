@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git pull --rebase:*)",
+      "Bash(git status)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git reset:*)",
+      "Bash(git stash:*)",
+      "Bash(git remote:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(cat:*)",
+      "Bash(cd:*)"
+    ]
+  },
+  "_comment": "白名單:git 操作、計數、查看檔案等讀寫不影響其他系統的指令。讓 AI 在 D:\\英\\lessons\\ 工作時不被批准通道卡住。2026-05-13 建立。"
+}
