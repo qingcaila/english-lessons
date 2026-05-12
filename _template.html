@@ -1,0 +1,277 @@
+<!--
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📘 課程範本(_template.html)— 不要直接編輯這個檔案
+
+  製作新課程時:
+  1. 複製此檔為 YYYY-MM-DD-NN-主題.html(NN = 當日第幾輪)
+  2. 改 <title>、<h1>、.subtitle 三處
+  3. 替換 WORDS 陣列(每筆要有 n / mean / img / word / chunks / py / split)
+  4. 加進 index.html 的課程清單
+
+  所有發音 / 排版 / 互動邏輯都已建好,不需要動 CSS 或 JS。
+  範本對應的硬規則在 D:\英\CLAUDE.md「課程 HTML 輸出」段。
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+-->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YYYY-MM-DD 第 N 輪 — 主題</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --card: #fff;
+    --ink: #2a2a2a;
+    --muted: #6b6b6b;
+    --accent: #c4633f;
+    --accent-soft: #f3dfd4;
+    --border: #e5dfd2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    margin: 0;
+    padding: 24px 16px 80px;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 33px; margin: 0 0 6px; }
+  .subtitle { color: var(--muted); margin-bottom: 20px; font-size: 18px; }
+  .topbar {
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+    margin-bottom: 24px; padding: 14px 16px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .topbar label { font-size: 18px; color: var(--muted); }
+  .topbar select, .topbar button {
+    font-size: 18px; padding: 10px 16px; border-radius: 8px;
+    border: 1px solid var(--border); background: #fff; cursor: pointer;
+    font-family: inherit;
+  }
+  .topbar button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .topbar button:hover { background: var(--accent-soft); }
+  .topbar button.primary:hover { background: #a8512f; }
+  table { width: 100%; border-collapse: separate; border-spacing: 0 10px; }
+  thead th {
+    text-align: left; font-size: 17px; color: var(--muted);
+    font-weight: 500; padding: 4px 12px;
+  }
+  tbody tr {
+    background: var(--card); border: 1px solid var(--border);
+    cursor: pointer; transition: background .12s;
+  }
+  tbody tr:hover { background: #fff3ec; }
+  tbody tr:active td { background: var(--accent-soft); }
+  .voice-label { font-size: 14px; color: var(--muted); margin-left: 4px; }
+  .hint { font-size: 14px; color: var(--muted); margin-bottom: 16px; padding: 0 4px; }
+  tr.loading td { opacity: 0.6; }
+  tr .source-badge { font-size: 11px; padding: 2px 6px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
+  tr .source-badge.human { background: #d9efd6; color: #2d7a2d; }
+  tr .source-badge.tts { background: #ffe6d6; color: #a04a1a; }
+  tbody td {
+    padding: 18px 12px; border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border); vertical-align: middle;
+  }
+  tbody td:first-child { border-left: 1px solid var(--border); border-radius: 10px 0 0 10px; }
+  tbody td:last-child { border-right: 1px solid var(--border); border-radius: 0 10px 10px 0; }
+  tbody tr.active td { background: var(--accent-soft); }
+  .num { font-weight: 700; color: var(--accent); width: 32px; text-align: center; font-size: 20px; }
+  .img { font-size: 38px; width: 80px; text-align: center; }
+  .word { font-size: 29px; font-weight: 600; }
+  .pinyin { color: var(--muted); font-size: 18px; }
+  .split { color: var(--muted); font-size: 17px; }
+  .meaning { font-size: 20px; font-weight: 500; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 15px; text-align: center; }
+
+  /* 音節 chunk 底線(共用,所有 viewport)*/
+  .word { display: inline-flex; gap: 5px; align-items: baseline; }
+  .chunk {
+    display: inline-block;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .chunk:hover, .chunk:active { background: var(--accent-soft); }
+
+  /* 手機:極度緊湊(10 張塞一頁,不用滑) */
+  @media (max-width: 720px) {
+    body { font-size: 13px; padding: 6px 8px 12px; line-height: 1.4; }
+    h1, .subtitle { display: none; }
+    .topbar {
+      gap: 4px; padding: 3px 6px; margin-bottom: 3px;
+      flex-wrap: nowrap; overflow-x: auto;
+    }
+    .topbar label { font-size: 11px; }
+    .topbar select, .topbar button { font-size: 11px; padding: 3px 7px; border-radius: 5px; }
+    .voice-label { display: none; }
+    .hint { font-size: 10px; margin-bottom: 3px; padding: 0 2px; }
+    thead { display: none; }
+    table, tbody { display: block; width: 100%; }
+    tbody tr {
+      margin-bottom: 3px; border-radius: 6px;
+      border: 1px solid var(--border); padding: 5px 10px;
+      height: 58px;
+      display: grid;
+      grid-template-columns: 22px 44px 1fr auto;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        "num img wordline meaning"
+        "num img split    split";
+      column-gap: 5px; row-gap: 1px;
+      align-items: center;
+    }
+    tbody td { border: none; padding: 0; display: block; }
+    .num    { grid-area: num;     align-self: start; justify-self: start;
+              display: inline-block; width: auto; font-size: 11px; padding: 1px 5px;
+              background: var(--accent-soft); color: var(--accent); border-radius: 3px; }
+    .meaning{ grid-area: meaning; align-self: center; justify-self: end;
+              font-size: 12px; color: var(--muted); font-weight: 500; white-space: nowrap; }
+    .img    { grid-area: img;     font-size: 16px; text-align: left; align-self: center; line-height: 1;
+              white-space: nowrap; letter-spacing: 0; overflow: hidden; }
+    .word-cell { grid-area: wordline; align-self: center;
+                 display: flex; align-items: baseline; gap: 6px;
+                 flex-wrap: nowrap; min-width: 0; overflow: hidden; }
+    .word   { font-size: 16px; font-weight: 600; line-height: 1.1; gap: 4px; flex-shrink: 0; }
+    .chunk  { border-bottom-width: 1.5px; padding-bottom: 0; }
+    .pinyin { font-size: 10.5px; color: var(--muted); line-height: 1.2;
+              white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+    .split  { grid-area: split;   font-size: 10px; color: var(--muted);
+              align-self: start; line-height: 1.2; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>第 N 輪 — 主題(這裡寫課程焦點)</h1>
+  <div class="subtitle">YYYY-MM-DD · 10 個字 · 複習池子:列出此輪會出現的舊規則</div>
+
+  <div class="topbar">
+    <button class="primary" onclick="speakAll()">🔊 全部依序唸</button>
+    <button onclick="stopAll()">⏹ 停止</button>
+    <label>速度
+      <select id="rate" onchange="updateRate()">
+        <option value="0.6" selected>慢(初學者預設)</option>
+        <option value="0.75">正常</option>
+        <option value="0.9">較快</option>
+        <option value="1">原速</option>
+      </select>
+    </label>
+    <span id="voiceLabel" class="voice-label"></span>
+  </div>
+  <div class="hint">🔊 點卡片唸整字 · 點底線音節唸該段</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th><th>意思</th><th>圖</th><th>字 / 注音</th><th>拆法</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// 替換成本輪課程的單字。每筆欄位:
+//   n       — 編號(1, 2, 3...)
+//   mean    — 中文意思(短,2-4 字最佳)
+//   img     — emoji 圖像(1 個或 2 個並排,不要無關 emoji)
+//   word    — 英文字(小寫)
+//   chunks  — 音節拆法陣列,例 ["bed","time"];單音節字寫 [word] 即可
+//   py      — 注音諧音(腳手架用,不求 100% 準)
+//   split   — 拼讀塊文字說明,例 "bed (CVC) + time (silent-e)"
+// 一輪以 10 個為主(5-10 範圍),要混入「常駐拼讀池」舊規則複習
+// ─────────────────────────────────────────────────────────────
+const WORDS = [
+  { n:1, mean:"範例", img:"📦", word:"example", chunks:["ex","am","ple"], py:"ㄧㄍ-ㄗㄚㄇ-ㄆㄛ", split:"範例字,實際課程請覆蓋整個 WORDS 陣列" },
+];
+
+const tbody = document.getElementById("rows");
+WORDS.forEach(w => {
+  const tr = document.createElement("tr");
+  tr.id = "row-" + w.n;
+  tr.setAttribute("role", "button");
+  tr.setAttribute("aria-label", "唸 " + w.word);
+  tr.onclick = () => speakOne(w.n);
+  const wordInner = (w.chunks && w.chunks.length)
+    ? w.chunks.map(c => `<span class="chunk" onclick="speakChunk('${c}', event)">${c}</span>`).join('')
+    : w.word;
+  tr.innerHTML = `
+    <td class="num">${w.n}</td>
+    <td class="meaning">${w.mean}</td>
+    <td class="img">${w.img}</td>
+    <td class="word-cell"><span class="word">${wordInner}</span><span class="pinyin">${w.py}</span></td>
+    <td class="split">${w.split}</td>
+  `;
+  tbody.appendChild(tr);
+});
+
+let rate = 0.6;
+function updateRate() { rate = parseFloat(document.getElementById("rate").value); }
+
+// ── 系統 TTS 備援用 ────────────────────────────────────
+let chosenVoice = null;
+function pickBestVoice() {
+  const all = speechSynthesis.getVoices();
+  const en = all.filter(v => v.lang.startsWith("en"));
+  if (en.length === 0) return null;
+  const isEnhanced = v => /Enhanced|Premium|增強|高級|Neural|Natural|Siri/i.test(v.name);
+  const isFemale = v => /Sangeeta|Samantha|Ava|Allison|Susan|Karen|Tessa|Moira|Fiona|Veena|Zira|Aria|Jenny|Joanna|Salli|Kimberly|Kendra|Ivy|Emma|Amy|Nicole|Olivia|Catherine|Serena|Lana|female|女/i.test(v.name);
+  return en.find(x => isEnhanced(x) && isFemale(x))
+      || en.find(isFemale)
+      || en.find(isEnhanced)
+      || en[0];
+}
+function loadVoices() {
+  chosenVoice = pickBestVoice();
+  const label = document.getElementById("voiceLabel");
+  if (label && chosenVoice) label.textContent = "備援系統語音:" + chosenVoice.name;
+}
+loadVoices();
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+// ── 播音(純系統 TTS)─────────────────────────────────
+function speakOne(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
+  stopAll();
+  highlight(n);
+  const u = new SpeechSynthesisUtterance(w.word);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
+  u.onend = () => unhighlight(n);
+  speechSynthesis.speak(u);
+}
+function speakChunk(text, ev) {
+  if (ev) ev.stopPropagation();
+  stopAll();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
+  speechSynthesis.speak(u);
+}
+function speakAll() {
+  stopAll();
+  WORDS.forEach(w => {
+    const u = new SpeechSynthesisUtterance(w.word);
+    u.lang = "en-US"; u.rate = rate;
+    if (chosenVoice) u.voice = chosenVoice;
+    u.onstart = () => highlight(w.n);
+    u.onend = () => unhighlight(w.n);
+    speechSynthesis.speak(u);
+  });
+}
+function stopAll() {
+  speechSynthesis.cancel();
+  document.querySelectorAll("tr.active").forEach(tr => tr.classList.remove("active"));
+}
+function highlight(n) { document.getElementById("row-" + n)?.classList.add("active"); }
+function unhighlight(n) { document.getElementById("row-" + n)?.classList.remove("active"); }
+</script>
+</body>
+</html>
