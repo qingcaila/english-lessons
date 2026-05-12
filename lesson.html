@@ -109,6 +109,15 @@
   /* 注音顯示開關 */
   body.hide-pinyin .pinyin { display: none !important; }
   .toggle-btn.on { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+
+  /* NEW 標籤 — 未互動過的字 */
+  .meaning { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; }
+  .new-badge {
+    font-size: 9px; color: #c00; font-weight: 700;
+    background: #ffe5e5; padding: 0 4px; border-radius: 3px;
+    line-height: 1.5; display: none;
+  }
+  .new-badge.show { display: inline-block; }
 </style>
 </head>
 <body>
@@ -252,7 +261,10 @@ function render() {
       : `<span>${w.word}</span>`;
     tr.innerHTML = `
       <td class="num">${w.n}${w.isReview ? "🔁" : ""}</td>
-      <td class="meaning">${w.mean}</td>
+      <td class="meaning">
+        <span>${w.mean}</span>
+        <span class="new-badge" id="new-${w.n}">NEW</span>
+      </td>
       <td class="img">${w.img}</td>
       <td class="word-cell">
         <span class="word">${wordInner}</span>
@@ -268,6 +280,8 @@ function render() {
     tbody.appendChild(tr);
   });
   updateLessonInfo();
+  refreshAllNewBadges();
+  WORDS.forEach(w => updatePlayCount(w.n));
 }
 
 function updateLessonInfo() {
@@ -286,6 +300,28 @@ function updatePlayCount(n) {
   const ws = state.words[w.word];
   const el = document.getElementById("pc-" + n);
   if (el && ws) el.textContent = ws.playCount > 0 ? `🔊×${ws.playCount}` : "";
+  refreshNewBadge(n);
+}
+
+function wasInteractedWith(wordKey) {
+  const state = SRS.loadState();
+  const ws = state.words[wordKey];
+  if (!ws) return false;
+  if ((ws.playCount || 0) > 0) return true;
+  if ((ws.knewItCount || 0) > 0) return true;
+  if ((ws.forgotCount || 0) > 0) return true;
+  const chunkSum = Object.values(ws.chunkPlays || {}).reduce((a,b) => a+b, 0);
+  return chunkSum > 0;
+}
+
+function refreshNewBadge(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
+  const el = document.getElementById("new-" + n); if (!el) return;
+  el.classList.toggle("show", !wasInteractedWith(w.word));
+}
+
+function refreshAllNewBadges() {
+  WORDS.forEach(w => refreshNewBadge(w.n));
 }
 
 // ── 播音 ──────────────────────────────────────────────────
@@ -348,6 +384,7 @@ function markKnow(n) {
   tr.querySelectorAll(".btn-know").forEach(b => b.classList.add("on"));
   tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.remove("on"));
   w._marked = "know";
+  refreshNewBadge(n);
   maybeShowSummary();
 }
 function markForgot(n) {
@@ -360,6 +397,7 @@ function markForgot(n) {
   tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.add("on"));
   tr.querySelectorAll(".btn-know").forEach(b => b.classList.remove("on"));
   w._marked = "forgot";
+  refreshNewBadge(n);
   maybeShowSummary();
 }
 
