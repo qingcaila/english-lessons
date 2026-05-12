@@ -99,15 +99,15 @@
     table, tbody { display: block; width: 100%; }
     tbody tr {
       margin-bottom: 3px; border-radius: 6px;
-      border: 1px solid var(--border); padding: 4px 8px;
-      height: 56px;
+      border: 1px solid var(--border); padding: 5px 10px;
+      height: 58px;
       display: grid;
-      grid-template-columns: 24px 56px 1fr auto;
+      grid-template-columns: 22px 76px 1fr auto;
       grid-template-rows: auto auto;
       grid-template-areas:
         "num img wordline meaning"
         "num img split    split";
-      column-gap: 6px; row-gap: 1px;
+      column-gap: 10px; row-gap: 1px;
       align-items: center;
     }
     tbody td { border: none; padding: 0; display: block; }
@@ -115,15 +115,16 @@
               display: inline-block; width: auto; font-size: 11px; padding: 1px 5px;
               background: var(--accent-soft); color: var(--accent); border-radius: 3px; }
     .meaning{ grid-area: meaning; align-self: center; justify-self: end;
-              font-size: 12px; color: var(--muted); font-weight: 500; }
-    .img    { grid-area: img;     font-size: 22px; text-align: center; align-self: center; line-height: 1;
-              white-space: nowrap; letter-spacing: 1px; }
+              font-size: 12px; color: var(--muted); font-weight: 500; white-space: nowrap; }
+    .img    { grid-area: img;     font-size: 19px; text-align: center; align-self: center; line-height: 1;
+              white-space: nowrap; letter-spacing: 0; overflow: hidden; }
     .word-cell { grid-area: wordline; align-self: center;
-                 display: flex; align-items: baseline; gap: 8px;
-                 flex-wrap: nowrap; min-width: 0; }
-    .word   { font-size: 17px; font-weight: 600; line-height: 1.1; gap: 4px; }
+                 display: flex; align-items: baseline; gap: 6px;
+                 flex-wrap: nowrap; min-width: 0; overflow: hidden; }
+    .word   { font-size: 16px; font-weight: 600; line-height: 1.1; gap: 4px; flex-shrink: 0; }
     .chunk  { border-bottom-width: 1.5px; padding-bottom: 0; }
-    .pinyin { font-size: 11px; color: var(--muted); line-height: 1.2; flex-shrink: 0; }
+    .pinyin { font-size: 10.5px; color: var(--muted); line-height: 1.2;
+              white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
     .split  { grid-area: split;   font-size: 10px; color: var(--muted);
               align-self: start; line-height: 1.2; }
   }
