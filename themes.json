@@ -1,92 +1,94 @@
 {
+  "categories": [
+    {"id":"daily","name":"日常生活","icon":"🏡","order":1},
+    {"id":"actions-feelings","name":"動作與情緒","icon":"🎭","order":2},
+    {"id":"people-jobs","name":"人物與職業","icon":"👥","order":3},
+    {"id":"entertainment","name":"娛樂與興趣","icon":"🎨","order":4},
+    {"id":"social","name":"社會與生活","icon":"🏙️","order":5},
+    {"id":"health","name":"健康與身體","icon":"💊","order":6},
+    {"id":"tech-media","name":"科技與媒體","icon":"💻","order":7},
+    {"id":"business","name":"商業與經濟","icon":"💼","order":8},
+    {"id":"academic","name":"學術與抽象","icon":"📚","order":9},
+    {"id":"special","name":"特別","icon":"⭐","order":10}
+  ],
   "themes": [
-    {
-      "id": "numbers",
-      "name": "數字",
-      "icon": "🔢",
-      "stage": 0,
-      "frequencyRank": 1,
-      "description": "1-20 + ten/hundred/thousand 等基本數量詞"
-    },
-    {
-      "id": "time",
-      "name": "時間",
-      "icon": "🕐",
-      "stage": 0,
-      "frequencyRank": 2,
-      "description": "天 / 月 / 季節 / 早晚 / now/today/tomorrow"
-    },
-    {
-      "id": "family",
-      "name": "家庭",
-      "icon": "👨‍👩‍👧",
-      "stage": 0,
-      "frequencyRank": 3,
-      "description": "家人關係 / 朋友 / 人稱代名詞"
-    },
-    {
-      "id": "body",
-      "name": "身體",
-      "icon": "🦵",
-      "stage": 0,
-      "frequencyRank": 4,
-      "description": "身體部位 / 五官 / 感覺"
-    },
-    {
-      "id": "colors",
-      "name": "顏色",
-      "icon": "🎨",
-      "stage": 0,
-      "frequencyRank": 5,
-      "description": "11 個基本顏色"
-    },
-    {
-      "id": "food",
-      "name": "食物",
-      "icon": "🍎",
-      "stage": 0,
-      "frequencyRank": 6,
-      "description": "水果 / 蔬菜 / 主食 / 飲料"
-    },
-    {
-      "id": "animals",
-      "name": "動物",
-      "icon": "🐶",
-      "stage": 0,
-      "frequencyRank": 7,
-      "description": "寵物 / 農場 / 野生動物"
-    },
-    {
-      "id": "clothing",
-      "name": "衣服",
-      "icon": "👕",
-      "stage": 0,
-      "frequencyRank": 8,
-      "description": "衣物 / 配件 / 鞋類"
-    },
-    {
-      "id": "weather",
-      "name": "天氣",
-      "icon": "☁️",
-      "stage": 0,
-      "frequencyRank": 9,
-      "description": "晴雨風雪 + 冷熱"
-    },
-    {
-      "id": "places",
-      "name": "場所",
-      "icon": "🏠",
-      "stage": 0,
-      "frequencyRank": 10,
-      "description": "家中房間 / 街道場所"
-    },
-    {
-      "id": "phonics-compound",
-      "name": "拆字唸(複合字)",
-      "icon": "🔗",
-      "stage": 0,
-      "frequencyRank": 0,
-      "description": "由已學 phonics 規則組合的複合字(已上第一輪)"
-    }
+
+    {"id":"numbers","name":"數字","icon":"🔢","category":"daily","stage":0,"frequencyRank":1,"description":"1-20 + 基本數量詞"},
+    {"id":"time","name":"時間","icon":"🕐","category":"daily","stage":0,"frequencyRank":2,"description":"天 / 月 / 季節 / 早晚"},
+    {"id":"family","name":"家庭","icon":"👨‍👩‍👧","category":"daily","stage":0,"frequencyRank":3,"description":"家人 / 朋友 / 人稱"},
+    {"id":"body","name":"身體","icon":"🦵","category":"daily","stage":0,"frequencyRank":4,"description":"身體部位 / 五官"},
+    {"id":"colors","name":"顏色","icon":"🎨","category":"daily","stage":0,"frequencyRank":5,"description":"11 個基本顏色"},
+    {"id":"food","name":"食物","icon":"🍎","category":"daily","stage":0,"frequencyRank":6,"description":"水果 / 蔬菜 / 主食"},
+    {"id":"animals","name":"動物","icon":"🐶","category":"daily","stage":0,"frequencyRank":7,"description":"寵物 / 農場 / 野生"},
+    {"id":"clothing","name":"衣服","icon":"👕","category":"daily","stage":0,"frequencyRank":8,"description":"衣物 / 配件 / 鞋類"},
+    {"id":"weather","name":"天氣","icon":"☁️","category":"daily","stage":0,"frequencyRank":9,"description":"晴雨風雪 / 冷熱"},
+    {"id":"places","name":"場所","icon":"🏠","category":"daily","stage":0,"frequencyRank":10,"description":"家 / 街道 / 公共場所"},
+    {"id":"transportation","name":"交通","icon":"🚗","category":"daily","stage":0,"frequencyRank":11,"description":"汽車 / 火車 / 飛機 / 船"},
+    {"id":"school","name":"學校","icon":"📚","category":"daily","stage":0,"frequencyRank":12,"description":"學校用品 / 教室"},
+    {"id":"home-items","name":"家具","icon":"🛋️","category":"daily","stage":0,"frequencyRank":13,"description":"家中物品 / 房間擺設"},
+    {"id":"nature","name":"自然","icon":"🌳","category":"daily","stage":0,"frequencyRank":14,"description":"樹 / 花 / 山 / 河 / 星空"},
+    {"id":"kitchen-utensils","name":"廚房用具","icon":"🍴","category":"daily","stage":1,"frequencyRank":15,"description":"刀叉湯匙鍋碗"},
+    {"id":"bathroom","name":"浴室","icon":"🚿","category":"daily","stage":1,"frequencyRank":16,"description":"浴室用品"},
+    {"id":"fruits","name":"水果","icon":"🍇","category":"daily","stage":1,"frequencyRank":17,"description":"各種水果詳細"},
+    {"id":"vegetables","name":"蔬菜","icon":"🥕","category":"daily","stage":1,"frequencyRank":18,"description":"各種蔬菜詳細"},
+    {"id":"drinks","name":"飲料","icon":"🥤","category":"daily","stage":1,"frequencyRank":19,"description":"水 / 咖啡 / 茶 / 果汁 / 酒"},
+    {"id":"desserts","name":"甜點","icon":"🍪","category":"daily","stage":1,"frequencyRank":20,"description":"餅乾 / 糖果 / 冰淇淋"},
+    {"id":"shapes","name":"形狀","icon":"⬜","category":"daily","stage":1,"frequencyRank":21,"description":"圓 / 方 / 三角 / 多邊形"},
+    {"id":"directions","name":"方位介系詞","icon":"🧭","category":"daily","stage":1,"frequencyRank":22,"description":"上下左右前後 / in/on/under"},
+
+    {"id":"actions","name":"動作","icon":"🏃","category":"actions-feelings","stage":0,"frequencyRank":23,"description":"跑跳走站睡吃喝讀寫"},
+    {"id":"adjectives","name":"形容詞","icon":"⚖️","category":"actions-feelings","stage":0,"frequencyRank":24,"description":"大小高低快慢新舊"},
+    {"id":"emotions","name":"情緒","icon":"😊","category":"actions-feelings","stage":0,"frequencyRank":25,"description":"開心難過生氣害怕等"},
+    {"id":"personality","name":"性格","icon":"🤔","category":"actions-feelings","stage":2,"frequencyRank":26,"description":"善良 / 勇敢 / 聰明 / 內向"},
+    {"id":"relationships","name":"關係","icon":"💞","category":"actions-feelings","stage":2,"frequencyRank":27,"description":"愛情 / 友誼 / 同事"},
+
+    {"id":"jobs","name":"職業","icon":"👨‍⚕️","category":"people-jobs","stage":0,"frequencyRank":28,"description":"基本職業"},
+    {"id":"jobs-advanced","name":"進階職業","icon":"🧑‍💼","category":"people-jobs","stage":2,"frequencyRank":29,"description":"工程師 / 律師 / 會計 / 設計"},
+    {"id":"appearance","name":"外貌","icon":"💁","category":"people-jobs","stage":1,"frequencyRank":30,"description":"高矮胖瘦 / 髮型 / 膚色"},
+
+    {"id":"sports","name":"運動","icon":"⚽","category":"entertainment","stage":0,"frequencyRank":31,"description":"球類 / 游泳 / 跳舞"},
+    {"id":"music","name":"音樂","icon":"🎵","category":"entertainment","stage":0,"frequencyRank":32,"description":"樂器 / 唱歌"},
+    {"id":"toys","name":"玩具","icon":"🧸","category":"entertainment","stage":0,"frequencyRank":33,"description":"娃娃 / 球 / 拼圖"},
+    {"id":"art","name":"藝術","icon":"🎨","category":"entertainment","stage":3,"frequencyRank":34,"description":"繪畫 / 雕塑 / 攝影"},
+    {"id":"hobbies","name":"興趣","icon":"🎮","category":"entertainment","stage":1,"frequencyRank":35,"description":"閱讀 / 烹飪 / 園藝 / 收藏"},
+    {"id":"games","name":"遊戲","icon":"🎲","category":"entertainment","stage":1,"frequencyRank":36,"description":"電玩 / 桌遊 / 撲克"},
+    {"id":"movies-tv","name":"影視","icon":"🎬","category":"entertainment","stage":2,"frequencyRank":37,"description":"電影 / 電視 / 影集"},
+
+    {"id":"travel","name":"旅行","icon":"✈️","category":"social","stage":1,"frequencyRank":38,"description":"機場 / 飯店 / 行李 / 護照"},
+    {"id":"shopping","name":"購物","icon":"🛒","category":"social","stage":1,"frequencyRank":39,"description":"超市 / 結帳 / 商品"},
+    {"id":"restaurant","name":"餐廳","icon":"🍽️","category":"social","stage":1,"frequencyRank":40,"description":"點餐 / 菜單 / 帳單"},
+    {"id":"money","name":"金錢","icon":"💰","category":"social","stage":1,"frequencyRank":41,"description":"鈔票 / 銀行 / 借貸"},
+    {"id":"emergencies","name":"緊急","icon":"🚨","category":"social","stage":2,"frequencyRank":42,"description":"火災 / 救護 / 警察 / 災難"},
+    {"id":"events","name":"活動慶典","icon":"🎉","category":"social","stage":2,"frequencyRank":43,"description":"生日 / 婚禮 / 節日"},
+    {"id":"environment","name":"環境","icon":"🌍","category":"social","stage":3,"frequencyRank":44,"description":"汙染 / 回收 / 永續"},
+    {"id":"crime","name":"犯罪","icon":"⚖️","category":"social","stage":3,"frequencyRank":45,"description":"偷竊 / 罪犯 / 法庭"},
+
+    {"id":"health","name":"健康","icon":"💊","category":"health","stage":1,"frequencyRank":46,"description":"症狀 / 藥物 / 醫院"},
+    {"id":"medical","name":"醫療","icon":"🏥","category":"health","stage":2,"frequencyRank":47,"description":"診斷 / 手術 / 科別"},
+    {"id":"fitness","name":"健身","icon":"💪","category":"health","stage":2,"frequencyRank":48,"description":"運動 / 飲食 / 養生"},
+    {"id":"diseases","name":"疾病","icon":"🦠","category":"health","stage":3,"frequencyRank":49,"description":"感冒 / 慢性病 / 流行病"},
+
+    {"id":"technology","name":"科技","icon":"💻","category":"tech-media","stage":2,"frequencyRank":50,"description":"電腦 / 手機 / 軟體 / AI"},
+    {"id":"internet","name":"網路","icon":"🌐","category":"tech-media","stage":2,"frequencyRank":51,"description":"網站 / 社群 / 影音 / 帳號"},
+    {"id":"media","name":"媒體","icon":"📰","category":"tech-media","stage":3,"frequencyRank":52,"description":"新聞 / 廣告 / 報導"},
+
+    {"id":"office","name":"辦公室","icon":"🏢","category":"business","stage":2,"frequencyRank":53,"description":"會議 / 文書 / 主管"},
+    {"id":"business","name":"商業","icon":"💼","category":"business","stage":3,"frequencyRank":54,"description":"投資 / 行銷 / 業務"},
+    {"id":"economy","name":"經濟","icon":"📈","category":"business","stage":3,"frequencyRank":55,"description":"通膨 / 失業 / 股市"},
+
+    {"id":"science","name":"科學","icon":"🔬","category":"academic","stage":3,"frequencyRank":56,"description":"實驗 / 理論 / 研究"},
+    {"id":"history","name":"歷史","icon":"📜","category":"academic","stage":3,"frequencyRank":57,"description":"年代 / 戰爭 / 朝代"},
+    {"id":"geography","name":"地理","icon":"🗺️","category":"academic","stage":3,"frequencyRank":58,"description":"國家 / 大陸 / 地形"},
+    {"id":"politics","name":"政治","icon":"🏛️","category":"academic","stage":4,"frequencyRank":59,"description":"政府 / 選舉 / 政黨"},
+    {"id":"law","name":"法律","icon":"⚖️","category":"academic","stage":4,"frequencyRank":60,"description":"法條 / 法官 / 律師"},
+    {"id":"religion","name":"宗教","icon":"🛐","category":"academic","stage":4,"frequencyRank":61,"description":"信仰 / 教派 / 儀式"},
+    {"id":"philosophy","name":"哲學","icon":"💭","category":"academic","stage":4,"frequencyRank":62,"description":"思想 / 邏輯 / 倫理"},
+    {"id":"literature","name":"文學","icon":"📖","category":"academic","stage":4,"frequencyRank":63,"description":"小說 / 詩 / 修辭"},
+    {"id":"academic-words","name":"學術詞","icon":"🎓","category":"academic","stage":4,"frequencyRank":64,"description":"AWL 學術字彙"},
+
+    {"id":"phonics-compound","name":"複合字","icon":"🔗","category":"special","stage":0,"frequencyRank":0,"description":"已學 phonics 組合的複合字"},
+    {"id":"sight-words","name":"高頻字","icon":"⭐","category":"special","stage":0,"frequencyRank":-1,"description":"the / and / is 等不照規則的高頻字"},
+    {"id":"idioms","name":"成語慣用語","icon":"💬","category":"special","stage":3,"frequencyRank":-2,"description":"piece of cake 等"}
+
   ]
 }

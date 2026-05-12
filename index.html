@@ -65,17 +65,31 @@
   .theme-pick {
     display: none; margin-top: 8px; padding-top: 8px;
     border-top: 1px dashed var(--border);
+    max-height: 320px; overflow-y: auto;
   }
   .theme-pick.on { display: block; }
-  .theme-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 6px; }
+  details.cat { margin-top: 4px; border: 1px solid var(--border); border-radius: 6px; }
+  details.cat > summary {
+    padding: 6px 8px; font-size: 12px; cursor: pointer; user-select: none;
+    background: #fdf8f3; border-radius: 6px;
+  }
+  details.cat[open] > summary { border-bottom: 1px solid var(--border); border-radius: 6px 6px 0 0; }
+  .theme-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 6px; }
   .theme-tile {
-    padding: 8px 4px; background: #fff; border: 1px solid var(--border);
-    border-radius: 6px; cursor: pointer; text-align: center;
-    font-family: inherit; font-size: 12px;
+    padding: 4px 2px; background: #fff; border: 1px solid var(--border);
+    border-radius: 4px; cursor: pointer; text-align: center;
+    font-family: inherit; font-size: 10px; position: relative;
   }
   .theme-tile:hover { background: var(--accent-soft); }
-  .theme-tile .ti { font-size: 22px; display: block; }
-  .theme-tile .tn { font-size: 11px; margin-top: 2px; }
+  .theme-tile.locked { opacity: .4; cursor: not-allowed; }
+  .theme-tile .ti { font-size: 16px; display: block; line-height: 1.1; }
+  .theme-tile .tn { font-size: 9.5px; margin-top: 1px; line-height: 1.1; }
+  .theme-tile .stg {
+    position: absolute; top: -5px; right: -3px;
+    background: var(--accent); color: #fff; font-size: 8px;
+    padding: 0 3px; border-radius: 2px; line-height: 1.4;
+  }
+  .theme-tile.locked .stg { background: var(--muted); }
 
   .go {
     width: 100%; padding: 12px; margin-top: 10px;
@@ -160,8 +174,8 @@
     </div>
 
     <div class="theme-pick" id="themePick">
-      <div style="font-size:12px;color:var(--muted);">選一個主題:</div>
-      <div class="theme-grid" id="themeGrid"></div>
+      <div style="font-size:12px;color:var(--muted);margin-bottom:4px;">選一個主題(灰色=尚未開放或無單字):</div>
+      <div id="themeGrid"></div>
     </div>
 
     <div class="settings">
@@ -316,16 +330,40 @@ function selectMode(mode) {
 }
 
 function renderThemes() {
-  const grid = document.getElementById("themeGrid");
+  const container = document.getElementById("themeGrid");
   const state = SRS.loadState();
   const stage = state.stats.currentStage || 0;
-  const available = THEMES.themes.filter(t => t.stage <= stage);
-  grid.innerHTML = available.map(t => `
-    <button class="theme-tile" data-theme="${t.id}" onclick="selectTheme('${t.id}')">
-      <span class="ti">${t.icon}</span>
-      <span class="tn">${t.name}</span>
-    </button>
-  `).join("");
+  const cats = (THEMES.categories || []).sort((a,b) => a.order - b.order);
+  // 字數統計(每主題已有多少字)
+  const themeWordCount = {};
+  VOCAB.words.forEach(w => { themeWordCount[w.theme] = (themeWordCount[w.theme] || 0) + 1; });
+
+  container.innerHTML = cats.map(c => {
+    const themesInCat = THEMES.themes
+      .filter(t => t.category === c.id)
+      .sort((a,b) => a.frequencyRank - b.frequencyRank);
+    if (themesInCat.length === 0) return "";
+    const tiles = themesInCat.map(t => {
+      const locked = t.stage > stage;
+      const noContent = (themeWordCount[t.id] || 0) === 0;
+      const cls = `theme-tile${locked || noContent ? " locked" : ""}`;
+      const onclick = (locked || noContent)
+        ? `alert('${locked ? `此主題在 Stage ${t.stage},先升級才能選` : "此主題尚未有單字,等 AI 補充"}')`
+        : `selectTheme('${t.id}')`;
+      return `
+        <button class="${cls}" data-theme="${t.id}" onclick="${onclick}">
+          <span class="stg">S${t.stage}</span>
+          <span class="ti">${t.icon}</span>
+          <span class="tn">${t.name}</span>
+        </button>`;
+    }).join("");
+    const isCurrentStageCat = themesInCat.some(t => t.stage <= stage);
+    return `
+      <details class="cat"${isCurrentStageCat ? " open" : ""}>
+        <summary>${c.icon} ${c.name} (${themesInCat.length})</summary>
+        <div class="theme-grid">${tiles}</div>
+      </details>`;
+  }).join("");
 }
 function selectTheme(themeId) {
   selectedTheme = themeId;
