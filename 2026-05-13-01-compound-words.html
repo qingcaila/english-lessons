@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>2026-05-13 第一輪 — 複合字拆字唸</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --card: #fff;
+    --ink: #2a2a2a;
+    --muted: #6b6b6b;
+    --accent: #c4633f;
+    --accent-soft: #f3dfd4;
+    --border: #e5dfd2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    margin: 0;
+    padding: 24px 16px 80px;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); margin-bottom: 20px; font-size: 14px; }
+  .topbar {
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+    margin-bottom: 24px; padding: 14px 16px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .topbar label { font-size: 14px; color: var(--muted); }
+  .topbar select, .topbar button {
+    font-size: 14px; padding: 8px 14px; border-radius: 8px;
+    border: 1px solid var(--border); background: #fff; cursor: pointer;
+    font-family: inherit;
+  }
+  .topbar button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .topbar button:hover { background: var(--accent-soft); }
+  .topbar button.primary:hover { background: #a8512f; }
+  table { width: 100%; border-collapse: separate; border-spacing: 0 8px; }
+  thead th {
+    text-align: left; font-size: 13px; color: var(--muted);
+    font-weight: 500; padding: 4px 12px;
+  }
+  tbody tr {
+    background: var(--card); border: 1px solid var(--border);
+  }
+  tbody td {
+    padding: 14px 12px; border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border); vertical-align: middle;
+  }
+  tbody td:first-child { border-left: 1px solid var(--border); border-radius: 10px 0 0 10px; }
+  tbody td:last-child { border-right: 1px solid var(--border); border-radius: 0 10px 10px 0; }
+  tbody tr.active td { background: var(--accent-soft); }
+  .num { font-weight: 600; color: var(--accent); width: 32px; text-align: center; }
+  .img { font-size: 28px; width: 80px; text-align: center; }
+  .word { font-size: 22px; font-weight: 600; }
+  .pinyin { color: var(--muted); font-size: 14px; }
+  .split { color: var(--muted); font-size: 13px; }
+  .meaning { font-size: 15px; }
+  button.speak {
+    font-size: 18px; background: #fff; border: 1px solid var(--border);
+    border-radius: 50%; width: 38px; height: 38px; cursor: pointer; padding: 0;
+  }
+  button.speak:hover { background: var(--accent-soft); }
+  footer { margin-top: 32px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>第一輪 — 複合字拆字唸(全部用舊規則組合)</h1>
+  <div class="subtitle">2026-05-13 · 8 個字 · 複習池子:CVC · silent-e · sh · oo · ee · ai · oa</div>
+
+  <div class="topbar">
+    <button class="primary" onclick="speakAll()">🔊 全部依序唸</button>
+    <button onclick="stopAll()">⏹ 停止</button>
+    <label>速度
+      <select id="rate" onchange="updateRate()">
+        <option value="0.6">慢</option>
+        <option value="0.75" selected>正常(學習者用)</option>
+        <option value="0.9">較快</option>
+        <option value="1">原速</option>
+      </select>
+    </label>
+    <label>聲音
+      <select id="voice"></select>
+    </label>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th><th>意思</th><th>圖</th><th>字</th><th>注音</th><th>拆法</th><th>唸</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <footer>用瀏覽器內建語音合成。第一次按可能要等 1 秒載入聲音。</footer>
+</div>
+
+<script>
+const WORDS = [
+  { n:1, mean:"就寢時間", img:"🛏️🕘", word:"bedtime",    py:"ㄅㄝㄉ-ㄊㄞㄇ",   split:"bed (CVC) + time (silent-e)" },
+  { n:2, mean:"帆船",     img:"⛵",     word:"sailboat",   py:"ㄙㄟㄛ-ㄅㄡㄊ",   split:"sail (ai) + boat (oa)" },
+  { n:3, mean:"樹頂",     img:"🌳🔝",   word:"treetop",    py:"ㄔㄦㄧ-ㄊㄚㄆ",   split:"tree (ee) + top (CVC)" },
+  { n:4, mean:"雨滴",     img:"🌧️💧",  word:"raindrop",   py:"ㄖㄟㄣ-ㄉㄖㄚㄆ", split:"rain (ai) + drop (CVC)" },
+  { n:5, mean:"牙刷",     img:"🦷🪥",  word:"toothbrush", py:"ㄊㄨㄙ-ㄅㄖㄚㄒ", split:"tooth (oo) + brush (sh+CVC)" },
+  { n:6, mean:"鬆餅",     img:"🥞",    word:"pancake",    py:"ㄆㄢ-ㄎㄟㄎ",     split:"pan (CVC) + cake (silent-e)" },
+  { n:7, mean:"陽光",     img:"☀️",    word:"sunshine",   py:"ㄙㄢ-ㄒㄞㄣ",     split:"sun (CVC) + shine (sh+silent-e)" },
+  { n:8, mean:"週末",     img:"📅",    word:"weekend",    py:"ㄨㄧ-ㄎㄝㄣㄉ",   split:"week (ee) + end (CVC)" },
+];
+
+const tbody = document.getElementById("rows");
+WORDS.forEach(w => {
+  const tr = document.createElement("tr");
+  tr.id = "row-" + w.n;
+  tr.innerHTML = `
+    <td class="num">${w.n}</td>
+    <td class="meaning">${w.mean}</td>
+    <td class="img">${w.img}</td>
+    <td><div class="word">${w.word}</div><div class="pinyin">${w.py}</div></td>
+    <td class="pinyin">${w.py}</td>
+    <td class="split">${w.split}</td>
+    <td><button class="speak" onclick="speakOne(${w.n})" aria-label="唸 ${w.word}">🔊</button></td>
+  `;
+  tbody.appendChild(tr);
+});
+
+let rate = 0.75;
+function updateRate() { rate = parseFloat(document.getElementById("rate").value); }
+
+let voices = [];
+let chosenVoice = null;
+function loadVoices() {
+  voices = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
+  const sel = document.getElementById("voice");
+  sel.innerHTML = "";
+  voices.forEach((v, i) => {
+    const opt = document.createElement("option");
+    opt.value = i; opt.textContent = `${v.name} (${v.lang})`;
+    sel.appendChild(opt);
+  });
+  // prefer en-US, female-sounding if available
+  const preferred = voices.findIndex(v => /en-US/i.test(v.lang) && /Zira|Aria|Jenny|female/i.test(v.name));
+  sel.selectedIndex = preferred >= 0 ? preferred : 0;
+  chosenVoice = voices[sel.selectedIndex];
+  sel.onchange = () => { chosenVoice = voices[sel.selectedIndex]; };
+}
+loadVoices();
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+function speakOne(n) {
+  stopAll();
+  const w = WORDS.find(x => x.n === n);
+  highlight(n);
+  const u = new SpeechSynthesisUtterance(w.word);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
+  u.onend = () => unhighlight(n);
+  speechSynthesis.speak(u);
+}
+
+function speakAll() {
+  stopAll();
+  WORDS.forEach((w, i) => {
+    const u = new SpeechSynthesisUtterance(w.word);
+    u.lang = "en-US"; u.rate = rate;
+    if (chosenVoice) u.voice = chosenVoice;
+    u.onstart = () => highlight(w.n);
+    u.onend = () => unhighlight(w.n);
+    speechSynthesis.speak(u);
+  });
+}
+
+function stopAll() {
+  speechSynthesis.cancel();
+  document.querySelectorAll("tr.active").forEach(tr => tr.classList.remove("active"));
+}
+function highlight(n) { document.getElementById("row-" + n)?.classList.add("active"); }
+function unhighlight(n) { document.getElementById("row-" + n)?.classList.remove("active"); }
+</script>
+</body>
+</html>
