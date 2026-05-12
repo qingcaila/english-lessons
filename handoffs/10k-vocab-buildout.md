@@ -241,7 +241,7 @@ git push
 - [x] **A1**(+271 / 累計 1,012)numbers 81 / time 80 / colors 55 / animals 100 — 全部超標完成
 - [x] **A2**(+239 / 累計 1,251)clothing 54 / weather 60 / food 65 / school 55 / home-items 60 — 全部達標
 - [x] **A3**(+224 / 累計 1,475)jobs 55 / sports 54 / music 55 / nature 55 / phonics-compound 55 — 全達標
-- [ ] **A4**(+~350 / 累計 ~2,100)sight-words 推到 250(Fry 第二段)
+- [x] **A4**(+146 / 累計 1,621)sight-words 推到 251 — Fry 第二段完成
 
 ### Stage B:Stage 1-2 廣度鋪開(2,100 → 4,200)
 - [ ] **B1**(+~350 / 累計 ~2,450)family / body / emotions / actions 各推到 100

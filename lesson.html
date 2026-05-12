@@ -20,17 +20,41 @@
   .wrap { max-width: 960px; margin: 0 auto; }
 
   .topbar {
-    display: flex; gap: 4px; align-items: center; flex-wrap: nowrap; overflow-x: auto;
-    padding: 4px 6px; margin-bottom: 4px;
+    display: flex; gap: 6px; align-items: center;
+    padding: 6px 8px; margin-bottom: 4px;
     background: var(--card); border: 1px solid var(--border); border-radius: 8px;
   }
-  .topbar label { font-size: 11px; color: var(--muted); }
+  .topbar label { font-size: 11px; color: var(--muted); display: flex; align-items: center; gap: 3px; }
   .topbar select, .topbar button {
-    font-size: 11px; padding: 4px 8px; border-radius: 5px;
+    font-size: 12px; padding: 5px 9px; border-radius: 5px;
     border: 1px solid var(--border); background: #fff; cursor: pointer; font-family: inherit;
+    white-space: nowrap;
   }
+  .topbar select { padding: 4px 4px; }
   .topbar button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .topbar a.home { font-size: 11px; color: var(--muted); text-decoration: none; padding: 4px 6px; }
+  .topbar a.home {
+    font-size: 16px; color: var(--muted); text-decoration: none;
+    padding: 4px 8px; line-height: 1;
+    border: 1px solid var(--border); border-radius: 5px; background: #fff;
+  }
+  .topbar a.home:hover { background: var(--accent-soft); color: var(--accent); }
+  .topbar .spacer { flex: 1; }
+  .topbar .finish {
+    background: var(--accent-soft); color: var(--accent);
+    border: 1px solid var(--accent); font-weight: 600;
+  }
+  .topbar .finish:hover { background: var(--accent); color: #fff; }
+
+  /* lesson info 獨立一行,避免擠 */
+  .lesson-info {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    font-size: 10.5px; color: var(--muted);
+    padding: 0 6px; margin-bottom: 6px;
+    line-height: 1.4;
+  }
+  .lesson-info .chip {
+    background: #fdf8f3; padding: 1px 6px; border-radius: 3px;
+  }
 
   .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; color: var(--muted); }
 
@@ -141,10 +165,10 @@
 <body>
 <div class="wrap">
   <div class="topbar">
-    <a class="home" href="index.html">← 首頁</a>
-    <button class="primary" onclick="speakAll()">🔊 全部</button>
-    <button onclick="stopAll()">⏹</button>
-    <label>速度
+    <a class="home" href="index.html" title="回首頁">←</a>
+    <button class="primary" onclick="speakAll()" title="全部依序唸">🔊</button>
+    <button onclick="stopAll()" title="停止">⏹</button>
+    <label>
       <select id="rate" onchange="updateRate()">
         <option value="0.6" selected>慢</option>
         <option value="0.75">正常</option>
@@ -153,10 +177,11 @@
       </select>
     </label>
     <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
-    <button id="finishBtn" onclick="forceShowSummary()" style="background:#fff;color:var(--accent);border:1px solid var(--accent);font-weight:600;">結束本輪 →</button>
-    <span id="lessonInfo" style="font-size:11px;color:var(--muted);margin-left:auto;"></span>
+    <span class="spacer"></span>
+    <button class="finish" id="finishBtn" onclick="forceShowSummary()">結束 →</button>
   </div>
-  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 唸完按 ✅會 或 ❌不會</div>
+  <div class="lesson-info" id="lessonInfo"></div>
+  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌</div>
 
   <table><tbody id="rows"><tr><td><div class="loading">載入中...</div></td></tr></tbody></table>
 
@@ -308,8 +333,14 @@ function updateLessonInfo() {
   const newN = WORDS.length - reviewN;
   const total = SRS.totalLearned();
   const l4 = SRS.l4Count();
-  document.getElementById("lessonInfo").textContent =
-    `${currentRound} · ${mode} · 🔁${reviewN}+🆕${newN} · 累計 ${total} · L4 ${l4}`;
+  document.getElementById("lessonInfo").innerHTML = `
+    <span class="chip">${currentRound}</span>
+    <span class="chip">${mode}</span>
+    <span class="chip">🔁 ${reviewN} 複習</span>
+    <span class="chip">🆕 ${newN} 新字</span>
+    <span class="chip">累計 ${total}</span>
+    <span class="chip">L4 ${l4}</span>
+  `;
 }
 
 function updatePlayCount(n) {
