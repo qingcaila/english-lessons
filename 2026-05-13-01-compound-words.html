@@ -73,32 +73,41 @@
   .meaning { font-size: 20px; font-weight: 500; }
   footer { margin-top: 32px; color: var(--muted); font-size: 15px; text-align: center; }
 
+  /* 音節 chunk 底線(共用,所有 viewport)*/
+  .word { display: inline-flex; gap: 5px; align-items: baseline; }
+  .chunk {
+    display: inline-block;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .chunk:hover, .chunk:active { background: var(--accent-soft); }
+
   /* 手機:極度緊湊(10 張塞一頁,不用滑) */
   @media (max-width: 720px) {
-    body { font-size: 13px; padding: 6px 8px 20px; line-height: 1.4; }
-    h1, .subtitle { display: none; }                       /* 標題隱藏,空間給卡片 */
+    body { font-size: 13px; padding: 6px 8px 12px; line-height: 1.4; }
+    h1, .subtitle { display: none; }
     .topbar {
-      gap: 4px; padding: 4px 6px; margin-bottom: 4px;
+      gap: 4px; padding: 3px 6px; margin-bottom: 3px;
       flex-wrap: nowrap; overflow-x: auto;
     }
     .topbar label { font-size: 11px; }
     .topbar select, .topbar button { font-size: 11px; padding: 3px 7px; border-radius: 5px; }
-    .voice-label { display: none; }                        /* 手機隱藏,系統設定就好 */
-    .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; }
+    .voice-label { display: none; }
+    .hint { font-size: 10px; margin-bottom: 3px; padding: 0 2px; }
     thead { display: none; }
     table, tbody { display: block; width: 100%; }
     tbody tr {
       margin-bottom: 3px; border-radius: 6px;
       border: 1px solid var(--border); padding: 4px 8px;
-      height: 64px;
+      height: 56px;
       display: grid;
-      grid-template-columns: 26px 58px 1fr auto;
-      grid-template-rows: auto auto auto;
+      grid-template-columns: 24px 56px 1fr auto;
+      grid-template-rows: auto auto;
       grid-template-areas:
-        "num img word    meaning"
-        "num img pinyin  pinyin"
-        "num img split   split";
-      column-gap: 6px; row-gap: 0;
+        "num img wordline meaning"
+        "num img split    split";
+      column-gap: 6px; row-gap: 1px;
       align-items: center;
     }
     tbody td { border: none; padding: 0; display: block; }
@@ -109,10 +118,12 @@
               font-size: 12px; color: var(--muted); font-weight: 500; }
     .img    { grid-area: img;     font-size: 22px; text-align: center; align-self: center; line-height: 1;
               white-space: nowrap; letter-spacing: 1px; }
-    .word-cell { grid-area: word; align-self: end; }
-    .word   { font-size: 17px; font-weight: 600; line-height: 1.1; }
-    .pinyin { grid-area: pinyin;  font-size: 11px; color: var(--muted);
-              align-self: center; line-height: 1.2; }
+    .word-cell { grid-area: wordline; align-self: center;
+                 display: flex; align-items: baseline; gap: 8px;
+                 flex-wrap: nowrap; min-width: 0; }
+    .word   { font-size: 17px; font-weight: 600; line-height: 1.1; gap: 4px; }
+    .chunk  { border-bottom-width: 1.5px; padding-bottom: 0; }
+    .pinyin { font-size: 11px; color: var(--muted); line-height: 1.2; flex-shrink: 0; }
     .split  { grid-area: split;   font-size: 10px; color: var(--muted);
               align-self: start; line-height: 1.2; }
   }
@@ -136,32 +147,30 @@
     </label>
     <span id="voiceLabel" class="voice-label"></span>
   </div>
-  <div class="hint">🔊 點任何卡片發音</div>
+  <div class="hint">🔊 點卡片唸整字 · 點底線音節唸該段</div>
 
   <table>
     <thead>
       <tr>
-        <th>#</th><th>意思</th><th>圖</th><th>字</th><th>注音</th><th>拆法</th>
+        <th>#</th><th>意思</th><th>圖</th><th>字 / 注音</th><th>拆法</th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
   </table>
-
-  <footer>用瀏覽器內建語音合成。第一次按可能要等 1 秒載入聲音。</footer>
 </div>
 
 <script>
 const WORDS = [
-  { n:1, mean:"就寢時間", img:"🛏️🕘", word:"bedtime",    py:"ㄅㄝㄉ-ㄊㄞㄇ",   split:"bed (CVC) + time (silent-e)" },
-  { n:2, mean:"帆船",     img:"⛵",     word:"sailboat",   py:"ㄙㄟㄛ-ㄅㄡㄊ",   split:"sail (ai) + boat (oa)" },
-  { n:3, mean:"樹頂",     img:"🌳🔝",   word:"treetop",    py:"ㄔㄦㄧ-ㄊㄚㄆ",   split:"tree (ee) + top (CVC)" },
-  { n:4, mean:"雨滴",     img:"🌧️💧",  word:"raindrop",   py:"ㄖㄟㄣ-ㄉㄖㄚㄆ", split:"rain (ai) + drop (CVC)" },
-  { n:5, mean:"牙刷",     img:"🦷🪥",  word:"toothbrush", py:"ㄊㄨㄙ-ㄅㄖㄚㄒ", split:"tooth (oo) + brush (sh+CVC)" },
-  { n:6, mean:"鬆餅",     img:"🥞",    word:"pancake",    py:"ㄆㄢ-ㄎㄟㄎ",     split:"pan (CVC) + cake (silent-e)" },
-  { n:7, mean:"陽光",     img:"☀️",    word:"sunshine",   py:"ㄙㄢ-ㄒㄞㄣ",     split:"sun (CVC) + shine (sh+silent-e)" },
-  { n:8, mean:"週末",     img:"📅",    word:"weekend",    py:"ㄨㄧ-ㄎㄝㄣㄉ",   split:"week (ee) + end (CVC)" },
-  { n:9, mean:"日出",     img:"☀️⬆️",  word:"sunrise",    py:"ㄙㄢ-ㄖㄞㄗ",     split:"sun (CVC) + rise (silent-e: i-e)" },
-  { n:10,mean:"鐵路",     img:"🚂🛤️",  word:"railroad",   py:"ㄖㄟㄛ-ㄖㄡㄉ",   split:"rail (ai) + road (oa)" },
+  { n:1, mean:"就寢時間", img:"🛏️🕘",  word:"bedtime",    chunks:["bed","time"],    py:"ㄅㄝㄉ-ㄊㄞㄇ",   split:"bed (CVC) + time (silent-e)" },
+  { n:2, mean:"帆船",     img:"⛵",     word:"sailboat",   chunks:["sail","boat"],   py:"ㄙㄟㄛ-ㄅㄡㄊ",   split:"sail (ai) + boat (oa)" },
+  { n:3, mean:"樹頂",     img:"🌳🔝",   word:"treetop",    chunks:["tree","top"],    py:"ㄔㄦㄧ-ㄊㄚㄆ",   split:"tree (ee) + top (CVC)" },
+  { n:4, mean:"雨滴",     img:"🌧️💧",  word:"raindrop",   chunks:["rain","drop"],   py:"ㄖㄟㄣ-ㄉㄖㄚㄆ", split:"rain (ai) + drop (CVC)" },
+  { n:5, mean:"牙刷",     img:"🦷🪥",  word:"toothbrush", chunks:["tooth","brush"], py:"ㄊㄨㄙ-ㄅㄖㄚㄒ", split:"tooth (oo) + brush (sh+CVC)" },
+  { n:6, mean:"鬆餅",     img:"🥞",    word:"pancake",    chunks:["pan","cake"],    py:"ㄆㄢ-ㄎㄟㄎ",     split:"pan (CVC) + cake (silent-e)" },
+  { n:7, mean:"陽光",     img:"☀️",    word:"sunshine",   chunks:["sun","shine"],   py:"ㄙㄢ-ㄒㄞㄣ",     split:"sun (CVC) + shine (sh+silent-e)" },
+  { n:8, mean:"週末",     img:"📅",    word:"weekend",    chunks:["week","end"],    py:"ㄨㄧ-ㄎㄝㄣㄉ",   split:"week (ee) + end (CVC)" },
+  { n:9, mean:"日出",     img:"☀️⬆️",  word:"sunrise",    chunks:["sun","rise"],    py:"ㄙㄢ-ㄖㄞㄗ",     split:"sun (CVC) + rise (silent-e: i-e)" },
+  { n:10,mean:"鐵路",     img:"🚂🛤️",  word:"railroad",   chunks:["rail","road"],   py:"ㄖㄟㄛ-ㄖㄡㄉ",   split:"rail (ai) + road (oa)" },
 ];
 
 const tbody = document.getElementById("rows");
@@ -171,12 +180,14 @@ WORDS.forEach(w => {
   tr.setAttribute("role", "button");
   tr.setAttribute("aria-label", "唸 " + w.word);
   tr.onclick = () => speakOne(w.n);
+  const wordInner = (w.chunks && w.chunks.length)
+    ? w.chunks.map(c => `<span class="chunk" onclick="speakChunk('${c}', event)">${c}</span>`).join('')
+    : w.word;
   tr.innerHTML = `
     <td class="num">${w.n}</td>
     <td class="meaning">${w.mean}</td>
     <td class="img">${w.img}</td>
-    <td class="word-cell"><div class="word">${w.word}</div></td>
-    <td class="pinyin">${w.py}</td>
+    <td class="word-cell"><span class="word">${wordInner}</span><span class="pinyin">${w.py}</span></td>
     <td class="split">${w.split}</td>
   `;
   tbody.appendChild(tr);
@@ -217,6 +228,14 @@ function speakOne(n) {
   u.lang = "en-US"; u.rate = rate;
   if (chosenVoice) u.voice = chosenVoice;
   u.onend = () => unhighlight(n);
+  speechSynthesis.speak(u);
+}
+function speakChunk(text, ev) {
+  if (ev) ev.stopPropagation();
+  stopAll();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
   speechSynthesis.speak(u);
 }
 function speakAll() {
