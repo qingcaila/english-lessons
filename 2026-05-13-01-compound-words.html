@@ -47,7 +47,11 @@
   }
   tbody tr {
     background: var(--card); border: 1px solid var(--border);
+    cursor: pointer; transition: background .12s;
   }
+  tbody tr:hover { background: #fff3ec; }
+  tbody tr:active td { background: var(--accent-soft); }
+  .voice-label { font-size: 14px; color: var(--muted); margin-left: 4px; }
   tbody td {
     padding: 18px 12px; border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border); vertical-align: middle;
@@ -61,11 +65,7 @@
   .pinyin { color: var(--muted); font-size: 18px; }
   .split { color: var(--muted); font-size: 17px; }
   .meaning { font-size: 20px; font-weight: 500; }
-  button.speak {
-    font-size: 24px; background: #fff; border: 1px solid var(--border);
-    border-radius: 50%; width: 50px; height: 50px; cursor: pointer; padding: 0;
-  }
-  button.speak:hover { background: var(--accent-soft); }
+  .speak-icon { font-size: 26px; text-align: center; width: 50px; }
   footer { margin-top: 32px; color: var(--muted); font-size: 15px; text-align: center; }
 
   /* 手機:整體再放大,並且把表格改成卡片堆疊式 */
@@ -90,7 +90,7 @@
     .word { font-size: 33px; }
     .pinyin { font-size: 20px; }
     .split { font-size: 17px; }
-    button.speak { width: 62px; height: 62px; font-size: 29px; margin-top: 6px; }
+    .speak-icon { width: auto; font-size: 32px; text-align: left; padding-top: 4px; }
   }
 </style>
 </head>
@@ -110,9 +110,7 @@
         <option value="1">原速</option>
       </select>
     </label>
-    <label>聲音
-      <select id="voice"></select>
-    </label>
+    <span id="voiceLabel" class="voice-label"></span>
   </div>
 
   <table>
@@ -143,14 +141,17 @@ const tbody = document.getElementById("rows");
 WORDS.forEach(w => {
   const tr = document.createElement("tr");
   tr.id = "row-" + w.n;
+  tr.setAttribute("role", "button");
+  tr.setAttribute("aria-label", "唸 " + w.word);
+  tr.onclick = () => speakOne(w.n);
   tr.innerHTML = `
     <td class="num">${w.n}</td>
     <td class="meaning">${w.mean}</td>
     <td class="img">${w.img}</td>
-    <td><div class="word">${w.word}</div><div class="pinyin">${w.py}</div></td>
+    <td><div class="word">${w.word}</div></td>
     <td class="pinyin">${w.py}</td>
     <td class="split">${w.split}</td>
-    <td><button class="speak" onclick="speakOne(${w.n})" aria-label="唸 ${w.word}">🔊</button></td>
+    <td class="speak-icon">🔊</td>
   `;
   tbody.appendChild(tr);
 });
@@ -158,22 +159,19 @@ WORDS.forEach(w => {
 let rate = 0.75;
 function updateRate() { rate = parseFloat(document.getElementById("rate").value); }
 
-let voices = [];
 let chosenVoice = null;
+function pickBestVoice() {
+  const all = speechSynthesis.getVoices();
+  const en = all.filter(v => v.lang.startsWith("en"));
+  if (en.length === 0) return null;
+  // 優先:增強 / 高級 / Premium / Enhanced / Neural / Natural / Siri
+  const enhanced = en.find(v => /Enhanced|Premium|增強|高級|Neural|Natural|Siri/i.test(v.name));
+  return enhanced || en[0];
+}
 function loadVoices() {
-  voices = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
-  const sel = document.getElementById("voice");
-  sel.innerHTML = "";
-  voices.forEach((v, i) => {
-    const opt = document.createElement("option");
-    opt.value = i; opt.textContent = `${v.name} (${v.lang})`;
-    sel.appendChild(opt);
-  });
-  // prefer en-US, female-sounding if available
-  const preferred = voices.findIndex(v => /en-US/i.test(v.lang) && /Zira|Aria|Jenny|female/i.test(v.name));
-  sel.selectedIndex = preferred >= 0 ? preferred : 0;
-  chosenVoice = voices[sel.selectedIndex];
-  sel.onchange = () => { chosenVoice = voices[sel.selectedIndex]; };
+  chosenVoice = pickBestVoice();
+  const label = document.getElementById("voiceLabel");
+  if (label && chosenVoice) label.textContent = "聲音:" + chosenVoice.name;
 }
 loadVoices();
 if (speechSynthesis.onvoiceschanged !== undefined) {
