@@ -153,6 +153,7 @@
       </select>
     </label>
     <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
+    <button id="finishBtn" onclick="forceShowSummary()" style="background:#fff;color:var(--accent);border:1px solid var(--accent);font-weight:600;">結束本輪 →</button>
     <span id="lessonInfo" style="font-size:11px;color:var(--muted);margin-left:auto;"></span>
   </div>
   <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 唸完按 ✅會 或 ❌不會</div>
@@ -421,60 +422,71 @@ function markForgot(n) {
 
 // ── 總結 + Emoji 自評 ─────────────────────────────────────
 function maybeShowSummary() {
-  const allMarked = WORDS.every(w => w._marked);
-  if (!allMarked) return;
+  // 全部標完才自動跳(完成完美的人會自動觸發)
+  if (WORDS.every(w => w._marked)) showSummary();
+}
+function forceShowSummary() {
+  // 學習者主動結束(不管標了幾個)
+  if (!confirm("確定結束本輪?未標記的字會延到下一輪。")) return;
+  showSummary();
+}
+let _lessonRecorded = false;
+let _selectedEval = null;
+
+function showSummary() {
   const knowN = WORDS.filter(w => w._marked === "know").length;
-  const forgotN = WORDS.length - knowN;
-  const acc = Math.round(knowN / WORDS.length * 100);
+  const forgotN = WORDS.filter(w => w._marked === "forgot").length;
+  const skipN = WORDS.length - knowN - forgotN;
+  const markedN = knowN + forgotN;
+  const acc = markedN === 0 ? 0 : Math.round(knowN / markedN * 100);
   const stage = SRS.loadState().stats.currentStage || 0;
+  const skipNote = skipN > 0
+    ? `<div style="margin-top:6px;font-size:11px;color:var(--muted);">⏭ ${skipN} 個字沒標記,會延到下一輪</div>`
+    : "";
+  const nextUrl = "lesson.html?" + new URLSearchParams(location.search).toString();
   document.getElementById("summary").innerHTML = `
     <div class="summary">
       <h2>本輪結束</h2>
       <div class="stats">
         <span>✅ 會:${knowN}</span>
         <span>❌ 不會:${forgotN}</span>
-        <span>正確率:${acc}%</span>
+        <span>正確率(已標):${acc}%</span>
       </div>
+      ${skipNote}
       <div style="margin-top:8px;font-size:11px;color:var(--muted);">
         Stage ${stage} · 累計 L4 ${SRS.l4Count()} 字 / 學過 ${SRS.totalLearned()} 字
       </div>
-      <div style="margin-top:10px;font-size:12px;">這輪感覺?</div>
-      <div class="emoji-eval">
-        <button onclick="submitEval('😎')">😎 太簡單</button>
-        <button onclick="submitEval('👍')">👍 剛剛好</button>
-        <button onclick="submitEval('😅')">😅 偏難</button>
-        <button onclick="submitEval('😵')">😵 太難</button>
+      <div style="margin-top:12px;font-size:12px;color:var(--muted);">這輪感覺?(選不選都行)</div>
+      <div class="emoji-eval" id="emojiEval">
+        <button data-emoji="😎" onclick="pickEval('😎')">😎 太簡單</button>
+        <button data-emoji="👍" onclick="pickEval('👍')">👍 剛剛好</button>
+        <button data-emoji="😅" onclick="pickEval('😅')">😅 偏難</button>
+        <button data-emoji="😵" onclick="pickEval('😵')">😵 太難</button>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;">
+        <a href="${nextUrl}" onclick="recordOnLeave()" style="flex:1;min-width:140px;padding:10px 14px;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px;text-align:center;font-weight:600;">▶ 下一輪</a>
+        <a href="index.html" onclick="recordOnLeave()" style="flex:1;min-width:120px;padding:10px 14px;background:#fff;color:var(--accent);text-decoration:none;border:1px solid var(--accent);border-radius:6px;text-align:center;font-weight:600;">🏠 回首頁</a>
       </div>
     </div>
   `;
-}
-function submitEval(emoji) {
-  SRS.recordLesson(currentRound, mode, WORDS.map(w => w.word), emoji);
-  const next = nextSuggestion(emoji);
-  // 同設定的下一輪 URL(保留 mode / count / ratio / theme)
-  const nextUrl = "lesson.html?" + new URLSearchParams(location.search).toString();
-  document.getElementById("summary").innerHTML = `
-    <div class="summary">
-      <h2>已記錄 ${emoji}</h2>
-      <p style="font-size:12px;color:var(--muted);margin-bottom:10px;">下一步建議:${next}</p>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;">
-        <a href="${nextUrl}" style="flex:1;min-width:140px;padding:10px 14px;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px;text-align:center;font-weight:600;">▶ 下一輪(同設定)</a>
-        <a href="index.html" style="flex:1;min-width:120px;padding:10px 14px;background:#fff;color:var(--accent);text-decoration:none;border:1px solid var(--accent);border-radius:6px;text-align:center;font-weight:600;">🏠 回首頁</a>
-      </div>
-      <p style="font-size:11px;color:var(--muted);margin-top:8px;">「下一輪」延用目前模式 / 字數 / 比例。要換模式或考自己請回首頁。</p>
-    </div>
-  `;
-  // 滑到 summary 讓使用者看到
   setTimeout(() => document.getElementById("summary").scrollIntoView({ behavior: "smooth", block: "start" }), 100);
 }
-function nextSuggestion(emoji) {
-  switch (emoji) {
-    case "😎": return "可以提高難度或試試挑戰模式(偷看下一階段)";
-    case "👍": return "甜蜜帶,維持目前節奏";
-    case "😅": return "下輪建議多複習舊字、減少新字(切純複習模式)";
-    case "😵": return "建議退一步,連續 😵 我會降一級重建信心";
-  }
+
+function pickEval(emoji) {
+  _selectedEval = emoji;
+  // Highlight 選中的 emoji
+  document.querySelectorAll("#emojiEval button").forEach(b => {
+    b.style.background = b.dataset.emoji === emoji ? "var(--accent-soft)" : "#fff";
+    b.style.borderColor = b.dataset.emoji === emoji ? "var(--accent)" : "var(--border)";
+  });
 }
+
+function recordOnLeave() {
+  if (_lessonRecorded) return;
+  _lessonRecorded = true;
+  SRS.recordLesson(currentRound, mode, WORDS.map(w => w.word), _selectedEval);
+}
+// (舊 submitEval / nextSuggestion 已移除,改用 pickEval + recordOnLeave)
 
 // ── 啟動 ──────────────────────────────────────────────────
 (async function init() {
