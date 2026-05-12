@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>考自己 · 英文</title>
+<style>
+  :root {
+    --bg: #faf8f3; --card: #fff; --ink: #2a2a2a; --muted: #6b6b6b;
+    --accent: #c4633f; --accent-soft: #f3dfd4; --border: #e5dfd2;
+    --good: #2d7a2d; --good-bg: #d9efd6;
+    --bad: #a04a1a; --bad-bg: #ffe6d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg); color: var(--ink);
+    margin: 0; padding: 14px 12px 30px; line-height: 1.5; font-size: 14px;
+  }
+  .wrap { max-width: 480px; margin: 0 auto; }
+
+  .topbar {
+    display: flex; gap: 6px; align-items: center;
+    padding: 6px 8px; margin-bottom: 10px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  }
+  .topbar a { color: var(--muted); text-decoration: none; font-size: 12px; }
+  .topbar .progress-info { margin-left: auto; font-size: 12px; color: var(--muted); }
+
+  .quiz-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 24px 18px; text-align: center; margin-bottom: 12px;
+  }
+  .qc-meaning { font-size: 28px; font-weight: 600; }
+  .qc-img { font-size: 48px; margin: 12px 0; }
+  .qc-pinyin { font-size: 16px; color: var(--muted); }
+
+  .reveal-btn {
+    width: 100%; padding: 12px; margin-top: 16px;
+    background: var(--accent-soft); color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 8px;
+    font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit;
+  }
+  .reveal-btn:hover { background: var(--accent); color: #fff; }
+
+  .reveal {
+    margin-top: 14px; padding: 12px; background: var(--accent-soft);
+    border-radius: 8px; display: none;
+  }
+  .reveal.on { display: block; }
+  .reveal .word {
+    font-size: 32px; font-weight: 700; display: inline-flex; gap: 6px; align-items: baseline;
+  }
+  .reveal .chunk {
+    border-bottom: 3px solid var(--accent); padding-bottom: 1px; cursor: pointer;
+  }
+  .reveal .chunk:hover { background: #fff; }
+  .reveal .split { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+  .judge {
+    display: flex; gap: 8px; margin-top: 12px;
+  }
+  .judge button {
+    flex: 1; padding: 12px; border-radius: 8px;
+    font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit;
+    border: 1px solid var(--border);
+  }
+  .judge .yes { background: var(--good-bg); color: var(--good); border-color: var(--good); }
+  .judge .no  { background: var(--bad-bg);  color: var(--bad);  border-color: var(--bad);  }
+
+  .summary {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px; text-align: center;
+  }
+  .summary h2 { margin: 0 0 8px; font-size: 18px; }
+  .summary .stat { display: flex; justify-content: center; gap: 14px; margin-top: 10px; font-size: 13px; }
+  .summary .actions { margin-top: 14px; display: flex; gap: 8px; justify-content: center; }
+  .summary .actions a {
+    color: var(--accent); text-decoration: none; padding: 8px 12px;
+    border: 1px solid var(--accent); border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a href="index.html">← 首頁</a>
+    <span class="progress-info" id="prog">0 / 0</span>
+  </div>
+
+  <div id="content"></div>
+</div>
+
+<script src="srs.js"></script>
+<script>
+let rate = 0.6;
+let voice = null;
+let queue = [];           // 該考的字
+let idx = 0;
+let stats = { yes: 0, no: 0 };
+let revealed = false;
+let currentRound;
+
+function pickVoice() {
+  const all = speechSynthesis.getVoices();
+  const en = all.filter(v => v.lang.startsWith("en"));
+  if (en.length === 0) return null;
+  const isEnhanced = v => /Enhanced|Premium|增強|高級|Neural|Natural|Siri/i.test(v.name);
+  const isFemale = v => /Sangeeta|Samantha|Ava|Allison|Susan|Karen|Tessa|Moira|Fiona|Veena|Zira|Aria|Jenny|Joanna|Salli|Kimberly|Kendra|Ivy|Emma|Amy|Nicole|Olivia|Catherine|Serena|Lana|female|女/i.test(v.name);
+  return en.find(x => isEnhanced(x) && isFemale(x)) || en.find(isFemale) || en.find(isEnhanced) || en[0];
+}
+voice = pickVoice();
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = () => { voice = pickVoice(); };
+}
+
+function speak(text) {
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "en-US"; u.rate = rate; if (voice) u.voice = voice;
+  speechSynthesis.speak(u);
+}
+
+async function init() {
+  currentRound = SRS.getCurrentRound();
+  // 抓所有「該複習」字
+  const due = SRS.dueForReview(currentRound);
+  if (due.length === 0) {
+    document.getElementById("content").innerHTML = `
+      <div class="summary">
+        <h2>🎉 沒有到期的字要考</h2>
+        <p style="color:var(--muted);font-size:12px;">所有字都還在 next_due 區間內。</p>
+        <div class="actions">
+          <a href="index.html">回首頁</a>
+          <a href="lesson.html?mode=frequency">學新字</a>
+        </div>
+      </div>`;
+    return;
+  }
+  queue = due.slice(0, 20);  // 一次最多 20 字
+  idx = 0;
+  renderCard();
+}
+
+function renderCard() {
+  if (idx >= queue.length) return showSummary();
+  const w = queue[idx];
+  document.getElementById("prog").textContent = `${idx + 1} / ${queue.length}`;
+  revealed = false;
+  document.getElementById("content").innerHTML = `
+    <div class="quiz-card">
+      <div class="qc-meaning">${w.mean}</div>
+      <div class="qc-img">${w.img || "📦"}</div>
+      <div class="qc-pinyin">${w.py || ""}</div>
+      <button class="reveal-btn" onclick="revealAnswer()">顯示答案</button>
+      <div class="reveal" id="rv"></div>
+      <div class="judge" id="judge" style="display:none;">
+        <button class="no" onclick="judge(false)">❌ 不會</button>
+        <button class="yes" onclick="judge(true)">✅ 會</button>
+      </div>
+    </div>
+    <div style="text-align:center;font-size:11px;color:var(--muted);">
+      看到中文+圖+注音,先在心裡想英文 → 才按「顯示答案」 → 評自己
+    </div>
+  `;
+}
+
+function revealAnswer() {
+  if (revealed) return;
+  revealed = true;
+  const w = queue[idx];
+  const inner = (w.chunks && w.chunks.length > 1)
+    ? w.chunks.map(c => `<span class="chunk" onclick="speak('${c}')">${c}</span>`).join("")
+    : `<span>${w.word}</span>`;
+  document.getElementById("rv").innerHTML = `
+    <div class="word" onclick="speak('${w.word}')">${inner}</div>
+    <div class="split">${w.split || ""}</div>
+  `;
+  document.getElementById("rv").classList.add("on");
+  document.getElementById("judge").style.display = "flex";
+  speak(w.word);
+}
+
+function judge(correct) {
+  const w = queue[idx];
+  if (correct) {
+    SRS.knewIt(w.word, currentRound);
+    stats.yes += 1;
+  } else {
+    SRS.forgotIt(w.word, currentRound);
+    stats.no += 1;
+  }
+  idx += 1;
+  renderCard();
+}
+
+function showSummary() {
+  const acc = Math.round(stats.yes / (stats.yes + stats.no) * 100);
+  SRS.recordLesson(currentRound, "quiz", queue.map(w => w.word), null);
+  document.getElementById("content").innerHTML = `
+    <div class="summary">
+      <h2>考完了</h2>
+      <div class="stat">
+        <span>✅ 會:<b>${stats.yes}</b></span>
+        <span>❌ 不會:<b>${stats.no}</b></span>
+        <span>正確率:<b>${acc}%</b></span>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin-top:10px;">
+        不會的字 next_due 縮短,會再考你
+      </p>
+      <div class="actions">
+        <a href="index.html">回首頁</a>
+        <a href="quiz.html" onclick="location.reload()">再考一輪</a>
+      </div>
+    </div>
+  `;
+}
+
+init();
+</script>
+</body>
+</html>

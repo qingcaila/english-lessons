@@ -3,61 +3,392 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>English Lessons — 課程列表</title>
+<title>English Lessons</title>
 <style>
   :root {
-    --bg: #faf8f3;
-    --card: #fff;
-    --ink: #2a2a2a;
-    --muted: #6b6b6b;
-    --accent: #c4633f;
-    --border: #e5dfd2;
+    --bg: #faf8f3; --card: #fff; --ink: #2a2a2a; --muted: #6b6b6b;
+    --accent: #c4633f; --accent-soft: #f3dfd4; --border: #e5dfd2;
+    --good: #2d7a2d;
   }
   * { box-sizing: border-box; }
   body {
     font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     background: var(--bg); color: var(--ink);
-    margin: 0; padding: 20px 14px 50px; line-height: 1.5;
-    font-size: 17px;
+    margin: 0; padding: 14px 12px 30px; line-height: 1.5; font-size: 14px;
   }
   .wrap { max-width: 720px; margin: 0 auto; }
-  h1 { font-size: 35px; margin: 0 0 6px; }
-  .subtitle { color: var(--muted); margin-bottom: 28px; font-size: 18px; }
-  .lesson {
-    display: block; padding: 20px 22px; margin-bottom: 14px;
-    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    text-decoration: none; color: var(--ink); transition: background .15s;
-  }
-  .lesson:hover { background: #fff3ec; border-color: var(--accent); }
-  .lesson .date { font-size: 16px; color: var(--accent); font-weight: 600; letter-spacing: .04em; }
-  .lesson .title { font-size: 23px; font-weight: 600; margin: 6px 0 8px; }
-  .lesson .desc { font-size: 18px; color: var(--muted); }
-  footer { margin-top: 36px; color: var(--muted); font-size: 15px; text-align: center; }
 
-  @media (max-width: 720px) {
-    body { font-size: 15px; padding: 14px 12px 30px; }
-    h1 { font-size: 22px; margin-bottom: 2px; }
-    .subtitle { font-size: 12px; margin-bottom: 14px; }
-    .lesson { padding: 12px 14px; margin-bottom: 8px; border-radius: 8px; }
-    .lesson .date { font-size: 11px; }
-    .lesson .title { font-size: 16px; margin: 3px 0 4px; }
-    .lesson .desc { font-size: 12px; line-height: 1.45; color: var(--muted); }
-    footer { font-size: 11px; margin-top: 20px; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  .sub { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 14px; margin-bottom: 10px;
   }
+  .card h2 {
+    font-size: 13px; color: var(--muted); margin: 0 0 8px;
+    font-weight: 500; letter-spacing: .04em; text-transform: uppercase;
+  }
+  .card h2 .badge {
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 10px; padding: 1px 6px; border-radius: 4px; margin-left: 6px;
+    text-transform: none; letter-spacing: 0;
+  }
+
+  /* Stage badge */
+  .stage-name { font-size: 18px; font-weight: 700; }
+  .stage-meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .progress {
+    height: 8px; background: var(--border); border-radius: 4px;
+    margin-top: 8px; overflow: hidden;
+  }
+  .progress > div { height: 100%; background: var(--accent); transition: width .3s; }
+
+  /* 模式選單 */
+  .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 6px; }
+  .mode-btn {
+    padding: 10px; background: #fff; border: 1px solid var(--border);
+    border-radius: 8px; cursor: pointer; text-align: left;
+    font-family: inherit; font-size: 13px; transition: background .15s;
+  }
+  .mode-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .mode-btn .mname { font-weight: 600; }
+  .mode-btn .mdesc { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  .settings { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; font-size: 12px; }
+  .settings label { display: flex; align-items: center; gap: 4px; color: var(--muted); }
+  .settings select, .settings input {
+    font-size: 12px; padding: 4px 6px; border-radius: 4px;
+    border: 1px solid var(--border); background: #fff; font-family: inherit;
+  }
+
+  .theme-pick {
+    display: none; margin-top: 8px; padding-top: 8px;
+    border-top: 1px dashed var(--border);
+  }
+  .theme-pick.on { display: block; }
+  .theme-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 6px; }
+  .theme-tile {
+    padding: 8px 4px; background: #fff; border: 1px solid var(--border);
+    border-radius: 6px; cursor: pointer; text-align: center;
+    font-family: inherit; font-size: 12px;
+  }
+  .theme-tile:hover { background: var(--accent-soft); }
+  .theme-tile .ti { font-size: 22px; display: block; }
+  .theme-tile .tn { font-size: 11px; margin-top: 2px; }
+
+  .go {
+    width: 100%; padding: 12px; margin-top: 10px;
+    background: var(--accent); color: #fff; border: none; border-radius: 8px;
+    font-size: 15px; font-weight: 600; font-family: inherit; cursor: pointer;
+  }
+  .go:hover { background: #a8512f; }
+
+  .history { font-size: 12px; }
+  .history-item { padding: 6px 0; border-bottom: 1px dashed var(--border); }
+  .history-item:last-child { border-bottom: none; }
+  .history-item .h-meta { color: var(--muted); font-size: 11px; }
+
+  .danger-zone { margin-top: 16px; }
+  .danger-zone button {
+    font-size: 11px; padding: 4px 10px; background: #fff; border: 1px solid var(--border);
+    border-radius: 4px; color: var(--muted); cursor: pointer; font-family: inherit;
+  }
+
+  .stat-row { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; }
+  .stat-row b { color: var(--accent); }
 </style>
 </head>
 <body>
 <div class="wrap">
+
   <h1>English Lessons</h1>
-  <div class="subtitle">拆字唸 · 圖像 + 注音 + 拆法 · 點按可播音</div>
+  <div class="sub">拆字唸 · 圖像 + 注音 + 拆法 · 點按可播音</div>
 
-  <a class="lesson" href="2026-05-13-01-compound-words.html">
-    <div class="date">2026-05-13 · 第 1 輪</div>
-    <div class="title">複合字拆字唸(10 字)</div>
-    <div class="desc">bedtime / sailboat / treetop / raindrop / toothbrush / pancake / sunshine / weekend / sunrise / railroad — 複習池子:CVC · silent-e · sh · oo · ee · ai · oa</div>
-  </a>
+  <!-- 目前位置 -->
+  <div class="card">
+    <h2>目前位置</h2>
+    <div class="stage-name" id="stageName">載入中…</div>
+    <div class="stage-meta" id="stageMeta"></div>
+    <div class="progress"><div id="stageProgress" style="width:0%"></div></div>
+    <div class="stat-row" style="margin-top:10px;">
+      <span>已學:<b id="totalLearned">0</b></span>
+      <span>L4:<b id="l4Count">0</b></span>
+      <span>L4 比例:<b id="l4Ratio">0%</b></span>
+      <span>該複習:<b id="dueCount">0</b></span>
+    </div>
+    <div style="display:flex;gap:6px;margin-top:10px;" id="quickActions"></div>
+  </div>
 
-  <footer>更多課程會繼續加進來</footer>
+  <!-- 開新一輪 -->
+  <div class="card">
+    <h2>開新一輪</h2>
+    <div class="modes" id="modeButtons">
+      <button class="mode-btn" data-mode="frequency">
+        <div class="mname">📊 按頻率排</div>
+        <div class="mdesc">最實用的字先學</div>
+      </button>
+      <button class="mode-btn" data-mode="random">
+        <div class="mname">🎲 隨機</div>
+        <div class="mdesc">主題隨機抽</div>
+      </button>
+      <button class="mode-btn" data-mode="theme">
+        <div class="mname">🎯 指定主題</div>
+        <div class="mdesc">你選類別</div>
+      </button>
+      <button class="mode-btn" data-mode="mixed">
+        <div class="mname">🔄 混合</div>
+        <div class="mdesc">當前主題 + 隨機</div>
+      </button>
+      <button class="mode-btn" data-mode="review">
+        <div class="mname">📚 純複習</div>
+        <div class="mdesc">只複習到期字</div>
+      </button>
+      <button class="mode-btn" data-mode="challenge">
+        <div class="mname">🌟 挑戰</div>
+        <div class="mdesc">偷看下一階段</div>
+      </button>
+    </div>
+
+    <div class="theme-pick" id="themePick">
+      <div style="font-size:12px;color:var(--muted);">選一個主題:</div>
+      <div class="theme-grid" id="themeGrid"></div>
+    </div>
+
+    <div class="settings">
+      <label>字數
+        <select id="wordCount">
+          <option>5</option><option selected>10</option><option>15</option>
+        </select>
+      </label>
+      <label>新/複習比
+        <select id="ratio">
+          <option value="0">0/100</option>
+          <option value="0.3" selected>30/70</option>
+          <option value="0.5">50/50</option>
+          <option value="0.7">70/30</option>
+          <option value="1">100/0</option>
+        </select>
+      </label>
+      <label>
+        <input type="checkbox" id="rememberMode" checked> 記住模式
+      </label>
+    </div>
+
+    <button class="go" id="goBtn" disabled>請選擇模式 ↑</button>
+  </div>
+
+  <!-- 已上歷程 -->
+  <div class="card" id="historyCard" style="display:none;">
+    <h2>已上輪次</h2>
+    <div id="historyList" class="history"></div>
+  </div>
+
+  <!-- 主題進度 -->
+  <div class="card">
+    <h2>主題進度 <span class="badge" id="stageLabel"></span></h2>
+    <div id="themeStats" class="history" style="font-size:11px;"></div>
+  </div>
+
+  <!-- Danger zone -->
+  <div class="card danger-zone">
+    <h2>進階</h2>
+    <button onclick="exportData()">匯出進度 JSON</button>
+    <button onclick="importDataPrompt()">匯入</button>
+    <button onclick="confirmReset()">重置進度</button>
+    <details style="margin-top:8px;font-size:11px;color:var(--muted);">
+      <summary>說明</summary>
+      <p>進度存在這台手機 / 瀏覽器的 localStorage。換裝置請用「匯出 / 匯入」。</p>
+    </details>
+  </div>
+
 </div>
+
+<script src="srs.js"></script>
+<script>
+const STAGE_NAMES = ["超級基礎", "基礎", "中下", "中", "中上"];
+const STAGE_VOCAB_TARGET = [
+  [500, 1000], [2000, 3000], [4000, 5000], [5000, 7000], [8000, 10000]
+];
+
+let VOCAB = null, THEMES = null;
+let selectedMode = null;
+let selectedTheme = null;
+
+async function loadAll() {
+  const [v, t] = await Promise.all([
+    fetch("vocab.json").then(r => r.json()),
+    fetch("themes.json").then(r => r.json())
+  ]);
+  VOCAB = v; THEMES = t;
+  renderStage();
+  renderModes();
+  renderThemes();
+  renderHistory();
+  renderThemeStats();
+}
+
+function renderStage() {
+  const state = SRS.loadState();
+  const stage = state.stats.currentStage || 0;
+  document.getElementById("stageName").textContent = `Stage ${stage} — ${STAGE_NAMES[stage]}`;
+  const [min, max] = STAGE_VOCAB_TARGET[stage];
+  const l4 = SRS.l4Count();
+  const total = SRS.totalLearned();
+  const dueRound = SRS.getCurrentRound();
+  const due = SRS.dueForReview(dueRound);
+  document.getElementById("totalLearned").textContent = total;
+  document.getElementById("l4Count").textContent = l4;
+  document.getElementById("l4Ratio").textContent =
+    total === 0 ? "0%" : Math.round(SRS.l4Ratio() * 100) + "%";
+  document.getElementById("dueCount").textContent = due.length;
+  document.getElementById("stageMeta").textContent =
+    `字量目標 ${min}-${max}(L4 計) · 本輪起 ${dueRound}`;
+  const progress = Math.min(100, Math.round(l4 / min * 100));
+  document.getElementById("stageProgress").style.width = progress + "%";
+  document.getElementById("stageLabel").textContent = `Stage ${stage}`;
+
+  // 快捷:該複習 → 純複習課 / 考自己
+  const qa = document.getElementById("quickActions");
+  if (due.length > 0) {
+    qa.innerHTML = `
+      <a href="lesson.html?mode=review&count=${Math.min(due.length, 10)}&ratio=0"
+         style="flex:1;padding:8px 10px;background:var(--accent);color:#fff;text-decoration:none;
+                border-radius:6px;text-align:center;font-size:13px;font-weight:600;">
+        📚 直接複習 (${due.length})
+      </a>
+      <a href="quiz.html"
+         style="flex:1;padding:8px 10px;background:#fff;color:var(--accent);text-decoration:none;
+                border: 1px solid var(--accent); border-radius:6px;text-align:center;font-size:13px;font-weight:600;">
+        🎯 考自己 (${due.length})
+      </a>
+    `;
+  } else {
+    qa.innerHTML = `<div style="font-size:11px;color:var(--muted);">目前沒有到期的字 — 從下面選模式開新一輪</div>`;
+  }
+}
+
+function renderModes() {
+  const last = SRS.getSettings().lessonMode;
+  document.querySelectorAll(".mode-btn").forEach(btn => {
+    btn.onclick = () => selectMode(btn.dataset.mode);
+    if (btn.dataset.mode === last && SRS.getSettings().rememberLastMode) {
+      selectMode(last);
+    }
+  });
+}
+function selectMode(mode) {
+  selectedMode = mode;
+  document.querySelectorAll(".mode-btn").forEach(b => {
+    b.style.background = b.dataset.mode === mode ? "var(--accent-soft)" : "#fff";
+    b.style.borderColor = b.dataset.mode === mode ? "var(--accent)" : "var(--border)";
+  });
+  document.getElementById("themePick").classList.toggle("on", mode === "theme");
+  document.getElementById("goBtn").disabled = (mode === "theme" && !selectedTheme);
+  if (mode !== "theme") {
+    document.getElementById("goBtn").disabled = false;
+    document.getElementById("goBtn").textContent = "▶ 開始";
+  } else if (!selectedTheme) {
+    document.getElementById("goBtn").textContent = "請選一個主題 ↑";
+  }
+}
+
+function renderThemes() {
+  const grid = document.getElementById("themeGrid");
+  const state = SRS.loadState();
+  const stage = state.stats.currentStage || 0;
+  const available = THEMES.themes.filter(t => t.stage <= stage);
+  grid.innerHTML = available.map(t => `
+    <button class="theme-tile" data-theme="${t.id}" onclick="selectTheme('${t.id}')">
+      <span class="ti">${t.icon}</span>
+      <span class="tn">${t.name}</span>
+    </button>
+  `).join("");
+}
+function selectTheme(themeId) {
+  selectedTheme = themeId;
+  document.querySelectorAll(".theme-tile").forEach(t => {
+    t.style.background = t.dataset.theme === themeId ? "var(--accent-soft)" : "#fff";
+    t.style.borderColor = t.dataset.theme === themeId ? "var(--accent)" : "var(--border)";
+  });
+  document.getElementById("goBtn").disabled = false;
+  document.getElementById("goBtn").textContent = "▶ 開始";
+}
+
+function renderHistory() {
+  const state = SRS.loadState();
+  const list = state.history.slice(-10).reverse();
+  if (list.length === 0) return;
+  document.getElementById("historyCard").style.display = "";
+  document.getElementById("historyList").innerHTML = list.map(h => `
+    <div class="history-item">
+      <div><b>${h.round}</b> · ${h.mode} · ${(h.evalEmoji || "")} · ${h.wordIds.length} 字</div>
+      <div class="h-meta">${h.date.split("T")[0]}</div>
+    </div>
+  `).join("");
+}
+
+function renderThemeStats() {
+  const state = SRS.loadState();
+  const stage = state.stats.currentStage || 0;
+  const themes = THEMES.themes.filter(t => t.stage <= stage);
+  const byTheme = {};
+  themes.forEach(t => byTheme[t.id] = { total: 0, learned: 0, l4: 0, name: t.name, icon: t.icon });
+  VOCAB.words.forEach(w => {
+    if (byTheme[w.theme] && w.stage <= stage) byTheme[w.theme].total += 1;
+  });
+  Object.values(state.words).forEach(w => {
+    const t = byTheme[w.theme]; if (!t) return;
+    t.learned += 1;
+    if (w.level === "L4" || w.level === "L5") t.l4 += 1;
+  });
+  const items = Object.entries(byTheme).map(([id, t]) => {
+    const pct = t.total === 0 ? 0 : Math.round(t.learned / t.total * 100);
+    return `<div class="history-item">${t.icon} <b>${t.name}</b> · ${t.learned}/${t.total} 字 · L4: ${t.l4} (${pct}%)</div>`;
+  });
+  document.getElementById("themeStats").innerHTML = items.join("");
+}
+
+// ── Go ────────────────────────────────────────────────────
+document.getElementById("goBtn").onclick = () => {
+  if (!selectedMode) return;
+  if (SRS.getSettings().rememberLastMode) {
+    SRS.setSetting("lessonMode", selectedMode);
+  }
+  const count = parseInt(document.getElementById("wordCount").value, 10);
+  const ratio = parseFloat(document.getElementById("ratio").value);
+  let url = `lesson.html?mode=${selectedMode}&count=${count}&ratio=${ratio}`;
+  if (selectedMode === "theme" && selectedTheme) url += `&theme=${selectedTheme}`;
+  location.href = url;
+};
+
+// ── Export / Import / Reset ──────────────────────────────
+function exportData() {
+  const blob = new Blob([SRS.exportState()], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = `english-progress-${new Date().toISOString().split("T")[0]}.json`;
+  a.click(); URL.revokeObjectURL(url);
+}
+function importDataPrompt() {
+  const inp = document.createElement("input");
+  inp.type = "file"; inp.accept = "application/json";
+  inp.onchange = e => {
+    const f = e.target.files[0]; if (!f) return;
+    const r = new FileReader();
+    r.onload = ev => {
+      if (SRS.importState(ev.target.result)) { alert("匯入成功"); location.reload(); }
+      else alert("匯入失敗,JSON 格式錯誤");
+    };
+    r.readAsText(f);
+  };
+  inp.click();
+}
+function confirmReset() {
+  if (confirm("確定重置所有進度?無法復原。")) { SRS.resetState(); location.reload(); }
+}
+
+loadAll();
+</script>
 </body>
 </html>

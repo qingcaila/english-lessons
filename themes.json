@@ -1,0 +1,92 @@
+{
+  "themes": [
+    {
+      "id": "numbers",
+      "name": "數字",
+      "icon": "🔢",
+      "stage": 0,
+      "frequencyRank": 1,
+      "description": "1-20 + ten/hundred/thousand 等基本數量詞"
+    },
+    {
+      "id": "time",
+      "name": "時間",
+      "icon": "🕐",
+      "stage": 0,
+      "frequencyRank": 2,
+      "description": "天 / 月 / 季節 / 早晚 / now/today/tomorrow"
+    },
+    {
+      "id": "family",
+      "name": "家庭",
+      "icon": "👨‍👩‍👧",
+      "stage": 0,
+      "frequencyRank": 3,
+      "description": "家人關係 / 朋友 / 人稱代名詞"
+    },
+    {
+      "id": "body",
+      "name": "身體",
+      "icon": "🦵",
+      "stage": 0,
+      "frequencyRank": 4,
+      "description": "身體部位 / 五官 / 感覺"
+    },
+    {
+      "id": "colors",
+      "name": "顏色",
+      "icon": "🎨",
+      "stage": 0,
+      "frequencyRank": 5,
+      "description": "11 個基本顏色"
+    },
+    {
+      "id": "food",
+      "name": "食物",
+      "icon": "🍎",
+      "stage": 0,
+      "frequencyRank": 6,
+      "description": "水果 / 蔬菜 / 主食 / 飲料"
+    },
+    {
+      "id": "animals",
+      "name": "動物",
+      "icon": "🐶",
+      "stage": 0,
+      "frequencyRank": 7,
+      "description": "寵物 / 農場 / 野生動物"
+    },
+    {
+      "id": "clothing",
+      "name": "衣服",
+      "icon": "👕",
+      "stage": 0,
+      "frequencyRank": 8,
+      "description": "衣物 / 配件 / 鞋類"
+    },
+    {
+      "id": "weather",
+      "name": "天氣",
+      "icon": "☁️",
+      "stage": 0,
+      "frequencyRank": 9,
+      "description": "晴雨風雪 + 冷熱"
+    },
+    {
+      "id": "places",
+      "name": "場所",
+      "icon": "🏠",
+      "stage": 0,
+      "frequencyRank": 10,
+      "description": "家中房間 / 街道場所"
+    },
+    {
+      "id": "phonics-compound",
+      "name": "拆字唸(複合字)",
+      "icon": "🔗",
+      "stage": 0,
+      "frequencyRank": 0,
+      "description": "由已學 phonics 規則組合的複合字(已上第一輪)"
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>英文課程</title>
+<style>
+  :root {
+    --bg: #faf8f3; --card: #fff; --ink: #2a2a2a; --muted: #6b6b6b;
+    --accent: #c4633f; --accent-soft: #f3dfd4; --border: #e5dfd2;
+    --good: #2d7a2d; --good-bg: #d9efd6;
+    --bad: #a04a1a; --bad-bg: #ffe6d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg); color: var(--ink);
+    margin: 0; padding: 6px 8px 30px; line-height: 1.4; font-size: 13px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+
+  .topbar {
+    display: flex; gap: 4px; align-items: center; flex-wrap: nowrap; overflow-x: auto;
+    padding: 4px 6px; margin-bottom: 4px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  }
+  .topbar label { font-size: 11px; color: var(--muted); }
+  .topbar select, .topbar button {
+    font-size: 11px; padding: 4px 8px; border-radius: 5px;
+    border: 1px solid var(--border); background: #fff; cursor: pointer; font-family: inherit;
+  }
+  .topbar button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .topbar a.home { font-size: 11px; color: var(--muted); text-decoration: none; padding: 4px 6px; }
+
+  .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; color: var(--muted); }
+
+  /* 卡片 */
+  .word .chunk {
+    display: inline-block;
+    border-bottom: 2px solid var(--accent); padding-bottom: 1px; cursor: pointer;
+  }
+  .chunk:hover, .chunk:active { background: var(--accent-soft); }
+  .word { display: inline-flex; gap: 4px; align-items: baseline; }
+
+  table { width: 100%; border-collapse: separate; border-spacing: 0; }
+  tbody tr {
+    background: var(--card); border: 1px solid var(--border);
+    cursor: pointer; transition: background .12s;
+    margin-bottom: 3px; border-radius: 6px; padding: 4px 8px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 22px 44px 1fr auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "num img wordline meaning"
+      "num img split    split"
+      "num img actions  actions";
+    column-gap: 5px; row-gap: 0;
+    align-items: center;
+  }
+  tbody tr.is-review { border-left: 3px solid var(--accent); }
+  tbody tr.is-new { border-left: 3px solid var(--good); }
+  tbody td { border: none; padding: 0; display: block; }
+
+  .num {
+    grid-area: num; align-self: start; justify-self: start;
+    display: inline-block; font-size: 11px; padding: 1px 5px;
+    background: var(--accent-soft); color: var(--accent); border-radius: 3px;
+  }
+  .meaning { grid-area: meaning; align-self: center; justify-self: end;
+             font-size: 12px; color: var(--muted); font-weight: 500; white-space: nowrap; }
+  .img { grid-area: img; font-size: 16px; text-align: left; align-self: center; line-height: 1;
+         white-space: nowrap; letter-spacing: 0; overflow: hidden; }
+  .word-cell { grid-area: wordline; align-self: center;
+               display: flex; align-items: baseline; gap: 6px; flex-wrap: nowrap;
+               min-width: 0; overflow: hidden; }
+  .word { font-size: 16px; font-weight: 600; line-height: 1.1; flex-shrink: 0; }
+  .chunk { border-bottom-width: 1.5px; padding-bottom: 0; }
+  .pinyin { font-size: 10.5px; color: var(--muted); white-space: nowrap;
+            overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .play-count { font-size: 9px; color: var(--muted); margin-left: 4px; opacity: .7; }
+  .split { grid-area: split; font-size: 10px; color: var(--muted); align-self: start; line-height: 1.2; }
+  .actions { grid-area: actions; align-self: center; display: flex; gap: 4px; margin-top: 2px; }
+  .btn-know, .btn-forgot {
+    font-size: 10px; padding: 2px 6px; border-radius: 4px; border: 1px solid var(--border);
+    background: #fff; cursor: pointer; font-family: inherit;
+  }
+  .btn-know { color: var(--good); border-color: var(--good); }
+  .btn-know.on { background: var(--good-bg); }
+  .btn-forgot { color: var(--bad); border-color: var(--bad); }
+  .btn-forgot.on { background: var(--bad-bg); }
+
+  /* 結束總結 */
+  .summary {
+    margin-top: 16px; padding: 12px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 8px;
+  }
+  .summary h2 { margin: 0 0 8px; font-size: 16px; }
+  .summary .stats { display: flex; gap: 12px; font-size: 12px; }
+  .summary .emoji-eval { margin-top: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .summary .emoji-eval button {
+    font-size: 13px; padding: 6px 10px; border-radius: 6px;
+    border: 1px solid var(--border); background: #fff; cursor: pointer; font-family: inherit;
+  }
+  .summary .emoji-eval button:hover { background: var(--accent-soft); }
+
+  .loading { padding: 24px; text-align: center; color: var(--muted); }
+
+  /* 注音顯示開關 */
+  body.hide-pinyin .pinyin { display: none !important; }
+  .toggle-btn.on { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="home" href="index.html">← 首頁</a>
+    <button class="primary" onclick="speakAll()">🔊 全部</button>
+    <button onclick="stopAll()">⏹</button>
+    <label>速度
+      <select id="rate" onchange="updateRate()">
+        <option value="0.6" selected>慢</option>
+        <option value="0.75">正常</option>
+        <option value="0.9">較快</option>
+        <option value="1">原速</option>
+      </select>
+    </label>
+    <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
+    <span id="lessonInfo" style="font-size:11px;color:var(--muted);margin-left:auto;"></span>
+  </div>
+  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 唸完按 ✅會 或 ❌不會</div>
+
+  <table><tbody id="rows"><tr><td><div class="loading">載入中...</div></td></tr></tbody></table>
+
+  <div id="summary"></div>
+</div>
+
+<script src="srs.js"></script>
+<script>
+// ── 設定 ──────────────────────────────────────────────────
+let rate = 0.6;
+function updateRate() { rate = parseFloat(document.getElementById("rate").value); }
+
+function applyPinyinSetting(show) {
+  document.body.classList.toggle("hide-pinyin", !show);
+  const btn = document.getElementById("pinyinToggle");
+  if (btn) btn.classList.toggle("on", show);
+}
+function togglePinyin() {
+  const cur = SRS.getSettings().showPinyin !== false;
+  const next = !cur;
+  SRS.setSetting("showPinyin", next);
+  applyPinyinSetting(next);
+}
+
+const params = new URLSearchParams(location.search);
+const mode = params.get("mode") || "frequency";
+const wordCount = parseInt(params.get("count") || "10", 10);
+const ratio = parseFloat(params.get("ratio") || "0.3");      // 新字比例
+const themeFilter = params.get("theme");
+
+// ── 語音 ──────────────────────────────────────────────────
+let chosenVoice = null;
+function pickBestVoice() {
+  const all = speechSynthesis.getVoices();
+  const en = all.filter(v => v.lang.startsWith("en"));
+  if (en.length === 0) return null;
+  const isEnhanced = v => /Enhanced|Premium|增強|高級|Neural|Natural|Siri/i.test(v.name);
+  const isFemale = v => /Sangeeta|Samantha|Ava|Allison|Susan|Karen|Tessa|Moira|Fiona|Veena|Zira|Aria|Jenny|Joanna|Salli|Kimberly|Kendra|Ivy|Emma|Amy|Nicole|Olivia|Catherine|Serena|Lana|female|女/i.test(v.name);
+  return en.find(x => isEnhanced(x) && isFemale(x)) || en.find(isFemale) || en.find(isEnhanced) || en[0];
+}
+function loadVoices() { chosenVoice = pickBestVoice(); }
+loadVoices();
+if (speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = loadVoices;
+
+// ── 選字邏輯 ──────────────────────────────────────────────
+let WORDS = [];          // 此輪要呈現的字
+let VOCAB = [];          // 全部 seed 字
+let currentRound = "R1";
+
+async function loadData() {
+  const [v, t] = await Promise.all([
+    fetch("vocab.json").then(r => r.json()),
+    fetch("themes.json").then(r => r.json())
+  ]);
+  VOCAB = v.words;
+  return { vocab: v, themes: t };
+}
+
+function pickWords({ vocab, themes }) {
+  const state = SRS.loadState();
+  currentRound = SRS.getCurrentRound();
+
+  // 1) 抓該複習的(due)
+  const due = SRS.dueForReview(currentRound);
+  const dueIds = due.map(w => w.word);
+  const learnedIds = new Set(Object.keys(state.words));
+
+  // 2) 候選新字池(根據 mode 篩)
+  let newPool = vocab.words.filter(w => !learnedIds.has(w.word));
+  if (mode === "theme" && themeFilter) {
+    newPool = newPool.filter(w => w.theme === themeFilter);
+  } else if (mode === "frequency") {
+    // 按 theme.frequencyRank 排
+    const rankMap = {};
+    themes.themes.forEach(t => rankMap[t.id] = t.frequencyRank);
+    newPool.sort((a, b) => (rankMap[a.theme] || 99) - (rankMap[b.theme] || 99));
+  } else if (mode === "random") {
+    newPool.sort(() => Math.random() - 0.5);
+  } else if (mode === "mixed") {
+    // 一半從目前 theme(by frequency),一半隨機
+    const rankMap = {};
+    themes.themes.forEach(t => rankMap[t.id] = t.frequencyRank);
+    newPool.sort((a, b) => (rankMap[a.theme] || 99) - (rankMap[b.theme] || 99));
+    const half = newPool.splice(0, Math.ceil(wordCount * (1 - ratio) / 2));
+    newPool.sort(() => Math.random() - 0.5);
+    newPool = [...half, ...newPool];
+  } else if (mode === "review") {
+    // 純複習 → 全部用 due,沒新字
+    return due.slice(0, wordCount);
+  } else if (mode === "challenge") {
+    // 下一階段預覽,挑 stage = currentStage + 1
+    const nextStage = (state.stats.currentStage || 0) + 1;
+    newPool = vocab.words.filter(w => !learnedIds.has(w.word) && w.stage === nextStage);
+  }
+
+  // 3) 混合 (1 - ratio) 複習 + ratio 新字
+  const reviewCount = Math.min(due.length, Math.round(wordCount * (1 - ratio)));
+  const newCount = wordCount - reviewCount;
+  const reviews = due.slice(0, reviewCount).map(w => ({ ...w, isReview: true }));
+  const newWords = newPool.slice(0, newCount).map(w => ({ ...w, isReview: false }));
+
+  return [...reviews, ...newWords].map((w, i) => ({ n: i + 1, ...w }));
+}
+
+// ── 渲染 ──────────────────────────────────────────────────
+function render() {
+  const tbody = document.getElementById("rows");
+  tbody.innerHTML = "";
+  WORDS.forEach(w => {
+    const tr = document.createElement("tr");
+    tr.id = "row-" + w.n;
+    tr.className = w.isReview ? "is-review" : "is-new";
+    tr.setAttribute("role", "button");
+    tr.setAttribute("aria-label", "唸 " + w.word);
+    tr.onclick = (ev) => {
+      if (ev.target.closest(".btn-know,.btn-forgot,.chunk")) return;
+      speakOne(w.n);
+    };
+    const wordInner = (w.chunks && w.chunks.length > 1)
+      ? w.chunks.map(c => `<span class="chunk" onclick="speakChunk('${w.word}','${c}', event)">${c}</span>`).join("")
+      : `<span>${w.word}</span>`;
+    tr.innerHTML = `
+      <td class="num">${w.n}${w.isReview ? "🔁" : ""}</td>
+      <td class="meaning">${w.mean}</td>
+      <td class="img">${w.img}</td>
+      <td class="word-cell">
+        <span class="word">${wordInner}</span>
+        <span class="pinyin">${w.py}</span>
+        <span class="play-count" id="pc-${w.n}"></span>
+      </td>
+      <td class="split">${w.split}</td>
+      <td class="actions">
+        <button class="btn-know" onclick="markKnow(${w.n})">✅ 會</button>
+        <button class="btn-forgot" onclick="markForgot(${w.n})">❌ 不會</button>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+  updateLessonInfo();
+}
+
+function updateLessonInfo() {
+  const reviewN = WORDS.filter(w => w.isReview).length;
+  const newN = WORDS.length - reviewN;
+  const total = SRS.totalLearned();
+  const l4 = SRS.l4Count();
+  document.getElementById("lessonInfo").textContent =
+    `${currentRound} · ${mode} · 🔁${reviewN}+🆕${newN} · 累計 ${total} · L4 ${l4}`;
+}
+
+function updatePlayCount(n) {
+  const w = WORDS.find(x => x.n === n);
+  if (!w) return;
+  const state = SRS.loadState();
+  const ws = state.words[w.word];
+  const el = document.getElementById("pc-" + n);
+  if (el && ws) el.textContent = ws.playCount > 0 ? `🔊×${ws.playCount}` : "";
+}
+
+// ── 播音 ──────────────────────────────────────────────────
+function speakOne(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
+  stopAll();
+  document.getElementById("row-" + n)?.classList.add("active");
+  // 確保字進入 state
+  const state = SRS.loadState();
+  SRS.ensureWordState(state, w.word, w);
+  SRS.saveState(state);
+  SRS.logWordPlay(w.word, w);
+  updatePlayCount(n);
+  const u = new SpeechSynthesisUtterance(w.word);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
+  u.onend = () => document.getElementById("row-" + n)?.classList.remove("active");
+  speechSynthesis.speak(u);
+}
+function speakChunk(word, chunk, ev) {
+  if (ev) ev.stopPropagation();
+  stopAll();
+  const w = WORDS.find(x => x.word === word);
+  if (w) {
+    const state = SRS.loadState();
+    SRS.ensureWordState(state, w.word, w);
+    SRS.saveState(state);
+    SRS.logChunkPlay(w.word, chunk, w);
+    updatePlayCount(w.n);
+  }
+  const u = new SpeechSynthesisUtterance(chunk);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
+  speechSynthesis.speak(u);
+}
+function speakAll() {
+  stopAll();
+  WORDS.forEach(w => {
+    const u = new SpeechSynthesisUtterance(w.word);
+    u.lang = "en-US"; u.rate = rate;
+    if (chosenVoice) u.voice = chosenVoice;
+    u.onstart = () => document.getElementById("row-" + w.n)?.classList.add("active");
+    u.onend = () => document.getElementById("row-" + w.n)?.classList.remove("active");
+    speechSynthesis.speak(u);
+  });
+}
+function stopAll() {
+  speechSynthesis.cancel();
+  document.querySelectorAll("tr.active").forEach(tr => tr.classList.remove("active"));
+}
+
+// ── 知道 / 不會 標記 ──────────────────────────────────────
+function markKnow(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
+  const state = SRS.loadState();
+  SRS.ensureWordState(state, w.word, w);
+  SRS.saveState(state);
+  SRS.knewIt(w.word, currentRound);
+  const tr = document.getElementById("row-" + n);
+  tr.querySelectorAll(".btn-know").forEach(b => b.classList.add("on"));
+  tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.remove("on"));
+  w._marked = "know";
+  maybeShowSummary();
+}
+function markForgot(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
+  const state = SRS.loadState();
+  SRS.ensureWordState(state, w.word, w);
+  SRS.saveState(state);
+  SRS.forgotIt(w.word, currentRound);
+  const tr = document.getElementById("row-" + n);
+  tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.add("on"));
+  tr.querySelectorAll(".btn-know").forEach(b => b.classList.remove("on"));
+  w._marked = "forgot";
+  maybeShowSummary();
+}
+
+// ── 總結 + Emoji 自評 ─────────────────────────────────────
+function maybeShowSummary() {
+  const allMarked = WORDS.every(w => w._marked);
+  if (!allMarked) return;
+  const knowN = WORDS.filter(w => w._marked === "know").length;
+  const forgotN = WORDS.length - knowN;
+  const acc = Math.round(knowN / WORDS.length * 100);
+  const stage = SRS.loadState().stats.currentStage || 0;
+  document.getElementById("summary").innerHTML = `
+    <div class="summary">
+      <h2>本輪結束</h2>
+      <div class="stats">
+        <span>✅ 會:${knowN}</span>
+        <span>❌ 不會:${forgotN}</span>
+        <span>正確率:${acc}%</span>
+      </div>
+      <div style="margin-top:8px;font-size:11px;color:var(--muted);">
+        Stage ${stage} · 累計 L4 ${SRS.l4Count()} 字 / 學過 ${SRS.totalLearned()} 字
+      </div>
+      <div style="margin-top:10px;font-size:12px;">這輪感覺?</div>
+      <div class="emoji-eval">
+        <button onclick="submitEval('😎')">😎 太簡單</button>
+        <button onclick="submitEval('👍')">👍 剛剛好</button>
+        <button onclick="submitEval('😅')">😅 偏難</button>
+        <button onclick="submitEval('😵')">😵 太難</button>
+      </div>
+    </div>
+  `;
+}
+function submitEval(emoji) {
+  SRS.recordLesson(currentRound, mode, WORDS.map(w => w.word), emoji);
+  const next = nextSuggestion(emoji);
+  document.getElementById("summary").innerHTML = `
+    <div class="summary">
+      <h2>已記錄 ${emoji}</h2>
+      <p style="font-size:12px;color:var(--muted);">下一步建議:${next}</p>
+      <a href="index.html" style="color:var(--accent);text-decoration:none;font-weight:600;">← 回首頁</a>
+    </div>
+  `;
+}
+function nextSuggestion(emoji) {
+  switch (emoji) {
+    case "😎": return "可以提高難度或試試挑戰模式(偷看下一階段)";
+    case "👍": return "甜蜜帶,維持目前節奏";
+    case "😅": return "下輪建議多複習舊字、減少新字(切純複習模式)";
+    case "😵": return "建議退一步,連續 😵 我會降一級重建信心";
+  }
+}
+
+// ── 啟動 ──────────────────────────────────────────────────
+(async function init() {
+  applyPinyinSetting(SRS.getSettings().showPinyin !== false);
+  const data = await loadData();
+  WORDS = pickWords(data);
+  if (WORDS.length === 0) {
+    document.getElementById("rows").innerHTML = `<tr><td><div class="loading">本輪沒有可上的字 — 試試別的模式</div></td></tr>`;
+    document.getElementById("lessonInfo").textContent = mode + " · 無字可上";
+    return;
+  }
+  render();
+})();
+</script>
+</body>
+</html>
