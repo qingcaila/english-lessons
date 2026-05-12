@@ -292,6 +292,9 @@ git push
 - **2026-05-13** / 對話 3(批次 A3)/ +224 / jobs(+45→55) / sports(+44→54) / music(+45→55) / nature(+45→55) / phonics-compound(+45→55) / 累計 **1,475**
   - 重點:jobs 涵蓋專業/服務/法律/科技;sports 含團隊球類+個人運動+比賽詞;music 樂器+曲式+音樂家+曲風;nature 地形+水體+礦物+植物部位;phonics-compound 完整 light/snow/fire/eye/foot/hand/book/under/some-/every- 等複合家族
   - 下一個:**A4**(sight-words 推到 250 — Fry 第二段,主要是基本動詞、副詞、形容詞、常用名詞)
+- **2026-05-13** / 對話 3(批次 A4)/ +146 / sight-words(+146→251) / 累計 **1,621**
+  - 重點:Fry 第二段連接詞(although/though/unless/however/therefore/thus/instead/otherwise) + 空間介系詞(above/below/among/into/onto/against/through/across/along/beyond/toward/throughout/within/without) + 人稱類(people/person/anyone/everybody/anybody/nobody/somebody/mother/father/son/daughter/neighbor/human/adult/teen/citizen/individual/member) + 抽象名詞(thing/way/place/life/world/state/city/town/area/story/fact/idea/problem/example/reason/result/matter/step/rule/plan/system/concept/event/chance/opportunity)
+  - 下一個:**B1**(family / body / emotions / actions 各推到 100)
   - 重點:numbers 完成 11-90 + ordinals + 數學詞 + 量詞;time 完成 days/months/seasons/parts of day + 時態 + 頻率副詞;colors 涵蓋金屬色/寶石色/明度修飾詞;animals 補齊哺乳/鳥/海洋/爬蟲/昆蟲六大類
   - 驗證:JSON 合法、無重複、1012 條全部 7 欄位齊全
   - 下一個:**A2**(clothing / weather / food / school / home-items 各推到 50)
