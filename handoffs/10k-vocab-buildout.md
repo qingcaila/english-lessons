@@ -238,6 +238,11 @@ git push
 - **2026-05-13** / 對話 1(主對話,本檔建立)/ +0 / 基準 224 字
 - **2026-05-13** / 對話 2(平行)/ +16 / sight-words / 累計 240
 - **2026-05-13** / 對話 1(主對話)/ +196 / kitchen-utensils / bathroom / fruits / vegetables / drinks / desserts / shapes / directions / travel / shopping / restaurant / money / health / technology / 累計 **436**
+- **2026-05-13** / 對話 3(平行)/ +305 / actions(74) / adjectives(59) / emotions(48) / sight-words(95) / body(29) / 累計 **741**
+  - 重點:Stage 0-1 高頻動詞 + 形容詞補完、Fry sight-words 推進到 ~105(含 went/saw/said/took/thought/knew 等過去式斷崖關鍵字 + 情態 will/would/could/should/might + 所有人稱代名詞)、body 補內外部位
+  - 已驗證:`node -e` parse JSON 合法、無重複字、所有條目 7 欄位齊全、chunks 全部 ≥2 塊
+  - **注意 hook 行為**:本輪 Edit vocab.json 後一個 auto-commit hook 自動把改動 commit 成 `aa1dc0e 新增 session 記錄 + 白名單設定`(訊息與內容無關但內容正確且已 push)。後續對話如果想 push 出乾淨的 `vocab: +N` 訊息,可能要先停掉這個 hook,或手動補 commit。
+  - **下一輪可補主題**(由高到低,各只 10-19 字):numbers / time / colors / animals / clothing / weather / food / school / home-items / jobs / sports / music / nature / phonics-compound — 都是 Stage 0 高頻日常,目標補到 30-50 字/主題
 
 ---
 
