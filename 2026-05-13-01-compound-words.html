@@ -21,19 +21,19 @@
     margin: 0;
     padding: 24px 16px 80px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 20px;
   }
   .wrap { max-width: 960px; margin: 0 auto; }
-  h1 { font-size: 30px; margin: 0 0 6px; }
-  .subtitle { color: var(--muted); margin-bottom: 20px; font-size: 16px; }
+  h1 { font-size: 33px; margin: 0 0 6px; }
+  .subtitle { color: var(--muted); margin-bottom: 20px; font-size: 18px; }
   .topbar {
     display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
     margin-bottom: 24px; padding: 14px 16px;
     background: var(--card); border: 1px solid var(--border); border-radius: 10px;
   }
-  .topbar label { font-size: 16px; color: var(--muted); }
+  .topbar label { font-size: 18px; color: var(--muted); }
   .topbar select, .topbar button {
-    font-size: 16px; padding: 10px 16px; border-radius: 8px;
+    font-size: 18px; padding: 10px 16px; border-radius: 8px;
     border: 1px solid var(--border); background: #fff; cursor: pointer;
     font-family: inherit;
   }
@@ -42,39 +42,39 @@
   .topbar button.primary:hover { background: #a8512f; }
   table { width: 100%; border-collapse: separate; border-spacing: 0 10px; }
   thead th {
-    text-align: left; font-size: 15px; color: var(--muted);
+    text-align: left; font-size: 17px; color: var(--muted);
     font-weight: 500; padding: 4px 12px;
   }
   tbody tr {
     background: var(--card); border: 1px solid var(--border);
   }
   tbody td {
-    padding: 16px 12px; border-top: 1px solid var(--border);
+    padding: 18px 12px; border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border); vertical-align: middle;
   }
   tbody td:first-child { border-left: 1px solid var(--border); border-radius: 10px 0 0 10px; }
   tbody td:last-child { border-right: 1px solid var(--border); border-radius: 0 10px 10px 0; }
   tbody tr.active td { background: var(--accent-soft); }
-  .num { font-weight: 700; color: var(--accent); width: 32px; text-align: center; font-size: 18px; }
-  .img { font-size: 34px; width: 80px; text-align: center; }
-  .word { font-size: 26px; font-weight: 600; }
-  .pinyin { color: var(--muted); font-size: 16px; }
-  .split { color: var(--muted); font-size: 15px; }
-  .meaning { font-size: 18px; font-weight: 500; }
+  .num { font-weight: 700; color: var(--accent); width: 32px; text-align: center; font-size: 20px; }
+  .img { font-size: 38px; width: 80px; text-align: center; }
+  .word { font-size: 29px; font-weight: 600; }
+  .pinyin { color: var(--muted); font-size: 18px; }
+  .split { color: var(--muted); font-size: 17px; }
+  .meaning { font-size: 20px; font-weight: 500; }
   button.speak {
-    font-size: 22px; background: #fff; border: 1px solid var(--border);
-    border-radius: 50%; width: 46px; height: 46px; cursor: pointer; padding: 0;
+    font-size: 24px; background: #fff; border: 1px solid var(--border);
+    border-radius: 50%; width: 50px; height: 50px; cursor: pointer; padding: 0;
   }
   button.speak:hover { background: var(--accent-soft); }
-  footer { margin-top: 32px; color: var(--muted); font-size: 14px; text-align: center; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 15px; text-align: center; }
 
   /* 手機:整體再放大,並且把表格改成卡片堆疊式 */
   @media (max-width: 720px) {
-    body { font-size: 19px; padding: 20px 12px 80px; }
-    h1 { font-size: 32px; }
-    .subtitle { font-size: 17px; }
+    body { font-size: 21px; padding: 20px 12px 80px; }
+    h1 { font-size: 35px; }
+    .subtitle { font-size: 19px; }
     .topbar { gap: 10px; padding: 12px; }
-    .topbar select, .topbar button { font-size: 17px; padding: 12px 14px; }
+    .topbar select, .topbar button { font-size: 19px; padding: 12px 14px; }
     thead { display: none; }
     table, tbody, tr, td { display: block; width: 100%; }
     tbody tr {
@@ -83,14 +83,14 @@
     }
     tbody td { border: none; padding: 6px 14px; }
     tbody td:first-child, tbody td:last-child { border-radius: 0; }
-    .num { display: inline-block; width: auto; font-size: 16px; padding: 4px 10px;
+    .num { display: inline-block; width: auto; font-size: 18px; padding: 4px 10px;
            background: var(--accent-soft); color: var(--accent); border-radius: 6px; }
-    .meaning { font-size: 20px; }
-    .img { font-size: 40px; text-align: left; padding-top: 4px; }
-    .word { font-size: 30px; }
-    .pinyin { font-size: 18px; }
-    .split { font-size: 15px; }
-    button.speak { width: 56px; height: 56px; font-size: 26px; margin-top: 6px; }
+    .meaning { font-size: 22px; }
+    .img { font-size: 44px; text-align: left; padding-top: 4px; }
+    .word { font-size: 33px; }
+    .pinyin { font-size: 20px; }
+    .split { font-size: 17px; }
+    button.speak { width: 62px; height: 62px; font-size: 29px; margin-top: 6px; }
   }
 </style>
 </head>
