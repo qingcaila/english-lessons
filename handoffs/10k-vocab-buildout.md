@@ -238,7 +238,7 @@ git push
 每批 300-400 字。**接手的對話 = 找下方第一個未勾選的批次去做**。完成後在批次號旁打勾 `[x]`,並在「累積紀錄」append 一行。
 
 ### Stage A:Stage 0-1 日常底盤(741 → 2,100)
-- [ ] **A1**(+~310 / 累計 ~1,050)numbers / time / colors / animals 各推到 50
+- [x] **A1**(+271 / 累計 1,012)numbers 81 / time 80 / colors 55 / animals 100 — 全部超標完成
 - [ ] **A2**(+~350 / 累計 ~1,400)clothing / weather / food / school / home-items 各推到 50
 - [ ] **A3**(+~350 / 累計 ~1,750)jobs / sports / music / nature / phonics-compound 各推到 50
 - [ ] **A4**(+~350 / 累計 ~2,100)sight-words 推到 250(Fry 第二段)
@@ -285,6 +285,10 @@ git push
 - **2026-05-13** / 對話 2(平行)/ +16 / sight-words / 累計 240
 - **2026-05-13** / 對話 1(主對話)/ +196 / kitchen-utensils / bathroom / fruits / vegetables / drinks / desserts / shapes / directions / travel / shopping / restaurant / money / health / technology / 累計 **436**
 - **2026-05-13** / 對話 3(平行)/ +305 / actions(74) / adjectives(59) / emotions(48) / sight-words(95) / body(29) / 累計 **741**
+- **2026-05-13** / 對話 3(批次 A1)/ +271 / numbers(+71→81) / time(+70→80) / colors(+45→55) / animals(+85→100) / 累計 **1,012**
+  - 重點:numbers 完成 11-90 + ordinals + 數學詞 + 量詞;time 完成 days/months/seasons/parts of day + 時態 + 頻率副詞;colors 涵蓋金屬色/寶石色/明度修飾詞;animals 補齊哺乳/鳥/海洋/爬蟲/昆蟲六大類
+  - 驗證:JSON 合法、無重複、1012 條全部 7 欄位齊全
+  - 下一個:**A2**(clothing / weather / food / school / home-items 各推到 50)
   - 重點:Stage 0-1 高頻動詞 + 形容詞補完、Fry sight-words 推進到 ~105(含 went/saw/said/took/thought/knew 等過去式斷崖關鍵字 + 情態 will/would/could/should/might + 所有人稱代名詞)、body 補內外部位
   - 已驗證:`node -e` parse JSON 合法、無重複字、所有條目 7 欄位齊全、chunks 全部 ≥2 塊
   - **注意 hook 行為**:本輪 Edit vocab.json 後一個 auto-commit hook 自動把改動 commit 成 `aa1dc0e 新增 session 記錄 + 白名單設定`(訊息與內容無關但內容正確且已 push)。後續對話如果想 push 出乾淨的 `vocab: +N` 訊息,可能要先停掉這個 hook,或手動補 commit。
