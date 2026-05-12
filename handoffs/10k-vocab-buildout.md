@@ -245,7 +245,7 @@ git push
 
 ### Stage B:Stage 1-2 廣度鋪開(2,100 → 4,200)
 - [x] **B1**(+193 / 累計 1,814)family 85 / body 99 / emotions 100 / actions 100 — 達標(family 略不到 100 因詞彙密度上限)
-- [ ] **B2**(+~350 / 累計 ~2,800)adjectives / kitchen-utensils / bathroom / fruits / vegetables 各推到 100
+- [x] **B2**(+206 / 累計 2,020)adjectives 100 / kitchen-utensils 55 / bathroom 47 / fruits 69 / vegetables 69 — adjectives 達 100,其餘 47-69(因主題詞彙密度上限不易硬塞到 100)
 - [ ] **B3**(+~350 / 累計 ~3,150)drinks / desserts / shapes / directions / transportation / places 各推到 80
 - [ ] **B4**(+~350 / 累計 ~3,500)travel / shopping / restaurant / money / health 各推到 80
 - [ ] **B5**(+~350 / 累計 ~3,850)technology / sight-words 推到 400
@@ -298,6 +298,9 @@ git push
 - **2026-05-13** / 對話 3(批次 B1)/ +193 / family(+75→85) / body(+60→99) / emotions(+42→100) / actions(+16→100) / 累計 **1,814**
   - 重點:family 涵蓋祖孫/姻親/繼親/教親/婚姻生死全套;body 補完軀幹四肢肌骨內臟細部;emotions 加入抽象情緒名詞 + 強烈情緒形容詞 + 道德相關;actions 補完選擇/同意/期待類動詞
   - 下一個:**B2**(adjectives / kitchen-utensils / bathroom / fruits / vegetables 各推到 100)
+- **2026-05-13** / 對話 3(批次 B2)/ +206 / adjectives(+31→100) / kitchen-utensils(+40→55) / bathroom(+35→47) / fruits(+50→69) / vegetables(+50→69) / 累計 **2,020** ⭐ 突破 2K
+  - 重點:adjectives 加聰明/愚笨/簡複/罕奇/光糙;kitchen 補小器具(削皮/打蛋/濾網)和電器(微波/烤箱);bathroom 補化妝品/急救/個人清潔;fruits 走熱帶水果 + 漿果家族;vegetables 走葉菜 + 根莖類 + 香草
+  - 下一個:**B3**(drinks / desserts / shapes / directions / transportation / places 各推到 80)
   - 重點:numbers 完成 11-90 + ordinals + 數學詞 + 量詞;time 完成 days/months/seasons/parts of day + 時態 + 頻率副詞;colors 涵蓋金屬色/寶石色/明度修飾詞;animals 補齊哺乳/鳥/海洋/爬蟲/昆蟲六大類
   - 驗證:JSON 合法、無重複、1012 條全部 7 欄位齊全
   - 下一個:**A2**(clothing / weather / food / school / home-items 各推到 50)
