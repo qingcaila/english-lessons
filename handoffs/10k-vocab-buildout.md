@@ -244,7 +244,7 @@ git push
 - [x] **A4**(+146 / 累計 1,621)sight-words 推到 251 — Fry 第二段完成
 
 ### Stage B:Stage 1-2 廣度鋪開(2,100 → 4,200)
-- [ ] **B1**(+~350 / 累計 ~2,450)family / body / emotions / actions 各推到 100
+- [x] **B1**(+193 / 累計 1,814)family 85 / body 99 / emotions 100 / actions 100 — 達標(family 略不到 100 因詞彙密度上限)
 - [ ] **B2**(+~350 / 累計 ~2,800)adjectives / kitchen-utensils / bathroom / fruits / vegetables 各推到 100
 - [ ] **B3**(+~350 / 累計 ~3,150)drinks / desserts / shapes / directions / transportation / places 各推到 80
 - [ ] **B4**(+~350 / 累計 ~3,500)travel / shopping / restaurant / money / health 各推到 80
@@ -295,6 +295,9 @@ git push
 - **2026-05-13** / 對話 3(批次 A4)/ +146 / sight-words(+146→251) / 累計 **1,621**
   - 重點:Fry 第二段連接詞(although/though/unless/however/therefore/thus/instead/otherwise) + 空間介系詞(above/below/among/into/onto/against/through/across/along/beyond/toward/throughout/within/without) + 人稱類(people/person/anyone/everybody/anybody/nobody/somebody/mother/father/son/daughter/neighbor/human/adult/teen/citizen/individual/member) + 抽象名詞(thing/way/place/life/world/state/city/town/area/story/fact/idea/problem/example/reason/result/matter/step/rule/plan/system/concept/event/chance/opportunity)
   - 下一個:**B1**(family / body / emotions / actions 各推到 100)
+- **2026-05-13** / 對話 3(批次 B1)/ +193 / family(+75→85) / body(+60→99) / emotions(+42→100) / actions(+16→100) / 累計 **1,814**
+  - 重點:family 涵蓋祖孫/姻親/繼親/教親/婚姻生死全套;body 補完軀幹四肢肌骨內臟細部;emotions 加入抽象情緒名詞 + 強烈情緒形容詞 + 道德相關;actions 補完選擇/同意/期待類動詞
+  - 下一個:**B2**(adjectives / kitchen-utensils / bathroom / fruits / vegetables 各推到 100)
   - 重點:numbers 完成 11-90 + ordinals + 數學詞 + 量詞;time 完成 days/months/seasons/parts of day + 時態 + 頻率副詞;colors 涵蓋金屬色/寶石色/明度修飾詞;animals 補齊哺乳/鳥/海洋/爬蟲/昆蟲六大類
   - 驗證:JSON 合法、無重複、1012 條全部 7 欄位齊全
   - 下一個:**A2**(clothing / weather / food / school / home-items 各推到 50)
