@@ -239,7 +239,7 @@ git push
 
 ### Stage A:Stage 0-1 日常底盤(741 → 2,100)
 - [x] **A1**(+271 / 累計 1,012)numbers 81 / time 80 / colors 55 / animals 100 — 全部超標完成
-- [ ] **A2**(+~350 / 累計 ~1,400)clothing / weather / food / school / home-items 各推到 50
+- [x] **A2**(+239 / 累計 1,251)clothing 54 / weather 60 / food 65 / school 55 / home-items 60 — 全部達標
 - [ ] **A3**(+~350 / 累計 ~1,750)jobs / sports / music / nature / phonics-compound 各推到 50
 - [ ] **A4**(+~350 / 累計 ~2,100)sight-words 推到 250(Fry 第二段)
 
@@ -286,6 +286,9 @@ git push
 - **2026-05-13** / 對話 1(主對話)/ +196 / kitchen-utensils / bathroom / fruits / vegetables / drinks / desserts / shapes / directions / travel / shopping / restaurant / money / health / technology / 累計 **436**
 - **2026-05-13** / 對話 3(平行)/ +305 / actions(74) / adjectives(59) / emotions(48) / sight-words(95) / body(29) / 累計 **741**
 - **2026-05-13** / 對話 3(批次 A1)/ +271 / numbers(+71→81) / time(+70→80) / colors(+45→55) / animals(+85→100) / 累計 **1,012**
+- **2026-05-13** / 對話 3(批次 A2)/ +239 / clothing(+44→54) / weather(+50→60) / food(+50→65) / school(+45→55) / home-items(+50→60) / 累計 **1,251**
+  - 重點:clothing 完整補完(內衣/泳裝/正式服裝/布料);weather 補完天氣現象 + 自然災害;food 走熟食/加工/調味 (避開 fruits/vegetables 已有的部分);school 完整課業流程詞;home-items 涵蓋家具/結構/電器/清潔/格局
+  - 下一個:**A3**(jobs / sports / music / nature / phonics-compound 各推到 50)
   - 重點:numbers 完成 11-90 + ordinals + 數學詞 + 量詞;time 完成 days/months/seasons/parts of day + 時態 + 頻率副詞;colors 涵蓋金屬色/寶石色/明度修飾詞;animals 補齊哺乳/鳥/海洋/爬蟲/昆蟲六大類
   - 驗證:JSON 合法、無重複、1012 條全部 7 欄位齊全
   - 下一個:**A2**(clothing / weather / food / school / home-items 各推到 50)
