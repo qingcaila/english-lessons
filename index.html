@@ -401,10 +401,38 @@ function renderStage() {
 }
 
 function renderModes() {
-  const last = SRS.getSettings().lessonMode;
+  const s = SRS.getSettings();
+  // 恢復「字數」「新/複習比」「記住模式 checkbox」「指定主題」狀態
+  if (s.wordCount) {
+    const el = document.getElementById("wordCount");
+    if (el) el.value = String(s.wordCount);
+  }
+  if (s.ratio !== undefined) {
+    const el = document.getElementById("ratio");
+    if (el) el.value = String(s.ratio);
+  }
+  const rem = document.getElementById("rememberMode");
+  if (rem) rem.checked = s.rememberLastMode !== false;
+  if (s.selectedTheme) {
+    selectedTheme = s.selectedTheme;  // 記住上次選的主題
+  }
+  // 4 個設定改動時自動存
+  ["wordCount", "ratio"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.onchange = () => {
+      const key = id === "wordCount" ? "wordCount" : "ratio";
+      const val = id === "wordCount" ? parseInt(el.value, 10) : parseFloat(el.value);
+      SRS.setSetting(key, val);
+    };
+  });
+  if (rem) {
+    rem.onchange = () => SRS.setSetting("rememberLastMode", rem.checked);
+  }
+  // 模式按鈕綁定 + 恢復選中狀態
+  const last = s.lessonMode;
   document.querySelectorAll(".mode-btn").forEach(btn => {
     btn.onclick = () => selectMode(btn.dataset.mode);
-    if (btn.dataset.mode === last && SRS.getSettings().rememberLastMode) {
+    if (btn.dataset.mode === last && s.rememberLastMode !== false) {
       selectMode(last);
     }
   });
@@ -462,9 +490,21 @@ function renderThemes() {
         <div class="theme-grid">${tiles}</div>
       </details>`;
   }).join("");
+  // 渲染完後,若已記住主題,反白顯示
+  if (selectedTheme) {
+    document.querySelectorAll(".theme-tile").forEach(t => {
+      if (t.dataset.theme === selectedTheme) {
+        t.style.background = "var(--accent-soft)";
+        t.style.borderColor = "var(--accent)";
+      }
+    });
+  }
 }
 function selectTheme(themeId) {
   selectedTheme = themeId;
+  if (SRS.getSettings().rememberLastMode !== false) {
+    SRS.setSetting("selectedTheme", themeId);
+  }
   document.querySelectorAll(".theme-tile").forEach(t => {
     t.style.background = t.dataset.theme === themeId ? "var(--accent-soft)" : "#fff";
     t.style.borderColor = t.dataset.theme === themeId ? "var(--accent)" : "var(--border)";
