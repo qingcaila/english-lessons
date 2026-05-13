@@ -441,20 +441,82 @@ function renderThemeStats() {
   const stage = state.stats.currentStage || 0;
   const themes = THEMES.themes.filter(t => t.stage <= stage);
   const byTheme = {};
-  themes.forEach(t => byTheme[t.id] = { total: 0, learned: 0, l4: 0, name: t.name, icon: t.icon });
+  themes.forEach(t => byTheme[t.id] = {
+    total: 0, learned: 0, l4: 0, name: t.name, icon: t.icon,
+    levels: { L1: 0, L2: 0, L3: 0, L4: 0, L5: 0 }
+  });
   VOCAB.words.forEach(w => {
     if (byTheme[w.theme] && w.stage <= stage) byTheme[w.theme].total += 1;
   });
   Object.values(state.words).forEach(w => {
     const t = byTheme[w.theme]; if (!t) return;
     t.learned += 1;
+    if (w.level && t.levels[w.level] !== undefined) t.levels[w.level] += 1;
     if (w.level === "L4" || w.level === "L5") t.l4 += 1;
   });
-  const items = Object.entries(byTheme).map(([id, t]) => {
-    const pct = t.total === 0 ? 0 : Math.round(t.learned / t.total * 100);
-    return `<div class="history-item">${t.icon} <b>${t.name}</b> · ${t.learned}/${t.total} 字 · L4: ${t.l4} (${pct}%)</div>`;
+
+  // 排序:有進度的優先,按 L4 desc 再按 learned desc
+  const entries = Object.entries(byTheme).sort((a, b) => {
+    const A = a[1], B = b[1];
+    if ((A.learned > 0) !== (B.learned > 0)) return (B.learned > 0 ? 1 : 0) - (A.learned > 0 ? 1 : 0);
+    if (A.l4 !== B.l4) return B.l4 - A.l4;
+    return B.learned - A.learned;
   });
-  document.getElementById("themeStats").innerHTML = items.join("");
+
+  // L1→L5 漸層色,呈現「依序往上推」
+  const COLOR = { L1:'#fde2c8', L2:'#fac68a', L3:'#e89b53', L4:'#c4633f', L5:'#7a3a1f' };
+
+  // 過濾有單字的主題;沒單字的摺進「尚未有單字」
+  const visible = entries.filter(([, t]) => t.total > 0);
+  const empty   = entries.filter(([, t]) => t.total === 0);
+
+  // 圖例
+  let html = `<div style="display:flex;gap:6px;font-size:9px;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;align-items:center;">
+    <span>等級:</span>
+    ${['L1','L2','L3','L4','L5'].map(l =>
+      `<span style="display:inline-flex;align-items:center;gap:2px;"><span style="display:inline-block;width:9px;height:9px;background:${COLOR[l]};border-radius:1px;"></span>${l}</span>`
+    ).join('')}
+    <span style="display:inline-flex;align-items:center;gap:2px;"><span style="display:inline-block;width:9px;height:9px;background:#eee;border-radius:1px;"></span>未學</span>
+    <span style="margin-left:auto;">L4⭐ = 反射理解</span>
+  </div>`;
+
+  // 每個主題一條漸層進度條
+  html += visible.map(([, t]) => {
+    const segments = [];
+    ['L1','L2','L3','L4','L5'].forEach(lvl => {
+      const n = t.levels[lvl];
+      if (n > 0) segments.push(`<span style="background:${COLOR[lvl]};flex:${n};" title="${lvl}: ${n}"></span>`);
+    });
+    const unlearned = t.total - t.learned;
+    if (unlearned > 0) segments.push(`<span style="background:#eee;flex:${unlearned};"></span>`);
+    const l4pct = t.total === 0 ? 0 : Math.round(t.l4 / t.total * 100);
+    return `
+      <div style="padding:5px 0;border-bottom:1px dashed var(--border);">
+        <div style="display:flex;justify-content:space-between;font-size:12px;line-height:1.3;">
+          <span>${t.icon} <b>${t.name}</b></span>
+          <span style="color:var(--muted);font-size:11px;">
+            <b style="color:${t.l4 > 0 ? COLOR.L4 : 'var(--muted)'};">L4 ${t.l4}</b>
+            · ${t.learned}/${t.total}
+            ${l4pct > 0 ? `<span style="color:${COLOR.L4};">(${l4pct}%)</span>` : ''}
+          </span>
+        </div>
+        <div style="display:flex;height:7px;background:#f0ebe0;border-radius:3px;overflow:hidden;margin-top:3px;">
+          ${segments.join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  if (empty.length > 0) {
+    html += `<details style="margin-top:8px;font-size:11px;color:var(--muted);">
+      <summary>${empty.length} 個主題尚未有單字</summary>
+      <div style="margin-top:6px;line-height:1.6;">
+        ${empty.map(([, t]) => `${t.icon} ${t.name}`).join(' · ')}
+      </div>
+    </details>`;
+  }
+
+  document.getElementById("themeStats").innerHTML = html;
 }
 
 // ── Go ────────────────────────────────────────────────────
