@@ -361,13 +361,19 @@ function updateLessonInfo() {
   const newN = WORDS.length - reviewN;
   const total = SRS.totalLearned();
   const l4 = SRS.l4Count();
+  const markedN = WORDS.filter(w => w._marked).length;
+  const pct = WORDS.length === 0 ? 0 : Math.round(markedN / WORDS.length * 100);
   document.getElementById("lessonInfo").innerHTML = `
     <span class="chip">${currentRound}</span>
     <span class="chip">${mode}</span>
     <span class="chip">🔁 ${reviewN} 複習</span>
     <span class="chip">🆕 ${newN} 新字</span>
+    <span class="chip" style="background:var(--accent-soft);color:var(--accent);font-weight:600;">進度 ${markedN}/${WORDS.length}</span>
     <span class="chip">累計 ${total}</span>
     <span class="chip">L4 ${l4}</span>
+    <div style="flex-basis:100%;height:5px;background:#f0ebe0;border-radius:3px;overflow:hidden;margin-top:3px;">
+      <div style="height:100%;width:${pct}%;background:var(--accent);transition:width .2s;"></div>
+    </div>
   `;
 }
 
@@ -463,6 +469,7 @@ function markKnow(n) {
   tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.remove("on"));
   w._marked = "know";
   refreshNewBadge(n);
+  updateLessonInfo();
   maybeShowSummary();
 }
 function markForgot(n) {
@@ -476,6 +483,7 @@ function markForgot(n) {
   tr.querySelectorAll(".btn-know").forEach(b => b.classList.remove("on"));
   w._marked = "forgot";
   refreshNewBadge(n);
+  updateLessonInfo();
   maybeShowSummary();
 }
 
