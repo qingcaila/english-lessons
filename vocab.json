@@ -122637,6 +122637,3215 @@
       "split": "z + eal",
       "theme": "exam-7000",
       "stage": 4
+    },
+    {
+      "word": "kindness",
+      "mean": "善意",
+      "img": "📚",
+      "chunks": [
+        "kin",
+        "dness"
+      ],
+      "py": "ㄎㄧㄋㄉㄋㄝㄙㄙ",
+      "split": "kin + dness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "darkness",
+      "mean": "黑暗",
+      "img": "📚",
+      "chunks": [
+        "dar",
+        "kness"
+      ],
+      "py": "ㄉㄚㄖㄎㄋㄝㄙㄙ",
+      "split": "dar + kness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "weakness",
+      "mean": "弱點",
+      "img": "📚",
+      "chunks": [
+        "weak",
+        "ness"
+      ],
+      "py": "ㄨㄝㄚㄎㄋㄝㄙㄙ",
+      "split": "weak + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "madness",
+      "mean": "瘋狂",
+      "img": "📚",
+      "chunks": [
+        "mad",
+        "ness"
+      ],
+      "py": "ㄇㄚㄉㄋㄝㄙㄙ",
+      "split": "mad + ness",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "softness",
+      "mean": "柔軟",
+      "img": "📚",
+      "chunks": [
+        "sof",
+        "tness"
+      ],
+      "py": "ㄙㄛㄈㄊㄋㄝㄙㄙ",
+      "split": "sof + tness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "coldness",
+      "mean": "冷漠",
+      "img": "📚",
+      "chunks": [
+        "col",
+        "dness"
+      ],
+      "py": "ㄎㄛㄌㄉㄋㄝㄙㄙ",
+      "split": "col + dness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "tiredness",
+      "mean": "疲倦",
+      "img": "📚",
+      "chunks": [
+        "ti",
+        "red",
+        "ness"
+      ],
+      "py": "ㄊㄧㄖㄝㄉㄋㄝㄙㄙ",
+      "split": "ti + red + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "fairness",
+      "mean": "公平",
+      "img": "📚",
+      "chunks": [
+        "fair",
+        "ness"
+      ],
+      "py": "ㄈㄚㄧㄖㄋㄝㄙㄙ",
+      "split": "fair + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "greatness",
+      "mean": "偉大",
+      "img": "📚",
+      "chunks": [
+        "great",
+        "ness"
+      ],
+      "py": "ㄍㄖㄝㄚㄊㄋㄝㄙㄙ",
+      "split": "great + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "thickness",
+      "mean": "厚度",
+      "img": "📚",
+      "chunks": [
+        "thic",
+        "kness"
+      ],
+      "py": "ㄊㄏㄧㄎㄎㄋㄝㄙㄙ",
+      "split": "thic + kness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "quickness",
+      "mean": "迅速",
+      "img": "📚",
+      "chunks": [
+        "quic",
+        "kness"
+      ],
+      "py": "ㄎㄚㄧㄎㄎㄋㄝㄙㄙ",
+      "split": "quic + kness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "emptiness",
+      "mean": "空虛",
+      "img": "📚",
+      "chunks": [
+        "em",
+        "pti",
+        "ness"
+      ],
+      "py": "ㄝㄇㄆㄊㄧㄋㄝㄙㄙ",
+      "split": "em + pti + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "loneliness",
+      "mean": "孤獨",
+      "img": "📚",
+      "chunks": [
+        "lo",
+        "ne",
+        "li",
+        "ness"
+      ],
+      "py": "ㄌㄛㄋㄝㄌㄧㄋㄝㄙㄙ",
+      "split": "lo + ne + li + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "weariness",
+      "mean": "疲憊",
+      "img": "📚",
+      "chunks": [
+        "wea",
+        "ri",
+        "ness"
+      ],
+      "py": "ㄨㄝㄚㄖㄧㄋㄝㄙㄙ",
+      "split": "wea + ri + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "sweetness",
+      "mean": "甜美",
+      "img": "📚",
+      "chunks": [
+        "sweet",
+        "ness"
+      ],
+      "py": "ㄙㄨㄝㄝㄊㄋㄝㄙㄙ",
+      "split": "sweet + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "boldness",
+      "mean": "大膽",
+      "img": "📚",
+      "chunks": [
+        "bol",
+        "dness"
+      ],
+      "py": "ㄅㄛㄌㄉㄋㄝㄙㄙ",
+      "split": "bol + dness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "readiness",
+      "mean": "準備",
+      "img": "📚",
+      "chunks": [
+        "rea",
+        "di",
+        "ness"
+      ],
+      "py": "ㄖㄝㄚㄉㄧㄋㄝㄙㄙ",
+      "split": "rea + di + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "shyness",
+      "mean": "害羞",
+      "img": "📚",
+      "chunks": [
+        "shy",
+        "ness"
+      ],
+      "py": "ㄙㄏㄧㄋㄝㄙㄙ",
+      "split": "shy + ness",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "eagerness",
+      "mean": "熱切",
+      "img": "📚",
+      "chunks": [
+        "ea",
+        "ger",
+        "ness"
+      ],
+      "py": "ㄝㄚㄍㄝㄖㄋㄝㄙㄙ",
+      "split": "ea + ger + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "rudeness",
+      "mean": "粗魯",
+      "img": "📚",
+      "chunks": [
+        "ru",
+        "de",
+        "ness"
+      ],
+      "py": "ㄖㄚㄉㄝㄋㄝㄙㄙ",
+      "split": "ru + de + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "selfishness",
+      "mean": "自私",
+      "img": "📚",
+      "chunks": [
+        "sel",
+        "fis",
+        "hness"
+      ],
+      "py": "ㄙㄝㄌㄈㄧㄙㄏㄋㄝㄙㄙ",
+      "split": "sel + fis + hness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "politeness",
+      "mean": "禮貌",
+      "img": "📚",
+      "chunks": [
+        "po",
+        "li",
+        "te",
+        "ness"
+      ],
+      "py": "ㄆㄛㄌㄧㄊㄝㄋㄝㄙㄙ",
+      "split": "po + li + te + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "seriousness",
+      "mean": "嚴肅",
+      "img": "📚",
+      "chunks": [
+        "se",
+        "rious",
+        "ness"
+      ],
+      "py": "ㄙㄝㄖㄧㄛㄚㄙㄋㄝㄙㄙ",
+      "split": "se + rious + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cleverness",
+      "mean": "聰明",
+      "img": "📚",
+      "chunks": [
+        "cle",
+        "ver",
+        "ness"
+      ],
+      "py": "ㄎㄌㄝㄨㄝㄖㄋㄝㄙㄙ",
+      "split": "cle + ver + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "toughness",
+      "mean": "韌性",
+      "img": "📚",
+      "chunks": [
+        "toug",
+        "hness"
+      ],
+      "py": "ㄊㄛㄚㄍㄏㄋㄝㄙㄙ",
+      "split": "toug + hness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "vagueness",
+      "mean": "含糊",
+      "img": "📚",
+      "chunks": [
+        "va",
+        "gue",
+        "ness"
+      ],
+      "py": "ㄨㄚㄍㄚㄝㄋㄝㄙㄙ",
+      "split": "va + gue + ness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "compartment",
+      "mean": "隔間",
+      "img": "📚",
+      "chunks": [
+        "com",
+        "par",
+        "tment"
+      ],
+      "py": "ㄎㄛㄇㄆㄚㄖㄊㄇㄝㄋㄊ",
+      "split": "com + par + tment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "encouragement",
+      "mean": "鼓勵",
+      "img": "📚",
+      "chunks": [
+        "en",
+        "cou",
+        "ra",
+        "ge",
+        "ment"
+      ],
+      "py": "ㄝㄋㄎㄛㄚㄖㄚㄍㄝㄇㄝㄋㄊ",
+      "split": "en + cou + ra + ge + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "enjoyment",
+      "mean": "享受",
+      "img": "📚",
+      "chunks": [
+        "en",
+        "joy",
+        "ment"
+      ],
+      "py": "ㄝㄋㄐㄛㄧㄇㄝㄋㄊ",
+      "split": "en + joy + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "excitement",
+      "mean": "興奮",
+      "img": "📚",
+      "chunks": [
+        "ex",
+        "ci",
+        "te",
+        "ment"
+      ],
+      "py": "ㄝㄎㄙㄎㄧㄊㄝㄇㄝㄋㄊ",
+      "split": "ex + ci + te + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "improvement",
+      "mean": "改善",
+      "img": "📚",
+      "chunks": [
+        "im",
+        "pro",
+        "ve",
+        "ment"
+      ],
+      "py": "ㄧㄇㄆㄖㄛㄨㄝㄇㄝㄋㄊ",
+      "split": "im + pro + ve + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "judgement",
+      "mean": "判斷",
+      "img": "📚",
+      "chunks": [
+        "jud",
+        "ge",
+        "ment"
+      ],
+      "py": "ㄐㄚㄉㄍㄝㄇㄝㄋㄊ",
+      "split": "jud + ge + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "movement",
+      "mean": "運動",
+      "img": "📚",
+      "chunks": [
+        "mo",
+        "ve",
+        "ment"
+      ],
+      "py": "ㄇㄛㄨㄝㄇㄝㄋㄊ",
+      "split": "mo + ve + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "payment",
+      "mean": "支付",
+      "img": "📚",
+      "chunks": [
+        "pay",
+        "ment"
+      ],
+      "py": "ㄆㄚㄧㄇㄝㄋㄊ",
+      "split": "pay + ment",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "placement",
+      "mean": "安置",
+      "img": "📚",
+      "chunks": [
+        "pla",
+        "ce",
+        "ment"
+      ],
+      "py": "ㄆㄌㄚㄎㄝㄇㄝㄋㄊ",
+      "split": "pla + ce + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "requirement",
+      "mean": "要求",
+      "img": "📚",
+      "chunks": [
+        "re",
+        "qui",
+        "re",
+        "ment"
+      ],
+      "py": "ㄖㄝㄎㄚㄧㄖㄝㄇㄝㄋㄊ",
+      "split": "re + qui + re + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "shipment",
+      "mean": "貨運",
+      "img": "📚",
+      "chunks": [
+        "ship",
+        "ment"
+      ],
+      "py": "ㄙㄏㄧㄆㄇㄝㄋㄊ",
+      "split": "ship + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "adoption",
+      "mean": "收養",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "dop",
+        "tion"
+      ],
+      "py": "ㄚㄉㄛㄆㄊㄧㄛㄋ",
+      "split": "a + dop + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "punctuation",
+      "mean": "標點",
+      "img": "📚",
+      "chunks": [
+        "pun",
+        "ctua",
+        "tion"
+      ],
+      "py": "ㄆㄚㄋㄎㄊㄚㄚㄊㄧㄛㄋ",
+      "split": "pun + ctua + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "a chip on shoulder",
+      "mean": "積怨",
+      "img": "💬",
+      "chunks": [
+        "a",
+        "chip",
+        "on",
+        "shoul",
+        "der"
+      ],
+      "py": "ㄚㄎㄏㄧㄆㄛㄋㄙㄏㄛㄚㄌㄉㄝㄖ",
+      "split": "a + chip + on + shoul + der",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "add insult to injury",
+      "mean": "雪上加霜",
+      "img": "💬",
+      "chunks": [
+        "add",
+        "in",
+        "sult",
+        "to",
+        "in",
+        "ju",
+        "ry"
+      ],
+      "py": "ㄚㄉㄉㄧㄋㄙㄚㄌㄊㄊㄛㄧㄋㄐㄚㄖㄧ",
+      "split": "add + in + sult + to + in + ju + ry",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "against the clock",
+      "mean": "分秒必爭",
+      "img": "💬",
+      "chunks": [
+        "a",
+        "gainst",
+        "the",
+        "clo",
+        "ck"
+      ],
+      "py": "ㄚㄍㄚㄧㄋㄙㄊㄊㄏㄝㄎㄌㄛㄎㄎ",
+      "split": "a + gainst + the + clo + ck",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "apple of the eye",
+      "mean": "心愛的人",
+      "img": "💬",
+      "chunks": [
+        "ap",
+        "ple",
+        "of",
+        "the",
+        "eye"
+      ],
+      "py": "ㄚㄆㄆㄌㄝㄛㄈㄊㄏㄝㄝㄧㄝ",
+      "split": "ap + ple + of + the + eye",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "at the drop of a hat",
+      "mean": "立即",
+      "img": "💬",
+      "chunks": [
+        "at",
+        "the",
+        "drop",
+        "of",
+        "a",
+        "hat"
+      ],
+      "py": "ㄚㄊㄊㄏㄝㄉㄖㄛㄆㄛㄈㄚㄏㄚㄊ",
+      "split": "at + the + drop + of + a + hat",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "at the end of the day",
+      "mean": "歸根究底",
+      "img": "💬",
+      "chunks": [
+        "at",
+        "the",
+        "end",
+        "of",
+        "the",
+        "day"
+      ],
+      "py": "ㄚㄊㄊㄏㄝㄝㄋㄉㄛㄈㄊㄏㄝㄉㄚㄧ",
+      "split": "at + the + end + of + the + day",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "bend over backwards",
+      "mean": "竭盡所能",
+      "img": "💬",
+      "chunks": [
+        "bend",
+        "over",
+        "bac",
+        "kwards"
+      ],
+      "py": "ㄅㄝㄋㄉㄛㄨㄝㄖㄅㄚㄎㄎㄨㄚㄖㄉㄙ",
+      "split": "bend + over + bac + kwards",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "blow your own horn",
+      "mean": "自我吹捧",
+      "img": "💬",
+      "chunks": [
+        "blow",
+        "your",
+        "own",
+        "horn"
+      ],
+      "py": "ㄅㄌㄛㄨㄧㄛㄚㄖㄛㄨㄋㄏㄛㄖㄋ",
+      "split": "blow + your + own + horn",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "bring home the bacon",
+      "mean": "賺錢養家",
+      "img": "💬",
+      "chunks": [
+        "bri",
+        "ng",
+        "home",
+        "the",
+        "ba",
+        "con"
+      ],
+      "py": "ㄅㄖㄧㄋㄍㄏㄛㄇㄝㄊㄏㄝㄅㄚㄎㄛㄋ",
+      "split": "bri + ng + home + the + ba + con",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "burn bridges",
+      "mean": "斷絕關係",
+      "img": "🔗",
+      "chunks": [
+        "burn",
+        "brid",
+        "ges"
+      ],
+      "py": "ㄅㄚㄖㄋㄅㄖㄧㄉㄍㄝㄙ",
+      "split": "burn + brid + ges",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "catch red handed",
+      "mean": "當場抓到",
+      "img": "💬",
+      "chunks": [
+        "cat",
+        "ch",
+        "red",
+        "han",
+        "ded"
+      ],
+      "py": "ㄎㄚㄊㄎㄏㄖㄝㄉㄏㄚㄋㄉㄝㄉ",
+      "split": "cat + ch + red + han + ded",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "chip off the old block",
+      "mean": "一個模子",
+      "img": "💬",
+      "chunks": [
+        "chip",
+        "off",
+        "the",
+        "old",
+        "blo",
+        "ck"
+      ],
+      "py": "ㄎㄏㄧㄆㄛㄈㄈㄊㄏㄝㄛㄌㄉㄅㄌㄛㄎㄎ",
+      "split": "chip + off + the + old + blo + ck",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "cut corners",
+      "mean": "偷工減料",
+      "img": "🔗",
+      "chunks": [
+        "cut",
+        "cor",
+        "ners"
+      ],
+      "py": "ㄎㄚㄊㄎㄛㄖㄋㄝㄖㄙ",
+      "split": "cut + cor + ners",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "drag your feet",
+      "mean": "拖延",
+      "img": "💬",
+      "chunks": [
+        "drag",
+        "your",
+        "feet"
+      ],
+      "py": "ㄉㄖㄚㄍㄧㄛㄚㄖㄈㄝㄝㄊ",
+      "split": "drag + your + feet",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "dressed to the nines",
+      "mean": "盛裝打扮",
+      "img": "💬",
+      "chunks": [
+        "dres",
+        "sed",
+        "to",
+        "the",
+        "ni",
+        "nes"
+      ],
+      "py": "ㄉㄖㄝㄙㄙㄝㄉㄊㄛㄊㄏㄝㄋㄧㄋㄝㄙ",
+      "split": "dres + sed + to + the + ni + nes",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "eat humble pie",
+      "mean": "低頭認錯",
+      "img": "💬",
+      "chunks": [
+        "eat",
+        "hum",
+        "ble",
+        "pie"
+      ],
+      "py": "ㄝㄚㄊㄏㄚㄇㄅㄌㄝㄆㄧㄝ",
+      "split": "eat + hum + ble + pie",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "face the music",
+      "mean": "面對後果",
+      "img": "💬",
+      "chunks": [
+        "face",
+        "the",
+        "mu",
+        "sic"
+      ],
+      "py": "ㄈㄚㄎㄝㄊㄏㄝㄇㄚㄙㄧㄎ",
+      "split": "face + the + mu + sic",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "fly off the handle",
+      "mean": "勃然大怒",
+      "img": "💬",
+      "chunks": [
+        "fly",
+        "off",
+        "the",
+        "han",
+        "dle"
+      ],
+      "py": "ㄈㄌㄧㄛㄈㄈㄊㄏㄝㄏㄚㄋㄉㄌㄝ",
+      "split": "fly + off + the + han + dle",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "food for thought",
+      "mean": "值得深思",
+      "img": "💬",
+      "chunks": [
+        "food",
+        "for",
+        "thou",
+        "ght"
+      ],
+      "py": "ㄈㄛㄛㄉㄈㄛㄖㄊㄏㄛㄚㄍㄏㄊ",
+      "split": "food + for + thou + ght",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "get out of hand",
+      "mean": "失控",
+      "img": "💬",
+      "chunks": [
+        "get",
+        "out",
+        "of",
+        "hand"
+      ],
+      "py": "ㄍㄝㄊㄛㄚㄊㄛㄈㄏㄚㄋㄉ",
+      "split": "get + out + of + hand",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "grin and bear it",
+      "mean": "咬牙忍受",
+      "img": "💬",
+      "chunks": [
+        "grin",
+        "and",
+        "bear",
+        "it"
+      ],
+      "py": "ㄍㄖㄧㄋㄚㄋㄉㄅㄝㄚㄖㄧㄊ",
+      "split": "grin + and + bear + it",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "hands are tied",
+      "mean": "無能為力",
+      "img": "💬",
+      "chunks": [
+        "han",
+        "ds",
+        "are",
+        "tied"
+      ],
+      "py": "ㄏㄚㄋㄉㄙㄚㄖㄝㄊㄧㄝㄉ",
+      "split": "han + ds + are + tied",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "account for",
+      "mean": "解釋",
+      "img": "🔗",
+      "chunks": [
+        "ac",
+        "count",
+        "for"
+      ],
+      "py": "ㄚㄎㄎㄛㄚㄋㄊㄈㄛㄖ",
+      "split": "ac + count + for",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "add up",
+      "mean": "合理",
+      "img": "🔗",
+      "chunks": [
+        "add",
+        "up"
+      ],
+      "py": "ㄚㄉㄉㄚㄆ",
+      "split": "add + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "back down",
+      "mean": "讓步",
+      "img": "🔗",
+      "chunks": [
+        "back",
+        "down"
+      ],
+      "py": "ㄅㄚㄎㄎㄉㄛㄨㄋ",
+      "split": "back + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "back off",
+      "mean": "退讓",
+      "img": "🔗",
+      "chunks": [
+        "back",
+        "off"
+      ],
+      "py": "ㄅㄚㄎㄎㄛㄈㄈ",
+      "split": "back + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "bear with",
+      "mean": "容忍",
+      "img": "🔗",
+      "chunks": [
+        "bear",
+        "with"
+      ],
+      "py": "ㄅㄝㄚㄖㄨㄧㄊㄏ",
+      "split": "bear + with",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "beef up",
+      "mean": "加強",
+      "img": "🔗",
+      "chunks": [
+        "beef",
+        "up"
+      ],
+      "py": "ㄅㄝㄝㄈㄚㄆ",
+      "split": "beef + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "blow up",
+      "mean": "爆炸",
+      "img": "🔗",
+      "chunks": [
+        "blow",
+        "up"
+      ],
+      "py": "ㄅㄌㄛㄨㄚㄆ",
+      "split": "blow + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "boil down to",
+      "mean": "歸結為",
+      "img": "💬",
+      "chunks": [
+        "boil",
+        "down",
+        "to"
+      ],
+      "py": "ㄅㄛㄧㄌㄉㄛㄨㄋㄊㄛ",
+      "split": "boil + down + to",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "bottle up",
+      "mean": "壓抑",
+      "img": "🔗",
+      "chunks": [
+        "bot",
+        "tle",
+        "up"
+      ],
+      "py": "ㄅㄛㄊㄊㄌㄝㄚㄆ",
+      "split": "bot + tle + up",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "branch out",
+      "mean": "拓展",
+      "img": "🔗",
+      "chunks": [
+        "bra",
+        "nch",
+        "out"
+      ],
+      "py": "ㄅㄖㄚㄋㄎㄏㄛㄚㄊ",
+      "split": "bra + nch + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "breeze through",
+      "mean": "輕鬆通過",
+      "img": "🔗",
+      "chunks": [
+        "bree",
+        "ze",
+        "thro",
+        "ugh"
+      ],
+      "py": "ㄅㄖㄝㄝㄗㄝㄊㄏㄖㄛㄚㄍㄏ",
+      "split": "bree + ze + thro + ugh",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "brush off",
+      "mean": "輕視",
+      "img": "🔗",
+      "chunks": [
+        "bru",
+        "sh",
+        "off"
+      ],
+      "py": "ㄅㄖㄚㄙㄏㄛㄈㄈ",
+      "split": "bru + sh + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "bump into",
+      "mean": "偶遇",
+      "img": "🔗",
+      "chunks": [
+        "bump",
+        "into"
+      ],
+      "py": "ㄅㄚㄇㄆㄧㄋㄊㄛ",
+      "split": "bump + into",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "butter up",
+      "mean": "奉承",
+      "img": "🔗",
+      "chunks": [
+        "but",
+        "ter",
+        "up"
+      ],
+      "py": "ㄅㄚㄊㄊㄝㄖㄚㄆ",
+      "split": "but + ter + up",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "cash in",
+      "mean": "兌現",
+      "img": "🔗",
+      "chunks": [
+        "cash",
+        "in"
+      ],
+      "py": "ㄎㄚㄙㄏㄧㄋ",
+      "split": "cash + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "chew out",
+      "mean": "責罵",
+      "img": "🔗",
+      "chunks": [
+        "chew",
+        "out"
+      ],
+      "py": "ㄎㄏㄝㄨㄛㄚㄊ",
+      "split": "chew + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "chip in",
+      "mean": "湊錢",
+      "img": "🔗",
+      "chunks": [
+        "chip",
+        "in"
+      ],
+      "py": "ㄎㄏㄧㄆㄧㄋ",
+      "split": "chip + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "chop up",
+      "mean": "切碎",
+      "img": "🔗",
+      "chunks": [
+        "chop",
+        "up"
+      ],
+      "py": "ㄎㄏㄛㄆㄚㄆ",
+      "split": "chop + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "clean out",
+      "mean": "清空",
+      "img": "🔗",
+      "chunks": [
+        "cle",
+        "an",
+        "out"
+      ],
+      "py": "ㄎㄌㄝㄚㄋㄛㄚㄊ",
+      "split": "cle + an + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "clock in",
+      "mean": "打卡上班",
+      "img": "🔗",
+      "chunks": [
+        "clo",
+        "ck",
+        "in"
+      ],
+      "py": "ㄎㄌㄛㄎㄎㄧㄋ",
+      "split": "clo + ck + in",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "clock out",
+      "mean": "打卡下班",
+      "img": "🔗",
+      "chunks": [
+        "clo",
+        "ck",
+        "out"
+      ],
+      "py": "ㄎㄌㄛㄎㄎㄛㄚㄊ",
+      "split": "clo + ck + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "come up with",
+      "mean": "想出",
+      "img": "💬",
+      "chunks": [
+        "come",
+        "up",
+        "with"
+      ],
+      "py": "ㄎㄛㄇㄝㄚㄆㄨㄧㄊㄏ",
+      "split": "come + up + with",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "cool off",
+      "mean": "冷卻",
+      "img": "🔗",
+      "chunks": [
+        "cool",
+        "off"
+      ],
+      "py": "ㄎㄛㄛㄌㄛㄈㄈ",
+      "split": "cool + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "count on",
+      "mean": "依靠",
+      "img": "🔗",
+      "chunks": [
+        "cou",
+        "nt",
+        "on"
+      ],
+      "py": "ㄎㄛㄚㄋㄊㄛㄋ",
+      "split": "cou + nt + on",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "crack down",
+      "mean": "嚴打",
+      "img": "🔗",
+      "chunks": [
+        "cra",
+        "ck",
+        "down"
+      ],
+      "py": "ㄎㄖㄚㄎㄎㄉㄛㄨㄋ",
+      "split": "cra + ck + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "die down",
+      "mean": "平息",
+      "img": "🔗",
+      "chunks": [
+        "die",
+        "down"
+      ],
+      "py": "ㄉㄧㄝㄉㄛㄨㄋ",
+      "split": "die + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "dig up",
+      "mean": "挖掘",
+      "img": "🔗",
+      "chunks": [
+        "dig",
+        "up"
+      ],
+      "py": "ㄉㄧㄍㄚㄆ",
+      "split": "dig + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "dish out",
+      "mean": "分發",
+      "img": "🔗",
+      "chunks": [
+        "dish",
+        "out"
+      ],
+      "py": "ㄉㄧㄙㄏㄛㄚㄊ",
+      "split": "dish + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "do without",
+      "mean": "沒有也行",
+      "img": "🔗",
+      "chunks": [
+        "do",
+        "wit",
+        "hout"
+      ],
+      "py": "ㄉㄛㄨㄧㄊㄏㄛㄚㄊ",
+      "split": "do + wit + hout",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "doze off",
+      "mean": "打瞌睡",
+      "img": "🔗",
+      "chunks": [
+        "doze",
+        "off"
+      ],
+      "py": "ㄉㄛㄗㄝㄛㄈㄈ",
+      "split": "doze + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "dress up",
+      "mean": "打扮",
+      "img": "🔗",
+      "chunks": [
+        "dre",
+        "ss",
+        "up"
+      ],
+      "py": "ㄉㄖㄝㄙㄙㄚㄆ",
+      "split": "dre + ss + up",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "drop in",
+      "mean": "順道拜訪",
+      "img": "🔗",
+      "chunks": [
+        "drop",
+        "in"
+      ],
+      "py": "ㄉㄖㄛㄆㄧㄋ",
+      "split": "drop + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "eat out",
+      "mean": "外食",
+      "img": "🔗",
+      "chunks": [
+        "eat",
+        "out"
+      ],
+      "py": "ㄝㄚㄊㄛㄚㄊ",
+      "split": "eat + out",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "end up",
+      "mean": "結果",
+      "img": "🔗",
+      "chunks": [
+        "end",
+        "up"
+      ],
+      "py": "ㄝㄋㄉㄚㄆ",
+      "split": "end + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "fade away",
+      "mean": "消逝",
+      "img": "🔗",
+      "chunks": [
+        "fade",
+        "away"
+      ],
+      "py": "ㄈㄚㄉㄝㄚㄨㄚㄧ",
+      "split": "fade + away",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "feel like",
+      "mean": "想要",
+      "img": "🔗",
+      "chunks": [
+        "feel",
+        "like"
+      ],
+      "py": "ㄈㄝㄝㄌㄌㄧㄎㄝ",
+      "split": "feel + like",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "fish for",
+      "mean": "設法獲得",
+      "img": "🔗",
+      "chunks": [
+        "fish",
+        "for"
+      ],
+      "py": "ㄈㄧㄙㄏㄈㄛㄖ",
+      "split": "fish + for",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "flag down",
+      "mean": "招手攔下",
+      "img": "🔗",
+      "chunks": [
+        "flag",
+        "down"
+      ],
+      "py": "ㄈㄌㄚㄍㄉㄛㄨㄋ",
+      "split": "flag + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "flip out",
+      "mean": "發火",
+      "img": "🔗",
+      "chunks": [
+        "flip",
+        "out"
+      ],
+      "py": "ㄈㄌㄧㄆㄛㄚㄊ",
+      "split": "flip + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "focus on",
+      "mean": "專注於",
+      "img": "🔗",
+      "chunks": [
+        "fo",
+        "cus",
+        "on"
+      ],
+      "py": "ㄈㄛㄎㄚㄙㄛㄋ",
+      "split": "fo + cus + on",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "freak out",
+      "mean": "嚇壞",
+      "img": "🔗",
+      "chunks": [
+        "fre",
+        "ak",
+        "out"
+      ],
+      "py": "ㄈㄖㄝㄚㄎㄛㄚㄊ",
+      "split": "fre + ak + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "frown upon",
+      "mean": "不贊同",
+      "img": "🔗",
+      "chunks": [
+        "fro",
+        "wn",
+        "upon"
+      ],
+      "py": "ㄈㄖㄛㄨㄋㄚㄆㄛㄋ",
+      "split": "fro + wn + upon",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "gear up",
+      "mean": "準備",
+      "img": "🔗",
+      "chunks": [
+        "gear",
+        "up"
+      ],
+      "py": "ㄍㄝㄚㄖㄚㄆ",
+      "split": "gear + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "give in",
+      "mean": "屈服",
+      "img": "🔗",
+      "chunks": [
+        "give",
+        "in"
+      ],
+      "py": "ㄍㄧㄨㄝㄧㄋ",
+      "split": "give + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "grow up",
+      "mean": "長大",
+      "img": "🔗",
+      "chunks": [
+        "grow",
+        "up"
+      ],
+      "py": "ㄍㄖㄛㄨㄚㄆ",
+      "split": "grow + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "hand down",
+      "mean": "傳承",
+      "img": "🔗",
+      "chunks": [
+        "hand",
+        "down"
+      ],
+      "py": "ㄏㄚㄋㄉㄉㄛㄨㄋ",
+      "split": "hand + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "hand off",
+      "mean": "移交",
+      "img": "🔗",
+      "chunks": [
+        "hand",
+        "off"
+      ],
+      "py": "ㄏㄚㄋㄉㄛㄈㄈ",
+      "split": "hand + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "head off",
+      "mean": "出發",
+      "img": "🔗",
+      "chunks": [
+        "head",
+        "off"
+      ],
+      "py": "ㄏㄝㄚㄉㄛㄈㄈ",
+      "split": "head + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "hold off",
+      "mean": "延後",
+      "img": "🔗",
+      "chunks": [
+        "hold",
+        "off"
+      ],
+      "py": "ㄏㄛㄌㄉㄛㄈㄈ",
+      "split": "hold + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "hook up",
+      "mean": "勾搭",
+      "img": "🔗",
+      "chunks": [
+        "hook",
+        "up"
+      ],
+      "py": "ㄏㄛㄛㄎㄚㄆ",
+      "split": "hook + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "iron out",
+      "mean": "解決",
+      "img": "🔗",
+      "chunks": [
+        "iron",
+        "out"
+      ],
+      "py": "ㄧㄖㄛㄋㄛㄚㄊ",
+      "split": "iron + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "jump in",
+      "mean": "加入",
+      "img": "🔗",
+      "chunks": [
+        "jump",
+        "in"
+      ],
+      "py": "ㄐㄚㄇㄆㄧㄋ",
+      "split": "jump + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "keep at",
+      "mean": "堅持",
+      "img": "🔗",
+      "chunks": [
+        "keep",
+        "at"
+      ],
+      "py": "ㄎㄝㄝㄆㄚㄊ",
+      "split": "keep + at",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "kick back",
+      "mean": "放鬆",
+      "img": "🔗",
+      "chunks": [
+        "kick",
+        "back"
+      ],
+      "py": "ㄎㄧㄎㄎㄅㄚㄎㄎ",
+      "split": "kick + back",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "knock off",
+      "mean": "停工",
+      "img": "🔗",
+      "chunks": [
+        "kno",
+        "ck",
+        "off"
+      ],
+      "py": "ㄎㄋㄛㄎㄎㄛㄈㄈ",
+      "split": "kno + ck + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "knock out",
+      "mean": "擊倒",
+      "img": "🔗",
+      "chunks": [
+        "kno",
+        "ck",
+        "out"
+      ],
+      "py": "ㄎㄋㄛㄎㄎㄛㄚㄊ",
+      "split": "kno + ck + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "lay out",
+      "mean": "陳列",
+      "img": "🔗",
+      "chunks": [
+        "lay",
+        "out"
+      ],
+      "py": "ㄌㄚㄧㄛㄚㄊ",
+      "split": "lay + out",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "lead to",
+      "mean": "導致",
+      "img": "🔗",
+      "chunks": [
+        "lead",
+        "to"
+      ],
+      "py": "ㄌㄝㄚㄉㄊㄛ",
+      "split": "lead + to",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "let off",
+      "mean": "放掉",
+      "img": "🔗",
+      "chunks": [
+        "let",
+        "off"
+      ],
+      "py": "ㄌㄝㄊㄛㄈㄈ",
+      "split": "let + off",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "look down on",
+      "mean": "輕視",
+      "img": "💬",
+      "chunks": [
+        "look",
+        "down",
+        "on"
+      ],
+      "py": "ㄌㄛㄛㄎㄉㄛㄨㄋㄛㄋ",
+      "split": "look + down + on",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "lose out",
+      "mean": "錯失",
+      "img": "🔗",
+      "chunks": [
+        "lose",
+        "out"
+      ],
+      "py": "ㄌㄛㄙㄝㄛㄚㄊ",
+      "split": "lose + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "make for",
+      "mean": "前往",
+      "img": "🔗",
+      "chunks": [
+        "make",
+        "for"
+      ],
+      "py": "ㄇㄚㄎㄝㄈㄛㄖ",
+      "split": "make + for",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "make out",
+      "mean": "吻",
+      "img": "🔗",
+      "chunks": [
+        "make",
+        "out"
+      ],
+      "py": "ㄇㄚㄎㄝㄛㄚㄊ",
+      "split": "make + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "mess up",
+      "mean": "搞砸",
+      "img": "🔗",
+      "chunks": [
+        "mess",
+        "up"
+      ],
+      "py": "ㄇㄝㄙㄙㄚㄆ",
+      "split": "mess + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "mix up",
+      "mean": "搞混",
+      "img": "🔗",
+      "chunks": [
+        "mix",
+        "up"
+      ],
+      "py": "ㄇㄧㄎㄙㄚㄆ",
+      "split": "mix + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "opt out",
+      "mean": "選擇退出",
+      "img": "🔗",
+      "chunks": [
+        "opt",
+        "out"
+      ],
+      "py": "ㄛㄆㄊㄛㄚㄊ",
+      "split": "opt + out",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "pay attention",
+      "mean": "注意",
+      "img": "🔗",
+      "chunks": [
+        "pay",
+        "at",
+        "ten",
+        "tion"
+      ],
+      "py": "ㄆㄚㄧㄚㄊㄊㄝㄋㄊㄧㄛㄋ",
+      "split": "pay + at + ten + tion",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "pick up on",
+      "mean": "察覺",
+      "img": "💬",
+      "chunks": [
+        "pick",
+        "up",
+        "on"
+      ],
+      "py": "ㄆㄧㄎㄎㄚㄆㄛㄋ",
+      "split": "pick + up + on",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "pile up",
+      "mean": "堆積",
+      "img": "🔗",
+      "chunks": [
+        "pile",
+        "up"
+      ],
+      "py": "ㄆㄧㄌㄝㄚㄆ",
+      "split": "pile + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "pin down",
+      "mean": "確定",
+      "img": "🔗",
+      "chunks": [
+        "pin",
+        "down"
+      ],
+      "py": "ㄆㄧㄋㄉㄛㄨㄋ",
+      "split": "pin + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "plug into",
+      "mean": "插入",
+      "img": "🔗",
+      "chunks": [
+        "plug",
+        "into"
+      ],
+      "py": "ㄆㄌㄚㄍㄧㄋㄊㄛ",
+      "split": "plug + into",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "point at",
+      "mean": "指向",
+      "img": "🔗",
+      "chunks": [
+        "poi",
+        "nt",
+        "at"
+      ],
+      "py": "ㄆㄛㄧㄋㄊㄚㄊ",
+      "split": "poi + nt + at",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "pop in",
+      "mean": "突然出現",
+      "img": "🔗",
+      "chunks": [
+        "pop",
+        "in"
+      ],
+      "py": "ㄆㄛㄆㄧㄋ",
+      "split": "pop + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "pop up",
+      "mean": "彈出",
+      "img": "🔗",
+      "chunks": [
+        "pop",
+        "up"
+      ],
+      "py": "ㄆㄛㄆㄚㄆ",
+      "split": "pop + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "pour out",
+      "mean": "傾訴",
+      "img": "🔗",
+      "chunks": [
+        "pour",
+        "out"
+      ],
+      "py": "ㄆㄛㄚㄖㄛㄚㄊ",
+      "split": "pour + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "prop up",
+      "mean": "支撐",
+      "img": "🔗",
+      "chunks": [
+        "prop",
+        "up"
+      ],
+      "py": "ㄆㄖㄛㄆㄚㄆ",
+      "split": "prop + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "puff up",
+      "mean": "腫脹",
+      "img": "🔗",
+      "chunks": [
+        "puff",
+        "up"
+      ],
+      "py": "ㄆㄚㄈㄈㄚㄆ",
+      "split": "puff + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "punch in",
+      "mean": "打卡",
+      "img": "🔗",
+      "chunks": [
+        "pun",
+        "ch",
+        "in"
+      ],
+      "py": "ㄆㄚㄋㄎㄏㄧㄋ",
+      "split": "pun + ch + in",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "push for",
+      "mean": "力爭",
+      "img": "🔗",
+      "chunks": [
+        "push",
+        "for"
+      ],
+      "py": "ㄆㄚㄙㄏㄈㄛㄖ",
+      "split": "push + for",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "quiet down",
+      "mean": "安靜",
+      "img": "🔗",
+      "chunks": [
+        "qui",
+        "et",
+        "down"
+      ],
+      "py": "ㄎㄚㄧㄝㄊㄉㄛㄨㄋ",
+      "split": "qui + et + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "rack up",
+      "mean": "累積",
+      "img": "🔗",
+      "chunks": [
+        "rack",
+        "up"
+      ],
+      "py": "ㄖㄚㄎㄎㄚㄆ",
+      "split": "rack + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "rake in",
+      "mean": "大撈",
+      "img": "🔗",
+      "chunks": [
+        "rake",
+        "in"
+      ],
+      "py": "ㄖㄚㄎㄝㄧㄋ",
+      "split": "rake + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "reach out",
+      "mean": "聯絡",
+      "img": "🔗",
+      "chunks": [
+        "rea",
+        "ch",
+        "out"
+      ],
+      "py": "ㄖㄝㄚㄎㄏㄛㄚㄊ",
+      "split": "rea + ch + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "rely on",
+      "mean": "依賴",
+      "img": "🔗",
+      "chunks": [
+        "rely",
+        "on"
+      ],
+      "py": "ㄖㄝㄌㄧㄛㄋ",
+      "split": "rely + on",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "rest on",
+      "mean": "依靠",
+      "img": "🔗",
+      "chunks": [
+        "rest",
+        "on"
+      ],
+      "py": "ㄖㄝㄙㄊㄛㄋ",
+      "split": "rest + on",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "rise above",
+      "mean": "克服",
+      "img": "🔗",
+      "chunks": [
+        "rise",
+        "a",
+        "bo",
+        "ve"
+      ],
+      "py": "ㄖㄧㄙㄝㄚㄅㄛㄨㄝ",
+      "split": "rise + a + bo + ve",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "rise up",
+      "mean": "起義",
+      "img": "🔗",
+      "chunks": [
+        "rise",
+        "up"
+      ],
+      "py": "ㄖㄧㄙㄝㄚㄆ",
+      "split": "rise + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "rope in",
+      "mean": "拉攏",
+      "img": "🔗",
+      "chunks": [
+        "rope",
+        "in"
+      ],
+      "py": "ㄖㄛㄆㄝㄧㄋ",
+      "split": "rope + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "rub off",
+      "mean": "沾染",
+      "img": "🔗",
+      "chunks": [
+        "rub",
+        "off"
+      ],
+      "py": "ㄖㄚㄅㄛㄈㄈ",
+      "split": "rub + off",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "rush in",
+      "mean": "衝進",
+      "img": "🔗",
+      "chunks": [
+        "rush",
+        "in"
+      ],
+      "py": "ㄖㄚㄙㄏㄧㄋ",
+      "split": "rush + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "save face",
+      "mean": "保住面子",
+      "img": "🔗",
+      "chunks": [
+        "save",
+        "face"
+      ],
+      "py": "ㄙㄚㄨㄝㄈㄚㄎㄝ",
+      "split": "save + face",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "scrape by",
+      "mean": "勉強度日",
+      "img": "🔗",
+      "chunks": [
+        "scra",
+        "pe",
+        "by"
+      ],
+      "py": "ㄙㄎㄖㄚㄆㄝㄅㄧ",
+      "split": "scra + pe + by",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "scrap with",
+      "mean": "爭吵",
+      "img": "🔗",
+      "chunks": [
+        "scr",
+        "ap",
+        "with"
+      ],
+      "py": "ㄙㄎㄖㄚㄆㄨㄧㄊㄏ",
+      "split": "scr + ap + with",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "seal off",
+      "mean": "封鎖",
+      "img": "🔗",
+      "chunks": [
+        "seal",
+        "off"
+      ],
+      "py": "ㄙㄝㄚㄌㄛㄈㄈ",
+      "split": "seal + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "see through",
+      "mean": "看穿",
+      "img": "🔗",
+      "chunks": [
+        "see",
+        "thro",
+        "ugh"
+      ],
+      "py": "ㄙㄝㄝㄊㄏㄖㄛㄚㄍㄏ",
+      "split": "see + thro + ugh",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "settle for",
+      "mean": "將就",
+      "img": "🔗",
+      "chunks": [
+        "set",
+        "tle",
+        "for"
+      ],
+      "py": "ㄙㄝㄊㄊㄌㄝㄈㄛㄖ",
+      "split": "set + tle + for",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "shake off",
+      "mean": "擺脫",
+      "img": "🔗",
+      "chunks": [
+        "sha",
+        "ke",
+        "off"
+      ],
+      "py": "ㄙㄏㄚㄎㄝㄛㄈㄈ",
+      "split": "sha + ke + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "shed light on",
+      "mean": "闡明",
+      "img": "💬",
+      "chunks": [
+        "shed",
+        "lig",
+        "ht",
+        "on"
+      ],
+      "py": "ㄙㄏㄝㄉㄌㄧㄍㄏㄊㄛㄋ",
+      "split": "shed + lig + ht + on",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "shore up",
+      "mean": "加強",
+      "img": "🔗",
+      "chunks": [
+        "sho",
+        "re",
+        "up"
+      ],
+      "py": "ㄙㄏㄛㄖㄝㄚㄆ",
+      "split": "sho + re + up",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "shrug off",
+      "mean": "置之不理",
+      "img": "🔗",
+      "chunks": [
+        "shr",
+        "ug",
+        "off"
+      ],
+      "py": "ㄙㄏㄖㄚㄍㄛㄈㄈ",
+      "split": "shr + ug + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "shut out",
+      "mean": "排除",
+      "img": "🔗",
+      "chunks": [
+        "shut",
+        "out"
+      ],
+      "py": "ㄙㄏㄚㄊㄛㄚㄊ",
+      "split": "shut + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "sift through",
+      "mean": "篩選",
+      "img": "🔗",
+      "chunks": [
+        "sift",
+        "thro",
+        "ugh"
+      ],
+      "py": "ㄙㄧㄈㄊㄊㄏㄖㄛㄚㄍㄏ",
+      "split": "sift + thro + ugh",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "size up",
+      "mean": "打量",
+      "img": "🔗",
+      "chunks": [
+        "size",
+        "up"
+      ],
+      "py": "ㄙㄧㄗㄝㄚㄆ",
+      "split": "size + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "skim through",
+      "mean": "瀏覽",
+      "img": "🔗",
+      "chunks": [
+        "skim",
+        "thro",
+        "ugh"
+      ],
+      "py": "ㄙㄎㄧㄇㄊㄏㄖㄛㄚㄍㄏ",
+      "split": "skim + thro + ugh",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "slip away",
+      "mean": "溜走",
+      "img": "🔗",
+      "chunks": [
+        "slip",
+        "away"
+      ],
+      "py": "ㄙㄌㄧㄆㄚㄨㄚㄧ",
+      "split": "slip + away",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "snap out",
+      "mean": "清醒",
+      "img": "🔗",
+      "chunks": [
+        "snap",
+        "out"
+      ],
+      "py": "ㄙㄋㄚㄆㄛㄚㄊ",
+      "split": "snap + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "soak up",
+      "mean": "吸收",
+      "img": "🔗",
+      "chunks": [
+        "soak",
+        "up"
+      ],
+      "py": "ㄙㄛㄚㄎㄚㄆ",
+      "split": "soak + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "spell out",
+      "mean": "說明白",
+      "img": "🔗",
+      "chunks": [
+        "spe",
+        "ll",
+        "out"
+      ],
+      "py": "ㄙㄆㄝㄌㄌㄛㄚㄊ",
+      "split": "spe + ll + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "spread out",
+      "mean": "展開",
+      "img": "🔗",
+      "chunks": [
+        "spr",
+        "ead",
+        "out"
+      ],
+      "py": "ㄙㄆㄖㄝㄚㄉㄛㄚㄊ",
+      "split": "spr + ead + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "square off",
+      "mean": "對峙",
+      "img": "🔗",
+      "chunks": [
+        "squa",
+        "re",
+        "off"
+      ],
+      "py": "ㄙㄎㄚㄚㄖㄝㄛㄈㄈ",
+      "split": "squa + re + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "stack up",
+      "mean": "疊起",
+      "img": "🔗",
+      "chunks": [
+        "sta",
+        "ck",
+        "up"
+      ],
+      "py": "ㄙㄊㄚㄎㄎㄚㄆ",
+      "split": "sta + ck + up",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "stand up for",
+      "mean": "維護",
+      "img": "💬",
+      "chunks": [
+        "sta",
+        "nd",
+        "up",
+        "for"
+      ],
+      "py": "ㄙㄊㄚㄋㄉㄚㄆㄈㄛㄖ",
+      "split": "sta + nd + up + for",
+      "theme": "idioms",
+      "stage": 3
+    },
+    {
+      "word": "stem from",
+      "mean": "源於",
+      "img": "🔗",
+      "chunks": [
+        "stem",
+        "from"
+      ],
+      "py": "ㄙㄊㄝㄇㄈㄖㄛㄇ",
+      "split": "stem + from",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "step down",
+      "mean": "下台",
+      "img": "🔗",
+      "chunks": [
+        "step",
+        "down"
+      ],
+      "py": "ㄙㄊㄝㄆㄉㄛㄨㄋ",
+      "split": "step + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "step up",
+      "mean": "加緊",
+      "img": "🔗",
+      "chunks": [
+        "step",
+        "up"
+      ],
+      "py": "ㄙㄊㄝㄆㄚㄆ",
+      "split": "step + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "stick around",
+      "mean": "逗留",
+      "img": "🔗",
+      "chunks": [
+        "sti",
+        "ck",
+        "a",
+        "round"
+      ],
+      "py": "ㄙㄊㄧㄎㄎㄚㄖㄛㄚㄋㄉ",
+      "split": "sti + ck + a + round",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "stick out",
+      "mean": "突出",
+      "img": "🔗",
+      "chunks": [
+        "sti",
+        "ck",
+        "out"
+      ],
+      "py": "ㄙㄊㄧㄎㄎㄛㄚㄊ",
+      "split": "sti + ck + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "stir up",
+      "mean": "激起",
+      "img": "🔗",
+      "chunks": [
+        "stir",
+        "up"
+      ],
+      "py": "ㄙㄊㄧㄖㄚㄆ",
+      "split": "stir + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "strike out",
+      "mean": "打擊",
+      "img": "🔗",
+      "chunks": [
+        "stri",
+        "ke",
+        "out"
+      ],
+      "py": "ㄙㄊㄖㄧㄎㄝㄛㄚㄊ",
+      "split": "stri + ke + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "sum up",
+      "mean": "總結",
+      "img": "🔗",
+      "chunks": [
+        "sum",
+        "up"
+      ],
+      "py": "ㄙㄚㄇㄚㄆ",
+      "split": "sum + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "swing by",
+      "mean": "順道",
+      "img": "🔗",
+      "chunks": [
+        "swi",
+        "ng",
+        "by"
+      ],
+      "py": "ㄙㄨㄧㄋㄍㄅㄧ",
+      "split": "swi + ng + by",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "tag along",
+      "mean": "跟著",
+      "img": "🔗",
+      "chunks": [
+        "tag",
+        "a",
+        "long"
+      ],
+      "py": "ㄊㄚㄍㄚㄌㄛㄋㄍ",
+      "split": "tag + a + long",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "take after",
+      "mean": "像",
+      "img": "🔗",
+      "chunks": [
+        "take",
+        "af",
+        "ter"
+      ],
+      "py": "ㄊㄚㄎㄝㄚㄈㄊㄝㄖ",
+      "split": "take + af + ter",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "take apart",
+      "mean": "拆開",
+      "img": "🔗",
+      "chunks": [
+        "take",
+        "a",
+        "part"
+      ],
+      "py": "ㄊㄚㄎㄝㄚㄆㄚㄖㄊ",
+      "split": "take + a + part",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "take charge",
+      "mean": "負責",
+      "img": "🔗",
+      "chunks": [
+        "take",
+        "char",
+        "ge"
+      ],
+      "py": "ㄊㄚㄎㄝㄎㄏㄚㄖㄍㄝ",
+      "split": "take + char + ge",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "talk back",
+      "mean": "頂嘴",
+      "img": "🔗",
+      "chunks": [
+        "talk",
+        "back"
+      ],
+      "py": "ㄊㄚㄌㄎㄅㄚㄎㄎ",
+      "split": "talk + back",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "tear down",
+      "mean": "拆毀",
+      "img": "🔗",
+      "chunks": [
+        "tear",
+        "down"
+      ],
+      "py": "ㄊㄝㄚㄖㄉㄛㄨㄋ",
+      "split": "tear + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "tear up",
+      "mean": "撕碎",
+      "img": "🔗",
+      "chunks": [
+        "tear",
+        "up"
+      ],
+      "py": "ㄊㄝㄚㄖㄚㄆ",
+      "split": "tear + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "throw in",
+      "mean": "加入",
+      "img": "🔗",
+      "chunks": [
+        "thr",
+        "ow",
+        "in"
+      ],
+      "py": "ㄊㄏㄖㄛㄨㄧㄋ",
+      "split": "thr + ow + in",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "tide over",
+      "mean": "幫助渡過",
+      "img": "🔗",
+      "chunks": [
+        "tide",
+        "over"
+      ],
+      "py": "ㄊㄧㄉㄝㄛㄨㄝㄖ",
+      "split": "tide + over",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "toss out",
+      "mean": "丟棄",
+      "img": "🔗",
+      "chunks": [
+        "toss",
+        "out"
+      ],
+      "py": "ㄊㄛㄙㄙㄛㄚㄊ",
+      "split": "toss + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "touch on",
+      "mean": "觸及",
+      "img": "🔗",
+      "chunks": [
+        "tou",
+        "ch",
+        "on"
+      ],
+      "py": "ㄊㄛㄚㄎㄏㄛㄋ",
+      "split": "tou + ch + on",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "track down",
+      "mean": "追蹤",
+      "img": "🔗",
+      "chunks": [
+        "tra",
+        "ck",
+        "down"
+      ],
+      "py": "ㄊㄖㄚㄎㄎㄉㄛㄨㄋ",
+      "split": "tra + ck + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "trade in",
+      "mean": "以舊換新",
+      "img": "🔗",
+      "chunks": [
+        "tra",
+        "de",
+        "in"
+      ],
+      "py": "ㄊㄖㄚㄉㄝㄧㄋ",
+      "split": "tra + de + in",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "trip over",
+      "mean": "絆倒",
+      "img": "🔗",
+      "chunks": [
+        "trip",
+        "over"
+      ],
+      "py": "ㄊㄖㄧㄆㄛㄨㄝㄖ",
+      "split": "trip + over",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "tune in",
+      "mean": "收聽",
+      "img": "🔗",
+      "chunks": [
+        "tune",
+        "in"
+      ],
+      "py": "ㄊㄚㄋㄝㄧㄋ",
+      "split": "tune + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "tune out",
+      "mean": "不理會",
+      "img": "🔗",
+      "chunks": [
+        "tune",
+        "out"
+      ],
+      "py": "ㄊㄚㄋㄝㄛㄚㄊ",
+      "split": "tune + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "turn against",
+      "mean": "背叛",
+      "img": "🔗",
+      "chunks": [
+        "turn",
+        "a",
+        "gainst"
+      ],
+      "py": "ㄊㄚㄖㄋㄚㄍㄚㄧㄋㄙㄊ",
+      "split": "turn + a + gainst",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "turn in",
+      "mean": "繳交",
+      "img": "🔗",
+      "chunks": [
+        "turn",
+        "in"
+      ],
+      "py": "ㄊㄚㄖㄋㄧㄋ",
+      "split": "turn + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "turn into",
+      "mean": "變成",
+      "img": "🔗",
+      "chunks": [
+        "turn",
+        "into"
+      ],
+      "py": "ㄊㄚㄖㄋㄧㄋㄊㄛ",
+      "split": "turn + into",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "uproot",
+      "mean": "根除",
+      "img": "📚",
+      "chunks": [
+        "up",
+        "root"
+      ],
+      "py": "ㄚㄆㄖㄛㄛㄊ",
+      "split": "up + root",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "vouch for",
+      "mean": "擔保",
+      "img": "🔗",
+      "chunks": [
+        "vou",
+        "ch",
+        "for"
+      ],
+      "py": "ㄨㄛㄚㄎㄏㄈㄛㄖ",
+      "split": "vou + ch + for",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "walk back",
+      "mean": "收回",
+      "img": "🔗",
+      "chunks": [
+        "walk",
+        "back"
+      ],
+      "py": "ㄨㄚㄌㄎㄅㄚㄎㄎ",
+      "split": "walk + back",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "ward off",
+      "mean": "避開",
+      "img": "🔗",
+      "chunks": [
+        "ward",
+        "off"
+      ],
+      "py": "ㄨㄚㄖㄉㄛㄈㄈ",
+      "split": "ward + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "warm up",
+      "mean": "熱身",
+      "img": "🔗",
+      "chunks": [
+        "warm",
+        "up"
+      ],
+      "py": "ㄨㄚㄖㄇㄚㄆ",
+      "split": "warm + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "wash up",
+      "mean": "洗手",
+      "img": "🔗",
+      "chunks": [
+        "wash",
+        "up"
+      ],
+      "py": "ㄨㄚㄙㄏㄚㄆ",
+      "split": "wash + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "water down",
+      "mean": "稀釋",
+      "img": "🔗",
+      "chunks": [
+        "wa",
+        "ter",
+        "down"
+      ],
+      "py": "ㄨㄚㄊㄝㄖㄉㄛㄨㄋ",
+      "split": "wa + ter + down",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "wear off",
+      "mean": "消退",
+      "img": "🔗",
+      "chunks": [
+        "wear",
+        "off"
+      ],
+      "py": "ㄨㄝㄚㄖㄛㄈㄈ",
+      "split": "wear + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "weigh in",
+      "mean": "發表意見",
+      "img": "🔗",
+      "chunks": [
+        "wei",
+        "gh",
+        "in"
+      ],
+      "py": "ㄨㄝㄧㄍㄏㄧㄋ",
+      "split": "wei + gh + in",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "whisk away",
+      "mean": "迅速帶走",
+      "img": "🔗",
+      "chunks": [
+        "whi",
+        "sk",
+        "away"
+      ],
+      "py": "ㄨㄏㄧㄙㄎㄚㄨㄚㄧ",
+      "split": "whi + sk + away",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "win over",
+      "mean": "說服",
+      "img": "🔗",
+      "chunks": [
+        "win",
+        "over"
+      ],
+      "py": "ㄨㄧㄋㄛㄨㄝㄖ",
+      "split": "win + over",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "wipe out",
+      "mean": "消滅",
+      "img": "🔗",
+      "chunks": [
+        "wipe",
+        "out"
+      ],
+      "py": "ㄨㄧㄆㄝㄛㄚㄊ",
+      "split": "wipe + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "work in",
+      "mean": "加入",
+      "img": "🔗",
+      "chunks": [
+        "work",
+        "in"
+      ],
+      "py": "ㄨㄛㄖㄎㄧㄋ",
+      "split": "work + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "work over",
+      "mean": "痛打",
+      "img": "🔗",
+      "chunks": [
+        "work",
+        "over"
+      ],
+      "py": "ㄨㄛㄖㄎㄛㄨㄝㄖ",
+      "split": "work + over",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "wrap up",
+      "mean": "結束",
+      "img": "🔗",
+      "chunks": [
+        "wrap",
+        "up"
+      ],
+      "py": "ㄨㄖㄚㄆㄚㄆ",
+      "split": "wrap + up",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "write off",
+      "mean": "註銷",
+      "img": "🔗",
+      "chunks": [
+        "wri",
+        "te",
+        "off"
+      ],
+      "py": "ㄨㄖㄧㄊㄝㄛㄈㄈ",
+      "split": "wri + te + off",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "yield to",
+      "mean": "讓步於",
+      "img": "🔗",
+      "chunks": [
+        "yie",
+        "ld",
+        "to"
+      ],
+      "py": "ㄧㄧㄝㄌㄉㄊㄛ",
+      "split": "yie + ld + to",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "zero in",
+      "mean": "聚焦",
+      "img": "🔗",
+      "chunks": [
+        "zero",
+        "in"
+      ],
+      "py": "ㄗㄝㄖㄛㄧㄋ",
+      "split": "zero + in",
+      "theme": "phrasal-verbs",
+      "stage": 2
+    },
+    {
+      "word": "zone out",
+      "mean": "發呆",
+      "img": "🔗",
+      "chunks": [
+        "zone",
+        "out"
+      ],
+      "py": "ㄗㄛㄋㄝㄛㄚㄊ",
+      "split": "zone + out",
+      "theme": "phrasal-verbs",
+      "stage": 3
+    },
+    {
+      "word": "calmness",
+      "mean": "平靜",
+      "img": "📚",
+      "chunks": [
+        "cal",
+        "mness"
+      ],
+      "py": "ㄎㄚㄌㄇㄋㄝㄙㄙ",
+      "split": "cal + mness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "elegance",
+      "mean": "優雅",
+      "img": "📚",
+      "chunks": [
+        "e",
+        "le",
+        "gan",
+        "ce"
+      ],
+      "py": "ㄝㄌㄝㄍㄚㄋㄎㄝ",
+      "split": "e + le + gan + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "flair",
+      "mean": "才華",
+      "img": "📚",
+      "chunks": [
+        "fla",
+        "ir"
+      ],
+      "py": "ㄈㄌㄚㄧㄖ",
+      "split": "fla + ir",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "fondness",
+      "mean": "喜愛",
+      "img": "📚",
+      "chunks": [
+        "fon",
+        "dness"
+      ],
+      "py": "ㄈㄛㄋㄉㄋㄝㄙㄙ",
+      "split": "fon + dness",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "humility",
+      "mean": "謙遜",
+      "img": "📚",
+      "chunks": [
+        "hu",
+        "mi",
+        "li",
+        "ty"
+      ],
+      "py": "ㄏㄚㄇㄧㄌㄧㄊㄧ",
+      "split": "hu + mi + li + ty",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "legacy",
+      "mean": "遺產",
+      "img": "📚",
+      "chunks": [
+        "le",
+        "ga",
+        "cy"
+      ],
+      "py": "ㄌㄝㄍㄚㄎㄧ",
+      "split": "le + ga + cy",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "nostalgia",
+      "mean": "懷舊",
+      "img": "📚",
+      "chunks": [
+        "nos",
+        "tal",
+        "gia"
+      ],
+      "py": "ㄋㄛㄙㄊㄚㄌㄍㄧㄚ",
+      "split": "nos + tal + gia",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "overview",
+      "mean": "概述",
+      "img": "📚",
+      "chunks": [
+        "o",
+        "ver",
+        "view"
+      ],
+      "py": "ㄛㄨㄝㄖㄨㄧㄝㄨ",
+      "split": "o + ver + view",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "poise",
+      "mean": "沉著",
+      "img": "📚",
+      "chunks": [
+        "poi",
+        "se"
+      ],
+      "py": "ㄆㄛㄧㄙㄝ",
+      "split": "poi + se",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "remorse",
+      "mean": "悔恨",
+      "img": "📚",
+      "chunks": [
+        "re",
+        "mor",
+        "se"
+      ],
+      "py": "ㄖㄝㄇㄛㄖㄙㄝ",
+      "split": "re + mor + se",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "reverence",
+      "mean": "敬畏",
+      "img": "📚",
+      "chunks": [
+        "re",
+        "ve",
+        "ren",
+        "ce"
+      ],
+      "py": "ㄖㄝㄨㄝㄖㄝㄋㄎㄝ",
+      "split": "re + ve + ren + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "stigma",
+      "mean": "汙名",
+      "img": "📚",
+      "chunks": [
+        "stig",
+        "ma"
+      ],
+      "py": "ㄙㄊㄧㄍㄇㄚ",
+      "split": "stig + ma",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "trance",
+      "mean": "恍惚",
+      "img": "📚",
+      "chunks": [
+        "tran",
+        "ce"
+      ],
+      "py": "ㄊㄖㄚㄋㄎㄝ",
+      "split": "tran + ce",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "whim",
+      "mean": "一時興起",
+      "img": "📚",
+      "chunks": [
+        "wh",
+        "im"
+      ],
+      "py": "ㄨㄏㄧㄇ",
+      "split": "wh + im",
+      "theme": "exam-7000",
+      "stage": 2
     }
   ]
 }
