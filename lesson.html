@@ -323,8 +323,8 @@ function render() {
       </td>
       <td class="split">${w.split}</td>
       <td class="actions">
-        <button class="btn-know" onclick="markKnow(${w.n})">✅ 會</button>
-        <button class="btn-forgot" onclick="markForgot(${w.n})">❌ 不會</button>
+        <button class="btn-know" onclick="markKnow(${w.n})" aria-label="會">✅</button>
+        <button class="btn-forgot" onclick="markForgot(${w.n})" aria-label="不會">❌</button>
       </td>
     `;
     tbody.appendChild(tr);
