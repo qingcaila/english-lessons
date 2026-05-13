@@ -14,11 +14,11 @@
   ],
   "themes": [
 
-    {"id":"exam-elementary","name":"國小","icon":"📘","category":"exam-level","stage":0,"frequencyRank":-10,"description":"教育部國小英語 1,200 字基本字彙表(待補 tag)"},
-    {"id":"exam-junior-high","name":"國中","icon":"📗","category":"exam-level","stage":1,"frequencyRank":-9,"description":"教育部國中英語 2,000 字(基本 1200 + 進階 800)(待補 tag)"},
-    {"id":"exam-mid","name":"學測 / 多益中","icon":"🏫","category":"exam-level","stage":2,"frequencyRank":-8,"description":"學測低標 / 多益 500-700 字彙範圍(待補 tag)"},
-    {"id":"exam-7000","name":"大考7000","icon":"📚","category":"exam-level","stage":3,"frequencyRank":-7,"description":"大考中心 7000 字表 + 衍生詞,目前 6,712 條 tag"},
-    {"id":"exam-advanced","name":"托福 / 學術","icon":"🎓","category":"exam-level","stage":4,"frequencyRank":-6,"description":"托福高頻 / AWL 學術 / 高分閱讀(待補 tag)"},
+    {"id":"exam-elementary","name":"國小","icon":"📘","category":"exam-level","stage":0,"frequencyRank":-10,"description":"國小程度(累積式)— 預設含 stage 0 / 勾「只練本階段」剩 stage 0"},
+    {"id":"exam-junior-high","name":"國中","icon":"📗","category":"exam-level","stage":1,"frequencyRank":-9,"description":"國中程度(累積式)— 預設含 stage 0-1 / 勾「只練本階段」剩 stage 1"},
+    {"id":"exam-mid","name":"學測 / 多益中","icon":"🏫","category":"exam-level","stage":2,"frequencyRank":-8,"description":"學測中標 / 多益 500-700(累積式)— 預設 stage 0-2"},
+    {"id":"exam-7000","name":"大考7000","icon":"📚","category":"exam-level","stage":3,"frequencyRank":-7,"description":"大考 7000 字程度(累積式)— 預設 stage 0-3,9,246 字"},
+    {"id":"exam-advanced","name":"托福 / 學術","icon":"🎓","category":"exam-level","stage":4,"frequencyRank":-6,"description":"托福 / 學術閱讀(累積式)— 含全部 10K 字"},
 
     {"id":"numbers","name":"數字","icon":"🔢","category":"daily","stage":0,"frequencyRank":1,"description":"1-20 + 基本數量詞"},
     {"id":"time","name":"時間","icon":"🕐","category":"daily","stage":0,"frequencyRank":2,"description":"天 / 月 / 季節 / 早晚"},
