@@ -335,3 +335,80 @@ git push
 3. 選的主題**避開別的對話正在做的**(看累積紀錄最近幾條的主題清單)
 4. push 之前再 `git pull --rebase` 一次保險
 5. 完成後**立刻**在累積紀錄 append 新紀錄,讓下個並行對話看到
+
+---
+
+## 對話 3 完整紀錄(2026-05-13,單一對話 17 批 +4,339 字)
+
+### 17 批次明細
+
+| 批次 | 主題 | +字 | 累計 |
+|------|------|-----|------|
+| A1 | numbers 81 / time 80 / colors 55 / animals 100 | +271 | 1,012 |
+| A2 | clothing 54 / weather 60 / food 65 / school 55 / home-items 60 | +239 | 1,251 |
+| A3 | jobs 55 / sports 54 / music 55 / nature 55 / phonics-compound 55 | +224 | 1,475 |
+| A4 | sight-words 推到 251 (Fry 第二段) | +146 | 1,621 |
+| B1 | family 85 / body 99 / emotions 100 / actions 100 | +193 | 1,814 |
+| B2 | adjectives 100 / kitchen-utensils 55 / bathroom 47 / fruits 69 / vegetables 69 | +206 | 2,020 ⭐ |
+| B3 | drinks 62 / desserts 58 / shapes 60 / directions 60 / transportation 70 / places 69 | +312 | 2,332 |
+| B4 | travel 63 / shopping 62 / restaurant 63 / money 60 / health 66 | +247 | 2,651 |
+| B5 | sight-words 推到 389 / technology 47 | +168 | 2,819 |
+| B6 | 過去式 60 / 片語動詞 60 / 連接副詞 40(閱讀斷崖核心) | +160 | 2,958 |
+| (去重) | 移除 21 個 materials/tools/connectors/money 重複 | -21 | (含在 B1 前) |
+| C1 | jobs-advanced 80 / appearance 59 / personality 80 / relationships 81 | +300 | 3,258 |
+| C2 | toys 69 / art 50 / hobbies 50 / games 50 / movies-tv 50 | +259 | 3,517 |
+| C3 | medical 80 / fitness 77 / diseases 80 / office 80 / business 82 | +399 | 3,916 |
+| C4 | economy 80 / internet 82 / media 70 / events 70 / environment 71 | +373 | 4,289 ⭐ 40% |
+| C5 | science 91 / history 82 / geography 78 | +251 | 4,540 |
+| C6 | emergencies 79 / crime 80 / law 80 | +239 | 4,779 |
+| D1 | politics 100 / religion 101 / philosophy 100 | +301 | **5,080** 🎯 50% |
+
+### 各 Stage 進度
+
+- ✅ **Stage A**(A1-A4)完成,1,621 字
+- ✅ **Stage B**(B1-B6)完成,2,958 字 — 閱讀斷崖三件套(過去式 / 片語 / 連接副詞)已補
+- ✅ **Stage C**(C1-C6)完成,4,779 字
+- 🟡 **Stage D**(D1 完成 / D2-D9 待做),目前 5,080 字
+
+### 剩餘 8 批預估
+
+| 批次 | 主題 | 預估增量 |
+|------|------|---------|
+| D2 | literature / sight-words 推到 500 | +400-600 |
+| D3 | academic-words 1(AWL Sublist 1-3) | +200 |
+| D4 | academic-words 2(AWL Sublist 4-6) | +200 |
+| D5 | academic-words 3(AWL Sublist 7-10) | +170 |
+| D6 | idioms 1(常見 100 條) | +100-300 |
+| D7 | idioms 2 + phrasal verbs 進階 | +300-500 |
+| D8 | 抽象詞補完 / 學術領域補漏 | +400 |
+| D9 | 收尾 + 補漏 + buffer 主題 | +500-1000 |
+| **小計** | | **+2,800-3,500** |
+
+5,080 + ~3,200 ≈ **8,300-8,500 預估**。若不夠 10K,啟用 D9 buffer 候選主題:measurements / abbreviations / astronomy / internet-culture / mythology(預估 +400-500)。
+
+### 主題覆蓋度
+
+- 已動主題:**51 個**(原 47 + 對話 3 新動 4 = politics/religion/philosophy/etc)
+- 未動主題:~16 個(literature/academic-words/idioms + 部分 D 階段主題)
+- 主題不夠時可從 exam-coverage-notes.md 看是否要補檢定字
+
+### 已知偏差(計畫 vs 實際)
+
+- D1 計畫累計 6,900,實際 5,080,落差 **-1,820** 字
+- 原因:批次表規劃時每主題期望 100-300,實際多數主題自然密度上限 50-100
+- 對策:D 階段大主題(AWL 570 / idioms 500-1000 / literature 300-500)會把缺口補回
+- 詳細分析見 2026-05-13 對話 3 中段(學習者 explicit 詢問,結論:不調整路徑)
+
+### 接手對話的下一步
+
+**做 D2**(literature / sight-words 推到 500)。流程:
+1. `cd D:\英\lessons && git pull`
+2. 讀 §0 那幾個檔案(CLAUDE.md / profile.md §9 / themes.json / vocab.json)
+3. 看 literature / sight-words 現有字、計算需補的量
+4. append → 驗證 → commit → push → 在這個檔案 append 一筆紀錄
+
+### 注意事項
+
+- **auto-commit hook**:settings.json 裡有 hook 自動把 vocab.json 改動 commit + push,訊息常被蓋成「help: 新增 §X / 新增 session 記錄」之類無關內容。內容正確但 git log 髒。詳見 TODO.md。
+- **chunks 違規**:`the` / `out` 兩個字 chunks 不到 2 塊。詳見 TODO.md。
+- **檢定字量參考**:exam-coverage-notes.md 有對照 IELTS/TOEIC/TOEFL/全民英檢的覆蓋率(學習者目標仍是 input,不是考試)。
