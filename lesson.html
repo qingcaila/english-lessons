@@ -256,7 +256,12 @@ function pickWords({ vocab, themes }) {
   const learnedIds = new Set(Object.keys(state.words));
 
   // 2) 候選新字池(根據 mode 篩)
+  const currentStage = state.stats.currentStage || 0;
   let newPool = vocab.words.filter(w => !learnedIds.has(w.word));
+  // Stage 硬過濾:只抽 stage ≤ currentStage 的字(challenge 模式自己處理)
+  if (mode !== "challenge") {
+    newPool = newPool.filter(w => (w.stage || 0) <= currentStage);
+  }
   if (mode === "theme" && themeFilter) {
     newPool = newPool.filter(w => w.theme === themeFilter || (w.tags && w.tags.includes(themeFilter)));
   } else if (mode === "frequency") {
