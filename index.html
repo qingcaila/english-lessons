@@ -437,22 +437,31 @@ function renderHistory() {
 function renderThemeStats() {
   const state = SRS.loadState();
   const stage = state.stats.currentStage || 0;
-  const themes = THEMES.themes.filter(t => t.stage <= stage);
+  const themes = THEMES.themes;  // 全部主題,不依 stage 過濾
   const byTheme = {};
   themes.forEach(t => byTheme[t.id] = {
     total: 0, learned: 0, l4: 0, name: t.name, icon: t.icon,
     levels: { L1: 0, L2: 0, L3: 0, L4: 0, L5: 0 }
   });
+  // word → tags 對應表(供已學計數時補)
+  const wordTags = {};
   VOCAB.words.forEach(w => {
-    if (w.stage > stage) return;
     if (byTheme[w.theme]) byTheme[w.theme].total += 1;
-    if (w.tags) w.tags.forEach(t => { if (byTheme[t]) byTheme[t].total += 1; });
+    if (w.tags) {
+      w.tags.forEach(t => { if (byTheme[t]) byTheme[t].total += 1; });
+      wordTags[w.word] = w.tags;
+    }
   });
   Object.values(state.words).forEach(w => {
-    const t = byTheme[w.theme]; if (!t) return;
-    t.learned += 1;
-    if (w.level && t.levels[w.level] !== undefined) t.levels[w.level] += 1;
-    if (w.level === "L4" || w.level === "L5") t.l4 += 1;
+    const inc = (themeId) => {
+      const t = byTheme[themeId]; if (!t) return;
+      t.learned += 1;
+      if (w.level && t.levels[w.level] !== undefined) t.levels[w.level] += 1;
+      if (w.level === "L4" || w.level === "L5") t.l4 += 1;
+    };
+    inc(w.theme);
+    const tags = wordTags[w.word] || [];
+    tags.forEach(inc);
   });
 
   // 排序:有進度的優先,按 L4 desc 再按 learned desc
