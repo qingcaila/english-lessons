@@ -176,16 +176,31 @@ function recordLesson(roundStr, mode, wordIds, evalEmoji) {
     mode, wordIds, evalEmoji
   });
   // 每字 first / lastSeen 在此輪初次見到的設定
+  const curN = roundNumber(roundStr);
   for (const w of wordIds) {
     const word = state.words[w];
     if (word) {
       if (!word.first) word.first = roundStr;
-      if (!word.lastSeen) word.lastSeen = roundStr;
-      if (!word.nextDue) word.nextDue = bumpRound(roundStr, 1);
+      word.lastSeen = roundStr;
+      if (!word.nextDue) {
+        // 首次見到:預設下輪複習
+        word.nextDue = bumpRound(roundStr, 1);
+      } else {
+        // 已有 nextDue 的字,本輪沒被 ✅/❌ 主動標 → 算「中性看過」,
+        // 把 nextDue 推到 max(interval, 2) 輪後,避免下輪又被抽到同一批
+        const dueN = roundNumber(word.nextDue);
+        if (dueN <= curN) {
+          // 此輪被當 review 抽到但沒主動標
+          // (有主動標的情況 knewIt/forgotIt 已先把 nextDue 改到未來)
+          const push = Math.max(word.interval || 1, 2);
+          word.nextDue = bumpRound(roundStr, push);
+        }
+      }
     }
   }
   saveState(state);
 }
+function roundNumber(s) { const m = /^R?(\d+)/.exec(s||""); return m ? parseInt(m[1],10) : 0; }
 
 function getCurrentRound() {
   const state = loadState();
