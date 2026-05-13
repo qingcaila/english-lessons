@@ -266,7 +266,7 @@
     },
     {
       "word": "day",
-      "mean": "白天/一天",
+      "mean": "白天一天",
       "img": "☀️",
       "chunks": [
         "d",
@@ -1735,7 +1735,7 @@
     },
     {
       "word": "short",
-      "mean": "短/矮",
+      "mean": "短矮",
       "img": "↔️",
       "chunks": [
         "sh",
@@ -1787,7 +1787,7 @@
     },
     {
       "word": "old",
-      "mean": "舊/老",
+      "mean": "舊老",
       "img": "👴",
       "chunks": [
         "o",
@@ -2204,7 +2204,7 @@
     },
     {
       "word": "class",
-      "mean": "課堂/班級",
+      "mean": "課堂班級",
       "img": "🏫",
       "chunks": [
         "cl",
@@ -3870,7 +3870,7 @@
     },
     {
       "word": "pepper",
-      "mean": "辣椒/胡椒",
+      "mean": "辣椒胡椒",
       "img": "🫑",
       "chunks": [
         "pep",
@@ -4473,7 +4473,7 @@
     },
     {
       "word": "out",
-      "mean": "出/在外",
+      "mean": "出在外",
       "img": "📤",
       "chunks": [
         "out"
@@ -4562,7 +4562,7 @@
     },
     {
       "word": "back",
-      "mean": "後/背",
+      "mean": "後背",
       "img": "🔚",
       "chunks": [
         "b",
@@ -5602,7 +5602,7 @@
     },
     {
       "word": "wifi",
-      "mean": "Wi-Fi",
+      "mean": "-",
       "img": "📶",
       "chunks": [
         "wi",
@@ -6733,7 +6733,7 @@
     },
     {
       "word": "hard",
-      "mean": "困難/硬",
+      "mean": "困難硬",
       "img": "🪨",
       "chunks": [
         "h",
@@ -6772,7 +6772,7 @@
     },
     {
       "word": "light",
-      "mean": "輕/光",
+      "mean": "輕光",
       "img": "💡",
       "chunks": [
         "l",
@@ -6915,7 +6915,7 @@
     },
     {
       "word": "thin",
-      "mean": "薄/瘦",
+      "mean": "薄瘦",
       "img": "🧻",
       "chunks": [
         "th",
@@ -7139,7 +7139,7 @@
     },
     {
       "word": "free",
-      "mean": "免費/自由",
+      "mean": "免費自由",
       "img": "🆓",
       "chunks": [
         "fr",
@@ -8575,7 +8575,7 @@
     },
     {
       "word": "just",
-      "mean": "剛剛/只",
+      "mean": "剛剛只",
       "img": "👉",
       "chunks": [
         "j",
@@ -8601,7 +8601,7 @@
     },
     {
       "word": "too",
-      "mean": "太/也",
+      "mean": "太也",
       "img": "➕",
       "chunks": [
         "t",
@@ -9983,7 +9983,7 @@
     },
     {
       "word": "second",
-      "mean": "第二/秒",
+      "mean": "第二秒",
       "img": "🥈",
       "chunks": [
         "se",
@@ -17430,7 +17430,7 @@
     },
     {
       "word": "goal",
-      "mean": "進球/目標",
+      "mean": "進球目標",
       "img": "🥅",
       "chunks": [
         "g",
@@ -19936,7 +19936,7 @@
     },
     {
       "word": "against",
-      "mean": "反對/靠",
+      "mean": "反對靠",
       "img": "⚔️",
       "chunks": [
         "a",
@@ -20373,7 +20373,7 @@
     },
     {
       "word": "way",
-      "mean": "方法/路",
+      "mean": "方法路",
       "img": "🛤️",
       "chunks": [
         "w",
@@ -20477,7 +20477,7 @@
     },
     {
       "word": "state",
-      "mean": "州/狀態",
+      "mean": "州狀態",
       "img": "🇺🇸",
       "chunks": [
         "st",
@@ -25211,7 +25211,7 @@
     },
     {
       "word": "bandaid",
-      "mean": "OK繃",
+      "mean": "繃",
       "img": "🩹",
       "chunks": [
         "band",
@@ -31303,7 +31303,7 @@
     },
     {
       "word": "pick up",
-      "mean": "撿起/接",
+      "mean": "撿起接",
       "img": "🤏",
       "chunks": [
         "pick",
@@ -31381,7 +31381,7 @@
     },
     {
       "word": "take off",
-      "mean": "起飛/脫掉",
+      "mean": "起飛脫掉",
       "img": "✈️",
       "chunks": [
         "take",
@@ -37888,7 +37888,7 @@
     },
     {
       "word": "get off",
-      "mean": "下車/離開",
+      "mean": "下車離開",
       "img": "🚪",
       "chunks": [
         "get",
@@ -37954,7 +37954,7 @@
     },
     {
       "word": "take in",
-      "mean": "理解/吸收",
+      "mean": "理解吸收",
       "img": "🧠",
       "chunks": [
         "take",
@@ -38034,7 +38034,7 @@
     },
     {
       "word": "put up",
-      "mean": "舉起/張貼",
+      "mean": "舉起張貼",
       "img": "⬆️",
       "chunks": [
         "put",
@@ -38061,7 +38061,7 @@
     },
     {
       "word": "come up",
-      "mean": "出現/接近",
+      "mean": "出現接近",
       "img": "⬆️",
       "chunks": [
         "come",
@@ -38153,7 +38153,7 @@
     },
     {
       "word": "go off",
-      "mean": "響起/爆炸",
+      "mean": "響起爆炸",
       "img": "💥",
       "chunks": [
         "go",
@@ -38300,7 +38300,7 @@
     },
     {
       "word": "turn down",
-      "mean": "拒絕/調小",
+      "mean": "拒絕調小",
       "img": "❌",
       "chunks": [
         "turn",
@@ -38313,7 +38313,7 @@
     },
     {
       "word": "bring up",
-      "mean": "提起/養育",
+      "mean": "提起養育",
       "img": "💬",
       "chunks": [
         "bring",
@@ -38434,7 +38434,7 @@
     },
     {
       "word": "break down",
-      "mean": "故障/崩潰",
+      "mean": "故障崩潰",
       "img": "💔",
       "chunks": [
         "break",
@@ -38539,7 +38539,7 @@
     },
     {
       "word": "hold up",
-      "mean": "舉起/搶劫",
+      "mean": "舉起搶劫",
       "img": "🤚",
       "chunks": [
         "hold",
@@ -38579,7 +38579,7 @@
     },
     {
       "word": "work out",
-      "mean": "想出/健身",
+      "mean": "想出健身",
       "img": "💪",
       "chunks": [
         "work",
@@ -38618,7 +38618,7 @@
     },
     {
       "word": "set off",
-      "mean": "出發/引爆",
+      "mean": "出發引爆",
       "img": "🚀",
       "chunks": [
         "set",
@@ -40211,7 +40211,7 @@
     },
     {
       "word": "minister",
-      "mean": "部長/牧師",
+      "mean": "部長牧師",
       "img": "🏛️",
       "chunks": [
         "min",
@@ -45294,7 +45294,7 @@
     },
     {
       "word": "karaoke",
-      "mean": "卡拉OK",
+      "mean": "卡拉",
       "img": "🎤",
       "chunks": [
         "kar",
@@ -45539,7 +45539,7 @@
     },
     {
       "word": "vlogging",
-      "mean": "拍vlog",
+      "mean": "拍",
       "img": "📹",
       "chunks": [
         "vlog",
@@ -45622,7 +45622,7 @@
     },
     {
       "word": "mmorpg",
-      "mean": "大型多人RPG",
+      "mean": "大型多人",
       "img": "⚔️",
       "chunks": [
         "mmo",
@@ -53428,7 +53428,7 @@
     },
     {
       "word": "gdpgrowth",
-      "mean": "GDP成長",
+      "mean": "成長",
       "img": "📈",
       "chunks": [
         "g",
@@ -53598,7 +53598,7 @@
     },
     {
       "word": "javascript",
-      "mean": "JS程式",
+      "mean": "程式",
       "img": "💻",
       "chunks": [
         "ja",
@@ -53638,7 +53638,7 @@
     },
     {
       "word": "sql",
-      "mean": "SQL資料庫",
+      "mean": "資料庫",
       "img": "💻",
       "chunks": [
         "s",
@@ -54142,7 +54142,7 @@
     },
     {
       "word": "gif",
-      "mean": "GIF動圖",
+      "mean": "動圖",
       "img": "🎞️",
       "chunks": [
         "g",
@@ -79884,7 +79884,7 @@
     },
     {
       "word": "the bottom line",
-      "mean": "底線/最終結論",
+      "mean": "底線最終結論",
       "img": "📊",
       "chunks": [
         "the",
@@ -80033,7 +80033,7 @@
     },
     {
       "word": "grasp",
-      "mean": "抓住/理解",
+      "mean": "抓住理解",
       "img": "✊",
       "chunks": [
         "gr",
@@ -80181,7 +80181,7 @@
     },
     {
       "word": "soar",
-      "mean": "翱翔/飆升",
+      "mean": "翱翔飆升",
       "img": "🦅",
       "chunks": [
         "s",
@@ -84103,7 +84103,7 @@
     },
     {
       "word": "bun",
-      "mean": "roll小圓麵包",
+      "mean": "小圓麵包",
       "img": "🍽️",
       "chunks": [
         "b",
@@ -88644,7 +88644,7 @@
     },
     {
       "word": "widen",
-      "mean": "vi,擴大",
+      "mean": "擴大",
       "img": "🏃",
       "chunks": [
         "wi",
@@ -89029,7 +89029,7 @@
     },
     {
       "word": "ambition",
-      "mean": "雄心，抱負，野心an",
+      "mean": "雄心，抱負，野心",
       "img": "📚",
       "chunks": [
         "am",
@@ -90459,7 +90459,7 @@
     },
     {
       "word": "disco",
-      "mean": "迪斯科舞廳同：dis",
+      "mean": "迪斯科舞廳同：",
       "img": "📚",
       "chunks": [
         "dis",
@@ -91372,7 +91372,7 @@
     },
     {
       "word": "gasoline",
-      "mean": "汽油同：gas",
+      "mean": "汽油同：",
       "img": "📚",
       "chunks": [
         "ga",
@@ -96846,7 +96846,7 @@
     },
     {
       "word": "brassiere",
-      "mean": "胸罩=bra",
+      "mean": "胸罩=",
       "img": "📚",
       "chunks": [
         "bras",
@@ -97970,7 +97970,7 @@
     },
     {
       "word": "damn",
-      "mean": "罵…該死，咒罵int",
+      "mean": "罵…該死，咒罵",
       "img": "🏃",
       "chunks": [
         "d",
@@ -99131,7 +99131,7 @@
     },
     {
       "word": "farewell",
-      "mean": "再會！別了!告別告別",
+      "mean": "再會！別了告別告別",
       "img": "📚",
       "chunks": [
         "fa",
@@ -101629,7 +101629,7 @@
     },
     {
       "word": "plural",
-      "mean": "複數複數的p.m./",
+      "mean": "複數複數的p.m.",
       "img": "🔢",
       "chunks": [
         "plu",
@@ -107108,7 +107108,7 @@
     },
     {
       "word": "hairstyle",
-      "mean": "hairdo髮型",
+      "mean": "髮型",
       "img": "📚",
       "chunks": [
         "hair",
@@ -110894,7 +110894,7 @@
     },
     {
       "word": "sneak",
-      "mean": "偷偷地走/做",
+      "mean": "偷偷地走做",
       "img": "🌍",
       "chunks": [
         "sn",
@@ -112420,7 +112420,7 @@
     },
     {
       "word": "vow",
-      "mean": "誓言vi發誓",
+      "mean": "誓言發誓",
       "img": "📚",
       "chunks": [
         "v",
@@ -112578,7 +112578,7 @@
     },
     {
       "word": "woe",
-      "mean": "悲痛int.哎喲",
+      "mean": "悲痛.哎喲",
       "img": "📚",
       "chunks": [
         "w",
@@ -114041,7 +114041,7 @@
     },
     {
       "word": "clone",
-      "mean": "複製品/人",
+      "mean": "複製品人",
       "img": "👤",
       "chunks": [
         "clo",
@@ -118703,7 +118703,7 @@
     },
     {
       "word": "outfit",
-      "mean": "全套服裝/裝備",
+      "mean": "全套服裝裝備",
       "img": "📚",
       "chunks": [
         "out",
@@ -119261,7 +119261,7 @@
     },
     {
       "word": "presidency",
-      "mean": "總裁/總統職位",
+      "mean": "總裁總統職位",
       "img": "📚",
       "chunks": [
         "pre",
@@ -119276,7 +119276,7 @@
     },
     {
       "word": "presidential",
-      "mean": "總裁/總統的",
+      "mean": "總裁總統的",
       "img": "🎨",
       "chunks": [
         "pre",
