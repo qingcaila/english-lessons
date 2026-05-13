@@ -137,7 +137,12 @@
         <option value="4">Stage 4 — 中上</option>
       </select>
       <span style="font-size:11px;color:var(--muted);">/ 5 階段</span>
+      <label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:auto;">
+        <input type="checkbox" id="stageExclusive" style="margin:0;">
+        只練本階段
+      </label>
     </div>
+    <div style="font-size:10px;color:var(--muted);margin-bottom:4px;" id="stagePoolHint"></div>
     <div class="stage-meta" id="stageMeta"></div>
     <div class="progress"><div id="stageProgress" style="width:0%"></div></div>
     <div class="stat-row" style="margin-top:10px;">
@@ -319,6 +324,26 @@ function renderStage() {
       // 重新渲染所有依賴 stage 的卡片
       renderStage(); renderThemes(); renderThemeStats();
     };
+  }
+  // 「只練本階段」獨佔模式 checkbox
+  const exSel = document.getElementById("stageExclusive");
+  if (exSel) {
+    const exclusive = SRS.getSettings().stageExclusive === true;
+    exSel.checked = exclusive;
+    exSel.onchange = () => {
+      SRS.setSetting("stageExclusive", exSel.checked);
+      renderStage();
+    };
+    // 提示文字
+    const hint = document.getElementById("stagePoolHint");
+    if (hint) {
+      const STAGE_COUNT = { 0:634, 1:1998, 2:3225, 3:3386, 4:759 };
+      const CUMULATIVE = { 0:634, 1:2632, 2:5857, 3:9243, 4:10002 };
+      const n = exclusive ? STAGE_COUNT[stage] : CUMULATIVE[stage];
+      hint.textContent = exclusive
+        ? `📌 獨佔制:只抽 Stage ${stage} 的 ${n} 字`
+        : `📌 累積制:抽 Stage 0-${stage} 共 ${n} 字`;
+    }
   }
   const [min, max] = STAGE_VOCAB_TARGET[stage];
   const l4 = SRS.l4Count();
@@ -551,6 +576,7 @@ document.getElementById("goBtn").onclick = () => {
   const ratio = parseFloat(document.getElementById("ratio").value);
   let url = `lesson.html?mode=${selectedMode}&count=${count}&ratio=${ratio}`;
   if (selectedMode === "theme" && selectedTheme) url += `&theme=${selectedTheme}`;
+  if (SRS.getSettings().stageExclusive === true) url += `&stagePool=exclusive`;
   location.href = url;
 };
 

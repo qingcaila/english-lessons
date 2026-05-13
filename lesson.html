@@ -217,6 +217,7 @@ const mode = params.get("mode") || "frequency";
 const wordCount = parseInt(params.get("count") || "10", 10);
 const ratio = parseFloat(params.get("ratio") || "0.3");      // 新字比例
 const themeFilter = params.get("theme");
+const stagePool = params.get("stagePool") || "cumulative"; // "cumulative" | "exclusive"
 
 // ── 語音 ──────────────────────────────────────────────────
 let chosenVoice = null;
@@ -258,9 +259,15 @@ function pickWords({ vocab, themes }) {
   // 2) 候選新字池(根據 mode 篩)
   const currentStage = state.stats.currentStage || 0;
   let newPool = vocab.words.filter(w => !learnedIds.has(w.word));
-  // Stage 硬過濾:只抽 stage ≤ currentStage 的字(challenge 模式自己處理)
+  // Stage 硬過濾(challenge 模式自己處理,跳過)
+  //   cumulative: stage ≤ currentStage(預設,包含舊 Stage 字)
+  //   exclusive:  stage === currentStage(只練本階段字)
   if (mode !== "challenge") {
-    newPool = newPool.filter(w => (w.stage || 0) <= currentStage);
+    if (stagePool === "exclusive") {
+      newPool = newPool.filter(w => (w.stage || 0) === currentStage);
+    } else {
+      newPool = newPool.filter(w => (w.stage || 0) <= currentStage);
+    }
   }
   if (mode === "theme" && themeFilter) {
     newPool = newPool.filter(w => w.theme === themeFilter || (w.tags && w.tags.includes(themeFilter)));
