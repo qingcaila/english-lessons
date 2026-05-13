@@ -44,6 +44,35 @@
   }
   .progress > div { height: 100%; background: var(--accent); transition: width .3s; }
 
+  /* iOS-style toggle (用於「不混舊字」) */
+  .ios-toggle-label {
+    display: inline-flex; align-items: center; gap: 5px;
+    cursor: pointer; margin-left: auto; font-size: 11px; color: var(--muted);
+    user-select: none;
+  }
+  .ios-toggle-input { display: none; }
+  .ios-toggle {
+    position: relative; display: inline-block;
+    width: 38px; height: 22px;
+    background: #c8c8d0; border-radius: 11px;
+    transition: background .25s;
+  }
+  .ios-toggle::after {
+    content: ""; position: absolute;
+    top: 2px; left: 2px;
+    width: 18px; height: 18px;
+    background: #fff; border-radius: 50%;
+    transition: transform .25s, background .25s;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  }
+  .ios-toggle-input:checked + .ios-toggle {
+    background: var(--accent);
+  }
+  .ios-toggle-input:checked + .ios-toggle::after {
+    transform: translateX(16px);
+  }
+  .ios-toggle-text { white-space: nowrap; }
+
   /* 模式選單 */
   .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 6px; }
   .mode-btn {
@@ -137,10 +166,10 @@
         <option value="4">Stage 4 — 中上</option>
       </select>
       <span style="font-size:11px;color:var(--muted);">/ 5 階段</span>
-      <label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:auto;"
-             title="勾選後,新一輪只抽「本階段」的字,不混到舊階段字。預設不勾(累積制,連舊階段也練)。">
-        <input type="checkbox" id="stageExclusive" style="margin:0;">
-        只練本階段 <span style="color:var(--accent);">ⓘ</span>
+      <label class="ios-toggle-label" title="開啟後,新一輪只抽當前 Stage 的字,不混到舊階段。預設關閉(連舊階段一起練,字池更多)。">
+        <input type="checkbox" id="stageExclusive" class="ios-toggle-input">
+        <span class="ios-toggle"></span>
+        <span class="ios-toggle-text">不混舊字 <span style="color:var(--accent);">ⓘ</span></span>
       </label>
     </div>
     <div style="font-size:10px;color:var(--muted);margin-bottom:4px;line-height:1.5;" id="stagePoolHint"></div>
@@ -339,7 +368,7 @@ function renderStage() {
       renderStage(); renderThemes(); renderThemeStats();
     };
   }
-  // 「只練本階段」獨佔模式 checkbox
+  // 「不混舊字」獨佔模式 toggle
   const exSel = document.getElementById("stageExclusive");
   if (exSel) {
     const exclusive = SRS.getSettings().stageExclusive === true;
@@ -364,12 +393,12 @@ function renderStage() {
       if (exclusive) {
         const n = STAGE_COUNT[stage];
         hint.innerHTML = targetLine +
-          `🎯 <b>只練本階段(已勾)</b>:新一輪只會抽到 Stage ${stage} 的字(<b>${n} 字</b>),不會混到別階段字。`;
+          `🎯 <b>不混舊字(開)</b>:只抽 Stage ${stage} 的字(<b>${n} 字</b>),不會帶到舊階段。`;
       } else {
         const n = CUMULATIVE[stage];
         const lower = stage > 0 ? `0~${stage}` : `${stage}`;
         hint.innerHTML = targetLine +
-          `📚 <b>累積制(未勾)</b>:新一輪會抽 Stage ${lower} 所有字(<b>${n} 字</b>),包含舊階段。`;
+          `📚 <b>混舊字(關)</b>:抽 Stage ${lower} 所有字(<b>${n} 字</b>),邊複習邊學新。`;
       }
     }
   }
