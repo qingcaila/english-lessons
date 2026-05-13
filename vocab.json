@@ -156144,7 +156144,7 @@
         "cell",
         "phone"
       ],
-      "py": "",
+      "py": "ㄙㄝㄛ-ㄈㄛㄣ",
       "split": "cell + phone",
       "theme": "technology",
       "stage": 1,
@@ -156161,7 +156161,7 @@
         "r",
         "t"
       ],
-      "py": "",
+      "py": "ㄝㄇ-ㄚ-ㄊㄧ",
       "split": "M + R + T(縮寫)",
       "theme": "transportation",
       "stage": 1,
@@ -156177,7 +156177,7 @@
         "ping",
         "pong"
       ],
-      "py": "",
+      "py": "ㄆㄧㄥ-ㄆㄛㄥ",
       "split": "ping + pong",
       "theme": "sports",
       "stage": 1,
