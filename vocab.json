@@ -1790,10 +1790,11 @@
       "mean": "舊 / 老",
       "img": "👴",
       "chunks": [
-        "old"
+        "o",
+        "ld"
       ],
       "py": "ㄡㄉ",
-      "split": "無 onset",
+      "split": "o + ld",
       "theme": "adjectives",
       "stage": 0
     },
@@ -2466,10 +2467,11 @@
       "mean": "地球",
       "img": "🌍",
       "chunks": [
-        "earth"
+        "ear",
+        "th"
       ],
       "py": "ㄜㄦㄙ",
-      "split": "無 onset",
+      "split": "ear + th",
       "theme": "nature",
       "stage": 0
     },
