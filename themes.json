@@ -1,17 +1,24 @@
 {
   "categories": [
-    {"id":"daily","name":"日常生活","icon":"🏡","order":1},
-    {"id":"actions-feelings","name":"動作與情緒","icon":"🎭","order":2},
-    {"id":"people-jobs","name":"人物與職業","icon":"👥","order":3},
-    {"id":"entertainment","name":"娛樂與興趣","icon":"🎨","order":4},
-    {"id":"social","name":"社會與生活","icon":"🏙️","order":5},
-    {"id":"health","name":"健康與身體","icon":"💊","order":6},
-    {"id":"tech-media","name":"科技與媒體","icon":"💻","order":7},
-    {"id":"business","name":"商業與經濟","icon":"💼","order":8},
-    {"id":"academic","name":"學術與抽象","icon":"📚","order":9},
-    {"id":"special","name":"特別","icon":"⭐","order":10}
+    {"id":"exam-level","name":"程度與檢定","icon":"📝","order":1},
+    {"id":"daily","name":"日常生活","icon":"🏡","order":2},
+    {"id":"actions-feelings","name":"動作與情緒","icon":"🎭","order":3},
+    {"id":"people-jobs","name":"人物與職業","icon":"👥","order":4},
+    {"id":"entertainment","name":"娛樂與興趣","icon":"🎨","order":5},
+    {"id":"social","name":"社會與生活","icon":"🏙️","order":6},
+    {"id":"health","name":"健康與身體","icon":"💊","order":7},
+    {"id":"tech-media","name":"科技與媒體","icon":"💻","order":8},
+    {"id":"business","name":"商業與經濟","icon":"💼","order":9},
+    {"id":"academic","name":"學術與抽象","icon":"📚","order":10},
+    {"id":"special","name":"特別","icon":"⭐","order":11}
   ],
   "themes": [
+
+    {"id":"exam-elementary","name":"國小","icon":"📘","category":"exam-level","stage":0,"frequencyRank":-10,"description":"教育部國小英語 1,200 字基本字彙表(待補 tag)"},
+    {"id":"exam-junior-high","name":"國中","icon":"📗","category":"exam-level","stage":1,"frequencyRank":-9,"description":"教育部國中英語 2,000 字(基本 1200 + 進階 800)(待補 tag)"},
+    {"id":"exam-mid","name":"學測 / 多益中","icon":"🏫","category":"exam-level","stage":2,"frequencyRank":-8,"description":"學測低標 / 多益 500-700 字彙範圍(待補 tag)"},
+    {"id":"exam-7000","name":"大考7000","icon":"📚","category":"exam-level","stage":3,"frequencyRank":-7,"description":"大考中心 7000 字表 + 衍生詞,目前 6,712 條 tag"},
+    {"id":"exam-advanced","name":"托福 / 學術","icon":"🎓","category":"exam-level","stage":4,"frequencyRank":-6,"description":"托福高頻 / AWL 學術 / 高分閱讀(待補 tag)"},
 
     {"id":"numbers","name":"數字","icon":"🔢","category":"daily","stage":0,"frequencyRank":1,"description":"1-20 + 基本數量詞"},
     {"id":"time","name":"時間","icon":"🕐","category":"daily","stage":0,"frequencyRank":2,"description":"天 / 月 / 季節 / 早晚"},
@@ -84,7 +91,7 @@
     {"id":"religion","name":"宗教","icon":"🛐","category":"academic","stage":4,"frequencyRank":61,"description":"信仰 / 教派 / 儀式"},
     {"id":"philosophy","name":"哲學","icon":"💭","category":"academic","stage":4,"frequencyRank":62,"description":"思想 / 邏輯 / 倫理"},
     {"id":"literature","name":"文學","icon":"📖","category":"academic","stage":4,"frequencyRank":63,"description":"小說 / 詩 / 修辭"},
-    {"id":"academic-words","name":"學術詞","icon":"🎓","category":"academic","stage":4,"frequencyRank":64,"description":"AWL 學術字彙"},
+    {"id":"academic-words","name":"學術詞","icon":"🎓","category":"exam-level","stage":4,"frequencyRank":-5,"description":"AWL 學術字彙 + 抽象名詞,目前 747 條"},
 
     {"id":"phonics-compound","name":"複合字","icon":"🔗","category":"special","stage":0,"frequencyRank":0,"description":"已學 phonics 組合的複合字"},
     {"id":"sight-words","name":"高頻字","icon":"⭐","category":"special","stage":0,"frequencyRank":-1,"description":"the / and / is 等不照規則的高頻字"},
@@ -94,8 +101,7 @@
     {"id":"tools","name":"工具","icon":"🔨","category":"daily","stage":2,"frequencyRank":66,"description":"鎚子 / 螺絲起子 / 鋸子 / 梯子 / DIY"},
     {"id":"countries","name":"國家","icon":"🌍","category":"social","stage":1,"frequencyRank":67,"description":"國家名稱 / 國籍 / 主要國家"},
     {"id":"phrasal-verbs","name":"片語動詞","icon":"🔗","category":"special","stage":1,"frequencyRank":-3,"description":"get up / look for / give up 等片語動詞,Stage 1 閱讀斷崖核心"},
-    {"id":"connectors","name":"連接詞","icon":"🪢","category":"special","stage":1,"frequencyRank":-4,"description":"however / therefore / although 等,讀文章核心"},
-    {"id":"exam-7000","name":"大考7000","icon":"📚","category":"academic","stage":2,"frequencyRank":68,"description":"大考中心 7000 字表 Level 1-4 未分類詞 (auto-imported, 待後續按主題重分)"}
+    {"id":"connectors","name":"連接詞","icon":"🪢","category":"special","stage":1,"frequencyRank":-4,"description":"however / therefore / although 等,讀文章核心"}
 
   ]
 }
