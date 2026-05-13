@@ -134775,6 +134775,662 @@
       "split": "pen + dant",
       "theme": "exam-7000",
       "stage": 2
+    },
+    {
+      "word": "midweek",
+      "mean": "週中",
+      "img": "📚",
+      "chunks": [
+        "mid",
+        "week"
+      ],
+      "py": "ㄇㄧㄉㄨㄝㄝㄎ",
+      "split": "mid + week",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "nightfall",
+      "mean": "黃昏",
+      "img": "📚",
+      "chunks": [
+        "nigh",
+        "tfall"
+      ],
+      "py": "ㄋㄧㄍㄏㄊㄈㄚㄌㄌ",
+      "split": "nigh + tfall",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "teatime",
+      "mean": "茶點時間",
+      "img": "📚",
+      "chunks": [
+        "tea",
+        "ti",
+        "me"
+      ],
+      "py": "ㄊㄝㄚㄊㄧㄇㄝ",
+      "split": "tea + ti + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "springtime",
+      "mean": "春天",
+      "img": "📚",
+      "chunks": [
+        "sprin",
+        "gti",
+        "me"
+      ],
+      "py": "ㄙㄆㄖㄧㄋㄍㄊㄧㄇㄝ",
+      "split": "sprin + gti + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "summertime",
+      "mean": "夏天",
+      "img": "📚",
+      "chunks": [
+        "sum",
+        "mer",
+        "ti",
+        "me"
+      ],
+      "py": "ㄙㄚㄇㄇㄝㄖㄊㄧㄇㄝ",
+      "split": "sum + mer + ti + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "wintertime",
+      "mean": "冬天",
+      "img": "📚",
+      "chunks": [
+        "win",
+        "ter",
+        "ti",
+        "me"
+      ],
+      "py": "ㄨㄧㄋㄊㄝㄖㄊㄧㄇㄝ",
+      "split": "win + ter + ti + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bylaw",
+      "mean": "地方規章",
+      "img": "📚",
+      "chunks": [
+        "by",
+        "law"
+      ],
+      "py": "ㄅㄧㄌㄚㄨ",
+      "split": "by + law",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cohabit",
+      "mean": "同居",
+      "img": "📚",
+      "chunks": [
+        "co",
+        "ha",
+        "bit"
+      ],
+      "py": "ㄎㄛㄏㄚㄅㄧㄊ",
+      "split": "co + ha + bit",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "decree",
+      "mean": "法令",
+      "img": "📚",
+      "chunks": [
+        "dec",
+        "ree"
+      ],
+      "py": "ㄉㄝㄎㄖㄝㄝ",
+      "split": "dec + ree",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "grievance",
+      "mean": "申訴",
+      "img": "📚",
+      "chunks": [
+        "grie",
+        "van",
+        "ce"
+      ],
+      "py": "ㄍㄖㄧㄝㄨㄚㄋㄎㄝ",
+      "split": "grie + van + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "inquest",
+      "mean": "調查",
+      "img": "📚",
+      "chunks": [
+        "in",
+        "quest"
+      ],
+      "py": "ㄧㄋㄎㄚㄝㄙㄊ",
+      "split": "in + quest",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "legality",
+      "mean": "合法性",
+      "img": "📚",
+      "chunks": [
+        "le",
+        "ga",
+        "li",
+        "ty"
+      ],
+      "py": "ㄌㄝㄍㄚㄌㄧㄊㄧ",
+      "split": "le + ga + li + ty",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "litigation",
+      "mean": "訴訟",
+      "img": "📚",
+      "chunks": [
+        "li",
+        "ti",
+        "ga",
+        "tion"
+      ],
+      "py": "ㄌㄧㄊㄧㄍㄚㄊㄧㄛㄋ",
+      "split": "li + ti + ga + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "airstrike",
+      "mean": "空襲",
+      "img": "📚",
+      "chunks": [
+        "airs",
+        "tri",
+        "ke"
+      ],
+      "py": "ㄚㄧㄖㄙㄊㄖㄧㄎㄝ",
+      "split": "airs + tri + ke",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "ammunition",
+      "mean": "彈藥",
+      "img": "📚",
+      "chunks": [
+        "am",
+        "mu",
+        "ni",
+        "tion"
+      ],
+      "py": "ㄚㄇㄇㄚㄋㄧㄊㄧㄛㄋ",
+      "split": "am + mu + ni + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "arsenal",
+      "mean": "軍火庫",
+      "img": "📚",
+      "chunks": [
+        "ar",
+        "se",
+        "nal"
+      ],
+      "py": "ㄚㄖㄙㄝㄋㄚㄌ",
+      "split": "ar + se + nal",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "artillery",
+      "mean": "大砲",
+      "img": "📚",
+      "chunks": [
+        "ar",
+        "til",
+        "le",
+        "ry"
+      ],
+      "py": "ㄚㄖㄊㄧㄌㄌㄝㄖㄧ",
+      "split": "ar + til + le + ry",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "battalion",
+      "mean": "營",
+      "img": "📚",
+      "chunks": [
+        "bat",
+        "ta",
+        "lion"
+      ],
+      "py": "ㄅㄚㄊㄊㄚㄌㄧㄛㄋ",
+      "split": "bat + ta + lion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "blockade",
+      "mean": "封鎖",
+      "img": "📚",
+      "chunks": [
+        "bloc",
+        "ka",
+        "de"
+      ],
+      "py": "ㄅㄌㄛㄎㄎㄚㄉㄝ",
+      "split": "bloc + ka + de",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "brigade",
+      "mean": "旅",
+      "img": "📚",
+      "chunks": [
+        "bri",
+        "ga",
+        "de"
+      ],
+      "py": "ㄅㄖㄧㄍㄚㄉㄝ",
+      "split": "bri + ga + de",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cadet",
+      "mean": "軍校生",
+      "img": "📚",
+      "chunks": [
+        "ca",
+        "det"
+      ],
+      "py": "ㄎㄚㄉㄝㄊ",
+      "split": "ca + det",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "camouflage",
+      "mean": "迷彩",
+      "img": "📚",
+      "chunks": [
+        "ca",
+        "mouf",
+        "la",
+        "ge"
+      ],
+      "py": "ㄎㄚㄇㄛㄚㄈㄌㄚㄍㄝ",
+      "split": "ca + mouf + la + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "citadel",
+      "mean": "城堡",
+      "img": "📚",
+      "chunks": [
+        "ci",
+        "ta",
+        "del"
+      ],
+      "py": "ㄎㄧㄊㄚㄉㄝㄌ",
+      "split": "ci + ta + del",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "combatant",
+      "mean": "戰鬥員",
+      "img": "📚",
+      "chunks": [
+        "com",
+        "ba",
+        "tant"
+      ],
+      "py": "ㄎㄛㄇㄅㄚㄊㄚㄋㄊ",
+      "split": "com + ba + tant",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "crusader",
+      "mean": "十字軍",
+      "img": "📚",
+      "chunks": [
+        "cru",
+        "sa",
+        "der"
+      ],
+      "py": "ㄎㄖㄚㄙㄚㄉㄝㄖ",
+      "split": "cru + sa + der",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "decimate",
+      "mean": "大批殺害",
+      "img": "📚",
+      "chunks": [
+        "de",
+        "ci",
+        "ma",
+        "te"
+      ],
+      "py": "ㄉㄝㄎㄧㄇㄚㄊㄝ",
+      "split": "de + ci + ma + te",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "destroyer",
+      "mean": "驅逐艦",
+      "img": "📚",
+      "chunks": [
+        "des",
+        "troyer"
+      ],
+      "py": "ㄉㄝㄙㄊㄖㄛㄧㄝㄖ",
+      "split": "des + troyer",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "disarm",
+      "mean": "繳械",
+      "img": "📚",
+      "chunks": [
+        "di",
+        "sarm"
+      ],
+      "py": "ㄉㄧㄙㄚㄖㄇ",
+      "split": "di + sarm",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "frigate",
+      "mean": "護衛艦",
+      "img": "📚",
+      "chunks": [
+        "fri",
+        "ga",
+        "te"
+      ],
+      "py": "ㄈㄖㄧㄍㄚㄊㄝ",
+      "split": "fri + ga + te",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "garrison",
+      "mean": "駐軍",
+      "img": "📚",
+      "chunks": [
+        "gar",
+        "ri",
+        "son"
+      ],
+      "py": "ㄍㄚㄖㄖㄧㄙㄛㄋ",
+      "split": "gar + ri + son",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "guerilla",
+      "mean": "游擊",
+      "img": "📚",
+      "chunks": [
+        "gue",
+        "ril",
+        "la"
+      ],
+      "py": "ㄍㄚㄝㄖㄧㄌㄌㄚ",
+      "split": "gue + ril + la",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "infantry",
+      "mean": "步兵",
+      "img": "📚",
+      "chunks": [
+        "in",
+        "fan",
+        "try"
+      ],
+      "py": "ㄧㄋㄈㄚㄋㄊㄖㄧ",
+      "split": "in + fan + try",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "insurgent",
+      "mean": "叛亂分子",
+      "img": "📚",
+      "chunks": [
+        "in",
+        "sur",
+        "gent"
+      ],
+      "py": "ㄧㄋㄙㄚㄖㄍㄝㄋㄊ",
+      "split": "in + sur + gent",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "mercenary",
+      "mean": "僱傭兵",
+      "img": "📚",
+      "chunks": [
+        "mer",
+        "ce",
+        "na",
+        "ry"
+      ],
+      "py": "ㄇㄝㄖㄎㄝㄋㄚㄖㄧ",
+      "split": "mer + ce + na + ry",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "munitions",
+      "mean": "軍火",
+      "img": "📚",
+      "chunks": [
+        "mu",
+        "ni",
+        "tions"
+      ],
+      "py": "ㄇㄚㄋㄧㄊㄧㄛㄋㄙ",
+      "split": "mu + ni + tions",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "paratrooper",
+      "mean": "傘兵",
+      "img": "📚",
+      "chunks": [
+        "pa",
+        "rat",
+        "roo",
+        "per"
+      ],
+      "py": "ㄆㄚㄖㄚㄊㄖㄛㄛㄆㄝㄖ",
+      "split": "pa + rat + roo + per",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "platoon",
+      "mean": "排",
+      "img": "📚",
+      "chunks": [
+        "pla",
+        "toon"
+      ],
+      "py": "ㄆㄌㄚㄊㄛㄛㄋ",
+      "split": "pla + toon",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "quagmire",
+      "mean": "困境",
+      "img": "📚",
+      "chunks": [
+        "quag",
+        "mi",
+        "re"
+      ],
+      "py": "ㄎㄚㄚㄍㄇㄧㄖㄝ",
+      "split": "quag + mi + re",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "reconnaissance",
+      "mean": "偵察",
+      "img": "📚",
+      "chunks": [
+        "re",
+        "con",
+        "nais",
+        "san",
+        "ce"
+      ],
+      "py": "ㄖㄝㄎㄛㄋㄋㄚㄧㄙㄙㄚㄋㄎㄝ",
+      "split": "re + con + nais + san + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "sabotage",
+      "mean": "破壞",
+      "img": "📚",
+      "chunks": [
+        "sa",
+        "bo",
+        "ta",
+        "ge"
+      ],
+      "py": "ㄙㄚㄅㄛㄊㄚㄍㄝ",
+      "split": "sa + bo + ta + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "sniper",
+      "mean": "狙擊手",
+      "img": "📚",
+      "chunks": [
+        "sni",
+        "per"
+      ],
+      "py": "ㄙㄋㄧㄆㄝㄖ",
+      "split": "sni + per",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "squadron",
+      "mean": "中隊",
+      "img": "📚",
+      "chunks": [
+        "squad",
+        "ron"
+      ],
+      "py": "ㄙㄎㄚㄚㄉㄖㄛㄋ",
+      "split": "squad + ron",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "strafe",
+      "mean": "掃射",
+      "img": "📚",
+      "chunks": [
+        "stra",
+        "fe"
+      ],
+      "py": "ㄙㄊㄖㄚㄈㄝ",
+      "split": "stra + fe",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "valor",
+      "mean": "勇氣",
+      "img": "📚",
+      "chunks": [
+        "va",
+        "lor"
+      ],
+      "py": "ㄨㄚㄌㄛㄖ",
+      "split": "va + lor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "warhead",
+      "mean": "彈頭",
+      "img": "📚",
+      "chunks": [
+        "war",
+        "head"
+      ],
+      "py": "ㄨㄚㄖㄏㄝㄚㄉ",
+      "split": "war + head",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "warzone",
+      "mean": "戰區",
+      "img": "📚",
+      "chunks": [
+        "war",
+        "zo",
+        "ne"
+      ],
+      "py": "ㄨㄚㄖㄗㄛㄋㄝ",
+      "split": "war + zo + ne",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "zealot",
+      "mean": "狂熱分子",
+      "img": "📚",
+      "chunks": [
+        "zea",
+        "lot"
+      ],
+      "py": "ㄗㄝㄚㄌㄛㄊ",
+      "split": "zea + lot",
+      "theme": "exam-7000",
+      "stage": 3
     }
   ]
 }
