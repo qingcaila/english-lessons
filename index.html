@@ -130,11 +130,11 @@
     <h2>目前位置 <span style="font-size:10px;color:var(--muted);text-transform:none;letter-spacing:0;">(切換 stage 不會洗任何資料)</span></h2>
     <div style="display:flex;gap:8px;align-items:center;margin-bottom:6px;flex-wrap:wrap;">
       <select id="stageSelector" style="font-size:16px;font-weight:600;padding:6px 10px;border-radius:6px;border:1px solid var(--border);background:#fff;font-family:inherit;color:var(--ink);">
-        <option value="0">Stage 0 — 超級基礎 · 國小(500-1K)</option>
-        <option value="1">Stage 1 — 基礎 · 國中畢(1.2-2K)/ 旅遊</option>
-        <option value="2">Stage 2 — 中下 · 學測低標 / 多益 500-700(4-5K)</option>
-        <option value="3">Stage 3 — 中 · 多益 700+ / 7000 字(5-7K)</option>
-        <option value="4">Stage 4 — 中上 · 托福 / 學術閱讀(8-10K+)</option>
+        <option value="0">Stage 0 — 超級基礎</option>
+        <option value="1">Stage 1 — 基礎</option>
+        <option value="2">Stage 2 — 中下</option>
+        <option value="3">Stage 3 — 中</option>
+        <option value="4">Stage 4 — 中上</option>
       </select>
       <span style="font-size:11px;color:var(--muted);">/ 5 階段</span>
       <label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:auto;"
@@ -339,15 +339,25 @@ function renderStage() {
     // 提示文字(大白話版)
     const hint = document.getElementById("stagePoolHint");
     if (hint) {
-      const STAGE_COUNT = { 0:634, 1:1998, 2:3225, 3:3386, 4:759 };
-      const CUMULATIVE = { 0:634, 1:2632, 2:5857, 3:9243, 4:10002 };
+      const STAGE_COUNT = { 0:634, 1:2001, 2:3225, 3:3386, 4:759 };
+      const CUMULATIVE = { 0:634, 1:2635, 2:5860, 3:9246, 4:10005 };
+      const STAGE_TARGET = {
+        0:"📘 國小程度 · 500-1K",
+        1:"📗 國中畢 / 旅遊溝通 · 1.2-2K",
+        2:"🏫 學測低標 / 多益 500-700 · 4-5K",
+        3:"📚 多益 700+ / 7000 字 · 5-7K",
+        4:"🎓 托福 / 學術閱讀 · 8-10K+"
+      };
+      const targetLine = `<div style="color:var(--accent);font-size:11px;margin-bottom:2px;">🎯 對應:${STAGE_TARGET[stage]}</div>`;
       if (exclusive) {
         const n = STAGE_COUNT[stage];
-        hint.innerHTML = `🎯 <b>只練本階段(已勾)</b>:新一輪只會抽到 Stage ${stage} 的字(<b>${n} 字</b>),不會混到別階段字。<br><span style="color:var(--accent);">適合:想專注練本階段,像「本週課表」。</span>`;
+        hint.innerHTML = targetLine +
+          `🎯 <b>只練本階段(已勾)</b>:新一輪只會抽到 Stage ${stage} 的字(<b>${n} 字</b>),不會混到別階段字。`;
       } else {
         const n = CUMULATIVE[stage];
         const lower = stage > 0 ? `0~${stage}` : `${stage}`;
-        hint.innerHTML = `📚 <b>累積制(未勾)</b>:新一輪會抽 Stage ${lower} 所有字(<b>${n} 字</b>),包含舊階段。<br><span style="color:var(--accent);">適合:邊學新的邊複習舊的,字池更多。</span>`;
+        hint.innerHTML = targetLine +
+          `📚 <b>累積制(未勾)</b>:新一輪會抽 Stage ${lower} 所有字(<b>${n} 字</b>),包含舊階段。`;
       }
     }
   }
