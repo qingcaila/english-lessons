@@ -254,7 +254,7 @@ git push
 ### Stage C:Stage 2-3 抽象 + 領域(4,200 → 6,500)
 - [x] **C1**(+300 / 累計 3,258)jobs-advanced 80 / appearance 59 / personality 80 / relationships 81
 - [x] **C2**(+259 / 累計 3,517)toys 69 / art 50 / hobbies 50 / games 50 / movies-tv 50
-- [ ] **C3**(+~400 / 累計 ~5,400)medical / fitness / diseases / office / business
+- [x] **C3**(+399 / 累計 3,916)medical 80 / fitness 77 / diseases 80 / office 80 / business 82
 - [ ] **C4**(+~400 / 累計 ~5,800)economy / internet / media / events / environment
 - [ ] **C5**(+~400 / 累計 ~6,200)science / history / geography
 - [ ] **C6**(+~300 / 累計 ~6,500)emergencies / crime / law(基礎)
