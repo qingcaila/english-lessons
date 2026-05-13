@@ -130,11 +130,11 @@
     <h2>目前位置 <span style="font-size:10px;color:var(--muted);text-transform:none;letter-spacing:0;">(切換 stage 不會洗任何資料)</span></h2>
     <div style="display:flex;gap:8px;align-items:center;margin-bottom:6px;flex-wrap:wrap;">
       <select id="stageSelector" style="font-size:16px;font-weight:600;padding:6px 10px;border-radius:6px;border:1px solid var(--border);background:#fff;font-family:inherit;color:var(--ink);">
-        <option value="0">Stage 0 — 超級基礎</option>
-        <option value="1">Stage 1 — 基礎</option>
-        <option value="2">Stage 2 — 中下</option>
-        <option value="3">Stage 3 — 中</option>
-        <option value="4">Stage 4 — 中上</option>
+        <option value="0">Stage 0 — 超級基礎 · 國小(500-1K)</option>
+        <option value="1">Stage 1 — 基礎 · 國中畢(1.2-2K)/ 旅遊</option>
+        <option value="2">Stage 2 — 中下 · 學測低標 / 多益 500-700(4-5K)</option>
+        <option value="3">Stage 3 — 中 · 多益 700+ / 7000 字(5-7K)</option>
+        <option value="4">Stage 4 — 中上 · 托福 / 學術閱讀(8-10K+)</option>
       </select>
       <span style="font-size:11px;color:var(--muted);">/ 5 階段</span>
       <label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:auto;"
@@ -274,11 +274,11 @@
     <details style="margin-top:6px;font-size:11px;color:var(--muted);">
       <summary>各 Stage 字量目標(L4 計)</summary>
       <ul style="margin:6px 0 0 16px;padding:0;line-height:1.6;">
-        <li>Stage 0 超基礎:500-1,000(讀 Bookworms Starter)</li>
-        <li>Stage 1 基礎:2,000-3,000(基本日常對話)</li>
-        <li>Stage 2 中下:4,000-5,000(讀簡單原文新聞)</li>
-        <li>Stage 3 中:5,000-7,000(讀 Medium 文章)⭐ 你的目標</li>
-        <li>Stage 4 中上:8,000-10,000+(原文書、學術閱讀)</li>
+        <li><b>Stage 0 超基礎</b>:500-1,000 字 · 國小程度 · 讀 Bookworms Starter</li>
+        <li><b>Stage 1 基礎</b>:1,200-2,000 字 · 國中畢業 / 日常旅遊溝通</li>
+        <li><b>Stage 2 中下</b>:4,000-5,000 字 · 學測低標 / 多益 500-700</li>
+        <li><b>Stage 3 中</b>:5,000-7,000 字 · 多益 700+ / 7000 字標準 / 讀 Medium ⭐ 你的目標</li>
+        <li><b>Stage 4 中上</b>:8,000-10,000+ 字 · 托福 / 原文書 / 學術閱讀</li>
       </ul>
     </details>
   </div>
@@ -289,7 +289,7 @@
 <script>
 const STAGE_NAMES = ["超級基礎", "基礎", "中下", "中", "中上"];
 const STAGE_VOCAB_TARGET = [
-  [500, 1000], [2000, 3000], [4000, 5000], [5000, 7000], [8000, 10000]
+  [500, 1000], [1200, 2000], [4000, 5000], [5000, 7000], [8000, 10000]
 ];
 
 let VOCAB = null, THEMES = null;
