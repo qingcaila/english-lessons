@@ -260,7 +260,7 @@ git push
 - [x] **C6**(+239 / 累計 4,779)emergencies 79 / crime 80 / law 80 — **Stage C 全部完成** ✅
 
 ### Stage D:Stage 3-4 學術 + 收尾(6,500 → 10,000+)
-- [ ] **D1**(+~400 / 累計 ~6,900)politics / religion / philosophy
+- [x] **D1**(+301 / 累計 5,080)politics 100 / religion 101 / philosophy 100 — **突破 50%** 🎯
 - [ ] **D2**(+~400 / 累計 ~7,300)literature / sight-words 推到 500(Fry 完成)
 - [ ] **D3**(+~400 / 累計 ~7,700)academic-words 1(AWL Sublist 1-3)
 - [ ] **D4**(+~400 / 累計 ~8,100)academic-words 2(AWL Sublist 4-6)
