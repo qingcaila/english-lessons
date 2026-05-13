@@ -252,7 +252,7 @@ git push
 - [x] **B6**(+160 / 累計 2,958)過去式 60(sight-words) / 片語動詞 60 / 連接副詞 40 — 直接打學習者閱讀斷崖
 
 ### Stage C:Stage 2-3 抽象 + 領域(4,200 → 6,500)
-- [ ] **C1**(+~400 / 累計 ~4,600)jobs-advanced / appearance / personality / relationships
+- [x] **C1**(+300 / 累計 3,258)jobs-advanced 80 / appearance 59 / personality 80 / relationships 81
 - [ ] **C2**(+~400 / 累計 ~5,000)toys / art / hobbies / games / movies-tv
 - [ ] **C3**(+~400 / 累計 ~5,400)medical / fitness / diseases / office / business
 - [ ] **C4**(+~400 / 累計 ~5,800)economy / internet / media / events / environment
