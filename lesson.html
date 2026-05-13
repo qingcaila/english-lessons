@@ -39,11 +39,16 @@
   }
   .topbar a.home:hover { background: var(--accent-soft); color: var(--accent); }
   .topbar .spacer { flex: 1; }
-  .topbar .finish {
-    background: var(--accent-soft); color: var(--accent);
+  .topbar .next-round {
+    background: var(--accent); color: #fff;
     border: 1px solid var(--accent); font-weight: 600;
   }
-  .topbar .finish:hover { background: var(--accent); color: #fff; }
+  .topbar .next-round:hover { background: #a8512f; }
+  .topbar .finish {
+    background: #fff; color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .topbar .finish:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
 
   /* lesson info 獨立一行,避免擠 */
   .lesson-info {
@@ -178,7 +183,8 @@
     </label>
     <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
     <span class="spacer"></span>
-    <button class="finish" id="finishBtn" onclick="forceShowSummary()">結束 →</button>
+    <button class="next-round" id="nextBtn" onclick="goNextRound()">下一輪 →</button>
+    <button class="finish" id="finishBtn" onclick="forceShowSummary()">結束</button>
   </div>
   <div class="lesson-info" id="lessonInfo"></div>
   <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌</div>
@@ -460,6 +466,13 @@ function forceShowSummary() {
   // 學習者主動結束(不管標了幾個)
   if (!confirm("確定結束本輪?未標記的字會延到下一輪。")) return;
   showSummary();
+}
+
+function goNextRound() {
+  // 直接跳下一輪,不出 summary
+  // 沒標的字會被 recordLesson 設 nextDue=R+1,自動延到下一輪
+  recordOnLeave();
+  location.href = "lesson.html?" + new URLSearchParams(location.search).toString();
 }
 let _lessonRecorded = false;
 let _selectedEval = null;
