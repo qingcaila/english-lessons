@@ -258,7 +258,7 @@ function pickWords({ vocab, themes }) {
   // 2) 候選新字池(根據 mode 篩)
   let newPool = vocab.words.filter(w => !learnedIds.has(w.word));
   if (mode === "theme" && themeFilter) {
-    newPool = newPool.filter(w => w.theme === themeFilter);
+    newPool = newPool.filter(w => w.theme === themeFilter || (w.tags && w.tags.includes(themeFilter)));
   } else if (mode === "frequency") {
     // 按 theme.frequencyRank 排
     const rankMap = {};

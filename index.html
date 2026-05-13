@@ -385,7 +385,10 @@ function renderThemes() {
   const cats = (THEMES.categories || []).sort((a,b) => a.order - b.order);
   // 字數統計(每主題已有多少字)
   const themeWordCount = {};
-  VOCAB.words.forEach(w => { themeWordCount[w.theme] = (themeWordCount[w.theme] || 0) + 1; });
+  VOCAB.words.forEach(w => {
+    themeWordCount[w.theme] = (themeWordCount[w.theme] || 0) + 1;
+    if (w.tags) w.tags.forEach(t => themeWordCount[t] = (themeWordCount[t] || 0) + 1);
+  });
 
   container.innerHTML = cats.map(c => {
     const themesInCat = THEMES.themes
@@ -447,7 +450,9 @@ function renderThemeStats() {
     levels: { L1: 0, L2: 0, L3: 0, L4: 0, L5: 0 }
   });
   VOCAB.words.forEach(w => {
-    if (byTheme[w.theme] && w.stage <= stage) byTheme[w.theme].total += 1;
+    if (w.stage > stage) return;
+    if (byTheme[w.theme]) byTheme[w.theme].total += 1;
+    if (w.tags) w.tags.forEach(t => { if (byTheme[t]) byTheme[t].total += 1; });
   });
   Object.values(state.words).forEach(w => {
     const t = byTheme[w.theme]; if (!t) return;
