@@ -197,6 +197,7 @@
 
     <h3>📍 目前位置</h3>
     <p>Stage 下拉切換(<b>切換不會洗資料</b>)、字量進度條、L4 比例、該複習多少字。</p>
+    <p style="font-size:12px;color:var(--muted);">右側 <b>「只練本階段」</b> checkbox 切換「獨佔制」/「累積制」字池(詳見第 8 節 Stage 切換)。下方會即時顯示目前可抽字數。</p>
     <p style="font-size:12px;color:var(--muted);">該複習 > 0 時下方會冒出兩顆橘色快捷:<span class="button-demo">📚 直接複習</span> / <span class="button-demo outline">🎯 考自己</span></p>
 
     <h3>🚀 開新一輪</h3>
@@ -417,7 +418,36 @@
       <b>⚠️ 重要</b>:切換 Stage <b>永遠不會洗掉你的學習進度</b>。已達 L4 的字永遠是 L4。切換只是換「看哪個階段的字」。
     </div>
 
-    <p style="font-size:12px;color:var(--muted);">所有 73 個主題都可點(不會鎖),切換 Stage 只影響字量目標進度條,不影響能不能選主題。</p>
+    <h3>Stage 影響哪些東西</h3>
+    <ul class="feature-list">
+      <li>✅ <b>「目前位置」字量目標範圍</b>(Stage 0: 500-1K / Stage 4: 8-10K)</li>
+      <li>✅ <b>字量進度條%</b>(L4 數 ÷ Stage 最低目標)</li>
+      <li>✅ <b>新一輪抽字池</b>(只抽 ≤ 當前 Stage 的字,見下方「字池模式」)</li>
+      <li>✅ <b>挑戰模式抽什麼字</b>(stage = currentStage + 1)</li>
+      <li>✅ <b>主題 tile 軟暗示</b>(超過 Stage 的主題會虛線淡化)</li>
+    </ul>
+
+    <h3>🎯 字池模式(累積制 vs 獨佔制)</h3>
+    <p>Stage 下拉旁邊有個 checkbox <b>「只練本階段」</b>,切換兩種模式:</p>
+    <table>
+      <tr><th>模式</th><th>抽字池</th><th>舉例(Stage 2)</th></tr>
+      <tr><td>📌 <b>累積制</b>(預設)</td><td>stage ≤ currentStage</td><td>Stage 0 + 1 + 2 字都抽得到(5,857 字)</td></tr>
+      <tr><td>📌 <b>獨佔制</b>(勾選)</td><td>stage === currentStage</td><td>只抽 Stage 2 的字(3,225 字)</td></tr>
+    </table>
+    <p style="font-size:12px;color:var(--muted);">下方提示文字會即時顯示目前模式 + 可抽字數。</p>
+
+    <div class="tip">
+      <b>💡 怎麼選?</b><br>
+      • <b>想複習舊字+學新字</b>(自然累積)→ 累積制<br>
+      • <b>只想專注本階段挑戰</b>(像課表)→ 獨佔制<br>
+      <b>該複習(due)的字不受影響</b>,到期一律推。Stage 過濾只影響「抽新字」。
+    </div>
+
+    <h3>🚧 主題軟暗示</h3>
+    <p>選「🎯 指定主題」時,超過你 Stage 的主題會<b>虛線邊框+淡化</b>。點下去仍可進(會跳 confirm「這是 Stage X 主題,你目前 Stage Y,確定要練嗎?」)。</p>
+    <p style="font-size:12px;color:var(--muted);">注意:主題雖然可越級進,但 Stage 字池過濾仍生效,可能抽不到字。要練進階主題建議先升 Stage。</p>
+
+    <p style="font-size:12px;color:var(--muted);">所有 73 個主題都可點,切換 Stage 不會鎖主題,只影響抽字池。</p>
   </div>
 
   <!-- 9 -->
