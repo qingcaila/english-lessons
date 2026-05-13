@@ -137,12 +137,13 @@
         <option value="4">Stage 4 — 中上</option>
       </select>
       <span style="font-size:11px;color:var(--muted);">/ 5 階段</span>
-      <label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:auto;">
+      <label style="font-size:11px;color:var(--muted);display:inline-flex;align-items:center;gap:3px;cursor:pointer;margin-left:auto;"
+             title="勾選後,新一輪只抽「本階段」的字,不混到舊階段字。預設不勾(累積制,連舊階段也練)。">
         <input type="checkbox" id="stageExclusive" style="margin:0;">
-        只練本階段
+        只練本階段 <span style="color:var(--accent);">ⓘ</span>
       </label>
     </div>
-    <div style="font-size:10px;color:var(--muted);margin-bottom:4px;" id="stagePoolHint"></div>
+    <div style="font-size:10px;color:var(--muted);margin-bottom:4px;line-height:1.5;" id="stagePoolHint"></div>
     <div class="stage-meta" id="stageMeta"></div>
     <div class="progress"><div id="stageProgress" style="width:0%"></div></div>
     <div class="stat-row" style="margin-top:10px;">
@@ -334,15 +335,19 @@ function renderStage() {
       SRS.setSetting("stageExclusive", exSel.checked);
       renderStage();
     };
-    // 提示文字
+    // 提示文字(大白話版)
     const hint = document.getElementById("stagePoolHint");
     if (hint) {
       const STAGE_COUNT = { 0:634, 1:1998, 2:3225, 3:3386, 4:759 };
       const CUMULATIVE = { 0:634, 1:2632, 2:5857, 3:9243, 4:10002 };
-      const n = exclusive ? STAGE_COUNT[stage] : CUMULATIVE[stage];
-      hint.textContent = exclusive
-        ? `📌 獨佔制:只抽 Stage ${stage} 的 ${n} 字`
-        : `📌 累積制:抽 Stage 0-${stage} 共 ${n} 字`;
+      if (exclusive) {
+        const n = STAGE_COUNT[stage];
+        hint.innerHTML = `🎯 <b>只練本階段(已勾)</b>:新一輪只會抽到 Stage ${stage} 的字(<b>${n} 字</b>),不會混到別階段字。<br><span style="color:var(--accent);">適合:想專注練本階段,像「本週課表」。</span>`;
+      } else {
+        const n = CUMULATIVE[stage];
+        const lower = stage > 0 ? `0~${stage}` : `${stage}`;
+        hint.innerHTML = `📚 <b>累積制(未勾)</b>:新一輪會抽 Stage ${lower} 所有字(<b>${n} 字</b>),包含舊階段。<br><span style="color:var(--accent);">適合:邊學新的邊複習舊的,字池更多。</span>`;
+      }
     }
   }
   const [min, max] = STAGE_VOCAB_TARGET[stage];
