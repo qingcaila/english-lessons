@@ -88,7 +88,13 @@
 
     {"id":"phonics-compound","name":"複合字","icon":"🔗","category":"special","stage":0,"frequencyRank":0,"description":"已學 phonics 組合的複合字"},
     {"id":"sight-words","name":"高頻字","icon":"⭐","category":"special","stage":0,"frequencyRank":-1,"description":"the / and / is 等不照規則的高頻字"},
-    {"id":"idioms","name":"成語慣用語","icon":"💬","category":"special","stage":3,"frequencyRank":-2,"description":"piece of cake 等"}
+    {"id":"idioms","name":"成語慣用語","icon":"💬","category":"special","stage":3,"frequencyRank":-2,"description":"piece of cake 等"},
+
+    {"id":"materials","name":"材料","icon":"🪨","category":"daily","stage":2,"frequencyRank":65,"description":"木頭 / 金屬 / 玻璃 / 塑膠 / 布料"},
+    {"id":"tools","name":"工具","icon":"🔨","category":"daily","stage":2,"frequencyRank":66,"description":"鎚子 / 螺絲起子 / 鋸子 / 梯子 / DIY"},
+    {"id":"countries","name":"國家","icon":"🌍","category":"social","stage":1,"frequencyRank":67,"description":"國家名稱 / 國籍 / 主要國家"},
+    {"id":"phrasal-verbs","name":"片語動詞","icon":"🔗","category":"special","stage":1,"frequencyRank":-3,"description":"get up / look for / give up 等片語動詞,Stage 1 閱讀斷崖核心"},
+    {"id":"connectors","name":"連接詞","icon":"🪢","category":"special","stage":1,"frequencyRank":-4,"description":"however / therefore / although 等,讀文章核心"}
 
   ]
 }
