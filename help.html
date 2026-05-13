@@ -132,7 +132,7 @@
       <li><a href="#lesson">課程頁面操作</a></li>
       <li><a href="#quiz">考自己模式</a></li>
       <li><a href="#l4">L1-L5 是什麼?</a></li>
-      <li><a href="#stage">Stage 切換</a></li>
+      <li><a href="#stage">Stage 切換 · 字池模式(累積/獨佔)· 主題軟暗示</a></li>
       <li><a href="#tips">小技巧</a></li>
       <li><a href="#trouble">遇到問題?</a></li>
       <li><a href="#share">分享給朋友</a></li>
@@ -222,14 +222,15 @@
   <h2 id="modes">4. 6 種學習模式</h2>
   <div class="card">
     <table>
-      <tr><th>模式</th><th>適合</th></tr>
-      <tr><td>📊 <b>按頻率排</b></td><td>最實用先學,新手預設</td></tr>
-      <tr><td>🎲 <b>隨機</b></td><td>想換口味、避免無聊</td></tr>
-      <tr><td>🎯 <b>指定主題</b></td><td>想學特定領域(動物 / 食物 / 旅行...)</td></tr>
-      <tr><td>🔄 <b>混合</b></td><td>主題字 + 隨機字混打</td></tr>
-      <tr><td>📚 <b>純複習</b></td><td>累、想鞏固,不學新</td></tr>
-      <tr><td>🌟 <b>挑戰</b></td><td>偷看下一階段字</td></tr>
+      <tr><th>模式</th><th>適合</th><th>受 Stage 過濾?</th></tr>
+      <tr><td>📊 <b>按頻率排</b></td><td>最實用先學,新手預設</td><td>✅ 受</td></tr>
+      <tr><td>🎲 <b>隨機</b></td><td>想換口味、避免無聊</td><td>✅ 受</td></tr>
+      <tr><td>🎯 <b>指定主題</b></td><td>想學特定領域(動物 / 食物 / 旅行...)</td><td>✅ 受(主題內仍按 Stage 過濾)</td></tr>
+      <tr><td>🔄 <b>混合</b></td><td>主題字 + 隨機字混打</td><td>✅ 受</td></tr>
+      <tr><td>📚 <b>純複習</b></td><td>累、想鞏固,不學新</td><td>❌ 不受(到期字一律推)</td></tr>
+      <tr><td>🌟 <b>挑戰</b></td><td>偷看下一階段字</td><td>🔁 反向:只抽 Stage+1</td></tr>
     </table>
+    <p style="font-size:12px;color:var(--muted);">「受 Stage 過濾」= 新一輪抽字池只看 ≤ 當前 Stage(預設累積制)或 = 當前 Stage(勾「只練本階段」獨佔制)。詳見第 8 節。</p>
 
     <h3>設定參數</h3>
     <table>
@@ -462,6 +463,8 @@
       <li>💡 <b>想衝刺?</b> 把「新/複習比」拉到 70/30 或 100/0</li>
       <li>💡 <b>換手機?</b> 進階 → 匯出 JSON → 另一台匯入</li>
       <li>💡 <b>很累很煩複習?</b> 直接去看英文影片、讀英文文章,字在自然語境中重逢效果更好</li>
+      <li>💡 <b>覺得字池太雜?</b> 在「目前位置」右側勾「<b>只練本階段</b>」 → 切到獨佔制,只練當前 Stage 的字(像課表)。詳見 §8</li>
+      <li>💡 <b>看到主題 tile 是虛線淡的?</b> 那是超過你 Stage 的主題,點下去會問你「確定要練嗎?」,確定後仍可進(但字池被 Stage 過濾,可能抽不到字 → 要嘛先升 Stage,要嘛取消勾「只練本階段」)</li>
     </ul>
   </div>
 
