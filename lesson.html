@@ -343,7 +343,7 @@ function render() {
         <span class="pinyin">${w.py}</span>
         <span class="play-count" id="pc-${w.n}"></span>
       </td>
-      <td class="split">${w.split}</td>
+      <td class="split">${w.split}${w.note ? `<br><span style="color:var(--accent);">💡 ${w.note}</span>` : ''}</td>
       <td class="actions">
         <button class="btn-know" onclick="markKnow(${w.n})" aria-label="會">✅</button>
         <button class="btn-forgot" onclick="markForgot(${w.n})" aria-label="不會">❌</button>
