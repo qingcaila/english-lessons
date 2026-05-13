@@ -301,7 +301,17 @@ function pickWords({ vocab, themes }) {
   const reviews = due.slice(0, reviewCount).map(w => ({ ...w, isReview: true }));
   const newWords = newPool.slice(0, newCount).map(w => ({ ...w, isReview: false }));
 
-  return [...reviews, ...newWords].map((w, i) => ({ n: i + 1, ...w }));
+  const list = [...reviews, ...newWords].map((w, i) => ({ n: i + 1, ...w }));
+  // 把字池狀況存到 window,方便 init() 偵測
+  window._poolStatus = {
+    requested: wordCount,
+    actual: list.length,
+    requestedNew: newCount,
+    actualNew: newWords.length,
+    newPoolRemaining: Math.max(0, newPool.length - newWords.length),
+    dueRemaining: Math.max(0, due.length - reviews.length),
+  };
+  return list;
 }
 
 // ── 渲染 ──────────────────────────────────────────────────
@@ -549,6 +559,37 @@ function recordOnLeave() {
 }
 // (舊 submitEval / nextSuggestion 已移除,改用 pickEval + recordOnLeave)
 
+// ── 字池偵測 ──────────────────────────────────────────────
+function checkPoolWarning() {
+  const ps = window._poolStatus;
+  if (!ps) return;
+  const themeName = themeFilter ? `「${themeFilter}」主題` : "本字池";
+  let msg = null;
+  if (ps.actual === 0) {
+    msg = `${themeName}已經沒有任何字可上 — 你已經學過或練過所有字。\n\n建議:\n• 換別的主題\n• 切到 📚 純複習 鞏固\n• 或升 Stage 解鎖更多字`;
+  } else if (ps.actualNew === 0 && ps.requestedNew > 0) {
+    msg = `${themeName}已經沒有「新字」可學了 — 全部字你都已經見過。\n\n這輪 ${ps.actual} 字全是「複習」字。\n\n建議:\n• 換別的主題學新字\n• 繼續複習鞏固這個主題到 L4`;
+  } else if (ps.actualNew < ps.requestedNew) {
+    const short = ps.requestedNew - ps.actualNew;
+    msg = `提醒:${themeName}的新字快用完了。\n\n本輪預計 ${ps.requestedNew} 個新字,實際抽到 ${ps.actualNew} 個(少 ${short} 個)。\n剩餘新字:${ps.newPoolRemaining} 個。\n\n之後幾輪會以複習為主。`;
+  } else if (ps.actual < ps.requested) {
+    msg = `本輪只抽到 ${ps.actual} 個字(預計 ${ps.requested})— 字池資源有限。`;
+  }
+  if (msg) {
+    // 用非阻塞 banner 顯示在卡片上方
+    const banner = document.createElement("div");
+    banner.style.cssText = "background:#fff4e0;border:1px solid var(--accent);border-radius:8px;padding:10px 14px;margin:8px 0;font-size:13px;line-height:1.5;color:var(--ink);white-space:pre-line;position:relative;";
+    banner.innerHTML = `<span style="font-weight:600;color:var(--accent);">⚠️ 字池提示</span>\n${msg}<button onclick="this.parentElement.remove()" style="position:absolute;top:6px;right:8px;background:none;border:none;font-size:16px;cursor:pointer;color:var(--muted);">×</button>`;
+    const wrap = document.querySelector(".wrap") || document.body;
+    const lessonInfo = document.getElementById("lessonInfo");
+    if (lessonInfo && lessonInfo.parentNode) {
+      lessonInfo.parentNode.insertBefore(banner, lessonInfo.nextSibling);
+    } else {
+      wrap.insertBefore(banner, wrap.firstChild);
+    }
+  }
+}
+
 // ── 啟動 ──────────────────────────────────────────────────
 (async function init() {
   applyPinyinSetting(SRS.getSettings().showPinyin !== false);
@@ -557,9 +598,11 @@ function recordOnLeave() {
   if (WORDS.length === 0) {
     document.getElementById("rows").innerHTML = `<tr><td><div class="loading">本輪沒有可上的字 — 試試別的模式</div></td></tr>`;
     document.getElementById("lessonInfo").textContent = mode + " · 無字可上";
+    checkPoolWarning();
     return;
   }
   render();
+  checkPoolWarning();
 })();
 </script>
 </body>
