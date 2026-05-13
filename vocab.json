@@ -3142,7 +3142,10 @@
       "py": "ㄅㄟ-ㄎㄜ",
       "split": "ba + ker",
       "theme": "jobs",
-      "stage": 0
+      "stage": 0,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "worker",
@@ -6748,7 +6751,10 @@
       "py": "ㄔㄚㄦ-ㄐㄜ",
       "split": "char + ger",
       "theme": "technology",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "battery",
@@ -6855,7 +6861,10 @@
       "py": "ㄈㄛㄛ-ㄉㄜ",
       "split": "fol + der",
       "theme": "technology",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "download",
@@ -10467,7 +10476,10 @@
       "py": "ㄌㄧㄦ-ㄌㄧ",
       "split": "real + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "always",
@@ -13859,7 +13871,10 @@
       "py": "ㄊㄞ-ㄇㄜ",
       "split": "ti + mer",
       "theme": "time",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "deadline",
@@ -18186,7 +18201,10 @@
       "py": "ㄇㄚㄦ-ㄎㄜ",
       "split": "mar + ker",
       "theme": "school",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "crayon",
@@ -20281,7 +20299,10 @@
       "py": "ㄌㄧ-ㄙㄝㄆ-ㄒㄣ-ㄧㄙㄊ",
       "split": "re + cep + tion + ist",
       "theme": "jobs",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "librarian",
@@ -23550,7 +23571,10 @@
       "py": "ㄙㄜ-ㄊㄣ-ㄌㄧ",
       "split": "cer + tain + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "definitely",
@@ -23565,7 +23589,10 @@
       "py": "ㄉㄝ-ㄈㄜ-ㄋㄧㄊ-ㄌㄧ",
       "split": "def + i + nite + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "obviously",
@@ -23580,7 +23607,10 @@
       "py": "ㄚㄅ-ㄈㄧ-ㄚㄙ-ㄌㄧ",
       "split": "ob + vi + ous + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "probably",
@@ -27455,7 +27485,10 @@
       "py": "ㄙㄚㄉ-ㄋㄝㄙ",
       "split": "sad + ness",
       "theme": "emotions",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "happiness",
@@ -27469,7 +27502,10 @@
       "py": "ㄏㄚ-ㄆㄧ-ㄋㄝㄙ",
       "split": "hap + pi + ness",
       "theme": "emotions",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "emotion",
@@ -28906,7 +28942,10 @@
       "py": "ㄆㄧ-ㄌㄜ",
       "split": "pee + ler",
       "theme": "kitchen-utensils",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "grater",
@@ -28933,7 +28972,10 @@
       "py": "ㄛ-ㄆㄜ-ㄋㄜ",
       "split": "o + pe + ner",
       "theme": "kitchen-utensils",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "corkscrew",
@@ -29015,7 +29057,10 @@
       "py": "ㄙㄉㄌㄟ-ㄋㄜ",
       "split": "strai + ner",
       "theme": "kitchen-utensils",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "colander",
@@ -29058,7 +29103,10 @@
       "py": "ㄎㄛㄙ-ㄊㄜ",
       "split": "coas + ter",
       "theme": "kitchen-utensils",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "saucer",
@@ -29175,7 +29223,10 @@
       "py": "ㄅㄌㄝㄣ-ㄉㄜ",
       "split": "blen + der",
       "theme": "kitchen-utensils",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "mixer",
@@ -29188,7 +29239,10 @@
       "py": "ㄇㄧㄎㄙ-ㄜ",
       "split": "mix + er",
       "theme": "kitchen-utensils",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "juicer",
@@ -29201,7 +29255,10 @@
       "py": "ㄐㄨ-ㄙㄜ",
       "split": "jui + cer",
       "theme": "kitchen-utensils",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "microwave",
@@ -29231,7 +29288,10 @@
       "py": "ㄊㄛㄙ-ㄊㄜ",
       "split": "toas + ter",
       "theme": "kitchen-utensils",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "foil",
@@ -29482,7 +29542,10 @@
       "py": "ㄎㄢ-ㄉㄧ-ㄒㄣ-ㄜ",
       "split": "con + di + tion + er",
       "theme": "bathroom",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hairdryer",
@@ -29562,7 +29625,10 @@
       "py": "ㄆㄌㄚㄣ-ㄐㄜ",
       "split": "plun + ger",
       "theme": "bathroom",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "washcloth",
@@ -29902,7 +29968,10 @@
       "py": "ㄉㄧㄙ-ㄆㄣ-ㄙㄜ",
       "split": "dis + pen + ser",
       "theme": "bathroom",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "guava",
@@ -31441,7 +31510,10 @@
       "py": "ㄌㄚ-ㄍㄜ",
       "split": "la + ger",
       "theme": "drinks",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "stout",
@@ -33702,7 +33774,10 @@
       "py": "ㄆㄛㄧㄣ-ㄊㄜ",
       "split": "poin + ter",
       "theme": "directions",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "bend",
@@ -33808,7 +33883,10 @@
       "py": "ㄎㄌㄛ-ㄗㄜ",
       "split": "clo + ser",
       "theme": "directions",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "opposite",
@@ -34253,7 +34331,10 @@
       "py": "ㄍㄌㄞ-ㄉㄜ",
       "split": "gli + der",
       "theme": "transportation",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "blimp",
@@ -34764,7 +34845,10 @@
       "py": "ㄙㄉㄌㄛ-ㄌㄜ",
       "split": "strol + ler",
       "theme": "transportation",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wheelchair",
@@ -35884,7 +35968,10 @@
       "py": "ㄉㄞ-ㄋㄜ",
       "split": "di + ner",
       "theme": "places",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wood",
@@ -36600,7 +36687,10 @@
       "py": "ㄎㄚㄣ-ㄒㄜ-ㄎㄨㄝㄣ-ㄌㄧ",
       "split": "con + se + quent + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hence",
@@ -36713,7 +36803,10 @@
       "py": "ㄅㄚㄎ-ㄆㄚ-ㄎㄜ",
       "split": "back + pack + er",
       "theme": "travel",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hostel",
@@ -38044,7 +38137,10 @@
       "py": "ㄅㄞ-ㄜ",
       "split": "bu + yer",
       "theme": "shopping",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "seller",
@@ -38057,7 +38153,10 @@
       "py": "ㄙㄝ-ㄌㄜ",
       "split": "sel + ler",
       "theme": "shopping",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "register",
@@ -38300,7 +38399,10 @@
       "py": "ㄙㄉㄚㄦ-ㄊㄜ",
       "split": "star + ter",
       "theme": "restaurant",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "entree",
@@ -38802,7 +38904,10 @@
       "py": "ㄎㄟ-ㄊㄜ-ㄜ",
       "split": "ca + ter + er",
       "theme": "restaurant",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "dine",
@@ -38878,7 +38983,10 @@
       "py": "ㄌㄧ-ㄈㄧㄦ",
       "split": "re + fill",
       "theme": "restaurant",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "combo",
@@ -39565,7 +39673,10 @@
       "py": "ㄅㄌㄛ-ㄎㄜ",
       "split": "bro + ker",
       "theme": "money",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "bond",
@@ -39739,7 +39850,10 @@
       "py": "ㄊㄌㄧㄊ-ㄇㄣㄊ",
       "split": "treat + ment",
       "theme": "health",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "therapy",
@@ -39964,7 +40078,10 @@
       "py": "ㄧㄦ-ㄋㄝㄙ",
       "split": "ill + ness",
       "theme": "health",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "virus",
@@ -40413,7 +40530,10 @@
       "py": "ㄈㄧㄊ-ㄋㄝㄙ",
       "split": "fit + ness",
       "theme": "health",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wellness",
@@ -40426,7 +40546,10 @@
       "py": "ㄨㄝㄦ-ㄋㄝㄙ",
       "split": "well + ness",
       "theme": "health",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "last",
@@ -40568,7 +40691,10 @@
       "py": "ㄒㄨㄜ-ㄌㄧ",
       "split": "sure + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "truly",
@@ -40581,7 +40707,10 @@
       "py": "ㄊㄌㄨ-ㄌㄧ",
       "split": "tru + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "frankly",
@@ -40594,7 +40723,10 @@
       "py": "ㄈㄌㄚㄣㄎ-ㄌㄧ",
       "split": "frank + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "actually",
@@ -40609,7 +40741,10 @@
       "py": "ㄚㄎ-ㄑㄨ-ㄦ-ㄌㄧ",
       "split": "ac + tu + al + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "basically",
@@ -40639,7 +40774,10 @@
       "py": "ㄐㄣ-ㄋㄜ-ㄦ-ㄌㄧ",
       "split": "gen + er + al + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "particularly",
@@ -40655,7 +40793,10 @@
       "py": "ㄆㄜ-ㄊㄧㄎ-ㄐㄜ-ㄌㄜ-ㄌㄧ",
       "split": "par + tic + u + lar + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "especially",
@@ -40686,7 +40827,10 @@
       "py": "ㄇㄟㄣ-ㄌㄧ",
       "split": "main + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "mostly",
@@ -40732,7 +40876,10 @@
       "py": "ㄎㄚㄇ-ㄆㄌㄧㄊ-ㄌㄧ",
       "split": "com + plete + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "entirely",
@@ -40746,7 +40893,10 @@
       "py": "ㄧㄣ-ㄊㄞㄜ-ㄌㄧ",
       "split": "en + tire + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "totally",
@@ -40760,7 +40910,10 @@
       "py": "ㄊㄛ-ㄉㄜ-ㄌㄧ",
       "split": "to + tal + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "fully",
@@ -40818,7 +40971,10 @@
       "py": "ㄙㄌㄞㄊ-ㄌㄧ",
       "split": "slight + ly (silent gh)",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "barely",
@@ -40880,7 +41036,10 @@
       "py": "ㄧㄍ-ㄗㄚㄎㄊ-ㄌㄧ",
       "split": "ex + act + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "precisely",
@@ -40894,7 +41053,10 @@
       "py": "ㄆㄌㄧ-ㄙㄞㄙ-ㄌㄧ",
       "split": "pre + cise + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "approximately",
@@ -40910,7 +41072,10 @@
       "py": "ㄚ-ㄆㄌㄚㄎㄙ-ㄜ-ㄇㄝㄊ-ㄌㄧ",
       "split": "ap + prox + i + mate + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "roughly",
@@ -40954,7 +41119,10 @@
       "py": "ㄏㄛㄆ-ㄈㄜ-ㄌㄧ",
       "split": "hope + ful + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "eventually",
@@ -40970,7 +41138,10 @@
       "py": "ㄧ-ㄈㄣ-ㄑㄨ-ㄦ-ㄌㄧ",
       "split": "e + ven + tu + al + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "finally",
@@ -40984,7 +41155,10 @@
       "py": "ㄈㄞ-ㄋㄜ-ㄌㄧ",
       "split": "fi + nal + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "ultimately",
@@ -40999,7 +41173,10 @@
       "py": "ㄚㄦ-ㄊㄜ-ㄇㄝㄊ-ㄌㄧ",
       "split": "ul + ti + mate + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "whenever",
@@ -41161,7 +41338,10 @@
       "py": "ㄒㄧ-ㄇㄜ-ㄌㄜ-ㄌㄧ",
       "split": "sim + i + lar + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "accordingly",
@@ -41195,7 +41375,10 @@
       "py": "ㄚ-ㄉㄧ-ㄒㄣ-ㄦ-ㄌㄧ",
       "split": "ad + di + tion + al + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "alternatively",
@@ -41211,7 +41394,10 @@
       "py": "ㄛㄦ-ㄊㄜ-ㄋㄜ-ㄊㄧㄈ-ㄌㄧ",
       "split": "al + ter + na + tive + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "regardless",
@@ -41291,7 +41477,10 @@
       "py": "ㄚ-ㄆㄝㄜ-ㄣㄊ-ㄌㄧ",
       "split": "ap + par + ent + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "evidently",
@@ -41306,7 +41495,10 @@
       "py": "ㄝ-ㄈㄜ-ㄉㄣㄊ-ㄌㄧ",
       "split": "ev + i + dent + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "namely",
@@ -41353,7 +41545,10 @@
       "py": "ㄊㄝㄎ-ㄋㄜ-ㄎㄜ-ㄌㄧ",
       "split": "tech + ni + cal + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "oneself",
@@ -41715,7 +41910,10 @@
       "py": "ㄈㄧㄨ-ㄜ",
       "split": "few + er",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hello",
@@ -42399,7 +42597,10 @@
       "py": "ㄚ-ㄊㄜ-ㄌㄧ",
       "split": "ut + ter + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "virtually",
@@ -42414,7 +42615,10 @@
       "py": "ㄈㄜ-ㄑㄨ-ㄦ-ㄌㄧ",
       "split": "vir + tu + al + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "primarily",
@@ -42429,7 +42633,10 @@
       "py": "ㄆㄌㄞ-ㄇㄝ-ㄜ-ㄌㄧ",
       "split": "pri + mar + i + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "plainly",
@@ -42442,7 +42649,10 @@
       "py": "ㄆㄌㄟㄣ-ㄌㄧ",
       "split": "plain + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "swiftly",
@@ -42455,7 +42665,10 @@
       "py": "ㄙㄨㄧㄈㄊ-ㄌㄧ",
       "split": "swift + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "surprisingly",
@@ -42484,7 +42697,10 @@
       "py": "ㄞ-ㄉㄧㄦ-ㄌㄧ",
       "split": "i + deal + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "internet",
@@ -42530,7 +42746,10 @@
       "py": "ㄅㄌㄠ-ㄗㄜ",
       "split": "brow + ser",
       "theme": "technology",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "app",
@@ -42641,7 +42860,10 @@
       "py": "ㄌㄠ-ㄊㄜ",
       "split": "rou + ter",
       "theme": "technology",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "modem",
@@ -42730,7 +42952,10 @@
       "py": "ㄆㄌㄚ-ㄙㄝ-ㄙㄜ",
       "split": "pro + ces + sor",
       "theme": "technology",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "ai",
@@ -42925,7 +43150,10 @@
       "py": "ㄨㄝㄜ-ㄜ-ㄅㄜ",
       "split": "wear + a + ble",
       "theme": "technology",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "bought",
@@ -44533,7 +44761,10 @@
       "py": "ㄎㄢ-ㄈㄜㄙ-ㄌㄧ",
       "split": "con + verse + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "comparatively",
@@ -44549,7 +44780,10 @@
       "py": "ㄎㄚㄇ-ㄆㄝ-ㄜ-ㄊㄧㄈ-ㄌㄧ",
       "split": "com + par + a + tive + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "correspondingly",
@@ -44579,7 +44813,10 @@
       "py": "ㄧ-ㄎㄨㄛ-ㄌㄧ",
       "split": "e + qual + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "firstly",
@@ -44592,7 +44829,10 @@
       "py": "ㄈㄜㄙㄊ-ㄌㄧ",
       "split": "first + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "secondly",
@@ -44606,7 +44846,10 @@
       "py": "ㄙㄝ-ㄎㄢㄉ-ㄌㄧ",
       "split": "se + cond + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "thirdly",
@@ -44619,7 +44862,10 @@
       "py": "ㄙㄜㄉ-ㄌㄧ",
       "split": "third + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "lastly",
@@ -44632,7 +44878,10 @@
       "py": "ㄌㄚㄙㄊ-ㄌㄧ",
       "split": "last + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "notably",
@@ -44661,7 +44910,10 @@
       "py": "ㄧㄇ-ㄆㄛㄦ-ㄊㄣㄊ-ㄌㄧ",
       "split": "im + por + tant + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "significantly",
@@ -44677,7 +44929,10 @@
       "py": "ㄒㄧㄍ-ㄋㄧ-ㄈㄜ-ㄎㄣㄊ-ㄌㄧ",
       "split": "sig + nif + i + cant + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "chiefly",
@@ -44690,7 +44945,10 @@
       "py": "ㄑㄧㄈ-ㄌㄧ",
       "split": "chief + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "notwithstanding",
@@ -44747,7 +45005,10 @@
       "py": "ㄙㄚㄅ-ㄒㄜ-ㄎㄨㄣㄊ-ㄌㄧ",
       "split": "sub + se + quent + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "formerly",
@@ -44761,7 +45022,10 @@
       "py": "ㄈㄛㄦ-ㄇㄜ-ㄌㄧ",
       "split": "for + mer + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "initially",
@@ -44776,7 +45040,10 @@
       "py": "ㄧ-ㄋㄧ-ㄒㄦ-ㄌㄧ",
       "split": "i + ni + tial + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "originally",
@@ -44792,7 +45059,10 @@
       "py": "ㄛ-ㄌㄧ-ㄐㄜ-ㄋㄦ-ㄌㄧ",
       "split": "o + rig + i + nal + ly",
       "theme": "connectors",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "thereafter",
@@ -44964,7 +45234,10 @@
       "py": "ㄙㄞ-ㄇㄦ-ㄊㄟ-ㄋㄧ-ㄚㄙ-ㄌㄧ",
       "split": "si + mul + ta + ne + ous + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "concurrently",
@@ -45084,7 +45357,10 @@
       "py": "ㄎㄧㄨ-ㄌㄧ-ㄚㄙ-ㄌㄧ",
       "split": "cu + ri + ous + ly",
       "theme": "connectors",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "paradoxically",
@@ -45192,7 +45468,10 @@
       "py": "ㄧㄣ-ㄈㄝㄙ-ㄊㄜ",
       "split": "in + ves + tor",
       "theme": "jobs-advanced",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "freelancer",
@@ -45319,7 +45598,10 @@
       "py": "ㄙㄜ-ㄈㄟ-ㄜ",
       "split": "sur + vey + or",
       "theme": "jobs-advanced",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "biologist",
@@ -46094,7 +46376,10 @@
       "py": "ㄅㄧㄦ-ㄉㄜ",
       "split": "buil + der",
       "theme": "jobs-advanced",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "mason",
@@ -46136,7 +46421,10 @@
       "py": "ㄆㄚㄙ-ㄊㄜ",
       "split": "pas + tor",
       "theme": "jobs-advanced",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "minister",
@@ -46718,7 +47006,10 @@
       "py": "ㄏㄛㄇ-ㄌㄧ",
       "split": "home + ly",
       "theme": "appearance",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "average",
@@ -46887,7 +47178,10 @@
       "py": "ㄎㄜ-ㄌㄧ",
       "split": "cur + ly",
       "theme": "appearance",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wavy",
@@ -47124,7 +47418,10 @@
       "py": "ㄚㄣ-ㄊㄞ-ㄉㄧ",
       "split": "un + ti + dy",
       "theme": "appearance",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "polished",
@@ -47370,7 +47667,10 @@
       "py": "ㄚㄣ-ㄈㄌㄝㄣ-ㄌㄧ",
       "split": "un + friend + ly",
       "theme": "personality",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hostile",
@@ -47490,7 +47790,10 @@
       "py": "ㄊㄚㄎㄊ-ㄈㄜ",
       "split": "tact + ful",
       "theme": "personality",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "diplomatic",
@@ -47935,7 +48238,10 @@
       "py": "ㄙㄝㄦㄈ-ㄌㄝㄙ",
       "split": "self + less",
       "theme": "personality",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "charitable",
@@ -48858,7 +49164,10 @@
       "py": "ㄎㄚㄣ-ㄈㄌㄧㄎㄊ",
       "split": "con + flict",
       "theme": "relationships",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "disagreement",
@@ -48972,7 +49281,10 @@
       "py": "ㄈㄜ-ㄍㄧㄈ-ㄋㄝㄙ",
       "split": "for + give + ness",
       "theme": "relationships",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "support",
@@ -49084,7 +49396,10 @@
       "py": "ㄎㄚㄣ-ㄊㄚㄎㄊ",
       "split": "con + tact",
       "theme": "relationships",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "gossip",
@@ -49600,7 +49915,10 @@
       "py": "ㄌㄧ-ㄧㄨ-ㄋㄞㄊ",
       "split": "re + u + nite",
       "theme": "relationships",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "separate",
@@ -50227,7 +50545,10 @@
       "py": "ㄨㄛ-ㄎㄜ",
       "split": "wal + ker",
       "theme": "toys",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "crib",
@@ -51229,7 +51550,10 @@
       "py": "ㄆㄧㄍ-ㄇㄣㄊ",
       "split": "pig + ment",
       "theme": "art",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "varnish",
@@ -52001,7 +52325,10 @@
       "py": "ㄏㄚ-ㄅㄧ-ㄧㄙㄊ",
       "split": "hob + by + ist",
       "theme": "hobbies",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "vlogging",
@@ -52373,7 +52700,10 @@
       "py": "ㄍㄝ-ㄇㄜ",
       "split": "gam + er",
       "theme": "games",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "streamer",
@@ -52386,7 +52716,10 @@
       "py": "ㄙㄉㄌㄧㄇ-ㄜ",
       "split": "stream + er",
       "theme": "games",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "walkthrough",
@@ -52590,7 +52923,10 @@
       "py": "ㄆㄛ-ㄎㄜ",
       "split": "po + ker",
       "theme": "games",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "blackjack",
@@ -52716,7 +53052,10 @@
       "py": "ㄌㄧ-ㄆㄌㄟ",
       "split": "re + play",
       "theme": "games",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "film",
@@ -52790,7 +53129,10 @@
       "py": "ㄊㄌㄝ-ㄌㄜ",
       "split": "trai + ler",
       "theme": "movies-tv",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "sequel",
@@ -52842,7 +53184,10 @@
       "py": "ㄌㄧ-ㄇㄝㄎ",
       "split": "re + make",
       "theme": "movies-tv",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "reboot",
@@ -52855,7 +53200,10 @@
       "py": "ㄌㄧ-ㄅㄨㄊ",
       "split": "re + boot",
       "theme": "movies-tv",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "genre",
@@ -53427,7 +53775,10 @@
       "py": "ㄌㄧ-ㄎㄚㄆ",
       "split": "re + cap",
       "theme": "movies-tv",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "spoiler",
@@ -53440,7 +53791,10 @@
       "py": "ㄙㄆㄛㄧㄦ-ㄜ",
       "split": "spoil + er",
       "theme": "movies-tv",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "broadcast",
@@ -53705,7 +54059,10 @@
       "py": "ㄧ-ㄇㄧㄨ-ㄋㄜ-ㄗㄝ-ㄒㄣ",
       "split": "im + mu + ni + za + tion",
       "theme": "medical",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "vaccination",
@@ -53720,7 +54077,10 @@
       "py": "ㄈㄚㄎ-ㄒㄜ-ㄋㄝ-ㄒㄣ",
       "split": "vac + ci + na + tion",
       "theme": "medical",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "booster",
@@ -53733,7 +54093,10 @@
       "py": "ㄅㄨ-ㄙㄉㄜ",
       "split": "boo + ster",
       "theme": "medical",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "quarantine",
@@ -55666,7 +56029,10 @@
       "py": "ㄊㄌㄚㄎ-ㄜ",
       "split": "track + er",
       "theme": "fitness",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "fitbit",
@@ -55735,7 +56101,10 @@
       "py": "ㄅㄜㄣ-ㄜ",
       "split": "burn + er",
       "theme": "fitness",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hypertension",
@@ -56204,7 +56573,10 @@
       "py": "ㄅㄌㄞㄣㄉ-ㄋㄝㄙ",
       "split": "blind + ness",
       "theme": "diseases",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "acne",
@@ -56815,7 +57187,10 @@
       "py": "ㄒㄧㄎ-ㄋㄝㄙ",
       "split": "sick + ness",
       "theme": "diseases",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "ailment",
@@ -57371,7 +57746,10 @@
       "py": "ㄏㄞ-ㄌㄞㄊ-ㄜ",
       "split": "high + light + er",
       "theme": "office",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "inbox",
@@ -57804,7 +58182,10 @@
       "py": "ㄛ-ㄌㄧ-ㄝㄣ-ㄊㄝ-ㄒㄣ",
       "split": "o + ri + en + ta + tion",
       "theme": "office",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "coworker",
@@ -58675,7 +59056,10 @@
       "py": "ㄇㄜ-ㄐㄜ",
       "split": "mer + ger",
       "theme": "business",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "acquisition",
@@ -58790,7 +59174,10 @@
       "py": "ㄙㄉㄝㄊ-ㄇㄣㄊ",
       "split": "state + ment",
       "theme": "business",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "fiscal",
@@ -59684,7 +60071,10 @@
       "py": "ㄐㄚㄅ-ㄌㄝㄙ",
       "split": "job + less",
       "theme": "economy",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "productivity",
@@ -60139,7 +60529,10 @@
       "py": "ㄜ-ㄅㄣ-ㄜ-ㄗㄝ-ㄒㄣ",
       "split": "ur + ban + i + za + tion",
       "theme": "economy",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "globalization",
@@ -60155,7 +60548,10 @@
       "py": "ㄍㄌㄛ-ㄅㄦ-ㄜ-ㄗㄝ-ㄒㄣ",
       "split": "glob + al + i + za + tion",
       "theme": "economy",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "outsource",
@@ -61110,7 +61506,10 @@
       "py": "ㄌㄧ-ㄆㄛㄙㄊ",
       "split": "re + post",
       "theme": "internet",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "follower",
@@ -61141,7 +61540,10 @@
       "py": "ㄙㄚㄅ-ㄙㄎㄌㄞㄅ-ㄜ",
       "split": "sub + scrib + er",
       "theme": "internet",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "viral",
@@ -61652,7 +62054,10 @@
       "py": "ㄧㄣ-ㄈㄌㄨ-ㄣ-ㄙㄜ",
       "split": "in + flu + en + cer",
       "theme": "internet",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "virality",
@@ -63879,7 +64284,10 @@
       "py": "ㄙㄜ-ㄙㄉㄝㄣ-ㄜ-ㄅㄜ",
       "split": "sus + tain + a + ble",
       "theme": "environment",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "sustainability",
@@ -64016,7 +64424,10 @@
       "py": "ㄌㄧ-ㄋㄧㄨ-ㄜ-ㄅㄜ",
       "split": "re + new + a + ble",
       "theme": "environment",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "solar",
@@ -64370,7 +64781,10 @@
       "py": "ㄌㄧ-ㄧㄨㄗ",
       "split": "re + use",
       "theme": "environment",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "reduce",
@@ -64890,7 +65304,10 @@
       "py": "ㄌㄧ-ㄙㄞ-ㄎㄌㄚ-ㄅㄜ",
       "split": "re + cy + cla + ble",
       "theme": "environment",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "biology",
@@ -65717,7 +66134,10 @@
       "py": "ㄇㄧㄨ-ㄊㄝ-ㄒㄣ",
       "split": "mu + ta + tion",
       "theme": "science",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "adaptation",
@@ -66272,7 +66692,10 @@
       "py": "ㄐㄜ-ㄋㄝ-ㄊㄜ-ㄒㄧㄙㄊ",
       "split": "ge + net + i + cist",
       "theme": "science",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "physiology",
@@ -68868,7 +69291,10 @@
       "py": "ㄌㄝㄙ-ㄎㄧㄨ-ㄜ",
       "split": "res + cu + er",
       "theme": "emergencies",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "disaster",
@@ -69264,7 +69690,10 @@
       "py": "ㄚㄣ-ㄎㄚㄣ-ㄒㄚㄙ",
       "split": "un + con + scious",
       "theme": "emergencies",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "firstaid",
@@ -70439,7 +70868,10 @@
       "py": "ㄙㄉㄛㄎ-ㄜ",
       "split": "stalk + er",
       "theme": "crime",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "intruder",
@@ -70510,7 +70942,10 @@
       "py": "ㄙㄇㄚ-ㄍㄌㄜ",
       "split": "smug + gler",
       "theme": "crime",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "contraband",
@@ -70668,7 +71103,10 @@
       "py": "ㄏㄞㄙㄊ",
       "split": "h + eist",
       "theme": "crime",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "holdup",
@@ -71200,7 +71638,10 @@
       "py": "ㄚㄣ-ㄌㄛ-ㄈㄜ",
       "split": "un + law + ful",
       "theme": "law",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "jury",
@@ -71272,7 +71713,10 @@
       "py": "ㄌㄧ-ㄊㄌㄞ-ㄦ",
       "split": "re + tri + al",
       "theme": "law",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "penalty",
@@ -71982,7 +72426,10 @@
       "py": "ㄐㄚㄐ-ㄇㄣㄊ",
       "split": "judg + ment",
       "theme": "law",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "ruling",
@@ -73319,7 +73766,10 @@
       "py": "ㄌㄚ-ㄅㄧ-ㄧㄙㄊ",
       "split": "lob + by + ist",
       "theme": "politics",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "advocacy",
@@ -73545,7 +73995,10 @@
       "py": "ㄋㄚ-ㄒㄣ-ㄦ-ㄧㄙㄊ",
       "split": "na + tion + al + ist",
       "theme": "politics",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "geopolitics",
@@ -73945,7 +74398,10 @@
       "py": "ㄅㄧ-ㄌㄧㄈ-ㄜ",
       "split": "be + liev + er",
       "theme": "religion",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "worship",
@@ -76179,7 +76635,10 @@
       "py": "ㄎㄚㄣ-ㄒㄚㄙ-ㄋㄝㄙ",
       "split": "con + scious + ness",
       "theme": "philosophy",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "awareness",
@@ -76193,7 +76652,10 @@
       "py": "ㄚ-ㄨㄝㄜ-ㄋㄝㄙ",
       "split": "a + ware + ness",
       "theme": "philosophy",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "mindfulness",
@@ -76552,7 +77014,10 @@
       "py": "ㄚㄍ-ㄌㄜ-ㄋㄝㄙ",
       "split": "ug + li + ness",
       "theme": "philosophy",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "harmony",
@@ -76933,7 +77398,10 @@
       "py": "ㄇㄧㄜ-ㄌㄧ",
       "split": "mere + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "scarcely",
@@ -76963,7 +77431,10 @@
       "py": "ㄋㄡ-ㄇㄛ-ㄌㄧ",
       "split": "nor + mal + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "naturally",
@@ -76978,7 +77449,10 @@
       "py": "ㄋㄚ-ㄜ-ㄖㄛ-ㄌㄧ",
       "split": "nat + u + ral + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "essentially",
@@ -76993,7 +77467,10 @@
       "py": "ㄝ-ㄙㄣ-ㄒㄛ-ㄌㄧ",
       "split": "es + sen + tial + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "gradually",
@@ -77008,7 +77485,10 @@
       "py": "ㄍㄖㄚ-ㄐㄩ-ㄛ-ㄌㄧ",
       "split": "grad + u + al + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "suddenly",
@@ -77022,7 +77502,10 @@
       "py": "ㄙㄚ-ㄉㄣ-ㄌㄧ",
       "split": "sud + den + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "immediately",
@@ -77038,7 +77521,10 @@
       "py": "ㄧ-ㄇㄧ-ㄉㄧ-ㄝ-ㄌㄧ",
       "split": "im + me + di + ate + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "instantly",
@@ -77052,7 +77538,10 @@
       "py": "ㄧㄣ-ㄙㄊㄢㄊ-ㄌㄧ",
       "split": "in + stant + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "recently",
@@ -77066,7 +77555,10 @@
       "py": "ㄖㄧ-ㄙㄣㄊ-ㄌㄧ",
       "split": "re + cent + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "currently",
@@ -77080,7 +77572,10 @@
       "py": "ㄎㄚ-ㄖㄣㄊ-ㄌㄧ",
       "split": "cur + rent + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "frequently",
@@ -77094,7 +77589,10 @@
       "py": "ㄈㄖㄧ-ㄎㄨㄣㄊ-ㄌㄧ",
       "split": "fre + quent + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "occasionally",
@@ -77110,7 +77608,10 @@
       "py": "ㄛ-ㄎㄟ-ㄓㄣ-ㄛ-ㄌㄧ",
       "split": "oc + ca + sion + al + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "rarely",
@@ -77123,7 +77624,10 @@
       "py": "ㄖㄟ-ㄌㄧ",
       "split": "rare + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "seldom",
@@ -77154,7 +77658,10 @@
       "py": "ㄆㄖㄧ-ㄨㄧ-ㄜㄙ-ㄌㄧ",
       "split": "pre + vi + ous + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "alas",
@@ -77272,7 +77779,10 @@
       "py": "ㄏㄡ-ㄌㄧ",
       "split": "whol + ly",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "partially",
@@ -77286,7 +77796,10 @@
       "py": "ㄆㄚ-ㄒㄛ-ㄌㄧ",
       "split": "par + tial + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "clearly",
@@ -77299,7 +77812,10 @@
       "py": "ㄎㄌㄧㄜ-ㄌㄧ",
       "split": "clear + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "briefly",
@@ -77312,7 +77828,10 @@
       "py": "ㄅㄖㄧㄈ-ㄌㄧ",
       "split": "brief + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "closely",
@@ -77325,7 +77844,10 @@
       "py": "ㄎㄌㄡㄙ-ㄌㄧ",
       "split": "close + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "deeply",
@@ -77338,7 +77860,10 @@
       "py": "ㄉㄧㄆ-ㄌㄧ",
       "split": "deep + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "firmly",
@@ -77351,7 +77876,10 @@
       "py": "ㄈㄜㄜㄇ-ㄌㄧ",
       "split": "firm + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "gently",
@@ -77377,7 +77905,10 @@
       "py": "ㄍㄖㄟㄊ-ㄌㄧ",
       "split": "great + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "highly",
@@ -77406,7 +77937,10 @@
       "py": "ㄎㄞㄣㄉ-ㄌㄧ",
       "split": "kind + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "largely",
@@ -77435,7 +77969,10 @@
       "py": "ㄌㄠㄉ-ㄌㄧ",
       "split": "loud + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "nicely",
@@ -77448,7 +77985,10 @@
       "py": "ㄋㄞㄙ-ㄌㄧ",
       "split": "nice + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "poorly",
@@ -77461,7 +78001,10 @@
       "py": "ㄆㄨㄜ-ㄌㄧ",
       "split": "poor + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "proudly",
@@ -77474,7 +78017,10 @@
       "py": "ㄆㄖㄠㄉ-ㄌㄧ",
       "split": "proud + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "slowly",
@@ -77487,7 +78033,10 @@
       "py": "ㄙㄌㄡ-ㄌㄧ",
       "split": "slow + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "softly",
@@ -77500,7 +78049,10 @@
       "py": "ㄙㄛㄈㄊ-ㄌㄧ",
       "split": "soft + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "strongly",
@@ -77513,7 +78065,10 @@
       "py": "ㄙㄊㄖㄛㄥ-ㄌㄧ",
       "split": "strong + ly",
       "theme": "sight-words",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "widely",
@@ -77526,7 +78081,10 @@
       "py": "ㄨㄞㄉ-ㄌㄧ",
       "split": "wide + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wisely",
@@ -77539,7 +78097,10 @@
       "py": "ㄨㄞㄗ-ㄌㄧ",
       "split": "wise + ly",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "poem",
@@ -78228,7 +78789,10 @@
       "py": "ㄖㄧ-ㄉㄜ",
       "split": "read + er",
       "theme": "literature",
-      "stage": 1
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "paperback",
@@ -78326,7 +78890,10 @@
       "py": "ㄙㄞ-ㄊㄟ-ㄒㄣ",
       "split": "ci + ta + tion",
       "theme": "literature",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "quotation",
@@ -87836,7 +88403,10 @@
       "py": "ㄍㄖㄞㄣ-ㄉㄜ",
       "split": "grind + er",
       "theme": "tools",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "pickaxe",
@@ -89293,7 +89863,10 @@
       "py": "ㄙㄆㄚㄊ-ㄌㄝㄙ",
       "split": "spot + less",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "tidy",
@@ -89872,7 +90445,10 @@
       "py": "ㄨㄟ-ㄨㄜ",
       "split": "wa + ver",
       "theme": "actions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "surge",
@@ -141685,7 +142261,10 @@
       "py": "ㄎㄧㄣ-ㄉㄋㄝㄙ",
       "split": "kin + dness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "darkness",
@@ -141698,7 +142277,10 @@
       "py": "ㄉㄜ-ㄎㄋㄝㄙ",
       "split": "dar + kness (-ness 字尾 + ar R-音)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "weakness",
@@ -141711,7 +142293,10 @@
       "py": "ㄨㄧㄎ-ㄋㄝㄙ",
       "split": "weak + ness (-ness 字尾 + ea 母音團)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "madness",
@@ -141724,7 +142309,10 @@
       "py": "ㄇㄚㄉ-ㄋㄝㄙ",
       "split": "mad + ness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "softness",
@@ -141737,7 +142325,10 @@
       "py": "ㄙㄛㄈ-ㄊㄋㄝㄙ",
       "split": "sof + tness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "coldness",
@@ -141750,7 +142341,10 @@
       "py": "ㄎㄚ-ㄉㄋㄝㄙ",
       "split": "col + dness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "tiredness",
@@ -141777,7 +142371,10 @@
       "py": "ㄈㄝㄜ-ㄋㄝㄙ",
       "split": "fair + ness (-ness 字尾 + ai 母音團 + ir R-音)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "greatness",
@@ -141790,7 +142387,10 @@
       "py": "ㄍㄖㄟㄊ-ㄋㄝㄙ",
       "split": "great + ness (-ness 字尾 + gr- 子音群 + ea 母音團)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "thickness",
@@ -141803,7 +142403,10 @@
       "py": "ㄒㄧㄎ-ㄎㄋㄝㄙ",
       "split": "thic + kness (-ness 字尾 + th 雙字母)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "quickness",
@@ -141816,7 +142419,10 @@
       "py": "ㄎㄨㄧㄎ-ㄎㄋㄝㄙ",
       "split": "quic + kness (-ness 字尾 + ck 雙字母 + ui 母音團)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "emptiness",
@@ -141830,7 +142436,10 @@
       "py": "ㄝㄇ-ㄆㄊㄧ-ㄋㄝㄙ",
       "split": "em + pti + ness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "loneliness",
@@ -141845,7 +142454,10 @@
       "py": "ㄌㄛ-ㄋㄧ-ㄌㄧ-ㄋㄝㄙ",
       "split": "lo + ne + li + ness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "weariness",
@@ -141859,7 +142471,10 @@
       "py": "ㄨㄝ-ㄌㄧ-ㄋㄝㄙ",
       "split": "wea + ri + ness (-ness 字尾 + ea 母音團 + ar R-音)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "sweetness",
@@ -141872,7 +142487,10 @@
       "py": "ㄙㄨㄧㄊ-ㄋㄝㄙ",
       "split": "sweet + ness (-ness 字尾 + sw- 子音群 + ee 母音團)",
       "theme": "appearance",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "boldness",
@@ -141885,7 +142503,10 @@
       "py": "ㄅㄛ-ㄉㄋㄝㄙ",
       "split": "bol + dness (-ness 字尾)",
       "theme": "personality",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "readiness",
@@ -141899,7 +142520,10 @@
       "py": "ㄌㄝ-ㄉㄧ-ㄋㄝㄙ",
       "split": "rea + di + ness (-ness 字尾 + ea 母音團)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "shyness",
@@ -141912,7 +142536,10 @@
       "py": "ㄒㄧ-ㄋㄝㄙ",
       "split": "shy + ness (-ness 字尾 + sh 雙字母)",
       "theme": "personality",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "eagerness",
@@ -141926,7 +142553,10 @@
       "py": "ㄧ-ㄍㄜ-ㄋㄝㄙ",
       "split": "ea + ger + ness (-ness 字尾 + ea 母音團 + er R-音)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "rudeness",
@@ -141940,7 +142570,10 @@
       "py": "ㄌㄨ-ㄉㄧ-ㄋㄝㄙ",
       "split": "ru + de + ness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "selfishness",
@@ -141954,7 +142587,10 @@
       "py": "ㄙㄝ-ㄈㄧㄙ-ㄏㄋㄝㄙ",
       "split": "sel + fis + hness (-ness 字尾 + sh 雙字母)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "politeness",
@@ -141969,7 +142605,10 @@
       "py": "ㄆㄛ-ㄌㄧ-ㄊㄧ-ㄋㄝㄙ",
       "split": "po + li + te + ness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "seriousness",
@@ -141983,7 +142622,10 @@
       "py": "ㄙㄜ-ㄖㄧㄜㄙ-ㄋㄝㄙ",
       "split": "se + rious + ness (-ness 字尾 + ou 母音團 + er R-音)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "cleverness",
@@ -141997,7 +142639,10 @@
       "py": "ㄎㄜ-ㄈㄜ-ㄋㄝㄙ",
       "split": "cle + ver + ness (-ness 字尾 + cl- 子音群 + er R-音)",
       "theme": "personality",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "toughness",
@@ -142010,7 +142655,10 @@
       "py": "ㄊㄠㄍ-ㄏㄋㄝㄙ",
       "split": "toug + hness (-ness 字尾 + gh 雙字母 + ou 母音團)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "vagueness",
@@ -142024,7 +142672,10 @@
       "py": "ㄈㄚ-ㄍㄝ-ㄋㄝㄙ",
       "split": "va + gue + ness (-ness 字尾 + ue 母音團)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "compartment",
@@ -142112,7 +142763,10 @@
       "py": "ㄐㄚㄉ-ㄐㄧ-ㄇㄣㄊ",
       "split": "jud + ge + ment (-ment 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "movement",
@@ -142153,7 +142807,10 @@
       "py": "ㄆㄌㄚ-ㄙㄜ-ㄇㄣㄊ",
       "split": "pla + ce + ment (-ment 字尾 + pl- 子音群)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "requirement",
@@ -142181,7 +142838,10 @@
       "py": "ㄒㄧㄆ-ㄇㄣㄊ",
       "split": "ship + ment (-ment 字尾 + sh 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "adoption",
@@ -144702,7 +145362,10 @@
       "py": "ㄎㄜ-ㄇㄋㄝㄙ",
       "split": "cal + mness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "elegance",
@@ -144743,7 +145406,10 @@
       "py": "ㄈㄚㄣ-ㄉㄋㄝㄙ",
       "split": "fon + dness (-ness 字尾)",
       "theme": "academic-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "humility",
@@ -144894,7 +145560,10 @@
       "py": "ㄈㄧㄙ-ㄏㄜ",
       "split": "fis + her (-er 比較級/人 + sh 雙字母)",
       "theme": "jobs",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "rider",
@@ -144907,7 +145576,10 @@
       "py": "ㄌㄧ-ㄉㄜ",
       "split": "ri + der (-er 比較級/人)",
       "theme": "actions",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "helper",
@@ -144920,7 +145592,10 @@
       "py": "ㄏㄝ-ㄆㄜ",
       "split": "hel + per (-er 比較級/人)",
       "theme": "actions",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "learner",
@@ -144933,7 +145608,10 @@
       "py": "ㄌㄧㄜ-ㄋㄜ",
       "split": "lear + ner (-er 比較級/人 + ea 母音團 + ar R-音)",
       "theme": "jobs",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "killer",
@@ -144946,7 +145624,10 @@
       "py": "ㄎㄧㄌ-ㄌㄜ",
       "split": "kil + ler (-er 比較級/人)",
       "theme": "actions",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "thinker",
@@ -144959,7 +145640,10 @@
       "py": "ㄒㄧㄋ-ㄎㄜ",
       "split": "thin + ker (-er 比較級/人 + th 雙字母)",
       "theme": "jobs",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "maker",
@@ -144972,7 +145656,10 @@
       "py": "ㄇㄚ-ㄎㄜ",
       "split": "ma + ker (-er 比較級/人)",
       "theme": "jobs",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "villager",
@@ -144986,7 +145673,10 @@
       "py": "ㄈㄧ-ㄌㄚ-ㄍㄜ",
       "split": "vil + la + ger (-er 比較級/人)",
       "theme": "actions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "washer",
@@ -144999,7 +145689,10 @@
       "py": "ㄨㄚㄙ-ㄏㄜ",
       "split": "was + her (-er 比較級/人 + sh 雙字母)",
       "theme": "tools",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "cooler",
@@ -145012,7 +145705,10 @@
       "py": "ㄎㄨ-ㄌㄜ",
       "split": "coo + ler (-er 比較級/人 + oo 母音團)",
       "theme": "tools",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "navigator",
@@ -145068,7 +145764,10 @@
       "py": "ㄊㄜ-ㄌㄛ-ㄌㄧㄙㄊ",
       "split": "ter + ro + rist (er R-音)",
       "theme": "actions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "optimist",
@@ -145110,7 +145809,10 @@
       "py": "ㄌㄜ-ㄉㄧ-ㄌㄧㄙㄊ",
       "split": "i + dea + list (ea 母音團)",
       "theme": "jobs",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "formality",
@@ -145693,7 +146395,10 @@
       "py": "ㄚㄅ-ㄙㄛ-ㄌㄨ-ㄊㄧ-ㄌㄧ",
       "split": "ab + so + lu + te + ly (-ly 副詞字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "anymore",
@@ -145722,7 +146427,10 @@
       "py": "ㄎㄚㄣ-ㄙㄊㄢ-ㄊㄌㄧ",
       "split": "con + stan + tly (-ly 副詞字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "directly",
@@ -145736,7 +146444,10 @@
       "py": "ㄉㄧ-ㄌㄝ-ㄊㄌㄧ",
       "split": "di + rec + tly (-ly 副詞字尾 + ir R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "easily",
@@ -145750,7 +146461,10 @@
       "py": "ㄧ-ㄗㄜ-ㄌㄧ",
       "split": "ea + si + ly (-ly 副詞字尾 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "extremely",
@@ -145765,7 +146479,10 @@
       "py": "ㄝㄎㄙ-ㄊㄌㄜ-ㄇㄝ-ㄌㄧ",
       "split": "ex + tre + me + ly (-ly 副詞字尾)",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "honestly",
@@ -145779,7 +146496,10 @@
       "py": "ㄏㄚ-ㄋㄝㄙ-ㄊㄌㄧ",
       "split": "ho + nes + tly (-ly 副詞字尾)",
       "theme": "sight-words",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "incredibly",
@@ -145810,7 +146530,10 @@
       "py": "ㄋㄧ-ㄙㄝ-ㄙㄚ-ㄌㄧ-ㄌㄧ",
       "split": "ne + ces + sa + ri + ly (-ly 副詞字尾 + ar R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "officially",
@@ -145825,7 +146548,10 @@
       "py": "ㄚㄈ-ㄈㄜ-ㄒㄦ-ㄌㄧ",
       "split": "of + fi + cial + ly (-ly 副詞字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "perfectly",
@@ -145839,7 +146565,10 @@
       "py": "ㄆㄜ-ㄈㄝㄎ-ㄊㄌㄧ",
       "split": "per + fec + tly (-ly 副詞字尾 + er R-音)",
       "theme": "appearance",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "quickly",
@@ -145852,7 +146581,10 @@
       "py": "ㄎㄨㄧㄎ-ㄎㄌㄧ",
       "split": "quic + kly (-ly 副詞字尾 + ck 雙字母 + ui 母音團)",
       "theme": "adjectives",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "quietly",
@@ -145865,7 +146597,10 @@
       "py": "ㄎㄨㄞㄊ-ㄌㄧ",
       "split": "quiet + ly (-ly 副詞字尾 + ie 母音團)",
       "theme": "adjectives",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "regularly",
@@ -145880,7 +146615,10 @@
       "py": "ㄌㄧ-ㄍㄧㄨ-ㄌㄜ-ㄌㄧ",
       "split": "re + gu + lar + ly (-ly 副詞字尾 + ar R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "relatively",
@@ -145909,7 +146647,10 @@
       "py": "ㄖㄧ-ㄊㄌㄧ",
       "split": "righ + tly (-ly 副詞字尾 + gh 雙字母)",
       "theme": "adjectives",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "sadly",
@@ -145922,7 +146663,10 @@
       "py": "ㄙㄚㄉ-ㄌㄧ",
       "split": "sad + ly (-ly 副詞字尾)",
       "theme": "emotions",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "seriously",
@@ -145936,7 +146680,10 @@
       "py": "ㄙㄜ-ㄖㄧㄜㄙ-ㄌㄧ",
       "split": "se + rious + ly (-ly 副詞字尾 + ou 母音團 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "successfully",
@@ -145951,7 +146698,10 @@
       "py": "ㄙㄚㄎ-ㄙㄝ-ㄙㄈㄚㄛ-ㄌㄧ",
       "split": "suc + ces + sful + ly (-ly 副詞字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "typically",
@@ -145966,7 +146716,10 @@
       "py": "ㄊㄧ-ㄆㄧ-ㄎㄜ-ㄌㄧ",
       "split": "ty + pi + cal + ly (-ly 副詞字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "usually",
@@ -145980,7 +146733,10 @@
       "py": "ㄧㄨ-ㄙㄚㄚㄌ-ㄌㄧ",
       "split": "u + sual + ly (-ly 副詞字尾)",
       "theme": "sight-words",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "willingly",
@@ -145994,7 +146750,10 @@
       "py": "ㄨㄧㄌ-ㄌㄧ-ㄍㄌㄧ",
       "split": "wil + lin + gly (-ly 副詞字尾 + ng 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "argue",
@@ -146198,7 +146957,10 @@
       "py": "ㄌㄧ-ㄅㄨㄌㄉ",
       "split": "re + build (ui 母音團)",
       "theme": "actions",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "rinse",
@@ -146263,7 +147025,10 @@
       "py": "ㄚㄣ-ㄉㄌㄝㄙ",
       "split": "un + dress",
       "theme": "clothing",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "verify",
@@ -146957,7 +147722,10 @@
       "py": "ㄎㄚㄇ-ㄆㄧ-ㄌㄜ",
       "split": "com + pi + ler (-er 比較級/人)",
       "theme": "tools",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "cryptocurrency",
@@ -147768,7 +148536,10 @@
       "py": "ㄚㄆ-ㄌㄛ-ㄉㄜ",
       "split": "up + loa + der (-er 比較級/人 + oa 母音團)",
       "theme": "jobs",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "username",
@@ -147851,7 +148622,10 @@
       "py": "ㄨㄧ-ㄌㄧ-ㄌㄝㄙ",
       "split": "wi + re + less (-less 字尾 + ir R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "workspace",
@@ -148002,7 +148776,10 @@
       "py": "ㄎㄌㄧ-ㄉㄧ-ㄊㄜ",
       "split": "cre + di + tor (cr- 子音群)",
       "theme": "jobs",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "debtor",
@@ -148015,7 +148792,10 @@
       "py": "ㄉㄝ-ㄊㄜ",
       "split": "deb + tor",
       "theme": "jobs",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "deduction",
@@ -148714,7 +149494,10 @@
       "py": "ㄜ-ㄉㄛ-ㄖㄝ-ㄌㄧ",
       "split": "a + do + rab + le (-able 字尾 + or R-音)",
       "theme": "appearance",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "affordable",
@@ -148729,7 +149512,10 @@
       "py": "ㄚㄈ-ㄈㄛ-ㄉㄚㄅ-ㄌㄧ",
       "split": "af + for + dab + le (-able 字尾 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "alleged",
@@ -148801,7 +149587,10 @@
       "py": "ㄢ-ㄙㄨㄧ-ㄖㄝ-ㄌㄧ",
       "split": "an + swe + rab + le (-able 字尾 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "appealing",
@@ -148944,7 +149733,10 @@
       "py": "ㄇㄧ-ㄉㄈㄚㄛ",
       "split": "min + dful (-ful 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "purposeful",
@@ -148959,7 +149751,10 @@
       "py": "ㄆㄜ-ㄆㄛ-ㄙㄜ-ㄈㄜ",
       "split": "pur + po + se + ful (-ful 字尾 + ur R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "regretful",
@@ -148973,7 +149768,10 @@
       "py": "ㄌㄝ-ㄌㄝㄊ-ㄈㄜ",
       "split": "reg + ret + ful (-ful 字尾)",
       "theme": "directions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "resourceful",
@@ -148988,7 +149786,10 @@
       "py": "ㄌㄧ-ㄙㄠㄜ-ㄙㄜ-ㄈㄜ",
       "split": "re + sour + ce + ful (-ful 字尾 + ou 母音團 + ur R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "tearful",
@@ -149029,7 +149830,10 @@
       "py": "ㄨㄛ-ㄎㄟ-ㄈㄜ",
       "split": "wa + ke + ful (-ful 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "watchful",
@@ -149042,7 +149846,10 @@
       "py": "ㄨㄚㄊㄎ-ㄏㄈㄚㄛ",
       "split": "watc + hful (-ful 字尾 + ch 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wishful",
@@ -149055,7 +149862,10 @@
       "py": "ㄨㄧㄗ-ㄏㄈㄚㄛ",
       "split": "wis + hful (-ful 字尾 + sh 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wrongful",
@@ -149068,7 +149878,10 @@
       "py": "ㄨㄖㄛㄋ-ㄍㄈㄚㄛ",
       "split": "wron + gful (-ful 字尾 + wr- 子音群 + ng 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "aimless",
@@ -149081,7 +149894,10 @@
       "py": "ㄟㄇ-ㄌㄝㄙ",
       "split": "aim + less (-less 字尾 + ai 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "blameless",
@@ -149095,7 +149911,10 @@
       "py": "ㄅㄌㄟ-ㄇㄝ-ㄌㄝㄙ",
       "split": "bla + me + less (-less 字尾 + bl- 子音群)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "boundless",
@@ -149108,7 +149927,10 @@
       "py": "ㄅㄠㄋ-ㄉㄌㄝㄙ",
       "split": "boun + dless (-less 字尾 + ou 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "breathless",
@@ -149121,7 +149943,10 @@
       "py": "ㄅㄖㄧㄊ-ㄏㄌㄝㄙ",
       "split": "breat + hless (-less 字尾 + br- 子音群 + th 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "careless",
@@ -149135,7 +149960,10 @@
       "py": "ㄎㄚ-ㄌㄧ-ㄌㄝㄙ",
       "split": "ca + re + less (-less 字尾 + ar R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "childless",
@@ -149148,7 +149976,10 @@
       "py": "ㄑㄧ-ㄉㄌㄝㄙ",
       "split": "chil + dless (-less 字尾 + ch 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "clueless",
@@ -149161,7 +149992,10 @@
       "py": "ㄎㄌㄩ-ㄌㄝㄙ",
       "split": "clue + less (-less 字尾 + cl- 子音群 + ue 母音團)",
       "theme": "body",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "countless",
@@ -149174,7 +150008,10 @@
       "py": "ㄎㄠㄣ-ㄊㄌㄝㄙ",
       "split": "coun + tless (-less 字尾 + ou 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "endless",
@@ -149187,7 +150024,10 @@
       "py": "ㄣ-ㄉㄌㄝㄙ",
       "split": "en + dless (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "fearless",
@@ -149200,7 +150040,10 @@
       "py": "ㄈㄧㄜ-ㄌㄝㄙ",
       "split": "fear + less (-less 字尾 + ea 母音團 + ar R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "flawless",
@@ -149213,7 +150056,10 @@
       "py": "ㄈㄌㄛ-ㄌㄝㄙ",
       "split": "flaw + less (-less 字尾 + fl- 子音群 + aw 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "formless",
@@ -149226,7 +150072,10 @@
       "py": "ㄈㄛ-ㄇㄌㄝㄙ",
       "split": "for + mless (-less 字尾 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "friendless",
@@ -149239,7 +150088,10 @@
       "py": "ㄈㄖㄞㄋ-ㄉㄌㄝㄙ",
       "split": "frien + dless (-less 字尾 + fr- 子音群 + ie 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "fruitless",
@@ -149252,7 +150104,10 @@
       "py": "ㄈㄌㄨㄊ-ㄌㄝㄙ",
       "split": "fruit + less (-less 字尾 + fr- 子音群 + ui 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "groundless",
@@ -149265,7 +150120,10 @@
       "py": "ㄍㄖㄠㄋ-ㄉㄌㄝㄙ",
       "split": "groun + dless (-less 字尾 + gr- 子音群 + ou 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "harmless",
@@ -149278,7 +150136,10 @@
       "py": "ㄏㄚㄦ-ㄇㄌㄝㄙ",
       "split": "har + mless (-less 字尾 + ar R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "helpless",
@@ -149291,7 +150152,10 @@
       "py": "ㄏㄝ-ㄆㄌㄝㄙ",
       "split": "hel + pless (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "homeless",
@@ -149305,7 +150169,10 @@
       "py": "ㄏㄚ-ㄇㄝ-ㄌㄝㄙ",
       "split": "ho + me + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "hopeless",
@@ -149319,7 +150186,10 @@
       "py": "ㄏㄚ-ㄆㄜ-ㄌㄝㄙ",
       "split": "ho + pe + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "lifeless",
@@ -149333,7 +150203,10 @@
       "py": "ㄌㄧ-ㄈㄧ-ㄌㄝㄙ",
       "split": "li + fe + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "lawless",
@@ -149346,7 +150219,10 @@
       "py": "ㄌㄛ-ㄌㄝㄙ",
       "split": "law + less (-less 字尾 + aw 母音團)",
       "theme": "law",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "limitless",
@@ -149360,7 +150236,10 @@
       "py": "ㄌㄧ-ㄇㄧㄊ-ㄌㄝㄙ",
       "split": "li + mit + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "meaningless",
@@ -149374,7 +150253,10 @@
       "py": "ㄇㄧ-ㄋㄧㄣ-ㄍㄌㄝㄙ",
       "split": "mea + nin + gless (-less 字尾 + ng 雙字母 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "motherless",
@@ -149388,7 +150270,10 @@
       "py": "ㄇㄛㄊ-ㄏㄜ-ㄌㄝㄙ",
       "split": "mot + her + less (-less 字尾 + th 雙字母 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "motionless",
@@ -149402,7 +150287,10 @@
       "py": "ㄇㄛ-ㄒㄣ-ㄌㄝㄙ",
       "split": "mo + tion + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "nameless",
@@ -149416,7 +150304,10 @@
       "py": "ㄋㄚ-ㄇㄝ-ㄌㄝㄙ",
       "split": "na + me + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "needless",
@@ -149429,7 +150320,10 @@
       "py": "ㄋㄧㄉ-ㄌㄝㄙ",
       "split": "need + less (-less 字尾 + ee 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "numberless",
@@ -149443,7 +150337,10 @@
       "py": "ㄋㄚㄇ-ㄅㄜ-ㄌㄝㄙ",
       "split": "num + ber + less (-less 字尾 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "odorless",
@@ -149457,7 +150354,10 @@
       "py": "ㄛ-ㄉㄜ-ㄌㄝㄙ",
       "split": "o + dor + less (-less 字尾 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "painless",
@@ -149470,7 +150370,10 @@
       "py": "ㄆㄟㄣ-ㄌㄝㄙ",
       "split": "pain + less (-less 字尾 + ai 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "peerless",
@@ -149483,7 +150386,10 @@
       "py": "ㄆㄧㄖ-ㄌㄝㄙ",
       "split": "peer + less (-less 字尾 + ee 母音團 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "pointless",
@@ -149496,7 +150402,10 @@
       "py": "ㄆㄛㄧㄣ-ㄊㄌㄝㄙ",
       "split": "poin + tless (-less 字尾 + oi 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "restless",
@@ -149509,7 +150418,10 @@
       "py": "ㄌㄝㄙ-ㄊㄌㄝㄙ",
       "split": "res + tless (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "ruthless",
@@ -149549,7 +150461,10 @@
       "py": "ㄙㄝㄣ-ㄙㄜ-ㄌㄝㄙ",
       "split": "sen + se + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "shameless",
@@ -149563,7 +150478,10 @@
       "py": "ㄒㄚ-ㄇㄝ-ㄌㄝㄙ",
       "split": "sha + me + less (-less 字尾 + sh 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "sleepless",
@@ -149576,7 +150494,10 @@
       "py": "ㄙㄌㄧ-ㄌㄝㄙ",
       "split": "sleep + less (-less 字尾 + sl- 子音群 + ee 母音團)",
       "theme": "diseases",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "soundless",
@@ -149589,7 +150510,10 @@
       "py": "ㄙㄠㄋ-ㄉㄌㄝㄙ",
       "split": "soun + dless (-less 字尾 + ou 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "speechless",
@@ -149602,7 +150526,10 @@
       "py": "ㄙㄆㄧㄎ-ㄏㄌㄝㄙ",
       "split": "speec + hless (-less 字尾 + sp- 子音群 + ch 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "stainless",
@@ -149615,7 +150542,10 @@
       "py": "ㄙㄊㄟㄋ-ㄌㄝㄙ",
       "split": "stain + less (-less 字尾 + st- 子音群 + ai 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "stateless",
@@ -149629,7 +150559,10 @@
       "py": "ㄙㄉㄝ-ㄊㄧ-ㄌㄝㄙ",
       "split": "sta + te + less (-less 字尾 + st- 子音群)",
       "theme": "countries",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "tasteless",
@@ -149643,7 +150576,10 @@
       "py": "ㄊㄚㄙ-ㄊㄧ-ㄌㄝㄙ",
       "split": "tas + te + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "thankless",
@@ -149656,7 +150592,10 @@
       "py": "ㄉㄢ-ㄎㄌㄝㄙ",
       "split": "than + kless (-less 字尾 + th 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "timeless",
@@ -149670,7 +150609,10 @@
       "py": "ㄊㄜ-ㄇㄝ-ㄌㄝㄙ",
       "split": "ti + me + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "tireless",
@@ -149684,7 +150626,10 @@
       "py": "ㄊㄜ-ㄌㄧ-ㄌㄝㄙ",
       "split": "ti + re + less (-less 字尾 + ir R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "toothless",
@@ -149697,7 +150642,10 @@
       "py": "ㄊㄨㄊ-ㄏㄌㄝㄙ",
       "split": "toot + hless (-less 字尾 + th 雙字母 + oo 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "useless",
@@ -149711,7 +150659,10 @@
       "py": "ㄧㄨ-ㄙㄜ-ㄌㄝㄙ",
       "split": "u + se + less (-less 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "voiceless",
@@ -149725,7 +150676,10 @@
       "py": "ㄨㄛㄧ-ㄙㄜ-ㄌㄝㄙ",
       "split": "voi + ce + less (-less 字尾 + oi 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "weightless",
@@ -149738,7 +150692,10 @@
       "py": "ㄨㄝ-ㄊㄌㄝㄙ",
       "split": "weigh + tless (-less 字尾 + gh 雙字母 + ei 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "wordless",
@@ -149751,7 +150708,10 @@
       "py": "ㄨㄜ-ㄉㄌㄝㄙ",
       "split": "wor + dless (-less 字尾 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "worthless",
@@ -149764,7 +150724,10 @@
       "py": "ㄨㄛㄜㄊ-ㄏㄌㄝㄙ",
       "split": "wort + hless (-less 字尾 + th 雙字母 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "amorous",
@@ -149915,7 +150878,10 @@
       "py": "ㄚㄎ-ㄏㄞ-ㄨㄚㄅ-ㄌㄧ",
       "split": "ac + hie + vab + le (-able 字尾 + ch 雙字母 + ie 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "adaptable",
@@ -149930,7 +150896,10 @@
       "py": "ㄜ-ㄉㄚ-ㄊㄚ-ㄌㄧ",
       "split": "a + dap + tab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "alterable",
@@ -149945,7 +150914,10 @@
       "py": "ㄦ-ㄊㄧ-ㄖㄝ-ㄌㄧ",
       "split": "al + te + rab + le (-able 字尾 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "approachable",
@@ -149960,7 +150932,10 @@
       "py": "ㄚ-ㄆㄖㄛㄎ-ㄏㄚㄅ-ㄌㄧ",
       "split": "ap + proac + hab + le (-able 字尾 + ch 雙字母 + oa 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "avoidable",
@@ -149975,7 +150950,10 @@
       "py": "ㄜ-ㄨㄛㄧ-ㄉㄚㄅ-ㄌㄧ",
       "split": "a + voi + dab + le (-able 字尾 + oi 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "breakable",
@@ -149989,7 +150967,10 @@
       "py": "ㄅㄖㄧ-ㄎㄚㄅ-ㄌㄧ",
       "split": "brea + kab + le (-able 字尾 + br- 子音群 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "contestable",
@@ -150004,7 +150985,10 @@
       "py": "ㄎㄚㄣ-ㄊㄝㄙ-ㄊㄚ-ㄌㄧ",
       "split": "con + tes + tab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "controllable",
@@ -150033,7 +151017,10 @@
       "py": "ㄎㄧㄨ-ㄖㄝ-ㄌㄧ",
       "split": "cu + rab + le (-able 字尾 + ur R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "debatable",
@@ -150048,7 +151035,10 @@
       "py": "ㄉㄧ-ㄅㄟ-ㄊㄚ-ㄌㄧ",
       "split": "de + ba + tab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "detectable",
@@ -150063,7 +151053,10 @@
       "py": "ㄉㄧ-ㄊㄝㄎ-ㄊㄚ-ㄌㄧ",
       "split": "de + tec + tab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "disagreeable",
@@ -150092,7 +151085,10 @@
       "py": "ㄉㄖㄧㄋ-ㄎㄚㄅ-ㄌㄧ",
       "split": "drin + kab + le (-able 字尾 + dr- 子音群)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "eatable",
@@ -150106,7 +151102,10 @@
       "py": "ㄧ-ㄊㄚ-ㄌㄧ",
       "split": "ea + tab + le (-able 字尾 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "enviable",
@@ -150135,7 +151134,10 @@
       "py": "ㄈㄛ-ㄐㄜ-ㄨㄚㄅ-ㄌㄧ",
       "split": "for + gi + vab + le (-able 字尾 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "impossible",
@@ -150223,7 +151225,10 @@
       "py": "ㄌㄧ-ㄎㄧㄅ-ㄌㄧ",
       "split": "li + keab + le (-able 字尾 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "lovable",
@@ -150237,7 +151242,10 @@
       "py": "ㄌㄛ-ㄨㄚㄅ-ㄌㄧ",
       "split": "lo + vab + le (-able 字尾)",
       "theme": "appearance",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "obtainable",
@@ -150252,7 +151260,10 @@
       "py": "ㄚㄅ-ㄊㄞ-ㄋㄚㄅ-ㄌㄧ",
       "split": "ob + tai + nab + le (-able 字尾 + ai 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "passable",
@@ -150266,7 +151277,10 @@
       "py": "ㄆㄚㄙ-ㄙㄚㄅ-ㄌㄧ",
       "split": "pas + sab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "perishable",
@@ -150281,7 +151295,10 @@
       "py": "ㄆㄜ-ㄌㄧㄙ-ㄏㄚㄅ-ㄌㄧ",
       "split": "pe + ris + hab + le (-able 字尾 + sh 雙字母 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "plausible",
@@ -150310,7 +151327,10 @@
       "py": "ㄆㄌㄧ-ㄉㄧㄎ-ㄊㄚ-ㄌㄧ",
       "split": "pre + dic + tab + le (-able 字尾 + pr- 子音群)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "preventable",
@@ -150325,7 +151345,10 @@
       "py": "ㄆㄌㄧ-ㄈㄣ-ㄊㄚ-ㄌㄧ",
       "split": "pre + ven + tab + le (-able 字尾 + pr- 子音群)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "printable",
@@ -150339,7 +151362,10 @@
       "py": "ㄆㄌㄧㄣ-ㄊㄚ-ㄌㄧ",
       "split": "prin + tab + le (-able 字尾 + pr- 子音群)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "punishable",
@@ -150368,7 +151394,10 @@
       "py": "ㄖㄧㄎ-ㄏㄚㄅ-ㄌㄧ",
       "split": "reac + hab + le (-able 字尾 + ch 雙字母 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "readable",
@@ -150382,7 +151411,10 @@
       "py": "ㄌㄝ-ㄉㄚㄅ-ㄌㄧ",
       "split": "rea + dab + le (-able 字尾 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "recoverable",
@@ -150398,7 +151430,10 @@
       "py": "ㄌㄧ-ㄎㄛ-ㄈㄜ-ㄖㄝ-ㄌㄧ",
       "split": "re + co + ve + rab + le (-able 字尾 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "regrettable",
@@ -150442,7 +151477,10 @@
       "py": "ㄌㄧ-ㄊㄜ-ㄋㄚㄅ-ㄌㄧ",
       "split": "re + tur + nab + le (-able 字尾 + ur R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "reversible",
@@ -150471,7 +151509,10 @@
       "py": "ㄙㄧㄜ-ㄔㄚㄅ-ㄌㄧ",
       "split": "sear + chab + le (-able 字尾 + ch 雙字母 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "serviceable",
@@ -150486,7 +151527,10 @@
       "py": "ㄗㄜ-ㄈㄞ-ㄎㄧㄅ-ㄌㄧ",
       "split": "ser + vi + ceab + le (-able 字尾 + ea 母音團 + er R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "sizeable",
@@ -150500,7 +151544,10 @@
       "py": "ㄗㄜ-ㄗㄧㄅ-ㄌㄧ",
       "split": "si + zeab + le (-able 字尾 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "solvable",
@@ -150514,7 +151561,10 @@
       "py": "ㄙㄚ-ㄨㄚㄅ-ㄌㄧ",
       "split": "sol + vab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "traceable",
@@ -150528,7 +151578,10 @@
       "py": "ㄊㄌㄚ-ㄎㄧㄅ-ㄌㄧ",
       "split": "tra + ceab + le (-able 字尾 + tr- 子音群 + ea 母音團)",
       "theme": "internet",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "treatable",
@@ -150542,7 +151595,10 @@
       "py": "ㄊㄌㄧ-ㄊㄚ-ㄌㄧ",
       "split": "trea + tab + le (-able 字尾 + tr- 子音群 + ea 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "unable",
@@ -150556,7 +151612,10 @@
       "py": "ㄧㄨ-ㄋㄚㄅ-ㄌㄧ",
       "split": "u + nab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "unbearable",
@@ -150587,7 +151646,10 @@
       "py": "ㄚㄣ-ㄅㄧ-ㄌㄞ-ㄨㄚㄅ-ㄌㄧ",
       "split": "un + be + lie + vab + le (-able 字尾 + ie 母音團)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "uncomfortable",
@@ -150603,7 +151665,10 @@
       "py": "ㄚㄣ-ㄎㄚㄇ-ㄈㄛ-ㄊㄚ-ㄌㄧ",
       "split": "un + com + for + tab + le (-able 字尾 + or R-音)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "unforgettable",
@@ -150650,7 +151715,10 @@
       "py": "ㄚㄣ-ㄌㄧ-ㄌㄧㄚㄅ-ㄌㄧ",
       "split": "un + re + liab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "unstable",
@@ -150664,7 +151732,10 @@
       "py": "ㄚㄣ-ㄙㄊㄚㄅ-ㄌㄧ",
       "split": "un + stab + le (-able 字尾)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "viable",
@@ -150691,7 +151762,10 @@
       "py": "ㄨㄚㄙ-ㄏㄚㄅ-ㄌㄧ",
       "split": "was + hab + le (-able 字尾 + sh 雙字母)",
       "theme": "adjectives",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "alleviate",
@@ -150908,7 +151982,10 @@
       "py": "ㄎㄌㄝ-ㄇㄜ",
       "split": "cla + mor (cl- 子音群)",
       "theme": "actions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "coerce",
@@ -152555,7 +153632,10 @@
       "py": "ㄌㄧ-ㄎㄛㄧㄌ",
       "split": "re + coil (oi 母音團)",
       "theme": "directions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "refurbish",
@@ -154189,7 +155269,10 @@
       "py": "ㄉㄧ-ㄊㄖㄛㄧㄜ",
       "split": "des + troyer (-er 比較級/人 + oy 母音團)",
       "theme": "actions",
-      "stage": 3
+      "stage": 3,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "disarm",
@@ -154639,7 +155722,10 @@
       "py": "ㄊㄨㄧㄙ-ㄊㄜ",
       "split": "twis + ter (-er 比較級/人 + tw- 子音群)",
       "theme": "emergencies",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "whirlwind",
@@ -154990,7 +156076,10 @@
       "py": "ㄅㄚㄉ-ㄍㄜ",
       "split": "bad + ger (-er 比較級/人)",
       "theme": "animals",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "weasel",
@@ -155016,7 +156105,10 @@
       "py": "ㄆㄚㄈ-ㄈㄜ",
       "split": "puf + fer (-er 比較級/人)",
       "theme": "animals",
-      "stage": 2
+      "stage": 2,
+      "tags": [
+        "exam-7000"
+      ]
     },
     {
       "word": "mantis",
@@ -155043,6 +156135,55 @@
       "split": "wee + vil (ee 母音團)",
       "theme": "animals",
       "stage": 2
+    },
+    {
+      "word": "cellphone",
+      "mean": "手機",
+      "img": "📱",
+      "chunks": [
+        "cell",
+        "phone"
+      ],
+      "py": "",
+      "split": "cell + phone",
+      "theme": "technology",
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
+    },
+    {
+      "word": "mrt",
+      "mean": "捷運",
+      "img": "🚇",
+      "chunks": [
+        "m",
+        "r",
+        "t"
+      ],
+      "py": "",
+      "split": "M + R + T(縮寫)",
+      "theme": "transportation",
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
+    },
+    {
+      "word": "pingpong",
+      "mean": "乒乓",
+      "img": "🏓",
+      "chunks": [
+        "ping",
+        "pong"
+      ],
+      "py": "",
+      "split": "ping + pong",
+      "theme": "sports",
+      "stage": 1,
+      "tags": [
+        "exam-7000"
+      ]
     }
   ]
 }
