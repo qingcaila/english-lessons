@@ -94,7 +94,8 @@
     {"id":"tools","name":"工具","icon":"🔨","category":"daily","stage":2,"frequencyRank":66,"description":"鎚子 / 螺絲起子 / 鋸子 / 梯子 / DIY"},
     {"id":"countries","name":"國家","icon":"🌍","category":"social","stage":1,"frequencyRank":67,"description":"國家名稱 / 國籍 / 主要國家"},
     {"id":"phrasal-verbs","name":"片語動詞","icon":"🔗","category":"special","stage":1,"frequencyRank":-3,"description":"get up / look for / give up 等片語動詞,Stage 1 閱讀斷崖核心"},
-    {"id":"connectors","name":"連接詞","icon":"🪢","category":"special","stage":1,"frequencyRank":-4,"description":"however / therefore / although 等,讀文章核心"}
+    {"id":"connectors","name":"連接詞","icon":"🪢","category":"special","stage":1,"frequencyRank":-4,"description":"however / therefore / although 等,讀文章核心"},
+    {"id":"exam-7000","name":"大考7000","icon":"📚","category":"academic","stage":2,"frequencyRank":68,"description":"大考中心 7000 字表 Level 1-4 未分類詞 (auto-imported, 待後續按主題重分)"}
 
   ]
 }
