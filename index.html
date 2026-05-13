@@ -465,19 +465,8 @@ function renderThemeStats() {
   });
 
   // 排序:有進度的優先,按 L4 desc 再按 learned desc
-  const entries = Object.entries(byTheme).sort((a, b) => {
-    const A = a[1], B = b[1];
-    if ((A.learned > 0) !== (B.learned > 0)) return (B.learned > 0 ? 1 : 0) - (A.learned > 0 ? 1 : 0);
-    if (A.l4 !== B.l4) return B.l4 - A.l4;
-    return B.learned - A.learned;
-  });
-
   // L1→L5 漸層色,呈現「依序往上推」
   const COLOR = { L1:'#fde2c8', L2:'#fac68a', L3:'#e89b53', L4:'#c4633f', L5:'#7a3a1f' };
-
-  // 過濾有單字的主題;沒單字的摺進「尚未有單字」
-  const visible = entries.filter(([, t]) => t.total > 0);
-  const empty   = entries.filter(([, t]) => t.total === 0);
 
   // 圖例
   let html = `<div style="display:flex;gap:6px;font-size:9px;color:var(--muted);margin-bottom:6px;flex-wrap:wrap;align-items:center;">
@@ -489,8 +478,7 @@ function renderThemeStats() {
     <span style="margin-left:auto;">L4⭐ = 反射理解</span>
   </div>`;
 
-  // 每個主題一條漸層進度條
-  html += visible.map(([, t]) => {
+  const renderTheme = (t) => {
     const segments = [];
     ['L1','L2','L3','L4','L5'].forEach(lvl => {
       const n = t.levels[lvl];
@@ -514,16 +502,24 @@ function renderThemeStats() {
         </div>
       </div>
     `;
-  }).join('');
+  };
 
-  if (empty.length > 0) {
-    html += `<details style="margin-top:8px;font-size:11px;color:var(--muted);">
-      <summary>${empty.length} 個主題尚未有單字</summary>
-      <div style="margin-top:6px;line-height:1.6;">
-        ${empty.map(([, t]) => `${t.icon} ${t.name}`).join(' · ')}
-      </div>
-    </details>`;
-  }
+  // 按 category 分組顯示(跟「選主題」一樣)
+  const cats = (THEMES.categories || []).sort((a,b) => a.order - b.order);
+  html += cats.map(c => {
+    const themesInCat = THEMES.themes
+      .filter(t => t.category === c.id)
+      .sort((a,b) => a.frequencyRank - b.frequencyRank);
+    if (themesInCat.length === 0) return "";
+    const rows = themesInCat.map(t => byTheme[t.id] ? renderTheme(byTheme[t.id]) : "").join("");
+    return `
+      <details class="cat" open style="margin-top:8px;">
+        <summary style="font-weight:600;font-size:12px;color:var(--accent);cursor:pointer;padding:4px 0;">
+          ${c.icon} ${c.name} <span style="color:var(--muted);font-weight:normal;font-size:11px;">(${themesInCat.length})</span>
+        </summary>
+        ${rows}
+      </details>`;
+  }).join('');
 
   document.getElementById("themeStats").innerHTML = html;
 }
