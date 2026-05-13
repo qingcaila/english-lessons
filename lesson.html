@@ -89,7 +89,6 @@
     background: var(--card); border: 1px solid var(--border);
     cursor: pointer; transition: background .12s;
     margin-bottom: 3px; border-radius: 6px; padding: 4px 8px;
-    height: 60px;
     display: grid;
     grid-template-columns: 30px 1fr auto auto;
     grid-template-rows: auto auto;
@@ -98,8 +97,10 @@
       "img split    meaning actions";
     column-gap: 5px; row-gap: 0;
     align-items: center;
-    height: 54px;
+    min-height: 72px;
   }
+  /* split 內的 note 控制單行,超出 ellipsis,避免長 note 破版 */
+  .split { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   tbody tr.is-review { border-left: 3px solid var(--accent); }
   tbody tr.is-new { border-left: 3px solid var(--good); }
   tbody td { border: none; padding: 0; display: block; }
