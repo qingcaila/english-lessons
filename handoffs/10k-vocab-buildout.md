@@ -304,6 +304,18 @@ git push
 - **2026-05-13** / 對話 3(批次 B3)/ +312 / drinks 62 / desserts 58 / shapes 60 / directions 60 / transportation 70 / places 69 / 累計 **2,332**
   - 重點:drinks 加酒類+咖啡+茶+水類;desserts 跨歐美亞甜點;shapes 補完幾何+測量詞;directions 補方位+轉向+幾何位置;transport 補陸海空+特殊車輛;places 涵蓋商業/宗教/娛樂/行政
   - 下一個:**B4**(travel / shopping / restaurant / money / health 各推到 80)
+- **2026-05-13** / 對話 1(主對話,結構擴充)/ **+5 主題 / +72 字** / 累計 **2,404**
+  - **新增 5 個主題到 themes.json**(因 52 主題在 10K 字量下會擠;經評估後新增):
+    - `materials` 🪨 材料(Stage 2,daily 分類)
+    - `tools` 🔨 工具(Stage 2,daily 分類)
+    - `countries` 🌍 國家(Stage 1,social 分類)
+    - `phrasal-verbs` 🔗 片語動詞(Stage 1,special 分類)— **Stage 1 閱讀斷崖核心**
+    - `connectors` 🪢 連接詞(Stage 1,special 分類)— **讀文章必認**
+  - 5 個新主題各 12-15 字示範字,讓主題不再是空殼:
+    - materials 15 / tools 12 / countries 15 / phrasal-verbs 15 / connectors 15
+  - 注意:`countries` 字保留**首字大寫**(專有名詞慣例);`phrasal-verbs` 字含**空格**(例 "get up"),chunks 拆成兩部分
+  - 主題總數:**52 → 57**;有單字的主題提升,首頁主題進度將不再有那麼多灰色
+  - 下一個:依原計畫,**B4 起點**(travel / shopping / restaurant / money / health 各推到 80)
   - 重點:numbers 完成 11-90 + ordinals + 數學詞 + 量詞;time 完成 days/months/seasons/parts of day + 時態 + 頻率副詞;colors 涵蓋金屬色/寶石色/明度修飾詞;animals 補齊哺乳/鳥/海洋/爬蟲/昆蟲六大類
   - 驗證:JSON 合法、無重複、1012 條全部 7 欄位齊全
   - 下一個:**A2**(clothing / weather / food / school / home-items 各推到 50)
