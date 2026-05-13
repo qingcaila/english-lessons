@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>資料品質檢查 · English Lessons</title>
+<style>
+  :root {
+    --bg: #faf8f3; --card: #fff; --ink: #2a2a2a; --muted: #6b6b6b;
+    --accent: #c4633f; --accent-soft: #f3dfd4; --border: #e5dfd2;
+    --good: #2d7a2d; --good-bg: #d9efd6;
+    --bad: #a04a1a; --bad-bg: #ffe6d6;
+    --warn: #c17900; --warn-bg: #fff8e1;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg); color: var(--ink);
+    margin: 0; padding: 16px 14px 40px; line-height: 1.5; font-size: 14px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  .topbar {
+    display: flex; gap: 8px; align-items: center;
+    padding: 8px 10px; margin-bottom: 14px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  }
+  .topbar a { color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600; }
+  .topbar h1 { margin: 0; font-size: 18px; flex: 1; text-align: center; }
+  .topbar button {
+    font-size: 13px; padding: 6px 12px; border-radius: 6px;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff;
+    cursor: pointer; font-family: inherit; font-weight: 600;
+  }
+
+  h2 { font-size: 16px; margin: 18px 0 8px; padding: 8px 12px; background: var(--accent-soft); color: var(--accent); border-radius: 6px; }
+
+  .summary-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 8px; padding: 14px; margin-bottom: 10px;
+  }
+  .stats { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
+  .stats b { font-size: 16px; }
+
+  .check {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px 14px; margin-bottom: 8px;
+  }
+  .check h3 { margin: 0 0 6px; font-size: 14px; display: flex; align-items: center; gap: 6px; }
+  .check.pass h3 { color: var(--good); }
+  .check.fail h3 { color: var(--bad); }
+  .check.warn h3 { color: var(--warn); }
+  .badge {
+    font-size: 11px; padding: 1px 7px; border-radius: 3px; font-weight: 700;
+  }
+  .badge.pass { background: var(--good-bg); color: var(--good); }
+  .badge.fail { background: var(--bad-bg); color: var(--bad); }
+  .badge.warn { background: var(--warn-bg); color: var(--warn); }
+
+  details { margin-top: 6px; }
+  details summary { cursor: pointer; font-size: 12px; color: var(--muted); padding: 3px 0; }
+  details ul { margin: 4px 0 0 18px; padding: 0; font-size: 12px; line-height: 1.6; }
+  details code { background: #f3dfd4; padding: 1px 5px; border-radius: 3px; font-size: 11px; }
+
+  .theme-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 6px; }
+  .theme-table th, .theme-table td { padding: 4px 8px; text-align: left; border-bottom: 1px solid var(--border); }
+  .theme-table th { background: var(--accent-soft); color: var(--accent); }
+  .theme-table .low { color: var(--bad); }
+  .theme-table .ok { color: var(--good); }
+
+  .loading { text-align: center; color: var(--muted); padding: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a href="index.html">← 首頁</a>
+    <h1>🔍 資料品質檢查</h1>
+    <button onclick="location.reload()">🔄 重新檢查</button>
+  </div>
+
+  <div id="content"><div class="loading">載入並檢查中…</div></div>
+</div>
+
+<script>
+// ── 真的不規則字(允許單塊 chunks)──────────────────────
+const TRULY_IRREGULAR = new Set([
+  "one","eye","old","earth","eat","ear","arm","ice","egg","hour",
+  "two","eight","I","a","the","are","or","up","on","in","out","old","up"
+]);
+
+async function run() {
+  const [vocabRes, themesRes] = await Promise.all([
+    fetch("vocab.json"), fetch("themes.json")
+  ]);
+  const vocab = await vocabRes.json();
+  const themes = await themesRes.json();
+  const words = vocab.words;
+  const themeIds = new Set(themes.themes.map(t => t.id));
+  const themeFreqByStage = {};
+  themes.themes.forEach(t => { if (!themeFreqByStage[t.stage]) themeFreqByStage[t.stage] = []; themeFreqByStage[t.stage].push(t); });
+
+  const results = [];
+
+  // ── 1. 總計 ──────────────────────────────────────────
+  const total = words.length;
+  const target10K = 10000;
+  const pctOf10K = Math.round(total / target10K * 100);
+
+  // ── 2. 必要欄位齊全 ──────────────────────────────────
+  const REQ = ["word","mean","img","chunks","py","split","theme","stage"];
+  const missingFields = [];
+  words.forEach((w, i) => {
+    const missing = REQ.filter(k => !(k in w) || w[k] === undefined || w[k] === "");
+    if (missing.length > 0) missingFields.push({ idx: i, word: w.word || "(無)", missing });
+  });
+
+  // ── 3. chunks 規則 ───────────────────────────────────
+  const badChunks = [];
+  words.forEach((w, i) => {
+    if (!Array.isArray(w.chunks) || w.chunks.length === 0) {
+      badChunks.push({ idx: i, word: w.word, reason: "chunks 為空或非陣列" });
+    } else if (w.chunks.length === 1 && !TRULY_IRREGULAR.has(w.word)) {
+      badChunks.push({ idx: i, word: w.word, reason: "單塊但不在不規則白名單" });
+    }
+  });
+
+  // ── 4. theme 有效 ────────────────────────────────────
+  const invalidThemes = [];
+  words.forEach((w, i) => {
+    if (!themeIds.has(w.theme)) invalidThemes.push({ idx: i, word: w.word, theme: w.theme });
+  });
+
+  // ── 5. stage 0-4 ────────────────────────────────────
+  const invalidStages = [];
+  words.forEach((w, i) => {
+    if (typeof w.stage !== "number" || w.stage < 0 || w.stage > 4 || !Number.isInteger(w.stage)) {
+      invalidStages.push({ idx: i, word: w.word, stage: w.stage });
+    }
+  });
+
+  // ── 6. 重複字 ────────────────────────────────────────
+  const seenWords = {};
+  const duplicates = [];
+  words.forEach((w, i) => {
+    if (seenWords[w.word]) duplicates.push({ word: w.word, indices: [seenWords[w.word], i] });
+    else seenWords[w.word] = i;
+  });
+
+  // ── 7. emoji 空白 / 中文太長 ─────────────────────────
+  const emojiIssues = [];
+  const longMeanings = [];
+  words.forEach((w, i) => {
+    if (!w.img || w.img.trim() === "") emojiIssues.push({ idx: i, word: w.word, issue: "img 空白" });
+    if (w.mean && w.mean.length > 10) longMeanings.push({ idx: i, word: w.word, mean: w.mean, len: w.mean.length });
+  });
+
+  // ── 8. 注音空白 ──────────────────────────────────────
+  const pyIssues = [];
+  words.forEach((w, i) => {
+    if (!w.py || w.py.trim() === "") pyIssues.push({ idx: i, word: w.word });
+  });
+
+  // ── 9. 各主題字數分布 ────────────────────────────────
+  const themeCount = {};
+  themes.themes.forEach(t => themeCount[t.id] = { name: t.name, icon: t.icon, stage: t.stage, count: 0 });
+  words.forEach(w => { if (themeCount[w.theme]) themeCount[w.theme].count += 1; });
+  const themeRows = Object.entries(themeCount).sort((a,b) => a[1].stage - b[1].stage || b[1].count - a[1].count);
+  const lowThemes = themeRows.filter(([, t]) => t.count < 10);
+
+  // ── 10. 各 stage 字數分布 ─────────────────────────────
+  const stageCount = { 0:0, 1:0, 2:0, 3:0, 4:0 };
+  words.forEach(w => { if (stageCount[w.stage] !== undefined) stageCount[w.stage] += 1; });
+
+  // ── 渲染 ─────────────────────────────────────────────
+  let html = `
+    <div class="summary-card">
+      <div style="font-size:13px;color:var(--muted);">總體狀態</div>
+      <div class="stats">
+        <span><b>${total}</b> 字</span>
+        <span>占 10K 目標 <b>${pctOf10K}%</b></span>
+        <span style="margin-left:auto;font-size:12px;color:var(--muted);">主題 ${themes.themes.length} 個 · 分類 ${themes.categories.length} 個</span>
+      </div>
+      <div style="height:8px;background:var(--border);border-radius:4px;overflow:hidden;margin-top:8px;">
+        <div style="width:${Math.min(100, pctOf10K)}%;height:100%;background:var(--accent);"></div>
+      </div>
+      <div class="stats" style="margin-top:10px;font-size:12px;">
+        ${[0,1,2,3,4].map(s => `<span>Stage ${s}: <b>${stageCount[s]}</b></span>`).join("")}
+      </div>
+    </div>
+  `;
+
+  html += `<h2>必要檢查</h2>`;
+  html += checkCard("必要欄位齊全", missingFields, "全部 8 個欄位都齊", items => items.map(x =>
+    `${x.idx}. <code>${x.word}</code> 缺:${x.missing.join(", ")}`
+  ));
+
+  html += checkCard("chunks 拆字唸規則", badChunks, "所有字都拆成 2+ 塊(或在不規則白名單)", items => items.map(x =>
+    `${x.idx}. <code>${x.word}</code> — ${x.reason}`
+  ));
+
+  html += checkCard("theme id 有效", invalidThemes, "所有 theme 都對應到 themes.json", items => items.map(x =>
+    `${x.idx}. <code>${x.word}</code> theme="${x.theme}" 不存在`
+  ));
+
+  html += checkCard("stage 在 0-4 範圍", invalidStages, "所有 stage 是 0-4 整數", items => items.map(x =>
+    `${x.idx}. <code>${x.word}</code> stage=${x.stage}`
+  ));
+
+  html += checkCard("無重複字", duplicates, "每個字只出現一次", items => items.map(x =>
+    `<code>${x.word}</code> 重複出現在 index ${x.indices.join(", ")}`
+  ));
+
+  html += `<h2>品質檢查(可容忍但可改進)</h2>`;
+  html += checkCard("emoji 都有", emojiIssues, "每個字都有 img", items => items.map(x => `${x.idx}. <code>${x.word}</code> — ${x.issue}`), "warn");
+  html += checkCard("注音都有", pyIssues, "每個字都有 py", items => items.map(x => `${x.idx}. <code>${x.word}</code>`), "warn");
+  html += checkCard("中文意思長度 ≤ 10 字", longMeanings, "中文簡潔", items => items.map(x => `${x.idx}. <code>${x.word}</code> mean="${x.mean}" (${x.len} 字)`), "warn");
+
+  html += `<h2>主題字數分布</h2>`;
+  html += `<div class="check">
+    <h3>${lowThemes.length === 0 ? "✅" : "⚠️"} 主題字數 <span class="badge ${lowThemes.length === 0 ? 'pass' : 'warn'}">${lowThemes.length === 0 ? "全部 ≥ 10 字" : `${lowThemes.length} 個主題 < 10 字`}</span></h3>
+    <details ${lowThemes.length > 0 ? "open" : ""}>
+      <summary>展開查看(${themeRows.length} 個主題)</summary>
+      <table class="theme-table">
+        <tr><th>Stage</th><th>主題</th><th>字數</th><th>狀態</th></tr>
+        ${themeRows.map(([id, t]) => {
+          const status = t.count === 0 ? '空' : t.count < 10 ? '<10' : t.count < 30 ? '稀疏' : t.count < 80 ? '正常' : '充實';
+          const cls = t.count < 10 ? 'low' : 'ok';
+          return `<tr><td>S${t.stage}</td><td>${t.icon} ${t.name}</td><td class="${cls}"><b>${t.count}</b></td><td>${status}</td></tr>`;
+        }).join("")}
+      </table>
+    </details>
+  </div>`;
+
+  document.getElementById("content").innerHTML = html;
+}
+
+function checkCard(title, issues, passMsg, formatter, level = "fail") {
+  const isPass = issues.length === 0;
+  const cls = isPass ? "pass" : level;
+  const badgeText = isPass ? "通過" : `${issues.length} 個問題`;
+  return `
+    <div class="check ${cls}">
+      <h3>${isPass ? "✅" : level === "warn" ? "⚠️" : "❌"} ${title} <span class="badge ${cls}">${badgeText}</span></h3>
+      <div style="font-size:12px;color:var(--muted);">${isPass ? passMsg : ""}</div>
+      ${issues.length > 0 ? `
+        <details ${level === "fail" ? "open" : ""}>
+          <summary>展開查看 ${issues.length} 個問題</summary>
+          <ul>
+            ${formatter(issues.slice(0, 50)).map(s => `<li>${s}</li>`).join("")}
+            ${issues.length > 50 ? `<li style="color:var(--muted);">... 還有 ${issues.length - 50} 個未顯示</li>` : ""}
+          </ul>
+        </details>
+      ` : ""}
+    </div>
+  `;
+}
+
+run().catch(e => {
+  document.getElementById("content").innerHTML = `<div class="check fail"><h3>❌ 載入失敗</h3><p>${e.message}</p></div>`;
+});
+</script>
+</body>
+</html>
