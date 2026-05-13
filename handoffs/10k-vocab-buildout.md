@@ -255,7 +255,7 @@ git push
 - [x] **C1**(+300 / 累計 3,258)jobs-advanced 80 / appearance 59 / personality 80 / relationships 81
 - [x] **C2**(+259 / 累計 3,517)toys 69 / art 50 / hobbies 50 / games 50 / movies-tv 50
 - [x] **C3**(+399 / 累計 3,916)medical 80 / fitness 77 / diseases 80 / office 80 / business 82
-- [ ] **C4**(+~400 / 累計 ~5,800)economy / internet / media / events / environment
+- [x] **C4**(+373 / 累計 4,289)economy 80 / internet 82 / media 70 / events 70 / environment 71 — 突破 40% 🎯
 - [ ] **C5**(+~400 / 累計 ~6,200)science / history / geography
 - [ ] **C6**(+~300 / 累計 ~6,500)emergencies / crime / law(基礎)
 
