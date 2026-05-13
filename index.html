@@ -396,14 +396,8 @@ function renderThemes() {
       .sort((a,b) => a.frequencyRank - b.frequencyRank);
     if (themesInCat.length === 0) return "";
     const tiles = themesInCat.map(t => {
-      const locked = t.stage > stage;
-      const noContent = (themeWordCount[t.id] || 0) === 0;
-      const cls = `theme-tile${locked || noContent ? " locked" : ""}`;
-      const onclick = (locked || noContent)
-        ? `alert('${locked ? `此主題在 Stage ${t.stage},先升級才能選` : "此主題尚未有單字,等 AI 補充"}')`
-        : `selectTheme('${t.id}')`;
       return `
-        <button class="${cls}" data-theme="${t.id}" onclick="${onclick}">
+        <button class="theme-tile" data-theme="${t.id}" onclick="selectTheme('${t.id}')">
           <span class="stg">S${t.stage}</span>
           <span class="ti">${t.icon}</span>
           <span class="tn">${t.name}</span>
