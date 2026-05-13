@@ -540,6 +540,11 @@ function pickEval(emoji) {
 function recordOnLeave() {
   if (_lessonRecorded) return;
   _lessonRecorded = true;
+  // ⭐ 強制把本輪所有字進 state.words(即使沒互動)
+  // → 避免下一輪又抽到同樣的字
+  const state = SRS.loadState();
+  WORDS.forEach(w => SRS.ensureWordState(state, w.word, w));
+  SRS.saveState(state);
   SRS.recordLesson(currentRound, mode, WORDS.map(w => w.word), _selectedEval);
 }
 // (舊 submitEval / nextSuggestion 已移除,改用 pickEval + recordOnLeave)
