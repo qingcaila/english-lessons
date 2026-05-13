@@ -419,12 +419,49 @@ function speakOne(n) {
   SRS.saveState(state);
   SRS.logWordPlay(w.word, w);
   updatePlayCount(n);
-  const u = new SpeechSynthesisUtterance(w.word);
-  u.lang = "en-US"; u.rate = rate;
-  if (chosenVoice) u.voice = chosenVoice;
-  u.onend = () => document.getElementById("row-" + n)?.classList.remove("active");
-  speechSynthesis.speak(u);
+  speakWordWithStress(w, () => document.getElementById("row-" + n)?.classList.remove("active"));
 }
+
+// 重音偵測:回傳哪個 chunk 該重讀(index)
+function getStressIndex(word, chunks) {
+  if (chunks.length <= 1) return 0;
+  const w = word.toLowerCase();
+  const UNSTRESSED_SUFFIXES = ['ly','ing','ed','er','or','est','tion','sion','ness','ment','able','ible','ity','ous','ive','al','ic','ical','ly','y'];
+  // 字尾在弱音表 → 重音在字尾前
+  for (const suf of UNSTRESSED_SUFFIXES) {
+    if (w.endsWith(suf) && chunks.length >= 2) {
+      // 重音落在倒數第 2 個 chunk(避開字尾)
+      return Math.max(0, chunks.length - 2);
+    }
+  }
+  // 預設:2 音節重音在第 1,3+ 音節通常在 1 或 2
+  return 0;
+}
+
+// 模擬重音語調:把字拆 chunks 連續講,重音 chunk pitch 高
+function speakWordWithStress(w, onEnd) {
+  const stressIdx = getStressIndex(w.word, w.chunks);
+  // 只在多 chunk 時用合成語調,單 chunk 用整字
+  if (w.chunks.length <= 1 || w.word.includes(' ')) {
+    const u = new SpeechSynthesisUtterance(w.word);
+    u.lang = "en-US"; u.rate = rate; u.pitch = 1.0;
+    if (chosenVoice) u.voice = chosenVoice;
+    if (onEnd) u.onend = onEnd;
+    speechSynthesis.speak(u);
+    return;
+  }
+  // 多 chunk:依序播放每個 chunk,重音 chunk pitch + 0.15,非重音 + 0 / -0.05
+  w.chunks.forEach((c, i) => {
+    const u = new SpeechSynthesisUtterance(c);
+    u.lang = "en-US";
+    u.rate = rate * (i === stressIdx ? 0.92 : 1.0);  // 重音稍慢
+    u.pitch = i === stressIdx ? 1.18 : 0.95;          // 重音高 / 弱音低
+    if (chosenVoice) u.voice = chosenVoice;
+    if (i === w.chunks.length - 1 && onEnd) u.onend = onEnd;
+    speechSynthesis.speak(u);
+  });
+}
+
 function speakChunk(word, chunk, ev) {
   if (ev) ev.stopPropagation();
   stopAll();
@@ -437,19 +474,17 @@ function speakChunk(word, chunk, ev) {
     updatePlayCount(w.n);
   }
   const u = new SpeechSynthesisUtterance(chunk);
-  u.lang = "en-US"; u.rate = rate;
+  u.lang = "en-US"; u.rate = rate; u.pitch = 1.1;  // 單獨點 chunk 給點重音
   if (chosenVoice) u.voice = chosenVoice;
   speechSynthesis.speak(u);
 }
 function speakAll() {
   stopAll();
   WORDS.forEach(w => {
-    const u = new SpeechSynthesisUtterance(w.word);
-    u.lang = "en-US"; u.rate = rate;
-    if (chosenVoice) u.voice = chosenVoice;
-    u.onstart = () => document.getElementById("row-" + w.n)?.classList.add("active");
-    u.onend = () => document.getElementById("row-" + w.n)?.classList.remove("active");
-    speechSynthesis.speak(u);
+    // 用語調合成版
+    speakWordWithStress({...w}, () => document.getElementById("row-" + w.n)?.classList.remove("active"));
+    // 加上開始時 active 標記(預先 schedule)
+    document.getElementById("row-" + w.n)?.classList.add("active");
   });
 }
 function stopAll() {
