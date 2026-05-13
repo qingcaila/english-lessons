@@ -266,7 +266,7 @@
     },
     {
       "word": "day",
-      "mean": "白天 / 一天",
+      "mean": "白天/一天",
       "img": "☀️",
       "chunks": [
         "d",
@@ -1735,7 +1735,7 @@
     },
     {
       "word": "short",
-      "mean": "短 / 矮",
+      "mean": "短/矮",
       "img": "↔️",
       "chunks": [
         "sh",
@@ -1787,7 +1787,7 @@
     },
     {
       "word": "old",
-      "mean": "舊 / 老",
+      "mean": "舊/老",
       "img": "👴",
       "chunks": [
         "o",
@@ -2204,7 +2204,7 @@
     },
     {
       "word": "class",
-      "mean": "課堂 / 班級",
+      "mean": "課堂/班級",
       "img": "🏫",
       "chunks": [
         "cl",
@@ -3000,7 +3000,7 @@
     },
     {
       "word": "the",
-      "mean": "那個 (定冠詞)",
+      "mean": "那個",
       "img": "🔖",
       "chunks": [
         "the"
@@ -3116,7 +3116,7 @@
     },
     {
       "word": "was",
-      "mean": "是 (過去式)",
+      "mean": "是",
       "img": "⏪",
       "chunks": [
         "w",
@@ -3870,7 +3870,7 @@
     },
     {
       "word": "pepper",
-      "mean": "辣椒 / 胡椒",
+      "mean": "辣椒/胡椒",
       "img": "🫑",
       "chunks": [
         "pep",
@@ -4473,7 +4473,7 @@
     },
     {
       "word": "out",
-      "mean": "出 / 在外",
+      "mean": "出/在外",
       "img": "📤",
       "chunks": [
         "out"
@@ -4562,7 +4562,7 @@
     },
     {
       "word": "back",
-      "mean": "後 / 背",
+      "mean": "後/背",
       "img": "🔚",
       "chunks": [
         "b",
@@ -6733,7 +6733,7 @@
     },
     {
       "word": "hard",
-      "mean": "困難 / 硬",
+      "mean": "困難/硬",
       "img": "🪨",
       "chunks": [
         "h",
@@ -6772,7 +6772,7 @@
     },
     {
       "word": "light",
-      "mean": "輕 / 光",
+      "mean": "輕/光",
       "img": "💡",
       "chunks": [
         "l",
@@ -6915,7 +6915,7 @@
     },
     {
       "word": "thin",
-      "mean": "薄 / 瘦",
+      "mean": "薄/瘦",
       "img": "🧻",
       "chunks": [
         "th",
@@ -7139,7 +7139,7 @@
     },
     {
       "word": "free",
-      "mean": "免費 / 自由",
+      "mean": "免費/自由",
       "img": "🆓",
       "chunks": [
         "fr",
@@ -8575,7 +8575,7 @@
     },
     {
       "word": "just",
-      "mean": "剛剛 / 只",
+      "mean": "剛剛/只",
       "img": "👉",
       "chunks": [
         "j",
@@ -8601,7 +8601,7 @@
     },
     {
       "word": "too",
-      "mean": "太 / 也",
+      "mean": "太/也",
       "img": "➕",
       "chunks": [
         "t",
@@ -8810,7 +8810,7 @@
     },
     {
       "word": "were",
-      "mean": "是(過去複數)",
+      "mean": "是",
       "img": "📜",
       "chunks": [
         "w",
@@ -8836,7 +8836,7 @@
     },
     {
       "word": "am",
-      "mean": "是(我)",
+      "mean": "是",
       "img": "1️⃣",
       "chunks": [
         "a",
@@ -9983,7 +9983,7 @@
     },
     {
       "word": "second",
-      "mean": "第二 / 秒",
+      "mean": "第二/秒",
       "img": "🥈",
       "chunks": [
         "se",
@@ -17430,7 +17430,7 @@
     },
     {
       "word": "goal",
-      "mean": "進球 / 目標",
+      "mean": "進球/目標",
       "img": "🥅",
       "chunks": [
         "g",
@@ -19936,7 +19936,7 @@
     },
     {
       "word": "against",
-      "mean": "反對 / 靠",
+      "mean": "反對/靠",
       "img": "⚔️",
       "chunks": [
         "a",
@@ -20373,7 +20373,7 @@
     },
     {
       "word": "way",
-      "mean": "方法 / 路",
+      "mean": "方法/路",
       "img": "🛤️",
       "chunks": [
         "w",
@@ -20477,7 +20477,7 @@
     },
     {
       "word": "state",
-      "mean": "州 / 狀態",
+      "mean": "州/狀態",
       "img": "🇺🇸",
       "chunks": [
         "st",
@@ -29567,7 +29567,7 @@
     },
     {
       "word": "lorry",
-      "mean": "卡車(英)",
+      "mean": "卡車",
       "img": "🚛",
       "chunks": [
         "lor",
@@ -31303,7 +31303,7 @@
     },
     {
       "word": "pick up",
-      "mean": "撿起 / 接",
+      "mean": "撿起/接",
       "img": "🤏",
       "chunks": [
         "pick",
@@ -31381,7 +31381,7 @@
     },
     {
       "word": "take off",
-      "mean": "起飛 / 脫掉",
+      "mean": "起飛/脫掉",
       "img": "✈️",
       "chunks": [
         "take",
@@ -31446,7 +31446,7 @@
     },
     {
       "word": "furthermore",
-      "mean": "此外(正式)",
+      "mean": "此外",
       "img": "📚",
       "chunks": [
         "fur",
@@ -31460,7 +31460,7 @@
     },
     {
       "word": "whereas",
-      "mean": "然而(對比)",
+      "mean": "然而",
       "img": "⚖️",
       "chunks": [
         "where",
@@ -31503,7 +31503,7 @@
     },
     {
       "word": "hence",
-      "mean": "因此(正式)",
+      "mean": "因此",
       "img": "➡️",
       "chunks": [
         "h",
@@ -37888,7 +37888,7 @@
     },
     {
       "word": "get off",
-      "mean": "下車 / 離開",
+      "mean": "下車/離開",
       "img": "🚪",
       "chunks": [
         "get",
@@ -37954,7 +37954,7 @@
     },
     {
       "word": "take in",
-      "mean": "理解 / 吸收",
+      "mean": "理解/吸收",
       "img": "🧠",
       "chunks": [
         "take",
@@ -38034,7 +38034,7 @@
     },
     {
       "word": "put up",
-      "mean": "舉起 / 張貼",
+      "mean": "舉起/張貼",
       "img": "⬆️",
       "chunks": [
         "put",
@@ -38061,7 +38061,7 @@
     },
     {
       "word": "come up",
-      "mean": "出現 / 接近",
+      "mean": "出現/接近",
       "img": "⬆️",
       "chunks": [
         "come",
@@ -38153,7 +38153,7 @@
     },
     {
       "word": "go off",
-      "mean": "響起 / 爆炸",
+      "mean": "響起/爆炸",
       "img": "💥",
       "chunks": [
         "go",
@@ -38300,7 +38300,7 @@
     },
     {
       "word": "turn down",
-      "mean": "拒絕 / 調小",
+      "mean": "拒絕/調小",
       "img": "❌",
       "chunks": [
         "turn",
@@ -38313,7 +38313,7 @@
     },
     {
       "word": "bring up",
-      "mean": "提起 / 養育",
+      "mean": "提起/養育",
       "img": "💬",
       "chunks": [
         "bring",
@@ -38434,7 +38434,7 @@
     },
     {
       "word": "break down",
-      "mean": "故障 / 崩潰",
+      "mean": "故障/崩潰",
       "img": "💔",
       "chunks": [
         "break",
@@ -38539,7 +38539,7 @@
     },
     {
       "word": "hold up",
-      "mean": "舉起 / 搶劫",
+      "mean": "舉起/搶劫",
       "img": "🤚",
       "chunks": [
         "hold",
@@ -38579,7 +38579,7 @@
     },
     {
       "word": "work out",
-      "mean": "想出 / 健身",
+      "mean": "想出/健身",
       "img": "💪",
       "chunks": [
         "work",
@@ -38618,7 +38618,7 @@
     },
     {
       "word": "set off",
-      "mean": "出發 / 引爆",
+      "mean": "出發/引爆",
       "img": "🚀",
       "chunks": [
         "set",
@@ -40211,7 +40211,7 @@
     },
     {
       "word": "minister",
-      "mean": "部長 / 牧師",
+      "mean": "部長/牧師",
       "img": "🏛️",
       "chunks": [
         "min",
@@ -45539,7 +45539,7 @@
     },
     {
       "word": "vlogging",
-      "mean": "拍 vlog",
+      "mean": "拍vlog",
       "img": "📹",
       "chunks": [
         "vlog",
@@ -45622,7 +45622,7 @@
     },
     {
       "word": "mmorpg",
-      "mean": "大型多人 RPG",
+      "mean": "大型多人RPG",
       "img": "⚔️",
       "chunks": [
         "mmo",
@@ -46104,7 +46104,7 @@
     },
     {
       "word": "blackjack",
-      "mean": "21 點",
+      "mean": "21點",
       "img": "🃏",
       "chunks": [
         "black",
@@ -46933,7 +46933,7 @@
     },
     {
       "word": "xray",
-      "mean": "X 光",
+      "mean": "X光",
       "img": "🩻",
       "chunks": [
         "x",
@@ -53428,7 +53428,7 @@
     },
     {
       "word": "gdpgrowth",
-      "mean": "GDP 成長",
+      "mean": "GDP成長",
       "img": "📈",
       "chunks": [
         "g",
@@ -53598,7 +53598,7 @@
     },
     {
       "word": "javascript",
-      "mean": "JS 程式",
+      "mean": "JS程式",
       "img": "💻",
       "chunks": [
         "ja",
@@ -53638,7 +53638,7 @@
     },
     {
       "word": "sql",
-      "mean": "SQL 資料庫",
+      "mean": "SQL資料庫",
       "img": "💻",
       "chunks": [
         "s",
@@ -54142,7 +54142,7 @@
     },
     {
       "word": "gif",
-      "mean": "GIF 動圖",
+      "mean": "GIF動圖",
       "img": "🎞️",
       "chunks": [
         "g",
@@ -56023,7 +56023,7 @@
     },
     {
       "word": "barmitzvah",
-      "mean": "成年禮(男)",
+      "mean": "成年禮",
       "img": "✡️",
       "chunks": [
         "bar",
@@ -56037,7 +56037,7 @@
     },
     {
       "word": "batmitzvah",
-      "mean": "成年禮(女)",
+      "mean": "成年禮",
       "img": "✡️",
       "chunks": [
         "bat",
@@ -56051,7 +56051,7 @@
     },
     {
       "word": "quinceanera",
-      "mean": "15 歲成年禮",
+      "mean": "15歲成年禮",
       "img": "👗",
       "chunks": [
         "quin",
@@ -56066,7 +56066,7 @@
     },
     {
       "word": "sweet16",
-      "mean": "16 歲生日",
+      "mean": "16歲生日",
       "img": "🎂",
       "chunks": [
         "sweet",
@@ -84103,7 +84103,7 @@
     },
     {
       "word": "bun",
-      "mean": "/roll[rol]小圓麵包",
+      "mean": "roll小圓麵包",
       "img": "🍽️",
       "chunks": [
         "b",
@@ -84502,20 +84502,6 @@
       "stage": 2
     },
     {
-      "word": "conflict vi.",
-      "mean": "[ˋkɑnflɪkt]衝突",
-      "img": "📚",
-      "chunks": [
-        "con",
-        "flict",
-        "vi."
-      ],
-      "py": "ㄎㄜㄋㄈㄌㄧㄎㄊ",
-      "split": "con + flict + vi.",
-      "theme": "exam-7000",
-      "stage": 2
-    },
-    {
       "word": "confucius",
       "mean": "孔子",
       "img": "📚",
@@ -84540,20 +84526,6 @@
       ],
       "py": "ㄎㄜㄋㄙㄧㄉㄜ",
       "split": "con + si + der",
-      "theme": "exam-7000",
-      "stage": 2
-    },
-    {
-      "word": "contact vt.",
-      "mean": "[ˋkɑntækt]接觸",
-      "img": "📚",
-      "chunks": [
-        "con",
-        "tact",
-        "vt."
-      ],
-      "py": "ㄎㄜㄋㄊㄚㄎㄊ",
-      "split": "con + tact + vt.",
       "theme": "exam-7000",
       "stage": 2
     },
@@ -84641,7 +84613,7 @@
     },
     {
       "word": "copy",
-      "mean": "[ˋzɪrɑks]複製",
+      "mean": "複製",
       "img": "📚",
       "chunks": [
         "co",
@@ -84654,7 +84626,7 @@
     },
     {
       "word": "xerox",
-      "mean": "[ˋzɪrɑks]複製",
+      "mean": "複製",
       "img": "📚",
       "chunks": [
         "xe",
@@ -84787,7 +84759,7 @@
     },
     {
       "word": "drape",
-      "mean": "[drep]窗簾",
+      "mean": "窗簾",
       "img": "📚",
       "chunks": [
         "dra",
@@ -86057,7 +86029,7 @@
     },
     {
       "word": "increase",
-      "mean": "[ˋɪnkris]增加",
+      "mean": "增加",
       "img": "📚",
       "chunks": [
         "in",
@@ -87245,7 +87217,7 @@
     },
     {
       "word": "produce",
-      "mean": "出產[ˋprɑdjus]農產品",
+      "mean": "出產農產品",
       "img": "📚",
       "chunks": [
         "pro",
@@ -87259,7 +87231,7 @@
     },
     {
       "word": "progress",
-      "mean": "進行[ˋprɑgrɛs]進步",
+      "mean": "進行進步",
       "img": "📚",
       "chunks": [
         "prog",
@@ -88397,7 +88369,7 @@
     },
     {
       "word": "tofu",
-      "mean": "/",
+      "mean": "—",
       "img": "📚",
       "chunks": [
         "to",
@@ -88890,7 +88862,7 @@
     },
     {
       "word": "admit",
-      "mean": "承認[+V-ing][+",
+      "mean": "承認[+",
       "img": "🏃",
       "chunks": [
         "ad",
@@ -89057,7 +89029,7 @@
     },
     {
       "word": "ambition",
-      "mean": "雄心，抱負，野心angel[ˋendʒ!]天使",
+      "mean": "雄心，抱負，野心an",
       "img": "📚",
       "chunks": [
         "am",
@@ -89157,7 +89129,7 @@
     },
     {
       "word": "automobile",
-      "mean": "【美】汽車",
+      "mean": "汽車",
       "img": "📚",
       "chunks": [
         "au",
@@ -89173,7 +89145,7 @@
     },
     {
       "word": "awake",
-      "mean": "喚醒…醒來a.醒著的",
+      "mean": "喚醒…醒來醒著的",
       "img": "🏃",
       "chunks": [
         "a",
@@ -89266,7 +89238,7 @@
     },
     {
       "word": "bang",
-      "mean": "發出砰的一聲猛擊砰砰的聲音",
+      "mean": "發出砰的一聲猛擊砰砰",
       "img": "📚",
       "chunks": [
         "b",
@@ -89943,7 +89915,7 @@
     },
     {
       "word": "commercial",
-      "mean": "電視廣告a.商業的",
+      "mean": "電視廣告商業的",
       "img": "📚",
       "chunks": [
         "com",
@@ -90487,7 +90459,7 @@
     },
     {
       "word": "disco",
-      "mean": "迪斯科舞廳同：discotheque[͵dɪskəˋtɛk]",
+      "mean": "迪斯科舞廳同：dis",
       "img": "📚",
       "chunks": [
         "dis",
@@ -91015,7 +90987,7 @@
     },
     {
       "word": "extreme",
-      "mean": "極端，末端a.極端的",
+      "mean": "極端，末端極端的",
       "img": "📚",
       "chunks": [
         "ex",
@@ -91520,7 +91492,7 @@
     },
     {
       "word": "graduate",
-      "mean": "【美】准…畢業畢業[ˋgrædʒʊ͵ɪt]畢業生",
+      "mean": "准…畢業畢業畢業生",
       "img": "📚",
       "chunks": [
         "gra",
@@ -91642,7 +91614,7 @@
     },
     {
       "word": "handy",
-      "mean": "【口】手邊的",
+      "mean": "手邊的",
       "img": "🎨",
       "chunks": [
         "han",
@@ -92144,7 +92116,7 @@
     },
     {
       "word": "jewelry",
-      "mean": "【美】珠寶",
+      "mean": "珠寶",
       "img": "📚",
       "chunks": [
         "je",
@@ -92946,7 +92918,7 @@
     },
     {
       "word": "nanny",
-      "mean": "【主英】保姆",
+      "mean": "保姆",
       "img": "📚",
       "chunks": [
         "nan",
@@ -93258,7 +93230,7 @@
     },
     {
       "word": "pavement",
-      "mean": "【英】人行道[",
+      "mean": "人行道[",
       "img": "👤",
       "chunks": [
         "pa",
@@ -93298,7 +93270,7 @@
     },
     {
       "word": "peel",
-      "mean": "削去…的皮，剝去…的殼",
+      "mean": "削去…的皮，剝去…的",
       "img": "🏃",
       "chunks": [
         "p",
@@ -93324,7 +93296,7 @@
     },
     {
       "word": "penny",
-      "mean": "【美】一分",
+      "mean": "一分",
       "img": "📚",
       "chunks": [
         "pen",
@@ -93351,7 +93323,7 @@
     },
     {
       "word": "permit",
-      "mean": "允許，許可[ˋpɝmɪt]許可證",
+      "mean": "允許，許可許可證",
       "img": "📚",
       "chunks": [
         "per",
@@ -94184,7 +94156,7 @@
     },
     {
       "word": "risk",
-      "mean": "危險，風險冒…的風險[+V-ing]",
+      "mean": "危險，風險冒…的風險",
       "img": "📚",
       "chunks": [
         "r",
@@ -94943,7 +94915,7 @@
     },
     {
       "word": "stereo",
-      "mean": "立體音響裝置a.立體聲的",
+      "mean": "立體音響裝置立體聲的",
       "img": "📚",
       "chunks": [
         "ste",
@@ -95766,7 +95738,7 @@
     },
     {
       "word": "valuable",
-      "mean": "值錢的，貴重的貴重物品",
+      "mean": "值錢的，貴重的貴重物",
       "img": "🎨",
       "chunks": [
         "va",
@@ -96236,7 +96208,7 @@
     },
     {
       "word": "adjective",
-      "mean": "形容詞a.形容詞的",
+      "mean": "形容詞形容詞的",
       "img": "📚",
       "chunks": [
         "ad",
@@ -96309,7 +96281,7 @@
     },
     {
       "word": "adverb",
-      "mean": "副詞a.副詞的",
+      "mean": "副詞副詞的",
       "img": "📚",
       "chunks": [
         "ad",
@@ -96664,7 +96636,7 @@
     },
     {
       "word": "audio",
-      "mean": "聽覺的，聲音的音響裝置",
+      "mean": "聽覺的，聲音的音響裝",
       "img": "🎨",
       "chunks": [
         "au",
@@ -96874,7 +96846,7 @@
     },
     {
       "word": "brassiere",
-      "mean": "胸罩=bra[brɑ]",
+      "mean": "胸罩=bra",
       "img": "📚",
       "chunks": [
         "bras",
@@ -97081,7 +97053,7 @@
     },
     {
       "word": "characteristic",
-      "mean": "特性，特徵a.特有的，獨特的",
+      "mean": "特性，特徵特有的，獨",
       "img": "📚",
       "chunks": [
         "cha",
@@ -97398,7 +97370,7 @@
     },
     {
       "word": "confess",
-      "mean": "坦白，承認[+v-ing][+",
+      "mean": "坦白，承認[+",
       "img": "🏃",
       "chunks": [
         "con",
@@ -97456,7 +97428,7 @@
     },
     {
       "word": "conjunction",
-      "mean": "【文】連接詞",
+      "mean": "連接詞",
       "img": "📚",
       "chunks": [
         "con",
@@ -97499,7 +97471,7 @@
     },
     {
       "word": "consistent",
-      "mean": "始終如一的，前後一致的",
+      "mean": "始終如一的，前後一致",
       "img": "🎨",
       "chunks": [
         "con",
@@ -97513,7 +97485,7 @@
     },
     {
       "word": "consonant",
-      "mean": "【語】子音",
+      "mean": "子音",
       "img": "📚",
       "chunks": [
         "con",
@@ -97944,7 +97916,7 @@
     },
     {
       "word": "cue",
-      "mean": "【戲】提示",
+      "mean": "提示",
       "img": "🔢",
       "chunks": [
         "c",
@@ -97998,7 +97970,7 @@
     },
     {
       "word": "damn",
-      "mean": "罵…該死，咒罵int.該死",
+      "mean": "罵…該死，咒罵int",
       "img": "🏃",
       "chunks": [
         "d",
@@ -98108,7 +98080,7 @@
     },
     {
       "word": "delightful",
-      "mean": "令人愉快的，令人高興的",
+      "mean": "令人愉快的，令人高興",
       "img": "👤",
       "chunks": [
         "de",
@@ -98122,7 +98094,7 @@
     },
     {
       "word": "depart",
-      "mean": "【書】起程，出發",
+      "mean": "起程，出發",
       "img": "🏃",
       "chunks": [
         "de",
@@ -98504,7 +98476,7 @@
     },
     {
       "word": "dusty",
-      "mean": "滿是灰塵的，灰塵覆蓋的",
+      "mean": "滿是灰塵的，灰塵覆蓋",
       "img": "🎨",
       "chunks": [
         "dus",
@@ -98588,7 +98560,7 @@
     },
     {
       "word": "elastic",
-      "mean": "有彈性的，有彈力的橡皮帶，鬆緊帶",
+      "mean": "有彈性的，有彈力的橡",
       "img": "🎨",
       "chunks": [
         "e",
@@ -98633,7 +98605,7 @@
     },
     {
       "word": "e-mail",
-      "mean": "【電腦】電子郵件",
+      "mean": "電子郵件",
       "img": "📚",
       "chunks": [
         "e",
@@ -99145,7 +99117,7 @@
     },
     {
       "word": "fantastic",
-      "mean": "【口】極好的，了不起的",
+      "mean": "極好的，了不起的",
       "img": "👤",
       "chunks": [
         "fan",
@@ -99159,7 +99131,7 @@
     },
     {
       "word": "farewell",
-      "mean": "再會！別了!告別a.告別的",
+      "mean": "再會！別了!告別告別",
       "img": "📚",
       "chunks": [
         "fa",
@@ -99296,7 +99268,7 @@
     },
     {
       "word": "forbid",
-      "mean": "禁止，不許[+v-ing]",
+      "mean": "禁止，不許",
       "img": "🏃",
       "chunks": [
         "for",
@@ -99378,7 +99350,7 @@
     },
     {
       "word": "freeway",
-      "mean": "【美】高速公路",
+      "mean": "高速公路",
       "img": "📚",
       "chunks": [
         "free",
@@ -99992,7 +99964,7 @@
     },
     {
       "word": "hydrogen",
-      "mean": "【化】氫",
+      "mean": "氫",
       "img": "📚",
       "chunks": [
         "hyd",
@@ -100098,7 +100070,7 @@
     },
     {
       "word": "immigrant",
-      "mean": "移民，僑民a.移入的",
+      "mean": "移民，僑民移入的",
       "img": "📚",
       "chunks": [
         "im",
@@ -100171,7 +100143,7 @@
     },
     {
       "word": "infect",
-      "mean": "【醫】傳染",
+      "mean": "傳染",
       "img": "🏃",
       "chunks": [
         "in",
@@ -100328,7 +100300,7 @@
     },
     {
       "word": "insult",
-      "mean": "侮辱，羞辱[ˋɪnsʌlt]",
+      "mean": "侮辱，羞辱",
       "img": "📚",
       "chunks": [
         "in",
@@ -100627,7 +100599,7 @@
     },
     {
       "word": "leisurely",
-      "mean": "從容不迫的，悠閒的從容不迫地，慢慢地",
+      "mean": "從容不迫的，悠閒的從",
       "img": "🌍",
       "chunks": [
         "lei",
@@ -100714,7 +100686,7 @@
     },
     {
       "word": "lousy",
-      "mean": "【俚】不潔的",
+      "mean": "不潔的",
       "img": "🎨",
       "chunks": [
         "lou",
@@ -100872,7 +100844,7 @@
     },
     {
       "word": "maximum",
-      "mean": "最大量，最大數a.最大的",
+      "mean": "最大量，最大數最大的",
       "img": "🔢",
       "chunks": [
         "ma",
@@ -101221,7 +101193,7 @@
     },
     {
       "word": "noun",
-      "mean": "【文】名詞",
+      "mean": "名詞",
       "img": "📚",
       "chunks": [
         "n",
@@ -101517,7 +101489,7 @@
     },
     {
       "word": "participle",
-      "mean": "【文】分詞",
+      "mean": "分詞",
       "img": "📚",
       "chunks": [
         "par",
@@ -101657,7 +101629,7 @@
     },
     {
       "word": "plural",
-      "mean": "複數a.【文】複數的p.m./pm/P.M./PM[ˋpiˋ",
+      "mean": "複數複數的p.m./",
       "img": "🔢",
       "chunks": [
         "plu",
@@ -101822,7 +101794,7 @@
     },
     {
       "word": "preposition",
-      "mean": "【文】介系詞，前置詞",
+      "mean": "介系詞，前置詞",
       "img": "📚",
       "chunks": [
         "pre",
@@ -102011,7 +101983,7 @@
     },
     {
       "word": "pronoun",
-      "mean": "【文】代名詞",
+      "mean": "代名詞",
       "img": "📚",
       "chunks": [
         "pro",
@@ -102052,7 +102024,7 @@
     },
     {
       "word": "prosperous",
-      "mean": "興旺的，繁榮的，昌盛的",
+      "mean": "興旺的，繁榮的，昌盛",
       "img": "🎨",
       "chunks": [
         "pros",
@@ -102244,7 +102216,7 @@
     },
     {
       "word": "refusal",
-      "mean": "拒絕[+to-v]",
+      "mean": "拒絕",
       "img": "📚",
       "chunks": [
         "re",
@@ -102802,7 +102774,7 @@
     },
     {
       "word": "singular",
-      "mean": "【文】單數的【文】單數",
+      "mean": "單數的單數",
       "img": "🔢",
       "chunks": [
         "sin",
@@ -103600,7 +103572,7 @@
     },
     {
       "word": "verb",
-      "mean": "【文】動詞[",
+      "mean": "動詞[",
       "img": "📚",
       "chunks": [
         "v",
@@ -103654,7 +103626,7 @@
     },
     {
       "word": "virgin",
-      "mean": "處女,未婚女子a.處女的，貞潔的",
+      "mean": "處女,未婚女子處女的",
       "img": "👤",
       "chunks": [
         "vir",
@@ -103681,7 +103653,7 @@
     },
     {
       "word": "vowel",
-      "mean": "【文】母音",
+      "mean": "母音",
       "img": "👤",
       "chunks": [
         "vo",
@@ -103935,7 +103907,7 @@
     },
     {
       "word": "artificial intelligence",
-      "mean": "[ɪn`tɛlədʒəns]人工智慧",
+      "mean": "人工智慧",
       "img": "👤",
       "chunks": [
         "ar",
@@ -104312,7 +104284,7 @@
     },
     {
       "word": "barbarian",
-      "mean": "野蠻人a.野蠻人的",
+      "mean": "野蠻人野蠻人的",
       "img": "👤",
       "chunks": [
         "bar",
@@ -104954,7 +104926,7 @@
     },
     {
       "word": "celsius",
-      "mean": "[`sɛntə͵gred]攝氏攝氏的",
+      "mean": "攝氏攝氏的",
       "img": "🎨",
       "chunks": [
         "cel",
@@ -104967,7 +104939,7 @@
     },
     {
       "word": "centigrade",
-      "mean": "[`sɛntə͵gred]攝氏攝氏的",
+      "mean": "攝氏攝氏的",
       "img": "🎨",
       "chunks": [
         "cen",
@@ -105863,7 +105835,7 @@
     },
     {
       "word": "delegate",
-      "mean": "代表團團員派...為代表",
+      "mean": "代表團團員派...為",
       "img": "👤",
       "chunks": [
         "de",
@@ -105906,7 +105878,7 @@
     },
     {
       "word": "descriptive",
-      "mean": "adj.描述的",
+      "mean": "描述的",
       "img": "🎨",
       "chunks": [
         "des",
@@ -106771,7 +106743,7 @@
     },
     {
       "word": "fraction",
-      "mean": "分數【數學】",
+      "mean": "分數",
       "img": "🔢",
       "chunks": [
         "frac",
@@ -107136,7 +107108,7 @@
     },
     {
       "word": "hairstyle",
-      "mean": "/hairdo[`hɛr͵du]髮型",
+      "mean": "hairdo髮型",
       "img": "📚",
       "chunks": [
         "hair",
@@ -107351,7 +107323,7 @@
     },
     {
       "word": "hi-fi",
-      "mean": "/highfidelity[fɪ`dɛlətɪ]高傳真",
+      "mean": "highfideli",
       "img": "📚",
       "chunks": [
         "hi",
@@ -107418,7 +107390,7 @@
     },
     {
       "word": "honk",
-      "mean": "汽車喇叭發出汽車喇叭聲",
+      "mean": "汽車喇叭發出汽車喇叭",
       "img": "📚",
       "chunks": [
         "h",
@@ -107483,7 +107455,7 @@
     },
     {
       "word": "howl",
-      "mean": "vi.號叫",
+      "mean": "號叫",
       "img": "🔢",
       "chunks": [
         "h",
@@ -108404,7 +108376,7 @@
     },
     {
       "word": "marvel",
-      "mean": "令人驚奇的人事物感到驚訝",
+      "mean": "令人驚奇的人事物感到",
       "img": "👤",
       "chunks": [
         "mar",
@@ -110713,7 +110685,7 @@
     },
     {
       "word": "shriek",
-      "mean": "vi.尖叫",
+      "mean": "尖叫",
       "img": "📚",
       "chunks": [
         "shr",
@@ -113391,7 +113363,7 @@
     },
     {
       "word": "autograph",
-      "mean": "[`sɪgnətʃɚ]簽名",
+      "mean": "簽名",
       "img": "📚",
       "chunks": [
         "au",
@@ -114461,7 +114433,7 @@
     },
     {
       "word": "congressman",
-      "mean": "/",
+      "mean": "—",
       "img": "📚",
       "chunks": [
         "con",
@@ -116232,7 +116204,7 @@
     },
     {
       "word": "eq",
-      "mean": "[`kwoʃənt]",
+      "mean": "—",
       "img": "📚",
       "chunks": [
         "e",
@@ -116863,7 +116835,7 @@
     },
     {
       "word": "genetically modified organism",
-      "mean": "[`mɑdə͵faɪd][`ɔrgən͵ɪzəm]基因改造生",
+      "mean": "基因改造生",
       "img": "📚",
       "chunks": [
         "ge",
@@ -117654,7 +117626,7 @@
     },
     {
       "word": "iq",
-      "mean": "[`kwoʃənt]智力商數",
+      "mean": "智力商數",
       "img": "🔢",
       "chunks": [
         "i",
@@ -117667,7 +117639,7 @@
     },
     {
       "word": "intelligence quotient",
-      "mean": "[`kwoʃənt]智力商數",
+      "mean": "智力商數",
       "img": "🔢",
       "chunks": [
         "in",
@@ -120971,7 +120943,7 @@
     },
     {
       "word": "spokesman",
-      "mean": "[`spoks͵wʊmən]發言人",
+      "mean": "發言人",
       "img": "👤",
       "chunks": [
         "spo",
@@ -120985,7 +120957,7 @@
     },
     {
       "word": "spokeswoman",
-      "mean": "[`spoks͵wʊmən]發言人",
+      "mean": "發言人",
       "img": "👤",
       "chunks": [
         "spo",
@@ -122562,7 +122534,7 @@
     },
     {
       "word": "watertight",
-      "mean": "[`wɑtɚ`taɪt]防水的",
+      "mean": "防水的",
       "img": "💧",
       "chunks": [
         "wa",
