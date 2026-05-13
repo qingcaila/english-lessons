@@ -247,7 +247,7 @@ git push
 - [x] **B1**(+193 / 累計 1,814)family 85 / body 99 / emotions 100 / actions 100 — 達標(family 略不到 100 因詞彙密度上限)
 - [x] **B2**(+206 / 累計 2,020)adjectives 100 / kitchen-utensils 55 / bathroom 47 / fruits 69 / vegetables 69 — adjectives 達 100,其餘 47-69(因主題詞彙密度上限不易硬塞到 100)
 - [x] **B3**(+312 / 累計 2,332)drinks 62 / desserts 58 / shapes 60 / directions 60 / transportation 70 / places 69
-- [ ] **B4**(+~350 / 累計 ~3,500)travel / shopping / restaurant / money / health 各推到 80
+- [x] **B4**(+247 / 累計 2,651)travel 63 / shopping 62 / restaurant 63 / money 60 / health 66
 - [ ] **B5**(+~350 / 累計 ~3,850)technology / sight-words 推到 400
 - [ ] **B6**(+~350 / 累計 ~4,200)過去式動詞 + 片語動詞(actions 進階)+ 連接副詞 ← 對應 profile.md 閱讀斷崖
 
