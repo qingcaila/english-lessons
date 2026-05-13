@@ -204,11 +204,12 @@
     <p>選模式 + 設定 → 點「▶ 開始」。詳見第 4 節。</p>
 
     <h3>📚 已上輪次</h3>
-    <p>顯示最近上過的 R1 / R2 / R3... 和當時的 emoji 自評(如果你有給)。</p>
+    <p><b>預設摺疊</b>,只顯示一行 summary(「已上輪次 · 共 X 輪 · 最近 RX 😎」),點開才看詳細。</p>
+    <p style="font-size:12px;color:var(--muted);">詳細展開後顯示最近 10 筆:<code>R4 · 📊 按頻率 · 10 字 · 😎</code> 對應「第幾輪 / 模式 / 字數 / emoji 自評(可選)」。模式名已中文化(frequency → 📊 按頻率 等)。</p>
 
     <h3>🎨 主題進度</h3>
     <p>每個主題已學了多少字 / 該主題共有多少 / L4 多少。</p>
-    <p style="font-size:12px;color:var(--muted);">按 10 個 category 分組(日常生活 / 動作與情緒 / 人物與職業 / 娛樂與興趣 / 社會與生活 / 健康與身體 / 科技與媒體 / 商業與經濟 / 學術與抽象 / 特別),沒進度的群組預設摺疊,點 summary 展開。共 73 個主題。</p>
+    <p style="font-size:12px;color:var(--muted);">按 11 個 category 分組(<b>程度與檢定(最上)</b> / 日常生活 / 動作與情緒 / 人物與職業 / 娛樂與興趣 / 社會與生活 / 健康與身體 / 科技與媒體 / 商業與經濟 / 學術與抽象 / 特別),沒進度的群組預設摺疊,點 summary 展開。共 77 個主題(含 5 個 exam-* 透過 tags 路徑)。</p>
     <p style="font-size:12px;color:var(--muted);"><b>📝 程度與檢定</b> 群組(最上方)有 6 個 tile,每個用 <code>tags</code> 機制命中對應字:</p>
     <ul style="font-size:11px;color:var(--muted);margin:4px 0 0 16px;padding:0;line-height:1.6;">
       <li><b>預設(累積式)</b>:📘 634 · 📗 2,635 · 🏫 5,860 · 📚 9,246 · 🎓 10,005 · 🎓 學術詞 747</li>
@@ -406,7 +407,7 @@
     </ul>
 
     <div class="tip">
-      <b>🎯 字量目標(L4)</b>:Stage 0: 500-1K / Stage 1: 2-3K / Stage 2: 4-5K / Stage 3: 5-7K(讀 Medium)/ Stage 4: 8-10K+(原文書)
+      <b>🎯 字量目標(L4)</b>:Stage 0: 500-1K / Stage 1: 1.2-2K / Stage 2: 4-5K / Stage 3: 5-7K(讀 Medium)/ Stage 4: 8-10K+(原文書)
     </div>
   </div>
 
@@ -441,7 +442,7 @@
     <p>Stage 下拉旁邊有個 checkbox <b>「只練本階段」</b>,切換兩種模式:</p>
     <table>
       <tr><th>模式</th><th>抽字池</th><th>舉例(Stage 2)</th></tr>
-      <tr><td>📌 <b>累積制</b>(預設)</td><td>stage ≤ currentStage</td><td>Stage 0 + 1 + 2 字都抽得到(5,857 字)</td></tr>
+      <tr><td>📌 <b>累積制</b>(預設)</td><td>stage ≤ currentStage</td><td>Stage 0 + 1 + 2 字都抽得到(5,860 字)</td></tr>
       <tr><td>📌 <b>獨佔制</b>(勾選)</td><td>stage === currentStage</td><td>只抽 Stage 2 的字(3,225 字)</td></tr>
     </table>
     <p style="font-size:12px;color:var(--muted);">下方提示文字會即時顯示目前模式 + 可抽字數。</p>
