@@ -163,7 +163,10 @@ async function run() {
   // ── 9. 各主題字數分布 ────────────────────────────────
   const themeCount = {};
   themes.themes.forEach(t => themeCount[t.id] = { name: t.name, icon: t.icon, stage: t.stage, count: 0 });
-  words.forEach(w => { if (themeCount[w.theme]) themeCount[w.theme].count += 1; });
+  words.forEach(w => {
+    if (themeCount[w.theme]) themeCount[w.theme].count += 1;
+    if (w.tags) w.tags.forEach(t => { if (themeCount[t]) themeCount[t].count += 1; });
+  });
   const themeRows = Object.entries(themeCount).sort((a,b) => a[1].stage - b[1].stage || b[1].count - a[1].count);
   const lowThemes = themeRows.filter(([, t]) => t.count < 10);
 
