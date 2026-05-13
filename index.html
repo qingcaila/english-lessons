@@ -469,12 +469,24 @@ function renderHistory() {
   const latest = list[0];
   document.getElementById("historySummary").innerHTML =
     `已上輪次 <span style="color:var(--muted);font-weight:normal;font-size:11px;">· 共 ${total} 輪 · 最近 ${latest.round}${latest.evalEmoji ? " "+latest.evalEmoji : ""}</span>`;
-  document.getElementById("historyList").innerHTML = list.map(h => `
-    <div class="history-item">
-      <div><b>${h.round}</b> · ${h.mode} · ${(h.evalEmoji || "")} · ${h.wordIds.length} 字</div>
-      <div class="h-meta">${h.date.split("T")[0]}</div>
-    </div>
-  `).join("");
+  const MODE_NAME = {
+    frequency: "📊 按頻率", random: "🎲 隨機", theme: "🎯 指定主題",
+    mixed: "🔄 混合", review: "📚 純複習", challenge: "🌟 挑戰"
+  };
+  document.getElementById("historyList").innerHTML = list.map(h => {
+    const parts = [
+      `<b>${h.round}</b>`,
+      MODE_NAME[h.mode] || h.mode,
+      `${h.wordIds.length} 字`
+    ];
+    if (h.evalEmoji) parts.push(h.evalEmoji);
+    return `
+      <div class="history-item">
+        <div>${parts.join(" · ")}</div>
+        <div class="h-meta">${h.date.split("T")[0]}</div>
+      </div>
+    `;
+  }).join("");
 }
 
 function renderThemeStats() {
