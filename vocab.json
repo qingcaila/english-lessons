@@ -514,7 +514,7 @@
         "row"
       ],
       "py": "ㄊㄨ-ㄇㄚ-ㄖㄡ",
-      "split": "3 音節",
+      "split": "to + mor + row",
       "theme": "time",
       "stage": 0,
       "tags": [
@@ -619,7 +619,7 @@
         "nute"
       ],
       "py": "ㄇㄧ-ㄋㄧㄊ",
-      "split": "2 音節",
+      "split": "mi + nute",
       "theme": "time",
       "stage": 0,
       "tags": [
@@ -681,7 +681,7 @@
         "ly"
       ],
       "py": "ㄈㄝ-ㄇㄧ-ㄌㄧ",
-      "split": "3 音節",
+      "split": "fa + mi + ly",
       "theme": "family",
       "stage": 0,
       "tags": [
@@ -1281,7 +1281,7 @@
         "na"
       ],
       "py": "ㄅㄜ-ㄋㄝ-ㄋㄚ",
-      "split": "3 音節",
+      "split": "ba + na + na",
       "theme": "food",
       "stage": 0,
       "tags": [
@@ -2418,7 +2418,7 @@
         "tain"
       ],
       "py": "ㄇㄠㄣ-ㄊㄣ",
-      "split": "2 音節",
+      "split": "moun + tain",
       "theme": "places",
       "stage": 0,
       "tags": [
@@ -3220,7 +3220,7 @@
         "ted"
       ],
       "py": "ㄧㄎ-ㄙㄞ-ㄊㄉ",
-      "split": "3 音節",
+      "split": "ex + ci + ted",
       "theme": "emotions",
       "stage": 0,
       "tags": [
@@ -4175,7 +4175,7 @@
         "ball"
       ],
       "py": "ㄅㄝㄙ-ㄎㄝㄊ-ㄅㄛ",
-      "split": "3 音節",
+      "split": "bas + ket + ball",
       "theme": "sports",
       "stage": 0,
       "tags": [
@@ -4360,7 +4360,7 @@
         "o"
       ],
       "py": "ㄆㄧ-ㄝ-ㄋㄛ",
-      "split": "3 音節",
+      "split": "pi + an + o",
       "theme": "music",
       "stage": 0,
       "tags": [
@@ -4423,7 +4423,7 @@
         "lin"
       ],
       "py": "ㄈㄞ-ㄛ-ㄌㄧㄣ",
-      "split": "3 音節",
+      "split": "vi + o + lin",
       "theme": "music",
       "stage": 0,
       "tags": [
@@ -5530,7 +5530,7 @@
         "ry"
       ],
       "py": "ㄙㄔㄦㄛ-ㄅㄜ-ㄖㄧ",
-      "split": "3 音節",
+      "split": "straw + ber + ry",
       "theme": "fruits",
       "stage": 1,
       "tags": [
@@ -5552,7 +5552,7 @@
         "on"
       ],
       "py": "ㄨㄚ-ㄊㄜ-ㄇㄝ-ㄌㄣ",
-      "split": "4 音節",
+      "split": "wa + ter + mel + on",
       "theme": "fruits",
       "stage": 1,
       "tags": [
@@ -5714,7 +5714,7 @@
         "nut"
       ],
       "py": "ㄎㄛ-ㄎㄛ-ㄋㄚㄊ",
-      "split": "3 音節",
+      "split": "co + co + nut",
       "theme": "fruits",
       "stage": 1,
       "tags": [
@@ -5777,7 +5777,7 @@
         "do"
       ],
       "py": "ㄝ-ㄈㄛ-ㄎㄚ-ㄉㄛ",
-      "split": "4 音節",
+      "split": "av + o + ca + do",
       "theme": "fruits",
       "stage": 1,
       "tags": [
@@ -5836,7 +5836,7 @@
         "ya"
       ],
       "py": "ㄆㄚ-ㄆㄚ-ㄧㄚ",
-      "split": "3 音節",
+      "split": "pa + pa + ya",
       "theme": "fruits",
       "stage": 1,
       "tags": [
@@ -5917,7 +5917,7 @@
         "to"
       ],
       "py": "ㄊㄜ-ㄇㄟ-ㄊㄛ",
-      "split": "3 音節",
+      "split": "to + ma + to",
       "theme": "vegetables",
       "stage": 1,
       "tags": [
@@ -5938,7 +5938,7 @@
         "to"
       ],
       "py": "ㄆㄛ-ㄊㄟ-ㄊㄛ",
-      "split": "3 音節",
+      "split": "po + ta + to",
       "theme": "vegetables",
       "stage": 1,
       "tags": [
@@ -5978,7 +5978,7 @@
         "ber"
       ],
       "py": "ㄎㄧㄨ-ㄎㄚㄇ-ㄅㄜ",
-      "split": "3 音節",
+      "split": "cu + cum + ber",
       "theme": "vegetables",
       "stage": 1,
       "tags": [
@@ -5999,7 +5999,7 @@
         "li"
       ],
       "py": "ㄅㄖㄚ-ㄎㄛ-ㄌㄧ",
-      "split": "3 音節",
+      "split": "broc + co + li",
       "theme": "vegetables",
       "stage": 1,
       "tags": [
@@ -6240,7 +6240,7 @@
         "ble"
       ],
       "py": "ㄈㄝㄐ-ㄊㄜ-ㄅㄛ",
-      "split": "3 音節",
+      "split": "veg + eta + ble",
       "theme": "vegetables",
       "stage": 1,
       "tags": [
@@ -6261,7 +6261,7 @@
         "y"
       ],
       "py": "ㄙㄝ-ㄌㄜ-ㄖㄧ",
-      "split": "3 音節",
+      "split": "cel + er + y",
       "theme": "vegetables",
       "stage": 1,
       "tags": [
@@ -6381,7 +6381,7 @@
         "ade"
       ],
       "py": "ㄌㄝ-ㄇㄜ-ㄋㄟㄉ",
-      "split": "3 音節",
+      "split": "le + mon + ade",
       "theme": "drinks",
       "stage": 1,
       "tags": [
@@ -6462,7 +6462,7 @@
         "so"
       ],
       "py": "ㄝㄙ-ㄆㄖㄝ-ㄙㄛ",
-      "split": "3 音節",
+      "split": "es + pres + so",
       "theme": "drinks",
       "stage": 1,
       "tags": [
@@ -6563,7 +6563,7 @@
         "late"
       ],
       "py": "ㄔㄚㄎ-ㄜ-ㄌㄟㄊ",
-      "split": "3 音節",
+      "split": "choc + o + late",
       "theme": "desserts",
       "stage": 1,
       "tags": [
@@ -6764,7 +6764,7 @@
         "gle"
       ],
       "py": "ㄔㄦㄞ-ㄝㄣ-ㄍㄛ",
-      "split": "3 音節",
+      "split": "tri + an + gle",
       "theme": "shapes",
       "stage": 1,
       "tags": [
@@ -6784,7 +6784,7 @@
         "gle"
       ],
       "py": "ㄖㄝㄎ-ㄊㄝㄣ-ㄍㄛ",
-      "split": "3 音節",
+      "split": "rec + tan + gle",
       "theme": "shapes",
       "stage": 1,
       "tags": [
@@ -7390,7 +7390,7 @@
         "tion"
       ],
       "py": "ㄈㄟ-ㄎㄟ-ㄒㄣ",
-      "split": "3 音節",
+      "split": "va + ca + tion",
       "theme": "travel",
       "stage": 1,
       "tags": [
@@ -7411,7 +7411,7 @@
         "ra"
       ],
       "py": "ㄎㄝ-ㄇㄜ-ㄖㄚ",
-      "split": "3 音節",
+      "split": "cam + e + ra",
       "theme": "travel",
       "stage": 1,
       "tags": [
@@ -7432,7 +7432,7 @@
         "nir"
       ],
       "py": "ㄙㄨ-ㄈㄜ-ㄋㄧㄦ",
-      "split": "3 音節",
+      "split": "sou + ve + nir",
       "theme": "travel",
       "stage": 1,
       "tags": [
@@ -7688,7 +7688,7 @@
         "mer"
       ],
       "py": "ㄎㄚㄙ-ㄊㄜ-ㄇㄜ",
-      "split": "3 音節",
+      "split": "cus + to + mer",
       "theme": "shopping",
       "stage": 1,
       "tags": [
@@ -7909,7 +7909,7 @@
         "tion"
       ],
       "py": "ㄖㄝ-ㄗㄦ-ㄈㄟ-ㄒㄣ",
-      "split": "4 音節",
+      "split": "re + ser + va + tion",
       "theme": "restaurant",
       "stage": 1,
       "tags": [
@@ -8186,7 +8186,7 @@
         "sive"
       ],
       "py": "ㄧㄎㄙ-ㄆㄝㄣ-ㄒㄧㄈ",
-      "split": "3 音節",
+      "split": "ex + pen + sive",
       "theme": "money",
       "stage": 1,
       "tags": [
@@ -8306,7 +8306,7 @@
         "cine"
       ],
       "py": "ㄇㄝ-ㄉㄧ-ㄒㄣ",
-      "split": "3 音節",
+      "split": "me + di + cine",
       "theme": "health",
       "stage": 1,
       "tags": [
@@ -8346,7 +8346,7 @@
         "tal"
       ],
       "py": "ㄏㄚㄙ-ㄆㄧ-ㄊㄛ",
-      "split": "3 音節",
+      "split": "hos + pi + tal",
       "theme": "health",
       "stage": 1,
       "tags": [
@@ -8426,7 +8426,7 @@
         "cise"
       ],
       "py": "ㄝㄎ-ㄗㄦ-ㄙㄞㄗ",
-      "split": "3 音節",
+      "split": "ex + er + cise",
       "theme": "health",
       "stage": 1,
       "tags": [
@@ -8467,7 +8467,7 @@
         "min"
       ],
       "py": "ㄈㄞ-ㄊㄜ-ㄇㄧㄣ",
-      "split": "3 音節",
+      "split": "vi + ta + min",
       "theme": "health",
       "stage": 1,
       "tags": [
@@ -8548,7 +8548,7 @@
         "ter"
       ],
       "py": "ㄎㄚㄇ-ㄆㄧㄨ-ㄊㄜ",
-      "split": "3 音節",
+      "split": "com + pu + ter",
       "theme": "technology",
       "stage": 2,
       "tags": [
@@ -8682,7 +8682,7 @@
         "y"
       ],
       "py": "ㄅㄝ-ㄊㄜ-ㄖㄧ",
-      "split": "3 音節",
+      "split": "bat + ter + y",
       "theme": "technology",
       "stage": 2,
       "tags": [
