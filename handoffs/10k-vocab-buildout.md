@@ -248,7 +248,7 @@ git push
 - [x] **B2**(+206 / 累計 2,020)adjectives 100 / kitchen-utensils 55 / bathroom 47 / fruits 69 / vegetables 69 — adjectives 達 100,其餘 47-69(因主題詞彙密度上限不易硬塞到 100)
 - [x] **B3**(+312 / 累計 2,332)drinks 62 / desserts 58 / shapes 60 / directions 60 / transportation 70 / places 69
 - [x] **B4**(+247 / 累計 2,651)travel 63 / shopping 62 / restaurant 63 / money 60 / health 66
-- [ ] **B5**(+~350 / 累計 ~3,850)technology / sight-words 推到 400
+- [x] **B5**(+168 / 累計 2,819)sight-words 389(近 400) / technology 47
 - [ ] **B6**(+~350 / 累計 ~4,200)過去式動詞 + 片語動詞(actions 進階)+ 連接副詞 ← 對應 profile.md 閱讀斷崖
 
 ### Stage C:Stage 2-3 抽象 + 領域(4,200 → 6,500)
