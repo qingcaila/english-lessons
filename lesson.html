@@ -99,8 +99,8 @@
     align-items: center;
     min-height: 72px;
   }
-  /* split 內的 note 控制單行,超出 ellipsis,避免長 note 破版 */
-  .split { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  /* split 內 note 允許自由換行,卡片高度隨內容 */
+  .split { word-wrap: break-word; white-space: normal; }
   tbody tr.is-review { border-left: 3px solid var(--accent); }
   tbody tr.is-new { border-left: 3px solid var(--good); }
   tbody td { border: none; padding: 0; display: block; }
