@@ -249,7 +249,7 @@ git push
 - [x] **B3**(+312 / 累計 2,332)drinks 62 / desserts 58 / shapes 60 / directions 60 / transportation 70 / places 69
 - [x] **B4**(+247 / 累計 2,651)travel 63 / shopping 62 / restaurant 63 / money 60 / health 66
 - [x] **B5**(+168 / 累計 2,819)sight-words 389(近 400) / technology 47
-- [ ] **B6**(+~350 / 累計 ~4,200)過去式動詞 + 片語動詞(actions 進階)+ 連接副詞 ← 對應 profile.md 閱讀斷崖
+- [x] **B6**(+160 / 累計 2,958)過去式 60(sight-words) / 片語動詞 60 / 連接副詞 40 — 直接打學習者閱讀斷崖
 
 ### Stage C:Stage 2-3 抽象 + 領域(4,200 → 6,500)
 - [ ] **C1**(+~400 / 累計 ~4,600)jobs-advanced / appearance / personality / relationships
