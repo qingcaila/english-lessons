@@ -127242,6 +127242,2660 @@
       "split": "ve + ri + fy",
       "theme": "exam-7000",
       "stage": 2
+    },
+    {
+      "word": "airbag",
+      "mean": "安全氣囊",
+      "img": "📚",
+      "chunks": [
+        "air",
+        "bag"
+      ],
+      "py": "ㄚㄧㄖㄅㄚㄍ",
+      "split": "air + bag",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "airbrush",
+      "mean": "噴槍",
+      "img": "📚",
+      "chunks": [
+        "air",
+        "brush"
+      ],
+      "py": "ㄚㄧㄖㄅㄖㄚㄙㄏ",
+      "split": "air + brush",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "airfare",
+      "mean": "機票錢",
+      "img": "📚",
+      "chunks": [
+        "air",
+        "fa",
+        "re"
+      ],
+      "py": "ㄚㄧㄖㄈㄚㄖㄝ",
+      "split": "air + fa + re",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "alarmclock",
+      "mean": "鬧鐘",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "larm",
+        "clock"
+      ],
+      "py": "ㄚㄌㄚㄖㄇㄎㄌㄛㄎㄎ",
+      "split": "a + larm + clock",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "artwork",
+      "mean": "藝術品",
+      "img": "📚",
+      "chunks": [
+        "ar",
+        "twork"
+      ],
+      "py": "ㄚㄖㄊㄨㄛㄖㄎ",
+      "split": "ar + twork",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "backdoor",
+      "mean": "後門",
+      "img": "📚",
+      "chunks": [
+        "bac",
+        "kdoor"
+      ],
+      "py": "ㄅㄚㄎㄎㄉㄛㄛㄖ",
+      "split": "bac + kdoor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "backdrop",
+      "mean": "背景",
+      "img": "📚",
+      "chunks": [
+        "back",
+        "drop"
+      ],
+      "py": "ㄅㄚㄎㄎㄉㄖㄛㄆ",
+      "split": "back + drop",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "backfire",
+      "mean": "適得其反",
+      "img": "📚",
+      "chunks": [
+        "bac",
+        "kfi",
+        "re"
+      ],
+      "py": "ㄅㄚㄎㄎㄈㄧㄖㄝ",
+      "split": "bac + kfi + re",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "backlog",
+      "mean": "積壓",
+      "img": "📚",
+      "chunks": [
+        "bac",
+        "klog"
+      ],
+      "py": "ㄅㄚㄎㄎㄌㄛㄍ",
+      "split": "bac + klog",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "backstage",
+      "mean": "後台",
+      "img": "📚",
+      "chunks": [
+        "back",
+        "sta",
+        "ge"
+      ],
+      "py": "ㄅㄚㄎㄎㄙㄊㄚㄍㄝ",
+      "split": "back + sta + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "backyard",
+      "mean": "後院",
+      "img": "📚",
+      "chunks": [
+        "bac",
+        "kyard"
+      ],
+      "py": "ㄅㄚㄎㄎㄧㄚㄖㄉ",
+      "split": "bac + kyard",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bankbook",
+      "mean": "存摺",
+      "img": "📚",
+      "chunks": [
+        "ban",
+        "kbook"
+      ],
+      "py": "ㄅㄚㄋㄎㄅㄛㄛㄎ",
+      "split": "ban + kbook",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "baseline",
+      "mean": "基準",
+      "img": "📚",
+      "chunks": [
+        "ba",
+        "se",
+        "li",
+        "ne"
+      ],
+      "py": "ㄅㄚㄙㄝㄌㄧㄋㄝ",
+      "split": "ba + se + li + ne",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "battlefield",
+      "mean": "戰場",
+      "img": "📚",
+      "chunks": [
+        "bat",
+        "tle",
+        "field"
+      ],
+      "py": "ㄅㄚㄊㄊㄌㄝㄈㄧㄝㄌㄉ",
+      "split": "bat + tle + field",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "battleship",
+      "mean": "戰艦",
+      "img": "📚",
+      "chunks": [
+        "bat",
+        "tles",
+        "hip"
+      ],
+      "py": "ㄅㄚㄊㄊㄌㄝㄙㄏㄧㄆ",
+      "split": "bat + tles + hip",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "beachfront",
+      "mean": "海濱",
+      "img": "📚",
+      "chunks": [
+        "beach",
+        "front"
+      ],
+      "py": "ㄅㄝㄚㄎㄏㄈㄖㄛㄋㄊ",
+      "split": "beach + front",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "beanbag",
+      "mean": "豆袋",
+      "img": "📚",
+      "chunks": [
+        "bean",
+        "bag"
+      ],
+      "py": "ㄅㄝㄚㄋㄅㄚㄍ",
+      "split": "bean + bag",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bedrock",
+      "mean": "基石",
+      "img": "📚",
+      "chunks": [
+        "bed",
+        "rock"
+      ],
+      "py": "ㄅㄝㄉㄖㄛㄎㄎ",
+      "split": "bed + rock",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bedside",
+      "mean": "床邊",
+      "img": "📚",
+      "chunks": [
+        "bed",
+        "si",
+        "de"
+      ],
+      "py": "ㄅㄝㄉㄙㄧㄉㄝ",
+      "split": "bed + si + de",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bedspread",
+      "mean": "床罩",
+      "img": "📚",
+      "chunks": [
+        "beds",
+        "pread"
+      ],
+      "py": "ㄅㄝㄉㄙㄆㄖㄝㄚㄉ",
+      "split": "beds + pread",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "beehive",
+      "mean": "蜂窩",
+      "img": "📚",
+      "chunks": [
+        "bee",
+        "hi",
+        "ve"
+      ],
+      "py": "ㄅㄝㄝㄏㄧㄨㄝ",
+      "split": "bee + hi + ve",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "beeline",
+      "mean": "直線",
+      "img": "📚",
+      "chunks": [
+        "bee",
+        "li",
+        "ne"
+      ],
+      "py": "ㄅㄝㄝㄌㄧㄋㄝ",
+      "split": "bee + li + ne",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "billboard",
+      "mean": "廣告牌",
+      "img": "📚",
+      "chunks": [
+        "bil",
+        "lboard"
+      ],
+      "py": "ㄅㄧㄌㄌㄅㄛㄚㄖㄉ",
+      "split": "bil + lboard",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "birthplace",
+      "mean": "出生地",
+      "img": "📚",
+      "chunks": [
+        "birt",
+        "hpla",
+        "ce"
+      ],
+      "py": "ㄅㄧㄖㄊㄏㄆㄌㄚㄎㄝ",
+      "split": "birt + hpla + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "blacklist",
+      "mean": "黑名單",
+      "img": "📚",
+      "chunks": [
+        "blac",
+        "klist"
+      ],
+      "py": "ㄅㄌㄚㄎㄎㄌㄧㄙㄊ",
+      "split": "blac + klist",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bloodstream",
+      "mean": "血流",
+      "img": "📚",
+      "chunks": [
+        "bloods",
+        "tream"
+      ],
+      "py": "ㄅㄌㄛㄛㄉㄙㄊㄖㄝㄚㄇ",
+      "split": "bloods + tream",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "blueprint",
+      "mean": "藍圖",
+      "img": "📚",
+      "chunks": [
+        "bluep",
+        "rint"
+      ],
+      "py": "ㄅㄌㄚㄝㄆㄖㄧㄋㄊ",
+      "split": "bluep + rint",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bombshell",
+      "mean": "驚人之事",
+      "img": "📚",
+      "chunks": [
+        "bomb",
+        "shell"
+      ],
+      "py": "ㄅㄛㄇㄅㄙㄏㄝㄌㄌ",
+      "split": "bomb + shell",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bookkeeper",
+      "mean": "簿記員",
+      "img": "📚",
+      "chunks": [
+        "book",
+        "kee",
+        "per"
+      ],
+      "py": "ㄅㄛㄛㄎㄎㄝㄝㄆㄝㄖ",
+      "split": "book + kee + per",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bookshop",
+      "mean": "書店",
+      "img": "📚",
+      "chunks": [
+        "book",
+        "shop"
+      ],
+      "py": "ㄅㄛㄛㄎㄙㄏㄛㄆ",
+      "split": "book + shop",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bottleneck",
+      "mean": "瓶頸",
+      "img": "📚",
+      "chunks": [
+        "bot",
+        "tle",
+        "neck"
+      ],
+      "py": "ㄅㄛㄊㄊㄌㄝㄋㄝㄎㄎ",
+      "split": "bot + tle + neck",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "brainstorm",
+      "mean": "腦力激盪",
+      "img": "📚",
+      "chunks": [
+        "brain",
+        "storm"
+      ],
+      "py": "ㄅㄖㄚㄧㄋㄙㄊㄛㄖㄇ",
+      "split": "brain + storm",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "brainwash",
+      "mean": "洗腦",
+      "img": "📚",
+      "chunks": [
+        "brain",
+        "wash"
+      ],
+      "py": "ㄅㄖㄚㄧㄋㄨㄚㄙㄏ",
+      "split": "brain + wash",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "breadcrumb",
+      "mean": "麵包屑",
+      "img": "📚",
+      "chunks": [
+        "bread",
+        "crumb"
+      ],
+      "py": "ㄅㄖㄝㄚㄉㄎㄖㄚㄇㄅ",
+      "split": "bread + crumb",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "broadband",
+      "mean": "寬頻",
+      "img": "📚",
+      "chunks": [
+        "broad",
+        "band"
+      ],
+      "py": "ㄅㄖㄛㄚㄉㄅㄚㄋㄉ",
+      "split": "broad + band",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bulletproof",
+      "mean": "防彈",
+      "img": "📚",
+      "chunks": [
+        "bul",
+        "let",
+        "proof"
+      ],
+      "py": "ㄅㄚㄌㄌㄝㄊㄆㄖㄛㄛㄈ",
+      "split": "bul + let + proof",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "businessman",
+      "mean": "商人",
+      "img": "📚",
+      "chunks": [
+        "bu",
+        "si",
+        "nes",
+        "sman"
+      ],
+      "py": "ㄅㄚㄙㄧㄋㄝㄙㄙㄇㄚㄋ",
+      "split": "bu + si + nes + sman",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "businesswoman",
+      "mean": "女商人",
+      "img": "📚",
+      "chunks": [
+        "bu",
+        "si",
+        "nes",
+        "swo",
+        "man"
+      ],
+      "py": "ㄅㄚㄙㄧㄋㄝㄙㄙㄨㄛㄇㄚㄋ",
+      "split": "bu + si + nes + swo + man",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "byproduct",
+      "mean": "副產品",
+      "img": "📚",
+      "chunks": [
+        "byp",
+        "ro",
+        "duct"
+      ],
+      "py": "ㄅㄧㄆㄖㄛㄉㄚㄎㄊ",
+      "split": "byp + ro + duct",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "analytics",
+      "mean": "分析",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "na",
+        "ly",
+        "tics"
+      ],
+      "py": "ㄚㄋㄚㄌㄧㄊㄧㄎㄙ",
+      "split": "a + na + ly + tics",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "android",
+      "mean": "安卓",
+      "img": "📚",
+      "chunks": [
+        "an",
+        "droid"
+      ],
+      "py": "ㄚㄋㄉㄖㄛㄧㄉ",
+      "split": "an + droid",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "antivirus",
+      "mean": "防毒",
+      "img": "📚",
+      "chunks": [
+        "an",
+        "ti",
+        "vi",
+        "rus"
+      ],
+      "py": "ㄚㄋㄊㄧㄨㄧㄖㄚㄙ",
+      "split": "an + ti + vi + rus",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "apps",
+      "mean": "應用程式",
+      "img": "📚",
+      "chunks": [
+        "ap",
+        "ps"
+      ],
+      "py": "ㄚㄆㄆㄙ",
+      "split": "ap + ps",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "asynchronous",
+      "mean": "非同步",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "sync",
+        "hro",
+        "nous"
+      ],
+      "py": "ㄚㄙㄧㄋㄎㄏㄖㄛㄋㄛㄚㄙ",
+      "split": "a + sync + hro + nous",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "binary",
+      "mean": "二進位",
+      "img": "📚",
+      "chunks": [
+        "bi",
+        "na",
+        "ry"
+      ],
+      "py": "ㄅㄧㄋㄚㄖㄧ",
+      "split": "bi + na + ry",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "biometric",
+      "mean": "生物識別",
+      "img": "📚",
+      "chunks": [
+        "bio",
+        "met",
+        "ric"
+      ],
+      "py": "ㄅㄧㄛㄇㄝㄊㄖㄧㄎ",
+      "split": "bio + met + ric",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bot",
+      "mean": "機器人",
+      "img": "📚",
+      "chunks": [
+        "bo",
+        "t"
+      ],
+      "py": "ㄅㄛㄊ",
+      "split": "bo + t",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cache",
+      "mean": "快取",
+      "img": "📚",
+      "chunks": [
+        "cac",
+        "he"
+      ],
+      "py": "ㄎㄚㄎㄏㄝ",
+      "split": "cac + he",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "codec",
+      "mean": "編解碼器",
+      "img": "📚",
+      "chunks": [
+        "co",
+        "dec"
+      ],
+      "py": "ㄎㄛㄉㄝㄎ",
+      "split": "co + dec",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "compiler",
+      "mean": "編譯器",
+      "img": "📚",
+      "chunks": [
+        "com",
+        "pi",
+        "ler"
+      ],
+      "py": "ㄎㄛㄇㄆㄧㄌㄝㄖ",
+      "split": "com + pi + ler",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cryptocurrency",
+      "mean": "加密貨幣",
+      "img": "📚",
+      "chunks": [
+        "cryp",
+        "to",
+        "cur",
+        "ren",
+        "cy"
+      ],
+      "py": "ㄎㄖㄧㄆㄊㄛㄎㄚㄖㄖㄝㄋㄎㄧ",
+      "split": "cryp + to + cur + ren + cy",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cursor",
+      "mean": "游標",
+      "img": "📚",
+      "chunks": [
+        "cur",
+        "sor"
+      ],
+      "py": "ㄎㄚㄖㄙㄛㄖ",
+      "split": "cur + sor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "dashboard",
+      "mean": "儀表板",
+      "img": "📚",
+      "chunks": [
+        "das",
+        "hboard"
+      ],
+      "py": "ㄉㄚㄙㄏㄅㄛㄚㄖㄉ",
+      "split": "das + hboard",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "database",
+      "mean": "資料庫",
+      "img": "📚",
+      "chunks": [
+        "da",
+        "ta",
+        "ba",
+        "se"
+      ],
+      "py": "ㄉㄚㄊㄚㄅㄚㄙㄝ",
+      "split": "da + ta + ba + se",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "debug",
+      "mean": "除錯",
+      "img": "📚",
+      "chunks": [
+        "de",
+        "bug"
+      ],
+      "py": "ㄉㄝㄅㄚㄍ",
+      "split": "de + bug",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "decrypt",
+      "mean": "解密",
+      "img": "📚",
+      "chunks": [
+        "dec",
+        "rypt"
+      ],
+      "py": "ㄉㄝㄎㄖㄧㄆㄊ",
+      "split": "dec + rypt",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "deploy",
+      "mean": "部署",
+      "img": "📚",
+      "chunks": [
+        "dep",
+        "loy"
+      ],
+      "py": "ㄉㄝㄆㄌㄛㄧ",
+      "split": "dep + loy",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "desktop",
+      "mean": "桌面",
+      "img": "📚",
+      "chunks": [
+        "des",
+        "ktop"
+      ],
+      "py": "ㄉㄝㄙㄎㄊㄛㄆ",
+      "split": "des + ktop",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "dialog",
+      "mean": "對話",
+      "img": "📚",
+      "chunks": [
+        "dia",
+        "log"
+      ],
+      "py": "ㄉㄧㄚㄌㄛㄍ",
+      "split": "dia + log",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "dropdown",
+      "mean": "下拉選單",
+      "img": "📚",
+      "chunks": [
+        "drop",
+        "down"
+      ],
+      "py": "ㄉㄖㄛㄆㄉㄛㄨㄋ",
+      "split": "drop + down",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "encrypt",
+      "mean": "加密",
+      "img": "📚",
+      "chunks": [
+        "en",
+        "crypt"
+      ],
+      "py": "ㄝㄋㄎㄖㄧㄆㄊ",
+      "split": "en + crypt",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "encryption",
+      "mean": "加密",
+      "img": "📚",
+      "chunks": [
+        "en",
+        "cryp",
+        "tion"
+      ],
+      "py": "ㄝㄋㄎㄖㄧㄆㄊㄧㄛㄋ",
+      "split": "en + cryp + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "endpoint",
+      "mean": "端點",
+      "img": "📚",
+      "chunks": [
+        "en",
+        "dpoint"
+      ],
+      "py": "ㄝㄋㄉㄆㄛㄧㄋㄊ",
+      "split": "en + dpoint",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "firmware",
+      "mean": "韌體",
+      "img": "📚",
+      "chunks": [
+        "fir",
+        "mwa",
+        "re"
+      ],
+      "py": "ㄈㄧㄖㄇㄨㄚㄖㄝ",
+      "split": "fir + mwa + re",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "floppy",
+      "mean": "軟碟",
+      "img": "📚",
+      "chunks": [
+        "flop",
+        "py"
+      ],
+      "py": "ㄈㄌㄛㄆㄆㄧ",
+      "split": "flop + py",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "gateway",
+      "mean": "閘道",
+      "img": "📚",
+      "chunks": [
+        "ga",
+        "te",
+        "way"
+      ],
+      "py": "ㄍㄚㄊㄝㄨㄚㄧ",
+      "split": "ga + te + way",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "gigabyte",
+      "mean": "十億位元組",
+      "img": "📚",
+      "chunks": [
+        "gi",
+        "ga",
+        "by",
+        "te"
+      ],
+      "py": "ㄍㄧㄍㄚㄅㄧㄊㄝ",
+      "split": "gi + ga + by + te",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "homepage",
+      "mean": "首頁",
+      "img": "📚",
+      "chunks": [
+        "ho",
+        "me",
+        "pa",
+        "ge"
+      ],
+      "py": "ㄏㄛㄇㄝㄆㄚㄍㄝ",
+      "split": "ho + me + pa + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "hyperlink",
+      "mean": "超連結",
+      "img": "📚",
+      "chunks": [
+        "hy",
+        "per",
+        "link"
+      ],
+      "py": "ㄏㄧㄆㄝㄖㄌㄧㄋㄎ",
+      "split": "hy + per + link",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "icon",
+      "mean": "圖示",
+      "img": "📚",
+      "chunks": [
+        "i",
+        "con"
+      ],
+      "py": "ㄧㄎㄛㄋ",
+      "split": "i + con",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "interface",
+      "mean": "介面",
+      "img": "📚",
+      "chunks": [
+        "in",
+        "ter",
+        "fa",
+        "ce"
+      ],
+      "py": "ㄧㄋㄊㄝㄖㄈㄚㄎㄝ",
+      "split": "in + ter + fa + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "keypad",
+      "mean": "數字鍵盤",
+      "img": "📚",
+      "chunks": [
+        "key",
+        "pad"
+      ],
+      "py": "ㄎㄝㄧㄆㄚㄉ",
+      "split": "key + pad",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "keyword",
+      "mean": "關鍵字",
+      "img": "📚",
+      "chunks": [
+        "key",
+        "word"
+      ],
+      "py": "ㄎㄝㄧㄨㄛㄖㄉ",
+      "split": "key + word",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "latency",
+      "mean": "延遲",
+      "img": "📚",
+      "chunks": [
+        "la",
+        "ten",
+        "cy"
+      ],
+      "py": "ㄌㄚㄊㄝㄋㄎㄧ",
+      "split": "la + ten + cy",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "layout",
+      "mean": "版面",
+      "img": "📚",
+      "chunks": [
+        "lay",
+        "out"
+      ],
+      "py": "ㄌㄚㄧㄛㄚㄊ",
+      "split": "lay + out",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "mailbox",
+      "mean": "信箱",
+      "img": "📚",
+      "chunks": [
+        "mail",
+        "box"
+      ],
+      "py": "ㄇㄚㄧㄌㄅㄛㄎㄙ",
+      "split": "mail + box",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "mainframe",
+      "mean": "大型主機",
+      "img": "📚",
+      "chunks": [
+        "main",
+        "fra",
+        "me"
+      ],
+      "py": "ㄇㄚㄧㄋㄈㄖㄚㄇㄝ",
+      "split": "main + fra + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "megabyte",
+      "mean": "百萬位元組",
+      "img": "📚",
+      "chunks": [
+        "me",
+        "ga",
+        "by",
+        "te"
+      ],
+      "py": "ㄇㄝㄍㄚㄅㄧㄊㄝ",
+      "split": "me + ga + by + te",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "metadata",
+      "mean": "元資料",
+      "img": "📚",
+      "chunks": [
+        "me",
+        "ta",
+        "da",
+        "ta"
+      ],
+      "py": "ㄇㄝㄊㄚㄉㄚㄊㄚ",
+      "split": "me + ta + da + ta",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "microchip",
+      "mean": "微晶片",
+      "img": "📚",
+      "chunks": [
+        "mic",
+        "roc",
+        "hip"
+      ],
+      "py": "ㄇㄧㄎㄖㄛㄎㄏㄧㄆ",
+      "split": "mic + roc + hip",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "module",
+      "mean": "模組",
+      "img": "📚",
+      "chunks": [
+        "mo",
+        "du",
+        "le"
+      ],
+      "py": "ㄇㄛㄉㄚㄌㄝ",
+      "split": "mo + du + le",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "motherboard",
+      "mean": "主機板",
+      "img": "📚",
+      "chunks": [
+        "mot",
+        "her",
+        "board"
+      ],
+      "py": "ㄇㄛㄊㄏㄝㄖㄅㄛㄚㄖㄉ",
+      "split": "mot + her + board",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "multimedia",
+      "mean": "多媒體",
+      "img": "📚",
+      "chunks": [
+        "mul",
+        "ti",
+        "me",
+        "dia"
+      ],
+      "py": "ㄇㄚㄌㄊㄧㄇㄝㄉㄧㄚ",
+      "split": "mul + ti + me + dia",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "newsletter",
+      "mean": "電子報",
+      "img": "📚",
+      "chunks": [
+        "new",
+        "slet",
+        "ter"
+      ],
+      "py": "ㄋㄝㄨㄙㄌㄝㄊㄊㄝㄖ",
+      "split": "new + slet + ter",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "notification",
+      "mean": "通知",
+      "img": "📚",
+      "chunks": [
+        "no",
+        "ti",
+        "fi",
+        "ca",
+        "tion"
+      ],
+      "py": "ㄋㄛㄊㄧㄈㄧㄎㄚㄊㄧㄛㄋ",
+      "split": "no + ti + fi + ca + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "outage",
+      "mean": "停機",
+      "img": "📚",
+      "chunks": [
+        "ou",
+        "ta",
+        "ge"
+      ],
+      "py": "ㄛㄚㄊㄚㄍㄝ",
+      "split": "ou + ta + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "overload",
+      "mean": "超載",
+      "img": "📚",
+      "chunks": [
+        "o",
+        "ver",
+        "load"
+      ],
+      "py": "ㄛㄨㄝㄖㄌㄛㄚㄉ",
+      "split": "o + ver + load",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "overwrite",
+      "mean": "覆寫",
+      "img": "📚",
+      "chunks": [
+        "o",
+        "ver",
+        "wri",
+        "te"
+      ],
+      "py": "ㄛㄨㄝㄖㄨㄖㄧㄊㄝ",
+      "split": "o + ver + wri + te",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "pixel",
+      "mean": "像素",
+      "img": "📚",
+      "chunks": [
+        "pi",
+        "xel"
+      ],
+      "py": "ㄆㄧㄎㄙㄝㄌ",
+      "split": "pi + xel",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "plugin",
+      "mean": "外掛",
+      "img": "📚",
+      "chunks": [
+        "plu",
+        "gin"
+      ],
+      "py": "ㄆㄌㄚㄍㄧㄋ",
+      "split": "plu + gin",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "podcast",
+      "mean": "播客",
+      "img": "📚",
+      "chunks": [
+        "pod",
+        "cast"
+      ],
+      "py": "ㄆㄛㄉㄎㄚㄙㄊ",
+      "split": "pod + cast",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "popup",
+      "mean": "彈窗",
+      "img": "📚",
+      "chunks": [
+        "po",
+        "pup"
+      ],
+      "py": "ㄆㄛㄆㄚㄆ",
+      "split": "po + pup",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "portal",
+      "mean": "入口網站",
+      "img": "📚",
+      "chunks": [
+        "por",
+        "tal"
+      ],
+      "py": "ㄆㄛㄖㄊㄚㄌ",
+      "split": "por + tal",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "runtime",
+      "mean": "執行時",
+      "img": "📚",
+      "chunks": [
+        "run",
+        "ti",
+        "me"
+      ],
+      "py": "ㄖㄚㄋㄊㄧㄇㄝ",
+      "split": "run + ti + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "screenshot",
+      "mean": "螢幕截圖",
+      "img": "📚",
+      "chunks": [
+        "screen",
+        "shot"
+      ],
+      "py": "ㄙㄎㄖㄝㄝㄋㄙㄏㄛㄊ",
+      "split": "screen + shot",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "semiconductor",
+      "mean": "半導體",
+      "img": "📚",
+      "chunks": [
+        "se",
+        "mi",
+        "con",
+        "duc",
+        "tor"
+      ],
+      "py": "ㄙㄝㄇㄧㄎㄛㄋㄉㄚㄎㄊㄛㄖ",
+      "split": "se + mi + con + duc + tor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "shortcut",
+      "mean": "捷徑",
+      "img": "📚",
+      "chunks": [
+        "shor",
+        "tcut"
+      ],
+      "py": "ㄙㄏㄛㄖㄊㄎㄚㄊ",
+      "split": "shor + tcut",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "sidebar",
+      "mean": "側邊欄",
+      "img": "📚",
+      "chunks": [
+        "si",
+        "de",
+        "bar"
+      ],
+      "py": "ㄙㄧㄉㄝㄅㄚㄖ",
+      "split": "si + de + bar",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "sitemap",
+      "mean": "網站地圖",
+      "img": "📚",
+      "chunks": [
+        "si",
+        "te",
+        "map"
+      ],
+      "py": "ㄙㄧㄊㄝㄇㄚㄆ",
+      "split": "si + te + map",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "snapshot",
+      "mean": "快照",
+      "img": "📚",
+      "chunks": [
+        "snap",
+        "shot"
+      ],
+      "py": "ㄙㄋㄚㄆㄙㄏㄛㄊ",
+      "split": "snap + shot",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "subdomain",
+      "mean": "子網域",
+      "img": "📚",
+      "chunks": [
+        "sub",
+        "do",
+        "main"
+      ],
+      "py": "ㄙㄚㄅㄉㄛㄇㄚㄧㄋ",
+      "split": "sub + do + main",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "subnet",
+      "mean": "子網路",
+      "img": "📚",
+      "chunks": [
+        "sub",
+        "net"
+      ],
+      "py": "ㄙㄚㄅㄋㄝㄊ",
+      "split": "sub + net",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "synchronize",
+      "mean": "同步",
+      "img": "📚",
+      "chunks": [
+        "sync",
+        "hro",
+        "ni",
+        "ze"
+      ],
+      "py": "ㄙㄧㄋㄎㄏㄖㄛㄋㄧㄗㄝ",
+      "split": "sync + hro + ni + ze",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "thumbnail",
+      "mean": "縮圖",
+      "img": "📚",
+      "chunks": [
+        "thum",
+        "bnail"
+      ],
+      "py": "ㄊㄏㄚㄇㄅㄋㄚㄧㄌ",
+      "split": "thum + bnail",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "toolbar",
+      "mean": "工具列",
+      "img": "📚",
+      "chunks": [
+        "tool",
+        "bar"
+      ],
+      "py": "ㄊㄛㄛㄌㄅㄚㄖ",
+      "split": "tool + bar",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "touchpad",
+      "mean": "觸控板",
+      "img": "📚",
+      "chunks": [
+        "touc",
+        "hpad"
+      ],
+      "py": "ㄊㄛㄚㄎㄏㄆㄚㄉ",
+      "split": "touc + hpad",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "touchscreen",
+      "mean": "觸控螢幕",
+      "img": "📚",
+      "chunks": [
+        "touch",
+        "screen"
+      ],
+      "py": "ㄊㄛㄚㄎㄏㄙㄎㄖㄝㄝㄋ",
+      "split": "touch + screen",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "trackpad",
+      "mean": "觸控板",
+      "img": "📚",
+      "chunks": [
+        "trac",
+        "kpad"
+      ],
+      "py": "ㄊㄖㄚㄎㄎㄆㄚㄉ",
+      "split": "trac + kpad",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "uploader",
+      "mean": "上傳者",
+      "img": "📚",
+      "chunks": [
+        "up",
+        "loa",
+        "der"
+      ],
+      "py": "ㄚㄆㄌㄛㄚㄉㄝㄖ",
+      "split": "up + loa + der",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "username",
+      "mean": "用戶名",
+      "img": "📚",
+      "chunks": [
+        "u",
+        "ser",
+        "na",
+        "me"
+      ],
+      "py": "ㄚㄙㄝㄖㄋㄚㄇㄝ",
+      "split": "u + ser + na + me",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "vector",
+      "mean": "向量",
+      "img": "📚",
+      "chunks": [
+        "vec",
+        "tor"
+      ],
+      "py": "ㄨㄝㄎㄊㄛㄖ",
+      "split": "vec + tor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "voicemail",
+      "mean": "語音信箱",
+      "img": "📚",
+      "chunks": [
+        "voi",
+        "ce",
+        "mail"
+      ],
+      "py": "ㄨㄛㄧㄎㄝㄇㄚㄧㄌ",
+      "split": "voi + ce + mail",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "webpage",
+      "mean": "網頁",
+      "img": "📚",
+      "chunks": [
+        "web",
+        "pa",
+        "ge"
+      ],
+      "py": "ㄨㄝㄅㄆㄚㄍㄝ",
+      "split": "web + pa + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "widget",
+      "mean": "小工具",
+      "img": "📚",
+      "chunks": [
+        "wid",
+        "get"
+      ],
+      "py": "ㄨㄧㄉㄍㄝㄊ",
+      "split": "wid + get",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "wireless",
+      "mean": "無線",
+      "img": "📚",
+      "chunks": [
+        "wi",
+        "re",
+        "less"
+      ],
+      "py": "ㄨㄧㄖㄝㄌㄝㄙㄙ",
+      "split": "wi + re + less",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "workspace",
+      "mean": "工作空間",
+      "img": "📚",
+      "chunks": [
+        "work",
+        "spa",
+        "ce"
+      ],
+      "py": "ㄨㄛㄖㄎㄙㄆㄚㄎㄝ",
+      "split": "work + spa + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bankruptcy",
+      "mean": "破產",
+      "img": "📚",
+      "chunks": [
+        "ban",
+        "krup",
+        "tcy"
+      ],
+      "py": "ㄅㄚㄋㄎㄖㄚㄆㄊㄎㄧ",
+      "split": "ban + krup + tcy",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "barter",
+      "mean": "以物易物",
+      "img": "📚",
+      "chunks": [
+        "bar",
+        "ter"
+      ],
+      "py": "ㄅㄚㄖㄊㄝㄖ",
+      "split": "bar + ter",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "beneficiary",
+      "mean": "受益人",
+      "img": "📚",
+      "chunks": [
+        "be",
+        "ne",
+        "fi",
+        "cia",
+        "ry"
+      ],
+      "py": "ㄅㄝㄋㄝㄈㄧㄎㄧㄚㄖㄧ",
+      "split": "be + ne + fi + cia + ry",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "benchmark",
+      "mean": "基準",
+      "img": "📚",
+      "chunks": [
+        "benc",
+        "hmark"
+      ],
+      "py": "ㄅㄝㄋㄎㄏㄇㄚㄖㄎ",
+      "split": "benc + hmark",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "buyback",
+      "mean": "回購",
+      "img": "📚",
+      "chunks": [
+        "buy",
+        "back"
+      ],
+      "py": "ㄅㄚㄧㄅㄚㄎㄎ",
+      "split": "buy + back",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cashflow",
+      "mean": "現金流",
+      "img": "📚",
+      "chunks": [
+        "cash",
+        "flow"
+      ],
+      "py": "ㄎㄚㄙㄏㄈㄌㄛㄨ",
+      "split": "cash + flow",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "census",
+      "mean": "人口普查",
+      "img": "📚",
+      "chunks": [
+        "cen",
+        "sus"
+      ],
+      "py": "ㄎㄝㄋㄙㄚㄙ",
+      "split": "cen + sus",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "clientele",
+      "mean": "客戶群",
+      "img": "📚",
+      "chunks": [
+        "clien",
+        "te",
+        "le"
+      ],
+      "py": "ㄎㄌㄧㄝㄋㄊㄝㄌㄝ",
+      "split": "clien + te + le",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "craftsmanship",
+      "mean": "工藝",
+      "img": "📚",
+      "chunks": [
+        "craft",
+        "sman",
+        "ship"
+      ],
+      "py": "ㄎㄖㄚㄈㄊㄙㄇㄚㄋㄙㄏㄧㄆ",
+      "split": "craft + sman + ship",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "creditor",
+      "mean": "債權人",
+      "img": "📚",
+      "chunks": [
+        "cre",
+        "di",
+        "tor"
+      ],
+      "py": "ㄎㄖㄝㄉㄧㄊㄛㄖ",
+      "split": "cre + di + tor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "debtor",
+      "mean": "債務人",
+      "img": "📚",
+      "chunks": [
+        "deb",
+        "tor"
+      ],
+      "py": "ㄉㄝㄅㄊㄛㄖ",
+      "split": "deb + tor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "deduction",
+      "mean": "扣除",
+      "img": "📚",
+      "chunks": [
+        "de",
+        "duc",
+        "tion"
+      ],
+      "py": "ㄉㄝㄉㄚㄎㄊㄧㄛㄋ",
+      "split": "de + duc + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "default",
+      "mean": "違約",
+      "img": "📚",
+      "chunks": [
+        "de",
+        "fault"
+      ],
+      "py": "ㄉㄝㄈㄚㄚㄌㄊ",
+      "split": "de + fault",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "depreciation",
+      "mean": "折舊",
+      "img": "📚",
+      "chunks": [
+        "dep",
+        "re",
+        "cia",
+        "tion"
+      ],
+      "py": "ㄉㄝㄆㄖㄝㄎㄧㄚㄊㄧㄛㄋ",
+      "split": "dep + re + cia + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "distributor",
+      "mean": "經銷商",
+      "img": "📚",
+      "chunks": [
+        "dis",
+        "tri",
+        "bu",
+        "tor"
+      ],
+      "py": "ㄉㄧㄙㄊㄖㄧㄅㄚㄊㄛㄖ",
+      "split": "dis + tri + bu + tor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "dividend",
+      "mean": "股息",
+      "img": "📚",
+      "chunks": [
+        "di",
+        "vi",
+        "dend"
+      ],
+      "py": "ㄉㄧㄨㄧㄉㄝㄋㄉ",
+      "split": "di + vi + dend",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "dominance",
+      "mean": "主導",
+      "img": "📚",
+      "chunks": [
+        "do",
+        "mi",
+        "nan",
+        "ce"
+      ],
+      "py": "ㄉㄛㄇㄧㄋㄚㄋㄎㄝ",
+      "split": "do + mi + nan + ce",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "downturn",
+      "mean": "低迷",
+      "img": "📚",
+      "chunks": [
+        "dow",
+        "nturn"
+      ],
+      "py": "ㄉㄛㄨㄋㄊㄚㄖㄋ",
+      "split": "dow + nturn",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "endorse",
+      "mean": "背書",
+      "img": "📚",
+      "chunks": [
+        "en",
+        "dor",
+        "se"
+      ],
+      "py": "ㄝㄋㄉㄛㄖㄙㄝ",
+      "split": "en + dor + se",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "escrow",
+      "mean": "託管",
+      "img": "📚",
+      "chunks": [
+        "es",
+        "crow"
+      ],
+      "py": "ㄝㄙㄎㄖㄛㄨ",
+      "split": "es + crow",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "leverage",
+      "mean": "槓桿",
+      "img": "📚",
+      "chunks": [
+        "le",
+        "ve",
+        "ra",
+        "ge"
+      ],
+      "py": "ㄌㄝㄨㄝㄖㄚㄍㄝ",
+      "split": "le + ve + ra + ge",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "nonprofit",
+      "mean": "非營利",
+      "img": "📚",
+      "chunks": [
+        "non",
+        "pro",
+        "fit"
+      ],
+      "py": "ㄋㄛㄋㄆㄖㄛㄈㄧㄊ",
+      "split": "non + pro + fit",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "portfolio",
+      "mean": "投資組合",
+      "img": "📚",
+      "chunks": [
+        "por",
+        "tfo",
+        "lio"
+      ],
+      "py": "ㄆㄛㄖㄊㄈㄛㄌㄧㄛ",
+      "split": "por + tfo + lio",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "procurement",
+      "mean": "採購",
+      "img": "📚",
+      "chunks": [
+        "pro",
+        "cu",
+        "re",
+        "ment"
+      ],
+      "py": "ㄆㄖㄛㄎㄚㄖㄝㄇㄝㄋㄊ",
+      "split": "pro + cu + re + ment",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "quota",
+      "mean": "配額",
+      "img": "📚",
+      "chunks": [
+        "quo",
+        "ta"
+      ],
+      "py": "ㄎㄚㄛㄊㄚ",
+      "split": "quo + ta",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "rebate",
+      "mean": "回扣",
+      "img": "📚",
+      "chunks": [
+        "re",
+        "ba",
+        "te"
+      ],
+      "py": "ㄖㄝㄅㄚㄊㄝ",
+      "split": "re + ba + te",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "reimburse",
+      "mean": "報銷",
+      "img": "📚",
+      "chunks": [
+        "reim",
+        "bur",
+        "se"
+      ],
+      "py": "ㄖㄝㄧㄇㄅㄚㄖㄙㄝ",
+      "split": "reim + bur + se",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "stockholder",
+      "mean": "股東",
+      "img": "📚",
+      "chunks": [
+        "stoc",
+        "khol",
+        "der"
+      ],
+      "py": "ㄙㄊㄛㄎㄎㄏㄛㄌㄉㄝㄖ",
+      "split": "stoc + khol + der",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "takeover",
+      "mean": "收購",
+      "img": "📚",
+      "chunks": [
+        "ta",
+        "keo",
+        "ver"
+      ],
+      "py": "ㄊㄚㄎㄝㄛㄨㄝㄖ",
+      "split": "ta + keo + ver",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "turnover",
+      "mean": "營業額",
+      "img": "📚",
+      "chunks": [
+        "tur",
+        "no",
+        "ver"
+      ],
+      "py": "ㄊㄚㄖㄋㄛㄨㄝㄖ",
+      "split": "tur + no + ver",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "blister",
+      "mean": "水泡",
+      "img": "📚",
+      "chunks": [
+        "blis",
+        "ter"
+      ],
+      "py": "ㄅㄌㄧㄙㄊㄝㄖ",
+      "split": "blis + ter",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cardiac",
+      "mean": "心臟的",
+      "img": "📚",
+      "chunks": [
+        "car",
+        "diac"
+      ],
+      "py": "ㄎㄚㄖㄉㄧㄚㄎ",
+      "split": "car + diac",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "coma",
+      "mean": "昏迷",
+      "img": "📚",
+      "chunks": [
+        "co",
+        "ma"
+      ],
+      "py": "ㄎㄛㄇㄚ",
+      "split": "co + ma",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "congestion",
+      "mean": "充血",
+      "img": "📚",
+      "chunks": [
+        "con",
+        "ges",
+        "tion"
+      ],
+      "py": "ㄎㄛㄋㄍㄝㄙㄊㄧㄛㄋ",
+      "split": "con + ges + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "contagion",
+      "mean": "傳染",
+      "img": "📚",
+      "chunks": [
+        "con",
+        "ta",
+        "gion"
+      ],
+      "py": "ㄎㄛㄋㄊㄚㄍㄧㄛㄋ",
+      "split": "con + ta + gion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "contraception",
+      "mean": "避孕",
+      "img": "📚",
+      "chunks": [
+        "con",
+        "tra",
+        "cep",
+        "tion"
+      ],
+      "py": "ㄎㄛㄋㄊㄖㄚㄎㄝㄆㄊㄧㄛㄋ",
+      "split": "con + tra + cep + tion",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "coronary",
+      "mean": "冠狀的",
+      "img": "📚",
+      "chunks": [
+        "co",
+        "ro",
+        "na",
+        "ry"
+      ],
+      "py": "ㄎㄛㄖㄛㄋㄚㄖㄧ",
+      "split": "co + ro + na + ry",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "cyst",
+      "mean": "囊腫",
+      "img": "📚",
+      "chunks": [
+        "cy",
+        "st"
+      ],
+      "py": "ㄎㄧㄙㄊ",
+      "split": "cy + st",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "epilepsy",
+      "mean": "癲癇",
+      "img": "📚",
+      "chunks": [
+        "e",
+        "pi",
+        "lep",
+        "sy"
+      ],
+      "py": "ㄝㄆㄧㄌㄝㄆㄙㄧ",
+      "split": "e + pi + lep + sy",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "insomnia",
+      "mean": "失眠",
+      "img": "📚",
+      "chunks": [
+        "in",
+        "som",
+        "nia"
+      ],
+      "py": "ㄧㄋㄙㄛㄇㄋㄧㄚ",
+      "split": "in + som + nia",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "insulin",
+      "mean": "胰島素",
+      "img": "📚",
+      "chunks": [
+        "in",
+        "su",
+        "lin"
+      ],
+      "py": "ㄧㄋㄙㄚㄌㄧㄋ",
+      "split": "in + su + lin",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "pandemic",
+      "mean": "大流行",
+      "img": "📚",
+      "chunks": [
+        "pan",
+        "de",
+        "mic"
+      ],
+      "py": "ㄆㄚㄋㄉㄝㄇㄧㄎ",
+      "split": "pan + de + mic",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "pediatric",
+      "mean": "兒科的",
+      "img": "📚",
+      "chunks": [
+        "pe",
+        "diat",
+        "ric"
+      ],
+      "py": "ㄆㄝㄉㄧㄚㄊㄖㄧㄎ",
+      "split": "pe + diat + ric",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "relapse",
+      "mean": "復發",
+      "img": "📚",
+      "chunks": [
+        "re",
+        "lap",
+        "se"
+      ],
+      "py": "ㄖㄝㄌㄚㄆㄙㄝ",
+      "split": "re + lap + se",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "rheumatism",
+      "mean": "風濕",
+      "img": "📚",
+      "chunks": [
+        "rheu",
+        "ma",
+        "tism"
+      ],
+      "py": "ㄖㄏㄝㄚㄇㄚㄊㄧㄙㄇ",
+      "split": "rheu + ma + tism",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "saliva",
+      "mean": "唾液",
+      "img": "📚",
+      "chunks": [
+        "sa",
+        "li",
+        "va"
+      ],
+      "py": "ㄙㄚㄌㄧㄨㄚ",
+      "split": "sa + li + va",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "toothache",
+      "mean": "牙痛",
+      "img": "📚",
+      "chunks": [
+        "toot",
+        "hac",
+        "he"
+      ],
+      "py": "ㄊㄛㄛㄊㄏㄚㄎㄏㄝ",
+      "split": "toot + hac + he",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "toxin",
+      "mean": "毒素",
+      "img": "📚",
+      "chunks": [
+        "to",
+        "xin"
+      ],
+      "py": "ㄊㄛㄎㄙㄧㄋ",
+      "split": "to + xin",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "wheeze",
+      "mean": "喘鳴",
+      "img": "📚",
+      "chunks": [
+        "whee",
+        "ze"
+      ],
+      "py": "ㄨㄏㄝㄝㄗㄝ",
+      "split": "whee + ze",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "alkaline",
+      "mean": "鹼性",
+      "img": "📚",
+      "chunks": [
+        "al",
+        "ka",
+        "li",
+        "ne"
+      ],
+      "py": "ㄚㄌㄎㄚㄌㄧㄋㄝ",
+      "split": "al + ka + li + ne",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "amino",
+      "mean": "胺基酸",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "mi",
+        "no"
+      ],
+      "py": "ㄚㄇㄧㄋㄛ",
+      "split": "a + mi + no",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "bacterium",
+      "mean": "細菌",
+      "img": "📚",
+      "chunks": [
+        "bac",
+        "te",
+        "rium"
+      ],
+      "py": "ㄅㄚㄎㄊㄝㄖㄧㄚㄇ",
+      "split": "bac + te + rium",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "photon",
+      "mean": "光子",
+      "img": "📚",
+      "chunks": [
+        "pho",
+        "ton"
+      ],
+      "py": "ㄆㄏㄛㄊㄛㄋ",
+      "split": "pho + ton",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "predator",
+      "mean": "掠食者",
+      "img": "📚",
+      "chunks": [
+        "pre",
+        "da",
+        "tor"
+      ],
+      "py": "ㄆㄖㄝㄉㄚㄊㄛㄖ",
+      "split": "pre + da + tor",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "solvent",
+      "mean": "溶劑",
+      "img": "📚",
+      "chunks": [
+        "sol",
+        "vent"
+      ],
+      "py": "ㄙㄛㄌㄨㄝㄋㄊ",
+      "split": "sol + vent",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "absorbing",
+      "mean": "吸引人的",
+      "img": "📚",
+      "chunks": [
+        "ab",
+        "sor",
+        "bing"
+      ],
+      "py": "ㄚㄅㄙㄛㄖㄅㄧㄋㄍ",
+      "split": "ab + sor + bing",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "abusive",
+      "mean": "虐待的",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "bu",
+        "si",
+        "ve"
+      ],
+      "py": "ㄚㄅㄚㄙㄧㄨㄝ",
+      "split": "a + bu + si + ve",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "addictive",
+      "mean": "上癮的",
+      "img": "📚",
+      "chunks": [
+        "ad",
+        "dic",
+        "ti",
+        "ve"
+      ],
+      "py": "ㄚㄉㄉㄧㄎㄊㄧㄨㄝ",
+      "split": "ad + dic + ti + ve",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "adept",
+      "mean": "熟練的",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "dept"
+      ],
+      "py": "ㄚㄉㄝㄆㄊ",
+      "split": "a + dept",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "admiring",
+      "mean": "欽佩的",
+      "img": "📚",
+      "chunks": [
+        "ad",
+        "mi",
+        "ring"
+      ],
+      "py": "ㄚㄉㄇㄧㄖㄧㄋㄍ",
+      "split": "ad + mi + ring",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "adorable",
+      "mean": "可愛的",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "do",
+        "rab",
+        "le"
+      ],
+      "py": "ㄚㄉㄛㄖㄚㄅㄌㄝ",
+      "split": "a + do + rab + le",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "affordable",
+      "mean": "負擔得起的",
+      "img": "📚",
+      "chunks": [
+        "af",
+        "for",
+        "dab",
+        "le"
+      ],
+      "py": "ㄚㄈㄈㄛㄖㄉㄚㄅㄌㄝ",
+      "split": "af + for + dab + le",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "alleged",
+      "mean": "涉嫌的",
+      "img": "📚",
+      "chunks": [
+        "al",
+        "le",
+        "ged"
+      ],
+      "py": "ㄚㄌㄌㄝㄍㄝㄉ",
+      "split": "al + le + ged",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "alphabetical",
+      "mean": "按字母順序的",
+      "img": "📚",
+      "chunks": [
+        "al",
+        "pha",
+        "be",
+        "ti",
+        "cal"
+      ],
+      "py": "ㄚㄌㄆㄏㄚㄅㄝㄊㄧㄎㄚㄌ",
+      "split": "al + pha + be + ti + cal",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "ambient",
+      "mean": "環境的",
+      "img": "📚",
+      "chunks": [
+        "am",
+        "bient"
+      ],
+      "py": "ㄚㄇㄅㄧㄝㄋㄊ",
+      "split": "am + bient",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "amphibious",
+      "mean": "兩棲的",
+      "img": "📚",
+      "chunks": [
+        "am",
+        "phi",
+        "bious"
+      ],
+      "py": "ㄚㄇㄆㄏㄧㄅㄧㄛㄚㄙ",
+      "split": "am + phi + bious",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "answerable",
+      "mean": "有責任的",
+      "img": "📚",
+      "chunks": [
+        "an",
+        "swe",
+        "rab",
+        "le"
+      ],
+      "py": "ㄚㄋㄙㄨㄝㄖㄚㄅㄌㄝ",
+      "split": "an + swe + rab + le",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "appealing",
+      "mean": "吸引人的",
+      "img": "📚",
+      "chunks": [
+        "ap",
+        "pea",
+        "ling"
+      ],
+      "py": "ㄚㄆㄆㄝㄚㄌㄧㄋㄍ",
+      "split": "ap + pea + ling",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "archaic",
+      "mean": "古老的",
+      "img": "📚",
+      "chunks": [
+        "ar",
+        "chaic"
+      ],
+      "py": "ㄚㄖㄎㄏㄚㄧㄎ",
+      "split": "ar + chaic",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "arid",
+      "mean": "乾旱的",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "rid"
+      ],
+      "py": "ㄚㄖㄧㄉ",
+      "split": "a + rid",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "aromatic",
+      "mean": "芳香的",
+      "img": "📚",
+      "chunks": [
+        "a",
+        "ro",
+        "ma",
+        "tic"
+      ],
+      "py": "ㄚㄖㄛㄇㄚㄊㄧㄎ",
+      "split": "a + ro + ma + tic",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "assertive",
+      "mean": "果斷的",
+      "img": "📚",
+      "chunks": [
+        "as",
+        "ser",
+        "ti",
+        "ve"
+      ],
+      "py": "ㄚㄙㄙㄝㄖㄊㄧㄨㄝ",
+      "split": "as + ser + ti + ve",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "astonishing",
+      "mean": "驚人的",
+      "img": "📚",
+      "chunks": [
+        "as",
+        "to",
+        "nis",
+        "hing"
+      ],
+      "py": "ㄚㄙㄊㄛㄋㄧㄙㄏㄧㄋㄍ",
+      "split": "as + to + nis + hing",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "astronomical",
+      "mean": "天文的",
+      "img": "📚",
+      "chunks": [
+        "as",
+        "tro",
+        "no",
+        "mi",
+        "cal"
+      ],
+      "py": "ㄚㄙㄊㄖㄛㄋㄛㄇㄧㄎㄚㄌ",
+      "split": "as + tro + no + mi + cal",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "audible",
+      "mean": "可聽見的",
+      "img": "📚",
+      "chunks": [
+        "au",
+        "dib",
+        "le"
+      ],
+      "py": "ㄚㄚㄉㄧㄅㄌㄝ",
+      "split": "au + dib + le",
+      "theme": "exam-7000",
+      "stage": 3
+    },
+    {
+      "word": "autonomous",
+      "mean": "自治的",
+      "img": "📚",
+      "chunks": [
+        "au",
+        "to",
+        "no",
+        "mous"
+      ],
+      "py": "ㄚㄚㄊㄛㄋㄛㄇㄛㄚㄙ",
+      "split": "au + to + no + mous",
+      "theme": "exam-7000",
+      "stage": 3
     }
   ]
 }
