@@ -135968,6 +135968,45 @@
       "split": "wea + sel",
       "theme": "animals",
       "stage": 2
+    },
+    {
+      "word": "puffer",
+      "mean": "河豚",
+      "img": "🐾",
+      "chunks": [
+        "puf",
+        "fer"
+      ],
+      "py": "",
+      "split": "puf + fer",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "mantis",
+      "mean": "螳螂",
+      "img": "🐾",
+      "chunks": [
+        "man",
+        "tis"
+      ],
+      "py": "",
+      "split": "man + tis",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "weevil",
+      "mean": "象鼻蟲",
+      "img": "🐾",
+      "chunks": [
+        "wee",
+        "vil"
+      ],
+      "py": "",
+      "split": "wee + vil",
+      "theme": "animals",
+      "stage": 2
     }
   ]
 }
