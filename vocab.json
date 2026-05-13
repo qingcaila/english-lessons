@@ -4476,10 +4476,11 @@
       "mean": "出在外",
       "img": "📤",
       "chunks": [
-        "out"
+        "o",
+        "ut"
       ],
       "py": "ㄠㄊ",
-      "split": "無 onset",
+      "split": "o + ut",
       "theme": "directions",
       "stage": 1
     },
@@ -88369,7 +88370,7 @@
     },
     {
       "word": "tofu",
-      "mean": "—",
+      "mean": "豆腐",
       "img": "🏃",
       "chunks": [
         "to",
@@ -114433,7 +114434,7 @@
     },
     {
       "word": "congressman",
-      "mean": "—",
+      "mean": "國會議員",
       "img": "🏃",
       "chunks": [
         "con",
@@ -116204,7 +116205,7 @@
     },
     {
       "word": "eq",
-      "mean": "—",
+      "mean": "情商",
       "img": "🏃",
       "chunks": [
         "e",
