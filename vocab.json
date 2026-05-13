@@ -135724,6 +135724,250 @@
       "split": "ra + ven",
       "theme": "animals",
       "stage": 1
+    },
+    {
+      "word": "chinchilla",
+      "mean": "龍貓",
+      "img": "🐾",
+      "chunks": [
+        "chin",
+        "chil",
+        "la"
+      ],
+      "py": "ㄎㄏㄧㄋㄎㄏㄧㄌㄌㄚ",
+      "split": "chin + chil + la",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "guinea",
+      "mean": "天竺鼠",
+      "img": "🐾",
+      "chunks": [
+        "gui",
+        "nea"
+      ],
+      "py": "ㄍㄚㄧㄋㄝㄚ",
+      "split": "gui + nea",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "ferret",
+      "mean": "雪貂",
+      "img": "🐾",
+      "chunks": [
+        "fer",
+        "ret"
+      ],
+      "py": "ㄈㄝㄖㄖㄝㄊ",
+      "split": "fer + ret",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "chipmunk",
+      "mean": "花栗鼠",
+      "img": "🐾",
+      "chunks": [
+        "chip",
+        "munk"
+      ],
+      "py": "ㄎㄏㄧㄆㄇㄚㄋㄎ",
+      "split": "chip + munk",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "porcupine",
+      "mean": "豪豬",
+      "img": "🐾",
+      "chunks": [
+        "por",
+        "cu",
+        "pi",
+        "ne"
+      ],
+      "py": "ㄆㄛㄖㄎㄚㄆㄧㄋㄝ",
+      "split": "por + cu + pi + ne",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "platypus",
+      "mean": "鴨嘴獸",
+      "img": "🐾",
+      "chunks": [
+        "pla",
+        "ty",
+        "pus"
+      ],
+      "py": "ㄆㄌㄚㄊㄧㄆㄚㄙ",
+      "split": "pla + ty + pus",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "cougar",
+      "mean": "美洲獅",
+      "img": "🐾",
+      "chunks": [
+        "cou",
+        "gar"
+      ],
+      "py": "ㄎㄛㄚㄍㄚㄖ",
+      "split": "cou + gar",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "lynx",
+      "mean": "山貓",
+      "img": "🐾",
+      "chunks": [
+        "ly",
+        "nx"
+      ],
+      "py": "ㄌㄧㄋㄎㄙ",
+      "split": "ly + nx",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "bobcat",
+      "mean": "短尾貓",
+      "img": "🐾",
+      "chunks": [
+        "bob",
+        "cat"
+      ],
+      "py": "ㄅㄛㄅㄎㄚㄊ",
+      "split": "bob + cat",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "mongoose",
+      "mean": "獴",
+      "img": "🐾",
+      "chunks": [
+        "mon",
+        "goo",
+        "se"
+      ],
+      "py": "ㄇㄛㄋㄍㄛㄛㄙㄝ",
+      "split": "mon + goo + se",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "meerkat",
+      "mean": "狐獴",
+      "img": "🐾",
+      "chunks": [
+        "meer",
+        "kat"
+      ],
+      "py": "ㄇㄝㄝㄖㄎㄚㄊ",
+      "split": "meer + kat",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "orangutan",
+      "mean": "紅毛猩猩",
+      "img": "🐾",
+      "chunks": [
+        "o",
+        "ran",
+        "gu",
+        "tan"
+      ],
+      "py": "ㄛㄖㄚㄋㄍㄚㄊㄚㄋ",
+      "split": "o + ran + gu + tan",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "baboon",
+      "mean": "狒狒",
+      "img": "🐾",
+      "chunks": [
+        "ba",
+        "boon"
+      ],
+      "py": "ㄅㄚㄅㄛㄛㄋ",
+      "split": "ba + boon",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "lemur",
+      "mean": "狐猴",
+      "img": "🐾",
+      "chunks": [
+        "le",
+        "mur"
+      ],
+      "py": "ㄌㄝㄇㄚㄖ",
+      "split": "le + mur",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "armadillo",
+      "mean": "犰狳",
+      "img": "🐾",
+      "chunks": [
+        "ar",
+        "ma",
+        "dil",
+        "lo"
+      ],
+      "py": "ㄚㄖㄇㄚㄉㄧㄌㄌㄛ",
+      "split": "ar + ma + dil + lo",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "anteater",
+      "mean": "食蟻獸",
+      "img": "🐾",
+      "chunks": [
+        "an",
+        "tea",
+        "ter"
+      ],
+      "py": "ㄚㄋㄊㄝㄚㄊㄝㄖ",
+      "split": "an + tea + ter",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "badger",
+      "mean": "獾",
+      "img": "🐾",
+      "chunks": [
+        "bad",
+        "ger"
+      ],
+      "py": "ㄅㄚㄉㄍㄝㄖ",
+      "split": "bad + ger",
+      "theme": "animals",
+      "stage": 2
+    },
+    {
+      "word": "weasel",
+      "mean": "黃鼠狼",
+      "img": "🐾",
+      "chunks": [
+        "wea",
+        "sel"
+      ],
+      "py": "ㄨㄝㄚㄙㄝㄌ",
+      "split": "wea + sel",
+      "theme": "animals",
+      "stage": 2
     }
   ]
 }
