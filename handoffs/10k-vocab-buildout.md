@@ -256,7 +256,7 @@ git push
 - [x] **C2**(+259 / 累計 3,517)toys 69 / art 50 / hobbies 50 / games 50 / movies-tv 50
 - [x] **C3**(+399 / 累計 3,916)medical 80 / fitness 77 / diseases 80 / office 80 / business 82
 - [x] **C4**(+373 / 累計 4,289)economy 80 / internet 82 / media 70 / events 70 / environment 71 — 突破 40% 🎯
-- [ ] **C5**(+~400 / 累計 ~6,200)science / history / geography
+- [x] **C5**(+251 / 累計 4,540)science 91 / history 82 / geography 78
 - [ ] **C6**(+~300 / 累計 ~6,500)emergencies / crime / law(基礎)
 
 ### Stage D:Stage 3-4 學術 + 收尾(6,500 → 10,000+)
