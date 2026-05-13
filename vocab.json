@@ -135431,6 +135431,233 @@
       "split": "zea + lot",
       "theme": "exam-7000",
       "stage": 3
+    },
+    {
+      "word": "banjo",
+      "mean": "班卓琴",
+      "img": "📚",
+      "chunks": [
+        "ban",
+        "jo"
+      ],
+      "py": "ㄅㄚㄋㄐㄛ",
+      "split": "ban + jo",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "bassoon",
+      "mean": "低音管",
+      "img": "📚",
+      "chunks": [
+        "bas",
+        "soon"
+      ],
+      "py": "ㄅㄚㄙㄙㄛㄛㄋ",
+      "split": "bas + soon",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "cymbal",
+      "mean": "鈸",
+      "img": "📚",
+      "chunks": [
+        "cym",
+        "bal"
+      ],
+      "py": "ㄎㄧㄇㄅㄚㄌ",
+      "split": "cym + bal",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "mandolin",
+      "mean": "曼陀林",
+      "img": "📚",
+      "chunks": [
+        "man",
+        "do",
+        "lin"
+      ],
+      "py": "ㄇㄚㄋㄉㄛㄌㄧㄋ",
+      "split": "man + do + lin",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "oboe",
+      "mean": "雙簧管",
+      "img": "📚",
+      "chunks": [
+        "o",
+        "boe"
+      ],
+      "py": "ㄛㄅㄛㄝ",
+      "split": "o + boe",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "tambourine",
+      "mean": "鈴鼓",
+      "img": "📚",
+      "chunks": [
+        "tam",
+        "bou",
+        "ri",
+        "ne"
+      ],
+      "py": "ㄊㄚㄇㄅㄛㄚㄖㄧㄋㄝ",
+      "split": "tam + bou + ri + ne",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "tuba",
+      "mean": "低音號",
+      "img": "📚",
+      "chunks": [
+        "tu",
+        "ba"
+      ],
+      "py": "ㄊㄚㄅㄚ",
+      "split": "tu + ba",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "viola",
+      "mean": "中提琴",
+      "img": "📚",
+      "chunks": [
+        "vio",
+        "la"
+      ],
+      "py": "ㄨㄧㄛㄌㄚ",
+      "split": "vio + la",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "downpour",
+      "mean": "傾盆大雨",
+      "img": "📚",
+      "chunks": [
+        "dow",
+        "npour"
+      ],
+      "py": "ㄉㄛㄨㄋㄆㄛㄚㄖ",
+      "split": "dow + npour",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "flurry",
+      "mean": "陣雪",
+      "img": "📚",
+      "chunks": [
+        "flur",
+        "ry"
+      ],
+      "py": "ㄈㄌㄚㄖㄖㄧ",
+      "split": "flur + ry",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "hailstone",
+      "mean": "冰雹",
+      "img": "📚",
+      "chunks": [
+        "hail",
+        "sto",
+        "ne"
+      ],
+      "py": "ㄏㄚㄧㄌㄙㄊㄛㄋㄝ",
+      "split": "hail + sto + ne",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "sleet",
+      "mean": "凍雨",
+      "img": "📚",
+      "chunks": [
+        "sle",
+        "et"
+      ],
+      "py": "ㄙㄌㄝㄝㄊ",
+      "split": "sle + et",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "twister",
+      "mean": "龍捲風",
+      "img": "📚",
+      "chunks": [
+        "twis",
+        "ter"
+      ],
+      "py": "ㄊㄨㄧㄙㄊㄝㄖ",
+      "split": "twis + ter",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "whirlwind",
+      "mean": "旋風",
+      "img": "📚",
+      "chunks": [
+        "whir",
+        "lwind"
+      ],
+      "py": "ㄨㄏㄧㄖㄌㄨㄧㄋㄉ",
+      "split": "whir + lwind",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "mudslide",
+      "mean": "泥石流",
+      "img": "📚",
+      "chunks": [
+        "mud",
+        "sli",
+        "de"
+      ],
+      "py": "ㄇㄚㄉㄙㄌㄧㄉㄝ",
+      "split": "mud + sli + de",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "volcanic",
+      "mean": "火山的",
+      "img": "📚",
+      "chunks": [
+        "vol",
+        "ca",
+        "nic"
+      ],
+      "py": "ㄨㄛㄌㄎㄚㄋㄧㄎ",
+      "split": "vol + ca + nic",
+      "theme": "exam-7000",
+      "stage": 2
+    },
+    {
+      "word": "windmill",
+      "mean": "風車",
+      "img": "📚",
+      "chunks": [
+        "win",
+        "dmill"
+      ],
+      "py": "ㄨㄧㄋㄉㄇㄧㄌㄌ",
+      "split": "win + dmill",
+      "theme": "exam-7000",
+      "stage": 2
     }
   ]
 }
