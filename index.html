@@ -298,16 +298,19 @@ let selectedMode = null;
 let selectedTheme = null;
 
 async function loadAll() {
+  // ★ 先 render 不依賴 vocab/themes 的部分(localStorage 瞬間可讀)
+  renderStage();    // Stage 下拉、累積/獨佔 hint、L4 統計
+  renderModes();    // 記住模式恢復
+  renderHistory();  // 已上輪次
+
+  // ★ 再等 fetch 完成,渲染依賴主題/字表的部分
   const [v, t] = await Promise.all([
     fetch("vocab.json").then(r => r.json()),
     fetch("themes.json").then(r => r.json())
   ]);
   VOCAB = v; THEMES = t;
-  renderStage();
-  renderModes();
-  renderThemes();
-  renderHistory();
-  renderThemeStats();
+  renderThemes();       // 選主題格(73 tile)
+  renderThemeStats();   // 主題進度(73 條目)
 }
 
 function renderStage() {
