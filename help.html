@@ -176,7 +176,13 @@
     <div class="step">
       <div class="n">3</div>
       <div class="body">
-        <b>iOS 設定</b>:設定 → 輔助使用 → 朗讀內容 → 聲音 → 英文 → 下載 Samantha 或 Sangeeta「增強版 / 高級」,網站會自動挑女聲增強版。
+        <b>iOS 聲音設定(重要!影響發音品質)</b>:設定 → 輔助使用 → 朗讀內容 → 聲音 → 英文 → 下載以下任一:
+        <ul style="margin:4px 0 4px 16px;font-size:12px;line-height:1.5;">
+          <li><b>Siri 聲音</b>(最自然,神經網路語音)</li>
+          <li><b>Samantha(高級/Premium)</b></li>
+          <li><b>Sangeeta(增強版/Enhanced)</b></li>
+        </ul>
+        <span style="color:var(--accent);font-size:12px;">⚠️ 沒下載增強/高級版本的話,系統會用普通 TTS,聲音會很平淡像機器。下載後本網站會自動偵測並使用最好的女聲。</span>
       </div>
     </div>
     <div class="step">
@@ -480,11 +486,20 @@
   <!-- 10 -->
   <h2 id="trouble">10. 遇到問題?</h2>
   <div class="card">
-    <h3>聲音不會唸 / 唸得很怪</h3>
+    <h3>聲音不會唸 / 唸得很平淡像機器</h3>
     <ul class="feature-list">
       <li>確認手機沒靜音</li>
-      <li>iOS 設定 → 輔助使用 → 朗讀內容 → 聲音 → 英文 → 下載「增強版」女聲</li>
+      <li><b>⚠️ 聲音平淡的主因</b>:沒下載「增強/高級」語音包。iOS 預設只裝普通 TTS,聲調平、機械感重。</li>
+      <li><b>解法</b>:iOS 設定 → 輔助使用 → 朗讀內容 → 聲音 → 英文 → 下載任一:
+        <ul style="margin:2px 0 0 16px;">
+          <li><b>Siri 聲音</b>(神經網路,最自然)</li>
+          <li><b>Samantha(高級/Premium)</b></li>
+          <li><b>Sangeeta(增強版/Enhanced)</b></li>
+        </ul>
+      </li>
+      <li>下載後重新整理網站,即會自動使用</li>
       <li>第一次點 🔊 可能要等 1 秒載入聲音</li>
+      <li>網站本身的 pitch 已調為 1.05(略高,讓聲音更活潑),但**根本改善要靠 iOS 語音包**</li>
     </ul>
 
     <h3>頁面壞掉 / 卡住</h3>
