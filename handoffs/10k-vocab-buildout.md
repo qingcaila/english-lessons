@@ -257,7 +257,7 @@ git push
 - [x] **C3**(+399 / 累計 3,916)medical 80 / fitness 77 / diseases 80 / office 80 / business 82
 - [x] **C4**(+373 / 累計 4,289)economy 80 / internet 82 / media 70 / events 70 / environment 71 — 突破 40% 🎯
 - [x] **C5**(+251 / 累計 4,540)science 91 / history 82 / geography 78
-- [ ] **C6**(+~300 / 累計 ~6,500)emergencies / crime / law(基礎)
+- [x] **C6**(+239 / 累計 4,779)emergencies 79 / crime 80 / law 80 — **Stage C 全部完成** ✅
 
 ### Stage D:Stage 3-4 學術 + 收尾(6,500 → 10,000+)
 - [ ] **D1**(+~400 / 累計 ~6,900)politics / religion / philosophy
