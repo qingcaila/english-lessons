@@ -135658,6 +135658,72 @@
       "split": "win + dmill",
       "theme": "exam-7000",
       "stage": 2
+    },
+    {
+      "word": "squid",
+      "mean": "魷魚",
+      "img": "🐾",
+      "chunks": [
+        "squ",
+        "id"
+      ],
+      "py": "ㄙㄎㄚㄧㄉ",
+      "split": "squ + id",
+      "theme": "animals",
+      "stage": 1
+    },
+    {
+      "word": "walrus",
+      "mean": "海象",
+      "img": "🐾",
+      "chunks": [
+        "wal",
+        "rus"
+      ],
+      "py": "ㄨㄚㄌㄖㄚㄙ",
+      "split": "wal + rus",
+      "theme": "animals",
+      "stage": 1
+    },
+    {
+      "word": "falcon",
+      "mean": "獵鷹",
+      "img": "🐾",
+      "chunks": [
+        "fal",
+        "con"
+      ],
+      "py": "ㄈㄚㄌㄎㄛㄋ",
+      "split": "fal + con",
+      "theme": "animals",
+      "stage": 1
+    },
+    {
+      "word": "vulture",
+      "mean": "禿鷹",
+      "img": "🐾",
+      "chunks": [
+        "vul",
+        "tu",
+        "re"
+      ],
+      "py": "ㄨㄚㄌㄊㄚㄖㄝ",
+      "split": "vul + tu + re",
+      "theme": "animals",
+      "stage": 1
+    },
+    {
+      "word": "raven",
+      "mean": "渡鴉",
+      "img": "🐾",
+      "chunks": [
+        "ra",
+        "ven"
+      ],
+      "py": "ㄖㄚㄨㄝㄋ",
+      "split": "ra + ven",
+      "theme": "animals",
+      "stage": 1
     }
   ]
 }
