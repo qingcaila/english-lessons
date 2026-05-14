@@ -104,3 +104,68 @@
 3. **大量閱讀**(版權 / 持續性大工)
 
 每個都可以分階段做:先架構框架 + 少量內容,後續慢慢補。
+
+---
+
+## 主對話新加的待辦(2026-05-13 主對話貢獻)
+
+### 內容擴充(系統已建,但示範字太少)
+
+- [ ] **家族線 — 不規則動詞**:目前 5 字示範(went / saw / said / took / eaten),**目標 100+ 高頻動詞家族**
+  - 補:knew / made / came / did / gave / brought / bought / taught / felt / kept / told / found / sold / left / lost / put / cut / hit / read / let / set / met / sat / spent / sent / spoke / stood / understood / wrote / drove / chose / froze / wore / tore / threw / blew / grew / drew / flew / knew...
+  - 每筆要有 `base` + `family-note`(白話 + 文法名詞)
+
+- [ ] **家族線 — 拼字變化**:目前 5 字示範(running / studied / babies / bigger / walked),**目標 100+**
+  - 補:-ing 動詞(swimming / hopping / shopping / planning...)
+  - -ed 過去式(played / wanted / watched / cleaned...)
+  - 複數 -ies(cities / parties / stories...)
+  - 比較級 -er / 最高級 -est(smaller / smallest / nicer / nicest...)
+
+- [ ] **同音異字 / 同字異義**:從未開始
+  - 高頻陷阱:there/their/they're, to/too/two, your/you're, its/it's, then/than, lose/loose
+  - 在卡片加「⚠️ 易混提示」一行,連到同音字
+
+- [ ] **phrasal-verbs 擴充**:目前 ~15(主對話加的)
+  - 對話 3 的 B6 批次本來規劃要做,**進度未知**
+  - 目標 100+(look up/after/for, get on/off/in/out, bring up/back...)
+
+- [ ] **connectors 擴充**:目前 ~15(主對話加的)
+  - 目標 30-50(however/therefore/although/regardless/likewise/conversely/specifically/eventually/clearly...)
+
+### 已完成 ✓(對話 3 + 主對話貢獻)
+
+- ✅ 字量達標:**10,005 字**(原訂 10K)
+- ✅ 主題系統:**57 個主題 / 10 分類**(52 + 主對話加的 5:materials/tools/countries/phrasal-verbs/connectors)
+- ✅ 5 階段下拉 + 不洗資料硬規則
+- ✅ 拆字唸 + 點唸計數 + NEW 標籤 + 注音切換
+- ✅ 6 種學習模式 + 結束 / 下一輪按鈕
+- ✅ 考自己模式(quiz.html)
+- ✅ emoji 自評(可選,不強制)
+- ✅ **家族線**(lesson.html + quiz.html + 10 示範字)
+- ✅ 主題進度漸層條(L1→L5 視覺化 + 排序)
+- ✅ L1-L5 解釋卡(首頁底部)
+- ✅ 資料品質檢查工具(validate.html)
+- ✅ 使用說明 help.html(11 段完整教學)
+- ✅ 交接機制(handoffs/ 子資料夾,跨對話協調規則)
+- ✅ Stage 切換永遠不洗資料(硬規則 + 記憶系統)
+
+### 系統 / UX 待辦(低優先,等需要再做)
+
+- [ ] **主題進度卡點主題 → 直接進該主題課程**(現在還要回模式選單)
+- [ ] **「最常播音的字 Top 10」儀表板區塊**(用 playCount 數據)
+- [ ] **跨裝置同步**(目前 localStorage 限單裝置,匯出 JSON 是手動 workaround)
+- [ ] **vocab.json 太大優化**:已 192,837 行,載入時間變慢
+  - 選項:分檔(stage-0.json / stage-1.json...)/ lazy load / 預先 minify
+- [ ] **大量閱讀整合**(已在上面字根字綴 section,排在最低優先)
+
+### 進階 phonics(input-focused 非急,聽多了自然會)
+
+- [ ] **重音 / schwa 標記**(banana 第一音節弱讀)
+- [ ] **連音 / linking 提示**("an apple" 唸 anapple)
+- [ ] **美音 /t/ flap**(water → wadder)
+
+### 文件 / 教學
+
+- [ ] **profile.md / syllabus.md** 更新到目前 10K 字量現況(舊版仍寫 224 起點)
+- [ ] **help.html §5 範例卡片**展示家族線(現在 demo 沒體現新功能)
+- [ ] 累積紀錄表新增「對話 1 +10 字 家族線 + UI 系統」紀錄
