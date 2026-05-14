@@ -91,14 +91,33 @@
     margin-bottom: 3px; border-radius: 6px; padding: 4px 8px;
     display: grid;
     grid-template-columns: 30px 1fr auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
       "num wordline meaning actions"
-      "img split    meaning actions";
-    column-gap: 5px; row-gap: 0;
+      "img split    meaning actions"
+      "family family family family";
+    column-gap: 5px; row-gap: 1px;
     align-items: center;
     min-height: 72px;
   }
+  .family-line {
+    grid-area: family;
+    font-size: 11px;
+    color: #d97e54;
+    background: #fef0e6;
+    padding: 2px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 2px;
+    width: fit-content;
+    max-width: 100%;
+    word-wrap: break-word;
+    line-height: 1.3;
+  }
+  .family-line:hover { background: #d97e54; color: #fff; }
+  .family-line .arrow { font-weight: 700; margin: 0 2px; }
+  .family-line .note { color: var(--muted); margin-left: 4px; font-size: 10px; }
+  .family-line:hover .note { color: #fff; }
   /* split 內 note 允許自由換行,卡片高度隨內容 */
   .split { word-wrap: break-word; white-space: normal; }
   tbody tr.is-review { border-left: 3px solid var(--accent); }
@@ -332,6 +351,9 @@ function render() {
     const wordInner = (w.chunks && w.chunks.length > 1)
       ? w.chunks.map(c => `<span class="chunk" onclick="speakChunk('${w.word}','${c}', event)">${c}</span>`).join("")
       : `<span>${w.word}</span>`;
+    const familyHtml = w.base
+      ? `<td class="family-line" onclick="speakBase('${w.base}', event)">${w.base}<span class="arrow">→</span>${w.word}${w['family-note'] ? `<span class="note">${w['family-note']}</span>` : ''}</td>`
+      : '';
     tr.innerHTML = `
       <td class="num">${w.n}${w.isReview ? "🔁" : ""}</td>
       <td class="meaning">
@@ -349,6 +371,7 @@ function render() {
         <button class="btn-know" onclick="markKnow(${w.n})" aria-label="會">✅</button>
         <button class="btn-forgot" onclick="markForgot(${w.n})" aria-label="不會">❌</button>
       </td>
+      ${familyHtml}
     `;
     tbody.appendChild(tr);
   });
@@ -433,6 +456,14 @@ function speakWordWithStress(w, onEnd) {
   speechSynthesis.speak(u);
 }
 
+function speakBase(baseWord, ev) {
+  if (ev) ev.stopPropagation();
+  stopAll();
+  const u = new SpeechSynthesisUtterance(baseWord);
+  u.lang = "en-US"; u.rate = rate;
+  if (chosenVoice) u.voice = chosenVoice;
+  speechSynthesis.speak(u);
+}
 function speakChunk(word, chunk, ev) {
   if (ev) ev.stopPropagation();
   stopAll();

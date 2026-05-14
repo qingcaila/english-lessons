@@ -192833,6 +192833,17 @@
         "exam-advanced"
       ],
       "note": "ping:ng 唸 ㄥ"
-    }
+    },
+
+    {"word":"went","mean":"去(過去)","img":"🚶","chunks":["w","ent"],"py":"ㄨㄝㄣㄊ","split":"w + ent","theme":"actions","stage":1,"base":"go","family-note":"已經做過的版本(過去式)"},
+    {"word":"saw","mean":"看見(過去)","img":"👀","chunks":["s","aw"],"py":"ㄙㄛ","split":"s + aw","theme":"actions","stage":1,"base":"see","family-note":"已經看過的版本(過去式)"},
+    {"word":"said","mean":"說(過去)","img":"🗣️","chunks":["s","aid"],"py":"ㄙㄝㄉ","split":"s + aid(ai 不規則唸 ε)","theme":"actions","stage":1,"base":"say","family-note":"已經說過的版本(過去式)"},
+    {"word":"took","mean":"拿(過去)","img":"✋","chunks":["t","ook"],"py":"ㄊㄨㄎ","split":"t + ook(短 oo)","theme":"actions","stage":1,"base":"take","family-note":"已經拿過的版本(過去式)"},
+    {"word":"running","mean":"跑步中","img":"🏃","chunks":["run","ning"],"py":"ㄖㄚ-ㄋㄧㄥ","split":"run + ning","theme":"actions","stage":1,"base":"run","family-note":"正在跑的版本(進行式,+ing 雙 n)"},
+    {"word":"studied","mean":"學習(過去)","img":"📚","chunks":["stud","ied"],"py":"ㄙㄉㄚ-ㄉㄧㄉ","split":"stud + ied(y→i+ed)","theme":"actions","stage":1,"base":"study","family-note":"已經學過的版本(過去式,y 變 i + ed)"},
+    {"word":"babies","mean":"嬰兒(複數)","img":"👶","chunks":["ba","bies"],"py":"ㄅㄟ-ㄅㄧㄗ","split":"ba + bies","theme":"family","stage":1,"base":"baby","family-note":"「很多個」的版本(複數,y 變 ies)"},
+    {"word":"bigger","mean":"更大","img":"📏","chunks":["big","ger"],"py":"ㄅㄧ-ㄍㄜ","split":"big + ger(雙 g)","theme":"adjectives","stage":1,"base":"big","family-note":"「更大」的版本(比較級,+er 雙 g)"},
+    {"word":"walked","mean":"走(過去)","img":"🚶","chunks":["walk","ed"],"py":"ㄨㄛㄎㄊ","split":"walk + ed","theme":"actions","stage":1,"base":"walk","family-note":"已經走過的版本(過去式,+ed)"},
+    {"word":"eaten","mean":"吃過(p.p.)","img":"🍽️","chunks":["eat","en"],"py":"ㄧ-ㄊㄣ","split":"eat + en","theme":"actions","stage":1,"base":"eat","family-note":"「吃過了」配 have 用的版本(過去分詞)"}
   ]
 }

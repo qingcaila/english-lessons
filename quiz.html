@@ -172,9 +172,15 @@ function revealAnswer() {
   const inner = (w.chunks && w.chunks.length > 1)
     ? w.chunks.map(c => `<span class="chunk" onclick="speak('${c}')">${c}</span>`).join("")
     : `<span>${w.word}</span>`;
+  const familyHtml = w.base
+    ? `<div style="font-size:13px;color:#d97e54;background:#fef0e6;padding:4px 8px;border-radius:4px;margin-top:8px;cursor:pointer;" onclick="speak('${w.base}')">
+         ${w.base} <b style="margin:0 3px;">→</b> ${w.word}${w['family-note'] ? `<span style="color:var(--muted);margin-left:6px;font-size:11px;">${w['family-note']}</span>` : ''}
+       </div>`
+    : '';
   document.getElementById("rv").innerHTML = `
     <div class="word" onclick="speak('${w.word}')">${inner}</div>
     <div class="split">${w.split || ""}</div>
+    ${familyHtml}
   `;
   document.getElementById("rv").classList.add("on");
   document.getElementById("judge").style.display = "flex";
