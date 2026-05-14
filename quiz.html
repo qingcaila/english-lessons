@@ -177,10 +177,14 @@ function revealAnswer() {
          ${w.base} <b style="margin:0 3px;">→</b> ${w.word}${w['family-note'] ? `<span style="color:var(--muted);margin-left:6px;font-size:11px;">${w['family-note']}</span>` : ''}
        </div>`
     : '';
+  const homoHtml = w['homophone-note']
+    ? `<div style="font-size:12px;color:#8a6d3b;background:#fcf3d4;padding:4px 8px;border-radius:4px;margin-top:6px;border-left:2px solid #d4a72c;text-align:left;">${w['homophone-note']}</div>`
+    : '';
   document.getElementById("rv").innerHTML = `
     <div class="word" onclick="speak('${w.word}')">${inner}</div>
     <div class="split">${w.split || ""}</div>
     ${familyHtml}
+    ${homoHtml}
   `;
   document.getElementById("rv").classList.add("on");
   document.getElementById("judge").style.display = "flex";

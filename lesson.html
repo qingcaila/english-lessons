@@ -95,7 +95,8 @@
     grid-template-areas:
       "num wordline meaning actions"
       "img split    meaning actions"
-      "family family family family";
+      "family family family family"
+      "homo   homo   homo   homo";
     column-gap: 5px; row-gap: 1px;
     align-items: center;
     min-height: 72px;
@@ -118,6 +119,20 @@
   .family-line .arrow { font-weight: 700; margin: 0 2px; }
   .family-line .note { color: var(--muted); margin-left: 4px; font-size: 10px; }
   .family-line:hover .note { color: #fff; }
+  .homophone-line {
+    grid-area: homo;
+    font-size: 11px;
+    color: #8a6d3b;
+    background: #fcf3d4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-top: 2px;
+    width: fit-content;
+    max-width: 100%;
+    word-wrap: break-word;
+    line-height: 1.3;
+    border-left: 2px solid #d4a72c;
+  }
   /* split 內 note 允許自由換行,卡片高度隨內容 */
   .split { word-wrap: break-word; white-space: normal; }
   tbody tr.is-review { border-left: 3px solid var(--accent); }
@@ -354,6 +369,9 @@ function render() {
     const familyHtml = w.base
       ? `<td class="family-line" onclick="speakBase('${w.base}', event)">${w.base}<span class="arrow">→</span>${w.word}${w['family-note'] ? `<span class="note">${w['family-note']}</span>` : ''}</td>`
       : '';
+    const homoHtml = w['homophone-note']
+      ? `<td class="homophone-line">${w['homophone-note']}</td>`
+      : '';
     tr.innerHTML = `
       <td class="num">${w.n}${w.isReview ? "🔁" : ""}</td>
       <td class="meaning">
@@ -372,6 +390,7 @@ function render() {
         <button class="btn-forgot" onclick="markForgot(${w.n})" aria-label="不會">❌</button>
       </td>
       ${familyHtml}
+      ${homoHtml}
     `;
     tbody.appendChild(tr);
   });

@@ -233,7 +233,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "o 唸 ㄨㄢ(不規則,字面沒 w 但實際有 w 音)"
+      "note": "o 唸 ㄨㄢ(不規則,字面沒 w 但實際有 w 音)",
+      "homophone-note": "⚠️ 同音字:one 一 / won win 的過去式"
     },
     {
       "word": "two",
@@ -254,7 +255,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "w 不發音,唸 ㄊㄨ"
+      "note": "w 不發音,唸 ㄊㄨ",
+      "homophone-note": "⚠️ 同音字:two 二 / to 向 / too 也、太"
     },
     {
       "word": "three",
@@ -460,7 +462,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "同 right"
+      "note": "同 right",
+      "homophone-note": "⚠️ 同音字:night 夜晚 / knight 騎士(k 不發音)"
     },
     {
       "word": "morning",
@@ -545,7 +548,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eek:ee 唸 ㄧ 長音"
+      "note": "eek:ee 唸 ㄧ 長音",
+      "homophone-note": "⚠️ 同音字:week 一週 / weak 弱的"
     },
     {
       "word": "month",
@@ -608,7 +612,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "h 不發音(唸 ㄠㄦ)"
+      "note": "h 不發音(唸 ㄠㄦ)",
+      "homophone-note": "⚠️ 同音字:hour 小時(h 不發音)/ our 我們的"
     },
     {
       "word": "minute",
@@ -919,7 +924,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eye:ey 唸 ㄧ 或 ㄟ"
+      "note": "eye:ey 唸 ㄧ 或 ㄟ",
+      "homophone-note": "⚠️ 同音字:eye 眼睛 / I 我"
     },
     {
       "word": "ear",
@@ -1082,7 +1088,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ue:ue 唸 ㄩ"
+      "note": "ue:ue 唸 ㄩ",
+      "homophone-note": "⚠️ 同音字:blue 藍色 / blew blow 的過去式"
     },
     {
       "word": "green",
@@ -1435,7 +1442,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eat:ea 唸 ㄧ(部分例外)"
+      "note": "eat:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:meat 肉 / meet 見面"
     },
     {
       "word": "egg",
@@ -1767,7 +1775,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ear:ea 唸 ㄧ(部分例外)"
+      "note": "ear:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:bear 熊、忍受 / bare 赤裸的"
     },
     {
       "word": "lion",
@@ -2096,7 +2105,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:sun 太陽 / son 兒子"
     },
     {
       "word": "rain",
@@ -2386,7 +2396,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "oad:oa 唸 ㄛ"
+      "note": "oad:oa 唸 ㄛ",
+      "homophone-note": "⚠️ 同音字:road 馬路 / rode ride 的過去式"
     },
     {
       "word": "beach",
@@ -2694,7 +2705,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "w 不發音"
+      "note": "w 不發音",
+      "homophone-note": "⚠️ 同音字:write 寫 / right 對的、右邊"
     },
     {
       "word": "big",
@@ -2837,7 +2849,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ew:ew 唸 ㄩ"
+      "note": "ew:ew 唸 ㄩ",
+      "homophone-note": "⚠️ 同音字:new 新的 / knew know 的過去式(k 不發音)"
     },
     {
       "word": "old",
@@ -2980,7 +2993,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:plane 飛機 / plain 樸素的、平原"
     },
     {
       "word": "bike",
@@ -3187,7 +3201,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ared:ar 唸 ㄚㄦ(R 控制);-ed 過去式"
+      "note": "ared:ar 唸 ㄚㄦ(R 控制);-ed 過去式",
+      "base": "scare",
+      "family-note": "人覺得害怕的(描述人,+ed 形容詞)"
     },
     {
       "word": "tired",
@@ -3208,7 +3224,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ti:開音節,母音唸長音;red:子音+短母音+子音;-ed 過去式"
+      "note": "ti:開音節,母音唸長音;red:子音+短母音+子音;-ed 過去式",
+      "base": "tire",
+      "family-note": "人覺得累的(描述人,+ed 形容詞)"
     },
     {
       "word": "excited",
@@ -3230,7 +3248,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ci:開音節,母音唸長音;ted:子音+短母音+子音;-ed 過去式"
+      "note": "ci:開音節,母音唸長音;ted:子音+短母音+子音;-ed 過去式",
+      "base": "excite",
+      "family-note": "人覺得興奮的(描述人,+ed 形容詞)"
     },
     {
       "word": "bored",
@@ -3251,7 +3271,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ored:or 唸 ㄛㄦ(R 控制);-ed 過去式"
+      "note": "ored:or 唸 ㄛㄦ(R 控制);-ed 過去式",
+      "base": "bore",
+      "family-note": "人覺得無聊的(描述人,+ed 形容詞)"
     },
     {
       "word": "love",
@@ -3456,7 +3478,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ru:開音節,母音唸長音;ler:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "ru:開音節,母音唸長音;ler:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "rule",
+      "family-note": "做這件事的東西(rul + er,量尺)"
     },
     {
       "word": "teacher",
@@ -3477,7 +3501,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "tea:ea 唸 ㄧ(部分例外);cher:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "tea:ea 唸 ㄧ(部分例外);cher:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "base": "teach",
+      "family-note": "做這件事的人(teach + er,教書的人)"
     },
     {
       "word": "student",
@@ -3767,7 +3793,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "flow:ow 唸 ㄠ 或 ㄛ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "flow:ow 唸 ㄠ 或 ㄛ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "homophone-note": "⚠️ 同音字:flower 花 / flour 麵粉"
     },
     {
       "word": "leaf",
@@ -3995,7 +4022,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "far:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "far:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "farm",
+      "family-note": "做這件事的人(farm + er,務農的人)"
     },
     {
       "word": "cook",
@@ -4037,7 +4066,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ver:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "ver:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "drive",
+      "family-note": "做這件事的人(drive + r,開車的人)"
     },
     {
       "word": "police",
@@ -4100,7 +4131,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sing:ng 唸 ㄥ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "sing:ng 唸 ㄥ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "base": "sing",
+      "family-note": "做這件事的人(sing + er,唱歌的人)"
     },
     {
       "word": "baker",
@@ -4121,7 +4154,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ba:開音節,母音唸長音;ker:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "ba:開音節,母音唸長音;ker:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "bake",
+      "family-note": "做這件事的人(bake + r,烤麵包的人)"
     },
     {
       "word": "worker",
@@ -4142,7 +4177,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "wor:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "wor:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "work",
+      "family-note": "做這件事的人(work + er,做工的人)"
     },
     {
       "word": "soccer",
@@ -4557,7 +4594,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eat:ea 唸 ㄧ(部分例外)"
+      "note": "eat:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:beat 打敗 / beet 甜菜根"
     },
     {
       "word": "doll",
@@ -4771,7 +4809,8 @@
       "mean": "那個",
       "img": "🔖",
       "chunks": [
-        "the"
+        "th",
+        "e"
       ],
       "py": "ㄉㄜ",
       "split": "高頻不規則(th 弱化,母音弱讀)",
@@ -4967,7 +5006,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "is",
+      "family-note": "單數「是」的過去版本(過去式)"
     },
     {
       "word": "cup",
@@ -5601,7 +5642,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ear:ea 唸 ㄧ(部分例外)"
+      "note": "ear:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:pear 梨子 / pair 一對"
     },
     {
       "word": "lemon",
@@ -6966,7 +7008,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "leave",
+      "family-note": "已經離開的版本(過去式)"
     },
     {
       "word": "right",
@@ -6986,7 +7030,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音,igh 唸 ㄞ"
+      "note": "gh 不發音,igh 唸 ㄞ",
+      "homophone-note": "⚠️ 同音字:right 對的、右邊 / write 寫"
     },
     {
       "word": "in",
@@ -7558,7 +7603,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:sale 拍賣 / sail 帆"
     },
     {
       "word": "discount",
@@ -7656,7 +7702,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:sell 賣 / cell 細胞"
     },
     {
       "word": "shop",
@@ -7737,7 +7784,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "wai:ai 唸 ㄟ;ter:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "wai:ai 唸 ㄟ;ter:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "wait",
+      "family-note": "做這件事的人(wait + er,服務生)"
     },
     {
       "word": "chef",
@@ -7938,7 +7987,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "des:子音+短母音+子音;sert:er 唸 ㄜㄦ(R 控制)"
+      "note": "des:子音+短母音+子音;sert:er 唸 ㄜㄦ(R 控制)",
+      "homophone-note": "⚠️ 易混字:dessert 甜點(雙 s)/ desert 沙漠"
     },
     {
       "word": "buffet",
@@ -8556,7 +8606,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "com:子音+短母音+子音;pu:開音節,母音唸長音;-er 字尾(比較級/人)"
+      "note": "com:子音+短母音+子音;pu:開音節,母音唸長音;-er 字尾(比較級/人)",
+      "base": "compute",
+      "family-note": "做這件事的東西(compute + er,計算的機器)"
     },
     {
       "word": "phone",
@@ -8670,7 +8722,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "char:ar 唸 ㄚㄦ(R 控制);ger:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "char:ar 唸 ㄚㄦ(R 控制);ger:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "charge",
+      "family-note": "做這件事的東西(charg + er,充電器)"
     },
     {
       "word": "battery",
@@ -8803,7 +8857,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "fol:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "fol:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "fold",
+      "family-note": "做這件事的東西(fold + er,資料夾)"
     },
     {
       "word": "download",
@@ -8920,7 +8976,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ee:ee 唸 ㄧ 長音"
+      "note": "ee:ee 唸 ㄧ 長音",
+      "homophone-note": "⚠️ 同音字:see 看 / sea 海"
     },
     {
       "word": "look",
@@ -8962,7 +9019,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ear:ea 唸 ㄧ(部分例外)"
+      "note": "ear:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:hear 聽(動詞,有耳朵 ear)/ here 這裡"
     },
     {
       "word": "listen",
@@ -9145,7 +9203,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "k 不發音"
+      "note": "k 不發音",
+      "homophone-note": "⚠️ 同音字:know 知道(k 不發音)/ no 不"
     },
     {
       "word": "learn",
@@ -9388,7 +9447,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "put",
+      "family-note": "已經放的版本(過去式同形)"
     },
     {
       "word": "bring",
@@ -9611,7 +9672,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ait:ai 唸 ㄟ"
+      "note": "ait:ai 唸 ㄟ",
+      "homophone-note": "⚠️ 同音字:wait 等 / weight 重量"
     },
     {
       "word": "find",
@@ -9650,7 +9712,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 易混字:lose 失去(動詞)/ loose 鬆的(形容詞)"
     },
     {
       "word": "pay",
@@ -9754,7 +9817,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "cut",
+      "family-note": "已經切的版本(過去式同形)"
     },
     {
       "word": "break",
@@ -9774,7 +9839,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eak:ea 唸 ㄧ(部分例外)"
+      "note": "eak:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:break 打破、休息 / brake 煞車"
     },
     {
       "word": "fix",
@@ -9975,7 +10041,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "hit",
+      "family-note": "已經打的版本(過去式同形)"
     },
     {
       "word": "kick",
@@ -10618,7 +10686,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "qui:ui 唸 ㄨ"
+      "note": "qui:ui 唸 ㄨ",
+      "homophone-note": "⚠️ 易混字:quiet 安靜的(形容詞)/ quite 相當(副詞)"
     },
     {
       "word": "high",
@@ -10818,7 +10887,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eak:ea 唸 ㄧ(部分例外)"
+      "note": "eak:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:weak 弱的 / week 一週"
     },
     {
       "word": "young",
@@ -11018,7 +11088,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "bor:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式"
+      "note": "bor:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式",
+      "base": "bore",
+      "family-note": "讓人覺得無聊的(描述事物,+ing 形容詞)"
     },
     {
       "word": "interesting",
@@ -11039,7 +11111,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ter:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式"
+      "note": "ter:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式",
+      "base": "interest",
+      "family-note": "讓人覺得有趣的(描述事物,+ing 形容詞)"
     },
     {
       "word": "busy",
@@ -11594,7 +11668,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "wor:子音+短母音+子音;ried:ie 唸 ㄞ 或 ㄧ;-ed 過去式"
+      "note": "wor:子音+短母音+子音;ried:ie 唸 ㄞ 或 ㄧ;-ed 過去式",
+      "base": "worry",
+      "family-note": "已經擔心的版本(過去式,y 變 i + ed)"
     },
     {
       "word": "nervous",
@@ -11651,7 +11727,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "re:開音節,母音唸長音;-ed 過去式"
+      "note": "re:開音節,母音唸長音;-ed 過去式",
+      "base": "relax",
+      "family-note": "人覺得放鬆的(描述人,+ed 形容詞)"
     },
     {
       "word": "proud",
@@ -11729,7 +11807,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "con:子音+短母音+子音;-ed 過去式"
+      "note": "con:子音+短母音+子音;-ed 過去式",
+      "base": "confuse",
+      "family-note": "人覺得困惑的(描述人,+ed 形容詞)"
     },
     {
       "word": "surprised",
@@ -11749,7 +11829,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sur:子音+短母音+子音;-ed 過去式"
+      "note": "sur:子音+短母音+子音;-ed 過去式",
+      "base": "surprise",
+      "family-note": "人覺得驚訝的(描述人,+ed 形容詞)"
     },
     {
       "word": "shocked",
@@ -11768,7 +11850,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sh:sh 唸 ㄒ;ocked:ck 唸 ㄎ;-ed 過去式"
+      "note": "sh:sh 唸 ㄒ;ocked:ck 唸 ㄎ;-ed 過去式",
+      "base": "shock",
+      "family-note": "人覺得震驚的(描述人,+ed 形容詞)"
     },
     {
       "word": "embarrassed",
@@ -11788,7 +11872,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "bar:子音+短母音+子音;-ed 過去式"
+      "note": "bar:子音+短母音+子音;-ed 過去式",
+      "base": "embarrass",
+      "family-note": "人覺得尷尬的(描述人,+ed 形容詞)"
     },
     {
       "word": "brave",
@@ -11846,7 +11932,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "noyed:oy 唸 ㄛㄧ;-ed 過去式"
+      "note": "noyed:oy 唸 ㄛㄧ;-ed 過去式",
+      "base": "annoy",
+      "family-note": "人覺得煩的(描述人,+ed 形容詞)"
     },
     {
       "word": "grateful",
@@ -12006,7 +12094,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ma:開音節,母音唸長音;zing:ng 唸 ㄥ;-ing 進行式"
+      "note": "ma:開音節,母音唸長音;zing:ng 唸 ㄥ;-ing 進行式",
+      "base": "amaze",
+      "family-note": "讓人覺得驚奇的(描述事物,+ing 形容詞)"
     },
     {
       "word": "hurt",
@@ -12026,7 +12116,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "urt:ur 唸 ㄜㄦ(R 控制)"
+      "note": "urt:ur 唸 ㄜㄦ(R 控制)",
+      "base": "hurt",
+      "family-note": "已經受傷的版本(過去式同形)"
     },
     {
       "word": "joy",
@@ -12510,7 +12602,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:to 向(介系詞)/ too 也、太 / two 二"
     },
     {
       "word": "of",
@@ -12753,7 +12846,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "th:th 唸 ㄒ 或 ㄉ"
+      "note": "th:th 唸 ㄒ 或 ㄉ",
+      "homophone-note": "⚠️ 易混字:then 然後(時間)/ than 比(比較)"
     },
     {
       "word": "than",
@@ -12773,7 +12867,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "th:th 唸 ㄒ 或 ㄉ"
+      "note": "th:th 唸 ㄒ 或 ㄉ",
+      "homophone-note": "⚠️ 易混字:than 比(比較)/ then 然後(時間)"
     },
     {
       "word": "when",
@@ -13002,7 +13097,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "th:th 唸 ㄒ 或 ㄉ;ere:er 唸 ㄜㄦ(R 控制)"
+      "note": "th:th 唸 ㄒ 或 ㄉ;ere:er 唸 ㄜㄦ(R 控制)",
+      "homophone-note": "⚠️ 同音字:there 在那裡 / their 他們的 / they're 他們是"
     },
     {
       "word": "here",
@@ -13023,7 +13119,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ere:er 唸 ㄜㄦ(R 控制)"
+      "note": "ere:er 唸 ㄜㄦ(R 控制)",
+      "homophone-note": "⚠️ 同音字:here 這裡 / hear 聽(動詞)"
     },
     {
       "word": "some",
@@ -13182,7 +13279,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "many",
+      "family-note": "「最多」的版本(不規則最高級;也用於 much)"
     },
     {
       "word": "few",
@@ -13323,7 +13422,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "oo:oo 唸 ㄨ(可長可短)"
+      "note": "oo:oo 唸 ㄨ(可長可短)",
+      "homophone-note": "⚠️ 同音字:too 也、太 / to 向 / two 二"
     },
     {
       "word": "very",
@@ -13625,7 +13725,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "een:ee 唸 ㄧ 長音"
+      "note": "een:ee 唸 ㄧ 長音",
+      "base": "be",
+      "family-note": "已經當過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "were",
@@ -13645,7 +13747,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ere:er 唸 ㄜㄦ(R 控制)"
+      "note": "ere:er 唸 ㄜㄦ(R 控制)",
+      "base": "are",
+      "family-note": "複數「是」的過去版本(過去式)"
     },
     {
       "word": "are",
@@ -13726,7 +13830,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "have",
+      "family-note": "第三人稱單數(他/她/它有)"
     },
     {
       "word": "had",
@@ -13745,7 +13851,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "have",
+      "family-note": "已經有過的版本(過去式)"
     },
     {
       "word": "will",
@@ -13922,7 +14030,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "do",
+      "family-note": "已經做的版本(過去式)"
     },
     {
       "word": "does",
@@ -13942,7 +14052,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "o 唸 ㄚ(不規則)"
+      "note": "o 唸 ㄚ(不規則)",
+      "base": "do",
+      "family-note": "第三人稱單數(他/她/它做)"
     },
     {
       "word": "done",
@@ -13962,7 +14074,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "o 唸 ㄚ(不規則)"
+      "note": "o 唸 ㄚ(不規則)",
+      "base": "do",
+      "family-note": "已經做完的版本(過去分詞,配 have 用)"
     },
     {
       "word": "went",
@@ -14000,7 +14114,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "go",
+      "family-note": "已經去了的版本(過去分詞,配 have 用)"
     },
     {
       "word": "got",
@@ -14019,7 +14135,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "get",
+      "family-note": "已經得到的版本(過去式)"
     },
     {
       "word": "made",
@@ -14038,7 +14156,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "make",
+      "family-note": "已經做的版本(過去式)"
     },
     {
       "word": "saw",
@@ -14097,7 +14217,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "tell",
+      "family-note": "已經告訴的版本(過去式)"
     },
     {
       "word": "came",
@@ -14116,7 +14238,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "come",
+      "family-note": "已經來的版本(過去式)"
     },
     {
       "word": "took",
@@ -14155,7 +14279,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "give",
+      "family-note": "已經給的版本(過去式)"
     },
     {
       "word": "found",
@@ -14175,7 +14301,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ound:ou 唸 ㄠ(可有例外)"
+      "note": "ound:ou 唸 ㄠ(可有例外)",
+      "base": "find",
+      "family-note": "已經找到的版本(過去式)"
     },
     {
       "word": "thought",
@@ -14195,7 +14323,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音,唸 ㄒㄛㄊ"
+      "note": "gh 不發音,唸 ㄒㄛㄊ",
+      "base": "think",
+      "family-note": "已經想過的版本(過去式)"
     },
     {
       "word": "knew",
@@ -14215,7 +14345,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "字首 k 不發音(kn- 開頭)"
+      "note": "字首 k 不發音(kn- 開頭)",
+      "base": "know",
+      "family-note": "已經知道的版本(過去式)"
     },
     {
       "word": "its",
@@ -14234,7 +14366,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 易混字:its 牠的(所有格)/ it's 它是(= it is)"
     },
     {
       "word": "our",
@@ -14254,7 +14387,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ur:ur 唸 ㄜㄦ(R 控制)"
+      "note": "ur:ur 唸 ㄜㄦ(R 控制)",
+      "homophone-note": "⚠️ 同音字:our 我們的 / hour 小時(h 不發音)"
     },
     {
       "word": "their",
@@ -14274,7 +14408,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "th:th 唸 ㄒ 或 ㄉ;eir:ei 唸 ㄝ 或 ㄟ"
+      "note": "th:th 唸 ㄒ 或 ㄉ;eir:ei 唸 ㄝ 或 ㄟ",
+      "homophone-note": "⚠️ 同音字:their 他們的 / there 在那裡 / they're 他們是"
     },
     {
       "word": "his",
@@ -15745,7 +15880,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "air:ai 唸 ㄟ"
+      "note": "air:ai 唸 ㄟ",
+      "homophone-note": "⚠️ 同音字:pair 一對 / pear 梨子"
     },
     {
       "word": "couple",
@@ -16123,7 +16259,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "set",
+      "family-note": "已經設定的版本(過去式同形)"
     },
     {
       "word": "row",
@@ -16182,7 +16320,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "iece:末 e 不發音,母音唸長音"
+      "note": "iece:末 e 不發音,母音唸長音",
+      "homophone-note": "⚠️ 同音字:piece 一片 / peace 和平"
     },
     {
       "word": "part",
@@ -16223,7 +16362,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "wh:wh 唸 ㄨ"
+      "note": "wh:wh 唸 ㄨ",
+      "homophone-note": "⚠️ 同音字:whole 整個 / hole 洞"
     },
     {
       "word": "list",
@@ -17773,7 +17913,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ti:開音節,母音唸長音;mer:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "ti:開音節,母音唸長音;mer:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "time",
+      "family-note": "做這件事的東西(tim + er,計時器)"
     },
     {
       "word": "deadline",
@@ -18299,7 +18441,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "rise",
+      "family-note": "已經升起的版本(過去式)"
     },
     {
       "word": "ruby",
@@ -21311,7 +21455,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "wea:ea 唸 ㄧ(部分例外);ther:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "wea:ea 唸 ㄧ(部分例外);ther:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "homophone-note": "⚠️ 易混字:weather 天氣 / whether 是否"
     },
     {
       "word": "sunny",
@@ -21767,7 +21912,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "free:ee 唸 ㄧ 長音;zing:ng 唸 ㄥ;-ing 進行式"
+      "note": "free:ee 唸 ㄧ 長音;zing:ng 唸 ㄥ;-ing 進行式",
+      "base": "freeze",
+      "family-note": "冷到讓人結凍的(描述事物,+ing 形容詞)"
     },
     {
       "word": "mild",
@@ -22826,7 +22973,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "our:ou 唸 ㄠ(可有例外)"
+      "note": "our:ou 唸 ㄠ(可有例外)",
+      "homophone-note": "⚠️ 同音字:flour 麵粉 / flower 花"
     },
     {
       "word": "sugar",
@@ -23361,7 +23509,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ra:開音節,母音唸長音;ser:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "ra:開音節,母音唸長音;ser:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "erase",
+      "family-note": "做這件事的東西(eras + er,擦除工具)"
     },
     {
       "word": "marker",
@@ -23381,7 +23531,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "mar:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "mar:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "mark",
+      "family-note": "做這件事的東西(mark + er,做記號的筆)"
     },
     {
       "word": "crayon",
@@ -23725,7 +23877,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ci:開音節,母音唸長音;pal:子音+短母音+子音"
+      "note": "ci:開音節,母音唸長音;pal:子音+短母音+子音",
+      "homophone-note": "⚠️ 易混字:principal 校長、主要的 / principle 原則"
     },
     {
       "word": "classmate",
@@ -24464,7 +24617,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "hea:ea 唸 ㄧ(部分例外);ter:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "hea:ea 唸 ㄧ(部分例外);ter:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "heat",
+      "family-note": "做這件事的東西(heat + er,加熱器)"
     },
     {
       "word": "radiator",
@@ -24934,7 +25089,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "paint:ai 唸 ㄟ;ing:ng 唸 ㄥ;-ing 進行式"
+      "note": "paint:ai 唸 ㄟ;ing:ng 唸 ㄥ;-ing 進行式",
+      "base": "paint",
+      "family-note": "這個動作做出來的東西(paint + ing,畫作)"
     },
     {
       "word": "poster",
@@ -25052,7 +25209,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "han:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "han:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "hang",
+      "family-note": "做這件事的東西(hang + er,掛東西的工具)"
     },
     {
       "word": "hall",
@@ -25210,7 +25369,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gi:開音節,母音唸長音;neer:ee 唸 ㄧ 長音;-er 字尾(比較級/人)"
+      "note": "gi:開音節,母音唸長音;neer:ee 唸 ㄧ 長音;-er 字尾(比較級/人)",
+      "base": "engine",
+      "family-note": "懂引擎的人(engine + er,工程師)"
     },
     {
       "word": "designer",
@@ -25231,7 +25392,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "de:開音節,母音唸長音;sig:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "de:開音節,母音唸長音;sig:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "design",
+      "family-note": "做這件事的人(design + er,設計師)"
     },
     {
       "word": "writer",
@@ -25251,7 +25414,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "字首 w 不發音(wr- 開頭)"
+      "note": "字首 w 不發音(wr- 開頭)",
+      "base": "write",
+      "family-note": "做這件事的人(writ + er,作家)"
     },
     {
       "word": "actor",
@@ -25310,7 +25475,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "dan:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "dan:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "dance",
+      "family-note": "做這件事的人(danc + er,舞者)"
     },
     {
       "word": "musician",
@@ -25351,7 +25518,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "pain:ai 唸 ㄟ;ter:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "pain:ai 唸 ㄟ;ter:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "paint",
+      "family-note": "做這件事的人(paint + er,畫畫/油漆工)"
     },
     {
       "word": "photographer",
@@ -25473,7 +25642,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "man:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "man:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "manage",
+      "family-note": "做這件事的人(manag + er,經理)"
     },
     {
       "word": "boss",
@@ -25512,7 +25683,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ow:ow 唸 ㄠ 或 ㄛ;ner:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "ow:ow 唸 ㄠ 或 ㄛ;ner:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "own",
+      "family-note": "做這件事的人(own + er,擁有者)"
     },
     {
       "word": "plumber",
@@ -26317,7 +26490,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "jog:子音+短母音+子音;ging:ng 唸 ㄥ;-ing 進行式"
+      "note": "jog:子音+短母音+子音;ging:ng 唸 ㄥ;-ing 進行式",
+      "base": "jog",
+      "family-note": "正在慢跑的版本(進行式,雙 g)"
     },
     {
       "word": "cycling",
@@ -26659,7 +26834,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "play:ay 唸 ㄟ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "play:ay 唸 ㄟ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "base": "play",
+      "family-note": "做這件事的人(play + er,玩家/球員)"
     },
     {
       "word": "coach",
@@ -27331,7 +27508,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "spea:ea 唸 ㄧ(部分例外);ker:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "spea:ea 唸 ㄧ(部分例外);ker:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "speak",
+      "family-note": "做這件事的人(speak + er,演講者)"
     },
     {
       "word": "microphone",
@@ -27903,7 +28082,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "des:子音+短母音+子音;ert:er 唸 ㄜㄦ(R 控制)"
+      "note": "des:子音+短母音+子音;ert:er 唸 ㄜㄦ(R 控制)",
+      "homophone-note": "⚠️ 易混字:desert 沙漠 / dessert 甜點(雙 s)"
     },
     {
       "word": "hill",
@@ -28082,7 +28262,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ea:ea 唸 ㄧ(部分例外)"
+      "note": "ea:ea 唸 ㄧ(部分例外)",
+      "homophone-note": "⚠️ 同音字:sea 海 / see 看"
     },
     {
       "word": "island",
@@ -28239,7 +28420,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ain:ai 唸 ㄟ"
+      "note": "ain:ai 唸 ㄟ",
+      "homophone-note": "⚠️ 同音字:plain 樸素的、平原 / plane 飛機"
     },
     {
       "word": "meadow",
@@ -30047,7 +30229,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "qu:開音節,母音唸長音"
+      "note": "qu:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:quite 相當(副詞)/ quiet 安靜的(形容詞)"
     },
     {
       "word": "even",
@@ -30306,7 +30489,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 易混字:except 除了…之外 / accept 接受"
     },
     {
       "word": "despite",
@@ -30782,7 +30966,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:son 兒子 / sun 太陽"
     },
     {
       "word": "daughter",
@@ -30963,7 +31148,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "person",
+      "family-note": "「很多個」的版本(複數,不規則:person → people)"
     },
     {
       "word": "person",
@@ -31231,7 +31418,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "chil:ch 唸 ㄔ"
+      "note": "chil:ch 唸 ㄔ",
+      "base": "child",
+      "family-note": "「很多個」的版本(複數,不規則:child → children)"
     },
     {
       "word": "life",
@@ -31951,7 +32140,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "buil:ui 唸 ㄨ;ding:ng 唸 ㄥ;-ing 進行式"
+      "note": "buil:ui 唸 ㄨ;ding:ng 唸 ㄥ;-ing 進行式",
+      "base": "build",
+      "family-note": "這個動作做出來的東西(build + ing,建築物)"
     },
     {
       "word": "bridge",
@@ -34260,7 +34451,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:cell 細胞 / sell 賣"
     },
     {
       "word": "marrow",
@@ -35224,7 +35416,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "fee:ee 唸 ㄧ 長音;ling:ng 唸 ㄥ;-ing 進行式"
+      "note": "fee:ee 唸 ㄧ 長音;ling:ng 唸 ㄥ;-ing 進行式",
+      "base": "feel",
+      "family-note": "這個動作的結果(feel + ing,感覺)"
     },
     {
       "word": "mood",
@@ -35728,7 +35922,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "dis:子音+短母音+子音;poin:oi 唸 ㄛㄧ;-ed 過去式"
+      "note": "dis:子音+短母音+子音;poin:oi 唸 ㄛㄧ;-ed 過去式",
+      "base": "disappoint",
+      "family-note": "人覺得失望的(描述人,+ed 形容詞)"
     },
     {
       "word": "delighted",
@@ -35945,7 +36141,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "-ed 過去式"
+      "note": "-ed 過去式",
+      "base": "move",
+      "family-note": "已經移動過的版本(過去式,去 e + ed)"
     },
     {
       "word": "pick",
@@ -36045,7 +36243,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 易混字:accept 接受 / except 除了…之外"
     },
     {
       "word": "reject",
@@ -36715,7 +36914,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ken:子音+短母音+子音"
+      "note": "ken:子音+短母音+子音",
+      "base": "break",
+      "family-note": "已經打破的版本(過去分詞,配 have 用)"
     },
     {
       "word": "sharp",
@@ -42652,7 +42853,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "bend",
+      "family-note": "已經彎曲的版本(過去式)"
     },
     {
       "word": "vertex",
@@ -50372,7 +50575,10 @@
       "tags": [
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "win",
+      "family-note": "已經贏過的版本(過去式)",
+      "homophone-note": "⚠️ 同音字:won win 的過去式 / one 一"
     },
     {
       "word": "baht",
@@ -50757,7 +50963,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "cost",
+      "family-note": "已經花費過的版本(過去式同形)"
     },
     {
       "word": "expense",
@@ -51496,7 +51704,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sh:sh 唸 ㄒ"
+      "note": "sh:sh 唸 ㄒ",
+      "base": "shoot",
+      "family-note": "已經射過的版本(過去式)"
     },
     {
       "word": "infection",
@@ -52991,7 +53201,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "whe:wh 唸 ㄨ;ther:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "whe:wh 唸 ㄨ;ther:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "homophone-note": "⚠️ 易混字:whether 是否 / weather 天氣"
     },
     {
       "word": "nonetheless",
@@ -55454,7 +55665,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音"
+      "note": "gh 不發音",
+      "base": "buy",
+      "family-note": "已經買的版本(過去式)"
     },
     {
       "word": "paid",
@@ -55474,7 +55687,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "aid:ai 唸 ㄟ"
+      "note": "aid:ai 唸 ㄟ",
+      "base": "pay",
+      "family-note": "已經付過的版本(過去式)"
     },
     {
       "word": "brought",
@@ -55494,7 +55709,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音"
+      "note": "gh 不發音",
+      "base": "bring",
+      "family-note": "已經帶來的版本(過去式)"
     },
     {
       "word": "caught",
@@ -55514,7 +55731,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音"
+      "note": "gh 不發音",
+      "base": "catch",
+      "family-note": "已經抓到的版本(過去式)"
     },
     {
       "word": "taught",
@@ -55534,7 +55753,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音"
+      "note": "gh 不發音",
+      "base": "teach",
+      "family-note": "已經教的版本(過去式)"
     },
     {
       "word": "fought",
@@ -55553,7 +55774,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音"
+      "note": "gh 不發音",
+      "base": "fight",
+      "family-note": "已經打過架的版本(過去式)"
     },
     {
       "word": "sought",
@@ -55572,7 +55795,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音"
+      "note": "gh 不發音",
+      "base": "seek",
+      "family-note": "已經尋找的版本(過去式)"
     },
     {
       "word": "meant",
@@ -55592,7 +55817,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eant:ea 唸 ㄧ(部分例外)"
+      "note": "eant:ea 唸 ㄧ(部分例外)",
+      "base": "mean",
+      "family-note": "已經意指的版本(過去式)"
     },
     {
       "word": "kept",
@@ -55611,7 +55838,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "keep",
+      "family-note": "已經保留的版本(過去式)"
     },
     {
       "word": "slept",
@@ -55630,7 +55859,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "sleep",
+      "family-note": "已經睡過的版本(過去式)"
     },
     {
       "word": "swept",
@@ -55648,7 +55879,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "sweep",
+      "family-note": "已經掃過的版本(過去式)"
     },
     {
       "word": "wept",
@@ -55704,7 +55937,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "feel",
+      "family-note": "已經感覺到的版本(過去式)"
     },
     {
       "word": "dealt",
@@ -55723,7 +55958,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ealt:ea 唸 ㄧ(部分例外)"
+      "note": "ealt:ea 唸 ㄧ(部分例外)",
+      "base": "deal",
+      "family-note": "已經處理過的版本(過去式)"
     },
     {
       "word": "knelt",
@@ -55779,7 +56016,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "run",
+      "family-note": "已經跑過的版本(過去式)"
     },
     {
       "word": "met",
@@ -55798,7 +56037,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "meet",
+      "family-note": "已經遇見的版本(過去式)"
     },
     {
       "word": "lent",
@@ -55816,7 +56057,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "lend",
+      "family-note": "已經借出的版本(過去式)"
     },
     {
       "word": "broke",
@@ -55835,7 +56078,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "break",
+      "family-note": "已經打破的版本(過去式)"
     },
     {
       "word": "woke",
@@ -55854,7 +56099,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "wake",
+      "family-note": "已經醒了的版本(過去式)"
     },
     {
       "word": "spoke",
@@ -55873,7 +56120,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "speak",
+      "family-note": "已經說的版本(過去式)"
     },
     {
       "word": "chose",
@@ -55893,7 +56142,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ch:ch 唸 ㄔ"
+      "note": "ch:ch 唸 ㄔ",
+      "base": "choose",
+      "family-note": "已經選的版本(過去式)"
     },
     {
       "word": "drove",
@@ -55912,7 +56163,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "drive",
+      "family-note": "已經開車的版本(過去式)"
     },
     {
       "word": "rode",
@@ -55931,7 +56184,10 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "ride",
+      "family-note": "已經騎過的版本(過去式)",
+      "homophone-note": "⚠️ 同音字:rode ride 的過去式 / road 馬路"
     },
     {
       "word": "wrote",
@@ -55951,7 +56207,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "字首 w 不發音(wr- 開頭)"
+      "note": "字首 w 不發音(wr- 開頭)",
+      "base": "write",
+      "family-note": "已經寫的版本(過去式)"
     },
     {
       "word": "ate",
@@ -55972,7 +56230,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "te:開音節,母音唸長音"
+      "note": "te:開音節,母音唸長音",
+      "base": "eat",
+      "family-note": "已經吃過的版本(過去式)"
     },
     {
       "word": "stood",
@@ -55992,7 +56252,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ood:oo 唸 ㄨ(可長可短)"
+      "note": "ood:oo 唸 ㄨ(可長可短)",
+      "base": "stand",
+      "family-note": "已經站的版本(過去式)"
     },
     {
       "word": "swam",
@@ -56011,7 +56273,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "swim",
+      "family-note": "已經游過的版本(過去式)"
     },
     {
       "word": "drank",
@@ -56030,7 +56294,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "drink",
+      "family-note": "已經喝過的版本(過去式)"
     },
     {
       "word": "sang",
@@ -56050,7 +56316,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ang:ng 唸 ㄥ"
+      "note": "ang:ng 唸 ㄥ",
+      "base": "sing",
+      "family-note": "已經唱過的版本(過去式)"
     },
     {
       "word": "rang",
@@ -56070,7 +56338,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ang:ng 唸 ㄥ"
+      "note": "ang:ng 唸 ㄥ",
+      "base": "ring",
+      "family-note": "已經響過的版本(過去式)"
     },
     {
       "word": "swung",
@@ -56109,7 +56379,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ung:ng 唸 ㄥ"
+      "note": "ung:ng 唸 ㄥ",
+      "base": "hang",
+      "family-note": "已經掛好的版本(過去式)"
     },
     {
       "word": "dug",
@@ -56127,7 +56399,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "dig",
+      "family-note": "已經挖過的版本(過去式)"
     },
     {
       "word": "blew",
@@ -56147,7 +56421,10 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ew:ew 唸 ㄩ"
+      "note": "ew:ew 唸 ㄩ",
+      "base": "blow",
+      "family-note": "已經吹過的版本(過去式)",
+      "homophone-note": "⚠️ 同音字:blew blow 的過去式 / blue 藍色"
     },
     {
       "word": "drew",
@@ -56167,7 +56444,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ew:ew 唸 ㄩ"
+      "note": "ew:ew 唸 ㄩ",
+      "base": "draw",
+      "family-note": "已經畫過的版本(過去式)"
     },
     {
       "word": "ground",
@@ -56205,7 +56484,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ound:ou 唸 ㄠ(可有例外)"
+      "note": "ound:ou 唸 ㄠ(可有例外)",
+      "base": "bind",
+      "family-note": "已經綁過的版本(過去式)"
     },
     {
       "word": "bit",
@@ -56243,7 +56524,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "light",
+      "family-note": "已經點燃的版本(過去式)"
     },
     {
       "word": "shook",
@@ -56263,7 +56546,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sh:sh 唸 ㄒ;ook:oo 唸 ㄨ(可長可短)"
+      "note": "sh:sh 唸 ㄒ;ook:oo 唸 ㄨ(可長可短)",
+      "base": "shake",
+      "family-note": "已經搖過的版本(過去式)"
     },
     {
       "word": "forgot",
@@ -56283,7 +56568,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "for:子音+短母音+子音"
+      "note": "for:子音+短母音+子音",
+      "base": "forget",
+      "family-note": "已經忘記的版本(過去式)"
     },
     {
       "word": "became",
@@ -56303,7 +56590,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "be:開音節,母音唸長音;came:末 e 不發音,母音唸長音"
+      "note": "be:開音節,母音唸長音;came:末 e 不發音,母音唸長音",
+      "base": "become",
+      "family-note": "已經變成的版本(過去式)"
     },
     {
       "word": "lost",
@@ -56322,7 +56611,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "lose",
+      "family-note": "已經失去的版本(過去式)"
     },
     {
       "word": "stuck",
@@ -56342,7 +56633,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "uck:ck 唸 ㄎ"
+      "note": "uck:ck 唸 ㄎ",
+      "base": "stick",
+      "family-note": "已經卡住的版本(過去式)"
     },
     {
       "word": "lay",
@@ -56417,7 +56710,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ung:ng 唸 ㄥ"
+      "note": "ung:ng 唸 ㄥ",
+      "base": "cling",
+      "family-note": "已經緊抓住的版本(過去式)"
     },
     {
       "word": "spun",
@@ -56454,7 +56749,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "freeze",
+      "family-note": "已經結凍的版本(過去式)"
     },
     {
       "word": "tore",
@@ -56473,7 +56770,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ore:or 唸 ㄛㄦ(R 控制)"
+      "note": "ore:or 唸 ㄛㄦ(R 控制)",
+      "base": "tear",
+      "family-note": "已經撕過的版本(過去式)"
     },
     {
       "word": "bore",
@@ -56511,7 +56810,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ore:or 唸 ㄛㄦ(R 控制)"
+      "note": "ore:or 唸 ㄛㄦ(R 控制)",
+      "base": "swear",
+      "family-note": "已經發誓過的版本(過去式)"
     },
     {
       "word": "wore",
@@ -56531,7 +56832,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ore:or 唸 ㄛㄦ(R 控制)"
+      "note": "ore:or 唸 ㄛㄦ(R 控制)",
+      "base": "wear",
+      "family-note": "已經穿過的版本(過去式)"
     },
     {
       "word": "snuck",
@@ -61325,7 +61628,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ven:子音+短母音+子音"
+      "note": "ven:子音+短母音+子音",
+      "base": "drive",
+      "family-note": "已經開過車的版本(過去分詞,配 have 用)"
     },
     {
       "word": "determined",
@@ -63073,7 +63378,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ta:開音節,母音唸長音;ken:子音+短母音+子音"
+      "note": "ta:開音節,母音唸長音;ken:子音+短母音+子音",
+      "base": "take",
+      "family-note": "已經拿過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "available",
@@ -67028,7 +67335,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "read:ea 唸 ㄧ(部分例外);ing:ng 唸 ㄥ;-ing 進行式"
+      "note": "read:ea 唸 ㄧ(部分例外);ing:ng 唸 ㄥ;-ing 進行式",
+      "base": "read",
+      "family-note": "正在讀的版本(進行式,+ing)"
     },
     {
       "word": "writing",
@@ -67049,7 +67358,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "字首 w 不發音(wr- 開頭)"
+      "note": "字首 w 不發音(wr- 開頭)",
+      "base": "write",
+      "family-note": "正在寫的版本(進行式,去 e + ing)"
     },
     {
       "word": "blogging",
@@ -69062,7 +69373,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "cast",
+      "family-note": "已經投擲過的版本(過去式同形)"
     },
     {
       "word": "crew",
@@ -74111,7 +74424,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "meet:ee 唸 ㄧ 長音;ing:ng 唸 ㄥ;-ing 進行式"
+      "note": "meet:ee 唸 ㄧ 長音;ing:ng 唸 ㄥ;-ing 進行式",
+      "base": "meet",
+      "family-note": "這個動作的場合(meet + ing,會議)"
     },
     {
       "word": "meetingroom",
@@ -76669,7 +76984,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "bid",
+      "family-note": "出價(過去式同形)"
     },
     {
       "word": "supplier",
@@ -77587,7 +77904,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "feed",
+      "family-note": "已經餵過的版本(過去式)"
     },
     {
       "word": "rate",
@@ -83003,7 +83322,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sing:ng 唸 ㄥ;-ing 進行式"
+      "note": "sing:ng 唸 ㄥ;-ing 進行式",
+      "base": "close",
+      "family-note": "正在關的版本(進行式,去 e + ing)"
     },
     {
       "word": "ribboncutting",
@@ -85103,7 +85424,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ci:開音節,母音唸長音"
+      "note": "ci:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:principle 原則 / principal 校長、主要的"
     },
     {
       "word": "formula",
@@ -87144,7 +87466,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "k 不發音"
+      "note": "k 不發音",
+      "homophone-note": "⚠️ 同音字:knight 騎士(k 不發音)/ night 夜晚"
     },
     {
       "word": "samurai",
@@ -87560,7 +87883,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "lead:ea 唸 ㄧ(部分例外);er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "lead:ea 唸 ㄧ(部分例外);er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "base": "lead",
+      "family-note": "做這件事的人(lead + er,領導者)"
     },
     {
       "word": "heroine",
@@ -95833,7 +96158,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eace:末 e 不發音,母音唸長音"
+      "note": "eace:末 e 不發音,母音唸長音",
+      "homophone-note": "⚠️ 同音字:peace 和平 / piece 一片"
     },
     {
       "word": "ceasefire",
@@ -101826,7 +102152,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "read:ea 唸 ㄧ(部分例外);er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "read:ea 唸 ㄧ(部分例外);er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "base": "read",
+      "family-note": "做這件事的人(read + er,讀者)"
     },
     {
       "word": "paperback",
@@ -103350,7 +103678,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 易混字:affect 影響(動詞)/ effect 影響(名詞、結果)"
     },
     {
       "word": "appropriate",
@@ -117408,7 +117737,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "good",
+      "family-note": "「最好」的版本(不規則最高級)"
     },
     {
       "word": "better",
@@ -117428,7 +117759,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "bet:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "bet:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "good",
+      "family-note": "「更好」的版本(不規則比較級)"
     },
     {
       "word": "bite",
@@ -117488,7 +117821,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "orn:or 唸 ㄛㄦ(R 控制)"
+      "note": "orn:or 唸 ㄛㄦ(R 控制)",
+      "base": "bear",
+      "family-note": "已經出生的版本(過去分詞;bear 也指生育)"
     },
     {
       "word": "box",
@@ -118661,7 +118996,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ho:開音節,母音唸長音"
+      "note": "ho:開音節,母音唸長音",
+      "homophone-note": "⚠️ 同音字:hole 洞 / whole 整個"
     },
     {
       "word": "hungry",
@@ -119037,7 +119373,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "let",
+      "family-note": "已經讓的版本(過去式同形)"
     },
     {
       "word": "letter",
@@ -119178,7 +119516,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ail:ai 唸 ㄟ"
+      "note": "ail:ai 唸 ㄟ",
+      "homophone-note": "⚠️ 同音字:mail 郵件 / male 男性"
     },
     {
       "word": "marry",
@@ -119257,7 +119596,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "eet:ee 唸 ㄧ 長音"
+      "note": "eet:ee 唸 ㄧ 長音",
+      "homophone-note": "⚠️ 同音字:meet 見面 / meat 肉"
     },
     {
       "word": "mile",
@@ -119378,7 +119718,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "mo:開音節,母音唸長音"
+      "note": "mo:開音節,母音唸長音",
+      "base": "many",
+      "family-note": "「更多」的版本(不規則比較級;也用於 much)"
     },
     {
       "word": "mister",
@@ -119457,7 +119799,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 同音字:no 不 / know 知道(k 不發音)"
     },
     {
       "word": "nope",
@@ -120138,7 +120481,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ail:ai 唸 ㄟ"
+      "note": "ail:ai 唸 ㄟ",
+      "homophone-note": "⚠️ 同音字:sail 帆 / sale 拍賣"
     },
     {
       "word": "scare",
@@ -120298,7 +120642,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sh:sh 唸 ㄒ"
+      "note": "sh:sh 唸 ㄒ",
+      "base": "shut",
+      "family-note": "已經關起來的版本(過去式同形)"
     },
     {
       "word": "sight",
@@ -120556,7 +120902,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ail:ai 唸 ㄟ"
+      "note": "ail:ai 唸 ㄟ",
+      "homophone-note": "⚠️ 同音字:tail 尾巴 / tale 故事"
     },
     {
       "word": "tale",
@@ -120576,7 +120923,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ta:開音節,母音唸長音"
+      "note": "ta:開音節,母音唸長音",
+      "homophone-note": "⚠️ 同音字:tale 故事 / tail 尾巴"
     },
     {
       "word": "taste",
@@ -121016,7 +121364,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gh 不發音(同 eight)"
+      "note": "gh 不發音(同 eight)",
+      "homophone-note": "⚠️ 同音字:weight 重量 / wait 等"
     },
     {
       "word": "win",
@@ -121075,7 +121424,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "wor:子音+短母音+子音;se:開音節,母音唸長音"
+      "note": "wor:子音+短母音+子音;se:開音節,母音唸長音",
+      "base": "bad",
+      "family-note": "「更壞」的版本(不規則比較級)"
     },
     {
       "word": "worst",
@@ -121095,7 +121446,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "orst:or 唸 ㄛㄦ(R 控制)"
+      "note": "orst:or 唸 ㄛㄦ(R 控制)",
+      "base": "bad",
+      "family-note": "「最壞」的版本(不規則最高級)"
     },
     {
       "word": "sweet potato",
@@ -122389,7 +122742,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "clea:ea 唸 ㄧ(部分例外);ner:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "clea:ea 唸 ㄧ(部分例外);ner:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "clean",
+      "family-note": "做這件事的人(clean + er,清潔工)"
     },
     {
       "word": "cloth",
@@ -123437,7 +123792,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "yer:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+      "note": "yer:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)",
+      "base": "dry",
+      "family-note": "做這件事的東西(dry + er,烘乾機)"
     },
     {
       "word": "duty",
@@ -123514,7 +123871,8 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "homophone-note": "⚠️ 易混字:effect 影響(名詞、結果)/ affect 影響(動詞)"
     },
     {
       "word": "effective",
@@ -123612,7 +123970,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ding:ng 唸 ㄥ;-ing 進行式"
+      "note": "ding:ng 唸 ㄥ;-ing 進行式",
+      "base": "end",
+      "family-note": "這個動作的結果(end + ing,結局)"
     },
     {
       "word": "entire",
@@ -125424,7 +125784,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ma:開音節,母音唸長音"
+      "note": "ma:開音節,母音唸長音",
+      "homophone-note": "⚠️ 同音字:male 男性 / mail 郵件"
     },
     {
       "word": "manner",
@@ -126763,7 +127124,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "uit:ui 唸 ㄨ"
+      "note": "uit:ui 唸 ㄨ",
+      "base": "quit",
+      "family-note": "已經退出的版本(過去式同形)"
     },
     {
       "word": "rapid",
@@ -127136,7 +127499,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "run:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "run:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "run",
+      "family-note": "做這件事的人(run + ner,跑者)"
     },
     {
       "word": "rush",
@@ -127634,7 +127999,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ead:ea 唸 ㄧ(部分例外)"
+      "note": "ead:ea 唸 ㄧ(部分例外)",
+      "base": "spread",
+      "family-note": "已經散開的版本(過去式同形)"
     },
     {
       "word": "stage",
@@ -128472,7 +128839,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "sed:子音+短母音+子音;-ed 過去式"
+      "note": "sed:子音+短母音+子音;-ed 過去式",
+      "base": "use",
+      "family-note": "已經使用過的版本(過去式,去 e + ed)"
     },
     {
       "word": "user",
@@ -129035,7 +129404,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "vi:開音節,母音唸長音"
+      "note": "vi:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:advice 建議(名詞)/ advise 建議(動詞)"
     },
     {
       "word": "advise",
@@ -129055,7 +129425,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "vi:開音節,母音唸長音"
+      "note": "vi:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:advise 建議(動詞)/ advice 建議(名詞)"
     },
     {
       "word": "adviser",
@@ -129488,7 +129859,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ba:開音節,母音唸長音"
+      "note": "ba:開音節,母音唸長音",
+      "homophone-note": "⚠️ 同音字:bare 赤裸的 / bear 熊、忍受"
     },
     {
       "word": "barn",
@@ -129716,7 +130088,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ke:開音節,母音唸長音"
+      "note": "ke:開音節,母音唸長音",
+      "homophone-note": "⚠️ 同音字:brake 煞車 / break 打破、休息"
     },
     {
       "word": "brass",
@@ -131415,7 +131788,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "drink",
+      "family-note": "已經喝過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "due",
@@ -134023,7 +134398,8 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "loo:oo 唸 ㄨ(可長可短);se:開音節,母音唸長音"
+      "note": "loo:oo 唸 ㄨ(可長可短);se:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:loose 鬆的(形容詞)/ lose 失去(動詞)"
     },
     {
       "word": "loosen",
@@ -143595,7 +143971,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "for:子音+短母音+子音"
+      "note": "for:子音+短母音+子音",
+      "base": "forbid",
+      "family-note": "禁止(過去式同形)"
     },
     {
       "word": "formation",
@@ -145337,7 +145715,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "lear:ea 唸 ㄧ(部分例外);ned:子音+短母音+子音;-ed 過去式"
+      "note": "lear:ea 唸 ㄧ(部分例外);ned:子音+短母音+子音;-ed 過去式",
+      "base": "learn",
+      "family-note": "已經學過的版本(過去式,+ed)"
     },
     {
       "word": "learning",
@@ -145355,7 +145735,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "lear:ea 唸 ㄧ(部分例外);ning:ng 唸 ㄥ;-ing 進行式"
+      "note": "lear:ea 唸 ㄧ(部分例外);ning:ng 唸 ㄥ;-ing 進行式",
+      "base": "learn",
+      "family-note": "正在學的版本(進行式,+ing)"
     },
     {
       "word": "lecturer",
@@ -148552,7 +148934,9 @@
       "tags": [
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "split",
+      "family-note": "已經分開的版本(過去式同形)"
     },
     {
       "word": "sportsman",
@@ -160722,7 +161106,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "thr:th 唸 ㄒ 或 ㄉ"
+      "note": "thr:th 唸 ㄒ 或 ㄉ",
+      "base": "thrust",
+      "family-note": "已經猛推過的版本(過去式同形)"
     },
     {
       "word": "tick",
@@ -172583,7 +172969,8 @@
       "tags": [
         "exam-advanced"
       ],
-      "note": "na:開音節,母音唸長音"
+      "note": "na:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:stationary 靜止的 / stationery 文具"
     },
     {
       "word": "stationery",
@@ -172602,7 +172989,8 @@
       "tags": [
         "exam-advanced"
       ],
-      "note": "ne:開音節,母音唸長音"
+      "note": "ne:開音節,母音唸長音",
+      "homophone-note": "⚠️ 易混字:stationery 文具 / stationary 靜止的"
     },
     {
       "word": "stature",
@@ -178861,7 +179249,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "hel:子音+短母音+子音;-er 字尾(比較級/人)"
+      "note": "hel:子音+短母音+子音;-er 字尾(比較級/人)",
+      "base": "help",
+      "family-note": "做這件事的人(help + er,幫忙的人)"
     },
     {
       "word": "learner",
@@ -179469,7 +179859,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "se:開音節,母音唸長音"
+      "note": "se:開音節,母音唸長音",
+      "base": "see",
+      "family-note": "已經看過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "given",
@@ -179488,7 +179880,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "gi:開音節,母音唸長音;ven:子音+短母音+子音"
+      "note": "gi:開音節,母音唸長音;ven:子音+短母音+子音",
+      "base": "give",
+      "family-note": "已經給過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "known",
@@ -179507,7 +179901,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "字首 k 不發音(kn- 開頭)"
+      "note": "字首 k 不發音(kn- 開頭)",
+      "base": "know",
+      "family-note": "已經知道的版本(過去分詞,配 have 用)"
     },
     {
       "word": "grew",
@@ -179526,7 +179922,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ew:ew 唸 ㄩ"
+      "note": "ew:ew 唸 ㄩ",
+      "base": "grow",
+      "family-note": "已經長大的版本(過去式)"
     },
     {
       "word": "grown",
@@ -179544,7 +179942,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "grow",
+      "family-note": "已經長大的版本(過去分詞,配 have 用)"
     },
     {
       "word": "drawn",
@@ -179562,7 +179962,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "draw",
+      "family-note": "已經畫過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "flew",
@@ -179581,7 +179983,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ew:ew 唸 ㄩ"
+      "note": "ew:ew 唸 ㄩ",
+      "base": "fly",
+      "family-note": "已經飛過的版本(過去式)"
     },
     {
       "word": "flown",
@@ -179599,7 +180003,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "fly",
+      "family-note": "已經飛過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "blown",
@@ -179636,7 +180042,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "thr:th 唸 ㄒ 或 ㄉ;ew:ew 唸 ㄩ"
+      "note": "thr:th 唸 ㄒ 或 ㄉ;ew:ew 唸 ㄩ",
+      "base": "throw",
+      "family-note": "已經丟過的版本(過去式)"
     },
     {
       "word": "thrown",
@@ -179655,7 +180063,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "thr:th 唸 ㄒ 或 ㄉ;own:ow 唸 ㄠ 或 ㄛ"
+      "note": "thr:th 唸 ㄒ 或 ㄉ;own:ow 唸 ㄠ 或 ㄛ",
+      "base": "throw",
+      "family-note": "已經丟過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "risen",
@@ -179674,7 +180084,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ri:開音節,母音唸長音;sen:子音+短母音+子音"
+      "note": "ri:開音節,母音唸長音;sen:子音+短母音+子音",
+      "base": "rise",
+      "family-note": "已經升起的版本(過去分詞,配 have 用)"
     },
     {
       "word": "chosen",
@@ -179693,7 +180105,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "cho:ch 唸 ㄔ;sen:子音+短母音+子音"
+      "note": "cho:ch 唸 ㄔ;sen:子音+短母音+子音",
+      "base": "choose",
+      "family-note": "已經選過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "spoken",
@@ -179712,7 +180126,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "ken:子音+短母音+子音"
+      "note": "ken:子音+短母音+子音",
+      "base": "speak",
+      "family-note": "已經說過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "woken",
@@ -179750,7 +180166,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "rid:子音+短母音+子音"
+      "note": "rid:子音+短母音+子音",
+      "base": "ride",
+      "family-note": "已經騎過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "written",
@@ -179769,7 +180187,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "字首 w 不發音(wr- 開頭)"
+      "note": "字首 w 不發音(wr- 開頭)",
+      "base": "write",
+      "family-note": "已經寫過的版本(過去分詞,配 have 用)"
     },
     {
       "word": "held",
@@ -179788,7 +180208,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "he:開音節,母音唸長音"
+      "note": "he:開音節,母音唸長音",
+      "base": "hold",
+      "family-note": "已經握住的版本(過去式)"
     },
     {
       "word": "heard",
@@ -179807,7 +180229,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "hea:ea 唸 ㄧ(部分例外)"
+      "note": "hea:ea 唸 ㄧ(部分例外)",
+      "base": "hear",
+      "family-note": "已經聽到的版本(過去式)"
     },
     {
       "word": "built",
@@ -179826,7 +180250,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "bui:ui 唸 ㄨ"
+      "note": "bui:ui 唸 ㄨ",
+      "base": "build",
+      "family-note": "已經蓋好的版本(過去式)"
     },
     {
       "word": "sent",
@@ -179845,7 +180271,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "se:開音節,母音唸長音"
+      "note": "se:開音節,母音唸長音",
+      "base": "send",
+      "family-note": "已經寄出的版本(過去式)"
     },
     {
       "word": "spent",
@@ -179863,7 +180291,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "spend",
+      "family-note": "已經花掉的版本(過去式)"
     },
     {
       "word": "crept",
@@ -179881,7 +180311,9 @@
         "exam-mid",
         "exam-7000",
         "exam-advanced"
-      ]
+      ],
+      "base": "creep",
+      "family-note": "已經悄悄爬過的版本(過去式)"
     },
     {
       "word": "led",
@@ -179900,7 +180332,9 @@
         "exam-7000",
         "exam-advanced"
       ],
-      "note": "le:開音節,母音唸長音"
+      "note": "le:開音節,母音唸長音",
+      "base": "lead",
+      "family-note": "已經帶領過的版本(過去式)"
     },
     {
       "word": "bled",
@@ -192834,16 +193268,1433 @@
       ],
       "note": "ping:ng 唸 ㄥ"
     },
-
-    {"word":"went","mean":"去(過去)","img":"🚶","chunks":["w","ent"],"py":"ㄨㄝㄣㄊ","split":"w + ent","theme":"actions","stage":1,"base":"go","family-note":"已經做過的版本(過去式)"},
-    {"word":"saw","mean":"看見(過去)","img":"👀","chunks":["s","aw"],"py":"ㄙㄛ","split":"s + aw","theme":"actions","stage":1,"base":"see","family-note":"已經看過的版本(過去式)"},
-    {"word":"said","mean":"說(過去)","img":"🗣️","chunks":["s","aid"],"py":"ㄙㄝㄉ","split":"s + aid(ai 不規則唸 ε)","theme":"actions","stage":1,"base":"say","family-note":"已經說過的版本(過去式)"},
-    {"word":"took","mean":"拿(過去)","img":"✋","chunks":["t","ook"],"py":"ㄊㄨㄎ","split":"t + ook(短 oo)","theme":"actions","stage":1,"base":"take","family-note":"已經拿過的版本(過去式)"},
-    {"word":"running","mean":"跑步中","img":"🏃","chunks":["run","ning"],"py":"ㄖㄚ-ㄋㄧㄥ","split":"run + ning","theme":"actions","stage":1,"base":"run","family-note":"正在跑的版本(進行式,+ing 雙 n)"},
-    {"word":"studied","mean":"學習(過去)","img":"📚","chunks":["stud","ied"],"py":"ㄙㄉㄚ-ㄉㄧㄉ","split":"stud + ied(y→i+ed)","theme":"actions","stage":1,"base":"study","family-note":"已經學過的版本(過去式,y 變 i + ed)"},
-    {"word":"babies","mean":"嬰兒(複數)","img":"👶","chunks":["ba","bies"],"py":"ㄅㄟ-ㄅㄧㄗ","split":"ba + bies","theme":"family","stage":1,"base":"baby","family-note":"「很多個」的版本(複數,y 變 ies)"},
-    {"word":"bigger","mean":"更大","img":"📏","chunks":["big","ger"],"py":"ㄅㄧ-ㄍㄜ","split":"big + ger(雙 g)","theme":"adjectives","stage":1,"base":"big","family-note":"「更大」的版本(比較級,+er 雙 g)"},
-    {"word":"walked","mean":"走(過去)","img":"🚶","chunks":["walk","ed"],"py":"ㄨㄛㄎㄊ","split":"walk + ed","theme":"actions","stage":1,"base":"walk","family-note":"已經走過的版本(過去式,+ed)"},
-    {"word":"eaten","mean":"吃過(p.p.)","img":"🍽️","chunks":["eat","en"],"py":"ㄧ-ㄊㄣ","split":"eat + en","theme":"actions","stage":1,"base":"eat","family-note":"「吃過了」配 have 用的版本(過去分詞)"}
+    {
+      "word": "went",
+      "mean": "去(過去)",
+      "img": "🚶",
+      "chunks": [
+        "w",
+        "ent"
+      ],
+      "py": "ㄨㄝㄣㄊ",
+      "split": "w + ent",
+      "theme": "actions",
+      "stage": 1,
+      "base": "go",
+      "family-note": "已經做過的版本(過去式)"
+    },
+    {
+      "word": "saw",
+      "mean": "看見(過去)",
+      "img": "👀",
+      "chunks": [
+        "s",
+        "aw"
+      ],
+      "py": "ㄙㄛ",
+      "split": "s + aw",
+      "theme": "actions",
+      "stage": 1,
+      "base": "see",
+      "family-note": "已經看過的版本(過去式)"
+    },
+    {
+      "word": "said",
+      "mean": "說(過去)",
+      "img": "🗣️",
+      "chunks": [
+        "s",
+        "aid"
+      ],
+      "py": "ㄙㄝㄉ",
+      "split": "s + aid(ai 不規則唸 ε)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "say",
+      "family-note": "已經說過的版本(過去式)"
+    },
+    {
+      "word": "took",
+      "mean": "拿(過去)",
+      "img": "✋",
+      "chunks": [
+        "t",
+        "ook"
+      ],
+      "py": "ㄊㄨㄎ",
+      "split": "t + ook(短 oo)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "take",
+      "family-note": "已經拿過的版本(過去式)"
+    },
+    {
+      "word": "running",
+      "mean": "跑步中",
+      "img": "🏃",
+      "chunks": [
+        "run",
+        "ning"
+      ],
+      "py": "ㄖㄚ-ㄋㄧㄥ",
+      "split": "run + ning",
+      "theme": "actions",
+      "stage": 1,
+      "base": "run",
+      "family-note": "正在跑的版本(進行式,+ing 雙 n)"
+    },
+    {
+      "word": "studied",
+      "mean": "學習(過去)",
+      "img": "📚",
+      "chunks": [
+        "stud",
+        "ied"
+      ],
+      "py": "ㄙㄉㄚ-ㄉㄧㄉ",
+      "split": "stud + ied(y→i+ed)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "study",
+      "family-note": "已經學過的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "babies",
+      "mean": "嬰兒(複數)",
+      "img": "👶",
+      "chunks": [
+        "ba",
+        "bies"
+      ],
+      "py": "ㄅㄟ-ㄅㄧㄗ",
+      "split": "ba + bies",
+      "theme": "family",
+      "stage": 1,
+      "base": "baby",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "bigger",
+      "mean": "更大",
+      "img": "📏",
+      "chunks": [
+        "big",
+        "ger"
+      ],
+      "py": "ㄅㄧ-ㄍㄜ",
+      "split": "big + ger(雙 g)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "big",
+      "family-note": "「更大」的版本(比較級,+er 雙 g)"
+    },
+    {
+      "word": "walked",
+      "mean": "走(過去)",
+      "img": "🚶",
+      "chunks": [
+        "walk",
+        "ed"
+      ],
+      "py": "ㄨㄛㄎㄊ",
+      "split": "walk + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "walk",
+      "family-note": "已經走過的版本(過去式,+ed)"
+    },
+    {
+      "word": "eaten",
+      "mean": "吃過(p.p.)",
+      "img": "🍽️",
+      "chunks": [
+        "eat",
+        "en"
+      ],
+      "py": "ㄧ-ㄊㄣ",
+      "split": "eat + en",
+      "theme": "actions",
+      "stage": 1,
+      "base": "eat",
+      "family-note": "「吃過了」配 have 用的版本(過去分詞)"
+    },
+    {
+      "word": "swimming",
+      "mean": "正在游泳",
+      "img": "🏊",
+      "chunks": [
+        "swim",
+        "ming"
+      ],
+      "py": "ㄙㄨㄧ-ㄇㄧㄥ",
+      "split": "swim + ming",
+      "theme": "actions",
+      "stage": 1,
+      "base": "swim",
+      "family-note": "正在游的版本(進行式,雙 m)"
+    },
+    {
+      "word": "hopping",
+      "mean": "正在跳",
+      "img": "🐰",
+      "chunks": [
+        "hop",
+        "ping"
+      ],
+      "py": "ㄏㄚ-ㄆㄧㄥ",
+      "split": "hop + ping",
+      "theme": "actions",
+      "stage": 1,
+      "base": "hop",
+      "family-note": "正在跳的版本(進行式,雙 p)"
+    },
+    {
+      "word": "shopping",
+      "mean": "正在購物",
+      "img": "🛒",
+      "chunks": [
+        "shop",
+        "ping"
+      ],
+      "py": "ㄒㄚ-ㄆㄧㄥ",
+      "split": "shop + ping",
+      "theme": "actions",
+      "stage": 1,
+      "base": "shop",
+      "family-note": "正在購物的版本(進行式,雙 p)"
+    },
+    {
+      "word": "planning",
+      "mean": "正在計畫",
+      "img": "📋",
+      "chunks": [
+        "plan",
+        "ning"
+      ],
+      "py": "ㄆㄌㄚ-ㄋㄧㄥ",
+      "split": "plan + ning",
+      "theme": "actions",
+      "stage": 1,
+      "base": "plan",
+      "family-note": "正在計畫的版本(進行式,雙 n)"
+    },
+    {
+      "word": "stopping",
+      "mean": "正在停",
+      "img": "🛑",
+      "chunks": [
+        "stop",
+        "ping"
+      ],
+      "py": "ㄙㄉㄚ-ㄆㄧㄥ",
+      "split": "stop + ping",
+      "theme": "actions",
+      "stage": 1,
+      "base": "stop",
+      "family-note": "正在停下的版本(進行式,雙 p)"
+    },
+    {
+      "word": "sitting",
+      "mean": "正在坐",
+      "img": "🪑",
+      "chunks": [
+        "sit",
+        "ting"
+      ],
+      "py": "ㄒㄧ-ㄊㄧㄥ",
+      "split": "sit + ting",
+      "theme": "actions",
+      "stage": 1,
+      "base": "sit",
+      "family-note": "正在坐的版本(進行式,雙 t)"
+    },
+    {
+      "word": "getting",
+      "mean": "正在得到",
+      "img": "🎁",
+      "chunks": [
+        "get",
+        "ting"
+      ],
+      "py": "ㄍㄝ-ㄊㄧㄥ",
+      "split": "get + ting",
+      "theme": "actions",
+      "stage": 1,
+      "base": "get",
+      "family-note": "正在得到的版本(進行式,雙 t)"
+    },
+    {
+      "word": "putting",
+      "mean": "正在放",
+      "img": "📥",
+      "chunks": [
+        "put",
+        "ting"
+      ],
+      "py": "ㄆㄨ-ㄊㄧㄥ",
+      "split": "put + ting",
+      "theme": "actions",
+      "stage": 1,
+      "base": "put",
+      "family-note": "正在放的版本(進行式,雙 t)"
+    },
+    {
+      "word": "cutting",
+      "mean": "正在切",
+      "img": "🔪",
+      "chunks": [
+        "cut",
+        "ting"
+      ],
+      "py": "ㄎㄚ-ㄊㄧㄥ",
+      "split": "cut + ting",
+      "theme": "actions",
+      "stage": 1,
+      "base": "cut",
+      "family-note": "正在切的版本(進行式,雙 t)"
+    },
+    {
+      "word": "beginning",
+      "mean": "正在開始",
+      "img": "▶️",
+      "chunks": [
+        "be",
+        "gin",
+        "ning"
+      ],
+      "py": "ㄅㄧ-ㄍㄧ-ㄋㄧㄥ",
+      "split": "be + gin + ning",
+      "theme": "actions",
+      "stage": 1,
+      "base": "begin",
+      "family-note": "正在開始的版本(進行式,雙 n)"
+    },
+    {
+      "word": "winning",
+      "mean": "正在贏",
+      "img": "🏆",
+      "chunks": [
+        "win",
+        "ning"
+      ],
+      "py": "ㄨㄧ-ㄋㄧㄥ",
+      "split": "win + ning",
+      "theme": "actions",
+      "stage": 1,
+      "base": "win",
+      "family-note": "正在贏的版本(進行式,雙 n)"
+    },
+    {
+      "word": "playing",
+      "mean": "正在玩",
+      "img": "🎮",
+      "chunks": [
+        "play",
+        "ing"
+      ],
+      "py": "ㄆㄌㄝ-ㄧㄥ",
+      "split": "play + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "play",
+      "family-note": "正在玩的版本(進行式,+ing)"
+    },
+    {
+      "word": "walking",
+      "mean": "正在走",
+      "img": "🚶",
+      "chunks": [
+        "walk",
+        "ing"
+      ],
+      "py": "ㄨㄛ-ㄎㄧㄥ",
+      "split": "walk + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "walk",
+      "family-note": "正在走的版本(進行式,+ing)"
+    },
+    {
+      "word": "talking",
+      "mean": "正在說話",
+      "img": "💬",
+      "chunks": [
+        "talk",
+        "ing"
+      ],
+      "py": "ㄊㄛ-ㄎㄧㄥ",
+      "split": "talk + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "talk",
+      "family-note": "正在說話的版本(進行式,+ing)"
+    },
+    {
+      "word": "watching",
+      "mean": "正在看",
+      "img": "👀",
+      "chunks": [
+        "watch",
+        "ing"
+      ],
+      "py": "ㄨㄚ-ㄑㄧㄥ",
+      "split": "watch + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "watch",
+      "family-note": "正在看的版本(進行式,+ing)"
+    },
+    {
+      "word": "waiting",
+      "mean": "正在等",
+      "img": "⏳",
+      "chunks": [
+        "wait",
+        "ing"
+      ],
+      "py": "ㄨㄝ-ㄊㄧㄥ",
+      "split": "wait + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "wait",
+      "family-note": "正在等的版本(進行式,+ing)"
+    },
+    {
+      "word": "eating",
+      "mean": "正在吃",
+      "img": "🍽️",
+      "chunks": [
+        "eat",
+        "ing"
+      ],
+      "py": "ㄧ-ㄊㄧㄥ",
+      "split": "eat + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "eat",
+      "family-note": "正在吃的版本(進行式,+ing)"
+    },
+    {
+      "word": "drinking",
+      "mean": "正在喝",
+      "img": "🥤",
+      "chunks": [
+        "drink",
+        "ing"
+      ],
+      "py": "ㄉㄖㄧ-ㄎㄧㄥ",
+      "split": "drink + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "drink",
+      "family-note": "正在喝的版本(進行式,+ing)"
+    },
+    {
+      "word": "sleeping",
+      "mean": "正在睡",
+      "img": "😴",
+      "chunks": [
+        "sleep",
+        "ing"
+      ],
+      "py": "ㄙㄌㄧ-ㄆㄧㄥ",
+      "split": "sleep + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "sleep",
+      "family-note": "正在睡的版本(進行式,+ing)"
+    },
+    {
+      "word": "singing",
+      "mean": "正在唱",
+      "img": "🎤",
+      "chunks": [
+        "sing",
+        "ing"
+      ],
+      "py": "ㄒㄧㄥ-ㄧㄥ",
+      "split": "sing + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "sing",
+      "family-note": "正在唱的版本(進行式,+ing)"
+    },
+    {
+      "word": "cooking",
+      "mean": "正在煮",
+      "img": "🍳",
+      "chunks": [
+        "cook",
+        "ing"
+      ],
+      "py": "ㄎㄨ-ㄎㄧㄥ",
+      "split": "cook + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "cook",
+      "family-note": "正在煮的版本(進行式,+ing)"
+    },
+    {
+      "word": "helping",
+      "mean": "正在幫忙",
+      "img": "🤝",
+      "chunks": [
+        "help",
+        "ing"
+      ],
+      "py": "ㄏㄝ-ㄆㄧㄥ",
+      "split": "help + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "help",
+      "family-note": "正在幫忙的版本(進行式,+ing)"
+    },
+    {
+      "word": "working",
+      "mean": "正在工作",
+      "img": "💼",
+      "chunks": [
+        "work",
+        "ing"
+      ],
+      "py": "ㄨㄜ-ㄎㄧㄥ",
+      "split": "work + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "work",
+      "family-note": "正在工作的版本(進行式,+ing)"
+    },
+    {
+      "word": "teaching",
+      "mean": "正在教",
+      "img": "👨‍🏫",
+      "chunks": [
+        "teach",
+        "ing"
+      ],
+      "py": "ㄊㄧ-ㄑㄧㄥ",
+      "split": "teach + ing",
+      "theme": "actions",
+      "stage": 1,
+      "base": "teach",
+      "family-note": "正在教的版本(進行式,+ing)"
+    },
+    {
+      "word": "making",
+      "mean": "正在做",
+      "img": "🔨",
+      "chunks": [
+        "mak",
+        "ing"
+      ],
+      "py": "ㄇㄝ-ㄎㄧㄥ",
+      "split": "mak + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "make",
+      "family-note": "正在做的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "taking",
+      "mean": "正在拿",
+      "img": "✋",
+      "chunks": [
+        "tak",
+        "ing"
+      ],
+      "py": "ㄊㄝ-ㄎㄧㄥ",
+      "split": "tak + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "take",
+      "family-note": "正在拿的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "riding",
+      "mean": "正在騎",
+      "img": "🚴",
+      "chunks": [
+        "rid",
+        "ing"
+      ],
+      "py": "ㄖㄞ-ㄉㄧㄥ",
+      "split": "rid + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "ride",
+      "family-note": "正在騎的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "driving",
+      "mean": "正在開車",
+      "img": "🚗",
+      "chunks": [
+        "driv",
+        "ing"
+      ],
+      "py": "ㄉㄖㄞ-ㄈㄧㄥ",
+      "split": "driv + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "drive",
+      "family-note": "正在開車的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "coming",
+      "mean": "正在來",
+      "img": "🚶‍♀️",
+      "chunks": [
+        "com",
+        "ing"
+      ],
+      "py": "ㄎㄚ-ㄇㄧㄥ",
+      "split": "com + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "come",
+      "family-note": "正在來的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "giving",
+      "mean": "正在給",
+      "img": "🎁",
+      "chunks": [
+        "giv",
+        "ing"
+      ],
+      "py": "ㄍㄧ-ㄈㄧㄥ",
+      "split": "giv + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "give",
+      "family-note": "正在給的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "using",
+      "mean": "正在使用",
+      "img": "🔧",
+      "chunks": [
+        "us",
+        "ing"
+      ],
+      "py": "ㄧㄨ-ㄗㄧㄥ",
+      "split": "us + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "use",
+      "family-note": "正在使用的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "moving",
+      "mean": "正在移動",
+      "img": "🏃",
+      "chunks": [
+        "mov",
+        "ing"
+      ],
+      "py": "ㄇㄨ-ㄈㄧㄥ",
+      "split": "mov + ing(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "move",
+      "family-note": "正在移動的版本(進行式,去 e + ing)"
+    },
+    {
+      "word": "tried",
+      "mean": "試(過去)",
+      "img": "🤞",
+      "chunks": [
+        "tr",
+        "ied"
+      ],
+      "py": "ㄊㄖㄞㄉ",
+      "split": "tr + ied(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "try",
+      "family-note": "已經試過的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "cried",
+      "mean": "哭(過去)",
+      "img": "😢",
+      "chunks": [
+        "cr",
+        "ied"
+      ],
+      "py": "ㄎㄖㄞㄉ",
+      "split": "cr + ied(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "cry",
+      "family-note": "已經哭過的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "married",
+      "mean": "結婚(過去)",
+      "img": "💍",
+      "chunks": [
+        "mar",
+        "ried"
+      ],
+      "py": "ㄇㄝ-ㄖㄧㄉ",
+      "split": "mar + ried(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "marry",
+      "family-note": "已經結婚的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "hurried",
+      "mean": "趕快(過去)",
+      "img": "🏃",
+      "chunks": [
+        "hur",
+        "ried"
+      ],
+      "py": "ㄏㄜ-ㄖㄧㄉ",
+      "split": "hur + ried(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "hurry",
+      "family-note": "已經趕的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "carried",
+      "mean": "帶(過去)",
+      "img": "🎒",
+      "chunks": [
+        "car",
+        "ried"
+      ],
+      "py": "ㄎㄝ-ㄖㄧㄉ",
+      "split": "car + ried(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "carry",
+      "family-note": "已經帶的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "copied",
+      "mean": "複製(過去)",
+      "img": "📋",
+      "chunks": [
+        "cop",
+        "ied"
+      ],
+      "py": "ㄎㄚ-ㄆㄧㄉ",
+      "split": "cop + ied(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "copy",
+      "family-note": "已經複製的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "replied",
+      "mean": "回覆(過去)",
+      "img": "💬",
+      "chunks": [
+        "re",
+        "pl",
+        "ied"
+      ],
+      "py": "ㄖㄧ-ㄆㄌㄞㄉ",
+      "split": "re + pl + ied(y→i)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "reply",
+      "family-note": "已經回覆的版本(過去式,y 變 i + ed)"
+    },
+    {
+      "word": "cities",
+      "mean": "城市(複數)",
+      "img": "🏙️",
+      "chunks": [
+        "cit",
+        "ies"
+      ],
+      "py": "ㄒㄧ-ㄊㄧㄗ",
+      "split": "cit + ies(y→ies)",
+      "theme": "places",
+      "stage": 1,
+      "base": "city",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "parties",
+      "mean": "派對(複數)",
+      "img": "🎉",
+      "chunks": [
+        "par",
+        "ties"
+      ],
+      "py": "ㄆㄚ-ㄊㄧㄗ",
+      "split": "par + ties(y→ies)",
+      "theme": "events",
+      "stage": 1,
+      "base": "party",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "stories",
+      "mean": "故事(複數)",
+      "img": "📖",
+      "chunks": [
+        "stor",
+        "ies"
+      ],
+      "py": "ㄙㄉㄛ-ㄖㄧㄗ",
+      "split": "stor + ies(y→ies)",
+      "theme": "literature",
+      "stage": 1,
+      "base": "story",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "families",
+      "mean": "家庭(複數)",
+      "img": "👨‍👩‍👧",
+      "chunks": [
+        "fam",
+        "il",
+        "ies"
+      ],
+      "py": "ㄈㄝ-ㄇㄝ-ㄌㄧㄗ",
+      "split": "fam + il + ies(y→ies)",
+      "theme": "family",
+      "stage": 1,
+      "base": "family",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "countries",
+      "mean": "國家(複數)",
+      "img": "🌍",
+      "chunks": [
+        "coun",
+        "tries"
+      ],
+      "py": "ㄎㄚ-ㄊㄖㄧㄗ",
+      "split": "coun + tries(y→ies)",
+      "theme": "countries",
+      "stage": 1,
+      "base": "country",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "ladies",
+      "mean": "女士(複數)",
+      "img": "👩",
+      "chunks": [
+        "la",
+        "dies"
+      ],
+      "py": "ㄌㄝ-ㄉㄧㄗ",
+      "split": "la + dies(y→ies)",
+      "theme": "family",
+      "stage": 1,
+      "base": "lady",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "candies",
+      "mean": "糖果(複數)",
+      "img": "🍬",
+      "chunks": [
+        "can",
+        "dies"
+      ],
+      "py": "ㄎㄝ-ㄋㄉㄧㄗ",
+      "split": "can + dies(y→ies)",
+      "theme": "desserts",
+      "stage": 1,
+      "base": "candy",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "puppies",
+      "mean": "小狗(複數)",
+      "img": "🐶",
+      "chunks": [
+        "pup",
+        "pies"
+      ],
+      "py": "ㄆㄚ-ㄆㄧㄗ",
+      "split": "pup + pies(y→ies)",
+      "theme": "animals",
+      "stage": 1,
+      "base": "puppy",
+      "family-note": "「很多個」的版本(複數,y 變 ies)"
+    },
+    {
+      "word": "smaller",
+      "mean": "更小",
+      "img": "🔽",
+      "chunks": [
+        "small",
+        "er"
+      ],
+      "py": "ㄙㄇㄛ-ㄌㄜ",
+      "split": "small + er",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "small",
+      "family-note": "「更小」的版本(比較級,+er)"
+    },
+    {
+      "word": "smallest",
+      "mean": "最小",
+      "img": "⬇️",
+      "chunks": [
+        "small",
+        "est"
+      ],
+      "py": "ㄙㄇㄛ-ㄌㄝㄙㄊ",
+      "split": "small + est",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "small",
+      "family-note": "「最小」的版本(最高級,+est)"
+    },
+    {
+      "word": "biggest",
+      "mean": "最大",
+      "img": "⬆️",
+      "chunks": [
+        "big",
+        "gest"
+      ],
+      "py": "ㄅㄧ-ㄍㄝㄙㄊ",
+      "split": "big + gest(雙 g)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "big",
+      "family-note": "「最大」的版本(最高級,+est 雙 g)"
+    },
+    {
+      "word": "faster",
+      "mean": "更快",
+      "img": "💨",
+      "chunks": [
+        "fast",
+        "er"
+      ],
+      "py": "ㄈㄝ-ㄙㄉㄜ",
+      "split": "fast + er",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "fast",
+      "family-note": "「更快」的版本(比較級,+er)"
+    },
+    {
+      "word": "fastest",
+      "mean": "最快",
+      "img": "🚀",
+      "chunks": [
+        "fast",
+        "est"
+      ],
+      "py": "ㄈㄝ-ㄙㄉㄝㄙㄊ",
+      "split": "fast + est",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "fast",
+      "family-note": "「最快」的版本(最高級,+est)"
+    },
+    {
+      "word": "taller",
+      "mean": "更高",
+      "img": "📏",
+      "chunks": [
+        "tall",
+        "er"
+      ],
+      "py": "ㄊㄛ-ㄌㄜ",
+      "split": "tall + er",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "tall",
+      "family-note": "「更高」的版本(比較級,+er)"
+    },
+    {
+      "word": "tallest",
+      "mean": "最高",
+      "img": "🗼",
+      "chunks": [
+        "tall",
+        "est"
+      ],
+      "py": "ㄊㄛ-ㄌㄝㄙㄊ",
+      "split": "tall + est",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "tall",
+      "family-note": "「最高」的版本(最高級,+est)"
+    },
+    {
+      "word": "hotter",
+      "mean": "更熱",
+      "img": "🔥",
+      "chunks": [
+        "hot",
+        "ter"
+      ],
+      "py": "ㄏㄚ-ㄊㄜ",
+      "split": "hot + ter(雙 t)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "hot",
+      "family-note": "「更熱」的版本(比較級,+er 雙 t)"
+    },
+    {
+      "word": "hottest",
+      "mean": "最熱",
+      "img": "🌡️",
+      "chunks": [
+        "hot",
+        "test"
+      ],
+      "py": "ㄏㄚ-ㄊㄝㄙㄊ",
+      "split": "hot + test(雙 t)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "hot",
+      "family-note": "「最熱」的版本(最高級,+est 雙 t)"
+    },
+    {
+      "word": "nicer",
+      "mean": "更好的",
+      "img": "😊",
+      "chunks": [
+        "nic",
+        "er"
+      ],
+      "py": "ㄋㄞ-ㄙㄜ",
+      "split": "nic + er(去 e)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "nice",
+      "family-note": "「更好」的版本(比較級,去 e + er)"
+    },
+    {
+      "word": "nicest",
+      "mean": "最好的",
+      "img": "🌟",
+      "chunks": [
+        "nic",
+        "est"
+      ],
+      "py": "ㄋㄞ-ㄙㄝㄙㄊ",
+      "split": "nic + est(去 e)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "nice",
+      "family-note": "「最好」的版本(最高級,去 e + est)"
+    },
+    {
+      "word": "larger",
+      "mean": "更大的",
+      "img": "⏫",
+      "chunks": [
+        "larg",
+        "er"
+      ],
+      "py": "ㄌㄚ-ㄐㄜ",
+      "split": "larg + er(去 e)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "large",
+      "family-note": "「更大」的版本(比較級,去 e + er)"
+    },
+    {
+      "word": "largest",
+      "mean": "最大的",
+      "img": "🏔️",
+      "chunks": [
+        "larg",
+        "est"
+      ],
+      "py": "ㄌㄚ-ㄐㄝㄙㄊ",
+      "split": "larg + est(去 e)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "large",
+      "family-note": "「最大」的版本(最高級,去 e + est)"
+    },
+    {
+      "word": "happier",
+      "mean": "更開心",
+      "img": "😄",
+      "chunks": [
+        "hap",
+        "pier"
+      ],
+      "py": "ㄏㄝ-ㄆㄧㄜ",
+      "split": "hap + pier(y→i)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "happy",
+      "family-note": "「更開心」的版本(比較級,y 變 i + er)"
+    },
+    {
+      "word": "happiest",
+      "mean": "最開心",
+      "img": "🥳",
+      "chunks": [
+        "hap",
+        "piest"
+      ],
+      "py": "ㄏㄝ-ㄆㄧㄝㄙㄊ",
+      "split": "hap + piest(y→i)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "happy",
+      "family-note": "「最開心」的版本(最高級,y 變 i + est)"
+    },
+    {
+      "word": "easier",
+      "mean": "更容易",
+      "img": "👌",
+      "chunks": [
+        "eas",
+        "ier"
+      ],
+      "py": "ㄧ-ㄗㄧㄜ",
+      "split": "eas + ier(y→i)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "easy",
+      "family-note": "「更容易」的版本(比較級,y 變 i + er)"
+    },
+    {
+      "word": "easiest",
+      "mean": "最容易",
+      "img": "✨",
+      "chunks": [
+        "eas",
+        "iest"
+      ],
+      "py": "ㄧ-ㄗㄧㄝㄙㄊ",
+      "split": "eas + iest(y→i)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "easy",
+      "family-note": "「最容易」的版本(最高級,y 變 i + est)"
+    },
+    {
+      "word": "busier",
+      "mean": "更忙",
+      "img": "😵",
+      "chunks": [
+        "bus",
+        "ier"
+      ],
+      "py": "ㄅㄧ-ㄗㄧㄜ",
+      "split": "bus + ier(y→i)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "busy",
+      "family-note": "「更忙」的版本(比較級,y 變 i + er)"
+    },
+    {
+      "word": "busiest",
+      "mean": "最忙",
+      "img": "🤯",
+      "chunks": [
+        "bus",
+        "iest"
+      ],
+      "py": "ㄅㄧ-ㄗㄧㄝㄙㄊ",
+      "split": "bus + iest(y→i)",
+      "theme": "adjectives",
+      "stage": 1,
+      "base": "busy",
+      "family-note": "「最忙」的版本(最高級,y 變 i + est)"
+    },
+    {
+      "word": "played",
+      "mean": "玩(過去)",
+      "img": "🎮",
+      "chunks": [
+        "play",
+        "ed"
+      ],
+      "py": "ㄆㄌㄝㄉ",
+      "split": "play + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "play",
+      "family-note": "已經玩過的版本(過去式,+ed)"
+    },
+    {
+      "word": "talked",
+      "mean": "說話(過去)",
+      "img": "💬",
+      "chunks": [
+        "talk",
+        "ed"
+      ],
+      "py": "ㄊㄛㄎㄊ",
+      "split": "talk + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "talk",
+      "family-note": "已經說過的版本(過去式,+ed)"
+    },
+    {
+      "word": "watched",
+      "mean": "看(過去)",
+      "img": "👀",
+      "chunks": [
+        "watch",
+        "ed"
+      ],
+      "py": "ㄨㄚㄑㄊ",
+      "split": "watch + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "watch",
+      "family-note": "已經看過的版本(過去式,+ed)"
+    },
+    {
+      "word": "waited",
+      "mean": "等(過去)",
+      "img": "⏳",
+      "chunks": [
+        "wait",
+        "ed"
+      ],
+      "py": "ㄨㄝ-ㄊㄧㄉ",
+      "split": "wait + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "wait",
+      "family-note": "已經等過的版本(過去式,+ed)"
+    },
+    {
+      "word": "wanted",
+      "mean": "想要(過去)",
+      "img": "🙏",
+      "chunks": [
+        "want",
+        "ed"
+      ],
+      "py": "ㄨㄚ-ㄋㄊㄧㄉ",
+      "split": "want + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "want",
+      "family-note": "已經想要的版本(過去式,+ed)"
+    },
+    {
+      "word": "helped",
+      "mean": "幫忙(過去)",
+      "img": "🤝",
+      "chunks": [
+        "help",
+        "ed"
+      ],
+      "py": "ㄏㄝㄆㄊ",
+      "split": "help + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "help",
+      "family-note": "已經幫過的版本(過去式,+ed)"
+    },
+    {
+      "word": "opened",
+      "mean": "打開(過去)",
+      "img": "🔓",
+      "chunks": [
+        "op",
+        "ened"
+      ],
+      "py": "ㄛ-ㄆㄝㄋㄉ",
+      "split": "op + ened",
+      "theme": "actions",
+      "stage": 1,
+      "base": "open",
+      "family-note": "已經打開過的版本(過去式,+ed)"
+    },
+    {
+      "word": "closed",
+      "mean": "關(過去)",
+      "img": "🔒",
+      "chunks": [
+        "clos",
+        "ed"
+      ],
+      "py": "ㄎㄌㄛㄗㄉ",
+      "split": "clos + ed(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "close",
+      "family-note": "已經關過的版本(過去式,去 e + ed)"
+    },
+    {
+      "word": "cleaned",
+      "mean": "打掃(過去)",
+      "img": "🧹",
+      "chunks": [
+        "clean",
+        "ed"
+      ],
+      "py": "ㄎㄌㄧㄋㄉ",
+      "split": "clean + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "clean",
+      "family-note": "已經打掃過的版本(過去式,+ed)"
+    },
+    {
+      "word": "finished",
+      "mean": "完成(過去)",
+      "img": "✅",
+      "chunks": [
+        "fin",
+        "ished"
+      ],
+      "py": "ㄈㄧ-ㄋㄧㄒㄊ",
+      "split": "fin + ished",
+      "theme": "actions",
+      "stage": 1,
+      "base": "finish",
+      "family-note": "已經完成的版本(過去式,+ed)"
+    },
+    {
+      "word": "worked",
+      "mean": "工作(過去)",
+      "img": "💼",
+      "chunks": [
+        "work",
+        "ed"
+      ],
+      "py": "ㄨㄜㄎㄊ",
+      "split": "work + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "work",
+      "family-note": "已經工作過的版本(過去式,+ed)"
+    },
+    {
+      "word": "cooked",
+      "mean": "煮(過去)",
+      "img": "🍳",
+      "chunks": [
+        "cook",
+        "ed"
+      ],
+      "py": "ㄎㄨㄎㄊ",
+      "split": "cook + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "cook",
+      "family-note": "已經煮過的版本(過去式,+ed)"
+    },
+    {
+      "word": "showed",
+      "mean": "展示(過去)",
+      "img": "👉",
+      "chunks": [
+        "show",
+        "ed"
+      ],
+      "py": "ㄕㄛㄉ",
+      "split": "show + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "show",
+      "family-note": "已經展示過的版本(過去式,+ed)"
+    },
+    {
+      "word": "called",
+      "mean": "叫(過去)",
+      "img": "📞",
+      "chunks": [
+        "call",
+        "ed"
+      ],
+      "py": "ㄎㄛㄌㄉ",
+      "split": "call + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "call",
+      "family-note": "已經叫過的版本(過去式,+ed)"
+    },
+    {
+      "word": "asked",
+      "mean": "問(過去)",
+      "img": "🙋",
+      "chunks": [
+        "ask",
+        "ed"
+      ],
+      "py": "ㄝㄙㄎㄊ",
+      "split": "ask + ed",
+      "theme": "actions",
+      "stage": 1,
+      "base": "ask",
+      "family-note": "已經問過的版本(過去式,+ed)"
+    },
+    {
+      "word": "answered",
+      "mean": "回答(過去)",
+      "img": "💬",
+      "chunks": [
+        "an",
+        "swered"
+      ],
+      "py": "ㄝ-ㄋㄙㄜㄉ",
+      "split": "an + swered",
+      "theme": "actions",
+      "stage": 1,
+      "base": "answer",
+      "family-note": "已經回答過的版本(過去式,+ed)"
+    },
+    {
+      "word": "lived",
+      "mean": "住(過去)",
+      "img": "🏠",
+      "chunks": [
+        "liv",
+        "ed"
+      ],
+      "py": "ㄌㄧㄈㄉ",
+      "split": "liv + ed(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "live",
+      "family-note": "已經住過的版本(過去式,去 e + ed)"
+    },
+    {
+      "word": "loved",
+      "mean": "愛(過去)",
+      "img": "❤️",
+      "chunks": [
+        "lov",
+        "ed"
+      ],
+      "py": "ㄌㄚㄈㄉ",
+      "split": "lov + ed(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "love",
+      "family-note": "已經愛過的版本(過去式,去 e + ed)"
+    },
+    {
+      "word": "liked",
+      "mean": "喜歡(過去)",
+      "img": "👍",
+      "chunks": [
+        "lik",
+        "ed"
+      ],
+      "py": "ㄌㄞㄎㄊ",
+      "split": "lik + ed(去 e)",
+      "theme": "actions",
+      "stage": 1,
+      "base": "like",
+      "family-note": "已經喜歡過的版本(過去式,去 e + ed)"
+    }
   ]
 }
