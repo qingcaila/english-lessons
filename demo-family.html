@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>家族線預覽 · Demo</title>
+<style>
+  :root {
+    --bg: #faf8f3; --card: #fff; --ink: #2a2a2a; --muted: #6b6b6b;
+    --accent: #c4633f; --accent-soft: #f3dfd4; --border: #e5dfd2;
+    --good: #2d7a2d; --good-bg: #d9efd6;
+    --bad: #a04a1a; --bad-bg: #ffe6d6;
+    --family: #d97e54;       /* 家族線稍淺一點的橘 */
+    --family-bg: #fef0e6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg); color: var(--ink);
+    margin: 0; padding: 14px 12px 40px; line-height: 1.5; font-size: 13px;
+  }
+  .wrap { max-width: 480px; margin: 0 auto; }
+  h1 { font-size: 18px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+  h2 {
+    font-size: 14px; margin: 18px 0 8px; padding: 6px 10px;
+    background: var(--accent-soft); color: var(--accent); border-radius: 5px;
+  }
+  .a { color: var(--accent); text-decoration: none; }
+
+  /* 卡片 */
+  .word .chunk {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 3px;
+  }
+  .chunk::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 3px;
+    height: 2px;
+    background: var(--accent);
+  }
+  .chunk:last-child::after { right: 0; }
+  .word { display: inline-flex; gap: 0; align-items: baseline; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 6px; padding: 5px 10px; margin-bottom: 8px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 22px 44px 1fr auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "num img wordline meaning actions"
+      "num img family   meaning actions"
+      "num img split    meaning actions";
+    column-gap: 5px; row-gap: 1px;
+    align-items: center;
+  }
+  .num {
+    grid-area: num; align-self: start; justify-self: start;
+    display: inline-block; font-size: 11px; padding: 1px 5px;
+    background: var(--accent-soft); color: var(--accent); border-radius: 3px;
+  }
+  .meaning {
+    grid-area: meaning; align-self: center; justify-self: end;
+    font-size: 12px; color: var(--muted); font-weight: 500; white-space: nowrap;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 1px;
+  }
+  .img { grid-area: img; font-size: 16px; text-align: left; align-self: center; line-height: 1;
+         white-space: nowrap; letter-spacing: 0; }
+  .word-cell { grid-area: wordline; align-self: center;
+               display: flex; align-items: baseline; gap: 6px; flex-wrap: nowrap; }
+  .word-cell .word { font-size: 16px; font-weight: 600; }
+  .pinyin { font-size: 10.5px; color: var(--muted); }
+
+  /* ⭐ 新欄位:家族線 */
+  .family-line {
+    grid-area: family; align-self: start;
+    font-size: 11px; color: var(--family);
+    background: var(--family-bg);
+    padding: 1px 6px; border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+  }
+  .family-line:hover { background: var(--family); color: #fff; }
+  .family-line .arrow { font-weight: 700; margin-right: 2px; }
+  .family-line .note { color: var(--muted); margin-left: 4px; font-size: 10px; }
+  .family-line:hover .note { color: #fff; }
+
+  .split {
+    grid-area: split; align-self: start;
+    font-size: 10px; color: var(--muted); line-height: 1.2;
+  }
+  .actions {
+    grid-area: actions; align-self: center;
+    display: flex; flex-direction: column; gap: 3px; margin-left: 4px;
+  }
+  .btn-know, .btn-forgot {
+    font-size: 11px; padding: 2px 5px; border-radius: 4px;
+    border: 1px solid var(--border); background: #fff;
+    cursor: pointer; min-width: 36px; text-align: center;
+  }
+  .btn-know { color: var(--good); border-color: var(--good); }
+  .btn-forgot { color: var(--bad); border-color: var(--bad); }
+
+  .legend {
+    background: var(--family-bg); border: 1px dashed var(--family);
+    padding: 8px 12px; border-radius: 6px;
+    font-size: 12px; margin-bottom: 14px;
+    color: var(--family);
+  }
+  .legend b { color: var(--family); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>家族線預覽 (demo)</h1>
+  <div class="sub">這只是樣式預覽,不會影響 vocab.json。<a class="a" href="index.html">← 回首頁</a></div>
+
+  <div class="legend">
+    👇 看下面每張卡片中間多一條<b>淺橘色家族線</b>,告訴你這個字的「原形」/「規則」/「家族關係」。<br>
+    線上**可以點**(點了會跳到原形那個字)。
+  </div>
+
+  <h2>① 不規則動詞(過去式 / 過去分詞)</h2>
+
+  <div class="card">
+    <span class="num">1</span>
+    <span class="img">🚶</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">w</span><span class="chunk">ent</span>
+      </span>
+      <span class="pinyin">ㄨㄝㄣㄊ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> go <span class="note">過去式</span></span>
+    <span class="split">w + ent</span>
+    <span class="meaning">
+      <span>去</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">2</span>
+    <span class="img">👀</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">s</span><span class="chunk">aw</span>
+      </span>
+      <span class="pinyin">ㄙㄛ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> see <span class="note">過去式</span></span>
+    <span class="split">s + aw</span>
+    <span class="meaning">
+      <span>看見</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">3</span>
+    <span class="img">🧠</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">th</span><span class="chunk">ought</span>
+      </span>
+      <span class="pinyin">ㄙㄛㄊ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> think <span class="note">過去式 + p.p.</span></span>
+    <span class="split">th + ought (gh 不發音)</span>
+    <span class="meaning">
+      <span>想 / 認為</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">4</span>
+    <span class="img">🍴</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">eat</span><span class="chunk">en</span>
+      </span>
+      <span class="pinyin">ㄧ-ㄊㄣ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> eat <span class="note">過去分詞</span></span>
+    <span class="split">eat + en</span>
+    <span class="meaning">
+      <span>吃(p.p.)</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <h2>② 拼字變化(規則動詞 / 複數 / 比較級)</h2>
+
+  <div class="card">
+    <span class="num">5</span>
+    <span class="img">🏃</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">run</span><span class="chunk">ning</span>
+      </span>
+      <span class="pinyin">ㄖㄚ-ㄋㄧㄥ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> run <span class="note">+ing(雙 n)</span></span>
+    <span class="split">run + ning</span>
+    <span class="meaning">
+      <span>跑步中</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">6</span>
+    <span class="img">📚</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">stud</span><span class="chunk">ied</span>
+      </span>
+      <span class="pinyin">ㄙㄉㄚ-ㄉㄧㄉ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> study <span class="note">+ed(y→i)</span></span>
+    <span class="split">stud + ied</span>
+    <span class="meaning">
+      <span>學習(過去)</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">7</span>
+    <span class="img">👶</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">ba</span><span class="chunk">bies</span>
+      </span>
+      <span class="pinyin">ㄅㄟ-ㄅㄧㄗ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> baby <span class="note">複數 y→ies</span></span>
+    <span class="split">ba + bies</span>
+    <span class="meaning">
+      <span>嬰兒(複)</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">8</span>
+    <span class="img">📏</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">big</span><span class="chunk">ger</span>
+      </span>
+      <span class="pinyin">ㄅㄧ-ㄍㄜ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> big <span class="note">+er 比較級 雙 g</span></span>
+    <span class="split">big + ger</span>
+    <span class="meaning">
+      <span>更大的</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div class="card">
+    <span class="num">9</span>
+    <span class="img">🚶‍♂️</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">walk</span><span class="chunk">ed</span>
+      </span>
+      <span class="pinyin">ㄨㄛㄎㄊ</span>
+    </span>
+    <span class="family-line"><span class="arrow">←</span> walk <span class="note">+ed 規則過去式</span></span>
+    <span class="split">walk + ed</span>
+    <span class="meaning">
+      <span>走(過去)</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <h2>沒有家族線的字維持原樣</h2>
+
+  <div class="card">
+    <span class="num">10</span>
+    <span class="img">🏠</span>
+    <span class="word-cell">
+      <span class="word">
+        <span class="chunk">h</span><span class="chunk">ome</span>
+      </span>
+      <span class="pinyin">ㄏㄡㄇ</span>
+    </span>
+    <span class="family-line" style="visibility:hidden;">placeholder</span>
+    <span class="split">h + ome (silent-e o-e)</span>
+    <span class="meaning">
+      <span>家</span>
+    </span>
+    <span class="actions">
+      <button class="btn-know">✅</button>
+      <button class="btn-forgot">❌</button>
+    </span>
+  </div>
+
+  <div style="margin-top:30px;text-align:center;color:var(--muted);font-size:11px;">
+    這是預覽 demo,不會影響你的學習進度。<br>
+    回到 <a class="a" href="index.html">首頁</a> 或 <a class="a" href="lesson.html?mode=frequency&count=10">開始一輪</a>
+  </div>
+
+</div>
+</body>
+</html>
