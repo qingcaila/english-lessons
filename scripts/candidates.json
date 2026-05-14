@@ -1,0 +1,3110 @@
+[
+  {
+    "word": "brother",
+    "stem": "broth",
+    "suf": "er",
+    "mean": "兄弟",
+    "stem_mean": "清湯"
+  },
+  {
+    "word": "door",
+    "stem": "do",
+    "suf": "or",
+    "mean": "門",
+    "stem_mean": "做"
+  },
+  {
+    "word": "flower",
+    "stem": "flow",
+    "suf": "er",
+    "mean": "花",
+    "stem_mean": "流動"
+  },
+  {
+    "word": "they",
+    "stem": "the",
+    "suf": "y",
+    "mean": "他們",
+    "stem_mean": "那個"
+  },
+  {
+    "word": "shower",
+    "stem": "show",
+    "suf": "er",
+    "mean": "蓮蓬頭",
+    "stem_mean": "表演"
+  },
+  {
+    "word": "beer",
+    "stem": "be",
+    "suf": "er",
+    "mean": "啤酒",
+    "stem_mean": "是"
+  },
+  {
+    "word": "customer",
+    "stem": "custom",
+    "suf": "er",
+    "mean": "顧客",
+    "stem_mean": "慣例"
+  },
+  {
+    "word": "meal",
+    "stem": "me",
+    "suf": "al",
+    "mean": "一餐",
+    "stem_mean": "我"
+  },
+  {
+    "word": "battery",
+    "stem": "batter",
+    "suf": "y",
+    "mean": "電池",
+    "stem_mean": "猛擊"
+  },
+  {
+    "word": "carry",
+    "stem": "car",
+    "suf": "y",
+    "mean": "攜帶",
+    "stem_mean": "汽車"
+  },
+  {
+    "word": "busy",
+    "stem": "bus",
+    "suf": "y",
+    "mean": "忙碌",
+    "stem_mean": "公車"
+  },
+  {
+    "word": "dangerous",
+    "stem": "danger",
+    "suf": "ous",
+    "mean": "危險",
+    "stem_mean": "危險"
+  },
+  {
+    "word": "early",
+    "stem": "ear",
+    "suf": "ly",
+    "mean": "早",
+    "stem_mean": "耳朵"
+  },
+  {
+    "word": "ready",
+    "stem": "read",
+    "suf": "y",
+    "mean": "準備好",
+    "stem_mean": "讀"
+  },
+  {
+    "word": "every",
+    "stem": "ever",
+    "suf": "y",
+    "mean": "每個",
+    "stem_mean": "曾經"
+  },
+  {
+    "word": "many",
+    "stem": "man",
+    "suf": "y",
+    "mean": "許多",
+    "stem_mean": "男人"
+  },
+  {
+    "word": "only",
+    "stem": "on",
+    "suf": "ly",
+    "mean": "只",
+    "stem_mean": "在...上"
+  },
+  {
+    "word": "sometimes",
+    "stem": "sometime",
+    "suf": "s",
+    "mean": "有時候",
+    "stem_mean": "在某一時候"
+  },
+  {
+    "word": "shoulder",
+    "stem": "should",
+    "suf": "er",
+    "mean": "肩",
+    "stem_mean": "應該"
+  },
+  {
+    "word": "liver",
+    "stem": "live",
+    "suf": "er",
+    "mean": "肝",
+    "stem_mean": "居住"
+  },
+  {
+    "word": "forty",
+    "stem": "fort",
+    "suf": "y",
+    "mean": "四十",
+    "stem_mean": "堡壘，要塞"
+  },
+  {
+    "word": "eighty",
+    "stem": "eight",
+    "suf": "y",
+    "mean": "八十",
+    "stem_mean": "八"
+  },
+  {
+    "word": "quarter",
+    "stem": "quart",
+    "suf": "er",
+    "mean": "四分之一",
+    "stem_mean": "夸脫"
+  },
+  {
+    "word": "multiply",
+    "stem": "multiple",
+    "suf": "y",
+    "mean": "乘以",
+    "stem_mean": "多種"
+  },
+  {
+    "word": "several",
+    "stem": "severe",
+    "suf": "al",
+    "mean": "數個",
+    "stem_mean": "嚴重的"
+  },
+  {
+    "word": "sunday",
+    "stem": "sundae",
+    "suf": "y",
+    "mean": "星期天",
+    "stem_mean": "聖代"
+  },
+  {
+    "word": "summer",
+    "stem": "sum",
+    "suf": "er",
+    "mean": "夏",
+    "stem_mean": "總和"
+  },
+  {
+    "word": "evening",
+    "stem": "even",
+    "suf": "ing",
+    "mean": "傍晚",
+    "stem_mean": "甚至"
+  },
+  {
+    "word": "coral",
+    "stem": "core",
+    "suf": "al",
+    "mean": "珊瑚紅",
+    "stem_mean": "核心"
+  },
+  {
+    "word": "ruby",
+    "stem": "rub",
+    "suf": "y",
+    "mean": "寶石紅",
+    "stem_mean": "摩擦"
+  },
+  {
+    "word": "seal",
+    "stem": "see",
+    "suf": "al",
+    "mean": "海豹",
+    "stem_mean": "看見"
+  },
+  {
+    "word": "sweater",
+    "stem": "sweat",
+    "suf": "er",
+    "mean": "毛衣",
+    "stem_mean": "汗，汗水出汗"
+  },
+  {
+    "word": "shorts",
+    "stem": "short",
+    "suf": "s",
+    "mean": "短褲",
+    "stem_mean": "短矮"
+  },
+  {
+    "word": "boots",
+    "stem": "boot",
+    "suf": "s",
+    "mean": "靴子",
+    "stem_mean": "靴"
+  },
+  {
+    "word": "sandals",
+    "stem": "sandal",
+    "suf": "s",
+    "mean": "涼鞋",
+    "stem_mean": "涼鞋"
+  },
+  {
+    "word": "heels",
+    "stem": "heel",
+    "suf": "s",
+    "mean": "高跟鞋",
+    "stem_mean": "腳跟"
+  },
+  {
+    "word": "tights",
+    "stem": "tight",
+    "suf": "s",
+    "mean": "褲襪",
+    "stem_mean": "緊的，緊身的"
+  },
+  {
+    "word": "zipper",
+    "stem": "zip",
+    "suf": "er",
+    "mean": "拉鍊",
+    "stem_mean": "拉鍊拉開拉鍊"
+  },
+  {
+    "word": "chilly",
+    "stem": "chill",
+    "suf": "y",
+    "mean": "涼颼颼",
+    "stem_mean": "寒冷"
+  },
+  {
+    "word": "butter",
+    "stem": "butt",
+    "suf": "er",
+    "mean": "奶油",
+    "stem_mean": "屁股"
+  },
+  {
+    "word": "noodles",
+    "stem": "noodle",
+    "suf": "s",
+    "mean": "麵條",
+    "stem_mean": "麵條"
+  },
+  {
+    "word": "chips",
+    "stem": "chip",
+    "suf": "s",
+    "mean": "洋芋片",
+    "stem_mean": "碎片"
+  },
+  {
+    "word": "seed",
+    "stem": "see",
+    "suf": "ed",
+    "mean": "種子",
+    "stem_mean": "看見"
+  },
+  {
+    "word": "stairs",
+    "stem": "stair",
+    "suf": "s",
+    "mean": "樓梯",
+    "stem_mean": "階梯"
+  },
+  {
+    "word": "dresser",
+    "stem": "dress",
+    "suf": "er",
+    "mean": "梳妝台",
+    "stem_mean": "洋裝"
+  },
+  {
+    "word": "poster",
+    "stem": "post",
+    "suf": "er",
+    "mean": "海報",
+    "stem_mean": "貼文"
+  },
+  {
+    "word": "mayor",
+    "stem": "may",
+    "suf": "or",
+    "mean": "市長",
+    "stem_mean": "可能"
+  },
+  {
+    "word": "tailor",
+    "stem": "tail",
+    "suf": "or",
+    "mean": "裁縫",
+    "stem_mean": "尾巴"
+  },
+  {
+    "word": "darts",
+    "stem": "dart",
+    "suf": "s",
+    "mean": "飛鏢",
+    "stem_mean": "飛鏢"
+  },
+  {
+    "word": "goal",
+    "stem": "go",
+    "suf": "al",
+    "mean": "進球目標",
+    "stem_mean": "去"
+  },
+  {
+    "word": "lyrics",
+    "stem": "lyric",
+    "suf": "s",
+    "mean": "歌詞",
+    "stem_mean": "歌詞"
+  },
+  {
+    "word": "blues",
+    "stem": "blue",
+    "suf": "s",
+    "mean": "藍調",
+    "stem_mean": "藍色"
+  },
+  {
+    "word": "metal",
+    "stem": "met",
+    "suf": "al",
+    "mean": "金屬樂",
+    "stem_mean": "見了"
+  },
+  {
+    "word": "forest",
+    "stem": "for",
+    "suf": "est",
+    "mean": "森林",
+    "stem_mean": "為了"
+  },
+  {
+    "word": "petal",
+    "stem": "pet",
+    "suf": "al",
+    "mean": "花瓣",
+    "stem_mean": "寵物"
+  },
+  {
+    "word": "ever",
+    "stem": "eve",
+    "suf": "er",
+    "mean": "曾經",
+    "stem_mean": "前夜，前夕"
+  },
+  {
+    "word": "mother",
+    "stem": "moth",
+    "suf": "er",
+    "mean": "母親",
+    "stem_mean": "飛蛾"
+  },
+  {
+    "word": "thing",
+    "stem": "the",
+    "suf": "ing",
+    "mean": "東西",
+    "stem_mean": "那個"
+  },
+  {
+    "word": "city",
+    "stem": "cite",
+    "suf": "y",
+    "mean": "城市",
+    "stem_mean": "引用"
+  },
+  {
+    "word": "story",
+    "stem": "store",
+    "suf": "y",
+    "mean": "故事",
+    "stem_mean": "商店"
+  },
+  {
+    "word": "matter",
+    "stem": "mat",
+    "suf": "er",
+    "mean": "事情",
+    "stem_mean": "墊子"
+  },
+  {
+    "word": "center",
+    "stem": "cent",
+    "suf": "er",
+    "mean": "中心",
+    "stem_mean": "分"
+  },
+  {
+    "word": "corner",
+    "stem": "corn",
+    "suf": "er",
+    "mean": "角落",
+    "stem_mean": "玉米"
+  },
+  {
+    "word": "tiny",
+    "stem": "tin",
+    "suf": "y",
+    "mean": "極小",
+    "stem_mean": "錫"
+  },
+  {
+    "word": "lady",
+    "stem": "lad",
+    "suf": "y",
+    "mean": "女士",
+    "stem_mean": "少年"
+  },
+  {
+    "word": "parents",
+    "stem": "parent",
+    "suf": "s",
+    "mean": "父母",
+    "stem_mean": "家長"
+  },
+  {
+    "word": "buddy",
+    "stem": "bud",
+    "suf": "y",
+    "mean": "哥們",
+    "stem_mean": "芽"
+  },
+  {
+    "word": "belly",
+    "stem": "bell",
+    "suf": "y",
+    "mean": "肚子",
+    "stem_mean": "鈴聲"
+  },
+  {
+    "word": "depressed",
+    "stem": "depress",
+    "suf": "ed",
+    "mean": "憂鬱",
+    "stem_mean": "使…沮喪，使…消沉"
+  },
+  {
+    "word": "stressed",
+    "stem": "stress",
+    "suf": "ed",
+    "mean": "壓力大",
+    "stem_mean": "壓力"
+  },
+  {
+    "word": "pity",
+    "stem": "pit",
+    "suf": "y",
+    "mean": "憐憫",
+    "stem_mean": "窪坑，凹處"
+  },
+  {
+    "word": "frustrated",
+    "stem": "frustrate",
+    "suf": "ed",
+    "mean": "挫敗",
+    "stem_mean": "挫敗"
+  },
+  {
+    "word": "delighted",
+    "stem": "delight",
+    "suf": "ed",
+    "mean": "開心",
+    "stem_mean": "欣喜"
+  },
+  {
+    "word": "thrilled",
+    "stem": "thrill",
+    "suf": "ed",
+    "mean": "興奮",
+    "stem_mean": "激動"
+  },
+  {
+    "word": "complicated",
+    "stem": "complicate",
+    "suf": "ed",
+    "mean": "複雜",
+    "stem_mean": "使複雜化"
+  },
+  {
+    "word": "coaster",
+    "stem": "coast",
+    "suf": "er",
+    "mean": "杯墊",
+    "stem_mean": "海岸"
+  },
+  {
+    "word": "saucer",
+    "stem": "sauce",
+    "suf": "er",
+    "mean": "小碟",
+    "stem_mean": "醬汁"
+  },
+  {
+    "word": "urinal",
+    "stem": "urine",
+    "suf": "al",
+    "mean": "小便斗",
+    "stem_mean": "尿"
+  },
+  {
+    "word": "brandy",
+    "stem": "brand",
+    "suf": "y",
+    "mean": "白蘭地",
+    "stem_mean": "品牌"
+  },
+  {
+    "word": "lager",
+    "stem": "lag",
+    "suf": "er",
+    "mean": "拉格啤酒",
+    "stem_mean": "延遲"
+  },
+  {
+    "word": "gummy",
+    "stem": "gum",
+    "suf": "y",
+    "mean": "軟糖",
+    "stem_mean": "牙齦"
+  },
+  {
+    "word": "sweets",
+    "stem": "sweet",
+    "suf": "s",
+    "mean": "甜食",
+    "stem_mean": "甜"
+  },
+  {
+    "word": "spiral",
+    "stem": "spire",
+    "suf": "al",
+    "mean": "螺旋",
+    "stem_mean": "尖塔給…裝尖頂聳立"
+  },
+  {
+    "word": "curved",
+    "stem": "curve",
+    "suf": "ed",
+    "mean": "彎曲",
+    "stem_mean": "曲線"
+  },
+  {
+    "word": "west",
+    "stem": "we",
+    "suf": "est",
+    "mean": "西",
+    "stem_mean": "我們"
+  },
+  {
+    "word": "factory",
+    "stem": "factor",
+    "suf": "y",
+    "mean": "工廠",
+    "stem_mean": "因素"
+  },
+  {
+    "word": "county",
+    "stem": "count",
+    "suf": "y",
+    "mean": "縣",
+    "stem_mean": "數"
+  },
+  {
+    "word": "hammer",
+    "stem": "ham",
+    "suf": "er",
+    "mean": "鎚子",
+    "stem_mean": "火腿"
+  },
+  {
+    "word": "ladder",
+    "stem": "lad",
+    "suf": "er",
+    "mean": "梯子",
+    "stem_mean": "少年"
+  },
+  {
+    "word": "besides",
+    "stem": "beside",
+    "suf": "s",
+    "mean": "除此之外",
+    "stem_mean": "旁邊"
+  },
+  {
+    "word": "customs",
+    "stem": "custom",
+    "suf": "s",
+    "mean": "海關",
+    "stem_mean": "慣例"
+  },
+  {
+    "word": "wander",
+    "stem": "wand",
+    "suf": "er",
+    "mean": "漫遊",
+    "stem_mean": "魔杖"
+  },
+  {
+    "word": "offer",
+    "stem": "off",
+    "suf": "er",
+    "mean": "優惠",
+    "stem_mean": "離開"
+  },
+  {
+    "word": "inventory",
+    "stem": "inventor",
+    "suf": "y",
+    "mean": "庫存",
+    "stem_mean": "發明家"
+  },
+  {
+    "word": "savory",
+    "stem": "savor",
+    "suf": "y",
+    "mean": "鹹香",
+    "stem_mean": "品味"
+  },
+  {
+    "word": "bitter",
+    "stem": "bit",
+    "suf": "er",
+    "mean": "苦",
+    "stem_mean": "咬了"
+  },
+  {
+    "word": "catering",
+    "stem": "cater",
+    "suf": "ing",
+    "mean": "外燴",
+    "stem_mean": "承辦宴席"
+  },
+  {
+    "word": "loss",
+    "stem": "lose",
+    "suf": "s",
+    "mean": "虧損",
+    "stem_mean": "失去"
+  },
+  {
+    "word": "broker",
+    "stem": "broke",
+    "suf": "er",
+    "mean": "經紀人",
+    "stem_mean": "打破了"
+  },
+  {
+    "word": "heal",
+    "stem": "he",
+    "suf": "al",
+    "mean": "治癒",
+    "stem_mean": "他"
+  },
+  {
+    "word": "injury",
+    "stem": "injure",
+    "suf": "y",
+    "mean": "傷害",
+    "stem_mean": "受傷"
+  },
+  {
+    "word": "possibly",
+    "stem": "possible",
+    "suf": "y",
+    "mean": "可能",
+    "stem_mean": "可能的"
+  },
+  {
+    "word": "hers",
+    "stem": "her",
+    "suf": "s",
+    "mean": "她的",
+    "stem_mean": "她的"
+  },
+  {
+    "word": "theirs",
+    "stem": "their",
+    "suf": "s",
+    "mean": "他們的",
+    "stem_mean": "他們的"
+  },
+  {
+    "word": "ours",
+    "stem": "our",
+    "suf": "s",
+    "mean": "我們的",
+    "stem_mean": "我們的"
+  },
+  {
+    "word": "others",
+    "stem": "other",
+    "suf": "s",
+    "mean": "其他人",
+    "stem_mean": "其他"
+  },
+  {
+    "word": "fewer",
+    "stem": "few",
+    "suf": "er",
+    "mean": "較少",
+    "stem_mean": "少"
+  },
+  {
+    "word": "thanks",
+    "stem": "thank",
+    "suf": "s",
+    "mean": "謝謝",
+    "stem_mean": "感謝"
+  },
+  {
+    "word": "cheers",
+    "stem": "cheer",
+    "suf": "s",
+    "mean": "乾杯",
+    "stem_mean": "歡呼"
+  },
+  {
+    "word": "towards",
+    "stem": "toward",
+    "suf": "s",
+    "mean": "朝向",
+    "stem_mean": "朝向"
+  },
+  {
+    "word": "backwards",
+    "stem": "backward",
+    "suf": "s",
+    "mean": "向後",
+    "stem_mean": "向後"
+  },
+  {
+    "word": "notably",
+    "stem": "notable",
+    "suf": "y",
+    "mean": "值得注意地",
+    "stem_mean": "著名的"
+  },
+  {
+    "word": "granted",
+    "stem": "grant",
+    "suf": "ed",
+    "mean": "當然",
+    "stem_mean": "補助金"
+  },
+  {
+    "word": "formerly",
+    "stem": "former",
+    "suf": "ly",
+    "mean": "以前",
+    "stem_mean": "前任"
+  },
+  {
+    "word": "initially",
+    "stem": "initial",
+    "suf": "ly",
+    "mean": "最初",
+    "stem_mean": "最初的"
+  },
+  {
+    "word": "simultaneously",
+    "stem": "simultaneous",
+    "suf": "ly",
+    "mean": "同時",
+    "stem_mean": "同步的"
+  },
+  {
+    "word": "concurrently",
+    "stem": "concurrent",
+    "suf": "ly",
+    "mean": "同時",
+    "stem_mean": "並行的"
+  },
+  {
+    "word": "contractor",
+    "stem": "contract",
+    "suf": "or",
+    "mean": "承包商",
+    "stem_mean": "合約"
+  },
+  {
+    "word": "advisor",
+    "stem": "advise",
+    "suf": "or",
+    "mean": "顧問",
+    "stem_mean": "勸告，忠告"
+  },
+  {
+    "word": "surveyor",
+    "stem": "survey",
+    "suf": "or",
+    "mean": "測量員",
+    "stem_mean": "調查"
+  },
+  {
+    "word": "prosecutor",
+    "stem": "prosecute",
+    "suf": "or",
+    "mean": "檢察官",
+    "stem_mean": "起訴"
+  },
+  {
+    "word": "senator",
+    "stem": "senate",
+    "suf": "or",
+    "mean": "參議員",
+    "stem_mean": "參議院"
+  },
+  {
+    "word": "priest",
+    "stem": "pr",
+    "suf": "iest",
+    "mean": "神父",
+    "stem_mean": "公關"
+  },
+  {
+    "word": "pastor",
+    "stem": "past",
+    "suf": "or",
+    "mean": "牧師",
+    "stem_mean": "過去"
+  },
+  {
+    "word": "admiral",
+    "stem": "admire",
+    "suf": "al",
+    "mean": "海軍上將",
+    "stem_mean": "欽佩"
+  },
+  {
+    "word": "counselor",
+    "stem": "counsel",
+    "suf": "or",
+    "mean": "諮商師",
+    "stem_mean": "法律顧問"
+  },
+  {
+    "word": "sexy",
+    "stem": "sex",
+    "suf": "y",
+    "mean": "性感",
+    "stem_mean": "性別"
+  },
+  {
+    "word": "homely",
+    "stem": "home",
+    "suf": "ly",
+    "mean": "樸實",
+    "stem_mean": "家"
+  },
+  {
+    "word": "bearded",
+    "stem": "beard",
+    "suf": "ed",
+    "mean": "有鬍鬚",
+    "stem_mean": "鬍子"
+  },
+  {
+    "word": "mustached",
+    "stem": "mustache",
+    "suf": "ed",
+    "mean": "留小鬍子",
+    "stem_mean": "鬍子"
+  },
+  {
+    "word": "tanned",
+    "stem": "tan",
+    "suf": "ed",
+    "mean": "曬黑",
+    "stem_mean": "褐黃"
+  },
+  {
+    "word": "braided",
+    "stem": "braid",
+    "suf": "ed",
+    "mean": "編髮",
+    "stem_mean": "辮子"
+  },
+  {
+    "word": "contacts",
+    "stem": "contact",
+    "suf": "s",
+    "mean": "隱形眼鏡",
+    "stem_mean": "聯絡"
+  },
+  {
+    "word": "aged",
+    "stem": "age",
+    "suf": "ed",
+    "mean": "年長",
+    "stem_mean": "年齡"
+  },
+  {
+    "word": "wrinkly",
+    "stem": "wrinkle",
+    "suf": "y",
+    "mean": "皺巴巴",
+    "stem_mean": "皺紋"
+  },
+  {
+    "word": "smiley",
+    "stem": "smile",
+    "suf": "y",
+    "mean": "愛笑",
+    "stem_mean": "微笑"
+  },
+  {
+    "word": "dimpled",
+    "stem": "dimple",
+    "suf": "ed",
+    "mean": "有酒窩",
+    "stem_mean": "酒窩"
+  },
+  {
+    "word": "pierced",
+    "stem": "pierce",
+    "suf": "ed",
+    "mean": "穿耳洞",
+    "stem_mean": "刺穿"
+  },
+  {
+    "word": "polished",
+    "stem": "polish",
+    "suf": "ed",
+    "mean": "精緻",
+    "stem_mean": "磨光，擦亮磨光粉"
+  },
+  {
+    "word": "refined",
+    "stem": "refine",
+    "suf": "ed",
+    "mean": "優雅",
+    "stem_mean": "精煉"
+  },
+  {
+    "word": "curvy",
+    "stem": "curve",
+    "suf": "y",
+    "mean": "曲線玲瓏",
+    "stem_mean": "曲線"
+  },
+  {
+    "word": "rugged",
+    "stem": "rug",
+    "suf": "ed",
+    "mean": "粗獷",
+    "stem_mean": "小地毯"
+  },
+  {
+    "word": "motivated",
+    "stem": "motivate",
+    "suf": "ed",
+    "mean": "有動力",
+    "stem_mean": "給…動機"
+  },
+  {
+    "word": "determined",
+    "stem": "determine",
+    "suf": "ed",
+    "mean": "堅定",
+    "stem_mean": "決定"
+  },
+  {
+    "word": "modest",
+    "stem": "mod",
+    "suf": "est",
+    "mean": "謙虛",
+    "stem_mean": "模組"
+  },
+  {
+    "word": "conceited",
+    "stem": "conceit",
+    "suf": "ed",
+    "mean": "自負",
+    "stem_mean": "自滿"
+  },
+  {
+    "word": "stingy",
+    "stem": "sting",
+    "suf": "y",
+    "mean": "小氣",
+    "stem_mean": "刺，螫，叮"
+  },
+  {
+    "word": "witty",
+    "stem": "wit",
+    "suf": "y",
+    "mean": "機智",
+    "stem_mean": "機智"
+  },
+  {
+    "word": "chatty",
+    "stem": "chat",
+    "suf": "y",
+    "mean": "愛聊天",
+    "stem_mean": "閒談，聊天"
+  },
+  {
+    "word": "moody",
+    "stem": "mood",
+    "suf": "y",
+    "mean": "情緒化",
+    "stem_mean": "心情"
+  },
+  {
+    "word": "cowardly",
+    "stem": "coward",
+    "suf": "ly",
+    "mean": "懦弱",
+    "stem_mean": "懦夫，膽怯者"
+  },
+  {
+    "word": "committed",
+    "stem": "commit",
+    "suf": "ed",
+    "mean": "專一",
+    "stem_mean": "提交"
+  },
+  {
+    "word": "rumor",
+    "stem": "rum",
+    "suf": "or",
+    "mean": "謠言",
+    "stem_mean": "蘭姆酒"
+  },
+  {
+    "word": "ally",
+    "stem": "ale",
+    "suf": "ly",
+    "mean": "盟友",
+    "stem_mean": "愛爾啤酒"
+  },
+  {
+    "word": "illustrator",
+    "stem": "illustrate",
+    "suf": "or",
+    "mean": "插畫家",
+    "stem_mean": "舉例說明"
+  },
+  {
+    "word": "animator",
+    "stem": "animate",
+    "suf": "or",
+    "mean": "動畫師",
+    "stem_mean": "賦予生命活的"
+  },
+  {
+    "word": "ceramics",
+    "stem": "ceramic",
+    "suf": "s",
+    "mean": "陶瓷",
+    "stem_mean": "陶瓷"
+  },
+  {
+    "word": "photography",
+    "stem": "photograph",
+    "suf": "y",
+    "mean": "攝影",
+    "stem_mean": "照片"
+  },
+  {
+    "word": "graphics",
+    "stem": "graphic",
+    "suf": "s",
+    "mean": "畫面",
+    "stem_mean": "寫實的"
+  },
+  {
+    "word": "weights",
+    "stem": "weight",
+    "suf": "s",
+    "mean": "重量訓練",
+    "stem_mean": "重量"
+  },
+  {
+    "word": "plates",
+    "stem": "plate",
+    "suf": "s",
+    "mean": "槓片",
+    "stem_mean": "盤子"
+  },
+  {
+    "word": "exhausted",
+    "stem": "exhaust",
+    "suf": "ed",
+    "mean": "精疲力盡",
+    "stem_mean": "用完，耗盡"
+  },
+  {
+    "word": "lats",
+    "stem": "late",
+    "suf": "s",
+    "mean": "背闊肌",
+    "stem_mean": "晚"
+  },
+  {
+    "word": "traps",
+    "stem": "trap",
+    "suf": "s",
+    "mean": "斜方肌",
+    "stem_mean": "陷阱"
+  },
+  {
+    "word": "aids",
+    "stem": "aid",
+    "suf": "s",
+    "mean": "愛滋病",
+    "stem_mean": "幫助"
+  },
+  {
+    "word": "hives",
+    "stem": "hive",
+    "suf": "s",
+    "mean": "蕁麻疹",
+    "stem_mean": "蜂房"
+  },
+  {
+    "word": "minutes",
+    "stem": "minute",
+    "suf": "s",
+    "mean": "會議記錄",
+    "stem_mean": "分鐘"
+  },
+  {
+    "word": "briefing",
+    "stem": "brief",
+    "suf": "ing",
+    "mean": "簡報會",
+    "stem_mean": "簡報"
+  },
+  {
+    "word": "hours",
+    "stem": "hour",
+    "suf": "s",
+    "mean": "工時",
+    "stem_mean": "小時"
+  },
+  {
+    "word": "networking",
+    "stem": "network",
+    "suf": "ing",
+    "mean": "建立人脈",
+    "stem_mean": "網路"
+  },
+  {
+    "word": "benefits",
+    "stem": "benefit",
+    "suf": "s",
+    "mean": "福利",
+    "stem_mean": "益處"
+  },
+  {
+    "word": "sales",
+    "stem": "sale",
+    "suf": "s",
+    "mean": "銷售",
+    "stem_mean": "特賣"
+  },
+  {
+    "word": "marketing",
+    "stem": "market",
+    "suf": "ing",
+    "mean": "行銷",
+    "stem_mean": "市場"
+  },
+  {
+    "word": "branding",
+    "stem": "brand",
+    "suf": "ing",
+    "mean": "品牌經營",
+    "stem_mean": "品牌"
+  },
+  {
+    "word": "advertising",
+    "stem": "advertise",
+    "suf": "ing",
+    "mean": "廣告",
+    "stem_mean": "為…做廣告"
+  },
+  {
+    "word": "accounting",
+    "stem": "account",
+    "suf": "ing",
+    "mean": "會計",
+    "stem_mean": "帳戶"
+  },
+  {
+    "word": "policy",
+    "stem": "police",
+    "suf": "y",
+    "mean": "政策",
+    "stem_mean": "警察"
+  },
+  {
+    "word": "labor",
+    "stem": "lab",
+    "suf": "or",
+    "mean": "勞動",
+    "stem_mean": "實驗室"
+  },
+  {
+    "word": "stocks",
+    "stem": "stock",
+    "suf": "s",
+    "mean": "股票",
+    "stem_mean": "存貨"
+  },
+  {
+    "word": "subsidy",
+    "stem": "subside",
+    "suf": "y",
+    "mean": "補貼",
+    "stem_mean": "平息"
+  },
+  {
+    "word": "economics",
+    "stem": "economic",
+    "suf": "s",
+    "mean": "經濟學",
+    "stem_mean": "經濟上的"
+  },
+  {
+    "word": "hosting",
+    "stem": "host",
+    "suf": "ing",
+    "mean": "主機代管",
+    "stem_mean": "主人"
+  },
+  {
+    "word": "threads",
+    "stem": "thread",
+    "suf": "s",
+    "mean": "Threads",
+    "stem_mean": "線"
+  },
+  {
+    "word": "trending",
+    "stem": "trend",
+    "suf": "ing",
+    "mean": "熱門",
+    "stem_mean": "趨勢"
+  },
+  {
+    "word": "news",
+    "stem": "new",
+    "suf": "s",
+    "mean": "新聞",
+    "stem_mean": "新"
+  },
+  {
+    "word": "biased",
+    "stem": "bias",
+    "suf": "ed",
+    "mean": "偏頗",
+    "stem_mean": "偏見"
+  },
+  {
+    "word": "ethics",
+    "stem": "ethic",
+    "suf": "s",
+    "mean": "倫理",
+    "stem_mean": "倫理"
+  },
+  {
+    "word": "party",
+    "stem": "part",
+    "suf": "y",
+    "mean": "派對",
+    "stem_mean": "部分"
+  },
+  {
+    "word": "recycling",
+    "stem": "recycle",
+    "suf": "ing",
+    "mean": "回收",
+    "stem_mean": "回收"
+  },
+  {
+    "word": "endangered",
+    "stem": "endanger",
+    "suf": "ed",
+    "mean": "瀕危",
+    "stem_mean": "危及"
+  },
+  {
+    "word": "litter",
+    "stem": "lit",
+    "suf": "er",
+    "mean": "亂丟垃圾",
+    "stem_mean": "點亮了"
+  },
+  {
+    "word": "flooding",
+    "stem": "flood",
+    "suf": "ing",
+    "mean": "水災",
+    "stem_mean": "洪水"
+  },
+  {
+    "word": "genetics",
+    "stem": "genetic",
+    "suf": "s",
+    "mean": "遺傳學",
+    "stem_mean": "起源的"
+  },
+  {
+    "word": "monarchy",
+    "stem": "monarch",
+    "suf": "y",
+    "mean": "君主制",
+    "stem_mean": "君王"
+  },
+  {
+    "word": "treaty",
+    "stem": "treat",
+    "suf": "y",
+    "mean": "條約",
+    "stem_mean": "小點心"
+  },
+  {
+    "word": "victory",
+    "stem": "victor",
+    "suf": "y",
+    "mean": "勝利",
+    "stem_mean": "勝利者"
+  },
+  {
+    "word": "army",
+    "stem": "arm",
+    "suf": "y",
+    "mean": "軍隊",
+    "stem_mean": "手臂"
+  },
+  {
+    "word": "armor",
+    "stem": "arm",
+    "suf": "or",
+    "mean": "盔甲",
+    "stem_mean": "手臂"
+  },
+  {
+    "word": "discovery",
+    "stem": "discover",
+    "suf": "y",
+    "mean": "發現",
+    "stem_mean": "發現"
+  },
+  {
+    "word": "equator",
+    "stem": "equate",
+    "suf": "or",
+    "mean": "赤道",
+    "stem_mean": "等同"
+  },
+  {
+    "word": "tropics",
+    "stem": "tropic",
+    "suf": "s",
+    "mean": "熱帶",
+    "stem_mean": "回歸線"
+  },
+  {
+    "word": "mineral",
+    "stem": "miner",
+    "suf": "al",
+    "mean": "礦物",
+    "stem_mean": "礦工"
+  },
+  {
+    "word": "wounded",
+    "stem": "wound",
+    "suf": "ed",
+    "mean": "受傷",
+    "stem_mean": "傷口"
+  },
+  {
+    "word": "bleeding",
+    "stem": "bleed",
+    "suf": "ing",
+    "mean": "流血",
+    "stem_mean": "流血，出血"
+  },
+  {
+    "word": "kidnapping",
+    "stem": "kidnap",
+    "suf": "ing",
+    "mean": "綁架",
+    "stem_mean": "綁架"
+  },
+  {
+    "word": "robbery",
+    "stem": "robber",
+    "suf": "y",
+    "mean": "搶劫",
+    "stem_mean": "搶劫者，強盜"
+  },
+  {
+    "word": "mugging",
+    "stem": "mug",
+    "suf": "ing",
+    "mean": "街頭搶劫",
+    "stem_mean": "馬克杯"
+  },
+  {
+    "word": "fatal",
+    "stem": "fat",
+    "suf": "al",
+    "mean": "致命",
+    "stem_mean": "胖"
+  },
+  {
+    "word": "drowning",
+    "stem": "drown",
+    "suf": "ing",
+    "mean": "溺水",
+    "stem_mean": "溺水"
+  },
+  {
+    "word": "burglary",
+    "stem": "burglar",
+    "suf": "y",
+    "mean": "入室竊盜",
+    "stem_mean": "破門盜竊者，夜賊"
+  },
+  {
+    "word": "shoplifting",
+    "stem": "shoplift",
+    "suf": "ing",
+    "mean": "順手牽羊",
+    "stem_mean": "在商店內順手牽羊"
+  },
+  {
+    "word": "stalking",
+    "stem": "stalk",
+    "suf": "ing",
+    "mean": "跟蹤",
+    "stem_mean": "莖"
+  },
+  {
+    "word": "smuggling",
+    "stem": "smuggle",
+    "suf": "ing",
+    "mean": "走私",
+    "stem_mean": "走私"
+  },
+  {
+    "word": "drugs",
+    "stem": "drug",
+    "suf": "s",
+    "mean": "毒品",
+    "stem_mean": "藥"
+  },
+  {
+    "word": "dealing",
+    "stem": "deal",
+    "suf": "ing",
+    "mean": "販毒",
+    "stem_mean": "優惠"
+  },
+  {
+    "word": "arrest",
+    "stem": "ar",
+    "suf": "est",
+    "mean": "逮捕",
+    "stem_mean": "擴增實境"
+  },
+  {
+    "word": "forensics",
+    "stem": "forensic",
+    "suf": "s",
+    "mean": "鑑識",
+    "stem_mean": "法醫的"
+  },
+  {
+    "word": "trespassing",
+    "stem": "trespass",
+    "suf": "ing",
+    "mean": "非法侵入",
+    "stem_mean": "擅闖"
+  },
+  {
+    "word": "legal",
+    "stem": "leg",
+    "suf": "al",
+    "mean": "合法",
+    "stem_mean": "腿"
+  },
+  {
+    "word": "hearing",
+    "stem": "hear",
+    "suf": "ing",
+    "mean": "聽證會",
+    "stem_mean": "聽到"
+  },
+  {
+    "word": "rights",
+    "stem": "right",
+    "suf": "s",
+    "mean": "權利",
+    "stem_mean": "右"
+  },
+  {
+    "word": "felony",
+    "stem": "felon",
+    "suf": "y",
+    "mean": "重罪",
+    "stem_mean": "重罪犯"
+  },
+  {
+    "word": "dismissed",
+    "stem": "dismiss",
+    "suf": "ed",
+    "mean": "撤銷",
+    "stem_mean": "撤銷"
+  },
+  {
+    "word": "summons",
+    "stem": "summon",
+    "suf": "s",
+    "mean": "傳喚",
+    "stem_mean": "召喚"
+  },
+  {
+    "word": "executor",
+    "stem": "execute",
+    "suf": "or",
+    "mean": "執行人",
+    "stem_mean": "執行"
+  },
+  {
+    "word": "assembly",
+    "stem": "assemble",
+    "suf": "y",
+    "mean": "議會",
+    "stem_mean": "集合"
+  },
+  {
+    "word": "polling",
+    "stem": "poll",
+    "suf": "ing",
+    "mean": "民調",
+    "stem_mean": "民調"
+  },
+  {
+    "word": "sanctions",
+    "stem": "sanction",
+    "suf": "s",
+    "mean": "制裁",
+    "stem_mean": "制裁"
+  },
+  {
+    "word": "lobbying",
+    "stem": "lobby",
+    "suf": "ing",
+    "mean": "遊說",
+    "stem_mean": "大廳"
+  },
+  {
+    "word": "polity",
+    "stem": "polite",
+    "suf": "y",
+    "mean": "政體",
+    "stem_mean": "有禮貌"
+  },
+  {
+    "word": "legislator",
+    "stem": "legislate",
+    "suf": "or",
+    "mean": "立法者",
+    "stem_mean": "立法"
+  },
+  {
+    "word": "holy",
+    "stem": "hoe",
+    "suf": "ly",
+    "mean": "神聖",
+    "stem_mean": "鋤頭"
+  },
+  {
+    "word": "bible",
+    "stem": "be",
+    "suf": "ible",
+    "mean": "聖經",
+    "stem_mean": "是"
+  },
+  {
+    "word": "fasting",
+    "stem": "fast",
+    "suf": "ing",
+    "mean": "禁食",
+    "stem_mean": "快"
+  },
+  {
+    "word": "moral",
+    "stem": "more",
+    "suf": "al",
+    "mean": "道德的",
+    "stem_mean": "更多"
+  },
+  {
+    "word": "reasoning",
+    "stem": "reason",
+    "suf": "ing",
+    "mean": "推理",
+    "stem_mean": "理由"
+  },
+  {
+    "word": "meaning",
+    "stem": "mean",
+    "suf": "ing",
+    "mean": "意義",
+    "stem_mean": "刻薄"
+  },
+  {
+    "word": "scarcely",
+    "stem": "scarce",
+    "suf": "ly",
+    "mean": "幾乎不",
+    "stem_mean": "缺乏的"
+  },
+  {
+    "word": "essentially",
+    "stem": "essential",
+    "suf": "ly",
+    "mean": "本質上",
+    "stem_mean": "必要的，不可缺的"
+  },
+  {
+    "word": "instantly",
+    "stem": "instant",
+    "suf": "ly",
+    "mean": "立即",
+    "stem_mean": "立刻"
+  },
+  {
+    "word": "previously",
+    "stem": "previous",
+    "suf": "ly",
+    "mean": "先前",
+    "stem_mean": "先前"
+  },
+  {
+    "word": "wholly",
+    "stem": "whole",
+    "suf": "ly",
+    "mean": "完全",
+    "stem_mean": "整個"
+  },
+  {
+    "word": "partially",
+    "stem": "partial",
+    "suf": "ly",
+    "mean": "部分地",
+    "stem_mean": "部分的，局部的"
+  },
+  {
+    "word": "largely",
+    "stem": "large",
+    "suf": "ly",
+    "mean": "大部分",
+    "stem_mean": "寬的"
+  },
+  {
+    "word": "proudly",
+    "stem": "proud",
+    "suf": "ly",
+    "mean": "驕傲地",
+    "stem_mean": "驕傲"
+  },
+  {
+    "word": "meter",
+    "stem": "met",
+    "suf": "er",
+    "mean": "韻律",
+    "stem_mean": "見了"
+  },
+  {
+    "word": "irony",
+    "stem": "iron",
+    "suf": "y",
+    "mean": "反諷",
+    "stem_mean": "鐵"
+  },
+  {
+    "word": "factor",
+    "stem": "fact",
+    "suf": "or",
+    "mean": "因素",
+    "stem_mean": "事實"
+  },
+  {
+    "word": "final",
+    "stem": "fin",
+    "suf": "al",
+    "mean": "最終的",
+    "stem_mean": "鰭"
+  },
+  {
+    "word": "layer",
+    "stem": "lay",
+    "suf": "er",
+    "mean": "層",
+    "stem_mean": "躺了"
+  },
+  {
+    "word": "minor",
+    "stem": "mine",
+    "suf": "or",
+    "mean": "次要的",
+    "stem_mean": "礦坑"
+  },
+  {
+    "word": "internal",
+    "stem": "intern",
+    "suf": "al",
+    "mean": "內部的",
+    "stem_mean": "實習生"
+  },
+  {
+    "word": "status",
+    "stem": "statue",
+    "suf": "s",
+    "mean": "狀態",
+    "stem_mean": "雕像"
+  },
+  {
+    "word": "successor",
+    "stem": "success",
+    "suf": "or",
+    "mean": "繼承者",
+    "stem_mean": "成就"
+  },
+  {
+    "word": "copper",
+    "stem": "cop",
+    "suf": "er",
+    "mean": "銅",
+    "stem_mean": "警察"
+  },
+  {
+    "word": "sheer",
+    "stem": "she",
+    "suf": "er",
+    "mean": "純粹的",
+    "stem_mean": "她"
+  },
+  {
+    "word": "petty",
+    "stem": "pet",
+    "suf": "y",
+    "mean": "瑣碎的",
+    "stem_mean": "寵物"
+  },
+  {
+    "word": "dazzling",
+    "stem": "dazzle",
+    "suf": "ing",
+    "mean": "耀眼的",
+    "stem_mean": "使…目眩"
+  },
+  {
+    "word": "weary",
+    "stem": "wear",
+    "suf": "y",
+    "mean": "疲倦的",
+    "stem_mean": "穿"
+  },
+  {
+    "word": "stuffy",
+    "stem": "stuff",
+    "suf": "y",
+    "mean": "悶熱的",
+    "stem_mean": "東西"
+  },
+  {
+    "word": "hearty",
+    "stem": "heart",
+    "suf": "y",
+    "mean": "豐盛的",
+    "stem_mean": "心"
+  },
+  {
+    "word": "tidy",
+    "stem": "tide",
+    "suf": "y",
+    "mean": "整潔的",
+    "stem_mean": "潮汐"
+  },
+  {
+    "word": "messy",
+    "stem": "mess",
+    "suf": "y",
+    "mean": "凌亂的",
+    "stem_mean": "混亂弄亂"
+  },
+  {
+    "word": "ponder",
+    "stem": "pond",
+    "suf": "er",
+    "mean": "思索",
+    "stem_mean": "池塘"
+  },
+  {
+    "word": "wither",
+    "stem": "with",
+    "suf": "er",
+    "mean": "枯萎",
+    "stem_mean": "跟"
+  },
+  {
+    "word": "flatter",
+    "stem": "flat",
+    "suf": "er",
+    "mean": "奉承",
+    "stem_mean": "平的"
+  },
+  {
+    "word": "animal",
+    "stem": "anime",
+    "suf": "al",
+    "mean": "動物",
+    "stem_mean": "動畫"
+  },
+  {
+    "word": "aunty",
+    "stem": "aunt",
+    "suf": "y",
+    "mean": "伯母",
+    "stem_mean": "阿姨"
+  },
+  {
+    "word": "cooky",
+    "stem": "cook",
+    "suf": "y",
+    "mean": "餅乾",
+    "stem_mean": "廚師"
+  },
+  {
+    "word": "daddy",
+    "stem": "dad",
+    "suf": "y",
+    "mean": "爸爸",
+    "stem_mean": "爸爸"
+  },
+  {
+    "word": "feed",
+    "stem": "fee",
+    "suf": "ed",
+    "mean": "餵食",
+    "stem_mean": "費用"
+  },
+  {
+    "word": "feelings",
+    "stem": "feeling",
+    "suf": "s",
+    "mean": "感情",
+    "stem_mean": "感覺"
+  },
+  {
+    "word": "kitty",
+    "stem": "kit",
+    "suf": "y",
+    "mean": "小貓",
+    "stem_mean": "成套工具"
+  },
+  {
+    "word": "letter",
+    "stem": "let",
+    "suf": "er",
+    "mean": "信件字母",
+    "stem_mean": "讓"
+  },
+  {
+    "word": "likely",
+    "stem": "like",
+    "suf": "ly",
+    "mean": "很可能的",
+    "stem_mean": "喜歡"
+  },
+  {
+    "word": "lily",
+    "stem": "lie",
+    "suf": "ly",
+    "mean": "百合",
+    "stem_mean": "謊言"
+  },
+  {
+    "word": "marry",
+    "stem": "mar",
+    "suf": "y",
+    "mean": "嫁娶",
+    "stem_mean": "污點"
+  },
+  {
+    "word": "mommy",
+    "stem": "mom",
+    "suf": "y",
+    "mean": "媽媽",
+    "stem_mean": "媽媽"
+  },
+  {
+    "word": "mister",
+    "stem": "mist",
+    "suf": "er",
+    "mean": "先生",
+    "stem_mean": "薄霧"
+  },
+  {
+    "word": "apply",
+    "stem": "app",
+    "suf": "ly",
+    "mean": "塗",
+    "stem_mean": "應用程式"
+  },
+  {
+    "word": "basics",
+    "stem": "basic",
+    "suf": "s",
+    "mean": "基礎的",
+    "stem_mean": "基礎的"
+  },
+  {
+    "word": "bloody",
+    "stem": "blood",
+    "suf": "y",
+    "mean": "流血的",
+    "stem_mean": "血"
+  },
+  {
+    "word": "bother",
+    "stem": "both",
+    "suf": "er",
+    "mean": "打攪",
+    "stem_mean": "兩者都"
+  },
+  {
+    "word": "clothes",
+    "stem": "clothe",
+    "suf": "s",
+    "mean": "服裝",
+    "stem_mean": "給……穿衣"
+  },
+  {
+    "word": "clothing",
+    "stem": "cloth",
+    "suf": "ing",
+    "mean": "衣服",
+    "stem_mean": "布"
+  },
+  {
+    "word": "copy",
+    "stem": "cop",
+    "suf": "y",
+    "mean": "複製",
+    "stem_mean": "警察"
+  },
+  {
+    "word": "costly",
+    "stem": "cost",
+    "suf": "ly",
+    "mean": "貴重的",
+    "stem_mean": "成本"
+  },
+  {
+    "word": "dial",
+    "stem": "die",
+    "suf": "al",
+    "mean": "刻度盤調頻",
+    "stem_mean": "死"
+  },
+  {
+    "word": "difficulty",
+    "stem": "difficult",
+    "suf": "y",
+    "mean": "困難",
+    "stem_mean": "困難的"
+  },
+  {
+    "word": "elevator",
+    "stem": "elevate",
+    "suf": "or",
+    "mean": "電梯",
+    "stem_mean": "提升"
+  },
+  {
+    "word": "humor",
+    "stem": "hum",
+    "suf": "or",
+    "mean": "幽默感",
+    "stem_mean": "發嗡嗡聲"
+  },
+  {
+    "word": "hunger",
+    "stem": "hung",
+    "suf": "er",
+    "mean": "飢餓",
+    "stem_mean": "掛了"
+  },
+  {
+    "word": "manner",
+    "stem": "man",
+    "suf": "er",
+    "mean": "方法",
+    "stem_mean": "男人"
+  },
+  {
+    "word": "means",
+    "stem": "mean",
+    "suf": "s",
+    "mean": "手段",
+    "stem_mean": "刻薄"
+  },
+  {
+    "word": "reply",
+    "stem": "rep",
+    "suf": "ly",
+    "mean": "答覆",
+    "stem_mean": "反覆次數"
+  },
+  {
+    "word": "skilled",
+    "stem": "skill",
+    "suf": "ed",
+    "mean": "熟練的",
+    "stem_mean": "技術"
+  },
+  {
+    "word": "spelling",
+    "stem": "spell",
+    "suf": "ing",
+    "mean": "拼字",
+    "stem_mean": "拼寫"
+  },
+  {
+    "word": "teenager",
+    "stem": "teenage",
+    "suf": "er",
+    "mean": "青年",
+    "stem_mean": "青少年時期"
+  },
+  {
+    "word": "tower",
+    "stem": "tow",
+    "suf": "er",
+    "mean": "高樓",
+    "stem_mean": "拖，拉"
+  },
+  {
+    "word": "upper",
+    "stem": "up",
+    "suf": "er",
+    "mean": "上面的",
+    "stem_mean": "上"
+  },
+  {
+    "word": "willing",
+    "stem": "will",
+    "suf": "ing",
+    "mean": "願意的",
+    "stem_mean": "將"
+  },
+  {
+    "word": "wing",
+    "stem": "we",
+    "suf": "ing",
+    "mean": "翅膀",
+    "stem_mean": "我們"
+  },
+  {
+    "word": "advanced",
+    "stem": "advance",
+    "suf": "ed",
+    "mean": "先進的",
+    "stem_mean": "促進"
+  },
+  {
+    "word": "being",
+    "stem": "be",
+    "suf": "ing",
+    "mean": "存在，生命",
+    "stem_mean": "是"
+  },
+  {
+    "word": "elderly",
+    "stem": "elder",
+    "suf": "ly",
+    "mean": "年長的",
+    "stem_mean": "長輩"
+  },
+  {
+    "word": "fairy",
+    "stem": "fair",
+    "suf": "y",
+    "mean": "小妖精",
+    "stem_mean": "白皙"
+  },
+  {
+    "word": "handy",
+    "stem": "hand",
+    "suf": "y",
+    "mean": "手邊的",
+    "stem_mean": "手"
+  },
+  {
+    "word": "hasty",
+    "stem": "haste",
+    "suf": "y",
+    "mean": "匆忙的，急忙的",
+    "stem_mean": "急忙，迅速"
+  },
+  {
+    "word": "honesty",
+    "stem": "honest",
+    "suf": "y",
+    "mean": "誠實",
+    "stem_mean": "誠實"
+  },
+  {
+    "word": "indoors",
+    "stem": "indoor",
+    "suf": "s",
+    "mean": "在室內",
+    "stem_mean": "室內的，戶內的"
+  },
+  {
+    "word": "inner",
+    "stem": "inn",
+    "suf": "er",
+    "mean": "內部的，裡面的",
+    "stem_mean": "小旅館"
+  },
+  {
+    "word": "latter",
+    "stem": "latte",
+    "suf": "er",
+    "mean": "後面的",
+    "stem_mean": "拿鐵"
+  },
+  {
+    "word": "lively",
+    "stem": "live",
+    "suf": "ly",
+    "mean": "活潑的，輕快的",
+    "stem_mean": "居住"
+  },
+  {
+    "word": "manners",
+    "stem": "manner",
+    "suf": "s",
+    "mean": "禮貌",
+    "stem_mean": "方法"
+  },
+  {
+    "word": "mighty",
+    "stem": "might",
+    "suf": "y",
+    "mean": "強大的",
+    "stem_mean": "可能"
+  },
+  {
+    "word": "misery",
+    "stem": "miser",
+    "suf": "y",
+    "mean": "不幸",
+    "stem_mean": "吝嗇鬼"
+  },
+  {
+    "word": "missing",
+    "stem": "miss",
+    "suf": "ing",
+    "mean": "失蹤的，行蹤不明的",
+    "stem_mean": "想念"
+  },
+  {
+    "word": "outdoor",
+    "stem": "outdo",
+    "suf": "or",
+    "mean": "戶外的，露天的",
+    "stem_mean": "勝過"
+  },
+  {
+    "word": "outdoors",
+    "stem": "outdoor",
+    "suf": "s",
+    "mean": "在戶外，在野外",
+    "stem_mean": "戶外的，露天的"
+  },
+  {
+    "word": "outer",
+    "stem": "out",
+    "suf": "er",
+    "mean": "外面的，外表的",
+    "stem_mean": "出在外"
+  },
+  {
+    "word": "penny",
+    "stem": "pen",
+    "suf": "y",
+    "mean": "一分",
+    "stem_mean": "筆"
+  },
+  {
+    "word": "proper",
+    "stem": "prop",
+    "suf": "er",
+    "mean": "適合的，適當的",
+    "stem_mean": "支柱支撐道具"
+  },
+  {
+    "word": "scary",
+    "stem": "scar",
+    "suf": "y",
+    "mean": "可怕的﹐駭人的",
+    "stem_mean": "疤痕"
+  },
+  {
+    "word": "shady",
+    "stem": "shade",
+    "suf": "y",
+    "mean": "多蔭的",
+    "stem_mean": "色調"
+  },
+  {
+    "word": "tricky",
+    "stem": "trick",
+    "suf": "y",
+    "mean": "狡猾的",
+    "stem_mean": "詭計哄騙"
+  },
+  {
+    "word": "unity",
+    "stem": "unit",
+    "suf": "y",
+    "mean": "單一",
+    "stem_mean": "單位"
+  },
+  {
+    "word": "weed",
+    "stem": "we",
+    "suf": "ed",
+    "mean": "雜草",
+    "stem_mean": "我們"
+  },
+  {
+    "word": "arms",
+    "stem": "arm",
+    "suf": "s",
+    "mean": "武器",
+    "stem_mean": "手臂"
+  },
+  {
+    "word": "barrier",
+    "stem": "bar",
+    "suf": "ier",
+    "mean": "障礙物",
+    "stem_mean": "條"
+  },
+  {
+    "word": "blessing",
+    "stem": "bless",
+    "suf": "ing",
+    "mean": "賜福",
+    "stem_mean": "保佑，庇護"
+  },
+  {
+    "word": "brutal",
+    "stem": "brute",
+    "suf": "al",
+    "mean": "殘忍的，冷酷的",
+    "stem_mean": "獸"
+  },
+  {
+    "word": "distinguished",
+    "stem": "distinguish",
+    "suf": "ed",
+    "mean": "卓越的",
+    "stem_mean": "區別"
+  },
+  {
+    "word": "electronics",
+    "stem": "electronic",
+    "suf": "s",
+    "mean": "電子學",
+    "stem_mean": "電子的"
+  },
+  {
+    "word": "engineering",
+    "stem": "engineer",
+    "suf": "ing",
+    "mean": "工程",
+    "stem_mean": "工程師"
+  },
+  {
+    "word": "escalator",
+    "stem": "escalate",
+    "suf": "or",
+    "mean": "電扶梯",
+    "stem_mean": "升級"
+  },
+  {
+    "word": "functional",
+    "stem": "function",
+    "suf": "al",
+    "mean": "機能的",
+    "stem_mean": "功能"
+  },
+  {
+    "word": "gifted",
+    "stem": "gift",
+    "suf": "ed",
+    "mean": "有天資的，有天賦的",
+    "stem_mean": "禮物"
+  },
+  {
+    "word": "goods",
+    "stem": "good",
+    "suf": "s",
+    "mean": "商品",
+    "stem_mean": "好"
+  },
+  {
+    "word": "greasy",
+    "stem": "grease",
+    "suf": "y",
+    "mean": "油汙的，油膩的",
+    "stem_mean": "油脂"
+  },
+  {
+    "word": "jealousy",
+    "stem": "jealous",
+    "suf": "y",
+    "mean": "妒忌",
+    "stem_mean": "嫉妒"
+  },
+  {
+    "word": "leisurely",
+    "stem": "leisure",
+    "suf": "ly",
+    "mean": "從容不迫的，悠閒的從",
+    "stem_mean": "閒暇"
+  },
+  {
+    "word": "mechanical",
+    "stem": "mechanic",
+    "suf": "al",
+    "mean": "機械的，用機械的",
+    "stem_mean": "機械工"
+  },
+  {
+    "word": "modesty",
+    "stem": "modest",
+    "suf": "y",
+    "mean": "謙遜，虛心",
+    "stem_mean": "謙虛"
+  },
+  {
+    "word": "oral",
+    "stem": "or",
+    "suf": "al",
+    "mean": "口頭的，口述的",
+    "stem_mean": "或"
+  },
+  {
+    "word": "tribal",
+    "stem": "tribe",
+    "suf": "al",
+    "mean": "部落的，種族的",
+    "stem_mean": "部落"
+  },
+  {
+    "word": "universal",
+    "stem": "universe",
+    "suf": "al",
+    "mean": "全體的",
+    "stem_mean": "宇宙"
+  },
+  {
+    "word": "bass",
+    "stem": "base",
+    "suf": "s",
+    "mean": "低音樂器",
+    "stem_mean": "基底"
+  },
+  {
+    "word": "bully",
+    "stem": "bull",
+    "suf": "y",
+    "mean": "霸凌",
+    "stem_mean": "多頭"
+  },
+  {
+    "word": "canal",
+    "stem": "can",
+    "suf": "al",
+    "mean": "運河",
+    "stem_mean": "可以"
+  },
+  {
+    "word": "constitutional",
+    "stem": "constitution",
+    "suf": "al",
+    "mean": "憲法的",
+    "stem_mean": "憲法"
+  },
+  {
+    "word": "continental",
+    "stem": "continent",
+    "suf": "al",
+    "mean": "洲的",
+    "stem_mean": "大陸"
+  },
+  {
+    "word": "cracker",
+    "stem": "crack",
+    "suf": "er",
+    "mean": "脆餅",
+    "stem_mean": "爆裂，破裂裂縫"
+  },
+  {
+    "word": "crossing",
+    "stem": "cross",
+    "suf": "ing",
+    "mean": "交叉點",
+    "stem_mean": "十字"
+  },
+  {
+    "word": "dressing",
+    "stem": "dress",
+    "suf": "ing",
+    "mean": "沙拉醬",
+    "stem_mean": "洋裝"
+  },
+  {
+    "word": "dwelling",
+    "stem": "dwell",
+    "suf": "ing",
+    "mean": "住處",
+    "stem_mean": "居住"
+  },
+  {
+    "word": "exceptional",
+    "stem": "exception",
+    "suf": "al",
+    "mean": "優異的",
+    "stem_mean": "例外"
+  },
+  {
+    "word": "fishery",
+    "stem": "fisher",
+    "suf": "y",
+    "mean": "魚場",
+    "stem_mean": "漁夫"
+  },
+  {
+    "word": "fuss",
+    "stem": "fuse",
+    "suf": "s",
+    "mean": "大驚小怪",
+    "stem_mean": "熔合保險絲"
+  },
+  {
+    "word": "hardy",
+    "stem": "hard",
+    "suf": "y",
+    "mean": "吃苦耐勞的",
+    "stem_mean": "困難硬"
+  },
+  {
+    "word": "heavenly",
+    "stem": "heaven",
+    "suf": "ly",
+    "mean": "天空的",
+    "stem_mean": "天堂"
+  },
+  {
+    "word": "heed",
+    "stem": "he",
+    "suf": "ed",
+    "mean": "留意",
+    "stem_mean": "他"
+  },
+  {
+    "word": "hiss",
+    "stem": "his",
+    "suf": "s",
+    "mean": "發出嘶嘶聲嘶嘶聲",
+    "stem_mean": "他的"
+  },
+  {
+    "word": "housing",
+    "stem": "house",
+    "suf": "ing",
+    "mean": "住宅",
+    "stem_mean": "房子"
+  },
+  {
+    "word": "marginal",
+    "stem": "margin",
+    "suf": "al",
+    "mean": "邊緣的",
+    "stem_mean": "利潤率"
+  },
+  {
+    "word": "mechanics",
+    "stem": "mechanic",
+    "suf": "s",
+    "mean": "力學",
+    "stem_mean": "機械工"
+  },
+  {
+    "word": "mower",
+    "stem": "mow",
+    "suf": "er",
+    "mean": "刈草機",
+    "stem_mean": "刈"
+  },
+  {
+    "word": "odds",
+    "stem": "odd",
+    "suf": "s",
+    "mean": "機會",
+    "stem_mean": "奇特的，古怪的"
+  },
+  {
+    "word": "odor",
+    "stem": "ode",
+    "suf": "or",
+    "mean": "香味",
+    "stem_mean": "頌歌"
+  },
+  {
+    "word": "oriental",
+    "stem": "orient",
+    "suf": "al",
+    "mean": "東方的",
+    "stem_mean": "定位"
+  },
+  {
+    "word": "outsider",
+    "stem": "outside",
+    "suf": "er",
+    "mean": "局外人",
+    "stem_mean": "外面"
+  },
+  {
+    "word": "peddler",
+    "stem": "peddle",
+    "suf": "er",
+    "mean": "小販",
+    "stem_mean": "叫賣"
+  },
+  {
+    "word": "pier",
+    "stem": "pie",
+    "suf": "er",
+    "mean": "碼頭",
+    "stem_mean": "派"
+  },
+  {
+    "word": "ragged",
+    "stem": "rag",
+    "suf": "ed",
+    "mean": "破爛的",
+    "stem_mean": "破布，碎布"
+  },
+  {
+    "word": "sandal",
+    "stem": "sand",
+    "suf": "al",
+    "mean": "涼鞋",
+    "stem_mean": "沙"
+  },
+  {
+    "word": "shutter",
+    "stem": "shut",
+    "suf": "er",
+    "mean": "百葉窗",
+    "stem_mean": "關上"
+  },
+  {
+    "word": "statistical",
+    "stem": "statistic",
+    "suf": "al",
+    "mean": "統計數字的",
+    "stem_mean": "統計"
+  },
+  {
+    "word": "structural",
+    "stem": "structure",
+    "suf": "al",
+    "mean": "結構的",
+    "stem_mean": "結構"
+  },
+  {
+    "word": "traitor",
+    "stem": "trait",
+    "suf": "or",
+    "mean": "叛逆者",
+    "stem_mean": "特徵"
+  },
+  {
+    "word": "treasury",
+    "stem": "treasure",
+    "suf": "y",
+    "mean": "寶庫",
+    "stem_mean": "珍視"
+  },
+  {
+    "word": "wary",
+    "stem": "war",
+    "suf": "y",
+    "mean": "小心的",
+    "stem_mean": "戰爭"
+  },
+  {
+    "word": "whisky",
+    "stem": "whisk",
+    "suf": "y",
+    "mean": "威士忌",
+    "stem_mean": "打蛋器"
+  },
+  {
+    "word": "worthy",
+    "stem": "worth",
+    "suf": "y",
+    "mean": "值得的",
+    "stem_mean": "有價值"
+  },
+  {
+    "word": "aboriginal",
+    "stem": "aborigine",
+    "suf": "al",
+    "mean": "原生的",
+    "stem_mean": "原住民"
+  },
+  {
+    "word": "administrator",
+    "stem": "administrate",
+    "suf": "or",
+    "mean": "管理者",
+    "stem_mean": "管理"
+  },
+  {
+    "word": "cater",
+    "stem": "cat",
+    "suf": "er",
+    "mean": "承辦宴席",
+    "stem_mean": "貓"
+  },
+  {
+    "word": "clinical",
+    "stem": "clinic",
+    "suf": "al",
+    "mean": "臨床的",
+    "stem_mean": "診所"
+  },
+  {
+    "word": "cosmetics",
+    "stem": "cosmetic",
+    "suf": "s",
+    "mean": "化妝品",
+    "stem_mean": "化妝用的"
+  },
+  {
+    "word": "crooked",
+    "stem": "crook",
+    "suf": "ed",
+    "mean": "歪的",
+    "stem_mean": "彎曲"
+  },
+  {
+    "word": "cruiser",
+    "stem": "cruise",
+    "suf": "er",
+    "mean": "遊艇",
+    "stem_mean": "郵輪"
+  },
+  {
+    "word": "deadly",
+    "stem": "dead",
+    "suf": "ly",
+    "mean": "致命的",
+    "stem_mean": "死的"
+  },
+  {
+    "word": "dictator",
+    "stem": "dictate",
+    "suf": "or",
+    "mean": "獨裁者",
+    "stem_mean": "口授"
+  },
+  {
+    "word": "directory",
+    "stem": "director",
+    "suf": "y",
+    "mean": "電話號碼簿",
+    "stem_mean": "導演"
+  },
+  {
+    "word": "dual",
+    "stem": "due",
+    "suf": "al",
+    "mean": "雙的",
+    "stem_mean": "到期的"
+  },
+  {
+    "word": "ethical",
+    "stem": "ethic",
+    "suf": "al",
+    "mean": "倫理的",
+    "stem_mean": "倫理"
+  },
+  {
+    "word": "flicker",
+    "stem": "flick",
+    "suf": "er",
+    "mean": "閃爍",
+    "stem_mean": "輕打聲輕彈"
+  },
+  {
+    "word": "imposing",
+    "stem": "impose",
+    "suf": "ing",
+    "mean": "壯觀的",
+    "stem_mean": "強加"
+  },
+  {
+    "word": "incidental",
+    "stem": "incident",
+    "suf": "al",
+    "mean": "附帶的",
+    "stem_mean": "事件"
+  },
+  {
+    "word": "inquiry",
+    "stem": "inquire",
+    "suf": "y",
+    "mean": "詢問",
+    "stem_mean": "詢問"
+  },
+  {
+    "word": "investigator",
+    "stem": "investigate",
+    "suf": "or",
+    "mean": "調查者",
+    "stem_mean": "調查"
+  },
+  {
+    "word": "lengthy",
+    "stem": "length",
+    "suf": "y",
+    "mean": "長的",
+    "stem_mean": "長度"
+  },
+  {
+    "word": "liable",
+    "stem": "lie",
+    "suf": "able",
+    "mean": "易...的",
+    "stem_mean": "謊言"
+  },
+  {
+    "word": "liner",
+    "stem": "line",
+    "suf": "er",
+    "mean": "班機",
+    "stem_mean": "線"
+  },
+  {
+    "word": "liter",
+    "stem": "lit",
+    "suf": "er",
+    "mean": "公升",
+    "stem_mean": "點亮了"
+  },
+  {
+    "word": "literal",
+    "stem": "liter",
+    "suf": "al",
+    "mean": "照字面的",
+    "stem_mean": "公升"
+  },
+  {
+    "word": "mastery",
+    "stem": "master",
+    "suf": "y",
+    "mean": "支配",
+    "stem_mean": "主人精通"
+  },
+  {
+    "word": "miller",
+    "stem": "mill",
+    "suf": "er",
+    "mean": "磨坊主",
+    "stem_mean": "磨坊"
+  },
+  {
+    "word": "newscaster",
+    "stem": "newscast",
+    "suf": "er",
+    "mean": "新聞廣播員",
+    "stem_mean": "新聞廣播"
+  },
+  {
+    "word": "operational",
+    "stem": "operation",
+    "suf": "al",
+    "mean": "操作上的",
+    "stem_mean": "手術"
+  },
+  {
+    "word": "orderly",
+    "stem": "order",
+    "suf": "ly",
+    "mean": "整齊的",
+    "stem_mean": "點餐"
+  },
+  {
+    "word": "outing",
+    "stem": "out",
+    "suf": "ing",
+    "mean": "郊遊",
+    "stem_mean": "出在外"
+  },
+  {
+    "word": "poacher",
+    "stem": "poach",
+    "suf": "er",
+    "mean": "盜獵者",
+    "stem_mean": "盜獵"
+  },
+  {
+    "word": "propeller",
+    "stem": "propel",
+    "suf": "er",
+    "mean": "螺旋槳",
+    "stem_mean": "推進"
+  },
+  {
+    "word": "recreational",
+    "stem": "recreation",
+    "suf": "al",
+    "mean": "消遣的",
+    "stem_mean": "娛樂"
+  },
+  {
+    "word": "revival",
+    "stem": "revive",
+    "suf": "al",
+    "mean": "甦醒",
+    "stem_mean": "復甦"
+  },
+  {
+    "word": "sewer",
+    "stem": "sew",
+    "suf": "er",
+    "mean": "污水管",
+    "stem_mean": "縫合"
+  },
+  {
+    "word": "shed",
+    "stem": "she",
+    "suf": "ed",
+    "mean": "棚流出",
+    "stem_mean": "她"
+  },
+  {
+    "word": "thrifty",
+    "stem": "thrift",
+    "suf": "y",
+    "mean": "節儉的",
+    "stem_mean": "節儉"
+  },
+  {
+    "word": "vocational",
+    "stem": "vocation",
+    "suf": "al",
+    "mean": "職業的",
+    "stem_mean": "行業"
+  },
+  {
+    "word": "warranty",
+    "stem": "warrant",
+    "suf": "y",
+    "mean": "保證書",
+    "stem_mean": "令狀"
+  },
+  {
+    "word": "fisher",
+    "stem": "fish",
+    "suf": "er",
+    "mean": "漁夫",
+    "stem_mean": "魚"
+  },
+  {
+    "word": "rider",
+    "stem": "rid",
+    "suf": "er",
+    "mean": "騎士",
+    "stem_mean": "使免除"
+  },
+  {
+    "word": "killer",
+    "stem": "kill",
+    "suf": "er",
+    "mean": "殺手",
+    "stem_mean": "殺死"
+  },
+  {
+    "word": "villager",
+    "stem": "village",
+    "suf": "er",
+    "mean": "村民",
+    "stem_mean": "村莊"
+  },
+  {
+    "word": "constantly",
+    "stem": "constant",
+    "suf": "ly",
+    "mean": "不斷地",
+    "stem_mean": "持續的"
+  },
+  {
+    "word": "incredibly",
+    "stem": "incredible",
+    "suf": "y",
+    "mean": "令人難以置信地",
+    "stem_mean": "令人難以置信的"
+  },
+  {
+    "word": "regularly",
+    "stem": "regular",
+    "suf": "ly",
+    "mean": "定期地",
+    "stem_mean": "有規律的"
+  },
+  {
+    "word": "rightly",
+    "stem": "right",
+    "suf": "ly",
+    "mean": "正確地",
+    "stem_mean": "右"
+  },
+  {
+    "word": "successfully",
+    "stem": "successful",
+    "suf": "ly",
+    "mean": "成功地",
+    "stem_mean": "成功的"
+  },
+  {
+    "word": "willingly",
+    "stem": "willing",
+    "suf": "ly",
+    "mean": "願意地",
+    "stem_mean": "願意的"
+  },
+  {
+    "word": "apps",
+    "stem": "app",
+    "suf": "s",
+    "mean": "應用程式",
+    "stem_mean": "應用程式"
+  },
+  {
+    "word": "compiler",
+    "stem": "compile",
+    "suf": "er",
+    "mean": "編譯器",
+    "stem_mean": "編譯"
+  },
+  {
+    "word": "cursor",
+    "stem": "curse",
+    "suf": "or",
+    "mean": "游標",
+    "stem_mean": "詛咒，咒罵"
+  },
+  {
+    "word": "portal",
+    "stem": "port",
+    "suf": "al",
+    "mean": "入口網站",
+    "stem_mean": "港口"
+  },
+  {
+    "word": "creditor",
+    "stem": "credit",
+    "suf": "or",
+    "mean": "債權人",
+    "stem_mean": "信用"
+  },
+  {
+    "word": "debtor",
+    "stem": "debt",
+    "suf": "or",
+    "mean": "債務人",
+    "stem_mean": "債務"
+  },
+  {
+    "word": "absorbing",
+    "stem": "absorb",
+    "suf": "ing",
+    "mean": "吸引人的",
+    "stem_mean": "吸收"
+  },
+  {
+    "word": "admiring",
+    "stem": "admire",
+    "suf": "ing",
+    "mean": "欽佩的",
+    "stem_mean": "欽佩"
+  },
+  {
+    "word": "appealing",
+    "stem": "appeal",
+    "suf": "ing",
+    "mean": "吸引人的",
+    "stem_mean": "上訴"
+  },
+  {
+    "word": "astonishing",
+    "stem": "astonish",
+    "suf": "ing",
+    "mean": "驚人的",
+    "stem_mean": "震驚"
+  },
+  {
+    "word": "clamor",
+    "stem": "clam",
+    "suf": "or",
+    "mean": "喧囂",
+    "stem_mean": "蛤"
+  },
+  {
+    "word": "crusader",
+    "stem": "crusade",
+    "suf": "er",
+    "mean": "十字軍",
+    "stem_mean": "十字軍"
+  },
+  {
+    "word": "twister",
+    "stem": "twist",
+    "suf": "er",
+    "mean": "龍捲風",
+    "stem_mean": "轉折"
+  },
+  {
+    "word": "badger",
+    "stem": "badge",
+    "suf": "er",
+    "mean": "獾",
+    "stem_mean": "識別證"
+  },
+  {
+    "word": "puffer",
+    "stem": "puff",
+    "suf": "er",
+    "mean": "河豚",
+    "stem_mean": "泡芙"
+  }
+]
