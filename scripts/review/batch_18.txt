@@ -1,0 +1,501 @@
+# 字 9000 - 9499 共 500 筆
+ 9000 | vaccine                        | 疫苗的疫苗                          | adjectives
+ 9001 | valiant                        | 英勇的勇士                          | adjectives
+ 9002 | validity                       | 正當                             | academic-words
+ 9003 | vanilla                        | 香草香草的                          | adjectives
+ 9004 | variable                       | 多變的可變因素                        | adjectives
+ 9005 | variation                      | 變動                             | academic-words
+ 9006 | vend                           | 出售                             | actions
+ 9007 | verge                          | 邊緣處在邊緣                         | directions
+ 9008 | versatile                      | 多才多藝的                          | adjectives
+ 9009 | veteran                        | 老兵                             | actions
+ 9010 | vibration                      | 顫動                             | academic-words
+ 9011 | victimize                      | 使受害                            | actions
+ 9012 | victor                         | 勝利者                            | jobs
+ 9013 | victorious                     | 勝利的                            | adjectives
+ 9014 | villa                          | 別墅                             | actions
+ 9015 | vineyard                       | 葡萄園                            | fruits
+ 9016 | visualize                      | 使視覺化                           | actions
+ 9017 | vitality                       | 活力                             | academic-words
+ 9018 | vocal                          | 聲音的                            | adjectives
+ 9019 | vocation                       | 行業                             | academic-words
+ 9020 | vocational                     | 職業的                            | adjectives
+ 9021 | vogue                          | 流行                             | music
+ 9022 | vulgar                         | 粗俗的                            | adjectives
+ 9023 | vulnerable                     | 易受傷的                           | health
+ 9024 | warfare                        | 戰爭                             | history
+ 9025 | warranty                       | 保證書                            | actions
+ 9026 | watertight                     | 防水的                            | drinks
+ 9027 | whatsoever                     | 任何事物                           | actions
+ 9028 | windshield                     | 擋風玻璃                           | materials
+ 9029 | withstand                      | 反抗                             | actions
+ 9030 | woo                            | 追求                             | actions
+ 9031 | wrestle                        | 摔                              | actions
+ 9032 | yearn                          | 思念                             | actions
+ 9033 | zeal                           | 熱心                             | actions
+ 9034 | kindness                       | 善意                             | academic-words
+ 9035 | darkness                       | 黑暗                             | academic-words
+ 9036 | weakness                       | 弱點                             | academic-words
+ 9037 | madness                        | 瘋狂                             | academic-words
+ 9038 | softness                       | 柔軟                             | academic-words
+ 9039 | coldness                       | 冷漠                             | academic-words
+ 9040 | tiredness                      | 疲倦                             | academic-words
+ 9041 | fairness                       | 公平                             | academic-words
+ 9042 | greatness                      | 偉大                             | academic-words
+ 9043 | thickness                      | 厚度                             | academic-words
+ 9044 | quickness                      | 迅速                             | academic-words
+ 9045 | emptiness                      | 空虛                             | academic-words
+ 9046 | loneliness                     | 孤獨                             | academic-words
+ 9047 | weariness                      | 疲憊                             | academic-words
+ 9048 | sweetness                      | 甜美                             | appearance
+ 9049 | boldness                       | 大膽                             | personality
+ 9050 | readiness                      | 準備                             | academic-words
+ 9051 | shyness                        | 害羞                             | personality
+ 9052 | eagerness                      | 熱切                             | academic-words
+ 9053 | rudeness                       | 粗魯                             | academic-words
+ 9054 | selfishness                    | 自私                             | academic-words
+ 9055 | politeness                     | 禮貌                             | academic-words
+ 9056 | seriousness                    | 嚴肅                             | academic-words
+ 9057 | cleverness                     | 聰明                             | personality
+ 9058 | toughness                      | 韌性                             | academic-words
+ 9059 | vagueness                      | 含糊                             | academic-words
+ 9060 | compartment                    | 隔間                             | adjectives
+ 9061 | encouragement                  | 鼓勵                             | music
+ 9062 | enjoyment                      | 享受                             | adjectives
+ 9063 | excitement                     | 興奮                             | emotions
+ 9064 | improvement                    | 改善                             | adjectives
+ 9065 | judgement                      | 判斷                             | adjectives
+ 9066 | movement                       | 運動                             | sports
+ 9067 | payment                        | 支付                             | adjectives
+ 9068 | placement                      | 安置                             | adjectives
+ 9069 | requirement                    | 要求                             | adjectives
+ 9070 | shipment                       | 貨運                             | adjectives
+ 9071 | adoption                       | 收養                             | academic-words
+ 9072 | punctuation                    | 標點                             | academic-words
+ 9073 | a chip on shoulder             | 積怨                             | idioms
+ 9074 | add insult to injury           | 雪上加霜                           | idioms
+ 9075 | against the clock              | 分秒必爭                           | idioms
+ 9076 | apple of the eye               | 心愛的人                           | idioms
+ 9077 | at the drop of a hat           | 立即                             | idioms
+ 9078 | at the end of the day          | 歸根究底                           | idioms
+ 9079 | bend over backwards            | 竭盡所能                           | idioms
+ 9080 | blow your own horn             | 自我吹捧                           | idioms
+ 9081 | bring home the bacon           | 賺錢養家                           | idioms
+ 9082 | burn bridges                   | 斷絕關係                           | phrasal-verbs
+ 9083 | catch red handed               | 當場抓到                           | idioms
+ 9084 | chip off the old block         | 一個模子刻出來的(像爸媽的孩子)               | idioms
+ 9085 | cut corners                    | 偷工減料                           | phrasal-verbs
+ 9086 | drag your feet                 | 拖延                             | idioms
+ 9087 | dressed to the nines           | 盛裝打扮                           | idioms
+ 9088 | eat humble pie                 | 低頭認錯                           | idioms
+ 9089 | face the music                 | 面對後果                           | idioms
+ 9090 | fly off the handle             | 勃然大怒                           | idioms
+ 9091 | food for thought               | 值得深思                           | idioms
+ 9092 | get out of hand                | 失控                             | idioms
+ 9093 | grin and bear it               | 咬牙忍受                           | idioms
+ 9094 | hands are tied                 | 無能為力                           | idioms
+ 9095 | account for                    | 解釋                             | phrasal-verbs
+ 9096 | add up                         | 合理                             | phrasal-verbs
+ 9097 | back down                      | 讓步                             | phrasal-verbs
+ 9098 | back off                       | 退讓                             | phrasal-verbs
+ 9099 | bear with                      | 容忍                             | phrasal-verbs
+ 9100 | beef up                        | 加強                             | phrasal-verbs
+ 9101 | blow up                        | 爆炸                             | phrasal-verbs
+ 9102 | boil down to                   | 歸結為                            | idioms
+ 9103 | bottle up                      | 壓抑                             | phrasal-verbs
+ 9104 | branch out                     | 拓展                             | phrasal-verbs
+ 9105 | breeze through                 | 輕鬆通過                           | phrasal-verbs
+ 9106 | brush off                      | 輕視                             | phrasal-verbs
+ 9107 | bump into                      | 偶遇                             | phrasal-verbs
+ 9108 | butter up                      | 奉承                             | phrasal-verbs
+ 9109 | cash in                        | 兌現                             | phrasal-verbs
+ 9110 | chew out                       | 責罵                             | phrasal-verbs
+ 9111 | chip in                        | 湊錢                             | phrasal-verbs
+ 9112 | chop up                        | 切碎                             | phrasal-verbs
+ 9113 | clean out                      | 清空                             | phrasal-verbs
+ 9114 | clock in                       | 打卡上班                           | phrasal-verbs
+ 9115 | clock out                      | 打卡下班                           | phrasal-verbs
+ 9116 | come up with                   | 想出                             | idioms
+ 9117 | cool off                       | 冷卻                             | phrasal-verbs
+ 9118 | count on                       | 依靠                             | phrasal-verbs
+ 9119 | crack down                     | 嚴打                             | phrasal-verbs
+ 9120 | die down                       | 平息                             | phrasal-verbs
+ 9121 | dig up                         | 挖掘                             | phrasal-verbs
+ 9122 | dish out                       | 分發                             | phrasal-verbs
+ 9123 | do without                     | 沒有也行                           | phrasal-verbs
+ 9124 | doze off                       | 打瞌睡                            | phrasal-verbs
+ 9125 | dress up                       | 打扮                             | phrasal-verbs
+ 9126 | drop in                        | 順道拜訪                           | phrasal-verbs
+ 9127 | eat out                        | 外食                             | phrasal-verbs
+ 9128 | end up                         | 結果                             | phrasal-verbs
+ 9129 | fade away                      | 消逝                             | phrasal-verbs
+ 9130 | feel like                      | 想要                             | phrasal-verbs
+ 9131 | fish for                       | 設法獲得                           | phrasal-verbs
+ 9132 | flag down                      | 招手攔下                           | phrasal-verbs
+ 9133 | flip out                       | 發火                             | phrasal-verbs
+ 9134 | focus on                       | 專注於                            | phrasal-verbs
+ 9135 | freak out                      | 嚇壞                             | phrasal-verbs
+ 9136 | frown upon                     | 不贊同                            | phrasal-verbs
+ 9137 | gear up                        | 準備                             | phrasal-verbs
+ 9138 | give in                        | 屈服                             | phrasal-verbs
+ 9139 | grow up                        | 長大                             | phrasal-verbs
+ 9140 | hand down                      | 傳承                             | phrasal-verbs
+ 9141 | hand off                       | 移交                             | phrasal-verbs
+ 9142 | head off                       | 出發                             | phrasal-verbs
+ 9143 | hold off                       | 延後                             | phrasal-verbs
+ 9144 | hook up                        | 勾搭                             | phrasal-verbs
+ 9145 | iron out                       | 解決                             | phrasal-verbs
+ 9146 | jump in                        | 加入                             | phrasal-verbs
+ 9147 | keep at                        | 堅持                             | phrasal-verbs
+ 9148 | kick back                      | 放鬆                             | phrasal-verbs
+ 9149 | knock off                      | 停工                             | phrasal-verbs
+ 9150 | knock out                      | 擊倒                             | phrasal-verbs
+ 9151 | lay out                        | 陳列                             | phrasal-verbs
+ 9152 | lead to                        | 導致                             | phrasal-verbs
+ 9153 | let off                        | 放掉                             | phrasal-verbs
+ 9154 | look down on                   | 輕視                             | idioms
+ 9155 | lose out                       | 錯失                             | phrasal-verbs
+ 9156 | make for                       | 前往                             | phrasal-verbs
+ 9157 | make out                       | 吻                              | phrasal-verbs
+ 9158 | mess up                        | 搞砸                             | phrasal-verbs
+ 9159 | mix up                         | 搞混                             | phrasal-verbs
+ 9160 | opt out                        | 選擇退出                           | phrasal-verbs
+ 9161 | pay attention                  | 注意                             | phrasal-verbs
+ 9162 | pick up on                     | 察覺                             | idioms
+ 9163 | pile up                        | 堆積                             | phrasal-verbs
+ 9164 | pin down                       | 確定                             | phrasal-verbs
+ 9165 | plug into                      | 插入                             | phrasal-verbs
+ 9166 | point at                       | 指向                             | phrasal-verbs
+ 9167 | pop in                         | 突然出現                           | phrasal-verbs
+ 9168 | pop up                         | 彈出                             | phrasal-verbs
+ 9169 | pour out                       | 傾訴                             | phrasal-verbs
+ 9170 | prop up                        | 支撐                             | phrasal-verbs
+ 9171 | puff up                        | 腫脹                             | phrasal-verbs
+ 9172 | punch in                       | 打卡                             | phrasal-verbs
+ 9173 | push for                       | 力爭                             | phrasal-verbs
+ 9174 | quiet down                     | 安靜                             | phrasal-verbs
+ 9175 | rack up                        | 累積                             | phrasal-verbs
+ 9176 | rake in                        | 大撈                             | phrasal-verbs
+ 9177 | reach out                      | 聯絡                             | phrasal-verbs
+ 9178 | rely on                        | 依賴                             | phrasal-verbs
+ 9179 | rest on                        | 依靠                             | phrasal-verbs
+ 9180 | rise above                     | 克服                             | phrasal-verbs
+ 9181 | rise up                        | 起義                             | phrasal-verbs
+ 9182 | rope in                        | 拉攏                             | phrasal-verbs
+ 9183 | rub off                        | 沾染                             | phrasal-verbs
+ 9184 | rush in                        | 衝進                             | phrasal-verbs
+ 9185 | save face                      | 保住面子                           | phrasal-verbs
+ 9186 | scrape by                      | 勉強度日                           | phrasal-verbs
+ 9187 | scrap with                     | 爭吵                             | phrasal-verbs
+ 9188 | seal off                       | 封鎖                             | phrasal-verbs
+ 9189 | see through                    | 看穿                             | phrasal-verbs
+ 9190 | settle for                     | 將就                             | phrasal-verbs
+ 9191 | shake off                      | 擺脫                             | phrasal-verbs
+ 9192 | shed light on                  | 闡明                             | idioms
+ 9193 | shore up                       | 加強                             | phrasal-verbs
+ 9194 | shrug off                      | 置之不理                           | phrasal-verbs
+ 9195 | shut out                       | 排除                             | phrasal-verbs
+ 9196 | sift through                   | 篩選                             | phrasal-verbs
+ 9197 | size up                        | 打量                             | phrasal-verbs
+ 9198 | skim through                   | 瀏覽                             | phrasal-verbs
+ 9199 | slip away                      | 溜走                             | phrasal-verbs
+ 9200 | snap out                       | 清醒                             | phrasal-verbs
+ 9201 | soak up                        | 吸收                             | phrasal-verbs
+ 9202 | spell out                      | 說明白                            | phrasal-verbs
+ 9203 | spread out                     | 展開                             | phrasal-verbs
+ 9204 | square off                     | 對峙                             | phrasal-verbs
+ 9205 | stack up                       | 疊起                             | phrasal-verbs
+ 9206 | stand up for                   | 維護                             | idioms
+ 9207 | stem from                      | 源於                             | phrasal-verbs
+ 9208 | step down                      | 下台                             | phrasal-verbs
+ 9209 | step up                        | 加緊                             | phrasal-verbs
+ 9210 | stick around                   | 逗留                             | phrasal-verbs
+ 9211 | stick out                      | 突出                             | phrasal-verbs
+ 9212 | stir up                        | 激起                             | phrasal-verbs
+ 9213 | strike out                     | 打擊                             | phrasal-verbs
+ 9214 | sum up                         | 總結                             | phrasal-verbs
+ 9215 | swing by                       | 順道                             | phrasal-verbs
+ 9216 | tag along                      | 跟著                             | phrasal-verbs
+ 9217 | take after                     | 像                              | phrasal-verbs
+ 9218 | take apart                     | 拆開                             | phrasal-verbs
+ 9219 | take charge                    | 負責                             | phrasal-verbs
+ 9220 | talk back                      | 頂嘴                             | phrasal-verbs
+ 9221 | tear down                      | 拆毀                             | phrasal-verbs
+ 9222 | tear up                        | 撕碎                             | phrasal-verbs
+ 9223 | throw in                       | 加入                             | phrasal-verbs
+ 9224 | tide over                      | 幫助渡過                           | phrasal-verbs
+ 9225 | toss out                       | 丟棄                             | phrasal-verbs
+ 9226 | touch on                       | 觸及                             | phrasal-verbs
+ 9227 | track down                     | 追蹤                             | phrasal-verbs
+ 9228 | trade in                       | 以舊換新                           | phrasal-verbs
+ 9229 | trip over                      | 絆倒                             | phrasal-verbs
+ 9230 | tune in                        | 收聽                             | phrasal-verbs
+ 9231 | tune out                       | 不理會                            | phrasal-verbs
+ 9232 | turn against                   | 背叛                             | phrasal-verbs
+ 9233 | turn in                        | 繳交                             | phrasal-verbs
+ 9234 | turn into                      | 變成                             | phrasal-verbs
+ 9235 | uproot                         | 根除                             | numbers
+ 9236 | vouch for                      | 擔保                             | phrasal-verbs
+ 9237 | walk back                      | 收回                             | phrasal-verbs
+ 9238 | ward off                       | 避開                             | phrasal-verbs
+ 9239 | warm up                        | 熱身                             | phrasal-verbs
+ 9240 | wash up                        | 洗手                             | phrasal-verbs
+ 9241 | water down                     | 稀釋                             | phrasal-verbs
+ 9242 | wear off                       | 消退                             | phrasal-verbs
+ 9243 | weigh in                       | 發表意見                           | phrasal-verbs
+ 9244 | whisk away                     | 迅速帶走                           | phrasal-verbs
+ 9245 | win over                       | 說服                             | phrasal-verbs
+ 9246 | wipe out                       | 消滅                             | phrasal-verbs
+ 9247 | work in                        | 加入                             | phrasal-verbs
+ 9248 | work over                      | 痛打                             | phrasal-verbs
+ 9249 | wrap up                        | 結束                             | phrasal-verbs
+ 9250 | write off                      | 註銷                             | phrasal-verbs
+ 9251 | yield to                       | 讓步於                            | phrasal-verbs
+ 9252 | zero in                        | 聚焦                             | phrasal-verbs
+ 9253 | zone out                       | 發呆                             | phrasal-verbs
+ 9254 | calmness                       | 平靜                             | academic-words
+ 9255 | elegance                       | 優雅                             | academic-words
+ 9256 | flair                          | 才華                             | actions
+ 9257 | fondness                       | 喜愛                             | academic-words
+ 9258 | humility                       | 謙遜                             | academic-words
+ 9259 | legacy                         | 遺產                             | actions
+ 9260 | nostalgia                      | 懷舊                             | actions
+ 9261 | overview                       | 概述                             | actions
+ 9262 | poise                          | 沉著                             | actions
+ 9263 | remorse                        | 悔恨                             | actions
+ 9264 | reverence                      | 敬畏                             | academic-words
+ 9265 | stigma                         | 汙名                             | actions
+ 9266 | trance                         | 恍惚                             | academic-words
+ 9267 | whim                           | 一時興起                           | numbers
+ 9268 | fisher                         | 漁夫                             | jobs
+ 9269 | rider                          | 騎士                             | actions
+ 9270 | helper                         | 幫手                             | actions
+ 9271 | learner                        | 學習者                            | jobs
+ 9272 | killer                         | 殺手                             | actions
+ 9273 | thinker                        | 思考者                            | jobs
+ 9274 | maker                          | 製造者                            | jobs
+ 9275 | villager                       | 村民                             | actions
+ 9276 | washer                         | 洗衣機                            | tools
+ 9277 | cooler                         | 冷卻器                            | tools
+ 9278 | navigator                      | 導航員                            | jobs
+ 9279 | mediator                       | 調解者                            | jobs
+ 9280 | cyclist                        | 騎自行車者                          | transportation
+ 9281 | terrorist                      | 恐怖份子                           | actions
+ 9282 | optimist                       | 樂觀者                            | jobs
+ 9283 | pessimist                      | 悲觀者                            | jobs
+ 9284 | idealist                       | 理想主義者                          | jobs
+ 9285 | formality                      | 正式                             | academic-words
+ 9286 | immunity                       | 免疫                             | academic-words
+ 9287 | individuality                  | 個性                             | personality
+ 9288 | inferiority                    | 自卑                             | academic-words
+ 9289 | insanity                       | 瘋狂                             | academic-words
+ 9290 | locality                       | 地方                             | academic-words
+ 9291 | mortality                      | 死亡率                            | academic-words
+ 9292 | nobility                       | 貴族                             | academic-words
+ 9293 | subtlety                       | 微妙                             | actions
+ 9294 | totality                       | 全部                             | academic-words
+ 9295 | visibility                     | 能見度                            | academic-words
+ 9296 | compliance                     | 遵從                             | academic-words
+ 9297 | observance                     | 遵守                             | academic-words
+ 9298 | relevance                      | 相關                             | academic-words
+ 9299 | surveillance                   | 監視                             | academic-words
+ 9300 | vigilance                      | 警惕                             | academic-words
+ 9301 | seen                           | 看見                             | actions
+ 9302 | given                          | 給過                             | actions
+ 9303 | known                          | 知道                             | actions
+ 9304 | grew                           | 長大                             | actions
+ 9305 | grown                          | 長大                             | actions
+ 9306 | drawn                          | 畫過                             | art
+ 9307 | flew                           | 飛了                             | actions
+ 9308 | flown                          | 飛過                             | actions
+ 9309 | blown                          | 吹過                             | actions
+ 9310 | threw                          | 丟了                             | actions
+ 9311 | thrown                         | 丟過                             | actions
+ 9312 | risen                          | 上升                             | directions
+ 9313 | chosen                         | 選過                             | actions
+ 9314 | spoken                         | 說過                             | actions
+ 9315 | woken                          | 醒過                             | actions
+ 9316 | ridden                         | 騎過                             | actions
+ 9317 | written                        | 寫過                             | actions
+ 9318 | held                           | 握住                             | actions
+ 9319 | heard                          | 聽見                             | actions
+ 9320 | built                          | 建造                             | actions
+ 9321 | sent                           | 送                              | actions
+ 9322 | spent                          | 花費                             | adjectives
+ 9323 | crept                          | 爬                              | actions
+ 9324 | led                            | 領導                             | actions
+ 9325 | bled                           | 流血                             | actions
+ 9326 | absolutely                     | 絕對地                            | adjectives
+ 9327 | anymore                        | 不再                             | actions
+ 9328 | constantly                     | 不斷地                            | adjectives
+ 9329 | directly                       | 直接地                            | adjectives
+ 9330 | easily                         | 容易地                            | adjectives
+ 9331 | extremely                      | 極度                             | sight-words
+ 9332 | honestly                       | 老實說                            | sight-words
+ 9333 | incredibly                     | 令人難以置信地                        | adjectives
+ 9334 | necessarily                    | 必然地                            | adjectives
+ 9335 | officially                     | 正式地                            | adjectives
+ 9336 | perfectly                      | 完美地                            | appearance
+ 9337 | quickly                        | 快速地                            | adjectives
+ 9338 | quietly                        | 安靜地                            | adjectives
+ 9339 | regularly                      | 定期地                            | adjectives
+ 9340 | relatively                     | 相對地                            | adjectives
+ 9341 | rightly                        | 正確地                            | adjectives
+ 9342 | sadly                          | 悲傷地                            | emotions
+ 9343 | seriously                      | 嚴肅地                            | adjectives
+ 9344 | successfully                   | 成功地                            | adjectives
+ 9345 | typically                      | 典型地                            | adjectives
+ 9346 | usually                        | 通常                             | sight-words
+ 9347 | willingly                      | 願意地                            | adjectives
+ 9348 | argue                          | 爭論                             | actions
+ 9349 | arrange                        | 安排                             | actions
+ 9350 | coexist                        | 共存                             | actions
+ 9351 | comply                         | 遵從                             | sight-words
+ 9352 | delete                         | 刪除                             | numbers
+ 9353 | develop                        | 發展                             | actions
+ 9354 | encourage                      | 鼓勵                             | music
+ 9355 | hinder                         | 妨礙                             | actions
+ 9356 | immerse                        | 沉浸                             | actions
+ 9357 | improve                        | 改善                             | actions
+ 9358 | measure                        | 測量                             | academic-words
+ 9359 | move                           | 移動                             | actions
+ 9360 | pacify                         | 安撫                             | actions
+ 9361 | punish                         | 懲罰                             | adjectives
+ 9362 | rebuild                        | 重建                             | actions
+ 9363 | rinse                          | 沖洗                             | actions
+ 9364 | settle                         | 解決                             | actions
+ 9365 | tap                            | 輕拍                             | actions
+ 9366 | tend                           | 傾向                             | actions
+ 9367 | undress                        | 脫衣                             | clothing
+ 9368 | verify                         | 驗證                             | actions
+ 9369 | airbag                         | 安全氣囊                           | actions
+ 9370 | airbrush                       | 噴槍                             | actions
+ 9371 | airfare                        | 機票錢                            | money
+ 9372 | alarmclock                     | 鬧鐘                             | actions
+ 9373 | artwork                        | 藝術品                            | art
+ 9374 | backdoor                       | 後門                             | directions
+ 9375 | backdrop                       | 背景                             | body
+ 9376 | backfire                       | 適得其反                           | actions
+ 9377 | backlog                        | 積壓                             | actions
+ 9378 | backstage                      | 後台                             | directions
+ 9379 | backyard                       | 後院                             | directions
+ 9380 | bankbook                       | 存摺                             | actions
+ 9381 | baseline                       | 基準                             | adjectives
+ 9382 | battlefield                    | 戰場                             | actions
+ 9383 | battleship                     | 戰艦                             | academic-words
+ 9384 | beachfront                     | 海濱                             | nature
+ 9385 | beanbag                        | 豆袋                             | actions
+ 9386 | bedrock                        | 基石                             | actions
+ 9387 | bedside                        | 床邊                             | home-items
+ 9388 | bedspread                      | 床罩                             | home-items
+ 9389 | beehive                        | 蜂窩                             | animals
+ 9390 | beeline                        | 直線                             | adjectives
+ 9391 | billboard                      | 廣告牌                            | media
+ 9392 | birthplace                     | 出生地                            | adjectives
+ 9393 | blacklist                      | 黑名單                            | actions
+ 9394 | bloodstream                    | 血流                             | actions
+ 9395 | blueprint                      | 藍圖                             | actions
+ 9396 | bombshell                      | 驚人之事                           | actions
+ 9397 | bookkeeper                     | 簿記員                            | jobs
+ 9398 | bookshop                       | 書店                             | actions
+ 9399 | bottleneck                     | 瓶頸                             | home-items
+ 9400 | brainstorm                     | 腦力激盪                           | actions
+ 9401 | brainwash                      | 洗腦                             | actions
+ 9402 | breadcrumb                     | 麵包屑                            | food
+ 9403 | broadband                      | 寬頻                             | actions
+ 9404 | bulletproof                    | 防彈                             | actions
+ 9405 | businessman                    | 商人                             | business
+ 9406 | businesswoman                  | 女商人                            | business
+ 9407 | byproduct                      | 副產品                            | actions
+ 9408 | analytics                      | 分析                             | actions
+ 9409 | android                        | 安卓                             | actions
+ 9410 | antivirus                      | 防毒                             | actions
+ 9411 | apps                           | 應用程式                           | actions
+ 9412 | asynchronous                   | 非同步                            | adjectives
+ 9413 | binary                         | 二進位                            | numbers
+ 9414 | biometric                      | 生物識別                           | science
+ 9415 | bot                            | 機器人                            | technology
+ 9416 | cache                          | 快取                             | actions
+ 9417 | codec                          | 編解碼器                           | actions
+ 9418 | compiler                       | 編譯器                            | tools
+ 9419 | cryptocurrency                 | 加密貨幣                           | economy
+ 9420 | cursor                         | 游標                             | actions
+ 9421 | dashboard                      | 儀表板                            | actions
+ 9422 | database                       | 資料庫                            | actions
+ 9423 | debug                          | 除錯                             | numbers
+ 9424 | decrypt                        | 解密                             | actions
+ 9425 | deploy                         | 部署                             | actions
+ 9426 | desktop                        | 桌面                             | home-items
+ 9427 | dialog                         | 對話                             | actions
+ 9428 | dropdown                       | 下拉選單                           | directions
+ 9429 | encrypt                        | 加密                             | numbers
+ 9430 | encryption                     | 加密                             | academic-words
+ 9431 | endpoint                       | 端點                             | actions
+ 9432 | firmware                       | 韌體                             | actions
+ 9433 | floppy                         | 軟碟                             | actions
+ 9434 | gateway                        | 閘道                             | actions
+ 9435 | gigabyte                       | 十億位元組                          | numbers
+ 9436 | homepage                       | 首頁                             | actions
+ 9437 | hyperlink                      | 超連結                            | actions
+ 9438 | icon                           | 圖示                             | actions
+ 9439 | interface                      | 介面                             | actions
+ 9440 | keypad                         | 數字鍵盤                           | numbers
+ 9441 | keyword                        | 關鍵字                            | actions
+ 9442 | latency                        | 延遲                             | actions
+ 9443 | layout                         | 版面                             | actions
+ 9444 | mailbox                        | 信箱                             | actions
+ 9445 | mainframe                      | 大型主機                           | actions
+ 9446 | megabyte                       | 百萬位元組                          | numbers
+ 9447 | metadata                       | 元資料                            | actions
+ 9448 | microchip                      | 微晶片                            | technology
+ 9449 | module                         | 模組                             | actions
+ 9450 | motherboard                    | 主機板                            | actions
+ 9451 | multimedia                     | 多媒體                            | media
+ 9452 | newsletter                     | 電子報                            | science
+ 9453 | notification                   | 通知                             | academic-words
+ 9454 | outage                         | 停機                             | actions
+ 9455 | overload                       | 超載                             | actions
+ 9456 | overwrite                      | 覆寫                             | actions
+ 9457 | pixel                          | 像素                             | actions
+ 9458 | plugin                         | 外掛                             | actions
+ 9459 | podcast                        | 播客                             | actions
+ 9460 | popup                          | 彈窗                             | actions
+ 9461 | portal                         | 入口網站                           | internet
+ 9462 | runtime                        | 執行時                            | actions
+ 9463 | screenshot                     | 螢幕截圖                           | technology
+ 9464 | semiconductor                  | 半導體                            | technology
+ 9465 | shortcut                       | 捷徑                             | actions
+ 9466 | sidebar                        | 側邊欄                            | actions
+ 9467 | sitemap                        | 網站地圖                           | travel
+ 9468 | snapshot                       | 快照                             | actions
+ 9469 | subdomain                      | 子網域                            | actions
+ 9470 | subnet                         | 子網路                            | internet
+ 9471 | synchronize                    | 同步                             | actions
+ 9472 | thumbnail                      | 縮圖                             | actions
+ 9473 | toolbar                        | 工具列                            | tools
+ 9474 | touchpad                       | 觸控板                            | actions
+ 9475 | touchscreen                    | 觸控螢幕                           | technology
+ 9476 | trackpad                       | 觸控板                            | actions
+ 9477 | uploader                       | 上傳者                            | jobs
+ 9478 | username                       | 用戶名                            | actions
+ 9479 | vector                         | 向量                             | actions
+ 9480 | voicemail                      | 語音信箱                           | actions
+ 9481 | webpage                        | 網頁                             | internet
+ 9482 | widget                         | 小工具                            | tools
+ 9483 | wireless                       | 無線                             | adjectives
+ 9484 | workspace                      | 工作空間                           | actions
+ 9485 | bankruptcy                     | 破產                             | actions
+ 9486 | barter                         | 以物易物                           | actions
+ 9487 | beneficiary                    | 受益人                            | adjectives
+ 9488 | benchmark                      | 基準                             | actions
+ 9489 | buyback                        | 回購                             | actions
+ 9490 | cashflow                       | 現金流                            | money
+ 9491 | census                         | 人口普查                           | actions
+ 9492 | clientele                      | 客戶群                            | office
+ 9493 | craftsmanship                  | 工藝                             | academic-words
+ 9494 | creditor                       | 債權人                            | jobs
+ 9495 | debtor                         | 債務人                            | jobs
+ 9496 | deduction                      | 扣除                             | academic-words
+ 9497 | default                        | 違約                             | actions
+ 9498 | depreciation                   | 折舊                             | academic-words
+ 9499 | distributor                    | 經銷商                            | actions

@@ -1,0 +1,501 @@
+# 字 2500 - 2999 共 500 筆
+ 2500 | dinein                         | 內用                             | restaurant
+ 2501 | drivethru                      | 得來速                            | restaurant
+ 2502 | restaurant                     | 餐廳                             | restaurant
+ 2503 | cuisine                        | 料理                             | restaurant
+ 2504 | specialty                      | 招牌菜                            | restaurant
+ 2505 | check                          | 結帳                             | restaurant
+ 2506 | gratuity                       | 小費                             | restaurant
+ 2507 | allergy                        | 過敏                             | restaurant
+ 2508 | glutenfree                     | 無麩質                            | restaurant
+ 2509 | vegan                          | 純素                             | restaurant
+ 2510 | vegetarian                     | 素食                             | restaurant
+ 2511 | kosher                         | 猶太潔食                           | restaurant
+ 2512 | halal                          | 清真食物                           | restaurant
+ 2513 | savory                         | 鹹香                             | restaurant
+ 2514 | bitter                         | 苦                              | restaurant
+ 2515 | bland                          | 清淡                             | restaurant
+ 2516 | fastfood                       | 速食                             | restaurant
+ 2517 | finedining                     | 精緻料理                           | restaurant
+ 2518 | casual                         | 休閒                             | restaurant
+ 2519 | formal                         | 正式                             | restaurant
+ 2520 | straw                          | 吸管                             | restaurant
+ 2521 | banquet                        | 宴會                             | restaurant
+ 2522 | feast                          | 盛宴                             | restaurant
+ 2523 | potluck                        | 百樂宴                            | restaurant
+ 2524 | catering                       | 外燴                             | restaurant
+ 2525 | caterer                        | 外燴業者                           | restaurant
+ 2526 | dine                           | 用餐                             | restaurant
+ 2527 | hotpot                         | 火鍋                             | restaurant
+ 2528 | barbecue                       | 燒烤                             | restaurant
+ 2529 | bbq                            | 燒烤                             | restaurant
+ 2530 | refill                         | 續杯                             | restaurant
+ 2531 | combo                          | 套餐                             | restaurant
+ 2532 | special                        | 特餐                             | restaurant
+ 2533 | platter                        | 拼盤                             | restaurant
+ 2534 | euro                           | 歐元                             | money
+ 2535 | pound                          | 英鎊                             | money
+ 2536 | yen                            | 日圓                             | money
+ 2537 | peso                           | 披索                             | money
+ 2538 | ruble                          | 盧布                             | money
+ 2539 | rupee                          | 盧比                             | money
+ 2540 | won                            | 韓圓                             | money
+ 2541 | baht                           | 泰銖                             | money
+ 2542 | budget                         | 預算                             | money
+ 2543 | finance                        | 財務                             | money
+ 2544 | investment                     | 投資                             | money
+ 2545 | invest                         | 投資                             | money
+ 2546 | profit                         | 利潤                             | money
+ 2547 | loss                           | 虧損                             | money
+ 2548 | gain                           | 獲利                             | money
+ 2549 | income                         | 收入                             | money
+ 2550 | salary                         | 薪水                             | money
+ 2551 | wage                           | 工資                             | money
+ 2552 | paycheck                       | 薪水支票                           | money
+ 2553 | bonus                          | 獎金                             | money
+ 2554 | commission                     | 佣金                             | money
+ 2555 | allowance                      | 零用錢                            | money
+ 2556 | pension                        | 退休金                            | money
+ 2557 | tax                            | 稅                              | money
+ 2558 | fee                            | 費用                             | money
+ 2559 | charge                         | 收費                             | money
+ 2560 | cost                           | 成本                             | money
+ 2561 | expense                        | 支出                             | money
+ 2562 | account                        | 帳戶                             | money
+ 2563 | wallet                         | 錢包                             | money
+ 2564 | purse                          | 皮包                             | money
+ 2565 | deposit                        | 存款                             | money
+ 2566 | withdraw                       | 提款                             | money
+ 2567 | credit                         | 信用                             | money
+ 2568 | debit                          | 扣款                             | money
+ 2569 | balance                        | 餘額                             | money
+ 2570 | interest                       | 利息                             | money
+ 2571 | inflation                      | 通膨                             | money
+ 2572 | recession                      | 經濟衰退                           | money
+ 2573 | asset                          | 資產                             | money
+ 2574 | capital                        | 資本                             | money
+ 2575 | broker                         | 經紀人                            | money
+ 2576 | bond                           | 債券                             | money
+ 2577 | mortgage                       | 房貸                             | money
+ 2578 | lease                          | 租賃                             | money
+ 2579 | rent                           | 租金                             | money
+ 2580 | fund                           | 基金                             | money
+ 2581 | checkup                        | 健檢                             | health
+ 2582 | appointment                    | 預約                             | health
+ 2583 | examination                    | 檢查                             | health
+ 2584 | diagnose                       | 診斷                             | health
+ 2585 | diagnosis                      | 診斷                             | health
+ 2586 | treatment                      | 治療                             | health
+ 2587 | therapy                        | 療法                             | health
+ 2588 | prescription                   | 處方                             | health
+ 2589 | dose                           | 劑量                             | health
+ 2590 | dosage                         | 劑量                             | health
+ 2591 | allergic                       | 過敏的                            | health
+ 2592 | antibiotic                     | 抗生素                            | health
+ 2593 | painkiller                     | 止痛藥                            | health
+ 2594 | supplement                     | 補充劑                            | health
+ 2595 | capsule                        | 膠囊                             | health
+ 2596 | lozenge                        | 含片                             | health
+ 2597 | injection                      | 注射                             | health
+ 2598 | shot                           | 打針                             | health
+ 2599 | infection                      | 感染                             | health
+ 2600 | illness                        | 疾病                             | health
+ 2601 | virus                          | 病毒                             | health
+ 2602 | bacteria                       | 細菌                             | health
+ 2603 | germ                           | 細菌                             | health
+ 2604 | contagious                     | 傳染                             | health
+ 2605 | asthma                         | 氣喘                             | health
+ 2606 | diabetes                       | 糖尿病                            | health
+ 2607 | cancer                         | 癌症                             | health
+ 2608 | pneumonia                      | 肺炎                             | health
+ 2609 | stroke                         | 中風                             | health
+ 2610 | heartattack                    | 心臟病                            | health
+ 2611 | surgery                        | 手術                             | health
+ 2612 | operation                      | 手術                             | health
+ 2613 | anesthesia                     | 麻醉                             | health
+ 2614 | recover                        | 復原                             | health
+ 2615 | recovery                       | 康復                             | health
+ 2616 | healing                        | 癒合                             | health
+ 2617 | heal                           | 治癒                             | health
+ 2618 | injury                         | 傷害                             | health
+ 2619 | fracture                       | 骨折                             | health
+ 2620 | sprain                         | 扭傷                             | health
+ 2621 | burn                           | 燒傷                             | health
+ 2622 | nutrition                      | 營養                             | health
+ 2623 | calorie                        | 卡路里                            | health
+ 2624 | protein                        | 蛋白質                            | health
+ 2625 | carb                           | 碳水化合物                          | health
+ 2626 | fiber                          | 纖維                             | health
+ 2627 | stretch                        | 伸展                             | health
+ 2628 | fitness                        | 健身                             | health
+ 2629 | wellness                       | 健康                             | health
+ 2630 | last                           | 最後                             | sight-words
+ 2631 | next                           | 下一個                            | sight-words
+ 2632 | latest                         | 最新                             | sight-words
+ 2633 | previous                       | 先前                             | sight-words
+ 2634 | former                         | 前任                             | sight-words
+ 2635 | current                        | 目前                             | sight-words
+ 2636 | prior                          | 事先                             | sight-words
+ 2637 | indeed                         | 確實                             | sight-words
+ 2638 | surely                         | 當然                             | sight-words
+ 2639 | truly                          | 真的                             | sight-words
+ 2640 | frankly                        | 坦白                             | sight-words
+ 2641 | actually                       | 實際上                            | sight-words
+ 2642 | basically                      | 基本上                            | sight-words
+ 2643 | generally                      | 一般而言                           | sight-words
+ 2644 | particularly                   | 特別                             | sight-words
+ 2645 | especially                     | 特別                             | sight-words
+ 2646 | mainly                         | 主要                             | sight-words
+ 2647 | mostly                         | 大多                             | sight-words
+ 2648 | partly                         | 部分                             | sight-words
+ 2649 | completely                     | 完全                             | sight-words
+ 2650 | entirely                       | 完全                             | sight-words
+ 2651 | totally                        | 完全                             | sight-words
+ 2652 | fully                          | 完全                             | sight-words
+ 2653 | fairly                         | 相當                             | sight-words
+ 2654 | somewhat                       | 有點                             | sight-words
+ 2655 | slightly                       | 稍微                             | sight-words
+ 2656 | barely                         | 勉強                             | sight-words
+ 2657 | hardly                         | 幾乎不                            | sight-words
+ 2658 | nearly                         | 幾乎                             | sight-words
+ 2659 | exactly                        | 正好                             | sight-words
+ 2660 | precisely                      | 精確                             | sight-words
+ 2661 | approximately                  | 大約                             | sight-words
+ 2662 | roughly                        | 大致                             | sight-words
+ 2663 | possibly                       | 可能                             | sight-words
+ 2664 | hopefully                      | 希望                             | sight-words
+ 2665 | eventually                     | 最終                             | sight-words
+ 2666 | finally                        | 終於                             | sight-words
+ 2667 | ultimately                     | 最後                             | sight-words
+ 2668 | whenever                       | 無論何時                           | sight-words
+ 2669 | wherever                       | 無論何處                           | sight-words
+ 2670 | whoever                        | 無論誰                            | sight-words
+ 2671 | whatever                       | 無論什麼                           | sight-words
+ 2672 | whichever                      | 無論哪個                           | sight-words
+ 2673 | whether                        | 是否                             | sight-words
+ 2674 | nonetheless                    | 儘管如此                           | sight-words
+ 2675 | anyhow                         | 無論如何                           | sight-words
+ 2676 | likewise                       | 同樣地                            | sight-words
+ 2677 | similarly                      | 類似地                            | sight-words
+ 2678 | accordingly                    | 因此                             | sight-words
+ 2679 | additionally                   | 另外                             | sight-words
+ 2680 | alternatively                  | 或者                             | sight-words
+ 2681 | regardless                     | 無論                             | sight-words
+ 2682 | supposedly                     | 據說                             | sight-words
+ 2683 | presumably                     | 想必                             | sight-words
+ 2684 | undoubtedly                    | 無疑                             | sight-words
+ 2685 | apparently                     | 顯然                             | sight-words
+ 2686 | evidently                      | 顯然                             | sight-words
+ 2687 | namely                         | 也就是                            | sight-words
+ 2688 | specifically                   | 具體地                            | sight-words
+ 2689 | technically                    | 技術上                            | sight-words
+ 2690 | oneself                        | 自己                             | sight-words
+ 2691 | myself                         | 我自己                            | sight-words
+ 2692 | yourself                       | 你自己                            | sight-words
+ 2693 | himself                        | 他自己                            | sight-words
+ 2694 | herself                        | 她自己                            | sight-words
+ 2695 | itself                         | 它自己                            | sight-words
+ 2696 | ourselves                      | 我們自己                           | sight-words
+ 2697 | yourselves                     | 你們自己                           | sight-words
+ 2698 | themselves                     | 他們自己                           | sight-words
+ 2699 | yours                          | 你的                             | sight-words
+ 2700 | hers                           | 她的                             | sight-words
+ 2701 | theirs                         | 他們的                            | sight-words
+ 2702 | ours                           | 我們的                            | sight-words
+ 2703 | none                           | 沒有                             | sight-words
+ 2704 | others                         | 其他人                            | sight-words
+ 2705 | certain                        | 某些                             | sight-words
+ 2706 | particular                     | 特定                             | sight-words
+ 2707 | specific                       | 具體的                            | sight-words
+ 2708 | general                        | 一般                             | sight-words
+ 2709 | various                        | 各種                             | sight-words
+ 2710 | multiple                       | 多種                             | sight-words
+ 2711 | numerous                       | 許多                             | sight-words
+ 2712 | lone                           | 單獨                             | sight-words
+ 2713 | mere                           | 僅僅                             | sight-words
+ 2714 | fewer                          | 較少                             | sight-words
+ 2715 | hello                          | 你好                             | sight-words
+ 2716 | hi                             | 嗨                              | sight-words
+ 2717 | hey                            | 嘿                              | sight-words
+ 2718 | bye                            | 再見                             | sight-words
+ 2719 | goodbye                        | 再見                             | sight-words
+ 2720 | ok                             | 好                              | sight-words
+ 2721 | please                         | 請                              | sight-words
+ 2722 | thanks                         | 謝謝                             | sight-words
+ 2723 | welcome                        | 歡迎                             | sight-words
+ 2724 | congrats                       | 恭喜                             | sight-words
+ 2725 | cheers                         | 乾杯                             | sight-words
+ 2726 | wow                            | 哇                              | sight-words
+ 2727 | oh                             | 喔                              | sight-words
+ 2728 | oops                           | 哎呀                             | sight-words
+ 2729 | ouch                           | 哎喲                             | sight-words
+ 2730 | hmm                            | 嗯                              | sight-words
+ 2731 | ah                             | 啊                              | sight-words
+ 2732 | well                           | 嗯                              | sight-words
+ 2733 | alright                        | 好的                             | sight-words
+ 2734 | mr                             | 先生                             | sight-words
+ 2735 | mrs                            | 太太                             | sight-words
+ 2736 | ms                             | 女士                             | sight-words
+ 2737 | sir                            | 先生                             | sight-words
+ 2738 | madam                          | 女士                             | sight-words
+ 2739 | prince                         | 王子                             | sight-words
+ 2740 | princess                       | 公主                             | sight-words
+ 2741 | elsewhere                      | 別處                             | sight-words
+ 2742 | hereafter                      | 今後                             | sight-words
+ 2743 | henceforth                     | 從此                             | sight-words
+ 2744 | thereby                        | 藉此                             | sight-words
+ 2745 | therein                        | 其中                             | sight-words
+ 2746 | whereby                        | 藉由                             | sight-words
+ 2747 | wherein                        | 其中                             | sight-words
+ 2748 | alongside                      | 沿著                             | sight-words
+ 2749 | towards                        | 朝向                             | sight-words
+ 2750 | backwards                      | 向後                             | sight-words
+ 2751 | whilst                         | 當...時                          | sight-words
+ 2752 | amid                           | 在...之中                         | sight-words
+ 2753 | amongst                        | 在...之中                         | sight-words
+ 2754 | beneath                        | 在...下方                         | sight-words
+ 2755 | underneath                     | 在...下方                         | sight-words
+ 2756 | regarding                      | 關於                             | sight-words
+ 2757 | concerning                     | 關於                             | sight-words
+ 2758 | including                      | 包括                             | sight-words
+ 2759 | excluding                      | 不包括                            | sight-words
+ 2760 | considering                    | 考慮到                            | sight-words
+ 2761 | utterly                        | 完全                             | sight-words
+ 2762 | virtually                      | 幾乎                             | sight-words
+ 2763 | primarily                      | 主要                             | sight-words
+ 2764 | plainly                        | 明顯地                            | sight-words
+ 2765 | swiftly                        | 迅速地                            | sight-words
+ 2766 | surprisingly                   | 令人驚訝地                          | sight-words
+ 2767 | ideally                        | 理想地                            | sight-words
+ 2768 | internet                       | 網路                             | technology
+ 2769 | website                        | 網站                             | technology
+ 2770 | browser                        | 瀏覽器                            | technology
+ 2771 | app                            | 應用程式                           | technology
+ 2772 | smartphone                     | 智慧手機                           | technology
+ 2773 | monitor                        | 螢幕                             | technology
+ 2774 | printer                        | 印表機                            | technology
+ 2775 | scanner                        | 掃描器                            | technology
+ 2776 | webcam                         | 網路攝影機                          | technology
+ 2777 | headset                        | 耳麥                             | technology
+ 2778 | router                         | 路由器                            | technology
+ 2779 | modem                          | 數據機                            | technology
+ 2780 | usb                            | 通用序列匯流排                        | technology
+ 2781 | storage                        | 儲存                             | technology
+ 2782 | network                        | 網路                             | technology
+ 2783 | hardware                       | 硬體                             | technology
+ 2784 | processor                      | 處理器                            | technology
+ 2785 | ai                             | 人工智慧                           | technology
+ 2786 | drone                          | 無人機                            | technology
+ 2787 | gadget                         | 小工具                            | technology
+ 2788 | device                         | 裝置                             | technology
+ 2789 | machine                        | 機器                             | technology
+ 2790 | technology                     | 科技                             | technology
+ 2791 | digital                        | 數位                             | technology
+ 2792 | virtual                        | 虛擬                             | technology
+ 2793 | online                         | 線上                             | technology
+ 2794 | offline                        | 離線                             | technology
+ 2795 | login                          | 登入                             | technology
+ 2796 | install                        | 安裝                             | technology
+ 2797 | wearable                       | 穿戴裝置                           | technology
+ 2798 | bought                         | 買了                             | sight-words
+ 2799 | paid                           | 付了                             | sight-words
+ 2800 | brought                        | 帶來了                            | sight-words
+ 2801 | caught                         | 接住了                            | sight-words
+ 2802 | taught                         | 教了                             | sight-words
+ 2803 | fought                         | 打架                             | sight-words
+ 2804 | sought                         | 尋求                             | sight-words
+ 2805 | meant                          | 意指                             | sight-words
+ 2806 | kept                           | 保留了                            | sight-words
+ 2807 | slept                          | 睡了                             | sight-words
+ 2808 | swept                          | 掃了                             | sight-words
+ 2809 | wept                           | 哭了                             | sight-words
+ 2810 | leapt                          | 跳了                             | sight-words
+ 2811 | felt                           | 感覺了                            | sight-words
+ 2812 | dealt                          | 處理了                            | sight-words
+ 2813 | knelt                          | 跪下                             | sight-words
+ 2814 | learnt                         | 學了                             | sight-words
+ 2815 | ran                            | 跑了                             | sight-words
+ 2816 | met                            | 見了                             | sight-words
+ 2817 | lent                           | 借出了                            | sight-words
+ 2818 | broke                          | 打破了                            | sight-words
+ 2819 | woke                           | 醒了                             | sight-words
+ 2820 | spoke                          | 說了                             | sight-words
+ 2821 | chose                          | 選了                             | sight-words
+ 2822 | drove                          | 開了車                            | sight-words
+ 2823 | rode                           | 騎了                             | sight-words
+ 2824 | wrote                          | 寫了                             | sight-words
+ 2825 | ate                            | 吃了                             | sight-words
+ 2826 | stood                          | 站了                             | sight-words
+ 2827 | swam                           | 游泳了                            | sight-words
+ 2828 | drank                          | 喝了                             | sight-words
+ 2829 | sang                           | 唱了                             | sight-words
+ 2830 | rang                           | 響了                             | sight-words
+ 2831 | swung                          | 擺動了                            | sight-words
+ 2832 | hung                           | 掛了                             | sight-words
+ 2833 | dug                            | 挖了                             | sight-words
+ 2834 | blew                           | 吹了                             | sight-words
+ 2835 | drew                           | 畫了                             | sight-words
+ 2836 | ground                         | 磨碎了                            | sight-words
+ 2837 | bound                          | 綁住了                            | sight-words
+ 2838 | bit                            | 咬了                             | sight-words
+ 2839 | lit                            | 點亮了                            | sight-words
+ 2840 | shook                          | 搖了                             | sight-words
+ 2841 | forgot                         | 忘了                             | sight-words
+ 2842 | became                         | 變成了                            | sight-words
+ 2843 | lost                           | 失去了                            | sight-words
+ 2844 | stuck                          | 卡住了                            | sight-words
+ 2845 | lay                            | 躺了                             | sight-words
+ 2846 | fled                           | 逃了                             | sight-words
+ 2847 | flung                          | 扔了                             | sight-words
+ 2848 | clung                          | 緊抓住                            | sight-words
+ 2849 | spun                           | 轉了                             | sight-words
+ 2850 | froze                          | 結凍了                            | sight-words
+ 2851 | tore                           | 撕開了                            | sight-words
+ 2852 | bore                           | 承受了                            | sight-words
+ 2853 | swore                          | 發誓了                            | sight-words
+ 2854 | wore                           | 穿了                             | sight-words
+ 2855 | snuck                          | 偷偷地                            | sight-words
+ 2856 | smelt                          | 聞了                             | sight-words
+ 2857 | dwelt                          | 居住過                            | sight-words
+ 2858 | get off                        | 下車離開                           | phrasal-verbs
+ 2859 | get in                         | 進入                             | phrasal-verbs
+ 2860 | get out                        | 出去                             | phrasal-verbs
+ 2861 | get over                       | 克服                             | phrasal-verbs
+ 2862 | get back                       | 回來                             | phrasal-verbs
+ 2863 | take in                        | 理解吸收                           | phrasal-verbs
+ 2864 | take out                       | 取出                             | phrasal-verbs
+ 2865 | take over                      | 接管                             | phrasal-verbs
+ 2866 | take away                      | 帶走                             | phrasal-verbs
+ 2867 | take up                        | 開始學                            | phrasal-verbs
+ 2868 | put off                        | 延後                             | phrasal-verbs
+ 2869 | put up                         | 舉起張貼                           | phrasal-verbs
+ 2870 | put away                       | 收起來                            | phrasal-verbs
+ 2871 | come up                        | 出現接近                           | phrasal-verbs
+ 2872 | come on                        | 加油                             | phrasal-verbs
+ 2873 | come over                      | 過來                             | phrasal-verbs
+ 2874 | come out                       | 出來                             | phrasal-verbs
+ 2875 | come down                      | 下來                             | phrasal-verbs
+ 2876 | go on                          | 繼續                             | phrasal-verbs
+ 2877 | go out                         | 出去                             | phrasal-verbs
+ 2878 | go off                         | 響起爆炸                           | phrasal-verbs
+ 2879 | go over                        | 複習                             | phrasal-verbs
+ 2880 | go through                     | 經歷                             | phrasal-verbs
+ 2881 | go back                        | 回去                             | phrasal-verbs
+ 2882 | look up                        | 查詢                             | phrasal-verbs
+ 2883 | look out                       | 小心                             | phrasal-verbs
+ 2884 | look after                     | 照顧                             | phrasal-verbs
+ 2885 | look into                      | 調查                             | phrasal-verbs
+ 2886 | pick out                       | 挑出                             | phrasal-verbs
+ 2887 | turn out                       | 結果是                            | phrasal-verbs
+ 2888 | turn over                      | 翻過                             | phrasal-verbs
+ 2889 | turn down                      | 拒絕調小                           | phrasal-verbs
+ 2890 | bring up                       | 提起養育                           | phrasal-verbs
+ 2891 | bring back                     | 帶回                             | phrasal-verbs
+ 2892 | bring in                       | 引入                             | phrasal-verbs
+ 2893 | fall down                      | 跌倒                             | phrasal-verbs
+ 2894 | fall apart                     | 瓦解                             | phrasal-verbs
+ 2895 | fall behind                    | 落後                             | phrasal-verbs
+ 2896 | run out                        | 用完                             | phrasal-verbs
+ 2897 | run away                       | 逃跑                             | phrasal-verbs
+ 2898 | run into                       | 偶遇                             | phrasal-verbs
+ 2899 | break down                     | 故障崩潰                           | phrasal-verbs
+ 2900 | break up                       | 分手                             | phrasal-verbs
+ 2901 | break out                      | 爆發                             | phrasal-verbs
+ 2902 | break in                       | 闖入                             | phrasal-verbs
+ 2903 | pass out                       | 昏倒                             | phrasal-verbs
+ 2904 | pass by                        | 經過                             | phrasal-verbs
+ 2905 | pass away                      | 去世                             | phrasal-verbs
+ 2906 | hold on                        | 等等                             | phrasal-verbs
+ 2907 | hold up                        | 舉起搶劫                           | phrasal-verbs
+ 2908 | hold back                      | 忍住                             | phrasal-verbs
+ 2909 | figure out                     | 想通                             | phrasal-verbs
+ 2910 | work out                       | 想出健身                           | phrasal-verbs
+ 2911 | point out                      | 指出                             | phrasal-verbs
+ 2912 | set up                         | 設置                             | phrasal-verbs
+ 2913 | set off                        | 出發引爆                           | phrasal-verbs
+ 2914 | show up                        | 出現                             | phrasal-verbs
+ 2915 | show off                       | 炫耀                             | phrasal-verbs
+ 2916 | stand out                      | 突出                             | phrasal-verbs
+ 2917 | carry on                       | 繼續                             | phrasal-verbs
+ 2918 | conversely                     | 相反地                            | connectors
+ 2919 | comparatively                  | 相對地                            | connectors
+ 2920 | correspondingly                | 相應地                            | connectors
+ 2921 | equally                        | 同樣地                            | connectors
+ 2922 | firstly                        | 首先                             | connectors
+ 2923 | secondly                       | 其次                             | connectors
+ 2924 | thirdly                        | 第三                             | connectors
+ 2925 | lastly                         | 最後                             | connectors
+ 2926 | notably                        | 值得注意地                          | connectors
+ 2927 | importantly                    | 重要的是                           | connectors
+ 2928 | significantly                  | 顯著地                            | connectors
+ 2929 | chiefly                        | 主要地                            | connectors
+ 2930 | notwithstanding                | 儘管                             | connectors
+ 2931 | albeit                         | 雖然                             | connectors
+ 2932 | granted                        | 當然                             | connectors
+ 2933 | subsequently                   | 隨後                             | connectors
+ 2934 | formerly                       | 以前                             | connectors
+ 2935 | initially                      | 最初                             | connectors
+ 2936 | originally                     | 原本                             | connectors
+ 2937 | thereafter                     | 此後                             | connectors
+ 2938 | hitherto                       | 迄今                             | connectors
+ 2939 | henceforward                   | 從此                             | connectors
+ 2940 | thereupon                      | 於是                             | connectors
+ 2941 | hereupon                       | 於此                             | connectors
+ 2942 | whereupon                      | 於是                             | connectors
+ 2943 | inasmuch                       | 由於                             | connectors
+ 2944 | whence                         | 從何處                            | connectors
+ 2945 | whereof                        | 關於                             | connectors
+ 2946 | provided                       | 假如                             | connectors
+ 2947 | supposing                      | 假設                             | connectors
+ 2948 | simultaneously                 | 同時                             | connectors
+ 2949 | concurrently                   | 同時                             | connectors
+ 2950 | arguably                       | 可說                             | connectors
+ 2951 | seemingly                      | 看似                             | connectors
+ 2952 | noteworthy                     | 值得注意                           | connectors
+ 2953 | beforehand                     | 事先                             | connectors
+ 2954 | afterwards                     | 之後                             | connectors
+ 2955 | ironically                     | 諷刺地                            | connectors
+ 2956 | curiously                      | 奇怪地                            | connectors
+ 2957 | paradoxically                  | 矛盾地                            | connectors
+ 2958 | ceo                            | 執行長                            | jobs-advanced
+ 2959 | cfo                            | 財務長                            | jobs-advanced
+ 2960 | executive                      | 主管                             | jobs-advanced
+ 2961 | entrepreneur                   | 創業家                            | jobs-advanced
+ 2962 | founder                        | 創辦人                            | jobs-advanced
+ 2963 | investor                       | 投資人                            | jobs-advanced
+ 2964 | freelancer                     | 自由工作者                          | jobs-advanced
+ 2965 | contractor                     | 承包商                            | jobs-advanced
+ 2966 | consultant                     | 顧問                             | jobs-advanced
+ 2967 | advisor                        | 顧問                             | jobs-advanced
+ 2968 | analyst                        | 分析師                            | jobs-advanced
+ 2969 | strategist                     | 策略師                            | jobs-advanced
+ 2970 | architect                      | 建築師                            | jobs-advanced
+ 2971 | surveyor                       | 測量員                            | jobs-advanced
+ 2972 | biologist                      | 生物學家                           | jobs-advanced
+ 2973 | chemist                        | 化學家                            | jobs-advanced
+ 2974 | physicist                      | 物理學家                           | jobs-advanced
+ 2975 | geologist                      | 地質學家                           | jobs-advanced
+ 2976 | astronomer                     | 天文學家                           | jobs-advanced
+ 2977 | mathematician                  | 數學家                            | jobs-advanced
+ 2978 | sociologist                    | 社會學家                           | jobs-advanced
+ 2979 | psychologist                   | 心理學家                           | jobs-advanced
+ 2980 | anthropologist                 | 人類學家                           | jobs-advanced
+ 2981 | archaeologist                  | 考古學家                           | jobs-advanced
+ 2982 | economist                      | 經濟學家                           | jobs-advanced
+ 2983 | statistician                   | 統計學家                           | jobs-advanced
+ 2984 | philosopher                    | 哲學家                            | jobs-advanced
+ 2985 | historian                      | 歷史學家                           | jobs-advanced
+ 2986 | surgeon                        | 外科醫生                           | jobs-advanced
+ 2987 | physician                      | 內科醫生                           | jobs-advanced
+ 2988 | pediatrician                   | 小兒科醫生                          | jobs-advanced
+ 2989 | cardiologist                   | 心臟科醫生                          | jobs-advanced
+ 2990 | dermatologist                  | 皮膚科醫生                          | jobs-advanced
+ 2991 | psychiatrist                   | 精神科醫生                          | jobs-advanced
+ 2992 | optometrist                    | 驗光師                            | jobs-advanced
+ 2993 | radiologist                    | 放射科醫生                          | jobs-advanced
+ 2994 | oncologist                     | 腫瘤科醫生                          | jobs-advanced
+ 2995 | gynecologist                   | 婦科醫生                           | jobs-advanced
+ 2996 | neurologist                    | 神經科醫生                          | jobs-advanced
+ 2997 | veterinarian                   | 獸醫                             | jobs-advanced
+ 2998 | paramedic                      | 急救員                            | jobs-advanced
+ 2999 | midwife                        | 助產士                            | jobs-advanced
