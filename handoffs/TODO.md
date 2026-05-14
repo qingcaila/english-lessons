@@ -109,28 +109,35 @@
 
 ## 主對話新加的待辦(2026-05-13 主對話貢獻)
 
-### 內容擴充(系統已建,但示範字太少)
+### 內容擴充(2026-05-15 完成 ✓ 部分)
 
-- [ ] **家族線 — 不規則動詞**:目前 5 字示範(went / saw / said / took / eaten),**目標 100+ 高頻動詞家族**
-  - 補:knew / made / came / did / gave / brought / bought / taught / felt / kept / told / found / sold / left / lost / put / cut / hit / read / let / set / met / sat / spent / sent / spoke / stood / understood / wrote / drove / chose / froze / wore / tore / threw / blew / grew / drew / flew / knew...
-  - 每筆要有 `base` + `family-note`(白話 + 文法名詞)
+- [x] **家族線 — 不規則動詞**:~~5 字示範~~ → **150+ 字**(過去式 + 過去分詞)✓ 2026-05-15
+- [x] **家族線 — 拼字變化**:~~5 字示範~~ → **100+ 字**(-ing/-ed/-ies/-er/-est)✓ 2026-05-15
+- [x] **家族線 — 衍生字**:teacher/farmer/programmer/streamer 等 ~80 字 ✓ 2026-05-15
+- [x] **家族線 — 副詞/形容詞**:slowly/quickly/healthy/musical 等 ~280 字 ✓ 2026-05-15
+- [x] **同音異字 / 同字異義**:77 字 (there/their/they're, to/too/two, lose/loose 等)✓ 2026-05-15
+- [x] **phrasal-verbs**:**311 字**(對話 3 完成)
+- [x] **connectors**:48 字(基本達標 30-50)
 
-- [ ] **家族線 — 拼字變化**:目前 5 字示範(running / studied / babies / bigger / walked),**目標 100+**
-  - 補:-ing 動詞(swimming / hopping / shopping / planning...)
-  - -ed 過去式(played / wanted / watched / cleaned...)
-  - 複數 -ies(cities / parties / stories...)
-  - 比較級 -er / 最高級 -est(smaller / smallest / nicer / nicest...)
+### 內容擴充(2026-05-15 結束狀態)
 
-- [ ] **同音異字 / 同字異義**:從未開始
-  - 高頻陷阱:there/their/they're, to/too/two, your/you're, its/it's, then/than, lose/loose
-  - 在卡片加「⚠️ 易混提示」一行,連到同音字
+家族線總計 **1,241 字 / 10,101 = 12.3% 覆蓋率**。剩 446 個候選大多是真假陽性
+(mother≠moth+er, summer≠sum+mer),自動標會錯,留著不處理。
 
-- [ ] **phrasal-verbs 擴充**:目前 ~15(主對話加的)
-  - 對話 3 的 B6 批次本來規劃要做,**進度未知**
-  - 目標 100+(look up/after/for, get on/off/in/out, bring up/back...)
+### 資料品質審查(2026-05-15 完成 ✓)
 
-- [ ] **connectors 擴充**:目前 ~15(主對話加的)
-  - 目標 30-50(however/therefore/although/regardless/likewise/conversely/specifically/eventually/clearly...)
+- [x] `full_audit.py` 8 項格式檢查 → 0 異常
+- [x] `audit_translations.py` 11 項翻譯品質檢查 → 0 真錯誤
+- [x] AI 全字翻譯審查(7 個平行 agent)→ 修 458 字
+- [x] 主題標錯修正 → 49 字
+- [x] 數字主題視覺修正 → 46 字改純文字
+
+### 真錯誤修正紀錄(2026-05-15)
+
+13 個真翻錯改掉:niagara(尼加拉瀑布)/ mankind(人類)/ chili(辣椒)/
+orphanage(孤兒院)/ oyster(牡蠣)/ snarl(咆哮)/ spade(鏟子)/ 
+likelihood(可能性)/ unity(統一)/ withstand(承受)/ heavenly(天堂的)/
+sincerity(真誠)/ privacy(隱私)
 
 ### 已完成 ✓(對話 3 + 主對話貢獻)
 
