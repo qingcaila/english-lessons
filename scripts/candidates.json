@@ -25,7 +25,7 @@
     "stem": "the",
     "suf": "y",
     "mean": "他們",
-    "stem_mean": "那個"
+    "stem_mean": "這個、那個(定冠詞)"
   },
   {
     "word": "shower",
@@ -221,14 +221,14 @@
     "stem": "sweat",
     "suf": "er",
     "mean": "毛衣",
-    "stem_mean": "汗，汗水出汗"
+    "stem_mean": "汗水、出汗"
   },
   {
     "word": "shorts",
     "stem": "short",
     "suf": "s",
     "mean": "短褲",
-    "stem_mean": "短矮"
+    "stem_mean": "短、矮"
   },
   {
     "word": "boots",
@@ -326,7 +326,7 @@
     "stem": "may",
     "suf": "or",
     "mean": "市長",
-    "stem_mean": "可能"
+    "stem_mean": "可以、可能、五月"
   },
   {
     "word": "tailor",
@@ -346,7 +346,7 @@
     "word": "goal",
     "stem": "go",
     "suf": "al",
-    "mean": "進球目標",
+    "mean": "進球、目標",
     "stem_mean": "去"
   },
   {
@@ -403,7 +403,7 @@
     "stem": "the",
     "suf": "ing",
     "mean": "東西",
-    "stem_mean": "那個"
+    "stem_mean": "這個、那個(定冠詞)"
   },
   {
     "word": "city",
@@ -445,7 +445,7 @@
     "stem": "tin",
     "suf": "y",
     "mean": "極小",
-    "stem_mean": "錫"
+    "stem_mean": "錫、罐"
   },
   {
     "word": "lady",
@@ -584,7 +584,7 @@
     "word": "curved",
     "stem": "curve",
     "suf": "ed",
-    "mean": "彎曲",
+    "mean": "彎曲的",
     "stem_mean": "曲線"
   },
   {
@@ -661,14 +661,14 @@
     "word": "savory",
     "stem": "savor",
     "suf": "y",
-    "mean": "鹹香",
+    "mean": "鹹的、鹹香",
     "stem_mean": "品味"
   },
   {
     "word": "bitter",
     "stem": "bit",
     "suf": "er",
-    "mean": "苦",
+    "mean": "苦的",
     "stem_mean": "咬了"
   },
   {
@@ -795,7 +795,7 @@
     "stem": "former",
     "suf": "ly",
     "mean": "以前",
-    "stem_mean": "前任"
+    "stem_mean": "前者、以前的"
   },
   {
     "word": "initially",
@@ -892,7 +892,7 @@
     "word": "homely",
     "stem": "home",
     "suf": "ly",
-    "mean": "樸實",
+    "mean": "相貌平凡的(美式)",
     "stem_mean": "家"
   },
   {
@@ -907,7 +907,7 @@
     "stem": "mustache",
     "suf": "ed",
     "mean": "留小鬍子",
-    "stem_mean": "鬍子"
+    "stem_mean": "鬍鬚(上唇)、八字鬍"
   },
   {
     "word": "tanned",
@@ -970,7 +970,7 @@
     "stem": "polish",
     "suf": "ed",
     "mean": "精緻",
-    "stem_mean": "磨光，擦亮磨光粉"
+    "stem_mean": "磨光、擦亮、亮光劑"
   },
   {
     "word": "refined",
@@ -1123,7 +1123,7 @@
     "word": "plates",
     "stem": "plate",
     "suf": "s",
-    "mean": "槓片",
+    "mean": "槓片、盤子",
     "stem_mean": "盤子"
   },
   {
@@ -1172,8 +1172,8 @@
     "word": "briefing",
     "stem": "brief",
     "suf": "ing",
-    "mean": "簡報會",
-    "stem_mean": "簡報"
+    "mean": "簡報、簡短說明會",
+    "stem_mean": "摘要、簡短報告"
   },
   {
     "word": "hours",
@@ -1277,8 +1277,8 @@
     "word": "threads",
     "stem": "thread",
     "suf": "s",
-    "mean": "Threads",
-    "stem_mean": "線"
+    "mean": "Threads 社群",
+    "stem_mean": "縫線、線"
   },
   {
     "word": "trending",
@@ -1417,7 +1417,7 @@
     "word": "wounded",
     "stem": "wound",
     "suf": "ed",
-    "mean": "受傷",
+    "mean": "受傷的、傷者",
     "stem_mean": "傷口"
   },
   {
@@ -1452,7 +1452,7 @@
     "word": "fatal",
     "stem": "fat",
     "suf": "al",
-    "mean": "致命",
+    "mean": "致命的",
     "stem_mean": "胖"
   },
   {
@@ -1529,7 +1529,7 @@
     "word": "legal",
     "stem": "leg",
     "suf": "al",
-    "mean": "合法",
+    "mean": "合法的、法律的",
     "stem_mean": "腿"
   },
   {
@@ -1620,7 +1620,7 @@
     "word": "holy",
     "stem": "hoe",
     "suf": "ly",
-    "mean": "神聖",
+    "mean": "神聖的",
     "stem_mean": "鋤頭"
   },
   {
@@ -1838,7 +1838,7 @@
     "stem": "mess",
     "suf": "y",
     "mean": "凌亂的",
-    "stem_mean": "混亂弄亂"
+    "stem_mean": "混亂、弄亂"
   },
   {
     "word": "ponder",
@@ -1872,7 +1872,7 @@
     "word": "aunty",
     "stem": "aunt",
     "suf": "y",
-    "mean": "伯母",
+    "mean": "阿姨",
     "stem_mean": "阿姨"
   },
   {
@@ -1914,7 +1914,7 @@
     "word": "letter",
     "stem": "let",
     "suf": "er",
-    "mean": "信件字母",
+    "mean": "信件、字母",
     "stem_mean": "讓"
   },
   {
@@ -2012,7 +2012,7 @@
     "word": "dial",
     "stem": "die",
     "suf": "al",
-    "mean": "刻度盤調頻",
+    "mean": "刻度盤、撥號",
     "stem_mean": "死"
   },
   {
@@ -2062,7 +2062,7 @@
     "stem": "rep",
     "suf": "ly",
     "mean": "答覆",
-    "stem_mean": "反覆次數"
+    "stem_mean": "一下(健身次數)"
   },
   {
     "word": "skilled",
@@ -2139,7 +2139,7 @@
     "stem": "fair",
     "suf": "y",
     "mean": "小妖精",
-    "stem_mean": "白皙"
+    "stem_mean": "公平、(膚色)白皙"
   },
   {
     "word": "handy",
@@ -2202,7 +2202,7 @@
     "stem": "might",
     "suf": "y",
     "mean": "強大的",
-    "stem_mean": "可能"
+    "stem_mean": "可能(較弱)"
   },
   {
     "word": "misery",
@@ -2237,7 +2237,7 @@
     "stem": "out",
     "suf": "er",
     "mean": "外面的，外表的",
-    "stem_mean": "出在外"
+    "stem_mean": "出、在外"
   },
   {
     "word": "penny",
@@ -2251,7 +2251,7 @@
     "stem": "prop",
     "suf": "er",
     "mean": "適合的，適當的",
-    "stem_mean": "支柱支撐道具"
+    "stem_mean": "支柱、支撐、道具"
   },
   {
     "word": "scary",
@@ -2265,20 +2265,20 @@
     "stem": "shade",
     "suf": "y",
     "mean": "多蔭的",
-    "stem_mean": "色調"
+    "stem_mean": "色調、陰影"
   },
   {
     "word": "tricky",
     "stem": "trick",
     "suf": "y",
     "mean": "狡猾的",
-    "stem_mean": "詭計哄騙"
+    "stem_mean": "詭計、哄騙"
   },
   {
     "word": "unity",
     "stem": "unit",
     "suf": "y",
-    "mean": "單一",
+    "mean": "統一、團結",
     "stem_mean": "單位"
   },
   {
@@ -2426,14 +2426,14 @@
     "stem": "base",
     "suf": "s",
     "mean": "低音樂器",
-    "stem_mean": "基底"
+    "stem_mean": "基礎、基地"
   },
   {
     "word": "bully",
     "stem": "bull",
     "suf": "y",
     "mean": "霸凌",
-    "stem_mean": "多頭"
+    "stem_mean": "多頭、公牛"
   },
   {
     "word": "canal",
@@ -2461,7 +2461,7 @@
     "stem": "crack",
     "suf": "er",
     "mean": "脆餅",
-    "stem_mean": "爆裂，破裂裂縫"
+    "stem_mean": "爆裂、裂縫"
   },
   {
     "word": "crossing",
@@ -2510,13 +2510,13 @@
     "stem": "hard",
     "suf": "y",
     "mean": "吃苦耐勞的",
-    "stem_mean": "困難硬"
+    "stem_mean": "困難、硬"
   },
   {
     "word": "heavenly",
     "stem": "heaven",
     "suf": "ly",
-    "mean": "天空的",
+    "mean": "天堂的、極好的",
     "stem_mean": "天堂"
   },
   {
@@ -2530,7 +2530,7 @@
     "word": "hiss",
     "stem": "his",
     "suf": "s",
-    "mean": "發出嘶嘶聲嘶嘶聲",
+    "mean": "發出嘶嘶聲、嘶嘶聲",
     "stem_mean": "他的"
   },
   {
@@ -2572,7 +2572,7 @@
     "word": "odor",
     "stem": "ode",
     "suf": "or",
-    "mean": "香味",
+    "mean": "氣味(常為臭味)",
     "stem_mean": "頌歌"
   },
   {
@@ -2762,7 +2762,7 @@
     "stem": "flick",
     "suf": "er",
     "mean": "閃爍",
-    "stem_mean": "輕打聲輕彈"
+    "stem_mean": "輕彈、輕擊聲"
   },
   {
     "word": "imposing",
@@ -2832,7 +2832,7 @@
     "stem": "master",
     "suf": "y",
     "mean": "支配",
-    "stem_mean": "主人精通"
+    "stem_mean": "主人、精通"
   },
   {
     "word": "miller",
@@ -2867,7 +2867,7 @@
     "stem": "out",
     "suf": "ing",
     "mean": "郊遊",
-    "stem_mean": "出在外"
+    "stem_mean": "出、在外"
   },
   {
     "word": "poacher",
@@ -2933,6 +2933,13 @@
     "stem_mean": "令狀"
   },
   {
+    "word": "excitement",
+    "stem": "excite",
+    "suf": "ment",
+    "mean": "興奮",
+    "stem_mean": "使興奮"
+  },
+  {
     "word": "fisher",
     "stem": "fish",
     "suf": "er",
@@ -2943,7 +2950,7 @@
     "word": "rider",
     "stem": "rid",
     "suf": "er",
-    "mean": "騎士",
+    "mean": "騎乘者",
     "stem_mean": "使免除"
   },
   {
@@ -3071,6 +3078,13 @@
     "suf": "ing",
     "mean": "驚人的",
     "stem_mean": "震驚"
+  },
+  {
+    "word": "tearful",
+    "stem": "tear",
+    "suf": "ful",
+    "mean": "含淚的",
+    "stem_mean": "撕(tear,ㄊㄝㄜ)、眼淚(tear,ㄊㄧㄜ)"
   },
   {
     "word": "clamor",
