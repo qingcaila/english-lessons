@@ -132,6 +132,27 @@
 - [x] 主題標錯修正 → 49 字
 - [x] 數字主題視覺修正 → 46 字改純文字
 
+### 2026-05-15 下午+晚上補的(全字 AI 審查)
+
+- [x] 建立 vocab-audit skill(`.claude/skills/vocab-audit/`)+ 進度追蹤 history.json
+- [x] L2-emoji-fit AI 全字 → 修 418 字
+- [x] L2-modernization 中國用語 → 修 20 字
+- [x] L2-pos-consistency 詞性 → 修 196 字
+- [x] L2-stage-fit 分級 → 修 260 字
+- [x] L2-family-note-consistency 家族邏輯 → 修 167 字(刪 48 個假家族線)
+- [x] **L2-family-potential AI 全字**(非規則比對)→ 新增 404 個家族線
+- [x] **L2-homophone-potential AI 全字**(非規則比對)→ 新增 157 個易混提示
+
+**今日結束最終覆蓋率**:
+- 家族線:10 → **1,625**(16.1%)
+- 易混提示:0 → **365**(常見高頻陷阱基本全覆蓋)
+
+### 留待之後低 ROI 不做
+
+- [ ] L2-chunks-phonics(AI 不擅長 phonics 判斷)
+- [ ] L2-pinyin(AI 不擅長注音判斷)
+- [ ] L2-tip-coverage(vocab 沒對應 `tip` 欄位)
+
 ### 真錯誤修正紀錄(2026-05-15)
 
 13 個真翻錯改掉:niagara(尼加拉瀑布)/ mankind(人類)/ chili(辣椒)/
