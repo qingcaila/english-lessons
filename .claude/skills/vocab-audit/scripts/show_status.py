@@ -18,13 +18,13 @@ ALL_CHECKS = [
     ('L2-homophone-potential',       '找漏網同音/易混字',         '分鐘',  True),
     ('L2-emoji-fit',                 'emoji 配字義',             '分鐘',  True),
     ('L2-theme-fit',                 '主題分類合理性',           '分鐘',  True),
-    ('L2-chunks-phonics',            'chunks 拆法符合 phonics',  '分鐘',  False),
-    ('L2-pinyin',                    '注音準度',                 '分鐘',  False),
-    ('L2-stage-fit',                 'stage 分級合理性',         '分鐘',  False),
-    ('L2-pos-consistency',           '詞性一致(形容詞「的」)',  '分鐘',  False),
-    ('L2-family-note-consistency',   'family-note 跟 mean/base 一致','分鐘',  False),
-    ('L2-modernization',             '中國用語 / 過時詞',        '分鐘',  False),
-    ('L2-tip-coverage',              '不規則字漏標 💡',          '分鐘',  False),
+    ('L2-chunks-phonics',            'chunks 拆法符合 phonics',  '分鐘',  True),
+    ('L2-pinyin',                    '注音準度',                 '分鐘',  True),
+    ('L2-stage-fit',                 'stage 分級合理性',         '分鐘',  True),
+    ('L2-pos-consistency',           '詞性一致(形容詞「的」)',  '分鐘',  True),
+    ('L2-family-note-consistency',   'family-note 跟 mean/base 一致','分鐘',  True),
+    ('L2-modernization',             '中國用語 / 過時詞',        '分鐘',  True),
+    ('L2-tip-coverage',              '不規則字漏標 💡',          '分鐘',  True),
 ]
 
 # 讀當前 hash + history

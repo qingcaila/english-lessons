@@ -1,5 +1,5 @@
 {
-  "vocab_hash_current": "fcea8b29f616fb984f1b0cdaee04d91db64f3b4ed890d2b53a05aaf21a570754",
+  "vocab_hash_current": "18f59e762a4838240f9a22f4c60ef3997b1c65b5e97ce45a9d85d27e70eb3584",
   "checks": {
     "L1-all": {
       "last_run": "2026-05-15T11:17:20",
@@ -26,13 +26,12 @@
       "report": "(skill 建立前,記錄於 git commit 1044b00)"
     },
     "L2-family-potential": {
-      "last_run": "2026-05-15T10:55:00",
-      "vocab_hash": "7e8158e9c1944449a54422848fbdb09d810bf4ec655724e0763a3024a1261d34",
+      "last_run": "2026-05-15T17:55:33",
+      "vocab_hash": "18f59e762a4838240f9a22f4c60ef3997b1c65b5e97ce45a9d85d27e70eb3584",
       "vocab_count": 10101,
-      "issues_found": 27,
-      "fixes_applied": 27,
-      "method": "已知清單比對(非 AI 全字),未來該用 AI 全字重跑找冷僻漏網",
-      "report": "(skill 建立前,記錄於 git commit 4918460)"
+      "issues_found": 650,
+      "fixes_applied": 404,
+      "agent_count": 7
     },
     "L2-homophone-potential": {
       "last_run": "2026-05-15T11:00:00",
