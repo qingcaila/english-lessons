@@ -143,6 +143,31 @@
 
   .stat-row { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; }
   .stat-row b { color: var(--accent); }
+
+  /* dim 三條進度條(💡 意思 / 🗣️ 發音 / 🌗 整體) */
+  .dim-progress { margin-top: 10px; display: flex; flex-direction: column; gap: 4px; }
+  .dim-progress .line { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+  .dim-progress .label { width: 78px; color: var(--muted); flex-shrink: 0; }
+  .dim-progress .bar { flex: 1; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .dim-progress .bar > div { height: 100%; transition: width .3s; }
+  .dim-progress .bar > div.meaning   { background: #c4633f; }
+  .dim-progress .bar > div.pronounce { background: #6a8caf; }
+  .dim-progress .bar > div.both      { background: #888; }
+  .dim-progress .num { width: 70px; text-align: right; color: var(--muted); font-size: 10px; flex-shrink: 0; }
+
+  /* dim 選擇按鈕組(這輪在練哪個面向) */
+  .dim-select { margin-top: 10px; }
+  .dim-select .title { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+  .dim-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+  .dim-btn {
+    padding: 8px 6px; background: #fff; border: 1px solid var(--border);
+    border-radius: 6px; cursor: pointer; text-align: center;
+    font-family: inherit; font-size: 12px; transition: background .15s;
+  }
+  .dim-btn:hover { background: var(--accent-soft); }
+  .dim-btn.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .dim-btn .di { font-size: 16px; display: block; line-height: 1.1; }
+  .dim-btn .dn { font-size: 11px; margin-top: 2px; }
 </style>
 </head>
 <body>
@@ -177,10 +202,9 @@
     <div class="progress"><div id="stageProgress" style="width:0%"></div></div>
     <div class="stat-row" style="margin-top:10px;">
       <span>已學:<b id="totalLearned">0</b></span>
-      <span>L4:<b id="l4Count">0</b></span>
-      <span>L4 比例:<b id="l4Ratio">0%</b></span>
       <span>該複習:<b id="dueCount">0</b></span>
     </div>
+    <div class="dim-progress" id="dimProgress"></div>
     <div style="display:flex;gap:6px;margin-top:10px;" id="quickActions"></div>
   </div>
 
@@ -246,6 +270,15 @@
       <label>
         <input type="checkbox" id="rememberMode" checked> 記住模式
       </label>
+    </div>
+
+    <div class="dim-select">
+      <div class="title">✨ 這輪在練哪個面向 <span style="color:var(--muted);">(會記住設定)</span></div>
+      <div class="dim-row">
+        <button class="dim-btn" data-dim="meaning"><span class="di">💡</span><span class="dn">意思</span></button>
+        <button class="dim-btn" data-dim="pronounce"><span class="di">🗣️</span><span class="dn">發音</span></button>
+        <button class="dim-btn on" data-dim="both"><span class="di">🌗</span><span class="dn">兩者</span></button>
+      </div>
     </div>
 
     <button class="go" id="goBtn" disabled>請選擇模式 ↑</button>
@@ -334,6 +367,7 @@ const STAGE_VOCAB_TARGET = [
 let VOCAB = null, THEMES = null;
 let selectedMode = null;
 let selectedTheme = null;
+let selectedDim = "both";  // 預設 🌗 兩者(會被 renderModes 從 settings 還原)
 
 async function loadAll() {
   // ★ Step 1:先 render 不依賴 vocab/themes 的部分(localStorage 瞬間可讀)
@@ -409,9 +443,6 @@ function renderStage() {
   const dueRound = SRS.getCurrentRound();
   const due = SRS.dueForReview(dueRound);
   document.getElementById("totalLearned").textContent = total;
-  document.getElementById("l4Count").textContent = l4;
-  document.getElementById("l4Ratio").textContent =
-    total === 0 ? "0%" : Math.round(SRS.l4Ratio() * 100) + "%";
   document.getElementById("dueCount").textContent = due.length;
   document.getElementById("stageMeta").textContent =
     `字量目標 ${min}-${max}(L4 計) · 本輪起 ${dueRound}`;
@@ -419,11 +450,34 @@ function renderStage() {
   document.getElementById("stageProgress").style.width = progress + "%";
   document.getElementById("stageLabel").textContent = `Stage ${stage}`;
 
+  // 三維 L4 進度條(💡 意思 / 🗣️ 發音 / 🌗 整體)
+  const dims = [
+    { key: "meaning",   icon: "💡", name: "意思 L4" },
+    { key: "pronounce", icon: "🗣️", name: "發音 L4" },
+    { key: "both",      icon: "🌗", name: "整體 L4" },
+  ];
+  const dimDue = {
+    meaning:   SRS.dueForReview(dueRound, "meaning").length,
+    pronounce: SRS.dueForReview(dueRound, "pronounce").length,
+    both:      due.length,
+  };
+  document.getElementById("dimProgress").innerHTML = dims.map(d => {
+    const n = SRS.l4Count(d.key);
+    const pct = Math.min(100, Math.round(n / min * 100));
+    return `
+      <div class="line">
+        <span class="label">${d.icon} ${d.name}</span>
+        <span class="bar"><div class="${d.key}" style="width:${pct}%"></div></span>
+        <span class="num">${n} / ${min}${dimDue[d.key] > 0 ? ` · 🔁${dimDue[d.key]}` : ''}</span>
+      </div>
+    `;
+  }).join("");
+
   // 快捷:該複習 → 純複習課 / 考自己
   const qa = document.getElementById("quickActions");
   if (due.length > 0) {
     qa.innerHTML = `
-      <a href="lesson.html?mode=review&count=${Math.min(due.length, 10)}&ratio=0"
+      <a href="lesson.html?mode=review&count=${Math.min(due.length, 10)}&ratio=0&dim=${SRS.getSettings().dim || 'both'}"
          style="flex:1;padding:8px 10px;background:var(--accent);color:#fff;text-decoration:none;
                 border-radius:6px;text-align:center;font-size:13px;font-weight:600;">
         📚 直接複習 (${due.length})
@@ -474,6 +528,20 @@ function renderModes() {
     if (btn.dataset.mode === last && s.rememberLastMode !== false) {
       selectMode(last);
     }
+  });
+  // dim 按鈕綁定 + 從 settings 還原(預設 both)
+  const savedDim = s.dim || "both";
+  selectDim(savedDim);
+  document.querySelectorAll(".dim-btn").forEach(btn => {
+    btn.onclick = () => selectDim(btn.dataset.dim);
+  });
+}
+function selectDim(d) {
+  if (!["meaning","pronounce","both"].includes(d)) d = "both";
+  selectedDim = d;
+  SRS.setSetting("dim", d);
+  document.querySelectorAll(".dim-btn").forEach(b => {
+    b.classList.toggle("on", b.dataset.dim === d);
   });
 }
 function selectMode(mode) {
@@ -705,7 +773,7 @@ document.getElementById("goBtn").onclick = () => {
   }
   const count = parseInt(document.getElementById("wordCount").value, 10);
   const ratio = parseFloat(document.getElementById("ratio").value);
-  let url = `lesson.html?mode=${selectedMode}&count=${count}&ratio=${ratio}`;
+  let url = `lesson.html?mode=${selectedMode}&count=${count}&ratio=${ratio}&dim=${selectedDim}`;
   if (selectedMode === "theme" && selectedTheme) url += `&theme=${selectedTheme}`;
   if (SRS.getSettings().stageExclusive === true) url += `&stagePool=exclusive`;
   location.href = url;

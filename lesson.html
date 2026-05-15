@@ -59,6 +59,12 @@
   .lesson-info .chip {
     background: #fdf8f3; padding: 1px 6px; border-radius: 3px;
   }
+  .dim-chip {
+    font-size: 10.5px; font-family: inherit;
+    background: var(--accent-soft); color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 3px;
+    padding: 1px 4px; cursor: pointer; font-weight: 600;
+  }
 
   .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; color: var(--muted); }
 
@@ -273,6 +279,14 @@ const wordCount = parseInt(params.get("count") || "10", 10);
 const ratio = parseFloat(params.get("ratio") || "0.3");      // 新字比例
 const themeFilter = params.get("theme");
 const stagePool = params.get("stagePool") || "cumulative"; // "cumulative" | "exclusive"
+// dim:練習面向。URL 優先,沒給就讀 settings.dim,預設 "both"
+let dim = params.get("dim") || (SRS.getSettings().dim || "both");
+if (!["both","meaning","pronounce"].includes(dim)) dim = "both";
+const DIM_META = {
+  both:      { icon: "🌗", label: "兩者" },
+  meaning:   { icon: "💡", label: "意思" },
+  pronounce: { icon: "🗣️", label: "發音" },
+};
 
 // ── 語音 ──────────────────────────────────────────────────
 let chosenVoice = null;
@@ -307,7 +321,7 @@ function pickWords({ vocab, themes }) {
   currentRound = SRS.getCurrentRound();
 
   // 1) 抓該複習的(due)
-  const due = SRS.dueForReview(currentRound);
+  const due = SRS.dueForReview(currentRound, dim);
   const dueIds = due.map(w => w.word);
   const learnedIds = new Set(Object.keys(state.words));
 
@@ -425,15 +439,16 @@ function refreshMarkButtons(n) {
   const state = SRS.loadState();
   const ws = state.words[w.word];
   if (!ws) return;
+  const d = (dim === "both") ? ws : (ws[dim] || null);
   const tr = document.getElementById("row-" + n);
   if (!tr) return;
   const knowBtn = tr.querySelector(".btn-know");
   const forgotBtn = tr.querySelector(".btn-forgot");
-  if (ws.lastMark === "know") {
-    knowBtn.classList.add("on"); forgotBtn.classList.remove("on");
-  } else if (ws.lastMark === "forgot") {
-    forgotBtn.classList.add("on"); knowBtn.classList.remove("on");
-  }
+  knowBtn.classList.remove("on");
+  forgotBtn.classList.remove("on");
+  const lm = d?.lastMark;
+  if (lm === "know") knowBtn.classList.add("on");
+  else if (lm === "forgot") forgotBtn.classList.add("on");
 }
 
 function updateLessonInfo() {
@@ -441,12 +456,16 @@ function updateLessonInfo() {
   const newN = WORDS.length - reviewN;
   const markedN = WORDS.filter(w => w._marked).length;
   const pct = WORDS.length === 0 ? 0 : Math.round(markedN / WORDS.length * 100);
+  const dimOpts = ["meaning","pronounce","both"].map(d =>
+    `<option value="${d}"${d===dim?" selected":""}>${DIM_META[d].icon} ${DIM_META[d].label}</option>`
+  ).join("");
   document.getElementById("lessonInfo").innerHTML = `
     <div style="display:flex;justify-content:space-between;align-items:center;font-size:11px;gap:6px;flex-wrap:wrap;line-height:1.4;">
       <div style="display:flex;gap:6px;align-items:center;color:var(--muted);">
         <span><b style="color:var(--ink);">${currentRound}</b> · ${mode}</span>
         <span>🆕${newN}</span>
         ${reviewN > 0 ? `<span>🔁${reviewN}</span>` : ''}
+        <select class="dim-chip" onchange="switchDim(this.value)" title="這輪在練哪個面向">${dimOpts}</select>
       </div>
       <div style="color:var(--accent);font-weight:600;">${markedN}/${WORDS.length} (${pct}%)</div>
     </div>
@@ -556,7 +575,7 @@ function markKnow(n) {
   const state = SRS.loadState();
   SRS.ensureWordState(state, w.word, w);
   SRS.saveState(state);
-  SRS.knewIt(w.word, currentRound);
+  SRS.knewIt(w.word, currentRound, undefined, dim);
   const tr = document.getElementById("row-" + n);
   tr.querySelectorAll(".btn-know").forEach(b => b.classList.add("on"));
   tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.remove("on"));
@@ -570,7 +589,7 @@ function markForgot(n) {
   const state = SRS.loadState();
   SRS.ensureWordState(state, w.word, w);
   SRS.saveState(state);
-  SRS.forgotIt(w.word, currentRound);
+  SRS.forgotIt(w.word, currentRound, dim);
   const tr = document.getElementById("row-" + n);
   tr.querySelectorAll(".btn-forgot").forEach(b => b.classList.add("on"));
   tr.querySelectorAll(".btn-know").forEach(b => b.classList.remove("on"));
@@ -595,7 +614,20 @@ function goNextRound() {
   // 直接跳下一輪,不出 summary
   // 沒標的字會被 recordLesson 設 nextDue=R+1,自動延到下一輪
   recordOnLeave();
-  location.href = "lesson.html?" + new URLSearchParams(location.search).toString();
+  const p = new URLSearchParams(location.search);
+  p.set("dim", dim);
+  location.href = "lesson.html?" + p.toString();
+}
+
+// ── 切換練習面向(dim) ──────────────────────────────
+function switchDim(newDim) {
+  if (!["both","meaning","pronounce"].includes(newDim)) return;
+  if (newDim === dim) return;
+  SRS.setSetting("dim", newDim);
+  // 重新載入頁面,讓選字 / 該複習隊列依新 dim 重算
+  const p = new URLSearchParams(location.search);
+  p.set("dim", newDim);
+  location.href = "lesson.html?" + p.toString();
 }
 let _lessonRecorded = false;
 let _selectedEval = null;
@@ -656,7 +688,7 @@ function recordOnLeave() {
   const state = SRS.loadState();
   WORDS.forEach(w => SRS.ensureWordState(state, w.word, w));
   SRS.saveState(state);
-  SRS.recordLesson(currentRound, mode, WORDS.map(w => w.word), _selectedEval);
+  SRS.recordLesson(currentRound, mode, WORDS.map(w => w.word), _selectedEval, dim);
 }
 // (舊 submitEval / nextSuggestion 已移除,改用 pickEval + recordOnLeave)
 

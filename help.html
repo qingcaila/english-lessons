@@ -148,6 +148,7 @@
       <li><a href="#lesson">課程頁面操作</a></li>
       <li><a href="#quiz">考自己模式</a></li>
       <li><a href="#l4">L1-L5 是什麼?</a></li>
+      <li><a href="#dim">練哪個面向(意思 / 發音 / 兩者)</a></li>
       <li><a href="#stage">Stage 切換 · 字池模式(累積/獨佔)· 主題軟暗示</a></li>
       <li><a href="#tips">小技巧</a></li>
       <li><a href="#trouble">遇到問題?</a></li>
@@ -474,8 +475,61 @@
     </div>
   </div>
 
-  <!-- 8 -->
-  <h2 id="stage">8. Stage 切換</h2>
+  <!-- 8 NEW: dim 練習面向 -->
+  <h2 id="dim">8. 練哪個面向(意思 / 發音 / 兩者)</h2>
+  <div class="card">
+    <p>標 <span class="button-demo">✅ 會</span> 的時候,你其實在記兩件事:</p>
+    <ul class="feature-list">
+      <li>💡 <b>懂意思</b>(對應 <b>L1 純理解</b>)— 看到字立刻反射出中文 / 畫面</li>
+      <li>🗣️ <b>會唸</b>(對應 <b>L2 會閱讀</b>)— 看到字能拆音節讀出來</li>
+    </ul>
+    <p>這兩件事其實是不同能力,可以分開記錄、各自走自己的間隔複習。首頁開新一輪那塊有「✨ 這輪在練哪個面向」三個按鈕:</p>
+    <table>
+      <tr><th>選項</th><th>按 ✅ 代表</th><th>適合什麼時候用</th></tr>
+      <tr><td>💡 <b>意思</b></td><td>我懂這個字的意思(會不會唸不管)</td><td>核心目標,專心看文章 / 影片時用</td></tr>
+      <tr><td>🗣️ <b>發音</b></td><td>我會唸這個字(懂不懂意思不管)</td><td>練 phonics、唸繞口令時用</td></tr>
+      <tr><td>🌗 <b>兩者</b>(預設)</td><td>我又會唸又懂意思</td><td>初學、不想分得這麼細時用</td></tr>
+    </table>
+
+    <h3>怎麼用?</h3>
+    <div class="step">
+      <div class="n">1</div>
+      <div class="body">首頁「✨ 這輪在練哪個面向」點一個(💡 / 🗣️ / 🌗)。<b>選擇會被記住</b>,下次進來預設還是這個。</div>
+    </div>
+    <div class="step">
+      <div class="n">2</div>
+      <div class="body">點 ▶ 開始 → 進課程頁。lesson-info 那條會顯示當前面向(小綠 chip),想中途切還是可以直接點下拉換。</div>
+    </div>
+    <div class="step">
+      <div class="n">3</div>
+      <div class="body">按 ✅ / ❌ 寫進對應的維度紀錄。不同維度有各自的間隔複習隊列,互不干擾。</div>
+    </div>
+
+    <h3>首頁進度條看哪個?</h3>
+    <p>「目前位置」卡片裡有 3 條進度條,每條都是「該維度 L4 字數 / Stage 目標」:</p>
+    <ul class="feature-list">
+      <li>💡 <b>意思 L4</b> ← 你 input-focused 路徑的<b>真正目標</b>,看影片讀文章靠這個</li>
+      <li>🗣️ <b>發音 L4</b> ← phonics 進展指標,bonus</li>
+      <li>🌗 <b>整體 L4</b> ← 用「兩者」模式累積的混合紀錄(包含你切到 dim 系統之前的資料)</li>
+    </ul>
+    <p style="font-size:12px;color:var(--muted);">每條進度條後面如果有 🔁N,代表該維度有 N 個字到期該複習。</p>
+
+    <div class="tip">
+      <b>💡 建議節奏</b><br>
+      • <b>初學階段</b>:就用 🌗 兩者(預設),不用分得太細<br>
+      • <b>慢慢進階</b>:大部分輪用 💡 意思(專心練看懂)、偶爾穿插 🗣️ 發音(練拆字唸)<br>
+      • <b>遇到難字</b>:可能你懂意思但唸不出來,反之亦然 — 這時 dim 切到對應面向再標,資料才精準
+    </div>
+
+    <div class="warn">
+      <b>⚠️ 兩件事</b><br>
+      1. 切換面向<b>不會洗掉任何資料</b>,只是換「這次標的會記到哪條」。<br>
+      2. 既有舊資料都算在 🌗 整體 那條,意思 / 發音兩條從新功能上線後從 0 開始累積 — 這是設計上的選擇,不是 bug。
+    </div>
+  </div>
+
+  <!-- 9 -->
+  <h2 id="stage">9. Stage 切換</h2>
   <div class="card">
     <p>首頁頂部下拉選單可以切換 5 個 Stage:</p>
     <table>
@@ -524,8 +578,8 @@
     <p style="font-size:12px;color:var(--muted);">所有 73 個主題都可點,切換 Stage 不會鎖主題,只影響抽字池。</p>
   </div>
 
-  <!-- 9 -->
-  <h2 id="tips">9. 小技巧</h2>
+  <!-- 10 -->
+  <h2 id="tips">10. 小技巧</h2>
   <div class="card">
     <ul class="feature-list">
       <li>💡 <b>不確定某個字怎麼唸?</b> 點底線音節單獨唸,聽清楚再點整字</li>
@@ -541,8 +595,8 @@
     </ul>
   </div>
 
-  <!-- 10 -->
-  <h2 id="trouble">10. 遇到問題?</h2>
+  <!-- 11 -->
+  <h2 id="trouble">11. 遇到問題?</h2>
   <div class="card">
     <h3>聲音不會唸 / 唸得很平淡像機器</h3>
     <ul class="feature-list">

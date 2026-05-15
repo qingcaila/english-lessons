@@ -15,6 +15,7 @@ const DEFAULT_STATE = {
     rememberLastMode: true,
     syllableChunks: true,
     showPinyin: true,           // 注音顯示 / 隱藏(預設顯示)
+    dim: "both",                // 練習面向:both / meaning / pronounce(預設兩者)
   },
   stats: {
     totalLessons: 0,
@@ -90,42 +91,67 @@ function logChunkPlay(wordKey, chunk, seedData) {
 //   不會          → interval ÷ 2(最少 1),連續 3 次退一層
 const LEVELS = ["L1", "L2", "L3", "L4", "L5"];
 
-function knewIt(wordKey, currentRound, easeOverride) {
+// ── 維度(dim)子狀態 ──────────────────────────────────────
+// dim = "both"      → 操作 word 頂層欄位(legacy / 混合)
+// dim = "meaning"   → 操作 w.meaning.* 子物件(L1 純理解)
+// dim = "pronounce" → 操作 w.pronounce.* 子物件(L2 會閱讀)
+// 新維度首次被存取時懶初始化(per C 方案,從 0 起跑,既有資料留在 both)
+function getDimState(w, dim) {
+  if (!dim || dim === "both") return w;
+  if (!w[dim]) {
+    w[dim] = {
+      knewItCount: 0,
+      forgotCount: 0,
+      interval: 1,
+      nextDue: null,
+      lastSeen: null,
+      lastMark: null,
+      consecutiveForgot: 0,
+      level: "L1",
+      ease: "normal",
+    };
+  }
+  return w[dim];
+}
+
+function knewIt(wordKey, currentRound, easeOverride, dim) {
   const state = loadState();
   const w = state.words[wordKey];
   if (!w) return;
-  const ease = easeOverride || w.ease || "normal";
+  const d = getDimState(w, dim);
+  const ease = easeOverride || d.ease || "normal";
   const mult = ease === "easy" ? 2.5 : ease === "hard" ? 1.5 : 2;
-  w.knewItCount += 1;
-  w.lastMark = "know";
-  w.consecutiveForgot = 0;
-  w.interval = Math.max(1, Math.round(w.interval * mult));
+  d.knewItCount = (d.knewItCount || 0) + 1;
+  d.lastMark = "know";
+  d.consecutiveForgot = 0;
+  d.interval = Math.max(1, Math.round((d.interval || 1) * mult));
   // 升層條件:點擊次數低(< 3) + 連續答對 ≥ 2 → 升一層
-  const idx = LEVELS.indexOf(w.level);
-  if (idx < LEVELS.length - 1 && w.knewItCount >= 2 && w.playCount < 5) {
-    w.level = LEVELS[idx + 1];
+  const idx = LEVELS.indexOf(d.level || "L1");
+  if (idx < LEVELS.length - 1 && d.knewItCount >= 2 && (w.playCount || 0) < 5) {
+    d.level = LEVELS[idx + 1];
   }
-  w.lastSeen = currentRound;
-  w.nextDue = bumpRound(currentRound, w.interval);
+  d.lastSeen = currentRound;
+  d.nextDue = bumpRound(currentRound, d.interval);
   saveState(state);
 }
 
-function forgotIt(wordKey, currentRound) {
+function forgotIt(wordKey, currentRound, dim) {
   const state = loadState();
   const w = state.words[wordKey];
   if (!w) return;
-  w.forgotCount += 1;
-  w.lastMark = "forgot";
-  w.consecutiveForgot += 1;
-  w.interval = Math.max(1, Math.floor(w.interval / 2));
+  const d = getDimState(w, dim);
+  d.forgotCount = (d.forgotCount || 0) + 1;
+  d.lastMark = "forgot";
+  d.consecutiveForgot = (d.consecutiveForgot || 0) + 1;
+  d.interval = Math.max(1, Math.floor((d.interval || 1) / 2));
   // 連續忘 3 次 → 退一層
-  if (w.consecutiveForgot >= 3) {
-    const idx = LEVELS.indexOf(w.level);
-    if (idx > 0) w.level = LEVELS[idx - 1];
-    w.consecutiveForgot = 0;
+  if (d.consecutiveForgot >= 3) {
+    const idx = LEVELS.indexOf(d.level || "L1");
+    if (idx > 0) d.level = LEVELS[idx - 1];
+    d.consecutiveForgot = 0;
   }
-  w.lastSeen = currentRound;
-  w.nextDue = bumpRound(currentRound, w.interval);
+  d.lastSeen = currentRound;
+  d.nextDue = bumpRound(currentRound, d.interval);
   saveState(state);
 }
 
@@ -138,25 +164,38 @@ function roundNum(roundStr) {
 }
 
 // ── 拉取「該複習」「該新學」名單 ───────────────────────────
-function dueForReview(currentRound) {
+function dueForReview(currentRound, dim) {
   const state = loadState();
   const cur = roundNum(currentRound);
+  const isBoth = !dim || dim === "both";
   return Object.values(state.words)
-    .filter(w => w.nextDue && roundNum(w.nextDue) <= cur)
-    .sort((a, b) => roundNum(a.nextDue) - roundNum(b.nextDue));
+    .filter(w => {
+      const d = isBoth ? w : w[dim];
+      return d && d.nextDue && roundNum(d.nextDue) <= cur;
+    })
+    .sort((a, b) => {
+      const da = isBoth ? a : a[dim];
+      const db = isBoth ? b : b[dim];
+      return roundNum(da.nextDue) - roundNum(db.nextDue);
+    });
 }
 
-function l4Count() {
+// 三維 L4 計數:dim 給 "both" / "meaning" / "pronounce"
+function l4Count(dim) {
   const state = loadState();
-  return Object.values(state.words).filter(w => w.level === "L4" || w.level === "L5").length;
+  const isBoth = !dim || dim === "both";
+  return Object.values(state.words).filter(w => {
+    const lv = isBoth ? w.level : w[dim]?.level;
+    return lv === "L4" || lv === "L5";
+  }).length;
 }
 function totalLearned() {
   const state = loadState();
   return Object.keys(state.words).length;
 }
-function l4Ratio() {
+function l4Ratio(dim) {
   const total = totalLearned();
-  return total === 0 ? 0 : l4Count() / total;
+  return total === 0 ? 0 : l4Count(dim) / total;
 }
 
 // ── 設定 ─────────────────────────────────────────────────────
@@ -168,7 +207,7 @@ function setSetting(key, value) {
 }
 
 // ── 輪次紀錄 ─────────────────────────────────────────────────
-function recordLesson(roundStr, mode, wordIds, evalEmoji) {
+function recordLesson(roundStr, mode, wordIds, evalEmoji, dim) {
   const state = loadState();
   state.stats.totalLessons += 1;
   state.stats.lastLesson = roundStr;
@@ -176,27 +215,23 @@ function recordLesson(roundStr, mode, wordIds, evalEmoji) {
   state.history.push({
     round: roundStr,
     date: new Date().toISOString(),
-    mode, wordIds, evalEmoji
+    mode, wordIds, evalEmoji, dim: dim || "both"
   });
-  // 每字 first / lastSeen 在此輪初次見到的設定
+  // 每字 first / lastSeen 在此輪初次見到的設定(對應 dim 維度)
   const curN = roundNumber(roundStr);
   for (const w of wordIds) {
     const word = state.words[w];
     if (word) {
       if (!word.first) word.first = roundStr;
-      word.lastSeen = roundStr;
-      if (!word.nextDue) {
-        // 首次見到:預設下輪複習
-        word.nextDue = bumpRound(roundStr, 1);
+      const d = getDimState(word, dim);
+      d.lastSeen = roundStr;
+      if (!d.nextDue) {
+        d.nextDue = bumpRound(roundStr, 1);
       } else {
-        // 已有 nextDue 的字,本輪沒被 ✅/❌ 主動標 → 算「中性看過」,
-        // 把 nextDue 推到 max(interval, 2) 輪後,避免下輪又被抽到同一批
-        const dueN = roundNumber(word.nextDue);
+        const dueN = roundNumber(d.nextDue);
         if (dueN <= curN) {
-          // 此輪被當 review 抽到但沒主動標
-          // (有主動標的情況 knewIt/forgotIt 已先把 nextDue 改到未來)
-          const push = Math.max(word.interval || 1, 2);
-          word.nextDue = bumpRound(roundStr, push);
+          const push = Math.max(d.interval || 1, 2);
+          d.nextDue = bumpRound(roundStr, push);
         }
       }
     }
@@ -227,7 +262,7 @@ function importState(json) {
 // ── 暴露給頁面 ──────────────────────────────────────────────
 window.SRS = {
   loadState, saveState, resetState,
-  ensureWordState,
+  ensureWordState, getDimState,
   logWordPlay, logChunkPlay,
   knewIt, forgotIt,
   dueForReview, l4Count, totalLearned, l4Ratio,
