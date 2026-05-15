@@ -144,11 +144,11 @@
       <li><a href="#what">這是什麼?</a></li>
       <li><a href="#first">第一次使用</a></li>
       <li><a href="#dashboard">首頁(儀表板)</a></li>
+      <li><a href="#dim">練哪個面向(意思 / 發音 / 兩者)</a></li>
       <li><a href="#modes">6 種學習模式</a></li>
       <li><a href="#lesson">課程頁面操作</a></li>
       <li><a href="#quiz">考自己模式</a></li>
       <li><a href="#l4">L1-L5 是什麼?</a></li>
-      <li><a href="#dim">練哪個面向(意思 / 發音 / 兩者)</a></li>
       <li><a href="#stage">Stage 切換 · 字池模式(累積/獨佔)· 主題軟暗示</a></li>
       <li><a href="#tips">小技巧</a></li>
       <li><a href="#trouble">遇到問題?</a></li>
@@ -219,11 +219,12 @@
 
     <h3>📍 目前位置</h3>
     <p>Stage 下拉切換(<b>切換不會洗資料</b>)、字量進度條、L4 比例、該複習多少字。</p>
-    <p style="font-size:12px;color:var(--muted);">右側 <span class="demo-toggle off"></span> <b>「不混舊字」</b> 開關切換字池(詳見第 8 節 Stage 切換)。下方會即時顯示目前可抽字數。</p>
+    <p style="font-size:12px;color:var(--muted);">右側 <span class="demo-toggle off"></span> <b>「不混舊字」</b> 開關切換字池(詳見第 9 節 Stage 切換)。下方會即時顯示目前可抽字數。</p>
     <p style="font-size:12px;color:var(--muted);">該複習 > 0 時下方會冒出兩顆橘色快捷:<span class="button-demo">📚 直接複習</span> / <span class="button-demo outline">🎯 考自己</span></p>
+    <p style="font-size:12px;color:var(--muted);">「目前位置」卡片下方有 3 條 dim 進度條(💡 意思 L4 / 🗣️ 發音 L4 / 🌗 整體 L4)— 含義詳見第 4 節「練哪個面向」。</p>
 
     <h3>🚀 開新一輪</h3>
-    <p>選模式 + 設定 → 點「▶ 開始」。詳見第 4 節。</p>
+    <p>選模式 + 設定 → 「✨ 這輪在練哪個面向」三選一(💡 / 🗣️ / 🌗,詳見第 4 節)→ 點「▶ 開始」。詳見第 5 節。</p>
 
     <h3>📚 已上輪次</h3>
     <p><b>預設摺疊</b>,只顯示一行 summary(「已上輪次 · 共 X 輪 · 最近 RX 😎」),點開才看詳細。</p>
@@ -247,7 +248,61 @@
   </div>
 
   <!-- 4 -->
-  <h2 id="modes">4. 6 種學習模式</h2>
+  <h2 id="dim">4. 練哪個面向(意思 / 發音 / 兩者)</h2>
+  <div class="card">
+    <p>標 <span class="button-demo">✅ 會</span> 的時候,你其實在記兩件事:</p>
+    <ul class="feature-list">
+      <li>💡 <b>懂意思</b> — 看到字立刻反射出中文 / 畫面</li>
+      <li>🗣️ <b>會唸</b> — 看到字能拆音節讀出來</li>
+    </ul>
+    <p style="font-size:12px;color:var(--muted);">(對應 L1 純理解 / L2 會閱讀,五層金字塔詳見第 8 節)</p>
+    <p>這兩件事其實是不同能力,可以分開記錄、各自走自己的間隔複習。首頁開新一輪那塊有「✨ 這輪在練哪個面向」三個按鈕:</p>
+    <table>
+      <tr><th>選項</th><th>按 ✅ 代表</th><th>適合什麼時候用</th></tr>
+      <tr><td>💡 <b>意思</b></td><td>我懂這個字的意思(會不會唸不管)</td><td>核心目標,專心看文章 / 影片時用</td></tr>
+      <tr><td>🗣️ <b>發音</b></td><td>我會唸這個字(懂不懂意思不管)</td><td>練 phonics、唸繞口令時用</td></tr>
+      <tr><td>🌗 <b>兩者</b>(預設)</td><td>我又會唸又懂意思</td><td>初學、不想分得這麼細時用</td></tr>
+    </table>
+
+    <h3>怎麼用?</h3>
+    <div class="step">
+      <div class="n">1</div>
+      <div class="body">首頁「✨ 這輪在練哪個面向」點一個(💡 / 🗣️ / 🌗)。<b>選擇會被記住</b>,下次進來預設還是這個。</div>
+    </div>
+    <div class="step">
+      <div class="n">2</div>
+      <div class="body">點 ▶ 開始 → 進課程頁。lesson-info 那條會顯示當前面向(小綠 chip),想中途切還是可以直接點下拉換。</div>
+    </div>
+    <div class="step">
+      <div class="n">3</div>
+      <div class="body">按 ✅ / ❌ 寫進對應的維度紀錄。不同維度有各自的間隔複習隊列,互不干擾。</div>
+    </div>
+
+    <h3>首頁進度條看哪個?</h3>
+    <p>「目前位置」卡片裡有 3 條進度條,每條都是「該維度 L4 字數 / Stage 目標」:</p>
+    <ul class="feature-list">
+      <li>💡 <b>意思 L4</b> ← 你 input-focused 路徑的<b>真正目標</b>,看影片讀文章靠這個</li>
+      <li>🗣️ <b>發音 L4</b> ← phonics 進展指標,bonus</li>
+      <li>🌗 <b>整體 L4</b> ← 用「兩者」模式累積的混合紀錄(包含你切到 dim 系統之前的資料)</li>
+    </ul>
+    <p style="font-size:12px;color:var(--muted);">每條進度條後面如果有 🔁N,代表該維度有 N 個字到期該複習。</p>
+
+    <div class="tip">
+      <b>💡 建議節奏</b><br>
+      • <b>初學階段</b>:就用 🌗 兩者(預設),不用分得太細<br>
+      • <b>慢慢進階</b>:大部分輪用 💡 意思(專心練看懂)、偶爾穿插 🗣️ 發音(練拆字唸)<br>
+      • <b>遇到難字</b>:可能你懂意思但唸不出來,反之亦然 — 這時 dim 切到對應面向再標,資料才精準
+    </div>
+
+    <div class="warn">
+      <b>⚠️ 兩件事</b><br>
+      1. 切換面向<b>不會洗掉任何資料</b>,只是換「這次標的會記到哪條」。<br>
+      2. 既有舊資料都算在 🌗 整體 那條,意思 / 發音兩條從新功能上線後從 0 開始累積 — 這是設計上的選擇,不是 bug。
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <h2 id="modes">5. 6 種學習模式</h2>
   <div class="card">
     <table>
       <tr><th>模式</th><th>適合</th><th>受 Stage 過濾?</th></tr>
@@ -258,7 +313,7 @@
       <tr><td>📚 <b>純複習</b></td><td>累、想鞏固,不學新</td><td>❌ 不受(到期字一律推)</td></tr>
       <tr><td>🌟 <b>挑戰</b></td><td>偷看下一階段字</td><td>🔁 反向:只抽 Stage+1</td></tr>
     </table>
-    <p style="font-size:12px;color:var(--muted);">「受 Stage 過濾」= 新一輪抽字池只看 ≤ 當前 Stage(預設累積制)或 = 當前 Stage(勾「不混舊字」獨佔制)。詳見第 8 節。</p>
+    <p style="font-size:12px;color:var(--muted);">「受 Stage 過濾」= 新一輪抽字池只看 ≤ 當前 Stage(預設累積制)或 = 當前 Stage(勾「不混舊字」獨佔制)。詳見第 9 節。</p>
 
     <h3>設定參數</h3>
     <table>
@@ -303,8 +358,8 @@
     </div>
   </div>
 
-  <!-- 5 -->
-  <h2 id="lesson">5. 課程頁面操作</h2>
+  <!-- 6 -->
+  <h2 id="lesson">6. 課程頁面操作</h2>
   <div class="card">
     <p>開始一輪後會看到 10 張卡片。每張卡片包含:</p>
 
@@ -384,7 +439,7 @@
       <li><b>字 小/中/大</b> 下拉 → 卡片字級可調(預設<b>中</b>;要塞滿 10 張一螢幕選<b>小</b>;要更好讀選<b>大</b>)</li>
       <li><b>下一輪 →</b> 橘色按鈕 → 直接開新一輪同設定,不出 summary</li>
     </ul>
-    <p style="font-size:11px;color:var(--muted);">📋 控制列下方 chip 顯示本輪資訊:R1 · 模式 · 🔁複習 · 🆕新字 · 累計 · L4</p>
+    <p style="font-size:11px;color:var(--muted);">📋 控制列下方 chip 顯示本輪資訊:R1 · 模式 · 🔁複習 · 🆕新字 · 當前面向(💡/🗣️/🌗,可點切換,詳見第 4 節)</p>
 
     <h3>結束本輪</h3>
     <p>三種方式:</p>
@@ -420,8 +475,8 @@
     </div>
   </div>
 
-  <!-- 6 -->
-  <h2 id="quiz">6. 考自己模式</h2>
+  <!-- 7 -->
+  <h2 id="quiz">7. 考自己模式</h2>
   <div class="card">
     <p>當「該複習」字數 > 0,首頁出現 <span class="button-demo">🎯 考自己</span> 按鈕。</p>
 
@@ -450,8 +505,8 @@
     <p style="font-size:12px;color:var(--muted);margin-top:8px;">📌 顯示答案時,如果該字有 <b style="color:#d97e54;">🟠 家族線</b> 或 <b style="color:#8a6d3b;">⚠️ 易混提示</b>,會一併顯示提醒。</p>
   </div>
 
-  <!-- 7 -->
-  <h2 id="l4">7. L1-L5 是什麼?</h2>
+  <!-- 8 -->
+  <h2 id="l4">8. L1-L5 是什麼?</h2>
   <div class="card">
     <p>每個字學到的「真會程度」分 5 層:</p>
     <table>
@@ -473,59 +528,7 @@
     <div class="tip">
       <b>🎯 字量目標(L4)</b>:Stage 0: 500-1K / Stage 1: 1.2-2K / Stage 2: 4-5K / Stage 3: 5-7K(讀 Medium)/ Stage 4: 8-10K+(原文書)
     </div>
-  </div>
-
-  <!-- 8 NEW: dim 練習面向 -->
-  <h2 id="dim">8. 練哪個面向(意思 / 發音 / 兩者)</h2>
-  <div class="card">
-    <p>標 <span class="button-demo">✅ 會</span> 的時候,你其實在記兩件事:</p>
-    <ul class="feature-list">
-      <li>💡 <b>懂意思</b>(對應 <b>L1 純理解</b>)— 看到字立刻反射出中文 / 畫面</li>
-      <li>🗣️ <b>會唸</b>(對應 <b>L2 會閱讀</b>)— 看到字能拆音節讀出來</li>
-    </ul>
-    <p>這兩件事其實是不同能力,可以分開記錄、各自走自己的間隔複習。首頁開新一輪那塊有「✨ 這輪在練哪個面向」三個按鈕:</p>
-    <table>
-      <tr><th>選項</th><th>按 ✅ 代表</th><th>適合什麼時候用</th></tr>
-      <tr><td>💡 <b>意思</b></td><td>我懂這個字的意思(會不會唸不管)</td><td>核心目標,專心看文章 / 影片時用</td></tr>
-      <tr><td>🗣️ <b>發音</b></td><td>我會唸這個字(懂不懂意思不管)</td><td>練 phonics、唸繞口令時用</td></tr>
-      <tr><td>🌗 <b>兩者</b>(預設)</td><td>我又會唸又懂意思</td><td>初學、不想分得這麼細時用</td></tr>
-    </table>
-
-    <h3>怎麼用?</h3>
-    <div class="step">
-      <div class="n">1</div>
-      <div class="body">首頁「✨ 這輪在練哪個面向」點一個(💡 / 🗣️ / 🌗)。<b>選擇會被記住</b>,下次進來預設還是這個。</div>
-    </div>
-    <div class="step">
-      <div class="n">2</div>
-      <div class="body">點 ▶ 開始 → 進課程頁。lesson-info 那條會顯示當前面向(小綠 chip),想中途切還是可以直接點下拉換。</div>
-    </div>
-    <div class="step">
-      <div class="n">3</div>
-      <div class="body">按 ✅ / ❌ 寫進對應的維度紀錄。不同維度有各自的間隔複習隊列,互不干擾。</div>
-    </div>
-
-    <h3>首頁進度條看哪個?</h3>
-    <p>「目前位置」卡片裡有 3 條進度條,每條都是「該維度 L4 字數 / Stage 目標」:</p>
-    <ul class="feature-list">
-      <li>💡 <b>意思 L4</b> ← 你 input-focused 路徑的<b>真正目標</b>,看影片讀文章靠這個</li>
-      <li>🗣️ <b>發音 L4</b> ← phonics 進展指標,bonus</li>
-      <li>🌗 <b>整體 L4</b> ← 用「兩者」模式累積的混合紀錄(包含你切到 dim 系統之前的資料)</li>
-    </ul>
-    <p style="font-size:12px;color:var(--muted);">每條進度條後面如果有 🔁N,代表該維度有 N 個字到期該複習。</p>
-
-    <div class="tip">
-      <b>💡 建議節奏</b><br>
-      • <b>初學階段</b>:就用 🌗 兩者(預設),不用分得太細<br>
-      • <b>慢慢進階</b>:大部分輪用 💡 意思(專心練看懂)、偶爾穿插 🗣️ 發音(練拆字唸)<br>
-      • <b>遇到難字</b>:可能你懂意思但唸不出來,反之亦然 — 這時 dim 切到對應面向再標,資料才精準
-    </div>
-
-    <div class="warn">
-      <b>⚠️ 兩件事</b><br>
-      1. 切換面向<b>不會洗掉任何資料</b>,只是換「這次標的會記到哪條」。<br>
-      2. 既有舊資料都算在 🌗 整體 那條,意思 / 發音兩條從新功能上線後從 0 開始累積 — 這是設計上的選擇,不是 bug。
-    </div>
+    <p style="font-size:12px;color:var(--muted);margin-top:8px;">L1(意思)/ L2(發音)兩層其實可以分開記錄,詳見第 4 節「練哪個面向」。</p>
   </div>
 
   <!-- 9 -->
@@ -590,7 +593,7 @@
       <li>💡 <b>想衝刺?</b> 把「新/複習比」拉到 70/30 或 100/0</li>
       <li>💡 <b>換手機?</b> 進階 → 匯出 JSON → 另一台匯入</li>
       <li>💡 <b>很累很煩複習?</b> 直接去看英文影片、讀英文文章,字在自然語境中重逢效果更好</li>
-      <li>💡 <b>覺得字池太雜?</b> 在「目前位置」右側勾「<b>不混舊字</b>」 → 切到獨佔制,只練當前 Stage 的字(像課表)。詳見 §8</li>
+      <li>💡 <b>覺得字池太雜?</b> 在「目前位置」右側勾「<b>不混舊字</b>」 → 切到獨佔制,只練當前 Stage 的字(像課表)。詳見 §9</li>
       <li>💡 <b>看到主題 tile 是虛線淡的?</b> 那是超過你 Stage 的主題,點下去會問你「確定要練嗎?」,確定後仍可進(但字池被 Stage 過濾,可能抽不到字 → 要嘛先升 Stage,要嘛取消勾「不混舊字」)</li>
     </ul>
   </div>
