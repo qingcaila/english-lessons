@@ -482,3 +482,21 @@ git push
 - AWL 完整 570 字此次只挑了高頻 ~380 字,剩餘 ~190 是非常稀有的學術詞(已在 sight check 中過濾掉但實際保留至 D8+)。**不用補完,input 用不到那些**。
 - idioms 主題:每條都是多字片語,chunks 拆每個單字 + 各自 syllable 切分,跟 phrasal-verbs 同邏輯。
 - 對話 4 push 紀錄:`0695fd5`(D2-D6)→ `cd599a3`(D7-D8)→ `59d37da`(D9)
+
+---
+
+## 最新狀態(2026-05-15 全面審查後)
+
+> 此檔案以上是 vocab 擴張時期的歷史紀錄,留檔不修改。當前狀態:
+
+- **字量**:**10,101 字**(原訂 10K 已超標,從 224 起點長期累積)
+- **家族線(`base`)**:**1,625 字**(16.1%)
+- **易混提示(`homophone-note`)**:**365 字**
+- **主題**:**77 個**,11 個分類
+- 全部 9 個 L2 品質檢查跑過:translation / emoji-fit / modernization / pos-consistency / stage-fit / theme-fit / family-note-consistency / family-potential AI / homophone-potential AI
+
+**vocab-audit skill** 建在 `.claude/skills/vocab-audit/`,以後加字後跑:
+```
+python .claude/skills/vocab-audit/scripts/run_layer1.py
+```
+就能驗整體資料完整性。
