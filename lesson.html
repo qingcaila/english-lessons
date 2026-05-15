@@ -16,11 +16,11 @@
     font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     background: var(--bg); color: var(--ink);
     margin: 0; padding: 6px 8px 30px; line-height: 1.4; font-size: 13px;
-    /* 卡片字級縮放(中/大/超大)— topbar 不縮 */
+    /* 卡片字級縮放(小/中/大)— topbar 不縮 */
     --fs-scale: 1.0;
   }
-  body.size-large  { --fs-scale: 1.2; }
-  body.size-xlarge { --fs-scale: 1.4; }
+  body.size-medium { --fs-scale: 1.2; }
+  body.size-large  { --fs-scale: 1.4; }
   .wrap { max-width: 960px; margin: 0 auto; }
 
   .topbar {
@@ -218,9 +218,9 @@
     <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
     <label title="字級大小">字
       <select id="fontSize" onchange="updateFontSize()">
-        <option value="medium" selected>中</option>
+        <option value="small" selected>小</option>
+        <option value="medium">中</option>
         <option value="large">大</option>
-        <option value="xlarge">超大</option>
       </select>
     </label>
     <span class="spacer"></span>
@@ -252,11 +252,11 @@ function togglePinyin() {
   applyPinyinSetting(next);
 }
 
-// ── 字級 medium / large / xlarge ─────────────────────────────
+// ── 字級 small(預設) / medium / large ─────────────────────
 function applyFontSize(size) {
-  document.body.classList.remove("size-large", "size-xlarge");
+  document.body.classList.remove("size-medium", "size-large");
+  if (size === "medium") document.body.classList.add("size-medium");
   if (size === "large")  document.body.classList.add("size-large");
-  if (size === "xlarge") document.body.classList.add("size-xlarge");
   const sel = document.getElementById("fontSize");
   if (sel) sel.value = size;
 }
@@ -676,7 +676,7 @@ function checkPoolWarning() {
 // ── 啟動 ──────────────────────────────────────────────────
 (async function init() {
   applyPinyinSetting(SRS.getSettings().showPinyin !== false);
-  applyFontSize(SRS.getSettings().fontSize || "medium");
+  applyFontSize(SRS.getSettings().fontSize || "small");
   const data = await loadData();
   WORDS = pickWords(data);
   if (WORDS.length === 0) {
