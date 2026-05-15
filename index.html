@@ -336,18 +336,19 @@ let selectedMode = null;
 let selectedTheme = null;
 
 async function loadAll() {
-  // ★ 先 render 不依賴 vocab/themes 的部分(localStorage 瞬間可讀)
+  // ★ Step 1:先 render 不依賴 vocab/themes 的部分(localStorage 瞬間可讀)
   renderStage();    // Stage 下拉、累積/獨佔 hint、L4 統計
   renderModes();    // 記住模式恢復
   renderHistory();  // 已上輪次
 
-  // ★ 再等 fetch 完成,渲染依賴主題/字表的部分
-  const [v, t] = await Promise.all([
-    fetch("vocab.json").then(r => r.json()),
-    fetch("themes.json").then(r => r.json())
-  ]);
-  VOCAB = v; THEMES = t;
-  renderThemes();       // 選主題格(73 tile)
+  // ★ Step 2:themes.json 小(~13KB),先載並立刻渲染主題(用空字數先頂)
+  THEMES = await fetch("themes.json").then(r => r.json());
+  VOCAB = { words: [] }; // 暫時空殼,讓 renderThemes 不失敗
+  renderThemes();
+
+  // ★ Step 3:vocab.json 大(~4MB),背景載完再重渲染主題(補字數)+ 主題進度
+  VOCAB = await fetch("vocab.json").then(r => r.json());
+  renderThemes();       // 更新主題 tile 字數
   renderThemeStats();   // 主題進度(73 條目)
 }
 
@@ -482,6 +483,13 @@ function selectMode(mode) {
     b.style.borderColor = b.dataset.mode === mode ? "var(--accent)" : "var(--border)";
   });
   document.getElementById("themePick").classList.toggle("on", mode === "theme");
+  // 防呆:切到「指定主題」時,若 themeGrid 還沒渲染(VOCAB/THEMES 還在 fetch),補渲染一次
+  if (mode === "theme") {
+    const grid = document.getElementById("themeGrid");
+    if (grid && !grid.innerHTML.trim() && VOCAB && THEMES) {
+      renderThemes();
+    }
+  }
   document.getElementById("goBtn").disabled = (mode === "theme" && !selectedTheme);
   if (mode !== "theme") {
     document.getElementById("goBtn").disabled = false;
@@ -493,9 +501,19 @@ function selectMode(mode) {
 
 function renderThemes() {
   const container = document.getElementById("themeGrid");
+  if (!container) return;
+  if (!THEMES || !VOCAB) {
+    container.innerHTML = `<div style="padding:10px;color:var(--muted);font-size:12px;">載入中...請稍候</div>`;
+    return;
+  }
+  if (!Array.isArray(THEMES.themes) || !Array.isArray(THEMES.categories) || THEMES.themes.length === 0) {
+    container.innerHTML = `<div style="padding:10px;color:var(--bad);font-size:12px;">⚠️ 主題資料異常(themes 為空)。請強制刷新頁面(下拉重整或 Cmd+Shift+R)。</div>`;
+    console.error("themes.json 內容異常:", THEMES);
+    return;
+  }
   const state = SRS.loadState();
   const stage = state.stats.currentStage || 0;
-  const cats = (THEMES.categories || []).sort((a,b) => a.order - b.order);
+  const cats = (THEMES.categories || []).slice().sort((a,b) => (a.order||0) - (b.order||0));
   // 字數統計(每主題已有多少字)
   const themeWordCount = {};
   VOCAB.words.forEach(w => {
