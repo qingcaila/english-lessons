@@ -1,6 +1,7 @@
 """更新 history.json 紀錄某個 check 的執行結果"""
-import json, os, sys, hashlib
+import json, os, sys, io, hashlib
 from datetime import datetime
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 if len(sys.argv) < 3:
     print("用法: python update_history.py {check_id} {issues_found} [fixes_applied] [agent_count] [report_path]")
