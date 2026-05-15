@@ -153,6 +153,15 @@
 - [ ] L2-pinyin(AI 不擅長注音判斷)
 - [ ] L2-tip-coverage(vocab 沒對應 `tip` 欄位)
 
+### 2026-05-15 晚上補的 UX 改動
+
+- [x] 卡片字級可調:topbar 加「字 小/中/大」下拉,3 段:小(1.0×)/中(1.2× 預設)/大(1.4×)
+  - emoji 跟字一起放大
+  - 狀態存 SRS.settings.fontSize 跨頁/跨輪記住
+  - 預設中:打開就舒適閱讀
+- [x] 移除 topbar「結束 →」按鈕(下一輪 → 已涵蓋,← 回首頁也行)
+- [x] CLAUDE.md / help.html / validate.html 同步
+
 ### 真錯誤修正紀錄(2026-05-15)
 
 13 個真翻錯改掉:niagara(尼加拉瀑布)/ mankind(人類)/ chili(辣椒)/
