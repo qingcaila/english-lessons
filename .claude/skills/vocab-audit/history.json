@@ -1,0 +1,13 @@
+{
+  "vocab_hash_current": "7e8158e9c1944449a54422848fbdb09d810bf4ec655724e0763a3024a1261d34",
+  "checks": {
+    "L1-all": {
+      "last_run": "2026-05-15T11:17:20",
+      "vocab_hash": "7e8158e9c1944449a54422848fbdb09d810bf4ec655724e0763a3024a1261d34",
+      "vocab_count": 10101,
+      "issues_total": 0,
+      "report": "reports/2026-05-15-111720-L1.md"
+    }
+  },
+  "_note": "history.json 由 scripts/run_layer1.py / update_history.py 自動更新。手動編輯前請先備份。"
+}
