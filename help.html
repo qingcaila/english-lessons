@@ -380,15 +380,17 @@
       <li>⏹ → 停止播放</li>
       <li>速度下拉 → 慢 / 正常 / 較快 / 原速(預設慢)</li>
       <li><b>注音</b> 按鈕 → 切換注音顯示(預設開)</li>
-      <li><b>結束 →</b> 橘色按鈕 → <b>隨時可按</b>,立刻結束本輪不用標完所有字</li>
+      <li><b>字 中/大/超大</b> 下拉 → 卡片字級可調(<b>大 / 超大</b>會放棄「10 張一螢幕」,需捲動但更好讀)</li>
+      <li><b>下一輪 →</b> 橘色按鈕 → 直接開新一輪同設定,不出 summary</li>
     </ul>
     <p style="font-size:11px;color:var(--muted);">📋 控制列下方 chip 顯示本輪資訊:R1 · 模式 · 🔁複習 · 🆕新字 · 累計 · L4</p>
 
     <h3>結束本輪</h3>
-    <p>兩種方式觸發結束:</p>
+    <p>三種方式:</p>
     <ul class="feature-list">
       <li>標完全部 10 字的 ✅/❌ → <b>自動跳</b> summary</li>
-      <li>隨時按 topbar 的 <span class="button-demo">結束 →</span> → 立刻跳 summary,沒標記的字會延到下一輪</li>
+      <li>按 <span class="button-demo">▶ 下一輪</span> → 不出 summary 直接進下一輪(沒標的字會延到下一輪)</li>
+      <li>按 <b>←</b> 回首頁 → 不出 summary 也不存本輪 summary,但已標記的進度都記住</li>
     </ul>
 
     <h3>結束時 summary</h3>
@@ -528,7 +530,8 @@
     <ul class="feature-list">
       <li>💡 <b>不確定某個字怎麼唸?</b> 點底線音節單獨唸,聽清楚再點整字</li>
       <li>💡 <b>同一個字點了 5 次以上發音?</b> 系統會擋你升級,代表還不熟,別急著按「會」</li>
-      <li>💡 <b>累了想休息?</b> 按 topbar 的 <span class="button-demo" style="font-size:11px;padding:1px 6px;">結束 →</span> 立刻退出(沒標的字延到下一輪),或直接關掉分頁也行,已標記的會記住</li>
+      <li>💡 <b>累了想休息?</b> 按 <b>←</b> 回首頁 / 直接關掉分頁,已標記的會記住,沒標的延到下一輪</li>
+      <li>👁️ <b>字看不清楚?</b> topbar 把字級切到「大」或「超大」,卡片字會放大(emoji 也跟著大),需要捲動但好讀很多</li>
       <li>💡 <b>連續 2 次 😅?</b> 系統會建議下輪減新字、多複習</li>
       <li>💡 <b>想衝刺?</b> 把「新/複習比」拉到 70/30 或 100/0</li>
       <li>💡 <b>換手機?</b> 進階 → 匯出 JSON → 另一台匯入</li>
