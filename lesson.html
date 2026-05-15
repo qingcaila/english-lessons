@@ -218,8 +218,8 @@
     <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
     <label title="字級大小">字
       <select id="fontSize" onchange="updateFontSize()">
-        <option value="small" selected>小</option>
-        <option value="medium">中</option>
+        <option value="small">小</option>
+        <option value="medium" selected>中</option>
         <option value="large">大</option>
       </select>
     </label>
@@ -676,7 +676,7 @@ function checkPoolWarning() {
 // ── 啟動 ──────────────────────────────────────────────────
 (async function init() {
   applyPinyinSetting(SRS.getSettings().showPinyin !== false);
-  applyFontSize(SRS.getSettings().fontSize || "small");
+  applyFontSize(SRS.getSettings().fontSize || "medium");
   const data = await loadData();
   WORDS = pickWords(data);
   if (WORDS.length === 0) {
