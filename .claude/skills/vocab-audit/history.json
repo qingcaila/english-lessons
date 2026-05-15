@@ -1,5 +1,5 @@
 {
-  "vocab_hash_current": "8827d87821bd9d390a8f67b8108c9b45c7aaa623a3422410a164c4e7fc31a359",
+  "vocab_hash_current": "d253e9b872a47d31bf7bb2e23ef34ffb55f2018fa635137dee425bc5912431a3",
   "checks": {
     "L1-all": {
       "last_run": "2026-05-15T11:17:20",
@@ -65,6 +65,14 @@
       "vocab_count": 10101,
       "issues_found": 190,
       "fixes_applied": 196,
+      "agent_count": 7
+    },
+    "L2-stage-fit": {
+      "last_run": "2026-05-15T11:49:19",
+      "vocab_hash": "d253e9b872a47d31bf7bb2e23ef34ffb55f2018fa635137dee425bc5912431a3",
+      "vocab_count": 10101,
+      "issues_found": 261,
+      "fixes_applied": 260,
       "agent_count": 7
     }
   },
