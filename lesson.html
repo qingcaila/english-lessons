@@ -417,6 +417,23 @@ function render() {
   updateLessonInfo();
   refreshAllNewBadges();
   WORDS.forEach(w => updatePlayCount(w.n));
+  WORDS.forEach(w => refreshMarkButtons(w.n));
+}
+
+function refreshMarkButtons(n) {
+  const w = WORDS.find(x => x.n === n); if (!w) return;
+  const state = SRS.loadState();
+  const ws = state.words[w.word];
+  if (!ws) return;
+  const tr = document.getElementById("row-" + n);
+  if (!tr) return;
+  const knowBtn = tr.querySelector(".btn-know");
+  const forgotBtn = tr.querySelector(".btn-forgot");
+  if (ws.lastMark === "know") {
+    knowBtn.classList.add("on"); forgotBtn.classList.remove("on");
+  } else if (ws.lastMark === "forgot") {
+    forgotBtn.classList.add("on"); knowBtn.classList.remove("on");
+  }
 }
 
 function updateLessonInfo() {

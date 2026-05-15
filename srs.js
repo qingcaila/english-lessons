@@ -61,6 +61,7 @@ function ensureWordState(state, wordKey, seedData) {
     knewItCount: 0,        // 標記「會」累計
     forgotCount: 0,        // 標記「不會」累計
     consecutiveForgot: 0,  // 連續忘記次數(連 3 次退一層)
+    lastMark: null,        // 最近一次標記 "know" / "forgot"(供 UI 還原按鈕變色)
     lastInteraction: null,
   };
   return state.words[wordKey];
@@ -96,6 +97,7 @@ function knewIt(wordKey, currentRound, easeOverride) {
   const ease = easeOverride || w.ease || "normal";
   const mult = ease === "easy" ? 2.5 : ease === "hard" ? 1.5 : 2;
   w.knewItCount += 1;
+  w.lastMark = "know";
   w.consecutiveForgot = 0;
   w.interval = Math.max(1, Math.round(w.interval * mult));
   // 升層條件:點擊次數低(< 3) + 連續答對 ≥ 2 → 升一層
@@ -113,6 +115,7 @@ function forgotIt(wordKey, currentRound) {
   const w = state.words[wordKey];
   if (!w) return;
   w.forgotCount += 1;
+  w.lastMark = "forgot";
   w.consecutiveForgot += 1;
   w.interval = Math.max(1, Math.floor(w.interval / 2));
   // 連續忘 3 次 → 退一層
