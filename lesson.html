@@ -16,7 +16,11 @@
     font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     background: var(--bg); color: var(--ink);
     margin: 0; padding: 6px 8px 30px; line-height: 1.4; font-size: 13px;
+    /* 卡片字級縮放(中/大/超大)— topbar 不縮 */
+    --fs-scale: 1.0;
   }
+  body.size-large  { --fs-scale: 1.2; }
+  body.size-xlarge { --fs-scale: 1.4; }
   .wrap { max-width: 960px; margin: 0 auto; }
 
   .topbar {
@@ -44,11 +48,6 @@
     border: 1px solid var(--accent); font-weight: 600;
   }
   .topbar .next-round:hover { background: #a8512f; }
-  .topbar .finish {
-    background: #fff; color: var(--muted);
-    border: 1px solid var(--border);
-  }
-  .topbar .finish:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
 
   /* lesson info 獨立一行,避免擠 */
   .lesson-info {
@@ -99,11 +98,11 @@
       "homo   homo   homo   homo";
     column-gap: 5px; row-gap: 1px;
     align-items: center;
-    min-height: 72px;
+    min-height: calc(72px * var(--fs-scale));
   }
   .family-line {
     grid-area: family;
-    font-size: 11px;
+    font-size: calc(11px * var(--fs-scale));
     color: #d97e54;
     background: #fef0e6;
     padding: 2px 6px;
@@ -117,11 +116,11 @@
   }
   .family-line:hover { background: #d97e54; color: #fff; }
   .family-line .arrow { font-weight: 700; margin: 0 2px; }
-  .family-line .note { color: var(--muted); margin-left: 4px; font-size: 10px; }
+  .family-line .note { color: var(--muted); margin-left: 4px; font-size: calc(10px * var(--fs-scale)); }
   .family-line:hover .note { color: #fff; }
   .homophone-line {
     grid-area: homo;
-    font-size: 11px;
+    font-size: calc(11px * var(--fs-scale));
     color: #8a6d3b;
     background: #fcf3d4;
     padding: 2px 6px;
@@ -141,29 +140,29 @@
 
   .num {
     grid-area: num; align-self: start; justify-self: start;
-    display: inline-block; font-size: 11px; padding: 1px 5px;
+    display: inline-block; font-size: calc(11px * var(--fs-scale)); padding: 1px 5px;
     background: var(--accent-soft); color: var(--accent); border-radius: 3px;
   }
   .meaning { grid-area: meaning; align-self: center; justify-self: end;
-             font-size: 12px; color: var(--muted); font-weight: 500; white-space: nowrap; }
-  .img { grid-area: img; font-size: 16px; text-align: left; align-self: center; line-height: 1;
+             font-size: calc(12px * var(--fs-scale)); color: var(--muted); font-weight: 500; white-space: nowrap; }
+  .img { grid-area: img; font-size: calc(16px * var(--fs-scale)); text-align: left; align-self: center; line-height: 1;
          white-space: nowrap; letter-spacing: 0; overflow: hidden; }
   .word-cell { grid-area: wordline; align-self: center;
                display: flex; align-items: baseline; gap: 6px; flex-wrap: nowrap;
                min-width: 0; overflow: hidden; }
-  .word { font-size: 16px; font-weight: 600; line-height: 1.1; flex-shrink: 0; }
+  .word { font-size: calc(16px * var(--fs-scale)); font-weight: 600; line-height: 1.1; flex-shrink: 0; }
   .chunk { padding-bottom: 2px; }
   .chunk::after { height: 1.5px; }
-  .pinyin { font-size: 10.5px; color: var(--muted); white-space: nowrap;
+  .pinyin { font-size: calc(10.5px * var(--fs-scale)); color: var(--muted); white-space: nowrap;
             overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-  .play-count { font-size: 9px; color: var(--muted); margin-left: 4px; opacity: .7; }
-  .split { grid-area: split; font-size: 10px; color: var(--muted); align-self: start; line-height: 1.2; }
+  .play-count { font-size: calc(9px * var(--fs-scale)); color: var(--muted); margin-left: 4px; opacity: .7; }
+  .split { grid-area: split; font-size: calc(10px * var(--fs-scale)); color: var(--muted); align-self: start; line-height: 1.2; }
   .actions {
     grid-area: actions; align-self: center;
     display: flex; flex-direction: column; gap: 3px; margin-left: 4px;
   }
   .btn-know, .btn-forgot {
-    font-size: 11px; padding: 2px 5px; border-radius: 4px; border: 1px solid var(--border);
+    font-size: calc(11px * var(--fs-scale)); padding: 2px 5px; border-radius: 4px; border: 1px solid var(--border);
     background: #fff; cursor: pointer; font-family: inherit;
     line-height: 1.2; min-width: 36px; text-align: center;
   }
@@ -217,9 +216,15 @@
       </select>
     </label>
     <button class="toggle-btn on" id="pinyinToggle" onclick="togglePinyin()">注音</button>
+    <label>
+      <select id="fontSize" onchange="updateFontSize()" title="字級">
+        <option value="medium" selected>字級中</option>
+        <option value="large">字級大</option>
+        <option value="xlarge">字級超大</option>
+      </select>
+    </label>
     <span class="spacer"></span>
     <button class="next-round" id="nextBtn" onclick="goNextRound()">下一輪 →</button>
-    <button class="finish" id="finishBtn" onclick="forceShowSummary()">結束</button>
   </div>
   <div class="lesson-info" id="lessonInfo"></div>
   <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌</div>
@@ -245,6 +250,20 @@ function togglePinyin() {
   const next = !cur;
   SRS.setSetting("showPinyin", next);
   applyPinyinSetting(next);
+}
+
+// ── 字級 medium / large / xlarge ─────────────────────────────
+function applyFontSize(size) {
+  document.body.classList.remove("size-large", "size-xlarge");
+  if (size === "large")  document.body.classList.add("size-large");
+  if (size === "xlarge") document.body.classList.add("size-xlarge");
+  const sel = document.getElementById("fontSize");
+  if (sel) sel.value = size;
+}
+function updateFontSize() {
+  const size = document.getElementById("fontSize").value;
+  SRS.setSetting("fontSize", size);
+  applyFontSize(size);
 }
 
 const params = new URLSearchParams(location.search);
@@ -657,6 +676,7 @@ function checkPoolWarning() {
 // ── 啟動 ──────────────────────────────────────────────────
 (async function init() {
   applyPinyinSetting(SRS.getSettings().showPinyin !== false);
+  applyFontSize(SRS.getSettings().fontSize || "medium");
   const data = await loadData();
   WORDS = pickWords(data);
   if (WORDS.length === 0) {
