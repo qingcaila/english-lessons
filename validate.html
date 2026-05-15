@@ -83,9 +83,14 @@
 
 <script>
 // ── 真的不規則字(允許單塊 chunks)──────────────────────
+// 跟 full_audit.py 同步
 const TRULY_IRREGULAR = new Set([
-  "one","eye","old","earth","eat","ear","arm","ice","egg","hour",
-  "two","eight","I","a","the","are","or","up","on","in","out","old","up"
+  "a","I","an","as","at","be","by","do","go","he","if","in","is","it",
+  "me","my","no","of","on","or","so","to","up","us","we","am","off","out",
+  "one","two","eight","ice","eye","ear","arm","egg","our","hour","knee","knight",
+  "know","knife","knew","knock","knot","wrong","wrap","wrote","write","answer",
+  "the","you","she","his","her","him","its","was","are","for","not","but","all",
+  "can","had","has","did","old","earth","eat"
 ]);
 
 async function run() {
@@ -151,8 +156,16 @@ async function run() {
   const longMeanings = [];
   words.forEach((w, i) => {
     if (!w.img || w.img.trim() === "") emojiIssues.push({ idx: i, word: w.word, issue: "img 空白" });
-    if (w.mean && w.mean.length > 10) longMeanings.push({ idx: i, word: w.word, mean: w.mean, len: w.mean.length });
+    // 閾值放寬至 20(多義字/專有名詞解釋常超過 10)
+    if (w.mean && w.mean.length > 20) longMeanings.push({ idx: i, word: w.word, mean: w.mean, len: w.mean.length });
   });
+
+  // ── 7b. 家族線 + 易混提示覆蓋率 ──────────────────────
+  const withBase = words.filter(w => w.base).length;
+  const withHomo = words.filter(w => w['homophone-note']).length;
+  const baseOrphan = words.filter(w => w.base && !words.some(x => x.word === w.base)).map(w => ({
+    idx: words.indexOf(w), word: w.word, base: w.base
+  }));
 
   // ── 8. 注音空白 ──────────────────────────────────────
   const pyIssues = [];
@@ -189,6 +202,10 @@ async function run() {
       <div class="stats" style="margin-top:10px;font-size:12px;">
         ${[0,1,2,3,4].map(s => `<span>Stage ${s}: <b>${stageCount[s]}</b></span>`).join("")}
       </div>
+      <div class="stats" style="margin-top:10px;font-size:12px;border-top:1px dashed var(--border);padding-top:10px;">
+        <span>🟠 家族線:<b>${withBase}</b> 字 (${(withBase/total*100).toFixed(1)}%)</span>
+        <span>⚠️ 易混提示:<b>${withHomo}</b> 字 (${(withHomo/total*100).toFixed(1)}%)</span>
+      </div>
     </div>
   `;
 
@@ -213,10 +230,14 @@ async function run() {
     `<code>${x.word}</code> 重複出現在 index ${x.indices.join(", ")}`
   ));
 
+  html += checkCard("家族線 base 都對應到字庫", baseOrphan, "所有家族線 base 都存在", items => items.map(x =>
+    `${x.idx}. <code>${x.word}</code> base="${x.base}" 不存在`
+  ));
+
   html += `<h2>品質檢查(可容忍但可改進)</h2>`;
   html += checkCard("emoji 都有", emojiIssues, "每個字都有 img", items => items.map(x => `${x.idx}. <code>${x.word}</code> — ${x.issue}`), "warn");
   html += checkCard("注音都有", pyIssues, "每個字都有 py", items => items.map(x => `${x.idx}. <code>${x.word}</code>`), "warn");
-  html += checkCard("中文意思長度 ≤ 10 字", longMeanings, "中文簡潔", items => items.map(x => `${x.idx}. <code>${x.word}</code> mean="${x.mean}" (${x.len} 字)`), "warn");
+  html += checkCard("中文意思長度 ≤ 20 字", longMeanings, "中文不會過於冗長", items => items.map(x => `${x.idx}. <code>${x.word}</code> mean="${x.mean}" (${x.len} 字)`), "warn");
 
   html += `<h2>主題字數分布</h2>`;
   html += `<div class="check">
