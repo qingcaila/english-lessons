@@ -161,6 +161,18 @@
   - 預設中:打開就舒適閱讀
 - [x] 移除 topbar「結束 →」按鈕(下一輪 → 已涵蓋,← 回首頁也行)
 - [x] CLAUDE.md / help.html / validate.html 同步
+- [x] index.html 載入優化:vocab.json 4.3MB 拖慢主題顯示
+  - 拆三階段:localStorage → themes.json(快)→ vocab.json(慢,背景)
+  - 主題 tile 100ms 內出現,字數背景補上
+  - 加防呆 + 錯誤提示
+
+### 留待之後低 ROI / 進階優化
+
+- [ ] vocab.json minify(`indent=2` → 單行)節省 ~40%(4.3MB → ~2.5MB)
+  - 缺點:git diff 難看
+- [ ] vocab.json 分檔載入(stage-0.json / stage-1.json...)
+  - 只載當前 stage 用到的,更省記憶體
+  - 缺點:架構複雜
 
 ### 真錯誤修正紀錄(2026-05-15)
 
