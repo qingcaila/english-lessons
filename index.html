@@ -194,7 +194,7 @@
       <label class="ios-toggle-label" title="開啟後,新一輪只抽當前 Stage 的字,不混到舊階段。預設關閉(連舊階段一起練,字池更多)。">
         <input type="checkbox" id="stageExclusive" class="ios-toggle-input">
         <span class="ios-toggle"></span>
-        <span class="ios-toggle-text">不混舊字 <span style="color:var(--accent);">ⓘ</span></span>
+        <span class="ios-toggle-text">不混舊字 <a href="help.html#stage" style="color:var(--accent);text-decoration:none;" title="字池模式說明">§9</a></span>
       </label>
     </div>
     <div style="font-size:10px;color:var(--muted);margin-bottom:4px;line-height:1.5;" id="stagePoolHint"></div>
@@ -214,7 +214,7 @@
 
   <!-- 開新一輪 -->
   <div class="card">
-    <h2>開新一輪</h2>
+    <h2>開新一輪 <span style="font-size:10px;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:normal;">(6 種模式說明 → <a href="help.html#modes" style="color:var(--accent);">§5</a>)</span></h2>
     <div class="modes" id="modeButtons">
       <button class="mode-btn" data-mode="frequency">
         <div class="mname">📊 按頻率排</div>
@@ -277,7 +277,7 @@
     </div>
 
     <div class="dim-select">
-      <div class="title">✨ 這輪在練哪個面向 <span style="color:var(--muted);">(會記住設定)</span></div>
+      <div class="title">✨ 這輪在練哪個面向 <span style="color:var(--muted);">(會記住設定 · 詳見 <a href="help.html#dim" style="color:var(--accent);">§4</a>)</span></div>
       <div class="dim-row">
         <button class="dim-btn" data-dim="meaning"><span class="di">💡</span><span class="dn">意思</span></button>
         <button class="dim-btn" data-dim="pronounce"><span class="di">🗣️</span><span class="dn">發音</span></button>
