@@ -175,7 +175,7 @@
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;">
     <h1>English Lessons</h1>
-    <a href="help.html" style="font-size:12px;color:var(--accent);text-decoration:none;background:var(--accent-soft);padding:4px 10px;border-radius:6px;font-weight:600;">📖 使用說明</a>
+    <a href="help.html" style="font-size:12px;color:var(--accent);text-decoration:none;background:var(--accent-soft);padding:4px 10px;border-radius:6px;font-weight:600;">使用說明</a>
   </div>
   <div class="sub">拆字唸 · 圖像 + 注音 + 拆法 · 點按可播音</div>
 
@@ -194,8 +194,11 @@
       <label class="ios-toggle-label" title="開啟後,新一輪只抽當前 Stage 的字,不混到舊階段。預設關閉(連舊階段一起練,字池更多)。">
         <input type="checkbox" id="stageExclusive" class="ios-toggle-input">
         <span class="ios-toggle"></span>
-        <span class="ios-toggle-text">不混舊字 <a href="help.html#stage" style="color:var(--accent);text-decoration:none;" title="字池模式說明">§9</a></span>
+        <span class="ios-toggle-text">不混舊字</span>
       </label>
+    </div>
+    <div style="font-size:10.5px;margin-bottom:4px;text-align:right;">
+      <a href="help.html#stage" style="color:var(--accent);text-decoration:none;">使用說明 §9 字池模式</a>
     </div>
     <div style="font-size:10px;color:var(--muted);margin-bottom:4px;line-height:1.5;" id="stagePoolHint"></div>
     <div class="stage-meta" id="stageMeta"></div>
@@ -206,7 +209,7 @@
     </div>
     <div style="font-size:10px;color:var(--muted);margin-top:8px;line-height:1.4;">
       💡 <b>意思</b>(看懂)/ 🗣️ <b>發音</b>(會唸)/ 🌗 <b>整體</b>(兩者混算 + 舊資料)。分母是當前 Stage 的最低字量目標。<br>
-      進度條只在字升到 <b>L4</b> 才 +1,需要同一字按 <b>✅</b> 累積 4 次以上(分多輪複習)。日常按 ✅ 是在累積中,不會即時動。詳見 <a href="help.html#dim" style="color:var(--accent);">使用說明 §4</a>。
+      進度條只在字升到 <b>L4</b> 才 +1,需要同一字按 <b>✅</b> 累積 4 次以上(分多輪複習)。日常按 ✅ 是在累積中,不會即時動。<a href="help.html#dim" style="color:var(--accent);">使用說明 §4 練哪個面向</a>
     </div>
     <div class="dim-progress" id="dimProgress"></div>
     <div style="display:flex;gap:6px;margin-top:10px;" id="quickActions"></div>
@@ -214,7 +217,7 @@
 
   <!-- 開新一輪 -->
   <div class="card">
-    <h2>開新一輪 <span style="font-size:10px;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:normal;">(6 種模式說明 → <a href="help.html#modes" style="color:var(--accent);">§5</a>)</span></h2>
+    <h2>開新一輪 <span style="font-size:10px;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:normal;">(<a href="help.html#modes" style="color:var(--accent);">使用說明 §5</a> 6 種模式)</span></h2>
     <div class="modes" id="modeButtons">
       <button class="mode-btn" data-mode="frequency">
         <div class="mname">📊 按頻率排</div>
@@ -277,7 +280,7 @@
     </div>
 
     <div class="dim-select">
-      <div class="title">✨ 這輪在練哪個面向 <span style="color:var(--muted);">(會記住設定 · 詳見 <a href="help.html#dim" style="color:var(--accent);">§4</a>)</span></div>
+      <div class="title">✨ 這輪在練哪個面向 <span style="color:var(--muted);">(會記住設定 · <a href="help.html#dim" style="color:var(--accent);">使用說明 §4</a>)</span></div>
       <div class="dim-row">
         <button class="dim-btn" data-dim="meaning"><span class="di">💡</span><span class="dn">意思</span></button>
         <button class="dim-btn" data-dim="pronounce"><span class="di">🗣️</span><span class="dn">發音</span></button>
