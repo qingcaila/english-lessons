@@ -269,6 +269,8 @@
     <button onclick="stopAll()" title="停止">⏹</button>
     <label>
       <select id="rate" onchange="updateRate()">
+        <option value="0.3">極慢</option>
+        <option value="0.45">超慢</option>
         <option value="0.6" selected>慢</option>
         <option value="0.75">正常</option>
         <option value="0.9">較快</option>
@@ -310,8 +312,21 @@
 <script src="srs.js"></script>
 <script>
 // ── 設定 ──────────────────────────────────────────────────
-let rate = 0.6;
-function updateRate() { rate = parseFloat(document.getElementById("rate").value); }
+const RATE_KEY = "englessons:rate";
+let rate = parseFloat(localStorage.getItem(RATE_KEY)) || 0.6;
+function updateRate() {
+  rate = parseFloat(document.getElementById("rate").value);
+  localStorage.setItem(RATE_KEY, rate);
+}
+// 載入時把 dropdown 設成記住的值
+window.addEventListener("DOMContentLoaded", () => {
+  const sel = document.getElementById("rate");
+  if (sel) {
+    const saved = String(rate);
+    const opt = Array.from(sel.options).find(o => o.value === saved);
+    if (opt) sel.value = saved;
+  }
+});
 
 function applyPinyinSetting(show) {
   document.body.classList.toggle("hide-pinyin", !show);
