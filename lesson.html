@@ -120,6 +120,18 @@
     background: #f0e8da; border: none; border-radius: 8px;
     font-size: 14px; cursor: pointer; margin-top: 8px;
   }
+  /* 回到頂部 浮動按鈕 */
+  .back-to-top {
+    position: fixed; bottom: 20px; right: 16px;
+    width: 44px; height: 44px; border: none; border-radius: 50%;
+    background: var(--accent); color: #fff; font-size: 22px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    cursor: pointer; z-index: 50;
+    opacity: 0; pointer-events: none;
+    transition: opacity .2s, transform .15s;
+  }
+  .back-to-top.show { opacity: .9; pointer-events: auto; }
+  .back-to-top:active { transform: scale(0.92); }
 
   /* 卡片 */
   /* 拆字唸:字母完全相連,底線用 ::after 畫且比 chunk 短,留視覺斷點 */
@@ -299,6 +311,8 @@
 
   <div id="summary"></div>
 </div>
+
+<button class="back-to-top" id="backToTopBtn" onclick="scrollToTop()" title="回到頂部" aria-label="回到頂部">↑</button>
 
 <!-- Voice 選擇 modal -->
 <div class="voice-modal" id="voiceModal" onclick="if(event.target===this) closeVoiceModal()">
@@ -503,6 +517,15 @@ function previewVoice(name) {
 function closeVoiceModal() {
   document.getElementById("voiceModal").classList.remove("show");
 }
+
+// 回到頂部 — 滾超過 300px 才顯示按鈕
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+window.addEventListener("scroll", () => {
+  const btn = document.getElementById("backToTopBtn");
+  if (btn) btn.classList.toggle("show", window.scrollY > 300);
+}, { passive: true });
 
 // ── 選字邏輯 ──────────────────────────────────────────────
 let WORDS = [];          // 此輪要呈現的字
