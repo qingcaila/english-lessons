@@ -294,7 +294,7 @@ function pickBestVoice() {
   const all = speechSynthesis.getVoices();
   const en = all.filter(v => v.lang.startsWith("en"));
   if (en.length === 0) return null;
-  const isEnhanced = v => /Enhanced|Premium|增強|高級|Neural|Natural|Siri/i.test(v.name);
+  const isEnhanced = v => /Enhanced|Premium|增強|高級|高音質|Neural|Natural|Siri/i.test(v.name);
   const isFemale = v => /Sangeeta|Samantha|Ava|Allison|Susan|Karen|Tessa|Moira|Fiona|Veena|Zira|Aria|Jenny|Joanna|Salli|Kimberly|Kendra|Ivy|Emma|Amy|Nicole|Olivia|Catherine|Serena|Lana|female|女/i.test(v.name);
   return en.find(x => isEnhanced(x) && isFemale(x)) || en.find(isFemale) || en.find(isEnhanced) || en[0];
 }
