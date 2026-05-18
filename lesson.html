@@ -78,6 +78,10 @@
   .voice-chip.tier-enhanced { background: #f3dfd4; color: #c4633f; }  /* 增強 — 橘 */
   .voice-chip.tier-basic { background: #fff4d4; color: #8a6d1b; }     /* 普通 — 黃 */
   .voice-chip.tier-none { background: #ffe5e5; color: #c00; }         /* 無 — 紅 */
+  .voice-help-link {
+    font-size: 10px; color: var(--accent); margin-left: 4px;
+    text-decoration: underline; text-underline-offset: 2px;
+  }
 
   /* 卡片 */
   /* 拆字唸:字母完全相連,底線用 ::after 畫且比 chunk 短,留視覺斷點 */
@@ -245,7 +249,7 @@
     <button class="next-round" id="nextBtn" onclick="goNextRound()">下一輪 →</button>
   </div>
   <div class="lesson-info" id="lessonInfo"></div>
-  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌<span class="voice-chip" id="voiceChip" onclick="showVoiceInfo()" title="目前發音 voice,點看詳情">🎤 載入中…</span></div>
+  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌<span class="voice-chip" id="voiceChip" onclick="showVoiceInfo()" title="目前發音 voice,點看詳情">🎤 載入中…</span><a class="voice-help-link" href="help.html#voice-setup" title="看完整聲音設定教學">使用說明</a></div>
 
   <table><tbody id="rows"><tr><td><div class="loading">載入中...</div></td></tr></tbody></table>
 
