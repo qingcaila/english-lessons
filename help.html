@@ -192,11 +192,9 @@
     <div class="step">
       <div class="n">3</div>
       <div class="body">
-        <b>聲音品質(可選,iPhone Safari 有限制)</b>
-        <div style="font-size:12px;margin:6px 0;background:#fff4d4;padding:6px 8px;border-radius:6px;color:#8a4a1a;">
-          <b>⚠️ iPhone 重要說明</b>:Apple 把下載的高音質語音包鎖在系統朗讀功能,<b>Safari 網頁讀不到</b>。即使下載 Ava 高音質,本網站仍只能用 iOS 內建的基本 voice(Samantha、Karen 等)。網頁右上角 chip 會顯示「普通」是正常的。
-        </div>
-        <div style="font-size:12px;color:var(--muted);">桌面 macOS / Windows 不受此限制,下載的高音質版可用。詳見 <a href="#voice-setup" style="color:var(--accent);">§11 完整說明</a>。</div>
+        <b>選喜歡的發音 voice(可選)</b>
+        <div style="font-size:12px;margin:4px 0;">進課程頁面後,hint 列右邊有 <span style="background:var(--accent-soft);color:var(--accent);padding:1px 5px;border-radius:6px;font-size:11px;">🎤 voice 名稱</span> chip,點下去選 5 種口音:🇺🇸 Samantha / 🇦🇺 Karen / 🇬🇧 Daniel / 🇮🇪 Moira / 🇮🇳 Rishi。每個都有「試聽」。</div>
+        <div style="font-size:11px;color:var(--muted);">⚠️ iPhone Safari 無法用 iOS 設定下載的「Ava 高音質」等(Apple 限制),只能用內建 voice。差別在口音不在音質。詳見 <a href="#voice-setup" style="color:var(--accent);">§11 完整說明</a>。</div>
       </div>
     </div>
     <div class="step">
@@ -599,19 +597,29 @@
   <!-- 11 -->
   <h2 id="trouble">11. 遇到問題?</h2>
   <div class="card">
-    <h3 id="voice-setup">🔊 聲音不夠清楚 / 平淡像機器?</h3>
+    <h3 id="voice-setup">🔊 發音 voice 選擇 / 升級</h3>
+
+    <h4 style="margin:10px 0 6px;">🎤 在 app 內切換 voice(課程頁面右上)</h4>
+    <p style="font-size:12px;">課程頁面 hint 列右邊的 <span style="background:var(--accent-soft);color:var(--accent);padding:2px 6px;border-radius:8px;font-size:11px;">🎤 voice 名稱 · 品質</span> chip 點下去會跳出選單,提供:</p>
+    <ul class="feature-list" style="margin-top:4px;">
+      <li><b>🪄 自動(優先美式)</b> — 系統自動挑(預設,通常會選 Samantha)</li>
+      <li>🇺🇸 <b>Samantha</b>(美式 · 女) ⭐ — 推薦給學美式英文者</li>
+      <li>🇦🇺 <b>Karen</b>(澳式 · 女)</li>
+      <li>🇬🇧 <b>Daniel</b>(英式 · 男)</li>
+      <li>🇮🇪 <b>Moira</b>(愛爾蘭 · 女)</li>
+      <li>🇮🇳 <b>Rishi</b>(印度 · 男)</li>
+      <li>🇿🇦 <b>Tessa</b>(南非 · 女)</li>
+    </ul>
+    <p style="font-size:12px;color:var(--muted);">每個選項旁有「試聽」按鈕,不選也能先聽。選擇會記住,下次自動套用。</p>
+
+    <h4 style="margin:14px 0 6px;">⚠️ iPhone Safari 重要限制(2026-05 確認)</h4>
     <div class="tip" style="margin-bottom:10px;color:#8a4a1a;background:#fff4d4;border-left-color:#b8860b;">
-      <b>⚠️ iPhone Safari 重要限制(2026-05 確認)</b><br>
-      Apple 把下載的「Ava(高音質)」「Samantha(增強音質)」等高品質語音包<b>鎖在系統朗讀功能</b>(如 VoiceOver、朗讀螢幕),<b>Safari 網頁讀取不到</b>。
-      也就是說 — 即使你在 iOS 設定下載了 280 MB 的 Ava 高音質,本網站<b>仍然只能用 iOS 內建的基本 voice</b>(Samantha、Karen、Moira 等)。
-      網頁右上角 chip 會顯示「<b>普通</b>」,這不是 bug,是 Apple 設計上的限制。
-    </div>
-    <div class="tip" style="margin-bottom:10px;">
-      <b>目前能做的</b>:本網站已自動優先選用 <b>Samantha(en-US)</b>,是 iOS Safari 限制下最接近你學的美式英文的 voice。其他基本 voice(如 Karen 澳洲、Daniel 英國)會自動跳過。
+      Apple 把下載的「Ava(高音質)」「Samantha(增強音質)」等高品質語音包<b>鎖在系統朗讀功能</b>(VoiceOver、朗讀螢幕等),<b>Safari 網頁讀取不到</b>。
       <br><br>
-      <b>原始 macOS / Windows 桌面瀏覽器</b>不受此限制 — 下載的 Premium voice 都能用,在電腦上聽會明顯比手機清楚。
+      即使你下載 280 MB 的 Ava 高音質,本網站<b>仍然只能用 iOS 內建的基本 voice</b>。chip 顯示「普通」品質是正常的,所有 5 個 voice 都是這個品質等級,<b>差別只在口音不在音質</b>。
+      <br><br>
+      <b>桌面瀏覽器</b>(macOS Safari / Chrome / Windows)<b>不受此限制</b> — 下載的 Premium voice 都能用,在電腦上聽會比手機清楚。
     </div>
-    <p style="font-size:11px;color:var(--muted);margin-bottom:10px;">以下步驟仍保留 — 因為下載的高音質 voice 可以給其他 iOS 朗讀功能(VoiceOver、朗讀螢幕、Safari 朗讀整篇文章)使用,如果你會用那些功能還是值得下載。</p>
 
     <h4 style="margin:14px 0 6px;">📱 下載步驟(iPhone)</h4>
     <div class="step">
