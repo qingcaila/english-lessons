@@ -309,9 +309,22 @@ function pickBestVoice() {
   const all = speechSynthesis.getVoices();
   const en = all.filter(v => v.lang.startsWith("en"));
   if (en.length === 0) return null;
+  // 過濾 iOS 內建的音效類 voice(Bad News / Bahh / Boing 等不是真人 voice)
+  const NOVELTY = /Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Wobble|Trinoids|Whisper|Zarvox|Hysterical|Pipe Organ|Good News|Deranged|Albert|Junior|Kathy|Fred|Ralph|Bruce|Agnes/i;
+  const real = en.filter(v => !NOVELTY.test(v.name));
+  const pool = real.length > 0 ? real : en;
   const isEnhanced = v => /Enhanced|Premium|增強|高級|高音質|Neural|Natural|Siri/i.test(v.name);
   const isFemale = v => /Sangeeta|Samantha|Ava|Allison|Susan|Karen|Tessa|Moira|Fiona|Veena|Zira|Aria|Jenny|Joanna|Salli|Kimberly|Kendra|Ivy|Emma|Amy|Nicole|Olivia|Catherine|Serena|Lana|female|女/i.test(v.name);
-  return en.find(x => isEnhanced(x) && isFemale(x)) || en.find(isFemale) || en.find(isEnhanced) || en[0];
+  const isUS = v => /en[-_]US/i.test(v.lang);
+  // 優先順序:美式 > 增強 > 女聲(課程教美式英文,優先 en-US)
+  return pool.find(v => isEnhanced(v) && isFemale(v) && isUS(v))
+      || pool.find(v => isEnhanced(v) && isUS(v))
+      || pool.find(v => isFemale(v) && isUS(v))
+      || pool.find(isUS)
+      || pool.find(v => isEnhanced(v) && isFemale(v))
+      || pool.find(isFemale)
+      || pool.find(isEnhanced)
+      || pool[0];
 }
 function loadVoices() {
   chosenVoice = pickBestVoice();
@@ -348,6 +361,8 @@ function updateVoiceChip() {
 
 function showVoiceInfo() {
   const all = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+                (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
   const labelOf = v => {
     const t = getVoiceTier(v);
     const star = t.key === "premium" ? "⭐⭐⭐" : t.key === "enhanced" ? "⭐⭐" : "";
@@ -364,7 +379,11 @@ function showVoiceInfo() {
     const list = all.map(v => (v === chosenVoice ? "👉 " : "    ") + labelOf(v)).join("\n");
     msg += `\n\n──── 此裝置所有英文 voice ────\n${list}\n\n⭐⭐⭐ = 高音質(神經網路)\n⭐⭐ = 增強(高品質離線)`;
   }
-  msg += "\n\n想換更好的?\niOS 設定 → 輔助使用 → 閱讀與朗讀 →\n聲音 → 英文 → 下載 Ava(高音質)\n詳見「使用說明 §11」";
+  if (isIOS && getVoiceTier(chosenVoice).key === "basic") {
+    msg += "\n\n⚠️ iOS Safari 限制\nApple 把下載的「Ava 高音質 / Samantha 增強音質」等鎖在系統朗讀功能,Safari 網頁讀取不到。\n上面清單只有 iOS 內建的基本 voice,所以無法升級到 ⭐⭐⭐。\n\n目前已優先選 en-US(美式)的 Samantha,是這個限制下最好的選擇。詳見使用說明。";
+  } else {
+    msg += "\n\n想換更好的?\niOS 設定 → 輔助使用 → 閱讀與朗讀 →\n聲音 → 英文 → 下載 Ava(高音質)\n詳見使用說明";
+  }
   alert(msg);
 }
 
