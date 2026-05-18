@@ -68,11 +68,16 @@
 
   .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; color: var(--muted); }
   .voice-chip {
-    display: inline-block; font-size: 10px; color: var(--accent);
-    background: var(--accent-soft); padding: 2px 7px; border-radius: 10px;
+    display: inline-block; font-size: 10px;
+    padding: 2px 7px; border-radius: 10px;
     margin-left: 6px; cursor: pointer; user-select: none;
+    color: var(--accent); background: var(--accent-soft);
   }
   .voice-chip:active { opacity: .7; }
+  .voice-chip.tier-premium { background: #d4ebd6; color: #1e6e2c; }   /* 高音質 — 綠 */
+  .voice-chip.tier-enhanced { background: #f3dfd4; color: #c4633f; }  /* 增強 — 橘 */
+  .voice-chip.tier-basic { background: #fff4d4; color: #8a6d1b; }     /* 普通 — 黃 */
+  .voice-chip.tier-none { background: #ffe5e5; color: #c00; }         /* 無 — 紅 */
 
   /* 卡片 */
   /* 拆字唸:字母完全相連,底線用 ::after 畫且比 chunk 短,留視覺斷點 */
@@ -311,31 +316,49 @@ function loadVoices() {
 loadVoices();
 if (speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = loadVoices;
 
+// 從 voice 名稱推斷品質等級
+function getVoiceTier(v) {
+  if (!v) return { key: "none", label: "未偵測", desc: "尚未載入 voice,點 🔊 觸發" };
+  const n = v.name;
+  if (/高音質|Premium|Neural|Natural/i.test(n))
+    return { key: "premium", label: "高音質", desc: "Siri 等級神經網路 voice ⭐⭐⭐" };
+  if (/增強|Enhanced|高級/i.test(n))
+    return { key: "enhanced", label: "增強", desc: "高品質離線 voice ⭐⭐" };
+  if (/Siri/i.test(n))
+    return { key: "premium", label: "高音質", desc: "Siri voice ⭐⭐⭐" };
+  return { key: "basic", label: "普通", desc: "iOS 預設低品質 TTS,建議下載增強/高音質版" };
+}
+
 function updateVoiceChip() {
   const el = document.getElementById("voiceChip");
   if (!el) return;
+  const tier = getVoiceTier(chosenVoice);
+  el.className = "voice-chip tier-" + tier.key;
   if (chosenVoice) {
-    // 簡化顯示:去掉冗長後綴
-    const short = chosenVoice.name.replace(/\s*\(.*\)\s*/g, m => m.length > 12 ? "" : m);
-    el.textContent = `🎤 ${short}`;
+    const base = chosenVoice.name.replace(/\s*\([^)]*\)\s*/g, "").trim();
+    el.textContent = `🎤 ${base} · ${tier.label}`;
   } else {
-    el.textContent = "🎤 系統預設";
+    el.textContent = "🎤 未偵測";
   }
 }
 
 function showVoiceInfo() {
   const all = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
-  const isEnhanced = v => /Enhanced|Premium|增強|高級|高音質|Neural|Natural|Siri/i.test(v.name);
-  const labelOf = v => v.name + " · " + v.lang + (isEnhanced(v) ? " ⭐" : "");
-  let msg = "";
+  const labelOf = v => {
+    const t = getVoiceTier(v);
+    const star = t.key === "premium" ? "⭐⭐⭐" : t.key === "enhanced" ? "⭐⭐" : "";
+    return v.name + " · " + v.lang + (star ? " " + star : "");
+  };
+  let msg;
   if (chosenVoice) {
-    msg = `📍 目前使用:\n${labelOf(chosenVoice)}\n${isEnhanced(chosenVoice) ? "(高音質版)" : "(普通版 — 建議去 iOS 設定下載高音質版)"}`;
+    const t = getVoiceTier(chosenVoice);
+    msg = `📍 目前使用:${chosenVoice.name}\n品質等級:${t.label}\n${t.desc}`;
   } else {
     msg = "📍 目前還沒偵測到 voice。\n先點任一字的 🔊 觸發載入。";
   }
   if (all.length > 0) {
     const list = all.map(v => (v === chosenVoice ? "👉 " : "    ") + labelOf(v)).join("\n");
-    msg += `\n\n──── 此裝置所有英文 voice ────\n${list}\n\n⭐ = 高音質版本`;
+    msg += `\n\n──── 此裝置所有英文 voice ────\n${list}\n\n⭐⭐⭐ = 高音質(神經網路)\n⭐⭐ = 增強(高品質離線)`;
   }
   msg += "\n\n想換更好的?\niOS 設定 → 輔助使用 → 閱讀與朗讀 →\n聲音 → 英文 → 下載 Ava(高音質)\n詳見「使用說明 §11」";
   alert(msg);
