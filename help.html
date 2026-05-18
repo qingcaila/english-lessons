@@ -601,20 +601,57 @@
   <!-- 11 -->
   <h2 id="trouble">11. 遇到問題?</h2>
   <div class="card">
-    <h3>聲音不會唸 / 唸得很平淡像機器</h3>
+    <h3>🔊 聲音不夠清楚 / 平淡像機器?(強烈建議升級語音包)</h3>
+    <div class="tip" style="margin-bottom:10px;">
+      <b>為什麼會這樣</b>:iOS 預設只裝了普通 TTS,音節容易糊在一起、聲調平淡。Apple 提供<b>免費</b>的高音質語音包,但要手動下載。下載完字會明顯清楚一個檔次,而且本網站會<b>自動偵測並切過去用</b>,不用再做任何設定。
+    </div>
+
+    <h4 style="margin:14px 0 6px;">📱 下載步驟(iPhone)</h4>
+    <div class="step">
+      <div class="n">1</div>
+      <div class="body">打開 <b>設定 → 輔助使用 → 閱讀與朗讀</b>
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">⚠️ 舊版 iOS(17 以前)可能叫「語音內容」或「朗讀內容」</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="n">2</div>
+      <div class="body">點 <b>聲音 → 英文(美國)</b></div>
+    </div>
+    <div class="step">
+      <div class="n">3</div>
+      <div class="body">在清單中找到下表推薦的 voice,<b>先點左邊的 ▶ 試聽</b>,選你最喜歡的</div>
+    </div>
+    <div class="step">
+      <div class="n">4</div>
+      <div class="body">點 voice 右邊的 <b>☁️⬇️ 雲端圖示</b> 下載(免費)
+        <div style="font-size:11px;color:var(--muted);margin-top:2px;">建議用 Wi-Fi,高音質版本約 150-280 MB</div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="n">5</div>
+      <div class="body">下載完 <b>回到本網站下拉重整 lesson 頁</b>,系統會自動偵測並使用</div>
+    </div>
+
+    <h4 style="margin:14px 0 6px;">🎯 推薦下載順序(都免費)</h4>
+    <table style="font-size:12px;">
+      <tr><th>名字</th><th>大小</th><th>特色</th></tr>
+      <tr><td><b>Ava(高音質)</b> ⭐</td><td>~280 MB</td><td>Siri 本人聲音,神經網路新版,<b>最自然</b>(首推)</td></tr>
+      <tr><td>Ava(增強音質)</td><td>~240 MB</td><td>Siri 舊版,品質跟新版差不多,音色略不同</td></tr>
+      <tr><td>Samantha(增強音質)</td><td>~152 MB</td><td>經典「教師音」,咬字清楚穩定,適合學習者</td></tr>
+      <tr><td>Allison(增強音質)</td><td>~42 MB</td><td>體積最小但已經很不錯,空間吃緊選這個</td></tr>
+      <tr><td>男聲:Evan / Nathan(增強音質)</td><td>~120-260 MB</td><td>想換男聲版的選項</td></tr>
+    </table>
+    <p style="font-size:11px;color:var(--muted);margin-top:4px;">⚠️ iOS 18 把「<b>高級</b>」改名為「<b>高音質</b>」 — 選帶括號(高音質 / 增強音質)的版本就對了,沒括號的是普通版。</p>
+
+    <h4 style="margin:14px 0 6px;">⚙️ 系統「速率」滑桿不用動</h4>
+    <p style="font-size:12px;">輔助使用裡那個 🐢-🐰 速率滑桿是給 iOS 朗讀功能用的,<b>跟本網站無關</b>。本網站速度在 lesson 頁頂部「速度下拉」自己控制(預設「慢」=0.6)。</p>
+
+    <h4 style="margin:14px 0 6px;">🔇 完全沒聲音</h4>
     <ul class="feature-list">
-      <li>確認手機沒靜音</li>
-      <li><b>⚠️ 聲音平淡的主因</b>:沒下載「增強/高級」語音包。iOS 預設只裝普通 TTS,聲調平、機械感重。</li>
-      <li><b>解法</b>:iOS 設定 → 輔助使用 → 朗讀內容 → 聲音 → 英文 → 下載任一:
-        <ul style="margin:2px 0 0 16px;">
-          <li><b>Siri 聲音</b>(神經網路,最自然)</li>
-          <li><b>Samantha(高級/Premium)</b></li>
-          <li><b>Sangeeta(增強版/Enhanced)</b></li>
-        </ul>
-      </li>
-      <li>下載後重新整理網站,即會自動使用</li>
-      <li>第一次點 🔊 可能要等 1 秒載入聲音</li>
-      <li>網站本身的 pitch 已調為 1.05(略高,讓聲音更活潑),但**根本改善要靠 iOS 語音包**</li>
+      <li>確認手機沒靜音(側邊靜音鍵 / 音量上下)</li>
+      <li>第一次點 🔊 可能要等 1 秒載入聲音引擎</li>
+      <li>下拉重整一次頁面(Safari 從頂部下拉)</li>
+      <li>仍沒聲音 → 關掉分頁重開</li>
     </ul>
 
     <h3>頁面壞掉 / 卡住</h3>
