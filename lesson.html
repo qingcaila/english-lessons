@@ -520,6 +520,17 @@ function speakOne(n) {
   speakWordWithStress(w, () => document.getElementById("row-" + n)?.classList.remove("active"));
 }
 
+// iOS WebKit 已知 bug:cancel() 後立刻 speak() 會把新 utterance 前 100-300ms 砍掉
+// (例:September 變 "stember",漏掉開頭 /sɛ/)。包一層 helper 等 cancel 清乾淨再播。
+function safeSpeak(u) {
+  if (speechSynthesis.speaking || speechSynthesis.pending) {
+    speechSynthesis.cancel();
+    setTimeout(() => speechSynthesis.speak(u), 100);
+  } else {
+    speechSynthesis.speak(u);
+  }
+}
+
 // 整字一口氣唸,pitch 稍高一點增加活潑度(避免機械感)
 function speakWordWithStress(w, onEnd) {
   const u = new SpeechSynthesisUtterance(w.word);
@@ -528,7 +539,7 @@ function speakWordWithStress(w, onEnd) {
   u.pitch = 1.05;  // 略高,聽起來自然不平淡
   if (chosenVoice) u.voice = chosenVoice;
   if (onEnd) u.onend = onEnd;
-  speechSynthesis.speak(u);
+  safeSpeak(u);
 }
 
 function speakBase(baseWord, ev) {
@@ -537,7 +548,7 @@ function speakBase(baseWord, ev) {
   const u = new SpeechSynthesisUtterance(baseWord);
   u.lang = "en-US"; u.rate = rate;
   if (chosenVoice) u.voice = chosenVoice;
-  speechSynthesis.speak(u);
+  safeSpeak(u);
 }
 function speakChunk(word, chunk, ev) {
   if (ev) ev.stopPropagation();
@@ -553,7 +564,7 @@ function speakChunk(word, chunk, ev) {
   const u = new SpeechSynthesisUtterance(chunk);
   u.lang = "en-US"; u.rate = rate; u.pitch = 1.1;  // 單獨點 chunk 給點重音
   if (chosenVoice) u.voice = chosenVoice;
-  speechSynthesis.speak(u);
+  safeSpeak(u);
 }
 function speakAll() {
   stopAll();
