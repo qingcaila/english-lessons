@@ -82,6 +82,44 @@
     font-size: 10px; color: var(--accent); margin-left: 4px;
     text-decoration: underline; text-underline-offset: 2px;
   }
+  /* voice 選擇器 modal */
+  .voice-modal {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.55); z-index: 100;
+    align-items: center; justify-content: center; padding: 16px;
+  }
+  .voice-modal.show { display: flex; }
+  .voice-modal-card {
+    background: #fff; border-radius: 12px; padding: 14px;
+    max-width: 360px; width: 100%; max-height: 80vh; overflow-y: auto;
+  }
+  .voice-modal h3 { margin: 0 0 4px; font-size: 15px; }
+  .voice-modal .note { font-size: 11px; color: var(--muted); margin-bottom: 10px; line-height: 1.45; }
+  .voice-modal .ios-warn {
+    font-size: 11px; background: #fff4d4; color: #8a4a1a;
+    padding: 6px 8px; border-radius: 6px; margin-bottom: 10px; line-height: 1.4;
+  }
+  .voice-option {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px; margin-bottom: 5px; border-radius: 8px;
+    background: #fafafa; border: 1px solid var(--border); cursor: pointer;
+  }
+  .voice-option.active { background: var(--accent-soft); border-color: var(--accent); }
+  .voice-option .info { flex: 1; }
+  .voice-option .name { font-size: 14px; font-weight: 600; }
+  .voice-option .desc { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .voice-option .preview-btn {
+    background: var(--accent); color: #fff; border: none;
+    padding: 5px 9px; border-radius: 6px; font-size: 12px; cursor: pointer;
+  }
+  .voice-option .preview-btn:disabled { background: #ccc; }
+  .voice-option .check { color: var(--good); font-size: 16px; margin-right: 2px; }
+  .voice-option.unavail { opacity: 0.4; cursor: not-allowed; }
+  .voice-modal-close {
+    display: block; width: 100%; padding: 10px;
+    background: #f0e8da; border: none; border-radius: 8px;
+    font-size: 14px; cursor: pointer; margin-top: 8px;
+  }
 
   /* 卡片 */
   /* 拆字唸:字母完全相連,底線用 ::after 畫且比 chunk 短,留視覺斷點 */
@@ -256,6 +294,19 @@
   <div id="summary"></div>
 </div>
 
+<!-- Voice 選擇 modal -->
+<div class="voice-modal" id="voiceModal" onclick="if(event.target===this) closeVoiceModal()">
+  <div class="voice-modal-card">
+    <h3>選擇發音 voice</h3>
+    <div class="note">點任一選項立即套用,試聽不選也能聽。設定會記住,下次自動套用。</div>
+    <div class="ios-warn" id="iosWarn" style="display:none;">
+      ⚠️ <b>iPhone Safari 限制</b>:Apple 鎖住下載的「Ava 高音質」等高品質 voice,Safari 拿不到。下方都是 iOS 內建的基本 voice,品質一致,差別只在<b>口音</b>。
+    </div>
+    <div id="voiceOptList"></div>
+    <button class="voice-modal-close" onclick="closeVoiceModal()">關閉</button>
+  </div>
+</div>
+
 <script src="srs.js"></script>
 <script>
 // ── 設定 ──────────────────────────────────────────────────
@@ -305,11 +356,33 @@ const DIM_META = {
 
 // ── 語音 ──────────────────────────────────────────────────
 let chosenVoice = null;
+// 推薦的 voice 選項(可手動選,選了會存 localStorage)
+const VOICE_OPTIONS = [
+  { name: "Samantha", desc: "美式 · 女", country: "🇺🇸", recommend: true },
+  { name: "Karen",    desc: "澳式 · 女", country: "🇦🇺" },
+  { name: "Daniel",   desc: "英式 · 男", country: "🇬🇧" },
+  { name: "Moira",    desc: "愛爾蘭 · 女", country: "🇮🇪" },
+  { name: "Rishi",    desc: "印度 · 男", country: "🇮🇳" },
+  { name: "Tessa",    desc: "南非 · 女", country: "🇿🇦" }
+];
+const VOICE_PREF_KEY = "englessons:voicePref";
+
+function getVoicePref() { return localStorage.getItem(VOICE_PREF_KEY) || "auto"; }
+function setVoicePref(v) { localStorage.setItem(VOICE_PREF_KEY, v); }
+
 function pickBestVoice() {
   const all = speechSynthesis.getVoices();
   const en = all.filter(v => v.lang.startsWith("en"));
   if (en.length === 0) return null;
-  // 過濾 iOS 內建的音效類 voice(Bad News / Bahh / Boing 等不是真人 voice)
+
+  // 1. 學習者偏好優先
+  const pref = getVoicePref();
+  if (pref && pref !== "auto") {
+    const matched = en.find(v => v.name === pref);
+    if (matched) return matched;
+  }
+
+  // 2. 自動挑選:過濾音效類 voice
   const NOVELTY = /Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Wobble|Trinoids|Whisper|Zarvox|Hysterical|Pipe Organ|Good News|Deranged|Albert|Junior|Kathy|Fred|Ralph|Bruce|Agnes/i;
   const real = en.filter(v => !NOVELTY.test(v.name));
   const pool = real.length > 0 ? real : en;
@@ -360,31 +433,56 @@ function updateVoiceChip() {
 }
 
 function showVoiceInfo() {
-  const all = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
                 (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-  const labelOf = v => {
-    const t = getVoiceTier(v);
-    const star = t.key === "premium" ? "⭐⭐⭐" : t.key === "enhanced" ? "⭐⭐" : "";
-    return v.name + " · " + v.lang + (star ? " " + star : "");
-  };
-  let msg;
-  if (chosenVoice) {
-    const t = getVoiceTier(chosenVoice);
-    msg = `📍 目前使用:${chosenVoice.name}\n品質等級:${t.label}\n${t.desc}`;
-  } else {
-    msg = "📍 目前還沒偵測到 voice。\n先點任一字的 🔊 觸發載入。";
-  }
-  if (all.length > 0) {
-    const list = all.map(v => (v === chosenVoice ? "👉 " : "    ") + labelOf(v)).join("\n");
-    msg += `\n\n──── 此裝置所有英文 voice ────\n${list}\n\n⭐⭐⭐ = 高音質(神經網路)\n⭐⭐ = 增強(高品質離線)`;
-  }
-  if (isIOS && getVoiceTier(chosenVoice).key === "basic") {
-    msg += "\n\n⚠️ iOS Safari 限制\nApple 把下載的「Ava 高音質 / Samantha 增強音質」等鎖在系統朗讀功能,Safari 網頁讀取不到。\n上面清單只有 iOS 內建的基本 voice,所以無法升級到 ⭐⭐⭐。\n\n目前已優先選 en-US(美式)的 Samantha,是這個限制下最好的選擇。詳見使用說明。";
-  } else {
-    msg += "\n\n想換更好的?\niOS 設定 → 輔助使用 → 閱讀與朗讀 →\n聲音 → 英文 → 下載 Ava(高音質)\n詳見使用說明";
-  }
-  alert(msg);
+  const all = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
+  const pref = getVoicePref();
+  const list = document.getElementById("voiceOptList");
+  document.getElementById("iosWarn").style.display = (isIOS && getVoiceTier(chosenVoice).key === "basic") ? "block" : "none";
+
+  // 自動選項
+  let html = `<div class="voice-option ${pref === "auto" ? "active" : ""}" onclick="selectVoiceOption('auto')">
+    <div class="info">
+      <div class="name">🪄 自動(優先美式)${pref === "auto" ? '<span class="check"> ✓</span>' : ""}</div>
+      <div class="desc">系統自動挑選${chosenVoice ? " · 目前:" + chosenVoice.name : ""}</div>
+    </div>
+  </div>`;
+
+  // 推薦的具名 voice
+  VOICE_OPTIONS.forEach(opt => {
+    const v = all.find(x => x.name === opt.name);
+    const avail = !!v;
+    const active = pref === opt.name && avail;
+    html += `<div class="voice-option ${active ? "active" : ""} ${avail ? "" : "unavail"}"
+      ${avail ? `onclick="selectVoiceOption('${opt.name}')"` : ""}>
+      <div class="info">
+        <div class="name">${opt.country} ${opt.name}${opt.recommend ? " ⭐" : ""}${active ? '<span class="check"> ✓</span>' : ""}</div>
+        <div class="desc">${opt.desc}${avail ? " · " + v.lang : " · 此裝置無此 voice"}</div>
+      </div>
+      ${avail ? `<button class="preview-btn" onclick="event.stopPropagation(); previewVoice('${opt.name}')">試聽</button>` : ""}
+    </div>`;
+  });
+
+  list.innerHTML = html;
+  document.getElementById("voiceModal").classList.add("show");
+}
+
+function selectVoiceOption(name) {
+  setVoicePref(name);
+  loadVoices();
+  closeVoiceModal();
+}
+
+function previewVoice(name) {
+  const v = speechSynthesis.getVoices().find(x => x.name === name);
+  if (!v) return;
+  const u = new SpeechSynthesisUtterance("September. This is a sample.");
+  u.voice = v; u.lang = v.lang; u.rate = rate; u.pitch = 1.05;
+  safeSpeak(u);
+}
+
+function closeVoiceModal() {
+  document.getElementById("voiceModal").classList.remove("show");
 }
 
 // ── 選字邏輯 ──────────────────────────────────────────────
