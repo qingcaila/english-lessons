@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>TTS 試聽比較 — 月份英文</title>
+<style>
+  :root {
+    --bg: #faf8f3; --card: #fff; --ink: #2a2a2a; --muted: #6b6b6b;
+    --accent: #c4633f; --accent-soft: #f3dfd4; --border: #e5dfd2;
+    --good: #2d7a2d; --warn: #b8860b;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg); color: var(--ink);
+    margin: 0; padding: 14px 12px 40px; line-height: 1.5; font-size: 15px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0 0 6px; }
+  .sub { font-size: 12px; color: var(--muted); margin-bottom: 14px; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px; margin-bottom: 12px;
+  }
+  .card h2 {
+    font-size: 13px; color: var(--muted); margin: 0 0 10px;
+    font-weight: 500; letter-spacing: .04em; text-transform: uppercase;
+  }
+  .card .badge {
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 6px;
+    text-transform: none; letter-spacing: 0;
+  }
+  .card.note { background: #fffcf3; border-color: #f0e5b8; font-size: 13px; }
+  .card.note b { color: var(--warn); }
+
+  .voice-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px 12px; margin-bottom: 6px;
+    background: #fafafa; border: 1px solid var(--border); border-radius: 8px;
+    cursor: pointer; user-select: none;
+  }
+  .voice-row.selected { background: var(--accent-soft); border-color: var(--accent); }
+  .voice-row .name { flex: 1; font-size: 14px; }
+  .voice-row .tag { font-size: 10px; color: var(--muted); }
+  .voice-row .tag.cloud { color: #356bb8; }
+  .voice-row .tag.warn { color: var(--warn); }
+  .voice-row .preview {
+    padding: 6px 10px; background: var(--accent); color: #fff;
+    border: none; border-radius: 6px; font-size: 13px; cursor: pointer;
+    min-width: 60px;
+  }
+  .voice-row .preview:disabled { background: #ccc; }
+
+  .month-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    margin-top: 4px;
+  }
+  .month-btn {
+    padding: 16px 6px; background: #fff; border: 1px solid var(--border);
+    border-radius: 8px; font-size: 16px; font-weight: 600; color: var(--ink);
+    cursor: pointer; text-align: center;
+    transition: background .15s, transform .1s;
+  }
+  .month-btn:active { transform: scale(0.96); background: var(--accent-soft); }
+  .month-btn.playing { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .month-btn .label { font-size: 10px; color: var(--muted); display: block; margin-top: 2px; }
+  .month-btn.playing .label { color: #fff8; }
+
+  .controls { display: flex; gap: 8px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+  .controls label { font-size: 12px; color: var(--muted); }
+  .rate-select {
+    padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px;
+    background: #fff; font-size: 13px;
+  }
+  .btn-all {
+    padding: 10px 14px; background: var(--accent); color: #fff;
+    border: none; border-radius: 8px; font-size: 14px; cursor: pointer;
+    margin-left: auto;
+  }
+  .btn-all:active { opacity: .8; }
+
+  .legend { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .legend ul { padding-left: 18px; margin: 6px 0; }
+  .legend li { margin-bottom: 4px; }
+  .ok { color: var(--good); }
+  .meh { color: var(--warn); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>🎧 TTS 試聽比較</h1>
+<p class="sub">把「January～December」用各種免費 TTS 試播一遍 — 選一種你最喜歡的當作專案播音音源</p>
+
+<div class="card">
+  <h2>① 選一種 voice</h2>
+  <div id="voice-list"></div>
+</div>
+
+<div class="card">
+  <h2>② 試播月份</h2>
+  <div class="month-grid" id="months"></div>
+  <div class="controls">
+    <label>速度</label>
+    <select class="rate-select" id="rate">
+      <option value="0.75">慢 (0.75×)</option>
+      <option value="0.9">微慢 (0.9×)</option>
+      <option value="1" selected>正常 (1.0×)</option>
+      <option value="1.15">微快 (1.15×)</option>
+    </select>
+    <button class="btn-all" onclick="playAll()">▶ 依序播 12 個月</button>
+  </div>
+</div>
+
+<div class="card note">
+  <h2>📝 各 voice 來源說明</h2>
+  <div class="legend">
+    <ul>
+      <li><b class="ok">本機 (Web Speech API)</b>:你目前 lesson.html 用的就是這個 — 完全免費可商用,品質看裝置(iPhone 上的 Siri 系列最好;Android Chrome / Windows 普通)。直接套用 = 0 工作量,但跨裝置音質不一致。</li>
+      <li><b>AWS Polly Neural</b>:Readle 級的雲端 Neural TTS。這頁用的是 StreamElements 的公開測試 endpoint(Twitch 主播在用),<b class="meh">不能正式商用</b>但可以聽音質。正式版要你自己申請 AWS 帳號 + 用 API key + 預生成 mp3 存 CDN(免費額度 12 個月內每月 100 萬字元,夠你 10K 字跑很多次)。</li>
+      <li><b>Google Translate TTS</b>:Google 翻譯網站用的端點。同樣是公開但非授權商用。某些瀏覽器可能因 CORS 播不出來,聽得到就好。</li>
+    </ul>
+    <p style="margin-top:8px;"><b>建議流程</b>:先聽哪種 Polly voice 你最喜歡 → 我幫你寫腳本用 AWS 免費額度一次生 10K mp3 → 傳 Cloudflare R2 → 改 lesson.html 用 Polly 音檔,fail 時 fallback 到 Web Speech。</p>
+  </div>
+</div>
+
+</div>
+
+<script>
+const MONTHS = [
+  ['January','一月'],['February','二月'],['March','三月'],['April','四月'],
+  ['May','五月'],['June','六月'],['July','七月'],['August','八月'],
+  ['September','九月'],['October','十月'],['November','十一月'],['December','十二月']
+];
+
+// Polly voices available via StreamElements public endpoint
+const CLOUD_VOICES = [
+  { id: 'se-Joanna',   label: 'AWS Polly · Joanna',   detail: 'US 女 · Neural · 教育類常用',      source: 'streamelements', voice: 'Joanna' },
+  { id: 'se-Matthew',  label: 'AWS Polly · Matthew',  detail: 'US 男 · Neural',                   source: 'streamelements', voice: 'Matthew' },
+  { id: 'se-Salli',    label: 'AWS Polly · Salli',    detail: 'US 女 · 偏年輕',                   source: 'streamelements', voice: 'Salli' },
+  { id: 'se-Kimberly', label: 'AWS Polly · Kimberly', detail: 'US 女',                            source: 'streamelements', voice: 'Kimberly' },
+  { id: 'se-Kendra',   label: 'AWS Polly · Kendra',   detail: 'US 女 · 沉穩',                     source: 'streamelements', voice: 'Kendra' },
+  { id: 'se-Ivy',      label: 'AWS Polly · Ivy',      detail: 'US 童聲 · 適合兒童學習',           source: 'streamelements', voice: 'Ivy' },
+  { id: 'se-Justin',   label: 'AWS Polly · Justin',   detail: 'US 男童 · 適合兒童學習',           source: 'streamelements', voice: 'Justin' },
+  { id: 'se-Joey',     label: 'AWS Polly · Joey',     detail: 'US 男 · 偏年輕',                   source: 'streamelements', voice: 'Joey' },
+  { id: 'se-Brian',    label: 'AWS Polly · Brian',    detail: 'UK 男 · 英式口音',                 source: 'streamelements', voice: 'Brian' },
+  { id: 'se-Amy',      label: 'AWS Polly · Amy',      detail: 'UK 女 · 英式口音',                 source: 'streamelements', voice: 'Amy' },
+  { id: 'se-Emma',     label: 'AWS Polly · Emma',     detail: 'UK 女 · 英式口音',                 source: 'streamelements', voice: 'Emma' },
+  { id: 'se-Nicole',   label: 'AWS Polly · Nicole',   detail: 'AU 女 · 澳洲口音',                 source: 'streamelements', voice: 'Nicole' },
+  { id: 'gt-en',       label: 'Google Translate · en',detail: '美式 · 部分瀏覽器 CORS 可能擋',    source: 'gtranslate',     voice: 'en' },
+];
+
+let selectedVoice = null;
+let currentAudio = null;
+
+function rateVal() { return parseFloat(document.getElementById('rate').value); }
+
+function getBrowserVoices() {
+  const all = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+  return all.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+}
+
+function renderVoiceList() {
+  const list = document.getElementById('voice-list');
+  list.innerHTML = '';
+
+  // Browser voices first
+  const browserVoices = getBrowserVoices();
+  if (browserVoices.length > 0) {
+    const header = document.createElement('div');
+    header.style.cssText = 'font-size:11px;color:#888;margin:4px 0 6px;letter-spacing:.05em;';
+    header.textContent = '── 本機系統 voice(Web Speech API,免費可商用)──';
+    list.appendChild(header);
+
+    browserVoices.forEach(v => addVoiceRow({
+      id: 'browser-' + v.name,
+      label: v.name,
+      detail: `${v.lang}${v.localService ? ' · 離線' : ' · 雲端'}${/Enhanced|Premium|Natural|Neural|Siri/i.test(v.name) ? ' · ⭐ 高品質' : ''}`,
+      source: 'browser',
+      browserVoice: v,
+      tagClass: ''
+    }));
+  } else {
+    const empty = document.createElement('div');
+    empty.style.cssText = 'font-size:12px;color:#888;padding:6px;';
+    empty.textContent = '(此裝置目前沒抓到英文 voice — 稍等幾秒重整,或瀏覽器不支援)';
+    list.appendChild(empty);
+  }
+
+  // Cloud reference voices
+  const header2 = document.createElement('div');
+  header2.style.cssText = 'font-size:11px;color:#888;margin:14px 0 6px;letter-spacing:.05em;';
+  header2.textContent = '── 雲端參考(音質試聽用,非商用授權)──';
+  list.appendChild(header2);
+
+  CLOUD_VOICES.forEach(v => addVoiceRow({ ...v, tagClass: 'cloud' }));
+
+  // Auto-select first browser voice
+  if (browserVoices.length > 0) selectVoice('browser-' + browserVoices[0].name);
+  else if (CLOUD_VOICES.length) selectVoice(CLOUD_VOICES[0].id);
+}
+
+function addVoiceRow(v) {
+  const row = document.createElement('div');
+  row.className = 'voice-row';
+  row.dataset.id = v.id;
+  row.innerHTML = `
+    <div style="flex:1;">
+      <div class="name">${v.label}</div>
+      <div class="tag ${v.tagClass}">${v.detail || ''}</div>
+    </div>
+    <button class="preview">試聽</button>
+  `;
+  row.addEventListener('click', (e) => {
+    if (e.target.classList.contains('preview')) return;
+    selectVoice(v.id);
+  });
+  row.querySelector('.preview').addEventListener('click', (e) => {
+    e.stopPropagation();
+    selectVoice(v.id);
+    play('January');
+  });
+  // Store the resolved voice
+  row._voice = v;
+  document.getElementById('voice-list').appendChild(row);
+}
+
+function selectVoice(id) {
+  document.querySelectorAll('.voice-row').forEach(r => r.classList.toggle('selected', r.dataset.id === id));
+  const row = document.querySelector(`.voice-row[data-id="${CSS.escape(id)}"]`);
+  if (row) selectedVoice = row._voice;
+}
+
+function stopAll() {
+  if (window.speechSynthesis) speechSynthesis.cancel();
+  if (currentAudio) { try { currentAudio.pause(); currentAudio.src = ''; } catch(e){} currentAudio = null; }
+  document.querySelectorAll('.month-btn.playing').forEach(b => b.classList.remove('playing'));
+}
+
+function play(text, btn, onEnd) {
+  stopAll();
+  if (btn) btn.classList.add('playing');
+  const v = selectedVoice;
+  if (!v) { alert('請先選一個 voice'); return; }
+  const done = () => { if (btn) btn.classList.remove('playing'); onEnd && onEnd(); };
+
+  if (v.source === 'browser') {
+    const u = new SpeechSynthesisUtterance(text);
+    u.voice = v.browserVoice;
+    u.lang = v.browserVoice.lang;
+    u.rate = rateVal();
+    u.onend = done;
+    u.onerror = done;
+    speechSynthesis.speak(u);
+  } else if (v.source === 'streamelements') {
+    const url = `https://api.streamelements.com/kappa/v2/speech?voice=${encodeURIComponent(v.voice)}&text=${encodeURIComponent(text)}`;
+    const a = new Audio(url);
+    a.playbackRate = rateVal();
+    a.preservesPitch = true;
+    a.onended = done;
+    a.onerror = () => { done(); alert('播放失敗 — 此 endpoint 可能暫時封鎖,試其他 voice'); };
+    currentAudio = a;
+    a.play().catch(err => { done(); alert('播放失敗: ' + err.message); });
+  } else if (v.source === 'gtranslate') {
+    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${v.voice}&client=tw-ob`;
+    const a = new Audio(url);
+    a.playbackRate = rateVal();
+    a.preservesPitch = true;
+    a.onended = done;
+    a.onerror = () => { done(); alert('Google Translate TTS 在此瀏覽器無法播放(CORS 擋)— 試 Polly 或本機 voice'); };
+    currentAudio = a;
+    a.play().catch(err => { done(); alert('播放失敗: ' + err.message); });
+  }
+}
+
+function renderMonths() {
+  const grid = document.getElementById('months');
+  MONTHS.forEach(([en, zh]) => {
+    const btn = document.createElement('button');
+    btn.className = 'month-btn';
+    btn.innerHTML = `${en}<span class="label">${zh}</span>`;
+    btn.addEventListener('click', () => play(en, btn));
+    grid.appendChild(btn);
+  });
+}
+
+function playAll() {
+  stopAll();
+  const btns = Array.from(document.querySelectorAll('.month-btn'));
+  let i = 0;
+  function next() {
+    if (i >= btns.length) return;
+    const b = btns[i++];
+    const text = b.firstChild.textContent;
+    play(text, b, next);
+  }
+  next();
+}
+
+renderMonths();
+renderVoiceList();
+if (window.speechSynthesis && speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = renderVoiceList;
+}
+</script>
+</body>
+</html>
