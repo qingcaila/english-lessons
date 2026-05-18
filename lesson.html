@@ -67,6 +67,12 @@
   }
 
   .hint { font-size: 10px; margin-bottom: 4px; padding: 0 2px; color: var(--muted); }
+  .voice-chip {
+    display: inline-block; font-size: 10px; color: var(--accent);
+    background: var(--accent-soft); padding: 2px 7px; border-radius: 10px;
+    margin-left: 6px; cursor: pointer; user-select: none;
+  }
+  .voice-chip:active { opacity: .7; }
 
   /* 卡片 */
   /* 拆字唸:字母完全相連,底線用 ::after 畫且比 chunk 短,留視覺斷點 */
@@ -234,7 +240,7 @@
     <button class="next-round" id="nextBtn" onclick="goNextRound()">下一輪 →</button>
   </div>
   <div class="lesson-info" id="lessonInfo"></div>
-  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌</div>
+  <div class="hint">🔊 點卡片唸整字 · 點底線唸該音節 · 不會的可標 ❌<span class="voice-chip" id="voiceChip" onclick="showVoiceInfo()" title="目前發音 voice,點看詳情">🎤 載入中…</span></div>
 
   <table><tbody id="rows"><tr><td><div class="loading">載入中...</div></td></tr></tbody></table>
 
@@ -298,9 +304,42 @@ function pickBestVoice() {
   const isFemale = v => /Sangeeta|Samantha|Ava|Allison|Susan|Karen|Tessa|Moira|Fiona|Veena|Zira|Aria|Jenny|Joanna|Salli|Kimberly|Kendra|Ivy|Emma|Amy|Nicole|Olivia|Catherine|Serena|Lana|female|女/i.test(v.name);
   return en.find(x => isEnhanced(x) && isFemale(x)) || en.find(isFemale) || en.find(isEnhanced) || en[0];
 }
-function loadVoices() { chosenVoice = pickBestVoice(); }
+function loadVoices() {
+  chosenVoice = pickBestVoice();
+  updateVoiceChip();
+}
 loadVoices();
 if (speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = loadVoices;
+
+function updateVoiceChip() {
+  const el = document.getElementById("voiceChip");
+  if (!el) return;
+  if (chosenVoice) {
+    // 簡化顯示:去掉冗長後綴
+    const short = chosenVoice.name.replace(/\s*\(.*\)\s*/g, m => m.length > 12 ? "" : m);
+    el.textContent = `🎤 ${short}`;
+  } else {
+    el.textContent = "🎤 系統預設";
+  }
+}
+
+function showVoiceInfo() {
+  const all = speechSynthesis.getVoices().filter(v => v.lang.startsWith("en"));
+  const isEnhanced = v => /Enhanced|Premium|增強|高級|高音質|Neural|Natural|Siri/i.test(v.name);
+  const labelOf = v => v.name + " · " + v.lang + (isEnhanced(v) ? " ⭐" : "");
+  let msg = "";
+  if (chosenVoice) {
+    msg = `📍 目前使用:\n${labelOf(chosenVoice)}\n${isEnhanced(chosenVoice) ? "(高音質版)" : "(普通版 — 建議去 iOS 設定下載高音質版)"}`;
+  } else {
+    msg = "📍 目前還沒偵測到 voice。\n先點任一字的 🔊 觸發載入。";
+  }
+  if (all.length > 0) {
+    const list = all.map(v => (v === chosenVoice ? "👉 " : "    ") + labelOf(v)).join("\n");
+    msg += `\n\n──── 此裝置所有英文 voice ────\n${list}\n\n⭐ = 高音質版本`;
+  }
+  msg += "\n\n想換更好的?\niOS 設定 → 輔助使用 → 閱讀與朗讀 →\n聲音 → 英文 → 下載 Ava(高音質)\n詳見「使用說明 §11」";
+  alert(msg);
+}
 
 // ── 選字邏輯 ──────────────────────────────────────────────
 let WORDS = [];          // 此輪要呈現的字
