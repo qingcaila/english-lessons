@@ -153,6 +153,51 @@
 - [ ] L2-pinyin(AI 不擅長注音判斷)
 - [ ] L2-tip-coverage(vocab 沒對應 `tip` 欄位)
 
+### 2026-05-18 發音品質修復 + 文件更新
+
+學習者反映 iPhone 上 September 唸成 "stember"(漏掉開頭 /sɛ/),整體咬字也很糊。
+
+**根因排查 + 修復**
+
+- [x] **iOS WebKit cancel()+speak() 砍前音素 bug** — `stopAll()` 呼叫 `cancel()`
+      後立刻 `speak()`,WebKit 沒清乾淨 → 新 utterance 被砍前 100-300ms
+  - 加 `safeSpeak()` helper:若引擎還在播,先 cancel + setTimeout 100ms 再 speak
+  - 改 `speakWordWithStress` / `speakBase` / `speakChunk` 三處
+  - Chrome / Android 無此 bug,延遲無感
+- [x] **`pickBestVoice()` 正則漏接 iOS 18 新名稱** — iOS 18 把「高級」改名
+      「高音質」,原 regex 只認舊名 → 學習者下載 Ava(高音質)會挑不到
+  - regex 加 `高音質`
+
+**新增工具**
+
+- [x] `tts-demo.html` — 月份英文 TTS 試聽比較頁
+  - 列出裝置上所有英文 voice(Web Speech API)+ 雲端參考(AWS Polly via
+    StreamElements / Google Translate TTS)
+  - 12 個月按鈕 + 速度控制
+  - 用途:幫學習者 A/B 比較不同 TTS 音質,作為將來是否升級到預生成
+    mp3 的決策依據
+  - 結論:iOS Safari 擋雲端 endpoint,但本機 Ava 高音質 + 0.6 速度已夠用
+
+**文件同步**
+
+- [x] help.html §2 step 3 — iOS 聲音設定路徑舊版過時
+  - 路徑「朗讀內容」→「閱讀與朗讀」(iOS 18+),舊名作為附註
+  - 推薦清單從 Siri 聲音/Samantha 高級/Sangeeta 增強 → Ava 高音質/
+    Samantha 增強音質/Allison 增強音質
+- [x] help.html §11 聲音章節大幅擴寫
+  - 5 步驟逐項說明(設定路徑、試聽、下載、重整)
+  - 推薦 voice 表(含大小與特色)
+  - iOS 18「高級→高音質」改名提醒
+  - 補充系統速率滑桿與本網站無關
+  - 「完全沒聲音」獨立成小節
+
+**未做但可選的下一步**
+
+- [ ] 預設 rate 從 0.6 → 0.85(學習者表示維持 0.6,因 Ava neural voice
+      在低速也清楚,暫不改)
+- [ ] 預生成 mp3 CDN 方案(用 Azure / Polly 一次性生 10K 字 mp3 傳
+      Cloudflare R2)— 學習者選 Ava 本機 voice 後不需要,先擱置
+
 ### 2026-05-15 晚上補的 UX 改動
 
 - [x] 卡片字級可調:topbar 加「字 小/中/大」下拉,3 段:小(1.0×)/中(1.2× 預設)/大(1.4×)
