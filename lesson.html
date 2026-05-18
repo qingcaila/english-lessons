@@ -148,7 +148,7 @@
     cursor: pointer; transition: background .12s;
     margin-bottom: 3px; border-radius: 6px; padding: 4px 8px;
     display: grid;
-    grid-template-columns: 30px 1fr auto auto;
+    grid-template-columns: calc(40px * var(--fs-scale)) 1fr auto auto;
     grid-template-rows: auto auto auto;
     grid-template-areas:
       "num wordline meaning actions"
@@ -201,6 +201,10 @@
     grid-area: num; align-self: start; justify-self: start;
     display: inline-block; font-size: calc(11px * var(--fs-scale)); padding: 1px 5px;
     background: var(--accent-soft); color: var(--accent); border-radius: 3px;
+  }
+  .num .repeat-mark {
+    display: inline-block; transform: scale(0.7); transform-origin: left center;
+    margin-left: -2px; margin-right: -4px; vertical-align: middle;
   }
   .meaning { grid-area: meaning; align-self: center; justify-self: end;
              font-size: calc(12px * var(--fs-scale)); color: var(--muted); font-weight: 500; white-space: nowrap; }
@@ -605,7 +609,7 @@ function render() {
       ? `<td class="homophone-line">${w['homophone-note']}</td>`
       : '';
     tr.innerHTML = `
-      <td class="num">${w.n}${w.isReview ? "🔁" : ""}</td>
+      <td class="num">${w.n}${w.isReview ? '<span class="repeat-mark">🔁</span>' : ""}</td>
       <td class="meaning">
         <span>${w.mean}</span>
         <span class="new-badge" id="new-${w.n}">NEW</span>
