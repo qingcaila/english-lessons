@@ -1,0 +1,501 @@
+# 字 1000-1499
+ 1000 | mosquito                       | 蚊子                             | 🦟        | chunks=['mos', 'qui', 'to'] | py=ㄇㄚㄙ-ㄎㄧ-ㄊㄛ | theme=animals | stage=1
+ 1001 | ladybug                        | 瓢蟲                             | 🐞        | chunks=['la', 'dy', 'bug'] | py=ㄌㄟ-ㄉㄧ-ㄅㄚㄍ | theme=animals | stage=1
+ 1002 | dragonfly                      | 蜻蜓                             | 🪰        | chunks=['dra', 'gon', 'fly'] | py=ㄉㄌㄚ-ㄍㄢ-ㄈㄌㄞ | theme=animals | stage=2
+ 1003 | beetle                         | 甲蟲                             | 🪲        | chunks=['bee', 'tle'] | py=ㄅㄧ-ㄉㄜ | theme=animals | stage=2
+ 1004 | caterpillar                    | 毛毛蟲                            | 🐛        | chunks=['ca', 'ter', 'pil', 'lar'] | py=ㄎㄚ-ㄊㄜ-ㄆㄧ-ㄌㄜ | theme=animals | stage=2
+ 1005 | snail                          | 蝸牛                             | 🐌        | chunks=['sn', 'ail'] | py=ㄙㄋㄟㄦ | theme=animals | stage=1
+ 1006 | worm                           | 蟲                              | 🪱        | chunks=['w', 'orm'] | py=ㄨㄜㄇ | theme=animals | stage=0
+ 1007 | moth                           | 飛蛾                             | 🐛        | chunks=['m', 'oth'] | py=ㄇㄚㄙ | theme=animals | stage=1
+ 1008 | wasp                           | 黃蜂                             | 🐝        | chunks=['w', 'asp'] | py=ㄨㄚㄙㄆ | theme=animals | stage=2
+ 1009 | cockroach                      | 蟑螂                             | 🪳        | chunks=['cock', 'roach'] | py=ㄎㄚㄎ-ㄌㄛㄑ | theme=animals | stage=1
+ 1010 | scorpion                       | 蠍子                             | 🦂        | chunks=['scor', 'pi', 'on'] | py=ㄙㄎㄛ-ㄆㄧ-ㄢ | theme=animals | stage=2
+ 1011 | cod                            | 鱈魚                             | 🐟        | chunks=['c', 'od'] | py=ㄎㄚㄉ | theme=animals | stage=2
+ 1012 | jacket                         | 夾克                             | 🧥        | chunks=['jac', 'ket'] | py=ㄐㄚ-ㄎㄝㄊ | theme=clothing | stage=0
+ 1013 | sweater                        | 毛衣                             | 🧶        | chunks=['swea', 'ter'] | py=ㄙㄨㄝ-ㄊㄜ | theme=clothing | stage=0
+ 1014 | jeans                          | 牛仔褲                            | 👖        | chunks=['j', 'eans'] | py=ㄐㄧㄣㄗ | theme=clothing | stage=0
+ 1015 | shorts                         | 短褲                             | 🩳        | chunks=['sh', 'orts'] | py=ㄒㄛㄦㄗ | theme=clothing | stage=0
+ 1016 | skirt                          | 裙子                             | 👗        | chunks=['sk', 'irt'] | py=ㄙㄎㄜㄦㄊ | theme=clothing | stage=0
+ 1017 | blouse                         | 女上衣                            | 👚        | chunks=['bl', 'ouse'] | py=ㄅㄌㄠㄗ | theme=clothing | stage=1
+ 1018 | suit                           | 西裝                             | 🤵        | chunks=['s', 'uit'] | py=ㄙㄨㄊ | theme=clothing | stage=1
+ 1019 | tie                            | 領帶                             | 👔        | chunks=['t', 'ie'] | py=ㄊㄞ | theme=clothing | stage=0 [有易混提示]
+ 1020 | underwear                      | 內衣                             | 🩲        | chunks=['un', 'der', 'wear'] | py=ㄚㄣ-ㄉㄜ-ㄨㄝㄜ | theme=clothing | stage=1
+ 1021 | bra                            | 胸罩                             | 👙        | chunks=['br', 'a'] | py=ㄅㄌㄚ | theme=clothing | stage=1
+ 1022 | pajamas                        | 睡衣                             | 🛌        | chunks=['pa', 'ja', 'mas'] | py=ㄆㄚ-ㄐㄚ-ㄇㄚㄗ | theme=clothing | stage=1
+ 1023 | uniform                        | 制服                             | 👮        | chunks=['u', 'ni', 'form'] | py=ㄧㄨ-ㄋㄧ-ㄈㄛㄦㄇ | theme=clothing | stage=1
+ 1024 | cap                            | 鴨舌帽                            | 🧢        | chunks=['c', 'ap'] | py=ㄎㄚㄆ | theme=clothing | stage=0 [有易混提示]
+ 1025 | helmet                         | 安全帽                            | ⛑️       | chunks=['hel', 'met'] | py=ㄏㄝㄦ-ㄇㄝㄊ | theme=clothing | stage=1
+ 1026 | boots                          | 靴子                             | 🥾        | chunks=['b', 'oots'] | py=ㄅㄨㄗ | theme=clothing | stage=0
+ 1027 | sandals                        | 涼鞋                             | 👡        | chunks=['san', 'dals'] | py=ㄙㄢ-ㄉㄜㄗ | theme=clothing | stage=1
+ 1028 | slippers                       | 拖鞋                             | 🩴        | chunks=['slip', 'pers'] | py=ㄙㄌㄧ-ㄆㄜㄗ | theme=clothing | stage=1
+ 1029 | heels                          | 高跟鞋                            | 👠        | chunks=['h', 'eels'] | py=ㄏㄧㄦㄗ | theme=clothing | stage=1
+ 1030 | sneakers                       | 運動鞋                            | 👟        | chunks=['snea', 'kers'] | py=ㄙㄋㄧ-ㄎㄜㄗ | theme=clothing | stage=1
+ 1031 | tights                         | 褲襪                             | 🧦        | chunks=['t', 'ights'] | py=ㄊㄞㄊㄙ | theme=clothing | stage=2
+ 1032 | mittens                        | 連指手套                           | 🧤        | chunks=['mit', 'tens'] | py=ㄇㄧ-ㄊㄣㄗ | theme=clothing | stage=1
+ 1033 | raincoat                       | 雨衣                             | 🧥        | chunks=['rain', 'coat'] | py=ㄌㄟㄣ-ㄎㄛㄊ | theme=clothing | stage=1
+ 1034 | vest                           | 背心                             | 🦺        | chunks=['v', 'est'] | py=ㄈㄝㄙㄊ | theme=clothing | stage=1
+ 1035 | hoodie                         | 連帽衣                            | 🧥        | chunks=['hoo', 'die'] | py=ㄏㄨ-ㄉㄧ | theme=clothing | stage=1
+ 1036 | cardigan                       | 開襟毛衣                           | 🧶        | chunks=['car', 'di', 'gan'] | py=ㄎㄚㄦ-ㄉㄧ-ㄍㄢ | theme=clothing | stage=2
+ 1037 | robe                           | 浴袍                             | 🥋        | chunks=['r', 'obe'] | py=ㄌㄛㄅ | theme=clothing | stage=1
+ 1038 | apron                          | 圍裙                             | 🥻        | chunks=['a', 'pron'] | py=ㄟ-ㄆㄌㄣ | theme=clothing | stage=1
+ 1039 | swimsuit                       | 泳裝                             | 🩱        | chunks=['swim', 'suit'] | py=ㄙㄨㄧㄇ-ㄙㄨㄊ | theme=clothing | stage=1
+ 1040 | bikini                         | 比基尼                            | 👙        | chunks=['bi', 'ki', 'ni'] | py=ㄅㄧ-ㄎㄧ-ㄋㄧ | theme=clothing | stage=1
+ 1041 | tuxedo                         | 燕尾服                            | 🤵        | chunks=['tux', 'e', 'do'] | py=ㄊㄚㄎ-ㄒㄧ-ㄉㄛ | theme=clothing | stage=2
+ 1042 | pocket                         | 口袋                             | 👖        | chunks=['poc', 'ket'] | py=ㄆㄚ-ㄎㄝㄊ | theme=clothing | stage=0
+ 1043 | zipper                         | 拉鍊                             | 🧷        | chunks=['zip', 'per'] | py=ㄗㄧ-ㄆㄜ | theme=clothing | stage=1
+ 1044 | button                         | 鈕扣                             | 🔘        | chunks=['but', 'ton'] | py=ㄅㄚ-ㄉㄣ | theme=clothing | stage=0
+ 1045 | collar                         | 衣領                             | 👔        | chunks=['col', 'lar'] | py=ㄎㄚ-ㄌㄜ | theme=clothing | stage=1
+ 1046 | sleeve                         | 袖子                             | 👕        | chunks=['sl', 'eeve'] | py=ㄙㄌㄧㄈ | theme=clothing | stage=1
+ 1047 | hem                            | 摺邊                             | 👗        | chunks=['h', 'em'] | py=ㄏㄝㄇ | theme=clothing | stage=2
+ 1048 | cuff                           | 袖口                             | 👔        | chunks=['c', 'uff'] | py=ㄎㄚㄈ | theme=clothing | stage=2
+ 1049 | lace                           | 蕾絲                             | 🪡        | chunks=['l', 'ace'] | py=ㄌㄟㄙ | theme=clothing | stage=1
+ 1050 | fabric                         | 布料                             | 🧵        | chunks=['fab', 'ric'] | py=ㄈㄚ-ㄅㄌㄧㄎ | theme=clothing | stage=2
+ 1051 | cotton                         | 棉                              | ☁️       | chunks=['cot', 'ton'] | py=ㄎㄚ-ㄉㄣ | theme=clothing | stage=1
+ 1052 | wool                           | 羊毛                             | 🧶        | chunks=['w', 'ool'] | py=ㄨㄨㄦ | theme=clothing | stage=1
+ 1053 | silk                           | 絲                              | 🪡        | chunks=['s', 'ilk'] | py=ㄒㄧㄦㄎ | theme=clothing | stage=1
+ 1054 | leather                        | 皮革                             | 🧥        | chunks=['lea', 'ther'] | py=ㄌㄝ-ㄉㄜ | theme=clothing | stage=1
+ 1055 | denim                          | 丹寧布                            | 👖        | chunks=['de', 'nim'] | py=ㄉㄝ-ㄋㄧㄇ | theme=clothing | stage=2
+ 1056 | weather                        | 天氣                             | 🌤️       | chunks=['wea', 'ther'] | py=ㄨㄝ-ㄉㄜ | theme=weather | stage=0 [有易混提示]
+ 1057 | sunny                          | 晴朗                             | ☀️       | chunks=['sun', 'ny'] | py=ㄙㄚ-ㄋㄧ | theme=weather | stage=0 base=sun
+ 1058 | rainy                          | 多雨的、下雨的                        | 🌧️       | chunks=['rai', 'ny'] | py=ㄌㄟ-ㄋㄧ | theme=weather | stage=0 base=rain
+ 1059 | snowy                          | 多雪的、下雪的                        | 🌨️       | chunks=['snow', 'y'] | py=ㄙㄋㄛ-ㄧ | theme=weather | stage=0 base=snow
+ 1060 | windy                          | 有風的、多風的                        | 💨        | chunks=['win', 'dy'] | py=ㄨㄧㄣ-ㄉㄧ | theme=weather | stage=0 base=wind
+ 1061 | cloudy                         | 多雲                             | ☁️       | chunks=['clou', 'dy'] | py=ㄎㄌㄠ-ㄉㄧ | theme=weather | stage=0 base=cloud
+ 1062 | foggy                          | 多霧的、起霧的                        | 🌫️       | chunks=['fog', 'gy'] | py=ㄈㄚ-ㄍㄧ | theme=weather | stage=1 base=fog
+ 1063 | fog                            | 霧                              | 🌫️       | chunks=['f', 'og'] | py=ㄈㄚㄍ | theme=weather | stage=1
+ 1064 | mist                           | 薄霧                             | 🌫️       | chunks=['m', 'ist'] | py=ㄇㄧㄙㄊ | theme=weather | stage=1
+ 1065 | dew                            | 露                              | 💧        | chunks=['d', 'ew'] | py=ㄉㄧㄨ | theme=weather | stage=2 [有易混提示]
+ 1066 | frost                          | 霜                              | ❄️       | chunks=['fr', 'ost'] | py=ㄈㄌㄚㄙㄊ | theme=weather | stage=1
+ 1067 | hail                           | 冰雹                             | 🧊        | chunks=['h', 'ail'] | py=ㄏㄟㄦ | theme=weather | stage=2
+ 1068 | thunder                        | 雷                              | ⛈️       | chunks=['thun', 'der'] | py=ㄙㄚㄣ-ㄉㄜ | theme=weather | stage=1
+ 1069 | lightning                      | 閃電                             | ⚡        | chunks=['light', 'ning'] | py=ㄌㄞㄊ-ㄋㄧㄥ | theme=weather | stage=1
+ 1070 | drizzle                        | 毛毛雨                            | 🌧️       | chunks=['driz', 'zle'] | py=ㄉㄌㄧ-ㄗㄜ | theme=weather | stage=2
+ 1071 | rainfall                       | 降雨                             | 🌧️       | chunks=['rain', 'fall'] | py=ㄌㄟㄣ-ㄈㄛㄦ | theme=weather | stage=1
+ 1072 | blizzard                       | 暴風雪                            | 🌨️       | chunks=['bliz', 'zard'] | py=ㄅㄌㄧ-ㄗㄜㄉ | theme=weather | stage=2
+ 1073 | hurricane                      | 颶風                             | 🌀        | chunks=['hur', 'ri', 'cane'] | py=ㄏㄜ-ㄌㄧ-ㄎㄟㄣ | theme=weather | stage=2
+ 1074 | tornado                        | 龍捲風                            | 🌪️       | chunks=['tor', 'na', 'do'] | py=ㄊㄛㄦ-ㄋㄟ-ㄉㄛ | theme=weather | stage=2
+ 1075 | typhoon                        | 颱風                             | 🌀        | chunks=['ty', 'phoon'] | py=ㄊㄞ-ㄈㄨㄣ | theme=weather | stage=1
+ 1076 | flood                          | 洪水                             | 🌊        | chunks=['fl', 'ood'] | py=ㄈㄌㄚㄉ | theme=weather | stage=1
+ 1077 | drought                        | 乾旱                             | 🏜️       | chunks=['dr', 'ought'] | py=ㄉㄌㄠㄊ | theme=weather | stage=2
+ 1078 | humid                          | 潮濕                             | 💦        | chunks=['hu', 'mid'] | py=ㄏㄧㄨ-ㄇㄧㄉ | theme=weather | stage=1
+ 1079 | freezing                       | 嚴寒                             | 🥶        | chunks=['free', 'zing'] | py=ㄈㄌㄧ-ㄗㄧㄥ | theme=weather | stage=1 base=freeze
+ 1080 | mild                           | 溫和                             | 😌        | chunks=['m', 'ild'] | py=ㄇㄞㄦㄉ | theme=weather | stage=1
+ 1081 | chilly                         | 涼颼颼                            | 🥶        | chunks=['chil', 'ly'] | py=ㄑㄧ-ㄌㄧ | theme=weather | stage=1
+ 1082 | breeze                         | 微風                             | 🍃        | chunks=['br', 'eeze'] | py=ㄅㄌㄧㄗ | theme=weather | stage=1
+ 1083 | gust                           | 陣風                             | 💨        | chunks=['g', 'ust'] | py=ㄍㄚㄙㄊ | theme=weather | stage=2
+ 1084 | gale                           | 強風                             | 🌬️       | chunks=['g', 'ale'] | py=ㄍㄟㄦ | theme=weather | stage=2
+ 1085 | heat                           | 高溫                             | 🥵        | chunks=['h', 'eat'] | py=ㄏㄧㄊ | theme=weather | stage=1
+ 1086 | degree                         | 度                              | 🌡️       | chunks=['de', 'gree'] | py=ㄉㄧ-ㄍㄌㄧ | theme=weather | stage=1
+ 1087 | temperature                    | 溫度                             | 🌡️       | chunks=['tem', 'pe', 'ra', 'ture'] | py=ㄊㄣ-ㄆㄜ-ㄌㄚ-ㄑㄜ | theme=weather | stage=1
+ 1088 | forecast                       | 預報                             | 📺        | chunks=['fore', 'cast'] | py=ㄈㄛㄦ-ㄎㄚㄙㄊ | theme=weather | stage=1 base=forecast
+ 1089 | climate                        | 氣候                             | 🌍        | chunks=['cli', 'mate'] | py=ㄎㄌㄞ-ㄇㄝㄊ | theme=weather | stage=2
+ 1090 | monsoon                        | 季風                             | 🌧️       | chunks=['mon', 'soon'] | py=ㄇㄚㄣ-ㄙㄨㄣ | theme=weather | stage=2
+ 1091 | cyclone                        | 氣旋                             | 🌀        | chunks=['cy', 'clone'] | py=ㄙㄞ-ㄎㄌㄛㄣ | theme=weather | stage=2
+ 1092 | tsunami                        | 海嘯                             | 🌊        | chunks=['tsu', 'na', 'mi'] | py=ㄙㄨ-ㄋㄚ-ㄇㄧ | theme=weather | stage=2
+ 1093 | earthquake                     | 地震                             | 🌍        | chunks=['earth', 'quake'] | py=ㄜㄙ-ㄎㄨㄝㄎ | theme=weather | stage=1
+ 1094 | avalanche                      | 雪崩                             | 🏔️       | chunks=['a', 'va', 'lanche'] | py=ㄚ-ㄈㄚ-ㄌㄢㄑ | theme=weather | stage=3
+ 1095 | eruption                       | 噴發                             | 🌋        | chunks=['e', 'rup', 'tion'] | py=ㄧ-ㄌㄚㄆ-ㄒㄣ | theme=weather | stage=3 base=erupt
+ 1096 | volcano                        | 火山                             | 🌋        | chunks=['vol', 'ca', 'no'] | py=ㄈㄚㄦ-ㄎㄟ-ㄋㄛ | theme=weather | stage=1
+ 1097 | wave                           | 波浪                             | 🌊        | chunks=['w', 'ave'] | py=ㄨㄟㄈ | theme=weather | stage=0 [有易混提示]
+ 1098 | tide                           | 潮汐                             | 🌊        | chunks=['t', 'ide'] | py=ㄊㄞㄉ | theme=weather | stage=2
+ 1099 | flame                          | 火焰                             | 🔥        | chunks=['fl', 'ame'] | py=ㄈㄌㄟㄇ | theme=weather | stage=1
+ 1100 | spark                          | 火花                             | ✨        | chunks=['sp', 'ark'] | py=ㄙㄆㄚㄦㄎ | theme=weather | stage=2
+ 1101 | smoke                          | 煙                              | 💨        | chunks=['sm', 'oke'] | py=ㄙㄇㄛㄎ | theme=weather | stage=1
+ 1102 | ash                            | 灰燼                             | 🪨        | chunks=['a', 'sh'] | py=ㄚㄒ | theme=weather | stage=2
+ 1103 | shadow                         | 影子                             | 👤        | chunks=['sha', 'dow'] | py=ㄒㄚ-ㄉㄛ | theme=weather | stage=1
+ 1104 | atmosphere                     | 大氣                             | 🌍        | chunks=['at', 'mo', 'sphere'] | py=ㄚㄊ-ㄇㄜ-ㄙㄈㄧㄜ | theme=weather | stage=3
+ 1105 | air                            | 空氣                             | 💨        | chunks=['a', 'ir'] | py=ㄝㄦ | theme=weather | stage=0
+ 1106 | food                           | 食物                             | 🍽️       | chunks=['f', 'ood'] | py=ㄈㄨㄉ | theme=food | stage=0
+ 1107 | butter                         | 奶油                             | 🧈        | chunks=['but', 'ter'] | py=ㄅㄚ-ㄉㄜ | theme=food | stage=0
+ 1108 | yogurt                         | 優格                             | 🥣        | chunks=['yo', 'gurt'] | py=ㄧㄛ-ㄍㄜㄊ | theme=food | stage=1
+ 1109 | cereal                         | 麥片                             | 🥣        | chunks=['ce', 're', 'al'] | py=ㄒㄧ-ㄌㄧ-ㄦ | theme=food | stage=1
+ 1110 | oatmeal                        | 燕麥粥                            | 🥣        | chunks=['oat', 'meal'] | py=ㄛㄊ-ㄇㄧㄦ | theme=food | stage=2
+ 1111 | pasta                          | 義大利麵                           | 🍝        | chunks=['pas', 'ta'] | py=ㄆㄚㄙ-ㄊㄚ | theme=food | stage=1
+ 1112 | noodles                        | 麵條                             | 🍜        | chunks=['noo', 'dles'] | py=ㄋㄨ-ㄉㄜㄗ | theme=food | stage=0
+ 1113 | sandwich                       | 三明治                            | 🥪        | chunks=['sand', 'wich'] | py=ㄙㄢ-ㄨㄧㄑ | theme=food | stage=0
+ 1114 | burger                         | 漢堡                             | 🍔        | chunks=['bur', 'ger'] | py=ㄅㄜ-ㄍㄜ | theme=food | stage=0
+ 1115 | hotdog                         | 熱狗                             | 🌭        | chunks=['hot', 'dog'] | py=ㄏㄚㄊ-ㄉㄚㄍ | theme=food | stage=0
+ 1116 | fries                          | 薯條                             | 🍟        | chunks=['fr', 'ies'] | py=ㄈㄌㄞㄗ | theme=food | stage=0 base=fry
+ 1117 | chips                          | 洋芋片                            | 🍟        | chunks=['ch', 'ips'] | py=ㄑㄧㄆㄗ | theme=food | stage=0
+ 1118 | popcorn                        | 爆米花                            | 🍿        | chunks=['pop', 'corn'] | py=ㄆㄚㄆ-ㄎㄛㄦㄣ | theme=food | stage=0
+ 1119 | bacon                          | 培根                             | 🥓        | chunks=['ba', 'con'] | py=ㄅㄟ-ㄎㄣ | theme=food | stage=1
+ 1120 | ham                            | 火腿                             | 🍖        | chunks=['h', 'am'] | py=ㄏㄚㄇ | theme=food | stage=0
+ 1121 | sausage                        | 香腸                             | 🌭        | chunks=['sau', 'sage'] | py=ㄙㄛ-ㄒㄧㄐ | theme=food | stage=1
+ 1122 | steak                          | 牛排                             | 🥩        | chunks=['st', 'eak'] | py=ㄙㄉㄟㄎ | theme=food | stage=1
+ 1123 | beef                           | 牛肉                             | 🥩        | chunks=['b', 'eef'] | py=ㄅㄧㄈ | theme=food | stage=0
+ 1124 | pork                           | 豬肉                             | 🐖        | chunks=['p', 'ork'] | py=ㄆㄛㄦㄎ | theme=food | stage=0
+ 1125 | seafood                        | 海鮮                             | 🦐        | chunks=['sea', 'food'] | py=ㄒㄧ-ㄈㄨㄉ | theme=food | stage=1
+ 1126 | salad                          | 沙拉                             | 🥗        | chunks=['sa', 'lad'] | py=ㄙㄚ-ㄌㄜㄉ | theme=food | stage=0
+ 1127 | sauce                          | 醬汁                             | 🍶        | chunks=['s', 'auce'] | py=ㄙㄛㄙ | theme=food | stage=1
+ 1128 | ketchup                        | 番茄醬                            | 🍅        | chunks=['ket', 'chup'] | py=ㄎㄝ-ㄑㄚㄆ | theme=food | stage=1
+ 1129 | honey                          | 蜂蜜                             | 🍯        | chunks=['ho', 'ney'] | py=ㄏㄚ-ㄋㄧ | theme=food | stage=0
+ 1130 | jam                            | 果醬                             | 🍞        | chunks=['j', 'am'] | py=ㄐㄚㄇ | theme=food | stage=0
+ 1131 | syrup                          | 糖漿                             | 🍯        | chunks=['sy', 'rup'] | py=ㄒㄜ-ㄌㄚㄆ | theme=food | stage=2
+ 1132 | flour                          | 麵粉                             | 🌾        | chunks=['fl', 'our'] | py=ㄈㄌㄠㄜ | theme=food | stage=1 [有易混提示]
+ 1133 | sugar                          | 糖                              | 🍬        | chunks=['su', 'gar'] | py=ㄒㄨ-ㄍㄜ | theme=food | stage=0
+ 1134 | salt                           | 鹽                              | 🧂        | chunks=['s', 'alt'] | py=ㄙㄛㄦㄊ | theme=food | stage=0
+ 1135 | spice                          | 香料                             | 🌶️       | chunks=['sp', 'ice'] | py=ㄙㄆㄞㄙ | theme=food | stage=1
+ 1136 | herb                           | 香草                             | 🌿        | chunks=['h', 'erb'] | py=ㄜㄅ | theme=food | stage=2
+ 1137 | oil                            | 油                              | 🫗        | chunks=['o', 'il'] | py=ㄛㄧㄦ | theme=food | stage=0
+ 1138 | nut                            | 堅果                             | 🥜        | chunks=['n', 'ut'] | py=ㄋㄚㄊ | theme=food | stage=0
+ 1139 | seed                           | 種子                             | 🌱        | chunks=['s', 'eed'] | py=ㄒㄧㄉ | theme=food | stage=1
+ 1140 | wheat                          | 小麥                             | 🌾        | chunks=['wh', 'eat'] | py=ㄨㄧㄊ | theme=food | stage=1
+ 1141 | bagel                          | 貝果                             | 🥯        | chunks=['ba', 'gel'] | py=ㄅㄟ-ㄍㄜ | theme=food | stage=1
+ 1142 | pretzel                        | 蝴蝶餅                            | 🥨        | chunks=['pret', 'zel'] | py=ㄆㄌㄝ-ㄗㄜ | theme=food | stage=2
+ 1143 | taco                           | 墨西哥捲                           | 🌮        | chunks=['ta', 'co'] | py=ㄊㄚ-ㄎㄛ | theme=food | stage=1
+ 1144 | burrito                        | 墨西哥捲餅                          | 🌯        | chunks=['bur', 'ri', 'to'] | py=ㄅㄜ-ㄌㄧ-ㄊㄛ | theme=food | stage=2
+ 1145 | sushi                          | 壽司                             | 🍣        | chunks=['su', 'shi'] | py=ㄙㄨ-ㄒㄧ | theme=food | stage=1
+ 1146 | dumpling                       | 水餃                             | 🥟        | chunks=['dump', 'ling'] | py=ㄉㄚㄇㄆ-ㄌㄧㄥ | theme=food | stage=1
+ 1147 | jelly                          | 果凍                             | 🍮        | chunks=['jel', 'ly'] | py=ㄐㄝ-ㄌㄧ | theme=food | stage=1
+ 1148 | marshmallow                    | 棉花糖                            | 🍡        | chunks=['marsh', 'mal', 'low'] | py=ㄇㄚㄦㄒ-ㄇㄚ-ㄌㄛ | theme=food | stage=2
+ 1149 | peanut                         | 花生                             | 🥜        | chunks=['pea', 'nut'] | py=ㄆㄧ-ㄋㄚㄊ | theme=food | stage=1
+ 1150 | almond                         | 杏仁                             | 🥜        | chunks=['al', 'mond'] | py=ㄚ-ㄇㄢㄉ | theme=food | stage=2
+ 1151 | walnut                         | 核桃                             | 🥜        | chunks=['wal', 'nut'] | py=ㄨㄛㄦ-ㄋㄚㄊ | theme=food | stage=2
+ 1152 | raisin                         | 葡萄乾                            | 🍇        | chunks=['rai', 'sin'] | py=ㄌㄟ-ㄗㄣ | theme=food | stage=2
+ 1153 | broth                          | 清湯                             | 🥣        | chunks=['br', 'oth'] | py=ㄅㄌㄚㄙ | theme=food | stage=2
+ 1154 | oats                           | 燕麥                             | 🌾        | chunks=['o', 'ats'] | py=ㄛㄊㄙ | theme=food | stage=2
+ 1155 | grain                          | 穀物                             | 🌾        | chunks=['gr', 'ain'] | py=ㄍㄌㄟㄣ | theme=food | stage=2
+ 1156 | academy                        | 學院                             | 🏫        | chunks=['a', 'ca', 'de', 'my'] | py=ㄚ-ㄎㄚ-ㄉㄜ-ㄇㄧ | theme=school | stage=2
+ 1157 | classroom                      | 教室                             | 🏫        | chunks=['class', 'room'] | py=ㄎㄌㄚㄙ-ㄌㄨㄣ | theme=school | stage=0
+ 1158 | notebook                       | 筆記本                            | 📓        | chunks=['note', 'book'] | py=ㄋㄛㄊ-ㄅㄨㄎ | theme=school | stage=0
+ 1159 | eraser                         | 橡皮擦                            | 🧽        | chunks=['e', 'ra', 'ser'] | py=ㄧ-ㄌㄟ-ㄗㄜ | theme=school | stage=0 base=erase
+ 1160 | marker                         | 麥克筆                            | 🖍️       | chunks=['mar', 'ker'] | py=ㄇㄚㄦ-ㄎㄜ | theme=school | stage=1 base=mark
+ 1161 | crayon                         | 蠟筆                             | 🖍️       | chunks=['cra', 'yon'] | py=ㄎㄌㄟ-ㄢ | theme=school | stage=1
+ 1162 | chalk                          | 粉筆                             | 📝        | chunks=['ch', 'alk'] | py=ㄑㄛㄎ | theme=school | stage=1
+ 1163 | board                          | 白板                             | ⬜        | chunks=['b', 'oard'] | py=ㄅㄛㄦㄉ | theme=school | stage=0 [有易混提示]
+ 1164 | backpack                       | 背包                             | 🎒        | chunks=['back', 'pack'] | py=ㄅㄚㄎ-ㄆㄚㄎ | theme=school | stage=0
+ 1165 | lunchbox                       | 便當盒                            | 🍱        | chunks=['lunch', 'box'] | py=ㄌㄚㄣㄑ-ㄅㄚㄎㄙ | theme=school | stage=1
+ 1166 | textbook                       | 課本                             | 📖        | chunks=['text', 'book'] | py=ㄊㄝㄎㄙㄊ-ㄅㄨㄎ | theme=school | stage=1
+ 1167 | dictionary                     | 字典                             | 📔        | chunks=['dic', 'tion', 'a', 'ry'] | py=ㄉㄧㄎ-ㄒㄣ-ㄝ-ㄌㄧ | theme=school | stage=1
+ 1168 | homework                       | 作業                             | 📝        | chunks=['home', 'work'] | py=ㄏㄛㄇ-ㄨㄜㄎ | theme=school | stage=0
+ 1169 | test                           | 測驗                             | 📝        | chunks=['t', 'est'] | py=ㄊㄝㄙㄊ | theme=school | stage=0
+ 1170 | exam                           | 考試                             | 📝        | chunks=['ex', 'am'] | py=ㄧㄍ-ㄗㄚㄇ | theme=school | stage=1
+ 1171 | quiz                           | 小考                             | 📝        | chunks=['qu', 'iz'] | py=ㄎㄨㄧㄗ | theme=school | stage=1
+ 1172 | grade                          | 成績                             | 💯        | chunks=['gr', 'ade'] | py=ㄍㄌㄟㄉ | theme=school | stage=1
+ 1173 | lesson                         | 一課、課                           | 📚        | chunks=['les', 'son'] | py=ㄌㄝ-ㄙㄣ | theme=school | stage=1
+ 1174 | subject                        | 科目                             | 📚        | chunks=['sub', 'ject'] | py=ㄙㄚㄅ-ㄐㄝㄎㄊ | theme=school | stage=1 [有易混提示]
+ 1175 | math                           | 數學                             | ➗        | chunks=['m', 'ath'] | py=ㄇㄚㄙ | theme=school | stage=0
+ 1176 | english                        | 英文                             | 🇬🇧       | chunks=['en', 'glish'] | py=ㄧㄥ-ㄍㄌㄧㄒ | theme=school | stage=0
+ 1177 | principal                      | 校長                             | 👨‍🏫      | chunks=['prin', 'ci', 'pal'] | py=ㄆㄌㄧㄣ-ㄙㄜ-ㄆㄜ | theme=school | stage=2 [有易混提示]
+ 1178 | classmate                      | 同學                             | 🧑‍🎓      | chunks=['class', 'mate'] | py=ㄎㄌㄚㄙ-ㄇㄝㄊ | theme=school | stage=1
+ 1179 | bell                           | 鈴聲                             | 🔔        | chunks=['b', 'ell'] | py=ㄅㄝㄦ | theme=school | stage=0
+ 1180 | recess                         | 下課                             | ⏸️       | chunks=['re', 'cess'] | py=ㄌㄧ-ㄙㄝㄙ | theme=school | stage=2
+ 1181 | graduation                     | 畢業                             | 🎓        | chunks=['grad', 'u', 'a', 'tion'] | py=ㄍㄌㄚ-ㄐㄧㄨ-ㄝ-ㄒㄣ | theme=school | stage=2 base=graduate
+ 1182 | diploma                        | 文憑                             | 📜        | chunks=['di', 'plo', 'ma'] | py=ㄉㄧ-ㄆㄌㄛ-ㄇㄚ | theme=school | stage=3
+ 1183 | library                        | 圖書館                            | 📚        | chunks=['li', 'bra', 'ry'] | py=ㄌㄞ-ㄅㄌㄝ-ㄌㄧ | theme=school | stage=1
+ 1184 | college                        | 學院、大學                          | 🎓        | chunks=['col', 'lege'] | py=ㄎㄚ-ㄌㄧㄐ | theme=school | stage=1
+ 1185 | university                     | 大學                             | 🎓        | chunks=['u', 'ni', 'ver', 'si', 'ty'] | py=ㄧㄨ-ㄋㄧ-ㄈㄜ-ㄙㄜ-ㄊㄧ | theme=school | stage=2
+ 1186 | professor                      | 教授                             | 👨‍🏫      | chunks=['pro', 'fes', 'sor'] | py=ㄆㄜ-ㄈㄝ-ㄙㄜ | theme=school | stage=2 base=profess
+ 1187 | kindergarten                   | 幼稚園                            | 🏫        | chunks=['kin', 'der', 'gar', 'ten'] | py=ㄎㄧㄣ-ㄉㄜ-ㄍㄚㄦ-ㄉㄣ | theme=school | stage=2
+ 1188 | preschool                      | 學前                             | 🏫        | chunks=['pre', 'school'] | py=ㄆㄌㄧ-ㄙㄎㄨㄦ | theme=school | stage=2
+ 1189 | scholarship                    | 獎學金                            | 💰        | chunks=['scho', 'lar', 'ship'] | py=ㄙㄎㄚ-ㄌㄜ-ㄒㄧㄆ | theme=school | stage=3
+ 1190 | tuition                        | 學費                             | 💵        | chunks=['tu', 'i', 'tion'] | py=ㄊㄧㄨ-ㄧ-ㄒㄣ | theme=school | stage=3
+ 1191 | course                         | 課程                             | 📚        | chunks=['c', 'ourse'] | py=ㄎㄛㄦㄙ | theme=school | stage=1 [有易混提示]
+ 1192 | lecture                        | 講課                             | 🎤        | chunks=['lec', 'ture'] | py=ㄌㄝㄎ-ㄑㄜ | theme=school | stage=2
+ 1193 | essay                          | 作文                             | 📝        | chunks=['es', 'say'] | py=ㄝ-ㄙㄟ | theme=school | stage=2
+ 1194 | project                        | 專題                             | 📊        | chunks=['pro', 'ject'] | py=ㄆㄌㄚ-ㄐㄝㄎㄊ | theme=school | stage=1 [有易混提示]
+ 1195 | presentation                   | 簡報、口頭報告                        | 📊        | chunks=['pre', 'sen', 'ta', 'tion'] | py=ㄆㄌㄝ-ㄗㄣ-ㄊㄟ-ㄒㄣ | theme=school | stage=2 base=present
+ 1196 | report                         | 報告                             | 📄        | chunks=['re', 'port'] | py=ㄌㄧ-ㄆㄛㄦㄊ | theme=school | stage=1
+ 1197 | assignment                     | 指派作業、任務                        | 📝        | chunks=['as', 'sign', 'ment'] | py=ㄚ-ㄙㄞㄣ-ㄇㄣㄊ | theme=school | stage=2 base=assign
+ 1198 | grammar                        | 文法                             | 📖        | chunks=['gram', 'mar'] | py=ㄍㄌㄚ-ㄇㄜ | theme=school | stage=2
+ 1199 | alphabet                       | 字母                             | 🔤        | chunks=['al', 'pha', 'bet'] | py=ㄚㄦ-ㄈㄚ-ㄅㄝㄊ | theme=school | stage=1
+ 1200 | sentence                       | 句子                             | 📝        | chunks=['sen', 'tence'] | py=ㄙㄣ-ㄊㄣㄙ | theme=school | stage=1
+ 1201 | roof                           | 屋頂                             | 🏠        | chunks=['r', 'oof'] | py=ㄌㄨㄈ | theme=home-items | stage=0
+ 1202 | wall                           | 牆                              | 🧱        | chunks=['w', 'all'] | py=ㄨㄛㄦ | theme=home-items | stage=0
+ 1203 | floor                          | 地板                             | 🪵        | chunks=['fl', 'oor'] | py=ㄈㄌㄛㄦ | theme=home-items | stage=0
+ 1204 | ceiling                        | 天花板                            | ⬜        | chunks=['cei', 'ling'] | py=ㄒㄧ-ㄌㄧㄥ | theme=home-items | stage=1
+ 1205 | stairs                         | 樓梯                             | 🪜        | chunks=['st', 'airs'] | py=ㄙㄉㄝㄗ | theme=home-items | stage=0
+ 1206 | staircase                      | 階梯                             | 🪜        | chunks=['stair', 'case'] | py=ㄙㄉㄝ-ㄎㄝㄙ | theme=home-items | stage=1
+ 1207 | carpet                         | 地毯                             | 🟫        | chunks=['car', 'pet'] | py=ㄎㄚㄦ-ㄆㄝㄊ | theme=home-items | stage=1
+ 1208 | rug                            | 小地毯                            | 🟫        | chunks=['r', 'ug'] | py=ㄌㄚㄍ | theme=home-items | stage=1
+ 1209 | curtain                        | 窗簾                             | 🪟        | chunks=['cur', 'tain'] | py=ㄎㄜ-ㄊㄣ | theme=home-items | stage=1
+ 1210 | blanket                        | 毯子                             | 🛏️       | chunks=['blan', 'ket'] | py=ㄅㄌㄢ-ㄎㄝㄊ | theme=home-items | stage=1
+ 1211 | sheet                          | 床單                             | 🛏️       | chunks=['sh', 'eet'] | py=ㄒㄧㄊ | theme=home-items | stage=1
+ 1212 | mattress                       | 床墊                             | 🛏️       | chunks=['mat', 'tress'] | py=ㄇㄚ-ㄊㄌㄝㄙ | theme=home-items | stage=2
+ 1213 | fan                            | 電風扇                            | 💨        | chunks=['f', 'an'] | py=ㄈㄚㄣ | theme=home-items | stage=0 [有易混提示]
+ 1214 | heater                         | 暖氣                             | ♨️       | chunks=['hea', 'ter'] | py=ㄏㄧ-ㄊㄜ | theme=home-items | stage=1 base=heat
+ 1215 | radiator                       | 散熱器                            | ♨️       | chunks=['ra', 'di', 'a', 'tor'] | py=ㄌㄟ-ㄉㄧ-ㄝ-ㄊㄜ | theme=home-items | stage=3 base=radiate
+ 1216 | cushion                        | 椅墊                             | 🛋️       | chunks=['cu', 'shion'] | py=ㄎㄨ-ㄒㄣ | theme=home-items | stage=1
+ 1217 | closet                         | 衣櫥                             | 🚪        | chunks=['clo', 'set'] | py=ㄎㄌㄚ-ㄗㄝㄊ | theme=home-items | stage=1
+ 1218 | wardrobe                       | 衣櫃                             | 🚪        | chunks=['ward', 'robe'] | py=ㄨㄛㄦ-ㄉㄌㄛㄅ | theme=home-items | stage=2
+ 1219 | drawer                         | 抽屜                             | 🗄️       | chunks=['dr', 'awer'] | py=ㄉㄌㄛㄜ | theme=home-items | stage=1 base=draw
+ 1220 | shelf                          | 架子                             | 🪑        | chunks=['sh', 'elf'] | py=ㄒㄝㄦㄈ | theme=home-items | stage=1
+ 1221 | bookshelf                      | 書架                             | 📚        | chunks=['book', 'shelf'] | py=ㄅㄨㄎ-ㄒㄝㄦㄈ | theme=home-items | stage=1
+ 1222 | cabinet                        | 櫥櫃                             | 🗄️       | chunks=['ca', 'bi', 'net'] | py=ㄎㄚ-ㄅㄧ-ㄋㄝㄊ | theme=home-items | stage=2
+ 1223 | cupboard                       | 碗櫃                             | 🗄️       | chunks=['cup', 'board'] | py=ㄎㄚ-ㄅㄜㄉ | theme=home-items | stage=2
+ 1224 | dresser                        | 梳妝台                            | 🪞        | chunks=['dres', 'ser'] | py=ㄉㄌㄝ-ㄙㄜ | theme=home-items | stage=2
+ 1225 | nightstand                     | 床頭櫃                            | 🛏️       | chunks=['night', 'stand'] | py=ㄋㄞㄊ-ㄙㄉㄢㄉ | theme=home-items | stage=2
+ 1226 | fireplace                      | 壁爐                             | 🔥        | chunks=['fire', 'place'] | py=ㄈㄞㄜ-ㄆㄌㄝㄙ | theme=home-items | stage=1
+ 1227 | chimney                        | 煙囪                             | 🏭        | chunks=['chim', 'ney'] | py=ㄑㄧㄇ-ㄋㄧ | theme=home-items | stage=2
+ 1228 | doorbell                       | 門鈴                             | 🔔        | chunks=['door', 'bell'] | py=ㄉㄛㄦ-ㄅㄝㄦ | theme=home-items | stage=1
+ 1229 | doormat                        | 門墊                             | 🚪        | chunks=['door', 'mat'] | py=ㄉㄛㄦ-ㄇㄚㄊ | theme=home-items | stage=2
+ 1230 | switch                         | 開關                             | 🎚️       | chunks=['sw', 'itch'] | py=ㄙㄨㄧㄑ | theme=home-items | stage=1
+ 1231 | socket                         | 插座                             | 🔌        | chunks=['soc', 'ket'] | py=ㄙㄚ-ㄎㄝㄊ | theme=home-items | stage=2
+ 1232 | plug                           | 插頭                             | 🔌        | chunks=['pl', 'ug'] | py=ㄆㄌㄚㄍ | theme=home-items | stage=1
+ 1233 | wire                           | 電線                             | 🪢        | chunks=['w', 'ire'] | py=ㄨㄞㄜ | theme=home-items | stage=1
+ 1234 | bulb                           | 燈泡                             | 💡        | chunks=['b', 'ulb'] | py=ㄅㄚㄦㄅ | theme=home-items | stage=1
+ 1235 | candle                         | 蠟燭                             | 🕯️       | chunks=['can', 'dle'] | py=ㄎㄢ-ㄉㄜ | theme=home-items | stage=0
+ 1236 | vase                           | 花瓶                             | 🏺        | chunks=['v', 'ase'] | py=ㄈㄟㄙ | theme=home-items | stage=1
+ 1237 | frame                          | 相框                             | 🖼️       | chunks=['fr', 'ame'] | py=ㄈㄌㄟㄇ | theme=home-items | stage=1
+ 1238 | painting                       | 畫                              | 🖼️       | chunks=['paint', 'ing'] | py=ㄆㄟㄣ-ㄊㄧㄥ | theme=home-items | stage=1 base=paint
+ 1239 | poster                         | 海報                             | 🖼️       | chunks=['pos', 'ter'] | py=ㄆㄛㄙ-ㄊㄜ | theme=home-items | stage=1
+ 1240 | broom                          | 掃帚                             | 🧹        | chunks=['br', 'oom'] | py=ㄅㄌㄨㄣ | theme=home-items | stage=1
+ 1241 | mop                            | 拖把                             | 🧽        | chunks=['m', 'op'] | py=ㄇㄚㄆ | theme=home-items | stage=1
+ 1242 | dustpan                        | 畚箕                             | 🧹        | chunks=['dust', 'pan'] | py=ㄉㄚㄙㄊ-ㄆㄢ | theme=home-items | stage=2
+ 1243 | vacuum                         | 吸塵器                            | 🧹        | chunks=['va', 'cu', 'um'] | py=ㄈㄚ-ㄎㄧㄨ-ㄦㄇ | theme=home-items | stage=2
+ 1244 | hanger                         | 衣架                             | 🧥        | chunks=['han', 'ger'] | py=ㄏㄢ-ㄍㄜ | theme=home-items | stage=1 base=hang
+ 1245 | hall                           | 大廳                             | 🏛️       | chunks=['h', 'all'] | py=ㄏㄛㄦ | theme=home-items | stage=1
+ 1246 | hallway                        | 走廊                             | 🚪        | chunks=['hall', 'way'] | py=ㄏㄛㄦ-ㄨㄝ | theme=home-items | stage=1
+ 1247 | garage                         | 車庫                             | 🏠        | chunks=['ga', 'rage'] | py=ㄍㄚ-ㄌㄚㄐ | theme=home-items | stage=1
+ 1248 | attic                          | 閣樓                             | 🏠        | chunks=['at', 'tic'] | py=ㄚ-ㄊㄧㄎ | theme=home-items | stage=2
+ 1249 | basement                       | 地下室                            | 🏠        | chunks=['base', 'ment'] | py=ㄅㄝㄙ-ㄇㄣㄊ | theme=home-items | stage=2 base=base
+ 1250 | balcony                        | 陽台                             | 🏠        | chunks=['bal', 'co', 'ny'] | py=ㄅㄚㄦ-ㄎㄜ-ㄋㄧ | theme=home-items | stage=2
+ 1251 | lawyer                         | 律師                             | ⚖️       | chunks=['law', 'yer'] | py=ㄌㄛ-ㄧㄜ | theme=jobs | stage=1
+ 1252 | engineer                       | 工程師                            | 👷        | chunks=['en', 'gi', 'neer'] | py=ㄝㄣ-ㄐㄜ-ㄋㄧㄦ | theme=jobs | stage=1 base=engine
+ 1253 | designer                       | 設計師                            | 🎨        | chunks=['de', 'sig', 'ner'] | py=ㄉㄧ-ㄗㄞ-ㄋㄜ | theme=jobs | stage=1 base=design
+ 1254 | writer                         | 作家                             | ✍️       | chunks=['wri', 'ter'] | py=ㄌㄞ-ㄊㄜ | theme=jobs | stage=1 base=write
+ 1255 | actor                          | 男演員                            | 🎭        | chunks=['ac', 'tor'] | py=ㄚㄎ-ㄊㄜ | theme=jobs | stage=1 base=act
+ 1256 | actress                        | 女演員                            | 🎭        | chunks=['ac', 'tress'] | py=ㄚㄎ-ㄊㄌㄝㄙ | theme=jobs | stage=1 base=act
+ 1257 | dancer                         | 舞者                             | 💃        | chunks=['dan', 'cer'] | py=ㄉㄢ-ㄙㄜ | theme=jobs | stage=1 base=dance
+ 1258 | musician                       | 音樂家                            | 🎵        | chunks=['mu', 'si', 'cian'] | py=ㄇㄧㄨ-ㄗㄧ-ㄒㄢ | theme=jobs | stage=1
+ 1259 | painter                        | 畫家                             | 🎨        | chunks=['pain', 'ter'] | py=ㄆㄟㄣ-ㄊㄜ | theme=jobs | stage=1 base=paint
+ 1260 | photographer                   | 攝影師                            | 📷        | chunks=['pho', 'tog', 'ra', 'pher'] | py=ㄈㄜ-ㄊㄚ-ㄍㄌㄜ-ㄈㄜ | theme=jobs | stage=2 base=photograph
+ 1261 | director                       | 導演                             | 🎬        | chunks=['di', 'rec', 'tor'] | py=ㄉㄜ-ㄌㄝㄎ-ㄊㄜ | theme=jobs | stage=2 base=direct
+ 1262 | producer                       | 製作人                            | 🎬        | chunks=['pro', 'du', 'cer'] | py=ㄆㄜ-ㄉㄧㄨ-ㄙㄜ | theme=jobs | stage=2 base=produce
+ 1263 | clerk                          | 店員                             | 🧑‍💼      | chunks=['cl', 'erk'] | py=ㄎㄌㄜㄎ | theme=jobs | stage=1
+ 1264 | cashier                        | 收銀員                            | 💵        | chunks=['cash', 'ier'] | py=ㄎㄚ-ㄒㄧㄦ | theme=jobs | stage=1 base=cash
+ 1265 | manager                        | 經理                             | 🧑‍💼      | chunks=['man', 'a', 'ger'] | py=ㄇㄚ-ㄋㄚ-ㄐㄜ | theme=jobs | stage=1 base=manage
+ 1266 | boss                           | 老闆                             | 🧑‍💼      | chunks=['b', 'oss'] | py=ㄅㄚㄙ | theme=jobs | stage=1
+ 1267 | owner                          | 擁有者                            | 🏠        | chunks=['ow', 'ner'] | py=ㄛ-ㄋㄜ | theme=jobs | stage=1 base=own
+ 1268 | plumber                        | 水管工                            | 🔧        | chunks=['plum', 'ber'] | py=ㄆㄌㄚ-ㄇㄜ | theme=jobs | stage=2
+ 1269 | carpenter                      | 木匠                             | 🪚        | chunks=['car', 'pen', 'ter'] | py=ㄎㄚㄦ-ㄆㄣ-ㄊㄜ | theme=jobs | stage=2
+ 1270 | mechanic                       | 機械工                            | 🔧        | chunks=['me', 'cha', 'nic'] | py=ㄇㄜ-ㄎㄚ-ㄋㄧㄎ | theme=jobs | stage=2
+ 1271 | electrician                    | 電工                             | ⚡        | chunks=['e', 'lec', 'tri', 'cian'] | py=ㄧ-ㄌㄝㄎ-ㄊㄌㄧ-ㄒㄢ | theme=jobs | stage=2
+ 1272 | pilot                          | 飛行員                            | ✈️       | chunks=['pi', 'lot'] | py=ㄆㄞ-ㄌㄝㄊ | theme=jobs | stage=1
+ 1273 | captain                        | 船長                             | ⚓        | chunks=['cap', 'tain'] | py=ㄎㄚㄆ-ㄊㄣ | theme=jobs | stage=1
+ 1274 | soldier                        | 士兵                             | 🪖        | chunks=['sol', 'dier'] | py=ㄙㄛㄦ-ㄐㄜ | theme=jobs | stage=1
+ 1275 | sailor                         | 水手                             | ⛵        | chunks=['sai', 'lor'] | py=ㄙㄟ-ㄌㄜ | theme=jobs | stage=1 base=sail
+ 1276 | firefighter                    | 消防員                            | 🚒        | chunks=['fire', 'figh', 'ter'] | py=ㄈㄞㄜ-ㄈㄞ-ㄊㄜ | theme=jobs | stage=1
+ 1277 | judge                          | 法官                             | ⚖️       | chunks=['j', 'udge'] | py=ㄐㄚㄐ | theme=jobs | stage=2
+ 1278 | mayor                          | 市長                             | 🏛️       | chunks=['may', 'or'] | py=ㄇㄟ-ㄜ | theme=jobs | stage=2
+ 1279 | president                      | 總統                             | 🇺🇸       | chunks=['pre', 'si', 'dent'] | py=ㄆㄌㄝ-ㄗㄜ-ㄉㄣㄊ | theme=jobs | stage=1
+ 1280 | secretary                      | 秘書                             | 📋        | chunks=['sec', 're', 'ta', 'ry'] | py=ㄙㄝㄎ-ㄌㄜ-ㄊㄝ-ㄌㄧ | theme=jobs | stage=2
+ 1281 | assistant                      | 助理                             | 🧑‍💼      | chunks=['as', 'sis', 'tant'] | py=ㄚ-ㄒㄧㄙ-ㄊㄣㄊ | theme=jobs | stage=2
+ 1282 | accountant                     | 會計                             | 💼        | chunks=['ac', 'coun', 'tant'] | py=ㄚ-ㄎㄠㄣ-ㄊㄣㄊ | theme=jobs | stage=2
+ 1283 | banker                         | 銀行家                            | 🏦        | chunks=['ban', 'ker'] | py=ㄅㄢ-ㄎㄜ | theme=jobs | stage=1 base=bank
+ 1284 | scientist                      | 科學家                            | 🔬        | chunks=['sci', 'en', 'tist'] | py=ㄙㄞ-ㄣ-ㄊㄧㄙㄊ | theme=jobs | stage=1
+ 1285 | programmer                     | 程式設計師                          | 💻        | chunks=['pro', 'gram', 'mer'] | py=ㄆㄌㄛ-ㄍㄌㄚ-ㄇㄜ | theme=jobs | stage=2 base=program
+ 1286 | developer                      | 開發者                            | 💻        | chunks=['de', 'vel', 'o', 'per'] | py=ㄉㄧ-ㄈㄝ-ㄌㄜ-ㄆㄜ | theme=jobs | stage=2 base=develop
+ 1287 | translator                     | 翻譯                             | 🌐        | chunks=['trans', 'la', 'tor'] | py=ㄊㄌㄢㄙ-ㄌㄟ-ㄊㄜ | theme=jobs | stage=2 base=translate
+ 1288 | tailor                         | 裁縫                             | 🧵        | chunks=['tai', 'lor'] | py=ㄊㄟ-ㄌㄜ | theme=jobs | stage=2
+ 1289 | barber                         | 理髮師                            | 💈        | chunks=['bar', 'ber'] | py=ㄅㄚㄦ-ㄅㄜ | theme=jobs | stage=1
+ 1290 | gardener                       | 園丁                             | 🌷        | chunks=['gar', 'de', 'ner'] | py=ㄍㄚㄦ-ㄉㄜ-ㄋㄜ | theme=jobs | stage=1 base=garden
+ 1291 | receptionist                   | 接待員                            | 🛎️       | chunks=['re', 'cep', 'tion', 'ist'] | py=ㄌㄧ-ㄙㄝㄆ-ㄒㄣ-ㄧㄙㄊ | theme=jobs | stage=2
+ 1292 | librarian                      | 圖書館員                           | 📚        | chunks=['li', 'brar', 'i', 'an'] | py=ㄌㄞ-ㄅㄌㄝ-ㄌㄧ-ㄢ | theme=jobs | stage=2
+ 1293 | journalist                     | 記者                             | 📰        | chunks=['jour', 'na', 'list'] | py=ㄐㄜ-ㄋㄜ-ㄌㄧㄙㄊ | theme=jobs | stage=2
+ 1294 | model                          | 模特兒                            | 👗        | chunks=['mo', 'del'] | py=ㄇㄚ-ㄉㄜ | theme=jobs | stage=1
+ 1295 | athlete                        | 運動員                            | 🏃        | chunks=['ath', 'lete'] | py=ㄚㄙ-ㄌㄧㄊ | theme=jobs | stage=1
+ 1296 | football                       | 足球                             | ⚽        | chunks=['foot', 'ball'] | py=ㄈㄨㄊ-ㄅㄛㄦ | theme=sports | stage=0
+ 1297 | volleyball                     | 排球                             | 🏐        | chunks=['vol', 'ley', 'ball'] | py=ㄈㄚ-ㄌㄧ-ㄅㄛㄦ | theme=sports | stage=1
+ 1298 | badminton                      | 羽球                             | 🏸        | chunks=['bad', 'min', 'ton'] | py=ㄅㄚㄉ-ㄇㄧㄣ-ㄉㄣ | theme=sports | stage=1
+ 1299 | hockey                         | 曲棍球                            | 🏒        | chunks=['hoc', 'key'] | py=ㄏㄚ-ㄎㄧ | theme=sports | stage=1
+ 1300 | cricket                        | 板球                             | 🏏        | chunks=['crick', 'et'] | py=ㄎㄌㄧ-ㄎㄝㄊ | theme=sports | stage=2
+ 1301 | rugby                          | 橄欖球                            | 🏉        | chunks=['rug', 'by'] | py=ㄌㄚㄍ-ㄅㄧ | theme=sports | stage=1
+ 1302 | boxing                         | 拳擊                             | 🥊        | chunks=['box', 'ing'] | py=ㄅㄚㄎㄙ-ㄧㄥ | theme=sports | stage=1 base=box
+ 1303 | wrestling                      | 摔角                             | 🤼        | chunks=['wrest', 'ling'] | py=ㄌㄝㄙ-ㄌㄧㄥ | theme=sports | stage=2 base=wrestle
+ 1304 | fencing                        | 擊劍                             | 🤺        | chunks=['fen', 'cing'] | py=ㄈㄣ-ㄒㄧㄥ | theme=sports | stage=2 base=fence
+ 1305 | judo                           | 柔道                             | 🥋        | chunks=['ju', 'do'] | py=ㄐㄨ-ㄉㄛ | theme=sports | stage=1
+ 1306 | karate                         | 空手道                            | 🥋        | chunks=['ka', 'ra', 'te'] | py=ㄎㄚ-ㄌㄚ-ㄊㄧ | theme=sports | stage=1
+ 1307 | jogging                        | 慢跑                             | 🏃        | chunks=['jog', 'ging'] | py=ㄐㄚ-ㄍㄧㄥ | theme=sports | stage=1 base=jog
+ 1308 | cycling                        | 騎車                             | 🚴        | chunks=['cy', 'cling'] | py=ㄙㄞ-ㄎㄌㄧㄥ | theme=sports | stage=1 base=cycle
+ 1309 | surfing                        | 衝浪                             | 🏄        | chunks=['surf', 'ing'] | py=ㄙㄜㄈ-ㄧㄥ | theme=sports | stage=1 base=surf
+ 1310 | diving                         | 潛水                             | 🤿        | chunks=['di', 'ving'] | py=ㄉㄞ-ㄈㄧㄥ | theme=sports | stage=1 base=dive
+ 1311 | skiing                         | 滑雪                             | ⛷️       | chunks=['ski', 'ing'] | py=ㄙㄎㄧ-ㄧㄥ | theme=sports | stage=1 base=ski
+ 1312 | snowboarding                   | 滑雪板                            | 🏂        | chunks=['snow', 'boar', 'ding'] | py=ㄙㄋㄛ-ㄅㄛㄦ-ㄉㄧㄥ | theme=sports | stage=2
+ 1313 | fishing                        | 釣魚                             | 🎣        | chunks=['fish', 'ing'] | py=ㄈㄧ-ㄒㄧㄥ | theme=sports | stage=0 base=fish
+ 1314 | hiking                         | 健行                             | 🥾        | chunks=['hi', 'king'] | py=ㄏㄞ-ㄎㄧㄥ | theme=sports | stage=1 base=hike
+ 1315 | camping                        | 露營                             | 🏕️       | chunks=['cam', 'ping'] | py=ㄎㄚㄇ-ㄆㄧㄥ | theme=sports | stage=1 base=camp
+ 1316 | rowing                         | 划船                             | 🚣        | chunks=['ro', 'wing'] | py=ㄌㄛ-ㄨㄧㄥ | theme=sports | stage=2 base=row
+ 1317 | sailing                        | 航行                             | ⛵        | chunks=['sai', 'ling'] | py=ㄙㄟ-ㄌㄧㄥ | theme=sports | stage=1 base=sail
+ 1318 | archery                        | 射箭                             | 🏹        | chunks=['ar', 'che', 'ry'] | py=ㄚㄦ-ㄑㄜ-ㄌㄧ | theme=sports | stage=2
+ 1319 | bowling                        | 保齡球                            | 🎳        | chunks=['bow', 'ling'] | py=ㄅㄛ-ㄌㄧㄥ | theme=sports | stage=1 base=bowl
+ 1320 | darts                          | 飛鏢                             | 🎯        | chunks=['d', 'arts'] | py=ㄉㄚㄦㄗ | theme=sports | stage=1
+ 1321 | chess                          | 西洋棋                            | ♟️       | chunks=['ch', 'ess'] | py=ㄑㄝㄙ | theme=sports | stage=1
+ 1322 | match                          | 比賽、火柴、配對                       | 🏆        | chunks=['m', 'atch'] | py=ㄇㄚㄑ | theme=sports | stage=1 [有易混提示]
+ 1323 | team                           | 隊伍                             | 👥        | chunks=['t', 'eam'] | py=ㄊㄧㄇ | theme=sports | stage=0
+ 1324 | player                         | 選手                             | 🏃        | chunks=['play', 'er'] | py=ㄆㄌㄟ-ㄜ | theme=sports | stage=0 base=play
+ 1325 | coach                          | 教練                             | 📣        | chunks=['c', 'oach'] | py=ㄎㄛㄑ | theme=sports | stage=1
+ 1326 | referee                        | 裁判                             | 🦓        | chunks=['ref', 'e', 'ree'] | py=ㄌㄝ-ㄈㄜ-ㄌㄧ | theme=sports | stage=2
+ 1327 | goal                           | 進球、目標                          | 🥅        | chunks=['g', 'oal'] | py=ㄍㄛㄦ | theme=sports | stage=1
+ 1328 | point                          | 得分、點、指                         | 🎯        | chunks=['p', 'oint'] | py=ㄆㄛㄧㄣㄊ | theme=sports | stage=0 [有易混提示]
+ 1329 | medal                          | 獎牌                             | 🏅        | chunks=['me', 'dal'] | py=ㄇㄝ-ㄉㄜ | theme=sports | stage=1
+ 1330 | trophy                         | 獎盃                             | 🏆        | chunks=['tro', 'phy'] | py=ㄊㄌㄛ-ㄈㄧ | theme=sports | stage=1
+ 1331 | champion                       | 冠軍                             | 🥇        | chunks=['cham', 'pion'] | py=ㄑㄚㄇ-ㄆㄧㄢ | theme=sports | stage=1
+ 1332 | winner                         | 贏家                             | 🥇        | chunks=['win', 'ner'] | py=ㄨㄧ-ㄋㄜ | theme=sports | stage=1 base=win
+ 1333 | loser                          | 輸家                             | 😞        | chunks=['lo', 'ser'] | py=ㄌㄨ-ㄗㄜ | theme=sports | stage=1 base=lose
+ 1334 | gym                            | 健身房                            | 🏋️       | chunks=['g', 'ym'] | py=ㄐㄧㄇ | theme=sports | stage=0
+ 1335 | field                          | 田、球場、領域                        | 🟩        | chunks=['f', 'ield'] | py=ㄈㄧㄦㄉ | theme=sports | stage=1
+ 1336 | court                          | 球場、法庭                          | 🎾        | chunks=['c', 'ourt'] | py=ㄎㄛㄦㄊ | theme=sports | stage=1 [有易混提示]
+ 1337 | stadium                        | 體育館                            | 🏟️       | chunks=['sta', 'di', 'um'] | py=ㄙㄉㄟ-ㄉㄧ-ㄜㄇ | theme=sports | stage=2
+ 1338 | race                           | 賽跑                             | 🏁        | chunks=['r', 'ace'] | py=ㄌㄟㄙ | theme=sports | stage=1 [有易混提示]
+ 1339 | marathon                       | 馬拉松                            | 🏃        | chunks=['mar', 'a', 'thon'] | py=ㄇㄝ-ㄌㄜ-ㄙㄢ | theme=sports | stage=2
+ 1340 | note                           | 音符、筆記                          | 🎵        | chunks=['n', 'ote'] | py=ㄋㄛㄊ | theme=music | stage=1 [有易混提示]
+ 1341 | melody                         | 旋律                             | 🎶        | chunks=['mel', 'o', 'dy'] | py=ㄇㄝ-ㄌㄜ-ㄉㄧ | theme=music | stage=2
+ 1342 | rhythm                         | 節奏                             | 🥁        | chunks=['rhy', 'thm'] | py=ㄌㄧ-ㄉㄜㄇ | theme=music | stage=2
+ 1343 | tune                           | 曲調                             | 🎵        | chunks=['t', 'une'] | py=ㄊㄧㄨㄣ | theme=music | stage=1
+ 1344 | chord                          | 和弦                             | 🎸        | chunks=['ch', 'ord'] | py=ㄎㄛㄦㄉ | theme=music | stage=2
+ 1345 | scale                          | 音階、比例、秤                        | 🎼        | chunks=['sc', 'ale'] | py=ㄙㄎㄟㄦ | theme=music | stage=2
+ 1346 | key                            | 音調                             | 🔑        | chunks=['k', 'ey'] | py=ㄎㄧ | theme=music | stage=1 [有易混提示]
+ 1347 | tempo                          | 節拍                             | 🎵        | chunks=['tem', 'po'] | py=ㄊㄝㄇ-ㄆㄛ | theme=music | stage=2
+ 1348 | lyrics                         | 歌詞                             | 📜        | chunks=['lyr', 'ics'] | py=ㄌㄧ-ㄌㄧㄎㄙ | theme=music | stage=2
+ 1349 | chorus                         | 副歌                             | 🎤        | chunks=['cho', 'rus'] | py=ㄎㄛ-ㄌㄜㄙ | theme=music | stage=2
+ 1350 | solo                           | 獨奏                             | 🎤        | chunks=['so', 'lo'] | py=ㄙㄛ-ㄌㄛ | theme=music | stage=1
+ 1351 | choir                          | 合唱團                            | 🎤        | chunks=['ch', 'oir'] | py=ㄎㄨㄚㄦ | theme=music | stage=2
+ 1352 | orchestra                      | 管絃樂團                           | 🎻        | chunks=['or', 'ches', 'tra'] | py=ㄛㄦ-ㄎㄝㄙ-ㄊㄌㄚ | theme=music | stage=2
+ 1353 | concert                        | 演唱會                            | 🎤        | chunks=['con', 'cert'] | py=ㄎㄚㄣ-ㄙㄜㄊ | theme=music | stage=1
+ 1354 | opera                          | 歌劇                             | 🎭        | chunks=['o', 'pe', 'ra'] | py=ㄚ-ㄆㄜ-ㄌㄚ | theme=music | stage=2
+ 1355 | album                          | 專輯                             | 💿        | chunks=['al', 'bum'] | py=ㄚㄦ-ㄅㄜㄇ | theme=music | stage=1
+ 1356 | record                         | 唱片、紀錄                          | 📀        | chunks=['rec', 'ord'] | py=ㄌㄝ-ㄎㄜㄉ | theme=music | stage=1 [有易混提示]
+ 1357 | radio                          | 收音機                            | 📻        | chunks=['ra', 'di', 'o'] | py=ㄌㄟ-ㄉㄧ-ㄛ | theme=music | stage=0
+ 1358 | speaker                        | 喇叭                             | 🔊        | chunks=['spea', 'ker'] | py=ㄙㄆㄧ-ㄎㄜ | theme=music | stage=1 base=speak
+ 1359 | microphone                     | 麥克風                            | 🎤        | chunks=['mi', 'cro', 'phone'] | py=ㄇㄞ-ㄎㄌㄜ-ㄈㄛㄣ | theme=music | stage=2
+ 1360 | headphones                     | 耳機                             | 🎧        | chunks=['head', 'phones'] | py=ㄏㄝㄉ-ㄈㄛㄣㄗ | theme=music | stage=1
+ 1361 | instrument                     | 樂器                             | 🎻        | chunks=['in', 'stru', 'ment'] | py=ㄧㄣ-ㄙㄉㄌㄜ-ㄇㄣㄊ | theme=music | stage=2
+ 1362 | trumpet                        | 小號                             | 🎺        | chunks=['trum', 'pet'] | py=ㄊㄌㄚㄇ-ㄆㄝㄊ | theme=music | stage=1
+ 1363 | saxophone                      | 薩克斯風                           | 🎷        | chunks=['sax', 'o', 'phone'] | py=ㄙㄚㄎ-ㄗㄜ-ㄈㄛㄣ | theme=music | stage=2
+ 1364 | clarinet                       | 豎笛                             | 🎶        | chunks=['cla', 'ri', 'net'] | py=ㄎㄌㄝ-ㄌㄜ-ㄋㄝㄊ | theme=music | stage=2
+ 1365 | trombone                       | 長號                             | 🎺        | chunks=['trom', 'bone'] | py=ㄊㄌㄚㄇ-ㄅㄛㄣ | theme=music | stage=2
+ 1366 | cello                          | 大提琴                            | 🎻        | chunks=['cel', 'lo'] | py=ㄑㄝ-ㄌㄛ | theme=music | stage=2
+ 1367 | harp                           | 豎琴                             | 🎶        | chunks=['h', 'arp'] | py=ㄏㄚㄦㄆ | theme=music | stage=2
+ 1368 | accordion                      | 手風琴                            | 🪗        | chunks=['ac', 'cor', 'di', 'on'] | py=ㄚ-ㄎㄛㄦ-ㄉㄧ-ㄢ | theme=music | stage=2
+ 1369 | xylophone                      | 木琴                             | 🎶        | chunks=['xy', 'lo', 'phone'] | py=ㄗㄞ-ㄌㄜ-ㄈㄛㄣ | theme=music | stage=2
+ 1370 | organ                          | 風琴                             | 🎹        | chunks=['or', 'gan'] | py=ㄛㄦ-ㄍㄣ | theme=music | stage=1
+ 1371 | ukulele                        | 烏克麗麗                           | 🎶        | chunks=['u', 'ku', 'le', 'le'] | py=ㄧㄨ-ㄎㄜ-ㄌㄟ-ㄌㄧ | theme=music | stage=2
+ 1372 | rapper                         | 饒舌歌手                           | 🎤        | chunks=['rap', 'per'] | py=ㄌㄚ-ㄆㄜ | theme=music | stage=1 base=rap
+ 1373 | composer                       | 作曲家                            | 🎼        | chunks=['com', 'po', 'ser'] | py=ㄎㄚㄇ-ㄆㄛ-ㄗㄜ | theme=music | stage=2 base=compose
+ 1374 | conductor                      | 指揮                             | 🎵        | chunks=['con', 'duc', 'tor'] | py=ㄎㄢ-ㄉㄚㄎ-ㄊㄜ | theme=music | stage=2 base=conduct
+ 1375 | pop                            | 流行                             | 🎵        | chunks=['p', 'op'] | py=ㄆㄚㄆ | theme=music | stage=1 [有易混提示]
+ 1376 | jazz                           | 爵士                             | 🎷        | chunks=['j', 'azz'] | py=ㄐㄚㄗ | theme=music | stage=1
+ 1377 | blues                          | 藍調                             | 🎵        | chunks=['bl', 'ues'] | py=ㄅㄌㄨㄗ | theme=music | stage=2
+ 1378 | classical                      | 古典                             | 🎼        | chunks=['clas', 'si', 'cal'] | py=ㄎㄌㄚ-ㄒㄜ-ㄎㄜ | theme=music | stage=2 base=classic [有易混提示]
+ 1379 | country                        | 鄉村                             | 🤠        | chunks=['coun', 'try'] | py=ㄎㄢ-ㄊㄌㄧ | theme=music | stage=1 [有易混提示]
+ 1380 | folk                           | 民謠                             | 🎵        | chunks=['f', 'olk'] | py=ㄈㄛㄎ | theme=music | stage=2
+ 1381 | rap                            | 饒舌                             | 🎤        | chunks=['r', 'ap'] | py=ㄌㄚㄆ | theme=music | stage=1 [有易混提示]
+ 1382 | perform                        | 表演                             | 🎭        | chunks=['per', 'form'] | py=ㄆㄜ-ㄈㄛㄦㄇ | theme=music | stage=2
+ 1383 | synthesizer                    | 合成器                            | 🎹        | chunks=['syn', 'the', 'si', 'zer'] | py=ㄒㄧㄣ-ㄙㄜ-ㄗㄞ-ㄗㄜ | theme=music | stage=3 base=synthesize
+ 1384 | metal                          | 金屬樂                            | 🎸        | chunks=['me', 'tal'] | py=ㄇㄝ-ㄉㄜ | theme=music | stage=2
+ 1385 | forest                         | 森林                             | 🌲        | chunks=['for', 'est'] | py=ㄈㄛ-ㄌㄝㄙㄊ | theme=nature | stage=0
+ 1386 | jungle                         | 叢林                             | 🌴        | chunks=['jun', 'gle'] | py=ㄐㄚㄥ-ㄍㄜ | theme=nature | stage=1
+ 1387 | desert                         | 沙漠                             | 🏜️       | chunks=['des', 'ert'] | py=ㄉㄝ-ㄗㄜㄊ | theme=nature | stage=1 [有易混提示]
+ 1388 | hill                           | 小山                             | ⛰️       | chunks=['h', 'ill'] | py=ㄏㄧㄦ | theme=nature | stage=0
+ 1389 | valley                         | 山谷                             | 🏞️       | chunks=['val', 'ley'] | py=ㄈㄚ-ㄌㄧ | theme=nature | stage=1
+ 1390 | cliff                          | 懸崖                             | 🪨        | chunks=['cl', 'iff'] | py=ㄎㄌㄧㄈ | theme=nature | stage=1
+ 1391 | cave                           | 洞穴                             | 🕳️       | chunks=['c', 'ave'] | py=ㄎㄟㄈ | theme=nature | stage=1
+ 1392 | stream                         | 溪流                             | 🏞️       | chunks=['str', 'eam'] | py=ㄙㄉㄌㄧㄇ | theme=nature | stage=1
+ 1393 | lake                           | 湖                              | 🏞️       | chunks=['l', 'ake'] | py=ㄌㄟㄎ | theme=nature | stage=0
+ 1394 | pond                           | 池塘                             | 🏞️       | chunks=['p', 'ond'] | py=ㄆㄚㄣㄉ | theme=nature | stage=1
+ 1395 | ocean                          | 海洋                             | 🌊        | chunks=['o', 'cean'] | py=ㄛ-ㄒㄣ | theme=nature | stage=0
+ 1396 | sea                            | 海                              | 🌊        | chunks=['s', 'ea'] | py=ㄒㄧ | theme=nature | stage=0 [有易混提示]
+ 1397 | island                         | 島                              | 🏝️       | chunks=['is', 'land'] | py=ㄞ-ㄌㄢㄉ | theme=nature | stage=1
+ 1398 | coast                          | 海岸                             | 🏖️       | chunks=['c', 'oast'] | py=ㄎㄛㄙㄊ | theme=nature | stage=1
+ 1399 | shore                          | 岸                              | 🏖️       | chunks=['sh', 'ore'] | py=ㄒㄛㄦ | theme=nature | stage=1
+ 1400 | waterfall                      | 瀑布                             | 🌊        | chunks=['wa', 'ter', 'fall'] | py=ㄨㄛ-ㄊㄜ-ㄈㄛㄦ | theme=nature | stage=1
+ 1401 | canyon                         | 峽谷                             | 🏞️       | chunks=['can', 'yon'] | py=ㄎㄚ-ㄋㄧㄢ | theme=nature | stage=2
+ 1402 | glacier                        | 冰川                             | 🧊        | chunks=['gla', 'cier'] | py=ㄍㄌㄟ-ㄒㄜ | theme=nature | stage=3
+ 1403 | iceberg                        | 冰山                             | 🧊        | chunks=['ice', 'berg'] | py=ㄞㄙ-ㄅㄜㄍ | theme=nature | stage=2
+ 1404 | plain                          | 平原、樸素                          | 🌾        | chunks=['pl', 'ain'] | py=ㄆㄌㄟㄣ | theme=nature | stage=1 [有易混提示]
+ 1405 | meadow                         | 草地                             | 🌿        | chunks=['mea', 'dow'] | py=ㄇㄝ-ㄉㄛ | theme=nature | stage=2
+ 1406 | swamp                          | 沼澤                             | 🐊        | chunks=['sw', 'amp'] | py=ㄙㄨㄚㄇㄆ | theme=nature | stage=2
+ 1407 | soil                           | 土壤                             | 🟫        | chunks=['s', 'oil'] | py=ㄙㄛㄧㄦ | theme=nature | stage=1
+ 1408 | dirt                           | 泥土                             | 🟫        | chunks=['d', 'irt'] | py=ㄉㄜㄊ | theme=nature | stage=1
+ 1409 | mud                            | 泥巴                             | 🟫        | chunks=['m', 'ud'] | py=ㄇㄚㄉ | theme=nature | stage=1
+ 1410 | stone                          | 石頭                             | 🪨        | chunks=['st', 'one'] | py=ㄙㄉㄛㄣ | theme=nature | stage=0
+ 1411 | boulder                        | 巨石                             | 🪨        | chunks=['boul', 'der'] | py=ㄅㄛㄦ-ㄉㄜ | theme=nature | stage=2
+ 1412 | clay                           | 黏土                             | 🟫        | chunks=['cl', 'ay'] | py=ㄎㄌㄟ | theme=nature | stage=1
+ 1413 | crystal                        | 水晶                             | 💎        | chunks=['crys', 'tal'] | py=ㄎㄌㄧㄙ-ㄊㄜ | theme=nature | stage=2
+ 1414 | branch                         | 樹枝                             | 🌿        | chunks=['br', 'anch'] | py=ㄅㄌㄢㄑ | theme=nature | stage=1 [有易混提示]
+ 1415 | trunk                          | 樹幹、後車廂、象鼻                      | 🌲        | chunks=['tr', 'unk'] | py=ㄊㄌㄚㄣㄎ | theme=nature | stage=1 [有易混提示]
+ 1416 | root                           | 樹根                             | 🌱        | chunks=['r', 'oot'] | py=ㄌㄨㄊ | theme=nature | stage=1
+ 1417 | bark                           | 樹皮、狗吠                          | 🪵        | chunks=['b', 'ark'] | py=ㄅㄚㄦㄎ | theme=nature | stage=1
+ 1418 | petal                          | 花瓣                             | 🌸        | chunks=['pe', 'tal'] | py=ㄆㄝ-ㄉㄜ | theme=nature | stage=1
+ 1419 | stem                           | 莖                              | 🌱        | chunks=['st', 'em'] | py=ㄙㄉㄝㄇ | theme=nature | stage=1
+ 1420 | moss                           | 苔蘚                             | 🌿        | chunks=['m', 'oss'] | py=ㄇㄚㄙ | theme=nature | stage=2
+ 1421 | fern                           | 蕨類                             | 🌿        | chunks=['f', 'ern'] | py=ㄈㄜㄣ | theme=nature | stage=2
+ 1422 | bush                           | 灌木                             | 🌿        | chunks=['b', 'ush'] | py=ㄅㄨㄒ | theme=nature | stage=1
+ 1423 | vine                           | 藤蔓                             | 🌿        | chunks=['v', 'ine'] | py=ㄈㄞㄣ | theme=nature | stage=2
+ 1424 | pine                           | 松樹                             | 🌲        | chunks=['p', 'ine'] | py=ㄆㄞㄣ | theme=nature | stage=1 [有易混提示]
+ 1425 | peak                           | 山峰                             | ⛰️       | chunks=['p', 'eak'] | py=ㄆㄧㄎ | theme=nature | stage=1 [有易混提示]
+ 1426 | creek                          | 小溪                             | 🏞️       | chunks=['cr', 'eek'] | py=ㄎㄌㄧㄎ | theme=nature | stage=2
+ 1427 | shoreline                      | 海岸線                            | 🏖️       | chunks=['shore', 'line'] | py=ㄒㄛㄦ-ㄌㄞㄣ | theme=nature | stage=2
+ 1428 | gem                            | 寶石                             | 💎        | chunks=['g', 'em'] | py=ㄐㄝㄇ | theme=nature | stage=1
+ 1429 | fungus                         | 真菌                             | 🍄        | chunks=['fun', 'gus'] | py=ㄈㄚㄣ-ㄍㄜㄙ | theme=nature | stage=3
+ 1430 | moonlight                      | 月光                             | 🌙        | chunks=['moon', 'light'] | py=ㄇㄨㄣ-ㄌㄞㄊ | theme=phonics-compound | stage=1
+ 1431 | daylight                       | 日光                             | ☀️       | chunks=['day', 'light'] | py=ㄉㄟ-ㄌㄞㄊ | theme=phonics-compound | stage=1
+ 1432 | flashlight                     | 手電筒                            | 🔦        | chunks=['flash', 'light'] | py=ㄈㄌㄚㄒ-ㄌㄞㄊ | theme=phonics-compound | stage=1
+ 1433 | lighthouse                     | 燈塔                             | 🗼        | chunks=['light', 'house'] | py=ㄌㄞㄊ-ㄏㄠㄙ | theme=phonics-compound | stage=1
+ 1434 | campfire                       | 營火                             | 🔥        | chunks=['camp', 'fire'] | py=ㄎㄚㄇㄆ-ㄈㄞㄜ | theme=phonics-compound | stage=1
+ 1435 | firewood                       | 柴火                             | 🪵        | chunks=['fire', 'wood'] | py=ㄈㄞㄜ-ㄨㄨㄉ | theme=phonics-compound | stage=2
+ 1436 | firework                       | 煙火                             | 🎆        | chunks=['fire', 'work'] | py=ㄈㄞㄜ-ㄨㄜㄎ | theme=phonics-compound | stage=1
+ 1437 | firefly                        | 螢火蟲                            | ✨        | chunks=['fire', 'fly'] | py=ㄈㄞㄜ-ㄈㄌㄞ | theme=phonics-compound | stage=2
+ 1438 | snowman                        | 雪人                             | ☃️       | chunks=['snow', 'man'] | py=ㄙㄋㄛ-ㄇㄢ | theme=phonics-compound | stage=0
+ 1439 | snowflake                      | 雪花                             | ❄️       | chunks=['snow', 'flake'] | py=ㄙㄋㄛ-ㄈㄌㄝㄎ | theme=phonics-compound | stage=1
+ 1440 | snowball                       | 雪球                             | ❄️       | chunks=['snow', 'ball'] | py=ㄙㄋㄛ-ㄅㄛㄦ | theme=phonics-compound | stage=1
+ 1441 | snowfall                       | 降雪                             | 🌨️       | chunks=['snow', 'fall'] | py=ㄙㄋㄛ-ㄈㄛㄦ | theme=phonics-compound | stage=2
+ 1442 | icicle                         | 冰柱                             | 🧊        | chunks=['i', 'ci', 'cle'] | py=ㄞ-ㄙㄜ-ㄎㄜ | theme=phonics-compound | stage=2
+ 1443 | waterproof                     | 防水                             | 💧        | chunks=['wa', 'ter', 'proof'] | py=ㄨㄚ-ㄊㄜ-ㄆㄌㄨㄈ | theme=phonics-compound | stage=2
+ 1444 | seashell                       | 貝殼                             | 🐚        | chunks=['sea', 'shell'] | py=ㄒㄧ-ㄒㄝㄦ | theme=phonics-compound | stage=1
+ 1445 | seaweed                        | 海藻                             | 🌿        | chunks=['sea', 'weed'] | py=ㄒㄧ-ㄨㄧㄉ | theme=phonics-compound | stage=2
+ 1446 | eyeball                        | 眼球                             | 👁️       | chunks=['eye', 'ball'] | py=ㄞ-ㄅㄛㄦ | theme=phonics-compound | stage=1
+ 1447 | eyelid                         | 眼皮                             | 👁️       | chunks=['eye', 'lid'] | py=ㄞ-ㄌㄧㄉ | theme=phonics-compound | stage=2
+ 1448 | eyebrow                        | 眉毛                             | 😀        | chunks=['eye', 'brow'] | py=ㄞ-ㄅㄌㄠ | theme=phonics-compound | stage=1
+ 1449 | eyelash                        | 睫毛                             | 👁️       | chunks=['eye', 'lash'] | py=ㄞ-ㄌㄚㄒ | theme=phonics-compound | stage=1
+ 1450 | fingerprint                    | 指紋                             | ☝️       | chunks=['fin', 'ger', 'print'] | py=ㄈㄧㄥ-ㄍㄜ-ㄆㄌㄧㄣㄊ | theme=phonics-compound | stage=2
+ 1451 | footstep                       | 腳步                             | 👣        | chunks=['foot', 'step'] | py=ㄈㄨㄊ-ㄙㄉㄝㄆ | theme=phonics-compound | stage=1
+ 1452 | footprint                      | 足跡                             | 👣        | chunks=['foot', 'print'] | py=ㄈㄨㄊ-ㄆㄌㄧㄣㄊ | theme=phonics-compound | stage=1
+ 1453 | heartbeat                      | 心跳                             | 💓        | chunks=['heart', 'beat'] | py=ㄏㄚㄦㄊ-ㄅㄧㄊ | theme=phonics-compound | stage=1
+ 1454 | handshake                      | 握手                             | 🤝        | chunks=['hand', 'shake'] | py=ㄏㄚㄣㄉ-ㄒㄟㄎ | theme=phonics-compound | stage=1
+ 1455 | handbag                        | 手提包                            | 👜        | chunks=['hand', 'bag'] | py=ㄏㄚㄣㄉ-ㄅㄚㄍ | theme=phonics-compound | stage=1
+ 1456 | bookcase                       | 書櫃                             | 📚        | chunks=['book', 'case'] | py=ㄅㄨㄎ-ㄎㄝㄙ | theme=phonics-compound | stage=1
+ 1457 | bookworm                       | 書蟲                             | 📚        | chunks=['book', 'worm'] | py=ㄅㄨㄎ-ㄨㄜㄇ | theme=phonics-compound | stage=2
+ 1458 | hometown                       | 家鄉                             | 🏠        | chunks=['home', 'town'] | py=ㄏㄛㄇ-ㄊㄠㄣ | theme=phonics-compound | stage=1
+ 1459 | housework                      | 家事                             | 🧹        | chunks=['house', 'work'] | py=ㄏㄠㄙ-ㄨㄜㄎ | theme=phonics-compound | stage=1
+ 1460 | teamwork                       | 團隊合作                           | 🤝        | chunks=['team', 'work'] | py=ㄊㄧㄇ-ㄨㄜㄎ | theme=phonics-compound | stage=1
+ 1461 | bedroom                        | 臥室                             | 🛏️       | chunks=['bed', 'room'] | py=ㄅㄝㄉ-ㄌㄨㄣ | theme=phonics-compound | stage=0
+ 1462 | ballroom                       | 舞廳                             | 💃        | chunks=['ball', 'room'] | py=ㄅㄛㄦ-ㄌㄨㄣ | theme=phonics-compound | stage=2
+ 1463 | playground                     | 遊樂場                            | 🛝        | chunks=['play', 'ground'] | py=ㄆㄌㄟ-ㄍㄌㄠㄣㄉ | theme=phonics-compound | stage=1
+ 1464 | background                     | 背景                             | 🖼️       | chunks=['back', 'ground'] | py=ㄅㄚㄎ-ㄍㄌㄠㄣㄉ | theme=phonics-compound | stage=1
+ 1465 | underground                    | 地下                             | ⬇️       | chunks=['un', 'der', 'ground'] | py=ㄚㄣ-ㄉㄜ-ㄍㄌㄠㄣㄉ | theme=phonics-compound | stage=1
+ 1466 | underline                      | 底線                             | ▁        | chunks=['un', 'der', 'line'] | py=ㄚㄣ-ㄉㄜ-ㄌㄞㄣ | theme=phonics-compound | stage=1
+ 1467 | underwater                     | 水下                             | 🌊        | chunks=['un', 'der', 'wa', 'ter'] | py=ㄚㄣ-ㄉㄜ-ㄨㄛ-ㄊㄜ | theme=phonics-compound | stage=1
+ 1468 | someone                        | 某人                             | 👤        | chunks=['some', 'one'] | py=ㄙㄚㄇ-ㄨㄢ | theme=phonics-compound | stage=1
+ 1469 | something                      | 某物                             | ❓        | chunks=['some', 'thing'] | py=ㄙㄚㄇ-ㄙㄧㄥ | theme=phonics-compound | stage=1
+ 1470 | everywhere                     | 到處                             | 🌍        | chunks=['every', 'where'] | py=ㄝㄈ-ㄌㄧ-ㄨㄝㄜ | theme=phonics-compound | stage=1
+ 1471 | everything                     | 一切                             | 💯        | chunks=['every', 'thing'] | py=ㄝㄈ-ㄌㄧ-ㄙㄧㄥ | theme=phonics-compound | stage=1
+ 1472 | inside                         | 裡面                             | 📥        | chunks=['in', 'side'] | py=ㄧㄣ-ㄙㄞㄉ | theme=phonics-compound | stage=1
+ 1473 | outside                        | 外面                             | 📤        | chunks=['out', 'side'] | py=ㄠㄊ-ㄙㄞㄉ | theme=phonics-compound | stage=1
+ 1474 | nightlight                     | 夜燈                             | 💡        | chunks=['night', 'light'] | py=ㄋㄞㄊ-ㄌㄞㄊ | theme=phonics-compound | stage=2
+ 1475 | an                             | 一                              | 1️⃣      | chunks=['a', 'n'] | py=ㄢ / ㄝㄋ | theme=sight-words | stage=0
+ 1476 | which                          | 哪個                             | ❓        | chunks=['wh', 'ich'] | py=ㄨㄧㄑ | theme=sight-words | stage=1 [有易混提示]
+ 1477 | whose                          | 誰的                             | ❓        | chunks=['wh', 'ose'] | py=ㄏㄨㄗ | theme=sight-words | stage=1
+ 1478 | whom                           | 誰                              | ❓        | chunks=['wh', 'om'] | py=ㄏㄨㄇ | theme=sight-words | stage=2
+ 1479 | while                          | 當…時                            | ⏳        | chunks=['wh', 'ile'] | py=ㄨㄞㄦ | theme=sight-words | stage=1
+ 1480 | until                          | 直到                             | ➡️       | chunks=['un', 'til'] | py=ㄚㄣ-ㄊㄧㄦ | theme=sight-words | stage=1
+ 1481 | since                          | 自從                             | ⏳        | chunks=['s', 'ince'] | py=ㄒㄧㄣㄙ | theme=sight-words | stage=1
+ 1482 | although                       | 雖然                             | 🤷        | chunks=['al', 'though'] | py=ㄛㄦ-ㄉㄛ | theme=sight-words | stage=2
+ 1483 | though                         | 雖然(口語)                         | 🤷        | chunks=['th', 'ough'] | py=ㄉㄛ | theme=sight-words | stage=2
+ 1484 | unless                         | 除非                             | ⛔        | chunks=['un', 'less'] | py=ㄚㄣ-ㄌㄝㄙ | theme=sight-words | stage=2
+ 1485 | because                        | 因為                             | ➡️       | chunks=['be', 'cause'] | py=ㄅㄧ-ㄎㄛㄗ | theme=sight-words | stage=1
+ 1486 | however                        | 然而                             | 🔄        | chunks=['how', 'ever'] | py=ㄏㄠ-ㄝ-ㄈㄜ | theme=sight-words | stage=2
+ 1487 | therefore                      | 因此                             | ➡️       | chunks=['there', 'fore'] | py=ㄉㄝㄜ-ㄈㄛㄦ | theme=sight-words | stage=2
+ 1488 | thus                           | 因此                             | ➡️       | chunks=['th', 'us'] | py=ㄉㄚㄙ | theme=sight-words | stage=2
+ 1489 | instead                        | 反而                             | 🔄        | chunks=['in', 'stead'] | py=ㄧㄣ-ㄙㄉㄝㄉ | theme=sight-words | stage=2
+ 1490 | otherwise                      | 否則                             | 🔁        | chunks=['o', 'ther', 'wise'] | py=ㄚ-ㄉㄜ-ㄨㄞㄗ | theme=sight-words | stage=2
+ 1491 | yet                            | 還沒                             | ⏳        | chunks=['y', 'et'] | py=ㄧㄝㄊ | theme=sight-words | stage=1
+ 1492 | still                          | 仍然                             | ⏸️       | chunks=['st', 'ill'] | py=ㄙㄉㄧㄦ | theme=sight-words | stage=1 [有易混提示]
+ 1493 | already                        | 已經                             | ✅        | chunks=['al', 'rea', 'dy'] | py=ㄛㄦ-ㄌㄝ-ㄉㄧ | theme=sight-words | stage=1
+ 1494 | ever                           | 曾經                             | ⏳        | chunks=['e', 'ver'] | py=ㄝ-ㄈㄜ | theme=sight-words | stage=1
+ 1495 | rather                         | 寧願                             | 🤔        | chunks=['ra', 'ther'] | py=ㄌㄚ-ㄉㄜ | theme=sight-words | stage=2
+ 1496 | quite                          | 相當                             | 👌        | chunks=['qu', 'ite'] | py=ㄎㄨㄞㄊ | theme=sight-words | stage=1 [有易混提示]
+ 1497 | even                           | 甚至                             | ➕        | chunks=['e', 'ven'] | py=ㄧ-ㄈㄣ | theme=sight-words | stage=1 [有易混提示]
+ 1498 | either                         | 任一                             | 🔀        | chunks=['ei', 'ther'] | py=ㄧ-ㄉㄜ | theme=sight-words | stage=1
+ 1499 | neither                        | 兩者皆非                           | ❌        | chunks=['nei', 'ther'] | py=ㄋㄧ-ㄉㄜ | theme=sight-words | stage=2
