@@ -205,6 +205,15 @@
 - [x] 學習者看到 live 那種「⚠️ 兩種發音」提示有用,問還有哪些
       沒標。掃 150 個常見多義候選 → 寫腳本 `scripts/add_multi_meaning_notes.py`
       curate 補 **129 條 homophone-note**。覆蓋率 365 → **494 / 10101**。
+- [x] 學習者問「真的全 1 萬字都掃過了嗎」 → 答案是沒有,只有 150 候選。
+      用 vocab-audit skill 跑 **L2-homophone-potential AI 全字掃**:
+  - 21 個 batch × 7 個平行 agent,~10 分鐘跑完
+  - 7 agent 共回 1,428 筆,去重後 **1,379 唯一候選**
+  - 類型分佈:polyseme 786 / confusable 392 / easily-confused 106 / homophone 79 / heteronym 16
+  - 學習者選方案 A(全進)→ `scripts/apply_audit_notes.py` 寫入 1,379 筆
+  - **最終覆蓋:1,873 / 10,101 = 18.5%**(從 4.9% 跳到 18.5%)
+  - report 留檔:`.claude/skills/vocab-audit/reports/20260519-MERGED.json` +
+    7 個 agent 個別檔案,將來增量檢查可重用
   - Tier 1 兩種發音(heteronym):read/lead/tear/record/conduct/
     desert/present/object/subject/contest/contract/export/import/
     progress/project/protest/produce/permit/refuse/content/perfect/

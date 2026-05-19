@@ -1,0 +1,501 @@
+# 字 2000-2499
+ 2000 | brusselsprout                  | 球芽甘藍                           | 🥬        | chunks=['brus', 'sels', 'sprout'] | py=ㄅㄌㄚ-ㄙㄜㄗ-ㄙㄆㄌㄠㄊ | theme=vegetables | stage=3
+ 2001 | snowpea                        | 豌豆莢                            | 🟢        | chunks=['snow', 'pea'] | py=ㄙㄋㄛ-ㄆㄧ | theme=vegetables | stage=2
+ 2002 | chickpea                       | 鷹嘴豆                            | 🟡        | chunks=['chick', 'pea'] | py=ㄑㄧㄎ-ㄆㄧ | theme=vegetables | stage=2
+ 2003 | lentil                         | 扁豆                             | 🟫        | chunks=['len', 'til'] | py=ㄌㄝㄣ-ㄊㄜ | theme=vegetables | stage=2
+ 2004 | soybean                        | 黃豆                             | 🟡        | chunks=['soy', 'bean'] | py=ㄙㄛㄧ-ㄅㄧㄣ | theme=vegetables | stage=1
+ 2005 | edamame                        | 毛豆                             | 🟢        | chunks=['e', 'da', 'ma', 'me'] | py=ㄝ-ㄉㄚ-ㄇㄚ-ㄇㄝ | theme=vegetables | stage=2
+ 2006 | tomatillo                      | 墨西哥番茄                          | 🟢        | chunks=['to', 'ma', 'til', 'lo'] | py=ㄊㄛ-ㄇㄚ-ㄊㄧ-ㄌㄛ | theme=vegetables | stage=3
+ 2007 | daikon                         | 白蘿蔔                            | ⬜        | chunks=['dai', 'kon'] | py=ㄉㄞ-ㄎㄢ | theme=vegetables | stage=2
+ 2008 | lotusroot                      | 蓮藕                             | ⚪        | chunks=['lo', 'tus', 'root'] | py=ㄌㄛ-ㄊㄜㄗ-ㄌㄨㄊ | theme=vegetables | stage=2
+ 2009 | bambooshoot                    | 竹筍                             | 🎋        | chunks=['bam', 'boo', 'shoot'] | py=ㄅㄚㄇ-ㄅㄨ-ㄒㄨㄊ | theme=vegetables | stage=2
+ 2010 | cilantro                       | 香菜                             | 🌿        | chunks=['ci', 'lan', 'tro'] | py=ㄒㄜ-ㄌㄢ-ㄊㄌㄛ | theme=vegetables | stage=2
+ 2011 | parsley                        | 巴西利                            | 🌿        | chunks=['pars', 'ley'] | py=ㄆㄚㄦㄙ-ㄌㄧ | theme=vegetables | stage=2
+ 2012 | basil                          | 羅勒                             | 🌿        | chunks=['ba', 'sil'] | py=ㄅㄝ-ㄗㄜ | theme=vegetables | stage=2
+ 2013 | rosemary                       | 迷迭香                            | 🌿        | chunks=['rose', 'ma', 'ry'] | py=ㄌㄛㄗ-ㄇㄝ-ㄌㄧ | theme=vegetables | stage=2
+ 2014 | thyme                          | 百里香                            | 🌿        | chunks=['th', 'yme'] | py=ㄊㄞㄇ | theme=vegetables | stage=3 [有易混提示]
+ 2015 | oregano                        | 奧勒岡                            | 🌿        | chunks=['o', 'reg', 'a', 'no'] | py=ㄛ-ㄌㄝ-ㄍㄜ-ㄋㄛ | theme=vegetables | stage=3
+ 2016 | dill                           | 蒔蘿                             | 🌿        | chunks=['d', 'ill'] | py=ㄉㄧㄦ | theme=vegetables | stage=3
+ 2017 | sage                           | 鼠尾草                            | 🌿        | chunks=['s', 'age'] | py=ㄙㄟㄐ | theme=vegetables | stage=3
+ 2018 | coriander                      | 芫荽                             | 🌿        | chunks=['co', 'ri', 'an', 'der'] | py=ㄎㄛ-ㄌㄧ-ㄢ-ㄉㄜ | theme=vegetables | stage=3
+ 2019 | tarragon                       | 龍蒿                             | 🌿        | chunks=['tar', 'ra', 'gon'] | py=ㄊㄝ-ㄌㄜ-ㄍㄢ | theme=vegetables | stage=3
+ 2020 | champagne                      | 香檳                             | 🍾        | chunks=['cham', 'pagne'] | py=ㄒㄚㄇ-ㄆㄟㄣ | theme=drinks | stage=2
+ 2021 | vodka                          | 伏特加                            | 🍸        | chunks=['vod', 'ka'] | py=ㄈㄚㄉ-ㄎㄚ | theme=drinks | stage=2
+ 2022 | whiskey                        | 威士忌                            | 🥃        | chunks=['whis', 'key'] | py=ㄨㄧㄙ-ㄎㄧ | theme=drinks | stage=2
+ 2023 | rum                            | 蘭姆酒                            | 🥃        | chunks=['r', 'um'] | py=ㄌㄚㄇ | theme=drinks | stage=2
+ 2024 | gin                            | 琴酒                             | 🍸        | chunks=['g', 'in'] | py=ㄐㄧㄣ | theme=drinks | stage=2
+ 2025 | tequila                        | 龍舌蘭                            | 🍸        | chunks=['te', 'qui', 'la'] | py=ㄊㄜ-ㄎㄧ-ㄌㄚ | theme=drinks | stage=3
+ 2026 | brandy                         | 白蘭地                            | 🥃        | chunks=['bran', 'dy'] | py=ㄅㄌㄢ-ㄉㄧ | theme=drinks | stage=3
+ 2027 | sake                           | 清酒                             | 🍶        | chunks=['sa', 'ke'] | py=ㄙㄚ-ㄎㄟ | theme=drinks | stage=2
+ 2028 | soju                           | 燒酒                             | 🍶        | chunks=['so', 'ju'] | py=ㄙㄛ-ㄐㄨ | theme=drinks | stage=3
+ 2029 | ale                            | 愛爾啤酒                           | 🍺        | chunks=['a', 'le'] | py=ㄝㄦ | theme=drinks | stage=2
+ 2030 | lager                          | 拉格啤酒                           | 🍺        | chunks=['la', 'ger'] | py=ㄌㄚ-ㄍㄜ | theme=drinks | stage=3
+ 2031 | stout                          | 司陶特                            | 🍺        | chunks=['st', 'out'] | py=ㄙㄉㄠㄊ | theme=drinks | stage=3
+ 2032 | cider                          | 蘋果酒                            | 🍎        | chunks=['ci', 'der'] | py=ㄙㄞ-ㄉㄜ | theme=drinks | stage=2
+ 2033 | punch                          | 潘趣酒、賓治                         | 🍹        | chunks=['p', 'unch'] | py=ㄆㄚㄣㄑ | theme=drinks | stage=2
+ 2034 | mocktail                       | 無酒精雞尾酒                         | 🍹        | chunks=['mock', 'tail'] | py=ㄇㄚㄎ-ㄊㄟㄦ | theme=drinks | stage=2
+ 2035 | mojito                         | 莫吉托                            | 🍹        | chunks=['mo', 'ji', 'to'] | py=ㄇㄛ-ㄏㄧ-ㄊㄛ | theme=drinks | stage=3
+ 2036 | martini                        | 馬丁尼                            | 🍸        | chunks=['mar', 'ti', 'ni'] | py=ㄇㄚㄦ-ㄊㄧ-ㄋㄧ | theme=drinks | stage=3
+ 2037 | margarita                      | 瑪格麗特                           | 🍹        | chunks=['mar', 'ga', 'ri', 'ta'] | py=ㄇㄚㄦ-ㄍㄚ-ㄌㄜ-ㄊㄚ | theme=drinks | stage=3
+ 2038 | cappuccino                     | 卡布奇諾                           | ☕        | chunks=['cap', 'puc', 'ci', 'no'] | py=ㄎㄚ-ㄆㄨ-ㄑㄧ-ㄋㄛ | theme=drinks | stage=2
+ 2039 | americano                      | 美式咖啡                           | ☕        | chunks=['a', 'mer', 'i', 'ca', 'no'] | py=ㄚ-ㄇㄝ-ㄌㄜ-ㄎㄚ-ㄋㄛ | theme=drinks | stage=2
+ 2040 | mocha                          | 摩卡                             | ☕        | chunks=['mo', 'cha'] | py=ㄇㄛ-ㄎㄚ | theme=drinks | stage=2
+ 2041 | frappe                         | 冰沙咖啡                           | 🥤        | chunks=['frap', 'pe'] | py=ㄈㄌㄚ-ㄆㄟ | theme=drinks | stage=3
+ 2042 | decaf                          | 低咖啡因                           | ☕        | chunks=['de', 'caf'] | py=ㄉㄧ-ㄎㄚㄈ | theme=drinks | stage=3
+ 2043 | chai                           | 印度奶茶                           | ☕        | chunks=['ch', 'ai'] | py=ㄑㄞ | theme=drinks | stage=2
+ 2044 | oolong                         | 烏龍茶                            | 🍵        | chunks=['oo', 'long'] | py=ㄨ-ㄌㄚㄥ | theme=drinks | stage=2
+ 2045 | jasmine                        | 茉莉、茉莉花                         | 🍵        | chunks=['jas', 'mine'] | py=ㄐㄚㄗ-ㄇㄧㄣ | theme=drinks | stage=2
+ 2046 | chamomile                      | 洋甘菊                            | 🌼        | chunks=['cham', 'o', 'mile'] | py=ㄎㄚ-ㄇㄜ-ㄇㄞㄦ | theme=drinks | stage=3
+ 2047 | greentea                       | 綠茶                             | 🍵        | chunks=['green', 'tea'] | py=ㄍㄌㄧㄣ-ㄊㄧ | theme=drinks | stage=1
+ 2048 | milktea                        | 奶茶                             | 🥤        | chunks=['milk', 'tea'] | py=ㄇㄧㄦㄎ-ㄊㄧ | theme=drinks | stage=1
+ 2049 | bubbletea                      | 珍珠奶茶                           | 🧋        | chunks=['bub', 'ble', 'tea'] | py=ㄅㄚ-ㄅㄜ-ㄊㄧ | theme=drinks | stage=1
+ 2050 | slush                          | 碎冰飲                            | 🥤        | chunks=['sl', 'ush'] | py=ㄙㄌㄚㄒ | theme=drinks | stage=2
+ 2051 | snowcone                       | 刨冰                             | 🍧        | chunks=['snow', 'cone'] | py=ㄙㄋㄛ-ㄎㄛㄣ | theme=drinks | stage=2
+ 2052 | prosecco                       | 普羅賽克                           | 🍾        | chunks=['pro', 'sec', 'co'] | py=ㄆㄌㄛ-ㄙㄝ-ㄎㄛ | theme=drinks | stage=3
+ 2053 | sparkling                      | 氣泡的                            | 🍾        | chunks=['spark', 'ling'] | py=ㄙㄆㄚㄦㄎ-ㄌㄧㄥ | theme=drinks | stage=2 base=sparkle
+ 2054 | mineralwater                   | 礦泉水                            | 💧        | chunks=['min', 'er', 'al', 'wa', 'ter'] | py=ㄇㄧ-ㄋㄜ-ㄦ-ㄨㄛ-ㄊㄜ | theme=drinks | stage=2
+ 2055 | tapwater                       | 自來水                            | 🚰        | chunks=['tap', 'wa', 'ter'] | py=ㄊㄚㄆ-ㄨㄛ-ㄊㄜ | theme=drinks | stage=2
+ 2056 | sodawater                      | 蘇打水                            | 🥤        | chunks=['so', 'da', 'wa', 'ter'] | py=ㄙㄛ-ㄉㄚ-ㄨㄛ-ㄊㄜ | theme=drinks | stage=2
+ 2057 | tonicwater                     | 通寧水                            | 🥤        | chunks=['ton', 'ic', 'wa', 'ter'] | py=ㄊㄚ-ㄋㄧㄎ-ㄨㄛ-ㄊㄜ | theme=drinks | stage=3
+ 2058 | beverage                       | 飲料                             | 🥤        | chunks=['bev', 'er', 'age'] | py=ㄅㄝ-ㄈㄜ-ㄌㄧㄐ | theme=drinks | stage=2
+ 2059 | liquor                         | 烈酒                             | 🍷        | chunks=['li', 'quor'] | py=ㄌㄧ-ㄎㄜ | theme=drinks | stage=3
+ 2060 | spirit                         | 烈酒                             | 🍶        | chunks=['spi', 'rit'] | py=ㄙㄆㄧ-ㄌㄝㄊ | theme=drinks | stage=2
+ 2061 | hotchocolate                   | 熱可可                            | ☕        | chunks=['hot', 'choc', 'o', 'late'] | py=ㄏㄚㄊ-ㄑㄚㄎ-ㄜ-ㄌㄝㄊ | theme=drinks | stage=1
+ 2062 | eggnog                         | 蛋酒                             | 🥃        | chunks=['egg', 'nog'] | py=ㄝㄍ-ㄋㄚㄍ | theme=drinks | stage=3
+ 2063 | buttermilk                     | 白脫牛奶                           | 🥛        | chunks=['but', 'ter', 'milk'] | py=ㄅㄚ-ㄊㄜ-ㄇㄧㄦㄎ | theme=drinks | stage=2
+ 2064 | kombucha                       | 康普茶                            | 🥤        | chunks=['kom', 'bu', 'cha'] | py=ㄎㄚㄇ-ㄅㄨ-ㄑㄚ | theme=drinks | stage=3
+ 2065 | rootbeer                       | 麥根沙士                           | 🥤        | chunks=['root', 'beer'] | py=ㄌㄨㄊ-ㄅㄧㄜ | theme=drinks | stage=2
+ 2066 | fizz                           | 氣泡飲                            | 🥤        | chunks=['f', 'izz'] | py=ㄈㄧㄗ | theme=drinks | stage=2
+ 2067 | nectar                         | 果蜜                             | 🍯        | chunks=['nec', 'tar'] | py=ㄋㄝㄎ-ㄊㄜ | theme=drinks | stage=2
+ 2068 | brew                           | 釀造飲品、啤酒                        | 🍺        | chunks=['br', 'ew'] | py=ㄅㄌㄨ | theme=drinks | stage=2
+ 2069 | shake                          | 奶昔                             | 🥤        | chunks=['sh', 'ake'] | py=ㄒㄟㄎ | theme=drinks | stage=1
+ 2070 | tart                           | 塔派                             | 🥧        | chunks=['t', 'art'] | py=ㄊㄚㄦㄊ | theme=desserts | stage=1
+ 2071 | custard                        | 卡士達                            | 🍮        | chunks=['cus', 'tard'] | py=ㄎㄚㄙ-ㄊㄜㄉ | theme=desserts | stage=2
+ 2072 | mousse                         | 慕斯                             | 🍮        | chunks=['m', 'ousse'] | py=ㄇㄨㄙ | theme=desserts | stage=2
+ 2073 | sorbet                         | 雪酪、果露冰                         | 🍧        | chunks=['sor', 'bet'] | py=ㄙㄛㄦ-ㄅㄝ | theme=desserts | stage=3
+ 2074 | gelato                         | 義式冰淇淋                          | 🍨        | chunks=['ge', 'la', 'to'] | py=ㄐㄜ-ㄌㄚ-ㄊㄛ | theme=desserts | stage=2
+ 2075 | sherbet                        | 雪酪                             | 🍧        | chunks=['sher', 'bet'] | py=ㄒㄜ-ㄅㄝㄊ | theme=desserts | stage=3
+ 2076 | parfait                        | 芭菲                             | 🍨        | chunks=['par', 'fait'] | py=ㄆㄚㄦ-ㄈㄟ | theme=desserts | stage=3
+ 2077 | sundae                         | 聖代                             | 🍨        | chunks=['sun', 'dae'] | py=ㄙㄚㄣ-ㄉㄟ | theme=desserts | stage=2 [有易混提示]
+ 2078 | popsicle                       | 冰棒                             | 🍡        | chunks=['pop', 'si', 'cle'] | py=ㄆㄚㄆ-ㄒㄜ-ㄎㄜ | theme=desserts | stage=1
+ 2079 | lollipop                       | 棒棒糖                            | 🍭        | chunks=['lol', 'li', 'pop'] | py=ㄌㄚ-ㄌㄧ-ㄆㄚㄆ | theme=desserts | stage=1
+ 2080 | cupcake                        | 杯子蛋糕                           | 🧁        | chunks=['cup', 'cake'] | py=ㄎㄚㄆ-ㄎㄟㄎ | theme=desserts | stage=1
+ 2081 | cheesecake                     | 起司蛋糕                           | 🍰        | chunks=['cheese', 'cake'] | py=ㄑㄧㄗ-ㄎㄟㄎ | theme=desserts | stage=1
+ 2082 | fudge                          | 軟糖                             | 🍫        | chunks=['f', 'udge'] | py=ㄈㄚㄐ | theme=desserts | stage=2
+ 2083 | toffee                         | 太妃糖                            | 🍬        | chunks=['tof', 'fee'] | py=ㄊㄚ-ㄈㄧ | theme=desserts | stage=2
+ 2084 | caramel                        | 焦糖                             | 🍮        | chunks=['car', 'a', 'mel'] | py=ㄎㄝ-ㄜ-ㄇㄜ | theme=desserts | stage=2
+ 2085 | praline                        | 果仁糖                            | 🍬        | chunks=['pra', 'line'] | py=ㄆㄌㄚ-ㄌㄧㄣ | theme=desserts | stage=3
+ 2086 | truffle                        | 松露巧克力                          | 🍫        | chunks=['truf', 'fle'] | py=ㄊㄌㄚ-ㄈㄜ | theme=desserts | stage=3
+ 2087 | macaroon                       | 馬卡龍                            | 🍪        | chunks=['mac', 'a', 'roon'] | py=ㄇㄚ-ㄎㄜ-ㄌㄨㄣ | theme=desserts | stage=2
+ 2088 | macaron                        | 法式小圓餅                          | 🍪        | chunks=['mac', 'a', 'ron'] | py=ㄇㄚ-ㄎㄚ-ㄌㄚㄣ | theme=desserts | stage=2
+ 2089 | eclair                         | 閃電泡芙                           | 🥐        | chunks=['e', 'clair'] | py=ㄝ-ㄎㄌㄝㄜ | theme=desserts | stage=3
+ 2090 | profiterole                    | 小泡芙                            | 🥐        | chunks=['pro', 'fit', 'e', 'role'] | py=ㄆㄌㄚ-ㄈㄜ-ㄊㄜ-ㄌㄛㄦ | theme=desserts | stage=3
+ 2091 | crepe                          | 可麗餅                            | 🥞        | chunks=['cr', 'epe'] | py=ㄎㄌㄝㄆ | theme=desserts | stage=2
+ 2092 | tiramisu                       | 提拉米蘇                           | 🍰        | chunks=['ti', 'ra', 'mi', 'su'] | py=ㄊㄧ-ㄌㄚ-ㄇㄧ-ㄙㄨ | theme=desserts | stage=2
+ 2093 | baklava                        | 果仁蜜餅                           | 🥮        | chunks=['bak', 'la', 'va'] | py=ㄅㄚㄎ-ㄌㄚ-ㄈㄚ | theme=desserts | stage=3
+ 2094 | churro                         | 吉拿棒                            | 🥖        | chunks=['chur', 'ro'] | py=ㄑㄨ-ㄌㄛ | theme=desserts | stage=2
+ 2095 | cannoli                        | 義式甜捲                           | 🥮        | chunks=['can', 'no', 'li'] | py=ㄎㄚ-ㄋㄛ-ㄌㄧ | theme=desserts | stage=3
+ 2096 | biscotti                       | 義式脆餅                           | 🍪        | chunks=['bis', 'cot', 'ti'] | py=ㄅㄧㄙ-ㄎㄚ-ㄊㄧ | theme=desserts | stage=3
+ 2097 | scone                          | 司康                             | 🥯        | chunks=['sc', 'one'] | py=ㄙㄎㄛㄣ | theme=desserts | stage=2
+ 2098 | shortbread                     | 奶油酥餅                           | 🍪        | chunks=['short', 'bread'] | py=ㄒㄛㄦㄊ-ㄅㄌㄝㄉ | theme=desserts | stage=2
+ 2099 | gingerbread                    | 薑餅                             | 🍪        | chunks=['gin', 'ger', 'bread'] | py=ㄐㄧㄣ-ㄐㄜ-ㄅㄌㄝㄉ | theme=desserts | stage=2
+ 2100 | mooncake                       | 月餅                             | 🥮        | chunks=['moon', 'cake'] | py=ㄇㄨㄣ-ㄎㄟㄎ | theme=desserts | stage=1
+ 2101 | mochi                          | 麻糬                             | 🍡        | chunks=['mo', 'chi'] | py=ㄇㄛ-ㄑㄧ | theme=desserts | stage=1
+ 2102 | halva                          | 芝麻酥糖(哈爾瓦)                      | 🍬        | chunks=['hal', 'va'] | py=ㄏㄚㄦ-ㄈㄚ | theme=desserts | stage=3
+ 2103 | flan                           | 焦糖布丁                           | 🍮        | chunks=['fl', 'an'] | py=ㄈㄌㄚㄣ | theme=desserts | stage=2
+ 2104 | gummy                          | 軟糖                             | 🍬        | chunks=['gum', 'my'] | py=ㄍㄚ-ㄇㄧ | theme=desserts | stage=1
+ 2105 | jellybean                      | 雷根糖                            | 🍬        | chunks=['jel', 'ly', 'bean'] | py=ㄐㄝ-ㄌㄧ-ㄅㄧㄣ | theme=desserts | stage=2
+ 2106 | licorice                       | 甘草糖                            | 🍬        | chunks=['li', 'co', 'rice'] | py=ㄌㄧ-ㄎㄜ-ㄌㄧㄒ | theme=desserts | stage=3
+ 2107 | nougat                         | 牛軋糖                            | 🍬        | chunks=['nou', 'gat'] | py=ㄋㄨ-ㄍㄚㄊ | theme=desserts | stage=3
+ 2108 | taffy                          | 太妃糖                            | 🍬        | chunks=['taf', 'fy'] | py=ㄊㄚ-ㄈㄧ | theme=desserts | stage=3
+ 2109 | cottoncandy                    | 棉花糖                            | 🍬        | chunks=['cot', 'ton', 'can', 'dy'] | py=ㄎㄚ-ㄉㄣ-ㄎㄢ-ㄉㄧ | theme=desserts | stage=2
+ 2110 | gumdrop                        | 水果糖                            | 🍬        | chunks=['gum', 'drop'] | py=ㄍㄚㄇ-ㄉㄌㄚㄆ | theme=desserts | stage=3
+ 2111 | sweets                         | 甜食                             | 🍬        | chunks=['sw', 'eets'] | py=ㄙㄨㄧㄊㄙ | theme=desserts | stage=1
+ 2112 | treat                          | 小點心                            | 🍡        | chunks=['tr', 'eat'] | py=ㄊㄌㄧㄊ | theme=desserts | stage=1
+ 2113 | frosting                       | 糖霜                             | 🎂        | chunks=['fros', 'ting'] | py=ㄈㄌㄚㄙ-ㄊㄧㄥ | theme=desserts | stage=2 base=frost
+ 2114 | icing                          | 糖衣                             | 🎂        | chunks=['i', 'cing'] | py=ㄞ-ㄒㄧㄥ | theme=desserts | stage=2 base=ice
+ 2115 | glaze                          | 糖釉                             | 🎂        | chunks=['gl', 'aze'] | py=ㄍㄌㄟㄗ | theme=desserts | stage=2
+ 2116 | sprinkle                       | 糖粒                             | 🎂        | chunks=['sprin', 'kle'] | py=ㄙㄆㄌㄧㄣ-ㄎㄜ | theme=desserts | stage=2
+ 2117 | fondue                         | 起司火鍋、巧克力鍋                      | 🍫        | chunks=['fon', 'due'] | py=ㄈㄚㄣ-ㄉㄧㄨ | theme=desserts | stage=3
+ 2118 | cross                          | 十字                             | ➕        | chunks=['cr', 'oss'] | py=ㄎㄌㄚㄙ | theme=shapes | stage=1
+ 2119 | arrow                          | 箭頭                             | ➡️       | chunks=['ar', 'row'] | py=ㄝ-ㄌㄛ | theme=shapes | stage=1
+ 2120 | sphere                         | 球體                             | 🔵        | chunks=['sph', 'ere'] | py=ㄙㄈㄧㄦ | theme=shapes | stage=2
+ 2121 | cylinder                       | 圓柱                             | 🥫        | chunks=['cyl', 'in', 'der'] | py=ㄒㄧ-ㄌㄧㄣ-ㄉㄜ | theme=shapes | stage=2
+ 2122 | cone                           | 圓錐                             | 🍦        | chunks=['c', 'one'] | py=ㄎㄛㄣ | theme=shapes | stage=2
+ 2123 | pyramid                        | 金字塔                            | 🔺        | chunks=['py', 'ra', 'mid'] | py=ㄆㄧ-ㄌㄜ-ㄇㄧㄉ | theme=shapes | stage=2
+ 2124 | prism                          | 稜柱                             | 🔷        | chunks=['pr', 'ism'] | py=ㄆㄌㄧ-ㄗㄣ | theme=shapes | stage=3
+ 2125 | hexagon                        | 六邊形                            | ⬡        | chunks=['hex', 'a', 'gon'] | py=ㄏㄝㄎ-ㄙㄜ-ㄍㄚㄣ | theme=shapes | stage=2
+ 2126 | pentagon                       | 五邊形                            | ⬠        | chunks=['pen', 'ta', 'gon'] | py=ㄆㄣ-ㄊㄜ-ㄍㄚㄣ | theme=shapes | stage=2
+ 2127 | octagon                        | 八邊形                            | 🛑        | chunks=['oc', 'ta', 'gon'] | py=ㄚㄎ-ㄊㄜ-ㄍㄚㄣ | theme=shapes | stage=2
+ 2128 | heptagon                       | 七邊形                            | 7️⃣      | chunks=['hep', 'ta', 'gon'] | py=ㄏㄝㄆ-ㄊㄜ-ㄍㄚㄣ | theme=shapes | stage=3
+ 2129 | decagon                        | 十邊形                            | 🔟        | chunks=['dec', 'a', 'gon'] | py=ㄉㄝㄎ-ㄜ-ㄍㄚㄣ | theme=shapes | stage=3
+ 2130 | trapezoid                      | 梯形                             | 🔶        | chunks=['trap', 'e', 'zoid'] | py=ㄊㄌㄚ-ㄆㄜ-ㄗㄛㄧㄉ | theme=shapes | stage=3
+ 2131 | parallelogram                  | 平行四邊形                          | 🔷        | chunks=['par', 'al', 'lel', 'o', 'gram'] | py=ㄆㄝ-ㄌㄦ-ㄦ-ㄜ-ㄍㄌㄚㄇ | theme=shapes | stage=3
+ 2132 | rhombus                        | 菱形                             | 🔷        | chunks=['rhom', 'bus'] | py=ㄌㄚㄇ-ㄅㄜㄙ | theme=shapes | stage=3
+ 2133 | semicircle                     | 半圓                             | 🌗        | chunks=['se', 'mi', 'cir', 'cle'] | py=ㄙㄝ-ㄇㄧ-ㄙㄜ-ㄎㄜ | theme=shapes | stage=2
+ 2134 | crescent                       | 新月形                            | 🌙        | chunks=['cres', 'cent'] | py=ㄎㄌㄝ-ㄗㄣㄊ | theme=shapes | stage=2
+ 2135 | ring                           | 環                              | 💍        | chunks=['r', 'ing'] | py=ㄌㄧㄥ | theme=shapes | stage=1 [有易混提示]
+ 2136 | ellipse                        | 橢圓                             | 🥚        | chunks=['el', 'lipse'] | py=ㄧ-ㄌㄧㄆㄙ | theme=shapes | stage=3
+ 2137 | polygon                        | 多邊形                            | 🔶        | chunks=['pol', 'y', 'gon'] | py=ㄆㄚ-ㄌㄧ-ㄍㄚㄣ | theme=shapes | stage=3
+ 2138 | zigzag                         | 鋸齒形                            | ⚡        | chunks=['zig', 'zag'] | py=ㄗㄧㄍ-ㄗㄚㄍ | theme=shapes | stage=1
+ 2139 | spiral                         | 螺旋                             | 🌀        | chunks=['spi', 'ral'] | py=ㄙㄆㄞ-ㄦ | theme=shapes | stage=2
+ 2140 | swirl                          | 漩渦                             | 🌀        | chunks=['sw', 'irl'] | py=ㄙㄨㄜㄦ | theme=shapes | stage=2
+ 2141 | curve                          | 曲線                             | 〰️       | chunks=['c', 'urve'] | py=ㄎㄜㄈ | theme=shapes | stage=1
+ 2142 | straight                       | 直的                             | 📏        | chunks=['str', 'aight'] | py=ㄙㄉㄌㄟㄊ | theme=shapes | stage=1
+ 2143 | curved                         | 彎曲的                            | 〰️       | chunks=['c', 'urved'] | py=ㄎㄜㄈㄉ | theme=shapes | stage=1 base=curve
+ 2144 | bent                           | 彎的、折彎的                         | 📐        | chunks=['b', 'ent'] | py=ㄅㄝㄣㄊ | theme=shapes | stage=1 base=bend
+ 2145 | vertex                         | 頂點                             | 📐        | chunks=['ver', 'tex'] | py=ㄈㄜ-ㄊㄝㄎㄙ | theme=shapes | stage=3
+ 2146 | angle                          | 角度                             | 📐        | chunks=['an', 'gle'] | py=ㄢ-ㄍㄜ | theme=shapes | stage=1
+ 2147 | axis                           | 軸                              | 📊        | chunks=['ax', 'is'] | py=ㄚㄎ-ㄒㄧㄙ | theme=shapes | stage=3
+ 2148 | diameter                       | 直徑                             | 📏        | chunks=['di', 'am', 'e', 'ter'] | py=ㄉㄞ-ㄝㄇ-ㄜ-ㄊㄜ | theme=shapes | stage=3
+ 2149 | radius                         | 半徑                             | 📏        | chunks=['ra', 'di', 'us'] | py=ㄌㄟ-ㄉㄧ-ㄚㄙ | theme=shapes | stage=3
+ 2150 | perimeter                      | 周長                             | 📏        | chunks=['pe', 'ri', 'me', 'ter'] | py=ㄆㄜ-ㄌㄧ-ㄇㄜ-ㄊㄜ | theme=shapes | stage=3
+ 2151 | volume                         | 體積                             | 🔊        | chunks=['vol', 'ume'] | py=ㄈㄚ-ㄌㄧㄨㄇ | theme=shapes | stage=2 [有易混提示]
+ 2152 | length                         | 長度                             | 📏        | chunks=['len', 'gth'] | py=ㄌㄝㄥㄎ-ㄙ | theme=shapes | stage=1
+ 2153 | width                          | 寬度                             | 📏        | chunks=['w', 'idth'] | py=ㄨㄧㄉㄙ | theme=shapes | stage=1
+ 2154 | height                         | 高度                             | 📏        | chunks=['h', 'eight'] | py=ㄏㄞㄊ | theme=shapes | stage=1
+ 2155 | depth                          | 深度                             | 📏        | chunks=['d', 'epth'] | py=ㄉㄝㄆㄙ | theme=shapes | stage=2
+ 2156 | size                           | 大小                             | 📏        | chunks=['s', 'ize'] | py=ㄙㄞㄗ | theme=shapes | stage=0
+ 2157 | flat                           | 平的                             | ⬛        | chunks=['fl', 'at'] | py=ㄈㄌㄚㄊ | theme=shapes | stage=1
+ 2158 | solid                          | 實心的                            | ⬛        | chunks=['sol', 'id'] | py=ㄙㄚ-ㄌㄝㄉ | theme=shapes | stage=2
+ 2159 | hollow                         | 空心的                            | ⭕        | chunks=['hol', 'low'] | py=ㄏㄚ-ㄌㄛ | theme=shapes | stage=2
+ 2160 | round                          | 圓的                             | ⭕        | chunks=['r', 'ound'] | py=ㄌㄠㄣㄉ | theme=shapes | stage=0 [有易混提示]
+ 2161 | slab                           | 厚板                             | ⬛        | chunks=['sl', 'ab'] | py=ㄙㄌㄚㄅ | theme=shapes | stage=3
+ 2162 | bar                            | 條                              | 📊        | chunks=['b', 'ar'] | py=ㄅㄚㄦ | theme=shapes | stage=1
+ 2163 | strip                          | 細條                             | 📏        | chunks=['str', 'ip'] | py=ㄙㄉㄌㄧㄆ | theme=shapes | stage=2
+ 2164 | slice                          | 片                              | 🍕        | chunks=['sl', 'ice'] | py=ㄙㄌㄞㄙ | theme=shapes | stage=1
+ 2165 | hoop                           | 圈                              | ⭕        | chunks=['h', 'oop'] | py=ㄏㄨㄆ | theme=shapes | stage=2
+ 2166 | loop                           | 環圈                             | ⭕        | chunks=['l', 'oop'] | py=ㄌㄨㄆ | theme=shapes | stage=2
+ 2167 | blob                           | 塊狀                             | 🟦        | chunks=['bl', 'ob'] | py=ㄅㄌㄚㄅ | theme=shapes | stage=2
+ 2168 | north                          | 北                              | ⬆️       | chunks=['n', 'orth'] | py=ㄋㄛㄦㄙ | theme=directions | stage=1
+ 2169 | south                          | 南                              | ⬇️       | chunks=['s', 'outh'] | py=ㄙㄠㄙ | theme=directions | stage=1
+ 2170 | east                           | 東                              | ➡️       | chunks=['e', 'ast'] | py=ㄧㄙㄊ | theme=directions | stage=1
+ 2171 | west                           | 西                              | ⬅️       | chunks=['w', 'est'] | py=ㄨㄝㄙㄊ | theme=directions | stage=1
+ 2172 | northeast                      | 東北                             | ↗️       | chunks=['north', 'east'] | py=ㄋㄛㄦㄙ-ㄧㄙㄊ | theme=directions | stage=2
+ 2173 | northwest                      | 西北                             | ↖️       | chunks=['north', 'west'] | py=ㄋㄛㄦㄙ-ㄨㄝㄙㄊ | theme=directions | stage=2
+ 2174 | southeast                      | 東南                             | ↘️       | chunks=['south', 'east'] | py=ㄙㄠㄙ-ㄧㄙㄊ | theme=directions | stage=2
+ 2175 | southwest                      | 西南                             | ↙️       | chunks=['south', 'west'] | py=ㄙㄠㄙ-ㄨㄝㄙㄊ | theme=directions | stage=2
+ 2176 | compass                        | 指南針                            | 🧭        | chunks=['com', 'pass'] | py=ㄎㄚㄇ-ㄆㄚㄙ | theme=directions | stage=1
+ 2177 | gps                            | 衛星定位                           | 📍        | chunks=['g', 'p', 's'] | py=ㄐㄧ-ㄆㄧ-ㄝㄙ | theme=directions | stage=1
+ 2178 | upward                         | 向上                             | ⬆️       | chunks=['up', 'ward'] | py=ㄚㄆ-ㄨㄜㄉ | theme=directions | stage=1
+ 2179 | downward                       | 向下                             | ⬇️       | chunks=['down', 'ward'] | py=ㄉㄠㄣ-ㄨㄜㄉ | theme=directions | stage=1
+ 2180 | sideways                       | 側向                             | ↔️       | chunks=['side', 'ways'] | py=ㄙㄞㄉ-ㄨㄝㄗ | theme=directions | stage=2
+ 2181 | inward                         | 向內                             | 📥        | chunks=['in', 'ward'] | py=ㄧㄣ-ㄨㄜㄉ | theme=directions | stage=2
+ 2182 | outward                        | 向外                             | 📤        | chunks=['out', 'ward'] | py=ㄠㄊ-ㄨㄜㄉ | theme=directions | stage=2
+ 2183 | leftward                       | 向左                             | ⬅️       | chunks=['left', 'ward'] | py=ㄌㄝㄈㄊ-ㄨㄜㄉ | theme=directions | stage=2
+ 2184 | rightward                      | 向右                             | ➡️       | chunks=['right', 'ward'] | py=ㄌㄞㄊ-ㄨㄜㄉ | theme=directions | stage=2
+ 2185 | direction                      | 方向                             | 🧭        | chunks=['di', 'rec', 'tion'] | py=ㄉㄜ-ㄌㄝㄎ-ㄒㄣ | theme=directions | stage=1
+ 2186 | location                       | 位置                             | 📍        | chunks=['lo', 'ca', 'tion'] | py=ㄌㄛ-ㄎㄟ-ㄒㄣ | theme=directions | stage=1
+ 2187 | position                       | 位置                             | 📍        | chunks=['po', 'si', 'tion'] | py=ㄆㄜ-ㄗㄧ-ㄒㄣ | theme=directions | stage=1 base=pose
+ 2188 | pointer                        | 指針                             | 👉        | chunks=['poin', 'ter'] | py=ㄆㄛㄧㄣ-ㄊㄜ | theme=directions | stage=2 base=point
+ 2189 | bend                           | 彎                              | 📐        | chunks=['b', 'end'] | py=ㄅㄝㄣㄉ | theme=directions | stage=1
+ 2190 | turn                           | 轉彎                             | ↩️       | chunks=['t', 'urn'] | py=ㄊㄜㄣ | theme=directions | stage=0 [有易混提示]
+ 2191 | swerve                         | 急轉                             | ↪️       | chunks=['sw', 'erve'] | py=ㄙㄨㄜㄈ | theme=directions | stage=3
+ 2192 | distance                       | 距離                             | 📏        | chunks=['dis', 'tance'] | py=ㄉㄧㄙ-ㄉㄢㄙ | theme=directions | stage=1
+ 2193 | nearby                         | 附近                             | 📍        | chunks=['near', 'by'] | py=ㄋㄧㄦ-ㄅㄞ | theme=directions | stage=1
+ 2194 | farther                        | 更遠                             | ➡️       | chunks=['far', 'ther'] | py=ㄈㄚㄦ-ㄉㄜ | theme=directions | stage=2 [有易混提示]
+ 2195 | closer                         | 更近                             | 📍        | chunks=['clo', 'ser'] | py=ㄎㄌㄛ-ㄗㄜ | theme=directions | stage=1 base=close
+ 2196 | opposite                       | 對面                             | ↔️       | chunks=['op', 'po', 'site'] | py=ㄚ-ㄆㄜ-ㄗㄝㄊ | theme=directions | stage=2
+ 2197 | parallel                       | 平行的                            | 📏        | chunks=['par', 'al', 'lel'] | py=ㄆㄝ-ㄌㄜ-ㄌㄜ | theme=directions | stage=2
+ 2198 | perpendicular                  | 垂直的                            | 📐        | chunks=['per', 'pen', 'dic', 'u', 'lar'] | py=ㄆㄜ-ㄆㄣ-ㄉㄧㄎ-ㄐㄜ-ㄌㄜ | theme=directions | stage=3
+ 2199 | clockwise                      | 順時針                            | 🔃        | chunks=['clock', 'wise'] | py=ㄎㄌㄚㄎ-ㄨㄞㄗ | theme=directions | stage=2
+ 2200 | counterclockwise               | 逆時針                            | 🔄        | chunks=['coun', 'ter', 'clock', 'wise'] | py=ㄎㄠㄣ-ㄊㄜ-ㄎㄌㄚㄎ-ㄨㄞㄗ | theme=directions | stage=3
+ 2201 | horizontal                     | 水平的                            | ↔️       | chunks=['hor', 'i', 'zon', 'tal'] | py=ㄏㄚ-ㄌㄜ-ㄗㄚㄣ-ㄊㄜ | theme=directions | stage=2
+ 2202 | vertical                       | 垂直的                            | ↕️       | chunks=['ver', 'ti', 'cal'] | py=ㄈㄜ-ㄊㄜ-ㄎㄜ | theme=directions | stage=2
+ 2203 | diagonal                       | 對角的、斜的                         | ↗️       | chunks=['di', 'ag', 'o', 'nal'] | py=ㄉㄞ-ㄚㄍ-ㄜ-ㄋㄜ | theme=directions | stage=2
+ 2204 | route                          | 路線                             | 🛣️       | chunks=['r', 'oute'] | py=ㄌㄨㄊ | theme=directions | stage=2
+ 2205 | journey                        | 旅程                             | 🚶        | chunks=['jour', 'ney'] | py=ㄐㄜ-ㄋㄧ | theme=directions | stage=2
+ 2206 | avenue                         | 大道                             | 🛣️       | chunks=['av', 'e', 'nue'] | py=ㄚ-ㄈㄜ-ㄋㄧㄨ | theme=directions | stage=2
+ 2207 | boulevard                      | 林蔭大道                           | 🛣️       | chunks=['bou', 'le', 'vard'] | py=ㄅㄨ-ㄌㄜ-ㄈㄚㄦㄉ | theme=directions | stage=3
+ 2208 | lane                           | 巷                              | 🛣️       | chunks=['l', 'ane'] | py=ㄌㄟㄣ | theme=directions | stage=1
+ 2209 | exit                           | 出口                             | 🚪        | chunks=['ex', 'it'] | py=ㄝㄎ-ㄗㄜㄊ | theme=directions | stage=1
+ 2210 | entrance                       | 入口                             | 🚪        | chunks=['en', 'trance'] | py=ㄝㄣ-ㄊㄌㄢㄙ | theme=directions | stage=1
+ 2211 | slope                          | 斜坡                             | 📐        | chunks=['sl', 'ope'] | py=ㄙㄌㄛㄆ | theme=directions | stage=2
+ 2212 | tilt                           | 傾斜                             | 📐        | chunks=['t', 'ilt'] | py=ㄊㄧㄦㄊ | theme=directions | stage=2
+ 2213 | motorcycle                     | 摩托車                            | 🏍️       | chunks=['mo', 'tor', 'cy', 'cle'] | py=ㄇㄛ-ㄊㄜ-ㄙㄞ-ㄎㄜ | theme=transportation | stage=2
+ 2214 | scooter                        | 滑板車                            | 🛴        | chunks=['scoo', 'ter'] | py=ㄙㄎㄨ-ㄊㄜ | theme=transportation | stage=1
+ 2215 | bicycle                        | 腳踏車                            | 🚲        | chunks=['bi', 'cy', 'cle'] | py=ㄅㄞ-ㄙㄞ-ㄎㄜ | theme=transportation | stage=1
+ 2216 | tricycle                       | 三輪車                            | 🚲        | chunks=['tri', 'cy', 'cle'] | py=ㄊㄌㄞ-ㄙㄞ-ㄎㄜ | theme=transportation | stage=2
+ 2217 | unicycle                       | 單輪車                            | 🚲        | chunks=['u', 'ni', 'cy', 'cle'] | py=ㄧㄨ-ㄋㄜ-ㄙㄞ-ㄎㄜ | theme=transportation | stage=3
+ 2218 | skateboard                     | 滑板                             | 🛹        | chunks=['skate', 'board'] | py=ㄙㄎㄟㄊ-ㄅㄛㄦㄉ | theme=transportation | stage=1
+ 2219 | rollerblade                    | 直排輪                            | 🛼        | chunks=['rol', 'ler', 'blade'] | py=ㄌㄛ-ㄌㄜ-ㄅㄌㄝㄉ | theme=transportation | stage=2
+ 2220 | hoverboard                     | 懸浮滑板                           | 🛹        | chunks=['ho', 'ver', 'board'] | py=ㄏㄚ-ㄈㄜ-ㄅㄛㄦㄉ | theme=transportation | stage=2
+ 2221 | helicopter                     | 直升機                            | 🚁        | chunks=['hel', 'i', 'cop', 'ter'] | py=ㄏㄝ-ㄌㄜ-ㄎㄚㄆ-ㄊㄜ | theme=transportation | stage=2
+ 2222 | jet                            | 噴射機                            | ✈️       | chunks=['j', 'et'] | py=ㄐㄝㄊ | theme=transportation | stage=1
+ 2223 | glider                         | 滑翔機                            | ✈️       | chunks=['gli', 'der'] | py=ㄍㄌㄞ-ㄉㄜ | theme=transportation | stage=3 base=glide
+ 2224 | blimp                          | 飛艇                             | ✈️       | chunks=['bl', 'imp'] | py=ㄅㄌㄧㄇㄆ | theme=transportation | stage=3
+ 2225 | parachute                      | 降落傘                            | 🪂        | chunks=['par', 'a', 'chute'] | py=ㄆㄝ-ㄌㄜ-ㄒㄨㄊ | theme=transportation | stage=2
+ 2226 | rocket                         | 火箭                             | 🚀        | chunks=['roc', 'ket'] | py=ㄌㄚ-ㄎㄝㄊ | theme=transportation | stage=1
+ 2227 | spaceship                      | 太空船                            | 🚀        | chunks=['space', 'ship'] | py=ㄙㄆㄝㄙ-ㄒㄧㄆ | theme=transportation | stage=1
+ 2228 | canoe                          | 獨木舟                            | 🛶        | chunks=['ca', 'noe'] | py=ㄎㄜ-ㄋㄨ | theme=transportation | stage=2
+ 2229 | kayak                          | 皮艇                             | 🛶        | chunks=['kay', 'ak'] | py=ㄎㄞ-ㄚㄎ | theme=transportation | stage=2
+ 2230 | raft                           | 筏                              | 🛶        | chunks=['r', 'aft'] | py=ㄌㄚㄈㄊ | theme=transportation | stage=2
+ 2231 | yacht                          | 遊艇                             | ⛵        | chunks=['y', 'acht'] | py=ㄧㄚㄊ | theme=transportation | stage=2
+ 2232 | ferry                          | 渡輪                             | 🚢        | chunks=['fer', 'ry'] | py=ㄈㄝ-ㄌㄧ | theme=transportation | stage=2
+ 2233 | cruise                         | 郵輪                             | 🚢        | chunks=['cr', 'uise'] | py=ㄎㄌㄨㄗ | theme=transportation | stage=2
+ 2234 | submarine                      | 潛水艇                            | 🚢        | chunks=['sub', 'ma', 'rine'] | py=ㄙㄚㄅ-ㄇㄜ-ㄌㄧㄣ | theme=transportation | stage=2
+ 2235 | jetski                         | 水上摩托車                          | 🛥️       | chunks=['jet', 'ski'] | py=ㄐㄝㄊ-ㄙㄎㄧ | theme=transportation | stage=2
+ 2236 | van                            | 廂型車                            | 🚐        | chunks=['v', 'an'] | py=ㄈㄚㄣ | theme=transportation | stage=1
+ 2237 | lorry                          | 卡車                             | 🚛        | chunks=['lor', 'ry'] | py=ㄌㄚ-ㄌㄧ | theme=transportation | stage=3
+ 2238 | pickup                         | 皮卡                             | 🛻        | chunks=['pick', 'up'] | py=ㄆㄧㄎ-ㄚㄆ | theme=transportation | stage=2
+ 2239 | ambulance                      | 救護車                            | 🚑        | chunks=['am', 'bu', 'lance'] | py=ㄚㄇ-ㄅㄧㄨ-ㄌㄢㄙ | theme=transportation | stage=2
+ 2240 | firetruck                      | 消防車                            | 🚒        | chunks=['fire', 'truck'] | py=ㄈㄞㄜ-ㄊㄌㄚㄎ | theme=transportation | stage=1
+ 2241 | schoolbus                      | 校車                             | 🚌        | chunks=['school', 'bus'] | py=ㄙㄎㄨㄦ-ㄅㄚㄙ | theme=transportation | stage=1
+ 2242 | minivan                        | 小型廂車                           | 🚐        | chunks=['mi', 'ni', 'van'] | py=ㄇㄧ-ㄋㄧ-ㄈㄚㄣ | theme=transportation | stage=2
+ 2243 | sedan                          | 轎車                             | 🚗        | chunks=['se', 'dan'] | py=ㄒㄧ-ㄉㄢ | theme=transportation | stage=2
+ 2244 | convertible                    | 敞篷車                            | 🚗        | chunks=['con', 'ver', 'ti', 'ble'] | py=ㄎㄢ-ㄈㄜ-ㄊㄜ-ㄅㄜ | theme=transportation | stage=3 base=convert
+ 2245 | sportscar                      | 跑車                             | 🏎️       | chunks=['sports', 'car'] | py=ㄙㄆㄛㄦㄗ-ㄎㄚㄦ | theme=transportation | stage=2
+ 2246 | racecar                        | 賽車                             | 🏎️       | chunks=['race', 'car'] | py=ㄌㄝㄙ-ㄎㄚㄦ | theme=transportation | stage=2
+ 2247 | tram                           | 電車                             | 🚊        | chunks=['tr', 'am'] | py=ㄊㄌㄚㄇ | theme=transportation | stage=2
+ 2248 | trolley                        | 電車、手推車                         | 🚋        | chunks=['trol', 'ley'] | py=ㄊㄌㄚ-ㄌㄧ | theme=transportation | stage=2
+ 2249 | cablecar                       | 纜車                             | 🚠        | chunks=['ca', 'ble', 'car'] | py=ㄎㄟ-ㄅㄜ-ㄎㄚㄦ | theme=transportation | stage=2
+ 2250 | monorail                       | 單軌                             | 🚝        | chunks=['mo', 'no', 'rail'] | py=ㄇㄚ-ㄋㄛ-ㄌㄟㄦ | theme=transportation | stage=3
+ 2251 | metro                          | 地鐵                             | 🚇        | chunks=['met', 'ro'] | py=ㄇㄝ-ㄊㄌㄛ | theme=transportation | stage=1
+ 2252 | railway                        | 鐵路                             | 🛤️       | chunks=['rail', 'way'] | py=ㄌㄟㄦ-ㄨㄝ | theme=transportation | stage=1
+ 2253 | bullettrain                    | 高鐵                             | 🚄        | chunks=['bul', 'let', 'train'] | py=ㄅㄨ-ㄌㄝㄊ-ㄊㄌㄟㄣ | theme=transportation | stage=1
+ 2254 | freight                        | 貨運                             | 🚛        | chunks=['fr', 'eight'] | py=ㄈㄌㄟㄊ | theme=transportation | stage=2
+ 2255 | locomotive                     | 火車頭                            | 🚂        | chunks=['lo', 'co', 'mo', 'tive'] | py=ㄌㄛ-ㄎㄜ-ㄇㄛ-ㄊㄧㄈ | theme=transportation | stage=3
+ 2256 | carriage                       | 車廂、馬車                          | 🚂        | chunks=['car', 'riage'] | py=ㄎㄝ-ㄌㄧㄐ | theme=transportation | stage=2
+ 2257 | wagon                          | 四輪車、旅行車                        | 🚙        | chunks=['wa', 'gon'] | py=ㄨㄚ-ㄍㄢ | theme=transportation | stage=2
+ 2258 | stroller                       | 嬰兒車                            | 👶        | chunks=['strol', 'ler'] | py=ㄙㄉㄌㄛ-ㄌㄜ | theme=transportation | stage=2 base=stroll
+ 2259 | wheelchair                     | 輪椅                             | 🦽        | chunks=['wheel', 'chair'] | py=ㄨㄧㄦ-ㄑㄝㄜ | theme=transportation | stage=1
+ 2260 | sled                           | 雪橇                             | 🛷        | chunks=['sl', 'ed'] | py=ㄙㄌㄝㄉ | theme=transportation | stage=2
+ 2261 | snowmobile                     | 雪上摩托                           | 🛷        | chunks=['snow', 'mo', 'bile'] | py=ㄙㄋㄛ-ㄇㄛ-ㄅㄧㄦ | theme=transportation | stage=3
+ 2262 | rickshaw                       | 人力車                            | 🛺        | chunks=['rick', 'shaw'] | py=ㄌㄧㄎ-ㄒㄛ | theme=transportation | stage=3
+ 2263 | terminal                       | 航廈                             | 🛫        | chunks=['ter', 'mi', 'nal'] | py=ㄊㄜ-ㄇㄜ-ㄋㄜ | theme=transportation | stage=2
+ 2264 | port                           | 港口                             | ⚓        | chunks=['p', 'ort'] | py=ㄆㄛㄦㄊ | theme=transportation | stage=1
+ 2265 | harbor                         | 港灣                             | ⚓        | chunks=['har', 'bor'] | py=ㄏㄚㄦ-ㄅㄜ | theme=transportation | stage=2
+ 2266 | dock                           | 碼頭                             | ⚓        | chunks=['d', 'ock'] | py=ㄉㄚㄎ | theme=transportation | stage=2
+ 2267 | runway                         | 跑道                             | 🛬        | chunks=['run', 'way'] | py=ㄌㄚㄣ-ㄨㄝ | theme=transportation | stage=2
+ 2268 | platform                       | 月台                             | 🚉        | chunks=['plat', 'form'] | py=ㄆㄌㄚㄊ-ㄈㄛㄦㄇ | theme=transportation | stage=1
+ 2269 | shuttle                        | 接駁車                            | 🚐        | chunks=['shut', 'tle'] | py=ㄒㄚ-ㄉㄜ | theme=transportation | stage=2
+ 2270 | limo                           | 豪華禮車                           | 🚙        | chunks=['li', 'mo'] | py=ㄌㄧ-ㄇㄛ | theme=transportation | stage=2
+ 2271 | hearse                         | 靈車                             | ⚰️       | chunks=['h', 'earse'] | py=ㄏㄜㄙ | theme=transportation | stage=3
+ 2272 | taxicab                        | 計程車                            | 🚕        | chunks=['tax', 'i', 'cab'] | py=ㄊㄚㄎ-ㄒㄜ-ㄎㄚㄅ | theme=transportation | stage=1
+ 2273 | museum                         | 博物館                            | 🏛️       | chunks=['mu', 'se', 'um'] | py=ㄇㄧㄨ-ㄗㄧ-ㄜㄇ | theme=places | stage=1
+ 2274 | theater                        | 劇院                             | 🎭        | chunks=['the', 'a', 'ter'] | py=ㄒㄧ-ㄝ-ㄊㄜ | theme=places | stage=1
+ 2275 | cinema                         | 電影院                            | 🎬        | chunks=['cin', 'e', 'ma'] | py=ㄒㄧ-ㄋㄜ-ㄇㄚ | theme=places | stage=1
+ 2276 | supermarket                    | 超市                             | 🛒        | chunks=['su', 'per', 'mar', 'ket'] | py=ㄙㄨ-ㄆㄜ-ㄇㄚㄦ-ㄎㄝㄊ | theme=places | stage=1
+ 2277 | bakery                         | 麵包店                            | 🥖        | chunks=['bak', 'e', 'ry'] | py=ㄅㄝ-ㄎㄜ-ㄌㄧ | theme=places | stage=1 base=bake
+ 2278 | pharmacy                       | 藥局                             | 💊        | chunks=['phar', 'ma', 'cy'] | py=ㄈㄚㄦ-ㄇㄜ-ㄒㄧ | theme=places | stage=1
+ 2279 | atm                            | 提款機                            | 🏧        | chunks=['a', 't', 'm'] | py=ㄝ-ㄊㄧ-ㄝㄇ | theme=places | stage=1
+ 2280 | cafe                           | 咖啡店                            | ☕        | chunks=['ca', 'fe'] | py=ㄎㄚ-ㄈㄟ | theme=places | stage=1
+ 2281 | pub                            | 酒吧                             | 🍻        | chunks=['p', 'ub'] | py=ㄆㄚㄅ | theme=places | stage=2
+ 2282 | club                           | 俱樂部                            | 🎶        | chunks=['cl', 'ub'] | py=ㄎㄌㄚㄅ | theme=places | stage=1 [有易混提示]
+ 2283 | casino                         | 賭場                             | 🎰        | chunks=['ca', 'si', 'no'] | py=ㄎㄜ-ㄒㄧ-ㄋㄛ | theme=places | stage=2
+ 2284 | motel                          | 汽車旅館                           | 🏨        | chunks=['mo', 'tel'] | py=ㄇㄛ-ㄊㄝㄦ | theme=places | stage=2
+ 2285 | inn                            | 小旅館                            | 🏨        | chunks=['i', 'nn'] | py=ㄧㄣ | theme=places | stage=2
+ 2286 | resort                         | 度假村                            | 🏖️       | chunks=['re', 'sort'] | py=ㄌㄧ-ㄗㄛㄦㄊ | theme=places | stage=2
+ 2287 | spa                            | 水療                             | 💆        | chunks=['sp', 'a'] | py=ㄙㄆㄚ | theme=places | stage=1
+ 2288 | factory                        | 工廠                             | 🏭        | chunks=['fac', 'to', 'ry'] | py=ㄈㄚㄎ-ㄊㄜ-ㄌㄧ | theme=places | stage=1
+ 2289 | warehouse                      | 倉庫                             | 🏭        | chunks=['ware', 'house'] | py=ㄨㄝㄜ-ㄏㄠㄙ | theme=places | stage=2
+ 2290 | workshop                       | 工坊                             | 🛠️       | chunks=['work', 'shop'] | py=ㄨㄜㄎ-ㄒㄚㄆ | theme=places | stage=2
+ 2291 | studio                         | 工作室                            | 🎨        | chunks=['stu', 'di', 'o'] | py=ㄙㄉㄨ-ㄉㄧ-ㄛ | theme=places | stage=2
+ 2292 | church                         | 教堂                             | ⛪        | chunks=['ch', 'urch'] | py=ㄑㄜㄑ | theme=places | stage=1
+ 2293 | mosque                         | 清真寺                            | 🕌        | chunks=['m', 'osque'] | py=ㄇㄚㄙㄎ | theme=places | stage=2
+ 2294 | synagogue                      | 猶太會堂                           | 🕍        | chunks=['syn', 'a', 'gogue'] | py=ㄒㄧ-ㄋㄜ-ㄍㄚㄍ | theme=places | stage=3
+ 2295 | cathedral                      | 大教堂                            | ⛪        | chunks=['ca', 'the', 'dral'] | py=ㄎㄜ-ㄒㄧ-ㄉㄌㄜ | theme=places | stage=2
+ 2296 | shrine                         | 神社                             | ⛩️       | chunks=['shr', 'ine'] | py=ㄒㄌㄞㄣ | theme=places | stage=3
+ 2297 | chapel                         | 小教堂                            | ⛪        | chunks=['chap', 'el'] | py=ㄑㄚ-ㄆㄜ | theme=places | stage=3
+ 2298 | zoo                            | 動物園                            | 🦁        | chunks=['z', 'oo'] | py=ㄗㄨ | theme=places | stage=0
+ 2299 | aquarium                       | 水族館                            | 🐠        | chunks=['aqua', 'ri', 'um'] | py=ㄚ-ㄎㄨㄝ-ㄌㄧ-ㄚㄇ | theme=places | stage=1
+ 2300 | planetarium                    | 天文館                            | 🌌        | chunks=['plan', 'e', 'tar', 'i', 'um'] | py=ㄆㄌㄚ-ㄋㄜ-ㄊㄝ-ㄌㄧ-ㄜㄇ | theme=places | stage=3
+ 2301 | observatory                    | 天文台                            | 🔭        | chunks=['ob', 'ser', 'va', 'to', 'ry'] | py=ㄚㄅ-ㄗㄜ-ㄈㄚ-ㄊㄜ-ㄌㄧ | theme=places | stage=3
+ 2302 | gallery                        | 美術館                            | 🖼️       | chunks=['gal', 'le', 'ry'] | py=ㄍㄚ-ㄌㄜ-ㄌㄧ | theme=places | stage=2
+ 2303 | amusementpark                  | 遊樂園                            | 🎡        | chunks=['a', 'muse', 'ment', 'park'] | py=ㄚ-ㄇㄧㄨㄗ-ㄇㄣㄊ-ㄆㄚㄦㄎ | theme=places | stage=1
+ 2304 | themepark                      | 主題樂園                           | 🎢        | chunks=['theme', 'park'] | py=ㄒㄧㄇ-ㄆㄚㄦㄎ | theme=places | stage=2
+ 2305 | carnival                       | 嘉年華                            | 🎪        | chunks=['car', 'ni', 'val'] | py=ㄎㄚㄦ-ㄋㄜ-ㄈㄜ | theme=places | stage=2
+ 2306 | circus                         | 馬戲團                            | 🎪        | chunks=['cir', 'cus'] | py=ㄙㄜ-ㄎㄜㄙ | theme=places | stage=1
+ 2307 | courthouse                     | 法院                             | ⚖️       | chunks=['court', 'house'] | py=ㄎㄛㄦㄊ-ㄏㄠㄙ | theme=places | stage=2
+ 2308 | prison                         | 監獄                             | 🔒        | chunks=['pri', 'son'] | py=ㄆㄌㄧ-ㄗㄣ | theme=places | stage=2
+ 2309 | jail                           | 監獄                             | 🔒        | chunks=['j', 'ail'] | py=ㄐㄟㄦ | theme=places | stage=2
+ 2310 | postoffice                     | 郵局                             | 📮        | chunks=['post', 'of', 'fice'] | py=ㄆㄛㄙㄊ-ㄚ-ㄈㄜㄙ | theme=places | stage=1
+ 2311 | neighborhood                   | 社區                             | 🏘️       | chunks=['neigh', 'bor', 'hood'] | py=ㄋㄟ-ㄅㄜ-ㄏㄨㄉ | theme=places | stage=2
+ 2312 | suburb                         | 郊區                             | 🏘️       | chunks=['sub', 'urb'] | py=ㄙㄚ-ㄅㄜㄅ | theme=places | stage=2
+ 2313 | district                       | 區                              | 🗺️       | chunks=['dis', 'trict'] | py=ㄉㄧㄙ-ㄊㄌㄧㄎㄊ | theme=places | stage=2
+ 2314 | borough                        | 自治區                            | 🗺️       | chunks=['bor', 'ough'] | py=ㄅㄜ-ㄛ | theme=places | stage=3
+ 2315 | county                         | 縣                              | 🗺️       | chunks=['coun', 'ty'] | py=ㄎㄠㄣ-ㄊㄧ | theme=places | stage=2
+ 2316 | province                       | 省                              | 🗺️       | chunks=['prov', 'ince'] | py=ㄆㄌㄚ-ㄈㄧㄣㄙ | theme=places | stage=3
+ 2317 | plaza                          | 廣場                             | 🏛️       | chunks=['pla', 'za'] | py=ㄆㄌㄚ-ㄗㄚ | theme=places | stage=2
+ 2318 | alley                          | 小巷                             | 🛣️       | chunks=['al', 'ley'] | py=ㄚ-ㄌㄧ | theme=places | stage=2 [有易混提示]
+ 2319 | patio                          | 露台                             | 🏠        | chunks=['pa', 'ti', 'o'] | py=ㄆㄚ-ㄊㄧ-ㄛ | theme=places | stage=2
+ 2320 | deck                           | 露台、甲板                          | 🚢        | chunks=['d', 'eck'] | py=ㄉㄝㄎ | theme=places | stage=2
+ 2321 | porch                          | 門廊                             | 🏠        | chunks=['p', 'orch'] | py=ㄆㄛㄦㄑ | theme=places | stage=2
+ 2322 | yard                           | 院子                             | 🏡        | chunks=['y', 'ard'] | py=ㄧㄚㄦㄉ | theme=places | stage=1 [有易混提示]
+ 2323 | farm                           | 農場                             | 🚜        | chunks=['f', 'arm'] | py=ㄈㄚㄦㄇ | theme=places | stage=0
+ 2324 | ranch                          | 牧場                             | 🐎        | chunks=['r', 'anch'] | py=ㄌㄚㄣㄑ | theme=places | stage=2
+ 2325 | mine                           | 礦坑                             | ⛏️       | chunks=['m', 'ine'] | py=ㄇㄞㄣ | theme=places | stage=2
+ 2326 | quarry                         | 採石場                            | ⛏️       | chunks=['quar', 'ry'] | py=ㄎㄨㄛ-ㄌㄧ | theme=places | stage=3
+ 2327 | prairie                        | 草原                             | 🌾        | chunks=['prai', 'rie'] | py=ㄆㄌㄝ-ㄌㄧ | theme=places | stage=3
+ 2328 | bookstore                      | 書店                             | 📚        | chunks=['book', 'store'] | py=ㄅㄨㄎ-ㄙㄉㄛㄦ | theme=places | stage=1
+ 2329 | drugstore                      | 藥妝店                            | 💊        | chunks=['drug', 'store'] | py=ㄉㄌㄚㄍ-ㄙㄉㄛㄦ | theme=places | stage=1
+ 2330 | deli                           | 熟食店                            | 🥪        | chunks=['de', 'li'] | py=ㄉㄝ-ㄌㄧ | theme=places | stage=2
+ 2331 | diner                          | 小餐館                            | 🍽️       | chunks=['di', 'ner'] | py=ㄉㄞ-ㄋㄜ | theme=places | stage=2 base=dine
+ 2332 | wood                           | 木頭                             | 🪵        | chunks=['w', 'ood'] | py=ㄨㄨㄉ | theme=materials | stage=2 [有易混提示]
+ 2333 | glass                          | 玻璃                             | 🥃        | chunks=['gl', 'ass'] | py=ㄍㄌㄝㄙ | theme=materials | stage=2 [有易混提示]
+ 2334 | plastic                        | 塑膠                             | 🥤        | chunks=['plas', 'tic'] | py=ㄆㄌㄝㄙ-ㄊㄧㄎ | theme=materials | stage=2
+ 2335 | iron                           | 鐵                              | 🔩        | chunks=['i', 'ron'] | py=ㄞ-ㄦㄣ | theme=materials | stage=2 [有易混提示]
+ 2336 | rubber                         | 橡膠                             | 🧽        | chunks=['rub', 'ber'] | py=ㄖㄚ-ㄅㄜ | theme=materials | stage=2 base=rub
+ 2337 | hammer                         | 鎚子                             | 🔨        | chunks=['ham', 'mer'] | py=ㄏㄝ-ㄇㄜ | theme=tools | stage=2
+ 2338 | screwdriver                    | 螺絲起子                           | 🪛        | chunks=['screw', 'driv', 'er'] | py=ㄙㄎㄦㄨ-ㄉㄖㄞ-ㄈㄜ | theme=tools | stage=2
+ 2339 | screw                          | 螺絲                             | 🔩        | chunks=['scr', 'ew'] | py=ㄙㄎㄖㄨ | theme=tools | stage=2
+ 2340 | wrench                         | 扳手                             | 🔧        | chunks=['wr', 'ench'] | py=ㄖㄝㄣㄔ | theme=tools | stage=2
+ 2341 | drill                          | 鑽子                             | ⚒️       | chunks=['dr', 'ill'] | py=ㄉㄖㄧㄛ | theme=tools | stage=2
+ 2342 | ladder                         | 梯子                             | 🪜        | chunks=['lad', 'der'] | py=ㄌㄝ-ㄉㄜ | theme=tools | stage=2
+ 2343 | rope                           | 繩子                             | 🪢        | chunks=['r', 'ope'] | py=ㄖㄛㄆ | theme=tools | stage=2
+ 2344 | glue                           | 膠水                             | 🧴        | chunks=['gl', 'ue'] | py=ㄍㄌㄨ | theme=tools | stage=2
+ 2345 | tape                           | 膠帶                             | 📼        | chunks=['t', 'ape'] | py=ㄊㄟㄆ | theme=tools | stage=2
+ 2346 | China                          | 中國                             | 🇨🇳       | chunks=['chi', 'na'] | py=ㄔㄞ-ㄋㄚ | theme=countries | stage=1
+ 2347 | Japan                          | 日本                             | 🇯🇵       | chunks=['ja', 'pan'] | py=ㄐㄚ-ㄆㄝㄣ | theme=countries | stage=1
+ 2348 | Korea                          | 韓國                             | 🇰🇷       | chunks=['ko', 'rea'] | py=ㄎㄛ-ㄖㄧㄚ | theme=countries | stage=1
+ 2349 | Taiwan                         | 台灣                             | 🇹🇼       | chunks=['tai', 'wan'] | py=ㄊㄞ-ㄨㄢ | theme=countries | stage=1
+ 2350 | England                        | 英國                             | 🇬🇧       | chunks=['eng', 'land'] | py=ㄧㄥ-ㄌㄢㄉ | theme=countries | stage=1
+ 2351 | France                         | 法國                             | 🇫🇷       | chunks=['fr', 'ance'] | py=ㄈㄖㄝㄣㄙ | theme=countries | stage=1
+ 2352 | Germany                        | 德國                             | 🇩🇪       | chunks=['ger', 'ma', 'ny'] | py=ㄐㄦ-ㄇㄜ-ㄋㄧ | theme=countries | stage=1
+ 2353 | Italy                          | 義大利                            | 🇮🇹       | chunks=['it', 'a', 'ly'] | py=ㄧ-ㄊㄜ-ㄌㄧ | theme=countries | stage=1
+ 2354 | Spain                          | 西班牙                            | 🇪🇸       | chunks=['sp', 'ain'] | py=ㄙㄆㄟㄣ | theme=countries | stage=1
+ 2355 | Russia                         | 俄國                             | 🇷🇺       | chunks=['rus', 'sia'] | py=ㄖㄚ-ㄒㄜ | theme=countries | stage=1
+ 2356 | Canada                         | 加拿大                            | 🇨🇦       | chunks=['ca', 'na', 'da'] | py=ㄎㄝ-ㄋㄜ-ㄉㄚ | theme=countries | stage=1
+ 2357 | Australia                      | 澳洲                             | 🇦🇺       | chunks=['aus', 'tra', 'lia'] | py=ㄛ-ㄔㄦㄟ-ㄌㄧㄚ | theme=countries | stage=1
+ 2358 | India                          | 印度                             | 🇮🇳       | chunks=['in', 'dia'] | py=ㄧㄣ-ㄉㄧㄚ | theme=countries | stage=1
+ 2359 | Brazil                         | 巴西                             | 🇧🇷       | chunks=['bra', 'zil'] | py=ㄅㄦㄟ-ㄗㄧㄛ | theme=countries | stage=2
+ 2360 | America                        | 美國                             | 🇺🇸       | chunks=['a', 'mer', 'i', 'ca'] | py=ㄜ-ㄇㄝ-ㄖㄧ-ㄎㄚ | theme=countries | stage=1
+ 2361 | get up                         | 起床                             | 🛏️⬆️     | chunks=['get', 'up'] | py=ㄍㄝㄊ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 2362 | wake up                        | 醒來                             | 😴⬆️      | chunks=['wake', 'up'] | py=ㄨㄟㄎ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 2363 | sit down                       | 坐下                             | 🪑⬇️      | chunks=['sit', 'down'] | py=ㄒㄧㄊ-ㄉㄠㄣ | theme=phrasal-verbs | stage=1
+ 2364 | stand up                       | 站起來                            | 🧍⬆️      | chunks=['stand', 'up'] | py=ㄙㄊㄝㄣㄉ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 2365 | turn on                        | 打開                             | 💡        | chunks=['turn', 'on'] | py=ㄊㄦㄣ-ㄚㄣ | theme=phrasal-verbs | stage=1
+ 2366 | turn off                       | 關掉                             | ⛔        | chunks=['turn', 'off'] | py=ㄊㄦㄣ-ㄚㄈ | theme=phrasal-verbs | stage=1
+ 2367 | pick up                        | 撿起、接(人)                        | 🤏        | chunks=['pick', 'up'] | py=ㄆㄧㄎ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 2368 | put down                       | 放下                             | ⬇️       | chunks=['put', 'down'] | py=ㄆㄨㄊ-ㄉㄠㄣ | theme=phrasal-verbs | stage=1
+ 2369 | look at                        | 看                              | 👀        | chunks=['look', 'at'] | py=ㄌㄨㄎ-ㄝㄊ | theme=phrasal-verbs | stage=1
+ 2370 | look for                       | 尋找                             | 🔍        | chunks=['look', 'for'] | py=ㄌㄨㄎ-ㄈㄛㄦ | theme=phrasal-verbs | stage=1
+ 2371 | find out                       | 找出                             | 💡        | chunks=['find', 'out'] | py=ㄈㄞㄣㄉ-ㄠㄊ | theme=phrasal-verbs | stage=1
+ 2372 | give up                        | 放棄                             | 🏳️       | chunks=['give', 'up'] | py=ㄍㄧㄈ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 2373 | take off                       | 起飛、脫掉                          | ✈️       | chunks=['take', 'off'] | py=ㄊㄟㄎ-ㄚㄈ | theme=phrasal-verbs | stage=1
+ 2374 | put on                         | 穿上                             | 👕        | chunks=['put', 'on'] | py=ㄆㄨㄊ-ㄚㄣ | theme=phrasal-verbs | stage=1
+ 2375 | come back                      | 回來                             | 🔙        | chunks=['come', 'back'] | py=ㄎㄚㄇ-ㄅㄝㄎ | theme=phrasal-verbs | stage=1
+ 2376 | meanwhile                      | 同時                             | ⏳        | chunks=['mean', 'while'] | py=ㄇㄧㄣ-ㄨㄞㄛ | theme=connectors | stage=1
+ 2377 | moreover                       | 此外                             | ➕        | chunks=['more', 'over'] | py=ㄇㄛㄦ-ㄛ-ㄈㄜ | theme=connectors | stage=2
+ 2378 | furthermore                    | 此外                             | 📚        | chunks=['fur', 'ther', 'more'] | py=ㄈㄦ-ㄉㄜ-ㄇㄛㄦ | theme=connectors | stage=2
+ 2379 | whereas                        | 然而                             | ⚖️       | chunks=['where', 'as'] | py=ㄨㄝㄦ-ㄝㄗ | theme=connectors | stage=2
+ 2380 | nevertheless                   | 儘管如此                           | 💪        | chunks=['nev', 'er', 'the', 'less'] | py=ㄋㄝ-ㄈㄜ-ㄉㄚ-ㄌㄝㄙ | theme=connectors | stage=3
+ 2381 | consequently                   | 因此                             | 📊        | chunks=['con', 'se', 'quent', 'ly'] | py=ㄎㄚㄣ-ㄒㄜ-ㄎㄨㄝㄣ-ㄌㄧ | theme=connectors | stage=3 base=consequent
+ 2382 | hence                          | 因此                             | ➡️       | chunks=['h', 'ence'] | py=ㄏㄝㄣㄙ | theme=connectors | stage=3
+ 2383 | besides                        | 除此之外                           | ➕        | chunks=['be', 'sides'] | py=ㄅㄧ-ㄙㄞㄗ | theme=connectors | stage=2 [有易混提示]
+ 2384 | tourist                        | 觀光客                            | 📷        | chunks=['tour', 'ist'] | py=ㄊㄨㄦ-ㄧㄙㄊ | theme=travel | stage=1 base=tour
+ 2385 | traveler                       | 旅行者                            | 🧳        | chunks=['trav', 'el', 'er'] | py=ㄊㄌㄚ-ㄈㄦ-ㄜ | theme=travel | stage=1 base=travel
+ 2386 | sightseeing                    | 觀光                             | 🗺️       | chunks=['sight', 'see', 'ing'] | py=ㄙㄞㄊ-ㄒㄧ-ㄧㄥ | theme=travel | stage=2
+ 2387 | adventure                      | 冒險                             | 🏔️       | chunks=['ad', 'ven', 'ture'] | py=ㄚㄉ-ㄈㄣ-ㄑㄜ | theme=travel | stage=2
+ 2388 | backpacker                     | 背包客                            | 🎒        | chunks=['back', 'pack', 'er'] | py=ㄅㄚㄎ-ㄆㄚ-ㄎㄜ | theme=travel | stage=2 base=backpack
+ 2389 | hostel                         | 青年旅館                           | 🏨        | chunks=['hos', 'tel'] | py=ㄏㄚㄙ-ㄊㄝㄦ | theme=travel | stage=1
+ 2390 | visa                           | 簽證                             | 🛂        | chunks=['vi', 'sa'] | py=ㄈㄧ-ㄗㄚ | theme=travel | stage=1
+ 2391 | customs                        | 海關                             | 🛃        | chunks=['cus', 'toms'] | py=ㄎㄚㄙ-ㄊㄣㄗ | theme=travel | stage=2
+ 2392 | immigration                    | 入境                             | 🛂        | chunks=['im', 'mi', 'gra', 'tion'] | py=ㄧ-ㄇㄜ-ㄍㄌㄟ-ㄒㄣ | theme=travel | stage=2
+ 2393 | embassy                        | 大使館                            | 🏛️       | chunks=['em', 'bas', 'sy'] | py=ㄝㄇ-ㄅㄜ-ㄒㄧ | theme=travel | stage=2
+ 2394 | consulate                      | 領事館                            | 🏛️       | chunks=['con', 'su', 'late'] | py=ㄎㄚㄣ-ㄙㄜ-ㄌㄝㄊ | theme=travel | stage=3
+ 2395 | guide                          | 導遊                             | 🗺️       | chunks=['g', 'uide'] | py=ㄍㄞㄉ | theme=travel | stage=1
+ 2396 | guidebook                      | 旅遊書                            | 📖        | chunks=['guide', 'book'] | py=ㄍㄞㄉ-ㄅㄨㄎ | theme=travel | stage=2
+ 2397 | brochure                       | 小冊子                            | 📄        | chunks=['bro', 'chure'] | py=ㄅㄌㄛ-ㄒㄨㄜ | theme=travel | stage=2
+ 2398 | itinerary                      | 行程表                            | 📋        | chunks=['i', 'tin', 'er', 'a', 'ry'] | py=ㄞ-ㄊㄧ-ㄋㄜ-ㄝ-ㄌㄧ | theme=travel | stage=3
+ 2399 | baggage                        | 行李                             | 🧳        | chunks=['bag', 'gage'] | py=ㄅㄚ-ㄍㄧㄐ | theme=travel | stage=1
+ 2400 | carryon                        | 隨身行李                           | 🧳        | chunks=['car', 'ry', 'on'] | py=ㄎㄚ-ㄌㄧ-ㄚㄣ | theme=travel | stage=2
+ 2401 | landmark                       | 地標                             | 🗽        | chunks=['land', 'mark'] | py=ㄌㄢㄉ-ㄇㄚㄦㄎ | theme=travel | stage=2
+ 2402 | monument                       | 紀念碑                            | 🗽        | chunks=['mon', 'u', 'ment'] | py=ㄇㄚ-ㄋㄧㄨ-ㄇㄣㄊ | theme=travel | stage=2
+ 2403 | attraction                     | 景點                             | 🎢        | chunks=['at', 'trac', 'tion'] | py=ㄚ-ㄊㄌㄚㄎ-ㄒㄣ | theme=travel | stage=2
+ 2404 | abroad                         | 國外                             | 🌍        | chunks=['a', 'broad'] | py=ㄚ-ㄅㄌㄛㄉ | theme=travel | stage=2
+ 2405 | overseas                       | 海外                             | 🌏        | chunks=['o', 'ver', 'seas'] | py=ㄛ-ㄈㄜ-ㄒㄧㄗ | theme=travel | stage=2
+ 2406 | domestic                       | 國內的                            | 🏠        | chunks=['do', 'mes', 'tic'] | py=ㄉㄜ-ㄇㄝㄙ-ㄊㄧㄎ | theme=travel | stage=2
+ 2407 | international                  | 國際的                            | 🌐        | chunks=['in', 'ter', 'na', 'tion', 'al'] | py=ㄧㄣ-ㄊㄜ-ㄋㄚ-ㄒㄣ-ㄦ | theme=travel | stage=2
+ 2408 | departure                      | 出發                             | 🛫        | chunks=['de', 'par', 'ture'] | py=ㄉㄧ-ㄆㄚㄦ-ㄑㄜ | theme=travel | stage=2 base=depart
+ 2409 | arrival                        | 抵達                             | 🛬        | chunks=['ar', 'ri', 'val'] | py=ㄚ-ㄌㄞ-ㄈㄦ | theme=travel | stage=2 base=arrive
+ 2410 | layover                        | 轉機                             | ⏱️       | chunks=['lay', 'o', 'ver'] | py=ㄌㄟ-ㄛ-ㄈㄜ | theme=travel | stage=3
+ 2411 | transit                        | 轉乘、運輸                          | 🚉        | chunks=['tran', 'sit'] | py=ㄊㄌㄚㄣ-ㄗㄝㄊ | theme=travel | stage=2
+ 2412 | transfer                       | 轉乘                             | 🔄        | chunks=['trans', 'fer'] | py=ㄊㄌㄚㄣㄙ-ㄈㄜ | theme=travel | stage=2
+ 2413 | boarding                       | 登機                             | 🛫        | chunks=['board', 'ing'] | py=ㄅㄛㄦ-ㄉㄧㄥ | theme=travel | stage=1 base=board
+ 2414 | gate                           | 登機門                            | 🚪        | chunks=['g', 'ate'] | py=ㄍㄝㄊ | theme=travel | stage=1
+ 2415 | aisle                          | 走道                             | 🛣️       | chunks=['a', 'isle'] | py=ㄞㄦ | theme=travel | stage=2 [有易混提示]
+ 2416 | seat                           | 座位                             | 💺        | chunks=['s', 'eat'] | py=ㄒㄧㄊ | theme=travel | stage=0 [有易混提示]
+ 2417 | voyage                         | 航行                             | 🚢        | chunks=['voy', 'age'] | py=ㄈㄛㄧ-ㄧㄐ | theme=travel | stage=3
+ 2418 | expedition                     | 遠征                             | 🏔️       | chunks=['ex', 'pe', 'di', 'tion'] | py=ㄝㄎ-ㄙㄆㄜ-ㄉㄧ-ㄒㄣ | theme=travel | stage=3
+ 2419 | excursion                      | 短程旅行                           | 🚌        | chunks=['ex', 'cur', 'sion'] | py=ㄝㄎ-ㄙㄎㄜ-ㄓㄣ | theme=travel | stage=3
+ 2420 | tour                           | 旅遊團                            | 🚌        | chunks=['t', 'our'] | py=ㄊㄨㄦ | theme=travel | stage=1
+ 2421 | package                        | 包裹、套裝行程                        | 📮        | chunks=['pack', 'age'] | py=ㄆㄚ-ㄎㄧㄐ | theme=travel | stage=1
+ 2422 | explore                        | 探索                             | 🗺️       | chunks=['ex', 'plore'] | py=ㄝㄎ-ㄙㄆㄌㄛㄦ | theme=travel | stage=1
+ 2423 | wander                         | 漫遊                             | 🚶        | chunks=['wan', 'der'] | py=ㄨㄚㄣ-ㄉㄜ | theme=travel | stage=2
+ 2424 | roam                           | 漫遊                             | 🚶        | chunks=['r', 'oam'] | py=ㄌㄛㄇ | theme=travel | stage=3
+ 2425 | postcard                       | 明信片                            | 📮        | chunks=['post', 'card'] | py=ㄆㄛㄙㄊ-ㄎㄚㄦㄉ | theme=travel | stage=1
+ 2426 | jetlag                         | 時差                             | 🕐        | chunks=['jet', 'lag'] | py=ㄐㄝㄊ-ㄌㄚㄍ | theme=travel | stage=2
+ 2427 | currency                       | 貨幣                             | 💱        | chunks=['cur', 'ren', 'cy'] | py=ㄎㄜ-ㄌㄣ-ㄒㄧ | theme=travel | stage=2
+ 2428 | exchange                       | 兌換                             | 💱        | chunks=['ex', 'change'] | py=ㄝㄎㄙ-ㄑㄟㄣㄐ | theme=travel | stage=1
+ 2429 | booking                        | 訂位                             | 📅        | chunks=['book', 'ing'] | py=ㄅㄨ-ㄎㄧㄥ | theme=travel | stage=1 base=book
+ 2430 | checkin                        | 報到                             | ✅        | chunks=['check', 'in'] | py=ㄑㄝㄎ-ㄧㄣ | theme=travel | stage=1
+ 2431 | checkout                       | 退房                             | 📤        | chunks=['check', 'out'] | py=ㄑㄝㄎ-ㄠㄊ | theme=travel | stage=1
+ 2432 | native                         | 當地人、本地的                        | 🧑        | chunks=['na', 'tive'] | py=ㄋㄝ-ㄊㄧㄈ | theme=travel | stage=2
+ 2433 | foreign                        | 外國的                            | 🌐        | chunks=['for', 'eign'] | py=ㄈㄛ-ㄌㄣ | theme=travel | stage=1
+ 2434 | purchase                       | 購買                             | 💳        | chunks=['pur', 'chase'] | py=ㄆㄜ-ㄑㄜㄙ | theme=shopping | stage=2
+ 2435 | refund                         | 退款                             | 💸        | chunks=['re', 'fund'] | py=ㄌㄧ-ㄈㄚㄣㄉ | theme=shopping | stage=2
+ 2436 | return                         | 退貨、返回                          | ↩️       | chunks=['re', 'turn'] | py=ㄌㄧ-ㄊㄜㄣ | theme=shopping | stage=1
+ 2437 | deliver                        | 配送                             | 🚚        | chunks=['de', 'liv', 'er'] | py=ㄉㄧ-ㄌㄧ-ㄈㄜ | theme=shopping | stage=1
+ 2438 | delivery                       | 配送                             | 🛵        | chunks=['de', 'liv', 'er', 'y'] | py=ㄉㄧ-ㄌㄧ-ㄈㄜ-ㄌㄧ | theme=shopping | stage=1 base=deliver
+ 2439 | shipping                       | 運費                             | 🚛        | chunks=['ship', 'ping'] | py=ㄒㄧ-ㄆㄧㄥ | theme=shopping | stage=1 base=ship
+ 2440 | parcel                         | 包裹                             | 📮        | chunks=['par', 'cel'] | py=ㄆㄚㄦ-ㄙㄜ | theme=shopping | stage=2
+ 2441 | receipt                        | 收據                             | 🧾        | chunks=['re', 'ceipt'] | py=ㄌㄧ-ㄒㄧㄊ | theme=shopping | stage=1
+ 2442 | bill                           | 帳單                             | 🧾        | chunks=['b', 'ill'] | py=ㄅㄧㄦ | theme=shopping | stage=1 [有易混提示]
+ 2443 | invoice                        | 發票                             | 🧾        | chunks=['in', 'voice'] | py=ㄧㄣ-ㄈㄛㄧㄙ | theme=shopping | stage=2
+ 2444 | basket                         | 購物籃                            | 🧺        | chunks=['bas', 'ket'] | py=ㄅㄚㄙ-ㄎㄝㄊ | theme=shopping | stage=0
+ 2445 | totebag                        | 托特包                            | 👜        | chunks=['tote', 'bag'] | py=ㄊㄛㄊ-ㄅㄚㄍ | theme=shopping | stage=2
+ 2446 | grocery                        | 雜貨                             | 🛒        | chunks=['gro', 'ce', 'ry'] | py=ㄍㄌㄛ-ㄙㄜ-ㄌㄧ | theme=shopping | stage=1 base=grocer
+ 2447 | groceries                      | 日用品                            | 🛒        | chunks=['gro', 'cer', 'ies'] | py=ㄍㄌㄛ-ㄙㄜ-ㄧㄗ | theme=shopping | stage=1 base=grocer
+ 2448 | boutique                       | 精品店                            | 👗        | chunks=['bou', 'tique'] | py=ㄅㄨ-ㄊㄧㄎ | theme=shopping | stage=2
+ 2449 | outlet                         | 暢貨中心                           | 🏬        | chunks=['out', 'let'] | py=ㄠㄊ-ㄌㄝㄊ | theme=shopping | stage=2
+ 2450 | dealership                     | 經銷商                            | 🚗        | chunks=['dea', 'ler', 'ship'] | py=ㄉㄧ-ㄌㄜ-ㄒㄧㄆ | theme=shopping | stage=3
+ 2451 | vendor                         | 小販                             | 🛒        | chunks=['ven', 'dor'] | py=ㄈㄣ-ㄉㄜ | theme=shopping | stage=2 base=vend
+ 2452 | stall                          | 攤位                             | 🛒        | chunks=['st', 'all'] | py=ㄙㄉㄛㄦ | theme=shopping | stage=2
+ 2453 | kiosk                          | 售貨亭                            | 🛒        | chunks=['ki', 'osk'] | py=ㄎㄧ-ㄚㄙㄎ | theme=shopping | stage=3
+ 2454 | booth                          | 展位                             | 🛒        | chunks=['b', 'ooth'] | py=ㄅㄨㄙ | theme=shopping | stage=2
+ 2455 | catalog                        | 目錄                             | 📕        | chunks=['cat', 'a', 'log'] | py=ㄎㄚ-ㄊㄜ-ㄌㄚㄍ | theme=shopping | stage=2
+ 2456 | brand                          | 品牌                             | 🏷️       | chunks=['br', 'and'] | py=ㄅㄌㄚㄣㄉ | theme=shopping | stage=1
+ 2457 | label                          | 標籤                             | 🏷️       | chunks=['la', 'bel'] | py=ㄌㄟ-ㄅㄜ | theme=shopping | stage=1
+ 2458 | tag                            | 標籤                             | 🏷️       | chunks=['t', 'ag'] | py=ㄊㄚㄍ | theme=shopping | stage=1
+ 2459 | barcode                        | 條碼                             | 📊        | chunks=['bar', 'code'] | py=ㄅㄚㄦ-ㄎㄛㄉ | theme=shopping | stage=2
+ 2460 | queue                          | 排隊                             | ⏳        | chunks=['qu', 'eue'] | py=ㄎㄧㄨ | theme=shopping | stage=2
+ 2461 | sample                         | 樣品                             | 🆓        | chunks=['sam', 'ple'] | py=ㄙㄚㄇ-ㄆㄜ | theme=shopping | stage=1
+ 2462 | demo                           | 試用品、示範                         | 📺        | chunks=['de', 'mo'] | py=ㄉㄝ-ㄇㄛ | theme=shopping | stage=2
+ 2463 | trial                          | 試用、審判                          | ⚖️       | chunks=['tri', 'al'] | py=ㄊㄌㄞ-ㄦ | theme=shopping | stage=2
+ 2464 | fitting                        | 試穿                             | 👗        | chunks=['fit', 'ting'] | py=ㄈㄧ-ㄊㄧㄥ | theme=shopping | stage=2 base=fit
+ 2465 | gift                           | 禮物                             | 🎁        | chunks=['g', 'ift'] | py=ㄍㄧㄈㄊ | theme=shopping | stage=0
+ 2466 | voucher                        | 禮券                             | 🎟️       | chunks=['vou', 'cher'] | py=ㄈㄠ-ㄑㄜ | theme=shopping | stage=2
+ 2467 | coupon                         | 優惠券                            | 🎟️       | chunks=['cou', 'pon'] | py=ㄎㄨ-ㄆㄚㄣ | theme=shopping | stage=1
+ 2468 | deal                           | 優惠                             | 💰        | chunks=['d', 'eal'] | py=ㄉㄧㄦ | theme=shopping | stage=1
+ 2469 | bargain                        | 便宜貨                            | 💰        | chunks=['bar', 'gain'] | py=ㄅㄚㄦ-ㄍㄣ | theme=shopping | stage=2
+ 2470 | offer                          | 優惠                             | 📢        | chunks=['of', 'fer'] | py=ㄛ-ㄈㄜ | theme=shopping | stage=1
+ 2471 | promotion                      | 促銷                             | 📢        | chunks=['pro', 'mo', 'tion'] | py=ㄆㄜ-ㄇㄛ-ㄒㄣ | theme=shopping | stage=2
+ 2472 | spree                          | 狂購                             | 🛍️       | chunks=['spr', 'ee'] | py=ㄙㄆㄌㄧ | theme=shopping | stage=3
+ 2473 | client                         | 客戶                             | 🧑        | chunks=['cli', 'ent'] | py=ㄎㄌㄞ-ㄣㄊ | theme=shopping | stage=2
+ 2474 | buyer                          | 買家                             | 🛍️       | chunks=['bu', 'yer'] | py=ㄅㄞ-ㄜ | theme=shopping | stage=1 base=buy
+ 2475 | seller                         | 賣家                             | 🛍️       | chunks=['sel', 'ler'] | py=ㄙㄝ-ㄌㄜ | theme=shopping | stage=1 base=sell
+ 2476 | register                       | 收銀機、註冊                         | 💰        | chunks=['reg', 'is', 'ter'] | py=ㄌㄝ-ㄐㄜ-ㄙㄉㄜ | theme=shopping | stage=2
+ 2477 | chain                          | 連鎖店、鏈條                         | 🏬        | chunks=['ch', 'ain'] | py=ㄑㄟㄣ | theme=shopping | stage=2
+ 2478 | franchise                      | 加盟                             | 🏬        | chunks=['fran', 'chise'] | py=ㄈㄌㄚㄣ-ㄑㄞㄗ | theme=shopping | stage=3
+ 2479 | quality                        | 品質                             | ⭐        | chunks=['qual', 'i', 'ty'] | py=ㄎㄨㄛ-ㄌㄜ-ㄊㄧ | theme=shopping | stage=1
+ 2480 | inventory                      | 庫存                             | 📋        | chunks=['in', 'ven', 'to', 'ry'] | py=ㄧㄣ-ㄈㄣ-ㄊㄜ-ㄌㄧ | theme=shopping | stage=3
+ 2481 | stock                          | 存貨                             | 📊        | chunks=['st', 'ock'] | py=ㄙㄉㄚㄎ | theme=shopping | stage=1
+ 2482 | wholesale                      | 批發                             | 🏭        | chunks=['whole', 'sale'] | py=ㄏㄛㄦ-ㄙㄟㄦ | theme=shopping | stage=3
+ 2483 | retail                         | 零售                             | 🏬        | chunks=['re', 'tail'] | py=ㄌㄧ-ㄊㄟㄦ | theme=shopping | stage=2
+ 2484 | host                           | 主人                             | 🧑        | chunks=['h', 'ost'] | py=ㄏㄛㄙㄊ | theme=restaurant | stage=2
+ 2485 | hostess                        | 女主人                            | 👩        | chunks=['host', 'ess'] | py=ㄏㄛㄙ-ㄊㄝㄙ | theme=restaurant | stage=2 base=host
+ 2486 | server                         | 服務生                            | 💁        | chunks=['ser', 'ver'] | py=ㄙㄜ-ㄈㄜ | theme=restaurant | stage=1 base=serve
+ 2487 | busboy                         | 餐廳助手                           | 🍽️       | chunks=['bus', 'boy'] | py=ㄅㄚㄙ-ㄅㄛㄧ | theme=restaurant | stage=3
+ 2488 | sommelier                      | 侍酒師                            | 🍷        | chunks=['som', 'me', 'lier'] | py=ㄙㄚ-ㄇㄜ-ㄌㄧㄜ | theme=restaurant | stage=3
+ 2489 | bartender                      | 調酒師                            | 🍸        | chunks=['bar', 'ten', 'der'] | py=ㄅㄚㄦ-ㄊㄣ-ㄉㄜ | theme=restaurant | stage=2
+ 2490 | appetizer                      | 開胃菜                            | 🥗        | chunks=['ap', 'pe', 'ti', 'zer'] | py=ㄚ-ㄆㄜ-ㄊㄞ-ㄗㄜ | theme=restaurant | stage=2 base=appetite
+ 2491 | starter                        | 前菜                             | 🥗        | chunks=['star', 'ter'] | py=ㄙㄉㄚㄦ-ㄊㄜ | theme=restaurant | stage=2 base=start
+ 2492 | entree                         | 主菜                             | 🍽️       | chunks=['en', 'tree'] | py=ㄢ-ㄊㄌㄟ | theme=restaurant | stage=3
+ 2493 | maincourse                     | 主菜                             | 🍽️       | chunks=['main', 'course'] | py=ㄇㄟㄣ-ㄎㄛㄦㄙ | theme=restaurant | stage=2
+ 2494 | sidedish                       | 配菜                             | 🥗        | chunks=['side', 'dish'] | py=ㄙㄞㄉ-ㄉㄧㄒ | theme=restaurant | stage=2
+ 2495 | brunch                         | 早午餐                            | 🥞        | chunks=['br', 'unch'] | py=ㄅㄌㄚㄣㄑ | theme=restaurant | stage=1
+ 2496 | supper                         | 晚餐                             | 🍽️       | chunks=['sup', 'per'] | py=ㄙㄚ-ㄆㄜ | theme=restaurant | stage=2
+ 2497 | picnic                         | 野餐                             | 🧺        | chunks=['pic', 'nic'] | py=ㄆㄧㄎ-ㄋㄧㄎ | theme=restaurant | stage=1
+ 2498 | takeout                        | 外帶                             | 🥡        | chunks=['take', 'out'] | py=ㄊㄟㄎ-ㄠㄊ | theme=restaurant | stage=1
+ 2499 | takeaway                       | 外帶                             | 🥡        | chunks=['take', 'a', 'way'] | py=ㄊㄟㄎ-ㄜ-ㄨㄝ | theme=restaurant | stage=1
