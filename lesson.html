@@ -595,7 +595,13 @@ function pickWords({ vocab, themes }) {
   const reviews = due.slice(0, reviewCount).map(w => ({ ...w, isReview: true }));
   const newWords = newPool.slice(0, newCount).map(w => ({ ...w, isReview: false }));
 
-  const list = [...reviews, ...newWords].map((w, i) => ({ n: i + 1, ...w }));
+  // 把 review 和 new 混合 + 隨機打散,避免 🔁 全擠在開頭
+  const combined = [...reviews, ...newWords];
+  for (let i = combined.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [combined[i], combined[j]] = [combined[j], combined[i]];
+  }
+  const list = combined.map((w, i) => ({ n: i + 1, ...w }));
   // 把字池狀況存到 window,方便 init() 偵測
   window._poolStatus = {
     requested: wordCount,
