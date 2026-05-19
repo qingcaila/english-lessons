@@ -243,9 +243,13 @@
   - 額外:row/wound/use/abuse/house/kid/tip/key/lot/drug/branch/
     case/right/long/short/fan/wave/wing 等
 
+**順手補的**
+
+- [x] 回到頂部按鈕推廣到 help.html / quiz.html / validate.html
+      (跟 lesson.html 同樣 pattern,左下角 ↑ chip,滾超 300px 淡入)
+
 **未做但可選**
 
-- [ ] 把回到頂部按鈕也加到 help.html / quiz.html / validate.html
 - [ ] 預生成 mp3 CDN 方案(用 Polly + Cloudflare R2 跳過 iOS Safari
       限制,真正做到 Readle 等級音質)— 目前學習者選 Samantha 接受
 
