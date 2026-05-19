@@ -79,6 +79,18 @@
     color: var(--accent); text-decoration: none; padding: 8px 12px;
     border: 1px solid var(--accent); border-radius: 6px;
   }
+  /* 回到頂部 浮動按鈕 */
+  .back-to-top {
+    position: fixed; bottom: 20px; left: 16px;
+    width: 40px; height: 40px; border: none; border-radius: 50%;
+    background: var(--accent); color: #fff; font-size: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    cursor: pointer; z-index: 50;
+    opacity: 0; pointer-events: none;
+    transition: opacity .2s, transform .15s;
+  }
+  .back-to-top.show { opacity: .9; pointer-events: auto; }
+  .back-to-top:active { transform: scale(0.92); }
 </style>
 </head>
 <body>
@@ -227,6 +239,13 @@ function showSummary() {
 }
 
 init();
+
+// 回到頂部
+window.addEventListener("scroll", () => {
+  const btn = document.getElementById("backToTopBtn");
+  if (btn) btn.classList.toggle("show", window.scrollY > 300);
+}, { passive: true });
 </script>
+<button class="back-to-top" id="backToTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="回到頂部" aria-label="回到頂部">↑</button>
 </body>
 </html>
