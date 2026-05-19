@@ -153,9 +153,24 @@
 - [ ] L2-pinyin(AI 不擅長注音判斷)
 - [ ] L2-tip-coverage(vocab 沒對應 `tip` 欄位)
 
-### 2026-05-19 voice 選擇器 + 速度擴充 + UI 修正
+### 2026-05-19 voice 選擇器 + 速度擴充 + UI 修正 + AI 全字掃 ⚠️ note
 
-延續 5/18 的發音線索,繼續打磨。
+延續 5/18 的發音線索,繼續打磨;晚上跑 vocab-audit AI 全字掃。
+
+**今日總成果一覽**
+
+| 類別 | 數量 / 結果 |
+|------|------------|
+| 新增 ⚠️ homophone-note | **+1,508 條**(早上手動 129 + 晚上 AI 1,379) |
+| ⚠️ 覆蓋率 | 365 → **1,873 / 10,101 = 18.5%** |
+| Voice 選擇器 | 6 個具名 + 自動,試聽 + localStorage 記憶 |
+| 速度選項 | 4 段 → 6 段,localStorage 記憶 |
+| 修 bug | iOS WebKit cancel+speak、num 欄太窄、🔁 卡片擠壓 |
+| 新 UI | 回到頂部按鈕、voice chip 品質指示器、使用說明連結 |
+| 新腳本 | `scripts/add_multi_meaning_notes.py`、`apply_audit_notes.py` |
+| Audit reports | `.claude/skills/vocab-audit/reports/20260519-*.json` 8 個檔留檔 |
+
+---
 
 **Voice 指示器 + 選擇器**
 
