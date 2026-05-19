@@ -153,6 +153,59 @@
 - [ ] L2-pinyin(AI 不擅長注音判斷)
 - [ ] L2-tip-coverage(vocab 沒對應 `tip` 欄位)
 
+### 2026-05-19 voice 選擇器 + 速度擴充 + UI 修正
+
+延續 5/18 的發音線索,繼續打磨。
+
+**Voice 指示器 + 選擇器**
+
+- [x] lesson.html hint 列加 voice chip:🎤 <名稱> · <品質等級>
+  - 顏色分級:綠=高音質 / 橘=增強 / 黃=普通 / 紅=未偵測
+  - 點 chip 跳 modal 選擇器,提供 6 個具名 voice + 自動:
+    🇺🇸 Samantha / 🇦🇺 Karen / 🇬🇧 Daniel / 🇮🇪 Moira / 🇮🇳 Rishi / 🇿🇦 Tessa
+  - 每個有「試聽」按鈕,試聽不選也行
+  - 選擇存 localStorage `englessons:voicePref`,跨頁/跨輪記住
+- [x] chip 旁加橘色「使用說明」連結 → help.html#voice-setup
+  - help.html §11 聲音 h3 加 `id="voice-setup"` 錨點
+
+**iOS Safari 限制誠實面對**
+
+- [x] 排查發現:Apple 把下載的 Premium voice 鎖在系統朗讀功能,
+      Web Speech API 拿不到 → 學習者下載 Ava(高音質) 280 MB
+      其實在 Safari 用不到。help.html §2 與 §11 改寫為老實版本。
+- [x] pickBestVoice 加 en-US 優先(原本按列表順序挑到 Karen 澳洲,
+      改成優先 Samantha 美式),過濾音效類 voice(Bad News / Bahh 等)
+
+**速度擴充**
+
+- [x] 速度下拉從 4 段加到 6 段:極慢 0.3 / 超慢 0.45 / 慢 0.6 /
+      正常 0.75 / 較快 0.9 / 原速 1.0(預設保持「慢」)
+- [x] 速度選擇存 localStorage `englessons:rate`,跨頁/跨輪記住
+
+**UI / Layout 修正**
+
+- [x] 修 iOS WebKit cancel()+speak() bug — September 被砍前音素
+      變 "stember"(safeSpeak helper:cancel 後 setTimeout 100ms 再 speak)
+- [x] pickBestVoice 正則加「高音質」(iOS 18 把高級改名為高音質,
+      原規則只認舊名)
+- [x] 卡片 num 欄太窄 — 🔁 + 文字 img(10th/9th/ear 等)互相擠壓
+  - grid-template-columns 第 1 欄 30px → calc(40px * fs-scale)
+  - 🔁 用 span 包起來 + transform: scale(0.7) 視覺縮小
+    (font-size 對 emoji 沒用,scale 才行)
+- [x] 加「回到頂部」浮動按鈕(左下,避開右側 ✅/❌)
+  - 滾超過 300px 才顯示,點下 smooth scroll
+
+**複習字混合**
+
+- [x] 複習字(🔁)和新字(🆕)從「全部排前面」改成 Fisher-Yates
+      shuffle 隨機交錯。每輪重新洗牌。
+
+**未做但可選**
+
+- [ ] 把回到頂部按鈕也加到 help.html / quiz.html / validate.html
+- [ ] 預生成 mp3 CDN 方案(用 Polly + Cloudflare R2 跳過 iOS Safari
+      限制,真正做到 Readle 等級音質)— 目前學習者選 Samantha 接受
+
 ### 2026-05-18 發音品質修復 + 文件更新
 
 學習者反映 iPhone 上 September 唸成 "stember"(漏掉開頭 /sɛ/),整體咬字也很糊。
