@@ -200,6 +200,25 @@
 - [x] 複習字(🔁)和新字(🆕)從「全部排前面」改成 Fisher-Yates
       shuffle 隨機交錯。每輪重新洗牌。
 
+**多義字 / 多種發音 note 擴充**
+
+- [x] 學習者看到 live 那種「⚠️ 兩種發音」提示有用,問還有哪些
+      沒標。掃 150 個常見多義候選 → 寫腳本 `scripts/add_multi_meaning_notes.py`
+      curate 補 **129 條 homophone-note**。覆蓋率 365 → **494 / 10101**。
+  - Tier 1 兩種發音(heteronym):read/lead/tear/record/conduct/
+    desert/present/object/subject/contest/contract/export/import/
+    progress/project/protest/produce/permit/refuse/content/perfect/
+    estimate/advocate/alternate/associate/appropriate/frequent/
+    intimate/separate/moderate/deliberate 等
+  - Tier 2 一字多義:light/spring/bat/bear/check/watch/glass/date/
+    match/pen/ring/letter/well/draw/sound/plant/type/file/form/
+    ground/last/post/second/mind/kind/fair/safe/cool/fine/patient
+    /press/bill/ball/duck/court/volume/club/stamp/stick/swallow/
+    trunk/seal/star/pool/pack/point/race/state/still/store/back/
+    front/side/line/stage/change/run/pass/turn/play 等
+  - 額外:row/wound/use/abuse/house/kid/tip/key/lot/drug/branch/
+    case/right/long/short/fan/wave/wing 等
+
 **未做但可選**
 
 - [ ] 把回到頂部按鈕也加到 help.html / quiz.html / validate.html
