@@ -1,0 +1,6754 @@
+[
+  {
+    "word": "banana",
+    "current": "ㄅㄜ-ㄋㄝ-ㄋㄚ",
+    "suggested": "ㄅㄜ-ㄋㄝ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "結尾 -na 弱讀,應為 ㄋㄜ",
+    "current_actual": "ㄅㄜ-ㄋㄝ-ㄋㄚ"
+  },
+  {
+    "word": "today",
+    "current": "ㄊㄨ-ㄉㄟ",
+    "suggested": "ㄊㄜ-ㄉㄟ",
+    "type": "schwa",
+    "reason": "to- 前綴弱讀為 ㄊㄜ",
+    "current_actual": "ㄊㄨ-ㄉㄟ"
+  },
+  {
+    "word": "tomorrow",
+    "current": "ㄊㄨ-ㄇㄚ-ㄖㄡ",
+    "suggested": "ㄊㄜ-ㄇㄚ-ㄖㄛ",
+    "type": "schwa",
+    "reason": "to- 前綴弱讀為 ㄊㄜ",
+    "current_actual": "ㄊㄨ-ㄇㄚ-ㄖㄡ"
+  },
+  {
+    "word": "tonight",
+    "current": "ㄊㄨ-ㄋㄞㄊ",
+    "suggested": "ㄊㄜ-ㄋㄞㄊ",
+    "type": "schwa",
+    "reason": "to- 前綴弱讀為 ㄊㄜ",
+    "current_actual": "ㄊㄨ-ㄋㄞㄊ"
+  },
+  {
+    "word": "minute",
+    "current": "ㄇㄧ-ㄋㄧㄊ",
+    "suggested": "ㄇㄧ-ㄋㄜㄊ",
+    "type": "schwa",
+    "reason": "-nute 弱讀為 ㄋㄜㄊ",
+    "current_actual": "ㄇㄧ-ㄋㄧㄊ"
+  },
+  {
+    "word": "family",
+    "current": "ㄈㄝ-ㄇㄧ-ㄌㄧ",
+    "suggested": "ㄈㄝ-ㄇㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "中間音節 -mi- 為 schwa",
+    "current_actual": "ㄈㄝ-ㄇㄧ-ㄌㄧ"
+  },
+  {
+    "word": "lion",
+    "current": "ㄌㄞ-ㄣ",
+    "suggested": "ㄌㄞ-ㄜㄣ",
+    "type": "schwa",
+    "reason": "-on 含 schwa,應為 ㄌㄞ-ㄜㄣ",
+    "current_actual": "ㄌㄞ-ㄣ"
+  },
+  {
+    "word": "oven",
+    "current": "ㄚ-ㄈㄣ",
+    "suggested": "ㄚ-ㄈㄜㄣ",
+    "type": "schwa",
+    "reason": "-ven 含 schwa,應為 ㄈㄜㄣ",
+    "current_actual": "ㄚ-ㄈㄣ"
+  },
+  {
+    "word": "potato",
+    "current": "ㄆㄛ-ㄊㄟ-ㄊㄛ",
+    "suggested": "ㄆㄜ-ㄊㄟ-ㄊㄛ",
+    "type": "schwa",
+    "reason": "第一音節 po- 弱讀為 ㄆㄜ",
+    "current_actual": "ㄆㄛ-ㄊㄟ-ㄊㄛ"
+  },
+  {
+    "word": "onion",
+    "current": "ㄚ-ㄋㄧㄢ",
+    "suggested": "ㄚ-ㄋㄧㄜㄣ",
+    "type": "schwa",
+    "reason": "-ion 為 schwa,應為 ㄋㄧㄜㄣ",
+    "current_actual": "ㄚ-ㄋㄧㄢ"
+  },
+  {
+    "word": "cucumber",
+    "current": "ㄎㄧㄨ-ㄎㄚㄇ-ㄅㄜ",
+    "suggested": "ㄎㄧㄨ-ㄎㄜㄇ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-cum- 弱讀,應為 ㄎㄜㄇ",
+    "current_actual": "ㄎㄧㄨ-ㄎㄚㄇ-ㄅㄜ"
+  },
+  {
+    "word": "coconut",
+    "current": "ㄎㄛ-ㄎㄛ-ㄋㄚㄊ",
+    "suggested": "ㄎㄛ-ㄎㄜ-ㄋㄚㄊ",
+    "type": "schwa",
+    "reason": "第二音節 co- 弱讀為 ㄎㄜ",
+    "current_actual": "ㄎㄛ-ㄎㄛ-ㄋㄚㄊ"
+  },
+  {
+    "word": "watermelon",
+    "current": "ㄨㄚ-ㄊㄜ-ㄇㄝ-ㄌㄣ",
+    "suggested": "ㄨㄚ-ㄊㄜ-ㄇㄝ-ㄌㄜㄣ",
+    "type": "schwa",
+    "reason": "-lon 結尾為 schwa,應為 ㄌㄜㄣ",
+    "current_actual": "ㄨㄚ-ㄊㄜ-ㄇㄝ-ㄌㄣ"
+  },
+  {
+    "word": "lemon",
+    "current": "ㄌㄝ-ㄇㄣ",
+    "suggested": "ㄌㄝ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "-mon 弱讀,應為 ㄇㄜㄣ",
+    "current_actual": "ㄌㄝ-ㄇㄣ"
+  },
+  {
+    "word": "melon",
+    "current": "ㄇㄝ-ㄌㄣ",
+    "suggested": "ㄇㄝ-ㄌㄜㄣ",
+    "type": "schwa",
+    "reason": "-lon 弱讀為 ㄌㄜㄣ",
+    "current_actual": "ㄇㄝ-ㄌㄣ"
+  },
+  {
+    "word": "avocado",
+    "current": "ㄝ-ㄈㄛ-ㄎㄚ-ㄉㄛ",
+    "suggested": "ㄝ-ㄈㄜ-ㄎㄚ-ㄉㄛ",
+    "type": "schwa",
+    "reason": "-vo- 弱讀為 ㄈㄜ",
+    "current_actual": "ㄝ-ㄈㄛ-ㄎㄚ-ㄉㄛ"
+  },
+  {
+    "word": "violin",
+    "current": "ㄈㄞ-ㄛ-ㄌㄧㄣ",
+    "suggested": "ㄈㄞ-ㄜ-ㄌㄧㄣ",
+    "type": "schwa",
+    "reason": "中間 -o- 弱讀為 ㄜ",
+    "current_actual": "ㄈㄞ-ㄛ-ㄌㄧㄣ"
+  },
+  {
+    "word": "balloon",
+    "current": "ㄅㄚ-ㄌㄨㄣ",
+    "suggested": "ㄅㄜ-ㄌㄨㄣ",
+    "type": "schwa",
+    "reason": "bal- 弱讀為 ㄅㄜ",
+    "current_actual": "ㄅㄚ-ㄌㄨㄣ"
+  },
+  {
+    "word": "again",
+    "current": "ㄚ-ㄍㄣ",
+    "suggested": "ㄜ-ㄍㄣ",
+    "type": "schwa",
+    "reason": "a- 前綴為 schwa ㄜ",
+    "current_actual": "ㄚ-ㄍㄣ"
+  },
+  {
+    "word": "another",
+    "current": "ㄚ-ㄋㄚ-ㄉㄜ",
+    "suggested": "ㄜ-ㄋㄚ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "a- 前綴為 schwa ㄜ",
+    "current_actual": "ㄚ-ㄋㄚ-ㄉㄜ"
+  },
+  {
+    "word": "alarm",
+    "current": "ㄚ-ㄌㄚㄦㄇ",
+    "suggested": "ㄜ-ㄌㄚㄦㄇ",
+    "type": "schwa",
+    "reason": "a- 前綴為 schwa ㄜ",
+    "current_actual": "ㄚ-ㄌㄚㄦㄇ"
+  },
+  {
+    "word": "amount",
+    "current": "ㄚ-ㄇㄠㄣㄊ",
+    "suggested": "ㄜ-ㄇㄠㄣㄊ",
+    "type": "schwa",
+    "reason": "a- 前綴為 schwa ㄜ",
+    "current_actual": "ㄚ-ㄇㄠㄣㄊ"
+  },
+  {
+    "word": "ago",
+    "current": "ㄚ-ㄍㄛ",
+    "suggested": "ㄜ-ㄍㄛ",
+    "type": "schwa",
+    "reason": "a- 前綴為 schwa ㄜ",
+    "current_actual": "ㄚ-ㄍㄛ"
+  },
+  {
+    "word": "around",
+    "current": "-",
+    "suggested": "ㄜ-ㄖㄠㄣㄉ",
+    "type": "schwa",
+    "reason": "通則:a- 前綴為 schwa(若日後新增)",
+    "current_actual": "ㄚ-ㄌㄠㄣㄉ"
+  },
+  {
+    "word": "jealous",
+    "current": "ㄐㄝ-ㄌㄚㄙ",
+    "suggested": "ㄐㄝ-ㄌㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 結尾為 schwa,應為 ㄌㄜㄙ",
+    "current_actual": "ㄐㄝ-ㄌㄚㄙ"
+  },
+  {
+    "word": "famous",
+    "current": "ㄈㄟ-ㄇㄚㄙ",
+    "suggested": "ㄈㄟ-ㄇㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 結尾為 schwa,應為 ㄇㄜㄙ",
+    "current_actual": "ㄈㄟ-ㄇㄚㄙ"
+  },
+  {
+    "word": "dangerous",
+    "current": "ㄉㄟㄣ-ㄐㄜ-ㄚㄙ",
+    "suggested": "ㄉㄟㄣ-ㄐㄜ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 結尾為 schwa,應為 ㄜㄙ",
+    "current_actual": "ㄉㄟㄣ-ㄐㄜ-ㄚㄙ"
+  },
+  {
+    "word": "nervous",
+    "current": "ㄋㄜ-ㄈㄚㄙ",
+    "suggested": "ㄋㄜ-ㄈㄜㄙ",
+    "type": "schwa",
+    "reason": "-vous 結尾為 schwa,應為 ㄈㄜㄙ",
+    "current_actual": "ㄋㄜ-ㄈㄚㄙ"
+  },
+  {
+    "word": "delicious",
+    "current": "ㄉㄧ-ㄌㄧ-ㄒㄚㄙ",
+    "suggested": "ㄉㄧ-ㄌㄧ-ㄒㄜㄙ",
+    "type": "schwa",
+    "reason": "-cious 結尾為 schwa,應為 ㄒㄜㄙ",
+    "current_actual": "ㄉㄧ-ㄌㄧ-ㄒㄚㄙ"
+  },
+  {
+    "word": "honest",
+    "current": "ㄚ-ㄋㄝㄙㄊ",
+    "suggested": "ㄚ-ㄋㄜㄙㄊ",
+    "type": "schwa",
+    "reason": "-nest 結尾為 schwa,應為 ㄋㄜㄙㄊ",
+    "current_actual": "ㄚ-ㄋㄝㄙㄊ"
+  },
+  {
+    "word": "different",
+    "current": "ㄉㄧ-ㄈㄜ-ㄦㄣㄊ",
+    "suggested": "ㄉㄧ-ㄈㄜ-ㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-ent 結尾為 schwa,應為 ㄜㄣㄊ",
+    "current_actual": "ㄉㄧ-ㄈㄜ-ㄦㄣㄊ"
+  },
+  {
+    "word": "interesting",
+    "current": "ㄧㄣ-ㄊㄜ-ㄝㄙ-ㄊㄧㄥ",
+    "suggested": "ㄧㄣ-ㄊㄜ-ㄜㄙ-ㄊㄧㄥ",
+    "type": "schwa",
+    "reason": "-est- 弱讀為 schwa,應為 ㄜㄙ",
+    "current_actual": "ㄧㄣ-ㄊㄜ-ㄝㄙ-ㄊㄧㄥ"
+  },
+  {
+    "word": "hospital",
+    "current": "ㄏㄚㄙ-ㄆㄧ-ㄊㄛ",
+    "suggested": "ㄏㄚㄙ-ㄆㄜ-ㄊㄜㄦ",
+    "type": "schwa",
+    "reason": "-pi- 弱讀為 ㄆㄜ;-tal 末為 l 應為 ㄊㄜㄦ",
+    "current_actual": "ㄏㄚㄙ-ㄆㄧ-ㄊㄛ"
+  },
+  {
+    "word": "vitamin",
+    "current": "ㄈㄞ-ㄊㄜ-ㄇㄧㄣ",
+    "suggested": "ㄈㄞ-ㄊㄜ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "-min 結尾弱讀為 ㄇㄜㄣ",
+    "current_actual": "ㄈㄞ-ㄊㄜ-ㄇㄧㄣ"
+  },
+  {
+    "word": "medicine",
+    "current": "ㄇㄝ-ㄉㄧ-ㄒㄣ",
+    "suggested": "ㄇㄝ-ㄉㄜ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-di- 弱讀為 ㄉㄜ",
+    "current_actual": "ㄇㄝ-ㄉㄧ-ㄒㄣ"
+  },
+  {
+    "word": "computer",
+    "current": "ㄎㄚㄇ-ㄆㄧㄨ-ㄊㄜ",
+    "suggested": "ㄎㄜㄇ-ㄆㄧㄨ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "com- 弱讀為 ㄎㄜㄇ(非重音)",
+    "current_actual": "ㄎㄚㄇ-ㄆㄧㄨ-ㄊㄜ"
+  },
+  {
+    "word": "reservation",
+    "current": "ㄖㄝ-ㄗㄦ-ㄈㄟ-ㄒㄣ",
+    "suggested": "ㄖㄝ-ㄗㄜ-ㄈㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-ser- 弱讀為 ㄗㄜ",
+    "current_actual": "ㄖㄝ-ㄗㄦ-ㄈㄟ-ㄒㄣ"
+  },
+  {
+    "word": "dessert",
+    "current": "ㄉㄧ-ㄗㄦㄊ",
+    "suggested": "ㄉㄜ-ㄗㄜㄦㄊ",
+    "type": "schwa",
+    "reason": "de- 弱讀為 ㄉㄜ",
+    "current_actual": "ㄉㄧ-ㄗㄦㄊ"
+  },
+  {
+    "word": "vacation",
+    "current": "ㄈㄟ-ㄎㄟ-ㄒㄣ",
+    "suggested": "ㄈㄜ-ㄎㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "va- 前綴弱讀為 ㄈㄜ",
+    "current_actual": "ㄈㄟ-ㄎㄟ-ㄒㄣ"
+  },
+  {
+    "word": "camera",
+    "current": "ㄎㄝ-ㄇㄜ-ㄖㄚ",
+    "suggested": "ㄎㄝ-ㄇㄜ-ㄖㄜ",
+    "type": "schwa",
+    "reason": "結尾 -ra 弱讀為 ㄖㄜ",
+    "current_actual": "ㄎㄝ-ㄇㄜ-ㄖㄚ"
+  },
+  {
+    "word": "orange",
+    "current": "ㄛ-ㄖㄣㄐ",
+    "suggested": "ㄛ-ㄖㄜㄣㄐ",
+    "type": "schwa",
+    "reason": "-ange 結尾 schwa,應為 ㄖㄜㄣㄐ",
+    "current_actual": "ㄛ-ㄖㄣㄐ"
+  },
+  {
+    "word": "purple",
+    "current": "ㄆㄦ-ㄆㄛ",
+    "suggested": "ㄆㄦ-ㄆㄜ",
+    "type": "schwa",
+    "reason": "-ple 結尾 schwa,應為 ㄆㄜ",
+    "current_actual": "ㄆㄦ-ㄆㄛ"
+  },
+  {
+    "word": "apple",
+    "current": "ㄝ-ㄆㄛ",
+    "suggested": "ㄝ-ㄆㄜ",
+    "type": "schwa",
+    "reason": "-ple 結尾 schwa,應為 ㄆㄜ",
+    "current_actual": "ㄝ-ㄆㄛ"
+  },
+  {
+    "word": "table",
+    "current": "ㄊㄟ-ㄅㄛ",
+    "suggested": "ㄊㄟ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-ble 結尾 schwa,應為 ㄅㄜ",
+    "current_actual": "ㄊㄟ-ㄅㄛ"
+  },
+  {
+    "word": "bubble",
+    "current": "ㄅㄚ-ㄅㄛ",
+    "suggested": "ㄅㄚ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-ble 結尾 schwa,應為 ㄅㄜ",
+    "current_actual": "ㄅㄚ-ㄅㄛ"
+  },
+  {
+    "word": "puzzle",
+    "current": "ㄆㄚㄗ-ㄛ",
+    "suggested": "ㄆㄚ-ㄗㄜ",
+    "type": "schwa",
+    "reason": "-zle 結尾 schwa,應為 ㄗㄜ",
+    "current_actual": "ㄆㄚㄗ-ㄛ"
+  },
+  {
+    "word": "kettle",
+    "current": "ㄎㄝ-ㄊㄛ",
+    "suggested": "ㄎㄝ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "-tle 結尾 schwa,應為 ㄊㄜ",
+    "current_actual": "ㄎㄝ-ㄊㄛ"
+  },
+  {
+    "word": "pencil",
+    "current": "ㄆㄝㄣ-ㄙㄛ",
+    "suggested": "ㄆㄝㄣ-ㄙㄜ",
+    "type": "schwa",
+    "reason": "-cil 結尾 schwa,應為 ㄙㄜ",
+    "current_actual": "ㄆㄝㄣ-ㄙㄛ"
+  },
+  {
+    "word": "towel",
+    "current": "ㄊㄠ-ㄛ",
+    "suggested": "ㄊㄠ-ㄜ",
+    "type": "schwa",
+    "reason": "-wel 結尾 schwa,應為 ㄜ",
+    "current_actual": "ㄊㄠ-ㄛ"
+  },
+  {
+    "word": "hotel",
+    "current": "ㄏㄛ-ㄊㄝㄛ",
+    "suggested": "ㄏㄛ-ㄊㄝㄦ",
+    "type": "error",
+    "reason": "-tel 末為 l 應為 ㄦ,而非 ㄛ",
+    "current_actual": "ㄏㄛ-ㄊㄝㄛ"
+  },
+  {
+    "word": "cocktail",
+    "current": "ㄎㄚㄎ-ㄊㄟㄛ",
+    "suggested": "ㄎㄚㄎ-ㄊㄟㄦ",
+    "type": "error",
+    "reason": "-tail 末為 l 應為 ㄦ",
+    "current_actual": "ㄎㄚㄎ-ㄊㄟㄛ"
+  },
+  {
+    "word": "sale",
+    "current": "ㄙㄟㄛ",
+    "suggested": "ㄙㄟㄦ",
+    "type": "error",
+    "reason": "-le 末為 l 應為 ㄦ",
+    "current_actual": "ㄙㄟㄛ"
+  },
+  {
+    "word": "sell",
+    "current": "ㄙㄝㄛ",
+    "suggested": "ㄙㄝㄦ",
+    "type": "error",
+    "reason": "-ll 為 l 應為 ㄙㄝㄦ",
+    "current_actual": "ㄙㄝㄛ"
+  },
+  {
+    "word": "pill",
+    "current": "ㄆㄧㄛ",
+    "suggested": "ㄆㄧㄦ",
+    "type": "error",
+    "reason": "-ll 為 l 應為 ㄆㄧㄦ",
+    "current_actual": "ㄆㄧㄛ"
+  },
+  {
+    "word": "doll",
+    "current": "ㄉㄚㄛ",
+    "suggested": "ㄉㄚㄦ",
+    "type": "error",
+    "reason": "-ll 為 l 應為 ㄉㄚㄦ",
+    "current_actual": "ㄉㄚㄛ"
+  },
+  {
+    "word": "file",
+    "current": "ㄈㄞㄛ",
+    "suggested": "ㄈㄞㄦ",
+    "type": "error",
+    "reason": "-le 末為 l 應為 ㄈㄞㄦ",
+    "current_actual": "ㄈㄞㄛ"
+  },
+  {
+    "word": "meal",
+    "current": "ㄇㄧㄛ",
+    "suggested": "ㄇㄧㄦ",
+    "type": "error",
+    "reason": "-al 末為 l 應為 ㄇㄧㄦ",
+    "current_actual": "ㄇㄧㄛ"
+  },
+  {
+    "word": "milk",
+    "current": "ㄇㄧㄛㄎ",
+    "suggested": "ㄇㄧㄦㄎ",
+    "type": "error",
+    "reason": "-lk 中 l 應為 ㄦ",
+    "current_actual": "ㄇㄧㄛㄎ"
+  },
+  {
+    "word": "belt",
+    "current": "ㄅㄝㄛㄊ",
+    "suggested": "ㄅㄝㄦㄊ",
+    "type": "error",
+    "reason": "-lt 中 l 應為 ㄦ",
+    "current_actual": "ㄅㄝㄛㄊ"
+  },
+  {
+    "word": "small",
+    "current": "ㄙㄇㄛㄛ",
+    "suggested": "ㄙㄇㄛㄦ",
+    "type": "error",
+    "reason": "-all 中 ll 為 ㄦ",
+    "current_actual": "ㄙㄇㄛㄛ"
+  },
+  {
+    "word": "tall",
+    "current": "ㄊㄛㄛ",
+    "suggested": "ㄊㄛㄦ",
+    "type": "error",
+    "reason": "-all 中 ll 為 ㄦ",
+    "current_actual": "ㄊㄛㄛ"
+  },
+  {
+    "word": "ball",
+    "current": "ㄅㄛ",
+    "suggested": "ㄅㄛㄦ",
+    "type": "error",
+    "reason": "-all 中 ll 為 ㄦ,且少標 l",
+    "current_actual": "ㄅㄛ"
+  },
+  {
+    "word": "smile",
+    "current": "ㄙㄇㄞㄛ",
+    "suggested": "ㄙㄇㄞㄦ",
+    "type": "error",
+    "reason": "-le 末為 l 應為 ㄦ",
+    "current_actual": "ㄙㄇㄞㄛ"
+  },
+  {
+    "word": "bowl",
+    "current": "ㄅㄡ",
+    "suggested": "ㄅㄡㄦ",
+    "type": "error",
+    "reason": "-wl 末為 l,少標 l",
+    "current_actual": "ㄅㄡ"
+  },
+  {
+    "word": "mall",
+    "current": "ㄇㄛ",
+    "suggested": "ㄇㄛㄦ",
+    "type": "error",
+    "reason": "-all 中 ll 為 ㄦ,少標 l",
+    "current_actual": "ㄇㄛ"
+  },
+  {
+    "word": "school",
+    "current": "ㄙㄎㄨㄛ",
+    "suggested": "ㄙㄎㄨㄦ",
+    "type": "error",
+    "reason": "-ol 末為 l 應為 ㄙㄎㄨㄦ",
+    "current_actual": "ㄙㄎㄨㄛ"
+  },
+  {
+    "word": "breakfast",
+    "current": "ㄅㄖㄝㄎ-ㄈㄝㄙㄊ",
+    "suggested": "ㄅㄖㄝㄎ-ㄈㄜㄙㄊ",
+    "type": "schwa",
+    "reason": "-fast 弱讀為 ㄈㄜㄙㄊ",
+    "current_actual": "ㄅㄖㄝㄎ-ㄈㄝㄙㄊ"
+  },
+  {
+    "word": "holiday",
+    "current": "ㄏㄚ-ㄌㄧ-ㄉㄟ",
+    "suggested": "ㄏㄚ-ㄌㄜ-ㄉㄟ",
+    "type": "schwa",
+    "reason": "-li- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄏㄚ-ㄌㄧ-ㄉㄟ"
+  },
+  {
+    "word": "jacket",
+    "current": "ㄐㄚ-ㄎㄝㄊ",
+    "suggested": "ㄐㄚ-ㄎㄜㄊ",
+    "type": "schwa",
+    "reason": "-ket 結尾 schwa",
+    "current_actual": "ㄐㄚ-ㄎㄝㄊ"
+  },
+  {
+    "word": "ticket",
+    "current": "ㄊㄧ-ㄎㄝㄊ",
+    "suggested": "ㄊㄧ-ㄎㄜㄊ",
+    "type": "schwa",
+    "reason": "-ket 結尾 schwa",
+    "current_actual": "ㄊㄧ-ㄎㄝㄊ"
+  },
+  {
+    "word": "socket",
+    "current": "ㄙㄚ-ㄎㄝㄊ",
+    "suggested": "ㄙㄚ-ㄎㄜㄊ",
+    "type": "schwa",
+    "reason": "-ket 結尾 schwa",
+    "current_actual": "ㄙㄚ-ㄎㄝㄊ"
+  },
+  {
+    "word": "pocket",
+    "current": "ㄆㄚ-ㄎㄝㄊ",
+    "suggested": "ㄆㄚ-ㄎㄜㄊ",
+    "type": "schwa",
+    "reason": "-ket 結尾 schwa",
+    "current_actual": "ㄆㄚ-ㄎㄝㄊ"
+  },
+  {
+    "word": "market",
+    "current": "ㄇㄚㄦ-ㄎㄝㄊ",
+    "suggested": "ㄇㄚㄦ-ㄎㄜㄊ",
+    "type": "schwa",
+    "reason": "-ket 結尾 schwa",
+    "current_actual": "ㄇㄚㄦ-ㄎㄝㄊ"
+  },
+  {
+    "word": "carpet",
+    "current": "ㄎㄚㄦ-ㄆㄝㄊ",
+    "suggested": "ㄎㄚㄦ-ㄆㄜㄊ",
+    "type": "schwa",
+    "reason": "-pet 結尾 schwa",
+    "current_actual": "ㄎㄚㄦ-ㄆㄝㄊ"
+  },
+  {
+    "word": "helmet",
+    "current": "ㄏㄝㄦ-ㄇㄝㄊ",
+    "suggested": "ㄏㄝㄦ-ㄇㄜㄊ",
+    "type": "schwa",
+    "reason": "-met 結尾 schwa",
+    "current_actual": "ㄏㄝㄦ-ㄇㄝㄊ"
+  },
+  {
+    "word": "basketball",
+    "current": "ㄅㄝㄙ-ㄎㄝㄊ-ㄅㄛ",
+    "suggested": "ㄅㄝㄙ-ㄎㄜㄊ-ㄅㄛㄦ",
+    "type": "schwa",
+    "reason": "-ket schwa + ball 末 l 應為 ㄦ",
+    "current_actual": "ㄅㄝㄙ-ㄎㄝㄊ-ㄅㄛ"
+  },
+  {
+    "word": "baseball",
+    "current": "ㄅㄟㄙ-ㄅㄛ",
+    "suggested": "ㄅㄟㄙ-ㄅㄛㄦ",
+    "type": "error",
+    "reason": "ball 末 l 應為 ㄦ",
+    "current_actual": "ㄅㄟㄙ-ㄅㄛ"
+  },
+  {
+    "word": "police",
+    "current": "ㄆㄛ-ㄌㄧㄙ",
+    "suggested": "ㄆㄜ-ㄌㄧㄙ",
+    "type": "schwa",
+    "reason": "po- 弱讀為 ㄆㄜ",
+    "current_actual": "ㄆㄛ-ㄌㄧㄙ"
+  },
+  {
+    "word": "sausage",
+    "current": "ㄙㄛ-ㄒㄧㄐ",
+    "suggested": "ㄙㄛ-ㄒㄜㄐ",
+    "type": "schwa",
+    "reason": "-sage 結尾為 schwa",
+    "current_actual": "ㄙㄛ-ㄒㄧㄐ"
+  },
+  {
+    "word": "cabbage",
+    "current": "ㄎㄝ-ㄅㄧㄐ",
+    "suggested": "ㄎㄝ-ㄅㄜㄐ",
+    "type": "schwa",
+    "reason": "-bage 結尾為 schwa",
+    "current_actual": "ㄎㄝ-ㄅㄧㄐ"
+  },
+  {
+    "word": "garage",
+    "current": "ㄍㄚ-ㄌㄚㄐ",
+    "suggested": "ㄍㄜ-ㄌㄚㄐ",
+    "type": "schwa",
+    "reason": "ga- 前綴弱讀為 ㄍㄜ",
+    "current_actual": "ㄍㄚ-ㄌㄚㄐ"
+  },
+  {
+    "word": "chocolate",
+    "current": "ㄔㄚㄎ-ㄜ-ㄌㄟㄊ",
+    "suggested": "ㄔㄚㄎ-ㄌㄜㄊ",
+    "type": "schwa",
+    "reason": "美式常唸兩音節 ㄔㄚㄎ-ㄌㄜㄊ;-late 結尾為 schwa",
+    "current_actual": "ㄔㄚㄎ-ㄜ-ㄌㄟㄊ"
+  },
+  {
+    "word": "forecast",
+    "current": "ㄈㄛㄦ-ㄎㄚㄙㄊ",
+    "suggested": "ㄈㄛㄦ-ㄎㄝㄙㄊ",
+    "type": "vowel",
+    "reason": "-cast 的 a 美式為 ㄝ",
+    "current_actual": "ㄈㄛㄦ-ㄎㄚㄙㄊ"
+  },
+  {
+    "word": "forever",
+    "current": "ㄈㄜ-ㄝ-ㄈㄜ",
+    "suggested": "ㄈㄜ-ㄦㄝ-ㄈㄜ",
+    "type": "vowel",
+    "reason": "中間 e 並非 schwa 開頭,for-EV-er 重音在 ev",
+    "current_actual": "ㄈㄜ-ㄝ-ㄈㄜ"
+  },
+  {
+    "word": "piano",
+    "current": "ㄆㄧ-ㄝ-ㄋㄛ",
+    "suggested": "ㄆㄧ-ㄚ-ㄋㄛ",
+    "type": "vowel",
+    "reason": "pi-AN-o 重音在 an,應較接近 ㄚ",
+    "current_actual": "ㄆㄧ-ㄝ-ㄋㄛ"
+  },
+  {
+    "word": "the",
+    "current": "ㄉㄜ",
+    "suggested": "ㄉㄜ / ㄉㄧ",
+    "type": "schwa",
+    "reason": "the 弱讀 ㄉㄜ,母音前重讀為 ㄉㄧ",
+    "current_actual": "ㄉㄜ"
+  },
+  {
+    "word": "of",
+    "current": "ㄚㄈ",
+    "suggested": "ㄚㄈ / ㄜㄈ",
+    "type": "schwa",
+    "reason": "of 重讀為 ㄚㄈ,弱讀為 ㄜㄈ",
+    "current_actual": "ㄚㄈ"
+  },
+  {
+    "word": "to",
+    "current": "ㄊㄨ",
+    "suggested": "ㄊㄨ / ㄊㄜ",
+    "type": "schwa",
+    "reason": "to 通常弱讀為 ㄊㄜ",
+    "current_actual": "ㄊㄨ"
+  },
+  {
+    "word": "cereal",
+    "current": "ㄒㄧ-ㄌㄧ-ㄦ",
+    "suggested": "ㄒㄧ-ㄌㄧ-ㄜㄦ",
+    "type": "schwa",
+    "reason": "-al 結尾為 schwa,標 ㄜㄦ 較準",
+    "current_actual": "ㄒㄧ-ㄌㄧ-ㄦ"
+  },
+  {
+    "word": "september",
+    "current": "ㄙㄝㄆ-ㄊㄝㄇ-ㄅㄜ",
+    "suggested": "ㄙㄜㄆ-ㄊㄝㄇ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "sep- 弱讀,可標 ㄙㄜㄆ",
+    "current_actual": "ㄙㄝㄆ-ㄊㄝㄇ-ㄅㄜ"
+  },
+  {
+    "word": "october",
+    "current": "ㄚㄎ-ㄊㄛ-ㄅㄜ",
+    "suggested": "ㄚㄎ-ㄊㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "中間 -to- 弱讀為 ㄊㄜ",
+    "current_actual": "ㄚㄎ-ㄊㄛ-ㄅㄜ"
+  },
+  {
+    "word": "alligator",
+    "current": "ㄚ-ㄌㄧ-ㄍㄟ-ㄊㄜ",
+    "suggested": "ㄚ-ㄌㄜ-ㄍㄟ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "-li- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄚ-ㄌㄧ-ㄍㄟ-ㄊㄜ"
+  },
+  {
+    "word": "definitely",
+    "current": "ㄉㄝ-ㄈㄜ-ㄋㄧㄊ-ㄌㄧ",
+    "suggested": "ㄉㄝ-ㄈㄜ-ㄋㄜㄊ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "第3音節 -nite 弱讀,應為 ㄋㄜㄊ",
+    "current_actual": "ㄉㄝ-ㄈㄜ-ㄋㄧㄊ-ㄌㄧ"
+  },
+  {
+    "word": "obviously",
+    "current": "ㄚㄅ-ㄈㄧ-ㄚㄙ-ㄌㄧ",
+    "suggested": "ㄚㄅ-ㄈㄧ-ㄜㄙ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "-ous 弱讀為 ㄜㄙ",
+    "current_actual": "ㄚㄅ-ㄈㄧ-ㄚㄙ-ㄌㄧ"
+  },
+  {
+    "word": "above",
+    "current": "ㄚ-ㄅㄚㄈ",
+    "suggested": "ㄜ-ㄅㄚㄈ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄅㄚㄈ"
+  },
+  {
+    "word": "among",
+    "current": "ㄚ-ㄇㄚㄥ",
+    "suggested": "ㄜ-ㄇㄚㄥ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄇㄚㄥ"
+  },
+  {
+    "word": "against",
+    "current": "ㄚ-ㄍㄣㄙㄊ",
+    "suggested": "ㄜ-ㄍㄝㄣㄙㄊ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa;主音節母音應為 ㄝ",
+    "current_actual": "ㄚ-ㄍㄣㄙㄊ"
+  },
+  {
+    "word": "across",
+    "current": "ㄚ-ㄎㄌㄚㄙ",
+    "suggested": "ㄜ-ㄎㄌㄚㄙ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄎㄌㄚㄙ"
+  },
+  {
+    "word": "along",
+    "current": "ㄚ-ㄌㄚㄥ",
+    "suggested": "ㄜ-ㄌㄚㄥ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄌㄚㄥ"
+  },
+  {
+    "word": "away",
+    "current": "ㄚ-ㄨㄝ",
+    "suggested": "ㄜ-ㄨㄝ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄨㄝ"
+  },
+  {
+    "word": "woman",
+    "current": "ㄨㄨ-ㄇㄣ",
+    "suggested": "ㄨㄨ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "-man 在 woman 中弱讀為 ㄇㄜㄣ",
+    "current_actual": "ㄨㄨ-ㄇㄣ"
+  },
+  {
+    "word": "citizen",
+    "current": "ㄒㄧ-ㄊㄜ-ㄗㄣ",
+    "suggested": "ㄒㄧ-ㄊㄜ-ㄗㄜㄣ",
+    "type": "schwa",
+    "reason": "-zen 弱讀為 ㄗㄜㄣ",
+    "current_actual": "ㄒㄧ-ㄊㄜ-ㄗㄣ"
+  },
+  {
+    "word": "area",
+    "current": "ㄝ-ㄌㄧ-ㄚ",
+    "suggested": "ㄝ-ㄌㄧ-ㄜ",
+    "type": "schwa",
+    "reason": "結尾 -a 弱讀 schwa",
+    "current_actual": "ㄝ-ㄌㄧ-ㄚ"
+  },
+  {
+    "word": "idea",
+    "current": "ㄞ-ㄉㄧ-ㄚ",
+    "suggested": "ㄞ-ㄉㄧ-ㄜ",
+    "type": "schwa",
+    "reason": "結尾 -a 弱讀 schwa",
+    "current_actual": "ㄞ-ㄉㄧ-ㄚ"
+  },
+  {
+    "word": "problem",
+    "current": "ㄆㄌㄚ-ㄅㄌㄣ",
+    "suggested": "ㄆㄌㄚ-ㄅㄌㄜㄇ",
+    "type": "schwa",
+    "reason": "-lem 弱讀為 ㄅㄌㄜㄇ,且結尾為 m 非 n",
+    "current_actual": "ㄆㄌㄚ-ㄅㄌㄣ"
+  },
+  {
+    "word": "system",
+    "current": "ㄒㄧㄙ-ㄊㄣ",
+    "suggested": "ㄒㄧㄙ-ㄊㄜㄇ",
+    "type": "schwa",
+    "reason": "-tem 弱讀為 ㄊㄜㄇ,結尾為 m",
+    "current_actual": "ㄒㄧㄙ-ㄊㄣ"
+  },
+  {
+    "word": "acquaintance",
+    "current": "ㄚ-ㄎㄨㄝㄣ-ㄊㄢㄙ",
+    "suggested": "ㄜ-ㄎㄨㄝㄣ-ㄊㄜㄣㄙ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa;-tance 弱讀",
+    "current_actual": "ㄚ-ㄎㄨㄝㄣ-ㄊㄢㄙ"
+  },
+  {
+    "word": "infant",
+    "current": "ㄧㄣ-ㄈㄣㄊ",
+    "suggested": "ㄧㄣ-ㄈㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-fant 弱讀為 ㄈㄜㄣㄊ",
+    "current_actual": "ㄧㄣ-ㄈㄣㄊ"
+  },
+  {
+    "word": "orphan",
+    "current": "ㄛㄦ-ㄈㄣ",
+    "suggested": "ㄛㄦ-ㄈㄜㄣ",
+    "type": "schwa",
+    "reason": "-phan 弱讀為 ㄈㄜㄣ",
+    "current_actual": "ㄛㄦ-ㄈㄣ"
+  },
+  {
+    "word": "funeral",
+    "current": "ㄈㄧㄨ-ㄋㄜ-ㄌㄦ",
+    "suggested": "ㄈㄧㄨ-ㄋㄜ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-ral 弱讀,結尾應為 ㄌㄜ 非 ㄌㄦ",
+    "current_actual": "ㄈㄧㄨ-ㄋㄜ-ㄌㄦ"
+  },
+  {
+    "word": "generation",
+    "current": "ㄐㄣ-ㄋㄜ-ㄝ-ㄒㄣ",
+    "suggested": "ㄐㄝ-ㄋㄜ-ㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 弱讀為 ㄒㄜㄣ",
+    "current_actual": "ㄐㄣ-ㄋㄜ-ㄝ-ㄒㄣ"
+  },
+  {
+    "word": "abdomen",
+    "current": "ㄚㄅ-ㄉㄛ-ㄇㄣ",
+    "suggested": "ㄚㄅ-ㄉㄜ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "-do- 與 -men 兩處弱讀",
+    "current_actual": "ㄚㄅ-ㄉㄛ-ㄇㄣ"
+  },
+  {
+    "word": "anxious",
+    "current": "ㄚㄥㄎ-ㄒㄚㄙ",
+    "suggested": "ㄚㄥㄎ-ㄒㄜㄙ",
+    "type": "schwa",
+    "reason": "-ious 弱讀為 ㄒㄜㄙ",
+    "current_actual": "ㄚㄥㄎ-ㄒㄚㄙ"
+  },
+  {
+    "word": "anxiety",
+    "current": "ㄚㄥ-ㄗㄞ-ㄧ-ㄊㄧ",
+    "suggested": "ㄚㄥ-ㄗㄞ-ㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-e- 弱讀 schwa",
+    "current_actual": "ㄚㄥ-ㄗㄞ-ㄧ-ㄊㄧ"
+  },
+  {
+    "word": "content",
+    "current": "ㄎㄢ-ㄊㄣㄊ",
+    "suggested": "ㄎㄜㄣ-ㄊㄝㄣㄊ",
+    "type": "schwa",
+    "reason": "動詞/形容詞 con- 弱讀;-tent 為重音",
+    "current_actual": "ㄎㄢ-ㄊㄣㄊ"
+  },
+  {
+    "word": "confident",
+    "current": "ㄎㄢ-ㄈㄜ-ㄉㄣㄊ",
+    "suggested": "ㄎㄚㄣ-ㄈㄜ-ㄉㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-dent 弱讀為 ㄉㄜㄣㄊ",
+    "current_actual": "ㄎㄢ-ㄈㄜ-ㄉㄣㄊ"
+  },
+  {
+    "word": "sympathy",
+    "current": "ㄒㄧㄇ-ㄆㄜ-ㄒㄧ",
+    "suggested": "ㄒㄧㄇ-ㄆㄜ-ㄒㄜ",
+    "type": "schwa",
+    "reason": "-thy 弱讀為 ㄒㄜ",
+    "current_actual": "ㄒㄧㄇ-ㄆㄜ-ㄒㄧ"
+  },
+  {
+    "word": "empathy",
+    "current": "ㄝㄇ-ㄆㄜ-ㄒㄧ",
+    "suggested": "ㄝㄇ-ㄆㄜ-ㄒㄜ",
+    "type": "schwa",
+    "reason": "-thy 弱讀為 ㄒㄜ",
+    "current_actual": "ㄝㄇ-ㄆㄜ-ㄒㄧ"
+  },
+  {
+    "word": "furious",
+    "current": "ㄈㄧㄨ-ㄌㄧ-ㄚㄙ",
+    "suggested": "ㄈㄧㄨ-ㄌㄧ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 弱讀 schwa",
+    "current_actual": "ㄈㄧㄨ-ㄌㄧ-ㄚㄙ"
+  },
+  {
+    "word": "curious",
+    "current": "ㄎㄧㄨ-ㄌㄧ-ㄚㄙ",
+    "suggested": "ㄎㄧㄨ-ㄌㄧ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 弱讀 schwa",
+    "current_actual": "ㄎㄧㄨ-ㄌㄧ-ㄚㄙ"
+  },
+  {
+    "word": "disappointed",
+    "current": "ㄉㄧㄙ-ㄚ-ㄆㄛㄧㄣ-ㄉㄜ",
+    "suggested": "ㄉㄧㄙ-ㄜ-ㄆㄛㄧㄣ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄉㄧㄙ-ㄚ-ㄆㄛㄧㄣ-ㄉㄜ"
+  },
+  {
+    "word": "ashamed",
+    "current": "ㄚ-ㄒㄟㄇㄉ",
+    "suggested": "ㄜ-ㄒㄟㄇㄉ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄒㄟㄇㄉ"
+  },
+  {
+    "word": "agree",
+    "current": "ㄚ-ㄍㄌㄧ",
+    "suggested": "ㄜ-ㄍㄌㄧ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄍㄌㄧ"
+  },
+  {
+    "word": "accept",
+    "current": "ㄚㄎ-ㄙㄝㄆㄊ",
+    "suggested": "ㄜㄎ-ㄙㄝㄆㄊ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚㄎ-ㄙㄝㄆㄊ"
+  },
+  {
+    "word": "common",
+    "current": "ㄎㄚ-ㄇㄣ",
+    "suggested": "ㄎㄚ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "-mon 弱讀為 ㄇㄜㄣ",
+    "current_actual": "ㄎㄚ-ㄇㄣ"
+  },
+  {
+    "word": "modern",
+    "current": "ㄇㄚ-ㄉㄣ",
+    "suggested": "ㄇㄚ-ㄉㄜㄣ",
+    "type": "schwa",
+    "reason": "-dern 弱讀為 ㄉㄜㄣ",
+    "current_actual": "ㄇㄚ-ㄉㄣ"
+  },
+  {
+    "word": "ancient",
+    "current": "ㄟㄣ-ㄒㄣㄊ",
+    "suggested": "ㄟㄣ-ㄒㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-cient 弱讀",
+    "current_actual": "ㄟㄣ-ㄒㄣㄊ"
+  },
+  {
+    "word": "broken",
+    "current": "ㄅㄌㄛ-ㄎㄣ",
+    "suggested": "ㄅㄌㄛ-ㄎㄜㄣ",
+    "type": "schwa",
+    "reason": "-ken 弱讀為 ㄎㄜㄣ",
+    "current_actual": "ㄅㄌㄛ-ㄎㄣ"
+  },
+  {
+    "word": "heartbroken",
+    "current": "ㄏㄚㄦㄊ-ㄅㄌㄛ-ㄎㄣ",
+    "suggested": "ㄏㄚㄦㄊ-ㄅㄌㄛ-ㄎㄜㄣ",
+    "type": "schwa",
+    "reason": "-ken 弱讀",
+    "current_actual": "ㄏㄚㄦㄊ-ㄅㄌㄛ-ㄎㄣ"
+  },
+  {
+    "word": "wrinkle",
+    "current": "ㄌㄧㄣ-ㄎㄜ",
+    "suggested": "ㄌㄧㄥ-ㄎㄜ",
+    "type": "consonant",
+    "reason": "-in- 在 wrinkle 應為 ㄧㄥ(ng 鼻音),非 ㄧㄣ",
+    "current_actual": "ㄌㄧㄣ-ㄎㄜ"
+  },
+  {
+    "word": "tendon",
+    "current": "ㄊㄝㄣ-ㄉㄣ",
+    "suggested": "ㄊㄝㄣ-ㄉㄜㄣ",
+    "type": "schwa",
+    "reason": "-don 弱讀為 ㄉㄜㄣ",
+    "current_actual": "ㄊㄝㄣ-ㄉㄣ"
+  },
+  {
+    "word": "jasmine",
+    "current": "ㄐㄚㄗ-ㄇㄧㄣ",
+    "suggested": "ㄐㄚㄗ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "-mine 弱讀為 ㄇㄜㄣ",
+    "current_actual": "ㄐㄚㄗ-ㄇㄧㄣ"
+  },
+  {
+    "word": "mineralwater",
+    "current": "ㄇㄧ-ㄋㄜ-ㄦ-ㄨㄛ-ㄊㄜ",
+    "suggested": "ㄇㄧ-ㄋㄜ-ㄜㄦ-ㄨㄛ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "-al 弱讀,應寫 ㄜㄦ 較好",
+    "current_actual": "ㄇㄧ-ㄋㄜ-ㄦ-ㄨㄛ-ㄊㄜ"
+  },
+  {
+    "word": "pentagon",
+    "current": "ㄆㄣ-ㄊㄜ-ㄍㄚㄣ",
+    "suggested": "ㄆㄝㄣ-ㄊㄜ-ㄍㄚㄣ",
+    "type": "vowel",
+    "reason": "pen- 重音應為 ㄆㄝㄣ",
+    "current_actual": "ㄆㄣ-ㄊㄜ-ㄍㄚㄣ"
+  },
+  {
+    "word": "diameter",
+    "current": "ㄉㄞ-ㄝㄇ-ㄜ-ㄊㄜ",
+    "suggested": "ㄉㄞ-ㄚ-ㄇㄜ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "-am- 弱讀,第3音節已是 ㄜ",
+    "current_actual": "ㄉㄞ-ㄝㄇ-ㄜ-ㄊㄜ"
+  },
+  {
+    "word": "radius",
+    "current": "ㄌㄟ-ㄉㄧ-ㄚㄙ",
+    "suggested": "ㄌㄟ-ㄉㄧ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-us 弱讀為 ㄜㄙ",
+    "current_actual": "ㄌㄟ-ㄉㄧ-ㄚㄙ"
+  },
+  {
+    "word": "horizontal",
+    "current": "ㄏㄚ-ㄌㄜ-ㄗㄚㄣ-ㄊㄜ",
+    "suggested": "ㄏㄛ-ㄌㄜ-ㄗㄚㄣ-ㄊㄜ",
+    "type": "vowel",
+    "reason": "hor- 為 ㄏㄛ",
+    "current_actual": "ㄏㄚ-ㄌㄜ-ㄗㄚㄣ-ㄊㄜ"
+  },
+  {
+    "word": "theater",
+    "current": "ㄒㄧ-ㄝ-ㄊㄜ",
+    "suggested": "ㄒㄧ-ㄜ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "中間 -a- 弱讀 schwa",
+    "current_actual": "ㄒㄧ-ㄝ-ㄊㄜ"
+  },
+  {
+    "word": "cinema",
+    "current": "ㄒㄧ-ㄋㄜ-ㄇㄚ",
+    "suggested": "ㄒㄧ-ㄋㄜ-ㄇㄜ",
+    "type": "schwa",
+    "reason": "結尾 -a 弱讀 schwa",
+    "current_actual": "ㄒㄧ-ㄋㄜ-ㄇㄚ"
+  },
+  {
+    "word": "observatory",
+    "current": "ㄚㄅ-ㄗㄜ-ㄈㄚ-ㄊㄜ-ㄌㄧ",
+    "suggested": "ㄚㄅ-ㄗㄜ-ㄈㄜ-ㄊㄛ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "-va- 弱讀 schwa",
+    "current_actual": "ㄚㄅ-ㄗㄜ-ㄈㄚ-ㄊㄜ-ㄌㄧ"
+  },
+  {
+    "word": "suburb",
+    "current": "ㄙㄚ-ㄅㄜㄅ",
+    "suggested": "ㄙㄚ-ㄅㄜㄦㄅ",
+    "type": "vowel",
+    "reason": "-urb 應為 ㄜㄦㄅ",
+    "current_actual": "ㄙㄚ-ㄅㄜㄅ"
+  },
+  {
+    "word": "borough",
+    "current": "ㄅㄜ-ㄛ",
+    "suggested": "ㄅㄜ-ㄌㄛ",
+    "type": "consonant",
+    "reason": "-ough 含 r 音,應為 ㄌㄛ;美式發音 BUR-oh",
+    "current_actual": "ㄅㄜ-ㄛ"
+  },
+  {
+    "word": "Germany",
+    "current": "ㄐㄦ-ㄇㄜ-ㄋㄧ",
+    "suggested": "ㄐㄜ-ㄇㄜ-ㄋㄧ",
+    "type": "vowel",
+    "reason": "Ger- 應為 ㄐㄜ",
+    "current_actual": "ㄐㄦ-ㄇㄜ-ㄋㄧ"
+  },
+  {
+    "word": "Korea",
+    "current": "ㄎㄛ-ㄖㄧㄚ",
+    "suggested": "ㄎㄜ-ㄌㄧ-ㄜ",
+    "type": "schwa",
+    "reason": "Ko- 弱讀 schwa;-rea 為兩音節 ㄌㄧ-ㄜ",
+    "current_actual": "ㄎㄛ-ㄖㄧㄚ"
+  },
+  {
+    "word": "Brazil",
+    "current": "ㄅㄦㄟ-ㄗㄧㄛ",
+    "suggested": "ㄅㄌㄜ-ㄗㄧㄦ",
+    "type": "schwa",
+    "reason": "Bra- 弱讀 schwa;-zil 應為 ㄗㄧㄦ",
+    "current_actual": "ㄅㄦㄟ-ㄗㄧㄛ"
+  },
+  {
+    "word": "America",
+    "current": "ㄜ-ㄇㄝ-ㄖㄧ-ㄎㄚ",
+    "suggested": "ㄜ-ㄇㄝ-ㄌㄧ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "-ca 結尾 -a 弱讀 schwa",
+    "current_actual": "ㄜ-ㄇㄝ-ㄖㄧ-ㄎㄚ"
+  },
+  {
+    "word": "meanwhile",
+    "current": "ㄇㄧㄣ-ㄨㄞㄛ",
+    "suggested": "ㄇㄧㄣ-ㄨㄞㄦ",
+    "type": "consonant",
+    "reason": "-while 應為 ㄨㄞㄦ,非 ㄨㄞㄛ",
+    "current_actual": "ㄇㄧㄣ-ㄨㄞㄛ"
+  },
+  {
+    "word": "nevertheless",
+    "current": "ㄋㄝ-ㄈㄜ-ㄉㄚ-ㄌㄝㄙ",
+    "suggested": "ㄋㄝ-ㄈㄜ-ㄉㄜ-ㄌㄝㄙ",
+    "type": "schwa",
+    "reason": "-the- 弱讀 schwa",
+    "current_actual": "ㄋㄝ-ㄈㄜ-ㄉㄚ-ㄌㄝㄙ"
+  },
+  {
+    "word": "tourist",
+    "current": "ㄊㄨㄦ-ㄧㄙㄊ",
+    "suggested": "ㄊㄨㄦ-ㄜㄙㄊ",
+    "type": "schwa",
+    "reason": "-ist 弱讀為 ㄜㄙㄊ",
+    "current_actual": "ㄊㄨㄦ-ㄧㄙㄊ"
+  },
+  {
+    "word": "adventure",
+    "current": "ㄚㄉ-ㄈㄣ-ㄑㄜ",
+    "suggested": "ㄚㄉ-ㄈㄝㄣ-ㄑㄜ",
+    "type": "vowel",
+    "reason": "-ven- 重音為 ㄈㄝㄣ",
+    "current_actual": "ㄚㄉ-ㄈㄣ-ㄑㄜ"
+  },
+  {
+    "word": "abroad",
+    "current": "ㄚ-ㄅㄌㄛㄉ",
+    "suggested": "ㄜ-ㄅㄌㄛㄉ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄅㄌㄛㄉ"
+  },
+  {
+    "word": "international",
+    "current": "ㄧㄣ-ㄊㄜ-ㄋㄚ-ㄒㄣ-ㄦ",
+    "suggested": "ㄧㄣ-ㄊㄜ-ㄋㄚ-ㄒㄜㄣ-ㄦ",
+    "type": "schwa",
+    "reason": "-tion 弱讀為 ㄒㄜㄣ",
+    "current_actual": "ㄧㄣ-ㄊㄜ-ㄋㄚ-ㄒㄣ-ㄦ"
+  },
+  {
+    "word": "client",
+    "current": "ㄎㄌㄞ-ㄣㄊ",
+    "suggested": "ㄎㄌㄞ-ㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-ent 弱讀為 ㄜㄣㄊ",
+    "current_actual": "ㄎㄌㄞ-ㄣㄊ"
+  },
+  {
+    "word": "foreign",
+    "current": "ㄈㄛ-ㄌㄣ",
+    "suggested": "ㄈㄛ-ㄌㄜㄣ",
+    "type": "schwa",
+    "reason": "-eign 弱讀為 ㄌㄜㄣ",
+    "current_actual": "ㄈㄛ-ㄌㄣ"
+  },
+  {
+    "word": "native",
+    "current": "ㄋㄝ-ㄊㄧㄈ",
+    "suggested": "ㄋㄟ-ㄊㄜㄈ",
+    "type": "schwa",
+    "reason": "-tive 弱讀為 ㄊㄜㄈ",
+    "current_actual": "ㄋㄝ-ㄊㄧㄈ"
+  },
+  {
+    "word": "executive",
+    "current": "ㄧㄍ-ㄗㄝㄎ-ㄐㄜ-ㄊㄧㄈ",
+    "suggested": "ㄧㄍ-ㄗㄝㄎ-ㄐㄜ-ㄊㄜㄈ",
+    "type": "schwa",
+    "reason": "-tive 弱讀為 ㄊㄜㄈ",
+    "current_actual": "ㄧㄍ-ㄗㄝㄎ-ㄐㄜ-ㄊㄧㄈ"
+  },
+  {
+    "word": "entrepreneur",
+    "current": "ㄚㄣ-ㄊㄌㄜ-ㄆㄌㄜ-ㄋㄜ",
+    "suggested": "ㄚㄣ-ㄊㄌㄜ-ㄆㄌㄜ-ㄋㄜㄦ",
+    "type": "vowel",
+    "reason": "-neur 結尾應為 ㄋㄜㄦ",
+    "current_actual": "ㄚㄣ-ㄊㄌㄜ-ㄆㄌㄜ-ㄋㄜ"
+  },
+  {
+    "word": "historian",
+    "current": "ㄏㄧㄙ-ㄊㄛㄦ-ㄧ-ㄣ",
+    "suggested": "ㄏㄧㄙ-ㄊㄛㄦ-ㄧ-ㄜㄣ",
+    "type": "schwa",
+    "reason": "-an 弱讀為 ㄜㄣ",
+    "current_actual": "ㄏㄧㄙ-ㄊㄛㄦ-ㄧ-ㄣ"
+  },
+  {
+    "word": "veterinarian",
+    "current": "ㄈㄝ-ㄊㄜ-ㄜ-ㄋㄝㄦ-ㄧ-ㄣ",
+    "suggested": "ㄈㄝ-ㄊㄜ-ㄜ-ㄋㄝㄦ-ㄧ-ㄜㄣ",
+    "type": "schwa",
+    "reason": "-an 弱讀為 ㄜㄣ",
+    "current_actual": "ㄈㄝ-ㄊㄜ-ㄜ-ㄋㄝㄦ-ㄧ-ㄣ"
+  },
+  {
+    "word": "deodorant",
+    "current": "ㄉㄧ-ㄛ-ㄉㄜ-ㄌㄣㄊ",
+    "suggested": "ㄉㄧ-ㄛ-ㄉㄜ-ㄌㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-rant 弱讀為 ㄌㄜㄣㄊ",
+    "current_actual": "ㄉㄧ-ㄛ-ㄉㄜ-ㄌㄣㄊ"
+  },
+  {
+    "word": "currant",
+    "current": "ㄎㄜ-ㄌㄣㄊ",
+    "suggested": "ㄎㄜ-ㄌㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-rant 弱讀為 ㄌㄜㄣㄊ",
+    "current_actual": "ㄎㄜ-ㄌㄣㄊ"
+  },
+  {
+    "word": "pomegranate",
+    "current": "ㄆㄚ-ㄇㄜ-ㄍㄌㄚ-ㄋㄝㄊ",
+    "suggested": "ㄆㄚ-ㄇㄜ-ㄍㄌㄚ-ㄋㄜㄊ",
+    "type": "schwa",
+    "reason": "-nate 弱讀為 ㄋㄜㄊ",
+    "current_actual": "ㄆㄚ-ㄇㄜ-ㄍㄌㄚ-ㄋㄝㄊ"
+  },
+  {
+    "word": "cantaloupe",
+    "current": "ㄎㄢ-ㄊㄜ-ㄌㄨㄆ",
+    "suggested": "ㄎㄚㄣ-ㄊㄜ-ㄌㄛㄆ",
+    "type": "vowel",
+    "reason": "-loupe 為 ㄌㄛㄆ(loh-p)非 ㄌㄨㄆ",
+    "current_actual": "ㄎㄢ-ㄊㄜ-ㄌㄨㄆ"
+  },
+  {
+    "word": "plantain",
+    "current": "ㄆㄌㄢ-ㄊㄣ",
+    "suggested": "ㄆㄌㄚㄣ-ㄊㄜㄣ",
+    "type": "schwa",
+    "reason": "-tain 弱讀為 ㄊㄜㄣ",
+    "current_actual": "ㄆㄌㄢ-ㄊㄣ"
+  },
+  {
+    "word": "asparagus",
+    "current": "ㄚ-ㄙㄆㄝ-ㄌㄜ-ㄍㄚㄙ",
+    "suggested": "ㄜ-ㄙㄆㄝ-ㄌㄜ-ㄍㄜㄙ",
+    "type": "schwa",
+    "reason": "a- 弱讀;-gus 弱讀",
+    "current_actual": "ㄚ-ㄙㄆㄝ-ㄌㄜ-ㄍㄚㄙ"
+  },
+  {
+    "word": "individual",
+    "current": "ㄧㄣ-ㄉㄜ-ㄈㄧ-ㄐㄜ-ㄦ",
+    "suggested": "ㄧㄣ-ㄉㄜ-ㄈㄧ-ㄐㄨ-ㄜ",
+    "type": "vowel",
+    "reason": "-u- 應為 ㄐㄨ;-al 為 ㄜ",
+    "current_actual": "ㄧㄣ-ㄉㄜ-ㄈㄧ-ㄐㄜ-ㄦ"
+  },
+  {
+    "word": "cousin",
+    "current": "ㄎㄚ-ㄗㄣ",
+    "suggested": "ㄎㄚ-ㄗㄜㄣ",
+    "type": "schwa",
+    "reason": "-sin 弱讀為 ㄗㄜㄣ",
+    "current_actual": "ㄎㄚ-ㄗㄣ"
+  },
+  {
+    "word": "prosecutor",
+    "current": "ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨ-ㄊㄜ",
+    "suggested": "ㄆㄌㄚ-ㄒㄜ-ㄎㄧㄨ-ㄊㄜ",
+    "type": "consonant",
+    "reason": "prosecutor 中間 's' 發 /s/ 非 /z/",
+    "current_actual": "ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨ-ㄊㄜ"
+  },
+  {
+    "word": "paralegal",
+    "current": "ㄆㄝ-ㄜ-ㄌㄧ-ㄍㄜ",
+    "suggested": "ㄆㄝ-ㄌㄜ-ㄌㄧ-ㄍㄜ",
+    "type": "consonant",
+    "reason": "para 的 r 漏標",
+    "current_actual": "ㄆㄝ-ㄜ-ㄌㄧ-ㄍㄜ"
+  },
+  {
+    "word": "lieutenant",
+    "current": "ㄌㄨ-ㄊㄣ-ㄣㄊ",
+    "suggested": "ㄌㄨ-ㄊㄝ-ㄋㄣㄊ",
+    "type": "error",
+    "reason": "美式 /luːˈtenənt/,第3音節應 ㄋㄣㄊ 含 n 連音",
+    "current_actual": "ㄌㄨ-ㄊㄣ-ㄣㄊ"
+  },
+  {
+    "word": "admiral",
+    "current": "ㄚㄉ-ㄇㄜ-ㄦ",
+    "suggested": "ㄚㄉ-ㄇㄜ-ㄌㄜ",
+    "type": "consonant",
+    "reason": "-ral 應含 r 音,不只 ㄦ",
+    "current_actual": "ㄚㄉ-ㄇㄜ-ㄦ"
+  },
+  {
+    "word": "gorgeous",
+    "current": "ㄍㄛㄦ-ㄐㄚㄙ",
+    "suggested": "ㄍㄛㄦ-ㄐㄜㄙ",
+    "type": "schwa",
+    "reason": "-geous 第2音節弱讀為 schwa",
+    "current_actual": "ㄍㄛㄦ-ㄐㄚㄙ"
+  },
+  {
+    "word": "elegant",
+    "current": "ㄝ-ㄌㄜ-ㄍㄣㄊ",
+    "suggested": "ㄝ-ㄌㄜ-ㄍㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-gant 弱讀為 schwa",
+    "current_actual": "ㄝ-ㄌㄜ-ㄍㄣㄊ"
+  },
+  {
+    "word": "average",
+    "current": "ㄚ-ㄈㄜ-ㄧㄐ",
+    "suggested": "ㄚ-ㄈㄜ-ㄜㄐ",
+    "type": "schwa",
+    "reason": "-age 結尾弱讀 schwa,非 ㄧㄐ",
+    "current_actual": "ㄚ-ㄈㄜ-ㄧㄐ"
+  },
+  {
+    "word": "bearded",
+    "current": "ㄅㄧㄦ-ㄉㄝㄉ",
+    "suggested": "ㄅㄧㄦ-ㄉㄜㄉ",
+    "type": "schwa",
+    "reason": "-ed 結尾弱讀 schwa",
+    "current_actual": "ㄅㄧㄦ-ㄉㄝㄉ"
+  },
+  {
+    "word": "braided",
+    "current": "ㄅㄌㄝㄉ-ㄝㄉ",
+    "suggested": "ㄅㄌㄝ-ㄉㄜㄉ",
+    "type": "schwa",
+    "reason": "-ed 結尾弱讀 schwa,且 d 應連到後音節",
+    "current_actual": "ㄅㄌㄝㄉ-ㄝㄉ"
+  },
+  {
+    "word": "missionary",
+    "current": "ㄇㄧ-ㄒㄣ-ㄜ-ㄌㄧ",
+    "suggested": "ㄇㄧ-ㄒㄜ-ㄋㄝ-ㄌㄧ",
+    "type": "error",
+    "reason": "-sionary 應為 ㄒㄜ-ㄋㄝ-ㄌㄧ",
+    "current_actual": "ㄇㄧ-ㄒㄣ-ㄜ-ㄌㄧ"
+  },
+  {
+    "word": "sentimental",
+    "current": "ㄙㄝㄣ-ㄊㄜ-ㄇㄣ-ㄉㄜ",
+    "suggested": "ㄙㄝㄣ-ㄊㄜ-ㄇㄣ-ㄊㄦ",
+    "type": "consonant",
+    "reason": "-tal 為 ㄊㄦ 含 t 音",
+    "current_actual": "ㄙㄝㄣ-ㄊㄜ-ㄇㄣ-ㄉㄜ"
+  },
+  {
+    "word": "generous",
+    "current": "ㄐㄣ-ㄋㄜ-ㄚㄙ",
+    "suggested": "ㄐㄣ-ㄋㄜ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 弱讀 schwa",
+    "current_actual": "ㄐㄣ-ㄋㄜ-ㄚㄙ"
+  },
+  {
+    "word": "ambitious",
+    "current": "ㄚㄇ-ㄅㄧ-ㄒㄚㄙ",
+    "suggested": "ㄚㄇ-ㄅㄧ-ㄒㄜㄙ",
+    "type": "schwa",
+    "reason": "-tious /ʃəs/ 應為 ㄒㄜㄙ",
+    "current_actual": "ㄚㄇ-ㄅㄧ-ㄒㄚㄙ"
+  },
+  {
+    "word": "pretentious",
+    "current": "ㄆㄌㄧ-ㄊㄣ-ㄒㄚㄙ",
+    "suggested": "ㄆㄌㄧ-ㄊㄣ-ㄒㄜㄙ",
+    "type": "schwa",
+    "reason": "-tious 弱讀 schwa",
+    "current_actual": "ㄆㄌㄧ-ㄊㄣ-ㄒㄚㄙ"
+  },
+  {
+    "word": "cautious",
+    "current": "ㄎㄛ-ㄒㄚㄙ",
+    "suggested": "ㄎㄛ-ㄒㄜㄙ",
+    "type": "schwa",
+    "reason": "-tious 弱讀 schwa",
+    "current_actual": "ㄎㄛ-ㄒㄚㄙ"
+  },
+  {
+    "word": "humorous",
+    "current": "ㄏㄧㄨ-ㄇㄜ-ㄚㄙ",
+    "suggested": "ㄏㄧㄨ-ㄇㄜ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 弱讀 schwa",
+    "current_actual": "ㄏㄧㄨ-ㄇㄜ-ㄚㄙ"
+  },
+  {
+    "word": "adventurous",
+    "current": "ㄚㄉ-ㄈㄣ-ㄑㄜ-ㄚㄙ",
+    "suggested": "ㄚㄉ-ㄈㄣ-ㄑㄜ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 弱讀 schwa",
+    "current_actual": "ㄚㄉ-ㄈㄣ-ㄑㄜ-ㄚㄙ"
+  },
+  {
+    "word": "spontaneous",
+    "current": "ㄙㄆㄢ-ㄊㄝ-ㄋㄧ-ㄚㄙ",
+    "suggested": "ㄙㄆㄢ-ㄊㄝ-ㄋㄧ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "-ous 弱讀 schwa",
+    "current_actual": "ㄙㄆㄢ-ㄊㄝ-ㄋㄧ-ㄚㄙ"
+  },
+  {
+    "word": "opponent",
+    "current": "ㄜ-ㄆㄛ-ㄋㄣㄊ",
+    "suggested": "ㄜ-ㄆㄛ-ㄋㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-nent 弱讀含 schwa",
+    "current_actual": "ㄜ-ㄆㄛ-ㄋㄣㄊ"
+  },
+  {
+    "word": "reunion",
+    "current": "ㄌㄧ-ㄧㄨㄣ-ㄧㄢ",
+    "suggested": "ㄌㄧ-ㄧㄨ-ㄋㄧㄢ",
+    "type": "error",
+    "reason": "re-un-ion 應重新切音,n 連到後音節",
+    "current_actual": "ㄌㄧ-ㄧㄨㄣ-ㄧㄢ"
+  },
+  {
+    "word": "hostile",
+    "current": "ㄏㄚㄙ-ㄊㄜ",
+    "suggested": "ㄏㄚㄙ-ㄊㄦ",
+    "type": "vowel",
+    "reason": "美式 /ˈhɑːstl/ 結尾為 ㄊㄦ",
+    "current_actual": "ㄏㄚㄙ-ㄊㄜ"
+  },
+  {
+    "word": "frenemy",
+    "current": "ㄈㄌㄝㄣ-ㄋㄜ-ㄇㄧ",
+    "suggested": "ㄈㄌㄝ-ㄋㄜ-ㄇㄧ",
+    "type": "chunks-mismatch",
+    "reason": "fren-e-my 第1音節不該有重複 n",
+    "current_actual": "ㄈㄌㄝㄣ-ㄋㄜ-ㄇㄧ"
+  },
+  {
+    "word": "labyrinth",
+    "current": "ㄌㄚ-ㄜ-ㄌㄧㄣㄙ",
+    "suggested": "ㄌㄚ-ㄅㄜ-ㄌㄧㄣㄙ",
+    "type": "consonant",
+    "reason": "lab 的 b 漏標",
+    "current_actual": "ㄌㄚ-ㄜ-ㄌㄧㄣㄙ"
+  },
+  {
+    "word": "surrealism",
+    "current": "ㄙㄜ-ㄌㄧ-ㄦ-ㄧㄗㄣ",
+    "suggested": "ㄙㄜ-ㄌㄧ-ㄜ-ㄌㄧㄗㄣ",
+    "type": "error",
+    "reason": "-alism 含 l,應為 ㄜ-ㄌㄧㄗㄣ",
+    "current_actual": "ㄙㄜ-ㄌㄧ-ㄦ-ㄧㄗㄣ"
+  },
+  {
+    "word": "realism",
+    "current": "ㄌㄧ-ㄦ-ㄧㄗㄣ",
+    "suggested": "ㄌㄧ-ㄜ-ㄌㄧㄗㄣ",
+    "type": "error",
+    "reason": "-alism 含 l",
+    "current_actual": "ㄌㄧ-ㄦ-ㄧㄗㄣ"
+  },
+  {
+    "word": "mural",
+    "current": "ㄇㄧㄨ-ㄦ",
+    "suggested": "ㄇㄧㄨ-ㄌㄜ",
+    "type": "consonant",
+    "reason": "-ral 應含 r 音",
+    "current_actual": "ㄇㄧㄨ-ㄦ"
+  },
+  {
+    "word": "enthusiast",
+    "current": "ㄧㄣ-ㄙㄧㄨ-ㄗㄧ-ㄚㄙㄊ",
+    "suggested": "ㄧㄣ-ㄙㄨ-ㄗㄧ-ㄚㄙㄊ",
+    "type": "vowel",
+    "reason": "thu 應為 ㄙㄨ 不是 ㄙㄧㄨ",
+    "current_actual": "ㄧㄣ-ㄙㄧㄨ-ㄗㄧ-ㄚㄙㄊ"
+  },
+  {
+    "word": "dialogue",
+    "current": "ㄉㄞ-ㄚ-ㄌㄚㄍ",
+    "suggested": "ㄉㄞ-ㄜ-ㄌㄛㄍ",
+    "type": "schwa",
+    "reason": "di-a-logue 中間 a 弱讀 schwa,logue 為 /lɒg/",
+    "current_actual": "ㄉㄞ-ㄚ-ㄌㄚㄍ"
+  },
+  {
+    "word": "propaganda",
+    "current": "ㄆㄌㄚ-ㄆㄜ-ㄍㄢ-ㄉㄚ",
+    "suggested": "ㄆㄌㄚ-ㄆㄜ-ㄍㄚㄣ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "結尾 -da 弱讀 schwa",
+    "current_actual": "ㄆㄌㄚ-ㄆㄜ-ㄍㄢ-ㄉㄚ"
+  },
+  {
+    "word": "editorial",
+    "current": "ㄝ-ㄉㄜ-ㄊㄛ-ㄌㄦ",
+    "suggested": "ㄝ-ㄉㄜ-ㄊㄛ-ㄌㄧㄦ",
+    "type": "vowel",
+    "reason": "-rial /riəl/ 含 i 音",
+    "current_actual": "ㄝ-ㄉㄜ-ㄊㄛ-ㄌㄦ"
+  },
+  {
+    "word": "sensational",
+    "current": "ㄙㄝㄣ-ㄙㄝ-ㄒㄣ-ㄦ",
+    "suggested": "ㄙㄝㄣ-ㄙㄝ-ㄒㄜ-ㄋㄦ",
+    "type": "error",
+    "reason": "-tional 含 n,應切為 ㄒㄜ-ㄋㄦ",
+    "current_actual": "ㄙㄝㄣ-ㄙㄝ-ㄒㄣ-ㄦ"
+  },
+  {
+    "word": "emotional",
+    "current": "ㄧ-ㄇㄛ-ㄒㄣ-ㄦ",
+    "suggested": "ㄧ-ㄇㄛ-ㄒㄜ-ㄋㄦ",
+    "type": "error",
+    "reason": "-tional 含 n",
+    "current_actual": "ㄧ-ㄇㄛ-ㄒㄣ-ㄦ"
+  },
+  {
+    "word": "rational",
+    "current": "ㄌㄚ-ㄒㄣ-ㄦ",
+    "suggested": "ㄌㄚ-ㄒㄜ-ㄋㄦ",
+    "type": "error",
+    "reason": "-tional 含 n",
+    "current_actual": "ㄌㄚ-ㄒㄣ-ㄦ"
+  },
+  {
+    "word": "irrational",
+    "current": "ㄧ-ㄌㄚ-ㄒㄣ-ㄦ",
+    "suggested": "ㄧ-ㄌㄚ-ㄒㄜ-ㄋㄦ",
+    "type": "error",
+    "reason": "-tional 含 n",
+    "current_actual": "ㄧ-ㄌㄚ-ㄒㄣ-ㄦ"
+  },
+  {
+    "word": "continent",
+    "current": "ㄎㄚㄣ-ㄊㄜ-ㄋㄣㄊ",
+    "suggested": "ㄎㄚㄣ-ㄊㄜ-ㄋㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-nent 弱讀含 schwa",
+    "current_actual": "ㄎㄚㄣ-ㄊㄜ-ㄋㄣㄊ"
+  },
+  {
+    "word": "contemporary",
+    "current": "ㄎㄜㄣ-ㄊㄣ-ㄆㄜ-ㄌㄝㄜ-ㄧ",
+    "suggested": "ㄎㄜㄣ-ㄊㄣ-ㄆㄜ-ㄌㄝ-ㄌㄧ",
+    "type": "error",
+    "reason": "-rary 應為 ㄌㄝ-ㄌㄧ,含 r 雙音",
+    "current_actual": "ㄎㄜㄣ-ㄊㄣ-ㄆㄜ-ㄌㄝㄜ-ㄧ"
+  },
+  {
+    "word": "abdication",
+    "current": "ㄚㄅ-ㄉㄧ-ㄎㄝ-ㄒㄣ",
+    "suggested": "ㄚㄅ-ㄉㄜ-ㄎㄝ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-di- 第2音節弱讀 schwa",
+    "current_actual": "ㄚㄅ-ㄉㄧ-ㄎㄝ-ㄒㄣ"
+  },
+  {
+    "word": "capitalism",
+    "current": "ㄎㄚ-ㄆㄜ-ㄊㄦ-ㄧㄗㄣ",
+    "suggested": "ㄎㄚ-ㄆㄜ-ㄊㄜ-ㄌㄧㄗㄣ",
+    "type": "error",
+    "reason": "-talism 應含 l 音",
+    "current_actual": "ㄎㄚ-ㄆㄜ-ㄊㄦ-ㄧㄗㄣ"
+  },
+  {
+    "word": "socialism",
+    "current": "ㄙㄛ-ㄒㄦ-ㄧㄗㄣ",
+    "suggested": "ㄙㄛ-ㄒㄜ-ㄌㄧㄗㄣ",
+    "type": "error",
+    "reason": "-alism 含 l",
+    "current_actual": "ㄙㄛ-ㄒㄦ-ㄧㄗㄣ"
+  },
+  {
+    "word": "mercantilism",
+    "current": "ㄇㄜ-ㄎㄚㄣ-ㄊㄦ-ㄧㄗㄣ",
+    "suggested": "ㄇㄜ-ㄎㄚㄣ-ㄊㄜ-ㄌㄧㄗㄣ",
+    "type": "error",
+    "reason": "-tilism 含 l",
+    "current_actual": "ㄇㄜ-ㄎㄚㄣ-ㄊㄦ-ㄧㄗㄣ"
+  },
+  {
+    "word": "democracy",
+    "current": "ㄉㄧ-ㄇㄚ-ㄎㄌㄜ-ㄒㄧ",
+    "suggested": "ㄉㄜ-ㄇㄚ-ㄎㄌㄜ-ㄒㄧ",
+    "type": "schwa",
+    "reason": "de- 弱讀 schwa",
+    "current_actual": "ㄉㄧ-ㄇㄚ-ㄎㄌㄜ-ㄒㄧ"
+  },
+  {
+    "word": "contamination",
+    "current": "ㄎㄢ-ㄊㄚ-ㄇㄜ-ㄋㄝ-ㄒㄣ",
+    "suggested": "ㄎㄜㄣ-ㄊㄚ-ㄇㄜ-ㄋㄝ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "con- 弱讀 schwa",
+    "current_actual": "ㄎㄢ-ㄊㄚ-ㄇㄜ-ㄋㄝ-ㄒㄣ"
+  },
+  {
+    "word": "acceleration",
+    "current": "ㄚㄎ-ㄙㄝ-ㄌㄜ-ㄝ-ㄒㄣ",
+    "suggested": "ㄚㄎ-ㄙㄝ-ㄌㄜ-ㄌㄝ-ㄒㄣ",
+    "type": "error",
+    "reason": "-ration 含 r",
+    "current_actual": "ㄚㄎ-ㄙㄝ-ㄌㄜ-ㄝ-ㄒㄣ"
+  },
+  {
+    "word": "liberation",
+    "current": "ㄌㄧ-ㄅㄜ-ㄝ-ㄒㄣ",
+    "suggested": "ㄌㄧ-ㄅㄜ-ㄌㄝ-ㄒㄣ",
+    "type": "error",
+    "reason": "-ration 含 r",
+    "current_actual": "ㄌㄧ-ㄅㄜ-ㄝ-ㄒㄣ"
+  },
+  {
+    "word": "exploration",
+    "current": "ㄝㄎㄙ-ㄆㄌㄛ-ㄝ-ㄒㄣ",
+    "suggested": "ㄝㄎㄙ-ㄆㄌㄛ-ㄌㄝ-ㄒㄣ",
+    "type": "error",
+    "reason": "-ration 含 r",
+    "current_actual": "ㄝㄎㄙ-ㄆㄌㄛ-ㄝ-ㄒㄣ"
+  },
+  {
+    "word": "prosperity",
+    "current": "ㄆㄌㄚㄙ-ㄆㄝ-ㄦ-ㄊㄧ",
+    "suggested": "ㄆㄌㄚㄙ-ㄆㄝ-ㄌㄜ-ㄊㄧ",
+    "type": "error",
+    "reason": "-rity 含 r",
+    "current_actual": "ㄆㄌㄚㄙ-ㄆㄝ-ㄦ-ㄊㄧ"
+  },
+  {
+    "word": "austerity",
+    "current": "ㄛ-ㄙㄉㄝ-ㄦ-ㄊㄧ",
+    "suggested": "ㄛ-ㄙㄉㄝ-ㄌㄜ-ㄊㄧ",
+    "type": "error",
+    "reason": "-rity 含 r",
+    "current_actual": "ㄛ-ㄙㄉㄝ-ㄦ-ㄊㄧ"
+  },
+  {
+    "word": "virality",
+    "current": "ㄈㄞ-ㄌㄦ-ㄦ-ㄊㄧ",
+    "suggested": "ㄈㄞ-ㄌㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "error",
+    "reason": "vi-ral-i-ty 應為 ㄈㄞ-ㄌㄚ-ㄌㄜ-ㄊㄧ",
+    "current_actual": "ㄈㄞ-ㄌㄦ-ㄦ-ㄊㄧ"
+  },
+  {
+    "word": "hepatitis",
+    "current": "ㄏㄝㄆ-ㄜ-ㄊㄞ-ㄊㄜㄙ",
+    "suggested": "ㄏㄝ-ㄆㄜ-ㄊㄞ-ㄊㄜㄙ",
+    "type": "chunks-mismatch",
+    "reason": "第1音節 p 應連到下音節",
+    "current_actual": "ㄏㄝㄆ-ㄜ-ㄊㄞ-ㄊㄜㄙ"
+  },
+  {
+    "word": "tinnitus",
+    "current": "ㄊㄜ-ㄋㄚ-ㄊㄜㄙ",
+    "suggested": "ㄊㄧ-ㄋㄜ-ㄊㄜㄙ",
+    "type": "vowel",
+    "reason": "/ˈtɪnɪtəs/ 第1音節 ㄊㄧ,第2音節 ㄋㄜ",
+    "current_actual": "ㄊㄜ-ㄋㄚ-ㄊㄜㄙ"
+  },
+  {
+    "word": "hemorrhage",
+    "current": "ㄏㄝㄇ-ㄜ-ㄌㄧㄐ",
+    "suggested": "ㄏㄝ-ㄇㄜ-ㄌㄧㄐ",
+    "type": "chunks-mismatch",
+    "reason": "第1音節 m 應連到下音節",
+    "current_actual": "ㄏㄝㄇ-ㄜ-ㄌㄧㄐ"
+  },
+  {
+    "word": "federalreserve",
+    "current": "ㄈㄝ-ㄉㄜ-ㄦ-ㄌㄧ-ㄗㄜㄈ",
+    "suggested": "ㄈㄝ-ㄉㄜ-ㄌㄦ-ㄌㄧ-ㄗㄜㄈ",
+    "type": "error",
+    "reason": "federal -ral 含 r",
+    "current_actual": "ㄈㄝ-ㄉㄜ-ㄦ-ㄌㄧ-ㄗㄜㄈ"
+  },
+  {
+    "word": "agenda",
+    "current": "ㄚ-ㄐㄣ-ㄉㄚ",
+    "suggested": "ㄜ-ㄐㄣ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "第1、3音節弱讀 schwa",
+    "current_actual": "ㄚ-ㄐㄣ-ㄉㄚ"
+  },
+  {
+    "word": "acquisition",
+    "current": "ㄚ-ㄎㄨㄧ-ㄗㄧ-ㄒㄣ",
+    "suggested": "ㄚ-ㄎㄨㄜ-ㄗㄜ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-qui- 和 -si- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄎㄨㄧ-ㄗㄧ-ㄒㄣ"
+  },
+  {
+    "word": "equation",
+    "current": "ㄧ-ㄎㄨㄝ-ㄒㄣ",
+    "suggested": "ㄧ-ㄎㄨㄝ-ㄓㄣ",
+    "type": "consonant",
+    "reason": "equation 字尾 -tion 發 /ʒən/(例外字)",
+    "current_actual": "ㄧ-ㄎㄨㄝ-ㄒㄣ"
+  },
+  {
+    "word": "adore",
+    "current": "ㄚ-ㄉㄛㄦ",
+    "suggested": "ㄜ-ㄉㄛㄦ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄉㄛㄦ"
+  },
+  {
+    "word": "aloof",
+    "current": "ㄚ-ㄌㄨㄈ",
+    "suggested": "ㄜ-ㄌㄨㄈ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄌㄨㄈ"
+  },
+  {
+    "word": "affair",
+    "current": "ㄚ-ㄈㄝㄜ",
+    "suggested": "ㄜ-ㄈㄝㄜ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄈㄝㄜ"
+  },
+  {
+    "word": "alliance",
+    "current": "ㄚ-ㄌㄞ-ㄢㄙ",
+    "suggested": "ㄜ-ㄌㄞ-ㄢㄙ",
+    "type": "schwa",
+    "reason": "al- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄌㄞ-ㄢㄙ"
+  },
+  {
+    "word": "apology",
+    "current": "ㄚ-ㄆㄚ-ㄌㄜ-ㄐㄧ",
+    "suggested": "ㄜ-ㄆㄚ-ㄌㄜ-ㄐㄧ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄆㄚ-ㄌㄜ-ㄐㄧ"
+  },
+  {
+    "word": "apologize",
+    "current": "ㄚ-ㄆㄚ-ㄌㄜ-ㄐㄞㄗ",
+    "suggested": "ㄜ-ㄆㄚ-ㄌㄜ-ㄐㄞㄗ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄆㄚ-ㄌㄜ-ㄐㄞㄗ"
+  },
+  {
+    "word": "anonymous",
+    "current": "ㄚ-ㄋㄚ-ㄋㄜ-ㄇㄚㄙ",
+    "suggested": "ㄜ-ㄋㄚ-ㄋㄜ-ㄇㄜㄙ",
+    "type": "schwa",
+    "reason": "第1、4音節弱讀 schwa",
+    "current_actual": "ㄚ-ㄋㄚ-ㄋㄜ-ㄇㄚㄙ"
+  },
+  {
+    "word": "opinion",
+    "current": "ㄚ-ㄆㄧㄣ-ㄧㄢ",
+    "suggested": "ㄜ-ㄆㄧㄣ-ㄧㄢ",
+    "type": "schwa",
+    "reason": "o- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄆㄧㄣ-ㄧㄢ"
+  },
+  {
+    "word": "attachment",
+    "current": "ㄚ-ㄊㄚㄑ-ㄇㄣㄊ",
+    "suggested": "ㄜ-ㄊㄚㄑ-ㄇㄣㄊ",
+    "type": "schwa",
+    "reason": "at- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄊㄚㄑ-ㄇㄣㄊ"
+  },
+  {
+    "word": "attorney",
+    "current": "ㄚ-ㄊㄜ-ㄋㄧ",
+    "suggested": "ㄜ-ㄊㄜ-ㄋㄧ",
+    "type": "schwa",
+    "reason": "at- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄊㄜ-ㄋㄧ"
+  },
+  {
+    "word": "attractive",
+    "current": "ㄚ-ㄊㄌㄚㄎ-ㄊㄧㄈ",
+    "suggested": "ㄜ-ㄊㄌㄚㄎ-ㄊㄧㄈ",
+    "type": "schwa",
+    "reason": "at- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄊㄌㄚㄎ-ㄊㄧㄈ"
+  },
+  {
+    "word": "available",
+    "current": "ㄚ-ㄈㄝㄦ-ㄜ-ㄅㄜ",
+    "suggested": "ㄜ-ㄈㄝㄦ-ㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄈㄝㄦ-ㄜ-ㄅㄜ"
+  },
+  {
+    "word": "americas",
+    "current": "ㄚ-ㄇㄝ-ㄌㄜ-ㄎㄗ",
+    "suggested": "ㄜ-ㄇㄝ-ㄌㄜ-ㄎㄗ",
+    "type": "schwa",
+    "reason": "a- 弱讀 schwa",
+    "current_actual": "ㄚ-ㄇㄝ-ㄌㄜ-ㄎㄗ"
+  },
+  {
+    "word": "africa",
+    "current": "ㄚ-ㄈㄌㄧ-ㄎㄚ",
+    "suggested": "ㄚ-ㄈㄌㄧ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "-ca 結尾弱讀 schwa",
+    "current_actual": "ㄚ-ㄈㄌㄧ-ㄎㄚ"
+  },
+  {
+    "word": "savanna",
+    "current": "ㄙㄜ-ㄈㄚ-ㄋㄚ",
+    "suggested": "ㄙㄜ-ㄈㄚ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "-na 結尾弱讀 schwa",
+    "current_actual": "ㄙㄜ-ㄈㄚ-ㄋㄚ"
+  },
+  {
+    "word": "antarctica",
+    "current": "ㄚㄣㄊ-ㄚㄦㄎ-ㄊㄜ-ㄎㄚ",
+    "suggested": "ㄚㄣㄊ-ㄚㄦㄎ-ㄊㄜ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "-ca 結尾弱讀 schwa",
+    "current_actual": "ㄚㄣㄊ-ㄚㄦㄎ-ㄊㄜ-ㄎㄚ"
+  },
+  {
+    "word": "asteroid",
+    "current": "ㄚㄙ-ㄊㄜ-ㄛㄧㄉ",
+    "suggested": "ㄚㄙ-ㄊㄜ-ㄌㄛㄧㄉ",
+    "type": "error",
+    "reason": "-roid 含 r",
+    "current_actual": "ㄚㄙ-ㄊㄜ-ㄛㄧㄉ"
+  },
+  {
+    "word": "dementia",
+    "current": "ㄉㄧ-ㄇㄣ-ㄒㄜ",
+    "suggested": "ㄉㄜ-ㄇㄣ-ㄒㄜ",
+    "type": "schwa",
+    "reason": "de- 弱讀 schwa",
+    "current_actual": "ㄉㄧ-ㄇㄣ-ㄒㄜ"
+  },
+  {
+    "word": "hernia",
+    "current": "ㄏㄜ-ㄋㄧㄚ",
+    "suggested": "ㄏㄜ-ㄋㄧㄜ",
+    "type": "schwa",
+    "reason": "-nia 結尾弱讀 schwa",
+    "current_actual": "ㄏㄜ-ㄋㄧㄚ"
+  },
+  {
+    "word": "hypothermia",
+    "current": "ㄏㄞ-ㄆㄛ-ㄙㄜ-ㄇㄧㄚ",
+    "suggested": "ㄏㄞ-ㄆㄜ-ㄙㄜ-ㄇㄧㄜ",
+    "type": "schwa",
+    "reason": "po 和 -mia 結尾弱讀 schwa",
+    "current_actual": "ㄏㄞ-ㄆㄛ-ㄙㄜ-ㄇㄧㄚ"
+  },
+  {
+    "word": "melanoma",
+    "current": "ㄇㄝ-ㄌㄜ-ㄋㄛ-ㄇㄚ",
+    "suggested": "ㄇㄝ-ㄌㄜ-ㄋㄛ-ㄇㄜ",
+    "type": "schwa",
+    "reason": "-ma 結尾弱讀 schwa",
+    "current_actual": "ㄇㄝ-ㄌㄜ-ㄋㄛ-ㄇㄚ"
+  },
+  {
+    "word": "leukemia",
+    "current": "ㄌㄨ-ㄎㄧ-ㄇㄧㄚ",
+    "suggested": "ㄌㄨ-ㄎㄧ-ㄇㄧㄜ",
+    "type": "schwa",
+    "reason": "-mia 結尾弱讀 schwa",
+    "current_actual": "ㄌㄨ-ㄎㄧ-ㄇㄧㄚ"
+  },
+  {
+    "word": "lymphoma",
+    "current": "ㄌㄧㄇ-ㄈㄛ-ㄇㄚ",
+    "suggested": "ㄌㄧㄇ-ㄈㄛ-ㄇㄜ",
+    "type": "schwa",
+    "reason": "-ma 結尾弱讀 schwa",
+    "current_actual": "ㄌㄧㄇ-ㄈㄛ-ㄇㄚ"
+  },
+  {
+    "word": "salmonella",
+    "current": "ㄙㄚㄦ-ㄇㄜ-ㄋㄝ-ㄌㄚ",
+    "suggested": "ㄙㄚㄦ-ㄇㄜ-ㄋㄝ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-la 結尾弱讀 schwa",
+    "current_actual": "ㄙㄚㄦ-ㄇㄜ-ㄋㄝ-ㄌㄚ"
+  },
+  {
+    "word": "ebola",
+    "current": "ㄧ-ㄅㄛ-ㄌㄚ",
+    "suggested": "ㄧ-ㄅㄛ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-la 結尾弱讀 schwa",
+    "current_actual": "ㄧ-ㄅㄛ-ㄌㄚ"
+  },
+  {
+    "word": "cholera",
+    "current": "ㄎㄚ-ㄌㄜ-ㄌㄚ",
+    "suggested": "ㄎㄚ-ㄌㄜ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-ra 結尾弱讀 schwa",
+    "current_actual": "ㄎㄚ-ㄌㄜ-ㄌㄚ"
+  },
+  {
+    "word": "malaria",
+    "current": "ㄇㄜ-ㄌㄝ-ㄜ-ㄜ",
+    "suggested": "ㄇㄜ-ㄌㄝ-ㄌㄧ-ㄜ",
+    "type": "error",
+    "reason": "ma-lar-i-a 中間應為 ㄌㄧ",
+    "current_actual": "ㄇㄜ-ㄌㄝ-ㄜ-ㄜ"
+  },
+  {
+    "word": "zumba",
+    "current": "ㄗㄚㄇ-ㄅㄚ",
+    "suggested": "ㄗㄚㄇ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-ba 結尾弱讀 schwa",
+    "current_actual": "ㄗㄚㄇ-ㄅㄚ"
+  },
+  {
+    "word": "manga",
+    "current": "ㄇㄢ-ㄍㄚ",
+    "suggested": "ㄇㄢ-ㄍㄜ",
+    "type": "schwa",
+    "reason": "-ga 結尾弱讀 schwa",
+    "current_actual": "ㄇㄢ-ㄍㄚ"
+  },
+  {
+    "word": "mecha",
+    "current": "ㄇㄝ-ㄎㄚ",
+    "suggested": "ㄇㄝ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "-cha 結尾弱讀 schwa",
+    "current_actual": "ㄇㄝ-ㄎㄚ"
+  },
+  {
+    "word": "fauna",
+    "current": "ㄈㄛ-ㄋㄚ",
+    "suggested": "ㄈㄛ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "-na 結尾弱讀 schwa",
+    "current_actual": "ㄈㄛ-ㄋㄚ"
+  },
+  {
+    "word": "nebula",
+    "current": "ㄋㄝ-ㄅㄧㄨ-ㄌㄚ",
+    "suggested": "ㄋㄝ-ㄅㄧㄨ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-la 結尾弱讀 schwa",
+    "current_actual": "ㄋㄝ-ㄅㄧㄨ-ㄌㄚ"
+  },
+  {
+    "word": "peninsula",
+    "current": "ㄆㄜ-ㄋㄧㄣ-ㄙㄜ-ㄌㄚ",
+    "suggested": "ㄆㄜ-ㄋㄧㄣ-ㄙㄜ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-la 結尾弱讀 schwa",
+    "current_actual": "ㄆㄜ-ㄋㄧㄣ-ㄙㄜ-ㄌㄚ"
+  },
+  {
+    "word": "formula",
+    "current": "ㄈㄛㄦ-ㄇㄧㄨ-ㄌㄚ",
+    "suggested": "ㄈㄛㄦ-ㄇㄧㄨ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-la 結尾弱讀 schwa",
+    "current_actual": "ㄈㄛㄦ-ㄇㄧㄨ-ㄌㄚ"
+  },
+  {
+    "word": "oceania",
+    "current": "ㄛ-ㄒㄧ-ㄚ-ㄋㄧㄚ",
+    "suggested": "ㄛ-ㄒㄧ-ㄚ-ㄋㄧㄜ",
+    "type": "schwa",
+    "reason": "-nia 結尾弱讀 schwa",
+    "current_actual": "ㄛ-ㄒㄧ-ㄚ-ㄋㄧㄚ"
+  },
+  {
+    "word": "tundra",
+    "current": "ㄊㄚㄣ-ㄉㄌㄚ",
+    "suggested": "ㄊㄚㄣ-ㄉㄌㄜ",
+    "type": "schwa",
+    "reason": "-ra 結尾弱讀 schwa",
+    "current_actual": "ㄊㄚㄣ-ㄉㄌㄚ"
+  },
+  {
+    "word": "flora",
+    "current": "ㄈㄌㄛ-ㄌㄚ",
+    "suggested": "ㄈㄌㄛ-ㄌㄜ",
+    "type": "schwa",
+    "reason": "-ra 結尾弱讀 schwa",
+    "current_actual": "ㄈㄌㄛ-ㄌㄚ"
+  },
+  {
+    "word": "delta",
+    "current": "ㄉㄝㄦ-ㄊㄚ",
+    "suggested": "ㄉㄝㄦ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "-ta 結尾弱讀 schwa",
+    "current_actual": "ㄉㄝㄦ-ㄊㄚ"
+  },
+  {
+    "word": "plasma",
+    "current": "ㄆㄌㄚㄙ-ㄇㄚ",
+    "suggested": "ㄆㄌㄚㄙ-ㄇㄜ",
+    "type": "schwa",
+    "reason": "-ma 結尾弱讀 schwa",
+    "current_actual": "ㄆㄌㄚㄙ-ㄇㄚ"
+  },
+  {
+    "word": "trauma",
+    "current": "ㄊㄌㄛ-ㄇㄚ",
+    "suggested": "ㄊㄌㄛ-ㄇㄜ",
+    "type": "schwa",
+    "reason": "-ma 結尾弱讀 schwa",
+    "current_actual": "ㄊㄌㄛ-ㄇㄚ"
+  },
+  {
+    "word": "drama",
+    "current": "ㄉㄌㄚ-ㄇㄚ",
+    "suggested": "ㄉㄌㄚ-ㄇㄜ",
+    "type": "schwa",
+    "reason": "-ma 結尾弱讀 schwa",
+    "current_actual": "ㄉㄌㄚ-ㄇㄚ"
+  },
+  {
+    "word": "dengue",
+    "current": "ㄉㄝㄣ-ㄍㄝ",
+    "suggested": "ㄉㄝㄣ-ㄍㄝ / ㄉㄝㄣ-ㄍㄧ",
+    "type": "vowel",
+    "reason": "美式常念 /ˈdɛŋɡi/",
+    "current_actual": "ㄉㄝㄣ-ㄍㄝ"
+  },
+  {
+    "word": "rainforest",
+    "current": "ㄌㄝㄣ-ㄈㄛ-ㄝㄙㄊ",
+    "suggested": "ㄖㄝㄣ-ㄈㄛ-ㄜㄙㄊ",
+    "type": "schwa",
+    "reason": "-est 結尾為弱讀,改 ㄜ;另 r- 應 ㄖ 非 ㄌ",
+    "current_actual": "ㄌㄝㄣ-ㄈㄛ-ㄝㄙㄊ"
+  },
+  {
+    "word": "forestfire",
+    "current": "ㄈㄛ-ㄝㄙㄊ-ㄈㄞㄜ",
+    "suggested": "ㄈㄛ-ㄜㄙㄊ-ㄈㄞㄜ",
+    "type": "schwa",
+    "reason": "forest 第 2 音節 -est 為弱讀 ㄜ",
+    "current_actual": "ㄈㄛ-ㄝㄙㄊ-ㄈㄞㄜ"
+  },
+  {
+    "word": "hysteria",
+    "current": "ㄏㄧㄙ-ㄊㄝ-ㄌㄧ-ㄜ",
+    "suggested": "ㄏㄧㄙ-ㄊㄧ-ㄖㄧ-ㄜ",
+    "type": "vowel",
+    "reason": "重音在 -ter-,母音為 /ɪə/ 應 ㄊㄧ;r 應 ㄖ",
+    "current_actual": "ㄏㄧㄙ-ㄊㄝ-ㄌㄧ-ㄜ"
+  },
+  {
+    "word": "asylum",
+    "current": "ㄚ-ㄙㄞ-ㄌㄣ",
+    "suggested": "ㄜ-ㄙㄞ-ㄌㄜㄇ",
+    "type": "schwa",
+    "reason": "第 1 音節弱讀 ㄜ;結尾 -lum 為 ㄌㄜㄇ",
+    "current_actual": "ㄚ-ㄙㄞ-ㄌㄣ"
+  },
+  {
+    "word": "distress",
+    "current": "ㄉㄧ-ㄙㄉㄌㄝㄙ",
+    "suggested": "ㄉㄧ-ㄙㄊㄖㄝㄙ",
+    "type": "consonant",
+    "reason": "str- 應 ㄙㄊㄖ 非 ㄙㄉㄌ",
+    "current_actual": "ㄉㄧ-ㄙㄉㄌㄝㄙ"
+  },
+  {
+    "word": "criminal",
+    "current": "ㄎㄌㄧ-ㄇㄜ-ㄋㄦ",
+    "suggested": "ㄎㄖㄧ-ㄇㄜ-ㄋㄛ",
+    "type": "consonant",
+    "reason": "cr- 應 ㄎㄖ 非 ㄎㄌ",
+    "current_actual": "ㄎㄌㄧ-ㄇㄜ-ㄋㄦ"
+  },
+  {
+    "word": "assassination",
+    "current": "ㄚ-ㄙㄚ-ㄗㄜ-ㄋㄝ-ㄒㄣ",
+    "suggested": "ㄜ-ㄙㄚ-ㄙㄜ-ㄋㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "第 1 音節弱讀 ㄜ",
+    "current_actual": "ㄚ-ㄙㄚ-ㄗㄜ-ㄋㄝ-ㄒㄣ"
+  },
+  {
+    "word": "burglary",
+    "current": "ㄅㄜ-ㄍㄌㄜ-ㄌㄧ",
+    "suggested": "ㄅㄜ-ㄍㄌㄜ-ㄖㄧ",
+    "type": "consonant",
+    "reason": "-ry 應 ㄖ 非 ㄌ",
+    "current_actual": "ㄅㄜ-ㄍㄌㄜ-ㄌㄧ"
+  },
+  {
+    "word": "forgery",
+    "current": "ㄈㄛㄦ-ㄐㄜ-ㄌㄧ",
+    "suggested": "ㄈㄛㄦ-ㄐㄜ-ㄖㄧ",
+    "type": "consonant",
+    "reason": "-ry 應 ㄖ",
+    "current_actual": "ㄈㄛㄦ-ㄐㄜ-ㄌㄧ"
+  },
+  {
+    "word": "bribery",
+    "current": "ㄅㄌㄞ-ㄅㄜ-ㄌㄧ",
+    "suggested": "ㄅㄖㄞ-ㄅㄜ-ㄖㄧ",
+    "type": "consonant",
+    "reason": "br-、-ry 都應 ㄖ",
+    "current_actual": "ㄅㄌㄞ-ㄅㄜ-ㄌㄧ"
+  },
+  {
+    "word": "corruption",
+    "current": "ㄎㄜ-ㄌㄚㄆ-ㄒㄣ",
+    "suggested": "ㄎㄜ-ㄖㄚㄆ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "-rup- 應 ㄖ",
+    "current_actual": "ㄎㄜ-ㄌㄚㄆ-ㄒㄣ"
+  },
+  {
+    "word": "interrogate",
+    "current": "ㄧㄣ-ㄊㄝ-ㄌㄜ-ㄍㄝㄊ",
+    "suggested": "ㄧㄣ-ㄊㄝ-ㄖㄜ-ㄍㄟㄊ",
+    "type": "consonant",
+    "reason": "-ro- 應 ㄖ",
+    "current_actual": "ㄧㄣ-ㄊㄝ-ㄌㄜ-ㄍㄝㄊ"
+  },
+  {
+    "word": "interrogation",
+    "current": "ㄧㄣ-ㄊㄝ-ㄌㄜ-ㄍㄝ-ㄒㄣ",
+    "suggested": "ㄧㄣ-ㄊㄝ-ㄖㄜ-ㄍㄟ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "-ro- 應 ㄖ",
+    "current_actual": "ㄧㄣ-ㄊㄝ-ㄌㄜ-ㄍㄝ-ㄒㄣ"
+  },
+  {
+    "word": "crimescene",
+    "current": "ㄎㄌㄞㄇ-ㄒㄧㄣ",
+    "suggested": "ㄎㄖㄞㄇ-ㄒㄧㄣ",
+    "type": "consonant",
+    "reason": "cr- 應 ㄎㄖ",
+    "current_actual": "ㄎㄌㄞㄇ-ㄒㄧㄣ"
+  },
+  {
+    "word": "capitalpunishment",
+    "current": "ㄎㄚ-ㄆㄜ-ㄉㄦ-ㄆㄚ-ㄋㄧㄒ-ㄇㄣㄊ",
+    "suggested": "ㄎㄚ-ㄆㄜ-ㄉㄛ-ㄆㄚ-ㄋㄧㄒ-ㄇㄣㄊ",
+    "type": "schwa",
+    "reason": "-tal 為 ㄉㄛ/ㄉㄜ 非 ㄉㄦ;標 r 化不準",
+    "current_actual": "ㄎㄚ-ㄆㄜ-ㄉㄦ-ㄆㄚ-ㄋㄧㄒ-ㄇㄣㄊ"
+  },
+  {
+    "word": "defamation",
+    "current": "ㄉㄝ-ㄈㄜ-ㄇㄝ-ㄒㄣ",
+    "suggested": "ㄉㄝ-ㄈㄜ-ㄇㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-ma- 重音 /eɪ/ 為 ㄇㄟ",
+    "current_actual": "ㄉㄝ-ㄈㄜ-ㄇㄝ-ㄒㄣ"
+  },
+  {
+    "word": "jurisdiction",
+    "current": "ㄐㄨ-ㄌㄧㄙ-ㄉㄧㄎ-ㄒㄣ",
+    "suggested": "ㄐㄨ-ㄖㄧㄙ-ㄉㄧㄎ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "-ris- 應 ㄖ",
+    "current_actual": "ㄐㄨ-ㄌㄧㄙ-ㄉㄧㄎ-ㄒㄣ"
+  },
+  {
+    "word": "federal",
+    "current": "ㄈㄝ-ㄉㄜ-ㄦ",
+    "suggested": "ㄈㄝ-ㄉㄜ-ㄖㄛ",
+    "type": "consonant",
+    "reason": "-ral 應 ㄖㄛ;非單純捲舌",
+    "current_actual": "ㄈㄝ-ㄉㄜ-ㄦ"
+  },
+  {
+    "word": "prosecution",
+    "current": "ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨ-ㄒㄣ",
+    "suggested": "ㄆㄖㄚ-ㄙㄜ-ㄎㄧㄨ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ",
+    "current_actual": "ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨ-ㄒㄣ"
+  },
+  {
+    "word": "loophole",
+    "current": "ㄌㄨㄆ-ㄏㄛㄦ",
+    "suggested": "ㄌㄨㄆ-ㄏㄛㄛ",
+    "type": "consonant",
+    "reason": "-le 結尾為 ㄛ 非 ㄦ(無 r)",
+    "current_actual": "ㄌㄨㄆ-ㄏㄛㄦ"
+  },
+  {
+    "word": "solicitor",
+    "current": "ㄙㄜ-ㄌㄧ-ㄗㄜ-ㄊㄜ",
+    "suggested": "ㄙㄜ-ㄌㄧ-ㄙㄜ-ㄊㄜ",
+    "type": "consonant",
+    "reason": "-ci- 為 /s/ 應 ㄙ",
+    "current_actual": "ㄙㄜ-ㄌㄧ-ㄗㄜ-ㄊㄜ"
+  },
+  {
+    "word": "barrister",
+    "current": "ㄅㄝ-ㄌㄧㄙ-ㄊㄜ",
+    "suggested": "ㄅㄝ-ㄖㄧㄙ-ㄊㄜ",
+    "type": "consonant",
+    "reason": "-ris- 應 ㄖ",
+    "current_actual": "ㄅㄝ-ㄌㄧㄙ-ㄊㄜ"
+  },
+  {
+    "word": "ruling",
+    "current": "ㄌㄨ-ㄌㄧㄥ",
+    "suggested": "ㄖㄨ-ㄌㄧㄥ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄌㄨ-ㄌㄧㄥ"
+  },
+  {
+    "word": "mistrial",
+    "current": "ㄇㄧㄙ-ㄊㄌㄞ-ㄦ",
+    "suggested": "ㄇㄧㄙ-ㄊㄖㄞ-ㄛ",
+    "type": "consonant",
+    "reason": "tr- 應 ㄊㄖ;-al 弱讀 ㄛ/ㄜ 非 ㄦ",
+    "current_actual": "ㄇㄧㄙ-ㄊㄌㄞ-ㄦ"
+  },
+  {
+    "word": "retrial",
+    "current": "ㄌㄧ-ㄊㄌㄞ-ㄦ",
+    "suggested": "ㄖㄧ-ㄊㄖㄞ-ㄛ",
+    "type": "consonant",
+    "reason": "r、tr- 應 ㄖ;-al 弱讀",
+    "current_actual": "ㄌㄧ-ㄊㄌㄞ-ㄦ"
+  },
+  {
+    "word": "tribunal",
+    "current": "ㄊㄌㄞ-ㄅㄧㄨ-ㄋㄦ",
+    "suggested": "ㄊㄖㄞ-ㄅㄧㄨ-ㄋㄛ",
+    "type": "consonant",
+    "reason": "tr- 應 ㄊㄖ;-nal ㄋㄛ",
+    "current_actual": "ㄊㄌㄞ-ㄅㄧㄨ-ㄋㄦ"
+  },
+  {
+    "word": "prosecute",
+    "current": "ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨㄊ",
+    "suggested": "ㄆㄖㄚ-ㄙㄜ-ㄎㄧㄨㄊ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ",
+    "current_actual": "ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨㄊ"
+  },
+  {
+    "word": "counterclaim",
+    "current": "ㄎㄠㄣ-ㄊㄜ-ㄎㄌㄝㄇ",
+    "suggested": "ㄎㄠㄣ-ㄊㄜ-ㄎㄌㄟㄇ",
+    "type": "vowel",
+    "reason": "claim /eɪ/ 為 ㄟ",
+    "current_actual": "ㄎㄠㄣ-ㄊㄜ-ㄎㄌㄝㄇ"
+  },
+  {
+    "word": "arraignment",
+    "current": "ㄚ-ㄌㄝㄣ-ㄇㄣㄊ",
+    "suggested": "ㄜ-ㄖㄟㄣ-ㄇㄣㄊ",
+    "type": "schwa",
+    "reason": "a- 弱讀 ㄜ;r 應 ㄖ;-aign /eɪn/ 為 ㄟㄣ",
+    "current_actual": "ㄚ-ㄌㄝㄣ-ㄇㄣㄊ"
+  },
+  {
+    "word": "primeminister",
+    "current": "ㄆㄌㄞㄇ-ㄇㄜ-ㄋㄜ-ㄙㄉㄜ",
+    "suggested": "ㄆㄖㄞㄇ-ㄇㄧ-ㄋㄜ-ㄙㄊㄜ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ;mini- 重音為 ㄇㄧ;st- 應 ㄙㄊ",
+    "current_actual": "ㄆㄌㄞㄇ-ㄇㄜ-ㄋㄜ-ㄙㄉㄜ"
+  },
+  {
+    "word": "democrat",
+    "current": "ㄉㄝ-ㄇㄜ-ㄎㄌㄚㄊ",
+    "suggested": "ㄉㄝ-ㄇㄜ-ㄎㄖㄚㄊ",
+    "type": "consonant",
+    "reason": "cr- 應 ㄎㄖ",
+    "current_actual": "ㄉㄝ-ㄇㄜ-ㄎㄌㄚㄊ"
+  },
+  {
+    "word": "republican",
+    "current": "ㄌㄧ-ㄆㄚ-ㄅㄌㄜ-ㄎㄣ",
+    "suggested": "ㄖㄧ-ㄆㄚ-ㄅㄌㄜ-ㄎㄜㄣ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄌㄧ-ㄆㄚ-ㄅㄌㄜ-ㄎㄣ"
+  },
+  {
+    "word": "recall",
+    "current": "ㄌㄧ-ㄎㄛㄦ",
+    "suggested": "ㄖㄧ-ㄎㄛ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ;-all 為 ㄛ 非 ㄛㄦ",
+    "current_actual": "ㄌㄧ-ㄎㄛㄦ"
+  },
+  {
+    "word": "sovereignty",
+    "current": "ㄙㄚ-ㄈㄜ-ㄣ-ㄊㄧ",
+    "suggested": "ㄙㄚ-ㄈㄜ-ㄖㄣ-ㄊㄧ",
+    "type": "consonant",
+    "reason": "-reign- 有 /r/ 音",
+    "current_actual": "ㄙㄚ-ㄈㄜ-ㄣ-ㄊㄧ"
+  },
+  {
+    "word": "override",
+    "current": "ㄛ-ㄈㄜ-ㄌㄞㄉ",
+    "suggested": "ㄛ-ㄈㄜ-ㄖㄞㄉ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄛ-ㄈㄜ-ㄌㄞㄉ"
+  },
+  {
+    "word": "gridlock",
+    "current": "ㄍㄌㄧㄉ-ㄌㄚㄎ",
+    "suggested": "ㄍㄖㄧㄉ-ㄌㄚㄎ",
+    "type": "consonant",
+    "reason": "gr- 應 ㄍㄖ",
+    "current_actual": "ㄍㄌㄧㄉ-ㄌㄚㄎ"
+  },
+  {
+    "word": "patriotism",
+    "current": "ㄆㄝ-ㄊㄌㄧ-ㄜ-ㄊㄧㄗㄣ",
+    "suggested": "ㄆㄟ-ㄊㄖㄧ-ㄜ-ㄊㄧㄗㄣ",
+    "type": "consonant",
+    "reason": "tr- 應 ㄊㄖ",
+    "current_actual": "ㄆㄝ-ㄊㄌㄧ-ㄜ-ㄊㄧㄗㄣ"
+  },
+  {
+    "word": "patriot",
+    "current": "ㄆㄝ-ㄊㄌㄧ-ㄚㄊ",
+    "suggested": "ㄆㄟ-ㄊㄖㄧ-ㄜㄊ",
+    "type": "consonant",
+    "reason": "tr- 應 ㄊㄖ;-ot 弱讀 ㄜㄊ",
+    "current_actual": "ㄆㄝ-ㄊㄌㄧ-ㄚㄊ"
+  },
+  {
+    "word": "reincarnation",
+    "current": "ㄌㄧ-ㄧㄣ-ㄎㄚㄦ-ㄋㄝ-ㄒㄣ",
+    "suggested": "ㄖㄧ-ㄧㄣ-ㄎㄚㄦ-ㄋㄟ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ;-na- /eɪ/ 為 ㄋㄟ",
+    "current_actual": "ㄌㄧ-ㄧㄣ-ㄎㄚㄦ-ㄋㄝ-ㄒㄣ"
+  },
+  {
+    "word": "religion",
+    "current": "ㄌㄧ-ㄌㄧ-ㄐㄣ",
+    "suggested": "ㄖㄧ-ㄌㄧ-ㄐㄣ",
+    "type": "consonant",
+    "reason": "首 r 應 ㄖ",
+    "current_actual": "ㄌㄧ-ㄌㄧ-ㄐㄣ"
+  },
+  {
+    "word": "religious",
+    "current": "ㄌㄧ-ㄌㄧ-ㄐㄚㄙ",
+    "suggested": "ㄖㄧ-ㄌㄧ-ㄐㄜㄙ",
+    "type": "consonant",
+    "reason": "首 r 應 ㄖ;-gious 弱讀",
+    "current_actual": "ㄌㄧ-ㄌㄧ-ㄐㄚㄙ"
+  },
+  {
+    "word": "sacred",
+    "current": "ㄙㄝ-ㄎㄌㄝㄉ",
+    "suggested": "ㄙㄟ-ㄎㄖㄝㄉ",
+    "type": "consonant",
+    "reason": "-cred 應 ㄎㄖ",
+    "current_actual": "ㄙㄝ-ㄎㄌㄝㄉ"
+  },
+  {
+    "word": "christianity",
+    "current": "ㄎㄌㄧㄙ-ㄑㄢ-ㄋㄜ-ㄊㄧ",
+    "suggested": "ㄎㄖㄧㄙ-ㄑㄧ-ㄚ-ㄋㄜ-ㄊㄧ",
+    "type": "consonant",
+    "reason": "chr- 應 ㄎㄖ",
+    "current_actual": "ㄎㄌㄧㄙ-ㄑㄢ-ㄋㄜ-ㄊㄧ"
+  },
+  {
+    "word": "christian",
+    "current": "ㄎㄌㄧㄙ-ㄑㄢ",
+    "suggested": "ㄎㄖㄧㄙ-ㄑㄣ",
+    "type": "consonant",
+    "reason": "chr- 應 ㄎㄖ",
+    "current_actual": "ㄎㄌㄧㄙ-ㄑㄢ"
+  },
+  {
+    "word": "prayer",
+    "current": "ㄆㄌㄝ-ㄜ",
+    "suggested": "ㄆㄖㄟ-ㄜ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ;-ay /eɪ/ 為 ㄟ",
+    "current_actual": "ㄆㄌㄝ-ㄜ"
+  },
+  {
+    "word": "pray",
+    "current": "ㄆㄌㄟ",
+    "suggested": "ㄆㄖㄟ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ",
+    "current_actual": "ㄆㄌㄟ"
+  },
+  {
+    "word": "scripture",
+    "current": "ㄙㄎㄌㄧㄆ-ㄑㄜ",
+    "suggested": "ㄙㄎㄖㄧㄆ-ㄑㄜ",
+    "type": "consonant",
+    "reason": "scr- 應 ㄙㄎㄖ",
+    "current_actual": "ㄙㄎㄌㄧㄆ-ㄑㄜ"
+  },
+  {
+    "word": "miracle",
+    "current": "ㄇㄧ-ㄌㄜ-ㄎㄜ",
+    "suggested": "ㄇㄧ-ㄖㄜ-ㄎㄛ",
+    "type": "consonant",
+    "reason": "-ra- 應 ㄖ",
+    "current_actual": "ㄇㄧ-ㄌㄜ-ㄎㄜ"
+  },
+  {
+    "word": "prophecy",
+    "current": "ㄆㄌㄚ-ㄈㄜ-ㄒㄧ",
+    "suggested": "ㄆㄖㄚ-ㄈㄜ-ㄒㄧ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ",
+    "current_actual": "ㄆㄌㄚ-ㄈㄜ-ㄒㄧ"
+  },
+  {
+    "word": "prophet",
+    "current": "ㄆㄌㄚ-ㄈㄝㄊ",
+    "suggested": "ㄆㄖㄚ-ㄈㄜㄊ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ;-phet 弱讀 ㄜ",
+    "current_actual": "ㄆㄌㄚ-ㄈㄝㄊ"
+  },
+  {
+    "word": "redemption",
+    "current": "ㄌㄧ-ㄉㄝㄇㄆ-ㄒㄣ",
+    "suggested": "ㄖㄧ-ㄉㄝㄇㄆ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄌㄧ-ㄉㄝㄇㄆ-ㄒㄣ"
+  },
+  {
+    "word": "sacrament",
+    "current": "ㄙㄚ-ㄎㄌㄜ-ㄇㄣㄊ",
+    "suggested": "ㄙㄚ-ㄎㄖㄜ-ㄇㄣㄊ",
+    "type": "consonant",
+    "reason": "cr- 應 ㄎㄖ",
+    "current_actual": "ㄙㄚ-ㄎㄌㄜ-ㄇㄣㄊ"
+  },
+  {
+    "word": "monastery",
+    "current": "ㄇㄚ-ㄋㄜㄙ-ㄊㄝ-ㄌㄧ",
+    "suggested": "ㄇㄚ-ㄋㄜㄙ-ㄊㄝ-ㄖㄧ",
+    "type": "consonant",
+    "reason": "-ry 應 ㄖ",
+    "current_actual": "ㄇㄚ-ㄋㄜㄙ-ㄊㄝ-ㄌㄧ"
+  },
+  {
+    "word": "pilgrimage",
+    "current": "ㄆㄧㄦ-ㄍㄌㄧㄇ-ㄧㄐ",
+    "suggested": "ㄆㄧㄛ-ㄍㄖㄧ-ㄇㄧㄐ",
+    "type": "consonant",
+    "reason": "gr- 應 ㄍㄖ",
+    "current_actual": "ㄆㄧㄦ-ㄍㄌㄧㄇ-ㄧㄐ"
+  },
+  {
+    "word": "pilgrim",
+    "current": "ㄆㄧㄦ-ㄍㄌㄧㄇ",
+    "suggested": "ㄆㄧㄛ-ㄍㄖㄧㄇ",
+    "type": "consonant",
+    "reason": "gr- 應 ㄍㄖ",
+    "current_actual": "ㄆㄧㄦ-ㄍㄌㄧㄇ"
+  },
+  {
+    "word": "ramadan",
+    "current": "ㄌㄚ-ㄇㄜ-ㄉㄚㄣ",
+    "suggested": "ㄖㄚ-ㄇㄜ-ㄉㄚㄣ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄌㄚ-ㄇㄜ-ㄉㄚㄣ"
+  },
+  {
+    "word": "heretic",
+    "current": "ㄏㄝ-ㄌㄜ-ㄊㄧㄎ",
+    "suggested": "ㄏㄝ-ㄖㄜ-ㄊㄧㄎ",
+    "type": "consonant",
+    "reason": "-re- 應 ㄖ",
+    "current_actual": "ㄏㄝ-ㄌㄜ-ㄊㄧㄎ"
+  },
+  {
+    "word": "paradise",
+    "current": "ㄆㄝ-ㄌㄜ-ㄉㄞㄙ",
+    "suggested": "ㄆㄝ-ㄖㄜ-ㄉㄞㄙ",
+    "type": "consonant",
+    "reason": "-ra- 應 ㄖ",
+    "current_actual": "ㄆㄝ-ㄌㄜ-ㄉㄞㄙ"
+  },
+  {
+    "word": "morality",
+    "current": "ㄇㄜ-ㄌㄚ-ㄋㄜ-ㄊㄧ",
+    "suggested": "ㄇㄜ-ㄖㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "consonant",
+    "reason": "-ra- 應 ㄖ;-li- ㄌ",
+    "current_actual": "ㄇㄜ-ㄌㄚ-ㄋㄜ-ㄊㄧ"
+  },
+  {
+    "word": "moral",
+    "current": "ㄇㄛ-ㄦ",
+    "suggested": "ㄇㄛ-ㄖㄛ",
+    "type": "consonant",
+    "reason": "-ral 應 ㄖㄛ;非單純 ㄦ",
+    "current_actual": "ㄇㄛ-ㄦ"
+  },
+  {
+    "word": "materialism",
+    "current": "ㄇㄜ-ㄊㄧ-ㄌㄧ-ㄦ-ㄧㄗㄣ",
+    "suggested": "ㄇㄜ-ㄊㄧ-ㄖㄧ-ㄜ-ㄌㄧㄗㄣ",
+    "type": "consonant",
+    "reason": "-ri- 應 ㄖ;-al- 弱讀 ㄜ",
+    "current_actual": "ㄇㄜ-ㄊㄧ-ㄌㄧ-ㄦ-ㄧㄗㄣ"
+  },
+  {
+    "word": "relativism",
+    "current": "ㄌㄝ-ㄌㄜ-ㄊㄜ-ㄈㄧㄗㄣ",
+    "suggested": "ㄖㄝ-ㄌㄜ-ㄊㄜ-ㄈㄧㄗㄣ",
+    "type": "consonant",
+    "reason": "首 r 應 ㄖ",
+    "current_actual": "ㄌㄝ-ㄌㄜ-ㄊㄜ-ㄈㄧㄗㄣ"
+  },
+  {
+    "word": "plato",
+    "current": "ㄆㄌㄝ-ㄊㄛ",
+    "suggested": "ㄆㄌㄟ-ㄊㄛ",
+    "type": "vowel",
+    "reason": "pla- /eɪ/ 為 ㄟ",
+    "current_actual": "ㄆㄌㄝ-ㄊㄛ"
+  },
+  {
+    "word": "aristotle",
+    "current": "ㄚ-ㄌㄜㄙ-ㄊㄚ-ㄉㄜ",
+    "suggested": "ㄝ-ㄖㄜㄙ-ㄊㄚ-ㄉㄜ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄚ-ㄌㄜㄙ-ㄊㄚ-ㄉㄜ"
+  },
+  {
+    "word": "socrates",
+    "current": "ㄙㄚ-ㄎㄌㄜ-ㄊㄧㄗ",
+    "suggested": "ㄙㄚ-ㄎㄖㄜ-ㄊㄧㄗ",
+    "type": "consonant",
+    "reason": "cr- 應 ㄎㄖ",
+    "current_actual": "ㄙㄚ-ㄎㄌㄜ-ㄊㄧㄗ"
+  },
+  {
+    "word": "rousseau",
+    "current": "ㄌㄨ-ㄙㄛ",
+    "suggested": "ㄖㄨ-ㄙㄛ",
+    "type": "consonant",
+    "reason": "r 應 ㄖ",
+    "current_actual": "ㄌㄨ-ㄙㄛ"
+  },
+  {
+    "word": "narrative",
+    "current": "ㄋㄚ-ㄖㄚ-ㄊㄧㄈ",
+    "suggested": "ㄋㄚ-ㄖㄜ-ㄊㄧㄈ",
+    "type": "schwa",
+    "reason": "-ra- 為弱讀 ㄜ",
+    "current_actual": "ㄋㄚ-ㄖㄚ-ㄊㄧㄈ"
+  },
+  {
+    "word": "protagonist",
+    "current": "ㄆㄖㄡ-ㄊㄚ-ㄜ-ㄋㄧㄙㄊ",
+    "suggested": "ㄆㄖㄜ-ㄊㄚ-ㄜ-ㄋㄧㄙㄊ",
+    "type": "schwa",
+    "reason": "pro- 弱讀 ㄆㄖㄜ",
+    "current_actual": "ㄆㄖㄡ-ㄊㄚ-ㄜ-ㄋㄧㄙㄊ"
+  },
+  {
+    "word": "metaphor",
+    "current": "ㄇㄝ-ㄜ-ㄈㄛ",
+    "suggested": "ㄇㄝ-ㄊㄜ-ㄈㄛ",
+    "type": "consonant",
+    "reason": "漏 t,應 ㄊㄜ",
+    "current_actual": "ㄇㄝ-ㄜ-ㄈㄛ"
+  },
+  {
+    "word": "symbolism",
+    "current": "ㄒㄧㄇ-ㄅㄛ-ㄧㄗㄇ",
+    "suggested": "ㄒㄧㄇ-ㄅㄜ-ㄌㄧㄗㄣ",
+    "type": "schwa",
+    "reason": "-bol- 弱讀 ㄅㄜ;-ism ㄌㄧㄗㄣ",
+    "current_actual": "ㄒㄧㄇ-ㄅㄛ-ㄧㄗㄇ"
+  },
+  {
+    "word": "rhetoric",
+    "current": "ㄖㄝ-ㄜ-ㄖㄧㄎ",
+    "suggested": "ㄖㄝ-ㄊㄜ-ㄖㄧㄎ",
+    "type": "consonant",
+    "reason": "漏 t,應 ㄊㄜ",
+    "current_actual": "ㄖㄝ-ㄜ-ㄖㄧㄎ"
+  },
+  {
+    "word": "sonnet",
+    "current": "ㄙㄚ-ㄋㄝㄊ",
+    "suggested": "ㄙㄚ-ㄋㄜㄊ",
+    "type": "schwa",
+    "reason": "-net 弱讀 ㄋㄜㄊ",
+    "current_actual": "ㄙㄚ-ㄋㄝㄊ"
+  },
+  {
+    "word": "limerick",
+    "current": "ㄌㄧ-ㄇㄜ-ㄧㄎ",
+    "suggested": "ㄌㄧ-ㄇㄜ-ㄖㄧㄎ",
+    "type": "consonant",
+    "reason": "-rick 漏 r,應 ㄖㄧㄎ",
+    "current_actual": "ㄌㄧ-ㄇㄜ-ㄧㄎ"
+  },
+  {
+    "word": "hardcover",
+    "current": "ㄏㄚㄜㄉ-ㄎㄚ-ㄨㄜ",
+    "suggested": "ㄏㄚㄜㄉ-ㄎㄚ-ㄈㄜ",
+    "type": "consonant",
+    "reason": "-ver v 應 ㄈ 非 ㄨ",
+    "current_actual": "ㄏㄚㄜㄉ-ㄎㄚ-ㄨㄜ"
+  },
+  {
+    "word": "normally",
+    "current": "ㄋㄡ-ㄇㄛ-ㄌㄧ",
+    "suggested": "ㄋㄛㄜ-ㄇㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "-mal 弱讀 ㄇㄜ",
+    "current_actual": "ㄋㄡ-ㄇㄛ-ㄌㄧ"
+  },
+  {
+    "word": "naturally",
+    "current": "ㄋㄚ-ㄜ-ㄖㄛ-ㄌㄧ",
+    "suggested": "ㄋㄚ-ㄑㄜ-ㄖㄜ-ㄌㄧ",
+    "type": "consonant",
+    "reason": "-tu- 應 ㄑㄜ;-ral 弱讀 ㄖㄜ",
+    "current_actual": "ㄋㄚ-ㄜ-ㄖㄛ-ㄌㄧ"
+  },
+  {
+    "word": "essentially",
+    "current": "ㄝ-ㄙㄣ-ㄒㄛ-ㄌㄧ",
+    "suggested": "ㄜ-ㄙㄣ-ㄒㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "e- 弱讀;-tial 弱讀 ㄒㄜ",
+    "current_actual": "ㄝ-ㄙㄣ-ㄒㄛ-ㄌㄧ"
+  },
+  {
+    "word": "occasionally",
+    "current": "ㄛ-ㄎㄟ-ㄓㄣ-ㄛ-ㄌㄧ",
+    "suggested": "ㄜ-ㄎㄟ-ㄓㄣ-ㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "oc-、-al- 弱讀 ㄜ",
+    "current_actual": "ㄛ-ㄎㄟ-ㄓㄣ-ㄛ-ㄌㄧ"
+  },
+  {
+    "word": "altogether",
+    "current": "ㄛ-ㄊㄨ-ㄍㄝ-ㄜ",
+    "suggested": "ㄛ-ㄊㄜ-ㄍㄝ-ㄜ",
+    "type": "schwa",
+    "reason": "-to- 弱讀 ㄊㄜ",
+    "current_actual": "ㄛ-ㄊㄨ-ㄍㄝ-ㄜ"
+  },
+  {
+    "word": "intuition",
+    "current": "ㄧㄣ-ㄑㄨ-ㄜ-ㄒㄣ",
+    "suggested": "ㄧㄣ-ㄊㄨ-ㄧ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-tu- 為 ㄊㄨ;-i- 為 ㄧ 非 ㄜ",
+    "current_actual": "ㄧㄣ-ㄑㄨ-ㄜ-ㄒㄣ"
+  },
+  {
+    "word": "premise",
+    "current": "ㄆㄌㄝ-ㄇㄜㄙ",
+    "suggested": "ㄆㄖㄝ-ㄇㄧㄙ",
+    "type": "consonant",
+    "reason": "pr- 應 ㄆㄖ;-mise /ɪs/ 為 ㄇㄧㄙ",
+    "current_actual": "ㄆㄌㄝ-ㄇㄜㄙ"
+  },
+  {
+    "word": "theoretical",
+    "current": "ㄒㄧ-ㄜ-ㄌㄝ-ㄜ-ㄎㄜ",
+    "suggested": "ㄒㄧ-ㄜ-ㄖㄝ-ㄊㄜ-ㄎㄛ",
+    "type": "consonant",
+    "reason": "-re- 應 ㄖ;-ti- 應 ㄊ 漏掉",
+    "current_actual": "ㄒㄧ-ㄜ-ㄌㄝ-ㄜ-ㄎㄜ"
+  },
+  {
+    "word": "comprehensive",
+    "current": "ㄎㄚㄇ-ㄆㄖㄜ-ㄏㄣ-ㄙㄧㄈ",
+    "suggested": "ㄎㄚㄇ-ㄆㄖㄧ-ㄏㄣ-ㄙㄧㄈ",
+    "type": "vowel",
+    "reason": "-pre- 為 ㄆㄖㄧ",
+    "current_actual": "ㄎㄚㄇ-ㄆㄖㄜ-ㄏㄣ-ㄙㄧㄈ"
+  },
+  {
+    "word": "airmail",
+    "current": "ㄟㄦ-ㄇㄝㄦ",
+    "suggested": "ㄝㄜ-ㄇㄟㄛ",
+    "type": "vowel",
+    "reason": "air /eə/ 為 ㄝㄜ;-mail /eɪl/ 為 ㄇㄟㄛ",
+    "current_actual": "ㄟㄦ-ㄇㄝㄦ"
+  },
+  {
+    "word": "airplane",
+    "current": "ㄟㄦ-ㄆㄌㄚ-ㄋㄧ",
+    "suggested": "ㄝㄜ-ㄆㄌㄟㄣ",
+    "type": "vowel",
+    "reason": "plane 單音節 /pleɪn/ 為 ㄆㄌㄟㄣ;不應拆 ㄆㄌㄚ-ㄋㄧ",
+    "current_actual": "ㄟㄦ-ㄆㄌㄚ-ㄋㄧ"
+  },
+  {
+    "word": "allow",
+    "current": "ㄦ-ㄌㄛ",
+    "suggested": "ㄜ-ㄌㄠ",
+    "type": "vowel",
+    "reason": "a- 弱讀 ㄜ;-low 為 /aʊ/ ㄌㄠ",
+    "current_actual": "ㄦ-ㄌㄛ"
+  },
+  {
+    "word": "almost",
+    "current": "ㄦ-ㄇㄛㄙㄊ",
+    "suggested": "ㄛ-ㄇㄛㄙㄊ",
+    "type": "vowel",
+    "reason": "al- /ɔ/ 為 ㄛ 非 ㄦ",
+    "current_actual": "ㄦ-ㄇㄛㄙㄊ"
+  },
+  {
+    "word": "animal",
+    "current": "ㄜ-ㄋㄜ-ㄇㄜ",
+    "suggested": "ㄚ-ㄋㄜ-ㄇㄛ",
+    "type": "vowel",
+    "reason": "a- 重音 /æ/ 為 ㄚ",
+    "current_actual": "ㄜ-ㄋㄜ-ㄇㄜ"
+  },
+  {
+    "word": "art",
+    "current": "ㄚㄦ-ㄊㄧ",
+    "suggested": "ㄚㄜㄊ",
+    "type": "vowel",
+    "reason": "art 單音節 /ɑːrt/ 不該拆 -ㄊㄧ",
+    "current_actual": "ㄚㄦ-ㄊㄧ"
+  },
+  {
+    "word": "act",
+    "current": "ㄚㄎ-ㄊㄧ",
+    "suggested": "ㄚㄎㄊ",
+    "type": "vowel",
+    "reason": "act 單音節,不該結尾 ㄊㄧ",
+    "current_actual": "ㄚㄎ-ㄊㄧ"
+  },
+  {
+    "word": "address",
+    "current": "ㄚㄉ-ㄉㄌㄝㄙ",
+    "suggested": "ㄜ-ㄉㄖㄝㄙ",
+    "type": "consonant",
+    "reason": "dr- 應 ㄉㄖ;a- 弱讀 ㄜ",
+    "current_actual": "ㄚㄉ-ㄉㄌㄝㄙ"
+  },
+  {
+    "word": "bath",
+    "current": "ㄅㄧ-ㄚㄙ",
+    "suggested": "ㄅㄚㄙ",
+    "type": "vowel",
+    "reason": "bath 單音節 /bæθ/ ㄅㄚㄙ",
+    "current_actual": "ㄅㄧ-ㄚㄙ"
+  },
+  {
+    "word": "bathe",
+    "current": "ㄅㄝ-ㄏㄝ",
+    "suggested": "ㄅㄟㄗ",
+    "type": "vowel",
+    "reason": "bathe /beɪð/ 單音節",
+    "current_actual": "ㄅㄝ-ㄏㄝ"
+  },
+  {
+    "word": "bathroom",
+    "current": "ㄅㄝ-ㄏㄖㄨㄇ",
+    "suggested": "ㄅㄚㄙ-ㄖㄨㄇ",
+    "type": "consonant",
+    "reason": "bath- 為 ㄅㄚㄙ;-room 為 ㄖㄨㄇ",
+    "current_actual": "ㄅㄝ-ㄏㄖㄨㄇ"
+  },
+  {
+    "word": "become",
+    "current": "ㄅㄧ-ㄎㄛ-ㄇㄝ",
+    "suggested": "ㄅㄧ-ㄎㄚㄇ",
+    "type": "vowel",
+    "reason": "-come 單音節 /kʌm/ 為 ㄎㄚㄇ;非 ㄎㄛ-ㄇㄝ",
+    "current_actual": "ㄅㄧ-ㄎㄛ-ㄇㄝ"
+  },
+  {
+    "word": "believe",
+    "current": "ㄅㄧ-ㄌㄞ-ㄈㄜ",
+    "suggested": "ㄅㄧ-ㄌㄧㄈ",
+    "type": "vowel",
+    "reason": "-lieve /liːv/ 為 ㄌㄧㄈ;非 ㄌㄞ-ㄈㄜ",
+    "current_actual": "ㄅㄧ-ㄌㄞ-ㄈㄜ"
+  },
+  {
+    "word": "best",
+    "current": "ㄅㄧ-ㄝㄙㄊ",
+    "suggested": "ㄅㄝㄙㄊ",
+    "type": "vowel",
+    "reason": "best 單音節 /bɛst/ 為 ㄅㄝㄙㄊ",
+    "current_actual": "ㄅㄧ-ㄝㄙㄊ"
+  },
+  {
+    "word": "born",
+    "current": "ㄅㄧ-ㄛㄜㄋ",
+    "suggested": "ㄅㄛㄜㄣ",
+    "type": "vowel",
+    "reason": "born 單音節 /bɔːrn/;不可拆 ㄅㄧ-",
+    "current_actual": "ㄅㄧ-ㄛㄜㄋ"
+  },
+  {
+    "word": "box",
+    "current": "ㄅㄧ-ㄚㄎ",
+    "suggested": "ㄅㄚㄎㄙ",
+    "type": "vowel",
+    "reason": "box /bɑks/ 單音節",
+    "current_actual": "ㄅㄧ-ㄚㄎ"
+  },
+  {
+    "word": "bite",
+    "current": "ㄅㄞ-ㄊㄧ",
+    "suggested": "ㄅㄞㄊ",
+    "type": "vowel",
+    "reason": "bite 單音節 /baɪt/",
+    "current_actual": "ㄅㄞ-ㄊㄧ"
+  },
+  {
+    "word": "alone",
+    "current": "ㄜ-ㄌㄛ-ㄋㄧ",
+    "suggested": "ㄜ-ㄌㄛㄣ",
+    "type": "vowel",
+    "reason": "-lone /loʊn/ 為 ㄌㄛㄣ",
+    "current_actual": "ㄜ-ㄌㄛ-ㄋㄧ"
+  },
+  {
+    "word": "papa",
+    "current": "ㄆㄜ-ㄆㄜ",
+    "suggested": "ㄆㄚ-ㄆㄚ",
+    "type": "vowel",
+    "reason": "papa 通常為 /ˈpɑːpə/ 或 /pəˈpɑː/，重音節用 ㄚ 而非 ㄜ",
+    "current_actual": "ㄆㄜ-ㄆㄜ"
+  },
+  {
+    "word": "continue",
+    "current": "ㄎㄚㄣ-ㄊㄜ-ㄋㄧㄨ",
+    "suggested": "ㄎㄜㄣ-ㄊㄧ-ㄋㄧㄨ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜㄣ；-tin- 重音應為 ㄊㄧ",
+    "current_actual": "ㄎㄚㄣ-ㄊㄜ-ㄋㄧㄨ"
+  },
+  {
+    "word": "cover",
+    "current": "ㄎㄛ-ㄈㄜ",
+    "suggested": "ㄎㄚ-ㄈㄜ",
+    "type": "vowel",
+    "reason": "cover /ˈkʌvər/ 第1音節為 /ʌ/ 應為 ㄎㄚ",
+    "current_actual": "ㄎㄛ-ㄈㄜ"
+  },
+  {
+    "word": "correct",
+    "current": "ㄎㄛ-ㄖㄝㄎㄊ",
+    "suggested": "ㄎㄜ-ㄖㄝㄎㄊ",
+    "type": "schwa",
+    "reason": "cor- 非重音節弱讀為 ㄎㄜ",
+    "current_actual": "ㄎㄛ-ㄖㄝㄎㄊ"
+  },
+  {
+    "word": "discover",
+    "current": "ㄉㄧㄙ-ㄎㄛ-ㄈㄜ",
+    "suggested": "ㄉㄧㄙ-ㄎㄚ-ㄈㄜ",
+    "type": "vowel",
+    "reason": "-cov- 為 /ʌ/，與 cover 一致",
+    "current_actual": "ㄉㄧㄙ-ㄎㄛ-ㄈㄜ"
+  },
+  {
+    "word": "forget",
+    "current": "ㄈㄛ-ㄍㄝㄊ",
+    "suggested": "ㄈㄜ-ㄍㄝㄊ",
+    "type": "schwa",
+    "reason": "for- 弱讀為 ㄈㄜ",
+    "current_actual": "ㄈㄛ-ㄍㄝㄊ"
+  },
+  {
+    "word": "hungry",
+    "current": "ㄏㄚㄣ-ㄍㄖㄧ",
+    "suggested": "ㄏㄚㄥ-ㄍㄖㄧ",
+    "type": "consonant",
+    "reason": "hung- 為 /ŋ/，用 ㄥ 更貼切",
+    "current_actual": "ㄏㄚㄣ-ㄍㄖㄧ"
+  },
+  {
+    "word": "important",
+    "current": "ㄧㄇ-ㄆㄜ-ㄊㄣㄊ",
+    "suggested": "ㄧㄇ-ㄆㄛ-ㄊㄣㄊ",
+    "type": "vowel",
+    "reason": "-por- 為 /ɔːr/ 重音節，應為 ㄆㄛ",
+    "current_actual": "ㄧㄇ-ㄆㄜ-ㄊㄣㄊ"
+  },
+  {
+    "word": "remember",
+    "current": "ㄌㄧ-ㄇㄝㄇ-ㄅㄜ",
+    "suggested": "ㄌㄜ-ㄇㄝㄇ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "re- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄌㄧ-ㄇㄝㄇ-ㄅㄜ"
+  },
+  {
+    "word": "surprise",
+    "current": "ㄙㄜ-ㄆㄌㄞ-ㄙㄜ",
+    "suggested": "ㄙㄜ-ㄆㄌㄞㄗ",
+    "type": "error",
+    "reason": "-prise 為單音節 /praɪz/，不應拆出 -ㄙㄜ 尾音",
+    "current_actual": "ㄙㄜ-ㄆㄌㄞ-ㄙㄜ"
+  },
+  {
+    "word": "together",
+    "current": "ㄊㄛ-ㄍㄝㄊ-ㄏㄜ",
+    "suggested": "ㄊㄜ-ㄍㄝ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "to- 弱讀為 ㄜ；-th- 為 /ð/ 接 ㄜ",
+    "current_actual": "ㄊㄛ-ㄍㄝㄊ-ㄏㄜ"
+  },
+  {
+    "word": "understand",
+    "current": "ㄚㄣ-ㄉㄜ-ㄙㄉㄢㄉ",
+    "suggested": "ㄚㄣ-ㄉㄜ-ㄙㄊㄢㄉ",
+    "type": "consonant",
+    "reason": "st- 為清音 ㄙㄊ 而非 ㄙㄉ",
+    "current_actual": "ㄚㄣ-ㄉㄜ-ㄙㄉㄢㄉ"
+  },
+  {
+    "word": "useful",
+    "current": "ㄧㄨ-ㄙㄜ-ㄈㄜ",
+    "suggested": "ㄧㄨㄙ-ㄈㄜ",
+    "type": "error",
+    "reason": "useful 兩音節 /ˈjuːsfəl/，不應拆出獨立 ㄙㄜ",
+    "current_actual": "ㄧㄨ-ㄙㄜ-ㄈㄜ"
+  },
+  {
+    "word": "worse",
+    "current": "ㄨㄜ-ㄙㄜ",
+    "suggested": "ㄨㄜㄙ",
+    "type": "error",
+    "reason": "worse 單音節 /wɜːrs/，多餘的 ㄜ 結尾",
+    "current_actual": "ㄨㄜ-ㄙㄜ"
+  },
+  {
+    "word": "absent",
+    "current": "ㄚㄅ-ㄗㄣㄊ",
+    "suggested": "ㄚㄅ-ㄙㄣㄊ",
+    "type": "consonant",
+    "reason": "-sent /sənt/ 為清音 ㄙ",
+    "current_actual": "ㄚㄅ-ㄗㄣㄊ"
+  },
+  {
+    "word": "appearance",
+    "current": "ㄚ-ㄆㄧ-ㄌㄚㄣ-ㄙㄜ",
+    "suggested": "ㄜ-ㄆㄧ-ㄌㄜㄣ-ㄙㄜ",
+    "type": "schwa",
+    "reason": "ap- 為 /ə/ 應為 ㄜ；-ran- 為 /rən/ 應為 ㄌㄜㄣ",
+    "current_actual": "ㄚ-ㄆㄧ-ㄌㄚㄣ-ㄙㄜ"
+  },
+  {
+    "word": "appetite",
+    "current": "ㄚ-ㄆㄜ-ㄊㄜ-ㄊㄧ",
+    "suggested": "ㄚ-ㄆㄜ-ㄊㄞㄊ",
+    "type": "error",
+    "reason": "appetite 三音節 /ˈæpɪtaɪt/，-tite 為 /taɪt/，現拆 4 音節錯誤",
+    "current_actual": "ㄚ-ㄆㄜ-ㄊㄜ-ㄊㄧ"
+  },
+  {
+    "word": "apartment",
+    "current": "ㄜ-ㄆㄚㄦ-ㄊㄇㄣㄊ",
+    "suggested": "ㄜ-ㄆㄚㄦ-ㄇㄣㄊ",
+    "type": "error",
+    "reason": "-part- 結尾 t 與 -ment 的 m 相鄰，無需多 ㄊ",
+    "current_actual": "ㄜ-ㄆㄚㄦ-ㄊㄇㄣㄊ"
+  },
+  {
+    "word": "attention",
+    "current": "ㄚ-ㄊㄣ-ㄒㄣ",
+    "suggested": "ㄜ-ㄊㄝㄣ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "at- 弱讀為 ㄜ",
+    "current_actual": "ㄚ-ㄊㄣ-ㄒㄣ"
+  },
+  {
+    "word": "absence",
+    "current": "ㄚㄅ-ㄙㄝㄣ-ㄙㄜ",
+    "suggested": "ㄚㄅ-ㄙㄣㄙ",
+    "type": "schwa",
+    "reason": "-sence /səns/ 為弱讀單音節",
+    "current_actual": "ㄚㄅ-ㄙㄝㄣ-ㄙㄜ"
+  },
+  {
+    "word": "beginner",
+    "current": "ㄅㄧ-ㄐㄧㄣ-ㄋㄜ",
+    "suggested": "ㄅㄜ-ㄍㄧㄣ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "be- 弱讀為 ㄅㄜ；-gin- /g/ 應為 ㄍ 而非 ㄐ",
+    "current_actual": "ㄅㄧ-ㄐㄧㄣ-ㄋㄜ"
+  },
+  {
+    "word": "believable",
+    "current": "ㄅㄧ-ㄌㄞ-ㄨㄚㄅ-ㄌㄧ",
+    "suggested": "ㄅㄜ-ㄌㄧ-ㄈㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "be- 弱讀；-liev- 為 /liːv/；-able 為 /əbəl/",
+    "current_actual": "ㄅㄧ-ㄌㄞ-ㄨㄚㄅ-ㄌㄧ"
+  },
+  {
+    "word": "compare",
+    "current": "ㄎㄚㄇ-ㄆㄜ-ㄌㄧ",
+    "suggested": "ㄎㄜㄇ-ㄆㄝㄜ",
+    "type": "schwa",
+    "reason": "com- 弱讀為 ㄎㄜㄇ；-pare 為單音節",
+    "current_actual": "ㄎㄚㄇ-ㄆㄜ-ㄌㄧ"
+  },
+  {
+    "word": "comfortable",
+    "current": "ㄎㄚㄇ-ㄈㄛ-ㄊㄚ-ㄌㄧ",
+    "suggested": "ㄎㄚㄇ-ㄈㄜ-ㄊㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-for- 弱讀 ㄈㄜ；-ta- 弱讀 ㄊㄜ；-ble 為 ㄅㄜ",
+    "current_actual": "ㄎㄚㄇ-ㄈㄛ-ㄊㄚ-ㄌㄧ"
+  },
+  {
+    "word": "complete",
+    "current": "ㄎㄚㄇ-ㄆㄜ-ㄊㄧ",
+    "suggested": "ㄎㄜㄇ-ㄆㄌㄧㄊ",
+    "type": "schwa",
+    "reason": "com- 弱讀為 ㄎㄜㄇ；-plete /pliːt/ 為單音節",
+    "current_actual": "ㄎㄚㄇ-ㄆㄜ-ㄊㄧ"
+  },
+  {
+    "word": "consider",
+    "current": "ㄎㄚㄣ-ㄗㄜ-ㄉㄜ",
+    "suggested": "ㄎㄜㄣ-ㄙㄧ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜㄣ；-sid- 重音 ㄙㄧ",
+    "current_actual": "ㄎㄚㄣ-ㄗㄜ-ㄉㄜ"
+  },
+  {
+    "word": "contain",
+    "current": "ㄎㄚㄣ-ㄊㄣ",
+    "suggested": "ㄎㄜㄣ-ㄊㄟㄣ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜㄣ；-tain 為 /teɪn/ 應為 ㄊㄟㄣ",
+    "current_actual": "ㄎㄚㄣ-ㄊㄣ"
+  },
+  {
+    "word": "control",
+    "current": "ㄎㄚㄣ-ㄊㄌㄚ",
+    "suggested": "ㄎㄜㄣ-ㄊㄌㄛㄦ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜㄣ；-trol /troʊl/",
+    "current_actual": "ㄎㄚㄣ-ㄊㄌㄚ"
+  },
+  {
+    "word": "convenient",
+    "current": "ㄎㄚㄣ-ㄈㄜ-ㄋㄞㄋㄊ",
+    "suggested": "ㄎㄜㄣ-ㄈㄧ-ㄋㄧㄣㄊ",
+    "type": "schwa",
+    "reason": "con- 弱讀；-ven- 為 /viːn/ ㄈㄧ；-ient /jənt/ 而非 ㄋㄞㄋㄊ",
+    "current_actual": "ㄎㄚㄣ-ㄈㄜ-ㄋㄞㄋㄊ"
+  },
+  {
+    "word": "conversation",
+    "current": "ㄎㄚㄣ-ㄈㄜ-ㄙㄚ-ㄒㄣ",
+    "suggested": "ㄎㄚㄣ-ㄈㄜ-ㄙㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-sa- /seɪ/ 為 ㄙㄟ",
+    "current_actual": "ㄎㄚㄣ-ㄈㄜ-ㄙㄚ-ㄒㄣ"
+  },
+  {
+    "word": "connect",
+    "current": "ㄎㄚㄣ-ㄋㄝㄎㄊ",
+    "suggested": "ㄎㄜ-ㄋㄝㄎㄊ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜ",
+    "current_actual": "ㄎㄚㄣ-ㄋㄝㄎㄊ"
+  },
+  {
+    "word": "discuss",
+    "current": "ㄉㄧㄙ-ㄎㄚㄙㄙ",
+    "suggested": "ㄉㄧㄙ-ㄎㄚㄙ",
+    "type": "error",
+    "reason": "無需重複 ㄙ",
+    "current_actual": "ㄉㄧㄙ-ㄎㄚㄙㄙ"
+  },
+  {
+    "word": "difficult",
+    "current": "ㄉㄧ-ㄈㄜ-ㄎㄚㄌㄊ",
+    "suggested": "ㄉㄧ-ㄈㄜ-ㄎㄜㄌㄊ",
+    "type": "schwa",
+    "reason": "-cult 為 /kəlt/ 弱讀，用 ㄎㄜ",
+    "current_actual": "ㄉㄧ-ㄈㄜ-ㄎㄚㄌㄊ"
+  },
+  {
+    "word": "difficulty",
+    "current": "ㄉㄧ-ㄈㄜ-ㄎㄦ-ㄊㄧ",
+    "suggested": "ㄉㄧ-ㄈㄜ-ㄎㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-cul- 弱讀 ㄎㄜ",
+    "current_actual": "ㄉㄧ-ㄈㄜ-ㄎㄦ-ㄊㄧ"
+  },
+  {
+    "word": "effort",
+    "current": "ㄧ-ㄈㄜㄊ",
+    "suggested": "ㄝ-ㄈㄜㄊ",
+    "type": "vowel",
+    "reason": "ef- 為 /ˈɛf/ 重音節，應為 ㄝ 而非 ㄧ",
+    "current_actual": "ㄧ-ㄈㄜㄊ"
+  },
+  {
+    "word": "elevator",
+    "current": "ㄧ-ㄌㄧ-ㄈㄚ-ㄊㄜ",
+    "suggested": "ㄝ-ㄌㄜ-ㄈㄟ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "e- 重音 ㄝ；-le- 弱讀 ㄜ；-va- /veɪ/ 為 ㄈㄟ",
+    "current_actual": "ㄧ-ㄌㄧ-ㄈㄚ-ㄊㄜ"
+  },
+  {
+    "word": "failure",
+    "current": "ㄈㄟ-ㄌㄨ-ㄌㄧ",
+    "suggested": "ㄈㄟ-ㄌㄧㄜ",
+    "type": "error",
+    "reason": "failure /ˈfeɪljər/ 兩音節，不應拆 3 個",
+    "current_actual": "ㄈㄟ-ㄌㄨ-ㄌㄧ"
+  },
+  {
+    "word": "favor",
+    "current": "ㄈㄚ-ㄈㄜ",
+    "suggested": "ㄈㄟ-ㄈㄜ",
+    "type": "vowel",
+    "reason": "fa- /feɪ/ 為 ㄈㄟ",
+    "current_actual": "ㄈㄚ-ㄈㄜ"
+  },
+  {
+    "word": "favorite",
+    "current": "ㄈㄚ-ㄈㄛ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄈㄟ-ㄈㄜ-ㄌㄜㄊ",
+    "type": "schwa",
+    "reason": "fa- /feɪ/；-vo- 弱讀 ㄈㄜ；-rite /rɪt/",
+    "current_actual": "ㄈㄚ-ㄈㄛ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "female",
+    "current": "ㄈㄧ-ㄇㄚ-ㄌㄧ",
+    "suggested": "ㄈㄧ-ㄇㄟㄦ",
+    "type": "error",
+    "reason": "female /ˈfiːmeɪl/ 兩音節，不應 3 拆",
+    "current_actual": "ㄈㄧ-ㄇㄚ-ㄌㄧ"
+  },
+  {
+    "word": "foreigner",
+    "current": "ㄈㄜ-ㄖㄝㄍ-ㄋㄜ",
+    "suggested": "ㄈㄛ-ㄌㄜ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "fo- 重音 ㄈㄛ；-reig- 弱讀 ㄌㄜ；g 不發音",
+    "current_actual": "ㄈㄜ-ㄖㄝㄍ-ㄋㄜ"
+  },
+  {
+    "word": "happen",
+    "current": "ㄏㄝ-ㄆㄣ",
+    "suggested": "ㄏㄚ-ㄆㄜㄣ",
+    "type": "schwa",
+    "reason": "hap- /ˈhæp/ 為 ㄏㄚ；-pen 弱讀 ㄆㄜㄣ",
+    "current_actual": "ㄏㄝ-ㄆㄣ"
+  },
+  {
+    "word": "holder",
+    "current": "ㄏㄚ-ㄉㄜ",
+    "suggested": "ㄏㄛ-ㄉㄜ",
+    "type": "vowel",
+    "reason": "hold /hoʊld/ 為 ㄏㄛ",
+    "current_actual": "ㄏㄚ-ㄉㄜ"
+  },
+  {
+    "word": "homesick",
+    "current": "ㄏㄚ-ㄇㄝ-ㄒㄧㄎ",
+    "suggested": "ㄏㄛㄇ-ㄒㄧㄎ",
+    "type": "vowel",
+    "reason": "home /hoʊm/ 為 ㄏㄛㄇ 單音節",
+    "current_actual": "ㄏㄚ-ㄇㄝ-ㄒㄧㄎ"
+  },
+  {
+    "word": "hole",
+    "current": "ㄏㄚ-ㄌㄧ",
+    "suggested": "ㄏㄛㄦ",
+    "type": "vowel",
+    "reason": "hole /hoʊl/ 單音節，現拆兩音節錯誤",
+    "current_actual": "ㄏㄚ-ㄌㄧ"
+  },
+  {
+    "word": "imagine",
+    "current": "ㄌㄜ-ㄇㄚ-ㄐㄜ-ㄋㄧ",
+    "suggested": "ㄧ-ㄇㄚ-ㄐㄜㄣ",
+    "type": "error",
+    "reason": "i- 為 /ɪ/ 應為 ㄧ；imagine 三音節 /ɪˈmædʒɪn/",
+    "current_actual": "ㄌㄜ-ㄇㄚ-ㄐㄜ-ㄋㄧ"
+  },
+  {
+    "word": "introduce",
+    "current": "ㄧㄣ-ㄊㄌㄛ-ㄉㄨ-ㄙㄜ",
+    "suggested": "ㄧㄣ-ㄊㄌㄜ-ㄉㄩㄙ",
+    "type": "schwa",
+    "reason": "-tro- 弱讀為 ㄊㄌㄜ；-duce 為單音節 /djuːs/",
+    "current_actual": "ㄧㄣ-ㄊㄌㄛ-ㄉㄨ-ㄙㄜ"
+  },
+  {
+    "word": "language",
+    "current": "ㄌㄢ-ㄍㄨㄚ-ㄐㄧ",
+    "suggested": "ㄌㄚㄥ-ㄍㄨㄝㄐ",
+    "type": "error",
+    "reason": "language /ˈlæŋɡwɪdʒ/ 兩音節",
+    "current_actual": "ㄌㄢ-ㄍㄨㄚ-ㄐㄧ"
+  },
+  {
+    "word": "magician",
+    "current": "ㄇㄚ-ㄐㄜ-ㄒㄢ",
+    "suggested": "ㄇㄜ-ㄐㄧ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "ma- 弱讀 ㄇㄜ；-gi- 重音 ㄐㄧ；-cian /ʃən/",
+    "current_actual": "ㄇㄚ-ㄐㄜ-ㄒㄢ"
+  },
+  {
+    "word": "mathematics",
+    "current": "ㄇㄚ-ㄏㄝ-ㄇㄚ-ㄊㄧㄎㄙ",
+    "suggested": "ㄇㄚ-ㄒㄜ-ㄇㄚ-ㄊㄧㄎㄙ",
+    "type": "consonant",
+    "reason": "th /θ/ 應為 ㄒ（或 ㄙ），不是 ㄏ",
+    "current_actual": "ㄇㄚ-ㄏㄝ-ㄇㄚ-ㄊㄧㄎㄙ"
+  },
+  {
+    "word": "medical",
+    "current": "ㄇㄝ-ㄉㄧ-ㄎㄜ",
+    "suggested": "ㄇㄝ-ㄉㄜ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "-di- 弱讀為 ㄉㄜ",
+    "current_actual": "ㄇㄝ-ㄉㄧ-ㄎㄜ"
+  },
+  {
+    "word": "memory",
+    "current": "ㄇㄝ-ㄇㄛ-ㄌㄧ",
+    "suggested": "ㄇㄝ-ㄇㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "-mo- 弱讀為 ㄇㄜ",
+    "current_actual": "ㄇㄝ-ㄇㄛ-ㄌㄧ"
+  },
+  {
+    "word": "message",
+    "current": "ㄇㄝㄙ-ㄙㄚ-ㄐㄧ",
+    "suggested": "ㄇㄝㄙ-ㄙㄜㄐ",
+    "type": "schwa",
+    "reason": "-sage /sɪdʒ/ 為單音節弱讀",
+    "current_actual": "ㄇㄝㄙ-ㄙㄚ-ㄐㄧ"
+  },
+  {
+    "word": "military",
+    "current": "ㄇㄞ-ㄌㄧ-ㄊㄝ-ㄌㄧ",
+    "suggested": "ㄇㄧ-ㄌㄜ-ㄊㄝ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "mi- 為 /ˈmɪl/ 應為 ㄇㄧ；-li- 弱讀 ㄌㄜ",
+    "current_actual": "ㄇㄞ-ㄌㄧ-ㄊㄝ-ㄌㄧ"
+  },
+  {
+    "word": "monster",
+    "current": "ㄇㄚ-ㄙㄉㄜ",
+    "suggested": "ㄇㄚㄣ-ㄙㄊㄜ",
+    "type": "error",
+    "reason": "mon- 有 /n/，且 -ster 為清音 ㄙㄊ",
+    "current_actual": "ㄇㄚ-ㄙㄉㄜ"
+  },
+  {
+    "word": "national",
+    "current": "ㄋㄚ-ㄒㄛ-ㄋㄦ",
+    "suggested": "ㄋㄚ-ㄒㄜ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "-tio- 弱讀為 ㄒㄜ；-nal 弱讀 ㄋㄜ",
+    "current_actual": "ㄋㄚ-ㄒㄛ-ㄋㄦ"
+  },
+  {
+    "word": "natural",
+    "current": "ㄋㄚ-ㄑㄨ-ㄦ",
+    "suggested": "ㄋㄚ-ㄑㄜ-ㄖㄜ",
+    "type": "schwa",
+    "reason": "-tu- 弱讀 ㄑㄜ；-ral 弱讀 ㄖㄜ",
+    "current_actual": "ㄋㄚ-ㄑㄨ-ㄦ"
+  },
+  {
+    "word": "necessary",
+    "current": "ㄋㄧ-ㄙㄝ-ㄙㄚ-ㄌㄧ",
+    "suggested": "ㄋㄝ-ㄙㄜ-ㄙㄝ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "ne- 重音 ㄋㄝ；-ces- 弱讀 ㄙㄜ",
+    "current_actual": "ㄋㄧ-ㄙㄝ-ㄙㄚ-ㄌㄧ"
+  },
+  {
+    "word": "organization",
+    "current": "ㄛㄦ-ㄍㄚ-ㄋㄜ-ㄗㄝ-ㄒㄣ",
+    "suggested": "ㄛㄦ-ㄍㄜ-ㄋㄜ-ㄗㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-ga- 弱讀為 ㄍㄜ；-za- /zeɪ/ 為 ㄗㄟ",
+    "current_actual": "ㄛㄦ-ㄍㄚ-ㄋㄜ-ㄗㄝ-ㄒㄣ"
+  },
+  {
+    "word": "organize",
+    "current": "ㄛㄦ-ㄍㄚ-ㄋㄜ-ㄗㄧ",
+    "suggested": "ㄛㄦ-ㄍㄜ-ㄋㄞㄗ",
+    "type": "schwa",
+    "reason": "-ga- 弱讀為 ㄍㄜ；-nize /naɪz/",
+    "current_actual": "ㄛㄦ-ㄍㄚ-ㄋㄜ-ㄗㄧ"
+  },
+  {
+    "word": "personal",
+    "current": "ㄆㄜ-ㄙㄛ-ㄋㄦ",
+    "suggested": "ㄆㄜ-ㄙㄜ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "-so- 弱讀為 ㄙㄜ；-nal 弱讀 ㄋㄜ",
+    "current_actual": "ㄆㄜ-ㄙㄛ-ㄋㄦ"
+  },
+  {
+    "word": "popular",
+    "current": "ㄆㄛ-ㄆㄧㄨ-ㄌㄜ",
+    "suggested": "ㄆㄚ-ㄆㄧㄨ-ㄌㄜ",
+    "type": "vowel",
+    "reason": "po- /ˈpɑː/ 應為 ㄆㄚ",
+    "current_actual": "ㄆㄛ-ㄆㄧㄨ-ㄌㄜ"
+  },
+  {
+    "word": "possibility",
+    "current": "ㄆㄚ-ㄗㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄆㄚ-ㄙㄜ-ㄅㄜ-ㄌㄧ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-si- 為清音 /sɪ/ 用 ㄙ；-bi- 弱讀 ㄅㄜ",
+    "current_actual": "ㄆㄚ-ㄗㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "powerful",
+    "current": "ㄆㄛ-ㄜ-ㄈㄜ",
+    "suggested": "ㄆㄠ-ㄜ-ㄈㄜ",
+    "type": "vowel",
+    "reason": "pow- /paʊ/ 應為 ㄆㄠ",
+    "current_actual": "ㄆㄛ-ㄜ-ㄈㄜ"
+  },
+  {
+    "word": "prepare",
+    "current": "ㄆㄌㄧ-ㄆㄜ-ㄌㄧ",
+    "suggested": "ㄆㄌㄜ-ㄆㄝㄜ",
+    "type": "schwa",
+    "reason": "pre- 弱讀為 ㄆㄌㄜ；-pare 為單音節",
+    "current_actual": "ㄆㄌㄧ-ㄆㄜ-ㄌㄧ"
+  },
+  {
+    "word": "prove",
+    "current": "ㄆㄜ-ㄈㄜ",
+    "suggested": "ㄆㄖㄨㄈ",
+    "type": "error",
+    "reason": "prove /pruːv/ 單音節",
+    "current_actual": "ㄆㄜ-ㄈㄜ"
+  },
+  {
+    "word": "public",
+    "current": "ㄆㄚ-ㄌㄧㄎ",
+    "suggested": "ㄆㄚ-ㄅㄌㄧㄎ",
+    "type": "consonant",
+    "reason": "-blic 需要 b 音",
+    "current_actual": "ㄆㄚ-ㄌㄧㄎ"
+  },
+  {
+    "word": "refrigerator",
+    "current": "ㄌㄝ-ㄌㄧ-ㄐㄧ-ㄌㄚ-ㄊㄜ",
+    "suggested": "ㄌㄜ-ㄈㄌㄧ-ㄐㄜ-ㄌㄟ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "re- 弱讀 ㄌㄜ；-fri- 為 ㄈㄌㄧ；-ge- 弱讀 ㄐㄜ；-ra- /reɪ/",
+    "current_actual": "ㄌㄝ-ㄌㄧ-ㄐㄧ-ㄌㄚ-ㄊㄜ"
+  },
+  {
+    "word": "relation",
+    "current": "ㄌㄧ-ㄌㄚ-ㄒㄣ",
+    "suggested": "ㄌㄜ-ㄌㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "re- 弱讀；-la- /leɪ/",
+    "current_actual": "ㄌㄧ-ㄌㄚ-ㄒㄣ"
+  },
+  {
+    "word": "relationship",
+    "current": "ㄌㄧ-ㄌㄚ-ㄒㄣ-ㄒㄧㄆ",
+    "suggested": "ㄌㄜ-ㄌㄟ-ㄒㄣ-ㄒㄧㄆ",
+    "type": "schwa",
+    "reason": "re- 弱讀；-la- /leɪ/",
+    "current_actual": "ㄌㄧ-ㄌㄚ-ㄒㄣ-ㄒㄧㄆ"
+  },
+  {
+    "word": "responsible",
+    "current": "ㄌㄝㄙ-ㄆㄚㄣ-ㄒㄧㄅ-ㄌㄧ",
+    "suggested": "ㄌㄜ-ㄙㄆㄚㄣ-ㄙㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "re- 弱讀；-si- 弱讀 ㄙㄜ；-ble 為 ㄅㄜ",
+    "current_actual": "ㄌㄝㄙ-ㄆㄚㄣ-ㄒㄧㄅ-ㄌㄧ"
+  },
+  {
+    "word": "respect",
+    "current": "ㄌㄝㄙ-ㄙㄆㄝㄎㄊ",
+    "suggested": "ㄌㄜ-ㄙㄆㄝㄎㄊ",
+    "type": "schwa",
+    "reason": "re- 弱讀 ㄌㄜ",
+    "current_actual": "ㄌㄝㄙ-ㄙㄆㄝㄎㄊ"
+  },
+  {
+    "word": "society",
+    "current": "ㄙㄛ-ㄎㄞ-ㄊㄧ",
+    "suggested": "ㄙㄜ-ㄙㄞ-ㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "so- 弱讀；-ci- 為 ㄙㄞ，-e- 為弱讀 ㄜ；現拆音節錯",
+    "current_actual": "ㄙㄛ-ㄎㄞ-ㄊㄧ"
+  },
+  {
+    "word": "solution",
+    "current": "ㄙㄛ-ㄌㄨ-ㄒㄣ",
+    "suggested": "ㄙㄜ-ㄌㄨ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "so- 弱讀為 ㄙㄜ",
+    "current_actual": "ㄙㄛ-ㄌㄨ-ㄒㄣ"
+  },
+  {
+    "word": "succeed",
+    "current": "ㄙㄚㄎ-ㄙㄧㄉ",
+    "suggested": "ㄙㄜㄎ-ㄙㄧㄉ",
+    "type": "schwa",
+    "reason": "suc- 弱讀為 ㄙㄜㄎ",
+    "current_actual": "ㄙㄚㄎ-ㄙㄧㄉ"
+  },
+  {
+    "word": "success",
+    "current": "ㄙㄚㄎ-ㄙㄝㄙ",
+    "suggested": "ㄙㄜㄎ-ㄙㄝㄙ",
+    "type": "schwa",
+    "reason": "suc- 弱讀為 ㄙㄜㄎ",
+    "current_actual": "ㄙㄚㄎ-ㄙㄝㄙ"
+  },
+  {
+    "word": "successful",
+    "current": "ㄙㄚㄎ-ㄙㄝ-ㄙㄈㄚㄛ",
+    "suggested": "ㄙㄜㄎ-ㄙㄝㄙ-ㄈㄜ",
+    "type": "schwa",
+    "reason": "suc- 弱讀；-ful /fəl/ 弱讀 ㄈㄜ",
+    "current_actual": "ㄙㄚㄎ-ㄙㄝ-ㄙㄈㄚㄛ"
+  },
+  {
+    "word": "telephone",
+    "current": "ㄊㄧ-ㄌㄝㄆ-ㄏㄚ-ㄋㄧ",
+    "suggested": "ㄊㄝ-ㄌㄜ-ㄈㄛㄣ",
+    "type": "schwa",
+    "reason": "te- 重音 ㄊㄝ；-le- 弱讀 ㄌㄜ；-phone /foʊn/ 單音節 ph=f",
+    "current_actual": "ㄊㄧ-ㄌㄝㄆ-ㄏㄚ-ㄋㄧ"
+  },
+  {
+    "word": "television",
+    "current": "ㄊㄧ-ㄌㄧ-ㄈㄞ-ㄒㄣ",
+    "suggested": "ㄊㄝ-ㄌㄜ-ㄈㄧ-ㄓㄣ",
+    "type": "schwa",
+    "reason": "te- 重音 ㄊㄝ；-le- 弱讀 ㄌㄜ；-vi- /vɪ/",
+    "current_actual": "ㄊㄧ-ㄌㄧ-ㄈㄞ-ㄒㄣ"
+  },
+  {
+    "word": "upon",
+    "current": "ㄧㄨ-ㄆㄚㄣ",
+    "suggested": "ㄜ-ㄆㄚㄣ",
+    "type": "schwa",
+    "reason": "u- 弱讀為 ㄜ",
+    "current_actual": "ㄧㄨ-ㄆㄚㄣ"
+  },
+  {
+    "word": "announce",
+    "current": "ㄢ-ㄋㄠㄋ-ㄙㄜ",
+    "suggested": "ㄜ-ㄋㄠㄣㄙ",
+    "type": "schwa",
+    "reason": "an- 弱讀為 ㄜ；-nounce 為單音節",
+    "current_actual": "ㄢ-ㄋㄠㄋ-ㄙㄜ"
+  },
+  {
+    "word": "announcement",
+    "current": "ㄢ-ㄋㄠㄋ-ㄙㄜ-ㄇㄣㄊ",
+    "suggested": "ㄜ-ㄋㄠㄣㄙ-ㄇㄣㄊ",
+    "type": "schwa",
+    "reason": "an- 弱讀為 ㄜ",
+    "current_actual": "ㄢ-ㄋㄠㄋ-ㄙㄜ-ㄇㄣㄊ"
+  },
+  {
+    "word": "approve",
+    "current": "ㄚ-ㄆㄜ-ㄈㄜ",
+    "suggested": "ㄜ-ㄆㄖㄨㄈ",
+    "type": "schwa",
+    "reason": "ap- 弱讀 ㄜ；-prove /pruːv/ 單音節",
+    "current_actual": "ㄚ-ㄆㄜ-ㄈㄜ"
+  },
+  {
+    "word": "automobile",
+    "current": "ㄛ-ㄊㄛ-ㄇㄛ-ㄅㄞ-ㄌㄧ",
+    "suggested": "ㄛ-ㄊㄜ-ㄇㄜ-ㄅㄧㄦ",
+    "type": "schwa",
+    "reason": "-to- 弱讀 ㄊㄜ；-mo- 弱讀 ㄇㄜ；-bile 為 /biːl/ 單音節",
+    "current_actual": "ㄛ-ㄊㄛ-ㄇㄛ-ㄅㄞ-ㄌㄧ"
+  },
+  {
+    "word": "basis",
+    "current": "ㄅㄟ-ㄒㄜㄙ",
+    "suggested": "ㄅㄟ-ㄙㄜㄙ",
+    "type": "consonant",
+    "reason": "-sis 為 /sɪs/，s 不應為 ㄒ",
+    "current_actual": "ㄅㄟ-ㄒㄜㄙ"
+  },
+  {
+    "word": "business",
+    "current": "ㄅㄧㄨ-ㄗㄜ-ㄋㄝㄙ",
+    "suggested": "ㄅㄧㄗ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "business /ˈbɪznəs/ 兩音節",
+    "current_actual": "ㄅㄧㄨ-ㄗㄜ-ㄋㄝㄙ"
+  },
+  {
+    "word": "comparison",
+    "current": "ㄎㄚㄇ-ㄆㄜ-ㄌㄧ-ㄗㄣ",
+    "suggested": "ㄎㄜㄇ-ㄆㄝ-ㄌㄜ-ㄙㄣ",
+    "type": "schwa",
+    "reason": "com- 弱讀；-pa- /pær/ 重音；-ri- 弱讀；-son /sən/",
+    "current_actual": "ㄎㄚㄇ-ㄆㄜ-ㄌㄧ-ㄗㄣ"
+  },
+  {
+    "word": "complaint",
+    "current": "ㄎㄚㄇ-ㄆㄌㄟㄋㄊ",
+    "suggested": "ㄎㄜㄇ-ㄆㄌㄟㄣㄊ",
+    "type": "schwa",
+    "reason": "com- 弱讀為 ㄎㄜㄇ",
+    "current_actual": "ㄎㄚㄇ-ㄆㄌㄟㄋㄊ"
+  },
+  {
+    "word": "compete",
+    "current": "ㄎㄚㄇ-ㄆㄜ-ㄊㄧ",
+    "suggested": "ㄎㄜㄇ-ㄆㄧㄊ",
+    "type": "schwa",
+    "reason": "com- 弱讀；-pete /piːt/ 單音節",
+    "current_actual": "ㄎㄚㄇ-ㄆㄜ-ㄊㄧ"
+  },
+  {
+    "word": "compose",
+    "current": "ㄎㄚㄇ-ㄆㄛ-ㄙㄜ",
+    "suggested": "ㄎㄜㄇ-ㄆㄛㄗ",
+    "type": "schwa",
+    "reason": "com- 弱讀為 ㄎㄜㄇ；-pose 為單音節",
+    "current_actual": "ㄎㄚㄇ-ㄆㄛ-ㄙㄜ"
+  },
+  {
+    "word": "concentration",
+    "current": "ㄎㄚㄣ-ㄙㄝㄣ-ㄊㄌㄚ-ㄒㄣ",
+    "suggested": "ㄎㄚㄣ-ㄙㄣ-ㄊㄌㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-tra- /treɪ/ 為 ㄊㄌㄟ",
+    "current_actual": "ㄎㄚㄣ-ㄙㄝㄣ-ㄊㄌㄚ-ㄒㄣ"
+  },
+  {
+    "word": "conference",
+    "current": "ㄎㄚㄣ-ㄈㄧ-ㄌㄣ-ㄙㄜ",
+    "suggested": "ㄎㄚㄣ-ㄈㄜ-ㄌㄜㄣㄙ",
+    "type": "schwa",
+    "reason": "-fe- 弱讀 ㄈㄜ；-rence /rəns/",
+    "current_actual": "ㄎㄚㄣ-ㄈㄧ-ㄌㄣ-ㄙㄜ"
+  },
+  {
+    "word": "confess",
+    "current": "ㄎㄚㄣ-ㄈㄝㄙㄙ",
+    "suggested": "ㄎㄜㄣ-ㄈㄝㄙ",
+    "type": "schwa",
+    "reason": "con- 弱讀；-fess 為單一 ㄙ",
+    "current_actual": "ㄎㄚㄣ-ㄈㄝㄙㄙ"
+  },
+  {
+    "word": "confusion",
+    "current": "ㄎㄚㄣ-ㄈㄧㄨ-ㄒㄣ",
+    "suggested": "ㄎㄜㄣ-ㄈㄧㄨ-ㄓㄣ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜㄣ",
+    "current_actual": "ㄎㄚㄣ-ㄈㄧㄨ-ㄒㄣ"
+  },
+  {
+    "word": "confidence",
+    "current": "ㄎㄚㄣ-ㄈㄜ-ㄉㄣ-ㄙㄜ",
+    "suggested": "ㄎㄚㄣ-ㄈㄜ-ㄉㄣㄙ",
+    "type": "error",
+    "reason": "-dence 為單音節 /dəns/",
+    "current_actual": "ㄎㄚㄣ-ㄈㄜ-ㄉㄣ-ㄙㄜ"
+  },
+  {
+    "word": "convenience",
+    "current": "ㄎㄚㄣ-ㄈㄜ-ㄋㄞㄋ-ㄙㄜ",
+    "suggested": "ㄎㄜㄣ-ㄈㄧ-ㄋㄧㄣㄙ",
+    "type": "schwa",
+    "reason": "con- 弱讀；-ven- /viːn/；-ience /jəns/",
+    "current_actual": "ㄎㄚㄣ-ㄈㄜ-ㄋㄞㄋ-ㄙㄜ"
+  },
+  {
+    "word": "construction",
+    "current": "ㄎㄛㄋㄙ-ㄊㄖㄚㄎ-ㄒㄣ",
+    "suggested": "ㄎㄜㄣ-ㄙㄊㄖㄚㄎ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "con- 弱讀為 ㄎㄜㄣ",
+    "current_actual": "ㄎㄛㄋㄙ-ㄊㄖㄚㄎ-ㄒㄣ"
+  },
+  {
+    "word": "contribution",
+    "current": "ㄎㄚㄣ-ㄊㄌㄧ-ㄅㄧㄨ-ㄒㄣ",
+    "suggested": "ㄎㄚㄣ-ㄊㄌㄜ-ㄅㄧㄨ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-tri- 弱讀為 ㄊㄌㄜ",
+    "current_actual": "ㄎㄚㄣ-ㄊㄌㄧ-ㄅㄧㄨ-ㄒㄣ"
+  },
+  {
+    "word": "description",
+    "current": "ㄉㄧ-ㄎㄖㄧㄆ-ㄒㄣ",
+    "suggested": "ㄉㄜ-ㄙㄎㄖㄧㄆ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "de- 弱讀為 ㄉㄜ",
+    "current_actual": "ㄉㄧ-ㄎㄖㄧㄆ-ㄒㄣ"
+  },
+  {
+    "word": "describe",
+    "current": "ㄉㄧ-ㄎㄌㄞ-ㄅㄧ",
+    "suggested": "ㄉㄜ-ㄙㄎㄖㄞㄅ",
+    "type": "error",
+    "reason": "describe /dɪˈskraɪb/ 兩音節；s 不應省略",
+    "current_actual": "ㄉㄧ-ㄎㄌㄞ-ㄅㄧ"
+  },
+  {
+    "word": "determine",
+    "current": "ㄉㄧ-ㄊㄜ-ㄇㄞ-ㄋㄧ",
+    "suggested": "ㄉㄜ-ㄊㄜ-ㄇㄜㄣ",
+    "type": "schwa",
+    "reason": "de- 弱讀；-mine /mɪn/ 單音節弱讀",
+    "current_actual": "ㄉㄧ-ㄊㄜ-ㄇㄞ-ㄋㄧ"
+  },
+  {
+    "word": "electronic",
+    "current": "ㄧ-ㄌㄝㄎ-ㄊㄌㄛ-ㄋㄧㄎ",
+    "suggested": "ㄧ-ㄌㄝㄎ-ㄊㄌㄚ-ㄋㄧㄎ",
+    "type": "vowel",
+    "reason": "-tro- /trɑː/ 重音為 ㄊㄌㄚ",
+    "current_actual": "ㄧ-ㄌㄝㄎ-ㄊㄌㄛ-ㄋㄧㄎ"
+  },
+  {
+    "word": "emphasize",
+    "current": "ㄝㄇ-ㄈㄚ-ㄗㄜ-ㄗㄧ",
+    "suggested": "ㄝㄇ-ㄈㄜ-ㄙㄞㄗ",
+    "type": "schwa",
+    "reason": "-pha- 弱讀 ㄈㄜ；-size /saɪz/ 單音節",
+    "current_actual": "ㄝㄇ-ㄈㄚ-ㄗㄜ-ㄗㄧ"
+  },
+  {
+    "word": "engine",
+    "current": "ㄣ-ㄐㄜ-ㄋㄧ",
+    "suggested": "ㄝㄣ-ㄐㄜㄣ",
+    "type": "error",
+    "reason": "engine /ˈɛndʒɪn/ 兩音節",
+    "current_actual": "ㄣ-ㄐㄜ-ㄋㄧ"
+  },
+  {
+    "word": "engineering",
+    "current": "ㄣ-ㄐㄜ-ㄋㄧ-ㄌㄧㄥ",
+    "suggested": "ㄝㄣ-ㄐㄜ-ㄋㄧㄦ-ㄌㄧㄥ",
+    "type": "schwa",
+    "reason": "en- 重音 ㄝㄣ；-neer /nɪr/",
+    "current_actual": "ㄣ-ㄐㄜ-ㄋㄧ-ㄌㄧㄥ"
+  },
+  {
+    "word": "environmental",
+    "current": "ㄣ-ㄈㄞ-ㄌㄚㄣ-ㄇㄣ-ㄉㄜ",
+    "suggested": "ㄣ-ㄈㄞ-ㄖㄜㄣ-ㄇㄣ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "-ron- 弱讀為 ㄖㄜㄣ；-tal 為清音 ㄊㄜ",
+    "current_actual": "ㄣ-ㄈㄞ-ㄌㄚㄣ-ㄇㄣ-ㄉㄜ"
+  },
+  {
+    "word": "escape",
+    "current": "ㄝㄙ-ㄎㄚ-ㄆㄜ",
+    "suggested": "ㄝ-ㄙㄎㄟㄆ",
+    "type": "error",
+    "reason": "escape /ɪˈskeɪp/ 兩音節；-cape /keɪp/",
+    "current_actual": "ㄝㄙ-ㄎㄚ-ㄆㄜ"
+  },
+  {
+    "word": "explode",
+    "current": "ㄝㄎㄙ-ㄆㄌㄛ-ㄉㄧ",
+    "suggested": "ㄝㄎㄙ-ㄆㄌㄛㄉ",
+    "type": "error",
+    "reason": "-plode /ploʊd/ 單音節",
+    "current_actual": "ㄝㄎㄙ-ㄆㄌㄛ-ㄉㄧ"
+  },
+  {
+    "word": "extreme",
+    "current": "ㄝㄎㄙ-ㄊㄌㄜ-ㄇㄝ",
+    "suggested": "ㄝㄎㄙ-ㄊㄌㄧㄇ",
+    "type": "error",
+    "reason": "-treme /triːm/ 單音節",
+    "current_actual": "ㄝㄎㄙ-ㄊㄌㄜ-ㄇㄝ"
+  },
+  {
+    "word": "familiar",
+    "current": "ㄈㄚ-ㄇㄞ-ㄌㄧㄚㄜ",
+    "suggested": "ㄈㄜ-ㄇㄧ-ㄌㄧㄜ",
+    "type": "schwa",
+    "reason": "fa- 弱讀 ㄈㄜ；-mi- /mɪl/ 為 ㄇㄧ",
+    "current_actual": "ㄈㄚ-ㄇㄞ-ㄌㄧㄚㄜ"
+  },
+  {
+    "word": "fortune",
+    "current": "ㄈㄛ-ㄑㄨ-ㄋㄧ",
+    "suggested": "ㄈㄛㄦ-ㄑㄜㄣ",
+    "type": "schwa",
+    "reason": "-tune /tʃən/ 為弱讀單音節",
+    "current_actual": "ㄈㄛ-ㄑㄨ-ㄋㄧ"
+  },
+  {
+    "word": "fragrant",
+    "current": "ㄈㄖㄚ-ㄌㄣㄊ",
+    "suggested": "ㄈㄖㄟ-ㄍㄜㄣㄊ",
+    "type": "error",
+    "reason": "fragrant /ˈfreɪɡrənt/ -gr- 不應省略 g",
+    "current_actual": "ㄈㄖㄚ-ㄌㄣㄊ"
+  },
+  {
+    "word": "furniture",
+    "current": "ㄈㄦ-ㄋㄜ-ㄑㄨ-ㄌㄧ",
+    "suggested": "ㄈㄜ-ㄋㄜ-ㄑㄜㄦ",
+    "type": "schwa",
+    "reason": "-ture /tʃər/ 為單音節弱讀；現拆 4 音節錯",
+    "current_actual": "ㄈㄦ-ㄋㄜ-ㄑㄨ-ㄌㄧ"
+  },
+  {
+    "word": "gasoline",
+    "current": "ㄍㄚ-ㄙㄛ-ㄌㄧ-ㄋㄧ",
+    "suggested": "ㄍㄚ-ㄙㄜ-ㄌㄧㄋ",
+    "type": "schwa",
+    "reason": "-so- 弱讀 ㄙㄜ；-line /liːn/ 單音節",
+    "current_actual": "ㄍㄚ-ㄙㄛ-ㄌㄧ-ㄋㄧ"
+  },
+  {
+    "word": "honesty",
+    "current": "ㄏㄚ-ㄋㄝㄙ-ㄊㄧ",
+    "suggested": "ㄚ-ㄋㄜㄙ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "h 不發音；-nes- 弱讀 ㄋㄜㄙ",
+    "current_actual": "ㄏㄚ-ㄋㄝㄙ-ㄊㄧ"
+  },
+  {
+    "word": "honor",
+    "current": "ㄏㄚ-ㄋㄜ",
+    "suggested": "ㄚ-ㄋㄜ",
+    "type": "silent-missing",
+    "reason": "honor 開頭 h 不發音",
+    "current_actual": "ㄏㄚ-ㄋㄜ"
+  },
+  {
+    "word": "horrible",
+    "current": "ㄏㄚ-ㄌㄧㄅ-ㄌㄧ",
+    "suggested": "ㄏㄛ-ㄌㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-ri- 弱讀為 ㄌㄜ；-ble 弱讀為 ㄅㄜ",
+    "current_actual": "ㄏㄚ-ㄌㄧㄅ-ㄌㄧ"
+  },
+  {
+    "word": "housekeeper",
+    "current": "ㄏㄠ-ㄙㄜ-ㄎㄧ-ㄆㄜ",
+    "suggested": "ㄏㄠㄙ-ㄎㄧ-ㄆㄜ",
+    "type": "error",
+    "reason": "house /haʊs/ 單音節",
+    "current_actual": "ㄏㄠ-ㄙㄜ-ㄎㄧ-ㄆㄜ"
+  },
+  {
+    "word": "icebox",
+    "current": "ㄌㄜ-ㄙㄜ-ㄅㄚㄎㄙ",
+    "suggested": "ㄞㄙ-ㄅㄚㄎㄙ",
+    "type": "error",
+    "reason": "ice /aɪs/ 單音節，現 3 拆錯誤",
+    "current_actual": "ㄌㄜ-ㄙㄜ-ㄅㄚㄎㄙ"
+  },
+  {
+    "word": "image",
+    "current": "ㄌㄜ-ㄇㄚ-ㄐㄧ",
+    "suggested": "ㄧ-ㄇㄜㄐ",
+    "type": "error",
+    "reason": "image /ˈɪmɪdʒ/ 兩音節",
+    "current_actual": "ㄌㄜ-ㄇㄚ-ㄐㄧ"
+  },
+  {
+    "word": "imagination",
+    "current": "ㄌㄜ-ㄇㄚ-ㄐㄜ-ㄋㄚ-ㄒㄣ",
+    "suggested": "ㄧ-ㄇㄚ-ㄐㄜ-ㄋㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "i- /ɪ/ 為 ㄧ；-na- /neɪ/",
+    "current_actual": "ㄌㄜ-ㄇㄚ-ㄐㄜ-ㄋㄚ-ㄒㄣ"
+  },
+  {
+    "word": "immediate",
+    "current": "ㄧㄇ-ㄇㄝ-ㄉㄞ-ㄊㄧ",
+    "suggested": "ㄧㄇ-ㄇㄧ-ㄉㄧ-ㄜㄊ",
+    "type": "schwa",
+    "reason": "-me- 為 /miː/ ㄇㄧ；-di- /di/ 接 schwa",
+    "current_actual": "ㄧㄇ-ㄇㄝ-ㄉㄞ-ㄊㄧ"
+  },
+  {
+    "word": "increase",
+    "current": "ㄧㄣ-ㄎㄖㄧ-ㄙㄜ",
+    "suggested": "ㄧㄣ-ㄎㄖㄧㄙ",
+    "type": "error",
+    "reason": "-crease /kriːs/ 單音節",
+    "current_actual": "ㄧㄣ-ㄎㄖㄧ-ㄙㄜ"
+  },
+  {
+    "word": "include",
+    "current": "ㄧㄣ-ㄎㄌㄨ-ㄉㄧ",
+    "suggested": "ㄧㄣ-ㄎㄌㄨㄉ",
+    "type": "error",
+    "reason": "-clude /kluːd/ 單音節",
+    "current_actual": "ㄧㄣ-ㄎㄌㄨ-ㄉㄧ"
+  },
+  {
+    "word": "jealousy",
+    "current": "ㄐㄝ-ㄌㄠ-ㄗㄧ",
+    "suggested": "ㄐㄝ-ㄌㄜ-ㄙㄧ",
+    "type": "schwa",
+    "reason": "-lou- 弱讀為 ㄌㄜ /lə/",
+    "current_actual": "ㄐㄝ-ㄌㄠ-ㄗㄧ"
+  },
+  {
+    "word": "kilometer",
+    "current": "ㄎㄧ-ㄌㄛ-ㄇㄝ-ㄊㄜ",
+    "suggested": "ㄎㄜ-ㄌㄚ-ㄇㄜ-ㄊㄜ",
+    "type": "schwa",
+    "reason": "ki- 弱讀 ㄎㄜ；-lo- 重音 ㄌㄚ；-me- 弱讀 ㄇㄜ",
+    "current_actual": "ㄎㄧ-ㄌㄛ-ㄇㄝ-ㄊㄜ"
+  },
+  {
+    "word": "lifeboat",
+    "current": "ㄌㄧ-ㄈㄧ-ㄅㄛㄊ",
+    "suggested": "ㄌㄞㄈ-ㄅㄛㄊ",
+    "type": "error",
+    "reason": "life /laɪf/ 單音節",
+    "current_actual": "ㄌㄧ-ㄈㄧ-ㄅㄛㄊ"
+  },
+  {
+    "word": "lifeguard",
+    "current": "ㄌㄧ-ㄈㄧ-ㄍㄚㄚㄜㄉ",
+    "suggested": "ㄌㄞㄈ-ㄍㄚㄦㄉ",
+    "type": "error",
+    "reason": "life /laɪf/ 單音節",
+    "current_actual": "ㄌㄧ-ㄈㄧ-ㄍㄚㄚㄜㄉ"
+  },
+  {
+    "word": "lively",
+    "current": "ㄌㄧ-ㄈㄜ-ㄌㄧ",
+    "suggested": "ㄌㄞㄈ-ㄌㄧ",
+    "type": "error",
+    "reason": "live(ly) /laɪv/ 為單音節",
+    "current_actual": "ㄌㄧ-ㄈㄜ-ㄌㄧ"
+  },
+  {
+    "word": "loosen",
+    "current": "ㄌㄨ-ㄙㄝㄣ",
+    "suggested": "ㄌㄨ-ㄙㄜㄣ",
+    "type": "schwa",
+    "reason": "-sen 弱讀為 ㄙㄜㄣ",
+    "current_actual": "ㄌㄨ-ㄙㄝㄣ"
+  },
+  {
+    "word": "machinery",
+    "current": "ㄇㄚ-ㄏㄞ-ㄋㄧ-ㄌㄧ",
+    "suggested": "ㄇㄜ-ㄒㄧ-ㄋㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "ma- 弱讀 ㄇㄜ；-chi- /ʃiː/ 為 ㄒㄧ；-ne- 弱讀 ㄋㄜ",
+    "current_actual": "ㄇㄚ-ㄏㄞ-ㄋㄧ-ㄌㄧ"
+  },
+  {
+    "word": "majority",
+    "current": "ㄇㄚ-ㄐㄛ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄇㄜ-ㄐㄛ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "ma- 弱讀 ㄇㄜ；-ri- 弱讀 ㄌㄜ",
+    "current_actual": "ㄇㄚ-ㄐㄛ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "management",
+    "current": "ㄇㄚ-ㄋㄚ-ㄐㄧ-ㄇㄣㄊ",
+    "suggested": "ㄇㄚ-ㄋㄜㄐ-ㄇㄣㄊ",
+    "type": "error",
+    "reason": "manage /ˈmænɪdʒ/ 兩音節",
+    "current_actual": "ㄇㄚ-ㄋㄚ-ㄐㄧ-ㄇㄣㄊ"
+  },
+  {
+    "word": "manage",
+    "current": "ㄇㄚ-ㄋㄚ-ㄐㄧ",
+    "suggested": "ㄇㄚ-ㄋㄜㄐ",
+    "type": "schwa",
+    "reason": "-nage /nɪdʒ/ 弱讀單音節",
+    "current_actual": "ㄇㄚ-ㄋㄚ-ㄐㄧ"
+  },
+  {
+    "word": "manufacture",
+    "current": "ㄇㄚ-ㄋㄨ-ㄈㄚㄎ-ㄑㄨ-ㄌㄧ",
+    "suggested": "ㄇㄚ-ㄋㄩ-ㄈㄚㄎ-ㄑㄜ",
+    "type": "schwa",
+    "reason": "-ture /tʃər/ 為單音節弱讀",
+    "current_actual": "ㄇㄚ-ㄋㄨ-ㄈㄚㄎ-ㄑㄨ-ㄌㄧ"
+  },
+  {
+    "word": "mathematical",
+    "current": "ㄇㄚ-ㄏㄝ-ㄇㄚ-ㄊㄜ-ㄎㄜ",
+    "suggested": "ㄇㄚ-ㄒㄜ-ㄇㄚ-ㄊㄜ-ㄎㄜ",
+    "type": "consonant",
+    "reason": "th /θ/ 應為 ㄒ；-the- /θə/ 弱讀",
+    "current_actual": "ㄇㄚ-ㄏㄝ-ㄇㄚ-ㄊㄜ-ㄎㄜ"
+  },
+  {
+    "word": "meaningful",
+    "current": "ㄇㄧ-ㄋㄧㄣ-ㄍㄈㄚㄛ",
+    "suggested": "ㄇㄧ-ㄋㄧㄥ-ㄈㄜ",
+    "type": "error",
+    "reason": "-ful /fəl/ 弱讀；不應有 ㄍ",
+    "current_actual": "ㄇㄧ-ㄋㄧㄣ-ㄍㄈㄚㄛ"
+  },
+  {
+    "word": "minority",
+    "current": "ㄇㄞ-ㄋㄛ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄇㄜ-ㄋㄛ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "mi- 弱讀 ㄇㄜ；-ri- 弱讀 ㄌㄜ",
+    "current_actual": "ㄇㄞ-ㄋㄛ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "motivate",
+    "current": "ㄇㄛ-ㄊㄜ-ㄈㄚ-ㄊㄧ",
+    "suggested": "ㄇㄛ-ㄊㄜ-ㄈㄟㄊ",
+    "type": "error",
+    "reason": "-vate /veɪt/ 單音節",
+    "current_actual": "ㄇㄛ-ㄊㄜ-ㄈㄚ-ㄊㄧ"
+  },
+  {
+    "word": "motivation",
+    "current": "ㄇㄛ-ㄊㄜ-ㄈㄚ-ㄒㄣ",
+    "suggested": "ㄇㄛ-ㄊㄜ-ㄈㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-va- /veɪ/ 為 ㄈㄟ",
+    "current_actual": "ㄇㄛ-ㄊㄜ-ㄈㄚ-ㄒㄣ"
+  },
+  {
+    "word": "necessity",
+    "current": "ㄋㄧ-ㄙㄝ-ㄗㄜ-ㄊㄧ",
+    "suggested": "ㄋㄜ-ㄙㄝ-ㄙㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "ne- 弱讀 ㄋㄜ；-si- 為清音 ㄙㄜ",
+    "current_actual": "ㄋㄧ-ㄙㄝ-ㄗㄜ-ㄊㄧ"
+  },
+  {
+    "word": "overcome",
+    "current": "ㄛ-ㄈㄜ-ㄎㄛ-ㄇㄝ",
+    "suggested": "ㄛ-ㄈㄜ-ㄎㄚㄇ",
+    "type": "error",
+    "reason": "come /kʌm/ 單音節",
+    "current_actual": "ㄛ-ㄈㄜ-ㄎㄛ-ㄇㄝ"
+  },
+  {
+    "word": "passenger",
+    "current": "ㄆㄚㄙ-ㄙㄝㄣ-ㄍㄜ",
+    "suggested": "ㄆㄚㄙ-ㄙㄜㄣ-ㄐㄜ",
+    "type": "schwa",
+    "reason": "-sen- 弱讀 ㄙㄜㄣ；-ger /dʒər/ 為 ㄐㄜ",
+    "current_actual": "ㄆㄚㄙ-ㄙㄝㄣ-ㄍㄜ"
+  },
+  {
+    "word": "patience",
+    "current": "ㄆㄜ-ㄊㄞㄋ-ㄙㄜ",
+    "suggested": "ㄆㄟ-ㄒㄜㄣㄙ",
+    "type": "error",
+    "reason": "patience /ˈpeɪʃəns/ 兩音節",
+    "current_actual": "ㄆㄜ-ㄊㄞㄋ-ㄙㄜ"
+  },
+  {
+    "word": "personality",
+    "current": "ㄆㄜ-ㄙㄛ-ㄋㄚ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄆㄜ-ㄙㄜ-ㄋㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-so- 弱讀 ㄙㄜ；-li- 弱讀 ㄌㄜ",
+    "current_actual": "ㄆㄜ-ㄙㄛ-ㄋㄚ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "persuade",
+    "current": "ㄆㄜ-ㄙㄨㄟ-ㄉㄧ",
+    "suggested": "ㄆㄜ-ㄙㄨㄟㄉ",
+    "type": "error",
+    "reason": "-suade /sweɪd/ 單音節",
+    "current_actual": "ㄆㄜ-ㄙㄨㄟ-ㄉㄧ"
+  },
+  {
+    "word": "postpone",
+    "current": "ㄆㄚ-ㄊㄆㄛ-ㄋㄧ",
+    "suggested": "ㄆㄛㄙㄊ-ㄆㄛㄣ",
+    "type": "error",
+    "reason": "postpone /poʊstˈpoʊn/ 兩音節，-pone /poʊn/ 單音節",
+    "current_actual": "ㄆㄚ-ㄊㄆㄛ-ㄋㄧ"
+  },
+  {
+    "word": "postage",
+    "current": "ㄆㄚ-ㄊㄝ-ㄐㄧ",
+    "suggested": "ㄆㄛㄙ-ㄊㄜㄐ",
+    "type": "schwa",
+    "reason": "post 為 /poʊst/；-age /ɪdʒ/ 弱讀",
+    "current_actual": "ㄆㄚ-ㄊㄝ-ㄐㄧ"
+  },
+  {
+    "word": "presence",
+    "current": "ㄆㄌㄧ-ㄙㄝㄣ-ㄙㄜ",
+    "suggested": "ㄆㄌㄝ-ㄗㄜㄣㄙ",
+    "type": "vowel",
+    "reason": "pre- /ˈprɛz/ 重音為 ㄆㄌㄝ",
+    "current_actual": "ㄆㄌㄧ-ㄙㄝㄣ-ㄙㄜ"
+  },
+  {
+    "word": "preparation",
+    "current": "ㄆㄌㄧ-ㄆㄜ-ㄌㄚ-ㄒㄣ",
+    "suggested": "ㄆㄌㄝ-ㄆㄜ-ㄌㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "pre- /prɛp/ 重音 ㄆㄌㄝ；-ra- /reɪ/",
+    "current_actual": "ㄆㄌㄧ-ㄆㄜ-ㄌㄚ-ㄒㄣ"
+  },
+  {
+    "word": "prevent",
+    "current": "ㄆㄌㄧ-ㄈㄣㄊ",
+    "suggested": "ㄆㄌㄜ-ㄈㄝㄣㄊ",
+    "type": "schwa",
+    "reason": "pre- 弱讀為 ㄆㄌㄜ",
+    "current_actual": "ㄆㄌㄧ-ㄈㄣㄊ"
+  },
+  {
+    "word": "pressure",
+    "current": "ㄆㄌㄝ-ㄙㄨ-ㄌㄧ",
+    "suggested": "ㄆㄌㄝ-ㄒㄜ",
+    "type": "error",
+    "reason": "pressure /ˈprɛʃər/ 兩音節；-sure /ʃər/ 單音節",
+    "current_actual": "ㄆㄌㄝ-ㄙㄨ-ㄌㄧ"
+  },
+  {
+    "word": "private",
+    "current": "ㄆㄌㄞ-ㄈㄚ-ㄊㄧ",
+    "suggested": "ㄆㄌㄞ-ㄈㄜㄊ",
+    "type": "schwa",
+    "reason": "-vate /vət/ 弱讀單音節",
+    "current_actual": "ㄆㄌㄞ-ㄈㄚ-ㄊㄧ"
+  },
+  {
+    "word": "produce",
+    "current": "ㄆㄜ-ㄉㄨ-ㄙㄜ",
+    "suggested": "ㄆㄌㄜ-ㄉㄩㄙ",
+    "type": "error",
+    "reason": "pro- /prə/ 需要 r；-duce /djuːs/ 單音節",
+    "current_actual": "ㄆㄜ-ㄉㄨ-ㄙㄜ"
+  },
+  {
+    "word": "protect",
+    "current": "ㄆㄜ-ㄊㄝㄎㄊ",
+    "suggested": "ㄆㄌㄜ-ㄊㄝㄎㄊ",
+    "type": "consonant",
+    "reason": "漏 r 音，pro- 為 ㄆㄌㄜ",
+    "current_actual": "ㄆㄜ-ㄊㄝㄎㄊ"
+  },
+  {
+    "word": "protection",
+    "current": "ㄆㄜ-ㄊㄝㄎ-ㄒㄣ",
+    "suggested": "ㄆㄌㄜ-ㄊㄝㄎ-ㄒㄣ",
+    "type": "consonant",
+    "reason": "漏 r 音",
+    "current_actual": "ㄆㄜ-ㄊㄝㄎ-ㄒㄣ"
+  },
+  {
+    "word": "protective",
+    "current": "ㄆㄜ-ㄊㄝㄎ-ㄊㄜ-ㄈㄜ",
+    "suggested": "ㄆㄌㄜ-ㄊㄝㄎ-ㄊㄜㄈ",
+    "type": "consonant",
+    "reason": "漏 r 音",
+    "current_actual": "ㄆㄜ-ㄊㄝㄎ-ㄊㄜ-ㄈㄜ"
+  },
+  {
+    "word": "promise",
+    "current": "ㄆㄜ-ㄇㄞ-ㄙㄜ",
+    "suggested": "ㄆㄌㄚ-ㄇㄜㄙ",
+    "type": "error",
+    "reason": "漏 r；prom- /prɑːm/；-ise /ɪs/ 弱讀",
+    "current_actual": "ㄆㄜ-ㄇㄞ-ㄙㄜ"
+  },
+  {
+    "word": "pronounce",
+    "current": "ㄆㄜ-ㄋㄠㄋ-ㄙㄜ",
+    "suggested": "ㄆㄌㄜ-ㄋㄠㄣㄙ",
+    "type": "schwa",
+    "reason": "pro- 弱讀 ㄆㄌㄜ；-nounce 單音節",
+    "current_actual": "ㄆㄜ-ㄋㄠㄋ-ㄙㄜ"
+  },
+  {
+    "word": "provide",
+    "current": "ㄆㄜ-ㄈㄞ-ㄉㄧ",
+    "suggested": "ㄆㄌㄜ-ㄈㄞㄉ",
+    "type": "error",
+    "reason": "漏 r；-vide /vaɪd/ 單音節",
+    "current_actual": "ㄆㄜ-ㄈㄞ-ㄉㄧ"
+  },
+  {
+    "word": "realize",
+    "current": "ㄌㄝ-ㄌㄧ-ㄗㄧ",
+    "suggested": "ㄌㄧ-ㄜ-ㄌㄞㄗ",
+    "type": "error",
+    "reason": "realize /ˈriːəlaɪz/，-lize /laɪz/",
+    "current_actual": "ㄌㄝ-ㄌㄧ-ㄗㄧ"
+  },
+  {
+    "word": "reality",
+    "current": "ㄌㄝ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄌㄧ-ㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "error",
+    "reason": "reality /riˈæləti/ 四音節",
+    "current_actual": "ㄌㄝ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "receiver",
+    "current": "ㄌㄧ-ㄒㄧ-ㄈㄜ",
+    "suggested": "ㄌㄜ-ㄙㄧ-ㄈㄜ",
+    "type": "schwa",
+    "reason": "re- 弱讀 ㄌㄜ；c 為 /s/ ㄙ",
+    "current_actual": "ㄌㄧ-ㄒㄧ-ㄈㄜ"
+  },
+  {
+    "word": "recognize",
+    "current": "ㄌㄧ-ㄎㄛㄍ-ㄋㄜ-ㄗㄧ",
+    "suggested": "ㄌㄝ-ㄎㄜㄍ-ㄋㄞㄗ",
+    "type": "error",
+    "reason": "-nize /naɪz/ 單音節",
+    "current_actual": "ㄌㄧ-ㄎㄛㄍ-ㄋㄜ-ㄗㄧ"
+  },
+  {
+    "word": "reasonable",
+    "current": "ㄌㄝ-ㄙㄛ-ㄋㄚㄅ-ㄌㄧ",
+    "suggested": "ㄌㄧ-ㄗㄜ-ㄋㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-so- /zə/ 弱讀 ㄗㄜ；-na- 弱讀 ㄋㄜ；-ble 為 ㄅㄜ",
+    "current_actual": "ㄌㄝ-ㄙㄛ-ㄋㄚㄅ-ㄌㄧ"
+  },
+  {
+    "word": "refuse",
+    "current": "ㄌㄧ-ㄈㄧㄨ-ㄙㄜ",
+    "suggested": "ㄌㄜ-ㄈㄧㄨㄗ",
+    "type": "schwa",
+    "reason": "re- 弱讀 ㄌㄜ；-fuse 為單音節",
+    "current_actual": "ㄌㄧ-ㄈㄧㄨ-ㄙㄜ"
+  },
+  {
+    "word": "regard",
+    "current": "ㄌㄧ-ㄍㄚㄦㄉ",
+    "suggested": "ㄌㄜ-ㄍㄚㄦㄉ",
+    "type": "schwa",
+    "reason": "re- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄌㄧ-ㄍㄚㄦㄉ"
+  },
+  {
+    "word": "regular",
+    "current": "ㄌㄧ-ㄍㄧㄨ-ㄌㄜ",
+    "suggested": "ㄖㄝ-ㄍㄧㄨ-ㄌㄜ",
+    "type": "vowel",
+    "reason": "re- /ˈrɛɡ/ 重音為 ㄖㄝ",
+    "current_actual": "ㄌㄧ-ㄍㄧㄨ-ㄌㄜ"
+  },
+  {
+    "word": "remind",
+    "current": "ㄌㄧ-ㄇㄞㄣㄉ",
+    "suggested": "ㄌㄜ-ㄇㄞㄣㄉ",
+    "type": "schwa",
+    "reason": "re- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄌㄧ-ㄇㄞㄣㄉ"
+  },
+  {
+    "word": "remote",
+    "current": "ㄌㄧ-ㄇㄛ-ㄊㄧ",
+    "suggested": "ㄌㄜ-ㄇㄛㄊ",
+    "type": "error",
+    "reason": "re- 弱讀；-mote /moʊt/ 單音節",
+    "current_actual": "ㄌㄧ-ㄇㄛ-ㄊㄧ"
+  },
+  {
+    "word": "repair",
+    "current": "ㄌㄧ-ㄆㄝㄜ",
+    "suggested": "ㄌㄜ-ㄆㄝㄜ",
+    "type": "schwa",
+    "reason": "re- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄌㄧ-ㄆㄝㄜ"
+  },
+  {
+    "word": "replace",
+    "current": "ㄌㄝ-ㄌㄚ-ㄙㄜ",
+    "suggested": "ㄌㄜ-ㄆㄌㄟㄙ",
+    "type": "error",
+    "reason": "漏 p 音；-place /pleɪs/ 單音節",
+    "current_actual": "ㄌㄝ-ㄌㄚ-ㄙㄜ"
+  },
+  {
+    "word": "request",
+    "current": "ㄌㄧ-ㄎㄨㄝㄙㄊ",
+    "suggested": "ㄌㄜ-ㄎㄨㄝㄙㄊ",
+    "type": "schwa",
+    "reason": "re- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄌㄧ-ㄎㄨㄝㄙㄊ"
+  },
+  {
+    "word": "resist",
+    "current": "ㄌㄧ-ㄙㄧㄙㄊ",
+    "suggested": "ㄌㄜ-ㄗㄧㄙㄊ",
+    "type": "schwa",
+    "reason": "re- 弱讀為 ㄌㄜ；-sist /zɪst/ s 濁化",
+    "current_actual": "ㄌㄧ-ㄙㄧㄙㄊ"
+  },
+  {
+    "word": "responsibility",
+    "current": "ㄌㄝㄙ-ㄆㄚㄣ-ㄗㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄌㄜ-ㄙㄆㄚㄣ-ㄙㄜ-ㄅㄜ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "re- 弱讀；-si- 弱讀 ㄙㄜ；-bi- 弱讀 ㄅㄜ；-li- 弱讀 ㄌㄜ",
+    "current_actual": "ㄌㄝㄙ-ㄆㄚㄣ-ㄗㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "response",
+    "current": "ㄌㄝㄙ-ㄆㄚㄣ-ㄙㄜ",
+    "suggested": "ㄌㄜ-ㄙㄆㄚㄣㄙ",
+    "type": "error",
+    "reason": "response /rɪˈspɑːns/ 兩音節",
+    "current_actual": "ㄌㄝㄙ-ㄆㄚㄣ-ㄙㄜ"
+  },
+  {
+    "word": "servant",
+    "current": "ㄗㄜ-ㄨㄣㄊ",
+    "suggested": "ㄙㄜ-ㄈㄜㄣㄊ",
+    "type": "consonant",
+    "reason": "v 應為 ㄈ，不是 ㄨ",
+    "current_actual": "ㄗㄜ-ㄨㄣㄊ"
+  },
+  {
+    "word": "suppose",
+    "current": "ㄙㄜ-ㄆㄛ-ㄙㄜ",
+    "suggested": "ㄙㄜ-ㄆㄛㄗ",
+    "type": "error",
+    "reason": "-pose /poʊz/ 單音節",
+    "current_actual": "ㄙㄜ-ㄆㄛ-ㄙㄜ"
+  },
+  {
+    "word": "vacant",
+    "current": "ㄈㄚ-ㄎㄣㄊ",
+    "suggested": "ㄈㄟ-ㄎㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "va- /veɪ/ 為 ㄈㄟ；-cant 弱讀 ㄎㄜㄣㄊ",
+    "current_actual": "ㄈㄚ-ㄎㄣㄊ"
+  },
+  {
+    "word": "valuable",
+    "current": "ㄈㄚ-ㄌㄚㄚㄅ-ㄌㄧ",
+    "suggested": "ㄈㄚ-ㄌㄧㄨ-ㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-lu- /lju/；-a- /ə/；-ble 為 ㄅㄜ",
+    "current_actual": "ㄈㄚ-ㄌㄚㄚㄅ-ㄌㄧ"
+  },
+  {
+    "word": "violent",
+    "current": "ㄨㄧㄛ-ㄌㄣㄊ",
+    "suggested": "ㄨㄞ-ㄜ-ㄌㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "vi- /ˈvaɪ/ 為 ㄨㄞ；-o- 弱讀 ㄜ",
+    "current_actual": "ㄨㄧㄛ-ㄌㄣㄊ"
+  },
+  {
+    "word": "weave",
+    "current": "ㄨㄝ-ㄈㄜ",
+    "suggested": "ㄨㄧㄈ",
+    "type": "error",
+    "reason": "weave /wiːv/ 單音節",
+    "current_actual": "ㄨㄝ-ㄈㄜ"
+  },
+  {
+    "word": "weaken",
+    "current": "ㄨㄝ-ㄎㄣ",
+    "suggested": "ㄨㄧ-ㄎㄜㄣ",
+    "type": "schwa",
+    "reason": "weak /wiːk/ 為 ㄨㄧ；-en /ən/ 弱讀",
+    "current_actual": "ㄨㄝ-ㄎㄣ"
+  },
+  {
+    "word": "wealthy",
+    "current": "ㄨㄧㄌ-ㄒㄧ",
+    "suggested": "ㄨㄝㄦ-ㄒㄧ",
+    "type": "vowel",
+    "reason": "weal /wɛl/ 為 ㄨㄝㄦ",
+    "current_actual": "ㄨㄧㄌ-ㄒㄧ"
+  },
+  {
+    "word": "wooden",
+    "current": "ㄨㄨ-ㄉㄣ",
+    "suggested": "ㄨㄨ-ㄉㄜㄣ",
+    "type": "schwa",
+    "reason": "-den 弱讀為 ㄉㄜㄣ",
+    "current_actual": "ㄨㄨ-ㄉㄣ"
+  },
+  {
+    "word": "academic",
+    "current": "ㄜ-ㄎㄚ-ㄉㄧ-ㄇㄧㄎ",
+    "suggested": "ㄚ-ㄎㄜ-ㄉㄝ-ㄇㄧㄎ",
+    "type": "schwa",
+    "reason": "a- 為 /ˌæ/ 重音為 ㄚ；-ca- 弱讀 ㄎㄜ；-de- /dɛ/ 重音 ㄉㄝ",
+    "current_actual": "ㄜ-ㄎㄚ-ㄉㄧ-ㄇㄧㄎ"
+  },
+  {
+    "word": "accomplish",
+    "current": "ㄚㄎ-ㄎㄚㄇ-ㄆㄌㄧㄒ",
+    "suggested": "ㄜ-ㄎㄚㄇ-ㄆㄌㄜㄒ",
+    "type": "schwa",
+    "reason": "ac- 弱讀為 ㄜ；-plish 弱讀為 ㄆㄌㄜㄒ",
+    "current_actual": "ㄚㄎ-ㄎㄚㄇ-ㄆㄌㄧㄒ"
+  },
+  {
+    "word": "acceptance",
+    "current": "ㄚㄎ-ㄙㄝㄆ-ㄊㄢ-ㄙㄜ",
+    "suggested": "ㄚㄎ-ㄙㄝㄆ-ㄊㄜㄣㄙ",
+    "type": "schwa",
+    "reason": "-tance /təns/ 弱讀單音節",
+    "current_actual": "ㄚㄎ-ㄙㄝㄆ-ㄊㄢ-ㄙㄜ"
+  },
+  {
+    "word": "appoint",
+    "current": "ㄚ-ㄆㄛㄧㄣㄊ",
+    "suggested": "ㄜ-ㄆㄛㄧㄣㄊ",
+    "type": "schwa",
+    "reason": "ap- 弱讀為 ㄜ",
+    "current_actual": "ㄚ-ㄆㄛㄧㄣㄊ"
+  },
+  {
+    "word": "appliance",
+    "current": "ㄚ-ㄆㄌㄧㄚㄋ-ㄙㄜ",
+    "suggested": "ㄜ-ㄆㄌㄞ-ㄜㄣㄙ",
+    "type": "error",
+    "reason": "appliance /əˈplaɪəns/ 三音節，-pli- 為 ㄆㄌㄞ",
+    "current_actual": "ㄚ-ㄆㄌㄧㄚㄋ-ㄙㄜ"
+  },
+  {
+    "word": "application",
+    "current": "ㄚ-ㄆㄌㄜ-ㄎㄚ-ㄒㄣ",
+    "suggested": "ㄚ-ㄆㄌㄜ-ㄎㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-ca- /keɪ/ 為 ㄎㄟ",
+    "current_actual": "ㄚ-ㄆㄌㄜ-ㄎㄚ-ㄒㄣ"
+  },
+  {
+    "word": "appreciation",
+    "current": "ㄚ-ㄆㄌㄧ-ㄎㄧㄚ-ㄒㄣ",
+    "suggested": "ㄜ-ㄆㄌㄧ-ㄒㄧ-ㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "ap- 弱讀；-cia- /ʃi/ 為 ㄒㄧ；-a- /eɪ/ 為 ㄟ",
+    "current_actual": "ㄚ-ㄆㄌㄧ-ㄎㄧㄚ-ㄒㄣ"
+  },
+  {
+    "word": "arise",
+    "current": "ㄜ-ㄌㄧ-ㄙㄜ",
+    "suggested": "ㄜ-ㄌㄞㄗ",
+    "type": "error",
+    "reason": "-rise /raɪz/ 單音節",
+    "current_actual": "ㄜ-ㄌㄧ-ㄙㄜ"
+  },
+  {
+    "word": "arouse",
+    "current": "ㄜ-ㄌㄠ-ㄙㄜ",
+    "suggested": "ㄜ-ㄌㄠㄗ",
+    "type": "error",
+    "reason": "-rouse /raʊz/ 單音節",
+    "current_actual": "ㄜ-ㄌㄠ-ㄙㄜ"
+  },
+  {
+    "word": "associate",
+    "current": "ㄚ-ㄙㄛ-ㄎㄧㄚ-ㄊㄧ",
+    "suggested": "ㄜ-ㄙㄛ-ㄒㄧ-ㄟㄊ",
+    "type": "schwa",
+    "reason": "as- 弱讀 ㄜ；-cia- /ʃi/ 為 ㄒㄧ；-ate /eɪt/",
+    "current_actual": "ㄚ-ㄙㄛ-ㄎㄧㄚ-ㄊㄧ"
+  },
+  {
+    "word": "association",
+    "current": "ㄚ-ㄙㄛ-ㄎㄧㄚ-ㄒㄣ",
+    "suggested": "ㄜ-ㄙㄛ-ㄒㄧ-ㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "as- 弱讀；-cia- /ʃi/ 為 ㄒㄧ",
+    "current_actual": "ㄚ-ㄙㄛ-ㄎㄧㄚ-ㄒㄣ"
+  },
+  {
+    "word": "calculate",
+    "current": "ㄎㄜ-ㄎㄧㄨ-ㄌㄚ-ㄊㄧ",
+    "suggested": "ㄎㄚㄦ-ㄎㄧㄨ-ㄌㄟㄊ",
+    "type": "error",
+    "reason": "cal- /ˈkæl/ 重音為 ㄎㄚㄦ；-late /leɪt/ 單音節",
+    "current_actual": "ㄎㄜ-ㄎㄧㄨ-ㄌㄚ-ㄊㄧ"
+  },
+  {
+    "word": "calculator",
+    "current": "ㄎㄜ-ㄎㄧㄨ-ㄌㄚ-ㄊㄜ",
+    "suggested": "ㄎㄚㄦ-ㄎㄧㄨ-ㄌㄟ-ㄊㄜ",
+    "type": "vowel",
+    "reason": "cal- 重音為 ㄎㄚㄦ；-la- /leɪ/",
+    "current_actual": "ㄎㄜ-ㄎㄧㄨ-ㄌㄚ-ㄊㄜ"
+  },
+  {
+    "word": "capitalist",
+    "current": "ㄎㄚ-ㄆㄧ-ㄊㄝ-ㄌㄧㄙㄊ",
+    "suggested": "ㄎㄚ-ㄆㄜ-ㄊㄜ-ㄌㄜㄙㄊ",
+    "type": "schwa",
+    "reason": "-pi- 弱讀 ㄆㄜ；-ta- 弱讀 ㄊㄜ；-list /lɪst/",
+    "current_actual": "ㄎㄚ-ㄆㄧ-ㄊㄝ-ㄌㄧㄙㄊ"
+  },
+  {
+    "word": "chamber",
+    "current": "ㄑㄚㄇ-ㄅㄜ",
+    "suggested": "ㄑㄟㄇ-ㄅㄜ",
+    "type": "vowel",
+    "reason": "cham- /ˈtʃeɪm/ 為 ㄑㄟㄇ",
+    "current_actual": "ㄑㄚㄇ-ㄅㄜ"
+  },
+  {
+    "word": "characteristic",
+    "current": "ㄎㄚ-ㄌㄚ-ㄊㄧ-ㄌㄧㄙ-ㄊㄧㄎ",
+    "suggested": "ㄎㄚ-ㄌㄜ-ㄊㄜ-ㄌㄧㄙ-ㄊㄧㄎ",
+    "type": "schwa",
+    "reason": "-ra- 弱讀 ㄌㄜ；-te- 弱讀 ㄊㄜ",
+    "current_actual": "ㄎㄚ-ㄌㄚ-ㄊㄧ-ㄌㄧㄙ-ㄊㄧㄎ"
+  },
+  {
+    "word": "charity",
+    "current": "ㄎㄚ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄑㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "cha- /tʃæ/ 為 ㄑㄚ；-ri- 弱讀 ㄌㄜ",
+    "current_actual": "ㄎㄚ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "chore",
+    "current": "ㄎㄛ-ㄌㄧ",
+    "suggested": "ㄑㄛㄦ",
+    "type": "error",
+    "reason": "chore /tʃɔːr/ 單音節，ch 為 ㄑ",
+    "current_actual": "ㄎㄛ-ㄌㄧ"
+  },
+  {
+    "word": "circulate",
+    "current": "ㄙㄜ-ㄎㄧㄨ-ㄌㄚ-ㄊㄧ",
+    "suggested": "ㄙㄜ-ㄎㄧㄨ-ㄌㄟㄊ",
+    "type": "error",
+    "reason": "-late /leɪt/ 單音節",
+    "current_actual": "ㄙㄜ-ㄎㄧㄨ-ㄌㄚ-ㄊㄧ"
+  },
+  {
+    "word": "classification",
+    "current": "ㄎㄌㄚ-ㄗㄜ-ㄈㄜ-ㄎㄚ-ㄒㄣ",
+    "suggested": "ㄎㄌㄚ-ㄙㄜ-ㄈㄜ-ㄎㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-ca- /keɪ/ 為 ㄎㄟ；-si- 為清音 ㄙㄜ",
+    "current_actual": "ㄎㄌㄚ-ㄗㄜ-ㄈㄜ-ㄎㄚ-ㄒㄣ"
+  },
+  {
+    "word": "combination",
+    "current": "ㄎㄚㄇ-ㄅㄞ-ㄋㄚ-ㄒㄣ",
+    "suggested": "ㄎㄚㄇ-ㄅㄜ-ㄋㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-bi- 弱讀為 ㄅㄜ；-na- /neɪ/",
+    "current_actual": "ㄎㄚㄇ-ㄅㄞ-ㄋㄚ-ㄒㄣ"
+  },
+  {
+    "word": "combine",
+    "current": "ㄎㄚㄇ-ㄅㄞ-ㄋㄧ",
+    "suggested": "ㄎㄜㄇ-ㄅㄞㄣ",
+    "type": "error",
+    "reason": "com- 弱讀；-bine /baɪn/ 單音節",
+    "current_actual": "ㄎㄚㄇ-ㄅㄞ-ㄋㄧ"
+  },
+  {
+    "word": "composition",
+    "current": "ㄎㄚㄇ-ㄆㄛ-ㄗㄜ-ㄒㄣ",
+    "suggested": "ㄎㄚㄇ-ㄆㄜ-ㄗㄧ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-po- 弱讀為 ㄆㄜ",
+    "current_actual": "ㄎㄚㄇ-ㄆㄛ-ㄗㄜ-ㄒㄣ"
+  },
+  {
+    "word": "continual",
+    "current": "ㄎㄚㄣ-ㄊㄜ-ㄋㄚㄚㄌ",
+    "suggested": "ㄎㄜㄣ-ㄊㄧ-ㄋㄩ-ㄜ",
+    "type": "schwa",
+    "reason": "con- 弱讀；-tin- 重音 ㄊㄧ；-ual /juəl/",
+    "current_actual": "ㄎㄚㄣ-ㄊㄜ-ㄋㄚㄚㄌ"
+  },
+  {
+    "word": "continuous",
+    "current": "ㄎㄚㄣ-ㄊㄜ-ㄋㄚㄜㄙ",
+    "suggested": "ㄎㄜㄣ-ㄊㄧ-ㄋㄩ-ㄜㄙ",
+    "type": "schwa",
+    "reason": "con- 弱讀；-tin- 重音 ㄊㄧ",
+    "current_actual": "ㄎㄚㄣ-ㄊㄜ-ㄋㄚㄜㄙ"
+  },
+  {
+    "word": "council",
+    "current": "ㄎㄠㄣ-ㄙㄛ",
+    "suggested": "ㄎㄠㄣ-ㄙㄜ",
+    "type": "schwa",
+    "reason": "-cil /səl/ 弱讀為 ㄙㄜ",
+    "current_actual": "ㄎㄠㄣ-ㄙㄛ"
+  },
+  {
+    "word": "declare",
+    "current": "ㄉㄝ-ㄌㄚ-ㄌㄧ",
+    "suggested": "ㄉㄜ-ㄎㄌㄝㄜ",
+    "type": "error",
+    "reason": "de- 弱讀 ㄉㄜ；-clare /klɛr/ 單音節",
+    "current_actual": "ㄉㄝ-ㄌㄚ-ㄌㄧ"
+  },
+  {
+    "word": "decrease",
+    "current": "ㄉㄝ-ㄌㄝ-ㄙㄜ",
+    "suggested": "ㄉㄧ-ㄎㄖㄧㄙ",
+    "type": "error",
+    "reason": "漏 c 音；-crease /kriːs/ 單音節",
+    "current_actual": "ㄉㄝ-ㄌㄝ-ㄙㄜ"
+  },
+  {
+    "word": "defend",
+    "current": "ㄉㄧ-ㄈㄝㄋㄉ",
+    "suggested": "ㄉㄜ-ㄈㄝㄋㄉ",
+    "type": "schwa",
+    "reason": "de- 弱讀為 ㄉㄜ",
+    "current_actual": "ㄉㄧ-ㄈㄝㄋㄉ"
+  },
+  {
+    "word": "definition",
+    "current": "ㄉㄧ-ㄈㄜ-ㄋㄜ-ㄒㄣ",
+    "suggested": "ㄉㄝ-ㄈㄜ-ㄋㄧ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "de- /dɛ/ 重音 ㄉㄝ；-ni- /nɪ/ 為 ㄋㄧ",
+    "current_actual": "ㄉㄧ-ㄈㄜ-ㄋㄜ-ㄒㄣ"
+  },
+  {
+    "word": "depart",
+    "current": "ㄉㄧ-ㄆㄚㄦㄊ",
+    "suggested": "ㄉㄜ-ㄆㄚㄦㄊ",
+    "type": "schwa",
+    "reason": "de- 弱讀為 ㄉㄜ",
+    "current_actual": "ㄉㄧ-ㄆㄚㄦㄊ"
+  },
+  {
+    "word": "depress",
+    "current": "ㄉㄝ-ㄖㄝㄙㄙ",
+    "suggested": "ㄉㄜ-ㄆㄌㄝㄙ",
+    "type": "error",
+    "reason": "漏 p；de- 弱讀 ㄉㄜ；-press /prɛs/",
+    "current_actual": "ㄉㄝ-ㄖㄝㄙㄙ"
+  },
+  {
+    "word": "discipline",
+    "current": "ㄉㄧㄙ-ㄎㄧㄆ-ㄌㄧ-ㄋㄧ",
+    "suggested": "ㄉㄧㄙ-ㄙㄜ-ㄆㄌㄜㄣ",
+    "type": "error",
+    "reason": "discipline /ˈdɪsəplɪn/ 3 音節 -ci- /sə/ -pline /plɪn/",
+    "current_actual": "ㄉㄧㄙ-ㄎㄧㄆ-ㄌㄧ-ㄋㄧ"
+  },
+  {
+    "word": "dignity",
+    "current": "ㄉㄧ-ㄋㄜ-ㄊㄧ",
+    "suggested": "ㄉㄧㄍ-ㄋㄜ-ㄊㄧ",
+    "type": "silent-missing",
+    "reason": "-gni- 中 g 發 /ɡ/ 音，不應省略",
+    "current_actual": "ㄉㄧ-ㄋㄜ-ㄊㄧ"
+  },
+  {
+    "word": "diligence",
+    "current": "ㄉㄧ-ㄌㄧ-ㄐㄣ-ㄙㄜ",
+    "suggested": "ㄉㄧ-ㄌㄜ-ㄐㄜㄣㄙ",
+    "type": "schwa",
+    "reason": "-li- 弱讀 ㄌㄜ；-gence 單音節 /dʒəns/",
+    "current_actual": "ㄉㄧ-ㄌㄧ-ㄐㄣ-ㄙㄜ"
+  },
+  {
+    "word": "distinguish",
+    "current": "ㄉㄧㄙ-ㄊㄧㄣ-ㄍㄨㄧㄒ",
+    "suggested": "ㄉㄧㄙ-ㄊㄧㄥ-ㄍㄨㄧㄒ",
+    "type": "error",
+    "reason": "-tin- 為 /tɪŋ/",
+    "current_actual": "ㄉㄧㄙ-ㄊㄧㄣ-ㄍㄨㄧㄒ"
+  },
+  {
+    "word": "economic",
+    "current": "ㄧ-ㄎㄛ-ㄋㄛ-ㄇㄧㄎ",
+    "suggested": "ㄝ-ㄎㄜ-ㄋㄚ-ㄇㄧㄎ",
+    "type": "schwa",
+    "reason": "e- /ˌɛ/ 為 ㄝ；-co- 弱讀 ㄎㄜ；-no- /nɑː/ 重音",
+    "current_actual": "ㄧ-ㄎㄛ-ㄋㄛ-ㄇㄧㄎ"
+  },
+  {
+    "word": "economical",
+    "current": "ㄧ-ㄎㄛ-ㄋㄛ-ㄇㄞ-ㄎㄜ",
+    "suggested": "ㄝ-ㄎㄜ-ㄋㄚ-ㄇㄧ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "e- 重音 ㄝ；-co- 弱讀；-mi- /mɪ/ 為 ㄇㄧ",
+    "current_actual": "ㄧ-ㄎㄛ-ㄋㄛ-ㄇㄞ-ㄎㄜ"
+  },
+  {
+    "word": "educate",
+    "current": "ㄧ-ㄉㄨ-ㄎㄚ-ㄊㄧ",
+    "suggested": "ㄝ-ㄐㄜ-ㄎㄟㄊ",
+    "type": "error",
+    "reason": "educate /ˈɛdʒəkeɪt/ 三音節；-cate /keɪt/ 單音節",
+    "current_actual": "ㄧ-ㄉㄨ-ㄎㄚ-ㄊㄧ"
+  },
+  {
+    "word": "education",
+    "current": "ㄧ-ㄉㄨ-ㄎㄚ-ㄒㄣ",
+    "suggested": "ㄝ-ㄐㄜ-ㄎㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "e- 重音 ㄝ；-du- /dʒə/；-ca- /keɪ/",
+    "current_actual": "ㄧ-ㄉㄨ-ㄎㄚ-ㄒㄣ"
+  },
+  {
+    "word": "educational",
+    "current": "ㄧ-ㄉㄨ-ㄎㄚ-ㄒㄛ-ㄋㄦ",
+    "suggested": "ㄝ-ㄐㄜ-ㄎㄟ-ㄒㄜ-ㄋㄜ",
+    "type": "schwa",
+    "reason": "同 education；-nal 弱讀 ㄋㄜ",
+    "current_actual": "ㄧ-ㄉㄨ-ㄎㄚ-ㄒㄛ-ㄋㄦ"
+  },
+  {
+    "word": "elementary",
+    "current": "ㄧ-ㄌㄧ-ㄇㄣ-ㄊㄝ-ㄌㄧ",
+    "suggested": "ㄝ-ㄌㄜ-ㄇㄝㄣ-ㄊㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "e- 重音 ㄝ；-le- 弱讀 ㄌㄜ",
+    "current_actual": "ㄧ-ㄌㄧ-ㄇㄣ-ㄊㄝ-ㄌㄧ"
+  },
+  {
+    "word": "enormous",
+    "current": "ㄧ-ㄋㄜ-ㄇㄚㄙ",
+    "suggested": "ㄧ-ㄋㄛㄦ-ㄇㄜㄙ",
+    "type": "schwa",
+    "reason": "-nor- /nɔːr/ 重音 ㄋㄛㄦ；-mous /məs/ 弱讀",
+    "current_actual": "ㄧ-ㄋㄜ-ㄇㄚㄙ"
+  },
+  {
+    "word": "enthusiasm",
+    "current": "ㄣ-ㄙㄧㄨ-ㄙㄧㄚㄙㄇ",
+    "suggested": "ㄣ-ㄒㄨ-ㄗㄧ-ㄚㄗㄜㄇ",
+    "type": "error",
+    "reason": "-thu- /θuː/ 為 ㄒㄨ；-sia- /zi/ 接 /æ/",
+    "current_actual": "ㄣ-ㄙㄧㄨ-ㄙㄧㄚㄙㄇ"
+  },
+  {
+    "word": "entertain",
+    "current": "ㄣ-ㄊㄜ-ㄊㄣ",
+    "suggested": "ㄝㄣ-ㄊㄜ-ㄊㄟㄣ",
+    "type": "vowel",
+    "reason": "-tain /teɪn/ 為 ㄊㄟㄣ",
+    "current_actual": "ㄣ-ㄊㄜ-ㄊㄣ"
+  },
+  {
+    "word": "essential",
+    "current": "ㄝㄙ-ㄙㄝㄣ-ㄒㄦ",
+    "suggested": "ㄜ-ㄙㄝㄣ-ㄒㄜ",
+    "type": "schwa",
+    "reason": "es- 弱讀為 ㄜ",
+    "current_actual": "ㄝㄙ-ㄙㄝㄣ-ㄒㄦ"
+  },
+  {
+    "word": "exaggerate",
+    "current": "ㄧ-ㄎㄙㄚㄍ-ㄐㄧ-ㄌㄚ-ㄊㄧ",
+    "suggested": "ㄧ-ㄗㄚ-ㄐㄜ-ㄌㄟㄊ",
+    "type": "error",
+    "reason": "exag- /ɪɡˈzæ/ x 為 /ɡz/；-rate /reɪt/ 單音節",
+    "current_actual": "ㄧ-ㄎㄙㄚㄍ-ㄐㄧ-ㄌㄚ-ㄊㄧ"
+  },
+  {
+    "word": "explanation",
+    "current": "ㄝㄎㄙ-ㄆㄌㄚ-ㄋㄚ-ㄒㄣ",
+    "suggested": "ㄝㄎㄙ-ㄆㄌㄜ-ㄋㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-pla- 弱讀 ㄆㄌㄜ；-na- /neɪ/",
+    "current_actual": "ㄝㄎㄙ-ㄆㄌㄚ-ㄋㄚ-ㄒㄣ"
+  },
+  {
+    "word": "facility",
+    "current": "ㄈㄚ-ㄙㄜ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄈㄜ-ㄙㄧ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "fa- 弱讀 ㄈㄜ；-ci- 重音 ㄙㄧ；-li- 弱讀 ㄌㄜ",
+    "current_actual": "ㄈㄚ-ㄙㄜ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "facial",
+    "current": "ㄈㄚ-ㄒㄦ",
+    "suggested": "ㄈㄟ-ㄒㄜ",
+    "type": "vowel",
+    "reason": "fa- /feɪ/ 為 ㄈㄟ；-cial 弱讀 ㄒㄜ",
+    "current_actual": "ㄈㄚ-ㄒㄦ"
+  },
+  {
+    "word": "farewell",
+    "current": "ㄈㄚ-ㄌㄧ-ㄨㄝㄦ",
+    "suggested": "ㄈㄝㄜ-ㄨㄝㄦ",
+    "type": "error",
+    "reason": "fare /fɛr/ 單音節，現 3 拆錯誤",
+    "current_actual": "ㄈㄚ-ㄌㄧ-ㄨㄝㄦ"
+  },
+  {
+    "word": "favorable",
+    "current": "ㄈㄚ-ㄈㄛ-ㄖㄝ-ㄌㄧ",
+    "suggested": "ㄈㄟ-ㄈㄜ-ㄌㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "fa- /feɪ/；-vo- 弱讀；-rab- 弱讀 ㄌㄜ；-le 為 ㄅㄜ",
+    "current_actual": "ㄈㄚ-ㄈㄛ-ㄖㄝ-ㄌㄧ"
+  },
+  {
+    "word": "fortunate",
+    "current": "ㄈㄛ-ㄑㄨ-ㄋㄚ-ㄊㄧ",
+    "suggested": "ㄈㄛㄦ-ㄑㄜ-ㄋㄜㄊ",
+    "type": "schwa",
+    "reason": "-tu- 弱讀 ㄑㄜ；-nate /nət/ 弱讀單音節",
+    "current_actual": "ㄈㄛ-ㄑㄨ-ㄋㄚ-ㄊㄧ"
+  },
+  {
+    "word": "frequent",
+    "current": "ㄈㄖㄧ-ㄎㄨㄣㄊ",
+    "suggested": "ㄈㄖㄧ-ㄎㄨㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-quent /kwənt/ 弱讀",
+    "current_actual": "ㄈㄖㄧ-ㄎㄨㄣㄊ"
+  },
+  {
+    "word": "furnish",
+    "current": "ㄈㄦ-ㄋㄧㄒ",
+    "suggested": "ㄈㄜ-ㄋㄧㄒ",
+    "type": "schwa",
+    "reason": "fur- 為 /fɜːr/ 用 ㄈㄜ較貼",
+    "current_actual": "ㄈㄦ-ㄋㄧㄒ"
+  },
+  {
+    "word": "generosity",
+    "current": "ㄐㄧ-ㄋㄧ-ㄌㄛ-ㄗㄜ-ㄊㄧ",
+    "suggested": "ㄐㄝ-ㄋㄜ-ㄌㄚ-ㄙㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "ge- /dʒɛ/ 重音 ㄐㄝ；-ne- 弱讀 ㄋㄜ",
+    "current_actual": "ㄐㄧ-ㄋㄧ-ㄌㄛ-ㄗㄜ-ㄊㄧ"
+  },
+  {
+    "word": "horrify",
+    "current": "ㄏㄚ-ㄌㄧ-ㄈㄞ",
+    "suggested": "ㄏㄛ-ㄌㄜ-ㄈㄞ",
+    "type": "schwa",
+    "reason": "-ri- 弱讀為 ㄌㄜ",
+    "current_actual": "ㄏㄚ-ㄌㄧ-ㄈㄞ"
+  },
+  {
+    "word": "horizon",
+    "current": "ㄏㄚ-ㄌㄧ-ㄗㄚㄣ",
+    "suggested": "ㄏㄜ-ㄌㄞ-ㄗㄜㄣ",
+    "type": "schwa",
+    "reason": "ho- 弱讀為 ㄏㄜ；-ri- /raɪ/ 重音為 ㄌㄞ",
+    "current_actual": "ㄏㄚ-ㄌㄧ-ㄗㄚㄣ"
+  },
+  {
+    "word": "identification",
+    "current": "ㄌㄜ-ㄉㄣ-ㄊㄜ-ㄈㄜ-ㄎㄚ-ㄒㄣ",
+    "suggested": "ㄞ-ㄉㄝㄣ-ㄊㄜ-ㄈㄜ-ㄎㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "i- /aɪ/ 為 ㄞ；-den- /dɛn/；-ca- /keɪ/",
+    "current_actual": "ㄌㄜ-ㄉㄣ-ㄊㄜ-ㄈㄜ-ㄎㄚ-ㄒㄣ"
+  },
+  {
+    "word": "imitate",
+    "current": "ㄌㄜ-ㄇㄞ-ㄊㄝ-ㄊㄧ",
+    "suggested": "ㄧ-ㄇㄜ-ㄊㄟㄊ",
+    "type": "error",
+    "reason": "imitate /ˈɪmɪteɪt/ 三音節",
+    "current_actual": "ㄌㄜ-ㄇㄞ-ㄊㄝ-ㄊㄧ"
+  },
+  {
+    "word": "imitation",
+    "current": "ㄌㄜ-ㄇㄞ-ㄊㄝ-ㄒㄣ",
+    "suggested": "ㄧ-ㄇㄜ-ㄊㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "i- /ɪ/ 為 ㄧ；-mi- 弱讀 ㄇㄜ；-ta- /teɪ/",
+    "current_actual": "ㄌㄜ-ㄇㄞ-ㄊㄝ-ㄒㄣ"
+  },
+  {
+    "word": "immigrant",
+    "current": "ㄧㄇ-ㄇㄧㄍ-ㄌㄣㄊ",
+    "suggested": "ㄧㄇ-ㄇㄜ-ㄍㄌㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-mi- 弱讀 ㄇㄜ；-grant /ɡrənt/ 弱讀",
+    "current_actual": "ㄧㄇ-ㄇㄧㄍ-ㄌㄣㄊ"
+  },
+  {
+    "word": "information",
+    "current": "ㄧㄣ-ㄈㄛ-ㄇㄚ-ㄒㄣ",
+    "suggested": "ㄧㄣ-ㄈㄜ-ㄇㄟ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-for- 弱讀為 ㄈㄜ；-ma- /meɪ/",
+    "current_actual": "ㄧㄣ-ㄈㄛ-ㄇㄚ-ㄒㄣ"
+  },
+  {
+    "word": "inspire",
+    "current": "ㄧㄣ-ㄙㄆㄞ-ㄌㄧ",
+    "suggested": "ㄧㄣ-ㄙㄆㄞㄜ",
+    "type": "error",
+    "reason": "-spire /ˈspaɪər/ 為 1-2 音節",
+    "current_actual": "ㄧㄣ-ㄙㄆㄞ-ㄌㄧ"
+  },
+  {
+    "word": "inspector",
+    "current": "ㄧㄣ-ㄙㄆㄝ-ㄊㄜ",
+    "suggested": "ㄧㄣ-ㄙㄆㄝㄎ-ㄊㄜ",
+    "type": "error",
+    "reason": "-spect- 的 -ct- 不應省略",
+    "current_actual": "ㄧㄣ-ㄙㄆㄝ-ㄊㄜ"
+  },
+  {
+    "word": "instruction",
+    "current": "ㄧㄋㄙ-ㄊㄖㄚㄎ-ㄒㄣ",
+    "suggested": "ㄧㄣ-ㄙㄊㄖㄚㄎ-ㄒㄣ",
+    "type": "error",
+    "reason": "in- 為 /ɪn/ 為 ㄧㄣ",
+    "current_actual": "ㄧㄋㄙ-ㄊㄖㄚㄎ-ㄒㄣ"
+  },
+  {
+    "word": "intention",
+    "current": "ㄧㄣ-ㄊㄣ-ㄒㄣ",
+    "suggested": "ㄧㄣ-ㄊㄝㄣ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "-ten- /tɛn/ 重音 ㄊㄝㄣ",
+    "current_actual": "ㄧㄣ-ㄊㄣ-ㄒㄣ"
+  },
+  {
+    "word": "intimate",
+    "current": "ㄧㄣ-ㄊㄜ-ㄇㄚ-ㄊㄧ",
+    "suggested": "ㄧㄣ-ㄊㄜ-ㄇㄜㄊ",
+    "type": "error",
+    "reason": "-mate /mət/ 形容詞時為弱讀單音節",
+    "current_actual": "ㄧㄣ-ㄊㄜ-ㄇㄚ-ㄊㄧ"
+  },
+  {
+    "word": "introduction",
+    "current": "ㄧㄣ-ㄊㄌㄛ-ㄉㄚㄎ-ㄒㄣ",
+    "suggested": "ㄧㄣ-ㄊㄌㄜ-ㄉㄚㄎ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-tro- 弱讀為 ㄊㄌㄜ",
+    "current_actual": "ㄧㄣ-ㄊㄌㄛ-ㄉㄚㄎ-ㄒㄣ"
+  },
+  {
+    "word": "jewelry",
+    "current": "ㄐㄝ-ㄨㄝㄦ-ㄌㄧ",
+    "suggested": "ㄐㄩ-ㄜㄦ-ㄌㄧ",
+    "type": "vowel",
+    "reason": "jew- /dʒuː/ 為 ㄐㄩ",
+    "current_actual": "ㄐㄝ-ㄨㄝㄦ-ㄌㄧ"
+  },
+  {
+    "word": "jewel",
+    "current": "ㄐㄝ-ㄨㄝㄦ",
+    "suggested": "ㄐㄩ-ㄜㄦ",
+    "type": "vowel",
+    "reason": "jew- /dʒuː/ 為 ㄐㄩ",
+    "current_actual": "ㄐㄝ-ㄨㄝㄦ"
+  },
+  {
+    "word": "kilogram",
+    "current": "ㄎㄧ-ㄌㄚㄍ-ㄌㄚ",
+    "suggested": "ㄎㄧ-ㄌㄜ-ㄍㄌㄚㄇ",
+    "type": "schwa",
+    "reason": "-lo- 弱讀為 ㄌㄜ；-gram 為 ㄍㄌㄚㄇ",
+    "current_actual": "ㄎㄧ-ㄌㄚㄍ-ㄌㄚ"
+  },
+  {
+    "word": "leisurely",
+    "current": "ㄌㄞ-ㄙㄨ-ㄌㄧ-ㄌㄧ",
+    "suggested": "ㄌㄧ-ㄓㄜ-ㄌㄧ-ㄌㄧ",
+    "type": "vowel",
+    "reason": "lei- /liː/ 為 ㄌㄧ；-sure /ʒər/",
+    "current_actual": "ㄌㄞ-ㄙㄨ-ㄌㄧ-ㄌㄧ"
+  },
+  {
+    "word": "literary",
+    "current": "ㄌㄧ-ㄊㄧ-ㄌㄚ-ㄌㄧ",
+    "suggested": "ㄌㄧ-ㄊㄜ-ㄌㄝ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "-te- 弱讀 ㄊㄜ",
+    "current_actual": "ㄌㄧ-ㄊㄧ-ㄌㄚ-ㄌㄧ"
+  },
+  {
+    "word": "literature",
+    "current": "ㄌㄧ-ㄊㄧ-ㄌㄚ-ㄑㄨ-ㄌㄧ",
+    "suggested": "ㄌㄧ-ㄊㄜ-ㄌㄜ-ㄑㄜㄦ",
+    "type": "schwa",
+    "reason": "-te- /tə/ 弱讀；-ra- /rə/ 弱讀；-ture 為 /tʃər/ 單音節",
+    "current_actual": "ㄌㄧ-ㄊㄧ-ㄌㄚ-ㄑㄨ-ㄌㄧ"
+  },
+  {
+    "word": "loyalty",
+    "current": "ㄌㄛㄧㄚㄌ-ㄊㄧ",
+    "suggested": "ㄌㄛㄧ-ㄜㄦ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-yal- /jəl/ 弱讀為 ㄜ",
+    "current_actual": "ㄌㄛㄧㄚㄌ-ㄊㄧ"
+  },
+  {
+    "word": "luxurious",
+    "current": "ㄌㄨ-ㄎㄙㄚ-ㄖㄧㄜㄙ",
+    "suggested": "ㄌㄚ-ㄍㄓㄨ-ㄖㄧㄜㄙ",
+    "type": "vowel",
+    "reason": "lu- /lʌɡ/；x 為 /ɡʒ/",
+    "current_actual": "ㄌㄨ-ㄎㄙㄚ-ㄖㄧㄜㄙ"
+  },
+  {
+    "word": "luxury",
+    "current": "ㄌㄨ-ㄎㄙㄚ-ㄌㄧ",
+    "suggested": "ㄌㄚㄎ-ㄒㄜ-ㄌㄧ",
+    "type": "vowel",
+    "reason": "lux- /ˈlʌk/；-u- 弱讀 ㄒㄜ",
+    "current_actual": "ㄌㄨ-ㄎㄙㄚ-ㄌㄧ"
+  },
+  {
+    "word": "magnificent",
+    "current": "ㄇㄚ-ㄋㄜ-ㄈㄜ-ㄙㄣㄊ",
+    "suggested": "ㄇㄚㄍ-ㄋㄧ-ㄈㄜ-ㄙㄜㄣㄊ",
+    "type": "silent-missing",
+    "reason": "-gni- 中 g 發音；-ni- 重音 ㄋㄧ",
+    "current_actual": "ㄇㄚ-ㄋㄜ-ㄈㄜ-ㄙㄣㄊ"
+  },
+  {
+    "word": "maturity",
+    "current": "ㄇㄚ-ㄑㄨ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄇㄜ-ㄑㄨ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "ma- 弱讀 ㄇㄜ；-ri- 弱讀 ㄌㄜ",
+    "current_actual": "ㄇㄚ-ㄑㄨ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "mechanical",
+    "current": "ㄇㄝㄎ-ㄏㄜ-ㄋㄜ-ㄎㄜ",
+    "suggested": "ㄇㄜ-ㄎㄚ-ㄋㄜ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "me- 弱讀 ㄇㄜ；-cha- /kæ/ 重音 ㄎㄚ；ch 為 /k/ 非 /h/",
+    "current_actual": "ㄇㄝㄎ-ㄏㄜ-ㄋㄜ-ㄎㄜ"
+  },
+  {
+    "word": "memorable",
+    "current": "ㄇㄝ-ㄇㄛ-ㄖㄝ-ㄌㄧ",
+    "suggested": "ㄇㄝ-ㄇㄜ-ㄌㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-mo- 弱讀 ㄇㄜ；-ra- 弱讀 ㄌㄜ；-ble 為 ㄅㄜ",
+    "current_actual": "ㄇㄝ-ㄇㄛ-ㄖㄝ-ㄌㄧ"
+  },
+  {
+    "word": "merit",
+    "current": "ㄇㄝ-ㄌㄝㄊ",
+    "suggested": "ㄇㄝ-ㄌㄜㄊ",
+    "type": "schwa",
+    "reason": "-rit /rɪt/ 弱讀為 ㄌㄜ",
+    "current_actual": "ㄇㄝ-ㄌㄝㄊ"
+  },
+  {
+    "word": "messenger",
+    "current": "ㄇㄝㄙ-ㄙㄝㄣ-ㄍㄜ",
+    "suggested": "ㄇㄝㄙ-ㄙㄜㄣ-ㄐㄜ",
+    "type": "schwa",
+    "reason": "-sen- 弱讀 ㄙㄜㄣ；-ger /dʒər/ 為 ㄐㄜ",
+    "current_actual": "ㄇㄝㄙ-ㄙㄝㄣ-ㄍㄜ"
+  },
+  {
+    "word": "misery",
+    "current": "ㄇㄞ-ㄙㄜ-ㄌㄧ",
+    "suggested": "ㄇㄧ-ㄗㄜ-ㄌㄧ",
+    "type": "vowel",
+    "reason": "mi- /ˈmɪz/ 為 ㄇㄧ；-se- /zə/ 為 ㄗㄜ",
+    "current_actual": "ㄇㄞ-ㄙㄜ-ㄌㄧ"
+  },
+  {
+    "word": "mobile",
+    "current": "ㄇㄛ-ㄅㄞ-ㄌㄧ",
+    "suggested": "ㄇㄛ-ㄅㄜ",
+    "type": "error",
+    "reason": "mobile /ˈmoʊbəl/ 兩音節",
+    "current_actual": "ㄇㄛ-ㄅㄞ-ㄌㄧ"
+  },
+  {
+    "word": "missile",
+    "current": "ㄇㄧㄙ-ㄗㄜ-ㄌㄧ",
+    "suggested": "ㄇㄧ-ㄙㄜ",
+    "type": "error",
+    "reason": "missile /ˈmɪsəl/ 兩音節",
+    "current_actual": "ㄇㄧㄙ-ㄗㄜ-ㄌㄧ"
+  },
+  {
+    "word": "nationality",
+    "current": "ㄋㄚ-ㄒㄛ-ㄋㄚ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄋㄚ-ㄒㄜ-ㄋㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-tio- 弱讀 ㄒㄜ；-li- 弱讀 ㄌㄜ",
+    "current_actual": "ㄋㄚ-ㄒㄛ-ㄋㄚ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "obstacle",
+    "current": "ㄚㄅ-ㄙㄊㄚㄎ-ㄌㄧ",
+    "suggested": "ㄚㄅ-ㄙㄊㄜ-ㄎㄜ",
+    "type": "schwa",
+    "reason": "-sta- 弱讀為 ㄙㄊㄜ；-cle 為 ㄎㄜ",
+    "current_actual": "ㄚㄅ-ㄙㄊㄚㄎ-ㄌㄧ"
+  },
+  {
+    "word": "oppose",
+    "current": "ㄚㄆ-ㄆㄛ-ㄙㄜ",
+    "suggested": "ㄜ-ㄆㄛㄗ",
+    "type": "schwa",
+    "reason": "op- 弱讀 ㄜ；-pose 為單音節",
+    "current_actual": "ㄚㄆ-ㄆㄛ-ㄙㄜ"
+  },
+  {
+    "word": "obedience",
+    "current": "ㄛ-ㄅㄧ-ㄉㄞㄋ-ㄙㄜ",
+    "suggested": "ㄛ-ㄅㄧ-ㄉㄧㄜㄣㄙ",
+    "type": "vowel",
+    "reason": "-die- /diː/ 為 ㄉㄧ；-ence /əns/",
+    "current_actual": "ㄛ-ㄅㄧ-ㄉㄞㄋ-ㄙㄜ"
+  },
+  {
+    "word": "obedient",
+    "current": "ㄛ-ㄅㄧ-ㄉㄞㄋㄊ",
+    "suggested": "ㄛ-ㄅㄧ-ㄉㄧㄜㄣㄊ",
+    "type": "vowel",
+    "reason": "-die- /diː/ 為 ㄉㄧ；-ent /ənt/",
+    "current_actual": "ㄛ-ㄅㄧ-ㄉㄞㄋㄊ"
+  },
+  {
+    "word": "overtake",
+    "current": "ㄛ-ㄈㄜ-ㄊㄝ-ㄎㄟ",
+    "suggested": "ㄛ-ㄈㄜ-ㄊㄝㄎ",
+    "type": "error",
+    "reason": "ta-ke 應為單音節 take ㄊㄝㄎ,不需 ㄎㄟ",
+    "current_actual": "ㄛ-ㄈㄜ-ㄊㄝ-ㄎㄟ"
+  },
+  {
+    "word": "pace",
+    "current": "ㄆㄜ-ㄙㄜ",
+    "suggested": "ㄆㄝㄙ",
+    "type": "vowel",
+    "reason": "pace 是 /peɪs/,單音節,母音為 ㄝ",
+    "current_actual": "ㄆㄜ-ㄙㄜ"
+  },
+  {
+    "word": "participation",
+    "current": "ㄆㄚㄦ-ㄊㄜ-ㄙㄜ-ㄆㄜ-ㄒㄣ",
+    "suggested": "ㄆㄚㄦ-ㄊㄜ-ㄙㄜ-ㄆㄟ-ㄒㄣ",
+    "type": "vowel",
+    "reason": "pa 在此為 /peɪ/,第4音節重音",
+    "current_actual": "ㄆㄚㄦ-ㄊㄜ-ㄙㄜ-ㄆㄜ-ㄒㄣ"
+  },
+  {
+    "word": "perfection",
+    "current": "ㄆㄜ-ㄈㄝㄎ-ㄒㄣ",
+    "suggested": "ㄆㄜ-ㄈㄝㄎ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 弱讀為 /ʃən/,應含 ㄜ",
+    "current_actual": "ㄆㄜ-ㄈㄝㄎ-ㄒㄣ"
+  },
+  {
+    "word": "permanent",
+    "current": "ㄆㄜ-ㄇㄚ-ㄋㄣㄊ",
+    "suggested": "ㄆㄜ-ㄇㄜ-ㄋㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "-ma- 與 -nent 皆為弱讀 schwa",
+    "current_actual": "ㄆㄜ-ㄇㄚ-ㄋㄣㄊ"
+  },
+  {
+    "word": "plentiful",
+    "current": "ㄆㄌㄝㄣ-ㄊㄜ-ㄈㄜ",
+    "suggested": "ㄆㄌㄝㄣ-ㄊㄜ-ㄈㄜㄦ",
+    "type": "error",
+    "reason": "-ful 是 /fəl/,應有 ㄦ/ㄌ 收尾",
+    "current_actual": "ㄆㄌㄝㄣ-ㄊㄜ-ㄈㄜ"
+  },
+  {
+    "word": "polish",
+    "current": "ㄆㄛ-ㄅㄌㄧㄒ",
+    "suggested": "ㄆㄚ-ㄌㄧㄒ",
+    "type": "consonant",
+    "reason": "-lish 不含 b,誤插 ㄅ",
+    "current_actual": "ㄆㄛ-ㄅㄌㄧㄒ"
+  },
+  {
+    "word": "possess",
+    "current": "ㄆㄚ-ㄙㄝㄙ",
+    "suggested": "ㄆㄜ-ㄗㄝㄙ",
+    "type": "schwa",
+    "reason": "po- 為弱讀 /pə/",
+    "current_actual": "ㄆㄚ-ㄙㄝㄙ"
+  },
+  {
+    "word": "possession",
+    "current": "ㄆㄚ-ㄗㄝㄗ-ㄒㄣ",
+    "suggested": "ㄆㄜ-ㄗㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "po- 弱讀 ㄜ;-sion 含 schwa",
+    "current_actual": "ㄆㄚ-ㄗㄝㄗ-ㄒㄣ"
+  },
+  {
+    "word": "preposition",
+    "current": "ㄆㄌㄧ-ㄆㄛ-ㄗㄜ-ㄒㄣ",
+    "suggested": "ㄆㄌㄝ-ㄆㄜ-ㄗㄧ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-po- 為 /pə/ 弱讀,prep- /prɛ/",
+    "current_actual": "ㄆㄌㄧ-ㄆㄛ-ㄗㄜ-ㄒㄣ"
+  },
+  {
+    "word": "preservation",
+    "current": "ㄆㄌㄧ-ㄗㄜ-ㄈㄚ-ㄒㄣ",
+    "suggested": "ㄆㄌㄝ-ㄗㄜ-ㄈㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "prep /prɛz/,-tion 含 schwa",
+    "current_actual": "ㄆㄌㄧ-ㄗㄜ-ㄈㄚ-ㄒㄣ"
+  },
+  {
+    "word": "prevention",
+    "current": "ㄆㄌㄧ-ㄈㄣ-ㄒㄣ",
+    "suggested": "ㄆㄌㄧ-ㄈㄝㄣ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄆㄌㄧ-ㄈㄣ-ㄒㄣ"
+  },
+  {
+    "word": "production",
+    "current": "ㄆㄜ-ㄉㄚㄎ-ㄒㄣ",
+    "suggested": "ㄆㄜ-ㄉㄚㄎ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄆㄜ-ㄉㄚㄎ-ㄒㄣ"
+  },
+  {
+    "word": "profession",
+    "current": "ㄆㄜ-ㄈㄝ-ㄒㄣ",
+    "suggested": "ㄆㄜ-ㄈㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-sion 含 schwa",
+    "current_actual": "ㄆㄜ-ㄈㄝ-ㄒㄣ"
+  },
+  {
+    "word": "pronunciation",
+    "current": "ㄆㄜ-ㄋㄚㄋ-ㄎㄧㄚ-ㄒㄣ",
+    "suggested": "ㄆㄜ-ㄋㄚㄣ-ㄒㄧ-ㄝ-ㄒㄜㄣ",
+    "type": "error",
+    "reason": "-cia- 為 /siˈeɪ/,第3音節 ci 應 ㄒㄧ",
+    "current_actual": "ㄆㄜ-ㄋㄚㄋ-ㄎㄧㄚ-ㄒㄣ"
+  },
+  {
+    "word": "reflection",
+    "current": "ㄌㄝ-ㄌㄝㄎ-ㄒㄣ",
+    "suggested": "ㄌㄧ-ㄈㄌㄝㄎ-ㄒㄜㄣ",
+    "type": "consonant",
+    "reason": "漏 f 子音;-tion 含 schwa;re- 為 ㄧ",
+    "current_actual": "ㄌㄝ-ㄌㄝㄎ-ㄒㄣ"
+  },
+  {
+    "word": "reflect",
+    "current": "ㄌㄝ-ㄌㄝㄎㄊ",
+    "suggested": "ㄌㄧ-ㄈㄌㄝㄎㄊ",
+    "type": "consonant",
+    "reason": "漏 f 子音",
+    "current_actual": "ㄌㄝ-ㄌㄝㄎㄊ"
+  },
+  {
+    "word": "registration",
+    "current": "ㄌㄧ-ㄐㄧㄙ-ㄊㄌㄚ-ㄒㄣ",
+    "suggested": "ㄌㄝ-ㄐㄧㄙ-ㄊㄌㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa;reg- 為 /rɛ/",
+    "current_actual": "ㄌㄧ-ㄐㄧㄙ-ㄊㄌㄚ-ㄒㄣ"
+  },
+  {
+    "word": "rejection",
+    "current": "ㄌㄧ-ㄐㄝㄎ-ㄒㄣ",
+    "suggested": "ㄌㄧ-ㄐㄝㄎ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄌㄧ-ㄐㄝㄎ-ㄒㄣ"
+  },
+  {
+    "word": "relaxation",
+    "current": "ㄌㄧ-ㄌㄚ-ㄎㄙㄚ-ㄒㄣ",
+    "suggested": "ㄌㄧ-ㄌㄚㄎ-ㄗㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa;-xa- 為 /zeɪ/",
+    "current_actual": "ㄌㄧ-ㄌㄚ-ㄎㄙㄚ-ㄒㄣ"
+  },
+  {
+    "word": "representation",
+    "current": "ㄌㄝ-ㄌㄧ-ㄙㄝㄣ-ㄊㄝ-ㄒㄣ",
+    "suggested": "ㄌㄝㄆ-ㄌㄧ-ㄗㄝㄣ-ㄊㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄌㄝ-ㄌㄧ-ㄙㄝㄣ-ㄊㄝ-ㄒㄣ"
+  },
+  {
+    "word": "reputation",
+    "current": "ㄌㄧ-ㄆㄧㄨ-ㄊㄝ-ㄒㄣ",
+    "suggested": "ㄌㄝ-ㄆㄧㄨ-ㄊㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa;re- /rɛ/",
+    "current_actual": "ㄌㄧ-ㄆㄧㄨ-ㄊㄝ-ㄒㄣ"
+  },
+  {
+    "word": "resignation",
+    "current": "ㄌㄧ-ㄒㄧㄍ-ㄋㄚ-ㄒㄣ",
+    "suggested": "ㄌㄝ-ㄗㄧㄍ-ㄋㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄌㄧ-ㄒㄧㄍ-ㄋㄚ-ㄒㄣ"
+  },
+  {
+    "word": "restriction",
+    "current": "ㄌㄝㄙ-ㄊㄖㄧㄎ-ㄒㄣ",
+    "suggested": "ㄌㄧ-ㄙㄊㄖㄧㄎ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa;re- /rɪ/",
+    "current_actual": "ㄌㄝㄙ-ㄊㄖㄧㄎ-ㄒㄣ"
+  },
+  {
+    "word": "satisfaction",
+    "current": "ㄙㄚ-ㄊㄜㄙ-ㄈㄚㄎ-ㄒㄣ",
+    "suggested": "ㄙㄚ-ㄊㄜㄙ-ㄈㄚㄎ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄙㄚ-ㄊㄜㄙ-ㄈㄚㄎ-ㄒㄣ"
+  },
+  {
+    "word": "sob",
+    "current": "ㄝㄙ-ㄚㄅ",
+    "suggested": "ㄙㄚㄅ",
+    "type": "error",
+    "reason": "單音節字 /sɑb/,不應拆 s/ob",
+    "current_actual": "ㄝㄙ-ㄚㄅ"
+  },
+  {
+    "word": "suggestion",
+    "current": "ㄙㄚㄐ-ㄐㄝㄙ-ㄒㄣ",
+    "suggested": "ㄙㄜㄍ-ㄐㄝㄙ-ㄔㄜㄣ",
+    "type": "schwa",
+    "reason": "sug- 弱讀 /səg/;-tion 含 schwa",
+    "current_actual": "ㄙㄚㄐ-ㄐㄝㄙ-ㄒㄣ"
+  },
+  {
+    "word": "surf",
+    "current": "ㄝㄙ-ㄜㄈ",
+    "suggested": "ㄙㄜㄦㄈ",
+    "type": "error",
+    "reason": "單音節字,不應拆 s/urf",
+    "current_actual": "ㄝㄙ-ㄜㄈ"
+  },
+  {
+    "word": "theme",
+    "current": "ㄉㄚ-ㄇㄝ",
+    "suggested": "ㄒㄧㄇ",
+    "type": "error",
+    "reason": "單音節 /θiːm/,母音為 ㄧ",
+    "current_actual": "ㄉㄚ-ㄇㄝ"
+  },
+  {
+    "word": "thorough",
+    "current": "ㄙㄜ-ㄌㄚㄈ",
+    "suggested": "ㄒㄜ-ㄌㄛ",
+    "type": "error",
+    "reason": "-ough 此處發 /oʊ/,不發 /ʌf/",
+    "current_actual": "ㄙㄜ-ㄌㄚㄈ"
+  },
+  {
+    "word": "tomb",
+    "current": "ㄊㄧ-ㄛㄇㄅ",
+    "suggested": "ㄊㄨㄇ",
+    "type": "silent-missing",
+    "reason": "單音節 /tuːm/,b silent",
+    "current_actual": "ㄊㄧ-ㄛㄇㄅ"
+  },
+  {
+    "word": "transportation",
+    "current": "ㄊㄌㄚㄣ-ㄙㄆㄛㄜ-ㄊㄝ-ㄒㄣ",
+    "suggested": "ㄊㄌㄚㄣ-ㄙㄆㄛㄜ-ㄊㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄊㄌㄚㄣ-ㄙㄆㄛㄜ-ㄊㄝ-ㄒㄣ"
+  },
+  {
+    "word": "tremendous",
+    "current": "ㄊㄌㄜ-ㄇㄣ-ㄉㄜㄙ",
+    "suggested": "ㄊㄌㄧ-ㄇㄝㄣ-ㄉㄜㄙ",
+    "type": "vowel",
+    "reason": "tre- /trɪ/,-men- 重音 /ɛ/",
+    "current_actual": "ㄊㄌㄜ-ㄇㄣ-ㄉㄜㄙ"
+  },
+  {
+    "word": "underpass",
+    "current": "ㄚㄣ-ㄉㄜ-ㄆㄚㄙ",
+    "suggested": "ㄚㄣ-ㄉㄜㄦ-ㄆㄚㄙ",
+    "type": "error",
+    "reason": "-der 應含 r 收尾 ㄦ",
+    "current_actual": "ㄚㄣ-ㄉㄜ-ㄆㄚㄙ"
+  },
+  {
+    "word": "abolish",
+    "current": "ㄜ-ㄅㄛ-ㄅㄌㄧㄒ",
+    "suggested": "ㄜ-ㄅㄚ-ㄌㄧㄒ",
+    "type": "consonant",
+    "reason": "-lish 不含 b,誤插 ㄅ",
+    "current_actual": "ㄜ-ㄅㄛ-ㄅㄌㄧㄒ"
+  },
+  {
+    "word": "abortion",
+    "current": "ㄜ-ㄅㄜ-ㄒㄣ",
+    "suggested": "ㄜ-ㄅㄛㄜ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa;bor 是重音 /bɔːr/",
+    "current_actual": "ㄜ-ㄅㄜ-ㄒㄣ"
+  },
+  {
+    "word": "accustom",
+    "current": "ㄚㄎ-ㄎㄚㄙ-ㄉㄣ",
+    "suggested": "ㄜ-ㄎㄚㄙ-ㄊㄜㄇ",
+    "type": "schwa",
+    "reason": "ac- 弱讀 /ə/;-tom /təm/,t 不應變 d",
+    "current_actual": "ㄚㄎ-ㄎㄚㄙ-ㄉㄣ"
+  },
+  {
+    "word": "acknowledgement",
+    "current": "ㄚㄎ-ㄎㄋㄠ-ㄌㄝㄉ-ㄐㄧ-ㄇㄣㄊ",
+    "suggested": "ㄜㄎ-ㄋㄚ-ㄌㄝㄐ-ㄇㄜㄣㄊ",
+    "type": "schwa",
+    "reason": "ac- 弱讀;know /nɑ/;-ment 含 schwa",
+    "current_actual": "ㄚㄎ-ㄎㄋㄠ-ㄌㄝㄉ-ㄐㄧ-ㄇㄣㄊ"
+  },
+  {
+    "word": "adolescence",
+    "current": "ㄜ-ㄉㄛ-ㄌㄝ-ㄙㄝㄣ-ㄙㄜ",
+    "suggested": "ㄚ-ㄉㄜ-ㄌㄝ-ㄙㄜㄣㄙ",
+    "type": "schwa",
+    "reason": "-do- 為 /də/ 弱讀;末尾 -ence 為 /əns/",
+    "current_actual": "ㄜ-ㄉㄛ-ㄌㄝ-ㄙㄝㄣ-ㄙㄜ"
+  },
+  {
+    "word": "agony",
+    "current": "ㄜ-ㄍㄛ-ㄋㄧ",
+    "suggested": "ㄚ-ㄍㄜ-ㄋㄧ",
+    "type": "schwa",
+    "reason": "a- 重音 /æ/,-go- 弱讀 schwa",
+    "current_actual": "ㄜ-ㄍㄛ-ㄋㄧ"
+  },
+  {
+    "word": "alien",
+    "current": "ㄜ-ㄌㄞㄋ",
+    "suggested": "ㄝ-ㄌㄧㄜㄣ",
+    "type": "vowel",
+    "reason": "a 為 /eɪ/,-lien 為 /liən/",
+    "current_actual": "ㄜ-ㄌㄞㄋ"
+  },
+  {
+    "word": "anthem",
+    "current": "ㄢ-ㄉㄝㄇ",
+    "suggested": "ㄢ-ㄒㄜㄇ",
+    "type": "schwa",
+    "reason": "-them 弱讀 /θəm/",
+    "current_actual": "ㄢ-ㄉㄝㄇ"
+  },
+  {
+    "word": "antique",
+    "current": "ㄢ-ㄊㄜ-ㄎㄜ",
+    "suggested": "ㄢ-ㄊㄧㄎ",
+    "type": "error",
+    "reason": "兩音節 /ænˈtiːk/,-tique 為單音節 ㄊㄧㄎ",
+    "current_actual": "ㄢ-ㄊㄜ-ㄎㄜ"
+  },
+  {
+    "word": "apt",
+    "current": "ㄚ-ㄊㄧ",
+    "suggested": "ㄚㄆㄊ",
+    "type": "error",
+    "reason": "單音節 /æpt/",
+    "current_actual": "ㄚ-ㄊㄧ"
+  },
+  {
+    "word": "ascend",
+    "current": "ㄚ-ㄎㄝㄋㄉ",
+    "suggested": "ㄜ-ㄙㄝㄣㄉ",
+    "type": "consonant",
+    "reason": "sc 發 /s/ 不是 /k/;a- 弱讀",
+    "current_actual": "ㄚ-ㄎㄝㄋㄉ"
+  },
+  {
+    "word": "ass",
+    "current": "ㄚ-ㄝㄙ",
+    "suggested": "ㄚㄙ",
+    "type": "error",
+    "reason": "單音節 /æs/",
+    "current_actual": "ㄚ-ㄝㄙ"
+  },
+  {
+    "word": "astonish",
+    "current": "ㄚ-ㄊㄛ-ㄋㄧㄒ",
+    "suggested": "ㄜ-ㄙㄊㄚ-ㄋㄧㄒ",
+    "type": "schwa",
+    "reason": "a- 弱讀 /ə/",
+    "current_actual": "ㄚ-ㄊㄛ-ㄋㄧㄒ"
+  },
+  {
+    "word": "attendance",
+    "current": "ㄚ-ㄊㄣ-ㄉㄢ-ㄙㄜ",
+    "suggested": "ㄜ-ㄊㄝㄣ-ㄉㄜㄣㄙ",
+    "type": "schwa",
+    "reason": "a- 弱讀;-dance 為 /dəns/",
+    "current_actual": "ㄚ-ㄊㄣ-ㄉㄢ-ㄙㄜ"
+  },
+  {
+    "word": "awhile",
+    "current": "ㄛ-ㄏㄞ-ㄌㄧ",
+    "suggested": "ㄜ-ㄏㄨㄞㄦ",
+    "type": "error",
+    "reason": "a- 弱讀;-while 為單音節 /waɪl/",
+    "current_actual": "ㄛ-ㄏㄞ-ㄌㄧ"
+  },
+  {
+    "word": "backbone",
+    "current": "ㄅㄚㄎ-ㄎㄅㄛ-ㄋㄧ",
+    "suggested": "ㄅㄚㄎ-ㄅㄛㄣ",
+    "type": "error",
+    "reason": "bone 單音節 /boʊn/",
+    "current_actual": "ㄅㄚㄎ-ㄎㄅㄛ-ㄋㄧ"
+  },
+  {
+    "word": "ban",
+    "current": "ㄅㄧ-ㄢ",
+    "suggested": "ㄅㄢ",
+    "type": "error",
+    "reason": "單音節字 /bæn/",
+    "current_actual": "ㄅㄧ-ㄢ"
+  },
+  {
+    "word": "bass",
+    "current": "ㄅㄧ-ㄚㄙㄙ",
+    "suggested": "ㄅㄝㄙ",
+    "type": "error",
+    "reason": "單音節 /beɪs/(低音)",
+    "current_actual": "ㄅㄧ-ㄚㄙㄙ"
+  },
+  {
+    "word": "batch",
+    "current": "ㄅㄧ-ㄚㄊㄔ",
+    "suggested": "ㄅㄚㄊㄔ",
+    "type": "error",
+    "reason": "單音節 /bætʃ/",
+    "current_actual": "ㄅㄧ-ㄚㄊㄔ"
+  },
+  {
+    "word": "batter",
+    "current": "ㄅㄝ-ㄊㄜ",
+    "suggested": "ㄅㄚ-ㄊㄜ",
+    "type": "vowel",
+    "reason": "bat /bæ/ 不是 /bɛ/",
+    "current_actual": "ㄅㄝ-ㄊㄜ"
+  },
+  {
+    "word": "belongings",
+    "current": "ㄅㄧ-ㄌㄚㄣ-ㄉㄧㄥㄙ",
+    "suggested": "ㄅㄧ-ㄌㄛㄥ-ㄍㄧㄥㄙ",
+    "type": "consonant",
+    "reason": "-gings 為 /gɪŋz/,有 g 子音",
+    "current_actual": "ㄅㄧ-ㄌㄚㄣ-ㄍㄧㄥㄙ"
+  },
+  {
+    "word": "beloved",
+    "current": "ㄅㄧ-ㄌㄛ-ㄨㄝㄉ",
+    "suggested": "ㄅㄧ-ㄌㄚ-ㄈㄜㄉ",
+    "type": "consonant",
+    "reason": "v 為 /v/ 應 ㄈ,不是 ㄨ",
+    "current_actual": "ㄅㄧ-ㄌㄛ-ㄨㄝㄉ"
+  },
+  {
+    "word": "beneficial",
+    "current": "ㄅㄧ-ㄋㄧ-ㄈㄜ-ㄒㄦ",
+    "suggested": "ㄅㄝ-ㄋㄜ-ㄈㄧ-ㄒㄜ",
+    "type": "schwa",
+    "reason": "be- /bɛ/;-ne- 弱讀;-fi- /fɪ/",
+    "current_actual": "ㄅㄧ-ㄋㄧ-ㄈㄜ-ㄒㄦ"
+  },
+  {
+    "word": "bog",
+    "current": "ㄅㄧ-ㄚ",
+    "suggested": "ㄅㄚㄍ",
+    "type": "error",
+    "reason": "單音節 /bɑːg/,漏 g",
+    "current_actual": "ㄅㄧ-ㄚ"
+  },
+  {
+    "word": "bosom",
+    "current": "ㄅㄛ-ㄙㄚ",
+    "suggested": "ㄅㄨ-ㄗㄜㄇ",
+    "type": "schwa",
+    "reason": "-som 弱讀 /zəm/;bo /bʊ/",
+    "current_actual": "ㄅㄛ-ㄙㄚ"
+  },
+  {
+    "word": "boredom",
+    "current": "ㄅㄛ-ㄌㄧ-ㄉㄣ",
+    "suggested": "ㄅㄛㄜ-ㄉㄜㄇ",
+    "type": "schwa",
+    "reason": "bore 單音節;-dom 為 /dəm/",
+    "current_actual": "ㄅㄛ-ㄌㄧ-ㄉㄣ"
+  },
+  {
+    "word": "brace",
+    "current": "ㄅㄌㄚ-ㄙㄜ",
+    "suggested": "ㄅㄌㄝㄙ",
+    "type": "vowel",
+    "reason": "單音節 /breɪs/",
+    "current_actual": "ㄅㄌㄚ-ㄙㄜ"
+  },
+  {
+    "word": "bribe",
+    "current": "ㄅㄖㄧ-ㄅㄧ",
+    "suggested": "ㄅㄖㄞㄅ",
+    "type": "vowel",
+    "reason": "單音節 /braɪb/",
+    "current_actual": "ㄅㄖㄧ-ㄅㄧ"
+  },
+  {
+    "word": "bureau",
+    "current": "ㄅㄧㄨ-ㄌㄛ",
+    "suggested": "ㄅㄧㄨ-ㄖㄛ",
+    "type": "consonant",
+    "reason": "-reau 為 /roʊ/,非 /loʊ/",
+    "current_actual": "ㄅㄧㄨ-ㄌㄛ"
+  },
+  {
+    "word": "carefree",
+    "current": "ㄎㄚ-ㄌㄝ-ㄌㄧ",
+    "suggested": "ㄎㄝㄜ-ㄈㄖㄧ",
+    "type": "consonant",
+    "reason": "漏 f;care 單音節",
+    "current_actual": "ㄎㄚ-ㄌㄝ-ㄌㄧ"
+  },
+  {
+    "word": "caution",
+    "current": "ㄎㄛ-ㄒㄣ",
+    "suggested": "ㄎㄛ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄎㄛ-ㄒㄣ"
+  },
+  {
+    "word": "celebrity",
+    "current": "ㄙㄜ-ㄌㄝㄅ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄙㄜ-ㄌㄝ-ㄅㄖㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-bri- 弱讀 /brə/",
+    "current_actual": "ㄙㄜ-ㄌㄝㄅ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "chestnut",
+    "current": "ㄎㄝㄙ-ㄊㄋㄚㄊ",
+    "suggested": "ㄑㄝㄙ-ㄋㄚㄊ",
+    "type": "silent-missing",
+    "reason": "t 在 chestnut 通常 silent;ch 為 ㄑ",
+    "current_actual": "ㄎㄝㄙ-ㄊㄋㄚㄊ"
+  },
+  {
+    "word": "colonel",
+    "current": "ㄎㄛ-ㄌㄛ-ㄋㄜ",
+    "suggested": "ㄎㄜㄦ-ㄋㄜ",
+    "type": "error",
+    "reason": "發音 /ˈkɜːr.nəl/,只兩音節,類似 kernel",
+    "current_actual": "ㄎㄛ-ㄌㄛ-ㄋㄜ"
+  },
+  {
+    "word": "combat",
+    "current": "ㄎㄚㄇ-ㄅㄝ",
+    "suggested": "ㄎㄚㄇ-ㄅㄚㄊ",
+    "type": "error",
+    "reason": "-bat /bæt/,漏 t",
+    "current_actual": "ㄎㄚㄇ-ㄅㄝ"
+  },
+  {
+    "word": "commonplace",
+    "current": "ㄎㄚㄇ-ㄇㄚ-ㄆㄌㄚ-ㄙㄜ",
+    "suggested": "ㄎㄚ-ㄇㄜㄣ-ㄆㄌㄝㄙ",
+    "type": "schwa",
+    "reason": "-mon 弱讀;place 單音節 /pleɪs/",
+    "current_actual": "ㄎㄚㄇ-ㄇㄚ-ㄆㄌㄚ-ㄙㄜ"
+  },
+  {
+    "word": "compromise",
+    "current": "ㄎㄚㄇ-ㄆㄜ-ㄇㄞ-ㄙㄜ",
+    "suggested": "ㄎㄚㄇ-ㄆㄜ-ㄇㄞㄗ",
+    "type": "error",
+    "reason": "-mise 單音節 /maɪz/",
+    "current_actual": "ㄎㄚㄇ-ㄆㄜ-ㄇㄞ-ㄙㄜ"
+  },
+  {
+    "word": "conceal",
+    "current": "ㄎㄚㄣ-ㄎㄧㄌ",
+    "suggested": "ㄎㄜㄣ-ㄙㄧㄦ",
+    "type": "consonant",
+    "reason": "-ceal 為 /siːl/,c 發 /s/",
+    "current_actual": "ㄎㄚㄣ-ㄎㄧㄌ"
+  },
+  {
+    "word": "console",
+    "current": "ㄎㄚㄣ-ㄙㄛ-ㄌㄧ",
+    "suggested": "ㄎㄜㄣ-ㄙㄛㄦ",
+    "type": "error",
+    "reason": "-sole 單音節 /soʊl/",
+    "current_actual": "ㄎㄚㄣ-ㄙㄛ-ㄌㄧ"
+  },
+  {
+    "word": "continuity",
+    "current": "ㄎㄚㄣ-ㄊㄜ-ㄋㄨ-ㄊㄧ",
+    "suggested": "ㄎㄚㄣ-ㄊㄜ-ㄋㄨ-ㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "5 音節字 con-ti-nu-i-ty",
+    "current_actual": "ㄎㄚㄣ-ㄊㄜ-ㄋㄨ-ㄊㄧ"
+  },
+  {
+    "word": "dough",
+    "current": "ㄉㄧ-ㄋㄚㄈ",
+    "suggested": "ㄉㄛ",
+    "type": "error",
+    "reason": "單音節 /doʊ/,gh silent",
+    "current_actual": "ㄉㄧ-ㄋㄚㄈ"
+  },
+  {
+    "word": "erupt",
+    "current": "ㄧ-ㄌㄚㄆㄊ",
+    "suggested": "ㄧ-ㄖㄚㄆㄊ",
+    "type": "consonant",
+    "reason": "r 為 ㄖ",
+    "current_actual": "ㄧ-ㄌㄚㄆㄊ"
+  },
+  {
+    "word": "exaggeration",
+    "current": "ㄧ-ㄎㄙㄚㄍ-ㄐㄧ-ㄌㄚ-ㄒㄣ",
+    "suggested": "ㄧㄍ-ㄗㄚ-ㄐㄜ-ㄌㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa;-ge- 弱讀",
+    "current_actual": "ㄧ-ㄎㄙㄚㄍ-ㄐㄧ-ㄌㄚ-ㄒㄣ"
+  },
+  {
+    "word": "exterior",
+    "current": "ㄝㄎㄙ-ㄊㄧ-ㄖㄧㄛㄜ",
+    "suggested": "ㄧㄎ-ㄙㄊㄧ-ㄖㄧㄜㄦ",
+    "type": "schwa",
+    "reason": "ex- /ɪk/;-rior 為 /riər/",
+    "current_actual": "ㄝㄎㄙ-ㄊㄧ-ㄖㄧㄛㄜ"
+  },
+  {
+    "word": "fad",
+    "current": "ㄝㄈ-ㄚㄉ",
+    "suggested": "ㄈㄚㄉ",
+    "type": "error",
+    "reason": "單音節 /fæd/",
+    "current_actual": "ㄝㄈ-ㄚㄉ"
+  },
+  {
+    "word": "fatigue",
+    "current": "ㄈㄚ-ㄊㄜ-ㄍㄝ",
+    "suggested": "ㄈㄜ-ㄊㄧㄍ",
+    "type": "error",
+    "reason": "-tigue 為單音節 /tiːg/;fa- /fə/",
+    "current_actual": "ㄈㄚ-ㄊㄜ-ㄍㄝ"
+  },
+  {
+    "word": "filter",
+    "current": "ㄈㄜ-ㄊㄜ",
+    "suggested": "ㄈㄧㄦ-ㄊㄜ",
+    "type": "vowel",
+    "reason": "fil /fɪl/,重音",
+    "current_actual": "ㄈㄜ-ㄊㄜ"
+  },
+  {
+    "word": "fin",
+    "current": "ㄝㄈ-ㄧㄣ",
+    "suggested": "ㄈㄧㄣ",
+    "type": "error",
+    "reason": "單音節 /fɪn/",
+    "current_actual": "ㄝㄈ-ㄧㄣ"
+  },
+  {
+    "word": "fuss",
+    "current": "ㄝㄈ-ㄚㄙㄙ",
+    "suggested": "ㄈㄚㄙ",
+    "type": "error",
+    "reason": "單音節 /fʌs/",
+    "current_actual": "ㄝㄈ-ㄚㄙㄙ"
+  },
+  {
+    "word": "gasp",
+    "current": "ㄐㄧ-ㄚㄙㄆ",
+    "suggested": "ㄍㄚㄙㄆ",
+    "type": "error",
+    "reason": "單音節 /gæsp/;g 為 ㄍ 非 ㄐ",
+    "current_actual": "ㄐㄧ-ㄚㄙㄆ"
+  },
+  {
+    "word": "haul",
+    "current": "ㄝㄑ-ㄛㄌ",
+    "suggested": "ㄏㄛㄦ",
+    "type": "error",
+    "reason": "單音節 /hɔːl/",
+    "current_actual": "ㄝㄑ-ㄛㄌ"
+  },
+  {
+    "word": "heir",
+    "current": "ㄝㄑ-ㄝㄖ",
+    "suggested": "ㄝㄜ",
+    "type": "silent-missing",
+    "reason": "h silent /ɛr/,單音節",
+    "current_actual": "ㄝㄑ-ㄝㄖ"
+  },
+  {
+    "word": "honk",
+    "current": "ㄝㄑ-ㄛㄋㄎ",
+    "suggested": "ㄏㄚㄋㄎ",
+    "type": "error",
+    "reason": "單音節 /hɑːŋk/",
+    "current_actual": "ㄝㄑ-ㄛㄋㄎ"
+  },
+  {
+    "word": "idiot",
+    "current": "ㄌㄜ-ㄉㄧㄛㄊ",
+    "suggested": "ㄧ-ㄉㄧㄜㄊ",
+    "type": "error",
+    "reason": "i 為 /ɪ/ 或 ㄧ,不是 ㄌ",
+    "current_actual": "ㄌㄜ-ㄉㄧㄛㄊ"
+  },
+  {
+    "word": "isle",
+    "current": "ㄜ-ㄌㄧ",
+    "suggested": "ㄞㄦ",
+    "type": "error",
+    "reason": "單音節 /aɪl/,s silent",
+    "current_actual": "ㄜ-ㄌㄧ"
+  },
+  {
+    "word": "ivy",
+    "current": "ㄌㄜ-ㄈㄧ",
+    "suggested": "ㄞ-ㄈㄧ",
+    "type": "vowel",
+    "reason": "i 為 /aɪ/ 應 ㄞ",
+    "current_actual": "ㄌㄜ-ㄈㄧ"
+  },
+  {
+    "word": "jack",
+    "current": "ㄐ-ㄚ",
+    "suggested": "ㄐㄚㄎ",
+    "type": "error",
+    "reason": "單音節 /dʒæk/,漏 k",
+    "current_actual": "ㄐ-ㄚ"
+  },
+  {
+    "word": "lest",
+    "current": "ㄝㄦ-ㄝㄙㄊ",
+    "suggested": "ㄌㄝㄙㄊ",
+    "type": "error",
+    "reason": "單音節 /lɛst/",
+    "current_actual": "ㄝㄦ-ㄝㄙㄊ"
+  },
+  {
+    "word": "lonesome",
+    "current": "ㄌㄛ-ㄋㄧ-ㄙㄛ-ㄇㄝ",
+    "suggested": "ㄌㄛㄣ-ㄙㄜㄇ",
+    "type": "schwa",
+    "reason": "-some 弱讀 /səm/;lone 單音節",
+    "current_actual": "ㄌㄛ-ㄋㄧ-ㄙㄛ-ㄇㄝ"
+  },
+  {
+    "word": "lump",
+    "current": "ㄝㄦ-ㄚㄇㄆ",
+    "suggested": "ㄌㄚㄇㄆ",
+    "type": "error",
+    "reason": "單音節 /lʌmp/",
+    "current_actual": "ㄝㄦ-ㄚㄇㄆ"
+  },
+  {
+    "word": "mansion",
+    "current": "ㄇㄢ-ㄒㄣ",
+    "suggested": "ㄇㄢ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-sion 含 schwa",
+    "current_actual": "ㄇㄢ-ㄒㄣ"
+  },
+  {
+    "word": "mash",
+    "current": "ㄝㄇ-ㄚㄒ",
+    "suggested": "ㄇㄚㄒ",
+    "type": "error",
+    "reason": "單音節 /mæʃ/",
+    "current_actual": "ㄝㄇ-ㄚㄒ"
+  },
+  {
+    "word": "midst",
+    "current": "ㄝㄇ-ㄧㄉㄙㄊ",
+    "suggested": "ㄇㄧㄉㄙㄊ",
+    "type": "error",
+    "reason": "單音節 /mɪdst/",
+    "current_actual": "ㄝㄇ-ㄧㄉㄙㄊ"
+  },
+  {
+    "word": "moan",
+    "current": "ㄝㄇ-ㄛㄋ",
+    "suggested": "ㄇㄛㄣ",
+    "type": "error",
+    "reason": "單音節 /moʊn/",
+    "current_actual": "ㄝㄇ-ㄛㄋ"
+  },
+  {
+    "word": "nag",
+    "current": "ㄝㄣ-ㄚㄍ",
+    "suggested": "ㄋㄚㄍ",
+    "type": "error",
+    "reason": "單音節 /næg/",
+    "current_actual": "ㄝㄣ-ㄚㄍ"
+  },
+  {
+    "word": "oar",
+    "current": "ㄛ-ㄚㄦ",
+    "suggested": "ㄛㄦ",
+    "type": "error",
+    "reason": "單音節 /ɔːr/",
+    "current_actual": "ㄛ-ㄚㄦ"
+  },
+  {
+    "word": "plantation",
+    "current": "ㄆㄌㄚ-ㄊㄝ-ㄒㄣ",
+    "suggested": "ㄆㄌㄚㄣ-ㄊㄝ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄆㄌㄚ-ㄊㄝ-ㄒㄣ"
+  },
+  {
+    "word": "poetic",
+    "current": "ㄆㄧ-ㄊㄧㄎ",
+    "suggested": "ㄆㄛ-ㄝ-ㄊㄧㄎ",
+    "type": "error",
+    "reason": "3 音節 po-et-ic /poʊˈɛtɪk/",
+    "current_actual": "ㄆㄧ-ㄊㄧㄎ"
+  },
+  {
+    "word": "precaution",
+    "current": "ㄆㄌㄧ-ㄎㄛ-ㄒㄣ",
+    "suggested": "ㄆㄌㄧ-ㄎㄛ-ㄒㄜㄣ",
+    "type": "schwa",
+    "reason": "-tion 含 schwa",
+    "current_actual": "ㄆㄌㄧ-ㄎㄛ-ㄒㄣ"
+  },
+  {
+    "word": "prune",
+    "current": "ㄆㄖㄚ-ㄋㄧ",
+    "suggested": "ㄆㄖㄨㄣ",
+    "type": "error",
+    "reason": "單音節 /pruːn/",
+    "current_actual": "ㄆㄖㄚ-ㄋㄧ"
+  },
+  {
+    "word": "vaccine",
+    "current": "ㄈㄚ-ㄙㄜ-ㄋㄧ",
+    "suggested": "ㄈㄚㄎ-ㄙㄧㄋ",
+    "type": "error",
+    "reason": "vaccine 兩音節 /væk-ˈsiːn/,應是 ㄈㄚㄎ-ㄙㄧㄣ",
+    "current_actual": "ㄈㄚ-ㄙㄜ-ㄋㄧ"
+  },
+  {
+    "word": "variation",
+    "current": "ㄈㄚ-ㄖㄧㄚ-ㄒㄣ",
+    "suggested": "ㄈㄝ-ㄖㄧㄜ-ㄒㄣ",
+    "type": "schwa",
+    "reason": "-ria- 應為 schwa /riə/",
+    "current_actual": "ㄈㄚ-ㄖㄧㄚ-ㄒㄣ"
+  },
+  {
+    "word": "versatile",
+    "current": "ㄈㄜ-ㄙㄚ-ㄊㄜ-ㄌㄧ",
+    "suggested": "ㄈㄜ-ㄙㄜ-ㄊㄜ-ㄌ",
+    "type": "schwa",
+    "reason": "-sa- 應為 schwa",
+    "current_actual": "ㄈㄜ-ㄙㄚ-ㄊㄜ-ㄌㄧ"
+  },
+  {
+    "word": "veteran",
+    "current": "ㄈㄜ-ㄊㄧ-ㄌㄚㄣ",
+    "suggested": "ㄈㄝ-ㄊㄜ-ㄖㄜㄋ",
+    "type": "schwa",
+    "reason": "-te- 跟 -ran 皆為 schwa",
+    "current_actual": "ㄈㄜ-ㄊㄧ-ㄌㄚㄣ"
+  },
+  {
+    "word": "vibration",
+    "current": "ㄨㄧㄅ-ㄌㄚ-ㄒㄣ",
+    "suggested": "ㄈㄞ-ㄅㄖㄟ-ㄒㄣ",
+    "type": "error",
+    "reason": "vi 應為 /vaɪ/ ㄈㄞ,-bra- 為 /breɪ/",
+    "current_actual": "ㄨㄧㄅ-ㄌㄚ-ㄒㄣ"
+  },
+  {
+    "word": "vocational",
+    "current": "ㄈㄛ-ㄎㄚ-ㄒㄛ-ㄋㄦ",
+    "suggested": "ㄈㄛ-ㄎㄟ-ㄒㄜ-ㄋㄦ",
+    "type": "schwa",
+    "reason": "-tio- 為 schwa /ʃə/,非 /ʃoʊ/",
+    "current_actual": "ㄈㄛ-ㄎㄚ-ㄒㄛ-ㄋㄦ"
+  },
+  {
+    "word": "vulgar",
+    "current": "ㄈㄚㄦ-ㄍㄚㄦ",
+    "suggested": "ㄈㄚㄦ-ㄍㄜ",
+    "type": "schwa",
+    "reason": "-gar 結尾為 schwa /ɡər/",
+    "current_actual": "ㄈㄚㄦ-ㄍㄚㄦ"
+  },
+  {
+    "word": "warfare",
+    "current": "ㄨㄛ-ㄈㄚ-ㄌㄧ",
+    "suggested": "ㄨㄛ-ㄈㄝㄜ",
+    "type": "error",
+    "reason": "-fare 為單音節 /feər/,不是兩音節",
+    "current_actual": "ㄨㄛ-ㄈㄚ-ㄌㄧ"
+  },
+  {
+    "word": "warranty",
+    "current": "ㄨㄛ-ㄌㄚㄣ-ㄊㄧ",
+    "suggested": "ㄨㄛ-ㄖㄜㄋ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "-ran- 為 schwa",
+    "current_actual": "ㄨㄛ-ㄌㄚㄣ-ㄊㄧ"
+  },
+  {
+    "word": "yearn",
+    "current": "ㄌㄧ-ㄧㄜㄋ",
+    "suggested": "ㄧㄜㄋ",
+    "type": "error",
+    "reason": "yearn 是單音節 /jɜːrn/,y 為 /j/ 不是 ㄌ",
+    "current_actual": "ㄌㄧ-ㄧㄜㄋ"
+  },
+  {
+    "word": "darkness",
+    "current": "ㄉㄜ-ㄎㄋㄝㄙ",
+    "suggested": "ㄉㄚㄦㄎ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "dark 為 /dɑːrk/,-ness 為 schwa",
+    "current_actual": "ㄉㄜ-ㄎㄋㄝㄙ"
+  },
+  {
+    "word": "coldness",
+    "current": "ㄎㄚ-ㄉㄋㄝㄙ",
+    "suggested": "ㄎㄛㄌㄉ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "cold 為 /koʊld/,-ness 為 schwa",
+    "current_actual": "ㄎㄚ-ㄉㄋㄝㄙ"
+  },
+  {
+    "word": "tiredness",
+    "current": "ㄊㄜ-ㄌㄝㄉ-ㄋㄝㄙ",
+    "suggested": "ㄊㄞㄜㄉ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "tired 是單音節 /taɪərd/,不是兩音節",
+    "current_actual": "ㄊㄜ-ㄌㄝㄉ-ㄋㄝㄙ"
+  },
+  {
+    "word": "loneliness",
+    "current": "ㄌㄛ-ㄋㄧ-ㄌㄧ-ㄋㄝㄙ",
+    "suggested": "ㄌㄛㄋ-ㄌㄧ-ㄋㄜㄙ",
+    "type": "schwa",
+    "reason": "-ne- 跟 -ness 多為 schwa",
+    "current_actual": "ㄌㄛ-ㄋㄧ-ㄌㄧ-ㄋㄝㄙ"
+  },
+  {
+    "word": "eagerness",
+    "current": "ㄧ-ㄍㄜ-ㄋㄝㄙ",
+    "suggested": "ㄧ-ㄍㄜ-ㄋㄜㄙ",
+    "type": "schwa",
+    "reason": "-ness 為 schwa",
+    "current_actual": "ㄧ-ㄍㄜ-ㄋㄝㄙ"
+  },
+  {
+    "word": "cleverness",
+    "current": "ㄎㄜ-ㄈㄜ-ㄋㄝㄙ",
+    "suggested": "ㄎㄌㄝ-ㄈㄜ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "cle- 應為 /klɛ/,不是 schwa,漏 ㄌ 子音",
+    "current_actual": "ㄎㄜ-ㄈㄜ-ㄋㄝㄙ"
+  },
+  {
+    "word": "encouragement",
+    "current": "ㄣ-ㄎㄚ-ㄌㄚ-ㄐㄧ-ㄇㄣㄊ",
+    "suggested": "ㄣ-ㄎㄜ-ㄌㄚ-ㄐㄜ-ㄇㄣㄊ",
+    "type": "schwa",
+    "reason": "en- 跟 -ge- 為 schwa",
+    "current_actual": "ㄣ-ㄎㄚ-ㄌㄚ-ㄐㄧ-ㄇㄣㄊ"
+  },
+  {
+    "word": "improvement",
+    "current": "ㄧㄇ-ㄆㄜ-ㄈㄜ-ㄇㄣㄊ",
+    "suggested": "ㄧㄇ-ㄆㄖㄨㄈ-ㄇㄣㄊ",
+    "type": "error",
+    "reason": "-prove 為 /pruːv/ 一個音節,不是兩個",
+    "current_actual": "ㄧㄇ-ㄆㄜ-ㄈㄜ-ㄇㄣㄊ"
+  },
+  {
+    "word": "movement",
+    "current": "ㄇㄛ-ㄈㄜ-ㄇㄣㄊ",
+    "suggested": "ㄇㄨㄈ-ㄇㄣㄊ",
+    "type": "error",
+    "reason": "move 為單音節 /muːv/",
+    "current_actual": "ㄇㄛ-ㄈㄜ-ㄇㄣㄊ"
+  },
+  {
+    "word": "placement",
+    "current": "ㄆㄌㄚ-ㄙㄜ-ㄇㄣㄊ",
+    "suggested": "ㄆㄌㄟㄙ-ㄇㄣㄊ",
+    "type": "error",
+    "reason": "place 為單音節 /pleɪs/",
+    "current_actual": "ㄆㄌㄚ-ㄙㄜ-ㄇㄣㄊ"
+  },
+  {
+    "word": "requirement",
+    "current": "ㄌㄧ-ㄎㄧ-ㄌㄧ-ㄇㄣㄊ",
+    "suggested": "ㄖㄧ-ㄎㄨㄞㄜ-ㄇㄣㄊ",
+    "type": "error",
+    "reason": "-quire- 為 /kwaɪər/,不是兩音節 ㄎㄧ-ㄌㄧ",
+    "current_actual": "ㄌㄧ-ㄎㄧ-ㄌㄧ-ㄇㄣㄊ"
+  },
+  {
+    "word": "add insult to injury",
+    "current": "ㄚㄉㄉ-ㄧㄋㄙㄚㄌㄊ-ㄊㄛ-ㄧㄋㄐㄜㄧ",
+    "suggested": "ㄚㄉ-ㄧㄣ-ㄙㄚㄌㄊ-ㄊㄜ-ㄧㄣ-ㄐㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "to 弱讀 ㄊㄜ;injury 三音節 /ɪn-dʒə-ri/",
+    "current_actual": "ㄚㄉㄉ-ㄧㄋㄙㄚㄌㄊ-ㄊㄛ-ㄧㄋㄐㄜㄧ"
+  },
+  {
+    "word": "apple of the eye",
+    "current": "ㄚㄆㄆㄌㄝ-ㄛㄈ-ㄒㄝ-ㄧㄝ",
+    "suggested": "ㄚ-ㄆㄜ-ㄛㄈ-ㄒㄜ-ㄞ",
+    "type": "error",
+    "reason": "eye 是 /aɪ/ ㄞ;apple 為 ㄚ-ㄆㄜ",
+    "current_actual": "ㄚㄆㄆㄌㄝ-ㄛㄈ-ㄒㄝ-ㄧㄝ"
+  },
+  {
+    "word": "bring home the bacon",
+    "current": "ㄅㄖㄧㄥ-ㄏㄛㄇ-ㄒㄝ-ㄅㄚㄎㄛㄋ",
+    "suggested": "ㄅㄖㄧㄥ-ㄏㄛㄇ-ㄒㄜ-ㄅㄟ-ㄎㄜㄋ",
+    "type": "schwa",
+    "reason": "bacon /ˈbeɪkən/, -con 為 schwa",
+    "current_actual": "ㄅㄖㄧㄥ-ㄏㄛㄇ-ㄒㄝ-ㄅㄚㄎㄛㄋ"
+  },
+  {
+    "word": "food for thought",
+    "current": "ㄈㄨㄉ-ㄈㄛㄜ-ㄒㄛㄊ",
+    "suggested": "ㄈㄨㄉ-ㄈㄜ-ㄒㄛㄊ",
+    "type": "schwa",
+    "reason": "for 弱讀為 ㄈㄜ",
+    "current_actual": "ㄈㄨㄉ-ㄈㄛㄜ-ㄒㄛㄊ"
+  },
+  {
+    "word": "frown upon",
+    "current": "ㄈㄖㄠㄋ-ㄚㄆㄛㄋ",
+    "suggested": "ㄈㄖㄠㄣ-ㄜ-ㄆㄚㄣ",
+    "type": "schwa",
+    "reason": "upon /əˈpɑːn/, u- 為 schwa",
+    "current_actual": "ㄈㄖㄠㄋ-ㄚㄆㄛㄋ"
+  },
+  {
+    "word": "iron out",
+    "current": "ㄜㄛㄋ-ㄠㄊ",
+    "suggested": "ㄞㄜㄋ-ㄠㄊ",
+    "type": "error",
+    "reason": "iron /ˈaɪərn/ 開頭為 ㄞ 不是 ㄜ",
+    "current_actual": "ㄜㄛㄋ-ㄠㄊ"
+  },
+  {
+    "word": "rely on",
+    "current": "ㄖㄝㄌㄧ-ㄛㄋ",
+    "suggested": "ㄖㄧ-ㄌㄞ-ㄛㄋ",
+    "type": "error",
+    "reason": "rely /rɪˈlaɪ/ 第二音節為 ㄌㄞ",
+    "current_actual": "ㄖㄝㄌㄧ-ㄛㄋ"
+  },
+  {
+    "word": "throw in",
+    "current": "ㄒㄖㄠ-ㄧㄋ",
+    "suggested": "ㄒㄖㄛ-ㄧㄣ",
+    "type": "error",
+    "reason": "throw /θroʊ/ 為 ㄛ 不是 ㄠ",
+    "current_actual": "ㄒㄖㄠ-ㄧㄋ"
+  },
+  {
+    "word": "calmness",
+    "current": "ㄎㄜ-ㄇㄋㄝㄙ",
+    "suggested": "ㄎㄚㄇ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "calm /kɑːm/ 為 ㄎㄚㄇ;-ness 為 schwa",
+    "current_actual": "ㄎㄜ-ㄇㄋㄝㄙ"
+  },
+  {
+    "word": "humility",
+    "current": "ㄏㄧㄨ-ㄇㄞ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄏㄧㄨ-ㄇㄧ-ㄌㄜ-ㄊㄧ",
+    "type": "error",
+    "reason": "-mi- 為 /ˈmɪ/ 不是 ㄇㄞ;-li- 為 schwa",
+    "current_actual": "ㄏㄧㄨ-ㄇㄞ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "individuality",
+    "current": "ㄧㄣ-ㄉㄧ-ㄈㄞ-ㄉㄚㄚ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄧㄣ-ㄉㄜ-ㄈㄧ-ㄐㄨ-ㄚ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "多處 schwa 漏標,-vid- 為 /vɪd/ 不是 ㄈㄞ",
+    "current_actual": "ㄧㄣ-ㄉㄧ-ㄈㄞ-ㄉㄚㄚ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "nobility",
+    "current": "ㄋㄛ-ㄅㄞ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄋㄜ-ㄅㄧ-ㄌㄜ-ㄊㄧ",
+    "type": "schwa",
+    "reason": "no- /noʊ/ 弱化;-bi- 為 /ˈbɪ/;-li- 為 schwa",
+    "current_actual": "ㄋㄛ-ㄅㄞ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "visibility",
+    "current": "ㄈㄞ-ㄗㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ",
+    "suggested": "ㄈㄧ-ㄗㄜ-ㄅㄧ-ㄌㄜ-ㄊㄧ",
+    "type": "error",
+    "reason": "vi- 為 /vɪ/;-bi- 為 /ˈbɪ/,不是 ㄅㄞ",
+    "current_actual": "ㄈㄞ-ㄗㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ"
+  },
+  {
+    "word": "compliance",
+    "current": "ㄎㄚㄇ-ㄆㄌㄧㄚㄋ-ㄙㄜ",
+    "suggested": "ㄎㄜㄇ-ㄆㄌㄞ-ㄜㄋㄙ",
+    "type": "error",
+    "reason": "-pli- /plaɪ/ 為 ㄆㄌㄞ;com- 為 schwa",
+    "current_actual": "ㄎㄚㄇ-ㄆㄌㄧㄚㄋ-ㄙㄜ"
+  },
+  {
+    "word": "observance",
+    "current": "ㄚㄅ-ㄗㄜ-ㄈㄚㄣ-ㄙㄜ",
+    "suggested": "ㄜㄅ-ㄗㄜ-ㄈㄜㄋㄙ",
+    "type": "schwa",
+    "reason": "ob- 為 schwa;-van- 為 schwa /vən/",
+    "current_actual": "ㄚㄅ-ㄗㄜ-ㄈㄚㄣ-ㄙㄜ"
+  },
+  {
+    "word": "relevance",
+    "current": "ㄌㄧ-ㄌㄧ-ㄈㄚㄣ-ㄙㄜ",
+    "suggested": "ㄖㄝ-ㄌㄜ-ㄈㄜㄋㄙ",
+    "type": "schwa",
+    "reason": "re- /ˈrɛ/ 重音;-le- 與 -van- 為 schwa",
+    "current_actual": "ㄌㄧ-ㄌㄧ-ㄈㄚㄣ-ㄙㄜ"
+  },
+  {
+    "word": "vigilance",
+    "current": "ㄈㄞ-ㄐㄜ-ㄌㄢ-ㄙㄜ",
+    "suggested": "ㄈㄧ-ㄐㄜ-ㄌㄜㄋㄙ",
+    "type": "schwa",
+    "reason": "vi- /ˈvɪ/ 不是 ㄈㄞ;-lan- 為 schwa",
+    "current_actual": "ㄈㄞ-ㄐㄜ-ㄌㄢ-ㄙㄜ"
+  },
+  {
+    "word": "absolutely",
+    "current": "ㄚㄅ-ㄙㄛ-ㄌㄨ-ㄊㄧ-ㄌㄧ",
+    "suggested": "ㄚㄅ-ㄙㄜ-ㄌㄨㄊ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "-so- 為 schwa",
+    "current_actual": "ㄚㄅ-ㄙㄛ-ㄌㄨ-ㄊㄧ-ㄌㄧ"
+  },
+  {
+    "word": "anymore",
+    "current": "ㄜ-ㄋㄧ-ㄇㄛ-ㄌㄧ",
+    "suggested": "ㄝ-ㄋㄧ-ㄇㄛㄜ",
+    "type": "error",
+    "reason": "more 為單音節 /mɔːr/,不是兩音節",
+    "current_actual": "ㄜ-ㄋㄧ-ㄇㄛ-ㄌㄧ"
+  },
+  {
+    "word": "necessarily",
+    "current": "ㄋㄧ-ㄙㄝ-ㄙㄚ-ㄌㄧ-ㄌㄧ",
+    "suggested": "ㄋㄝ-ㄙㄜ-ㄙㄝ-ㄖㄜ-ㄌㄧ",
+    "type": "schwa",
+    "reason": "ne- 為 /ˈnɛ/;-ces- 為 schwa;-ri- 為 schwa",
+    "current_actual": "ㄋㄧ-ㄙㄝ-ㄙㄚ-ㄌㄧ-ㄌㄧ"
+  },
+  {
+    "word": "regularly",
+    "current": "ㄌㄧ-ㄍㄧㄨ-ㄌㄜ-ㄌㄧ",
+    "suggested": "ㄖㄝ-ㄍㄧㄨ-ㄌㄜ-ㄌㄧ",
+    "type": "error",
+    "reason": "re- /ˈrɛ/ 為 ㄖㄝ 重音不是 ㄌㄧ",
+    "current_actual": "ㄌㄧ-ㄍㄧㄨ-ㄌㄜ-ㄌㄧ"
+  },
+  {
+    "word": "usually",
+    "current": "ㄧㄨ-ㄙㄚㄚㄌ-ㄌㄧ",
+    "suggested": "ㄧㄨ-ㄓㄨ-ㄜ-ㄌㄧ",
+    "type": "error",
+    "reason": "usually /ˈjuːʒuəli/, 第二音節為 /ʒu/",
+    "current_actual": "ㄧㄨ-ㄙㄚㄚㄌ-ㄌㄧ"
+  },
+  {
+    "word": "argue",
+    "current": "ㄚㄦ-ㄍㄝ",
+    "suggested": "ㄚㄦ-ㄍㄧㄨ",
+    "type": "error",
+    "reason": "argue /ˈɑːrɡjuː/ 第二音節 /ɡjuː/",
+    "current_actual": "ㄚㄦ-ㄍㄝ"
+  },
+  {
+    "word": "comply",
+    "current": "ㄎㄚㄇ-ㄆㄌㄞ",
+    "suggested": "ㄎㄜㄇ-ㄆㄌㄞ",
+    "type": "schwa",
+    "reason": "com- 弱讀為 schwa",
+    "current_actual": "ㄎㄚㄇ-ㄆㄌㄞ"
+  },
+  {
+    "word": "develop",
+    "current": "ㄉㄧ-ㄈㄜ-ㄌㄛㄆ",
+    "suggested": "ㄉㄜ-ㄈㄝ-ㄌㄜㄆ",
+    "type": "schwa",
+    "reason": "de- 弱讀為 schwa;-ve- 為 /ˈvɛ/;-lop 為 schwa",
+    "current_actual": "ㄉㄧ-ㄈㄜ-ㄌㄛㄆ"
+  },
+  {
+    "word": "improve",
+    "current": "ㄧㄇ-ㄆㄜ-ㄈㄜ",
+    "suggested": "ㄧㄇ-ㄆㄖㄨㄈ",
+    "type": "error",
+    "reason": "improve /ɪmˈpruːv/ 兩音節,-prove 是一個音節 /pruːv/",
+    "current_actual": "ㄧㄇ-ㄆㄜ-ㄈㄜ"
+  },
+  {
+    "word": "measure",
+    "current": "ㄇㄧ-ㄙㄨ-ㄌㄧ",
+    "suggested": "ㄇㄝ-ㄓㄜ",
+    "type": "error",
+    "reason": "measure /ˈmɛʒər/ 兩音節,完全唸錯",
+    "current_actual": "ㄇㄧ-ㄙㄨ-ㄌㄧ"
+  },
+  {
+    "word": "move",
+    "current": "ㄇㄛ-ㄈㄜ",
+    "suggested": "ㄇㄨㄈ",
+    "type": "error",
+    "reason": "move 是單音節 /muːv/",
+    "current_actual": "ㄇㄛ-ㄈㄜ"
+  },
+  {
+    "word": "pacify",
+    "current": "ㄆㄜ-ㄙㄜ-ㄈㄞ",
+    "suggested": "ㄆㄚ-ㄙㄜ-ㄈㄞ",
+    "type": "error",
+    "reason": "pa- 為 /ˈpæ/ 重音不是 schwa",
+    "current_actual": "ㄆㄜ-ㄙㄜ-ㄈㄞ"
+  },
+  {
+    "word": "settle",
+    "current": "ㄙㄝㄊ-ㄉㄜ",
+    "suggested": "ㄙㄝ-ㄉㄜ",
+    "type": "schwa",
+    "reason": "已正確;-tle 的 t/d 為 flap,微調",
+    "current_actual": "ㄙㄝㄊ-ㄉㄜ"
+  },
+  {
+    "word": "tap",
+    "current": "ㄊㄝ-ㄆㄧ",
+    "suggested": "ㄊㄚㄆ",
+    "type": "error",
+    "reason": "tap 是單音節 /tæp/",
+    "current_actual": "ㄊㄝ-ㄆㄧ"
+  },
+  {
+    "word": "tend",
+    "current": "ㄊㄧ-ㄋㄉ",
+    "suggested": "ㄊㄝㄋㄉ",
+    "type": "error",
+    "reason": "tend /tɛnd/ 單音節,母音為 ㄝ 不是 ㄧ",
+    "current_actual": "ㄊㄧ-ㄋㄉ"
+  },
+  {
+    "word": "airbag",
+    "current": "ㄟㄦ-ㄅㄚㄍ",
+    "suggested": "ㄝㄦ-ㄅㄚㄍ",
+    "type": "vowel",
+    "reason": "air /ɛər/ 為 ㄝㄦ,不是 ㄟㄦ;此類其他字 air* 同樣",
+    "current_actual": "ㄟㄦ-ㄅㄚㄍ"
+  },
+  {
+    "word": "baseline",
+    "current": "ㄅㄟ-ㄙㄜ-ㄌㄧ-ㄋㄧ",
+    "suggested": "ㄅㄟㄙ-ㄌㄞㄋ",
+    "type": "error",
+    "reason": "baseline 為兩音節 /ˈbeɪs-laɪn/,-line 為 /laɪn/",
+    "current_actual": "ㄅㄟ-ㄙㄜ-ㄌㄧ-ㄋㄧ"
+  },
+  {
+    "word": "beeline",
+    "current": "ㄅㄧ-ㄌㄧ-ㄋㄧ",
+    "suggested": "ㄅㄧ-ㄌㄞㄋ",
+    "type": "error",
+    "reason": "-line 為 /laɪn/ 單音節",
+    "current_actual": "ㄅㄧ-ㄌㄧ-ㄋㄧ"
+  },
+  {
+    "word": "bedside",
+    "current": "ㄅㄝㄉ-ㄗㄜ-ㄉㄧ",
+    "suggested": "ㄅㄝㄉ-ㄙㄞㄉ",
+    "type": "error",
+    "reason": "-side 為 /saɪd/ 單音節",
+    "current_actual": "ㄅㄝㄉ-ㄗㄜ-ㄉㄧ"
+  },
+  {
+    "word": "beehive",
+    "current": "ㄅㄧ-ㄏㄞ-ㄈㄜ",
+    "suggested": "ㄅㄧ-ㄏㄞㄈ",
+    "type": "error",
+    "reason": "-hive 為 /haɪv/ 單音節",
+    "current_actual": "ㄅㄧ-ㄏㄞ-ㄈㄜ"
+  },
+  {
+    "word": "icon",
+    "current": "ㄌㄜ-ㄎㄚㄣ",
+    "suggested": "ㄞ-ㄎㄚㄣ",
+    "type": "error",
+    "reason": "icon /ˈaɪkɒn/, i- 為 ㄞ 不是 ㄌㄜ",
+    "current_actual": "ㄌㄜ-ㄎㄚㄣ"
+  },
+  {
+    "word": "idealist",
+    "current": "ㄌㄜ-ㄉㄧ-ㄌㄧㄙㄊ",
+    "suggested": "ㄞ-ㄉㄧ-ㄜ-ㄌㄧㄙㄊ",
+    "type": "error",
+    "reason": "i- 為 ㄞ 不是 ㄌㄜ",
+    "current_actual": "ㄌㄜ-ㄉㄧ-ㄌㄧㄙㄊ"
+  },
+  {
+    "word": "idolize",
+    "current": "ㄌㄜ-ㄉㄛ-ㄌㄧ-ㄗㄧ",
+    "suggested": "ㄞ-ㄉㄜ-ㄌㄞㄗ",
+    "type": "error",
+    "reason": "i- 為 ㄞ;-ize 為 /aɪz/",
+    "current_actual": "ㄌㄜ-ㄉㄛ-ㄌㄧ-ㄗㄧ"
+  },
+  {
+    "word": "inaugurate",
+    "current": "ㄌㄜ-ㄋㄛ-ㄍㄧㄨ-ㄌㄚ-ㄊㄧ",
+    "suggested": "ㄧ-ㄋㄛ-ㄍㄧㄨ-ㄖㄟㄊ",
+    "type": "error",
+    "reason": "i- 為 ㄧ 不是 ㄌㄜ",
+    "current_actual": "ㄌㄜ-ㄋㄛ-ㄍㄧㄨ-ㄌㄚ-ㄊㄧ"
+  },
+  {
+    "word": "inundate",
+    "current": "ㄌㄜ-ㄋㄚㄋ-ㄉㄚ-ㄊㄧ",
+    "suggested": "ㄧ-ㄋㄚㄋ-ㄉㄟㄊ",
+    "type": "error",
+    "reason": "i- 為 ㄧ 不是 ㄌㄜ",
+    "current_actual": "ㄌㄜ-ㄋㄚㄋ-ㄉㄚ-ㄊㄧ"
+  },
+  {
+    "word": "bot",
+    "current": "ㄅㄛ-ㄊㄧ",
+    "suggested": "ㄅㄚㄊ",
+    "type": "error",
+    "reason": "bot /bɑːt/ 單音節",
+    "current_actual": "ㄅㄛ-ㄊㄧ"
+  },
+  {
+    "word": "codec",
+    "current": "ㄎㄛ-ㄉㄝ",
+    "suggested": "ㄎㄛ-ㄉㄝㄎ",
+    "type": "consonant",
+    "reason": "漏標尾 -c /k/",
+    "current_actual": "ㄎㄛ-ㄉㄝ"
+  },
+  {
+    "word": "portal",
+    "current": "ㄆㄜ-ㄉㄜ",
+    "suggested": "ㄆㄛㄜ-ㄊㄜ",
+    "type": "error",
+    "reason": "por- 為 /pɔːr/ ㄆㄛㄦ,不是 ㄆㄜ",
+    "current_actual": "ㄆㄜ-ㄉㄜ"
+  },
+  {
+    "word": "username",
+    "current": "ㄧㄨ-ㄗㄜ-ㄋㄚ-ㄇㄝ",
+    "suggested": "ㄧㄨ-ㄗㄜ-ㄋㄟㄇ",
+    "type": "error",
+    "reason": "-name 為單音節 /neɪm/",
+    "current_actual": "ㄧㄨ-ㄗㄜ-ㄋㄚ-ㄇㄝ"
+  },
+  {
+    "word": "webpage",
+    "current": "ㄨㄝㄅ-ㄆㄜ-ㄐㄧ",
+    "suggested": "ㄨㄝㄅ-ㄆㄟㄐ",
+    "type": "error",
+    "reason": "-page 為單音節 /peɪdʒ/",
+    "current_actual": "ㄨㄝㄅ-ㄆㄜ-ㄐㄧ"
+  },
+  {
+    "word": "homepage",
+    "current": "ㄏㄚ-ㄇㄝ-ㄆㄜ-ㄐㄧ",
+    "suggested": "ㄏㄛㄇ-ㄆㄟㄐ",
+    "type": "error",
+    "reason": "home 為 /hoʊm/;page 為單音節 /peɪdʒ/",
+    "current_actual": "ㄏㄚ-ㄇㄝ-ㄆㄜ-ㄐㄧ"
+  },
+  {
+    "word": "runtime",
+    "current": "ㄌㄚㄣ-ㄊㄜ-ㄇㄝ",
+    "suggested": "ㄖㄚㄣ-ㄊㄞㄇ",
+    "type": "error",
+    "reason": "-time 為單音節 /taɪm/",
+    "current_actual": "ㄌㄚㄣ-ㄊㄜ-ㄇㄝ"
+  },
+  {
+    "word": "firmware",
+    "current": "ㄈㄜ-ㄇㄨㄚ-ㄌㄧ",
+    "suggested": "ㄈㄜㄇ-ㄨㄝㄜ",
+    "type": "error",
+    "reason": "-ware 為 /wɛər/ 單音節",
+    "current_actual": "ㄈㄜ-ㄇㄨㄚ-ㄌㄧ"
+  },
+  {
+    "word": "mainframe",
+    "current": "ㄇㄟㄣ-ㄈㄌㄚ-ㄇㄝ",
+    "suggested": "ㄇㄟㄋ-ㄈㄌㄟㄇ",
+    "type": "error",
+    "reason": "-frame 為 /freɪm/ 單音節",
+    "current_actual": "ㄇㄟㄣ-ㄈㄌㄚ-ㄇㄝ"
+  },
+  {
+    "word": "sitemap",
+    "current": "ㄗㄜ-ㄊㄧ-ㄇㄚㄆ",
+    "suggested": "ㄙㄞㄊ-ㄇㄚㄆ",
+    "type": "error",
+    "reason": "site 為 /saɪt/ 單音節",
+    "current_actual": "ㄗㄜ-ㄊㄧ-ㄇㄚㄆ"
+  },
+  {
+    "word": "voicemail",
+    "current": "ㄨㄛㄧ-ㄙㄜ-ㄇㄝㄦ",
+    "suggested": "ㄨㄛㄧㄙ-ㄇㄟㄦ",
+    "type": "error",
+    "reason": "voice 是單音節 /vɔɪs/",
+    "current_actual": "ㄨㄛㄧ-ㄙㄜ-ㄇㄝㄦ"
+  },
+  {
+    "word": "workspace",
+    "current": "ㄨㄜㄎ-ㄙㄆㄚ-ㄙㄜ",
+    "suggested": "ㄨㄜㄎ-ㄙㄆㄟㄙ",
+    "type": "error",
+    "reason": "space 為單音節 /speɪs/",
+    "current_actual": "ㄨㄜㄎ-ㄙㄆㄚ-ㄙㄜ"
+  },
+  {
+    "word": "clientele",
+    "current": "ㄎㄌㄞㄋ-ㄊㄧ-ㄌㄧ",
+    "suggested": "ㄎㄌㄞㄋ-ㄊㄜ-ㄦ",
+    "type": "error",
+    "reason": "clientele /ˌklaɪənˈtɛl/, -tele 最後音節為 /tɛl/",
+    "current_actual": "ㄎㄌㄞㄋ-ㄊㄧ-ㄌㄧ"
+  },
+  {
+    "word": "alkaline",
+    "current": "ㄦ-ㄎㄚ-ㄌㄧ-ㄋㄧ",
+    "suggested": "ㄚㄦ-ㄎㄜ-ㄌㄞㄋ",
+    "type": "error",
+    "reason": "al- 為 /ˈæl/;-line 為 /laɪn/",
+    "current_actual": "ㄦ-ㄎㄚ-ㄌㄧ-ㄋㄧ"
+  },
+  {
+    "word": "adorable",
+    "current": "ㄜ-ㄉㄛ-ㄖㄝ-ㄌㄧ",
+    "suggested": "ㄜ-ㄉㄛ-ㄖㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-ra- 為 schwa,-ble 為 /bəl/",
+    "current_actual": "ㄜ-ㄉㄛ-ㄖㄝ-ㄌㄧ"
+  },
+  {
+    "word": "alleged",
+    "current": "ㄦ-ㄌㄧ-ㄍㄝㄉ",
+    "suggested": "ㄜ-ㄌㄝㄐㄉ",
+    "type": "error",
+    "reason": "al- 為 schwa /ə/;-leged /lɛdʒd/",
+    "current_actual": "ㄦ-ㄌㄧ-ㄍㄝㄉ"
+  },
+  {
+    "word": "ambient",
+    "current": "ㄚㄇ-ㄅㄞㄋㄊ",
+    "suggested": "ㄚㄇ-ㄅㄧㄜㄋㄊ",
+    "type": "error",
+    "reason": "-bient /biənt/ 不是 ㄅㄞㄋㄊ",
+    "current_actual": "ㄚㄇ-ㄅㄞㄋㄊ"
+  },
+  {
+    "word": "answerable",
+    "current": "ㄢ-ㄙㄨㄧ-ㄖㄝ-ㄌㄧ",
+    "suggested": "ㄚㄣ-ㄙㄜ-ㄖㄜ-ㄅㄜ",
+    "type": "error",
+    "reason": "-swer 為 /sər/,-ble 為 /bəl/",
+    "current_actual": "ㄢ-ㄙㄨㄧ-ㄖㄝ-ㄌㄧ"
+  },
+  {
+    "word": "astronomical",
+    "current": "ㄚ-ㄊㄌㄛ-ㄋㄛ-ㄇㄞ-ㄎㄜ",
+    "suggested": "ㄚ-ㄊㄜ-ㄋㄛ-ㄇㄧ-ㄎㄜ",
+    "type": "error",
+    "reason": "-tro- 為 schwa;-mi- 為 /ˈmɪ/ 不是 ㄇㄞ",
+    "current_actual": "ㄚ-ㄊㄌㄛ-ㄋㄛ-ㄇㄞ-ㄎㄜ"
+  },
+  {
+    "word": "autonomous",
+    "current": "ㄛ-ㄊㄛ-ㄋㄛ-ㄇㄚㄙ",
+    "suggested": "ㄛ-ㄊㄚ-ㄋㄜ-ㄇㄜㄙ",
+    "type": "schwa",
+    "reason": "-no- 跟 -mous 為 schwa",
+    "current_actual": "ㄛ-ㄊㄛ-ㄋㄛ-ㄇㄚㄙ"
+  },
+  {
+    "word": "mindful",
+    "current": "ㄇㄧ-ㄉㄈㄚㄛ",
+    "suggested": "ㄇㄞㄋㄉ-ㄈㄜ",
+    "type": "error",
+    "reason": "mind 為 /maɪnd/;-ful 為 /fəl/ schwa",
+    "current_actual": "ㄇㄧ-ㄉㄈㄚㄛ"
+  },
+  {
+    "word": "watchful",
+    "current": "ㄨㄚㄊㄎ-ㄏㄈㄚㄛ",
+    "suggested": "ㄨㄚㄔ-ㄈㄜ",
+    "type": "error",
+    "reason": "-ful 為 /fəl/ schwa,不是 ㄏㄈㄚㄛ",
+    "current_actual": "ㄨㄚㄊㄎ-ㄏㄈㄚㄛ"
+  },
+  {
+    "word": "wishful",
+    "current": "ㄨㄧㄗ-ㄏㄈㄚㄛ",
+    "suggested": "ㄨㄧㄒ-ㄈㄜ",
+    "type": "error",
+    "reason": "-ful 為 /fəl/ schwa",
+    "current_actual": "ㄨㄧㄗ-ㄏㄈㄚㄛ"
+  },
+  {
+    "word": "wrongful",
+    "current": "ㄨㄖㄛㄋ-ㄍㄈㄚㄛ",
+    "suggested": "ㄖㄛㄥ-ㄈㄜ",
+    "type": "error",
+    "reason": "w 是 silent;-ful 為 schwa",
+    "current_actual": "ㄨㄖㄛㄋ-ㄍㄈㄚㄛ"
+  },
+  {
+    "word": "successfully",
+    "current": "ㄙㄚㄎ-ㄙㄝ-ㄙㄈㄚㄛ-ㄌㄧ",
+    "suggested": "ㄙㄚㄎ-ㄙㄝㄙ-ㄈㄜ-ㄌㄧ",
+    "type": "error",
+    "reason": "-ful- 為 schwa /fəl/",
+    "current_actual": "ㄙㄚㄎ-ㄙㄝ-ㄙㄈㄚㄛ-ㄌㄧ"
+  },
+  {
+    "word": "motherless",
+    "current": "ㄇㄛㄊ-ㄏㄜ-ㄌㄝㄙ",
+    "suggested": "ㄇㄚ-ㄉㄜ-ㄌㄜㄙ",
+    "type": "error",
+    "reason": "mother /ˈmʌðər/, mo- 為 ㄇㄚ",
+    "current_actual": "ㄇㄛㄊ-ㄏㄜ-ㄌㄝㄙ"
+  },
+  {
+    "word": "speechless",
+    "current": "ㄙㄆㄧㄎ-ㄏㄌㄝㄙ",
+    "suggested": "ㄙㄆㄧㄔ-ㄌㄜㄙ",
+    "type": "error",
+    "reason": "-ch /tʃ/ 為 ㄔ,h 是 silent",
+    "current_actual": "ㄙㄆㄧㄎ-ㄏㄌㄝㄙ"
+  },
+  {
+    "word": "thankless",
+    "current": "ㄉㄢ-ㄎㄌㄝㄙ",
+    "suggested": "ㄒㄚㄋㄎ-ㄌㄜㄙ",
+    "type": "error",
+    "reason": "thank /θæŋk/, 母音為 /æ/ ㄚ",
+    "current_actual": "ㄉㄢ-ㄎㄌㄝㄙ"
+  },
+  {
+    "word": "childless",
+    "current": "ㄑㄧ-ㄉㄌㄝㄙ",
+    "suggested": "ㄔㄞㄦㄉ-ㄌㄜㄙ",
+    "type": "error",
+    "reason": "child /tʃaɪld/, 完全唸錯",
+    "current_actual": "ㄑㄧ-ㄉㄌㄝㄙ"
+  },
+  {
+    "word": "timeless",
+    "current": "ㄊㄜ-ㄇㄝ-ㄌㄝㄙ",
+    "suggested": "ㄊㄞㄇ-ㄌㄜㄙ",
+    "type": "error",
+    "reason": "time /taɪm/ 為單音節",
+    "current_actual": "ㄊㄜ-ㄇㄝ-ㄌㄝㄙ"
+  },
+  {
+    "word": "tireless",
+    "current": "ㄊㄜ-ㄌㄧ-ㄌㄝㄙ",
+    "suggested": "ㄊㄞㄜ-ㄌㄜㄙ",
+    "type": "error",
+    "reason": "tire /ˈtaɪər/, 開頭為 ㄊㄞ 不是 ㄊㄜ",
+    "current_actual": "ㄊㄜ-ㄌㄧ-ㄌㄝㄙ"
+  },
+  {
+    "word": "hideous",
+    "current": "ㄏㄞ-ㄉㄝㄜㄙ",
+    "suggested": "ㄏㄧ-ㄉㄧㄜㄙ",
+    "type": "error",
+    "reason": "hideous /ˈhɪdiəs/, hi- 為 ㄏㄧ 不是 ㄏㄞ",
+    "current_actual": "ㄏㄞ-ㄉㄝㄜㄙ"
+  },
+  {
+    "word": "infamous",
+    "current": "ㄧㄣ-ㄈㄚ-ㄇㄚㄙ",
+    "suggested": "ㄧㄣ-ㄈㄜ-ㄇㄜㄙ",
+    "type": "schwa",
+    "reason": "-fa- 跟 -mous 為 schwa",
+    "current_actual": "ㄧㄣ-ㄈㄚ-ㄇㄚㄙ"
+  },
+  {
+    "word": "ominous",
+    "current": "ㄛ-ㄇㄞ-ㄋㄜㄙ",
+    "suggested": "ㄚ-ㄇㄜ-ㄋㄜㄙ",
+    "type": "error",
+    "reason": "omi- /ˈɑːmɪ/, -mi- 為 /mɪ/ 不是 ㄇㄞ",
+    "current_actual": "ㄛ-ㄇㄞ-ㄋㄜㄙ"
+  },
+  {
+    "word": "adaptable",
+    "current": "ㄜ-ㄉㄚ-ㄊㄚ-ㄌㄧ",
+    "suggested": "ㄜ-ㄉㄚㄆ-ㄊㄜ-ㄅㄜ",
+    "type": "schwa",
+    "reason": "-ta- 為 schwa;-ble 為 /bəl/",
+    "current_actual": "ㄜ-ㄉㄚ-ㄊㄚ-ㄌㄧ"
+  }
+]

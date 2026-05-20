@@ -1,5 +1,5 @@
 {
-  "vocab_hash_current": "482eaa605c7b3d5651c7cc99befd2e1e67c67c11d6000e591ec41d711441cf57",
+  "vocab_hash_current": "c3b01d020016bc15cb601d3a006c0b2e027938a1027adf6f6a47d014ee74bc97",
   "checks": {
     "L1-all": {
       "last_run": "2026-05-15T11:17:20",
@@ -90,6 +90,15 @@
       "fixes_applied": 0,
       "tagged_total": 257,
       "report": "reports/20260520-L1-silent-letter.json"
+    },
+    "L2-pinyin": {
+      "last_run": "2026-05-20T05:44:36",
+      "vocab_hash": "c3b01d020016bc15cb601d3a006c0b2e027938a1027adf6f6a47d014ee74bc97",
+      "vocab_count": 10101,
+      "issues_found": 932,
+      "fixes_applied": 840,
+      "agent_count": 7,
+      "report": "reports/20260520-pinyin-MERGED.json"
     }
   },
   "_note": "history.json 由 scripts/run_layer1.py / update_history.py 自動更新。手動編輯前請先備份。method 欄位選填,標示用何種方法跑(規則 vs AI 全字)。"
