@@ -1,0 +1,672 @@
+[
+  {
+    "word": "noise",
+    "base": "no",
+    "action": "remove-base",
+    "reason": "假家族:noise 源自拉丁 nausea,跟英文「no」無關。+ise 註解也不通(no 本身不是名詞)"
+  },
+  {
+    "word": "arrive",
+    "base": "ar",
+    "action": "remove-base",
+    "reason": "假家族:「ar」不是英文字,arrive 來自拉丁 ad+rīpa(到岸邊)。家族注又寫「+ive 形容詞」,但 arrive 是動詞,完全不通"
+  },
+  {
+    "word": "arise",
+    "base": "ar",
+    "action": "remove-base",
+    "reason": "假家族:「ar」不是英文字,arise 為古英語 a-(prefix)+ rise。家族注「+ise 把名詞變動詞」也錯,arise 不是 ar+ise"
+  },
+  {
+    "word": "pigment",
+    "base": "pig",
+    "action": "remove-base",
+    "reason": "假家族:pigment 來自拉丁 pigmentum(顏料、塗料),跟英文「pig」無關"
+  },
+  {
+    "word": "banner",
+    "base": "ban",
+    "action": "remove-base",
+    "reason": "假家族:family-note 自己也說「banner 跟 ban 字源不同,僅同形」,base 應拿掉"
+  },
+  {
+    "word": "archive",
+    "base": "arch",
+    "action": "remove-base",
+    "reason": "假家族:archive 來自希臘 arkheion(政府檔案處),跟英文「arch(拱形/拱門)」無關"
+  },
+  {
+    "word": "pollution",
+    "base": "poll",
+    "action": "remove-base",
+    "reason": "假家族:pollution 來自拉丁 polluere(污染),跟「poll(投票/民調)」無關。應改 base=pollute"
+  },
+  {
+    "word": "solution",
+    "base": "sole",
+    "action": "remove-base",
+    "reason": "假家族:solution 來自拉丁 solvere/solutus(解開),跟「sole(唯一的/鞋底)」無關。應改 base=solve"
+  },
+  {
+    "word": "kitty",
+    "base": "cat",
+    "action": "remove-base",
+    "reason": "假家族:kitty 是 kitten 的暱稱,跟「cat」沒有構詞關係(不是 cat 加字尾)。應改 base=kitten 或拿掉"
+  },
+  {
+    "word": "gorgeous",
+    "base": "gorge",
+    "current_note": "「有…的」(+ous 形容詞)",
+    "suggested_note": "(獨立字,跟 gorge=峽谷無關)",
+    "reason": "gorgeous 來自古法語 gorgias(優雅華麗),跟英文「gorge(峽谷)」無關,屬假家族。建議移除 base 或在註明字源無關"
+  },
+  {
+    "word": "miserable",
+    "base": "miser",
+    "current_note": "「可以…的」版本(+able 形容詞,可以被 miser)",
+    "suggested_note": "(獨立字,跟 miser=守財奴無關,源自拉丁 miser=痛苦)",
+    "reason": "miser 在英文是「守財奴」,跟 miserable(悲慘的)語意完全不同。「可以被 miser」更是不通。應拿掉 base 或加註字源說明"
+  },
+  {
+    "word": "weariness",
+    "base": "wear",
+    "current_note": "「…的性質」(y 變 i + ness)",
+    "suggested_note": "「…的性質」(+ness 把形容詞變名詞,從 weary 來)",
+    "reason": "weariness 是 weary 加 ness,不是 wear 加。base 應改成 weary,註解的「y 變 i」也對不上 wear"
+  },
+  {
+    "word": "readiness",
+    "base": "read",
+    "current_note": "「…的性質」(y 變 i + ness)",
+    "suggested_note": "「…的性質」(+ness 把形容詞變名詞,從 ready 來)",
+    "reason": "readiness 是 ready 加 ness,跟 read(讀)無關。base 應改成 ready"
+  },
+  {
+    "word": "rose",
+    "base": "rise",
+    "current_note": "已經升起的版本(過去式)",
+    "suggested_note": "(這條 mean=玫瑰色,跟 rise 過去式同形但無關;若要當 rise 過去式請改 mean)",
+    "reason": "mean=玫瑰色(花/顏色),但 family-note 寫「已經升起的版本」,完全對不上。要嘛改 mean,要嘛拿掉 base"
+  },
+  {
+    "word": "global",
+    "base": "globe",
+    "current_note": "形容詞版本(+al,全球的)",
+    "suggested_note": "形容詞版本(+al,球狀的/全球的)",
+    "reason": "mean=球狀的,但 note 寫「全球的」。常用義是「全球的」,建議 mean 補上「全球的」或 note 改成「球狀的」以一致"
+  },
+  {
+    "word": "waver",
+    "base": "wave",
+    "current_note": "做這件事的人/工具(+er)",
+    "suggested_note": "動詞「動搖、猶豫」(跟 wave 同源但 waver 本身是動詞,不是「做 wave 的人」)",
+    "reason": "mean=動搖(動詞),但 note 寫「做這件事的人/工具」對應名詞。詞性跟解釋對不上"
+  },
+  {
+    "word": "fries",
+    "base": "fry",
+    "current_note": "第三人稱單數 / 薯條(y 變 ies)",
+    "suggested_note": "複數名詞「薯條」(y 變 ies;雖跟 fry 第三人稱單數同形,但 mean 是薯條)",
+    "reason": "mean=薯條,是複數名詞,不是動詞第三人稱。note 把兩者混在一起會誤導"
+  },
+  {
+    "word": "mathematical",
+    "base": "mathematics",
+    "current_note": "形容詞版本(+al,數學的)",
+    "suggested_note": "形容詞版本(從 mathematic + al,數學的)",
+    "reason": "mathematics 已含 -ics,mathematical 是 mathematic + al,base 應為 mathematic 或標示去 s 加 al"
+  },
+  {
+    "word": "organize",
+    "base": "organ",
+    "current_note": "動詞版本(+ize 把名詞變動詞)",
+    "suggested_note": "動詞版本(+ize,從希臘 organon=工具,跟 organ=器官同源但用法不同)",
+    "reason": "base=organ 在英文是「器官/管風琴」,跟 organize 構詞語意連結弱。學習者容易誤以為 organize 跟身體器官有關"
+  },
+  {
+    "word": "medical",
+    "base": "medicine",
+    "current_note": "形容詞版本(+al,醫療的)",
+    "suggested_note": "形容詞版本(+al,從 medic/medicine 來,醫療的)",
+    "reason": "medical 是 medic + al,不是 medicine + al(沒有 -ine + al 直接相加);註解 +al 跟 medicine 對不上字尾"
+  },
+  {
+    "word": "predator",
+    "base": "prey",
+    "current_note": "掠食動物(predat + or)",
+    "suggested_note": "掠食動物(從 predate=掠食 + or;跟 prey 同源但 predator 不是 prey+or)",
+    "reason": "predator 構詞上不是 prey + or,而是 predate + or。base 設成 prey 會讓「predat + or」沒道理"
+  },
+  {
+    "word": "porter",
+    "base": "port",
+    "current_note": "做這件事的人(port + er,搬運工)",
+    "suggested_note": "做這件事的人(從拉丁 portare=搬運;跟英文 port=港口同形不同源)",
+    "reason": "英文 port=港口/港,porter=搬運工。learner 不會自然從 port(港口)聯想到搬運。註解「port + er」字面誤導"
+  },
+  {
+    "word": "foundation",
+    "base": "found",
+    "current_note": "這個動作的「結果/事物」(+ation 名詞)",
+    "suggested_note": "這個動作的「結果/事物」(+ation 名詞,粉底=基礎妝)",
+    "reason": "mean=粉底液,note 是泛用模板,沒解釋為何 found(建立)→粉底液。建議補一句連結"
+  },
+  {
+    "word": "meant",
+    "base": "mean",
+    "current_note": "已經意指的版本(過去式)",
+    "suggested_note": "mean(意指)的過去式;但 mean 一字有多義,易混(平均、意思、刻薄)",
+    "reason": "learner 會困惑「mean=刻薄」跟 meant=意指過去式 的關係。base 是動詞 mean(意指)的話應 disambiguate"
+  },
+  {
+    "word": "depress",
+    "base": "press",
+    "current_note": "前綴 de-(壓抑)",
+    "suggested_note": "前綴 de-(向下 + press 壓 = 使消沉)",
+    "reason": "純「前綴 de-」對學習者太空,沒解釋「向下壓」的意象"
+  },
+  {
+    "word": "discover",
+    "base": "cover",
+    "current_note": "前綴 dis-(dis + cover,發現)",
+    "suggested_note": "前綴 dis-(打開 cover = 揭開 = 發現)",
+    "reason": "目前 note 沒解釋語意連結,可加「打開蓋子=發現」的意象"
+  },
+  {
+    "word": "overcome",
+    "base": "come",
+    "current_note": "前綴 over-(克服)",
+    "suggested_note": "前綴 over-(從上方來 = 克服)",
+    "reason": "純「前綴 over-」太簡略,沒解釋語意"
+  },
+  {
+    "word": "overlook",
+    "base": "look",
+    "current_note": "前綴 over-(忽略)",
+    "suggested_note": "前綴 over-(從上面看過去 = 忽略/俯瞰)",
+    "reason": "mean=眺望、俯瞰,但 note 寫「忽略」,語意對不上。overlook 兩義都有,但 mean 跟 note 應一致"
+  },
+  {
+    "word": "mislead",
+    "base": "lead",
+    "current_note": "前綴 mis-(誤導)",
+    "suggested_note": "前綴 mis-(錯誤地 + lead 帶領 = 誤導)",
+    "reason": "目前 note 太簡略,沒講 mis- = 錯誤"
+  },
+  {
+    "word": "misunderstand",
+    "base": "understand",
+    "current_note": "前綴 mis-(誤解)",
+    "suggested_note": "前綴 mis-(錯誤地 + understand = 誤會)",
+    "reason": "同上,缺 mis- 字面意義"
+  },
+  {
+    "word": "misfortune",
+    "base": "fortune",
+    "current_note": "前綴 mis-(不幸)",
+    "suggested_note": "前綴 mis-(錯誤/壞的 + fortune 運氣 = 不幸)",
+    "reason": "同上,可補語意連結"
+  },
+  {
+    "word": "foresee",
+    "base": "see",
+    "current_note": "前綴 fore-(預見)",
+    "suggested_note": "前綴 fore-(事前 + see 看 = 預見)",
+    "reason": "缺 fore- 字面說明"
+  },
+  {
+    "word": "reproduce",
+    "base": "produce",
+    "current_note": "前綴 re-(再 + produce,繁殖)",
+    "suggested_note": "前綴 re-(再 + produce 製造 = 再製造/繁殖)",
+    "reason": "註解算 OK,可補「製造」連結到「繁殖」"
+  },
+  {
+    "word": "underestimate",
+    "base": "estimate",
+    "current_note": "前綴 under-(低估)",
+    "suggested_note": "前綴 under-(往下 + estimate 估算 = 低估)",
+    "reason": "純「前綴 under-」缺解釋"
+  },
+  {
+    "word": "undermine",
+    "base": "mine",
+    "current_note": "前綴 under-(under + mine,破壞)",
+    "suggested_note": "前綴 under-(往下挖 + mine 礦坑 = 暗中破壞)",
+    "reason": "可補上字面意象連結"
+  },
+  {
+    "word": "discomfort",
+    "base": "comfort",
+    "current_note": "否定版本(dis- + comfort,不舒服)",
+    "suggested_note": "否定版本(dis- 表否定 + comfort 舒適 = 不舒適)",
+    "reason": "格式 OK 但較簡略"
+  },
+  {
+    "word": "disable",
+    "base": "able",
+    "current_note": "否定版本(dis- + able,使失能)",
+    "suggested_note": "否定版本(dis- 表否定 + able 能夠 = 使無能力)",
+    "reason": "格式 OK 略簡"
+  },
+  {
+    "word": "disconnect",
+    "base": "connect",
+    "current_note": "否定版本(dis- + connect,斷開)",
+    "suggested_note": "否定版本(dis- 表分開 + connect 連接 = 切斷)",
+    "reason": "略簡"
+  },
+  {
+    "word": "disapprove",
+    "base": "approve",
+    "current_note": "否定版本(dis- + approve,不贊同)",
+    "suggested_note": "否定版本(dis- 表否定 + approve 贊同 = 不贊同)",
+    "reason": "略簡"
+  },
+  {
+    "word": "discourage",
+    "base": "courage",
+    "current_note": "否定版本(dis- + courage,使氣餒)",
+    "suggested_note": "否定版本(dis- 表否定 + courage 勇氣 = 使氣餒)",
+    "reason": "略簡"
+  },
+  {
+    "word": "disadvantage",
+    "base": "advantage",
+    "current_note": "否定版本(dis- + advantage,劣勢)",
+    "suggested_note": "否定版本(dis- 表否定 + advantage 優勢 = 劣勢)",
+    "reason": "略簡"
+  },
+  {
+    "word": "distrust",
+    "base": "trust",
+    "current_note": "否定版本(dis- + trust,不信任)",
+    "suggested_note": "否定版本(dis- 表否定 + trust 信任 = 不信任)",
+    "reason": "略簡"
+  },
+  {
+    "word": "uncover",
+    "base": "cover",
+    "current_note": "否定版本(un- + cover,揭開)",
+    "suggested_note": "否定版本(un- 表移除 + cover 蓋住 = 掀開/揭發)",
+    "reason": "略簡;mean=揭露,note 寫「揭開」可一致"
+  },
+  {
+    "word": "dishonest",
+    "base": "honest",
+    "current_note": "否定版本(dis- + honest,不誠實的)",
+    "suggested_note": "否定版本(dis- 表否定 + honest 誠實 = 不誠實的)",
+    "reason": "略簡"
+  },
+  {
+    "word": "unlawful",
+    "base": "lawful",
+    "current_note": "否定版本(un- + lawful,不合法的)",
+    "suggested_note": "否定版本(un- 表否定 + lawful 合法 = 不合法的)",
+    "reason": "略簡"
+  },
+  {
+    "word": "illegal",
+    "base": "legal",
+    "current_note": "否定版本(il- + legal,非法的)",
+    "suggested_note": "否定版本(il- = in- 的變體,表否定 + legal 合法 = 非法的)",
+    "reason": "沒提到 il- 是 in- 的同位異形,學習者會困惑為何用 il-"
+  },
+  {
+    "word": "impatient",
+    "base": "patient",
+    "current_note": "否定版本(im- + patient,沒耐心的)",
+    "suggested_note": "否定版本(im- = in- 的變體,表否定 + patient 有耐心 = 沒耐心)",
+    "reason": "同上,沒解釋為何不是 in- 而是 im-"
+  },
+  {
+    "word": "immoral",
+    "base": "moral",
+    "current_note": "否定版本(im- + moral,不道德的)",
+    "suggested_note": "否定版本(im- = in- 的變體,表否定 + moral 道德 = 不道德的)",
+    "reason": "同上"
+  },
+  {
+    "word": "immature",
+    "base": "mature",
+    "current_note": "否定版本(im- + mature,不成熟的)",
+    "suggested_note": "否定版本(im- = in- 的變體,表否定 + mature 成熟 = 不成熟的)",
+    "reason": "同上"
+  },
+  {
+    "word": "irrational",
+    "base": "rational",
+    "current_note": "否定版本(ir- + rational,不理性的)",
+    "suggested_note": "否定版本(ir- = in- 的變體,表否定 + rational 理性 = 不理性的)",
+    "reason": "同上"
+  },
+  {
+    "word": "injustice",
+    "base": "justice",
+    "current_note": "否定版本(in- + justice,不公正)",
+    "suggested_note": "否定版本(in- 表否定 + justice 公正 = 不公正)",
+    "reason": "略簡"
+  },
+  {
+    "word": "unconscious",
+    "base": "conscious",
+    "current_note": "否定版本(un- + conscious,無意識的)",
+    "suggested_note": "否定版本(un- 表否定 + conscious 有意識 = 無意識的;mean=昏迷)",
+    "reason": "mean=昏迷,note 解釋「無意識的」,加上連結會比較清楚"
+  },
+  {
+    "word": "upset",
+    "base": "upset",
+    "current_note": "形容詞「心煩的」(過去分詞當形容詞);動詞三態同形",
+    "suggested_note": "動詞三態同形 upset/upset/upset;當形容詞「心煩的」(過去分詞用法)",
+    "reason": "目前 note 把形容詞放前面、三態同形放後面,順序不一致(其他三態同形字都先講三態)"
+  },
+  {
+    "word": "polished",
+    "base": "polish",
+    "current_note": "擦亮過的(+ed 形容詞)",
+    "suggested_note": "擦亮過的(+ed 形容詞);引申為「精緻的、優雅的」",
+    "reason": "mean=精緻的,但 note 寫「擦亮過的」字面意,沒連結到 mean 的引申意"
+  },
+  {
+    "word": "refined",
+    "base": "refine",
+    "current_note": "精緻的(+ed 形容詞)",
+    "suggested_note": "精煉過的(+ed 形容詞);引申「優雅的」",
+    "reason": "mean=優雅的,note 寫「精緻的」,有點繞但 OK;可補引申義"
+  },
+  {
+    "word": "taken",
+    "base": "take",
+    "current_note": "已經拿過的版本(過去分詞,配 have 用)",
+    "suggested_note": "過去分詞;當形容詞「(感情上)有對象的、名花有主的」",
+    "reason": "mean=有對象,是 idiom 用法(I'm taken),不只是「拿過」。note 應補形容詞用法"
+  },
+  {
+    "word": "committed",
+    "base": "commit",
+    "current_note": "已經承諾的(過去式/+ed 形容詞,雙 t)",
+    "suggested_note": "形容詞「專一的、投入的」(+ed 形容詞,雙 t)",
+    "reason": "mean=專一(感情用語),note 寫「承諾的」較廣"
+  },
+  {
+    "word": "cheating",
+    "base": "cheat",
+    "current_note": "正在偷情/作弊(進行式,+ing)",
+    "suggested_note": "正在偷情/作弊(進行式,+ing);感情語境=劈腿",
+    "reason": "mean=劈腿,note 提到偷情/作弊,OK 可更明確"
+  },
+  {
+    "word": "ghosting",
+    "base": "ghost",
+    "current_note": "突然消失不聯絡(進行式,+ing)",
+    "suggested_note": "突然消失不聯絡(ghost 當動詞,+ing;源自像鬼一樣消失)",
+    "reason": "learner 不知道為何 ghost 變動詞;補一句字面連結"
+  },
+  {
+    "word": "shredding",
+    "base": "shred",
+    "current_note": "正在切碎(進行式,雙 d)",
+    "suggested_note": "正在切碎(進行式,雙 d);健身語境=減脂(像把脂肪「切掉」)",
+    "reason": "mean=減脂,note 只寫「切碎」沒連結到健身義"
+  },
+  {
+    "word": "spinning",
+    "base": "spin",
+    "current_note": "正在…的版本(進行式,+ing)",
+    "suggested_note": "正在旋轉(進行式,雙 n);也指飛輪課(像 spin 在轉)",
+    "reason": "mean=飛輪課、旋轉,note 太空泛"
+  },
+  {
+    "word": "singular",
+    "base": "single",
+    "current_note": "形容詞版本(同根 sing-,單數的)",
+    "suggested_note": "形容詞「單數的」(跟 single 同源,源自拉丁 singulus=單一)",
+    "reason": "「同根 sing-」對學習者不太清楚,可補拉丁源說明"
+  },
+  {
+    "word": "virtual",
+    "base": "virtue",
+    "current_note": "形容詞版本(+al,從 virtue 來)",
+    "suggested_note": "形容詞「虛擬的」(跟 virtue 同源,源自拉丁 virtus=力量/本質)",
+    "reason": "virtual+virtue 同源但語意分歧大,純「+al 從 virtue 來」會誤導(virtue=美德,不會直接想到 virtual=虛擬)"
+  },
+  {
+    "word": "missionary",
+    "base": "mission",
+    "current_note": "做這件事的人(+ary,傳教士)",
+    "suggested_note": "做這件事的人(mission 任務/使命 + ary,傳教士=有使命的人)",
+    "reason": "可補連結"
+  },
+  {
+    "word": "strategist",
+    "base": "strategy",
+    "current_note": "做這件事的人(+ist,策略家)",
+    "suggested_note": "做這件事的人(+ist,策略家;strategy 去 y 加 ist)",
+    "reason": "缺拼字規則說明(y→去掉再加 ist)"
+  },
+  {
+    "word": "biologist",
+    "base": "biology",
+    "current_note": "做這件事的人(+ist,生物學家)",
+    "suggested_note": "做這件事的人(biology 去 y + ist,生物學家)",
+    "reason": "同上,缺拼字規則"
+  },
+  {
+    "word": "chemist",
+    "base": "chemistry",
+    "current_note": "做這件事的人(+ist,化學家)",
+    "suggested_note": "做這件事的人(chemistry → chemist,去 -ry,化學家)",
+    "reason": "拼字其實是 chemistry 去 -ry,不是直接加 ist;規則沒講清楚"
+  },
+  {
+    "word": "physicist",
+    "base": "physics",
+    "current_note": "做這件事的人(+ist,物理學家)",
+    "suggested_note": "做這件事的人(physic + ist,物理學家;physics 去 s 加 ist)",
+    "reason": "沒說明 physics → physicist 的拼字變化"
+  },
+  {
+    "word": "economist",
+    "base": "economy",
+    "current_note": "做這件事的人(+ist,經濟學家)",
+    "suggested_note": "做這件事的人(economy 去 y + ist,經濟學家)",
+    "reason": "缺拼字規則"
+  },
+  {
+    "word": "sociologist",
+    "base": "sociology",
+    "current_note": "做這件事的人(+ist,社會學家)",
+    "suggested_note": "做這件事的人(sociology 去 y + ist,社會學家)",
+    "reason": "同上"
+  },
+  {
+    "word": "psychologist",
+    "base": "psychology",
+    "current_note": "做這件事的人(+ist,心理學家)",
+    "suggested_note": "做這件事的人(psychology 去 y + ist,心理學家)",
+    "reason": "同上"
+  },
+  {
+    "word": "philosopher",
+    "base": "philosophy",
+    "current_note": "做這件事的人(+er,哲學家)",
+    "suggested_note": "做這件事的人(philosophy 去 y + er,哲學家)",
+    "reason": "同上"
+  },
+  {
+    "word": "historian",
+    "base": "history",
+    "current_note": "做這件事的人(+ian,歷史學家)",
+    "suggested_note": "做這件事的人(history 去 y + ian,歷史學家)",
+    "reason": "同上"
+  },
+  {
+    "word": "pianist",
+    "base": "piano",
+    "current_note": "做這件事的人(+ist,鋼琴家)",
+    "suggested_note": "做這件事的人(piano 去 o + ist,鋼琴家)",
+    "reason": "沒提到 o 變化"
+  },
+  {
+    "word": "founder",
+    "base": "found",
+    "current_note": "做這件事的人/工具(+er)",
+    "suggested_note": "做這件事的人(found 建立 + er,創辦人)",
+    "reason": "模板「人/工具」太通用,founder 只指人,且 found 在此=建立(不是 find 的過去式),應明確"
+  },
+  {
+    "word": "analyst",
+    "base": "analyze",
+    "current_note": "做這件事的人(+yst,分析師)",
+    "suggested_note": "做這件事的人(analy + st,分析師;analyze 去 ze)",
+    "reason": "「+yst」不是合理字尾,應說明 analy 是字根、+st"
+  },
+  {
+    "word": "appetizer",
+    "base": "appetite",
+    "current_note": "做這件事的東西(+izer,開胃菜)",
+    "suggested_note": "做這件事的東西(appetite 變 appet + izer,開胃菜)",
+    "reason": "appetite → appetizer 拼字變化(去 ite 加 izer)沒說清楚"
+  },
+  {
+    "word": "emergency",
+    "base": "emerge",
+    "current_note": "名詞版本(+ency,緊急)",
+    "suggested_note": "名詞版本(+ency,緊急情況;emerge 浮現 + ency,突然出現的狀況)",
+    "reason": "mean=急診,note 寫「緊急」OK 但缺連結"
+  },
+  {
+    "word": "prayer",
+    "base": "pray",
+    "current_note": "這個動作(pray + er,祈禱)",
+    "suggested_note": "名詞「祈禱」(pray + er;特例:這裡 -er 不是「人」而是「動作/結果」)",
+    "reason": "prayer 不是「祈禱的人」,是「祈禱」這個動作/內容,note 沒突出特例"
+  },
+  {
+    "word": "prosecution",
+    "base": "prosecute",
+    "current_note": "這個動作的「結果」(+ion 名詞,起訴)",
+    "suggested_note": "這個動作的「結果」(+ion 名詞;mean=檢方=起訴的一方)",
+    "reason": "mean=檢方,note 寫「起訴」,概念不同,需連結「檢方=起訴方」"
+  },
+  {
+    "word": "deepen",
+    "base": "deep",
+    "current_note": "動詞版本(+en,加深)",
+    "suggested_note": "動詞版本(+en 把形容詞變動詞,加深/使變深)",
+    "reason": "格式可加「把形容詞變動詞」一致化"
+  },
+  {
+    "word": "frighten",
+    "base": "fright",
+    "current_note": "動詞版本(+en,使害怕)",
+    "suggested_note": "動詞版本(+en 把名詞變動詞,fright 驚恐 → frighten 使害怕)",
+    "reason": "+en 接的是名詞 fright(不是形容詞),格式需區分"
+  },
+  {
+    "word": "lessen",
+    "base": "less",
+    "current_note": "動詞版本(+en,減少)",
+    "suggested_note": "動詞版本(less + en,減少;注意跟 lesson=課程同音易混)",
+    "reason": "lessen vs lesson 同音易混,note 沒提示"
+  },
+  {
+    "word": "loosen",
+    "base": "loose",
+    "current_note": "動詞版本(+n,鬆開)",
+    "suggested_note": "動詞版本(loose + n,鬆開;字尾 e 後加 n)",
+    "reason": "+n 規則沒解釋(因為 loose 已結尾 e)"
+  },
+  {
+    "word": "awaken",
+    "base": "awake",
+    "current_note": "動詞版本(+n,喚醒)",
+    "suggested_note": "動詞版本(awake + n,喚醒;字尾 e 後加 n)",
+    "reason": "同上"
+  },
+  {
+    "word": "awful",
+    "base": "awe",
+    "current_note": "「充滿…的」(+ful 形容詞)",
+    "suggested_note": "「充滿…的」(+ful 形容詞;awe=敬畏 → awful=充滿敬畏 → 引申為可怕的)",
+    "reason": "awe=敬畏,awful=可怕,語意翻轉,需特別說明"
+  },
+  {
+    "word": "feelings",
+    "base": "feel",
+    "current_note": "名詞版本(+ings,感受;複數常用)",
+    "suggested_note": "名詞「感情/感受」(feel + ings;複數型常用為情感)",
+    "reason": "+ings 不是常見字尾,需說明是「+ing 後加 s 變複數」"
+  },
+  {
+    "word": "earnings",
+    "base": "earn",
+    "current_note": "名詞版本(+ings,收入)",
+    "suggested_note": "名詞「收入」(earn + ing + s,複數型,賺到的東西)",
+    "reason": "同上,+ings 應拆解"
+  },
+  {
+    "word": "savings",
+    "base": "save",
+    "current_note": "名詞版本(+ings,儲蓄)",
+    "suggested_note": "名詞「儲蓄」(save + ing + s,複數型,存下來的錢)",
+    "reason": "同上"
+  },
+  {
+    "word": "groceries",
+    "base": "grocer",
+    "current_note": "「很多個」的版本(複數,y 變 ies)",
+    "suggested_note": "「很多個」的版本(grocery 複數,y 變 ies;mean=日用品=去 grocer 雜貨商買的東西)",
+    "reason": "base 應為 grocery(2446 條目),不是 grocer。groceries 是 grocery 的複數"
+  },
+  {
+    "word": "former",
+    "base": "form",
+    "current_note": "「以前的/前者」(獨立用法,跟 form 字面動作無關)",
+    "suggested_note": "獨立用法「以前的、前者」(雖跟 form 同源但語意已分化)",
+    "reason": "目前 note 已警告「跟 form 字面動作無關」,但既然無關,base=form 本身就值得商榷"
+  },
+  {
+    "word": "forecast",
+    "base": "forecast",
+    "current_note": "名詞=預報;動詞三態同形 forecast/forecast/forecast",
+    "suggested_note": "名詞=預報;動詞三態同形(fore- 預先 + cast 投擲 = 預先丟出/預報)",
+    "reason": "forecast 其實 = fore + cast,base 設成自己 OK 但 note 可補構詞"
+  },
+  {
+    "word": "shot",
+    "base": "shoot",
+    "current_note": "shoot 一下的成果(名詞:一針/一槍/一杯)",
+    "suggested_note": "shoot 的過去分詞當名詞(一針/一槍/一杯;為 shoot 的不規則變化)",
+    "reason": "shot 是 shoot 的過去式/過去分詞,note 沒明說這層關係"
+  },
+  {
+    "word": "bore",
+    "base": "bear",
+    "current_note": "已經承受過的版本(過去式;也指鑽孔)",
+    "suggested_note": "bear 的過去式;當動詞另指鑽孔/讓人厭煩(三義易混)",
+    "reason": "bore 有三義:bear 過去式、鑽孔、令人厭煩。note 只提兩個,且學習者可能跟 boring/bored 混"
+  },
+  {
+    "word": "ground",
+    "base": "grind",
+    "current_note": "已經研磨的版本(過去式;也指地面)",
+    "suggested_note": "grind 的過去式/過去分詞;另外當名詞「地面」(同形不同源)",
+    "reason": "ground=地面 跟 grind=磨碎 字源不同,note 應明說「同形不同源」"
+  },
+  {
+    "word": "lay",
+    "base": "lie",
+    "current_note": "躺(過去式;但也是「放置」動詞原形,易混)",
+    "suggested_note": "lie(躺)的過去式;但 lay 另為動詞原形「放置」(兩字易混)",
+    "reason": "已有警告 OK,但句子可再順一點"
+  },
+  {
+    "word": "born",
+    "base": "bear",
+    "current_note": "已經出生的版本(過去分詞;bear 也指生育)",
+    "suggested_note": "bear(生育)的過去分詞;mean=出生/天生的",
+    "reason": "已 OK,可再簡潔"
+  }
+]

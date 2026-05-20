@@ -1,0 +1,501 @@
+# 字 5500-5999
+ 5500 | complement                     | 互補                             | 🤝        | chunks=['com', 'ple', 'ment'] | py=ㄎㄚㄇ-ㄆㄌㄜ-ㄇㄣㄊ | theme=academic-words | stage=3 [有易混提示]
+ 5501 | conform                        | 遵從                             | ✅        | chunks=['con', 'form'] | py=ㄎㄣ-ㄈㄛㄜㄇ | theme=academic-words | stage=3
+ 5502 | contradict                     | 矛盾                             | ⚔️       | chunks=['con', 'tra', 'dict'] | py=ㄎㄚㄣ-ㄊㄖㄜ-ㄉㄧㄎㄊ | theme=academic-words | stage=3
+ 5503 | crucial                        | 關鍵的                            | 🔑        | chunks=['cru', 'cial'] | py=ㄎㄖㄨ-ㄒㄛ | theme=academic-words | stage=2
+ 5504 | denote                         | 表示                             | 📝        | chunks=['de', 'note'] | py=ㄉㄧ-ㄋㄛㄊ | theme=academic-words | stage=4
+ 5505 | detect                         | 偵測                             | 🔍        | chunks=['de', 'tect'] | py=ㄉㄜ-ㄊㄝㄎㄊ | theme=academic-words | stage=2
+ 5506 | deviate                        | 偏離                             | ↪️       | chunks=['de', 'vi', 'ate'] | py=ㄉㄧ-ㄈㄧ-ㄝㄊ | theme=academic-words | stage=4
+ 5507 | displace                       | 取代                             | 🔄        | chunks=['dis', 'place'] | py=ㄉㄧㄙ-ㄆㄌㄟㄙ | theme=academic-words | stage=3
+ 5508 | eventual                       | 最終的                            | 🏁        | chunks=['e', 'ven', 'tu', 'al'] | py=ㄜ-ㄨㄣ-ㄔㄩ-ㄛ | theme=academic-words | stage=3
+ 5509 | exploit                        | 利用                             | ⛏️       | chunks=['ex', 'ploit'] | py=ㄝㄎ-ㄙㄆㄌㄛㄧㄊ | theme=academic-words | stage=3
+ 5510 | fluctuate                      | 波動                             | 📊        | chunks=['fluc', 'tu', 'ate'] | py=ㄈㄌㄚㄎ-ㄔㄩ-ㄝㄊ | theme=academic-words | stage=4
+ 5511 | guideline                      | 準則                             | 📏        | chunks=['guide', 'line'] | py=ㄍㄞㄉ-ㄌㄞㄣ | theme=academic-words | stage=2
+ 5512 | highlight                      | 強調                             | ✨        | chunks=['high', 'light'] | py=ㄏㄞ-ㄌㄞㄊ | theme=academic-words | stage=2
+ 5513 | implicit                       | 含蓄的                            | 💭        | chunks=['im', 'plic', 'it'] | py=ㄧㄇ-ㄆㄌㄧ-ㄙㄧㄊ | theme=academic-words | stage=3
+ 5514 | induce                         | 誘發                             | ⚡        | chunks=['in', 'duce'] | py=ㄧㄣ-ㄉㄩㄙ | theme=academic-words | stage=4
+ 5515 | inevitable                     | 不可避免的                          | ⚠️       | chunks=['in', 'ev', 'i', 'ta', 'ble'] | py=ㄧㄣ-ㄝ-ㄨㄜ-ㄊㄜ-ㄅㄛ | theme=academic-words | stage=3
+ 5516 | inspect                        | 檢查                             | 🔍        | chunks=['in', 'spect'] | py=ㄧㄣ-ㄙㄆㄝㄎㄊ | theme=academic-words | stage=2
+ 5517 | intense                        | 強烈的                            | 🔥        | chunks=['in', 'tense'] | py=ㄧㄣ-ㄊㄣㄙ | theme=academic-words | stage=2
+ 5518 | manipulate                     | 操縱                             | 🎛️       | chunks=['ma', 'nip', 'u', 'late'] | py=ㄇㄜ-ㄋㄧ-ㄆㄩ-ㄌㄟㄊ | theme=academic-words | stage=3
+ 5519 | minimize                       | 最小化                            | 🔽        | chunks=['min', 'i', 'mize'] | py=ㄇㄧ-ㄋㄜ-ㄇㄞㄗ | theme=academic-words | stage=3
+ 5520 | offset                         | 抵消                             | ⚖️       | chunks=['off', 'set'] | py=ㄛㄈ-ㄙㄝㄊ | theme=academic-words | stage=3
+ 5521 | practitioner                   | 從業者                            | 👨‍⚕️     | chunks=['prac', 'ti', 'tion', 'er'] | py=ㄆㄖㄚㄎ-ㄊㄧ-ㄒㄣ-ㄜ | theme=academic-words | stage=4
+ 5522 | predominant                    | 主要的                            | 👑        | chunks=['pre', 'dom', 'i', 'nant'] | py=ㄆㄖㄜ-ㄉㄚ-ㄇㄜ-ㄋㄣㄊ | theme=academic-words | stage=4
+ 5523 | prospect                       | 前景                             | 🔭        | chunks=['pros', 'pect'] | py=ㄆㄖㄚ-ㄙㄆㄝㄎㄊ | theme=academic-words | stage=3
+ 5524 | random                         | 隨機的                            | 🎲        | chunks=['ran', 'dom'] | py=ㄖㄢ-ㄉㄚㄇ | theme=academic-words | stage=2
+ 5525 | reinforce                      | 加強                             | 🧱        | chunks=['re', 'in', 'force'] | py=ㄖㄧ-ㄧㄣ-ㄈㄛㄜㄙ | theme=academic-words | stage=3
+ 5526 | restore                        | 恢復                             | 🔄        | chunks=['re', 'store'] | py=ㄖㄜ-ㄙㄊㄛㄜ | theme=academic-words | stage=2
+ 5527 | tense                          | 緊張的                            | 😬        | chunks=['t', 'ense'] | py=ㄊㄣㄙ | theme=academic-words | stage=2 [有易混提示]
+ 5528 | terminate                      | 終止                             | 🛑        | chunks=['ter', 'mi', 'nate'] | py=ㄊㄜ-ㄇㄜ-ㄋㄟㄊ | theme=academic-words | stage=3
+ 5529 | vehicle                        | 車輛                             | 🚗        | chunks=['ve', 'hi', 'cle'] | py=ㄈㄧ-ㄜ-ㄎㄛ | theme=academic-words | stage=2
+ 5530 | via                            | 經由                             | ➡️       | chunks=['vi', 'a'] | py=ㄈㄞ-ㄜ | theme=academic-words | stage=2 [有易混提示]
+ 5531 | visual                         | 視覺的                            | 👁️       | chunks=['vis', 'u', 'al'] | py=ㄈㄧ-ㄓㄩ-ㄛ | theme=academic-words | stage=2
+ 5532 | widespread                     | 廣泛的                            | 🌐        | chunks=['wide', 'spread'] | py=ㄨㄞㄉ-ㄙㄆㄖㄝㄉ | theme=academic-words | stage=3
+ 5533 | accommodate                    | 容納                             | 🏨        | chunks=['ac', 'com', 'mo', 'date'] | py=ㄜ-ㄎㄚ-ㄇㄜ-ㄉㄟㄊ | theme=academic-words | stage=3
+ 5534 | analogous                      | 類似的                            | 🔗        | chunks=['a', 'nal', 'o', 'gous'] | py=ㄜ-ㄋㄚ-ㄜ-ㄍㄜㄙ | theme=academic-words | stage=4
+ 5535 | anticipate                     | 預期                             | 🔮        | chunks=['an', 'tic', 'i', 'pate'] | py=ㄢ-ㄊㄧ-ㄙㄜ-ㄆㄟㄊ | theme=academic-words | stage=3
+ 5536 | assure                         | 保證                             | 🤝        | chunks=['as', 'sure'] | py=ㄜ-ㄒㄩㄜ | theme=academic-words | stage=2 [有易混提示]
+ 5537 | attain                         | 達到                             | 🎯        | chunks=['at', 'tain'] | py=ㄜ-ㄊㄟㄣ | theme=academic-words | stage=3
+ 5538 | behalf                         | 代表                             | 🤝        | chunks=['be', 'half'] | py=ㄅㄜ-ㄏㄚㄈ | theme=academic-words | stage=3
+ 5539 | cease                          | 停止                             | 🛑        | chunks=['c', 'ease'] | py=ㄒㄧㄙ | theme=academic-words | stage=3
+ 5540 | coherent                       | 連貫的                            | 🔗        | chunks=['co', 'her', 'ent'] | py=ㄎㄛ-ㄏㄧ-ㄖㄣㄊ | theme=academic-words | stage=4
+ 5541 | coincide                       | 巧合                             | 🎯        | chunks=['co', 'in', 'cide'] | py=ㄎㄛ-ㄧㄣ-ㄙㄞㄉ | theme=academic-words | stage=3
+ 5542 | commence                       | 開始                             | 🚀        | chunks=['com', 'mence'] | py=ㄎㄜ-ㄇㄣㄙ | theme=academic-words | stage=3
+ 5543 | compatible                     | 相容的                            | 🤝        | chunks=['com', 'pat', 'i', 'ble'] | py=ㄎㄜㄇ-ㄆㄚ-ㄊㄜ-ㄅㄛ | theme=academic-words | stage=2
+ 5544 | concurrent                     | 並行的                            | ⏱️       | chunks=['con', 'cur', 'rent'] | py=ㄎㄣ-ㄎㄜ-ㄖㄣㄊ | theme=academic-words | stage=4
+ 5545 | confine                        | 限制                             | 🚧        | chunks=['con', 'fine'] | py=ㄎㄣ-ㄈㄞㄣ | theme=academic-words | stage=3
+ 5546 | controversy                    | 爭議                             | ⚔️       | chunks=['con', 'tro', 'ver', 'sy'] | py=ㄎㄚㄣ-ㄊㄖㄜ-ㄨㄜ-ㄙㄧ | theme=academic-words | stage=3
+ 5547 | converse                       | 交談                             | 💬        | chunks=['con', 'verse'] | py=ㄎㄣ-ㄨㄜㄜㄙ | theme=academic-words | stage=3
+ 5548 | devote                         | 投入                             | 🎯        | chunks=['de', 'vote'] | py=ㄉㄜ-ㄨㄛㄊ | theme=academic-words | stage=2
+ 5549 | diminish                       | 減少                             | 📉        | chunks=['di', 'min', 'ish'] | py=ㄉㄜ-ㄇㄧ-ㄋㄧㄒ | theme=academic-words | stage=3
+ 5550 | distort                        | 扭曲                             | 🌀        | chunks=['dis', 'tort'] | py=ㄉㄧㄙ-ㄊㄛㄜㄊ | theme=academic-words | stage=3
+ 5551 | duration                       | 持續時間                           | ⏱️       | chunks=['du', 'ra', 'tion'] | py=ㄉㄩ-ㄖㄟ-ㄒㄣ | theme=academic-words | stage=3
+ 5552 | erode                          | 侵蝕                             | 🌊        | chunks=['e', 'rode'] | py=ㄧ-ㄖㄛㄉ | theme=academic-words | stage=3
+ 5553 | ethic                          | 倫理                             | ⚖️       | chunks=['eth', 'ic'] | py=ㄝ-ㄒㄧㄎ | theme=academic-words | stage=3
+ 5554 | format                         | 格式                             | 📋        | chunks=['for', 'mat'] | py=ㄈㄛ-ㄇㄚㄊ | theme=academic-words | stage=2 [有易混提示]
+ 5555 | inherent                       | 固有的                            | 🧬        | chunks=['in', 'her', 'ent'] | py=ㄧㄣ-ㄏㄧ-ㄖㄣㄊ | theme=academic-words | stage=3
+ 5556 | integral                       | 不可缺的                           | 🧩        | chunks=['in', 'te', 'gral'] | py=ㄧㄣ-ㄊㄜ-ㄍㄖㄛ | theme=academic-words | stage=3
+ 5557 | intermediate                   | 中級的                            | ⏸️       | chunks=['in', 'ter', 'me', 'di', 'ate'] | py=ㄧㄣ-ㄊㄜ-ㄇㄧ-ㄉㄧ-ㄜㄊ | theme=academic-words | stage=2
+ 5558 | manual                         | 手冊                             | 📖        | chunks=['man', 'u', 'al'] | py=ㄇㄚ-ㄋㄩ-ㄛ | theme=academic-words | stage=2 [有易混提示]
+ 5559 | mediate                        | 調解                             | 🤝        | chunks=['me', 'di', 'ate'] | py=ㄇㄧ-ㄉㄧ-ㄝㄊ | theme=academic-words | stage=4
+ 5560 | minimal                        | 最小的                            | 🔽        | chunks=['min', 'i', 'mal'] | py=ㄇㄧ-ㄋㄜ-ㄇㄛ | theme=academic-words | stage=2
+ 5561 | mutual                         | 相互的                            | 🤝        | chunks=['mu', 'tu', 'al'] | py=ㄇㄩ-ㄔㄩ-ㄛ | theme=academic-words | stage=2
+ 5562 | norm                           | 標準                             | 📏        | chunks=['n', 'orm'] | py=ㄋㄛㄜㄇ | theme=academic-words | stage=3 [有易混提示]
+ 5563 | overlap                        | 重疊                             | 🔁        | chunks=['o', 'ver', 'lap'] | py=ㄛ-ㄨㄜ-ㄌㄚㄆ | theme=academic-words | stage=3
+ 5564 | passive                        | 被動的                            | 💤        | chunks=['pas', 'sive'] | py=ㄆㄚ-ㄙㄧㄈ | theme=academic-words | stage=2
+ 5565 | portion                        | 部分                             | 🥧        | chunks=['por', 'tion'] | py=ㄆㄛ-ㄒㄣ | theme=academic-words | stage=2
+ 5566 | preliminary                    | 初步的                            | 🚦        | chunks=['pre', 'lim', 'i', 'na', 'ry'] | py=ㄆㄖㄜ-ㄌㄧ-ㄇㄜ-ㄋㄝ-ㄌㄧ | theme=academic-words | stage=4
+ 5567 | protocol                       | 協議                             | 📜        | chunks=['pro', 'to', 'col'] | py=ㄆㄖㄛ-ㄊㄜ-ㄎㄛ | theme=academic-words | stage=3
+ 5568 | qualitative                    | 質的                             | 💎        | chunks=['qual', 'i', 'ta', 'tive'] | py=ㄎㄨㄚ-ㄌㄜ-ㄊㄜ-ㄊㄧㄈ | theme=academic-words | stage=4
+ 5569 | refine                         | 精煉                             | 💎        | chunks=['re', 'fine'] | py=ㄖㄜ-ㄈㄞㄣ | theme=academic-words | stage=3
+ 5570 | restrain                       | 克制                             | 🛑        | chunks=['re', 'strain'] | py=ㄖㄜ-ㄙㄊㄖㄟㄣ | theme=academic-words | stage=3
+ 5571 | rigid                          | 僵硬的                            | 🪨        | chunks=['rig', 'id'] | py=ㄖㄧ-ㄐㄧㄉ | theme=academic-words | stage=3
+ 5572 | scenario                       | 情境                             | 🎬        | chunks=['sce', 'nar', 'i', 'o'] | py=ㄙㄜ-ㄋㄚ-ㄖㄧ-ㄛ | theme=academic-words | stage=2
+ 5573 | subordinate                    | 下屬                             | ⬇️       | chunks=['sub', 'or', 'di', 'nate'] | py=ㄙㄚ-ㄅㄛ-ㄉㄜ-ㄋㄜㄊ | theme=academic-words | stage=4
+ 5574 | suspend                        | 暫停                             | ⏸️       | chunks=['sus', 'pend'] | py=ㄙㄜ-ㄙㄆㄣㄉ | theme=academic-words | stage=3
+ 5575 | trigger                        | 觸發                             | 🔫        | chunks=['trig', 'ger'] | py=ㄊㄖㄧ-ㄍㄜ | theme=academic-words | stage=2 [有易混提示]
+ 5576 | unify                          | 統一                             | 🤝        | chunks=['u', 'ni', 'fy'] | py=ㄩ-ㄋㄜ-ㄈㄞ | theme=academic-words | stage=3
+ 5577 | violate                        | 違反                             | 🚫        | chunks=['vi', 'o', 'late'] | py=ㄈㄞ-ㄜ-ㄌㄟㄊ | theme=academic-words | stage=3
+ 5578 | adjacent                       | 鄰近的                            | 📍        | chunks=['ad', 'ja', 'cent'] | py=ㄜ-ㄐㄟ-ㄙㄣㄊ | theme=academic-words | stage=3
+ 5579 | assemble                       | 集合                             | 🧩        | chunks=['as', 'sem', 'ble'] | py=ㄜ-ㄙㄣ-ㄅㄛ | theme=academic-words | stage=2
+ 5580 | compile                        | 編譯                             | 📚        | chunks=['com', 'pile'] | py=ㄎㄜㄇ-ㄆㄞㄛ | theme=academic-words | stage=3
+ 5581 | conceive                       | 構思                             | 💭        | chunks=['con', 'ceive'] | py=ㄎㄣ-ㄙㄧㄈ | theme=academic-words | stage=3
+ 5582 | forthcoming                    | 即將到來的                          | ⏭️       | chunks=['forth', 'com', 'ing'] | py=ㄈㄛㄒ-ㄎㄚ-ㄇㄧㄥ | theme=academic-words | stage=4
+ 5583 | incline                        | 傾向                             | 📐        | chunks=['in', 'cline'] | py=ㄧㄣ-ㄎㄌㄞㄣ | theme=academic-words | stage=3
+ 5584 | intrinsic                      | 內在的                            | 🧬        | chunks=['in', 'trin', 'sic'] | py=ㄧㄣ-ㄊㄖㄧㄣ-ㄙㄧㄎ | theme=academic-words | stage=4
+ 5585 | invoke                         | 援引                             | 📜        | chunks=['in', 'voke'] | py=ㄧㄣ-ㄨㄛㄎ | theme=academic-words | stage=4
+ 5586 | levy                           | 徵稅                             | 💰        | chunks=['lev', 'y'] | py=ㄌㄝ-ㄈㄧ | theme=academic-words | stage=4
+ 5587 | ongoing                        | 進行中的                           | ⏳        | chunks=['on', 'go', 'ing'] | py=ㄛㄣ-ㄍㄛ-ㄧㄥ | theme=academic-words | stage=2
+ 5588 | persist                        | 堅持                             | 💪        | chunks=['per', 'sist'] | py=ㄆㄜ-ㄙㄧㄙㄊ | theme=academic-words | stage=3
+ 5589 | pose                           | 擺姿勢、造成(問題)                     | 🤳        | chunks=['p', 'ose'] | py=ㄆㄛㄗ | theme=academic-words | stage=2 [有易混提示]
+ 5590 | reluctance                     | 不情願                            | 😒        | chunks=['re', 'luc', 'tance'] | py=ㄖㄜ-ㄌㄚㄎ-ㄊㄣㄙ | theme=academic-words | stage=4
+ 5591 | straightforward                | 直接的                            | ➡️       | chunks=['straight', 'for', 'ward'] | py=ㄙㄊㄖㄟㄊ-ㄈㄛ-ㄨㄜㄉ | theme=academic-words | stage=3
+ 5592 | undergo                        | 經歷                             | 🔄        | chunks=['un', 'der', 'go'] | py=ㄚㄣ-ㄉㄜ-ㄍㄛ | theme=academic-words | stage=3
+ 5593 | bring about                    | 導致                             | ➡️       | chunks=['bring', 'about'] | py=ㄅㄖㄧㄥ-ㄜ-ㄅㄠㄊ | theme=phrasal-verbs | stage=3
+ 5594 | bring out                      | 推出                             | 📤        | chunks=['bring', 'out'] | py=ㄅㄖㄧㄥ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5595 | call back                      | 回電                             | 📞        | chunks=['call', 'back'] | py=ㄎㄛ-ㄅㄚㄎ | theme=phrasal-verbs | stage=1
+ 5596 | call off                       | 取消                             | ❌        | chunks=['call', 'off'] | py=ㄎㄛ-ㄛㄈ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5597 | call on                        | 拜訪                             | 🚪        | chunks=['call', 'on'] | py=ㄎㄛ-ㄛㄣ | theme=phrasal-verbs | stage=2
+ 5598 | carry out                      | 執行                             | 🛠️       | chunks=['car', 'ry', 'out'] | py=ㄎㄚ-ㄖㄧ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5599 | catch up                       | 趕上                             | 🏃        | chunks=['catch', 'up'] | py=ㄎㄚㄔ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5600 | check in                       | 報到                             | 🏨        | chunks=['check', 'in'] | py=ㄔㄝㄎ-ㄧㄣ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5601 | check out                      | 退房                             | 🏨        | chunks=['check', 'out'] | py=ㄔㄝㄎ-ㄠㄊ | theme=phrasal-verbs | stage=1
+ 5602 | clean up                       | 打掃                             | 🧹        | chunks=['clean', 'up'] | py=ㄎㄌㄧㄣ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5603 | come across                    | 偶遇                             | 🤝        | chunks=['come', 'a', 'cross'] | py=ㄎㄚㄇ-ㄜ-ㄎㄖㄛㄙ | theme=phrasal-verbs | stage=2
+ 5604 | come along                     | 一起來                            | 🚶        | chunks=['come', 'a', 'long'] | py=ㄎㄚㄇ-ㄜ-ㄌㄛㄥ | theme=phrasal-verbs | stage=2
+ 5605 | come around                    | 順道過來                           | 🚶        | chunks=['come', 'a', 'round'] | py=ㄎㄚㄇ-ㄜ-ㄖㄠㄣㄉ | theme=phrasal-verbs | stage=2
+ 5606 | come in                        | 進來                             | 🚪        | chunks=['come', 'in'] | py=ㄎㄚㄇ-ㄧㄣ | theme=phrasal-verbs | stage=1
+ 5607 | cut down                       | 削減                             | 📉        | chunks=['cut', 'down'] | py=ㄎㄚㄊ-ㄉㄠㄣ | theme=phrasal-verbs | stage=2
+ 5608 | cut off                        | 切斷                             | ✂️       | chunks=['cut', 'off'] | py=ㄎㄚㄊ-ㄛㄈ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5609 | cut out                        | 剪下                             | ✂️       | chunks=['cut', 'out'] | py=ㄎㄚㄊ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5610 | drop by                        | 順道拜訪                           | 🚶        | chunks=['drop', 'by'] | py=ㄉㄖㄚㄆ-ㄅㄞ | theme=phrasal-verbs | stage=2
+ 5611 | drop off                       | 送下                             | 📥        | chunks=['drop', 'off'] | py=ㄉㄖㄚㄆ-ㄛㄈ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5612 | drop out                       | 輟學                             | 🚪        | chunks=['drop', 'out'] | py=ㄉㄖㄚㄆ-ㄠㄊ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5613 | fall off                       | 掉落                             | ⬇️       | chunks=['fall', 'off'] | py=ㄈㄛ-ㄛㄈ | theme=phrasal-verbs | stage=1
+ 5614 | fill in                        | 填寫                             | ✏️       | chunks=['fill', 'in'] | py=ㄈㄧㄛ-ㄧㄣ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5615 | fill out                       | 填表                             | 📝        | chunks=['fill', 'out'] | py=ㄈㄧㄛ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5616 | fill up                        | 裝滿                             | ⛽        | chunks=['fill', 'up'] | py=ㄈㄧㄛ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5617 | get along                      | 相處                             | 🤝        | chunks=['get', 'a', 'long'] | py=ㄍㄝㄊ-ㄜ-ㄌㄛㄥ | theme=phrasal-verbs | stage=2
+ 5618 | get around                     | 四處走                            | 🚶        | chunks=['get', 'a', 'round'] | py=ㄍㄝㄊ-ㄜ-ㄖㄠㄣㄉ | theme=phrasal-verbs | stage=2
+ 5619 | get away                       | 逃離                             | 🏃        | chunks=['get', 'a', 'way'] | py=ㄍㄝㄊ-ㄜ-ㄨㄟ | theme=phrasal-verbs | stage=2
+ 5620 | get by                         | 勉強過活                           | 😅        | chunks=['get', 'by'] | py=ㄍㄝㄊ-ㄅㄞ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5621 | get through                    | 通過                             | ➡️       | chunks=['get', 'through'] | py=ㄍㄝㄊ-ㄒㄖㄨ | theme=phrasal-verbs | stage=2
+ 5622 | get together                   | 聚會                             | 🎉        | chunks=['get', 'to', 'geth', 'er'] | py=ㄍㄝㄊ-ㄊㄨ-ㄍㄝ-ㄜ | theme=phrasal-verbs | stage=1
+ 5623 | go ahead                       | 進行                             | ▶️       | chunks=['go', 'a', 'head'] | py=ㄍㄛ-ㄜ-ㄏㄝㄉ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5624 | go around                      | 繞行                             | 🔄        | chunks=['go', 'a', 'round'] | py=ㄍㄛ-ㄜ-ㄖㄠㄣㄉ | theme=phrasal-verbs | stage=1
+ 5625 | go away                        | 離開                             | 👋        | chunks=['go', 'a', 'way'] | py=ㄍㄛ-ㄜ-ㄨㄟ | theme=phrasal-verbs | stage=1
+ 5626 | go down                        | 下降                             | 📉        | chunks=['go', 'down'] | py=ㄍㄛ-ㄉㄠㄣ | theme=phrasal-verbs | stage=1
+ 5627 | go up                          | 上升                             | 📈        | chunks=['go', 'up'] | py=ㄍㄛ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5628 | hand in                        | 交出                             | 📥        | chunks=['hand', 'in'] | py=ㄏㄢㄉ-ㄧㄣ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5629 | hand out                       | 分發                             | 📤        | chunks=['hand', 'out'] | py=ㄏㄢㄉ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5630 | hand over                      | 移交                             | 🤝        | chunks=['hand', 'o', 'ver'] | py=ㄏㄢㄉ-ㄛ-ㄨㄜ | theme=phrasal-verbs | stage=2
+ 5631 | hang on                        | 等等                             | ⏸️       | chunks=['hang', 'on'] | py=ㄏㄤ-ㄛㄣ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5632 | hang out                       | 閒晃                             | 🛋️       | chunks=['hang', 'out'] | py=ㄏㄤ-ㄠㄊ | theme=phrasal-verbs | stage=1
+ 5633 | hang up                        | 掛電話                            | 📞        | chunks=['hang', 'up'] | py=ㄏㄤ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5634 | keep up                        | 跟上                             | 🏃        | chunks=['keep', 'up'] | py=ㄎㄧㄆ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5635 | lay off                        | 裁員                             | 👋        | chunks=['lay', 'off'] | py=ㄌㄟ-ㄛㄈ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5636 | leave out                      | 省略                             | ❌        | chunks=['leave', 'out'] | py=ㄌㄧㄈ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5637 | let down                       | 使失望                            | 😞        | chunks=['let', 'down'] | py=ㄌㄝㄊ-ㄉㄠㄣ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5638 | log in                         | 登入                             | 🔓        | chunks=['log', 'in'] | py=ㄌㄚㄍ-ㄧㄣ | theme=phrasal-verbs | stage=1
+ 5639 | log out                        | 登出                             | 🔒        | chunks=['log', 'out'] | py=ㄌㄚㄍ-ㄠㄊ | theme=phrasal-verbs | stage=1
+ 5640 | look around                    | 四處看                            | 👀        | chunks=['look', 'a', 'round'] | py=ㄌㄨㄎ-ㄜ-ㄖㄠㄣㄉ | theme=phrasal-verbs | stage=1
+ 5641 | look forward                   | 期待                             | 🤩        | chunks=['look', 'for', 'ward'] | py=ㄌㄨㄎ-ㄈㄛ-ㄨㄜㄉ | theme=phrasal-verbs | stage=1
+ 5642 | make up                        | 編造                             | 💭        | chunks=['make', 'up'] | py=ㄇㄟㄎ-ㄚㄆ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5643 | move in                        | 搬入                             | 🏠        | chunks=['move', 'in'] | py=ㄇㄨㄈ-ㄧㄣ | theme=phrasal-verbs | stage=1
+ 5644 | move on                        | 向前看                            | ➡️       | chunks=['move', 'on'] | py=ㄇㄨㄈ-ㄛㄣ | theme=phrasal-verbs | stage=2
+ 5645 | move out                       | 搬出                             | 🚪        | chunks=['move', 'out'] | py=ㄇㄨㄈ-ㄠㄊ | theme=phrasal-verbs | stage=1
+ 5646 | pay off                        | 還清                             | 💰        | chunks=['pay', 'off'] | py=ㄆㄟ-ㄛㄈ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5647 | plug in                        | 插上                             | 🔌        | chunks=['plug', 'in'] | py=ㄆㄌㄚㄍ-ㄧㄣ | theme=phrasal-verbs | stage=1
+ 5648 | settle down                    | 安頓                             | 🏠        | chunks=['set', 'tle', 'down'] | py=ㄙㄝ-ㄊㄛ-ㄉㄠㄣ | theme=phrasal-verbs | stage=2
+ 5649 | shut down                      | 關閉                             | 🔌        | chunks=['shut', 'down'] | py=ㄒㄚㄊ-ㄉㄠㄣ | theme=phrasal-verbs | stage=1
+ 5650 | shut up                        | 閉嘴                             | 🤐        | chunks=['shut', 'up'] | py=ㄒㄚㄊ-ㄚㄆ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5651 | slow down                      | 放慢                             | 🐌        | chunks=['slow', 'down'] | py=ㄙㄌㄛ-ㄉㄠㄣ | theme=phrasal-verbs | stage=1
+ 5652 | sort out                       | 解決                             | ✅        | chunks=['sort', 'out'] | py=ㄙㄛㄜㄊ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5653 | speed up                       | 加速                             | 💨        | chunks=['speed', 'up'] | py=ㄙㄆㄧㄉ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5654 | stay up                        | 熬夜                             | 🌙        | chunks=['stay', 'up'] | py=ㄙㄊㄟ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5655 | take back                      | 收回                             | 🔙        | chunks=['take', 'back'] | py=ㄊㄟㄎ-ㄅㄚㄎ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5656 | throw away                     | 丟棄                             | 🗑️       | chunks=['throw', 'a', 'way'] | py=ㄒㄖㄛ-ㄜ-ㄨㄟ | theme=phrasal-verbs | stage=1
+ 5657 | throw up                       | 嘔吐                             | 🤮        | chunks=['throw', 'up'] | py=ㄒㄖㄛ-ㄚㄆ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5658 | try on                         | 試穿                             | 👕        | chunks=['try', 'on'] | py=ㄊㄖㄞ-ㄛㄣ | theme=phrasal-verbs | stage=1 [有易混提示]
+ 5659 | try out                        | 試用                             | 🧪        | chunks=['try', 'out'] | py=ㄊㄖㄞ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5660 | turn around                    | 轉身                             | 🔄        | chunks=['turn', 'a', 'round'] | py=ㄊㄜㄜㄣ-ㄜ-ㄖㄠㄣㄉ | theme=phrasal-verbs | stage=1
+ 5661 | turn up                        | 出現                             | 🚶        | chunks=['turn', 'up'] | py=ㄊㄜㄜㄣ-ㄚㄆ | theme=phrasal-verbs | stage=2 [有易混提示]
+ 5662 | use up                         | 用光                             | 🪫        | chunks=['use', 'up'] | py=ㄩㄗ-ㄚㄆ | theme=phrasal-verbs | stage=1
+ 5663 | walk away                      | 走開                             | 🚶        | chunks=['walk', 'a', 'way'] | py=ㄨㄛㄎ-ㄜ-ㄨㄟ | theme=phrasal-verbs | stage=1
+ 5664 | watch out                      | 當心                             | ⚠️       | chunks=['watch', 'out'] | py=ㄨㄚㄔ-ㄠㄊ | theme=phrasal-verbs | stage=1
+ 5665 | wear out                       | 穿壞                             | 👟        | chunks=['wear', 'out'] | py=ㄨㄝㄜ-ㄠㄊ | theme=phrasal-verbs | stage=2
+ 5666 | write down                     | 寫下                             | ✍️       | chunks=['write', 'down'] | py=ㄖㄞㄊ-ㄉㄠㄣ | theme=phrasal-verbs | stage=1
+ 5667 | piece of cake                  | 小菜一碟                           | 🍰        | chunks=['piece', 'of', 'cake'] | py=ㄆㄧㄙ-ㄚㄈ-ㄎㄟㄎ | theme=idioms | stage=2
+ 5668 | break a leg                    | 祝好運                            | 🍀        | chunks=['break', 'a', 'leg'] | py=ㄅㄖㄟㄎ-ㄜ-ㄌㄝㄍ | theme=idioms | stage=2
+ 5669 | hit the books                  | 用功讀書                           | 📚        | chunks=['hit', 'the', 'books'] | py=ㄏㄧㄊ-ㄉㄚ-ㄅㄨㄎㄙ | theme=idioms | stage=2
+ 5670 | under the weather              | 身體不舒服                          | 🤒        | chunks=['un', 'der', 'the', 'weath', 'er'] | py=ㄚㄣ-ㄉㄜ-ㄉㄚ-ㄨㄝ-ㄜ | theme=idioms | stage=2
+ 5671 | spill the beans                | 洩密                             | 🫘        | chunks=['spill', 'the', 'beans'] | py=ㄙㄆㄧㄛ-ㄉㄚ-ㄅㄧㄣㄙ | theme=idioms | stage=3
+ 5672 | once in a blue moon            | 千載難逢                           | 🌙        | chunks=['once', 'in', 'a', 'blue', 'moon'] | py=ㄨㄚㄣㄙ-ㄧㄣ-ㄜ-ㄅㄌㄨ-ㄇㄨㄣ | theme=idioms | stage=3
+ 5673 | cost an arm and a leg          | 非常昂貴                           | 💸        | chunks=['cost', 'an', 'arm', 'and', 'a', 'leg'] | py=ㄎㄛㄙㄊ-ㄜㄣ-ㄚㄜㄇ-ㄢㄉ-ㄜ-ㄌㄝㄍ | theme=idioms | stage=3
+ 5674 | raining cats and dogs          | 傾盆大雨                           | 🌧️       | chunks=['rain', 'ing', 'cats', 'and', 'dogs'] | py=ㄖㄟ-ㄋㄧㄥ-ㄎㄚㄊㄙ-ㄢㄉ-ㄉㄛㄍㄙ | theme=idioms | stage=2
+ 5675 | on cloud nine                  | 心花怒放                           | ☁️       | chunks=['on', 'cloud', 'nine'] | py=ㄛㄣ-ㄎㄌㄠㄉ-ㄋㄞㄣ | theme=idioms | stage=3
+ 5676 | feeling blue                   | 感到憂鬱                           | 😔        | chunks=['feel', 'ing', 'blue'] | py=ㄈㄧ-ㄌㄧㄥ-ㄅㄌㄨ | theme=idioms | stage=2
+ 5677 | see eye to eye                 | 看法一致                           | 👁️       | chunks=['see', 'eye', 'to', 'eye'] | py=ㄒㄧ-ㄞ-ㄊㄨ-ㄞ | theme=idioms | stage=3
+ 5678 | back to square one             | 回到原點                           | 🔄        | chunks=['back', 'to', 'square', 'one'] | py=ㄅㄚㄎ-ㄊㄨ-ㄙㄎㄨㄟㄜ-ㄨㄚㄣ | theme=idioms | stage=3
+ 5679 | bite the bullet                | 咬牙撐過                           | 🦷        | chunks=['bite', 'the', 'bul', 'let'] | py=ㄅㄞㄊ-ㄉㄚ-ㄅㄨ-ㄌㄝㄊ | theme=idioms | stage=3
+ 5680 | burn the midnight oil          | 熬夜苦讀                           | 🕯️       | chunks=['burn', 'the', 'mid', 'night', 'oil'] | py=ㄅㄜㄜㄣ-ㄉㄚ-ㄇㄧㄉ-ㄋㄞㄊ-ㄛㄧㄛ | theme=idioms | stage=3
+ 5681 | call it a day                  | 收工                             | 🏁        | chunks=['call', 'it', 'a', 'day'] | py=ㄎㄛ-ㄧㄊ-ㄜ-ㄉㄟ | theme=idioms | stage=2
+ 5682 | cut to the chase               | 切入正題                           | 🎯        | chunks=['cut', 'to', 'the', 'chase'] | py=ㄎㄚㄊ-ㄊㄨ-ㄉㄚ-ㄔㄟㄙ | theme=idioms | stage=3
+ 5683 | easy as pie                    | 輕而易舉                           | 🥧        | chunks=['eas', 'y', 'as', 'pie'] | py=ㄧ-ㄗㄧ-ㄚㄗ-ㄆㄞ | theme=idioms | stage=2
+ 5684 | go the extra mile              | 加倍努力                           | 🏃        | chunks=['go', 'the', 'ex', 'tra', 'mile'] | py=ㄍㄛ-ㄉㄚ-ㄝㄎ-ㄙㄊㄖㄜ-ㄇㄞㄛ | theme=idioms | stage=3
+ 5685 | hit the nail on the head       | 一針見血                           | 🎯        | chunks=['hit', 'the', 'nail', 'on', 'the', 'head'] | py=ㄏㄧㄊ-ㄉㄚ-ㄋㄝㄛ-ㄛㄣ-ㄉㄚ-ㄏㄝㄉ | theme=idioms | stage=3
+ 5686 | in hot water                   | 惹麻煩                            | 🔥        | chunks=['in', 'hot', 'wa', 'ter'] | py=ㄧㄣ-ㄏㄚㄊ-ㄨㄚ-ㄊㄜ | theme=idioms | stage=3
+ 5687 | keep an eye on                 | 留意                             | 👁️       | chunks=['keep', 'an', 'eye', 'on'] | py=ㄎㄧㄆ-ㄜㄣ-ㄞ-ㄛㄣ | theme=idioms | stage=2
+ 5688 | miss the boat                  | 錯失良機                           | ⛵        | chunks=['miss', 'the', 'boat'] | py=ㄇㄧㄙ-ㄉㄚ-ㄅㄛㄊ | theme=idioms | stage=3
+ 5689 | no pain no gain                | 不勞無獲                           | 💪        | chunks=['no', 'pain', 'no', 'gain'] | py=ㄋㄛ-ㄆㄟㄣ-ㄋㄛ-ㄍㄟㄣ | theme=idioms | stage=2
+ 5690 | off the hook                   | 脫身                             | 🎣        | chunks=['off', 'the', 'hook'] | py=ㄛㄈ-ㄉㄚ-ㄏㄨㄎ | theme=idioms | stage=3
+ 5691 | out of the blue                | 突如其來                           | ⚡        | chunks=['out', 'of', 'the', 'blue'] | py=ㄠㄊ-ㄚㄈ-ㄉㄚ-ㄅㄌㄨ | theme=idioms | stage=3
+ 5692 | pull someone's leg             | 開玩笑                            | 😄        | chunks=['pull', 'some', "one's", 'leg'] | py=ㄆㄨㄛ-ㄙㄚㄇ-ㄨㄚㄣㄗ-ㄌㄝㄍ | theme=idioms | stage=3
+ 5693 | rule of thumb                  | 經驗法則                           | 👍        | chunks=['rule', 'of', 'thumb'] | py=ㄖㄨㄛ-ㄚㄈ-ㄒㄚㄇ | theme=idioms | stage=3
+ 5694 | speak of the devil             | 說曹操曹操到                         | 😈        | chunks=['speak', 'of', 'the', 'dev', 'il'] | py=ㄙㄆㄧㄎ-ㄚㄈ-ㄉㄚ-ㄉㄝ-ㄨㄛ | theme=idioms | stage=3
+ 5695 | the last straw                 | 最後一根稻草                         | 🌾        | chunks=['the', 'last', 'straw'] | py=ㄉㄚ-ㄌㄚㄙㄊ-ㄙㄊㄖㄛ | theme=idioms | stage=3
+ 5696 | time flies                     | 時光飛逝                           | ⏳        | chunks=['time', 'flies'] | py=ㄊㄞㄇ-ㄈㄌㄞㄗ | theme=idioms | stage=2
+ 5697 | when pigs fly                  | 不可能                            | 🐷        | chunks=['when', 'pigs', 'fly'] | py=ㄨㄣ-ㄆㄧㄍㄙ-ㄈㄌㄞ | theme=idioms | stage=3
+ 5698 | all ears                       | 洗耳恭聽                           | 👂        | chunks=['all', 'ears'] | py=ㄛ-ㄧㄜㄗ | theme=idioms | stage=2
+ 5699 | break the ice                  | 打破僵局                           | 🧊        | chunks=['break', 'the', 'ice'] | py=ㄅㄖㄟㄎ-ㄉㄚ-ㄞㄙ | theme=idioms | stage=2
+ 5700 | couch potato                   | 沙發馬鈴薯                          | 🥔        | chunks=['couch', 'po', 'ta', 'to'] | py=ㄎㄠㄔ-ㄆㄜ-ㄊㄟ-ㄊㄛ | theme=idioms | stage=2
+ 5701 | cry over spilled milk          | 為已成事實懊悔                        | 🥛        | chunks=['cry', 'o', 'ver', 'spilled', 'milk'] | py=ㄎㄖㄞ-ㄛ-ㄨㄜ-ㄙㄆㄧㄛㄉ-ㄇㄧㄛㄎ | theme=idioms | stage=3
+ 5702 | down to earth                  | 腳踏實地                           | 🌍        | chunks=['down', 'to', 'earth'] | py=ㄉㄠㄣ-ㄊㄨ-ㄜㄜㄒ | theme=idioms | stage=3
+ 5703 | easy come easy go              | 來得快去得快                         | 💸        | chunks=['eas', 'y', 'come', 'eas', 'y', 'go'] | py=ㄧ-ㄗㄧ-ㄎㄚㄇ-ㄧ-ㄗㄧ-ㄍㄛ | theme=idioms | stage=2
+ 5704 | fish out of water              | 格格不入                           | 🐟        | chunks=['fish', 'out', 'of', 'wa', 'ter'] | py=ㄈㄧㄒ-ㄠㄊ-ㄚㄈ-ㄨㄚ-ㄊㄜ | theme=idioms | stage=3
+ 5705 | from scratch                   | 從零開始                           | 🆕        | chunks=['from', 'scratch'] | py=ㄈㄖㄚㄇ-ㄙㄎㄖㄚㄔ | theme=idioms | stage=3
+ 5706 | get cold feet                  | 臨陣退縮                           | 🦶        | chunks=['get', 'cold', 'feet'] | py=ㄍㄝㄊ-ㄎㄛㄛㄉ-ㄈㄧㄊ | theme=idioms | stage=3
+ 5707 | give the cold shoulder         | 冷落                             | ❄️       | chunks=['give', 'the', 'cold', 'shoul', 'der'] | py=ㄍㄧㄈ-ㄉㄚ-ㄎㄛㄛㄉ-ㄒㄛㄛ-ㄉㄜ | theme=idioms | stage=3
+ 5708 | head over heels                | 神魂顛倒                           | 💕        | chunks=['head', 'o', 'ver', 'heels'] | py=ㄏㄝㄉ-ㄛ-ㄨㄜ-ㄏㄧㄛㄗ | theme=idioms | stage=3
+ 5709 | hit the road                   | 上路                             | 🚗        | chunks=['hit', 'the', 'road'] | py=ㄏㄧㄊ-ㄉㄚ-ㄖㄛㄉ | theme=idioms | stage=2
+ 5710 | in the same boat               | 處境相同                           | ⛵        | chunks=['in', 'the', 'same', 'boat'] | py=ㄧㄣ-ㄉㄚ-ㄙㄟㄇ-ㄅㄛㄊ | theme=idioms | stage=2
+ 5711 | let bygones be bygones         | 既往不咎                           | 🕊️       | chunks=['let', 'by', 'gones', 'be', 'by', 'gones'] | py=ㄌㄝㄊ-ㄅㄞ-ㄍㄛㄣㄙ-ㄅㄧ-ㄅㄞ-ㄍㄛㄣㄙ | theme=idioms | stage=4
+ 5712 | long story short               | 長話短說                           | 📖        | chunks=['long', 'sto', 'ry', 'short'] | py=ㄌㄛㄥ-ㄙㄊㄛ-ㄖㄧ-ㄒㄛㄜㄊ | theme=idioms | stage=2
+ 5713 | on the ball                    | 機靈                             | ⚽        | chunks=['on', 'the', 'ball'] | py=ㄛㄣ-ㄉㄚ-ㄅㄛ | theme=idioms | stage=3
+ 5714 | on the fence                   | 猶豫不決                           | 🤔        | chunks=['on', 'the', 'fence'] | py=ㄛㄣ-ㄉㄚ-ㄈㄣㄙ | theme=idioms | stage=3
+ 5715 | pain in the neck               | 討厭                             | 😣        | chunks=['pain', 'in', 'the', 'neck'] | py=ㄆㄟㄣ-ㄧㄣ-ㄉㄚ-ㄋㄝㄎ | theme=idioms | stage=3
+ 5716 | peace of mind                  | 內心平靜                           | 😌        | chunks=['peace', 'of', 'mind'] | py=ㄆㄧㄙ-ㄚㄈ-ㄇㄞㄣㄉ | theme=idioms | stage=3
+ 5717 | pull yourself together         | 振作起來                           | 💪        | chunks=['pull', 'your', 'self', 'to', 'geth', 'er'] | py=ㄆㄨㄛ-ㄧㄛ-ㄙㄝㄛㄈ-ㄊㄨ-ㄍㄝ-ㄜ | theme=idioms | stage=3
+ 5718 | shoot the breeze               | 閒聊                             | 💬        | chunks=['shoot', 'the', 'breeze'] | py=ㄒㄨㄊ-ㄉㄚ-ㄅㄖㄧㄗ | theme=idioms | stage=3
+ 5719 | sit tight                      | 耐心等待                           | 🪑        | chunks=['sit', 'tight'] | py=ㄒㄧㄊ-ㄊㄞㄊ | theme=idioms | stage=3
+ 5720 | better late than never         | 遲做總比不做好                        | ⏰        | chunks=['bet', 'ter', 'late', 'than', 'nev', 'er'] | py=ㄅㄝ-ㄊㄜ-ㄌㄟㄊ-ㄉㄢ-ㄋㄝ-ㄜ | theme=idioms | stage=2
+ 5721 | actions speak louder than words | 行動勝於言語                         | 💪        | chunks=['ac', 'tions', 'speak', 'loud', 'er', 'than', 'words'] | py=ㄚㄎ-ㄒㄣㄗ-ㄙㄆㄧㄎ-ㄌㄠ-ㄜ-ㄉㄢ-ㄨㄜㄜㄗ | theme=idioms | stage=3
+ 5722 | a blessing in disguise         | 因禍得福                           | 🙏        | chunks=['a', 'bless', 'ing', 'in', 'dis', 'guise'] | py=ㄜ-ㄅㄌㄝ-ㄒㄧㄥ-ㄧㄣ-ㄉㄧㄙ-ㄍㄞㄗ | theme=idioms | stage=3
+ 5723 | beat around the bush           | 拐彎抹角                           | 🌳        | chunks=['beat', 'a', 'round', 'the', 'bush'] | py=ㄅㄧㄊ-ㄜ-ㄖㄠㄣㄉ-ㄉㄚ-ㄅㄨㄒ | theme=idioms | stage=3
+ 5724 | kill two birds with one stone  | 一石二鳥                           | 🐦        | chunks=['kill', 'two', 'birds', 'with', 'one', 'stone'] | py=ㄎㄧㄛ-ㄊㄨ-ㄅㄜㄜㄗ-ㄨㄧㄒ-ㄨㄚㄣ-ㄙㄊㄛㄣ | theme=idioms | stage=3
+ 5725 | under the table                | 私底下                            | 🪑        | chunks=['un', 'der', 'the', 'ta', 'ble'] | py=ㄚㄣ-ㄉㄜ-ㄉㄚ-ㄊㄟ-ㄅㄛ | theme=idioms | stage=3
+ 5726 | break the bank                 | 花光積蓄                           | 💸        | chunks=['break', 'the', 'bank'] | py=ㄅㄖㄟㄎ-ㄉㄚ-ㄅㄚㄥㄎ | theme=idioms | stage=3
+ 5727 | jump the gun                   | 操之過急                           | 🔫        | chunks=['jump', 'the', 'gun'] | py=ㄐㄚㄇㄆ-ㄉㄚ-ㄍㄚㄣ | theme=idioms | stage=3
+ 5728 | in a nutshell                  | 簡言之                            | 🥜        | chunks=['in', 'a', 'nut', 'shell'] | py=ㄧㄣ-ㄜ-ㄋㄚㄊ-ㄒㄝㄛ | theme=idioms | stage=3
+ 5729 | hit the sack                   | 睡覺                             | 😴        | chunks=['hit', 'the', 'sack'] | py=ㄏㄧㄊ-ㄉㄚ-ㄙㄚㄎ | theme=idioms | stage=2
+ 5730 | a piece of work                | 棘手人物                           | 😒        | chunks=['a', 'piece', 'of', 'work'] | py=ㄜ-ㄆㄧㄙ-ㄚㄈ-ㄨㄜㄜㄎ | theme=idioms | stage=3
+ 5731 | Mexico                         | 墨西哥                            | 🇲🇽       | chunks=['mex', 'i', 'co'] | py=ㄇㄝㄎ-ㄒㄜ-ㄎㄛ | theme=countries | stage=2
+ 5732 | Argentina                      | 阿根廷                            | 🇦🇷       | chunks=['ar', 'gen', 'ti', 'na'] | py=ㄚ-ㄐㄣ-ㄊㄧ-ㄋㄚ | theme=countries | stage=2
+ 5733 | Chile                          | 智利                             | 🇨🇱       | chunks=['chi', 'le'] | py=ㄔㄧ-ㄌㄧ | theme=countries | stage=2
+ 5734 | Peru                           | 秘魯                             | 🇵🇪       | chunks=['pe', 'ru'] | py=ㄆㄜ-ㄖㄨ | theme=countries | stage=2
+ 5735 | Colombia                       | 哥倫比亞                           | 🇨🇴       | chunks=['co', 'lom', 'bi', 'a'] | py=ㄎㄜ-ㄌㄚㄇ-ㄅㄧ-ㄜ | theme=countries | stage=2
+ 5736 | Egypt                          | 埃及                             | 🇪🇬       | chunks=['e', 'gypt'] | py=ㄧ-ㄐㄧㄆㄊ | theme=countries | stage=2
+ 5737 | Kenya                          | 肯亞                             | 🇰🇪       | chunks=['ken', 'ya'] | py=ㄎㄣ-ㄧㄚ | theme=countries | stage=2
+ 5738 | Nigeria                        | 奈及利亞                           | 🇳🇬       | chunks=['ni', 'ge', 'ri', 'a'] | py=ㄋㄞ-ㄐㄜ-ㄖㄧ-ㄜ | theme=countries | stage=3
+ 5739 | Morocco                        | 摩洛哥                            | 🇲🇦       | chunks=['mo', 'roc', 'co'] | py=ㄇㄜ-ㄖㄚ-ㄎㄛ | theme=countries | stage=3
+ 5740 | Greece                         | 希臘                             | 🇬🇷       | chunks=['gr', 'eece'] | py=ㄍㄖㄧㄙ | theme=countries | stage=2
+ 5741 | Portugal                       | 葡萄牙                            | 🇵🇹       | chunks=['por', 'tu', 'gal'] | py=ㄆㄛ-ㄔㄩ-ㄍㄛ | theme=countries | stage=2
+ 5742 | Sweden                         | 瑞典                             | 🇸🇪       | chunks=['swe', 'den'] | py=ㄙㄨㄧ-ㄉㄣ | theme=countries | stage=2
+ 5743 | Norway                         | 挪威                             | 🇳🇴       | chunks=['nor', 'way'] | py=ㄋㄛ-ㄨㄟ | theme=countries | stage=2
+ 5744 | Finland                        | 芬蘭                             | 🇫🇮       | chunks=['fin', 'land'] | py=ㄈㄧㄣ-ㄌㄢㄉ | theme=countries | stage=2
+ 5745 | Denmark                        | 丹麥                             | 🇩🇰       | chunks=['den', 'mark'] | py=ㄉㄣ-ㄇㄚㄎ | theme=countries | stage=2
+ 5746 | Netherlands                    | 荷蘭                             | 🇳🇱       | chunks=['neth', 'er', 'lands'] | py=ㄋㄝ-ㄉㄜ-ㄌㄢㄗ | theme=countries | stage=3
+ 5747 | Belgium                        | 比利時                            | 🇧🇪       | chunks=['bel', 'gium'] | py=ㄅㄝㄛ-ㄐㄧㄚㄇ | theme=countries | stage=3
+ 5748 | Switzerland                    | 瑞士                             | 🇨🇭       | chunks=['switz', 'er', 'land'] | py=ㄙㄨㄧㄗ-ㄜ-ㄌㄢㄉ | theme=countries | stage=3
+ 5749 | Austria                        | 奧地利                            | 🇦🇹       | chunks=['aus', 'tri', 'a'] | py=ㄛㄙ-ㄊㄖㄧ-ㄜ | theme=countries | stage=3
+ 5750 | Poland                         | 波蘭                             | 🇵🇱       | chunks=['po', 'land'] | py=ㄆㄛ-ㄌㄢㄉ | theme=countries | stage=2
+ 5751 | Turkey                         | 土耳其                            | 🇹🇷       | chunks=['tur', 'key'] | py=ㄊㄜ-ㄎㄧ | theme=countries | stage=2
+ 5752 | Iran                           | 伊朗                             | 🇮🇷       | chunks=['i', 'ran'] | py=ㄧ-ㄖㄢ | theme=countries | stage=2
+ 5753 | Iraq                           | 伊拉克                            | 🇮🇶       | chunks=['i', 'raq'] | py=ㄧ-ㄖㄚㄎ | theme=countries | stage=2
+ 5754 | Israel                         | 以色列                            | 🇮🇱       | chunks=['is', 'ra', 'el'] | py=ㄧㄗ-ㄖㄝ-ㄛ | theme=countries | stage=2
+ 5755 | Thailand                       | 泰國                             | 🇹🇭       | chunks=['thai', 'land'] | py=ㄊㄞ-ㄌㄢㄉ | theme=countries | stage=1
+ 5756 | Vietnam                        | 越南                             | 🇻🇳       | chunks=['viet', 'nam'] | py=ㄨㄧㄝㄊ-ㄋㄚㄇ | theme=countries | stage=1
+ 5757 | Indonesia                      | 印尼                             | 🇮🇩       | chunks=['in', 'do', 'ne', 'sia'] | py=ㄧㄣ-ㄉㄛ-ㄋㄧ-ㄒㄚ | theme=countries | stage=2
+ 5758 | Malaysia                       | 馬來西亞                           | 🇲🇾       | chunks=['ma', 'lay', 'sia'] | py=ㄇㄜ-ㄌㄟ-ㄒㄚ | theme=countries | stage=2
+ 5759 | Philippines                    | 菲律賓                            | 🇵🇭       | chunks=['phil', 'ip', 'pines'] | py=ㄈㄧ-ㄌㄜ-ㄆㄧㄣㄗ | theme=countries | stage=2
+ 5760 | Singapore                      | 新加坡                            | 🇸🇬       | chunks=['sin', 'ga', 'pore'] | py=ㄒㄧㄥ-ㄍㄜ-ㄆㄛㄜ | theme=countries | stage=2
+ 5761 | Pakistan                       | 巴基斯坦                           | 🇵🇰       | chunks=['pak', 'i', 'stan'] | py=ㄆㄚ-ㄎㄜ-ㄙㄊㄢ | theme=countries | stage=2
+ 5762 | Bangladesh                     | 孟加拉                            | 🇧🇩       | chunks=['bang', 'la', 'desh'] | py=ㄅㄤ-ㄌㄚ-ㄉㄝㄒ | theme=countries | stage=3
+ 5763 | Cambodia                       | 柬埔寨                            | 🇰🇭       | chunks=['cam', 'bo', 'di', 'a'] | py=ㄎㄚㄇ-ㄅㄛ-ㄉㄧ-ㄜ | theme=countries | stage=3
+ 5764 | Mongolia                       | 蒙古                             | 🇲🇳       | chunks=['mon', 'go', 'li', 'a'] | py=ㄇㄚㄣ-ㄍㄛ-ㄌㄧ-ㄜ | theme=countries | stage=3
+ 5765 | Ukraine                        | 烏克蘭                            | 🇺🇦       | chunks=['u', 'kraine'] | py=ㄩ-ㄎㄖㄟㄣ | theme=countries | stage=2
+ 5766 | Hungary                        | 匈牙利                            | 🇭🇺       | chunks=['hun', 'ga', 'ry'] | py=ㄏㄚㄥ-ㄍㄜ-ㄖㄧ | theme=countries | stage=3
+ 5767 | Romania                        | 羅馬尼亞                           | 🇷🇴       | chunks=['ro', 'ma', 'ni', 'a'] | py=ㄖㄛ-ㄇㄟ-ㄋㄧ-ㄜ | theme=countries | stage=3
+ 5768 | Ireland                        | 愛爾蘭                            | 🇮🇪       | chunks=['ire', 'land'] | py=ㄞㄜ-ㄌㄢㄉ | theme=countries | stage=2
+ 5769 | Scotland                       | 蘇格蘭                            | 🏴󠁧󠁢󠁳󠁣󠁴󠁿  | chunks=['scot', 'land'] | py=ㄙㄎㄚㄊ-ㄌㄢㄉ | theme=countries | stage=2
+ 5770 | Wales                          | 威爾斯                            | 🏴󠁧󠁢󠁷󠁬󠁳󠁿  | chunks=['w', 'ales'] | py=ㄨㄟㄛㄗ | theme=countries | stage=2
+ 5771 | Iceland                        | 冰島                             | 🇮🇸       | chunks=['ice', 'land'] | py=ㄞㄙ-ㄌㄢㄉ | theme=countries | stage=2
+ 5772 | Cuba                           | 古巴                             | 🇨🇺       | chunks=['cu', 'ba'] | py=ㄎㄩ-ㄅㄚ | theme=countries | stage=2
+ 5773 | Venezuela                      | 委內瑞拉                           | 🇻🇪       | chunks=['ven', 'e', 'zue', 'la'] | py=ㄨㄝ-ㄋㄜ-ㄗㄨㄟ-ㄌㄚ | theme=countries | stage=3
+ 5774 | Ecuador                        | 厄瓜多                            | 🇪🇨       | chunks=['ec', 'ua', 'dor'] | py=ㄝ-ㄎㄨㄚ-ㄉㄛㄜ | theme=countries | stage=3
+ 5775 | Bolivia                        | 玻利維亞                           | 🇧🇴       | chunks=['bo', 'liv', 'i', 'a'] | py=ㄅㄛ-ㄌㄧ-ㄨㄧ-ㄜ | theme=countries | stage=3
+ 5776 | Uruguay                        | 烏拉圭                            | 🇺🇾       | chunks=['u', 'ru', 'guay'] | py=ㄧㄜ-ㄖㄜ-ㄍㄨㄟ | theme=countries | stage=3
+ 5777 | Paraguay                       | 巴拉圭                            | 🇵🇾       | chunks=['par', 'a', 'guay'] | py=ㄆㄚ-ㄖㄜ-ㄍㄨㄟ | theme=countries | stage=3
+ 5778 | Jamaica                        | 牙買加                            | 🇯🇲       | chunks=['ja', 'mai', 'ca'] | py=ㄐㄜ-ㄇㄟ-ㄎㄜ | theme=countries | stage=3
+ 5779 | Ethiopia                       | 衣索比亞                           | 🇪🇹       | chunks=['e', 'thi', 'o', 'pi', 'a'] | py=ㄧ-ㄒㄧ-ㄛ-ㄆㄧ-ㄜ | theme=countries | stage=3
+ 5780 | Ghana                          | 迦納                             | 🇬🇭       | chunks=['gha', 'na'] | py=ㄍㄚ-ㄋㄚ | theme=countries | stage=3
+ 5781 | bolt                           | 螺栓                             | 🔩        | chunks=['b', 'olt'] | py=ㄅㄛㄛㄊ | theme=tools | stage=2 [有易混提示]
+ 5782 | pliers                         | 鉗子                             | 🛠️       | chunks=['pli', 'ers'] | py=ㄆㄌㄞ-ㄜㄗ | theme=tools | stage=2
+ 5783 | axe                            | 斧頭                             | 🪓        | chunks=['a', 'xe'] | py=ㄚㄎㄙ | theme=tools | stage=2
+ 5784 | shovel                         | 鏟子                             | ⛏️       | chunks=['shov', 'el'] | py=ㄒㄚ-ㄈㄛ | theme=tools | stage=2
+ 5785 | spade                          | 鏟子、鍬                           | 🛠️       | chunks=['sp', 'ade'] | py=ㄙㄆㄟㄉ | theme=tools | stage=2 [有易混提示]
+ 5786 | rake                           | 耙子                             | 🧹        | chunks=['r', 'ake'] | py=ㄖㄟㄎ | theme=tools | stage=2 [有易混提示]
+ 5787 | sandpaper                      | 砂紙                             | 📄        | chunks=['sand', 'pa', 'per'] | py=ㄙㄢㄉ-ㄆㄟ-ㄆㄜ | theme=tools | stage=2
+ 5788 | crowbar                        | 撬棍                             | 🛠️       | chunks=['crow', 'bar'] | py=ㄎㄖㄛ-ㄅㄚㄜ | theme=tools | stage=3
+ 5789 | toolbox                        | 工具箱                            | 🧰        | chunks=['tool', 'box'] | py=ㄊㄨㄛ-ㄅㄚㄎㄙ | theme=tools | stage=1
+ 5790 | chisel                         | 鑿子                             | 🛠️       | chunks=['chis', 'el'] | py=ㄑㄧ-ㄗㄛ | theme=tools | stage=3
+ 5791 | clamp                          | 夾子                             | 🗜️       | chunks=['cl', 'amp'] | py=ㄎㄌㄚㄇㄆ | theme=tools | stage=2
+ 5792 | vise                           | 老虎鉗                            | 🗜️       | chunks=['v', 'ise'] | py=ㄈㄞㄗ | theme=tools | stage=3 [有易混提示]
+ 5793 | welder                         | 焊接機                            | ⚙️       | chunks=['weld', 'er'] | py=ㄨㄝㄛ-ㄉㄜ | theme=tools | stage=3
+ 5794 | grinder                        | 研磨機                            | ⚙️       | chunks=['grind', 'er'] | py=ㄍㄖㄞㄣ-ㄉㄜ | theme=tools | stage=3 base=grind
+ 5795 | pickaxe                        | 鶴嘴鋤                            | ⛏️       | chunks=['pick', 'axe'] | py=ㄆㄧㄎ-ㄚㄎㄙ | theme=tools | stage=2
+ 5796 | wheelbarrow                    | 手推車                            | 🛒        | chunks=['wheel', 'bar', 'row'] | py=ㄨㄧㄛ-ㄅㄚ-ㄖㄛ | theme=tools | stage=2
+ 5797 | lawnmower                      | 割草機                            | 🚜        | chunks=['lawn', 'mow', 'er'] | py=ㄌㄛㄣ-ㄇㄛ-ㄜ | theme=tools | stage=2
+ 5798 | trowel                         | 抹刀、小鏟子                         | 🧱        | chunks=['trow', 'el'] | py=ㄊㄖㄠ-ㄜ | theme=tools | stage=3
+ 5799 | pitchfork                      | 乾草叉                            | 🌾        | chunks=['pitch', 'fork'] | py=ㄆㄧㄔ-ㄈㄛㄜㄎ | theme=tools | stage=3
+ 5800 | hoe                            | 鋤頭                             | ⛏️       | chunks=['h', 'oe'] | py=ㄏㄛ | theme=tools | stage=2
+ 5801 | steel                          | 鋼                              | 🔩        | chunks=['st', 'eel'] | py=ㄙㄊㄧㄛ | theme=materials | stage=2 [有易混提示]
+ 5802 | copper                         | 銅                              | 🪙        | chunks=['cop', 'per'] | py=ㄎㄚ-ㄆㄜ | theme=materials | stage=2 [有易混提示]
+ 5803 | aluminum                       | 鋁                              | 🥫        | chunks=['a', 'lu', 'mi', 'num'] | py=ㄜ-ㄌㄨ-ㄇㄜ-ㄋㄚㄇ | theme=materials | stage=2
+ 5804 | titanium                       | 鈦                              | 🔩        | chunks=['ti', 'ta', 'ni', 'um'] | py=ㄊㄞ-ㄊㄟ-ㄋㄧ-ㄚㄇ | theme=materials | stage=3
+ 5805 | cement                         | 水泥                             | 🧱        | chunks=['ce', 'ment'] | py=ㄒㄜ-ㄇㄣㄊ | theme=materials | stage=2
+ 5806 | brick                          | 磚塊                             | 🧱        | chunks=['br', 'ick'] | py=ㄅㄖㄧㄎ | theme=materials | stage=1
+ 5807 | granite                        | 花崗岩                            | 🪨        | chunks=['gran', 'ite'] | py=ㄍㄖㄚ-ㄋㄞㄊ | theme=materials | stage=3
+ 5808 | linen                          | 亞麻                             | 🧵        | chunks=['lin', 'en'] | py=ㄌㄧ-ㄋㄣ | theme=materials | stage=3
+ 5809 | polyester                      | 聚酯纖維                           | 🧵        | chunks=['pol', 'y', 'es', 'ter'] | py=ㄆㄚ-ㄌㄧ-ㄝㄙ-ㄊㄜ | theme=materials | stage=3
+ 5810 | nylon                          | 尼龍                             | 🧵        | chunks=['ny', 'lon'] | py=ㄋㄞ-ㄌㄚㄣ | theme=materials | stage=2
+ 5811 | ceramic                        | 陶瓷                             | 🏺        | chunks=['ce', 'ram', 'ic'] | py=ㄙㄜ-ㄖㄚ-ㄇㄧㄎ | theme=materials | stage=3
+ 5812 | porcelain                      | 瓷器                             | 🏺        | chunks=['por', 'ce', 'lain'] | py=ㄆㄛㄜ-ㄙㄜ-ㄌㄧㄣ | theme=materials | stage=3
+ 5813 | cardboard                      | 硬紙板                            | 📦        | chunks=['card', 'board'] | py=ㄎㄚㄉ-ㄅㄛㄜㄉ | theme=materials | stage=2
+ 5814 | foam                           | 泡棉、泡沫                          | 🧽        | chunks=['f', 'oam'] | py=ㄈㄛㄇ | theme=materials | stage=2 [有易混提示]
+ 5815 | thread                         | 縫線、線                           | 🧵        | chunks=['thr', 'ead'] | py=ㄒㄖㄝㄉ | theme=materials | stage=2 [有易混提示]
+ 5816 | yarn                           | 紗線                             | 🧶        | chunks=['y', 'arn'] | py=ㄧㄚㄜㄣ | theme=materials | stage=2
+ 5817 | velvet                         | 絲絨                             | 🧵        | chunks=['vel', 'vet'] | py=ㄈㄝㄛ-ㄈㄜㄊ | theme=materials | stage=3
+ 5818 | tin                            | 錫、罐                            | 🥫        | chunks=['t', 'in'] | py=ㄊㄧㄣ | theme=materials | stage=2 [有易混提示]
+ 5819 | zinc                           | 鋅                              | 🔋        | chunks=['z', 'inc'] | py=ㄗㄧㄥㄎ | theme=materials | stage=3
+ 5820 | vague                          | 模糊的                            | 🌫️       | chunks=['v', 'ague'] | py=ㄈㄟㄍ | theme=adjectives | stage=3 [有易混提示]
+ 5821 | profound                       | 深刻的                            | 💭        | chunks=['pro', 'found'] | py=ㄆㄖㄜ-ㄈㄠㄣㄉ | theme=adjectives | stage=3
+ 5822 | subtle                         | 微妙的                            | 🕯️       | chunks=['sub', 'tle'] | py=ㄙㄚ-ㄊㄛ | theme=adjectives | stage=3
+ 5823 | blatant                        | 明目張膽的                          | 📣        | chunks=['bla', 'tant'] | py=ㄅㄌㄟ-ㄊㄣㄊ | theme=adjectives | stage=4
+ 5824 | grim                           | 嚴峻的                            | 😟        | chunks=['gr', 'im'] | py=ㄍㄖㄧㄇ | theme=adjectives | stage=3 [有易混提示]
+ 5825 | dire                           | 嚴重的                            | ⚠️       | chunks=['d', 'ire'] | py=ㄉㄞㄜ | theme=adjectives | stage=3
+ 5826 | bleak                          | 淒涼的                            | 🌧️       | chunks=['bl', 'eak'] | py=ㄅㄌㄧㄎ | theme=adjectives | stage=3
+ 5827 | lush                           | 茂盛的                            | 🌳        | chunks=['l', 'ush'] | py=ㄌㄚㄒ | theme=adjectives | stage=3
+ 5828 | sparse                         | 稀疏的                            | 🌵        | chunks=['sp', 'arse'] | py=ㄙㄆㄚㄜㄙ | theme=adjectives | stage=3
+ 5829 | ample                          | 充裕的                            | 🌊        | chunks=['am', 'ple'] | py=ㄚㄇ-ㄆㄛ | theme=adjectives | stage=3
+ 5830 | rampant                        | 猖獗的                            | 🔥        | chunks=['ram', 'pant'] | py=ㄖㄚㄇ-ㄆㄣㄊ | theme=adjectives | stage=4
+ 5831 | sheer                          | 純粹的                            | 💎        | chunks=['sh', 'eer'] | py=ㄒㄧㄜ | theme=adjectives | stage=3
+ 5832 | scant                          | 不足的                            | 🪫        | chunks=['sc', 'ant'] | py=ㄙㄎㄚㄣㄊ | theme=adjectives | stage=4
+ 5833 | frantic                        | 狂亂的                            | 😵        | chunks=['fran', 'tic'] | py=ㄈㄖㄚㄣ-ㄊㄧㄎ | theme=adjectives | stage=3
+ 5834 | hectic                         | 忙亂的                            | 💨        | chunks=['hec', 'tic'] | py=ㄏㄝㄎ-ㄊㄧㄎ | theme=adjectives | stage=3
+ 5835 | mellow                         | 柔和的                            | 🌅        | chunks=['mel', 'low'] | py=ㄇㄝ-ㄌㄛ | theme=adjectives | stage=3
+ 5836 | brisk                          | 輕快的                            | 🚶        | chunks=['br', 'isk'] | py=ㄅㄖㄧㄙㄎ | theme=adjectives | stage=3
+ 5837 | drowsy                         | 昏昏欲睡的                          | 😪        | chunks=['drow', 'sy'] | py=ㄉㄖㄠ-ㄗㄧ | theme=adjectives | stage=3
+ 5838 | snug                           | 舒適的                            | 🛌        | chunks=['sn', 'ug'] | py=ㄙㄋㄚㄍ | theme=adjectives | stage=3
+ 5839 | cozy                           | 溫馨的                            | 🛋️       | chunks=['co', 'zy'] | py=ㄎㄛ-ㄗㄧ | theme=adjectives | stage=2
+ 5840 | eerie                          | 陰森的                            | 👻        | chunks=['ee', 'rie'] | py=ㄧ-ㄖㄧ | theme=adjectives | stage=3
+ 5841 | dreary                         | 沉悶的                            | ☁️       | chunks=['drea', 'ry'] | py=ㄉㄖㄧ-ㄖㄧ | theme=adjectives | stage=3
+ 5842 | austere                        | 嚴肅樸素的                          | 🪨        | chunks=['aus', 'tere'] | py=ㄛ-ㄙㄊㄧㄜ | theme=adjectives | stage=4
+ 5843 | fierce                         | 激烈的                            | 😡        | chunks=['fi', 'erce'] | py=ㄈㄧㄜㄜㄙ | theme=adjectives | stage=2
+ 5844 | harsh                          | 嚴厲的                            | ⚡        | chunks=['h', 'arsh'] | py=ㄏㄚㄜㄒ | theme=adjectives | stage=2
+ 5845 | stern                          | 嚴肅的                            | 😠        | chunks=['st', 'ern'] | py=ㄙㄊㄜㄜㄣ | theme=adjectives | stage=3
+ 5846 | stark                          | 赤裸裸的                           | 🪨        | chunks=['st', 'ark'] | py=ㄙㄊㄚㄜㄎ | theme=adjectives | stage=3
+ 5847 | crude                          | 粗糙的                            | 🪨        | chunks=['cr', 'ude'] | py=ㄎㄖㄨㄉ | theme=adjectives | stage=3
+ 5848 | vast                           | 廣大的                            | 🌌        | chunks=['v', 'ast'] | py=ㄈㄚㄙㄊ | theme=adjectives | stage=2
+ 5849 | petty                          | 瑣碎的                            | 🤏        | chunks=['pet', 'ty'] | py=ㄆㄝ-ㄊㄧ | theme=adjectives | stage=3
+ 5850 | trivial                        | 微不足道的                          | 🤏        | chunks=['triv', 'i', 'al'] | py=ㄊㄖㄧ-ㄈㄧ-ㄛ | theme=adjectives | stage=3
+ 5851 | grand                          | 宏偉的                            | 🏛️       | chunks=['gr', 'and'] | py=ㄍㄖㄚㄣㄉ | theme=adjectives | stage=2
+ 5852 | splendid                       | 壯麗的                            | ✨        | chunks=['splen', 'did'] | py=ㄙㄆㄌㄣ-ㄉㄧㄉ | theme=adjectives | stage=3
+ 5853 | exquisite                      | 精緻的                            | 💎        | chunks=['ex', 'qui', 'site'] | py=ㄝㄎ-ㄎㄨㄧ-ㄗㄧㄊ | theme=adjectives | stage=4
+ 5854 | dazzling                       | 耀眼的                            | ✨        | chunks=['daz', 'zling'] | py=ㄉㄚ-ㄗㄌㄧㄥ | theme=adjectives | stage=3
+ 5855 | robust                         | 強健的                            | 💪        | chunks=['ro', 'bust'] | py=ㄖㄛ-ㄅㄚㄙㄊ | theme=adjectives | stage=3
+ 5856 | frail                          | 虛弱的                            | 🍂        | chunks=['fr', 'ail'] | py=ㄈㄖㄟㄛ | theme=adjectives | stage=3
+ 5857 | meek                           | 溫順的                            | 🐑        | chunks=['m', 'eek'] | py=ㄇㄧㄎ | theme=adjectives | stage=3
+ 5858 | solemn                         | 莊嚴的                            | ⛪        | chunks=['sol', 'emn'] | py=ㄙㄚ-ㄌㄣ | theme=adjectives | stage=3
+ 5859 | somber                         | 陰沉的                            | 😔        | chunks=['som', 'ber'] | py=ㄙㄚㄇ-ㄅㄜ | theme=adjectives | stage=4
+ 5860 | merry                          | 歡樂的                            | 🎉        | chunks=['mer', 'ry'] | py=ㄇㄝ-ㄖㄧ | theme=adjectives | stage=2
+ 5861 | jolly                          | 愉快的                            | 😄        | chunks=['jol', 'ly'] | py=ㄐㄚ-ㄌㄧ | theme=adjectives | stage=2
+ 5862 | weary                          | 疲倦的                            | 😩        | chunks=['wea', 'ry'] | py=ㄨㄧ-ㄖㄧ | theme=adjectives | stage=3
+ 5863 | feeble                         | 虛弱的                            | 🪫        | chunks=['fee', 'ble'] | py=ㄈㄧ-ㄅㄛ | theme=adjectives | stage=3
+ 5864 | sturdy                         | 堅固的                            | 💪        | chunks=['stur', 'dy'] | py=ㄙㄊㄜ-ㄉㄧ | theme=adjectives | stage=3
+ 5865 | nimble                         | 敏捷的                            | 🐿️       | chunks=['nim', 'ble'] | py=ㄋㄧㄇ-ㄅㄛ | theme=adjectives | stage=3
+ 5866 | agile                          | 靈活的                            | 🤸        | chunks=['a', 'gile'] | py=ㄚ-ㄐㄚㄛ | theme=adjectives | stage=2
+ 5867 | clumsy                         | 笨拙的                            | 🤦        | chunks=['clum', 'sy'] | py=ㄎㄌㄚㄇ-ㄗㄧ | theme=adjectives | stage=2
+ 5868 | keen                           | 敏銳的                            | 🦅        | chunks=['k', 'een'] | py=ㄎㄧㄣ | theme=adjectives | stage=2
+ 5869 | avid                           | 熱衷的                            | 🤩        | chunks=['av', 'id'] | py=ㄚ-ㄈㄧㄉ | theme=adjectives | stage=3
+ 5870 | dormant                        | 休眠的                            | 💤        | chunks=['dor', 'mant'] | py=ㄉㄛㄜ-ㄇㄣㄊ | theme=adjectives | stage=4
+ 5871 | relentless                     | 無情的                            | ⚡        | chunks=['re', 'lent', 'less'] | py=ㄖㄜ-ㄌㄣㄊ-ㄌㄝㄙ | theme=adjectives | stage=3
+ 5872 | ferocious                      | 兇猛的                            | 🦁        | chunks=['fe', 'ro', 'cious'] | py=ㄈㄜ-ㄖㄛ-ㄒㄜㄙ | theme=adjectives | stage=3
+ 5873 | vicious                        | 惡毒的                            | 😈        | chunks=['vi', 'cious'] | py=ㄈㄧ-ㄒㄜㄙ | theme=adjectives | stage=3
+ 5874 | delicate                       | 精緻的                            | 🌸        | chunks=['del', 'i', 'cate'] | py=ㄉㄝ-ㄌㄜ-ㄎㄜㄊ | theme=adjectives | stage=2
+ 5875 | fragile                        | 易碎的                            | 🥚        | chunks=['frag', 'ile'] | py=ㄈㄖㄚ-ㄐㄛ | theme=adjectives | stage=2
+ 5876 | resilient                      | 有韌性的                           | 🌱        | chunks=['re', 'sil', 'ient'] | py=ㄖㄜ-ㄗㄧ-ㄌㄧㄣㄊ | theme=adjectives | stage=3
+ 5877 | flimsy                         | 脆弱的                            | 🍃        | chunks=['flim', 'sy'] | py=ㄈㄌㄧㄇ-ㄗㄧ | theme=adjectives | stage=3
+ 5878 | steep                          | 陡峭的                            | ⛰️       | chunks=['st', 'eep'] | py=ㄙㄊㄧㄆ | theme=adjectives | stage=2
+ 5879 | shallow                        | 淺的                             | 🏖️       | chunks=['shal', 'low'] | py=ㄒㄚ-ㄌㄛ | theme=adjectives | stage=2
+ 5880 | balmy                          | 溫和的                            | 🌅        | chunks=['bal', 'my'] | py=ㄅㄚ-ㄇㄧ | theme=adjectives | stage=4
+ 5881 | stuffy                         | 悶熱的                            | 😤        | chunks=['stuf', 'fy'] | py=ㄙㄊㄚ-ㄈㄧ | theme=adjectives | stage=3
+ 5882 | stale                          | 陳腐的                            | 🍞        | chunks=['st', 'ale'] | py=ㄙㄊㄟㄛ | theme=adjectives | stage=3
+ 5883 | crisp                          | 酥脆的                            | 🥨        | chunks=['cr', 'isp'] | py=ㄎㄖㄧㄙㄆ | theme=adjectives | stage=2
+ 5884 | dense                          | 密集的                            | 🌲        | chunks=['d', 'ense'] | py=ㄉㄣㄙ | theme=adjectives | stage=2
+ 5885 | potent                         | 強效的                            | 💊        | chunks=['po', 'tent'] | py=ㄆㄛ-ㄊㄣㄊ | theme=adjectives | stage=3
+ 5886 | tangy                          | 辛辣的                            | 🍋        | chunks=['tang', 'y'] | py=ㄊㄚㄥ-ㄧ | theme=adjectives | stage=3
+ 5887 | hearty                         | 豐盛的                            | 🍲        | chunks=['heart', 'y'] | py=ㄏㄚㄜ-ㄊㄧ | theme=adjectives | stage=3
+ 5888 | wholesome                      | 有益的                            | 🥗        | chunks=['whole', 'some'] | py=ㄏㄛㄛ-ㄙㄚㄇ | theme=adjectives | stage=3
+ 5889 | filthy                         | 骯髒的                            | 🤢        | chunks=['fil', 'thy'] | py=ㄈㄧㄛ-ㄒㄧ | theme=adjectives | stage=3
+ 5890 | pristine                       | 原始純淨的                          | 💎        | chunks=['pris', 'tine'] | py=ㄆㄖㄧㄙ-ㄊㄧㄣ | theme=adjectives | stage=3
+ 5891 | spotless                       | 一塵不染的                          | ✨        | chunks=['spot', 'less'] | py=ㄙㄆㄚㄊ-ㄌㄝㄙ | theme=adjectives | stage=3 base=spot
+ 5892 | tidy                           | 整潔的                            | 🧹        | chunks=['ti', 'dy'] | py=ㄊㄞ-ㄉㄧ | theme=adjectives | stage=1
+ 5893 | messy                          | 凌亂的                            | 🌪️       | chunks=['mes', 'sy'] | py=ㄇㄝ-ㄗㄧ | theme=adjectives | stage=1
+ 5894 | serene                         | 寧靜的                            | 🌊        | chunks=['se', 'rene'] | py=ㄙㄜ-ㄖㄧㄣ | theme=adjectives | stage=3
+ 5895 | chaotic                        | 混亂的                            | 🌀        | chunks=['cha', 'ot', 'ic'] | py=ㄎㄟ-ㄚ-ㄊㄧㄎ | theme=adjectives | stage=3
+ 5896 | turbulent                      | 動盪的                            | 🌊        | chunks=['tur', 'bu', 'lent'] | py=ㄊㄜ-ㄅㄩ-ㄌㄣㄊ | theme=adjectives | stage=3
+ 5897 | transparent                    | 透明的                            | 💎        | chunks=['trans', 'par', 'ent'] | py=ㄊㄖㄢㄙ-ㄆㄚ-ㄖㄣㄊ | theme=adjectives | stage=2
+ 5898 | opaque                         | 不透明的                           | ⬛        | chunks=['o', 'paque'] | py=ㄛ-ㄆㄟㄎ | theme=adjectives | stage=3
+ 5899 | vibrant                        | 充滿活力的                          | ✨        | chunks=['vi', 'brant'] | py=ㄈㄞ-ㄅㄌㄣㄊ | theme=adjectives | stage=3
+ 5900 | drab                           | 單調的                            | 🪨        | chunks=['dr', 'ab'] | py=ㄉㄖㄚㄅ | theme=adjectives | stage=4
+ 5901 | a dime a dozen                 | 多到不值錢                          | 💰        | chunks=['a', 'dime', 'a', 'doz', 'en'] | py=ㄜ-ㄉㄞㄇ-ㄜ-ㄉㄚ-ㄗㄣ | theme=idioms | stage=3
+ 5902 | cross your fingers             | 祈禱好運                           | 🤞        | chunks=['cross', 'your', 'fin', 'gers'] | py=ㄎㄖㄛㄙ-ㄧㄛ-ㄈㄧㄥ-ㄍㄜㄗ | theme=idioms | stage=2
+ 5903 | go cold turkey                 | 突然戒掉                           | 🦃        | chunks=['go', 'cold', 'tur', 'key'] | py=ㄍㄛ-ㄎㄛㄛㄉ-ㄊㄜ-ㄎㄧ | theme=idioms | stage=3
+ 5904 | hit the jackpot                | 中大獎                            | 🎰        | chunks=['hit', 'the', 'jack', 'pot'] | py=ㄏㄧㄊ-ㄉㄚ-ㄐㄚㄎ-ㄆㄚㄊ | theme=idioms | stage=2
+ 5905 | in the long run                | 從長遠看                           | ⏳        | chunks=['in', 'the', 'long', 'run'] | py=ㄧㄣ-ㄉㄚ-ㄌㄛㄥ-ㄖㄚㄣ | theme=idioms | stage=2
+ 5906 | let sleeping dogs lie          | 別招惹麻煩                          | 😴        | chunks=['let', 'sleep', 'ing', 'dogs', 'lie'] | py=ㄌㄝㄊ-ㄙㄌㄧ-ㄆㄧㄥ-ㄉㄛㄍㄗ-ㄌㄞ | theme=idioms | stage=4
+ 5907 | make ends meet                 | 勉強度日                           | 💸        | chunks=['make', 'ends', 'meet'] | py=ㄇㄟㄎ-ㄣㄗ-ㄇㄧㄊ | theme=idioms | stage=3
+ 5908 | no big deal                    | 沒什麼大不了                         | 🤷        | chunks=['no', 'big', 'deal'] | py=ㄋㄛ-ㄅㄧㄍ-ㄉㄧㄛ | theme=idioms | stage=1
+ 5909 | on the same page               | 看法一致                           | 📖        | chunks=['on', 'the', 'same', 'page'] | py=ㄛㄣ-ㄉㄚ-ㄙㄟㄇ-ㄆㄟㄐ | theme=idioms | stage=2
+ 5910 | play it by ear                 | 見機行事                           | 👂        | chunks=['play', 'it', 'by', 'ear'] | py=ㄆㄌㄟ-ㄧㄊ-ㄅㄞ-ㄧㄜ | theme=idioms | stage=3
+ 5911 | see the light                  | 恍然大悟                           | 💡        | chunks=['see', 'the', 'light'] | py=ㄒㄧ-ㄉㄚ-ㄌㄞㄊ | theme=idioms | stage=3
+ 5912 | take it easy                   | 放輕鬆                            | 😌        | chunks=['take', 'it', 'eas', 'y'] | py=ㄊㄟㄎ-ㄧㄊ-ㄧ-ㄗㄧ | theme=idioms | stage=1
+ 5913 | the bottom line                | 底線、最終結論                        | 📊        | chunks=['the', 'bot', 'tom', 'line'] | py=ㄉㄚ-ㄅㄚ-ㄊㄣㄇ-ㄌㄞㄣ | theme=idioms | stage=3
+ 5914 | throw in the towel             | 認輸                             | 🏳️       | chunks=['throw', 'in', 'the', 'tow', 'el'] | py=ㄒㄖㄛ-ㄧㄣ-ㄉㄚ-ㄊㄠ-ㄛ | theme=idioms | stage=3
+ 5915 | tip of the iceberg             | 冰山一角                           | 🧊        | chunks=['tip', 'of', 'the', 'ice', 'berg'] | py=ㄊㄧㄆ-ㄚㄈ-ㄉㄚ-ㄞㄙ-ㄅㄜㄍ | theme=idioms | stage=3
+ 5916 | wild goose chase               | 白費功夫                           | 🦢        | chunks=['wild', 'goose', 'chase'] | py=ㄨㄞㄛㄉ-ㄍㄨㄙ-ㄔㄟㄙ | theme=idioms | stage=3
+ 5917 | with flying colors             | 出色地                            | 🎨        | chunks=['with', 'fly', 'ing', 'col', 'ors'] | py=ㄨㄧㄒ-ㄈㄌㄞ-ㄧㄥ-ㄎㄚ-ㄜㄗ | theme=idioms | stage=3
+ 5918 | drop in the bucket             | 杯水車薪                           | 💧        | chunks=['drop', 'in', 'the', 'buck', 'et'] | py=ㄉㄖㄚㄆ-ㄧㄣ-ㄉㄚ-ㄅㄚ-ㄎㄝㄊ | theme=idioms | stage=3
+ 5919 | ace in the hole                | 王牌                             | 🃏        | chunks=['ace', 'in', 'the', 'hole'] | py=ㄝㄙ-ㄧㄣ-ㄉㄚ-ㄏㄛㄛ | theme=idioms | stage=4
+ 5920 | comprehend                     | 理解                             | 🧠        | chunks=['com', 'pre', 'hend'] | py=ㄎㄚㄇ-ㄆㄖㄜ-ㄏㄣㄉ | theme=actions | stage=3
+ 5921 | endeavor                       | 努力                             | 💪        | chunks=['en', 'deav', 'or'] | py=ㄣ-ㄉㄝ-ㄈㄜ | theme=actions | stage=3
+ 5922 | attempt                        | 嘗試                             | 🎯        | chunks=['at', 'tempt'] | py=ㄜ-ㄊㄝㄇㄆㄊ | theme=actions | stage=2
+ 5923 | grasp                          | 抓住、理解                          | ✊        | chunks=['gr', 'asp'] | py=ㄍㄖㄚㄙㄆ | theme=actions | stage=2
+ 5924 | discern                        | 辨識                             | 🔍        | chunks=['dis', 'cern'] | py=ㄉㄜ-ㄙㄜㄜㄣ | theme=actions | stage=4
+ 5925 | contemplate                    | 沉思                             | 💭        | chunks=['con', 'tem', 'plate'] | py=ㄎㄚㄣ-ㄊㄣ-ㄆㄌㄟㄊ | theme=actions | stage=3
+ 5926 | ponder                         | 思索                             | 🤔        | chunks=['pon', 'der'] | py=ㄆㄚㄣ-ㄉㄜ | theme=actions | stage=3
+ 5927 | deliberate                     | 審慎考慮                           | ⚖️       | chunks=['de', 'lib', 'er', 'ate'] | py=ㄉㄜ-ㄌㄧ-ㄅㄜ-ㄌㄜㄊ | theme=actions | stage=3 [有易混提示]
+ 5928 | hesitate                       | 猶豫                             | 🤔        | chunks=['hes', 'i', 'tate'] | py=ㄏㄝ-ㄗㄜ-ㄊㄟㄊ | theme=actions | stage=2
+ 5929 | waver                          | 動搖                             | 〰️       | chunks=['wa', 'ver'] | py=ㄨㄟ-ㄈㄜ | theme=actions | stage=3 base=wave
+ 5930 | surge                          | 激增                             | 📈        | chunks=['s', 'urge'] | py=ㄙㄜㄜㄐ | theme=actions | stage=3
+ 5931 | dwindle                        | 逐漸減少                           | 📉        | chunks=['dwin', 'dle'] | py=ㄉㄨㄧㄣ-ㄉㄛ | theme=actions | stage=3
+ 5932 | escalate                       | 升級                             | 📈        | chunks=['es', 'ca', 'late'] | py=ㄝㄙ-ㄎㄜ-ㄌㄟㄊ | theme=actions | stage=3
+ 5933 | plummet                        | 暴跌                             | 📉        | chunks=['plum', 'met'] | py=ㄆㄌㄚ-ㄇㄝㄊ | theme=actions | stage=3
+ 5934 | soar                           | 翱翔、飆升                          | 🦅        | chunks=['s', 'oar'] | py=ㄙㄛㄜ | theme=actions | stage=3 [有易混提示]
+ 5935 | plunge                         | 猛跌                             | 📉        | chunks=['pl', 'unge'] | py=ㄆㄌㄚㄣㄐ | theme=actions | stage=3
+ 5936 | glide                          | 滑行                             | 🛷        | chunks=['gl', 'ide'] | py=ㄍㄌㄞㄉ | theme=actions | stage=2
+ 5937 | scatter                        | 散開                             | 💨        | chunks=['scat', 'ter'] | py=ㄙㄎㄚ-ㄊㄜ | theme=actions | stage=2
+ 5938 | gather                         | 聚集                             | 🤝        | chunks=['gath', 'er'] | py=ㄍㄚ-ㄉㄜ | theme=actions | stage=1
+ 5939 | disperse                       | 分散                             | 💨        | chunks=['dis', 'perse'] | py=ㄉㄧㄙ-ㄆㄜㄙ | theme=actions | stage=3
+ 5940 | condense                       | 濃縮                             | 💧        | chunks=['con', 'dense'] | py=ㄎㄣ-ㄉㄣㄙ | theme=actions | stage=3
+ 5941 | shrink                         | 縮小                             | 🤏        | chunks=['shr', 'ink'] | py=ㄒㄖㄧㄥㄎ | theme=actions | stage=2
+ 5942 | swell                          | 膨脹                             | 🎈        | chunks=['sw', 'ell'] | py=ㄙㄨㄝㄛ | theme=actions | stage=2
+ 5943 | bloom                          | 開花                             | 🌳        | chunks=['bl', 'oom'] | py=ㄅㄌㄨㄇ | theme=actions | stage=1
+ 5944 | wither                         | 枯萎                             | 🥀        | chunks=['with', 'er'] | py=ㄨㄧ-ㄉㄜ | theme=actions | stage=3
+ 5945 | decay                          | 腐爛                             | 🍂        | chunks=['de', 'cay'] | py=ㄉㄜ-ㄎㄟ | theme=actions | stage=2
+ 5946 | flourish                       | 繁榮                             | 🌻        | chunks=['flour', 'ish'] | py=ㄈㄌㄜ-ㄖㄧㄒ | theme=actions | stage=3
+ 5947 | thrive                         | 茁壯                             | 🌱        | chunks=['thr', 'ive'] | py=ㄒㄖㄞㄈ | theme=actions | stage=3
+ 5948 | endure                         | 忍耐                             | 😣        | chunks=['en', 'dure'] | py=ㄣ-ㄉㄩㄜ | theme=academic-words | stage=2
+ 5949 | prevail                        | 勝出                             | 🏆        | chunks=['pre', 'vail'] | py=ㄆㄖㄜ-ㄨㄟㄛ | theme=actions | stage=3
+ 5950 | succumb                        | 屈服                             | 😞        | chunks=['suc', 'cumb'] | py=ㄙㄜ-ㄎㄚㄇ | theme=actions | stage=4
+ 5951 | conquer                        | 征服                             | 🏆        | chunks=['con', 'quer'] | py=ㄎㄚㄣ-ㄎㄜ | theme=actions | stage=2
+ 5952 | subdue                         | 制服                             | 🛑        | chunks=['sub', 'due'] | py=ㄙㄚㄅ-ㄉㄩ | theme=actions | stage=4
+ 5953 | govern                         | 治理                             | 🏛️       | chunks=['gov', 'ern'] | py=ㄍㄚ-ㄨㄜㄣ | theme=actions | stage=2
+ 5954 | administer                     | 管理                             | 📋        | chunks=['ad', 'min', 'is', 'ter'] | py=ㄚㄉ-ㄇㄧㄣ-ㄜ-ㄙㄊㄜ | theme=actions | stage=3
+ 5955 | oversee                        | 監督                             | 👁️       | chunks=['o', 'ver', 'see'] | py=ㄛ-ㄨㄜ-ㄒㄧ | theme=actions | stage=3
+ 5956 | supervise                      | 監管                             | 👁️       | chunks=['su', 'per', 'vise'] | py=ㄙㄨ-ㄆㄜ-ㄈㄞㄗ | theme=actions | stage=2
+ 5957 | defy                           | 反抗                             | ✊        | chunks=['de', 'fy'] | py=ㄉㄜ-ㄈㄞ | theme=actions | stage=3
+ 5958 | mock                           | 嘲笑                             | 😏        | chunks=['m', 'ock'] | py=ㄇㄚㄎ | theme=actions | stage=3
+ 5959 | scorn                          | 鄙視                             | 😒        | chunks=['sc', 'orn'] | py=ㄙㄎㄛㄜㄣ | theme=actions | stage=3
+ 5960 | deceive                        | 欺騙                             | 🤥        | chunks=['de', 'ceive'] | py=ㄉㄜ-ㄙㄧㄈ | theme=actions | stage=3
+ 5961 | betray                         | 背叛                             | 💔        | chunks=['be', 'tray'] | py=ㄅㄧ-ㄊㄖㄟ | theme=actions | stage=3
+ 5962 | flatter                        | 奉承                             | 😏        | chunks=['flat', 'ter'] | py=ㄈㄌㄚ-ㄊㄜ | theme=actions | stage=3
+ 5963 | resent                         | 怨恨                             | 😤        | chunks=['re', 'sent'] | py=ㄖㄜ-ㄗㄣㄊ | theme=actions | stage=3
+ 5964 | rejoice                        | 歡欣                             | 🎉        | chunks=['re', 'joice'] | py=ㄖㄜ-ㄐㄛㄧㄙ | theme=actions | stage=3
+ 5965 | mourn                          | 哀悼                             | 😢        | chunks=['m', 'ourn'] | py=ㄇㄛㄜㄣ | theme=actions | stage=3
+ 5966 | lament                         | 悲嘆                             | 😭        | chunks=['la', 'ment'] | py=ㄌㄜ-ㄇㄣㄊ | theme=actions | stage=4
+ 5967 | grieve                         | 悲傷                             | 😢        | chunks=['gr', 'ieve'] | py=ㄍㄖㄧㄈ | theme=actions | stage=3
+ 5968 | ache                           | 疼痛                             | 😖        | chunks=['a', 'che'] | py=ㄝㄎ | theme=actions | stage=2
+ 5969 | crave                          | 渴望                             | 😋        | chunks=['cr', 'ave'] | py=ㄎㄖㄟㄈ | theme=actions | stage=2
+ 5970 | able                           | 能，可以                           | 💪        | chunks=['ab', 'le'] | py=ㄚㄅ-ㄌㄧ | theme=actions | stage=1
+ 5971 | about                          | 關於                             | 🏃        | chunks=['a', 'bout'] | py=ㄜ-ㄅㄠㄊ | theme=sight-words | stage=1
+ 5972 | according to                   | 根據                             | 🔗        | chunks=['ac', 'cor', 'ding', 'to'] | py=ㄜ-ㄎㄛㄜ-ㄉㄧㄥ-ㄊㄨ | theme=phrasal-verbs | stage=1
+ 5973 | act                            | 行動、扮演                          | 🎭        | chunks=['ac', 't'] | py=ㄚㄎㄊ | theme=actions | stage=1
+ 5974 | address                        | 地址、演說、處理                       | 📮        | chunks=['ad', 'dress'] | py=ㄜ-ㄉㄖㄝㄙ | theme=places | stage=1
+ 5975 | airmail                        | 航空郵件                           | ✉️       | chunks=['air', 'mail'] | py=ㄝㄜ-ㄇㄟㄛ | theme=actions | stage=1
+ 5976 | airplane                       | 飛機                             | ✈️       | chunks=['air', 'pla', 'ne'] | py=ㄝㄜ-ㄆㄌㄟㄣ | theme=transportation | stage=1
+ 5977 | allow                          | 允許                             | ✅        | chunks=['al', 'low'] | py=ㄜ-ㄌㄠ | theme=actions | stage=1
+ 5978 | almost                         | 幾乎                             | 🏃        | chunks=['al', 'most'] | py=ㄛ-ㄇㄛㄙㄊ | theme=sight-words | stage=1 [有易混提示]
+ 5979 | alone                          | 單獨的                            | 🧍        | chunks=['a', 'lo', 'ne'] | py=ㄜ-ㄌㄛㄣ | theme=adjectives | stage=1 [有易混提示]
+ 5980 | animal                         | 動物                             | 🐾        | chunks=['a', 'ni', 'mal'] | py=ㄚ-ㄋㄜ-ㄇㄛ | theme=animals | stage=1
+ 5981 | anything                       | 任何東西                           | ❓        | chunks=['a', 'nyt', 'hing'] | py=ㄜ-ㄋㄧㄊ-ㄏㄧㄥ | theme=sight-words | stage=1
+ 5982 | appear                         | 出現                             | 👀        | chunks=['ap', 'pear'] | py=ㄜ-ㄆㄧㄜ | theme=actions | stage=1
+ 5983 | art                            | 藝術                             | 🎨        | chunks=['ar', 't'] | py=ㄚㄜㄊ | theme=art | stage=1
+ 5984 | auntie                         | 阿姨、姑姑、伯母                       | 👩        | chunks=['aun', 'tie'] | py=ㄚㄣ-ㄊㄧ | theme=family | stage=1
+ 5985 | aunty                          | 阿姨                             | 👩        | chunks=['aun', 'ty'] | py=ㄚㄣ-ㄊㄧ | theme=family | stage=1
+ 5986 | base                           | 基礎、基地                          | 🧱        | chunks=['ba', 'se'] | py=ㄅㄟㄙ | theme=actions | stage=1
+ 5987 | basic                          | 基礎的                            | 🧱        | chunks=['ba', 'sic'] | py=ㄅㄟ-ㄒㄧㄎ | theme=adjectives | stage=1
+ 5988 | bath                           | 洗澡、浴缸                          | 🛁        | chunks=['b', 'ath'] | py=ㄅㄚㄙ | theme=bathroom | stage=1 [有易混提示]
+ 5989 | bathe                          | 洗澡、沐浴                          | 🛁        | chunks=['bat', 'he'] | py=ㄅㄟㄗ | theme=bathroom | stage=1 [有易混提示]
+ 5990 | bathroom                       | 浴室                             | 🚿        | chunks=['bat', 'hroom'] | py=ㄅㄚㄙ-ㄖㄨㄇ | theme=bathroom | stage=1
+ 5991 | become                         | 成為                             | 🦋        | chunks=['be', 'co', 'me'] | py=ㄅㄧ-ㄎㄚㄇ | theme=actions | stage=1 base=become
+ 5992 | believe                        | 相信                             | 🙏        | chunks=['be', 'lie', 've'] | py=ㄅㄧ-ㄌㄧㄈ | theme=actions | stage=1
+ 5993 | belong                         | 屬於                             | 🔗        | chunks=['be', 'long'] | py=ㄅㄧ-ㄌㄛㄥ | theme=actions | stage=1
+ 5994 | best                           | 最好的                            | 🏆        | chunks=['b', 'est'] | py=ㄅㄝㄙㄊ | theme=adjectives | stage=1 base=good
+ 5995 | better                         | 較好的                            | 👍        | chunks=['bet', 'ter'] | py=ㄅㄝㄊ-ㄊㄜ | theme=adjectives | stage=1 base=good
+ 5996 | bite                           | 咬                              | 🦷        | chunks=['bi', 'te'] | py=ㄅㄞㄊ | theme=actions | stage=1
+ 5997 | blow                           | 吹                              | 💨        | chunks=['bl', 'ow'] | py=ㄅㄌㄛ | theme=actions | stage=1 [有易混提示]
+ 5998 | born                           | 出生、天生的                         | 👶        | chunks=['b', 'orn'] | py=ㄅㄛㄜㄣ | theme=adjectives | stage=1 base=bear
+ 5999 | box                            | 箱子                             | 📦        | chunks=['b', 'ox'] | py=ㄅㄚㄎㄙ | theme=home-items | stage=1 [有易混提示]

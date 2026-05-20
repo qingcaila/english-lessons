@@ -11,7 +11,7 @@
  1009 | cockroach                      | 蟑螂                             | 🪳        | chunks=['cock', 'roach'] | py=ㄎㄚㄎ-ㄌㄛㄑ | theme=animals | stage=1
  1010 | scorpion                       | 蠍子                             | 🦂        | chunks=['scor', 'pi', 'on'] | py=ㄙㄎㄛ-ㄆㄧ-ㄢ | theme=animals | stage=2
  1011 | cod                            | 鱈魚                             | 🐟        | chunks=['c', 'od'] | py=ㄎㄚㄉ | theme=animals | stage=2
- 1012 | jacket                         | 夾克                             | 🧥        | chunks=['jac', 'ket'] | py=ㄐㄚ-ㄎㄝㄊ | theme=clothing | stage=0
+ 1012 | jacket                         | 夾克                             | 🧥        | chunks=['jac', 'ket'] | py=ㄐㄚ-ㄎㄜㄊ | theme=clothing | stage=0
  1013 | sweater                        | 毛衣                             | 🧶        | chunks=['swea', 'ter'] | py=ㄙㄨㄝ-ㄊㄜ | theme=clothing | stage=0
  1014 | jeans                          | 牛仔褲                            | 👖        | chunks=['j', 'eans'] | py=ㄐㄧㄣㄗ | theme=clothing | stage=0
  1015 | shorts                         | 短褲                             | 🩳        | chunks=['sh', 'orts'] | py=ㄒㄛㄦㄗ | theme=clothing | stage=0
@@ -24,7 +24,7 @@
  1022 | pajamas                        | 睡衣                             | 🛌        | chunks=['pa', 'ja', 'mas'] | py=ㄆㄚ-ㄐㄚ-ㄇㄚㄗ | theme=clothing | stage=1
  1023 | uniform                        | 制服                             | 👮        | chunks=['u', 'ni', 'form'] | py=ㄧㄨ-ㄋㄧ-ㄈㄛㄦㄇ | theme=clothing | stage=1
  1024 | cap                            | 鴨舌帽                            | 🧢        | chunks=['c', 'ap'] | py=ㄎㄚㄆ | theme=clothing | stage=0 [有易混提示]
- 1025 | helmet                         | 安全帽                            | ⛑️       | chunks=['hel', 'met'] | py=ㄏㄝㄦ-ㄇㄝㄊ | theme=clothing | stage=1
+ 1025 | helmet                         | 安全帽                            | ⛑️       | chunks=['hel', 'met'] | py=ㄏㄝㄦ-ㄇㄜㄊ | theme=clothing | stage=1
  1026 | boots                          | 靴子                             | 🥾        | chunks=['b', 'oots'] | py=ㄅㄨㄗ | theme=clothing | stage=0
  1027 | sandals                        | 涼鞋                             | 👡        | chunks=['san', 'dals'] | py=ㄙㄢ-ㄉㄜㄗ | theme=clothing | stage=1
  1028 | slippers                       | 拖鞋                             | 🩴        | chunks=['slip', 'pers'] | py=ㄙㄌㄧ-ㄆㄜㄗ | theme=clothing | stage=1
@@ -41,7 +41,7 @@
  1039 | swimsuit                       | 泳裝                             | 🩱        | chunks=['swim', 'suit'] | py=ㄙㄨㄧㄇ-ㄙㄨㄊ | theme=clothing | stage=1
  1040 | bikini                         | 比基尼                            | 👙        | chunks=['bi', 'ki', 'ni'] | py=ㄅㄧ-ㄎㄧ-ㄋㄧ | theme=clothing | stage=1
  1041 | tuxedo                         | 燕尾服                            | 🤵        | chunks=['tux', 'e', 'do'] | py=ㄊㄚㄎ-ㄒㄧ-ㄉㄛ | theme=clothing | stage=2
- 1042 | pocket                         | 口袋                             | 👖        | chunks=['poc', 'ket'] | py=ㄆㄚ-ㄎㄝㄊ | theme=clothing | stage=0
+ 1042 | pocket                         | 口袋                             | 👖        | chunks=['poc', 'ket'] | py=ㄆㄚ-ㄎㄜㄊ | theme=clothing | stage=0
  1043 | zipper                         | 拉鍊                             | 🧷        | chunks=['zip', 'per'] | py=ㄗㄧ-ㄆㄜ | theme=clothing | stage=1
  1044 | button                         | 鈕扣                             | 🔘        | chunks=['but', 'ton'] | py=ㄅㄚ-ㄉㄣ | theme=clothing | stage=0
  1045 | collar                         | 衣領                             | 👔        | chunks=['col', 'lar'] | py=ㄎㄚ-ㄌㄜ | theme=clothing | stage=1
@@ -87,7 +87,7 @@
  1085 | heat                           | 高溫                             | 🥵        | chunks=['h', 'eat'] | py=ㄏㄧㄊ | theme=weather | stage=1 [有易混提示]
  1086 | degree                         | 度                              | 🌡️       | chunks=['de', 'gree'] | py=ㄉㄧ-ㄍㄌㄧ | theme=weather | stage=1 [有易混提示]
  1087 | temperature                    | 溫度                             | 🌡️       | chunks=['tem', 'pe', 'ra', 'ture'] | py=ㄊㄣ-ㄆㄜ-ㄌㄚ-ㄑㄜ | theme=weather | stage=1
- 1088 | forecast                       | 預報                             | 📺        | chunks=['fore', 'cast'] | py=ㄈㄛㄦ-ㄎㄚㄙㄊ | theme=weather | stage=1 base=forecast
+ 1088 | forecast                       | 預報                             | 📺        | chunks=['fore', 'cast'] | py=ㄈㄛㄦ-ㄎㄝㄙㄊ | theme=weather | stage=1 base=forecast
  1089 | climate                        | 氣候                             | 🌍        | chunks=['cli', 'mate'] | py=ㄎㄌㄞ-ㄇㄝㄊ | theme=weather | stage=2 [有易混提示]
  1090 | monsoon                        | 季風                             | 🌧️       | chunks=['mon', 'soon'] | py=ㄇㄚㄣ-ㄙㄨㄣ | theme=weather | stage=2
  1091 | cyclone                        | 氣旋                             | 🌀        | chunks=['cy', 'clone'] | py=ㄙㄞ-ㄎㄌㄛㄣ | theme=weather | stage=2
@@ -108,7 +108,7 @@
  1106 | food                           | 食物                             | 🍽️       | chunks=['f', 'ood'] | py=ㄈㄨㄉ | theme=food | stage=0
  1107 | butter                         | 奶油                             | 🧈        | chunks=['but', 'ter'] | py=ㄅㄚ-ㄉㄜ | theme=food | stage=0 [有易混提示]
  1108 | yogurt                         | 優格                             | 🥣        | chunks=['yo', 'gurt'] | py=ㄧㄛ-ㄍㄜㄊ | theme=food | stage=1
- 1109 | cereal                         | 麥片                             | 🥣        | chunks=['ce', 're', 'al'] | py=ㄒㄧ-ㄌㄧ-ㄦ | theme=food | stage=1
+ 1109 | cereal                         | 麥片                             | 🥣        | chunks=['ce', 're', 'al'] | py=ㄒㄧ-ㄌㄧ-ㄜㄦ | theme=food | stage=1
  1110 | oatmeal                        | 燕麥粥                            | 🥣        | chunks=['oat', 'meal'] | py=ㄛㄊ-ㄇㄧㄦ | theme=food | stage=2
  1111 | pasta                          | 義大利麵                           | 🍝        | chunks=['pas', 'ta'] | py=ㄆㄚㄙ-ㄊㄚ | theme=food | stage=1
  1112 | noodles                        | 麵條                             | 🍜        | chunks=['noo', 'dles'] | py=ㄋㄨ-ㄉㄜㄗ | theme=food | stage=0
@@ -120,7 +120,7 @@
  1118 | popcorn                        | 爆米花                            | 🍿        | chunks=['pop', 'corn'] | py=ㄆㄚㄆ-ㄎㄛㄦㄣ | theme=food | stage=0
  1119 | bacon                          | 培根                             | 🥓        | chunks=['ba', 'con'] | py=ㄅㄟ-ㄎㄣ | theme=food | stage=1
  1120 | ham                            | 火腿                             | 🍖        | chunks=['h', 'am'] | py=ㄏㄚㄇ | theme=food | stage=0 [有易混提示]
- 1121 | sausage                        | 香腸                             | 🌭        | chunks=['sau', 'sage'] | py=ㄙㄛ-ㄒㄧㄐ | theme=food | stage=1
+ 1121 | sausage                        | 香腸                             | 🌭        | chunks=['sau', 'sage'] | py=ㄙㄛ-ㄒㄜㄐ | theme=food | stage=1
  1122 | steak                          | 牛排                             | 🥩        | chunks=['st', 'eak'] | py=ㄙㄉㄟㄎ | theme=food | stage=1
  1123 | beef                           | 牛肉                             | 🥩        | chunks=['b', 'eef'] | py=ㄅㄧㄈ | theme=food | stage=0
  1124 | pork                           | 豬肉                             | 🐖        | chunks=['p', 'ork'] | py=ㄆㄛㄦㄎ | theme=food | stage=0
@@ -206,7 +206,7 @@
  1204 | ceiling                        | 天花板                            | ⬜        | chunks=['cei', 'ling'] | py=ㄒㄧ-ㄌㄧㄥ | theme=home-items | stage=1
  1205 | stairs                         | 樓梯                             | 🪜        | chunks=['st', 'airs'] | py=ㄙㄉㄝㄗ | theme=home-items | stage=0
  1206 | staircase                      | 階梯                             | 🪜        | chunks=['stair', 'case'] | py=ㄙㄉㄝ-ㄎㄝㄙ | theme=home-items | stage=1
- 1207 | carpet                         | 地毯                             | 🟫        | chunks=['car', 'pet'] | py=ㄎㄚㄦ-ㄆㄝㄊ | theme=home-items | stage=1
+ 1207 | carpet                         | 地毯                             | 🟫        | chunks=['car', 'pet'] | py=ㄎㄚㄦ-ㄆㄜㄊ | theme=home-items | stage=1
  1208 | rug                            | 小地毯                            | 🟫        | chunks=['r', 'ug'] | py=ㄌㄚㄍ | theme=home-items | stage=1
  1209 | curtain                        | 窗簾                             | 🪟        | chunks=['cur', 'tain'] | py=ㄎㄜ-ㄊㄣ | theme=home-items | stage=1
  1210 | blanket                        | 毯子                             | 🛏️       | chunks=['blan', 'ket'] | py=ㄅㄌㄢ-ㄎㄝㄊ | theme=home-items | stage=1
@@ -230,7 +230,7 @@
  1228 | doorbell                       | 門鈴                             | 🔔        | chunks=['door', 'bell'] | py=ㄉㄛㄦ-ㄅㄝㄦ | theme=home-items | stage=1
  1229 | doormat                        | 門墊                             | 🚪        | chunks=['door', 'mat'] | py=ㄉㄛㄦ-ㄇㄚㄊ | theme=home-items | stage=2
  1230 | switch                         | 開關                             | 🎚️       | chunks=['sw', 'itch'] | py=ㄙㄨㄧㄑ | theme=home-items | stage=1
- 1231 | socket                         | 插座                             | 🔌        | chunks=['soc', 'ket'] | py=ㄙㄚ-ㄎㄝㄊ | theme=home-items | stage=2
+ 1231 | socket                         | 插座                             | 🔌        | chunks=['soc', 'ket'] | py=ㄙㄚ-ㄎㄜㄊ | theme=home-items | stage=2
  1232 | plug                           | 插頭                             | 🔌        | chunks=['pl', 'ug'] | py=ㄆㄌㄚㄍ | theme=home-items | stage=1 [有易混提示]
  1233 | wire                           | 電線                             | 🪢        | chunks=['w', 'ire'] | py=ㄨㄞㄜ | theme=home-items | stage=1 [有易混提示]
  1234 | bulb                           | 燈泡                             | 💡        | chunks=['b', 'ulb'] | py=ㄅㄚㄦㄅ | theme=home-items | stage=1
@@ -246,7 +246,7 @@
  1244 | hanger                         | 衣架                             | 🧥        | chunks=['han', 'ger'] | py=ㄏㄢ-ㄍㄜ | theme=home-items | stage=1 base=hang
  1245 | hall                           | 大廳                             | 🏛️       | chunks=['h', 'all'] | py=ㄏㄛㄦ | theme=home-items | stage=1 [有易混提示]
  1246 | hallway                        | 走廊                             | 🚪        | chunks=['hall', 'way'] | py=ㄏㄛㄦ-ㄨㄝ | theme=home-items | stage=1
- 1247 | garage                         | 車庫                             | 🏠        | chunks=['ga', 'rage'] | py=ㄍㄚ-ㄌㄚㄐ | theme=home-items | stage=1
+ 1247 | garage                         | 車庫                             | 🏠        | chunks=['ga', 'rage'] | py=ㄍㄜ-ㄌㄚㄐ | theme=home-items | stage=1
  1248 | attic                          | 閣樓                             | 🏠        | chunks=['at', 'tic'] | py=ㄚ-ㄊㄧㄎ | theme=home-items | stage=2
  1249 | basement                       | 地下室                            | 🏠        | chunks=['base', 'ment'] | py=ㄅㄝㄙ-ㄇㄣㄊ | theme=home-items | stage=2 base=base
  1250 | balcony                        | 陽台                             | 🏠        | chunks=['bal', 'co', 'ny'] | py=ㄅㄚㄦ-ㄎㄜ-ㄋㄧ | theme=home-items | stage=2

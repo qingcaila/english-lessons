@@ -1,5 +1,5 @@
 # 字 5000-5499
- 5000 | materialism                    | 唯物主義                           | 💰        | chunks=['ma', 'te', 'ri', 'al', 'ism'] | py=ㄇㄜ-ㄊㄧ-ㄌㄧ-ㄦ-ㄧㄗㄣ | theme=philosophy | stage=3
+ 5000 | materialism                    | 唯物主義                           | 💰        | chunks=['ma', 'te', 'ri', 'al', 'ism'] | py=ㄇㄜ-ㄊㄧ-ㄖㄧ-ㄜ-ㄌㄧㄗㄣ | theme=philosophy | stage=3
  5001 | dualism                        | 二元論                            | ☯️       | chunks=['du', 'al', 'ism'] | py=ㄉㄨ-ㄦ-ㄧㄗㄣ | theme=philosophy | stage=3
  5002 | monism                         | 一元論                            | 🟰        | chunks=['mon', 'ism'] | py=ㄇㄚ-ㄋㄧㄗㄣ | theme=philosophy | stage=3
  5003 | stoicism                       | 斯多葛主義、斯多葛學派                    | 🧘        | chunks=['sto', 'i', 'cism'] | py=ㄙㄉㄛ-ㄜ-ㄒㄧㄗㄣ | theme=philosophy | stage=3
@@ -14,15 +14,15 @@
  5012 | absurd                         | 荒謬的                            | 🤯        | chunks=['ab', 'surd'] | py=ㄚㄅ-ㄙㄜㄉ | theme=philosophy | stage=2 [有易混提示]
  5013 | utilitarianism                 | 功利主義                           | ⚖️       | chunks=['u', 'til', 'i', 'tar', 'i', 'an', 'ism'] | py=ㄧㄨ-ㄊㄧ-ㄌㄜ-ㄊㄝ-ㄜ-ㄣ-ㄧㄗㄣ | theme=philosophy | stage=3
  5014 | utilitarian                    | 功利主義者                          | ⚖️       | chunks=['u', 'til', 'i', 'tar', 'i', 'an'] | py=ㄧㄨ-ㄊㄧ-ㄌㄜ-ㄊㄝ-ㄜ-ㄣ | theme=philosophy | stage=3
- 5015 | relativism                     | 相對主義                           | 🔄        | chunks=['rel', 'a', 'tiv', 'ism'] | py=ㄌㄝ-ㄌㄜ-ㄊㄜ-ㄈㄧㄗㄣ | theme=philosophy | stage=3
+ 5015 | relativism                     | 相對主義                           | 🔄        | chunks=['rel', 'a', 'tiv', 'ism'] | py=ㄖㄝ-ㄌㄜ-ㄊㄜ-ㄈㄧㄗㄣ | theme=philosophy | stage=3
  5016 | absolutism                     | 絕對主義                           | 💯        | chunks=['ab', 'so', 'lut', 'ism'] | py=ㄚㄅ-ㄙㄜ-ㄌㄨㄊ-ㄧㄗㄣ | theme=philosophy | stage=3
  5017 | determinism                    | 決定論                            | 🔗        | chunks=['de', 'ter', 'min', 'ism'] | py=ㄉㄧ-ㄊㄜ-ㄇㄜ-ㄋㄧㄗㄣ | theme=philosophy | stage=3
  5018 | freewill                       | 自由意志                           | 🕊️       | chunks=['free', 'will'] | py=ㄈㄌㄧ-ㄨㄧㄦ | theme=philosophy | stage=2
  5019 | fatalism                       | 宿命論                            | 🔮        | chunks=['fa', 'tal', 'ism'] | py=ㄈㄝ-ㄉㄦ-ㄧㄗㄣ | theme=philosophy | stage=3
  5020 | solipsism                      | 唯我論                            | 👤        | chunks=['sol', 'ip', 'sism'] | py=ㄙㄛ-ㄌㄧㄆ-ㄒㄧㄗㄣ | theme=philosophy | stage=3
- 5021 | plato                          | 柏拉圖                            | 📚        | chunks=['pla', 'to'] | py=ㄆㄌㄝ-ㄊㄛ | theme=philosophy | stage=2
- 5022 | aristotle                      | 亞里斯多德                          | 📚        | chunks=['ar', 'is', 'to', 'tle'] | py=ㄚ-ㄌㄜㄙ-ㄊㄚ-ㄉㄜ | theme=philosophy | stage=2
- 5023 | socrates                       | 蘇格拉底                           | 📚        | chunks=['soc', 'ra', 'tes'] | py=ㄙㄚ-ㄎㄌㄜ-ㄊㄧㄗ | theme=philosophy | stage=2
+ 5021 | plato                          | 柏拉圖                            | 📚        | chunks=['pla', 'to'] | py=ㄆㄌㄟ-ㄊㄛ | theme=philosophy | stage=2
+ 5022 | aristotle                      | 亞里斯多德                          | 📚        | chunks=['ar', 'is', 'to', 'tle'] | py=ㄝ-ㄖㄜㄙ-ㄊㄚ-ㄉㄜ | theme=philosophy | stage=2
+ 5023 | socrates                       | 蘇格拉底                           | 📚        | chunks=['soc', 'ra', 'tes'] | py=ㄙㄚ-ㄎㄖㄜ-ㄊㄧㄗ | theme=philosophy | stage=2
  5024 | kant                           | 康德                             | 📚        | chunks=['k', 'ant'] | py=ㄎㄚㄣㄊ | theme=philosophy | stage=3
  5025 | hegel                          | 黑格爾                            | 📚        | chunks=['he', 'gel'] | py=ㄏㄝ-ㄍㄦ | theme=philosophy | stage=3
  5026 | nietzsche                      | 尼采                             | 📚        | chunks=['niet', 'zsche'] | py=ㄋㄧ-ㄑㄜ | theme=philosophy | stage=3
@@ -31,7 +31,7 @@
  5029 | kierkegaard                    | 齊克果                            | 📚        | chunks=['kier', 'ke', 'gaard'] | py=ㄎㄧㄦ-ㄎㄜ-ㄍㄚㄦㄉ | theme=philosophy | stage=3
  5030 | hume                           | 休謨                             | 📚        | chunks=['h', 'ume'] | py=ㄏㄧㄨㄇ | theme=philosophy | stage=3
  5031 | locke                          | 洛克                             | 📚        | chunks=['lock', 'e'] | py=ㄌㄚㄎ | theme=philosophy | stage=3 [有易混提示]
- 5032 | rousseau                       | 盧梭                             | 📚        | chunks=['rous', 'seau'] | py=ㄌㄨ-ㄙㄛ | theme=philosophy | stage=3
+ 5032 | rousseau                       | 盧梭                             | 📚        | chunks=['rous', 'seau'] | py=ㄖㄨ-ㄙㄛ | theme=philosophy | stage=3
  5033 | knowledge                      | 知識                             | 📚        | chunks=['knowl', 'edge'] | py=ㄋㄚ-ㄌㄧㄐ | theme=philosophy | stage=1
  5034 | wisdom                         | 智慧                             | 🦉        | chunks=['wis', 'dom'] | py=ㄨㄧㄗ-ㄉㄣ | theme=philosophy | stage=1 [有易混提示]
  5035 | ignorance                      | 無知                             | 🤷        | chunks=['ig', 'no', 'rance'] | py=ㄧㄍ-ㄋㄜ-ㄌㄢㄙ | theme=philosophy | stage=2
@@ -39,18 +39,18 @@
  5037 | awareness                      | 覺察                             | 👁️       | chunks=['a', 'ware', 'ness'] | py=ㄚ-ㄨㄝㄜ-ㄋㄝㄙ | theme=philosophy | stage=2 base=aware
  5038 | mindfulness                    | 正念                             | 🧘        | chunks=['mind', 'ful', 'ness'] | py=ㄇㄞㄣㄉ-ㄈㄜ-ㄋㄝㄙ | theme=philosophy | stage=2 base=mindful
  5039 | perception                     | 感知                             | 👁️       | chunks=['per', 'cep', 'tion'] | py=ㄆㄜ-ㄙㄝㄆ-ㄒㄣ | theme=philosophy | stage=2 [有易混提示]
- 5040 | intuition                      | 直覺                             | 💭        | chunks=['in', 'tu', 'i', 'tion'] | py=ㄧㄣ-ㄑㄨ-ㄜ-ㄒㄣ | theme=philosophy | stage=2
+ 5040 | intuition                      | 直覺                             | 💭        | chunks=['in', 'tu', 'i', 'tion'] | py=ㄧㄣ-ㄊㄨ-ㄧ-ㄒㄣ | theme=philosophy | stage=2
  5041 | insight                        | 洞察                             | 💡        | chunks=['in', 'sight'] | py=ㄧㄣ-ㄙㄞㄊ | theme=philosophy | stage=2 [有易混提示]
  5042 | critique                       | 批判                             | 🧐        | chunks=['cri', 'tique'] | py=ㄎㄌㄜ-ㄊㄧㄎ | theme=philosophy | stage=2
  5043 | dialectic                      | 辯證                             | ⚖️       | chunks=['di', 'a', 'lec', 'tic'] | py=ㄉㄞ-ㄜ-ㄌㄝㄎ-ㄊㄧㄎ | theme=philosophy | stage=3
  5044 | syllogism                      | 三段論                            | 🧠        | chunks=['syl', 'lo', 'gism'] | py=ㄒㄜ-ㄌㄜ-ㄐㄧㄗㄣ | theme=philosophy | stage=3
  5045 | paradox                        | 悖論                             | 🤔        | chunks=['par', 'a', 'dox'] | py=ㄆㄝ-ㄜ-ㄉㄚㄎㄙ | theme=philosophy | stage=2
  5046 | fallacy                        | 謬誤                             | ❌        | chunks=['fal', 'la', 'cy'] | py=ㄈㄚ-ㄌㄜ-ㄒㄧ | theme=philosophy | stage=3
- 5047 | premise                        | 前提                             | 📜        | chunks=['prem', 'ise'] | py=ㄆㄌㄝ-ㄇㄜㄙ | theme=philosophy | stage=2
+ 5047 | premise                        | 前提                             | 📜        | chunks=['prem', 'ise'] | py=ㄆㄖㄝ-ㄇㄧㄙ | theme=philosophy | stage=2
  5048 | conclusion                     | 結論                             | 🎯        | chunks=['con', 'clu', 'sion'] | py=ㄎㄜㄣ-ㄎㄌㄨ-ㄓㄣ | theme=philosophy | stage=1
  5049 | inference                      | 推論                             | 💭        | chunks=['in', 'fer', 'ence'] | py=ㄧㄣ-ㄈㄜ-ㄣㄙ | theme=philosophy | stage=3
  5050 | concrete                       | 具體的、混凝土                        | 🧱        | chunks=['con', 'crete'] | py=ㄎㄚㄣ-ㄎㄌㄧㄊ | theme=philosophy | stage=2 [有易混提示]
- 5051 | theoretical                    | 理論的                            | 📚        | chunks=['the', 'o', 'ret', 'i', 'cal'] | py=ㄒㄧ-ㄜ-ㄌㄝ-ㄜ-ㄎㄜ | theme=philosophy | stage=2
+ 5051 | theoretical                    | 理論的                            | 📚        | chunks=['the', 'o', 'ret', 'i', 'cal'] | py=ㄒㄧ-ㄜ-ㄖㄝ-ㄊㄜ-ㄎㄛ | theme=philosophy | stage=2
  5052 | subjective                     | 主觀的                            | 👤        | chunks=['sub', 'jec', 'tive'] | py=ㄙㄚㄅ-ㄐㄝㄎ-ㄊㄧㄈ | theme=philosophy | stage=2 base=subject
  5053 | objective                      | 客觀的、目標                         | 🎯        | chunks=['ob', 'jec', 'tive'] | py=ㄚㄅ-ㄐㄝㄎ-ㄊㄧㄈ | theme=philosophy | stage=2 base=object
  5054 | passion                        | 熱情                             | ❤️‍🔥     | chunks=['pas', 'sion'] | py=ㄆㄚ-ㄒㄣ | theme=philosophy | stage=1 [有易混提示]
@@ -86,9 +86,9 @@
  5084 | simply                         | 僅僅                             | ☝️       | chunks=['sim', 'ply'] | py=ㄒㄧㄇ-ㄆㄌㄧ | theme=sight-words | stage=2 base=simple
  5085 | merely                         | 只是                             | ☝️       | chunks=['mere', 'ly'] | py=ㄇㄧㄜ-ㄌㄧ | theme=sight-words | stage=2 base=mere [有易混提示]
  5086 | scarcely                       | 幾乎不                            | 🙅        | chunks=['scarce', 'ly'] | py=ㄙㄎㄜㄜㄙ-ㄌㄧ | theme=sight-words | stage=3
- 5087 | normally                       | 通常                             | 📊        | chunks=['nor', 'mal', 'ly'] | py=ㄋㄡ-ㄇㄛ-ㄌㄧ | theme=sight-words | stage=2 base=normal
- 5088 | naturally                      | 自然地                            | 🌿        | chunks=['nat', 'u', 'ral', 'ly'] | py=ㄋㄚ-ㄜ-ㄖㄛ-ㄌㄧ | theme=sight-words | stage=2 base=natural
- 5089 | essentially                    | 本質上                            | 💡        | chunks=['es', 'sen', 'tial', 'ly'] | py=ㄝ-ㄙㄣ-ㄒㄛ-ㄌㄧ | theme=sight-words | stage=3 base=essential
+ 5087 | normally                       | 通常                             | 📊        | chunks=['nor', 'mal', 'ly'] | py=ㄋㄛㄜ-ㄇㄜ-ㄌㄧ | theme=sight-words | stage=2 base=normal
+ 5088 | naturally                      | 自然地                            | 🌿        | chunks=['nat', 'u', 'ral', 'ly'] | py=ㄋㄚ-ㄑㄜ-ㄖㄜ-ㄌㄧ | theme=sight-words | stage=2 base=natural
+ 5089 | essentially                    | 本質上                            | 💡        | chunks=['es', 'sen', 'tial', 'ly'] | py=ㄜ-ㄙㄣ-ㄒㄜ-ㄌㄧ | theme=sight-words | stage=3 base=essential
  5090 | gradually                      | 逐漸                             | 📈        | chunks=['grad', 'u', 'al', 'ly'] | py=ㄍㄖㄚ-ㄐㄩ-ㄛ-ㄌㄧ | theme=sight-words | stage=2 base=gradual
  5091 | suddenly                       | 突然                             | ⚡        | chunks=['sud', 'den', 'ly'] | py=ㄙㄚ-ㄉㄣ-ㄌㄧ | theme=sight-words | stage=2 base=sudden
  5092 | immediately                    | 立刻                             | ⚡        | chunks=['im', 'me', 'di', 'ate', 'ly'] | py=ㄧ-ㄇㄧ-ㄉㄧ-ㄝ-ㄌㄧ | theme=sight-words | stage=2 base=immediate
@@ -96,7 +96,7 @@
  5094 | recently                       | 最近                             | 🕒        | chunks=['re', 'cent', 'ly'] | py=ㄖㄧ-ㄙㄣㄊ-ㄌㄧ | theme=sight-words | stage=2 base=recent
  5095 | currently                      | 目前                             | 🕒        | chunks=['cur', 'rent', 'ly'] | py=ㄎㄚ-ㄖㄣㄊ-ㄌㄧ | theme=sight-words | stage=2 base=current
  5096 | frequently                     | 頻繁地                            | 🔁        | chunks=['fre', 'quent', 'ly'] | py=ㄈㄖㄧ-ㄎㄨㄣㄊ-ㄌㄧ | theme=sight-words | stage=2 base=frequent
- 5097 | occasionally                   | 偶爾                             | 🎲        | chunks=['oc', 'ca', 'sion', 'al', 'ly'] | py=ㄛ-ㄎㄟ-ㄓㄣ-ㄛ-ㄌㄧ | theme=sight-words | stage=3 base=occasional
+ 5097 | occasionally                   | 偶爾                             | 🎲        | chunks=['oc', 'ca', 'sion', 'al', 'ly'] | py=ㄜ-ㄎㄟ-ㄓㄣ-ㄜ-ㄌㄧ | theme=sight-words | stage=3 base=occasional
  5098 | rarely                         | 很少                             | 🦄        | chunks=['rare', 'ly'] | py=ㄖㄟ-ㄌㄧ | theme=sight-words | stage=2 base=rare
  5099 | seldom                         | 罕見地                            | 🦄        | chunks=['sel', 'dom'] | py=ㄙㄝㄛ-ㄉㄚㄇ | theme=sight-words | stage=3
  5100 | previously                     | 先前                             | ⏮️       | chunks=['pre', 'vi', 'ous', 'ly'] | py=ㄆㄖㄧ-ㄨㄧ-ㄜㄙ-ㄌㄧ | theme=sight-words | stage=2 base=previous
@@ -106,7 +106,7 @@
  5104 | aside                          | 在一邊                            | ➡️       | chunks=['a', 'side'] | py=ㄜ-ㄙㄞㄉ | theme=sight-words | stage=2
  5105 | ahead                          | 在前面                            | ⬆️       | chunks=['a', 'head'] | py=ㄜ-ㄏㄝㄉ | theme=sight-words | stage=1 [有易混提示]
  5106 | onward                         | 向前                             | ➡️       | chunks=['on', 'ward'] | py=ㄛㄣ-ㄨㄜㄉ | theme=sight-words | stage=2
- 5107 | altogether                     | 完全地                            | 🎯        | chunks=['al', 'to', 'geth', 'er'] | py=ㄛ-ㄊㄨ-ㄍㄝ-ㄜ | theme=sight-words | stage=2
+ 5107 | altogether                     | 完全地                            | 🎯        | chunks=['al', 'to', 'geth', 'er'] | py=ㄛ-ㄊㄜ-ㄍㄝ-ㄜ | theme=sight-words | stage=2
  5108 | wholly                         | 完全                             | 💯        | chunks=['whol', 'ly'] | py=ㄏㄡ-ㄌㄧ | theme=sight-words | stage=3 base=whole [有易混提示]
  5109 | partially                      | 部分地                            | ◐        | chunks=['par', 'tial', 'ly'] | py=ㄆㄚ-ㄒㄛ-ㄌㄧ | theme=sight-words | stage=2 base=partial
  5110 | clearly                        | 清楚地                            | 💎        | chunks=['clear', 'ly'] | py=ㄎㄌㄧㄜ-ㄌㄧ | theme=sight-words | stage=1 base=clear
@@ -135,20 +135,20 @@
  5133 | novella                        | 中篇小說                           | 📖        | chunks=['no', 'vel', 'la'] | py=ㄋㄛ-ㄨㄝ-ㄌㄚ | theme=literature | stage=3
  5134 | fiction                        | 虛構作品                           | 📚        | chunks=['fic', 'tion'] | py=ㄈㄧㄎ-ㄒㄣ | theme=literature | stage=2 [有易混提示]
  5135 | nonfiction                     | 非虛構                            | 📰        | chunks=['non', 'fic', 'tion'] | py=ㄋㄚㄣ-ㄈㄧㄎ-ㄒㄣ | theme=literature | stage=3
- 5136 | protagonist                    | 主角                             | 🦸        | chunks=['pro', 'tag', 'o', 'nist'] | py=ㄆㄖㄡ-ㄊㄚ-ㄜ-ㄋㄧㄙㄊ | theme=literature | stage=3
+ 5136 | protagonist                    | 主角                             | 🦸        | chunks=['pro', 'tag', 'o', 'nist'] | py=ㄆㄖㄜ-ㄊㄚ-ㄜ-ㄋㄧㄙㄊ | theme=literature | stage=3
  5137 | antagonist                     | 反派                             | 😈        | chunks=['an', 'tag', 'o', 'nist'] | py=ㄢ-ㄊㄚ-ㄜ-ㄋㄧㄙㄊ | theme=literature | stage=3
  5138 | narrator                       | 敘述者                            | 🗣️       | chunks=['nar', 'ra', 'tor'] | py=ㄋㄚ-ㄖㄟ-ㄊㄜ | theme=literature | stage=3 base=narrate
- 5139 | narrative                      | 敘事                             | 📖        | chunks=['nar', 'ra', 'tive'] | py=ㄋㄚ-ㄖㄚ-ㄊㄧㄈ | theme=literature | stage=3 base=narrate
+ 5139 | narrative                      | 敘事                             | 📖        | chunks=['nar', 'ra', 'tive'] | py=ㄋㄚ-ㄖㄜ-ㄊㄧㄈ | theme=literature | stage=3 base=narrate
  5140 | chapter                        | 章節                             | 📑        | chunks=['chap', 'ter'] | py=ㄔㄚㄆ-ㄊㄜ | theme=literature | stage=1
  5141 | verse                          | 詩節                             | 📜        | chunks=['v', 'erse'] | py=ㄨㄜㄜㄙ | theme=literature | stage=2 [有易混提示]
  5142 | stanza                         | 詩段                             | 📜        | chunks=['stan', 'za'] | py=ㄙㄊㄢ-ㄗㄚ | theme=literature | stage=3
  5143 | rhyme                          | 押韻                             | 🎵        | chunks=['rh', 'yme'] | py=ㄖㄞㄇ | theme=literature | stage=2 [有易混提示]
  5144 | meter                          | 韻律                             | 📏        | chunks=['me', 'ter'] | py=ㄇㄧ-ㄊㄜ | theme=literature | stage=2 [有易混提示]
- 5145 | metaphor                       | 隱喻                             | 💭        | chunks=['met', 'a', 'phor'] | py=ㄇㄝ-ㄜ-ㄈㄛ | theme=literature | stage=3
+ 5145 | metaphor                       | 隱喻                             | 💭        | chunks=['met', 'a', 'phor'] | py=ㄇㄝ-ㄊㄜ-ㄈㄛ | theme=literature | stage=3
  5146 | simile                         | 明喻                             | 🔗        | chunks=['sim', 'i', 'le'] | py=ㄒㄧ-ㄇㄧ-ㄌㄧ | theme=literature | stage=3
  5147 | allegory                       | 寓言                             | 🎭        | chunks=['al', 'le', 'go', 'ry'] | py=ㄚ-ㄌㄜ-ㄍㄛ-ㄖㄧ | theme=literature | stage=3
  5148 | irony                          | 反諷                             | 🙃        | chunks=['i', 'ro', 'ny'] | py=ㄞ-ㄖㄛ-ㄋㄧ | theme=literature | stage=2
- 5149 | symbolism                      | 象徵主義                           | 🔣        | chunks=['sym', 'bol', 'ism'] | py=ㄒㄧㄇ-ㄅㄛ-ㄧㄗㄇ | theme=literature | stage=3
+ 5149 | symbolism                      | 象徵主義                           | 🔣        | chunks=['sym', 'bol', 'ism'] | py=ㄒㄧㄇ-ㄅㄜ-ㄌㄧㄗㄣ | theme=literature | stage=3
  5150 | foreshadowing                  | 伏筆                             | 🔮        | chunks=['fore', 'shad', 'ow', 'ing'] | py=ㄈㄛ-ㄒㄚ-ㄛ-ㄧㄥ | theme=literature | stage=3
  5151 | climax                         | 高潮                             | 🎢        | chunks=['cli', 'max'] | py=ㄎㄌㄞ-ㄇㄚㄎㄙ | theme=literature | stage=2 [有易混提示]
  5152 | resolution                     | 結局                             | ✅        | chunks=['res', 'o', 'lu', 'tion'] | py=ㄖㄝ-ㄜ-ㄌㄨ-ㄒㄣ | theme=literature | stage=2
@@ -173,7 +173,7 @@
  5171 | playwright                     | 劇作家                            | 🎭        | chunks=['play', 'wright'] | py=ㄆㄌㄟ-ㄖㄞㄊ | theme=literature | stage=3
  5172 | reader                         | 讀者                             | 📖        | chunks=['read', 'er'] | py=ㄖㄧ-ㄉㄜ | theme=literature | stage=1 base=read
  5173 | paperback                      | 平裝書                            | 📕        | chunks=['pa', 'per', 'back'] | py=ㄆㄟ-ㄆㄜ-ㄅㄚㄎ | theme=literature | stage=2 [有易混提示]
- 5174 | hardcover                      | 精裝本                            | 📘        | chunks=['hard', 'cov', 'er'] | py=ㄏㄚㄜㄉ-ㄎㄚ-ㄨㄜ | theme=literature | stage=2
+ 5174 | hardcover                      | 精裝本                            | 📘        | chunks=['hard', 'cov', 'er'] | py=ㄏㄚㄜㄉ-ㄎㄚ-ㄈㄜ | theme=literature | stage=2
  5175 | preface                        | 序言                             | 📄        | chunks=['pre', 'face'] | py=ㄆㄖㄝ-ㄈㄜㄙ | theme=literature | stage=3
  5176 | foreword                       | 前言                             | 📄        | chunks=['fore', 'word'] | py=ㄈㄛ-ㄨㄜㄉ | theme=literature | stage=3
  5177 | glossary                       | 詞彙表                            | 📖        | chunks=['glos', 'sa', 'ry'] | py=ㄍㄌㄚ-ㄙㄚ-ㄖㄧ | theme=literature | stage=3
@@ -188,17 +188,17 @@
  5186 | vocabulary                     | 詞彙                             | 📖        | chunks=['vo', 'cab', 'u', 'lar', 'y'] | py=ㄨㄛ-ㄎㄚ-ㄅㄩ-ㄌㄜ-ㄧ | theme=literature | stage=2
  5187 | syntax                         | 句法                             | 🔤        | chunks=['syn', 'tax'] | py=ㄒㄧㄣ-ㄊㄚㄎㄙ | theme=literature | stage=3
  5188 | semantics                      | 語義學                            | 💭        | chunks=['se', 'man', 'tics'] | py=ㄙㄜ-ㄇㄢ-ㄊㄧㄎㄙ | theme=literature | stage=4
- 5189 | rhetoric                       | 修辭                             | 🗣️       | chunks=['rhet', 'o', 'ric'] | py=ㄖㄝ-ㄜ-ㄖㄧㄎ | theme=literature | stage=3
+ 5189 | rhetoric                       | 修辭                             | 🗣️       | chunks=['rhet', 'o', 'ric'] | py=ㄖㄝ-ㄊㄜ-ㄖㄧㄎ | theme=literature | stage=3
  5190 | persuasion                     | 說服                             | 🗣️       | chunks=['per', 'sua', 'sion'] | py=ㄆㄜ-ㄙㄨㄟ-ㄓㄣ | theme=literature | stage=3
  5191 | claim                          | 主張、聲稱、索賠                       | 📢        | chunks=['cl', 'aim'] | py=ㄎㄌㄟㄇ | theme=literature | stage=2 [有易混提示]
  5192 | summary                        | 摘要                             | 📝        | chunks=['sum', 'ma', 'ry'] | py=ㄙㄚ-ㄇㄜ-ㄖㄧ | theme=literature | stage=2 [有易混提示]
  5193 | ballad                         | 民謠                             | 🎵        | chunks=['bal', 'lad'] | py=ㄅㄚ-ㄌㄜㄉ | theme=literature | stage=3
  5194 | lyric                          | 歌詞                             | 🎶        | chunks=['lyr', 'ic'] | py=ㄌㄧ-ㄖㄧㄎ | theme=literature | stage=2 [有易混提示]
  5195 | haiku                          | 俳句                             | 🌸        | chunks=['hai', 'ku'] | py=ㄏㄞ-ㄎㄨ | theme=literature | stage=3
- 5196 | sonnet                         | 十四行詩                           | 💕        | chunks=['son', 'net'] | py=ㄙㄚ-ㄋㄝㄊ | theme=literature | stage=3
+ 5196 | sonnet                         | 十四行詩                           | 💕        | chunks=['son', 'net'] | py=ㄙㄚ-ㄋㄜㄊ | theme=literature | stage=3
  5197 | ode                            | 頌歌                             | 🎵        | chunks=['o', 'de'] | py=ㄡㄉ | theme=literature | stage=3
  5198 | elegy                          | 哀歌                             | 😢        | chunks=['el', 'e', 'gy'] | py=ㄝ-ㄌㄜ-ㄐㄧ | theme=literature | stage=4
- 5199 | limerick                       | 打油詩                            | 😄        | chunks=['lim', 'er', 'ick'] | py=ㄌㄧ-ㄇㄜ-ㄧㄎ | theme=literature | stage=4
+ 5199 | limerick                       | 打油詩                            | 😄        | chunks=['lim', 'er', 'ick'] | py=ㄌㄧ-ㄇㄜ-ㄖㄧㄎ | theme=literature | stage=4
  5200 | saga                           | 傳奇故事                           | 📜        | chunks=['sa', 'ga'] | py=ㄙㄚ-ㄍㄚ | theme=literature | stage=3
  5201 | pun                            | 雙關語                            | 😄        | chunks=['p', 'un'] | py=ㄆㄚㄣ | theme=literature | stage=3 [有易混提示]
  5202 | allusion                       | 暗指                             | 💭        | chunks=['al', 'lu', 'sion'] | py=ㄚ-ㄌㄨ-ㄓㄣ | theme=literature | stage=3
@@ -453,7 +453,7 @@
  5451 | aid                            | 幫助                             | 🆘        | chunks=['a', 'id'] | py=ㄝㄉ | theme=academic-words | stage=1 [有易混提示]
  5452 | chemical                       | 化學的                            | ⚗️       | chunks=['chem', 'i', 'cal'] | py=ㄎㄝ-ㄇㄜ-ㄎㄛ | theme=academic-words | stage=2
  5453 | classic                        | 經典的                            | 🏛️       | chunks=['clas', 'sic'] | py=ㄎㄌㄚ-ㄙㄧㄎ | theme=academic-words | stage=1 [有易混提示]
- 5454 | comprehensive                  | 全面的                            | 🌐        | chunks=['com', 'pre', 'hen', 'sive'] | py=ㄎㄚㄇ-ㄆㄖㄜ-ㄏㄣ-ㄙㄧㄈ | theme=academic-words | stage=3
+ 5454 | comprehensive                  | 全面的                            | 🌐        | chunks=['com', 'pre', 'hen', 'sive'] | py=ㄎㄚㄇ-ㄆㄖㄧ-ㄏㄣ-ㄙㄧㄈ | theme=academic-words | stage=3
  5455 | comprise                       | 包含                             | 🔗        | chunks=['com', 'prise'] | py=ㄎㄜㄇ-ㄆㄖㄞㄗ | theme=academic-words | stage=3 [有易混提示]
  5456 | confirm                        | 確認                             | ✅        | chunks=['con', 'firm'] | py=ㄎㄣ-ㄈㄜㄜㄇ | theme=academic-words | stage=2
  5457 | contrary                       | 相反的                            | ↔️       | chunks=['con', 'tra', 'ry'] | py=ㄎㄚㄣ-ㄊㄖㄜ-ㄖㄧ | theme=academic-words | stage=3

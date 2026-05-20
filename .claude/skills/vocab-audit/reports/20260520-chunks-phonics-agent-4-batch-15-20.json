@@ -1,0 +1,2799 @@
+[
+  {
+    "word": "overthrow",
+    "current": [
+      "o",
+      "vert",
+      "hrow"
+    ],
+    "suggested": [
+      "o",
+      "ver",
+      "throw"
+    ],
+    "reason": "th 屬 throw 開頭,不可拆 vert+hrow,破壞 th 二合字母"
+  },
+  {
+    "word": "participle",
+    "current": [
+      "par",
+      "ti",
+      "cip",
+      "le"
+    ],
+    "suggested": [
+      "par",
+      "ti",
+      "ci",
+      "ple"
+    ],
+    "reason": "-ple 是常見尾節 (簡音節);cip 後接 le 破壞 ci-ple 結構"
+  },
+  {
+    "word": "peculiar",
+    "current": [
+      "pe",
+      "cu",
+      "liar"
+    ],
+    "suggested": [
+      "pe",
+      "cu",
+      "li",
+      "ar"
+    ],
+    "reason": "liar 三音素混在一起;cu-li-ar 更貼近 /pɪˈkjuː.li.ər/"
+  },
+  {
+    "word": "quilt",
+    "current": [
+      "q",
+      "uilt"
+    ],
+    "suggested": [
+      "qu",
+      "ilt"
+    ],
+    "reason": "qu 為固定字母組合,不可拆 q+uilt"
+  },
+  {
+    "word": "reflect",
+    "current": [
+      "ref",
+      "lect"
+    ],
+    "suggested": [
+      "re",
+      "flect"
+    ],
+    "reason": "re- 是字首;fl 為起首子音串,應在 fl 前切"
+  },
+  {
+    "word": "reflection",
+    "current": [
+      "ref",
+      "lec",
+      "tion"
+    ],
+    "suggested": [
+      "re",
+      "flec",
+      "tion"
+    ],
+    "reason": "re- 字首;fl- 為合法起首,應切 re-flec-tion"
+  },
+  {
+    "word": "refresh",
+    "current": [
+      "ref",
+      "resh"
+    ],
+    "suggested": [
+      "re",
+      "fresh"
+    ],
+    "reason": "re- 字首,fr- 起首子音串"
+  },
+  {
+    "word": "relieve",
+    "current": [
+      "re",
+      "lie",
+      "ve"
+    ],
+    "suggested": [
+      "re",
+      "lieve"
+    ],
+    "reason": "ie+ve 為一音節 /liːv/,不應切 lie+ve"
+  },
+  {
+    "word": "respectful",
+    "current": [
+      "res",
+      "pec",
+      "tful"
+    ],
+    "suggested": [
+      "res",
+      "pect",
+      "ful"
+    ],
+    "reason": "-ful 是常見後綴,不可拆 t+ful"
+  },
+  {
+    "word": "retreat",
+    "current": [
+      "ret",
+      "reat"
+    ],
+    "suggested": [
+      "re",
+      "treat"
+    ],
+    "reason": "re- 字首,tr- 起首子音串"
+  },
+  {
+    "word": "scold",
+    "current": [
+      "sc",
+      "old"
+    ],
+    "suggested": [
+      "scold"
+    ],
+    "reason": "單音節字應為單 chunk;sc+old 中斷起首+押韻"
+  },
+  {
+    "word": "scratch",
+    "current": [
+      "scr",
+      "atch"
+    ],
+    "suggested": [
+      "scratch"
+    ],
+    "reason": "單音節字單 chunk;tch 為三合字母不可分"
+  },
+  {
+    "word": "shrug",
+    "current": [
+      "shr",
+      "ug"
+    ],
+    "suggested": [
+      "shrug"
+    ],
+    "reason": "單音節字應單 chunk;shr 為起首三字母叢"
+  },
+  {
+    "word": "sleigh",
+    "current": [
+      "sl",
+      "eigh"
+    ],
+    "suggested": [
+      "sleigh"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slight",
+    "current": [
+      "sl",
+      "ight"
+    ],
+    "suggested": [
+      "slight"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sneeze",
+    "current": [
+      "snee",
+      "ze"
+    ],
+    "suggested": [
+      "sneeze"
+    ],
+    "reason": "單音節字單 chunk;ze 是 silent-e 結構"
+  },
+  {
+    "word": "sob",
+    "current": [
+      "s",
+      "ob"
+    ],
+    "suggested": [
+      "sob"
+    ],
+    "reason": "CVC 三字母單音節,不需拆"
+  },
+  {
+    "word": "spear",
+    "current": [
+      "sp",
+      "ear"
+    ],
+    "suggested": [
+      "spear"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "split",
+    "current": [
+      "spl",
+      "it"
+    ],
+    "suggested": [
+      "split"
+    ],
+    "reason": "單音節字單 chunk;spl 為起首三字母叢"
+  },
+  {
+    "word": "surf",
+    "current": [
+      "s",
+      "urf"
+    ],
+    "suggested": [
+      "surf"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sway",
+    "current": [
+      "sw",
+      "ay"
+    ],
+    "suggested": [
+      "sway"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "thoughtful",
+    "current": [
+      "though",
+      "tful"
+    ],
+    "suggested": [
+      "thought",
+      "ful"
+    ],
+    "reason": "-ful 後綴完整,不可拆 t+ful"
+  },
+  {
+    "word": "tomb",
+    "current": [
+      "t",
+      "omb"
+    ],
+    "suggested": [
+      "tomb"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "triumph",
+    "current": [
+      "tr",
+      "iumph"
+    ],
+    "suggested": [
+      "tri",
+      "umph"
+    ],
+    "reason": "tri-umph 兩音節 /ˈtraɪ.əmf/,tr+iumph 不合理"
+  },
+  {
+    "word": "witch",
+    "current": [
+      "w",
+      "itch"
+    ],
+    "suggested": [
+      "witch"
+    ],
+    "reason": "單音節字單 chunk;tch 不分"
+  },
+  {
+    "word": "wit",
+    "current": [
+      "w",
+      "it"
+    ],
+    "suggested": [
+      "wit"
+    ],
+    "reason": "CVC 三字母單音節"
+  },
+  {
+    "word": "verb",
+    "current": [
+      "v",
+      "erb"
+    ],
+    "suggested": [
+      "verb"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "acknowledgement",
+    "current": [
+      "ac",
+      "know",
+      "led",
+      "ge",
+      "ment"
+    ],
+    "suggested": [
+      "ack",
+      "now",
+      "ledge",
+      "ment"
+    ],
+    "reason": "know 為 silent-k 整體,不應分隔;-ledge 為整單元"
+  },
+  {
+    "word": "ass",
+    "current": [
+      "as",
+      "s"
+    ],
+    "suggested": [
+      "ass"
+    ],
+    "reason": "單音節字單 chunk;不能在 ss 中切"
+  },
+  {
+    "word": "astonishment",
+    "current": [
+      "as",
+      "to",
+      "nis",
+      "hment"
+    ],
+    "suggested": [
+      "as",
+      "ton",
+      "ish",
+      "ment"
+    ],
+    "reason": "-ish-ment 是常見組合;nis+hment 破壞 sh 二合字母與 -ment 後綴"
+  },
+  {
+    "word": "apt",
+    "current": [
+      "ap",
+      "t"
+    ],
+    "suggested": [
+      "apt"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "backbone",
+    "current": [
+      "bac",
+      "kbo",
+      "ne"
+    ],
+    "suggested": [
+      "back",
+      "bone"
+    ],
+    "reason": "複合字 back+bone,bac+kbo 完全錯誤"
+  },
+  {
+    "word": "ban",
+    "current": [
+      "b",
+      "an"
+    ],
+    "suggested": [
+      "ban"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "bass",
+    "current": [
+      "b",
+      "ass"
+    ],
+    "suggested": [
+      "bass"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "batch",
+    "current": [
+      "b",
+      "atch"
+    ],
+    "suggested": [
+      "batch"
+    ],
+    "reason": "單音節字單 chunk;tch 不分"
+  },
+  {
+    "word": "bog",
+    "current": [
+      "b",
+      "og"
+    ],
+    "suggested": [
+      "bog"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "braid",
+    "current": [
+      "br",
+      "aid"
+    ],
+    "suggested": [
+      "braid"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "breadth",
+    "current": [
+      "br",
+      "eadth"
+    ],
+    "suggested": [
+      "breadth"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "brooch",
+    "current": [
+      "br",
+      "ooch"
+    ],
+    "suggested": [
+      "brooch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "brood",
+    "current": [
+      "br",
+      "ood"
+    ],
+    "suggested": [
+      "brood"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "bleach",
+    "current": [
+      "bl",
+      "each"
+    ],
+    "suggested": [
+      "bleach"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "blond",
+    "current": [
+      "bl",
+      "ond"
+    ],
+    "suggested": [
+      "blond"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "blot",
+    "current": [
+      "bl",
+      "ot"
+    ],
+    "suggested": [
+      "blot"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "blur",
+    "current": [
+      "bl",
+      "ur"
+    ],
+    "suggested": [
+      "blur"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "carefree",
+    "current": [
+      "ca",
+      "ref",
+      "ree"
+    ],
+    "suggested": [
+      "care",
+      "free"
+    ],
+    "reason": "複合字 care+free,ref 切法破壞 care 與 free"
+  },
+  {
+    "word": "carp",
+    "current": [
+      "c",
+      "arp"
+    ],
+    "suggested": [
+      "carp"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "mash",
+    "current": [
+      "m",
+      "ash"
+    ],
+    "suggested": [
+      "mash"
+    ],
+    "reason": "單音節字單 chunk;sh 不分"
+  },
+  {
+    "word": "midst",
+    "current": [
+      "m",
+      "idst"
+    ],
+    "suggested": [
+      "midst"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "moan",
+    "current": [
+      "m",
+      "oan"
+    ],
+    "suggested": [
+      "moan"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "mound",
+    "current": [
+      "m",
+      "ound"
+    ],
+    "suggested": [
+      "mound"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "mount",
+    "current": [
+      "m",
+      "ount"
+    ],
+    "suggested": [
+      "mount"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "nag",
+    "current": [
+      "n",
+      "ag"
+    ],
+    "suggested": [
+      "nag"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "newscast",
+    "current": [
+      "new",
+      "scast"
+    ],
+    "suggested": [
+      "news",
+      "cast"
+    ],
+    "reason": "複合字 news+cast,不可切 new+scast"
+  },
+  {
+    "word": "oar",
+    "current": [
+      "o",
+      "ar"
+    ],
+    "suggested": [
+      "oar"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "peck",
+    "current": [
+      "p",
+      "eck"
+    ],
+    "suggested": [
+      "peck"
+    ],
+    "reason": "單音節字單 chunk;ck 不分"
+  },
+  {
+    "word": "peek",
+    "current": [
+      "p",
+      "eek"
+    ],
+    "suggested": [
+      "peek"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "peg",
+    "current": [
+      "p",
+      "eg"
+    ],
+    "suggested": [
+      "peg"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "perch",
+    "current": [
+      "p",
+      "erch"
+    ],
+    "suggested": [
+      "perch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "pier",
+    "current": [
+      "p",
+      "ier"
+    ],
+    "suggested": [
+      "pier"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "pinch",
+    "current": [
+      "p",
+      "inch"
+    ],
+    "suggested": [
+      "pinch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "piss",
+    "current": [
+      "p",
+      "iss"
+    ],
+    "suggested": [
+      "piss"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "prick",
+    "current": [
+      "pr",
+      "ick"
+    ],
+    "suggested": [
+      "prick"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "prop",
+    "current": [
+      "pr",
+      "op"
+    ],
+    "suggested": [
+      "prop"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "prey",
+    "current": [
+      "pr",
+      "ey"
+    ],
+    "suggested": [
+      "prey"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "preach",
+    "current": [
+      "pr",
+      "each"
+    ],
+    "suggested": [
+      "preach"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "plow",
+    "current": [
+      "pl",
+      "ow"
+    ],
+    "suggested": [
+      "plow"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "pluck",
+    "current": [
+      "pl",
+      "uck"
+    ],
+    "suggested": [
+      "pluck"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "puff",
+    "current": [
+      "p",
+      "uff"
+    ],
+    "suggested": [
+      "puff"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "quack",
+    "current": [
+      "q",
+      "uack"
+    ],
+    "suggested": [
+      "quack"
+    ],
+    "reason": "qu 固定組合不可分"
+  },
+  {
+    "word": "quart",
+    "current": [
+      "q",
+      "uart"
+    ],
+    "suggested": [
+      "quart"
+    ],
+    "reason": "qu 固定組合"
+  },
+  {
+    "word": "rail",
+    "current": [
+      "r",
+      "ail"
+    ],
+    "suggested": [
+      "rail"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "realm",
+    "current": [
+      "r",
+      "ealm"
+    ],
+    "suggested": [
+      "realm"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "reap",
+    "current": [
+      "r",
+      "eap"
+    ],
+    "suggested": [
+      "reap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "rear",
+    "current": [
+      "r",
+      "ear"
+    ],
+    "suggested": [
+      "rear"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "rim",
+    "current": [
+      "r",
+      "im"
+    ],
+    "suggested": [
+      "rim"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "rip",
+    "current": [
+      "r",
+      "ip"
+    ],
+    "suggested": [
+      "rip"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "rod",
+    "current": [
+      "r",
+      "od"
+    ],
+    "suggested": [
+      "rod"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "scan",
+    "current": [
+      "sc",
+      "an"
+    ],
+    "suggested": [
+      "scan"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "scent",
+    "current": [
+      "sc",
+      "ent"
+    ],
+    "suggested": [
+      "scent"
+    ],
+    "reason": "單音節字單 chunk;sc 為靜默 c"
+  },
+  {
+    "word": "scrap",
+    "current": [
+      "scr",
+      "ap"
+    ],
+    "suggested": [
+      "scrap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "shred",
+    "current": [
+      "shr",
+      "ed"
+    ],
+    "suggested": [
+      "shred"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "shriek",
+    "current": [
+      "shr",
+      "iek"
+    ],
+    "suggested": [
+      "shriek"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "shrub",
+    "current": [
+      "shr",
+      "ub"
+    ],
+    "suggested": [
+      "shrub"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slap",
+    "current": [
+      "sl",
+      "ap"
+    ],
+    "suggested": [
+      "slap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slay",
+    "current": [
+      "sl",
+      "ay"
+    ],
+    "suggested": [
+      "slay"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slam",
+    "current": [
+      "sl",
+      "am"
+    ],
+    "suggested": [
+      "slam"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slump",
+    "current": [
+      "sl",
+      "ump"
+    ],
+    "suggested": [
+      "slump"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sly",
+    "current": [
+      "sl",
+      "y"
+    ],
+    "suggested": [
+      "sly"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "smash",
+    "current": [
+      "sm",
+      "ash"
+    ],
+    "suggested": [
+      "smash"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "snarl",
+    "current": [
+      "sn",
+      "arl"
+    ],
+    "suggested": [
+      "snarl"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "snatch",
+    "current": [
+      "sn",
+      "atch"
+    ],
+    "suggested": [
+      "snatch"
+    ],
+    "reason": "單音節字單 chunk;tch 不分"
+  },
+  {
+    "word": "sneak",
+    "current": [
+      "sn",
+      "eak"
+    ],
+    "suggested": [
+      "sneak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sniff",
+    "current": [
+      "sn",
+      "iff"
+    ],
+    "suggested": [
+      "sniff"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "snort",
+    "current": [
+      "sn",
+      "ort"
+    ],
+    "suggested": [
+      "snort"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "soak",
+    "current": [
+      "s",
+      "oak"
+    ],
+    "suggested": [
+      "soak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sow",
+    "current": [
+      "s",
+      "ow"
+    ],
+    "suggested": [
+      "sow"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stack",
+    "current": [
+      "st",
+      "ack"
+    ],
+    "suggested": [
+      "stack"
+    ],
+    "reason": "單音節字單 chunk;ck 不分"
+  },
+  {
+    "word": "stain",
+    "current": [
+      "st",
+      "ain"
+    ],
+    "suggested": [
+      "stain"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stalk",
+    "current": [
+      "st",
+      "alk"
+    ],
+    "suggested": [
+      "stalk"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "steer",
+    "current": [
+      "st",
+      "eer"
+    ],
+    "suggested": [
+      "steer"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stew",
+    "current": [
+      "st",
+      "ew"
+    ],
+    "suggested": [
+      "stew"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stink",
+    "current": [
+      "st",
+      "ink"
+    ],
+    "suggested": [
+      "stink"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stoop",
+    "current": [
+      "st",
+      "oop"
+    ],
+    "suggested": [
+      "stoop"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "strain",
+    "current": [
+      "str",
+      "ain"
+    ],
+    "suggested": [
+      "strain"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "strand",
+    "current": [
+      "str",
+      "and"
+    ],
+    "suggested": [
+      "strand"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "strap",
+    "current": [
+      "str",
+      "ap"
+    ],
+    "suggested": [
+      "strap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stray",
+    "current": [
+      "str",
+      "ay"
+    ],
+    "suggested": [
+      "stray"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "streak",
+    "current": [
+      "str",
+      "eak"
+    ],
+    "suggested": [
+      "streak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stroll",
+    "current": [
+      "str",
+      "oll"
+    ],
+    "suggested": [
+      "stroll"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stump",
+    "current": [
+      "st",
+      "ump"
+    ],
+    "suggested": [
+      "stump"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stun",
+    "current": [
+      "st",
+      "un"
+    ],
+    "suggested": [
+      "stun"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "swarm",
+    "current": [
+      "sw",
+      "arm"
+    ],
+    "suggested": [
+      "swarm"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "telegram",
+    "current": [
+      "te",
+      "leg",
+      "ram"
+    ],
+    "suggested": [
+      "tel",
+      "e",
+      "gram"
+    ],
+    "reason": "複合字根 tele+gram,leg+ram 切錯重音邊界"
+  },
+  {
+    "word": "telegraph",
+    "current": [
+      "te",
+      "leg",
+      "raph"
+    ],
+    "suggested": [
+      "tel",
+      "e",
+      "graph"
+    ],
+    "reason": "複合字根 tele+graph,leg+raph 切錯;graph 為固定詞根"
+  },
+  {
+    "word": "troublesome",
+    "current": [
+      "troub",
+      "le",
+      "so",
+      "me"
+    ],
+    "suggested": [
+      "trou",
+      "ble",
+      "some"
+    ],
+    "reason": "-some 為整尾詞;trou-ble 而非 troub-le"
+  },
+  {
+    "word": "shortsighted",
+    "current": [
+      "shor",
+      "tsig",
+      "hted"
+    ],
+    "suggested": [
+      "short",
+      "sight",
+      "ed"
+    ],
+    "reason": "複合字 short+sight+ed,tsig 切法亂"
+  },
+  {
+    "word": "sportsman",
+    "current": [
+      "sport",
+      "sman"
+    ],
+    "suggested": [
+      "sports",
+      "man"
+    ],
+    "reason": "複合字 sports+man,sman 不合"
+  },
+  {
+    "word": "sportsmanship",
+    "current": [
+      "sport",
+      "sman",
+      "ship"
+    ],
+    "suggested": [
+      "sports",
+      "man",
+      "ship"
+    ],
+    "reason": "複合字 sports+man+ship"
+  },
+  {
+    "word": "saleswoman",
+    "current": [
+      "sa",
+      "les",
+      "wo",
+      "man"
+    ],
+    "suggested": [
+      "sales",
+      "wo",
+      "man"
+    ],
+    "reason": "複合字 sales+woman;sa-les 切法不對"
+  },
+  {
+    "word": "salesperson",
+    "current": [
+      "sa",
+      "les",
+      "per",
+      "son"
+    ],
+    "suggested": [
+      "sales",
+      "per",
+      "son"
+    ],
+    "reason": "複合字 sales+person"
+  },
+  {
+    "word": "strengthen",
+    "current": [
+      "streng",
+      "then"
+    ],
+    "suggested": [
+      "strength",
+      "en"
+    ],
+    "reason": "複合 strength+en 後綴,streng+then 破壞 -ngth 群"
+  },
+  {
+    "word": "nightingale",
+    "current": [
+      "nig",
+      "htin",
+      "ga",
+      "le"
+    ],
+    "suggested": [
+      "night",
+      "in",
+      "gale"
+    ],
+    "reason": "htin 切法亂;night/in/gale 為合理音節"
+  },
+  {
+    "word": "pacific",
+    "current": [
+      "pa",
+      "ci",
+      "fic"
+    ],
+    "suggested": [
+      "pa",
+      "cif",
+      "ic"
+    ],
+    "reason": "音節邊界應為 /pə.ˈsɪf.ɪk/,ci-fic 切錯"
+  },
+  {
+    "word": "poetic",
+    "current": [
+      "poe",
+      "tic"
+    ],
+    "suggested": [
+      "po",
+      "e",
+      "tic"
+    ],
+    "reason": "poe 應分為 po-e (兩音節)"
+  },
+  {
+    "word": "pocketbook",
+    "current": [
+      "poc",
+      "ket",
+      "book"
+    ],
+    "suggested": [
+      "pock",
+      "et",
+      "book"
+    ],
+    "reason": "ck 不分,poc+ket 破壞 ck"
+  },
+  {
+    "word": "slaughter",
+    "current": [
+      "slaug",
+      "hter"
+    ],
+    "suggested": [
+      "slaugh",
+      "ter"
+    ],
+    "reason": "gh 不分,slaug+hter 破壞"
+  },
+  {
+    "word": "straighten",
+    "current": [
+      "straig",
+      "hten"
+    ],
+    "suggested": [
+      "straight",
+      "en"
+    ],
+    "reason": "-ght 不分,straig+hten 破壞;-en 後綴"
+  },
+  {
+    "word": "silkworm",
+    "current": [
+      "sil",
+      "kworm"
+    ],
+    "suggested": [
+      "silk",
+      "worm"
+    ],
+    "reason": "複合字 silk+worm,kworm 不合"
+  },
+  {
+    "word": "spacecraft",
+    "current": [
+      "spa",
+      "cec",
+      "raft"
+    ],
+    "suggested": [
+      "space",
+      "craft"
+    ],
+    "reason": "複合字 space+craft,cec+raft 切法錯"
+  },
+  {
+    "word": "sprint",
+    "current": [
+      "spr",
+      "int"
+    ],
+    "suggested": [
+      "sprint"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "spur",
+    "current": [
+      "sp",
+      "ur"
+    ],
+    "suggested": [
+      "spur"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "resentment",
+    "current": [
+      "re",
+      "sen",
+      "tment"
+    ],
+    "suggested": [
+      "re",
+      "sent",
+      "ment"
+    ],
+    "reason": "-ment 為後綴,tment 不合"
+  },
+  {
+    "word": "installment",
+    "current": [
+      "in",
+      "stal",
+      "lment"
+    ],
+    "suggested": [
+      "in",
+      "stall",
+      "ment"
+    ],
+    "reason": "-ment 後綴,lment 不合"
+  },
+  {
+    "word": "enrichment",
+    "current": [
+      "en",
+      "ric",
+      "hment"
+    ],
+    "suggested": [
+      "en",
+      "rich",
+      "ment"
+    ],
+    "reason": "ch 不分,ric+hment 破壞"
+  },
+  {
+    "word": "enactment",
+    "current": [
+      "e",
+      "nac",
+      "tment"
+    ],
+    "suggested": [
+      "en",
+      "act",
+      "ment"
+    ],
+    "reason": "en- 字首,act 字根,-ment 後綴"
+  },
+  {
+    "word": "mouthpiece",
+    "current": [
+      "mout",
+      "hpie",
+      "ce"
+    ],
+    "suggested": [
+      "mouth",
+      "piece"
+    ],
+    "reason": "th 不分;mouth+piece 複合字"
+  },
+  {
+    "word": "mournful",
+    "current": [
+      "mour",
+      "nful"
+    ],
+    "suggested": [
+      "mourn",
+      "ful"
+    ],
+    "reason": "-ful 後綴,nful 不合"
+  },
+  {
+    "word": "doom",
+    "current": [
+      "d",
+      "oom"
+    ],
+    "suggested": [
+      "doom"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "dual",
+    "current": [
+      "d",
+      "ual"
+    ],
+    "suggested": [
+      "dual"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "diagram",
+    "current": [
+      "diag",
+      "ram"
+    ],
+    "suggested": [
+      "di",
+      "a",
+      "gram"
+    ],
+    "reason": "di-a-gram 三音節更合理,diag 不自然"
+  },
+  {
+    "word": "ebb",
+    "current": [
+      "eb",
+      "b"
+    ],
+    "suggested": [
+      "ebb"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "enlighten",
+    "current": [
+      "en",
+      "lig",
+      "hten"
+    ],
+    "suggested": [
+      "en",
+      "light",
+      "en"
+    ],
+    "reason": "-ght 群不分,lig+hten 破壞"
+  },
+  {
+    "word": "exert",
+    "current": [
+      "e",
+      "xert"
+    ],
+    "suggested": [
+      "ex",
+      "ert"
+    ],
+    "reason": "ex- 字首,xert 不合"
+  },
+  {
+    "word": "execution",
+    "current": [
+      "e",
+      "xe",
+      "cu",
+      "tion"
+    ],
+    "suggested": [
+      "ex",
+      "e",
+      "cu",
+      "tion"
+    ],
+    "reason": "ex- 字首應為 ex-e 而非 e-xe"
+  },
+  {
+    "word": "exotic",
+    "current": [
+      "e",
+      "xo",
+      "tic"
+    ],
+    "suggested": [
+      "ex",
+      "o",
+      "tic"
+    ],
+    "reason": "ex- 字首,xo 不合"
+  },
+  {
+    "word": "fireproof",
+    "current": [
+      "fi",
+      "rep",
+      "roof"
+    ],
+    "suggested": [
+      "fire",
+      "proof"
+    ],
+    "reason": "複合字 fire+proof,rep+roof 完全錯"
+  },
+  {
+    "word": "fleet",
+    "current": [
+      "fl",
+      "eet"
+    ],
+    "suggested": [
+      "fleet"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "fluid",
+    "current": [
+      "fl",
+      "uid"
+    ],
+    "suggested": [
+      "flu",
+      "id"
+    ],
+    "reason": "兩音節 /ˈfluː.ɪd/,fl+uid 不合"
+  },
+  {
+    "word": "foresee",
+    "current": [
+      "fo",
+      "re",
+      "see"
+    ],
+    "suggested": [
+      "fore",
+      "see"
+    ],
+    "reason": "fore- 字首,fo+re 切錯"
+  },
+  {
+    "word": "freak",
+    "current": [
+      "fr",
+      "eak"
+    ],
+    "suggested": [
+      "freak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "fret",
+    "current": [
+      "fr",
+      "et"
+    ],
+    "suggested": [
+      "fret"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "grill",
+    "current": [
+      "gr",
+      "ill"
+    ],
+    "suggested": [
+      "grill"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "hunch",
+    "current": [
+      "h",
+      "unch"
+    ],
+    "suggested": [
+      "hunch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "glassware",
+    "current": [
+      "glas",
+      "swa",
+      "re"
+    ],
+    "suggested": [
+      "glass",
+      "ware"
+    ],
+    "reason": "複合字 glass+ware,swa 切錯"
+  },
+  {
+    "word": "graphic",
+    "current": [
+      "grap",
+      "hic"
+    ],
+    "suggested": [
+      "graph",
+      "ic"
+    ],
+    "reason": "ph 不分,grap+hic 破壞 ph 二合字母"
+  },
+  {
+    "word": "joyous",
+    "current": [
+      "j",
+      "oyous"
+    ],
+    "suggested": [
+      "joy",
+      "ous"
+    ],
+    "reason": "j 單字母不合,joy 為字根+ous 後綴"
+  },
+  {
+    "word": "liable",
+    "current": [
+      "liab",
+      "le"
+    ],
+    "suggested": [
+      "li",
+      "a",
+      "ble"
+    ],
+    "reason": "-ble 為尾節,liab 不合"
+  },
+  {
+    "word": "viable",
+    "current": [
+      "viab",
+      "le"
+    ],
+    "suggested": [
+      "vi",
+      "a",
+      "ble"
+    ],
+    "reason": "-ble 為尾節"
+  },
+  {
+    "word": "vend",
+    "current": [
+      "v",
+      "end"
+    ],
+    "suggested": [
+      "vend"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "verge",
+    "current": [
+      "ver",
+      "ge"
+    ],
+    "suggested": [
+      "verge"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "vogue",
+    "current": [
+      "vo",
+      "gue"
+    ],
+    "suggested": [
+      "vogue"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "vineyard",
+    "current": [
+      "vi",
+      "neyard"
+    ],
+    "suggested": [
+      "vine",
+      "yard"
+    ],
+    "reason": "複合字 vine+yard,vi+neyard 完全錯"
+  },
+  {
+    "word": "woo",
+    "current": [
+      "w",
+      "oo"
+    ],
+    "suggested": [
+      "woo"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "yearn",
+    "current": [
+      "y",
+      "earn"
+    ],
+    "suggested": [
+      "yearn"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "zeal",
+    "current": [
+      "z",
+      "eal"
+    ],
+    "suggested": [
+      "zeal"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "kindness",
+    "current": [
+      "kin",
+      "dness"
+    ],
+    "suggested": [
+      "kind",
+      "ness"
+    ],
+    "reason": "-ness 後綴,dness 不合"
+  },
+  {
+    "word": "darkness",
+    "current": [
+      "dar",
+      "kness"
+    ],
+    "suggested": [
+      "dark",
+      "ness"
+    ],
+    "reason": "-ness 後綴,kness 不合"
+  },
+  {
+    "word": "softness",
+    "current": [
+      "sof",
+      "tness"
+    ],
+    "suggested": [
+      "soft",
+      "ness"
+    ],
+    "reason": "-ness 後綴,tness 不合"
+  },
+  {
+    "word": "coldness",
+    "current": [
+      "col",
+      "dness"
+    ],
+    "suggested": [
+      "cold",
+      "ness"
+    ],
+    "reason": "-ness 後綴,dness 不合"
+  },
+  {
+    "word": "thickness",
+    "current": [
+      "thic",
+      "kness"
+    ],
+    "suggested": [
+      "thick",
+      "ness"
+    ],
+    "reason": "-ness 後綴;ck 不分"
+  },
+  {
+    "word": "quickness",
+    "current": [
+      "quic",
+      "kness"
+    ],
+    "suggested": [
+      "quick",
+      "ness"
+    ],
+    "reason": "-ness 後綴;ck 不分"
+  },
+  {
+    "word": "selfishness",
+    "current": [
+      "sel",
+      "fis",
+      "hness"
+    ],
+    "suggested": [
+      "self",
+      "ish",
+      "ness"
+    ],
+    "reason": "-ness 後綴;sh 不分;self+ish+ness"
+  },
+  {
+    "word": "toughness",
+    "current": [
+      "toug",
+      "hness"
+    ],
+    "suggested": [
+      "tough",
+      "ness"
+    ],
+    "reason": "-ness 後綴;gh 不分"
+  },
+  {
+    "word": "boldness",
+    "current": [
+      "bol",
+      "dness"
+    ],
+    "suggested": [
+      "bold",
+      "ness"
+    ],
+    "reason": "-ness 後綴"
+  },
+  {
+    "word": "compartment",
+    "current": [
+      "com",
+      "par",
+      "tment"
+    ],
+    "suggested": [
+      "com",
+      "part",
+      "ment"
+    ],
+    "reason": "-ment 後綴,tment 不合"
+  },
+  {
+    "word": "judgement",
+    "current": [
+      "jud",
+      "ge",
+      "ment"
+    ],
+    "suggested": [
+      "judge",
+      "ment"
+    ],
+    "reason": "-ment 後綴;judge 整體"
+  },
+  {
+    "word": "placement",
+    "current": [
+      "pla",
+      "ce",
+      "ment"
+    ],
+    "suggested": [
+      "place",
+      "ment"
+    ],
+    "reason": "-ment 後綴;place 整體"
+  },
+  {
+    "word": "movement",
+    "current": [
+      "mo",
+      "ve",
+      "ment"
+    ],
+    "suggested": [
+      "move",
+      "ment"
+    ],
+    "reason": "-ment 後綴;move 整體"
+  },
+  {
+    "word": "improvement",
+    "current": [
+      "im",
+      "pro",
+      "ve",
+      "ment"
+    ],
+    "suggested": [
+      "im",
+      "prove",
+      "ment"
+    ],
+    "reason": "-ment 後綴;prove 整體"
+  },
+  {
+    "word": "excitement",
+    "current": [
+      "ex",
+      "ci",
+      "te",
+      "ment"
+    ],
+    "suggested": [
+      "ex",
+      "cite",
+      "ment"
+    ],
+    "reason": "-ment 後綴;cite 整體"
+  },
+  {
+    "word": "requirement",
+    "current": [
+      "re",
+      "qui",
+      "re",
+      "ment"
+    ],
+    "suggested": [
+      "re",
+      "quire",
+      "ment"
+    ],
+    "reason": "-ment 後綴;quire 整體"
+  },
+  {
+    "word": "punctuation",
+    "current": [
+      "pun",
+      "ctua",
+      "tion"
+    ],
+    "suggested": [
+      "punc",
+      "tu",
+      "a",
+      "tion"
+    ],
+    "reason": "ctua 拆法亂;-tion 應分明"
+  },
+  {
+    "word": "downturn",
+    "current": [
+      "dow",
+      "nturn"
+    ],
+    "suggested": [
+      "down",
+      "turn"
+    ],
+    "reason": "複合字 down+turn"
+  },
+  {
+    "word": "stockholder",
+    "current": [
+      "stoc",
+      "khol",
+      "der"
+    ],
+    "suggested": [
+      "stock",
+      "hold",
+      "er"
+    ],
+    "reason": "複合字 stock+hold+er;ck 不分"
+  },
+  {
+    "word": "takeover",
+    "current": [
+      "ta",
+      "keo",
+      "ver"
+    ],
+    "suggested": [
+      "take",
+      "over"
+    ],
+    "reason": "複合字 take+over;keo 不合"
+  },
+  {
+    "word": "turnover",
+    "current": [
+      "tur",
+      "no",
+      "ver"
+    ],
+    "suggested": [
+      "turn",
+      "over"
+    ],
+    "reason": "複合字 turn+over"
+  },
+  {
+    "word": "toothache",
+    "current": [
+      "toot",
+      "hac",
+      "he"
+    ],
+    "suggested": [
+      "tooth",
+      "ache"
+    ],
+    "reason": "複合字 tooth+ache;th 不分"
+  },
+  {
+    "word": "mindful",
+    "current": [
+      "min",
+      "dful"
+    ],
+    "suggested": [
+      "mind",
+      "ful"
+    ],
+    "reason": "-ful 後綴,dful 不合"
+  },
+  {
+    "word": "watchful",
+    "current": [
+      "watc",
+      "hful"
+    ],
+    "suggested": [
+      "watch",
+      "ful"
+    ],
+    "reason": "-ful 後綴;ch 不分"
+  },
+  {
+    "word": "wishful",
+    "current": [
+      "wis",
+      "hful"
+    ],
+    "suggested": [
+      "wish",
+      "ful"
+    ],
+    "reason": "-ful 後綴;sh 不分"
+  },
+  {
+    "word": "wrongful",
+    "current": [
+      "wron",
+      "gful"
+    ],
+    "suggested": [
+      "wrong",
+      "ful"
+    ],
+    "reason": "-ful 後綴;ng 不分"
+  },
+  {
+    "word": "boundless",
+    "current": [
+      "boun",
+      "dless"
+    ],
+    "suggested": [
+      "bound",
+      "less"
+    ],
+    "reason": "-less 後綴,dless 不合"
+  },
+  {
+    "word": "breathless",
+    "current": [
+      "breat",
+      "hless"
+    ],
+    "suggested": [
+      "breath",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "childless",
+    "current": [
+      "chil",
+      "dless"
+    ],
+    "suggested": [
+      "child",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "countless",
+    "current": [
+      "coun",
+      "tless"
+    ],
+    "suggested": [
+      "count",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "endless",
+    "current": [
+      "en",
+      "dless"
+    ],
+    "suggested": [
+      "end",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "formless",
+    "current": [
+      "for",
+      "mless"
+    ],
+    "suggested": [
+      "form",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "friendless",
+    "current": [
+      "frien",
+      "dless"
+    ],
+    "suggested": [
+      "friend",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "groundless",
+    "current": [
+      "groun",
+      "dless"
+    ],
+    "suggested": [
+      "ground",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "harmless",
+    "current": [
+      "har",
+      "mless"
+    ],
+    "suggested": [
+      "harm",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "helpless",
+    "current": [
+      "hel",
+      "pless"
+    ],
+    "suggested": [
+      "help",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "meaningless",
+    "current": [
+      "mea",
+      "nin",
+      "gless"
+    ],
+    "suggested": [
+      "mean",
+      "ing",
+      "less"
+    ],
+    "reason": "-less 後綴;-ing 後綴;mean+ing+less"
+  },
+  {
+    "word": "pointless",
+    "current": [
+      "poin",
+      "tless"
+    ],
+    "suggested": [
+      "point",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "restless",
+    "current": [
+      "res",
+      "tless"
+    ],
+    "suggested": [
+      "rest",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "ruthless",
+    "current": [
+      "rut",
+      "hless"
+    ],
+    "suggested": [
+      "ruth",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "speechless",
+    "current": [
+      "speec",
+      "hless"
+    ],
+    "suggested": [
+      "speech",
+      "less"
+    ],
+    "reason": "-less 後綴;ch 不分"
+  },
+  {
+    "word": "soundless",
+    "current": [
+      "soun",
+      "dless"
+    ],
+    "suggested": [
+      "sound",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "thankless",
+    "current": [
+      "than",
+      "kless"
+    ],
+    "suggested": [
+      "thank",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "toothless",
+    "current": [
+      "toot",
+      "hless"
+    ],
+    "suggested": [
+      "tooth",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "weightless",
+    "current": [
+      "weigh",
+      "tless"
+    ],
+    "suggested": [
+      "weight",
+      "less"
+    ],
+    "reason": "-less 後綴;-ght 群不分"
+  },
+  {
+    "word": "wordless",
+    "current": [
+      "wor",
+      "dless"
+    ],
+    "suggested": [
+      "word",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "worthless",
+    "current": [
+      "wort",
+      "hless"
+    ],
+    "suggested": [
+      "worth",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "forsake",
+    "current": [
+      "for",
+      "sa",
+      "ke"
+    ],
+    "suggested": [
+      "for",
+      "sake"
+    ],
+    "reason": "sake 為整單元 (silent-e),sa+ke 不合"
+  },
+  {
+    "word": "absorbing",
+    "current": [
+      "ab",
+      "sor",
+      "bing"
+    ],
+    "suggested": [
+      "ab",
+      "sorb",
+      "ing"
+    ],
+    "reason": "-ing 後綴;sorb 為字根"
+  },
+  {
+    "word": "appealing",
+    "current": [
+      "ap",
+      "pea",
+      "ling"
+    ],
+    "suggested": [
+      "ap",
+      "peal",
+      "ing"
+    ],
+    "reason": "-ing 後綴;peal 為字根"
+  },
+  {
+    "word": "admiring",
+    "current": [
+      "ad",
+      "mi",
+      "ring"
+    ],
+    "suggested": [
+      "ad",
+      "mir",
+      "ing"
+    ],
+    "reason": "-ing 後綴;mir 字根"
+  },
+  {
+    "word": "astonishing",
+    "current": [
+      "as",
+      "to",
+      "nis",
+      "hing"
+    ],
+    "suggested": [
+      "as",
+      "ton",
+      "ish",
+      "ing"
+    ],
+    "reason": "-ing 後綴;sh 不分;ish 為常見尾"
+  },
+  {
+    "word": "hideous",
+    "current": [
+      "hi",
+      "deous"
+    ],
+    "suggested": [
+      "hid",
+      "e",
+      "ous"
+    ],
+    "reason": "-ous 後綴;deous 不合理"
+  },
+  {
+    "word": "whatsoever",
+    "current": [
+      "what",
+      "soe",
+      "ver"
+    ],
+    "suggested": [
+      "what",
+      "so",
+      "ev",
+      "er"
+    ],
+    "reason": "soe 切法不自然"
+  },
+  {
+    "word": "alleviate",
+    "current": [
+      "al",
+      "le",
+      "via",
+      "te"
+    ],
+    "suggested": [
+      "al",
+      "le",
+      "vi",
+      "ate"
+    ],
+    "reason": "-ate 為尾,vi+ate 較合理"
+  },
+  {
+    "word": "appease",
+    "current": [
+      "ap",
+      "pea",
+      "se"
+    ],
+    "suggested": [
+      "ap",
+      "pease"
+    ],
+    "reason": "pease /piːz/ 為單音節,pea+se 不合"
+  },
+  {
+    "word": "beam",
+    "current": [
+      "be",
+      "am"
+    ],
+    "suggested": [
+      "beam"
+    ],
+    "reason": "單音節字單 chunk,be+am 完全錯"
+  },
+  {
+    "word": "berate",
+    "current": [
+      "be",
+      "ra",
+      "te"
+    ],
+    "suggested": [
+      "be",
+      "rate"
+    ],
+    "reason": "rate 為整單元 (silent-e)"
+  },
+  {
+    "word": "bestow",
+    "current": [
+      "bes",
+      "tow"
+    ],
+    "suggested": [
+      "be",
+      "stow"
+    ],
+    "reason": "be- 字首"
+  },
+  {
+    "word": "chastise",
+    "current": [
+      "chas",
+      "ti",
+      "se"
+    ],
+    "suggested": [
+      "chas",
+      "tise"
+    ],
+    "reason": "-tise /taɪz/ 為整體"
+  },
+  {
+    "word": "coerce",
+    "current": [
+      "coer",
+      "ce"
+    ],
+    "suggested": [
+      "co",
+      "erce"
+    ],
+    "reason": "co- 字首,coer 切錯"
+  },
+  {
+    "word": "construe",
+    "current": [
+      "cons",
+      "true"
+    ],
+    "suggested": [
+      "con",
+      "strue"
+    ],
+    "reason": "con- 字首,cons+true 不合"
+  },
+  {
+    "word": "declaim",
+    "current": [
+      "dec",
+      "laim"
+    ],
+    "suggested": [
+      "de",
+      "claim"
+    ],
+    "reason": "de- 字首,cl- 起首子音串"
+  },
+  {
+    "word": "deplete",
+    "current": [
+      "dep",
+      "le",
+      "te"
+    ],
+    "suggested": [
+      "de",
+      "plete"
+    ],
+    "reason": "de- 字首,plete 為整單元"
+  },
+  {
+    "word": "deplore",
+    "current": [
+      "dep",
+      "lo",
+      "re"
+    ],
+    "suggested": [
+      "de",
+      "plore"
+    ],
+    "reason": "de- 字首,plore 整單元"
+  },
+  {
+    "word": "digress",
+    "current": [
+      "dig",
+      "ress"
+    ],
+    "suggested": [
+      "di",
+      "gress"
+    ],
+    "reason": "di- 字首,gr- 起首子音串"
+  },
+  {
+    "word": "divulge",
+    "current": [
+      "di",
+      "vul",
+      "ge"
+    ],
+    "suggested": [
+      "di",
+      "vulge"
+    ],
+    "reason": "vulge 為整單元"
+  }
+]

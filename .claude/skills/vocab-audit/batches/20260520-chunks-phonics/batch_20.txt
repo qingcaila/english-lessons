@@ -1,0 +1,102 @@
+# 字 10000-10100
+10000 | mantis                         | 螳螂                             | 🐾        | chunks=['man', 'tis'] | py=ㄇㄢ-ㄊㄜㄙ | theme=animals | stage=2
+10001 | weevil                         | 象鼻蟲                            | 🐾        | chunks=['wee', 'vil'] | py=ㄨㄧ-ㄈㄧ | theme=animals | stage=2
+10002 | cellphone                      | 手機                             | 📱        | chunks=['cell', 'phone'] | py=ㄙㄝㄛ-ㄈㄛㄣ | theme=technology | stage=1
+10003 | mrt                            | 捷運                             | 🚇        | chunks=['m', 'r', 't'] | py=ㄝㄇ-ㄚ-ㄊㄧ | theme=transportation | stage=1
+10004 | pingpong                       | 乒乓                             | 🏓        | chunks=['ping', 'pong'] | py=ㄆㄧㄥ-ㄆㄛㄥ | theme=sports | stage=1
+10005 | running                        | 正在跑、跑步                         | 🏃        | chunks=['run', 'ning'] | py=ㄖㄚ-ㄋㄧㄥ | theme=actions | stage=1 base=run
+10006 | studied                        | 學習(過去)                         | 📚        | chunks=['stud', 'ied'] | py=ㄙㄉㄚ-ㄉㄧㄉ | theme=actions | stage=1 base=study
+10007 | babies                         | 嬰兒(複數)                         | 👶        | chunks=['ba', 'bies'] | py=ㄅㄟ-ㄅㄧㄗ | theme=family | stage=1 base=baby
+10008 | bigger                         | 更大                             | 📏        | chunks=['big', 'ger'] | py=ㄅㄧ-ㄍㄜ | theme=adjectives | stage=1 base=big
+10009 | walked                         | 走(過去)                          | 🚶        | chunks=['walk', 'ed'] | py=ㄨㄛㄎㄊ | theme=actions | stage=1 base=walk
+10010 | eaten                          | 吃過了(配 have 用)                  | 🍽️       | chunks=['eat', 'en'] | py=ㄧ-ㄊㄣ | theme=actions | stage=1 base=eat
+10011 | swimming                       | 正在游泳                           | 🏊        | chunks=['swim', 'ming'] | py=ㄙㄨㄧ-ㄇㄧㄥ | theme=actions | stage=1 base=swim
+10012 | hopping                        | 正在跳                            | 🐰        | chunks=['hop', 'ping'] | py=ㄏㄚ-ㄆㄧㄥ | theme=actions | stage=1 base=hop
+10013 | shopping                       | 正在購物                           | 🛒        | chunks=['shop', 'ping'] | py=ㄒㄚ-ㄆㄧㄥ | theme=actions | stage=1 base=shop
+10014 | planning                       | 正在計畫                           | 📋        | chunks=['plan', 'ning'] | py=ㄆㄌㄚ-ㄋㄧㄥ | theme=actions | stage=1 base=plan
+10015 | stopping                       | 正在停                            | 🛑        | chunks=['stop', 'ping'] | py=ㄙㄉㄚ-ㄆㄧㄥ | theme=actions | stage=1 base=stop
+10016 | sitting                        | 正在坐                            | 🪑        | chunks=['sit', 'ting'] | py=ㄒㄧ-ㄊㄧㄥ | theme=actions | stage=1 base=sit
+10017 | getting                        | 正在得到                           | 🎁        | chunks=['get', 'ting'] | py=ㄍㄝ-ㄊㄧㄥ | theme=actions | stage=1 base=get
+10018 | putting                        | 正在放                            | 📥        | chunks=['put', 'ting'] | py=ㄆㄨ-ㄊㄧㄥ | theme=actions | stage=1 base=put
+10019 | cutting                        | 正在切                            | 🔪        | chunks=['cut', 'ting'] | py=ㄎㄚ-ㄊㄧㄥ | theme=actions | stage=1 base=cut
+10020 | beginning                      | 正在開始                           | ▶️       | chunks=['be', 'gin', 'ning'] | py=ㄅㄧ-ㄍㄧ-ㄋㄧㄥ | theme=actions | stage=1 base=begin
+10021 | winning                        | 正在贏                            | 🏆        | chunks=['win', 'ning'] | py=ㄨㄧ-ㄋㄧㄥ | theme=actions | stage=1 base=win
+10022 | playing                        | 正在玩                            | 🎮        | chunks=['play', 'ing'] | py=ㄆㄌㄝ-ㄧㄥ | theme=actions | stage=1 base=play
+10023 | walking                        | 正在走                            | 🚶        | chunks=['walk', 'ing'] | py=ㄨㄛ-ㄎㄧㄥ | theme=actions | stage=1 base=walk
+10024 | talking                        | 正在說話                           | 💬        | chunks=['talk', 'ing'] | py=ㄊㄛ-ㄎㄧㄥ | theme=actions | stage=1 base=talk
+10025 | watching                       | 正在看                            | 👀        | chunks=['watch', 'ing'] | py=ㄨㄚ-ㄑㄧㄥ | theme=actions | stage=1 base=watch
+10026 | waiting                        | 正在等                            | ⏳        | chunks=['wait', 'ing'] | py=ㄨㄝ-ㄊㄧㄥ | theme=actions | stage=1 base=wait
+10027 | eating                         | 正在吃                            | 🍽️       | chunks=['eat', 'ing'] | py=ㄧ-ㄊㄧㄥ | theme=actions | stage=1 base=eat
+10028 | drinking                       | 正在喝                            | 🥤        | chunks=['drink', 'ing'] | py=ㄉㄖㄧ-ㄎㄧㄥ | theme=actions | stage=1 base=drink
+10029 | sleeping                       | 正在睡                            | 😴        | chunks=['sleep', 'ing'] | py=ㄙㄌㄧ-ㄆㄧㄥ | theme=actions | stage=1 base=sleep
+10030 | singing                        | 正在唱                            | 🎤        | chunks=['sing', 'ing'] | py=ㄒㄧㄥ-ㄧㄥ | theme=actions | stage=1 base=sing
+10031 | cooking                        | 正在煮                            | 🍳        | chunks=['cook', 'ing'] | py=ㄎㄨ-ㄎㄧㄥ | theme=actions | stage=1 base=cook
+10032 | helping                        | 正在幫忙                           | 🤝        | chunks=['help', 'ing'] | py=ㄏㄝ-ㄆㄧㄥ | theme=actions | stage=1 base=help
+10033 | working                        | 正在工作                           | 💼        | chunks=['work', 'ing'] | py=ㄨㄜ-ㄎㄧㄥ | theme=actions | stage=1 base=work
+10034 | teaching                       | 正在教                            | 👨‍🏫      | chunks=['teach', 'ing'] | py=ㄊㄧ-ㄑㄧㄥ | theme=actions | stage=1 base=teach
+10035 | making                         | 正在做                            | 🔨        | chunks=['mak', 'ing'] | py=ㄇㄝ-ㄎㄧㄥ | theme=actions | stage=1 base=make
+10036 | taking                         | 正在拿                            | ✋        | chunks=['tak', 'ing'] | py=ㄊㄝ-ㄎㄧㄥ | theme=actions | stage=1 base=take
+10037 | riding                         | 正在騎                            | 🚴        | chunks=['rid', 'ing'] | py=ㄖㄞ-ㄉㄧㄥ | theme=actions | stage=1 base=ride
+10038 | driving                        | 正在開車                           | 🚗        | chunks=['driv', 'ing'] | py=ㄉㄖㄞ-ㄈㄧㄥ | theme=actions | stage=1 base=drive
+10039 | coming                         | 正在來                            | 🚶‍♀️     | chunks=['com', 'ing'] | py=ㄎㄚ-ㄇㄧㄥ | theme=actions | stage=1 base=come
+10040 | giving                         | 正在給                            | 🎁        | chunks=['giv', 'ing'] | py=ㄍㄧ-ㄈㄧㄥ | theme=actions | stage=1 base=give
+10041 | using                          | 正在使用                           | 🔧        | chunks=['us', 'ing'] | py=ㄧㄨ-ㄗㄧㄥ | theme=actions | stage=1 base=use
+10042 | moving                         | 正在移動                           | 🏃        | chunks=['mov', 'ing'] | py=ㄇㄨ-ㄈㄧㄥ | theme=actions | stage=1 base=move
+10043 | tried                          | 試(過去)                          | 🤞        | chunks=['tr', 'ied'] | py=ㄊㄖㄞㄉ | theme=actions | stage=1 base=try
+10044 | cried                          | 哭(過去)                          | 😢        | chunks=['cr', 'ied'] | py=ㄎㄖㄞㄉ | theme=actions | stage=1 base=cry
+10045 | married                        | 結婚(過去)                         | 💍        | chunks=['mar', 'ried'] | py=ㄇㄝ-ㄖㄧㄉ | theme=actions | stage=1 base=marry
+10046 | hurried                        | 趕快(過去)                         | 🏃        | chunks=['hur', 'ried'] | py=ㄏㄜ-ㄖㄧㄉ | theme=actions | stage=1 base=hurry
+10047 | carried                        | 帶(過去)                          | 🎒        | chunks=['car', 'ried'] | py=ㄎㄝ-ㄖㄧㄉ | theme=actions | stage=1 base=carry
+10048 | copied                         | 複製(過去)                         | 📋        | chunks=['cop', 'ied'] | py=ㄎㄚ-ㄆㄧㄉ | theme=actions | stage=1 base=copy
+10049 | replied                        | 回覆(過去)                         | 💬        | chunks=['re', 'pl', 'ied'] | py=ㄖㄧ-ㄆㄌㄞㄉ | theme=actions | stage=1 base=reply
+10050 | cities                         | 城市(複數)                         | 🏙️       | chunks=['cit', 'ies'] | py=ㄒㄧ-ㄊㄧㄗ | theme=places | stage=1 base=city
+10051 | parties                        | 派對(複數)                         | 🎉        | chunks=['par', 'ties'] | py=ㄆㄚ-ㄊㄧㄗ | theme=events | stage=1 base=party
+10052 | stories                        | 故事(複數)                         | 📖        | chunks=['stor', 'ies'] | py=ㄙㄉㄛ-ㄖㄧㄗ | theme=literature | stage=1 base=story
+10053 | families                       | 家庭(複數)                         | 👨‍👩‍👧    | chunks=['fam', 'il', 'ies'] | py=ㄈㄝ-ㄇㄝ-ㄌㄧㄗ | theme=family | stage=1 base=family
+10054 | countries                      | 國家(複數)                         | 🌍        | chunks=['coun', 'tries'] | py=ㄎㄚ-ㄊㄖㄧㄗ | theme=countries | stage=1 base=country
+10055 | ladies                         | 女士(複數)                         | 👩        | chunks=['la', 'dies'] | py=ㄌㄝ-ㄉㄧㄗ | theme=family | stage=1 base=lady
+10056 | candies                        | 糖果(複數)                         | 🍬        | chunks=['can', 'dies'] | py=ㄎㄝ-ㄋㄉㄧㄗ | theme=desserts | stage=1 base=candy
+10057 | puppies                        | 小狗(複數)                         | 🐶        | chunks=['pup', 'pies'] | py=ㄆㄚ-ㄆㄧㄗ | theme=animals | stage=1 base=puppy
+10058 | smaller                        | 更小                             | 🔽        | chunks=['small', 'er'] | py=ㄙㄇㄛ-ㄌㄜ | theme=adjectives | stage=1 base=small
+10059 | smallest                       | 最小                             | ⬇️       | chunks=['small', 'est'] | py=ㄙㄇㄛ-ㄌㄝㄙㄊ | theme=adjectives | stage=1 base=small
+10060 | biggest                        | 最大                             | ⬆️       | chunks=['big', 'gest'] | py=ㄅㄧ-ㄍㄝㄙㄊ | theme=adjectives | stage=1 base=big
+10061 | faster                         | 更快                             | 💨        | chunks=['fast', 'er'] | py=ㄈㄝ-ㄙㄉㄜ | theme=adjectives | stage=1 base=fast
+10062 | fastest                        | 最快                             | 🚀        | chunks=['fast', 'est'] | py=ㄈㄝ-ㄙㄉㄝㄙㄊ | theme=adjectives | stage=1 base=fast
+10063 | taller                         | 更高                             | 📏        | chunks=['tall', 'er'] | py=ㄊㄛ-ㄌㄜ | theme=adjectives | stage=1 base=tall
+10064 | tallest                        | 最高                             | 🗼        | chunks=['tall', 'est'] | py=ㄊㄛ-ㄌㄝㄙㄊ | theme=adjectives | stage=1 base=tall
+10065 | hotter                         | 更熱                             | 🔥        | chunks=['hot', 'ter'] | py=ㄏㄚ-ㄊㄜ | theme=adjectives | stage=1 base=hot
+10066 | hottest                        | 最熱                             | 🌡️       | chunks=['hot', 'test'] | py=ㄏㄚ-ㄊㄝㄙㄊ | theme=adjectives | stage=1 base=hot
+10067 | nicer                          | 更好的                            | 😊        | chunks=['nic', 'er'] | py=ㄋㄞ-ㄙㄜ | theme=adjectives | stage=1 base=nice
+10068 | nicest                         | 最好的                            | 🌟        | chunks=['nic', 'est'] | py=ㄋㄞ-ㄙㄝㄙㄊ | theme=adjectives | stage=1 base=nice
+10069 | larger                         | 更大的                            | ⏫        | chunks=['larg', 'er'] | py=ㄌㄚ-ㄐㄜ | theme=adjectives | stage=1 base=large
+10070 | largest                        | 最大的                            | 🏔️       | chunks=['larg', 'est'] | py=ㄌㄚ-ㄐㄝㄙㄊ | theme=adjectives | stage=1 base=large
+10071 | happier                        | 更開心                            | 😄        | chunks=['hap', 'pier'] | py=ㄏㄝ-ㄆㄧㄜ | theme=adjectives | stage=1 base=happy
+10072 | happiest                       | 最開心                            | 🥳        | chunks=['hap', 'piest'] | py=ㄏㄝ-ㄆㄧㄝㄙㄊ | theme=adjectives | stage=1 base=happy
+10073 | easier                         | 更容易                            | 👌        | chunks=['eas', 'ier'] | py=ㄧ-ㄗㄧㄜ | theme=adjectives | stage=1 base=easy
+10074 | easiest                        | 最容易                            | ✨        | chunks=['eas', 'iest'] | py=ㄧ-ㄗㄧㄝㄙㄊ | theme=adjectives | stage=1 base=easy
+10075 | busier                         | 更忙                             | 😵        | chunks=['bus', 'ier'] | py=ㄅㄧ-ㄗㄧㄜ | theme=adjectives | stage=1 base=busy
+10076 | busiest                        | 最忙                             | 🤯        | chunks=['bus', 'iest'] | py=ㄅㄧ-ㄗㄧㄝㄙㄊ | theme=adjectives | stage=1 base=busy
+10077 | played                         | 玩(過去)                          | 🎮        | chunks=['play', 'ed'] | py=ㄆㄌㄝㄉ | theme=actions | stage=1 base=play
+10078 | talked                         | 說話(過去)                         | 💬        | chunks=['talk', 'ed'] | py=ㄊㄛㄎㄊ | theme=actions | stage=1 base=talk
+10079 | watched                        | 看(過去)                          | 👀        | chunks=['watch', 'ed'] | py=ㄨㄚㄑㄊ | theme=actions | stage=1 base=watch
+10080 | waited                         | 等(過去)                          | ⏳        | chunks=['wait', 'ed'] | py=ㄨㄝ-ㄊㄧㄉ | theme=actions | stage=1 base=wait
+10081 | wanted                         | 想要(過去)                         | 🙏        | chunks=['want', 'ed'] | py=ㄨㄚ-ㄋㄊㄧㄉ | theme=actions | stage=1 base=want
+10082 | helped                         | 幫忙(過去)                         | 🤝        | chunks=['help', 'ed'] | py=ㄏㄝㄆㄊ | theme=actions | stage=1 base=help
+10083 | opened                         | 打開(過去)                         | 🔓        | chunks=['op', 'ened'] | py=ㄛ-ㄆㄝㄋㄉ | theme=actions | stage=1 base=open
+10084 | closed                         | 關(過去)                          | 🔒        | chunks=['clos', 'ed'] | py=ㄎㄌㄛㄗㄉ | theme=actions | stage=1 base=close
+10085 | cleaned                        | 打掃(過去)                         | 🧹        | chunks=['clean', 'ed'] | py=ㄎㄌㄧㄋㄉ | theme=actions | stage=1 base=clean
+10086 | finished                       | 完成(過去)                         | ✅        | chunks=['fin', 'ished'] | py=ㄈㄧ-ㄋㄧㄒㄊ | theme=actions | stage=1 base=finish
+10087 | worked                         | 工作(過去)                         | 💼        | chunks=['work', 'ed'] | py=ㄨㄜㄎㄊ | theme=actions | stage=1 base=work
+10088 | cooked                         | 煮(過去)                          | 🍳        | chunks=['cook', 'ed'] | py=ㄎㄨㄎㄊ | theme=actions | stage=1 base=cook
+10089 | showed                         | 展示(過去)                         | 👉        | chunks=['show', 'ed'] | py=ㄕㄛㄉ | theme=actions | stage=1 base=show
+10090 | called                         | 叫(過去)                          | 📞        | chunks=['call', 'ed'] | py=ㄎㄛㄌㄉ | theme=actions | stage=1 base=call
+10091 | asked                          | 問(過去)                          | 🙋        | chunks=['ask', 'ed'] | py=ㄝㄙㄎㄊ | theme=actions | stage=1 base=ask
+10092 | answered                       | 回答(過去)                         | 💬        | chunks=['an', 'swered'] | py=ㄝ-ㄋㄙㄜㄉ | theme=actions | stage=1 base=answer
+10093 | lived                          | 住(過去)                          | 🏠        | chunks=['liv', 'ed'] | py=ㄌㄧㄈㄉ | theme=actions | stage=1 base=live
+10094 | loved                          | 愛(過去)                          | ❤️       | chunks=['lov', 'ed'] | py=ㄌㄚㄈㄉ | theme=actions | stage=1 base=love
+10095 | liked                          | 喜歡(過去)                         | 👍        | chunks=['lik', 'ed'] | py=ㄌㄞㄎㄊ | theme=actions | stage=1 base=like
+10096 | excite                         | 使興奮                            | 🤩        | chunks=['ex', 'cite'] | py=ㄧㄎ-ㄙㄞㄊ | theme=actions | stage=2
+10097 | profess                        | 公開承認、聲稱                        | 📢        | chunks=['pro', 'fess'] | py=ㄆㄖㄜ-ㄈㄝㄙ | theme=actions | stage=3
+10098 | especial                       | 特別的                            | ⭐        | chunks=['e', 'spec', 'ial'] | py=ㄧ-ㄙㄆㄝ-ㄒㄜ | theme=adjectives | stage=3 [有易混提示]
+10099 | tear                           | 撕 / 眼淚                         | 😢        | chunks=['t', 'ear'] | py=ㄊㄝ / ㄊㄧㄜ | theme=actions | stage=1 [有易混提示]
+10100 | spectate                       | 觀看(運動賽事)                       | 👁️       | chunks=['spec', 'tate'] | py=ㄙㄆㄝㄎ-ㄊㄝㄊ | theme=actions | stage=3

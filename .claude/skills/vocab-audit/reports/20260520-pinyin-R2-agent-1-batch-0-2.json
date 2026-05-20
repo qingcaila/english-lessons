@@ -1,0 +1,2102 @@
+[
+ {
+  "word": "tree",
+  "current": "ㄔㄦㄧ",
+  "suggested": "ㄊㄦㄧ",
+  "type": "error",
+  "reason": "tr- 開頭應為 ㄊㄦ 而非 ㄔㄦ(ch 音)"
+ },
+ {
+  "word": "three",
+  "current": "ㄔㄦㄧ",
+  "suggested": "ㄙㄦㄧ",
+  "type": "error",
+  "reason": "th- 音應為 ㄙ/ㄗ,不是 ㄔ"
+ },
+ {
+  "word": "raindrop",
+  "current": "ㄖㄟㄣ-ㄉㄖㄚㄆ",
+  "suggested": "ㄖㄟㄣ-ㄉㄌㄚㄆ",
+  "type": "consonant",
+  "reason": "dr- 子音群一致性,其他字用 ㄉㄌ"
+ },
+ {
+  "word": "train",
+  "current": "ㄔㄦㄟㄣ",
+  "suggested": "ㄊㄦㄟㄣ",
+  "type": "error",
+  "reason": "tr- 應為 ㄊㄦ"
+ },
+ {
+  "word": "truck",
+  "current": "ㄔㄦㄚㄎ",
+  "suggested": "ㄊㄦㄚㄎ",
+  "type": "error",
+  "reason": "tr- 應為 ㄊㄦ"
+ },
+ {
+  "word": "trip",
+  "current": "ㄔㄦㄧㄆ",
+  "suggested": "ㄊㄦㄧㄆ",
+  "type": "error",
+  "reason": "tr- 應為 ㄊㄦ"
+ },
+ {
+  "word": "triangle",
+  "current": "ㄔㄦㄞ-ㄝㄣ-ㄍㄛ",
+  "suggested": "ㄊㄦㄞ-ㄝㄣ-ㄍㄛ",
+  "type": "error",
+  "reason": "tr- 應為 ㄊㄦ"
+ },
+ {
+  "word": "strawberry",
+  "current": "ㄙㄔㄦㄛ-ㄅㄜ-ㄖㄧ",
+  "suggested": "ㄙㄊㄦㄛ-ㄅㄜ-ㄖㄧ",
+  "type": "error",
+  "reason": "str- 中的 tr 應為 ㄊㄦ"
+ },
+ {
+  "word": "orange",
+  "current": "ㄛ-ㄖㄜㄣㄐ",
+  "suggested": "ㄛ-ㄖㄧㄣㄐ",
+  "type": "vowel",
+  "reason": "-ange 在 orange 唸 /ɪndʒ/,應為 ㄖㄧㄣㄐ"
+ },
+ {
+  "word": "mountain",
+  "current": "ㄇㄠㄣ-ㄊㄣ",
+  "suggested": "ㄇㄠㄣ-ㄊㄜㄣ",
+  "type": "schwa",
+  "reason": "-tain 是 schwa+n,應有 ㄜ"
+ },
+ {
+  "word": "toilet",
+  "current": "ㄊㄛㄧ-ㄌㄝㄊ",
+  "suggested": "ㄊㄛㄧ-ㄌㄜㄊ",
+  "type": "schwa",
+  "reason": "-let 非重音為 schwa"
+ },
+ {
+  "word": "shampoo",
+  "current": "ㄕㄝㄇ-ㄆㄨ",
+  "suggested": "ㄒㄝㄇ-ㄆㄨ",
+  "type": "consonant",
+  "reason": "sh- 標 ㄒ 較一致(其他 sh 字皆 ㄒ)"
+ },
+ {
+  "word": "watermelon",
+  "current": "ㄨㄚ-ㄊㄜ-ㄇㄝ-ㄌㄜㄣ",
+  "suggested": "ㄨㄛ-ㄊㄜ-ㄇㄝ-ㄌㄜㄣ",
+  "type": "vowel",
+  "reason": "water 的 wa- 應為 ㄨㄛ"
+ },
+ {
+  "word": "pineapple",
+  "current": "ㄆㄞㄣ-ㄝ-ㄆㄛ",
+  "suggested": "ㄆㄞㄣ-ㄝ-ㄆㄜ",
+  "type": "schwa",
+  "reason": "-ple 非重音應為 ㄆㄜ,與 apple 一致"
+ },
+ {
+  "word": "avocado",
+  "current": "ㄝ-ㄈㄜ-ㄎㄚ-ㄉㄛ",
+  "suggested": "ㄚ-ㄈㄜ-ㄎㄚ-ㄉㄛ",
+  "type": "vowel",
+  "reason": "a- 開頭為 ㄚ /ɑ/"
+ },
+ {
+  "word": "vegetable",
+  "current": "ㄈㄝㄐ-ㄊㄜ-ㄅㄛ",
+  "suggested": "ㄈㄝㄐ-ㄊㄜ-ㄅㄜ",
+  "type": "schwa",
+  "reason": "-ble 非重音 schwa,應為 ㄅㄜ"
+ },
+ {
+  "word": "smoothie",
+  "current": "ㄙㄇㄨ-ㄉㄧ",
+  "suggested": "ㄙㄇㄨ-ㄙㄧ",
+  "type": "consonant",
+  "reason": "-thie 在 smoothie 為 /θi/ 較常,但實際多為 /ði/ → 可保留 ㄉㄧ;若統一 th 為 ㄙ 則改"
+ },
+ {
+  "word": "medicine",
+  "current": "ㄇㄝ-ㄉㄜ-ㄒㄣ",
+  "suggested": "ㄇㄝ-ㄉㄜ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-cine 是 schwa+n,應有 ㄜ"
+ },
+ {
+  "word": "folder",
+  "current": "ㄈㄛㄛ-ㄉㄜ",
+  "suggested": "ㄈㄛㄦ-ㄉㄜ",
+  "type": "consonant",
+  "reason": "fol- 含 l 應為 ㄈㄛㄦ"
+ },
+ {
+  "word": "email",
+  "current": "ㄧ-ㄇㄟㄛ",
+  "suggested": "ㄧ-ㄇㄟㄦ",
+  "type": "consonant",
+  "reason": "-mail 結尾 l 應為 ㄦ 而非 ㄛ"
+ },
+ {
+  "word": "listen",
+  "current": "ㄌㄧㄙ-ㄣ",
+  "suggested": "ㄌㄧ-ㄙㄜㄣ",
+  "type": "schwa",
+  "reason": "-ten 弱讀 schwa,單獨 ㄣ 缺子音"
+ },
+ {
+  "word": "throw",
+  "current": "ㄙㄌㄛ",
+  "suggested": "ㄙㄦㄛ",
+  "type": "error",
+  "reason": "thr- 為 /θr/ 應為 ㄙㄦ,而非 ㄙㄌ"
+ },
+ {
+  "word": "throat",
+  "current": "ㄙㄌㄛㄊ",
+  "suggested": "ㄙㄦㄛㄊ",
+  "type": "error",
+  "reason": "thr- 應為 ㄙㄦ"
+ },
+ {
+  "word": "thirteen",
+  "current": "ㄙㄜ-ㄊㄧㄣ",
+  "suggested": "ㄙㄦ-ㄊㄧㄣ",
+  "type": "vowel",
+  "reason": "thir- 為 /θɜːr/,應為 ㄙㄦ"
+ },
+ {
+  "word": "thirty",
+  "current": "ㄙㄜ-ㄊㄧ",
+  "suggested": "ㄙㄦ-ㄊㄧ",
+  "type": "vowel",
+  "reason": "thir- 應為 ㄙㄦ"
+ },
+ {
+  "word": "third",
+  "current": "ㄙㄜㄉ",
+  "suggested": "ㄙㄦㄉ",
+  "type": "vowel",
+  "reason": "thir- 應為 ㄙㄦ"
+ },
+ {
+  "word": "birthday",
+  "current": "ㄅㄜㄙ-ㄉㄟ",
+  "suggested": "ㄅㄦㄙ-ㄉㄟ",
+  "type": "vowel",
+  "reason": "bir- 為 /ɜːr/ 應為 ㄅㄦ"
+ },
+ {
+  "word": "first",
+  "current": "ㄈㄜㄙㄊ",
+  "suggested": "ㄈㄦㄙㄊ",
+  "type": "vowel",
+  "reason": "first 為 /fɜːrst/ 應為 ㄈㄦ"
+ },
+ {
+  "word": "hurt",
+  "current": "ㄏㄜㄊ",
+  "suggested": "ㄏㄦㄊ",
+  "type": "vowel",
+  "reason": "hur- 為 /ɜːr/ 應為 ㄏㄦ"
+ },
+ {
+  "word": "shirt",
+  "current": "ㄕㄦㄊ",
+  "suggested": "ㄒㄦㄊ",
+  "type": "consonant",
+  "reason": "sh 一致用 ㄒ"
+ },
+ {
+  "word": "teach",
+  "current": "ㄊㄧㄑ",
+  "suggested": "ㄊㄧㄔ",
+  "type": "consonant",
+  "reason": "-ch 統一用 ㄔ 較常見"
+ },
+ {
+  "word": "each",
+  "current": "ㄧㄑ",
+  "suggested": "ㄧㄔ",
+  "type": "consonant",
+  "reason": "-ch 統一用 ㄔ"
+ },
+ {
+  "word": "march",
+  "current": "ㄇㄚㄦㄑ",
+  "suggested": "ㄇㄚㄦㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致 ㄔ"
+ },
+ {
+  "word": "watch",
+  "current": "ㄨㄚㄑ",
+  "suggested": "ㄨㄚㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "catch",
+  "current": "ㄎㄚㄑ",
+  "suggested": "ㄎㄚㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "match",
+  "current": "ㄇㄚㄑ",
+  "suggested": "ㄇㄚㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "coach",
+  "current": "ㄎㄛㄑ",
+  "suggested": "ㄎㄛㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "chest",
+  "current": "ㄑㄝㄙㄊ",
+  "suggested": "ㄔㄝㄙㄊ",
+  "type": "consonant",
+  "reason": "ch- 一致 ㄔ"
+ },
+ {
+  "word": "cheek",
+  "current": "ㄑㄧㄎ",
+  "suggested": "ㄔㄧㄎ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "chin",
+  "current": "ㄑㄧㄣ",
+  "suggested": "ㄔㄧㄣ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "cheer",
+  "current": "ㄑㄧㄦ",
+  "suggested": "ㄔㄧㄦ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "chicken",
+  "current": "ㄑㄧ-ㄎㄣ",
+  "suggested": "ㄔㄧ-ㄎㄜㄣ",
+  "type": "schwa",
+  "reason": "-ken 應有 schwa ㄎㄜㄣ"
+ },
+ {
+  "word": "cheerful",
+  "current": "ㄑㄧㄦ-ㄈㄨㄦ",
+  "suggested": "ㄔㄧㄦ-ㄈㄨㄦ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "chimney",
+  "current": "ㄑㄧㄇ-ㄋㄧ",
+  "suggested": "ㄔㄧㄇ-ㄋㄧ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "chilly",
+  "current": "ㄑㄧ-ㄌㄧ",
+  "suggested": "ㄔㄧ-ㄌㄧ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "chips",
+  "current": "ㄑㄧㄆㄗ",
+  "suggested": "ㄔㄧㄆㄗ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "cheetah",
+  "current": "ㄑㄧ-ㄊㄚ",
+  "suggested": "ㄔㄧ-ㄊㄚ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "champion",
+  "current": "ㄑㄚㄇ-ㄆㄧㄢ",
+  "suggested": "ㄔㄚㄇ-ㄆㄧㄢ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "charcoal",
+  "current": "ㄑㄚㄦ-ㄎㄛㄦ",
+  "suggested": "ㄔㄚㄦ-ㄎㄛㄦ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "ketchup",
+  "current": "ㄎㄝ-ㄑㄚㄆ",
+  "suggested": "ㄎㄝ-ㄔㄚㄆ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "sandwich",
+  "current": "ㄙㄢ-ㄨㄧㄑ",
+  "suggested": "ㄙㄢ-ㄨㄧㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "switch",
+  "current": "ㄙㄨㄧㄑ",
+  "suggested": "ㄙㄨㄧㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "lunchtime",
+  "current": "ㄌㄚㄣㄑ-ㄊㄞㄇ",
+  "suggested": "ㄌㄚㄣㄔ-ㄊㄞㄇ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "cockroach",
+  "current": "ㄎㄚㄎ-ㄌㄛㄑ",
+  "suggested": "ㄎㄚㄎ-ㄌㄛㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "ostrich",
+  "current": "ㄚ-ㄙㄉㄌㄧㄑ",
+  "suggested": "ㄚ-ㄙㄊㄦㄧㄔ",
+  "type": "consonant",
+  "reason": "-ch + str- 多項修正"
+ },
+ {
+  "word": "branch",
+  "current": "ㄅㄌㄢㄑ",
+  "suggested": "ㄅㄌㄢㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "chalk",
+  "current": "ㄑㄛㄎ",
+  "suggested": "ㄔㄛㄎ",
+  "type": "consonant",
+  "reason": "ch- 一致"
+ },
+ {
+  "word": "much",
+  "current": "ㄇㄚㄑ",
+  "suggested": "ㄇㄚㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "which",
+  "current": "ㄨㄧㄑ",
+  "suggested": "ㄨㄧㄔ",
+  "type": "consonant",
+  "reason": "-ch 一致"
+ },
+ {
+  "word": "february",
+  "current": "ㄈㄝㄅ-ㄌㄨ-ㄝ-ㄌㄧ",
+  "suggested": "ㄈㄝㄅ-ㄖㄨ-ㄝ-ㄌㄧ",
+  "type": "consonant",
+  "reason": "feb-ru 中 r 為 ㄖ 較直觀"
+ },
+ {
+  "word": "april",
+  "current": "ㄟ-ㄆㄌㄜ",
+  "suggested": "ㄟ-ㄆㄦㄜ",
+  "type": "consonant",
+  "reason": "-pril 中 r 應為 ㄦ"
+ },
+ {
+  "word": "october",
+  "current": "ㄚㄎ-ㄊㄜ-ㄅㄜ",
+  "suggested": "ㄚㄎ-ㄊㄛ-ㄅㄜ",
+  "type": "vowel",
+  "reason": "-to- 在 october 為 /toʊ/,應為 ㄊㄛ"
+ },
+ {
+  "word": "period",
+  "current": "ㄆㄧ-ㄌㄧ-ㄚㄉ",
+  "suggested": "ㄆㄧ-ㄦㄧ-ㄜㄉ",
+  "type": "schwa",
+  "reason": "-ri- 中 r 為 ㄦ,-od 弱讀 schwa"
+ },
+ {
+  "word": "eternal",
+  "current": "ㄧ-ㄊㄜ-ㄋㄜ",
+  "suggested": "ㄧ-ㄊㄦ-ㄋㄜ",
+  "type": "vowel",
+  "reason": "-ter- 為 /tɜːr/ 應為 ㄊㄦ"
+ },
+ {
+  "word": "forever",
+  "current": "ㄈㄜ-ㄦㄝ-ㄈㄜ",
+  "suggested": "ㄈㄜ-ㄖㄝ-ㄈㄜ",
+  "type": "consonant",
+  "reason": "-rev- 為 ㄖㄝ,r 用 ㄖ"
+ },
+ {
+  "word": "violet",
+  "current": "ㄈㄞ-ㄚ-ㄌㄝㄊ",
+  "suggested": "ㄈㄞ-ㄜ-ㄌㄜㄊ",
+  "type": "schwa",
+  "reason": "中段及 -let 應為 schwa"
+ },
+ {
+  "word": "magenta",
+  "current": "ㄇㄚ-ㄐㄣ-ㄊㄚ",
+  "suggested": "ㄇㄜ-ㄐㄝㄣ-ㄊㄚ",
+  "type": "schwa",
+  "reason": "重音在 -gen-, ma- 弱讀 schwa"
+ },
+ {
+  "word": "salmon",
+  "current": "ㄙㄚ-ㄇㄢ",
+  "suggested": "ㄙㄚ-ㄇㄜㄣ",
+  "type": "schwa",
+  "reason": "-mon 弱讀 schwa"
+ },
+ {
+  "word": "burgundy",
+  "current": "ㄅㄜ-ㄍㄢ-ㄉㄧ",
+  "suggested": "ㄅㄦ-ㄍㄜㄣ-ㄉㄧ",
+  "type": "schwa",
+  "reason": "bur- 為 ㄅㄦ;-gun- 弱讀 schwa"
+ },
+ {
+  "word": "rose",
+  "current": "ㄌㄛㄗ",
+  "suggested": "ㄖㄛㄗ",
+  "type": "consonant",
+  "reason": "r 用 ㄖ 較統一(雖然許多其他字用 ㄌ,需專案策略;若已決定全用 ㄖ 則改)"
+ },
+ {
+  "word": "emerald",
+  "current": "ㄝ-ㄇㄜ-ㄦㄉ",
+  "suggested": "ㄝ-ㄇㄜ-ㄖㄜㄦㄉ",
+  "type": "schwa",
+  "reason": "-ald 為 schwa+l+d"
+ },
+ {
+  "word": "bronze",
+  "current": "ㄅㄌㄚㄣㄗ",
+  "suggested": "ㄅㄦㄚㄣㄗ",
+  "type": "consonant",
+  "reason": "br- 中 r 用 ㄦ"
+ },
+ {
+  "word": "colorful",
+  "current": "ㄎㄚ-ㄌㄜ-ㄈㄜ",
+  "suggested": "ㄎㄚ-ㄌㄜ-ㄈㄨㄦ",
+  "type": "vowel",
+  "reason": "-ful 應為 ㄈㄨㄦ 而非 ㄈㄜ"
+ },
+ {
+  "word": "hamster",
+  "current": "ㄏㄚㄇ-ㄙㄉㄜ",
+  "suggested": "ㄏㄚㄇ-ㄙㄊㄜ",
+  "type": "consonant",
+  "reason": "st- 子音群應為 ㄙㄊ 而非 ㄙㄉ"
+ },
+ {
+  "word": "start",
+  "current": "ㄙㄉㄚㄦㄊ",
+  "suggested": "ㄙㄊㄚㄦㄊ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "stop",
+  "current": "ㄙㄉㄚㄆ",
+  "suggested": "ㄙㄊㄚㄆ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "study",
+  "current": "ㄙㄉㄚ-ㄉㄧ",
+  "suggested": "ㄙㄊㄚ-ㄉㄧ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "stadium",
+  "current": "ㄙㄉㄟ-ㄉㄧ-ㄜㄇ",
+  "suggested": "ㄙㄊㄟ-ㄉㄧ-ㄜㄇ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "stem",
+  "current": "ㄙㄉㄝㄇ",
+  "suggested": "ㄙㄊㄝㄇ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "steak",
+  "current": "ㄙㄉㄟㄎ",
+  "suggested": "ㄙㄊㄟㄎ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "stone",
+  "current": "ㄙㄉㄛㄣ",
+  "suggested": "ㄙㄊㄛㄣ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "stairs",
+  "current": "ㄙㄉㄝㄗ",
+  "suggested": "ㄙㄊㄝㄗ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "staircase",
+  "current": "ㄙㄉㄝ-ㄎㄝㄙ",
+  "suggested": "ㄙㄊㄝ-ㄎㄝㄙ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "starfish",
+  "current": "ㄙㄉㄚㄦ-ㄈㄧㄒ",
+  "suggested": "ㄙㄊㄚㄦ-ㄈㄧㄒ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "lobster",
+  "current": "ㄌㄚㄅ-ㄙㄉㄜ",
+  "suggested": "ㄌㄚㄅ-ㄙㄊㄜ",
+  "type": "consonant",
+  "reason": "-st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "rooster",
+  "current": "ㄌㄨ-ㄙㄉㄜ",
+  "suggested": "ㄖㄨ-ㄙㄊㄜ",
+  "type": "consonant",
+  "reason": "st 子音群 ㄙㄊ,r 子音"
+ },
+ {
+  "word": "footstep",
+  "current": "ㄈㄨㄊ-ㄙㄉㄝㄆ",
+  "suggested": "ㄈㄨㄊ-ㄙㄊㄝㄆ",
+  "type": "consonant",
+  "reason": "st- 應為 ㄙㄊ"
+ },
+ {
+  "word": "stomach",
+  "current": "ㄙㄉㄚ-ㄇㄚㄎ",
+  "suggested": "ㄙㄊㄚ-ㄇㄜㄎ",
+  "type": "consonant",
+  "reason": "st- ㄙㄊ;-mach 弱讀 schwa"
+ },
+ {
+  "word": "forest",
+  "current": "ㄈㄛ-ㄌㄝㄙㄊ",
+  "suggested": "ㄈㄛ-ㄖㄜㄙㄊ",
+  "type": "schwa",
+  "reason": "-est 弱讀 schwa"
+ },
+ {
+  "word": "closet",
+  "current": "ㄎㄌㄚ-ㄗㄝㄊ",
+  "suggested": "ㄎㄌㄚ-ㄗㄜㄊ",
+  "type": "schwa",
+  "reason": "-set 弱讀 schwa"
+ },
+ {
+  "word": "button",
+  "current": "ㄅㄚ-ㄉㄣ",
+  "suggested": "ㄅㄚ-ㄊㄜㄣ",
+  "type": "schwa",
+  "reason": "-tton 為 ㄊㄜㄣ,t 為 ㄊ"
+ },
+ {
+  "word": "cotton",
+  "current": "ㄎㄚ-ㄉㄣ",
+  "suggested": "ㄎㄚ-ㄊㄜㄣ",
+  "type": "schwa",
+  "reason": "-tton 為 ㄊㄜㄣ"
+ },
+ {
+  "word": "dragonfly",
+  "current": "ㄉㄌㄚ-ㄍㄢ-ㄈㄌㄞ",
+  "suggested": "ㄉㄌㄚ-ㄍㄜㄣ-ㄈㄌㄞ",
+  "type": "schwa",
+  "reason": "-gon 弱讀 schwa"
+ },
+ {
+  "word": "basement",
+  "current": "ㄅㄝㄙ-ㄇㄣㄊ",
+  "suggested": "ㄅㄟㄙ-ㄇㄜㄣㄊ",
+  "type": "schwa",
+  "reason": "base 為 ㄅㄟㄙ;-ment 弱讀 schwa"
+ },
+ {
+  "word": "assignment",
+  "current": "ㄚ-ㄙㄞㄣ-ㄇㄣㄊ",
+  "suggested": "ㄚ-ㄙㄞㄣ-ㄇㄜㄣㄊ",
+  "type": "schwa",
+  "reason": "-ment 弱讀 schwa"
+ },
+ {
+  "word": "present",
+  "current": "ㄆㄌㄝ-ㄗㄣㄊ",
+  "suggested": "ㄆㄦㄝ-ㄗㄜㄣㄊ",
+  "type": "schwa",
+  "reason": "pr 為 ㄆㄦ;-sent 弱讀 schwa"
+ },
+ {
+  "word": "president",
+  "current": "ㄆㄌㄝ-ㄗㄜ-ㄉㄣㄊ",
+  "suggested": "ㄆㄦㄝ-ㄗㄜ-ㄉㄜㄣㄊ",
+  "type": "schwa",
+  "reason": "pr 為 ㄆㄦ;-dent 弱讀 schwa"
+ },
+ {
+  "word": "sentence",
+  "current": "ㄙㄣ-ㄊㄣㄙ",
+  "suggested": "ㄙㄜㄣ-ㄊㄜㄣㄙ",
+  "type": "schwa",
+  "reason": "sen-tence 兩段都需 ㄜ"
+ },
+ {
+  "word": "instant",
+  "current": "ㄧㄣ-ㄙㄉㄢㄊ",
+  "suggested": "ㄧㄣ-ㄙㄊㄜㄣㄊ",
+  "type": "schwa",
+  "reason": "st- 改 ㄙㄊ;-tant 弱讀 schwa"
+ },
+ {
+  "word": "sudden",
+  "current": "ㄙㄚ-ㄉㄣ",
+  "suggested": "ㄙㄚ-ㄉㄜㄣ",
+  "type": "schwa",
+  "reason": "-den 弱讀 schwa"
+ },
+ {
+  "word": "bacon",
+  "current": "ㄅㄟ-ㄎㄣ",
+  "suggested": "ㄅㄟ-ㄎㄜㄣ",
+  "type": "schwa",
+  "reason": "-con 弱讀 schwa"
+ },
+ {
+  "word": "dozen",
+  "current": "ㄉㄚ-ㄗㄣ",
+  "suggested": "ㄉㄚ-ㄗㄜㄣ",
+  "type": "schwa",
+  "reason": "-zen 弱讀 schwa"
+ },
+ {
+  "word": "raisin",
+  "current": "ㄌㄟ-ㄗㄣ",
+  "suggested": "ㄖㄟ-ㄗㄜㄣ",
+  "type": "schwa",
+  "reason": "-sin 弱讀 schwa"
+ },
+ {
+  "word": "season",
+  "current": "ㄒㄧ-ㄗㄣ",
+  "suggested": "ㄒㄧ-ㄗㄜㄣ",
+  "type": "schwa",
+  "reason": "-son 弱讀 schwa"
+ },
+ {
+  "word": "lesson",
+  "current": "ㄌㄝ-ㄙㄣ",
+  "suggested": "ㄌㄝ-ㄙㄜㄣ",
+  "type": "schwa",
+  "reason": "-son 弱讀 schwa"
+ },
+ {
+  "word": "crimson",
+  "current": "ㄎㄌㄧㄇ-ㄗㄣ",
+  "suggested": "ㄎㄌㄧㄇ-ㄗㄜㄣ",
+  "type": "schwa",
+  "reason": "-son 弱讀 schwa"
+ },
+ {
+  "word": "often",
+  "current": "ㄛㄈ-ㄣ",
+  "suggested": "ㄛ-ㄈㄜㄣ",
+  "type": "schwa",
+  "reason": "-ten 弱讀 schwa,需 ㄈㄜㄣ"
+ },
+ {
+  "word": "again",
+  "current": "ㄜ-ㄍㄣ",
+  "suggested": "ㄜ-ㄍㄜㄣ",
+  "type": "schwa",
+  "reason": "-gain 弱讀為 ㄍㄜㄣ"
+ },
+ {
+  "word": "second",
+  "current": "ㄙㄝ-ㄎㄢㄉ",
+  "suggested": "ㄙㄝ-ㄎㄜㄣㄉ",
+  "type": "schwa",
+  "reason": "-cond 弱讀 schwa"
+ },
+ {
+  "word": "diamond",
+  "current": "ㄉㄞ-ㄇㄣㄉ",
+  "suggested": "ㄉㄞ-ㄜ-ㄇㄜㄣㄉ",
+  "type": "schwa",
+  "reason": "3 音節,中間有 schwa"
+ },
+ {
+  "word": "almond",
+  "current": "ㄚ-ㄇㄢㄉ",
+  "suggested": "ㄚ-ㄇㄜㄣㄉ",
+  "type": "schwa",
+  "reason": "-mond 弱讀 schwa"
+ },
+ {
+  "word": "hundred",
+  "current": "ㄏㄚㄣ-ㄉㄜㄉ",
+  "suggested": "ㄏㄚㄣ-ㄉㄦㄉ",
+  "type": "vowel",
+  "reason": "-dred 中 r 為 ㄦ"
+ },
+ {
+  "word": "thousand",
+  "current": "ㄙㄠ-ㄗㄢㄉ",
+  "suggested": "ㄙㄠ-ㄗㄜㄣㄉ",
+  "type": "schwa",
+  "reason": "-sand 弱讀 schwa"
+ },
+ {
+  "word": "million",
+  "current": "ㄇㄧ-ㄌㄧㄢ",
+  "suggested": "ㄇㄧ-ㄌㄧㄜㄣ",
+  "type": "schwa",
+  "reason": "-lion 為 /jən/,應有 schwa"
+ },
+ {
+  "word": "billion",
+  "current": "ㄅㄧ-ㄌㄧㄢ",
+  "suggested": "ㄅㄧ-ㄌㄧㄜㄣ",
+  "type": "schwa",
+  "reason": "-lion 弱讀 schwa"
+ },
+ {
+  "word": "pigeon",
+  "current": "ㄆㄧ-ㄐㄢ",
+  "suggested": "ㄆㄧ-ㄐㄜㄣ",
+  "type": "schwa",
+  "reason": "-geon 弱讀 schwa"
+ },
+ {
+  "word": "scorpion",
+  "current": "ㄙㄎㄛ-ㄆㄧ-ㄢ",
+  "suggested": "ㄙㄎㄛ-ㄆㄧ-ㄜㄣ",
+  "type": "schwa",
+  "reason": "-on 弱讀 schwa"
+ },
+ {
+  "word": "accordion",
+  "current": "ㄚ-ㄎㄛㄦ-ㄉㄧ-ㄢ",
+  "suggested": "ㄚ-ㄎㄛㄦ-ㄉㄧ-ㄜㄣ",
+  "type": "schwa",
+  "reason": "-on 弱讀"
+ },
+ {
+  "word": "chameleon",
+  "current": "ㄎㄚ-ㄇㄧ-ㄌㄧ-ㄢ",
+  "suggested": "ㄎㄜ-ㄇㄧ-ㄌㄧ-ㄜㄣ",
+  "type": "schwa",
+  "reason": "cha- 弱讀;-on 弱讀"
+ },
+ {
+  "word": "canyon",
+  "current": "ㄎㄚ-ㄋㄧㄢ",
+  "suggested": "ㄎㄚ-ㄋㄧㄜㄣ",
+  "type": "schwa",
+  "reason": "-yon 弱讀 schwa"
+ },
+ {
+  "word": "crayon",
+  "current": "ㄎㄌㄟ-ㄢ",
+  "suggested": "ㄎㄦㄟ-ㄢ",
+  "type": "consonant",
+  "reason": "cr 中 r 為 ㄦ"
+ },
+ {
+  "word": "station",
+  "current": "ㄙㄊㄟ-ㄒㄣ",
+  "suggested": "ㄙㄊㄟ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀 schwa"
+ },
+ {
+  "word": "vacation",
+  "current": "ㄈㄜ-ㄎㄟ-ㄒㄣ",
+  "suggested": "ㄈㄜ-ㄎㄟ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀 schwa"
+ },
+ {
+  "word": "reservation",
+  "current": "ㄖㄝ-ㄗㄜ-ㄈㄟ-ㄒㄣ",
+  "suggested": "ㄖㄝ-ㄗㄦ-ㄈㄟ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀;ser- 為 ㄗㄦ"
+ },
+ {
+  "word": "dictionary",
+  "current": "ㄉㄧㄎ-ㄒㄣ-ㄝ-ㄌㄧ",
+  "suggested": "ㄉㄧㄎ-ㄒㄜ-ㄋㄝ-ㄌㄧ",
+  "type": "schwa",
+  "reason": "-tion- 為 schwa"
+ },
+ {
+  "word": "graduation",
+  "current": "ㄍㄌㄚ-ㄐㄧㄨ-ㄝ-ㄒㄣ",
+  "suggested": "ㄍㄦㄚ-ㄐㄨ-ㄝ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀"
+ },
+ {
+  "word": "tuition",
+  "current": "ㄊㄧㄨ-ㄧ-ㄒㄣ",
+  "suggested": "ㄊㄧㄨ-ㄧ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀"
+ },
+ {
+  "word": "presentation",
+  "current": "ㄆㄌㄝ-ㄗㄣ-ㄊㄟ-ㄒㄣ",
+  "suggested": "ㄆㄦㄝ-ㄗㄜㄣ-ㄊㄟ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀"
+ },
+ {
+  "word": "receptionist",
+  "current": "ㄌㄧ-ㄙㄝㄆ-ㄒㄣ-ㄧㄙㄊ",
+  "suggested": "ㄖㄧ-ㄙㄝㄆ-ㄒㄜㄣ-ㄧㄙㄊ",
+  "type": "schwa",
+  "reason": "-tion 弱讀;r 為 ㄖ"
+ },
+ {
+  "word": "eruption",
+  "current": "ㄧ-ㄌㄚㄆ-ㄒㄣ",
+  "suggested": "ㄧ-ㄖㄚㄆ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-tion 弱讀;r 用 ㄖ"
+ },
+ {
+  "word": "interesting",
+  "current": "ㄧㄣ-ㄊㄜ-ㄜㄙ-ㄊㄧㄥ",
+  "suggested": "ㄧㄣ-ㄊㄜ-ㄖㄜㄙ-ㄊㄧㄥ",
+  "type": "consonant",
+  "reason": "-rest- 子音 r 漏"
+ },
+ {
+  "word": "answer",
+  "current": "ㄢ-ㄙㄜㄦ",
+  "suggested": "ㄢ-ㄙㄜ",
+  "type": "vowel",
+  "reason": "-swer 結尾為 schwa,不需 ㄦ"
+ },
+ {
+  "word": "shower",
+  "current": "ㄕㄠ-ㄜ",
+  "suggested": "ㄒㄠ-ㄜ",
+  "type": "consonant",
+  "reason": "sh- 一致 ㄒ"
+ },
+ {
+  "word": "hour",
+  "current": "ㄠㄦ",
+  "suggested": "ㄠㄜ",
+  "type": "vowel",
+  "reason": "hour 結尾無 r 音,為 schwa"
+ },
+ {
+  "word": "firework",
+  "current": "ㄈㄞㄜ-ㄨㄜㄎ",
+  "suggested": "ㄈㄞㄜ-ㄨㄦㄎ",
+  "type": "vowel",
+  "reason": "work 應為 ㄨㄦㄎ"
+ },
+ {
+  "word": "real",
+  "current": "ㄌㄧㄦ",
+  "suggested": "ㄖㄧㄜㄦ",
+  "type": "schwa",
+  "reason": "real 為兩音節 /riː.əl/,應有 schwa"
+ },
+ {
+  "word": "really",
+  "current": "ㄌㄧㄦ-ㄌㄧ",
+  "suggested": "ㄖㄧ-ㄌㄧ",
+  "type": "schwa",
+  "reason": "really 同 real,二音節 ㄖㄧ-ㄌㄧ"
+ },
+ {
+  "word": "cereal",
+  "current": "ㄒㄧ-ㄌㄧ-ㄜㄦ",
+  "suggested": "ㄒㄧ-ㄖㄧ-ㄜㄦ",
+  "type": "consonant",
+  "reason": "-ri- 中 r 為 ㄖ"
+ },
+ {
+  "word": "radiator",
+  "current": "ㄌㄟ-ㄉㄧ-ㄝ-ㄊㄜ",
+  "suggested": "ㄖㄟ-ㄉㄧ-ㄝ-ㄊㄜ",
+  "type": "consonant",
+  "reason": "r 用 ㄖ"
+ },
+ {
+  "word": "radio",
+  "current": "ㄌㄟ-ㄉㄧ-ㄛ",
+  "suggested": "ㄖㄟ-ㄉㄧ-ㄛ",
+  "type": "consonant",
+  "reason": "r 用 ㄖ"
+ },
+ {
+  "word": "recent",
+  "current": "ㄌㄧ-ㄙㄣㄊ",
+  "suggested": "ㄖㄧ-ㄙㄜㄣㄊ",
+  "type": "schwa",
+  "reason": "-cent 弱讀 schwa;r 為 ㄖ"
+ },
+ {
+  "word": "recess",
+  "current": "ㄌㄧ-ㄙㄝㄙ",
+  "suggested": "ㄖㄧ-ㄙㄝㄙ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "report",
+  "current": "ㄌㄧ-ㄆㄛㄦㄊ",
+  "suggested": "ㄖㄧ-ㄆㄛㄦㄊ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "narrow",
+  "current": "ㄋㄚ-ㄌㄛ",
+  "suggested": "ㄋㄚ-ㄖㄛ",
+  "type": "consonant",
+  "reason": "-rrow 中 r 為 ㄖ"
+ },
+ {
+  "word": "sparrow",
+  "current": "ㄙㄆㄚ-ㄌㄛ",
+  "suggested": "ㄙㄆㄚ-ㄖㄛ",
+  "type": "consonant",
+  "reason": "-rrow 為 ㄖ"
+ },
+ {
+  "word": "yellow",
+  "current": "ㄧㄝ-ㄌㄡ",
+  "suggested": "ㄧㄝ-ㄌㄛ",
+  "type": "vowel",
+  "reason": "統一 -low 為 ㄌㄛ"
+ },
+ {
+  "word": "snow",
+  "current": "ㄙㄋㄡ",
+  "suggested": "ㄙㄋㄛ",
+  "type": "vowel",
+  "reason": "統一 -ow"
+ },
+ {
+  "word": "crow",
+  "current": "ㄎㄌㄛ",
+  "suggested": "ㄎㄦㄛ",
+  "type": "consonant",
+  "reason": "cr 中 r 為 ㄦ"
+ },
+ {
+  "word": "row",
+  "current": "ㄌㄛ",
+  "suggested": "ㄖㄛ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "window",
+  "current": "ㄨㄧㄣ-ㄉㄡ",
+  "suggested": "ㄨㄧㄣ-ㄉㄛ",
+  "type": "vowel",
+  "reason": "-dow 統一 ㄛ"
+ },
+ {
+  "word": "rainbow",
+  "current": "ㄌㄟㄣ-ㄅㄛ",
+  "suggested": "ㄖㄟㄣ-ㄅㄛ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "pillow",
+  "current": "ㄆㄧ-ㄌㄡ",
+  "suggested": "ㄆㄧ-ㄌㄛ",
+  "type": "vowel",
+  "reason": "-low 統一"
+ },
+ {
+  "word": "marshmallow",
+  "current": "ㄇㄚㄦㄒ-ㄇㄚ-ㄌㄛ",
+  "suggested": "ㄇㄚㄦㄒ-ㄇㄜ-ㄌㄛ",
+  "type": "schwa",
+  "reason": "-mal- 弱讀 schwa"
+ },
+ {
+  "word": "mosquito",
+  "current": "ㄇㄚㄙ-ㄎㄧ-ㄊㄛ",
+  "suggested": "ㄇㄜㄙ-ㄎㄧ-ㄊㄛ",
+  "type": "schwa",
+  "reason": "mos- 弱讀 schwa"
+ },
+ {
+  "word": "eraser",
+  "current": "ㄧ-ㄌㄟ-ㄗㄜ",
+  "suggested": "ㄧ-ㄖㄟ-ㄗㄜ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "trumpet",
+  "current": "ㄊㄌㄚㄇ-ㄆㄝㄊ",
+  "suggested": "ㄊㄦㄚㄇ-ㄆㄜㄊ",
+  "type": "schwa",
+  "reason": "tr 為 ㄊㄦ;-pet 弱讀 schwa"
+ },
+ {
+  "word": "trombone",
+  "current": "ㄊㄌㄚㄇ-ㄅㄛㄣ",
+  "suggested": "ㄊㄦㄚㄇ-ㄅㄛㄣ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "translator",
+  "current": "ㄊㄌㄢㄙ-ㄌㄟ-ㄊㄜ",
+  "suggested": "ㄊㄦㄢㄙ-ㄌㄟ-ㄊㄜ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "true",
+  "current": "ㄉㄌㄨ",
+  "suggested": "ㄊㄦㄨ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "try",
+  "current": "ㄉㄌㄞ",
+  "suggested": "ㄊㄦㄞ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "dry",
+  "current": "ㄉㄌㄞ",
+  "suggested": "ㄉㄦㄞ",
+  "type": "consonant",
+  "reason": "dr 中 r 為 ㄦ"
+ },
+ {
+  "word": "trust",
+  "current": "ㄉㄌㄚㄙㄊ",
+  "suggested": "ㄊㄦㄚㄙㄊ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "triple",
+  "current": "ㄊㄌㄧ-ㄆㄜ",
+  "suggested": "ㄊㄦㄧ-ㄆㄜ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "drum",
+  "current": "ㄉㄖㄚㄇ",
+  "suggested": "ㄉㄦㄚㄇ",
+  "type": "consonant",
+  "reason": "dr 中 r 統一 ㄦ"
+ },
+ {
+  "word": "dream",
+  "current": "ㄉㄌㄧㄇ",
+  "suggested": "ㄉㄦㄧㄇ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "drink",
+  "current": "ㄉㄖㄧㄣㄎ",
+  "suggested": "ㄉㄦㄧㄣㄎ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "drive",
+  "current": "ㄉㄌㄞㄈ",
+  "suggested": "ㄉㄦㄞㄈ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "drop",
+  "current": "ㄉㄌㄚㄆ",
+  "suggested": "ㄉㄦㄚㄆ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "drawer",
+  "current": "ㄉㄌㄛㄜ",
+  "suggested": "ㄉㄦㄛㄜ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "drizzle",
+  "current": "ㄉㄌㄧ-ㄗㄜ",
+  "suggested": "ㄉㄦㄧ-ㄗㄜ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "drought",
+  "current": "ㄉㄌㄠㄊ",
+  "suggested": "ㄉㄦㄠㄊ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "dresser",
+  "current": "ㄉㄌㄝ-ㄙㄜ",
+  "suggested": "ㄉㄦㄝ-ㄙㄜ",
+  "type": "consonant",
+  "reason": "dr 為 ㄉㄦ"
+ },
+ {
+  "word": "mattress",
+  "current": "ㄇㄚ-ㄊㄌㄝㄙ",
+  "suggested": "ㄇㄚ-ㄊㄦㄝㄙ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "actress",
+  "current": "ㄚㄎ-ㄊㄌㄝㄙ",
+  "suggested": "ㄚㄎ-ㄊㄦㄝㄙ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "electrician",
+  "current": "ㄧ-ㄌㄝㄎ-ㄊㄌㄧ-ㄒㄢ",
+  "suggested": "ㄧ-ㄌㄝㄎ-ㄊㄦㄧ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "tr 為 ㄊㄦ;-cian 弱讀"
+ },
+ {
+  "word": "musician",
+  "current": "ㄇㄧㄨ-ㄗㄧ-ㄒㄢ",
+  "suggested": "ㄇㄧㄨ-ㄗㄧ-ㄒㄜㄣ",
+  "type": "schwa",
+  "reason": "-cian 弱讀"
+ },
+ {
+  "word": "orchestra",
+  "current": "ㄛㄦ-ㄎㄝㄙ-ㄊㄌㄚ",
+  "suggested": "ㄛㄦ-ㄎㄝㄙ-ㄊㄦㄚ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "extra",
+  "current": "ㄝㄎㄙ-ㄊㄌㄚ",
+  "suggested": "ㄝㄎㄙ-ㄊㄦㄚ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "country",
+  "current": "ㄎㄢ-ㄊㄌㄧ",
+  "suggested": "ㄎㄚㄣ-ㄊㄦㄧ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "trophy",
+  "current": "ㄊㄌㄛ-ㄈㄧ",
+  "suggested": "ㄊㄦㄛ-ㄈㄧ",
+  "type": "consonant",
+  "reason": "tr 為 ㄊㄦ"
+ },
+ {
+  "word": "stream",
+  "current": "ㄙㄉㄌㄧㄇ",
+  "suggested": "ㄙㄊㄦㄧㄇ",
+  "type": "consonant",
+  "reason": "str 為 ㄙㄊㄦ"
+ },
+ {
+  "word": "crystal",
+  "current": "ㄎㄌㄧㄙ-ㄊㄜ",
+  "suggested": "ㄎㄦㄧㄙ-ㄊㄜ",
+  "type": "consonant",
+  "reason": "cr 中 r 為 ㄦ"
+ },
+ {
+  "word": "creek",
+  "current": "ㄎㄌㄧㄎ",
+  "suggested": "ㄎㄦㄧㄎ",
+  "type": "consonant",
+  "reason": "cr 為 ㄎㄦ"
+ },
+ {
+  "word": "cream",
+  "current": "ㄎㄌㄧㄇ",
+  "suggested": "ㄎㄦㄧㄇ",
+  "type": "consonant",
+  "reason": "cr 為 ㄎㄦ"
+ },
+ {
+  "word": "crab",
+  "current": "ㄎㄌㄚㄅ",
+  "suggested": "ㄎㄦㄚㄅ",
+  "type": "consonant",
+  "reason": "cr 為 ㄎㄦ"
+ },
+ {
+  "word": "crocodile",
+  "current": "ㄎㄌㄚ-ㄎㄜ-ㄉㄞㄦ",
+  "suggested": "ㄎㄦㄚ-ㄎㄜ-ㄉㄞㄦ",
+  "type": "consonant",
+  "reason": "cr 為 ㄎㄦ"
+ },
+ {
+  "word": "cricket",
+  "current": "ㄎㄌㄧ-ㄎㄝㄊ",
+  "suggested": "ㄎㄦㄧ-ㄎㄜㄊ",
+  "type": "schwa",
+  "reason": "cr 為 ㄎㄦ;-ket schwa"
+ },
+ {
+  "word": "clarinet",
+  "current": "ㄎㄌㄝ-ㄌㄜ-ㄋㄝㄊ",
+  "suggested": "ㄎㄌㄝ-ㄖㄜ-ㄋㄝㄊ",
+  "type": "consonant",
+  "reason": "-ri- 中 r 為 ㄖ"
+ },
+ {
+  "word": "library",
+  "current": "ㄌㄞ-ㄅㄌㄝ-ㄌㄧ",
+  "suggested": "ㄌㄞ-ㄅㄦㄝ-ㄦㄧ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ;-ry r 為 ㄖ/ㄦ"
+ },
+ {
+  "word": "librarian",
+  "current": "ㄌㄞ-ㄅㄌㄝ-ㄌㄧ-ㄢ",
+  "suggested": "ㄌㄞ-ㄅㄦㄝ-ㄖㄧ-ㄜㄣ",
+  "type": "schwa",
+  "reason": "br 為 ㄅㄦ;-an schwa"
+ },
+ {
+  "word": "pretty",
+  "current": "ㄆㄌㄝ-ㄊㄧ",
+  "suggested": "ㄆㄦㄧ-ㄊㄧ",
+  "type": "consonant",
+  "reason": "pr 為 ㄆㄦ"
+ },
+ {
+  "word": "price",
+  "current": "ㄆㄖㄞㄙ",
+  "suggested": "ㄆㄦㄞㄙ",
+  "type": "consonant",
+  "reason": "pr 為 ㄆㄦ"
+ },
+ {
+  "word": "professor",
+  "current": "ㄆㄜ-ㄈㄝ-ㄙㄜ",
+  "suggested": "ㄆㄦㄜ-ㄈㄝ-ㄙㄜ",
+  "type": "consonant",
+  "reason": "pro- 中 r 為 ㄦ"
+ },
+ {
+  "word": "producer",
+  "current": "ㄆㄜ-ㄉㄧㄨ-ㄙㄜ",
+  "suggested": "ㄆㄦㄜ-ㄉㄨ-ㄙㄜ",
+  "type": "consonant",
+  "reason": "pro- r 為 ㄦ"
+ },
+ {
+  "word": "project",
+  "current": "ㄆㄌㄚ-ㄐㄝㄎㄊ",
+  "suggested": "ㄆㄦㄚ-ㄐㄝㄎㄊ",
+  "type": "consonant",
+  "reason": "pr 為 ㄆㄦ"
+ },
+ {
+  "word": "programmer",
+  "current": "ㄆㄌㄛ-ㄍㄌㄚ-ㄇㄜ",
+  "suggested": "ㄆㄦㄛ-ㄍㄦㄚ-ㄇㄜ",
+  "type": "consonant",
+  "reason": "pr/gr 為 ㄆㄦ/ㄍㄦ"
+ },
+ {
+  "word": "proud",
+  "current": "ㄆㄌㄠㄉ",
+  "suggested": "ㄆㄦㄠㄉ",
+  "type": "consonant",
+  "reason": "pr 為 ㄆㄦ"
+ },
+ {
+  "word": "principal",
+  "current": "ㄆㄌㄧㄣ-ㄙㄜ-ㄆㄜ",
+  "suggested": "ㄆㄦㄧㄣ-ㄙㄜ-ㄆㄜ",
+  "type": "consonant",
+  "reason": "pr 為 ㄆㄦ"
+ },
+ {
+  "word": "surprised",
+  "current": "ㄙㄜ-ㄆㄌㄞㄗㄉ",
+  "suggested": "ㄙㄦ-ㄆㄦㄞㄗㄉ",
+  "type": "consonant",
+  "reason": "sur- 為 ㄙㄦ;pr 為 ㄆㄦ"
+ },
+ {
+  "word": "break",
+  "current": "ㄅㄌㄟㄎ",
+  "suggested": "ㄅㄦㄟㄎ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "breakfast",
+  "current": "ㄅㄖㄝㄎ-ㄈㄜㄙㄊ",
+  "suggested": "ㄅㄦㄝㄎ-ㄈㄜㄙㄊ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "bread",
+  "current": "ㄅㄖㄝㄉ",
+  "suggested": "ㄅㄦㄝㄉ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "brain",
+  "current": "ㄅㄌㄟㄣ",
+  "suggested": "ㄅㄦㄟㄣ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "brave",
+  "current": "ㄅㄌㄟㄈ",
+  "suggested": "ㄅㄦㄟㄈ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "bring",
+  "current": "ㄅㄌㄧㄥ",
+  "suggested": "ㄅㄦㄧㄥ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "brother",
+  "current": "ㄅㄖㄚ-ㄉㄜ",
+  "suggested": "ㄅㄦㄚ-ㄉㄜ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "brown",
+  "current": "ㄅㄖㄠㄣ",
+  "suggested": "ㄅㄦㄠㄣ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "brush",
+  "current": "ㄅㄖㄚㄒ",
+  "suggested": "ㄅㄦㄚㄒ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "breeze",
+  "current": "ㄅㄌㄧㄗ",
+  "suggested": "ㄅㄦㄧㄗ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "broccoli",
+  "current": "ㄅㄖㄚ-ㄎㄛ-ㄌㄧ",
+  "suggested": "ㄅㄦㄚ-ㄎㄜ-ㄌㄧ",
+  "type": "schwa",
+  "reason": "-co- 弱讀 schwa"
+ },
+ {
+  "word": "bright",
+  "current": "ㄅㄌㄞㄊ",
+  "suggested": "ㄅㄦㄞㄊ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "brownie",
+  "current": "ㄅㄖㄠ-ㄋㄧ",
+  "suggested": "ㄅㄦㄠ-ㄋㄧ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "broth",
+  "current": "ㄅㄌㄚㄙ",
+  "suggested": "ㄅㄦㄚㄙ",
+  "type": "consonant",
+  "reason": "br 為 ㄅㄦ"
+ },
+ {
+  "word": "green",
+  "current": "ㄍㄖㄧㄣ",
+  "suggested": "ㄍㄦㄧㄣ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "grape",
+  "current": "ㄍㄖㄟㄆ",
+  "suggested": "ㄍㄦㄟㄆ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "grass",
+  "current": "ㄍㄖㄝㄙ",
+  "suggested": "ㄍㄦㄝㄙ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "great",
+  "current": "ㄍㄌㄟㄊ",
+  "suggested": "ㄍㄦㄟㄊ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "grade",
+  "current": "ㄍㄌㄟㄉ",
+  "suggested": "ㄍㄦㄟㄉ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "grain",
+  "current": "ㄍㄌㄟㄣ",
+  "suggested": "ㄍㄦㄟㄣ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "grammar",
+  "current": "ㄍㄌㄚ-ㄇㄜ",
+  "suggested": "ㄍㄦㄚ-ㄇㄜ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "grateful",
+  "current": "ㄍㄌㄟㄊ-ㄈㄨㄦ",
+  "suggested": "ㄍㄦㄟㄊ-ㄈㄨㄦ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "gray",
+  "current": "ㄍㄌㄟ",
+  "suggested": "ㄍㄦㄟ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "group",
+  "current": "ㄍㄌㄨㄆ",
+  "suggested": "ㄍㄦㄨㄆ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "angry",
+  "current": "ㄝㄣ-ㄍㄖㄧ",
+  "suggested": "ㄝㄣ-ㄍㄦㄧ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "degree",
+  "current": "ㄉㄧ-ㄍㄌㄧ",
+  "suggested": "ㄉㄧ-ㄍㄦㄧ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "fries",
+  "current": "ㄈㄌㄞㄗ",
+  "suggested": "ㄈㄦㄞㄗ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "fresh",
+  "current": "ㄈㄌㄝㄒ",
+  "suggested": "ㄈㄦㄝㄒ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "free",
+  "current": "ㄈㄌㄧ",
+  "suggested": "ㄈㄦㄧ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "frog",
+  "current": "ㄈㄖㄚㄍ",
+  "suggested": "ㄈㄦㄚㄍ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "friend",
+  "current": "ㄈㄖㄝㄣㄉ",
+  "suggested": "ㄈㄦㄝㄣㄉ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "friendly",
+  "current": "ㄈㄌㄝㄣ-ㄌㄧ",
+  "suggested": "ㄈㄦㄝㄣ-ㄌㄧ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "front",
+  "current": "ㄈㄖㄚㄣㄊ",
+  "suggested": "ㄈㄦㄚㄣㄊ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "from",
+  "current": "ㄈㄌㄚㄇ",
+  "suggested": "ㄈㄦㄚㄇ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "frame",
+  "current": "ㄈㄌㄟㄇ",
+  "suggested": "ㄈㄦㄟㄇ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "flamingo",
+  "current": "ㄈㄌㄚ-ㄇㄧㄥ-ㄍㄛ",
+  "suggested": "ㄈㄌㄜ-ㄇㄧㄥ-ㄍㄛ",
+  "type": "schwa",
+  "reason": "fla- 弱讀 schwa"
+ },
+ {
+  "word": "frost",
+  "current": "ㄈㄌㄚㄙㄊ",
+  "suggested": "ㄈㄦㄚㄙㄊ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "frown",
+  "current": "ㄈㄌㄠㄣ",
+  "suggested": "ㄈㄦㄠㄣ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "freezing",
+  "current": "ㄈㄌㄧ-ㄗㄧㄥ",
+  "suggested": "ㄈㄦㄧ-ㄗㄧㄥ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "afraid",
+  "current": "ㄚ-ㄈㄌㄟㄉ",
+  "suggested": "ㄚ-ㄈㄦㄟㄉ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "friday",
+  "current": "ㄈㄌㄞ-ㄉㄟ",
+  "suggested": "ㄈㄦㄞ-ㄉㄟ",
+  "type": "consonant",
+  "reason": "fr 為 ㄈㄦ"
+ },
+ {
+  "word": "scream",
+  "current": "ㄙㄎㄌㄧㄇ",
+  "suggested": "ㄙㄎㄦㄧㄇ",
+  "type": "consonant",
+  "reason": "scr 為 ㄙㄎㄦ"
+ },
+ {
+  "word": "square",
+  "current": "ㄙㄎㄨㄟㄦ",
+  "suggested": "ㄙㄎㄨㄝㄜ",
+  "type": "vowel",
+  "reason": "-uare 為 /weər/,結尾 schwa"
+ },
+ {
+  "word": "squirrel",
+  "current": "ㄙㄎㄨㄦ-ㄦ",
+  "suggested": "ㄙㄎㄨㄦ-ㄜㄦ",
+  "type": "schwa",
+  "reason": "-rel schwa+l"
+ },
+ {
+  "word": "strong",
+  "current": "ㄙㄉㄌㄚㄥ",
+  "suggested": "ㄙㄊㄦㄚㄥ",
+  "type": "consonant",
+  "reason": "str 為 ㄙㄊㄦ"
+ },
+ {
+  "word": "spring",
+  "current": "ㄙㄆㄌㄧㄥ",
+  "suggested": "ㄙㄆㄦㄧㄥ",
+  "type": "consonant",
+  "reason": "spr 為 ㄙㄆㄦ"
+ },
+ {
+  "word": "shrimp",
+  "current": "ㄒㄌㄧㄇㄆ",
+  "suggested": "ㄒㄦㄧㄇㄆ",
+  "type": "consonant",
+  "reason": "shr 為 ㄒㄦ"
+ },
+ {
+  "word": "classical",
+  "current": "ㄎㄌㄚ-ㄒㄜ-ㄎㄜ",
+  "suggested": "ㄎㄌㄚ-ㄙㄜ-ㄎㄜ",
+  "type": "consonant",
+  "reason": "-ssi- 為 ㄙ"
+ },
+ {
+  "word": "classroom",
+  "current": "ㄎㄌㄚㄙ-ㄌㄨㄣ",
+  "suggested": "ㄎㄌㄚㄙ-ㄖㄨㄇ",
+  "type": "consonant",
+  "reason": "room 為 ㄖㄨㄇ"
+ },
+ {
+  "word": "clerk",
+  "current": "ㄎㄌㄜㄎ",
+  "suggested": "ㄎㄌㄦㄎ",
+  "type": "vowel",
+  "reason": "-erk 為 ㄦ"
+ },
+ {
+  "word": "climate",
+  "current": "ㄎㄌㄞ-ㄇㄝㄊ",
+  "suggested": "ㄎㄌㄞ-ㄇㄜㄊ",
+  "type": "schwa",
+  "reason": "-mate 弱讀 schwa"
+ },
+ {
+  "word": "playground",
+  "current": "ㄆㄌㄟ-ㄍㄌㄠㄣㄉ",
+  "suggested": "ㄆㄌㄟ-ㄍㄦㄠㄣㄉ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "background",
+  "current": "ㄅㄚㄎ-ㄍㄌㄠㄣㄉ",
+  "suggested": "ㄅㄚㄎ-ㄍㄦㄠㄣㄉ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "underground",
+  "current": "ㄚㄣ-ㄉㄜ-ㄍㄌㄠㄣㄉ",
+  "suggested": "ㄚㄣ-ㄉㄜ-ㄍㄦㄠㄣㄉ",
+  "type": "consonant",
+  "reason": "gr 為 ㄍㄦ"
+ },
+ {
+  "word": "scarf",
+  "current": "ㄙㄎㄚㄈ",
+  "suggested": "ㄙㄎㄚㄦㄈ",
+  "type": "consonant",
+  "reason": "-arf 為 ㄚㄦㄈ"
+ },
+ {
+  "word": "scared",
+  "current": "ㄙㄎㄟㄦㄉ",
+  "suggested": "ㄙㄎㄝㄜㄉ",
+  "type": "vowel",
+  "reason": "scare 為 /skeər/,結尾 schwa"
+ },
+ {
+  "word": "skirt",
+  "current": "ㄙㄎㄜㄦㄊ",
+  "suggested": "ㄙㄎㄦㄊ",
+  "type": "vowel",
+  "reason": "-irt 為 ㄦㄊ"
+ },
+ {
+  "word": "serious",
+  "current": "ㄒㄧ-ㄌㄧㄚㄙ",
+  "suggested": "ㄒㄧ-ㄖㄧㄜㄙ",
+  "type": "schwa",
+  "reason": "-ous 弱讀 schwa;r 為 ㄖ"
+ },
+ {
+  "word": "nervous",
+  "current": "ㄋㄜ-ㄈㄜㄙ",
+  "suggested": "ㄋㄦ-ㄈㄜㄙ",
+  "type": "vowel",
+  "reason": "ner- 為 ㄋㄦ"
+ },
+ {
+  "word": "garage",
+  "current": "ㄍㄜ-ㄌㄚㄐ",
+  "suggested": "ㄍㄜ-ㄖㄚㄐ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "luggage",
+  "current": "ㄌㄚ-ㄍㄧㄐ",
+  "suggested": "ㄌㄚ-ㄍㄜㄐ",
+  "type": "schwa",
+  "reason": "-gage 弱讀 schwa"
+ },
+ {
+  "word": "manager",
+  "current": "ㄇㄚ-ㄋㄚ-ㄐㄜ",
+  "suggested": "ㄇㄚ-ㄋㄜ-ㄐㄜ",
+  "type": "schwa",
+  "reason": "-na- 弱讀 schwa"
+ },
+ {
+  "word": "academy",
+  "current": "ㄚ-ㄎㄚ-ㄉㄜ-ㄇㄧ",
+  "suggested": "ㄜ-ㄎㄚ-ㄉㄜ-ㄇㄧ",
+  "type": "schwa",
+  "reason": "a- 弱讀 schwa"
+ },
+ {
+  "word": "alphabet",
+  "current": "ㄚㄦ-ㄈㄚ-ㄅㄝㄊ",
+  "suggested": "ㄚㄦ-ㄈㄜ-ㄅㄝㄊ",
+  "type": "schwa",
+  "reason": "-pha- 弱讀 schwa"
+ },
+ {
+  "word": "marathon",
+  "current": "ㄇㄝ-ㄌㄜ-ㄙㄢ",
+  "suggested": "ㄇㄝ-ㄦㄜ-ㄙㄢ",
+  "type": "consonant",
+  "reason": "-ra- r 為 ㄦ"
+ },
+ {
+  "word": "hurricane",
+  "current": "ㄏㄜ-ㄌㄧ-ㄎㄟㄣ",
+  "suggested": "ㄏㄦ-ㄦㄧ-ㄎㄟㄣ",
+  "type": "vowel",
+  "reason": "hur- 為 ㄏㄦ;-ri- r 為 ㄦ"
+ },
+ {
+  "word": "saturday",
+  "current": "ㄙㄚ-ㄊㄜ-ㄉㄟ",
+  "suggested": "ㄙㄚ-ㄊㄦ-ㄉㄟ",
+  "type": "vowel",
+  "reason": "-tur- 為 ㄊㄦ"
+ },
+ {
+  "word": "future",
+  "current": "ㄈㄧㄨ-ㄑㄜ",
+  "suggested": "ㄈㄧㄨ-ㄔㄜ",
+  "type": "consonant",
+  "reason": "-ture 中 t 為 ㄔ(ch 音)"
+ },
+ {
+  "word": "lecture",
+  "current": "ㄌㄝㄎ-ㄑㄜ",
+  "suggested": "ㄌㄝㄎ-ㄔㄜ",
+  "type": "consonant",
+  "reason": "-ture 為 ㄔㄜ"
+ },
+ {
+  "word": "temperature",
+  "current": "ㄊㄣ-ㄆㄜ-ㄌㄚ-ㄑㄜ",
+  "suggested": "ㄊㄝㄇ-ㄆㄜ-ㄦㄜ-ㄔㄜ",
+  "type": "schwa",
+  "reason": "tem- 漏 ㄝㄇ;-ra- r 為 ㄦ;-ture ㄔㄜ"
+ },
+ {
+  "word": "director",
+  "current": "ㄉㄜ-ㄌㄝㄎ-ㄊㄜ",
+  "suggested": "ㄉㄜ-ㄦㄝㄎ-ㄊㄜ",
+  "type": "consonant",
+  "reason": "-rec- r 為 ㄦ"
+ },
+ {
+  "word": "earth",
+  "current": "ㄜㄦㄙ",
+  "suggested": "ㄦㄙ",
+  "type": "vowel",
+  "reason": "earth 為 /ɜːrθ/,單一音節 ㄦ"
+ },
+ {
+  "word": "earthquake",
+  "current": "ㄜㄙ-ㄎㄨㄝㄎ",
+  "suggested": "ㄦㄙ-ㄎㄨㄝㄎ",
+  "type": "vowel",
+  "reason": "earth 為 ㄦㄙ"
+ },
+ {
+  "word": "hopeful",
+  "current": "ㄏㄛㄆ-ㄈㄨㄦ",
+  "suggested": "ㄏㄛㄆ-ㄈㄜㄦ",
+  "type": "schwa",
+  "reason": "-ful 弱讀 schwa+ㄦ"
+ },
+ {
+  "word": "beautiful",
+  "current": "ㄅㄧㄨ-ㄊㄧ-ㄈㄨㄦ",
+  "suggested": "ㄅㄧㄨ-ㄊㄜ-ㄈㄜㄦ",
+  "type": "schwa",
+  "reason": "-ti- 弱讀 schwa;-ful schwa"
+ },
+ {
+  "word": "era",
+  "current": "ㄝ-ㄌㄚ",
+  "suggested": "ㄝ-ㄦㄚ",
+  "type": "consonant",
+  "reason": "r 為 ㄦ"
+ },
+ {
+  "word": "lyrics",
+  "current": "ㄌㄧ-ㄌㄧㄎㄙ",
+  "suggested": "ㄌㄧ-ㄦㄧㄎㄙ",
+  "type": "consonant",
+  "reason": "-ri- r 為 ㄦ"
+ },
+ {
+  "word": "chorus",
+  "current": "ㄎㄛ-ㄌㄜㄙ",
+  "suggested": "ㄎㄛ-ㄦㄜㄙ",
+  "type": "consonant",
+  "reason": "-rus r 為 ㄦ"
+ },
+ {
+  "word": "opera",
+  "current": "ㄚ-ㄆㄜ-ㄌㄚ",
+  "suggested": "ㄚ-ㄆㄜ-ㄦㄜ",
+  "type": "schwa",
+  "reason": "-ra 為 schwa+ㄦ"
+ },
+ {
+  "word": "rapper",
+  "current": "ㄌㄚ-ㄆㄜ",
+  "suggested": "ㄖㄚ-ㄆㄜ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "calendar",
+  "current": "ㄎㄚ-ㄌㄣ-ㄉㄜ",
+  "suggested": "ㄎㄚ-ㄌㄜㄣ-ㄉㄜ",
+  "type": "schwa",
+  "reason": "-len- schwa"
+ },
+ {
+  "word": "rather",
+  "current": "ㄌㄚ-ㄉㄜ",
+  "suggested": "ㄖㄚ-ㄉㄜ",
+  "type": "consonant",
+  "reason": "r 為 ㄖ"
+ },
+ {
+  "word": "every",
+  "current": "ㄝㄈ-ㄌㄧ",
+  "suggested": "ㄝ-ㄈㄦㄧ",
+  "type": "consonant",
+  "reason": "-very r 為 ㄦ"
+ },
+ {
+  "word": "everything",
+  "current": "ㄝㄈ-ㄌㄧ-ㄙㄧㄥ",
+  "suggested": "ㄝ-ㄈㄦㄧ-ㄙㄧㄥ",
+  "type": "consonant",
+  "reason": "-very r 為 ㄦ"
+ },
+ {
+  "word": "everywhere",
+  "current": "ㄝㄈ-ㄌㄧ-ㄨㄝㄜ",
+  "suggested": "ㄝ-ㄈㄦㄧ-ㄨㄝㄜ",
+  "type": "consonant",
+  "reason": "-very r 為 ㄦ"
+ },
+ {
+  "word": "battery",
+  "current": "ㄅㄝ-ㄊㄜ-ㄖㄧ",
+  "suggested": "ㄅㄝ-ㄊㄜ-ㄦㄧ",
+  "type": "consonant",
+  "reason": "-ry r 為 ㄦ"
+ },
+ {
+  "word": "secretary",
+  "current": "ㄙㄝㄎ-ㄌㄜ-ㄊㄝ-ㄌㄧ",
+  "suggested": "ㄙㄝㄎ-ㄦㄜ-ㄊㄝ-ㄦㄧ",
+  "type": "consonant",
+  "reason": "-re- r 為 ㄦ"
+ },
+ {
+  "word": "archery",
+  "current": "ㄚㄦ-ㄑㄜ-ㄌㄧ",
+  "suggested": "ㄚㄦ-ㄔㄜ-ㄦㄧ",
+  "type": "consonant",
+  "reason": "-ch ㄔ;-ry ㄦ"
+ },
+ {
+  "word": "anniversary",
+  "current": "ㄢ-ㄋㄧ-ㄈㄜ-ㄙㄚ-ㄌㄧ",
+  "suggested": "ㄢ-ㄋㄧ-ㄈㄦ-ㄙㄜ-ㄦㄧ",
+  "type": "schwa",
+  "reason": "-sa- schwa;ver ㄈㄦ;-ry ㄦ"
+ },
+ {
+  "word": "january",
+  "current": "ㄐㄢ-ㄧㄨ-ㄝ-ㄌㄧ",
+  "suggested": "ㄐㄢ-ㄧㄨ-ㄝ-ㄦㄧ",
+  "type": "consonant",
+  "reason": "-ry r 為 ㄦ"
+ },
+ {
+  "word": "ivory",
+  "current": "ㄞ-ㄈㄛ-ㄌㄧ",
+  "suggested": "ㄞ-ㄈㄜ-ㄦㄧ",
+  "type": "schwa",
+  "reason": "-vo- schwa;-ry ㄦ"
+ },
+ {
+  "word": "yogurt",
+  "current": "ㄧㄛ-ㄍㄜㄊ",
+  "suggested": "ㄧㄛ-ㄍㄦㄊ",
+  "type": "vowel",
+  "reason": "-gurt 為 ㄍㄦㄊ"
+ },
+ {
+  "word": "burger",
+  "current": "ㄅㄜ-ㄍㄜ",
+  "suggested": "ㄅㄦ-ㄍㄜ",
+  "type": "vowel",
+  "reason": "bur- 為 ㄅㄦ"
+ },
+ {
+  "word": "burrito",
+  "current": "ㄅㄜ-ㄌㄧ-ㄊㄛ",
+  "suggested": "ㄅㄦ-ㄦㄧ-ㄊㄛ",
+  "type": "vowel",
+  "reason": "bur- 為 ㄅㄦ;-ri- r 為 ㄦ"
+ },
+ {
+  "word": "turtle",
+  "current": "ㄊㄜ-ㄉㄜ",
+  "suggested": "ㄊㄦ-ㄉㄜ",
+  "type": "vowel",
+  "reason": "tur- 為 ㄊㄦ"
+ },
+ {
+  "word": "surfing",
+  "current": "ㄙㄜㄈ-ㄧㄥ",
+  "suggested": "ㄙㄦㄈ-ㄧㄥ",
+  "type": "vowel",
+  "reason": "sur- 為 ㄙㄦ"
+ },
+ {
+  "word": "perform",
+  "current": "ㄆㄜ-ㄈㄛㄦㄇ",
+  "suggested": "ㄆㄦ-ㄈㄛㄦㄇ",
+  "type": "vowel",
+  "reason": "per- 為 ㄆㄦ"
+ },
+ {
+  "word": "percent",
+  "current": "ㄆㄜ-ㄙㄝㄣㄊ",
+  "suggested": "ㄆㄦ-ㄙㄝㄣㄊ",
+  "type": "vowel",
+  "reason": "per- 為 ㄆㄦ"
+ },
+ {
+  "word": "concert",
+  "current": "ㄎㄚㄣ-ㄙㄜㄊ",
+  "suggested": "ㄎㄚㄣ-ㄙㄦㄊ",
+  "type": "vowel",
+  "reason": "-cert 為 ㄙㄦㄊ"
+ },
+ {
+  "word": "dessert",
+  "current": "ㄉㄜ-ㄗㄜㄦㄊ",
+  "suggested": "ㄉㄜ-ㄗㄦㄊ",
+  "type": "vowel",
+  "reason": "-sert 為 ㄗㄦㄊ"
+ },
+ {
+  "word": "desert",
+  "current": "ㄉㄝ-ㄗㄜㄊ",
+  "suggested": "ㄉㄝ-ㄗㄦㄊ",
+  "type": "vowel",
+  "reason": "-sert 為 ㄗㄦㄊ"
+ }
+]

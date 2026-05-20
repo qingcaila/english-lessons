@@ -1,0 +1,2179 @@
+[
+  {
+    "word": "two",
+    "current": [
+      "tw",
+      "o"
+    ],
+    "suggested": [
+      "two"
+    ],
+    "reason": "'tw' 不是發音 onset(w silent),拆 tw+o 誤導學習者把 w 念出;單音節 sight word 應整塊"
+  },
+  {
+    "word": "eight",
+    "current": [
+      "eigh",
+      "t"
+    ],
+    "suggested": [
+      "eight"
+    ],
+    "reason": "eigh 是 vowel team /eɪ/,t 是尾音不該獨立成 chunk;單音節整塊"
+  },
+  {
+    "word": "egg",
+    "current": [
+      "e",
+      "gg"
+    ],
+    "suggested": [
+      "egg"
+    ],
+    "reason": "母音開頭、無 onset,應整塊(類似 arm)"
+  },
+  {
+    "word": "and",
+    "current": [
+      "a",
+      "nd"
+    ],
+    "suggested": [
+      "and"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "is",
+    "current": [
+      "i",
+      "s"
+    ],
+    "suggested": [
+      "is"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "it",
+    "current": [
+      "i",
+      "t"
+    ],
+    "suggested": [
+      "it"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "at",
+    "current": [
+      "a",
+      "t"
+    ],
+    "suggested": [
+      "at"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "of",
+    "current": [
+      "o",
+      "f"
+    ],
+    "suggested": [
+      "of"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "as",
+    "current": [
+      "a",
+      "s"
+    ],
+    "suggested": [
+      "as"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "or",
+    "current": [
+      "o",
+      "r"
+    ],
+    "suggested": [
+      "or"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "if",
+    "current": [
+      "i",
+      "f"
+    ],
+    "suggested": [
+      "if"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "am",
+    "current": [
+      "a",
+      "m"
+    ],
+    "suggested": [
+      "am"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "us",
+    "current": [
+      "u",
+      "s"
+    ],
+    "suggested": [
+      "us"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "an",
+    "current": [
+      "a",
+      "n"
+    ],
+    "suggested": [
+      "an"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "its",
+    "current": [
+      "i",
+      "ts"
+    ],
+    "suggested": [
+      "its"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "our",
+    "current": [
+      "o",
+      "ur"
+    ],
+    "suggested": [
+      "our"
+    ],
+    "reason": "母音開頭、our r-controlled vowel team,應整塊"
+  },
+  {
+    "word": "ice",
+    "current": [
+      "i",
+      "ce"
+    ],
+    "suggested": [
+      "ice"
+    ],
+    "reason": "母音開頭 silent-e 結構,應整塊"
+  },
+  {
+    "word": "add",
+    "current": [
+      "a",
+      "dd"
+    ],
+    "suggested": [
+      "add"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "all",
+    "current": [
+      "a",
+      "ll"
+    ],
+    "suggested": [
+      "all"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "end",
+    "current": [
+      "e",
+      "nd"
+    ],
+    "suggested": [
+      "end"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "eat",
+    "current": [
+      "e",
+      "at"
+    ],
+    "suggested": [
+      "eat"
+    ],
+    "reason": "母音開頭、ea vowel team,應整塊"
+  },
+  {
+    "word": "out",
+    "current": [
+      "o",
+      "ut"
+    ],
+    "suggested": [
+      "out"
+    ],
+    "reason": "母音開頭、ou vowel team,應整塊"
+  },
+  {
+    "word": "old",
+    "current": [
+      "o",
+      "ld"
+    ],
+    "suggested": [
+      "old"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "ask",
+    "current": [
+      "a",
+      "sk"
+    ],
+    "suggested": [
+      "ask"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "off",
+    "current": [
+      "o",
+      "ff"
+    ],
+    "suggested": [
+      "off"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "oil",
+    "current": [
+      "o",
+      "il"
+    ],
+    "suggested": [
+      "oil"
+    ],
+    "reason": "母音開頭、oi vowel team,應整塊"
+  },
+  {
+    "word": "use",
+    "current": [
+      "u",
+      "se"
+    ],
+    "suggested": [
+      "use"
+    ],
+    "reason": "母音開頭 silent-e 結構,應整塊"
+  },
+  {
+    "word": "each",
+    "current": [
+      "ea",
+      "ch"
+    ],
+    "suggested": [
+      "each"
+    ],
+    "reason": "ea vowel team + ch digraph 尾音,單音節整塊"
+  },
+  {
+    "word": "ant",
+    "current": [
+      "a",
+      "nt"
+    ],
+    "suggested": [
+      "ant"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "owl",
+    "current": [
+      "o",
+      "wl"
+    ],
+    "suggested": [
+      "owl"
+    ],
+    "reason": "ow vowel team,不可拆"
+  },
+  {
+    "word": "oats",
+    "current": [
+      "o",
+      "ats"
+    ],
+    "suggested": [
+      "oats"
+    ],
+    "reason": "母音開頭、oa vowel team,應整塊"
+  },
+  {
+    "word": "ash",
+    "current": [
+      "a",
+      "sh"
+    ],
+    "suggested": [
+      "ash"
+    ],
+    "reason": "母音開頭、sh digraph 尾,應整塊"
+  },
+  {
+    "word": "air",
+    "current": [
+      "a",
+      "ir"
+    ],
+    "suggested": [
+      "air"
+    ],
+    "reason": "母音開頭、air r-controlled vowel team,應整塊"
+  },
+  {
+    "word": "are",
+    "current": [
+      "a",
+      "re"
+    ],
+    "suggested": [
+      "are"
+    ],
+    "reason": "母音開頭、r-controlled,應整塊"
+  },
+  {
+    "word": "ex",
+    "current": [
+      "e",
+      "x"
+    ],
+    "suggested": [
+      "ex"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "inn",
+    "current": [
+      "i",
+      "nn"
+    ],
+    "suggested": [
+      "inn"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "earn",
+    "current": [
+      "e",
+      "arn"
+    ],
+    "suggested": [
+      "earn"
+    ],
+    "reason": "ear r-controlled vowel team,應整塊"
+  },
+  {
+    "word": "east",
+    "current": [
+      "e",
+      "ast"
+    ],
+    "suggested": [
+      "east"
+    ],
+    "reason": "母音開頭、ea vowel team,單音節整塊"
+  },
+  {
+    "word": "earth",
+    "current": [
+      "ear",
+      "th"
+    ],
+    "suggested": [
+      "earth"
+    ],
+    "reason": "ear vowel team + th 尾音,單音節應整塊"
+  },
+  {
+    "word": "edge",
+    "current": [
+      "e",
+      "dge"
+    ],
+    "suggested": [
+      "edge"
+    ],
+    "reason": "母音開頭、dge trigraph,單音節應整塊"
+  },
+  {
+    "word": "aisle",
+    "current": [
+      "a",
+      "isle"
+    ],
+    "suggested": [
+      "aisle"
+    ],
+    "reason": "a 不發音,單音節應整塊"
+  },
+  {
+    "word": "orange",
+    "current": [
+      "o",
+      "range"
+    ],
+    "suggested": [
+      "or",
+      "ange"
+    ],
+    "reason": "音節邊界錯;第一音節是 or /ɔːr/,正確 or-ange"
+  },
+  {
+    "word": "oven",
+    "current": [
+      "o",
+      "ven"
+    ],
+    "suggested": [
+      "ov",
+      "en"
+    ],
+    "reason": "短 o /ʌ/ 應與後續 v 同音節:ov-en"
+  },
+  {
+    "word": "olive",
+    "current": [
+      "o",
+      "live"
+    ],
+    "suggested": [
+      "ol",
+      "ive"
+    ],
+    "reason": "短 o 應與 l 同音節:ol-ive"
+  },
+  {
+    "word": "other",
+    "current": [
+      "o",
+      "ther"
+    ],
+    "suggested": [
+      "oth",
+      "er"
+    ],
+    "reason": "短 o + th digraph 同音節:oth-er"
+  },
+  {
+    "word": "another",
+    "current": [
+      "a",
+      "no",
+      "ther"
+    ],
+    "suggested": [
+      "a",
+      "noth",
+      "er"
+    ],
+    "reason": "應為 a-noth-er,noth 含短 o + th"
+  },
+  {
+    "word": "otherwise",
+    "current": [
+      "o",
+      "ther",
+      "wise"
+    ],
+    "suggested": [
+      "oth",
+      "er",
+      "wise"
+    ],
+    "reason": "短 o + th 應同音節:oth-er-wise"
+  },
+  {
+    "word": "honest",
+    "current": [
+      "ho",
+      "nest"
+    ],
+    "suggested": [
+      "hon",
+      "est"
+    ],
+    "reason": "h silent,短 o + n 同音節:hon-est"
+  },
+  {
+    "word": "empty",
+    "current": [
+      "em",
+      "pty"
+    ],
+    "suggested": [
+      "emp",
+      "ty"
+    ],
+    "reason": "音節邊界錯;p 應屬 em(VC.CV):emp-ty"
+  },
+  {
+    "word": "forever",
+    "current": [
+      "for",
+      "e",
+      "ver"
+    ],
+    "suggested": [
+      "for",
+      "ev",
+      "er"
+    ],
+    "reason": "音節邊界錯;中間短 e 應與 v 同音節:for-ev-er"
+  },
+  {
+    "word": "already",
+    "current": [
+      "al",
+      "rea",
+      "dy"
+    ],
+    "suggested": [
+      "al",
+      "read",
+      "y"
+    ],
+    "reason": "音節邊界錯;d 屬於 read:al-read-y"
+  },
+  {
+    "word": "acquaintance",
+    "current": [
+      "ac",
+      "quain",
+      "tance"
+    ],
+    "suggested": [
+      "ac",
+      "quaint",
+      "ance"
+    ],
+    "reason": "音節邊界錯;quaint 為完整字根,t 屬 quaint"
+  },
+  {
+    "word": "who",
+    "current": [
+      "wh",
+      "o"
+    ],
+    "suggested": [
+      "who"
+    ],
+    "reason": "wh 念 /h/、o 念 /uː/;拆 wh+o 誤導,單音節應整塊"
+  },
+  {
+    "word": "to",
+    "current": [
+      "t",
+      "o"
+    ],
+    "suggested": [
+      "to"
+    ],
+    "reason": "sight word /tuː/,o 非規則發音,應整塊"
+  },
+  {
+    "word": "do",
+    "current": [
+      "d",
+      "o"
+    ],
+    "suggested": [
+      "do"
+    ],
+    "reason": "sight word /duː/,o 非規則發音,應整塊"
+  },
+  {
+    "word": "the",
+    "current": [
+      "th",
+      "e"
+    ],
+    "suggested": [
+      "the"
+    ],
+    "reason": "單音節 sight word,建議整塊"
+  },
+  {
+    "word": "she",
+    "current": [
+      "sh",
+      "e"
+    ],
+    "suggested": [
+      "she"
+    ],
+    "reason": "單音節 sight word,建議整塊"
+  },
+  {
+    "word": "he",
+    "current": [
+      "h",
+      "e"
+    ],
+    "suggested": [
+      "he"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "we",
+    "current": [
+      "w",
+      "e"
+    ],
+    "suggested": [
+      "we"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "be",
+    "current": [
+      "b",
+      "e"
+    ],
+    "suggested": [
+      "be"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "so",
+    "current": [
+      "s",
+      "o"
+    ],
+    "suggested": [
+      "so"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "go",
+    "current": [
+      "g",
+      "o"
+    ],
+    "suggested": [
+      "go"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "by",
+    "current": [
+      "b",
+      "y"
+    ],
+    "suggested": [
+      "by"
+    ],
+    "reason": "單音節 y-as-vowel,建議整塊"
+  },
+  {
+    "word": "why",
+    "current": [
+      "wh",
+      "y"
+    ],
+    "suggested": [
+      "why"
+    ],
+    "reason": "單音節 wh + y vowel,建議整塊"
+  },
+  {
+    "word": "shy",
+    "current": [
+      "sh",
+      "y"
+    ],
+    "suggested": [
+      "shy"
+    ],
+    "reason": "單音節 sh+y,建議整塊"
+  },
+  {
+    "word": "try",
+    "current": [
+      "tr",
+      "y"
+    ],
+    "suggested": [
+      "try"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "dry",
+    "current": [
+      "dr",
+      "y"
+    ],
+    "suggested": [
+      "dry"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "cry",
+    "current": [
+      "cr",
+      "y"
+    ],
+    "suggested": [
+      "cry"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "sky",
+    "current": [
+      "sk",
+      "y"
+    ],
+    "suggested": [
+      "sky"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "fly",
+    "current": [
+      "f",
+      "ly"
+    ],
+    "suggested": [
+      "fly"
+    ],
+    "reason": "fl 是 blend,不該拆成 f|ly;應整塊"
+  },
+  {
+    "word": "key",
+    "current": [
+      "k",
+      "ey"
+    ],
+    "suggested": [
+      "key"
+    ],
+    "reason": "ey vowel team /iː/,單音節整塊"
+  },
+  {
+    "word": "hour",
+    "current": [
+      "h",
+      "our"
+    ],
+    "suggested": [
+      "hour"
+    ],
+    "reason": "h 不發音;our vowel team,應整塊"
+  },
+  {
+    "word": "herb",
+    "current": [
+      "h",
+      "erb"
+    ],
+    "suggested": [
+      "herb"
+    ],
+    "reason": "h 不發音(美式),拆 h 為 onset 誤導,應整塊"
+  },
+  {
+    "word": "sigh",
+    "current": [
+      "s",
+      "igh"
+    ],
+    "suggested": [
+      "sigh"
+    ],
+    "reason": "單音節 s + igh /aɪ/,可整塊"
+  },
+  {
+    "word": "high",
+    "current": [
+      "h",
+      "igh"
+    ],
+    "suggested": [
+      "high"
+    ],
+    "reason": "單音節 igh,建議整塊"
+  },
+  {
+    "word": "thigh",
+    "current": [
+      "th",
+      "igh"
+    ],
+    "suggested": [
+      "thigh"
+    ],
+    "reason": "單音節 th + igh,建議整塊"
+  },
+  {
+    "word": "die",
+    "current": [
+      "d",
+      "ie"
+    ],
+    "suggested": [
+      "die"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "lie",
+    "current": [
+      "l",
+      "ie"
+    ],
+    "suggested": [
+      "lie"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "pie",
+    "current": [
+      "p",
+      "ie"
+    ],
+    "suggested": [
+      "pie"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "tie",
+    "current": [
+      "t",
+      "ie"
+    ],
+    "suggested": [
+      "tie"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "toe",
+    "current": [
+      "t",
+      "oe"
+    ],
+    "suggested": [
+      "toe"
+    ],
+    "reason": "oe vowel team,單音節整塊"
+  },
+  {
+    "word": "jaw",
+    "current": [
+      "j",
+      "aw"
+    ],
+    "suggested": [
+      "jaw"
+    ],
+    "reason": "單音節 aw vowel team,建議整塊"
+  },
+  {
+    "word": "saw",
+    "current": [
+      "s",
+      "aw"
+    ],
+    "suggested": [
+      "saw"
+    ],
+    "reason": "單音節 aw vowel team,建議整塊"
+  },
+  {
+    "word": "joy",
+    "current": [
+      "j",
+      "oy"
+    ],
+    "suggested": [
+      "joy"
+    ],
+    "reason": "單音節 oy vowel team,建議整塊"
+  },
+  {
+    "word": "boy",
+    "current": [
+      "b",
+      "oy"
+    ],
+    "suggested": [
+      "boy"
+    ],
+    "reason": "單音節 oy vowel team,建議整塊"
+  },
+  {
+    "word": "toy",
+    "current": [
+      "t",
+      "oy"
+    ],
+    "suggested": [
+      "toy"
+    ],
+    "reason": "單音節 oy vowel team,建議整塊"
+  },
+  {
+    "word": "day",
+    "current": [
+      "d",
+      "ay"
+    ],
+    "suggested": [
+      "day"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "way",
+    "current": [
+      "w",
+      "ay"
+    ],
+    "suggested": [
+      "way"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "say",
+    "current": [
+      "s",
+      "ay"
+    ],
+    "suggested": [
+      "say"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "pay",
+    "current": [
+      "p",
+      "ay"
+    ],
+    "suggested": [
+      "pay"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "may",
+    "current": [
+      "m",
+      "ay"
+    ],
+    "suggested": [
+      "may"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "few",
+    "current": [
+      "f",
+      "ew"
+    ],
+    "suggested": [
+      "few"
+    ],
+    "reason": "單音節 ew vowel team,建議整塊"
+  },
+  {
+    "word": "new",
+    "current": [
+      "n",
+      "ew"
+    ],
+    "suggested": [
+      "new"
+    ],
+    "reason": "單音節 ew vowel team,建議整塊"
+  },
+  {
+    "word": "knew",
+    "current": [
+      "kn",
+      "ew"
+    ],
+    "suggested": [
+      "knew"
+    ],
+    "reason": "kn silent-k digraph + ew vowel team,單音節整塊"
+  },
+  {
+    "word": "low",
+    "current": [
+      "l",
+      "ow"
+    ],
+    "suggested": [
+      "low"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "now",
+    "current": [
+      "n",
+      "ow"
+    ],
+    "suggested": [
+      "now"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "how",
+    "current": [
+      "h",
+      "ow"
+    ],
+    "suggested": [
+      "how"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "know",
+    "current": [
+      "kn",
+      "ow"
+    ],
+    "suggested": [
+      "know"
+    ],
+    "reason": "kn digraph + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "row",
+    "current": [
+      "r",
+      "ow"
+    ],
+    "suggested": [
+      "row"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "cow",
+    "current": [
+      "c",
+      "ow"
+    ],
+    "suggested": [
+      "cow"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "brow",
+    "current": [
+      "br",
+      "ow"
+    ],
+    "suggested": [
+      "brow"
+    ],
+    "reason": "單音節 br+ow,建議整塊"
+  },
+  {
+    "word": "crow",
+    "current": [
+      "cr",
+      "ow"
+    ],
+    "suggested": [
+      "crow"
+    ],
+    "reason": "單音節 cr+ow,建議整塊"
+  },
+  {
+    "word": "throw",
+    "current": [
+      "thr",
+      "ow"
+    ],
+    "suggested": [
+      "throw"
+    ],
+    "reason": "thr blend + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "snow",
+    "current": [
+      "sn",
+      "ow"
+    ],
+    "suggested": [
+      "snow"
+    ],
+    "reason": "sn blend + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "slow",
+    "current": [
+      "sl",
+      "ow"
+    ],
+    "suggested": [
+      "slow"
+    ],
+    "reason": "sl blend + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "gray",
+    "current": [
+      "gr",
+      "ay"
+    ],
+    "suggested": [
+      "gray"
+    ],
+    "reason": "gr blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "tray",
+    "current": [
+      "tr",
+      "ay"
+    ],
+    "suggested": [
+      "tray"
+    ],
+    "reason": "tr blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "play",
+    "current": [
+      "pl",
+      "ay"
+    ],
+    "suggested": [
+      "play"
+    ],
+    "reason": "pl blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "clay",
+    "current": [
+      "cl",
+      "ay"
+    ],
+    "suggested": [
+      "clay"
+    ],
+    "reason": "cl blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "guy",
+    "current": [
+      "g",
+      "uy"
+    ],
+    "suggested": [
+      "guy"
+    ],
+    "reason": "uy 為 silent-u + y vowel team /aɪ/,單音節整塊"
+  },
+  {
+    "word": "buy",
+    "current": [
+      "b",
+      "uy"
+    ],
+    "suggested": [
+      "buy"
+    ],
+    "reason": "uy vowel team,單音節整塊"
+  },
+  {
+    "word": "sea",
+    "current": [
+      "s",
+      "ea"
+    ],
+    "suggested": [
+      "sea"
+    ],
+    "reason": "單音節 ea vowel team,建議整塊"
+  },
+  {
+    "word": "tea",
+    "current": [
+      "t",
+      "ea"
+    ],
+    "suggested": [
+      "tea"
+    ],
+    "reason": "單音節 ea vowel team,建議整塊"
+  },
+  {
+    "word": "pea",
+    "current": [
+      "p",
+      "ea"
+    ],
+    "suggested": [
+      "pea"
+    ],
+    "reason": "單音節 ea vowel team,建議整塊"
+  },
+  {
+    "word": "see",
+    "current": [
+      "s",
+      "ee"
+    ],
+    "suggested": [
+      "see"
+    ],
+    "reason": "單音節 ee vowel team,建議整塊"
+  },
+  {
+    "word": "bee",
+    "current": [
+      "b",
+      "ee"
+    ],
+    "suggested": [
+      "bee"
+    ],
+    "reason": "單音節 ee vowel team,建議整塊"
+  },
+  {
+    "word": "too",
+    "current": [
+      "t",
+      "oo"
+    ],
+    "suggested": [
+      "too"
+    ],
+    "reason": "單音節 oo vowel team,建議整塊"
+  },
+  {
+    "word": "zoo",
+    "current": [
+      "z",
+      "oo"
+    ],
+    "suggested": [
+      "zoo"
+    ],
+    "reason": "單音節 oo vowel team,建議整塊"
+  },
+  {
+    "word": "three",
+    "current": [
+      "thr",
+      "ee"
+    ],
+    "suggested": [
+      "three"
+    ],
+    "reason": "thr blend + ee vowel team,單音節整塊"
+  },
+  {
+    "word": "free",
+    "current": [
+      "fr",
+      "ee"
+    ],
+    "suggested": [
+      "free"
+    ],
+    "reason": "fr blend + ee vowel team,單音節整塊"
+  },
+  {
+    "word": "tree",
+    "current": [
+      "tr",
+      "ee"
+    ],
+    "suggested": [
+      "tree"
+    ],
+    "reason": "tr blend + ee vowel team,單音節整塊"
+  },
+  {
+    "word": "four",
+    "current": [
+      "f",
+      "our"
+    ],
+    "suggested": [
+      "four"
+    ],
+    "reason": "單音節 f + our vowel team,建議整塊"
+  },
+  {
+    "word": "five",
+    "current": [
+      "f",
+      "ive"
+    ],
+    "suggested": [
+      "five"
+    ],
+    "reason": "單音節 silent-e,建議整塊"
+  },
+  {
+    "word": "nine",
+    "current": [
+      "n",
+      "ine"
+    ],
+    "suggested": [
+      "nine"
+    ],
+    "reason": "單音節 silent-e,建議整塊"
+  },
+  {
+    "word": "weather",
+    "current": [
+      "wea",
+      "ther"
+    ],
+    "suggested": [
+      "weath",
+      "er"
+    ],
+    "reason": "音節邊界錯;th 屬 weath:weath-er"
+  },
+  {
+    "word": "sweater",
+    "current": [
+      "swea",
+      "ter"
+    ],
+    "suggested": [
+      "sweat",
+      "er"
+    ],
+    "reason": "音節邊界錯;t 屬於 sweat:sweat-er"
+  },
+  {
+    "word": "leather",
+    "current": [
+      "lea",
+      "ther"
+    ],
+    "suggested": [
+      "leath",
+      "er"
+    ],
+    "reason": "音節邊界錯;th 屬於 leath:leath-er"
+  },
+  {
+    "word": "mother",
+    "current": [
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "moth",
+      "er"
+    ],
+    "reason": "短 o + th 應同音節:moth-er"
+  },
+  {
+    "word": "father",
+    "current": [
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "fath",
+      "er"
+    ],
+    "reason": "短 a + th 應同音節:fath-er"
+  },
+  {
+    "word": "brother",
+    "current": [
+      "bro",
+      "ther"
+    ],
+    "suggested": [
+      "broth",
+      "er"
+    ],
+    "reason": "短 o + th 應同音節:broth-er"
+  },
+  {
+    "word": "grandmother",
+    "current": [
+      "grand",
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "grand",
+      "moth",
+      "er"
+    ],
+    "reason": "同 mother"
+  },
+  {
+    "word": "grandfather",
+    "current": [
+      "grand",
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "grand",
+      "fath",
+      "er"
+    ],
+    "reason": "同 father"
+  },
+  {
+    "word": "stepmother",
+    "current": [
+      "step",
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "step",
+      "moth",
+      "er"
+    ],
+    "reason": "同 mother"
+  },
+  {
+    "word": "stepfather",
+    "current": [
+      "step",
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "step",
+      "fath",
+      "er"
+    ],
+    "reason": "同 father"
+  },
+  {
+    "word": "stepbrother",
+    "current": [
+      "step",
+      "bro",
+      "ther"
+    ],
+    "suggested": [
+      "step",
+      "broth",
+      "er"
+    ],
+    "reason": "同 brother"
+  },
+  {
+    "word": "godfather",
+    "current": [
+      "god",
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "god",
+      "fath",
+      "er"
+    ],
+    "reason": "同 father"
+  },
+  {
+    "word": "godmother",
+    "current": [
+      "god",
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "god",
+      "moth",
+      "er"
+    ],
+    "reason": "同 mother"
+  },
+  {
+    "word": "rather",
+    "current": [
+      "ra",
+      "ther"
+    ],
+    "suggested": [
+      "rath",
+      "er"
+    ],
+    "reason": "短 a + th 應同音節:rath-er"
+  },
+  {
+    "word": "sailor",
+    "current": [
+      "sai",
+      "lor"
+    ],
+    "suggested": [
+      "sail",
+      "or"
+    ],
+    "reason": "音節邊界錯;sail 為字根:sail-or"
+  },
+  {
+    "word": "waiter",
+    "current": [
+      "wai",
+      "ter"
+    ],
+    "suggested": [
+      "wait",
+      "er"
+    ],
+    "reason": "音節邊界錯;wait 為字根:wait-er"
+  },
+  {
+    "word": "pointer",
+    "current": [
+      "poin",
+      "ter"
+    ],
+    "suggested": [
+      "point",
+      "er"
+    ],
+    "reason": "音節邊界錯;point 為字根:point-er"
+  },
+  {
+    "word": "painter",
+    "current": [
+      "pain",
+      "ter"
+    ],
+    "suggested": [
+      "paint",
+      "er"
+    ],
+    "reason": "音節邊界錯;paint 為字根:paint-er"
+  },
+  {
+    "word": "toaster",
+    "current": [
+      "toas",
+      "ter"
+    ],
+    "suggested": [
+      "toast",
+      "er"
+    ],
+    "reason": "音節邊界錯;toast 為字根:toast-er"
+  },
+  {
+    "word": "coaster",
+    "current": [
+      "coas",
+      "ter"
+    ],
+    "suggested": [
+      "coast",
+      "er"
+    ],
+    "reason": "音節邊界錯;coast 為字根:coast-er"
+  },
+  {
+    "word": "closer",
+    "current": [
+      "clo",
+      "ser"
+    ],
+    "suggested": [
+      "clos",
+      "er"
+    ],
+    "reason": "音節邊界錯;close 去 e + er:clos-er"
+  },
+  {
+    "word": "closet",
+    "current": [
+      "clo",
+      "set"
+    ],
+    "suggested": [
+      "clos",
+      "et"
+    ],
+    "reason": "音節邊界錯;短 o 應與 s 同音節:clos-et"
+  },
+  {
+    "word": "sneakers",
+    "current": [
+      "snea",
+      "kers"
+    ],
+    "suggested": [
+      "sneak",
+      "ers"
+    ],
+    "reason": "音節邊界錯;sneak 為字根:sneak-ers"
+  },
+  {
+    "word": "speaker",
+    "current": [
+      "spea",
+      "ker"
+    ],
+    "suggested": [
+      "speak",
+      "er"
+    ],
+    "reason": "音節邊界錯;speak 為字根:speak-er"
+  },
+  {
+    "word": "teacher",
+    "current": [
+      "tea",
+      "cher"
+    ],
+    "suggested": [
+      "teach",
+      "er"
+    ],
+    "reason": "音節邊界錯;teach 為字根:teach-er"
+  },
+  {
+    "word": "ready",
+    "current": [
+      "rea",
+      "dy"
+    ],
+    "suggested": [
+      "read",
+      "y"
+    ],
+    "reason": "音節邊界錯;read 為字根 + y:read-y"
+  },
+  {
+    "word": "heavy",
+    "current": [
+      "hea",
+      "vy"
+    ],
+    "suggested": [
+      "heav",
+      "y"
+    ],
+    "reason": "音節邊界錯;heav-y(短 e)"
+  },
+  {
+    "word": "heater",
+    "current": [
+      "hea",
+      "ter"
+    ],
+    "suggested": [
+      "heat",
+      "er"
+    ],
+    "reason": "音節邊界錯;heat 為字根:heat-er"
+  },
+  {
+    "word": "healthy",
+    "current": [
+      "heal",
+      "thy"
+    ],
+    "suggested": [
+      "health",
+      "y"
+    ],
+    "reason": "音節邊界錯;health 為字根 + y:health-y"
+  },
+  {
+    "word": "second",
+    "current": [
+      "se",
+      "cond"
+    ],
+    "suggested": [
+      "sec",
+      "ond"
+    ],
+    "reason": "短 e + c 同音節:sec-ond"
+  },
+  {
+    "word": "seven",
+    "current": [
+      "se",
+      "ven"
+    ],
+    "suggested": [
+      "sev",
+      "en"
+    ],
+    "reason": "短 e + v 同音節:sev-en"
+  },
+  {
+    "word": "seventh",
+    "current": [
+      "se",
+      "venth"
+    ],
+    "suggested": [
+      "sev",
+      "enth"
+    ],
+    "reason": "同 seven"
+  },
+  {
+    "word": "seventy",
+    "current": [
+      "se",
+      "ven",
+      "ty"
+    ],
+    "suggested": [
+      "sev",
+      "en",
+      "ty"
+    ],
+    "reason": "同 seven"
+  },
+  {
+    "word": "seventeen",
+    "current": [
+      "se",
+      "ven",
+      "teen"
+    ],
+    "suggested": [
+      "sev",
+      "en",
+      "teen"
+    ],
+    "reason": "同 seven"
+  },
+  {
+    "word": "never",
+    "current": [
+      "ne",
+      "ver"
+    ],
+    "suggested": [
+      "nev",
+      "er"
+    ],
+    "reason": "短 e + v 同音節:nev-er"
+  },
+  {
+    "word": "clever",
+    "current": [
+      "cle",
+      "ver"
+    ],
+    "suggested": [
+      "clev",
+      "er"
+    ],
+    "reason": "短 e + v 同音節:clev-er"
+  },
+  {
+    "word": "river",
+    "current": [
+      "ri",
+      "ver"
+    ],
+    "suggested": [
+      "riv",
+      "er"
+    ],
+    "reason": "短 i + v 同音節:riv-er"
+  },
+  {
+    "word": "liver",
+    "current": [
+      "li",
+      "ver"
+    ],
+    "suggested": [
+      "liv",
+      "er"
+    ],
+    "reason": "短 i + v 同音節:liv-er"
+  },
+  {
+    "word": "lover",
+    "current": [
+      "lo",
+      "ver"
+    ],
+    "suggested": [
+      "lov",
+      "er"
+    ],
+    "reason": "短 o + v 同音節:lov-er"
+  },
+  {
+    "word": "minute",
+    "current": [
+      "mi",
+      "nute"
+    ],
+    "suggested": [
+      "min",
+      "ute"
+    ],
+    "reason": "短 i + n 同音節:min-ute"
+  },
+  {
+    "word": "lemon",
+    "current": [
+      "le",
+      "mon"
+    ],
+    "suggested": [
+      "lem",
+      "on"
+    ],
+    "reason": "短 e + m 同音節:lem-on"
+  },
+  {
+    "word": "flute",
+    "current": [
+      "fl",
+      "ute"
+    ],
+    "suggested": [
+      "flute"
+    ],
+    "reason": "單音節 fl blend + silent-e rime,建議整塊"
+  },
+  {
+    "word": "true",
+    "current": [
+      "tr",
+      "ue"
+    ],
+    "suggested": [
+      "true"
+    ],
+    "reason": "單音節 tr + ue vowel team,建議整塊"
+  },
+  {
+    "word": "blue",
+    "current": [
+      "bl",
+      "ue"
+    ],
+    "suggested": [
+      "blue"
+    ],
+    "reason": "單音節 bl + ue vowel team,建議整塊"
+  },
+  {
+    "word": "glue",
+    "current": [
+      "gl",
+      "ue"
+    ],
+    "suggested": [
+      "glue"
+    ],
+    "reason": "單音節 gl + ue vowel team,建議整塊"
+  },
+  {
+    "word": "brew",
+    "current": [
+      "br",
+      "ew"
+    ],
+    "suggested": [
+      "brew"
+    ],
+    "reason": "單音節 br + ew vowel team,建議整塊"
+  },
+  {
+    "word": "drawer",
+    "current": [
+      "dr",
+      "awer"
+    ],
+    "suggested": [
+      "draw",
+      "er"
+    ],
+    "reason": "音節邊界錯;draw 為字根:draw-er"
+  },
+  {
+    "word": "store",
+    "current": [
+      "st",
+      "ore"
+    ],
+    "suggested": [
+      "store"
+    ],
+    "reason": "單音節 st blend + ore,建議整塊"
+  },
+  {
+    "word": "shore",
+    "current": [
+      "sh",
+      "ore"
+    ],
+    "suggested": [
+      "shore"
+    ],
+    "reason": "單音節 sh digraph + ore,建議整塊"
+  },
+  {
+    "word": "score",
+    "current": [
+      "sc",
+      "ore"
+    ],
+    "suggested": [
+      "score"
+    ],
+    "reason": "單音節 sc + ore,建議整塊"
+  },
+  {
+    "word": "snake",
+    "current": [
+      "sn",
+      "ake"
+    ],
+    "suggested": [
+      "snake"
+    ],
+    "reason": "單音節 sn + ake silent-e,建議整塊"
+  },
+  {
+    "word": "bra",
+    "current": [
+      "br",
+      "a"
+    ],
+    "suggested": [
+      "bra"
+    ],
+    "reason": "單音節 br + a,建議整塊"
+  },
+  {
+    "word": "spa",
+    "current": [
+      "sp",
+      "a"
+    ],
+    "suggested": [
+      "spa"
+    ],
+    "reason": "單音節 sp + a,建議整塊"
+  },
+  {
+    "word": "smile",
+    "current": [
+      "sm",
+      "ile"
+    ],
+    "suggested": [
+      "smile"
+    ],
+    "reason": "單音節 sm + ile silent-e,建議整塊"
+  },
+  {
+    "word": "smoke",
+    "current": [
+      "sm",
+      "oke"
+    ],
+    "suggested": [
+      "smoke"
+    ],
+    "reason": "單音節 sm + oke silent-e,建議整塊"
+  },
+  {
+    "word": "skate",
+    "current": [
+      "sk",
+      "ate"
+    ],
+    "suggested": [
+      "skate"
+    ],
+    "reason": "單音節 sk + ate silent-e,建議整塊"
+  },
+  {
+    "word": "glaze",
+    "current": [
+      "gl",
+      "aze"
+    ],
+    "suggested": [
+      "glaze"
+    ],
+    "reason": "單音節 gl + aze silent-e,建議整塊"
+  },
+  {
+    "word": "flame",
+    "current": [
+      "fl",
+      "ame"
+    ],
+    "suggested": [
+      "flame"
+    ],
+    "reason": "單音節 fl + ame silent-e,建議整塊"
+  },
+  {
+    "word": "choose",
+    "current": [
+      "ch",
+      "oose"
+    ],
+    "suggested": [
+      "choose"
+    ],
+    "reason": "單音節 ch digraph + oose vowel team,建議整塊"
+  },
+  {
+    "word": "cheese",
+    "current": [
+      "ch",
+      "eese"
+    ],
+    "suggested": [
+      "cheese"
+    ],
+    "reason": "單音節 ch + eese vowel team + silent-e,建議整塊"
+  },
+  {
+    "word": "smoothie",
+    "current": [
+      "smoo",
+      "thie"
+    ],
+    "suggested": [
+      "smooth",
+      "ie"
+    ],
+    "reason": "音節邊界錯;smooth 為字根 + ie:smooth-ie"
+  },
+  {
+    "word": "shadow",
+    "current": [
+      "sha",
+      "dow"
+    ],
+    "suggested": [
+      "shad",
+      "ow"
+    ],
+    "reason": "短 a + d 同音節:shad-ow"
+  },
+  {
+    "word": "meadow",
+    "current": [
+      "mea",
+      "dow"
+    ],
+    "suggested": [
+      "mead",
+      "ow"
+    ],
+    "reason": "音節邊界錯;mead 為字根:mead-ow"
+  },
+  {
+    "word": "power",
+    "current": [
+      "po",
+      "wer"
+    ],
+    "suggested": [
+      "pow",
+      "er"
+    ],
+    "reason": "音節邊界錯;ow 屬於 pow:pow-er"
+  },
+  {
+    "word": "jealous",
+    "current": [
+      "jea",
+      "lous"
+    ],
+    "suggested": [
+      "jeal",
+      "ous"
+    ],
+    "reason": "音節邊界錯;jeal-ous(/dʒɛl/)"
+  },
+  {
+    "word": "cousin",
+    "current": [
+      "cou",
+      "sin"
+    ],
+    "suggested": [
+      "cous",
+      "in"
+    ],
+    "reason": "音節邊界錯;短 ou + s 同音節:cous-in"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "word": "dresser",
+    "base": "dress",
+    "family-note": "dresser ← dress(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "poster",
+    "base": "post",
+    "family-note": "poster ← post(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "receptionist",
+    "base": "reception",
+    "family-note": "receptionist ← reception(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "journalist",
+    "base": "journal",
+    "family-note": "journalist ← journal(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "saucer",
+    "base": "sauce",
+    "family-note": "saucer ← sauce(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "gummy",
+    "base": "gum",
+    "family-note": "gummy ← gum(-y 形容詞)",
+    "reason": "-y 形容詞 (雙寫)"
+  },
+  {
+    "word": "recession",
+    "base": "recess",
+    "family-note": "recession ← recess(-sion 名詞)",
+    "reason": "-sion 名詞"
+  },
+  {
+    "word": "granted",
+    "base": "grant",
+    "family-note": "granted ← grant(過去式)",
+    "reason": "-ed 形 (加e)"
+  },
+  {
+    "word": "formerly",
+    "base": "former",
+    "family-note": "formerly ← former(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "surveyor",
+    "base": "survey",
+    "family-note": "surveyor ← survey(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "geologist",
+    "base": "geology",
+    "family-note": "geologist ← geology(-ist 表人)",
+    "reason": "-ologist 名詞"
+  },
+  {
+    "word": "homely",
+    "base": "home",
+    "family-note": "homely ← home(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "moody",
+    "base": "mood",
+    "family-note": "moody ← mood(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "affection",
+    "base": "affect",
+    "family-note": "affection ← affect(-tion 名詞)",
+    "reason": "-tion 名詞"
+  },
+  {
+    "word": "exhibition",
+    "base": "exhibit",
+    "family-note": "exhibition ← exhibit(-tion 名詞)",
+    "reason": "-tion 名詞"
+  },
+  {
+    "word": "photography",
+    "base": "photograph",
+    "family-note": "photography ← photograph(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "hobbyist",
+    "base": "hobby",
+    "family-note": "hobbyist ← hobby(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "allergies",
+    "base": "allergy",
+    "family-note": "allergies ← allergy(複數)",
+    "reason": "複數 (y→ies)"
+  },
+  {
+    "word": "briefing",
+    "base": "brief",
+    "family-note": "briefing ← brief(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "networking",
+    "base": "network",
+    "family-note": "networking ← network(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "marketing",
+    "base": "market",
+    "family-note": "marketing ← market(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "branding",
+    "base": "brand",
+    "family-note": "branding ← brand(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "accounting",
+    "base": "account",
+    "family-note": "accounting ← account(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "hosting",
+    "base": "host",
+    "family-note": "hosting ← host(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "trending",
+    "base": "trend",
+    "family-note": "trending ← trend(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "procession",
+    "base": "process",
+    "family-note": "procession ← process(-sion 名詞)",
+    "reason": "-sion 名詞"
+  },
+  {
+    "word": "recycling",
+    "base": "recycle",
+    "family-note": "recycling ← recycle(進行式/動名詞)",
+    "reason": "-ing 形 (去e加ing)"
+  },
+  {
+    "word": "flooding",
+    "base": "flood",
+    "family-note": "flooding ← flood(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "kidnapping",
+    "base": "kidnap",
+    "family-note": "kidnapping ← kidnap(進行式/動名詞)",
+    "reason": "-ing 形 (雙寫子音)"
+  },
+  {
+    "word": "mugging",
+    "base": "mug",
+    "family-note": "mugging ← mug(進行式/動名詞)",
+    "reason": "-ing 形 (雙寫子音)"
+  },
+  {
+    "word": "drowning",
+    "base": "drown",
+    "family-note": "drowning ← drown(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "dealing",
+    "base": "deal",
+    "family-note": "dealing ← deal(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "trespassing",
+    "base": "trespass",
+    "family-note": "trespassing ← trespass(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "hearing",
+    "base": "hear",
+    "family-note": "hearing ← hear(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "dismissed",
+    "base": "dismiss",
+    "family-note": "dismissed ← dismiss(過去式)",
+    "reason": "-ed 形 (加e)"
+  },
+  {
+    "word": "deposition",
+    "base": "deposit",
+    "family-note": "deposition ← deposit(-tion 名詞)",
+    "reason": "-tion 名詞"
+  },
+  {
+    "word": "polling",
+    "base": "poll",
+    "family-note": "polling ← poll(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "lobbying",
+    "base": "lobby",
+    "family-note": "lobbying ← lobby(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "legislator",
+    "base": "legislate",
+    "family-note": "legislator ← legislate(-or 表人)",
+    "reason": "-or 名詞 (去e)"
+  },
+  {
+    "word": "fasting",
+    "base": "fast",
+    "family-note": "fasting ← fast(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "reasoning",
+    "base": "reason",
+    "family-note": "reasoning ← reason(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "ugliness",
+    "base": "ugly",
+    "family-note": "ugliness ← ugly(-ness 名詞)",
+    "reason": "-ness 名詞 (y→iness)"
+  },
+  {
+    "word": "meaning",
+    "base": "mean",
+    "family-note": "meaning ← mean(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "layer",
+    "base": "lay",
+    "family-note": "layer ← lay(-er 表人/物)",
+    "reason": "-er 名詞"
+  }
+]

@@ -1,0 +1,2242 @@
+[
+  {
+    "word": "nietzsche",
+    "current": [
+      "niet",
+      "zsche"
+    ],
+    "suggested": [
+      "nietz",
+      "sche"
+    ],
+    "reason": "split breaks the 'tz' digraph; standard syllable boundary is after tz"
+  },
+  {
+    "word": "descartes",
+    "current": [
+      "des",
+      "cartes"
+    ],
+    "suggested": [
+      "des",
+      "car",
+      "tes"
+    ],
+    "reason": "'cartes' is two syllables, not one"
+  },
+  {
+    "word": "locke",
+    "current": [
+      "lock",
+      "e"
+    ],
+    "suggested": [
+      "locke"
+    ],
+    "reason": "silent-e should not be a separate chunk; 'locke' is one syllable"
+  },
+  {
+    "word": "hume",
+    "current": [
+      "h",
+      "ume"
+    ],
+    "suggested": [
+      "hume"
+    ],
+    "reason": "CVCe one-syllable word should not be split into single consonant + 'ume'"
+  },
+  {
+    "word": "kant",
+    "current": [
+      "k",
+      "ant"
+    ],
+    "suggested": [
+      "kant"
+    ],
+    "reason": "CVCC one-syllable word; single 'k' chunk has no vowel"
+  },
+  {
+    "word": "thrice",
+    "current": [
+      "thr",
+      "ice"
+    ],
+    "suggested": [
+      "thrice"
+    ],
+    "reason": "one-syllable CCCVCe word should not be split; 'thr' has no vowel"
+  },
+  {
+    "word": "self",
+    "current": [
+      "s",
+      "elf"
+    ],
+    "suggested": [
+      "self"
+    ],
+    "reason": "single-syllable CVCC; lone 's' chunk has no vowel"
+  },
+  {
+    "word": "id",
+    "current": [
+      "i",
+      "d"
+    ],
+    "suggested": [
+      "id"
+    ],
+    "reason": "two-letter word should not be split into single letters"
+  },
+  {
+    "word": "verse",
+    "current": [
+      "v",
+      "erse"
+    ],
+    "suggested": [
+      "verse"
+    ],
+    "reason": "one-syllable r-controlled word; lone 'v' chunk has no vowel"
+  },
+  {
+    "word": "rhyme",
+    "current": [
+      "rh",
+      "yme"
+    ],
+    "suggested": [
+      "rhyme"
+    ],
+    "reason": "one-syllable word; 'rh' digraph + 'yme' should stay as one chunk"
+  },
+  {
+    "word": "myth",
+    "current": [
+      "m",
+      "yth"
+    ],
+    "suggested": [
+      "myth"
+    ],
+    "reason": "one-syllable CVC; lone 'm' chunk has no vowel"
+  },
+  {
+    "word": "prose",
+    "current": [
+      "pr",
+      "ose"
+    ],
+    "suggested": [
+      "prose"
+    ],
+    "reason": "one-syllable CVCe word should not be split"
+  },
+  {
+    "word": "phrase",
+    "current": [
+      "phr",
+      "ase"
+    ],
+    "suggested": [
+      "phrase"
+    ],
+    "reason": "one-syllable word; 'phr' blend needs vowel attached"
+  },
+  {
+    "word": "claim",
+    "current": [
+      "cl",
+      "aim"
+    ],
+    "suggested": [
+      "claim"
+    ],
+    "reason": "one-syllable vowel-team word should not be split"
+  },
+  {
+    "word": "pun",
+    "current": [
+      "p",
+      "un"
+    ],
+    "suggested": [
+      "pun"
+    ],
+    "reason": "one-syllable CVC; lone 'p' chunk has no vowel"
+  },
+  {
+    "word": "ode",
+    "current": [
+      "o",
+      "de"
+    ],
+    "suggested": [
+      "ode"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "tense",
+    "current": [
+      "t",
+      "ense"
+    ],
+    "suggested": [
+      "tense"
+    ],
+    "reason": "one-syllable word; lone 't' chunk has no vowel"
+  },
+  {
+    "word": "norm",
+    "current": [
+      "n",
+      "orm"
+    ],
+    "suggested": [
+      "norm"
+    ],
+    "reason": "one-syllable r-controlled word; lone 'n' has no vowel"
+  },
+  {
+    "word": "cease",
+    "current": [
+      "c",
+      "ease"
+    ],
+    "suggested": [
+      "cease"
+    ],
+    "reason": "one-syllable vowel-team word; lone 'c' has no vowel"
+  },
+  {
+    "word": "pose",
+    "current": [
+      "p",
+      "ose"
+    ],
+    "suggested": [
+      "pose"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "intermediate",
+    "current": [
+      "in",
+      "ter",
+      "me",
+      "di",
+      "ate"
+    ],
+    "suggested": [
+      "in",
+      "ter",
+      "me",
+      "diate"
+    ],
+    "reason": "'-diate' should stay as one final syllable per dictionary syllabification"
+  },
+  {
+    "word": "bring about",
+    "current": [
+      "bring",
+      "about"
+    ],
+    "suggested": [
+      "bring",
+      "a",
+      "bout"
+    ],
+    "reason": "about is two syllables a-bout, matches phonics break"
+  },
+  {
+    "word": "easy as pie",
+    "current": [
+      "eas",
+      "y",
+      "as",
+      "pie"
+    ],
+    "suggested": [
+      "ea",
+      "sy",
+      "as",
+      "pie"
+    ],
+    "reason": "easy=ea+sy; 'eas' breaks vowel team 'ea'"
+  },
+  {
+    "word": "easy come easy go",
+    "current": [
+      "eas",
+      "y",
+      "come",
+      "eas",
+      "y",
+      "go"
+    ],
+    "suggested": [
+      "ea",
+      "sy",
+      "come",
+      "ea",
+      "sy",
+      "go"
+    ],
+    "reason": "easy=ea+sy; 'eas' breaks vowel team 'ea'"
+  },
+  {
+    "word": "take it easy",
+    "current": [
+      "take",
+      "it",
+      "eas",
+      "y"
+    ],
+    "suggested": [
+      "take",
+      "it",
+      "ea",
+      "sy"
+    ],
+    "reason": "easy=ea+sy"
+  },
+  {
+    "word": "Greece",
+    "current": [
+      "gr",
+      "eece"
+    ],
+    "suggested": [
+      "greece"
+    ],
+    "reason": "one-syllable vowel-team word; 'gr' has no vowel"
+  },
+  {
+    "word": "Wales",
+    "current": [
+      "w",
+      "ales"
+    ],
+    "suggested": [
+      "wales"
+    ],
+    "reason": "one-syllable CVCe-style word; lone 'w' has no vowel"
+  },
+  {
+    "word": "axe",
+    "current": [
+      "a",
+      "xe"
+    ],
+    "suggested": [
+      "axe"
+    ],
+    "reason": "one-syllable word should not be split"
+  },
+  {
+    "word": "hoe",
+    "current": [
+      "h",
+      "oe"
+    ],
+    "suggested": [
+      "hoe"
+    ],
+    "reason": "one-syllable vowel-team word; lone 'h' has no vowel"
+  },
+  {
+    "word": "vise",
+    "current": [
+      "v",
+      "ise"
+    ],
+    "suggested": [
+      "vise"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "steel",
+    "current": [
+      "st",
+      "eel"
+    ],
+    "suggested": [
+      "steel"
+    ],
+    "reason": "one-syllable vowel-team word; better kept whole"
+  },
+  {
+    "word": "foam",
+    "current": [
+      "f",
+      "oam"
+    ],
+    "suggested": [
+      "foam"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "tin",
+    "current": [
+      "t",
+      "in"
+    ],
+    "suggested": [
+      "tin"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "zinc",
+    "current": [
+      "z",
+      "inc"
+    ],
+    "suggested": [
+      "zinc"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "vague",
+    "current": [
+      "v",
+      "ague"
+    ],
+    "suggested": [
+      "vague"
+    ],
+    "reason": "one-syllable word; lone 'v' has no vowel"
+  },
+  {
+    "word": "grim",
+    "current": [
+      "gr",
+      "im"
+    ],
+    "suggested": [
+      "grim"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "dire",
+    "current": [
+      "d",
+      "ire"
+    ],
+    "suggested": [
+      "dire"
+    ],
+    "reason": "one-syllable r-controlled CVCe word"
+  },
+  {
+    "word": "bleak",
+    "current": [
+      "bl",
+      "eak"
+    ],
+    "suggested": [
+      "bleak"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "lush",
+    "current": [
+      "l",
+      "ush"
+    ],
+    "suggested": [
+      "lush"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "sparse",
+    "current": [
+      "sp",
+      "arse"
+    ],
+    "suggested": [
+      "sparse"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "sheer",
+    "current": [
+      "sh",
+      "eer"
+    ],
+    "suggested": [
+      "sheer"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "scant",
+    "current": [
+      "sc",
+      "ant"
+    ],
+    "suggested": [
+      "scant"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "brisk",
+    "current": [
+      "br",
+      "isk"
+    ],
+    "suggested": [
+      "brisk"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "snug",
+    "current": [
+      "sn",
+      "ug"
+    ],
+    "suggested": [
+      "snug"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "fierce",
+    "current": [
+      "fi",
+      "erce"
+    ],
+    "suggested": [
+      "fierce"
+    ],
+    "reason": "one-syllable r-controlled vowel-team word; breaks 'ie' team"
+  },
+  {
+    "word": "harsh",
+    "current": [
+      "h",
+      "arsh"
+    ],
+    "suggested": [
+      "harsh"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "stern",
+    "current": [
+      "st",
+      "ern"
+    ],
+    "suggested": [
+      "stern"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "stark",
+    "current": [
+      "st",
+      "ark"
+    ],
+    "suggested": [
+      "stark"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "crude",
+    "current": [
+      "cr",
+      "ude"
+    ],
+    "suggested": [
+      "crude"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "vast",
+    "current": [
+      "v",
+      "ast"
+    ],
+    "suggested": [
+      "vast"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "grand",
+    "current": [
+      "gr",
+      "and"
+    ],
+    "suggested": [
+      "grand"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "meek",
+    "current": [
+      "m",
+      "eek"
+    ],
+    "suggested": [
+      "meek"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "frail",
+    "current": [
+      "fr",
+      "ail"
+    ],
+    "suggested": [
+      "frail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "keen",
+    "current": [
+      "k",
+      "een"
+    ],
+    "suggested": [
+      "keen"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "crisp",
+    "current": [
+      "cr",
+      "isp"
+    ],
+    "suggested": [
+      "crisp"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "dense",
+    "current": [
+      "d",
+      "ense"
+    ],
+    "suggested": [
+      "dense"
+    ],
+    "reason": "one-syllable word; lone 'd' has no vowel"
+  },
+  {
+    "word": "grasp",
+    "current": [
+      "gr",
+      "asp"
+    ],
+    "suggested": [
+      "grasp"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "surge",
+    "current": [
+      "s",
+      "urge"
+    ],
+    "suggested": [
+      "surge"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "soar",
+    "current": [
+      "s",
+      "oar"
+    ],
+    "suggested": [
+      "soar"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "plunge",
+    "current": [
+      "pl",
+      "unge"
+    ],
+    "suggested": [
+      "plunge"
+    ],
+    "reason": "one-syllable word; blend needs vowel attached"
+  },
+  {
+    "word": "glide",
+    "current": [
+      "gl",
+      "ide"
+    ],
+    "suggested": [
+      "glide"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "shrink",
+    "current": [
+      "shr",
+      "ink"
+    ],
+    "suggested": [
+      "shrink"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "swell",
+    "current": [
+      "sw",
+      "ell"
+    ],
+    "suggested": [
+      "swell"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "bloom",
+    "current": [
+      "bl",
+      "oom"
+    ],
+    "suggested": [
+      "bloom"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "thrive",
+    "current": [
+      "thr",
+      "ive"
+    ],
+    "suggested": [
+      "thrive"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "mock",
+    "current": [
+      "m",
+      "ock"
+    ],
+    "suggested": [
+      "mock"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "scorn",
+    "current": [
+      "sc",
+      "orn"
+    ],
+    "suggested": [
+      "scorn"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "mourn",
+    "current": [
+      "m",
+      "ourn"
+    ],
+    "suggested": [
+      "mourn"
+    ],
+    "reason": "one-syllable vowel-team r-controlled word"
+  },
+  {
+    "word": "grieve",
+    "current": [
+      "gr",
+      "ieve"
+    ],
+    "suggested": [
+      "grieve"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "ache",
+    "current": [
+      "a",
+      "che"
+    ],
+    "suggested": [
+      "ache"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "crave",
+    "current": [
+      "cr",
+      "ave"
+    ],
+    "suggested": [
+      "crave"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "prime",
+    "current": [
+      "pr",
+      "ime"
+    ],
+    "suggested": [
+      "prime"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "scope",
+    "current": [
+      "sc",
+      "ope"
+    ],
+    "suggested": [
+      "scope"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "trace",
+    "current": [
+      "tr",
+      "ace"
+    ],
+    "suggested": [
+      "trace"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "trend",
+    "current": [
+      "tr",
+      "end"
+    ],
+    "suggested": [
+      "trend"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "seek",
+    "current": [
+      "s",
+      "eek"
+    ],
+    "suggested": [
+      "seek"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "site",
+    "current": [
+      "s",
+      "ite"
+    ],
+    "suggested": [
+      "site"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "text",
+    "current": [
+      "t",
+      "ext"
+    ],
+    "suggested": [
+      "text"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "cite",
+    "current": [
+      "c",
+      "ite"
+    ],
+    "suggested": [
+      "cite"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "aid",
+    "current": [
+      "a",
+      "id"
+    ],
+    "suggested": [
+      "aid"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "core",
+    "current": [
+      "c",
+      "ore"
+    ],
+    "suggested": [
+      "core"
+    ],
+    "reason": "one-syllable r-controlled CVCe word"
+  },
+  {
+    "word": "link",
+    "current": [
+      "l",
+      "ink"
+    ],
+    "suggested": [
+      "link"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "globe",
+    "current": [
+      "gl",
+      "obe"
+    ],
+    "suggested": [
+      "globe"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "bug",
+    "current": [
+      "b",
+      "ug"
+    ],
+    "suggested": [
+      "bug"
+    ],
+    "reason": "one-syllable CVC word; lone 'b' has no vowel"
+  },
+  {
+    "word": "cub",
+    "current": [
+      "c",
+      "ub"
+    ],
+    "suggested": [
+      "cub"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "cab",
+    "current": [
+      "c",
+      "ab"
+    ],
+    "suggested": [
+      "cab"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "call",
+    "current": [
+      "c",
+      "all"
+    ],
+    "suggested": [
+      "call"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "camp",
+    "current": [
+      "c",
+      "amp"
+    ],
+    "suggested": [
+      "camp"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "chick",
+    "current": [
+      "ch",
+      "ick"
+    ],
+    "suggested": [
+      "chick"
+    ],
+    "reason": "one-syllable word; ch-digraph needs vowel attached"
+  },
+  {
+    "word": "chief",
+    "current": [
+      "ch",
+      "ief"
+    ],
+    "suggested": [
+      "chief"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "xmas",
+    "current": [
+      "xm",
+      "as"
+    ],
+    "suggested": [
+      "x",
+      "mas"
+    ],
+    "reason": "'xm' is not a blend; better to split before 'mas'"
+  },
+  {
+    "word": "clear",
+    "current": [
+      "cl",
+      "ear"
+    ],
+    "suggested": [
+      "clear"
+    ],
+    "reason": "one-syllable vowel-team word; blend needs vowel attached"
+  },
+  {
+    "word": "dead",
+    "current": [
+      "d",
+      "ead"
+    ],
+    "suggested": [
+      "dead"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "dear",
+    "current": [
+      "d",
+      "ear"
+    ],
+    "suggested": [
+      "dear"
+    ],
+    "reason": "one-syllable vowel-team r-controlled word"
+  },
+  {
+    "word": "death",
+    "current": [
+      "d",
+      "eath"
+    ],
+    "suggested": [
+      "death"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "dig",
+    "current": [
+      "d",
+      "ig"
+    ],
+    "suggested": [
+      "dig"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "draw",
+    "current": [
+      "dr",
+      "aw"
+    ],
+    "suggested": [
+      "draw"
+    ],
+    "reason": "one-syllable vowel-team word; blend needs vowel attached"
+  },
+  {
+    "word": "duckling",
+    "current": [
+      "duc",
+      "kling"
+    ],
+    "suggested": [
+      "duck",
+      "ling"
+    ],
+    "reason": "'ck' digraph should not be split; 'duck' + 'ling'"
+  },
+  {
+    "word": "feed",
+    "current": [
+      "f",
+      "eed"
+    ],
+    "suggested": [
+      "feed"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "feel",
+    "current": [
+      "f",
+      "eel"
+    ],
+    "suggested": [
+      "feel"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fill",
+    "current": [
+      "f",
+      "ill"
+    ],
+    "suggested": [
+      "fill"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "fun",
+    "current": [
+      "f",
+      "un"
+    ],
+    "suggested": [
+      "fun"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "glad",
+    "current": [
+      "gl",
+      "ad"
+    ],
+    "suggested": [
+      "glad"
+    ],
+    "reason": "one-syllable CVC word; blend needs vowel attached"
+  },
+  {
+    "word": "granddaughter",
+    "current": [
+      "gran",
+      "ddaug",
+      "hter"
+    ],
+    "suggested": [
+      "grand",
+      "daugh",
+      "ter"
+    ],
+    "reason": "splits break morpheme and gh-digraph; should be grand+daugh+ter"
+  },
+  {
+    "word": "grandson",
+    "current": [
+      "gran",
+      "dson"
+    ],
+    "suggested": [
+      "grand",
+      "son"
+    ],
+    "reason": "morpheme boundary is grand+son"
+  },
+  {
+    "word": "grey",
+    "current": [
+      "gr",
+      "ey"
+    ],
+    "suggested": [
+      "grey"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "grow",
+    "current": [
+      "gr",
+      "ow"
+    ],
+    "suggested": [
+      "grow"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "guess",
+    "current": [
+      "g",
+      "uess"
+    ],
+    "suggested": [
+      "guess"
+    ],
+    "reason": "one-syllable word; 'gu' digraph needs to stay with vowel"
+  },
+  {
+    "word": "gun",
+    "current": [
+      "g",
+      "un"
+    ],
+    "suggested": [
+      "gun"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "health",
+    "current": [
+      "h",
+      "ealth"
+    ],
+    "suggested": [
+      "health"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "hole",
+    "current": [
+      "ho",
+      "le"
+    ],
+    "suggested": [
+      "hole"
+    ],
+    "reason": "one-syllable CVCe word; should not split silent-e"
+  },
+  {
+    "word": "inch",
+    "current": [
+      "in",
+      "ch"
+    ],
+    "suggested": [
+      "inch"
+    ],
+    "reason": "one-syllable word; ch-digraph should stay with preceding vowel"
+  },
+  {
+    "word": "job",
+    "current": [
+      "j",
+      "ob"
+    ],
+    "suggested": [
+      "job"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "join",
+    "current": [
+      "j",
+      "oin"
+    ],
+    "suggested": [
+      "join"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "keep",
+    "current": [
+      "k",
+      "eep"
+    ],
+    "suggested": [
+      "keep"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "kill",
+    "current": [
+      "k",
+      "ill"
+    ],
+    "suggested": [
+      "kill"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "king",
+    "current": [
+      "k",
+      "ing"
+    ],
+    "suggested": [
+      "king"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "lack",
+    "current": [
+      "l",
+      "ack"
+    ],
+    "suggested": [
+      "lack"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "land",
+    "current": [
+      "l",
+      "and"
+    ],
+    "suggested": [
+      "land"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "least",
+    "current": [
+      "l",
+      "east"
+    ],
+    "suggested": [
+      "least"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "less",
+    "current": [
+      "l",
+      "ess"
+    ],
+    "suggested": [
+      "less"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "let",
+    "current": [
+      "l",
+      "et"
+    ],
+    "suggested": [
+      "let"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "mail",
+    "current": [
+      "m",
+      "ail"
+    ],
+    "suggested": [
+      "mail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "me",
+    "current": [
+      "m",
+      "e"
+    ],
+    "suggested": [
+      "me"
+    ],
+    "reason": "two-letter sight word should not be split"
+  },
+  {
+    "word": "meet",
+    "current": [
+      "m",
+      "eet"
+    ],
+    "suggested": [
+      "meet"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "my",
+    "current": [
+      "m",
+      "y"
+    ],
+    "suggested": [
+      "my"
+    ],
+    "reason": "two-letter sight word should not be split"
+  },
+  {
+    "word": "no",
+    "current": [
+      "n",
+      "o"
+    ],
+    "suggested": [
+      "no"
+    ],
+    "reason": "two-letter sight word should not be split"
+  },
+  {
+    "word": "nor",
+    "current": [
+      "n",
+      "or"
+    ],
+    "suggested": [
+      "nor"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "not",
+    "current": [
+      "n",
+      "ot"
+    ],
+    "suggested": [
+      "not"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "own",
+    "current": [
+      "ow",
+      "n"
+    ],
+    "suggested": [
+      "own"
+    ],
+    "reason": "split puts single 'n' as separate chunk; word is one syllable"
+  },
+  {
+    "word": "pa",
+    "current": [
+      "p",
+      "a"
+    ],
+    "suggested": [
+      "pa"
+    ],
+    "reason": "two-letter word should not be split"
+  },
+  {
+    "word": "pass",
+    "current": [
+      "p",
+      "ass"
+    ],
+    "suggested": [
+      "pass"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "pool",
+    "current": [
+      "p",
+      "ool"
+    ],
+    "suggested": [
+      "pool"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "queen",
+    "current": [
+      "q",
+      "ueen"
+    ],
+    "suggested": [
+      "queen"
+    ],
+    "reason": "one-syllable word; qu-digraph + vowel team"
+  },
+  {
+    "word": "quick",
+    "current": [
+      "q",
+      "uick"
+    ],
+    "suggested": [
+      "quick"
+    ],
+    "reason": "one-syllable word; qu-digraph should stay with vowel"
+  },
+  {
+    "word": "rat",
+    "current": [
+      "r",
+      "at"
+    ],
+    "suggested": [
+      "rat"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "reach",
+    "current": [
+      "r",
+      "each"
+    ],
+    "suggested": [
+      "reach"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "rest",
+    "current": [
+      "r",
+      "est"
+    ],
+    "suggested": [
+      "rest"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "roll",
+    "current": [
+      "r",
+      "oll"
+    ],
+    "suggested": [
+      "roll"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "room",
+    "current": [
+      "r",
+      "oom"
+    ],
+    "suggested": [
+      "room"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "rub",
+    "current": [
+      "r",
+      "ub"
+    ],
+    "suggested": [
+      "rub"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "sail",
+    "current": [
+      "s",
+      "ail"
+    ],
+    "suggested": [
+      "sail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "seem",
+    "current": [
+      "s",
+      "eem"
+    ],
+    "suggested": [
+      "seem"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "shall",
+    "current": [
+      "sh",
+      "all"
+    ],
+    "suggested": [
+      "shall"
+    ],
+    "reason": "one-syllable word; sh-digraph needs vowel attached"
+  },
+  {
+    "word": "shout",
+    "current": [
+      "sh",
+      "out"
+    ],
+    "suggested": [
+      "shout"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "shut",
+    "current": [
+      "sh",
+      "ut"
+    ],
+    "suggested": [
+      "shut"
+    ],
+    "reason": "one-syllable CVC word; digraph needs vowel"
+  },
+  {
+    "word": "sight",
+    "current": [
+      "s",
+      "ight"
+    ],
+    "suggested": [
+      "sight"
+    ],
+    "reason": "one-syllable word; 'igh' trigraph needs onset attached"
+  },
+  {
+    "word": "skill",
+    "current": [
+      "sk",
+      "ill"
+    ],
+    "suggested": [
+      "skill"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "smell",
+    "current": [
+      "sm",
+      "ell"
+    ],
+    "suggested": [
+      "smell"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "spell",
+    "current": [
+      "sp",
+      "ell"
+    ],
+    "suggested": [
+      "spell"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "sport",
+    "current": [
+      "sp",
+      "ort"
+    ],
+    "suggested": [
+      "sport"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "stair",
+    "current": [
+      "st",
+      "air"
+    ],
+    "suggested": [
+      "stair"
+    ],
+    "reason": "one-syllable vowel-team r-controlled word"
+  },
+  {
+    "word": "stay",
+    "current": [
+      "st",
+      "ay"
+    ],
+    "suggested": [
+      "stay"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "such",
+    "current": [
+      "s",
+      "uch"
+    ],
+    "suggested": [
+      "such"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "tail",
+    "current": [
+      "t",
+      "ail"
+    ],
+    "suggested": [
+      "tail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "thank",
+    "current": [
+      "th",
+      "ank"
+    ],
+    "suggested": [
+      "thank"
+    ],
+    "reason": "one-syllable word; th-digraph needs vowel attached"
+  },
+  {
+    "word": "tool",
+    "current": [
+      "t",
+      "ool"
+    ],
+    "suggested": [
+      "tool"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "touch",
+    "current": [
+      "t",
+      "ouch"
+    ],
+    "suggested": [
+      "touch"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "trouble",
+    "current": [
+      "troub",
+      "le"
+    ],
+    "suggested": [
+      "trou",
+      "ble"
+    ],
+    "reason": "standard syllable boundary is trou-ble, not troub-le"
+  },
+  {
+    "word": "till",
+    "current": [
+      "t",
+      "ill"
+    ],
+    "suggested": [
+      "till"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "view",
+    "current": [
+      "v",
+      "iew"
+    ],
+    "suggested": [
+      "view"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "wear",
+    "current": [
+      "w",
+      "ear"
+    ],
+    "suggested": [
+      "wear"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "weigh",
+    "current": [
+      "w",
+      "eigh"
+    ],
+    "suggested": [
+      "weigh"
+    ],
+    "reason": "one-syllable word; 'eigh' team needs onset"
+  },
+  {
+    "word": "weight",
+    "current": [
+      "w",
+      "eight"
+    ],
+    "suggested": [
+      "weight"
+    ],
+    "reason": "one-syllable word; 'eigh' team needs onset"
+  },
+  {
+    "word": "win",
+    "current": [
+      "w",
+      "in"
+    ],
+    "suggested": [
+      "win"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "worse",
+    "current": [
+      "wor",
+      "se"
+    ],
+    "suggested": [
+      "worse"
+    ],
+    "reason": "one-syllable r-controlled word; should not split silent-e"
+  },
+  {
+    "word": "worst",
+    "current": [
+      "w",
+      "orst"
+    ],
+    "suggested": [
+      "worst"
+    ],
+    "reason": "one-syllable r-controlled CVCC word"
+  },
+  {
+    "word": "yes",
+    "current": [
+      "y",
+      "es"
+    ],
+    "suggested": [
+      "yes"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "yeah",
+    "current": [
+      "y",
+      "eah"
+    ],
+    "suggested": [
+      "yeah"
+    ],
+    "reason": "one-syllable word"
+  },
+  {
+    "word": "aim",
+    "current": [
+      "a",
+      "im"
+    ],
+    "suggested": [
+      "aim"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "beep",
+    "current": [
+      "b",
+      "eep"
+    ],
+    "suggested": [
+      "beep"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "beg",
+    "current": [
+      "b",
+      "eg"
+    ],
+    "suggested": [
+      "beg"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "bind",
+    "current": [
+      "b",
+      "ind"
+    ],
+    "suggested": [
+      "bind"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "bet",
+    "current": [
+      "b",
+      "et"
+    ],
+    "suggested": [
+      "bet"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "boil",
+    "current": [
+      "b",
+      "oil"
+    ],
+    "suggested": [
+      "boil"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "bun",
+    "current": [
+      "b",
+      "un"
+    ],
+    "suggested": [
+      "bun"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "burst",
+    "current": [
+      "b",
+      "urst"
+    ],
+    "suggested": [
+      "burst"
+    ],
+    "reason": "one-syllable r-controlled CVCC word"
+  },
+  {
+    "word": "blackboard",
+    "current": [
+      "blac",
+      "kboard"
+    ],
+    "suggested": [
+      "black",
+      "board"
+    ],
+    "reason": "compound word; ck-digraph should not be split"
+  },
+  {
+    "word": "blank",
+    "current": [
+      "bl",
+      "ank"
+    ],
+    "suggested": [
+      "blank"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "blind",
+    "current": [
+      "bl",
+      "ind"
+    ],
+    "suggested": [
+      "blind"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "broad",
+    "current": [
+      "br",
+      "oad"
+    ],
+    "suggested": [
+      "broad"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "cheat",
+    "current": [
+      "ch",
+      "eat"
+    ],
+    "suggested": [
+      "cheat"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "clap",
+    "current": [
+      "cl",
+      "ap"
+    ],
+    "suggested": [
+      "clap"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "claw",
+    "current": [
+      "cl",
+      "aw"
+    ],
+    "suggested": [
+      "claw"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "clown",
+    "current": [
+      "cl",
+      "own"
+    ],
+    "suggested": [
+      "clown"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "coal",
+    "current": [
+      "c",
+      "oal"
+    ],
+    "suggested": [
+      "coal"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "cock",
+    "current": [
+      "c",
+      "ock"
+    ],
+    "suggested": [
+      "cock"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "roach",
+    "current": [
+      "r",
+      "oach"
+    ],
+    "suggested": [
+      "roach"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "cop",
+    "current": [
+      "c",
+      "op"
+    ],
+    "suggested": [
+      "cop"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "doughnut",
+    "current": [
+      "doug",
+      "hnut"
+    ],
+    "suggested": [
+      "dough",
+      "nut"
+    ],
+    "reason": "compound word; 'gh' digraph should not be split"
+  },
+  {
+    "word": "fail",
+    "current": [
+      "f",
+      "ail"
+    ],
+    "suggested": [
+      "fail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fault",
+    "current": [
+      "f",
+      "ault"
+    ],
+    "suggested": [
+      "fault"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fighter",
+    "current": [
+      "fig",
+      "hter"
+    ],
+    "suggested": [
+      "figh",
+      "ter"
+    ],
+    "reason": "'gh' digraph should not be split; boundary is figh-ter"
+  },
+  {
+    "word": "firm",
+    "current": [
+      "f",
+      "irm"
+    ],
+    "suggested": [
+      "firm"
+    ],
+    "reason": "one-syllable r-controlled CVCC word"
+  },
+  {
+    "word": "fit",
+    "current": [
+      "f",
+      "it"
+    ],
+    "suggested": [
+      "fit"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "flag",
+    "current": [
+      "fl",
+      "ag"
+    ],
+    "suggested": [
+      "flag"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "flash",
+    "current": [
+      "fl",
+      "ash"
+    ],
+    "suggested": [
+      "flash"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "flow",
+    "current": [
+      "fl",
+      "ow"
+    ],
+    "suggested": [
+      "flow"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fool",
+    "current": [
+      "f",
+      "ool"
+    ],
+    "suggested": [
+      "fool"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "frank",
+    "current": [
+      "fr",
+      "ank"
+    ],
+    "suggested": [
+      "frank"
+    ],
+    "reason": "one-syllable CVCC word"
+  }
+]

@@ -1,0 +1,501 @@
+# 字 3500-3999
+ 3500 | plot                           | 劇情                             | 📜        | chunks=['pl', 'ot'] | py=ㄆㄌㄚㄊ | theme=movies-tv | stage=1 [有易混提示]
+ 3501 | twist                          | 轉折                             | 🔀        | chunks=['tw', 'ist'] | py=ㄊㄨㄧㄙㄊ | theme=movies-tv | stage=2 [有易混提示]
+ 3502 | setting                        | 場景                             | 🎬        | chunks=['set', 'ting'] | py=ㄙㄝ-ㄊㄧㄥ | theme=movies-tv | stage=1 base=set [有易混提示]
+ 3503 | scene                          | 場景、一幕、圈子                       | 🎬        | chunks=['sc', 'ene'] | py=ㄒㄧㄣ | theme=movies-tv | stage=1 [有易混提示]
+ 3504 | audience                       | 觀眾                             | 🎬        | chunks=['au', 'di', 'ence'] | py=ㄛ-ㄉㄧ-ㄜㄣㄙ | theme=movies-tv | stage=1
+ 3505 | viewer                         | 觀眾                             | 📺        | chunks=['view', 'er'] | py=ㄈㄧㄨ-ㄜㄦ | theme=movies-tv | stage=1 base=view
+ 3506 | rating                         | 評分                             | ⭐        | chunks=['rat', 'ing'] | py=ㄌㄝ-ㄊㄧㄥ | theme=movies-tv | stage=1 base=rate [有易混提示]
+ 3507 | review                         | 評論                             | 📝        | chunks=['re', 'view'] | py=ㄌㄧ-ㄈㄧㄨ | theme=movies-tv | stage=1 [有易混提示]
+ 3508 | critic                         | 評論家                            | 🧐        | chunks=['crit', 'ic'] | py=ㄎㄌㄧ-ㄊㄧㄎ | theme=movies-tv | stage=2
+ 3509 | series                         | 影集                             | 📺        | chunks=['se', 'ries'] | py=ㄒㄧ-ㄌㄧㄗ | theme=movies-tv | stage=1 [有易混提示]
+ 3510 | episode                        | 集數                             | 📺        | chunks=['ep', 'i', 'sode'] | py=ㄝ-ㄆㄜ-ㄙㄛㄉ | theme=movies-tv | stage=1
+ 3511 | finale                         | 完結篇                            | 🏁        | chunks=['fi', 'na', 'le'] | py=ㄈㄜ-ㄋㄚ-ㄌㄧ | theme=movies-tv | stage=2
+ 3512 | binge                          | 狂看、一口氣看完                       | 🛋️       | chunks=['b', 'inge'] | py=ㄅㄧㄣㄐ | theme=movies-tv | stage=2 [有易混提示]
+ 3513 | recap                          | 回顧                             | ⏪        | chunks=['re', 'cap'] | py=ㄌㄧ-ㄎㄚㄆ | theme=movies-tv | stage=2
+ 3514 | spoiler                        | 劇透                             | 🤐        | chunks=['spoil', 'er'] | py=ㄙㄆㄛㄧ-ㄌㄜㄦ | theme=movies-tv | stage=1 base=spoil
+ 3515 | broadcast                      | 播送                             | 📡        | chunks=['broad', 'cast'] | py=ㄅㄌㄛㄉ-ㄎㄚㄙㄊ | theme=movies-tv | stage=2 base=broadcast
+ 3516 | livestream                     | 直播                             | 📹        | chunks=['live', 'stream'] | py=ㄌㄞㄈ-ㄙㄉㄌㄧㄇ | theme=movies-tv | stage=1
+ 3517 | syringe                        | 針筒                             | 💉        | chunks=['sy', 'ringe'] | py=ㄒㄜ-ㄌㄧㄣㄐ | theme=medical | stage=2
+ 3518 | scalpel                        | 手術刀                            | 🔪        | chunks=['scal', 'pel'] | py=ㄙㄎㄚㄦ-ㄆㄦ | theme=medical | stage=3
+ 3519 | stethoscope                    | 聽診器                            | 🩺        | chunks=['steth', 'o', 'scope'] | py=ㄙㄉㄝ-ㄙㄜ-ㄙㄎㄛㄆ | theme=medical | stage=2
+ 3520 | xray                           | X光                             | 🩻        | chunks=['x', 'ray'] | py=ㄝㄎㄙ-ㄌㄟ | theme=medical | stage=1
+ 3521 | mri                            | 核磁共振                           | 🩻        | chunks=['m', 'r', 'i'] | py=ㄝㄇ-ㄚㄦ-ㄞ | theme=medical | stage=2
+ 3522 | ultrasound                     | 超音波                            | 🩻        | chunks=['ul', 'tra', 'sound'] | py=ㄚㄦ-ㄊㄌㄚ-ㄙㄠㄣㄉ | theme=medical | stage=2
+ 3523 | ecg                            | 心電圖                            | 📈        | chunks=['e', 'c', 'g'] | py=ㄧ-ㄒㄧ-ㄐㄧ | theme=medical | stage=3
+ 3524 | ward                           | 病房                             | 🏥        | chunks=['w', 'ard'] | py=ㄨㄛㄦㄉ | theme=medical | stage=2 [有易混提示]
+ 3525 | icu                            | 加護病房                           | 🏥        | chunks=['i', 'c', 'u'] | py=ㄞ-ㄒㄧ-ㄧㄨ | theme=medical | stage=2
+ 3526 | emergency                      | 急診                             | 🚨        | chunks=['e', 'mer', 'gen', 'cy'] | py=ㄧ-ㄇㄜㄦ-ㄐㄜㄣ-ㄒㄧ | theme=medical | stage=1 base=emerge
+ 3527 | vial                           | 小瓶                             | 💊        | chunks=['vi', 'al'] | py=ㄈㄞ-ㄜㄦ | theme=medical | stage=3
+ 3528 | oxygen                         | 氧氣                             | 🫧        | chunks=['ox', 'y', 'gen'] | py=ㄚㄎ-ㄒㄜ-ㄐㄜㄣ | theme=medical | stage=2
+ 3529 | iv                             | 點滴                             | 💧        | chunks=['i', 'v'] | py=ㄞ-ㄈㄧ | theme=medical | stage=3
+ 3530 | antibody                       | 抗體                             | 🦠        | chunks=['an', 'ti', 'bo', 'dy'] | py=ㄢ-ㄊㄧ-ㄅㄚ-ㄉㄧ | theme=medical | stage=2
+ 3531 | immune                         | 免疫                             | 🛡️       | chunks=['im', 'mune'] | py=ㄧ-ㄇㄧㄨㄣ | theme=medical | stage=2
+ 3532 | immunization                   | 免疫接種                           | 💉        | chunks=['im', 'mu', 'ni', 'za', 'tion'] | py=ㄧ-ㄇㄧㄨ-ㄋㄜ-ㄗㄝ-ㄒㄜㄣ | theme=medical | stage=3
+ 3533 | vaccination                    | 疫苗接種                           | 💉        | chunks=['vac', 'ci', 'na', 'tion'] | py=ㄈㄚㄎ-ㄒㄜ-ㄋㄝ-ㄒㄜㄣ | theme=medical | stage=2 base=vaccine
+ 3534 | booster                        | 加強劑                            | 💉        | chunks=['boo', 'ster'] | py=ㄅㄨ-ㄙㄉㄜㄦ | theme=medical | stage=2 base=boost
+ 3535 | quarantine                     | 隔離                             | 🚷        | chunks=['quar', 'an', 'tine'] | py=ㄎㄨㄛ-ㄦ-ㄊㄧㄣ | theme=medical | stage=2
+ 3536 | isolation                      | 隔離                             | 🚷        | chunks=['i', 'so', 'la', 'tion'] | py=ㄞ-ㄙㄜ-ㄌㄝ-ㄒㄜㄣ | theme=medical | stage=2
+ 3537 | sterile                        | 無菌                             | 🧼        | chunks=['ster', 'ile'] | py=ㄙㄉㄝ-ㄌㄦ | theme=medical | stage=3 [有易混提示]
+ 3538 | medication                     | 藥物                             | 💊        | chunks=['med', 'i', 'ca', 'tion'] | py=ㄇㄝ-ㄉㄜ-ㄎㄝ-ㄒㄜㄣ | theme=medical | stage=2
+ 3539 | drug                           | 藥                              | 💊        | chunks=['dr', 'ug'] | py=ㄉㄌㄚㄍ | theme=medical | stage=1 [有易混提示]
+ 3540 | pharmaceutical                 | 製藥                             | 💊        | chunks=['phar', 'ma', 'ceu', 'ti', 'cal'] | py=ㄈㄚㄦ-ㄇㄜ-ㄙㄧㄨ-ㄊㄜ-ㄎㄜ | theme=medical | stage=3
+ 3541 | generic                        | 學名藥                            | 💊        | chunks=['gen', 'er', 'ic'] | py=ㄐㄜ-ㄋㄝ-ㄌㄧㄎ | theme=medical | stage=2 [有易混提示]
+ 3542 | overdose                       | 用藥過量                           | 💊        | chunks=['o', 'ver', 'dose'] | py=ㄛ-ㄈㄜ-ㄉㄛㄙ | theme=medical | stage=2
+ 3543 | withdrawal                     | 戒斷                             | 😖        | chunks=['with', 'draw', 'al'] | py=ㄨㄧㄒ-ㄉㄌㄛ-ㄦ | theme=medical | stage=3 base=withdraw
+ 3544 | addiction                      | 成癮                             | ⚠️       | chunks=['ad', 'dic', 'tion'] | py=ㄚ-ㄉㄧㄎ-ㄒㄜㄣ | theme=medical | stage=2 base=addict
+ 3545 | addict                         | 成癮者                            | 😞        | chunks=['ad', 'dict'] | py=ㄚ-ㄉㄧㄎㄊ | theme=medical | stage=2
+ 3546 | rehab                          | 復健                             | 🏥        | chunks=['re', 'hab'] | py=ㄌㄧ-ㄏㄚㄅ | theme=medical | stage=2
+ 3547 | detox                          | 排毒                             | 🧼        | chunks=['de', 'tox'] | py=ㄉㄧ-ㄊㄚㄎㄙ | theme=medical | stage=2
+ 3548 | trauma                         | 創傷                             | 💔        | chunks=['trau', 'ma'] | py=ㄊㄌㄛ-ㄇㄜ | theme=medical | stage=2 [有易混提示]
+ 3549 | chronic                        | 慢性                             | ⏳        | chunks=['chron', 'ic'] | py=ㄎㄌㄚ-ㄋㄧㄎ | theme=medical | stage=2 [有易混提示]
+ 3550 | acute                          | 急性                             | ⚠️       | chunks=['a', 'cute'] | py=ㄜ-ㄎㄧㄨㄊ | theme=medical | stage=2 [有易混提示]
+ 3551 | benign                         | 良性                             | 💚        | chunks=['be', 'nign'] | py=ㄅㄧ-ㄋㄞㄣ | theme=medical | stage=3
+ 3552 | malignant                      | 惡性                             | 🔴        | chunks=['ma', 'lig', 'nant'] | py=ㄇㄜ-ㄌㄧㄍ-ㄋㄜㄣㄊ | theme=medical | stage=3
+ 3553 | tumor                          | 腫瘤                             | 🔴        | chunks=['tu', 'mor'] | py=ㄊㄨ-ㄇㄜㄦ | theme=medical | stage=2
+ 3554 | swelling                       | 腫脹                             | 🔴        | chunks=['swell', 'ing'] | py=ㄙㄨㄝㄦ-ㄧㄥ | theme=medical | stage=2 base=swell
+ 3555 | inflammation                   | 發炎                             | 🔴        | chunks=['in', 'flam', 'ma', 'tion'] | py=ㄧㄣ-ㄈㄌㄜ-ㄇㄝ-ㄒㄜㄣ | theme=medical | stage=3
+ 3556 | rash                           | 疹子                             | 🔴        | chunks=['r', 'ash'] | py=ㄌㄚㄒ | theme=medical | stage=2
+ 3557 | abscess                        | 膿包                             | 🔴        | chunks=['ab', 'scess'] | py=ㄚㄅ-ㄙㄝㄙ | theme=medical | stage=3
+ 3558 | hemorrhage                     | 出血                             | 🩸        | chunks=['hem', 'or', 'rhage'] | py=ㄏㄝ-ㄇㄜ-ㄌㄜㄐ | theme=medical | stage=4
+ 3559 | clot                           | 血塊                             | 🩸        | chunks=['cl', 'ot'] | py=ㄎㄌㄚㄊ | theme=medical | stage=3 [有易混提示]
+ 3560 | seizure                        | 癲癇發作                           | ⚡        | chunks=['sei', 'zure'] | py=ㄒㄧ-ㄓㄜ | theme=medical | stage=3
+ 3561 | spasm                          | 痙攣                             | ⚡        | chunks=['spas', 'm'] | py=ㄙㄆㄚ-ㄗㄜㄇ | theme=medical | stage=3
+ 3562 | cramp                          | 抽筋                             | 😣        | chunks=['cr', 'amp'] | py=ㄎㄌㄚㄇㄆ | theme=medical | stage=2 [有易混提示]
+ 3563 | twitch                         | 抽動                             | ⚡        | chunks=['tw', 'itch'] | py=ㄊㄨㄧㄑ | theme=medical | stage=2
+ 3564 | paralysis                      | 癱瘓                             | 🧎        | chunks=['pa', 'ral', 'y', 'sis'] | py=ㄆㄜ-ㄌㄚ-ㄌㄜ-ㄒㄜㄙ | theme=medical | stage=3
+ 3565 | amnesia                        | 失憶                             | 🧠        | chunks=['am', 'ne', 'sia'] | py=ㄚㄇ-ㄋㄧ-ㄓㄜ | theme=medical | stage=3
+ 3566 | dementia                       | 失智                             | 🧠        | chunks=['de', 'men', 'tia'] | py=ㄉㄧ-ㄇㄝㄣ-ㄒㄜ | theme=medical | stage=3
+ 3567 | nausea                         | 噁心                             | 🤢        | chunks=['nau', 'se', 'a'] | py=ㄋㄛ-ㄗㄧ-ㄜ | theme=medical | stage=2
+ 3568 | vomit                          | 嘔吐                             | 🤮        | chunks=['vom', 'it'] | py=ㄈㄚ-ㄇㄜㄊ | theme=medical | stage=1
+ 3569 | diarrhea                       | 腹瀉                             | 🤢        | chunks=['di', 'ar', 'rhe', 'a'] | py=ㄉㄞ-ㄜ-ㄌㄧ-ㄜ | theme=medical | stage=2
+ 3570 | constipation                   | 便秘                             | 😖        | chunks=['con', 'sti', 'pa', 'tion'] | py=ㄎㄚㄣ-ㄙㄉㄜ-ㄆㄝ-ㄒㄜㄣ | theme=medical | stage=2
+ 3571 | indigestion                    | 消化不良                           | 😖        | chunks=['in', 'di', 'ges', 'tion'] | py=ㄧㄣ-ㄉㄞ-ㄐㄝㄙ-ㄒㄜㄣ | theme=medical | stage=2
+ 3572 | heartburn                      | 胃灼熱                            | 🔥        | chunks=['heart', 'burn'] | py=ㄏㄚㄦㄊ-ㄅㄜㄣ | theme=medical | stage=2
+ 3573 | choke                          | 噎到                             | 😵        | chunks=['ch', 'oke'] | py=ㄑㄛㄎ | theme=medical | stage=2
+ 3574 | dehydration                    | 脫水                             | 💧        | chunks=['de', 'hy', 'dra', 'tion'] | py=ㄉㄧ-ㄏㄞ-ㄉㄌㄝ-ㄒㄜㄣ | theme=medical | stage=2
+ 3575 | hypothermia                    | 體溫過低                           | 🥶        | chunks=['hy', 'po', 'ther', 'mia'] | py=ㄏㄞ-ㄆㄜ-ㄙㄜ-ㄇㄧㄜ | theme=medical | stage=3
+ 3576 | frostbite                      | 凍傷                             | 🥶        | chunks=['frost', 'bite'] | py=ㄈㄌㄚㄙㄊ-ㄅㄞㄊ | theme=medical | stage=2
+ 3577 | transplant                     | 移植                             | 🩺        | chunks=['trans', 'plant'] | py=ㄊㄌㄚㄣㄙ-ㄆㄌㄚㄣㄊ | theme=medical | stage=2
+ 3578 | dialysis                       | 洗腎                             | 🩺        | chunks=['di', 'al', 'y', 'sis'] | py=ㄉㄞ-ㄚ-ㄜ-ㄒㄧㄙ | theme=medical | stage=3
+ 3579 | chemo                          | 化療                             | 💉        | chunks=['chem', 'o'] | py=ㄎㄧ-ㄇㄛ | theme=medical | stage=2
+ 3580 | radiotherapy                   | 放射治療                           | 📡        | chunks=['ra', 'di', 'o', 'ther', 'a', 'py'] | py=ㄌㄝ-ㄉㄧ-ㄛ-ㄙㄝ-ㄌㄜ-ㄆㄧ | theme=medical | stage=3
+ 3581 | placebo                        | 安慰劑                            | 💊        | chunks=['pla', 'ce', 'bo'] | py=ㄆㄌㄜ-ㄒㄧ-ㄅㄛ | theme=medical | stage=3
+ 3582 | fda                            | 美國食藥署                          | 🏛️       | chunks=['f', 'd', 'a'] | py=ㄝㄈ-ㄉㄧ-ㄝ | theme=medical | stage=3
+ 3583 | anesthetic                     | 麻醉劑                            | 😴        | chunks=['an', 'es', 'thet', 'ic'] | py=ㄚ-ㄋㄝㄙ-ㄒㄝ-ㄊㄧㄎ | theme=medical | stage=2
+ 3584 | biopsy                         | 切片                             | 🩺        | chunks=['bi', 'op', 'sy'] | py=ㄅㄞ-ㄚㄆ-ㄒㄧ | theme=medical | stage=3
+ 3585 | suture                         | 縫線                             | 🪡        | chunks=['su', 'ture'] | py=ㄙㄨ-ㄑㄜㄦ | theme=medical | stage=3
+ 3586 | tourniquet                     | 止血帶                            | 🩹        | chunks=['tour', 'ni', 'quet'] | py=ㄊㄨㄦ-ㄋㄜ-ㄎㄜㄊ | theme=medical | stage=3
+ 3587 | splint                         | 夾板                             | 🦴        | chunks=['spl', 'int'] | py=ㄙㄆㄌㄧㄣㄊ | theme=medical | stage=3
+ 3588 | crutches                       | 拐杖                             | 🦯        | chunks=['crutch', 'es'] | py=ㄎㄌㄚㄑ-ㄝㄗ | theme=medical | stage=2 base=crutch
+ 3589 | cane                           | 拐杖、甘蔗                          | 🦯        | chunks=['c', 'ane'] | py=ㄎㄝㄣ | theme=medical | stage=2 [有易混提示]
+ 3590 | prosthetic                     | 義肢                             | 🦿        | chunks=['pros', 'thet', 'ic'] | py=ㄆㄌㄚㄙ-ㄙㄝ-ㄊㄧㄎ | theme=medical | stage=3
+ 3591 | implant                        | 植入物                            | 🩺        | chunks=['im', 'plant'] | py=ㄧㄇ-ㄆㄌㄚㄣㄊ | theme=medical | stage=3
+ 3592 | pacemaker                      | 心律調節器                          | ❤️       | chunks=['pace', 'mak', 'er'] | py=ㄆㄝㄙ-ㄇㄝ-ㄎㄜㄦ | theme=medical | stage=3
+ 3593 | ventilator                     | 呼吸器                            | 🫁        | chunks=['ven', 'ti', 'la', 'tor'] | py=ㄈㄝㄣ-ㄊㄜ-ㄌㄝ-ㄊㄜㄦ | theme=medical | stage=3
+ 3594 | defibrillator                  | 電擊器                            | ⚡        | chunks=['de', 'fib', 'ril', 'la', 'tor'] | py=ㄉㄧ-ㄈㄜ-ㄅㄌㄜ-ㄌㄝ-ㄊㄜㄦ | theme=medical | stage=3
+ 3595 | gurney                         | 輪床                             | 🛏️       | chunks=['gur', 'ney'] | py=ㄍㄜ-ㄋㄧ | theme=medical | stage=3
+ 3596 | comatose                       | 昏迷                             | 😴        | chunks=['co', 'ma', 'tose'] | py=ㄎㄛ-ㄇㄜ-ㄊㄛㄙ | theme=medical | stage=3
+ 3597 | cardio                         | 有氧                             | 🏃        | chunks=['car', 'di', 'o'] | py=ㄎㄚㄦ-ㄉㄧ-ㄛ | theme=fitness | stage=1
+ 3598 | aerobic                        | 有氧                             | 🏃        | chunks=['a', 'er', 'o', 'bic'] | py=ㄝ-ㄌㄛ-ㄛ-ㄅㄧㄎ | theme=fitness | stage=2
+ 3599 | anaerobic                      | 無氧                             | 💪        | chunks=['an', 'a', 'er', 'o', 'bic'] | py=ㄚ-ㄋㄚ-ㄌㄛ-ㄛ-ㄅㄧㄎ | theme=fitness | stage=3
+ 3600 | hiit                           | 高強度間歇                          | 💪        | chunks=['h', 'i', 'i', 't'] | py=ㄏㄧㄊ | theme=fitness | stage=3
+ 3601 | crossfit                       | 混合健身                           | 💪        | chunks=['cross', 'fit'] | py=ㄎㄌㄚㄙ-ㄈㄧㄊ | theme=fitness | stage=2
+ 3602 | calisthenics                   | 徒手健身                           | 🤸        | chunks=['cal', 'is', 'then', 'ics'] | py=ㄎㄚ-ㄌㄜㄙ-ㄒㄝ-ㄋㄧㄎㄙ | theme=fitness | stage=3
+ 3603 | plyometric                     | 增強式                            | 🤸        | chunks=['ply', 'o', 'met', 'ric'] | py=ㄆㄌㄞ-ㄛ-ㄇㄝㄊ-ㄌㄧㄎ | theme=fitness | stage=3
+ 3604 | strength                       | 力量                             | 💪        | chunks=['str', 'ength'] | py=ㄙㄉㄌㄝㄥㄎㄙ | theme=fitness | stage=1
+ 3605 | endurance                      | 耐力                             | 🏃        | chunks=['en', 'dur', 'ance'] | py=ㄧㄣ-ㄉㄨㄦ-ㄜㄣㄙ | theme=fitness | stage=2
+ 3606 | agility                        | 敏捷                             | 🤸        | chunks=['a', 'gil', 'i', 'ty'] | py=ㄚ-ㄐㄜ-ㄌㄜ-ㄊㄧ | theme=fitness | stage=2
+ 3607 | flexibility                    | 柔軟度                            | 🤸        | chunks=['flex', 'i', 'bil', 'i', 'ty'] | py=ㄈㄌㄝㄎㄙ-ㄜ-ㄅㄧ-ㄌㄜ-ㄊㄧ | theme=fitness | stage=2
+ 3608 | mobility                       | 活動力                            | 🤸        | chunks=['mo', 'bil', 'i', 'ty'] | py=ㄇㄛ-ㄅㄧ-ㄌㄜ-ㄊㄧ | theme=fitness | stage=2
+ 3609 | posture                        | 姿勢                             | 🧍        | chunks=['pos', 'ture'] | py=ㄆㄚㄙ-ㄑㄜㄦ | theme=fitness | stage=2
+ 3610 | stamina                        | 耐力                             | 🏃        | chunks=['stam', 'i', 'na'] | py=ㄙㄉㄚ-ㄇㄜ-ㄋㄚ | theme=fitness | stage=3
+ 3611 | warmup                         | 暖身                             | 🤸        | chunks=['warm', 'up'] | py=ㄨㄛㄦㄇ-ㄚㄆ | theme=fitness | stage=1
+ 3612 | cooldown                       | 收操                             | 🧘        | chunks=['cool', 'down'] | py=ㄎㄨㄦ-ㄉㄠㄣ | theme=fitness | stage=2
+ 3613 | squat                          | 深蹲                             | 🏋️       | chunks=['sq', 'uat'] | py=ㄙㄎㄨㄚㄊ | theme=fitness | stage=1
+ 3614 | lunge                          | 弓步                             | 🏃        | chunks=['l', 'unge'] | py=ㄌㄚㄣㄐ | theme=fitness | stage=2
+ 3615 | plank                          | 平板                             | 💪        | chunks=['pl', 'ank'] | py=ㄆㄌㄚㄣㄎ | theme=fitness | stage=1
+ 3616 | crunch                         | 仰臥起坐                           | 💪        | chunks=['cr', 'unch'] | py=ㄎㄌㄚㄣㄑ | theme=fitness | stage=1
+ 3617 | situp                          | 仰臥起坐                           | 💪        | chunks=['sit', 'up'] | py=ㄒㄜㄊ-ㄚㄆ | theme=fitness | stage=1
+ 3618 | pushup                         | 伏地挺身                           | 💪        | chunks=['push', 'up'] | py=ㄆㄨㄒ-ㄚㄆ | theme=fitness | stage=1
+ 3619 | pullup                         | 引體向上                           | 💪        | chunks=['pull', 'up'] | py=ㄆㄨㄦ-ㄚㄆ | theme=fitness | stage=2
+ 3620 | deadlift                       | 硬舉                             | 🏋️       | chunks=['dead', 'lift'] | py=ㄉㄝㄉ-ㄌㄧㄈㄊ | theme=fitness | stage=2
+ 3621 | press                          | 推舉(健身)、新聞媒體                    | 💪        | chunks=['pr', 'ess'] | py=ㄆㄌㄝㄙ | theme=fitness | stage=1 [有易混提示]
+ 3622 | curl                           | 彎舉(健身)、捲髮                      | 💪        | chunks=['c', 'url'] | py=ㄎㄜㄦ | theme=fitness | stage=1 [有易混提示]
+ 3623 | dumbbell                       | 啞鈴                             | 🏋️       | chunks=['dumb', 'bell'] | py=ㄉㄚㄇ-ㄅㄝㄦ | theme=fitness | stage=1
+ 3624 | barbell                        | 槓鈴                             | 🏋️       | chunks=['bar', 'bell'] | py=ㄅㄚㄦ-ㄅㄝㄦ | theme=fitness | stage=2
+ 3625 | kettlebell                     | 壺鈴                             | 🏋️       | chunks=['ket', 'tle', 'bell'] | py=ㄎㄝ-ㄉㄜ-ㄅㄝㄦ | theme=fitness | stage=2
+ 3626 | weights                        | 重量訓練                           | 🏋️       | chunks=['w', 'eights'] | py=ㄨㄝㄊㄗ | theme=fitness | stage=1 [有易混提示]
+ 3627 | plates                         | 槓片、盤子                          | 🍽️       | chunks=['pl', 'ates'] | py=ㄆㄌㄝㄊㄗ | theme=fitness | stage=2 [有易混提示]
+ 3628 | rack                           | 深蹲架、架子                         | 🏋️       | chunks=['r', 'ack'] | py=ㄌㄚㄎ | theme=fitness | stage=2 [有易混提示]
+ 3629 | treadmill                      | 跑步機                            | 🏃        | chunks=['tread', 'mill'] | py=ㄊㄌㄝㄉ-ㄇㄧㄦ | theme=fitness | stage=2
+ 3630 | elliptical                     | 橢圓機                            | 🏃        | chunks=['el', 'lip', 'ti', 'cal'] | py=ㄧ-ㄌㄧㄆ-ㄊㄜ-ㄎㄜ | theme=fitness | stage=3
+ 3631 | stationarybike                 | 飛輪                             | 🚴        | chunks=['sta', 'tion', 'ar', 'y', 'bike'] | py=ㄙㄉㄝ-ㄒㄣ-ㄝ-ㄦ-ㄅㄞㄎ | theme=fitness | stage=3 [有易混提示]
+ 3632 | zumba                          | 尊巴                             | 💃        | chunks=['zum', 'ba'] | py=ㄗㄚㄇ-ㄅㄜ | theme=fitness | stage=2
+ 3633 | spinning                       | 飛輪課、旋轉                         | 🚴        | chunks=['spin', 'ning'] | py=ㄙㄆㄧㄣ-ㄋㄧㄥ | theme=fitness | stage=2 base=spin [有易混提示]
+ 3634 | bootcamp                       | 訓練營                            | 💪        | chunks=['boot', 'camp'] | py=ㄅㄨㄊ-ㄎㄚㄇㄆ | theme=fitness | stage=2
+ 3635 | membership                     | 會員資格                           | 🎫        | chunks=['mem', 'ber', 'ship'] | py=ㄇㄝㄇ-ㄅㄜㄦ-ㄒㄧㄆ | theme=fitness | stage=2
+ 3636 | subscription                   | 訂閱                             | 📋        | chunks=['sub', 'scrip', 'tion'] | py=ㄙㄚㄅ-ㄙㄎㄌㄧㄆ-ㄒㄣ | theme=fitness | stage=2 base=subscribe
+ 3637 | flex                           | 彎曲、炫耀                          | 💪        | chunks=['fl', 'ex'] | py=ㄈㄌㄝㄎㄙ | theme=fitness | stage=1 [有易混提示]
+ 3638 | sculpt                         | 雕塑                             | 💪        | chunks=['sc', 'ulpt'] | py=ㄙㄎㄚㄦㄆㄊ | theme=fitness | stage=3
+ 3639 | bulk                           | 增肌                             | 💪        | chunks=['b', 'ulk'] | py=ㄅㄚㄦㄎ | theme=fitness | stage=2 [有易混提示]
+ 3640 | shredding                      | 減脂                             | 💪        | chunks=['shred', 'ding'] | py=ㄒㄌㄝㄉ-ㄉㄧㄥ | theme=fitness | stage=3 base=shred
+ 3641 | bodyfat                        | 體脂                             | ⚖️       | chunks=['bod', 'y', 'fat'] | py=ㄅㄚ-ㄉㄧ-ㄈㄚㄊ | theme=fitness | stage=2
+ 3642 | leanmass                       | 瘦體重                            | 💪        | chunks=['lean', 'mass'] | py=ㄌㄧㄣ-ㄇㄚㄙ | theme=fitness | stage=3
+ 3643 | creatine                       | 肌酸                             | 💊        | chunks=['cre', 'a', 'tine'] | py=ㄎㄌㄧ-ㄚ-ㄊㄧㄣ | theme=fitness | stage=3
+ 3644 | bcaa                           | 支鏈胺基酸                          | 💊        | chunks=['b', 'c', 'a', 'a'] | py=ㄅㄧ-ㄒㄧ-ㄝ-ㄝ | theme=fitness | stage=3
+ 3645 | preworkout                     | 運動前補給品                         | 💊        | chunks=['pre', 'work', 'out'] | py=ㄆㄌㄧ-ㄨㄜㄎ-ㄠㄊ | theme=fitness | stage=3
+ 3646 | postworkout                    | 運動後補給品                         | 💊        | chunks=['post', 'work', 'out'] | py=ㄆㄛㄙㄊ-ㄨㄜㄎ-ㄠㄊ | theme=fitness | stage=3
+ 3647 | hydrate                        | 補水                             | 💧        | chunks=['hy', 'drate'] | py=ㄏㄞ-ㄉㄌㄝㄊ | theme=fitness | stage=2
+ 3648 | exhausted                      | 精疲力盡                           | 😩        | chunks=['ex', 'haust', 'ed'] | py=ㄧㄍ-ㄗㄛㄙ-ㄊㄜㄉ | theme=fitness | stage=2
+ 3649 | rep                            | 一下(健身次數)                       | 🔁        | chunks=['r', 'ep'] | py=ㄌㄝㄆ | theme=fitness | stage=2
+ 3650 | repetition                     | 反覆                             | 🔁        | chunks=['rep', 'e', 'ti', 'tion'] | py=ㄌㄝ-ㄆㄜ-ㄊㄧ-ㄒㄣ | theme=fitness | stage=2
+ 3651 | circuit                        | 循環訓練                           | 🔁        | chunks=['cir', 'cuit'] | py=ㄙㄜ-ㄎㄜㄊ | theme=fitness | stage=2
+ 3652 | interval                       | 間歇                             | ⏱️       | chunks=['in', 'ter', 'val'] | py=ㄧㄣ-ㄊㄜ-ㄈㄜ | theme=fitness | stage=2
+ 3653 | restday                        | 休息日                            | 🛌        | chunks=['rest', 'day'] | py=ㄌㄝㄙㄊ-ㄉㄟ | theme=fitness | stage=1
+ 3654 | spotter                        | 輔助員                            | 💪        | chunks=['spot', 'ter'] | py=ㄙㄆㄚ-ㄊㄜ | theme=fitness | stage=3 base=spot
+ 3655 | sixpack                        | 六塊肌                            | 💪        | chunks=['six', 'pack'] | py=ㄒㄧㄎㄙ-ㄆㄚㄎ | theme=fitness | stage=2
+ 3656 | abs                            | 腹肌                             | 💪        | chunks=['a', 'bs'] | py=ㄚㄅㄗ | theme=fitness | stage=1
+ 3657 | glutes                         | 臀肌                             | 🍑        | chunks=['gl', 'utes'] | py=ㄍㄌㄨㄊㄗ | theme=fitness | stage=3
+ 3658 | quads                          | 股四頭肌                           | 🦵        | chunks=['qu', 'ads'] | py=ㄎㄨㄚㄉㄗ | theme=fitness | stage=3
+ 3659 | hamstrings                     | 大腿後側                           | 🦵        | chunks=['ham', 'strings'] | py=ㄏㄚㄇ-ㄙㄉㄌㄧㄥㄗ | theme=fitness | stage=3
+ 3660 | lats                           | 背闊肌                            | 💪        | chunks=['l', 'ats'] | py=ㄌㄚㄊㄗ | theme=fitness | stage=3
+ 3661 | delts                          | 三角肌                            | 💪        | chunks=['d', 'elts'] | py=ㄉㄝㄦㄊㄗ | theme=fitness | stage=3
+ 3662 | traps                          | 斜方肌                            | 💪        | chunks=['tr', 'aps'] | py=ㄊㄌㄚㄆㄗ | theme=fitness | stage=3
+ 3663 | form                           | 動作姿勢、形式                        | 🧍        | chunks=['f', 'orm'] | py=ㄈㄛㄦㄇ | theme=fitness | stage=2 [有易混提示]
+ 3664 | technique                      | 技巧                             | 💪        | chunks=['tech', 'nique'] | py=ㄊㄝㄎ-ㄋㄧㄎ | theme=fitness | stage=2
+ 3665 | deficit                        | 熱量赤字                           | ➖        | chunks=['def', 'i', 'cit'] | py=ㄉㄝ-ㄈㄜ-ㄒㄜㄊ | theme=fitness | stage=3
+ 3666 | surplus                        | 熱量盈餘                           | ➕        | chunks=['sur', 'plus'] | py=ㄙㄜ-ㄆㄌㄚㄙ | theme=fitness | stage=3
+ 3667 | maintenance                    | 維持                             | 🟰        | chunks=['main', 'te', 'nance'] | py=ㄇㄝㄣ-ㄊㄜ-ㄋㄢㄙ | theme=fitness | stage=3
+ 3668 | tracker                        | 追蹤器                            | 📍        | chunks=['track', 'er'] | py=ㄊㄌㄚㄎ-ㄜ | theme=fitness | stage=2 base=track
+ 3669 | fitbit                         | 運動手環                           | ⌚        | chunks=['fit', 'bit'] | py=ㄈㄧㄊ-ㄅㄜㄊ | theme=fitness | stage=2
+ 3670 | athletic                       | 運動的                            | 🏃        | chunks=['ath', 'let', 'ic'] | py=ㄚㄙ-ㄌㄝ-ㄊㄧㄎ | theme=fitness | stage=2
+ 3671 | sweatband                      | 頭帶                             | 🎽        | chunks=['sweat', 'band'] | py=ㄙㄨㄝㄊ-ㄅㄚㄣㄉ | theme=fitness | stage=3
+ 3672 | gymbag                         | 健身包                            | 🎒        | chunks=['gym', 'bag'] | py=ㄐㄧㄇ-ㄅㄚㄍ | theme=fitness | stage=2
+ 3673 | burner                         | 燃脂的東西、爐子                       | 🔥        | chunks=['burn', 'er'] | py=ㄅㄜㄦ-ㄋㄜㄦ | theme=fitness | stage=3 base=burn [有易混提示]
+ 3674 | hypertension                   | 高血壓                            | 📈        | chunks=['hy', 'per', 'ten', 'sion'] | py=ㄏㄞ-ㄆㄜ-ㄊㄣ-ㄒㄣ | theme=diseases | stage=2
+ 3675 | arthritis                      | 關節炎                            | 🦴        | chunks=['ar', 'thri', 'tis'] | py=ㄚㄦ-ㄙㄌㄞ-ㄊㄜㄙ | theme=diseases | stage=2
+ 3676 | osteoporosis                   | 骨質疏鬆                           | 🦴        | chunks=['os', 'te', 'o', 'po', 'ro', 'sis'] | py=ㄚㄙ-ㄊㄧ-ㄛ-ㄆㄜ-ㄌㄛ-ㄒㄜㄙ | theme=diseases | stage=3
+ 3677 | fibromyalgia                   | 纖維肌痛                           | 😣        | chunks=['fi', 'bro', 'my', 'al', 'gia'] | py=ㄈㄞ-ㄅㄌㄛ-ㄇㄞ-ㄚㄦ-ㄐㄧㄚ | theme=diseases | stage=3
+ 3678 | lupus                          | 狼瘡                             | 🦋        | chunks=['lu', 'pus'] | py=ㄌㄨ-ㄆㄜㄙ | theme=diseases | stage=3
+ 3679 | parkinson                      | 帕金森氏症                          | 🧠        | chunks=['par', 'kin', 'son'] | py=ㄆㄚㄦ-ㄎㄧㄣ-ㄗㄣ | theme=diseases | stage=3
+ 3680 | alzheimer                      | 阿茲海默症                          | 🧠        | chunks=['alz', 'hei', 'mer'] | py=ㄚㄦㄗ-ㄏㄞ-ㄇㄜ | theme=diseases | stage=3
+ 3681 | covid                          | 新冠病毒、COVID-19                  | 🦠        | chunks=['co', 'vid'] | py=ㄎㄛ-ㄈㄜㄉ | theme=diseases | stage=0 [有易混提示]
+ 3682 | sars                           | SARS、嚴重急性呼吸道症候群                | 🦠        | chunks=['s', 'ars'] | py=ㄙㄚㄦㄗ | theme=diseases | stage=2
+ 3683 | ebola                          | 伊波拉                            | 🦠        | chunks=['e', 'bo', 'la'] | py=ㄧ-ㄅㄛ-ㄌㄜ | theme=diseases | stage=3
+ 3684 | zika                           | 茲卡病毒                           | 🦟        | chunks=['zi', 'ka'] | py=ㄗㄧ-ㄎㄚ | theme=diseases | stage=3
+ 3685 | hiv                            | 愛滋病毒                           | 🦠        | chunks=['h', 'i', 'v'] | py=ㄝㄑ-ㄞ-ㄈㄧ | theme=diseases | stage=2
+ 3686 | aids                           | 愛滋病                            | 🦠        | chunks=['a', 'ids'] | py=ㄝㄉㄗ | theme=diseases | stage=2
+ 3687 | herpes                         | 皰疹                             | 🦠        | chunks=['her', 'pes'] | py=ㄏㄜ-ㄆㄧㄗ | theme=diseases | stage=3
+ 3688 | hepatitis                      | 肝炎                             | 🦠        | chunks=['hep', 'a', 'ti', 'tis'] | py=ㄏㄝ-ㄆㄜ-ㄊㄞ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3689 | jaundice                       | 黃疸                             | 🤢        | chunks=['jaun', 'dice'] | py=ㄐㄛㄣ-ㄉㄧㄙ | theme=diseases | stage=3
+ 3690 | cirrhosis                      | 肝硬化                            | 🦠        | chunks=['cir', 'rho', 'sis'] | py=ㄒㄜ-ㄌㄛ-ㄒㄜㄙ | theme=diseases | stage=3
+ 3691 | anemia                         | 貧血                             | 🩸        | chunks=['a', 'ne', 'mia'] | py=ㄚ-ㄋㄧ-ㄇㄧㄚ | theme=diseases | stage=3
+ 3692 | leukemia                       | 白血病                            | 🩸        | chunks=['leu', 'ke', 'mia'] | py=ㄌㄨ-ㄎㄧ-ㄇㄧㄜ | theme=diseases | stage=3
+ 3693 | lymphoma                       | 淋巴瘤                            | 🦠        | chunks=['lym', 'pho', 'ma'] | py=ㄌㄧㄇ-ㄈㄛ-ㄇㄜ | theme=diseases | stage=3
+ 3694 | melanoma                       | 黑色素瘤                           | 🦠        | chunks=['mel', 'a', 'no', 'ma'] | py=ㄇㄝ-ㄌㄜ-ㄋㄛ-ㄇㄜ | theme=diseases | stage=3
+ 3695 | adhd                           | 過動症                            | 🧠        | chunks=['a', 'd', 'h', 'd'] | py=ㄝ-ㄉㄧ-ㄝㄑ-ㄉㄧ | theme=diseases | stage=2
+ 3696 | ocd                            | 強迫症                            | 🧠        | chunks=['o', 'c', 'd'] | py=ㄛ-ㄒㄧ-ㄉㄧ | theme=diseases | stage=2
+ 3697 | ptsd                           | 創傷後壓力症                         | 🧠        | chunks=['p', 't', 's', 'd'] | py=ㄆㄧ-ㄊㄧ-ㄝㄙ-ㄉㄧ | theme=diseases | stage=3
+ 3698 | bipolar                        | 躁鬱症                            | 🧠        | chunks=['bi', 'po', 'lar'] | py=ㄅㄞ-ㄆㄛ-ㄌㄜ | theme=diseases | stage=3
+ 3699 | schizophrenia                  | 思覺失調                           | 🧠        | chunks=['schiz', 'o', 'phre', 'nia'] | py=ㄙㄎㄧㄗ-ㄛ-ㄈㄌㄧ-ㄋㄧㄚ | theme=diseases | stage=4
+ 3700 | migraine                       | 偏頭痛                            | 😣        | chunks=['mi', 'graine'] | py=ㄇㄞ-ㄍㄌㄝㄣ | theme=diseases | stage=2
+ 3701 | vertigo                        | 眩暈                             | 🌀        | chunks=['ver', 'ti', 'go'] | py=ㄈㄜ-ㄊㄜ-ㄍㄛ | theme=diseases | stage=3
+ 3702 | tinnitus                       | 耳鳴                             | 👂        | chunks=['tin', 'ni', 'tus'] | py=ㄊㄧ-ㄋㄜ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3703 | glaucoma                       | 青光眼                            | 👁️       | chunks=['glau', 'co', 'ma'] | py=ㄍㄌㄛ-ㄎㄛ-ㄇㄚ | theme=diseases | stage=3
+ 3704 | cataract                       | 白內障                            | 👁️       | chunks=['cat', 'a', 'ract'] | py=ㄎㄚ-ㄊㄜ-ㄌㄚㄎㄊ | theme=diseases | stage=3
+ 3705 | conjunctivitis                 | 結膜炎                            | 👁️       | chunks=['con', 'junc', 'ti', 'vi', 'tis'] | py=ㄎㄚㄣ-ㄐㄚㄣㄎ-ㄊㄜ-ㄈㄞ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3706 | blindness                      | 失明                             | 🦯        | chunks=['blind', 'ness'] | py=ㄅㄌㄞㄣㄉ-ㄋㄜㄙ | theme=diseases | stage=2 base=blind
+ 3707 | acne                           | 痤瘡                             | 🔴        | chunks=['ac', 'ne'] | py=ㄚㄎ-ㄋㄧ | theme=diseases | stage=2
+ 3708 | eczema                         | 濕疹                             | 🔴        | chunks=['ec', 'ze', 'ma'] | py=ㄝㄎ-ㄗㄜ-ㄇㄚ | theme=diseases | stage=3
+ 3709 | psoriasis                      | 乾癬                             | 🔴        | chunks=['pso', 'ri', 'a', 'sis'] | py=ㄙㄜ-ㄌㄞ-ㄝ-ㄒㄜㄙ | theme=diseases | stage=3
+ 3710 | hives                          | 蕁麻疹                            | 🔴        | chunks=['h', 'ives'] | py=ㄏㄞㄈㄗ | theme=diseases | stage=3
+ 3711 | ringworm                       | 金錢癬、體癬                         | 🪱        | chunks=['ring', 'worm'] | py=ㄌㄧㄥ-ㄨㄜㄇ | theme=diseases | stage=3
+ 3712 | gastritis                      | 胃炎                             | 😖        | chunks=['gas', 'tri', 'tis'] | py=ㄍㄚㄙ-ㄊㄌㄞ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3713 | ulcer                          | 潰瘍                             | 😖        | chunks=['ul', 'cer'] | py=ㄚㄦ-ㄙㄜ | theme=diseases | stage=3
+ 3714 | ibs                            | 腸躁症                            | 😖        | chunks=['i', 'b', 's'] | py=ㄞ-ㄅㄧ-ㄝㄙ | theme=diseases | stage=3
+ 3715 | crohn                          | 克隆氏症                           | 😖        | chunks=['cr', 'ohn'] | py=ㄎㄌㄛㄣ | theme=diseases | stage=3
+ 3716 | celiac                         | 乳糜瀉                            | 🚫        | chunks=['ce', 'li', 'ac'] | py=ㄒㄧ-ㄌㄧ-ㄚㄎ | theme=diseases | stage=3
+ 3717 | tuberculosis                   | 肺結核                            | 🫁        | chunks=['tu', 'ber', 'cu', 'lo', 'sis'] | py=ㄊㄨ-ㄅㄜ-ㄎㄧㄨ-ㄌㄛ-ㄒㄜㄙ | theme=diseases | stage=2
+ 3718 | copd                           | 慢性阻塞肺病                         | 🫁        | chunks=['c', 'o', 'p', 'd'] | py=ㄒㄧ-ㄛ-ㄆㄧ-ㄉㄧ | theme=diseases | stage=3
+ 3719 | emphysema                      | 肺氣腫                            | 🫁        | chunks=['em', 'phy', 'se', 'ma'] | py=ㄝㄇ-ㄈㄜ-ㄗㄧ-ㄇㄚ | theme=diseases | stage=3
+ 3720 | foodpoisoning                  | 食物中毒                           | 🤢        | chunks=['food', 'poi', 'son', 'ing'] | py=ㄈㄨㄉ-ㄆㄛㄧ-ㄗㄣ-ㄧㄥ | theme=diseases | stage=1
+ 3721 | gastroenteritis                | 腸胃炎                            | 😖        | chunks=['gas', 'tro', 'en', 'ter', 'i', 'tis'] | py=ㄍㄚㄙ-ㄊㄌㄛ-ㄝㄣ-ㄊㄜ-ㄜ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3722 | salmonella                     | 沙門氏菌                           | 🦠        | chunks=['sal', 'mo', 'nel', 'la'] | py=ㄙㄚㄦ-ㄇㄜ-ㄋㄝ-ㄌㄜ | theme=diseases | stage=3
+ 3723 | gout                           | 痛風                             | 😣        | chunks=['g', 'out'] | py=ㄍㄠㄊ | theme=diseases | stage=3
+ 3724 | tendinitis                     | 肌腱炎                            | 🦴        | chunks=['ten', 'din', 'i', 'tis'] | py=ㄊㄝㄣ-ㄉㄜ-ㄋㄞ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3725 | appendicitis                   | 闌尾炎                            | 😖        | chunks=['ap', 'pen', 'di', 'ci', 'tis'] | py=ㄜ-ㄆㄝㄣ-ㄉㄜ-ㄙㄞ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3726 | hernia                         | 疝氣                             | 😖        | chunks=['her', 'nia'] | py=ㄏㄜ-ㄋㄧㄜ | theme=diseases | stage=3
+ 3727 | gallstone                      | 膽結石                            | 💎        | chunks=['gall', 'stone'] | py=ㄍㄛㄦ-ㄙㄉㄛㄣ | theme=diseases | stage=3
+ 3728 | kidneystone                    | 腎結石                            | 💎        | chunks=['kid', 'ney', 'stone'] | py=ㄎㄧㄉ-ㄋㄧ-ㄙㄉㄛㄣ | theme=diseases | stage=3
+ 3729 | miscarriage                    | 流產                             | 😢        | chunks=['mis', 'car', 'riage'] | py=ㄇㄧㄙ-ㄎㄝ-ㄌㄧㄐ | theme=diseases | stage=3
+ 3730 | infertility                    | 不孕                             | 😢        | chunks=['in', 'fer', 'til', 'i', 'ty'] | py=ㄧㄣ-ㄈㄜ-ㄊㄜ-ㄌㄜ-ㄊㄧ | theme=diseases | stage=3
+ 3731 | menopause                      | 更年期                            | 🌡️       | chunks=['men', 'o', 'pause'] | py=ㄇㄝ-ㄋㄜ-ㄆㄛㄗ | theme=diseases | stage=3
+ 3732 | obesity                        | 肥胖症                            | 📊        | chunks=['o', 'be', 'si', 'ty'] | py=ㄛ-ㄅㄧ-ㄗㄜ-ㄊㄧ | theme=diseases | stage=2
+ 3733 | malnutrition                   | 營養不良                           | 📉        | chunks=['mal', 'nu', 'tri', 'tion'] | py=ㄇㄚㄦ-ㄋㄨ-ㄊㄌㄜ-ㄒㄣ | theme=diseases | stage=3
+ 3734 | plague                         | 瘟疫                             | 🦠        | chunks=['pl', 'ague'] | py=ㄆㄌㄝㄍ | theme=diseases | stage=3
+ 3735 | smallpox                       | 天花                             | 🦠        | chunks=['small', 'pox'] | py=ㄙㄇㄛㄦ-ㄆㄚㄎㄙ | theme=diseases | stage=3
+ 3736 | polio                          | 小兒麻痺                           | 🦠        | chunks=['po', 'li', 'o'] | py=ㄆㄛ-ㄌㄧ-ㄛ | theme=diseases | stage=3
+ 3737 | malaria                        | 瘧疾                             | 🦟        | chunks=['ma', 'lar', 'i', 'a'] | py=ㄇㄜ-ㄌㄝ-ㄌㄧ-ㄜ | theme=diseases | stage=3
+ 3738 | dengue                         | 登革熱                            | 🦟        | chunks=['den', 'gue'] | py=ㄉㄝㄣ-ㄍㄝ / ㄉㄝㄣ-ㄍㄧ | theme=diseases | stage=3
+ 3739 | cholera                        | 霍亂                             | 🦠        | chunks=['chol', 'e', 'ra'] | py=ㄎㄚ-ㄌㄜ-ㄌㄜ | theme=diseases | stage=3
+ 3740 | rabies                         | 狂犬病                            | 🦠        | chunks=['ra', 'bies'] | py=ㄌㄝ-ㄅㄧㄗ | theme=diseases | stage=3
+ 3741 | mumps                          | 腮腺炎                            | 🦠        | chunks=['m', 'umps'] | py=ㄇㄚㄇㄆㄙ | theme=diseases | stage=3
+ 3742 | measles                        | 麻疹                             | 🦠        | chunks=['mea', 'sles'] | py=ㄇㄧ-ㄗㄦㄗ | theme=diseases | stage=3
+ 3743 | chickenpox                     | 水痘                             | 🦠        | chunks=['chick', 'en', 'pox'] | py=ㄑㄧ-ㄎㄣ-ㄆㄚㄎㄙ | theme=diseases | stage=2
+ 3744 | hayfever                       | 花粉熱                            | 🌾        | chunks=['hay', 'fe', 'ver'] | py=ㄏㄝ-ㄈㄧ-ㄈㄜ | theme=diseases | stage=3
+ 3745 | allergies                      | 過敏症                            | 🤧        | chunks=['al', 'ler', 'gies'] | py=ㄚ-ㄌㄜ-ㄐㄧㄗ | theme=diseases | stage=2
+ 3746 | syndrome                       | 症候群                            | 📋        | chunks=['syn', 'drome'] | py=ㄒㄧㄣ-ㄉㄌㄛㄇ | theme=diseases | stage=2
+ 3747 | disorder                       | 失調、失調症                         | 😖        | chunks=['dis', 'or', 'der'] | py=ㄉㄧㄙ-ㄛㄦ-ㄉㄜ | theme=diseases | stage=2 [有易混提示]
+ 3748 | sickness                       | 疾病                             | 🤒        | chunks=['sick', 'ness'] | py=ㄒㄧㄎ-ㄋㄜㄙ | theme=diseases | stage=1 base=sick
+ 3749 | ailment                        | 小毛病                            | 🤒        | chunks=['ail', 'ment'] | py=ㄝㄦ-ㄇㄣㄊ | theme=diseases | stage=3
+ 3750 | disease                        | 疾病                             | 🦠        | chunks=['dis', 'ease'] | py=ㄉㄧ-ㄗㄧㄗ | theme=diseases | stage=1
+ 3751 | deficiency                     | 缺乏、不足                          | ❌        | chunks=['de', 'fi', 'cien', 'cy'] | py=ㄉㄧ-ㄈㄜ-ㄒㄜㄣ-ㄒㄧ | theme=diseases | stage=3
+ 3752 | deformity                      | 畸形                             | ⚠️       | chunks=['de', 'for', 'mi', 'ty'] | py=ㄉㄧ-ㄈㄛㄦ-ㄇㄜ-ㄊㄧ | theme=diseases | stage=3
+ 3753 | meningitis                     | 腦膜炎                            | 🧠        | chunks=['me', 'nin', 'gi', 'tis'] | py=ㄇㄜ-ㄋㄧㄣ-ㄐㄞ-ㄊㄜㄙ | theme=diseases | stage=3
+ 3754 | cubicle                        | 小隔間                            | 🏢        | chunks=['cu', 'bi', 'cle'] | py=ㄎㄧㄨ-ㄅㄜ-ㄎㄜ | theme=office | stage=2
+ 3755 | workstation                    | 工作站                            | 🪑        | chunks=['work', 'sta', 'tion'] | py=ㄨㄜㄦㄎ-ㄙㄉㄝ-ㄒㄜㄣ | theme=office | stage=2
+ 3756 | conferenceroom                 | 會議室                            | 🏢        | chunks=['con', 'fer', 'ence', 'room'] | py=ㄎㄚㄣ-ㄈㄜ-ㄢㄙ-ㄌㄨㄣ | theme=office | stage=1
+ 3757 | meeting                        | 會議                             | 🤝        | chunks=['meet', 'ing'] | py=ㄇㄧㄊ-ㄧㄥ | theme=office | stage=1 base=meet
+ 3758 | meetingroom                    | 會議室                            | 🏢        | chunks=['meet', 'ing', 'room'] | py=ㄇㄧㄊ-ㄧㄥ-ㄌㄨㄣ | theme=office | stage=1
+ 3759 | boardroom                      | 董事會議室                          | 🏢        | chunks=['board', 'room'] | py=ㄅㄛㄦㄉ-ㄌㄨㄣ | theme=office | stage=2
+ 3760 | agenda                         | 議程                             | 📋        | chunks=['a', 'gen', 'da'] | py=ㄜ-ㄐㄣ-ㄉㄜ | theme=office | stage=2
+ 3761 | minutes                        | 會議記錄                           | 📋        | chunks=['min', 'utes'] | py=ㄇㄧ-ㄋㄜㄊㄗ | theme=office | stage=2 [有易混提示]
+ 3762 | memo                           | 備忘錄                            | 📝        | chunks=['me', 'mo'] | py=ㄇㄝ-ㄇㄛ | theme=office | stage=1
+ 3763 | brief                          | 摘要、簡短報告                        | 📝        | chunks=['br', 'ief'] | py=ㄅㄌㄧㄈ | theme=office | stage=1 [有易混提示]
+ 3764 | briefing                       | 簡報、簡短說明會                       | 📝        | chunks=['brief', 'ing'] | py=ㄅㄌㄧㄈ-ㄧㄥ | theme=office | stage=2
+ 3765 | milestone                      | 里程碑                            | 🏁        | chunks=['mile', 'stone'] | py=ㄇㄞㄦ-ㄙㄉㄛㄣ | theme=office | stage=2
+ 3766 | kpi                            | 關鍵指標                           | 📊        | chunks=['k', 'p', 'i'] | py=ㄎㄝ-ㄆㄧ-ㄞ | theme=office | stage=2
+ 3767 | metric                         | 指標                             | 📊        | chunks=['met', 'ric'] | py=ㄇㄝㄊ-ㄌㄧㄎ | theme=office | stage=2
+ 3768 | target                         | 目標                             | 🎯        | chunks=['tar', 'get'] | py=ㄊㄚㄦ-ㄍㄜㄊ | theme=office | stage=1 [有易混提示]
+ 3769 | task                           | 任務                             | 📋        | chunks=['t', 'ask'] | py=ㄊㄚㄙㄎ | theme=office | stage=1
+ 3770 | todo                           | 待辦                             | 📋        | chunks=['to', 'do'] | py=ㄊㄨ-ㄉㄨ | theme=office | stage=1
+ 3771 | document                       | 文件                             | 📄        | chunks=['doc', 'u', 'ment'] | py=ㄉㄚ-ㄎㄧㄨ-ㄇㄜㄣㄊ | theme=office | stage=1 [有易混提示]
+ 3772 | doc                            | 文件                             | 📄        | chunks=['d', 'oc'] | py=ㄉㄚㄎ | theme=office | stage=1
+ 3773 | version                        | 版本                             | 📋        | chunks=['ver', 'sion'] | py=ㄈㄜㄦ-ㄓㄜㄣ | theme=office | stage=1
+ 3774 | archive                        | 封存                             | 🗄️       | chunks=['ar', 'chive'] | py=ㄚㄦ-ㄎㄞㄈ | theme=office | stage=2 base=arch [有易混提示]
+ 3775 | spreadsheet                    | 試算表                            | 📊        | chunks=['spread', 'sheet'] | py=ㄙㄆㄌㄝㄉ-ㄒㄧㄊ | theme=office | stage=2
+ 3776 | chart                          | 圖表                             | 📊        | chunks=['ch', 'art'] | py=ㄑㄚㄦㄊ | theme=office | stage=1 [有易混提示]
+ 3777 | graph                          | 圖表                             | 📊        | chunks=['gr', 'aph'] | py=ㄍㄌㄚㄈ | theme=office | stage=1
+ 3778 | fax                            | 傳真                             | 📠        | chunks=['f', 'ax'] | py=ㄈㄚㄎㄙ | theme=office | stage=2
+ 3779 | copier                         | 影印機                            | 📠        | chunks=['cop', 'ier'] | py=ㄎㄚ-ㄆㄧㄜㄦ | theme=office | stage=2
+ 3780 | shredder                       | 碎紙機                            | 📑        | chunks=['shred', 'der'] | py=ㄒㄌㄝ-ㄉㄜㄦ | theme=office | stage=3 base=shred
+ 3781 | stapler                        | 釘書機                            | 📎        | chunks=['sta', 'pler'] | py=ㄙㄉㄝ-ㄆㄌㄜㄦ | theme=office | stage=2 base=staple
+ 3782 | paperclip                      | 迴紋針                            | 📎        | chunks=['pa', 'per', 'clip'] | py=ㄆㄝ-ㄆㄜ-ㄎㄌㄧㄆ | theme=office | stage=1
+ 3783 | stickynote                     | 便利貼                            | 📝        | chunks=['stick', 'y', 'note'] | py=ㄙㄉㄧ-ㄎㄧ-ㄋㄛㄊ | theme=office | stage=2
+ 3784 | postit                         | 便利貼                            | 📝        | chunks=['post', 'it'] | py=ㄆㄛㄙㄊ-ㄧㄊ | theme=office | stage=2
+ 3785 | notepad                        | 便條本                            | 📓        | chunks=['note', 'pad'] | py=ㄋㄛㄊ-ㄆㄚㄉ | theme=office | stage=1
+ 3786 | highlighter                    | 螢光筆                            | 🖍️       | chunks=['high', 'light', 'er'] | py=ㄏㄞ-ㄌㄞ-ㄊㄜㄦ | theme=office | stage=2 base=highlight
+ 3787 | inbox                          | 收件匣                            | 📥        | chunks=['in', 'box'] | py=ㄧㄣ-ㄅㄚㄎㄙ | theme=office | stage=1
+ 3788 | outbox                         | 寄件匣                            | 📤        | chunks=['out', 'box'] | py=ㄠㄊ-ㄅㄚㄎㄙ | theme=office | stage=2
+ 3789 | reminder                       | 提醒                             | ⏰        | chunks=['re', 'mind', 'er'] | py=ㄌㄧ-ㄇㄞㄣ-ㄉㄜㄦ | theme=office | stage=1 base=remind
+ 3790 | overtime                       | 加班                             | ⏰        | chunks=['o', 'ver', 'time'] | py=ㄛ-ㄈㄜ-ㄊㄞㄇ | theme=office | stage=1
+ 3791 | hours                          | 工時                             | ⏰        | chunks=['h', 'ours'] | py=ㄠㄜㄗ | theme=office | stage=1
+ 3792 | parttime                       | 兼職                             | ⏰        | chunks=['part', 'time'] | py=ㄆㄚㄦㄊ-ㄊㄞㄇ | theme=office | stage=1
+ 3793 | fulltime                       | 全職                             | ⏰        | chunks=['full', 'time'] | py=ㄈㄨㄦ-ㄊㄞㄇ | theme=office | stage=1
+ 3794 | internship                     | 實習                             | 💼        | chunks=['in', 'tern', 'ship'] | py=ㄧㄣ-ㄊㄜㄦㄣ-ㄒㄧㄆ | theme=office | stage=1
+ 3795 | intern                         | 實習生                            | 💼        | chunks=['in', 'tern'] | py=ㄧㄣ-ㄊㄜㄦㄣ | theme=office | stage=1
+ 3796 | supervisor                     | 主管                             | 🧑‍💼      | chunks=['su', 'per', 'vi', 'sor'] | py=ㄙㄨ-ㄆㄜㄦ-ㄈㄞ-ㄗㄜㄦ | theme=office | stage=2 base=supervise
+ 3797 | employee                       | 員工                             | 🧑‍💼      | chunks=['em', 'ploy', 'ee'] | py=ㄝㄇ-ㄆㄌㄛㄧ-ㄧ | theme=office | stage=1 base=employ
+ 3798 | employer                       | 雇主                             | 🧑‍💼      | chunks=['em', 'ploy', 'er'] | py=ㄝㄇ-ㄆㄌㄛㄧ-ㄜㄦ | theme=office | stage=1 base=employ
+ 3799 | staff                          | 員工                             | 👥        | chunks=['st', 'aff'] | py=ㄙㄉㄚㄈ | theme=office | stage=1 [有易混提示]
+ 3800 | department                     | 部門                             | 🏢        | chunks=['de', 'part', 'ment'] | py=ㄉㄧ-ㄆㄚㄦㄊ-ㄇㄜㄣㄊ | theme=office | stage=1 base=depart
+ 3801 | division                       | 部門                             | 🏢        | chunks=['di', 'vi', 'sion'] | py=ㄉㄜ-ㄈㄧ-ㄓㄜㄣ | theme=office | stage=2 [有易混提示]
+ 3802 | hr                             | 人資                             | 🧑‍💼      | chunks=['h', 'r'] | py=ㄝㄑ-ㄚㄦ | theme=office | stage=1
+ 3803 | payroll                        | 薪資                             | 💵        | chunks=['pay', 'roll'] | py=ㄆㄝ-ㄌㄛㄦ | theme=office | stage=2
+ 3804 | raise                          | 加薪                             | 📈        | chunks=['r', 'aise'] | py=ㄌㄝㄗ | theme=office | stage=1 [有易混提示]
+ 3805 | hire                           | 僱用                             | 🤝        | chunks=['h', 'ire'] | py=ㄏㄞㄦ | theme=office | stage=1 [有易混提示]
+ 3806 | fire                           | 開除                             | 🔥        | chunks=['f', 'ire'] | py=ㄈㄞㄦ | theme=office | stage=1 [有易混提示]
+ 3807 | promote                        | 升職                             | 📈        | chunks=['pro', 'mote'] | py=ㄆㄜ-ㄇㄛㄊ | theme=office | stage=1
+ 3808 | demote                         | 降職                             | 📉        | chunks=['de', 'mote'] | py=ㄉㄧ-ㄇㄛㄊ | theme=office | stage=3
+ 3809 | layoff                         | 裁員                             | 📉        | chunks=['lay', 'off'] | py=ㄌㄝ-ㄛㄈ | theme=office | stage=2
+ 3810 | retire                         | 退休                             | 👴        | chunks=['re', 'tire'] | py=ㄌㄧ-ㄊㄞㄦ | theme=office | stage=1
+ 3811 | retirement                     | 退休                             | 👴        | chunks=['re', 'tire', 'ment'] | py=ㄌㄧ-ㄊㄞㄦ-ㄇㄜㄣㄊ | theme=office | stage=2 base=retire
+ 3812 | resign                         | 辭職                             | 📝        | chunks=['re', 'sign'] | py=ㄌㄧ-ㄗㄞㄣ | theme=office | stage=2
+ 3813 | training                       | 訓練                             | 📚        | chunks=['train', 'ing'] | py=ㄊㄌㄝㄣ-ㄧㄥ | theme=office | stage=1 base=train
+ 3814 | onboarding                     | 新進培訓                           | 📚        | chunks=['on', 'board', 'ing'] | py=ㄚㄣ-ㄅㄛㄦㄉ-ㄧㄥ | theme=office | stage=2
+ 3815 | orientation                    | 新訓                             | 📚        | chunks=['o', 'ri', 'en', 'ta', 'tion'] | py=ㄛ-ㄌㄧ-ㄝㄣ-ㄊㄝ-ㄒㄜㄣ | theme=office | stage=2 base=orient
+ 3816 | coworker                       | 同事                             | 🧑‍💼      | chunks=['co', 'work', 'er'] | py=ㄎㄛ-ㄨㄜㄎ-ㄜ | theme=office | stage=1
+ 3817 | networking                     | 建立人脈                           | 🤝        | chunks=['net', 'work', 'ing'] | py=ㄋㄝㄊ-ㄨㄜㄎ-ㄧㄥ | theme=office | stage=1
+ 3818 | summit                         | 高峰會                            | 🤝        | chunks=['sum', 'mit'] | py=ㄙㄚ-ㄇㄜㄊ | theme=office | stage=2 [有易混提示]
+ 3819 | benefits                       | 福利                             | 🎁        | chunks=['ben', 'e', 'fits'] | py=ㄅㄝ-ㄋㄜ-ㄈㄧㄊㄙ | theme=office | stage=1
+ 3820 | perks                          | 額外福利                           | 🎁        | chunks=['p', 'erks'] | py=ㄆㄜㄎㄙ | theme=office | stage=2
+ 3821 | healthcare                     | 健康保險                           | 🏥        | chunks=['health', 'care'] | py=ㄏㄝㄦㄙ-ㄎㄝㄦ | theme=office | stage=1
+ 3822 | dental                         | 牙科                             | 🦷        | chunks=['den', 'tal'] | py=ㄉㄝㄣ-ㄉㄜㄦ | theme=office | stage=2 [有易混提示]
+ 3823 | insurance                      | 保險                             | 🛡️       | chunks=['in', 'sur', 'ance'] | py=ㄧㄣ-ㄒㄨㄦ-ㄜㄣㄙ | theme=office | stage=1
+ 3824 | sickleave                      | 病假                             | 🤒        | chunks=['sick', 'leave'] | py=ㄒㄧㄎ-ㄌㄧㄈ | theme=office | stage=2
+ 3825 | maternity                      | 產假                             | 🤰        | chunks=['ma', 'ter', 'ni', 'ty'] | py=ㄇㄜ-ㄊㄜ-ㄋㄜ-ㄊㄧ | theme=office | stage=3
+ 3826 | paternity                      | 陪產假                            | 👨        | chunks=['pa', 'ter', 'ni', 'ty'] | py=ㄆㄜ-ㄊㄜ-ㄋㄜ-ㄊㄧ | theme=office | stage=3
+ 3827 | signature                      | 簽名                             | 🖊️       | chunks=['sig', 'na', 'ture'] | py=ㄒㄧㄍ-ㄋㄜ-ㄑㄜㄦ | theme=office | stage=2
+ 3828 | contract                       | 合約                             | 📄        | chunks=['con', 'tract'] | py=ㄎㄚㄣ-ㄊㄌㄚㄎㄊ | theme=office | stage=1 [有易混提示]
+ 3829 | agreement                      | 協議                             | 🤝        | chunks=['a', 'gree', 'ment'] | py=ㄜ-ㄍㄌㄧ-ㄇㄜㄣㄊ | theme=office | stage=1 base=agree
+ 3830 | letterhead                     | 信頭                             | 📄        | chunks=['let', 'ter', 'head'] | py=ㄌㄝ-ㄊㄜ-ㄏㄝㄉ | theme=office | stage=3
+ 3831 | briefcase                      | 公事包                            | 💼        | chunks=['brief', 'case'] | py=ㄅㄌㄧㄈ-ㄎㄝㄙ | theme=office | stage=2
+ 3832 | photocopy                      | 影印                             | 📠        | chunks=['pho', 'to', 'cop', 'y'] | py=ㄈㄛ-ㄊㄛ-ㄎㄚ-ㄆㄧ | theme=office | stage=2
+ 3833 | workflow                       | 工作流程                           | 🔄        | chunks=['work', 'flow'] | py=ㄨㄜㄎ-ㄈㄌㄛ | theme=office | stage=2
+ 3834 | corporation                    | 公司                             | 🏢        | chunks=['cor', 'po', 'ra', 'tion'] | py=ㄎㄛㄦ-ㄆㄜ-ㄌㄝ-ㄒㄜㄣ | theme=business | stage=1
+ 3835 | enterprise                     | 企業                             | 🏢        | chunks=['en', 'ter', 'prise'] | py=ㄝㄣ-ㄊㄜ-ㄆㄌㄞㄗ | theme=business | stage=2
+ 3836 | startup                        | 新創                             | 🚀        | chunks=['start', 'up'] | py=ㄙㄉㄚㄦㄊ-ㄚㄆ | theme=business | stage=1
+ 3837 | smallbusiness                  | 小型企業                           | 🏪        | chunks=['small', 'busi', 'ness'] | py=ㄙㄇㄛㄦ-ㄅㄧㄗ-ㄋㄝㄙ | theme=business | stage=2
+ 3838 | cto                            | 技術長                            | 💼        | chunks=['c', 't', 'o'] | py=ㄒㄧ-ㄊㄧ-ㄛ | theme=business | stage=2
+ 3839 | coo                            | 營運長                            | 💼        | chunks=['c', 'o', 'o'] | py=ㄒㄧ-ㄛ-ㄛ | theme=business | stage=2
+ 3840 | shareholder                    | 股東                             | 💼        | chunks=['share', 'hold', 'er'] | py=ㄒㄝㄦ-ㄏㄛㄦ-ㄉㄜ | theme=business | stage=2
+ 3841 | stakeholder                    | 利害關係人                          | 👥        | chunks=['stake', 'hold', 'er'] | py=ㄙㄉㄝㄎ-ㄏㄛㄦ-ㄉㄜ | theme=business | stage=2 [有易混提示]
+ 3842 | revenue                        | 營收                             | 📈        | chunks=['rev', 'e', 'nue'] | py=ㄌㄝ-ㄈㄜ-ㄋㄧㄨ | theme=business | stage=2
+ 3843 | overhead                       | 營運成本                           | 📊        | chunks=['o', 'ver', 'head'] | py=ㄛ-ㄈㄜ-ㄏㄝㄉ | theme=business | stage=3
+ 3844 | margin                         | 利潤率                            | 📊        | chunks=['mar', 'gin'] | py=ㄇㄚㄦ-ㄐㄣ | theme=business | stage=2
+ 3845 | markup                         | 加價                             | 💰        | chunks=['mark', 'up'] | py=ㄇㄚㄦㄎ-ㄚㄆ | theme=business | stage=3
+ 3846 | sales                          | 銷售                             | 🛍️       | chunks=['s', 'ales'] | py=ㄙㄝㄦㄗ | theme=business | stage=1
+ 3847 | marketing                      | 行銷                             | 📢        | chunks=['mar', 'ket', 'ing'] | py=ㄇㄚㄦ-ㄎㄝㄊ-ㄧㄥ | theme=business | stage=1
+ 3848 | branding                       | 品牌經營                           | 🏷️       | chunks=['brand', 'ing'] | py=ㄅㄌㄚㄣㄉ-ㄧㄥ | theme=business | stage=2
+ 3849 | advertising                    | 廣告                             | 📢        | chunks=['ad', 'ver', 'tis', 'ing'] | py=ㄚㄉ-ㄈㄜ-ㄊㄞㄗ-ㄧㄥ | theme=business | stage=1
+ 3850 | ads                            | 廣告                             | 📢        | chunks=['a', 'ds'] | py=ㄚㄗ | theme=business | stage=1
+ 3851 | advertisement                  | 廣告                             | 📢        | chunks=['ad', 'ver', 'tise', 'ment'] | py=ㄚㄉ-ㄈㄜ-ㄊㄞㄗ-ㄇㄜㄣㄊ | theme=business | stage=2 base=advertise
+ 3852 | pr                             | 公關                             | 📢        | chunks=['p', 'r'] | py=ㄆㄧ-ㄚㄦ | theme=business | stage=2
+ 3853 | publicity                      | 宣傳                             | 📢        | chunks=['pub', 'lic', 'i', 'ty'] | py=ㄆㄚ-ㄅㄌㄜ-ㄒㄜ-ㄊㄧ | theme=business | stage=2
+ 3854 | campaign                       | 活動                             | 📢        | chunks=['cam', 'paign'] | py=ㄎㄚㄇ-ㄆㄝㄣ | theme=business | stage=1
+ 3855 | launch                         | 上市                             | 🚀        | chunks=['l', 'aunch'] | py=ㄌㄛㄣㄑ | theme=business | stage=1 [有易混提示]
+ 3856 | rollout                        | 推出                             | 🚀        | chunks=['roll', 'out'] | py=ㄌㄛㄦ-ㄠㄊ | theme=business | stage=2
+ 3857 | release                        | 發行、釋放                          | 🚀        | chunks=['re', 'lease'] | py=ㄌㄧ-ㄌㄧㄙ | theme=business | stage=1 [有易混提示]
+ 3858 | debut                          | 首發                             | 🚀        | chunks=['de', 'but'] | py=ㄉㄝ-ㄅㄧㄨ | theme=business | stage=3
+ 3859 | product                        | 產品                             | 🏷️       | chunks=['prod', 'uct'] | py=ㄆㄌㄚ-ㄉㄚㄎㄊ | theme=business | stage=1 [有易混提示]
+ 3860 | service                        | 服務                             | 🤝        | chunks=['ser', 'vice'] | py=ㄙㄜ-ㄈㄜㄙ | theme=business | stage=1 [有易混提示]
+ 3861 | demographic                    | 客群                             | 📊        | chunks=['dem', 'o', 'graph', 'ic'] | py=ㄉㄝ-ㄇㄜ-ㄍㄌㄚ-ㄈㄧㄎ | theme=business | stage=3
+ 3862 | segment                        | 市場區隔                           | 📊        | chunks=['seg', 'ment'] | py=ㄙㄝㄍ-ㄇㄜㄣㄊ | theme=business | stage=3 [有易混提示]
+ 3863 | niche                          | 利基                             | 🎯        | chunks=['n', 'iche'] | py=ㄋㄧㄒ | theme=business | stage=3 [有易混提示]
+ 3864 | strategy                       | 策略                             | 🎯        | chunks=['strat', 'e', 'gy'] | py=ㄙㄉㄌㄚ-ㄊㄜ-ㄐㄧ | theme=business | stage=1
+ 3865 | tactic                         | 戰術                             | 🎯        | chunks=['tac', 'tic'] | py=ㄊㄚㄎ-ㄊㄧㄎ | theme=business | stage=2 [有易混提示]
+ 3866 | vision                         | 願景                             | 👁️       | chunks=['vi', 'sion'] | py=ㄈㄧ-ㄓㄜㄣ | theme=business | stage=2 [有易混提示]
+ 3867 | roadmap                        | 路線圖                            | 🗺️       | chunks=['road', 'map'] | py=ㄌㄛㄉ-ㄇㄚㄆ | theme=business | stage=2
+ 3868 | marketplace                    | 市場                             | 🛒        | chunks=['mar', 'ket', 'place'] | py=ㄇㄚㄦ-ㄎㄝㄊ-ㄆㄌㄝㄙ | theme=business | stage=2
+ 3869 | sector                         | 產業                             | 🏭        | chunks=['sec', 'tor'] | py=ㄙㄝㄎ-ㄊㄜ | theme=business | stage=2 [有易混提示]
+ 3870 | industry                       | 產業                             | 🏭        | chunks=['in', 'dus', 'try'] | py=ㄧㄣ-ㄉㄚㄙ-ㄊㄌㄧ | theme=business | stage=1 [有易混提示]
+ 3871 | competitor                     | 競爭者                            | ⚔️       | chunks=['com', 'pet', 'i', 'tor'] | py=ㄎㄜㄇ-ㄆㄝ-ㄊㄜ-ㄊㄜㄦ | theme=business | stage=2
+ 3872 | competition                    | 競爭                             | ⚔️       | chunks=['com', 'pe', 'ti', 'tion'] | py=ㄎㄚㄇ-ㄆㄜ-ㄊㄜ-ㄒㄜㄣ | theme=business | stage=1 base=compete
+ 3873 | merger                         | 合併                             | 🔗        | chunks=['mer', 'ger'] | py=ㄇㄜ-ㄐㄜ | theme=business | stage=3 base=merge
+ 3874 | acquisition                    | 收購                             | 🤝        | chunks=['ac', 'qui', 'si', 'tion'] | py=ㄚ-ㄎㄨㄜ-ㄗㄜ-ㄒㄜㄣ | theme=business | stage=3
+ 3875 | buyout                         | 買斷                             | 🤝        | chunks=['buy', 'out'] | py=ㄅㄞ-ㄠㄊ | theme=business | stage=3
+ 3876 | ipo                            | 上市                             | 📈        | chunks=['i', 'p', 'o'] | py=ㄞ-ㄆㄧ-ㄛ | theme=business | stage=3
+ 3877 | equity                         | 股權                             | 📊        | chunks=['eq', 'ui', 'ty'] | py=ㄝ-ㄎㄨㄜ-ㄊㄧ | theme=business | stage=3 [有易混提示]
+ 3878 | audit                          | 審計                             | 🔍        | chunks=['au', 'dit'] | py=ㄛ-ㄉㄜㄊ | theme=business | stage=2 [有易混提示]
+ 3879 | accounting                     | 會計                             | 📊        | chunks=['ac', 'count', 'ing'] | py=ㄚ-ㄎㄠㄣㄊ-ㄧㄥ | theme=business | stage=2
+ 3880 | ledger                         | 分類帳                            | 📋        | chunks=['ledg', 'er'] | py=ㄌㄝㄐ-ㄜ | theme=business | stage=3
+ 3881 | statement                      | 報表                             | 📊        | chunks=['state', 'ment'] | py=ㄙㄉㄝㄊ-ㄇㄜㄣㄊ | theme=business | stage=2 base=state [有易混提示]
+ 3882 | fiscal                         | 財政                             | 💰        | chunks=['fis', 'cal'] | py=ㄈㄧㄙ-ㄎㄜㄦ | theme=business | stage=3
+ 3883 | q1                             | 第一季                            | 1️⃣      | chunks=['q', '1'] | py=ㄎㄧㄨ-ㄨㄢ | theme=business | stage=2
+ 3884 | q2                             | 第二季                            | 2️⃣      | chunks=['q', '2'] | py=ㄎㄧㄨ-ㄊㄨ | theme=business | stage=2
+ 3885 | negotiate                      | 談判                             | 🤝        | chunks=['ne', 'go', 'ti', 'ate'] | py=ㄋㄧ-ㄍㄛ-ㄒㄜ-ㄝㄊ | theme=business | stage=2
+ 3886 | negotiation                    | 談判                             | 🤝        | chunks=['ne', 'go', 'ti', 'a', 'tion'] | py=ㄋㄧ-ㄍㄛ-ㄒㄜ-ㄝ-ㄒㄣ | theme=business | stage=2 base=negotiate
+ 3887 | bid                            | 投標                             | 💰        | chunks=['b', 'id'] | py=ㄅㄧㄉ | theme=business | stage=2 base=bid [有易混提示]
+ 3888 | supplier                       | 供應商                            | 🏭        | chunks=['sup', 'pli', 'er'] | py=ㄙㄜ-ㄆㄌㄞ-ㄜ | theme=business | stage=2
+ 3889 | logistics                      | 物流                             | 🚚        | chunks=['lo', 'gis', 'tics'] | py=ㄌㄜ-ㄐㄧㄙ-ㄊㄧㄎㄗ | theme=business | stage=2
+ 3890 | supplychain                    | 供應鏈                            | 🔗        | chunks=['sup', 'ply', 'chain'] | py=ㄙㄜ-ㄆㄌㄞ-ㄑㄟㄣ | theme=business | stage=3
+ 3891 | distribution                   | 通路                             | 🚚        | chunks=['dis', 'tri', 'bu', 'tion'] | py=ㄉㄧㄙ-ㄊㄌㄜ-ㄅㄧㄨ-ㄒㄜㄣ | theme=business | stage=2
+ 3892 | import                         | 進口                             | 📥        | chunks=['im', 'port'] | py=ㄧㄇ-ㄆㄛㄦㄊ | theme=business | stage=2 [有易混提示]
+ 3893 | export                         | 出口                             | 📤        | chunks=['ex', 'port'] | py=ㄝㄎㄙ-ㄆㄛㄦㄊ | theme=business | stage=2 [有易混提示]
+ 3894 | trade                          | 貿易                             | 🔄        | chunks=['tr', 'ade'] | py=ㄊㄌㄝㄉ | theme=business | stage=1
+ 3895 | tariff                         | 關稅                             | 💰        | chunks=['tar', 'iff'] | py=ㄊㄚ-ㄌㄜㄈ | theme=business | stage=3
+ 3896 | embargo                        | 禁運                             | 🚫        | chunks=['em', 'bar', 'go'] | py=ㄝㄇ-ㄅㄚㄦ-ㄍㄛ | theme=business | stage=3
+ 3897 | patent                         | 專利                             | 💡        | chunks=['pat', 'ent'] | py=ㄆㄚ-ㄊㄜㄣㄊ | theme=business | stage=2 [有易混提示]
+ 3898 | copyright                      | 版權                             | ©️       | chunks=['copy', 'right'] | py=ㄎㄚ-ㄆㄧ-ㄌㄞㄊ | theme=business | stage=2
+ 3899 | trademark                      | 商標                             | ™️       | chunks=['trade', 'mark'] | py=ㄊㄌㄝㄉ-ㄇㄚㄦㄎ | theme=business | stage=2
+ 3900 | ip                             | 智慧財產權、IP 位址                    | ©️       | chunks=['i', 'p'] | py=ㄞ-ㄆㄧ | theme=business | stage=2 [有易混提示]
+ 3901 | liability                      | 債務                             | 📋        | chunks=['li', 'a', 'bil', 'i', 'ty'] | py=ㄌㄞ-ㄜ-ㄅㄧ-ㄌㄜ-ㄊㄧ | theme=business | stage=3 [有易混提示]
+ 3902 | lawsuit                        | 訴訟                             | ⚖️       | chunks=['law', 'suit'] | py=ㄌㄛ-ㄙㄨㄊ | theme=business | stage=2
+ 3903 | settlement                     | 和解                             | ⚖️       | chunks=['set', 'tle', 'ment'] | py=ㄙㄝ-ㄉㄜ-ㄇㄜㄣㄊ | theme=business | stage=2 base=settle [有易混提示]
+ 3904 | headquarters                   | 總部                             | 🏢        | chunks=['head', 'quar', 'ters'] | py=ㄏㄝㄉ-ㄎㄨㄛ-ㄊㄜㄗ | theme=business | stage=2
+ 3905 | ecommerce                      | 電商                             | 🛒        | chunks=['e', 'com', 'merce'] | py=ㄧ-ㄎㄚ-ㄇㄜㄙ | theme=business | stage=1
+ 3906 | b2b                            | 企業對企業                          | 🤝        | chunks=['b', '2', 'b'] | py=ㄅㄧ-ㄊㄨ-ㄅㄧ | theme=business | stage=2
+ 3907 | b2c                            | 企業對消費者                         | 🤝        | chunks=['b', '2', 'c'] | py=ㄅㄧ-ㄊㄨ-ㄒㄧ | theme=business | stage=2
+ 3908 | saas                           | 軟體即服務                          | 💻        | chunks=['s', 'a', 'a', 's'] | py=ㄙㄚㄗ | theme=business | stage=3
+ 3909 | monetize                       | 變現                             | 💰        | chunks=['mon', 'e', 'tize'] | py=ㄇㄚ-ㄋㄜ-ㄊㄞㄗ | theme=business | stage=3
+ 3910 | pivot                          | 策略轉向、轉型                        | 🔄        | chunks=['piv', 'ot'] | py=ㄆㄧ-ㄈㄜㄊ | theme=business | stage=3 [有易混提示]
+ 3911 | disrupt                        | 顛覆                             | 💥        | chunks=['dis', 'rupt'] | py=ㄉㄧㄙ-ㄌㄚㄆㄊ | theme=business | stage=3
+ 3912 | innovate                       | 創新                             | 💡        | chunks=['in', 'no', 'vate'] | py=ㄧ-ㄋㄛ-ㄈㄝㄊ | theme=business | stage=2
+ 3913 | consumer                       | 消費者                            | 🛍️       | chunks=['con', 'sum', 'er'] | py=ㄎㄜㄣ-ㄙㄨ-ㄇㄜ | theme=business | stage=1 base=consume
+ 3914 | subsidiary                     | 子公司                            | 🏢        | chunks=['sub', 'sid', 'i', 'ar', 'y'] | py=ㄙㄚㄅ-ㄒㄧ-ㄉㄧ-ㄝㄜ-ㄧ | theme=business | stage=3
+ 3915 | outreach                       | 對外接觸、推廣                        | 📣        | chunks=['out', 'reach'] | py=ㄠㄊ-ㄌㄧㄑ | theme=business | stage=3
+ 3916 | gdp                            | 國內生產毛額                         | 📊        | chunks=['g', 'd', 'p'] | py=ㄐㄧ-ㄉㄧ-ㄆㄧ | theme=economy | stage=2
+ 3917 | growth                         | 成長                             | 📈        | chunks=['gr', 'owth'] | py=ㄍㄌㄛㄙ | theme=economy | stage=1
+ 3918 | decline                        | 衰退                             | 📉        | chunks=['de', 'cline'] | py=ㄉㄧ-ㄎㄌㄞㄣ | theme=economy | stage=2
+ 3919 | boom                           | 繁榮                             | 💥        | chunks=['b', 'oom'] | py=ㄅㄨㄣ | theme=economy | stage=2 [有易混提示]
+ 3920 | bust                           | 蕭條                             | 📉        | chunks=['b', 'ust'] | py=ㄅㄚㄙㄊ | theme=economy | stage=3 [有易混提示]
+ 3921 | depression                     | 大蕭條                            | 📉        | chunks=['de', 'pres', 'sion'] | py=ㄉㄧ-ㄆㄌㄝ-ㄒㄣ | theme=economy | stage=2 [有易混提示]
+ 3922 | crisis                         | 危機                             | ⚠️       | chunks=['cri', 'sis'] | py=ㄎㄌㄞ-ㄒㄜㄙ | theme=economy | stage=1 [有易混提示]
+ 3923 | stagflation                    | 停滯性通膨                          | 📉        | chunks=['stag', 'fla', 'tion'] | py=ㄙㄉㄚㄍ-ㄈㄌㄝ-ㄒㄜㄣ | theme=economy | stage=3
+ 3924 | deflation                      | 通貨緊縮                           | 📉        | chunks=['de', 'fla', 'tion'] | py=ㄉㄧ-ㄈㄌㄝ-ㄒㄜㄣ | theme=economy | stage=3
+ 3925 | supply                         | 供給                             | 🚛        | chunks=['sup', 'ply'] | py=ㄙㄜ-ㄆㄌㄞ | theme=economy | stage=1 [有易混提示]
+ 3926 | demand                         | 需求                             | 📊        | chunks=['de', 'mand'] | py=ㄉㄧ-ㄇㄚㄣㄉ | theme=economy | stage=1 [有易混提示]
+ 3927 | equilibrium                    | 均衡                             | ⚖️       | chunks=['e', 'qui', 'lib', 'ri', 'um'] | py=ㄧ-ㄎㄨㄜ-ㄌㄧ-ㄌㄧ-ㄜㄇ | theme=economy | stage=3
+ 3928 | monetary                       | 貨幣的                            | 💱        | chunks=['mon', 'e', 'tar', 'y'] | py=ㄇㄚ-ㄋㄜ-ㄊㄝ-ㄌㄧ | theme=economy | stage=2
+ 3929 | policy                         | 政策                             | 📋        | chunks=['pol', 'i', 'cy'] | py=ㄆㄚ-ㄌㄜ-ㄒㄧ | theme=economy | stage=1 [有易混提示]
+ 3930 | regulation                     | 監管                             | 📋        | chunks=['reg', 'u', 'la', 'tion'] | py=ㄌㄝ-ㄐㄜ-ㄌㄝ-ㄒㄣ | theme=economy | stage=2
+ 3931 | deregulation                   | 放鬆管制                           | 📋        | chunks=['de', 'reg', 'u', 'la', 'tion'] | py=ㄉㄧ-ㄌㄝ-ㄐㄜ-ㄌㄝ-ㄒㄣ | theme=economy | stage=3
+ 3932 | centralbank                    | 中央銀行                           | 🏦        | chunks=['cen', 'tral', 'bank'] | py=ㄙㄝㄣ-ㄊㄌㄜㄦ-ㄅㄚㄣㄎ | theme=economy | stage=2
+ 3933 | federalreserve                 | 聯準會                            | 🏦        | chunks=['fed', 'er', 'al', 're', 'serve'] | py=ㄈㄝ-ㄉㄜ-ㄌㄜㄦ-ㄌㄧ-ㄗㄜㄈ | theme=economy | stage=3
+ 3934 | fed                            | 聯準會                            | 🏦        | chunks=['f', 'ed'] | py=ㄈㄝㄉ | theme=economy | stage=2
+ 3935 | rate                           | 比率、利率                          | 📊        | chunks=['r', 'ate'] | py=ㄌㄝㄊ | theme=economy | stage=1 [有易混提示]
+ 3936 | unemployment                   | 失業率                            | 📉        | chunks=['un', 'em', 'ploy', 'ment'] | py=ㄚㄣ-ㄝㄇ-ㄆㄌㄛㄧ-ㄇㄜㄣㄊ | theme=economy | stage=1
+ 3937 | employment                     | 就業                             | 📊        | chunks=['em', 'ploy', 'ment'] | py=ㄝㄇ-ㄆㄌㄛㄧ-ㄇㄜㄣㄊ | theme=economy | stage=1 base=employ
+ 3938 | labor                          | 勞動                             | 💪        | chunks=['la', 'bor'] | py=ㄌㄝ-ㄅㄜ | theme=economy | stage=1 [有易混提示]
+ 3939 | workforce                      | 勞動力                            | 👥        | chunks=['work', 'force'] | py=ㄨㄜㄎ-ㄈㄛㄦㄙ | theme=economy | stage=2
+ 3940 | jobless                        | 失業                             | 😞        | chunks=['job', 'less'] | py=ㄐㄚㄅ-ㄌㄜㄙ | theme=economy | stage=2 base=job
+ 3941 | productivity                   | 生產力                            | 📈        | chunks=['pro', 'duc', 'tiv', 'i', 'ty'] | py=ㄆㄌㄜ-ㄉㄚㄎ-ㄊㄧ-ㄈㄜ-ㄊㄧ | theme=economy | stage=2
+ 3942 | efficiency                     | 效率                             | ⚙️       | chunks=['ef', 'fi', 'cien', 'cy'] | py=ㄧ-ㄈㄜ-ㄒㄜㄣ-ㄒㄧ | theme=economy | stage=2
+ 3943 | exchangerate                   | 匯率                             | 💱        | chunks=['ex', 'change', 'rate'] | py=ㄝㄎㄙ-ㄑㄟㄣㄐ-ㄌㄝㄊ | theme=economy | stage=2
+ 3944 | forex                          | 外匯                             | 🌐        | chunks=['fo', 'rex'] | py=ㄈㄛ-ㄌㄝㄎㄙ | theme=economy | stage=3
+ 3945 | stocks                         | 股票                             | 📈        | chunks=['st', 'ocks'] | py=ㄙㄉㄚㄎㄗ | theme=economy | stage=1 [有易混提示]
+ 3946 | bull                           | 多頭、公牛                          | 📈        | chunks=['b', 'ull'] | py=ㄅㄨㄦ | theme=economy | stage=2 [有易混提示]
+ 3947 | bullmarket                     | 牛市                             | 🐂        | chunks=['bull', 'mar', 'ket'] | py=ㄅㄨㄦ-ㄇㄚㄦ-ㄎㄝㄊ | theme=economy | stage=2
+ 3948 | bearmarket                     | 熊市                             | 🐻        | chunks=['bear', 'mar', 'ket'] | py=ㄅㄧㄜ-ㄇㄚㄦ-ㄎㄝㄊ | theme=economy | stage=2 [有易混提示]
+ 3949 | percapita                      | 人均                             | 📊        | chunks=['per', 'cap', 'i', 'ta'] | py=ㄆㄜ-ㄎㄚ-ㄆㄜ-ㄊㄚ | theme=economy | stage=3
+ 3950 | wealth                         | 財富                             | 💰        | chunks=['w', 'ealth'] | py=ㄨㄝㄦㄙ | theme=economy | stage=1
+ 3951 | inequality                     | 不平等                            | ⚖️       | chunks=['in', 'e', 'qual', 'i', 'ty'] | py=ㄧ-ㄋㄧ-ㄎㄨㄛ-ㄌㄜ-ㄊㄧ | theme=economy | stage=2
+ 3952 | gini                           | 基尼係數                           | 📊        | chunks=['gi', 'ni'] | py=ㄐㄧ-ㄋㄧ | theme=economy | stage=3
+ 3953 | welfare                        | 福利                             | 🤝        | chunks=['wel', 'fare'] | py=ㄨㄝㄦ-ㄈㄝㄦ | theme=economy | stage=2
+ 3954 | subsidy                        | 補貼                             | 💰        | chunks=['sub', 'si', 'dy'] | py=ㄙㄚㄅ-ㄗㄜ-ㄉㄧ | theme=economy | stage=3
+ 3955 | grant                          | 補助金                            | 💰        | chunks=['gr', 'ant'] | py=ㄍㄌㄚㄣㄊ | theme=economy | stage=2 [有易混提示]
+ 3956 | hyperinflation                 | 惡性通膨                           | 📈        | chunks=['hy', 'per', 'in', 'fla', 'tion'] | py=ㄏㄞ-ㄆㄜㄦ-ㄧㄣ-ㄈㄌㄝ-ㄒㄜㄣ | theme=economy | stage=3
+ 3957 | microeconomics                 | 個體經濟                           | 🔬        | chunks=['mi', 'cro', 'e', 'con', 'o', 'mics'] | py=ㄇㄞ-ㄎㄌㄛ-ㄝ-ㄎㄜ-ㄋㄜ-ㄇㄧㄎㄙ | theme=economy | stage=3
+ 3958 | macroeconomics                 | 總體經濟                           | 🌍        | chunks=['mac', 'ro', 'e', 'con', 'o', 'mics'] | py=ㄇㄚ-ㄎㄌㄛ-ㄝ-ㄎㄜ-ㄋㄜ-ㄇㄧㄎㄙ | theme=economy | stage=3
+ 3959 | economics                      | 經濟學                            | 📊        | chunks=['e', 'con', 'om', 'ics'] | py=ㄝ-ㄎㄜ-ㄋㄚ-ㄇㄧㄎㄙ | theme=economy | stage=2
+ 3960 | keynesian                      | 凱因斯學派                          | 📚        | chunks=['key', 'ne', 'si', 'an'] | py=ㄎㄟㄣ-ㄗㄧ-ㄜㄣ | theme=economy | stage=3
+ 3961 | capitalism                     | 資本主義                           | 💰        | chunks=['cap', 'i', 'tal', 'ism'] | py=ㄎㄚ-ㄆㄜ-ㄊㄜ-ㄌㄧㄗㄣ | theme=economy | stage=1
+ 3962 | socialism                      | 社會主義                           | 🤝        | chunks=['so', 'cial', 'ism'] | py=ㄙㄛ-ㄒㄜ-ㄌㄧㄗㄣ | theme=economy | stage=1
+ 3963 | communism                      | 共產主義                           | 🚩        | chunks=['com', 'mu', 'nism'] | py=ㄎㄚㄇ-ㄇㄧㄨ-ㄋㄧㄗㄣ | theme=economy | stage=1
+ 3964 | marxism                        | 馬克思主義                          | 📚        | chunks=['marx', 'ism'] | py=ㄇㄚㄦㄎㄙ-ㄧㄗㄣ | theme=economy | stage=3
+ 3965 | mercantilism                   | 重商主義                           | 📚        | chunks=['mer', 'can', 'til', 'ism'] | py=ㄇㄜ-ㄎㄚㄣ-ㄊㄜ-ㄌㄧㄗㄣ | theme=economy | stage=3
+ 3966 | agriculture                    | 農業                             | 🌾        | chunks=['ag', 'ri', 'cul', 'ture'] | py=ㄚ-ㄍㄌㄧ-ㄎㄚㄦ-ㄑㄜㄦ | theme=economy | stage=2
+ 3967 | manufacturing                  | 製造業                            | 🏭        | chunks=['man', 'u', 'fac', 'tur', 'ing'] | py=ㄇㄚ-ㄋㄧㄨ-ㄈㄚㄎ-ㄑㄜㄦ-ㄧㄥ | theme=economy | stage=2 base=manufacture
+ 3968 | infrastructure                 | 基礎建設                           | 🏗️       | chunks=['in', 'fra', 'struc', 'ture'] | py=ㄧㄣ-ㄈㄌㄚ-ㄙㄉㄌㄚㄎ-ㄑㄜㄦ | theme=economy | stage=2
+ 3969 | urbanization                   | 都市化                            | 🏙️       | chunks=['ur', 'ban', 'i', 'za', 'tion'] | py=ㄜㄦ-ㄅㄜㄣ-ㄜ-ㄗㄝ-ㄒㄜㄣ | theme=economy | stage=3
+ 3970 | globalization                  | 全球化                            | 🌐        | chunks=['glob', 'al', 'i', 'za', 'tion'] | py=ㄍㄌㄛ-ㄅㄜㄦ-ㄜ-ㄗㄝ-ㄒㄜㄣ | theme=economy | stage=2
+ 3971 | outsource                      | 外包                             | 🌐        | chunks=['out', 'source'] | py=ㄠㄊ-ㄙㄛㄦㄙ | theme=economy | stage=2
+ 3972 | offshore                       | 離岸                             | 🏝️       | chunks=['off', 'shore'] | py=ㄛㄈ-ㄒㄛㄦ | theme=economy | stage=2
+ 3973 | automation                     | 自動化                            | 🤖        | chunks=['au', 'to', 'ma', 'tion'] | py=ㄛ-ㄊㄜ-ㄇㄝ-ㄒㄜㄣ | theme=economy | stage=2
+ 3974 | digitization                   | 數位化                            | 💻        | chunks=['dig', 'i', 'ti', 'za', 'tion'] | py=ㄉㄧ-ㄐㄜ-ㄊㄞ-ㄗㄝ-ㄒㄜㄣ | theme=economy | stage=3
+ 3975 | monopolize                     | 壟斷                             | 🏢        | chunks=['mo', 'nop', 'o', 'lize'] | py=ㄇㄜ-ㄋㄚ-ㄆㄜ-ㄌㄞㄗ | theme=economy | stage=3
+ 3976 | oligopoly                      | 寡頭                             | 🏢        | chunks=['ol', 'i', 'gop', 'o', 'ly'] | py=ㄚ-ㄌㄜ-ㄍㄚ-ㄆㄜ-ㄌㄧ | theme=economy | stage=3
+ 3977 | cartel                         | 卡特爾                            | 🏢        | chunks=['car', 'tel'] | py=ㄎㄚㄦ-ㄊㄝㄦ | theme=economy | stage=3
+ 3978 | antitrust                      | 反壟斷                            | ⚖️       | chunks=['an', 'ti', 'trust'] | py=ㄢ-ㄊㄞ-ㄊㄌㄚㄙㄊ | theme=economy | stage=3
+ 3979 | sanction                       | 制裁                             | 🚫        | chunks=['sanc', 'tion'] | py=ㄙㄚㄣㄎ-ㄒㄜㄣ | theme=economy | stage=3 [有易混提示]
+ 3980 | austerity                      | 撙節                             | 📉        | chunks=['aus', 'ter', 'i', 'ty'] | py=ㄛ-ㄙㄉㄝ-ㄌㄜ-ㄊㄧ | theme=economy | stage=3
+ 3981 | stimulus                       | 刺激方案                           | 📈        | chunks=['stim', 'u', 'lus'] | py=ㄙㄉㄧ-ㄇㄧㄨ-ㄌㄜㄙ | theme=economy | stage=3 [有易混提示]
+ 3982 | gnp                            | 國民生產毛額                         | 📊        | chunks=['g', 'n', 'p'] | py=ㄐㄧ-ㄝㄣ-ㄆㄧ | theme=economy | stage=3
+ 3983 | npv                            | 淨現值                            | 📊        | chunks=['n', 'p', 'v'] | py=ㄝㄣ-ㄆㄧ-ㄈㄧ | theme=economy | stage=3
+ 3984 | roi                            | 投資報酬率                          | 📊        | chunks=['r', 'o', 'i'] | py=ㄚㄦ-ㄛ-ㄞ | theme=economy | stage=2
+ 3985 | ebitda                         | 稅息折舊前盈餘                        | 📊        | chunks=['e', 'bit', 'da'] | py=ㄧ-ㄅㄧㄊ-ㄉㄚ | theme=economy | stage=3
+ 3986 | scarcity                       | 稀缺                             | 📉        | chunks=['scar', 'ci', 'ty'] | py=ㄙㄎㄝㄦ-ㄙㄜ-ㄊㄧ | theme=economy | stage=3
+ 3987 | prosperity                     | 繁榮                             | 📈        | chunks=['pros', 'per', 'i', 'ty'] | py=ㄆㄌㄚㄙ-ㄆㄝ-ㄌㄜ-ㄊㄧ | theme=economy | stage=3
+ 3988 | inflationrate                  | 通膨率                            | 📈        | chunks=['in', 'fla', 'tion', 'rate'] | py=ㄧㄣ-ㄈㄌㄝ-ㄒㄜㄣ-ㄌㄝㄊ | theme=economy | stage=3
+ 3989 | taxrevenue                     | 稅收                             | 🧾        | chunks=['tax', 'rev', 'e', 'nue'] | py=ㄊㄚㄎㄙ-ㄌㄝ-ㄈㄜ-ㄋㄧㄨ | theme=economy | stage=3
+ 3990 | gdpgrowth                      | GDP 成長率                        | 📈        | chunks=['g', 'd', 'p', 'growth'] | py=ㄐㄧ-ㄉㄧ-ㄆㄧ-ㄍㄌㄛㄙ | theme=economy | stage=3
+ 3991 | opportunitycost                | 機會成本                           | ⚖️       | chunks=['op', 'por', 'tun', 'i', 'ty', 'cost'] | py=ㄚ-ㄆㄜ-ㄑㄜ-ㄋㄜ-ㄊㄧ-ㄎㄚㄙㄊ | theme=economy | stage=3
+ 3992 | fdi                            | 外國直接投資                         | 🌐        | chunks=['f', 'd', 'i'] | py=ㄝㄈ-ㄉㄧ-ㄞ | theme=economy | stage=3
+ 3993 | commodity                      | 商品                             | 💱        | chunks=['com', 'mod', 'i', 'ty'] | py=ㄎㄜ-ㄇㄚ-ㄉㄜ-ㄊㄧ | theme=economy | stage=3 [有易混提示]
+ 3994 | output                         | 產出                             | 📤        | chunks=['out', 'put'] | py=ㄠㄊ-ㄆㄨㄊ | theme=economy | stage=2
+ 3995 | yield                          | 收益                             | 💰        | chunks=['y', 'ield'] | py=ㄧㄦㄉ | theme=economy | stage=2 [有易混提示]
+ 3996 | url                            | 網址                             | 🌐        | chunks=['u', 'r', 'l'] | py=ㄧㄨ-ㄚㄦ-ㄝㄦ | theme=internet | stage=1
+ 3997 | domain                         | 網域                             | 🌐        | chunks=['do', 'main'] | py=ㄉㄛ-ㄇㄝㄣ | theme=internet | stage=2
+ 3998 | hosting                        | 主機代管                           | 🌐        | chunks=['host', 'ing'] | py=ㄏㄛㄙㄊ-ㄧㄥ | theme=internet | stage=2
+ 3999 | dns                            | 網域名稱系統                         | 🌐        | chunks=['d', 'n', 's'] | py=ㄉㄧ-ㄝㄣ-ㄝㄙ | theme=internet | stage=3

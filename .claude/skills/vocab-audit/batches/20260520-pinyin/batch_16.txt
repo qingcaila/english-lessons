@@ -1,5 +1,5 @@
 # 字 8000-8499
- 8000 | mansion                        | 大廈                             | 🏛️       | chunks=['man', 'sion'] | py=ㄇㄢ-ㄒㄣ | theme=academic-words | stage=3
+ 8000 | mansion                        | 大廈                             | 🏛️       | chunks=['man', 'sion'] | py=ㄇㄢ-ㄒㄜㄣ | theme=academic-words | stage=3
  8001 | maple                          | 楓樹                             | 🏃        | chunks=['map', 'le'] | py=ㄇㄚㄆ-ㄌㄧ | theme=actions | stage=3
  8002 | marginal                       | 邊緣的                            | 🎨        | chunks=['mar', 'gi', 'nal'] | py=ㄇㄚㄦ-ㄐㄜ-ㄋㄦ | theme=adjectives | stage=3
  8003 | marine                         | 海的                             | 🌳        | chunks=['ma', 'ri', 'ne'] | py=ㄇㄚ-ㄌㄧ-ㄋㄧ | theme=nature | stage=3
@@ -7,7 +7,7 @@
  8005 | martial                        | 好戰的                            | 🎨        | chunks=['mar', 'tial'] | py=ㄇㄚㄦ-ㄒㄦ | theme=adjectives | stage=3
  8006 | marvel                         | 驚奇、令人驚奇的事物                     | 😲        | chunks=['mar', 'vel'] | py=ㄇㄚㄦ-ㄈㄜ | theme=office | stage=3
  8007 | masculine                      | 男子氣概的                          | 🎨        | chunks=['mas', 'cu', 'li', 'ne'] | py=ㄇㄚㄙ-ㄎㄧㄨ-ㄌㄧ-ㄋㄧ | theme=adjectives | stage=3
- 8008 | mash                           | 糊狀物                            | 🏃        | chunks=['m', 'ash'] | py=ㄝㄇ-ㄚㄒ | theme=actions | stage=3
+ 8008 | mash                           | 糊狀物                            | 🏃        | chunks=['m', 'ash'] | py=ㄇㄚㄒ | theme=actions | stage=3
  8009 | massage                        | 按摩                             | 🏃        | chunks=['mas', 'sa', 'ge'] | py=ㄇㄚㄙ-ㄙㄚ-ㄐㄧ | theme=actions | stage=3
  8010 | massive                        | 巨大的                            | 🎨        | chunks=['mas', 'si', 've'] | py=ㄇㄚㄙ-ㄗㄜ-ㄈㄜ | theme=adjectives | stage=3 base=mass
  8011 | mayonnaise                     | 美乃滋                            | 🥫        | chunks=['mayon', 'nai', 'se'] | py=ㄇㄟㄛㄋ-ㄋㄟ-ㄙㄜ | theme=appearance | stage=3
@@ -15,13 +15,13 @@
  8013 | mechanics                      | 力學                             | 🏃        | chunks=['mec', 'ha', 'nics'] | py=ㄇㄝㄎ-ㄏㄜ-ㄋㄧㄎㄙ | theme=actions | stage=3
  8014 | menace                         | 威脅                             | 🏃        | chunks=['me', 'na', 'ce'] | py=ㄇㄝ-ㄋㄚ-ㄙㄜ | theme=actions | stage=3
  8015 | mermaid                        | 美人魚                            | 🧜        | chunks=['mer', 'maid'] | py=ㄇㄜ-ㄇㄟㄉ | theme=animals | stage=3
- 8016 | midst                          | 中間                             | 🏃        | chunks=['m', 'idst'] | py=ㄝㄇ-ㄧㄉㄙㄊ | theme=actions | stage=3
+ 8016 | midst                          | 中間                             | 🏃        | chunks=['m', 'idst'] | py=ㄇㄧㄉㄙㄊ | theme=actions | stage=3
  8017 | migrant                        | 移居的移民                          | 🎨        | chunks=['mig', 'rant'] | py=ㄇㄧㄍ-ㄌㄣㄊ | theme=adjectives | stage=3
  8018 | mileage                        | 里程數                            | 🏃        | chunks=['mi', 'lea', 'ge'] | py=ㄇㄞ-ㄌㄝ-ㄐㄧ | theme=actions | stage=3
  8019 | mingle                         | 混合                             | 🏃        | chunks=['min', 'gle'] | py=ㄇㄧ-ㄍㄜ | theme=actions | stage=3
  8020 | miser                          | 吝嗇鬼                            | 🤔        | chunks=['mi', 'ser'] | py=ㄇㄞ-ㄗㄜ | theme=personality | stage=3
  8021 | mistress                       | 女主人                            | 🏃        | chunks=['mis', 'tress'] | py=ㄇㄧㄙ-ㄊㄌㄝㄙ | theme=actions | stage=3
- 8022 | moan                           | 呻吟                             | 🏃        | chunks=['m', 'oan'] | py=ㄝㄇ-ㄛㄋ | theme=actions | stage=3
+ 8022 | moan                           | 呻吟                             | 🏃        | chunks=['m', 'oan'] | py=ㄇㄛㄣ | theme=actions | stage=3
  8023 | mode                           | 模式                             | 🏃        | chunks=['mo', 'de'] | py=ㄇㄛ-ㄉㄧ | theme=actions | stage=2 [有易混提示]
  8024 | modernize                      | 現代化                            | 📜        | chunks=['mo', 'der', 'ni', 'ze'] | py=ㄇㄛ-ㄉㄜ-ㄋㄜ-ㄗㄧ | theme=history | stage=3 base=modern
  8025 | monarch                        | 君王                             | 🏃        | chunks=['mo', 'narch'] | py=ㄇㄛ-ㄋㄚㄜㄔ | theme=actions | stage=3
@@ -36,7 +36,7 @@
  8034 | mustard                        | 芥末                             | 🏃        | chunks=['mus', 'tard'] | py=ㄇㄚㄙ-ㄊㄜㄉ | theme=actions | stage=3
  8035 | mutter                         | 咕噥                             | 🏃        | chunks=['mut', 'ter'] | py=ㄇㄚㄊ-ㄊㄜ | theme=actions | stage=3
  8036 | mutton                         | 羊肉                             | 🍖        | chunks=['mut', 'ton'] | py=ㄇㄚㄊ-ㄉㄣ | theme=animals | stage=3
- 8037 | nag                            | 使煩惱                            | 🏃        | chunks=['n', 'ag'] | py=ㄝㄣ-ㄚㄍ | theme=actions | stage=3
+ 8037 | nag                            | 使煩惱                            | 🏃        | chunks=['n', 'ag'] | py=ㄋㄚㄍ | theme=actions | stage=3
  8038 | nasty                          | 猥褻的                            | 🎨        | chunks=['nas', 'ty'] | py=ㄋㄚㄙ-ㄊㄧ | theme=adjectives | stage=3
  8039 | navigate                       | 導航                             | 🏃        | chunks=['na', 'vi', 'ga', 'te'] | py=ㄋㄚ-ㄈㄞ-ㄍㄚ-ㄊㄧ | theme=actions | stage=3
  8040 | newscast                       | 新聞廣播                           | 📰        | chunks=['new', 'scast'] | py=ㄋㄧㄨ-ㄙㄎㄚㄙㄊ | theme=media | stage=3
@@ -50,7 +50,7 @@
  8048 | notify                         | 通知                             | 🏃        | chunks=['no', 'ti', 'fy'] | py=ㄋㄛ-ㄊㄜ-ㄈㄞ | theme=actions | stage=3 base=notice
  8049 | nucleus                        | 核                              | 🏃        | chunks=['nuc', 'leus'] | py=ㄋㄚㄎ-ㄌㄝㄚㄙ | theme=actions | stage=3
  8050 | nude                           | 裸的                             | 🎨        | chunks=['nu', 'de'] | py=ㄋㄨ-ㄉㄧ | theme=adjectives | stage=3
- 8051 | oar                            | 槳                              | 🏃        | chunks=['o', 'ar'] | py=ㄛ-ㄚㄦ | theme=actions | stage=3 [有易混提示]
+ 8051 | oar                            | 槳                              | 🏃        | chunks=['o', 'ar'] | py=ㄛㄦ | theme=actions | stage=3 [有易混提示]
  8052 | oblong                         | 矩形                             | 🏃        | chunks=['ob', 'long'] | py=ㄚㄅ-ㄌㄛㄥ | theme=actions | stage=3
  8053 | observer                       | 觀測員                            | 👨‍⚕️     | chunks=['ob', 'ser', 'ver'] | py=ㄚㄅ-ㄗㄜ-ㄈㄜ | theme=jobs | stage=3 base=observe
  8054 | obstinate                      | 頑固的                            | 🎨        | chunks=['ob', 'sti', 'na', 'te'] | py=ㄚㄅ-ㄙㄊㄜ-ㄋㄚ-ㄊㄧ | theme=adjectives | stage=3
@@ -99,16 +99,16 @@
  8097 | pinch                          | 擰                              | 🏃        | chunks=['p', 'inch'] | py=ㄆㄧ-ㄧㄋㄔ | theme=actions | stage=3
  8098 | piss                           | 小便                             | 🏃        | chunks=['p', 'iss'] | py=ㄆㄧ-ㄧㄙㄙ | theme=actions | stage=3
  8099 | pistol                         | 手槍                             | 🏃        | chunks=['pis', 'tol'] | py=ㄆㄧㄙ-ㄊㄚ | theme=actions | stage=3
- 8100 | plantation                     | 農園                             | 🎓        | chunks=['plan', 'ta', 'tion'] | py=ㄆㄌㄚ-ㄊㄝ-ㄒㄣ | theme=academic-words | stage=3 base=plant
+ 8100 | plantation                     | 農園                             | 🎓        | chunks=['plan', 'ta', 'tion'] | py=ㄆㄌㄚㄣ-ㄊㄝ-ㄒㄜㄣ | theme=academic-words | stage=3 base=plant
  8101 | pledge                         | 保證                             | 🏃        | chunks=['pled', 'ge'] | py=ㄆㄜㄉ-ㄐㄧ | theme=actions | stage=3
  8102 | plow                           | 犁                              | 🏃        | chunks=['pl', 'ow'] | py=ㄆㄌ-ㄛ | theme=actions | stage=3
  8103 | pluck                          | 拔                              | 🏃        | chunks=['pl', 'uck'] | py=ㄆㄌ-ㄚㄎ | theme=actions | stage=3
  8104 | pocketbook                     | 袖珍書                            | 🏃        | chunks=['poc', 'ket', 'book'] | py=ㄆㄚ-ㄎㄝㄊ-ㄅㄨㄎ | theme=actions | stage=3
- 8105 | poetic                         | 詩的                             | 📜        | chunks=['poe', 'tic'] | py=ㄆㄧ-ㄊㄧㄎ | theme=literature | stage=3
+ 8105 | poetic                         | 詩的                             | 📜        | chunks=['poe', 'tic'] | py=ㄆㄛ-ㄝ-ㄊㄧㄎ | theme=literature | stage=3
  8106 | poke                           | 戳                              | 🏃        | chunks=['po', 'ke'] | py=ㄆㄛ-ㄎㄟ | theme=actions | stage=3
  8107 | poultry                        | 家禽                             | 🏃        | chunks=['poul', 'try'] | py=ㄆㄠㄌ-ㄊㄌㄧ | theme=animals | stage=3
  8108 | preach                         | 傳道                             | 🏃        | chunks=['pr', 'each'] | py=ㄆㄌㄧ-ㄧㄔ | theme=actions | stage=3
- 8109 | precaution                     | 預防                             | 🎓        | chunks=['pre', 'cau', 'tion'] | py=ㄆㄌㄧ-ㄎㄛ-ㄒㄣ | theme=academic-words | stage=3
+ 8109 | precaution                     | 預防                             | 🎓        | chunks=['pre', 'cau', 'tion'] | py=ㄆㄌㄧ-ㄎㄛ-ㄒㄜㄣ | theme=academic-words | stage=3
  8110 | preference                     | 偏好的事物                          | 🎓        | chunks=['pre', 'fe', 'ren', 'ce'] | py=ㄆㄌㄧ-ㄈㄧ-ㄌㄣ-ㄙㄜ | theme=academic-words | stage=3 base=prefer
  8111 | preview                        | 預習                             | 🏃        | chunks=['pre', 'view'] | py=ㄆㄌㄧ-ㄈㄧㄨ | theme=actions | stage=3
  8112 | prey                           | 獵物                             | 🏃        | chunks=['pr', 'ey'] | py=ㄆㄌㄧ-ㄧ | theme=actions | stage=3 [有易混提示]
@@ -117,7 +117,7 @@
  8115 | profile                        | 輪廓                             | 🎨        | chunks=['pro', 'fi', 'le'] | py=ㄆㄜ-ㄈㄜ-ㄌㄧ | theme=adjectives | stage=3
  8116 | prolong                        | 延長                             | 🏃        | chunks=['pro', 'long'] | py=ㄆㄜ-ㄌㄛㄥ | theme=actions | stage=3
  8117 | prop                           | 支柱、支撐、道具                       | 🏃        | chunks=['pr', 'op'] | py=ㄆㄌㄧ-ㄚㄆ | theme=actions | stage=3
- 8118 | prune                          | 梅乾、修剪                          | 🏃        | chunks=['pru', 'ne'] | py=ㄆㄖㄚ-ㄋㄧ | theme=actions | stage=3
+ 8118 | prune                          | 梅乾、修剪                          | 🏃        | chunks=['pru', 'ne'] | py=ㄆㄖㄨㄣ | theme=actions | stage=3
  8119 | publicize                      | 宣傳                             | 🏃        | chunks=['pub', 'li', 'ci', 'ze'] | py=ㄆㄚ-ㄌㄧ-ㄙㄜ-ㄗㄧ | theme=actions | stage=3 base=public
  8120 | puff                           | 泡芙                             | 🏃        | chunks=['p', 'uff'] | py=ㄆㄧ-ㄚㄈㄈ | theme=actions | stage=3
  8121 | quack                          | 呱呱聲                            | 🏃        | chunks=['q', 'uack'] | py=ㄎㄧㄨ-ㄚㄚㄎ | theme=actions | stage=3
