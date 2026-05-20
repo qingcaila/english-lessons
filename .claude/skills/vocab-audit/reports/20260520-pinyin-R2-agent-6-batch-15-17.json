@@ -1,0 +1,2102 @@
+[
+ {
+  "word": "carp",
+  "current": "ㄒㄧ-ㄚㄜㄆ",
+  "suggested": "ㄎㄚㄜㄆ",
+  "type": "error",
+  "reason": "carp 念 /kɑːrp/，ㄎ 起首，不是ㄒㄧ"
+ },
+ {
+  "word": "coil",
+  "current": "ㄒㄧ-ㄛㄧㄦ",
+  "suggested": "ㄎㄛㄧㄦ",
+  "type": "error",
+  "reason": "coil 念 /kɔɪl/，起首是ㄎ 非 ㄒㄧ"
+ },
+ {
+  "word": "curb",
+  "current": "ㄒㄧ-ㄅㄜㄅ",
+  "suggested": "ㄎㄜㄅ",
+  "type": "error",
+  "reason": "curb 念 /kɜːrb/，ㄎ 起首且結尾無重複ㄅ"
+ },
+ {
+  "word": "haunt",
+  "current": "ㄝㄑ-ㄛㄋㄊ",
+  "suggested": "ㄏㄛㄋㄊ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ，不是 ㄝㄑ 異常拼法"
+ },
+ {
+  "word": "heed",
+  "current": "ㄝㄑ-ㄧㄉ",
+  "suggested": "ㄏㄧㄉ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ"
+ },
+ {
+  "word": "hoof",
+  "current": "ㄝㄑ-ㄨㄈ",
+  "suggested": "ㄏㄨㄈ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ"
+ },
+ {
+  "word": "hound",
+  "current": "ㄝㄑ-ㄠㄋㄉ",
+  "suggested": "ㄏㄠㄋㄉ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ"
+ },
+ {
+  "word": "howl",
+  "current": "ㄝㄑ-ㄠㄌ",
+  "suggested": "ㄏㄠㄌ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ"
+ },
+ {
+  "word": "hurl",
+  "current": "ㄝㄑ-ㄜㄌ",
+  "suggested": "ㄏㄜㄌ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ"
+ },
+ {
+  "word": "hiss",
+  "current": "ㄝㄑ-ㄧㄙㄙ",
+  "suggested": "ㄏㄧㄙ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ，且 ss 不需重複"
+ },
+ {
+  "word": "hunch",
+  "current": "ㄝㄑ-ㄚㄋㄔ",
+  "suggested": "ㄏㄚㄋㄔ",
+  "type": "error",
+  "reason": "h 起首是 ㄏ"
+ },
+ {
+  "word": "foul",
+  "current": "ㄝㄈ-ㄠㄌ",
+  "suggested": "ㄈㄠㄌ",
+  "type": "error",
+  "reason": "f 起首是 ㄈ，無 ㄝㄈ"
+ },
+ {
+  "word": "fowl",
+  "current": "ㄝㄈ-ㄠㄌ",
+  "suggested": "ㄈㄠㄌ",
+  "type": "error",
+  "reason": "f 起首是 ㄈ"
+ },
+ {
+  "word": "mound",
+  "current": "ㄝㄇ-ㄠㄋㄉ",
+  "suggested": "ㄇㄠㄋㄉ",
+  "type": "error",
+  "reason": "m 起首是 ㄇ"
+ },
+ {
+  "word": "mount",
+  "current": "ㄝㄇ-ㄠㄋㄊ",
+  "suggested": "ㄇㄠㄋㄊ",
+  "type": "error",
+  "reason": "m 起首是 ㄇ"
+ },
+ {
+  "word": "mar",
+  "current": "ㄝㄇ-ㄚㄦ",
+  "suggested": "ㄇㄚㄦ",
+  "type": "error",
+  "reason": "m 起首是 ㄇ"
+ },
+ {
+  "word": "mold",
+  "current": "ㄝㄇ-ㄛㄌㄉ",
+  "suggested": "ㄇㄛㄌㄉ",
+  "type": "error",
+  "reason": "m 起首是 ㄇ"
+ },
+ {
+  "word": "soak",
+  "current": "ㄝㄙ-ㄛㄎ",
+  "suggested": "ㄙㄛㄎ",
+  "type": "error",
+  "reason": "s 起首是 ㄙ"
+ },
+ {
+  "word": "sow",
+  "current": "ㄝㄙ-ㄛ",
+  "suggested": "ㄙㄛ",
+  "type": "error",
+  "reason": "s 起首是 ㄙ"
+ },
+ {
+  "word": "lad",
+  "current": "ㄝㄦ-ㄚㄉ",
+  "suggested": "ㄌㄚㄉ",
+  "type": "error",
+  "reason": "l 起首是 ㄌ"
+ },
+ {
+  "word": "limp",
+  "current": "ㄝㄦ-ㄧㄇㄆ",
+  "suggested": "ㄌㄧㄇㄆ",
+  "type": "error",
+  "reason": "l 起首是 ㄌ"
+ },
+ {
+  "word": "rail",
+  "current": "ㄚㄦ-ㄝㄦ",
+  "suggested": "ㄖㄟㄦ",
+  "type": "error",
+  "reason": "r 起首是 ㄖ，rail /reɪl/"
+ },
+ {
+  "word": "realm",
+  "current": "ㄚㄦ-ㄧㄌㄇ",
+  "suggested": "ㄖㄝㄌㄇ",
+  "type": "error",
+  "reason": "realm /rɛlm/，r 起首是 ㄖ"
+ },
+ {
+  "word": "reap",
+  "current": "ㄚㄦ-ㄧㄆ",
+  "suggested": "ㄖㄧㄆ",
+  "type": "error",
+  "reason": "r 起首是 ㄖ"
+ },
+ {
+  "word": "rim",
+  "current": "ㄚㄦ-ㄧㄇ",
+  "suggested": "ㄖㄧㄇ",
+  "type": "error",
+  "reason": "r 起首是 ㄖ"
+ },
+ {
+  "word": "rod",
+  "current": "ㄚㄦ-ㄚㄉ",
+  "suggested": "ㄖㄚㄉ",
+  "type": "error",
+  "reason": "r 起首是 ㄖ"
+ },
+ {
+  "word": "rein",
+  "current": "ㄚㄦ-ㄝㄋ",
+  "suggested": "ㄖㄟㄣ",
+  "type": "error",
+  "reason": "rein /reɪn/，r 起首是 ㄖ"
+ },
+ {
+  "word": "jeer",
+  "current": "ㄐ-ㄧㄦ",
+  "suggested": "ㄐㄧㄦ",
+  "type": "error",
+  "reason": "單字一個音節，不該斷 chunk"
+ },
+ {
+  "word": "vow",
+  "current": "ㄈㄧ-ㄛ",
+  "suggested": "ㄈㄠ",
+  "type": "error",
+  "reason": "vow /vaʊ/，不是 ㄈㄧ-ㄛ"
+ },
+ {
+  "word": "verb",
+  "current": "ㄈㄧ-ㄜㄅ",
+  "suggested": "ㄈㄜㄅ",
+  "type": "error",
+  "reason": "verb /vɜːrb/，無 ㄈㄧ 起首"
+ },
+ {
+  "word": "veil",
+  "current": "ㄈㄧ-ㄝㄌ",
+  "suggested": "ㄈㄟㄦ",
+  "type": "error",
+  "reason": "veil /veɪl/"
+ },
+ {
+  "word": "peck",
+  "current": "ㄆㄧ-ㄝㄎ",
+  "suggested": "ㄆㄝㄎ",
+  "type": "error",
+  "reason": "peck /pɛk/"
+ },
+ {
+  "word": "peek",
+  "current": "ㄆㄧ-ㄧㄎ",
+  "suggested": "ㄆㄧㄎ",
+  "type": "error",
+  "reason": "peek /piːk/，無多餘 ㄆㄧ"
+ },
+ {
+  "word": "peg",
+  "current": "ㄆㄧ-ㄝㄍ",
+  "suggested": "ㄆㄝㄍ",
+  "type": "error",
+  "reason": "peg /pɛɡ/"
+ },
+ {
+  "word": "perch",
+  "current": "ㄆㄧ-ㄜㄔ",
+  "suggested": "ㄆㄜㄔ",
+  "type": "error",
+  "reason": "perch /pɜːrtʃ/"
+ },
+ {
+  "word": "pinch",
+  "current": "ㄆㄧ-ㄧㄋㄔ",
+  "suggested": "ㄆㄧㄣㄔ",
+  "type": "error",
+  "reason": "pinch /pɪntʃ/"
+ },
+ {
+  "word": "piss",
+  "current": "ㄆㄧ-ㄧㄙㄙ",
+  "suggested": "ㄆㄧㄙ",
+  "type": "error",
+  "reason": "piss /pɪs/"
+ },
+ {
+  "word": "puff",
+  "current": "ㄆㄧ-ㄚㄈㄈ",
+  "suggested": "ㄆㄚㄈ",
+  "type": "error",
+  "reason": "puff /pʌf/"
+ },
+ {
+  "word": "poach",
+  "current": "ㄆㄧ-ㄛㄔ",
+  "suggested": "ㄆㄛㄔ",
+  "type": "error",
+  "reason": "poach /poʊtʃ/"
+ },
+ {
+  "word": "tar",
+  "current": "ㄊㄧ-ㄚㄦ",
+  "suggested": "ㄊㄚㄦ",
+  "type": "error",
+  "reason": "tar /tɑːr/"
+ },
+ {
+  "word": "taunt",
+  "current": "ㄊㄧ-ㄛㄋㄊ",
+  "suggested": "ㄊㄛㄣㄊ",
+  "type": "error",
+  "reason": "taunt /tɔːnt/"
+ },
+ {
+  "word": "tempt",
+  "current": "ㄊㄧ-ㄝㄇㄆㄊ",
+  "suggested": "ㄊㄝㄇㄆㄊ",
+  "type": "error",
+  "reason": "tempt /tɛmpt/"
+ },
+ {
+  "word": "tick",
+  "current": "ㄊㄧ-ㄧㄎ",
+  "suggested": "ㄊㄧㄎ",
+  "type": "error",
+  "reason": "tick /tɪk/"
+ },
+ {
+  "word": "toil",
+  "current": "ㄊㄧ-ㄛㄧㄦ",
+  "suggested": "ㄊㄛㄧㄦ",
+  "type": "error",
+  "reason": "toil /tɔɪl/"
+ },
+ {
+  "word": "torch",
+  "current": "ㄊㄧ-ㄛㄜㄔ",
+  "suggested": "ㄊㄛㄜㄔ",
+  "type": "error",
+  "reason": "torch /tɔːrtʃ/"
+ },
+ {
+  "word": "tuck",
+  "current": "ㄊㄧ-ㄚㄎ",
+  "suggested": "ㄊㄚㄎ",
+  "type": "error",
+  "reason": "tuck /tʌk/"
+ },
+ {
+  "word": "tact",
+  "current": "ㄊㄧ-ㄚㄎㄊ",
+  "suggested": "ㄊㄚㄎㄊ",
+  "type": "error",
+  "reason": "tact /tækt/"
+ },
+ {
+  "word": "toll",
+  "current": "ㄊㄧ-ㄛㄌㄌ",
+  "suggested": "ㄊㄛㄌ",
+  "type": "error",
+  "reason": "toll /toʊl/"
+ },
+ {
+  "word": "boost",
+  "current": "ㄅㄧ-ㄨㄙㄊ",
+  "suggested": "ㄅㄨㄙㄊ",
+  "type": "error",
+  "reason": "boost /buːst/，無多餘 ㄅㄧ"
+ },
+ {
+  "word": "bout",
+  "current": "ㄅㄧ-ㄠㄊ",
+  "suggested": "ㄅㄠㄊ",
+  "type": "error",
+  "reason": "bout /baʊt/"
+ },
+ {
+  "word": "deem",
+  "current": "ㄉㄧ-ㄧㄇ",
+  "suggested": "ㄉㄧㄇ",
+  "type": "error",
+  "reason": "deem /diːm/"
+ },
+ {
+  "word": "doom",
+  "current": "ㄉㄧ-ㄨㄇ",
+  "suggested": "ㄉㄨㄇ",
+  "type": "error",
+  "reason": "doom /duːm/"
+ },
+ {
+  "word": "dual",
+  "current": "ㄉㄧ-ㄚㄚㄌ",
+  "suggested": "ㄉㄨㄜㄦ",
+  "type": "error",
+  "reason": "dual /ˈduːəl/"
+ },
+ {
+  "word": "gay",
+  "current": "ㄐㄧ-ㄟ",
+  "suggested": "ㄍㄟ",
+  "type": "error",
+  "reason": "gay /ɡeɪ/，g 是 ㄍ 非 ㄐㄧ"
+ },
+ {
+  "word": "gulp",
+  "current": "ㄐㄧ-ㄚㄌㄆ",
+  "suggested": "ㄍㄚㄦㄆ",
+  "type": "error",
+  "reason": "gulp /ɡʌlp/"
+ },
+ {
+  "word": "beware",
+  "current": "ㄅㄧ-ㄨㄛ-ㄌㄧ",
+  "suggested": "ㄅㄧ-ㄨㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "ware /wɛr/ 一個音節"
+ },
+ {
+  "word": "quack",
+  "current": "ㄎㄧㄨ-ㄚㄚㄎ",
+  "suggested": "ㄎㄨㄚㄎ",
+  "type": "vowel",
+  "reason": "quack /kwæk/"
+ },
+ {
+  "word": "quart",
+  "current": "ㄎㄧㄨ-ㄚㄚㄜㄊ",
+  "suggested": "ㄎㄨㄛㄜㄊ",
+  "type": "vowel",
+  "reason": "quart /kwɔːrt/"
+ },
+ {
+  "word": "questionnaire",
+  "current": "ㄎㄨㄝㄙ-ㄒㄣ-ㄋㄟ-ㄌㄧ",
+  "suggested": "ㄎㄨㄝㄙ-ㄒㄜ-ㄋㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "-naire /nɛr/ 一個音節"
+ },
+ {
+  "word": "threshold",
+  "current": "ㄒㄖㄝㄙ-ㄏㄛㄉ",
+  "suggested": "ㄒㄖㄝㄒ-ㄏㄛㄦㄉ",
+  "type": "consonant",
+  "reason": "thresh-hold 中間是 ㄒ 非 ㄙ"
+ },
+ {
+  "word": "respectful",
+  "current": "ㄌㄝㄙ-ㄆㄝㄎ-ㄊㄈㄚㄛ",
+  "suggested": "ㄖㄧ-ㄙㄆㄝㄎㄊ-ㄈㄜ",
+  "type": "schwa",
+  "reason": "-ful schwa 為 ㄈㄜ"
+ },
+ {
+  "word": "congressman",
+  "current": "ㄎㄚㄣ-ㄍㄖㄝㄙ-ㄙㄇㄚㄋ",
+  "suggested": "ㄎㄚㄣ-ㄍㄖㄝㄙ-ㄇㄣ",
+  "type": "schwa",
+  "reason": "-man 弱讀"
+ },
+ {
+  "word": "congresswoman",
+  "current": "ㄎㄚㄣ-ㄍㄖㄝㄙ-ㄙㄨㄛ-ㄇㄢ",
+  "suggested": "ㄎㄚㄣ-ㄍㄖㄝㄙ-ㄨㄨ-ㄇㄣ",
+  "type": "schwa",
+  "reason": "-man 弱讀"
+ },
+ {
+  "word": "esteem",
+  "current": "ㄝㄙ-ㄊㄧㄇ",
+  "suggested": "ㄜ-ㄙㄊㄧㄇ",
+  "type": "schwa",
+  "reason": "e- 弱讀"
+ },
+ {
+  "word": "refreshment",
+  "current": "ㄌㄝ-ㄌㄝㄙ-ㄏㄇㄣㄊ",
+  "suggested": "ㄖㄧ-ㄈㄖㄝㄒ-ㄇㄣㄊ",
+  "type": "error",
+  "reason": "refreshment /rɪˈfrɛʃmənt/"
+ },
+ {
+  "word": "slogan",
+  "current": "ㄙㄌㄛ-ㄍㄢ",
+  "suggested": "ㄙㄌㄛ-ㄍㄣ",
+  "type": "schwa",
+  "reason": "-gan 非重音應為 ㄍㄣ schwa"
+ },
+ {
+  "word": "strengthen",
+  "current": "ㄙㄊㄖㄝㄥ-ㄒㄝ",
+  "suggested": "ㄙㄊㄖㄝㄥ-ㄒㄣ",
+  "type": "schwa",
+  "reason": "-then 非重音 schwa /θən/"
+ },
+ {
+  "word": "mournful",
+  "current": "ㄇㄠㄖ-ㄋㄈㄚㄛ",
+  "suggested": "ㄇㄛㄜㄣ-ㄈㄜ",
+  "type": "schwa",
+  "reason": "-ful schwa 為 ㄈㄜ"
+ },
+ {
+  "word": "sportsman",
+  "current": "ㄙㄆㄛㄜㄊ-ㄙㄇㄚㄋ",
+  "suggested": "ㄙㄆㄛㄜㄊㄙ-ㄇㄣ",
+  "type": "schwa",
+  "reason": "-man 弱讀 ㄇㄣ"
+ },
+ {
+  "word": "sportsmanship",
+  "current": "ㄙㄆㄛㄜㄊ-ㄙㄇㄚㄋ-ㄒㄧㄆ",
+  "suggested": "ㄙㄆㄛㄜㄊㄙ-ㄇㄣ-ㄒㄧㄆ",
+  "type": "schwa",
+  "reason": "-man 弱讀"
+ },
+ {
+  "word": "saleswoman",
+  "current": "ㄙㄚ-ㄌㄝ-ㄨㄨ-ㄇㄢ",
+  "suggested": "ㄙㄝㄦㄗ-ㄨㄨ-ㄇㄣ",
+  "type": "schwa",
+  "reason": "-man 弱讀"
+ },
+ {
+  "word": "chairman",
+  "current": "ㄑㄝㄜ-ㄇㄢ",
+  "suggested": "ㄑㄝㄜ-ㄇㄣ",
+  "type": "schwa",
+  "reason": "-man 弱讀"
+ },
+ {
+  "word": "chairwoman",
+  "current": "ㄑㄝㄜ-ㄨㄨ-ㄇㄢ",
+  "suggested": "ㄑㄝㄜ-ㄨㄨ-ㄇㄣ",
+  "type": "schwa",
+  "reason": "-man 弱讀"
+ },
+ {
+  "word": "erect",
+  "current": "ㄧ-ㄖㄝㄎㄊ",
+  "suggested": "ㄜ-ㄖㄝㄎㄊ",
+  "type": "schwa",
+  "reason": "e- 弱讀為 schwa"
+ },
+ {
+  "word": "erupt",
+  "current": "ㄧ-ㄖㄚㄆㄊ",
+  "suggested": "ㄜ-ㄖㄚㄆㄊ",
+  "type": "schwa",
+  "reason": "e- 弱讀"
+ },
+ {
+  "word": "reckon",
+  "current": "ㄌㄝ-ㄎㄢ",
+  "suggested": "ㄖㄝ-ㄎㄣ",
+  "type": "schwa",
+  "reason": "-on 弱讀 schwa"
+ },
+ {
+  "word": "savage",
+  "current": "ㄙㄚ-ㄈㄚ-ㄐㄧ",
+  "suggested": "ㄙㄚ-ㄈㄜㄐ",
+  "type": "schwa",
+  "reason": "-age 弱讀"
+ },
+ {
+  "word": "shortage",
+  "current": "ㄒㄛㄜ-ㄊㄝ-ㄐㄧ",
+  "suggested": "ㄒㄛㄜ-ㄊㄜㄐ",
+  "type": "schwa",
+  "reason": "-age 弱讀"
+ },
+ {
+  "word": "coverage",
+  "current": "ㄎㄛ-ㄈㄜ-ㄌㄚ-ㄐㄧ",
+  "suggested": "ㄎㄚ-ㄈㄜ-ㄌㄜㄐ",
+  "type": "schwa",
+  "reason": "cover schwa，-age 弱讀"
+ },
+ {
+  "word": "mileage",
+  "current": "ㄇㄞ-ㄌㄝ-ㄐㄧ",
+  "suggested": "ㄇㄞ-ㄌㄜㄐ",
+  "type": "schwa",
+  "reason": "-age 弱讀"
+ },
+ {
+  "word": "orphanage",
+  "current": "ㄛㄦ-ㄈㄚ-ㄋㄚ-ㄐㄧ",
+  "suggested": "ㄛㄦ-ㄈㄜ-ㄋㄜㄐ",
+  "type": "schwa",
+  "reason": "非重音 schwa"
+ },
+ {
+  "word": "bondage",
+  "current": "ㄅㄣ-ㄉㄚ-ㄐㄧ",
+  "suggested": "ㄅㄚㄣ-ㄉㄜㄐ",
+  "type": "schwa",
+  "reason": "-age 弱讀"
+ },
+ {
+  "word": "percentage",
+  "current": "ㄆㄜ-ㄙㄝㄣ-ㄊㄝ-ㄐㄧ",
+  "suggested": "ㄆㄜ-ㄙㄝㄣ-ㄊㄜㄐ",
+  "type": "schwa",
+  "reason": "-age 弱讀"
+ },
+ {
+  "word": "slight",
+  "current": "ㄙㄌ-ㄧㄊ",
+  "suggested": "ㄙㄌㄞㄊ",
+  "type": "vowel",
+  "reason": "slight /slaɪt/"
+ },
+ {
+  "word": "wharf",
+  "current": "ㄨ-ㄚㄜㄈ",
+  "suggested": "ㄨㄛㄜㄈ",
+  "type": "vowel",
+  "reason": "wharf /wɔːrf/"
+ },
+ {
+  "word": "bandit",
+  "current": "ㄅㄢ-ㄉㄜㄊ",
+  "suggested": "ㄅㄢ-ㄉㄧㄊ",
+  "type": "vowel",
+  "reason": "-dit /dɪt/ 非 schwa"
+ },
+ {
+  "word": "barbarian",
+  "current": "ㄅㄚㄦ-ㄅㄟ-ㄖㄧㄚㄋ",
+  "suggested": "ㄅㄚㄦ-ㄅㄝ-ㄖㄧㄚㄣ",
+  "type": "vowel",
+  "reason": "-bar- 念 /bɛr/ 非 ㄅㄟ"
+ },
+ {
+  "word": "barefoot",
+  "current": "ㄅㄟ-ㄌㄧ-ㄈㄨㄊ",
+  "suggested": "ㄅㄝㄜ-ㄈㄨㄊ",
+  "type": "chunks-mismatch",
+  "reason": "bare 是一個音節 /bɛr/，不該拆"
+ },
+ {
+  "word": "bazaar",
+  "current": "ㄅㄟ-ㄗㄚㄚㄜ",
+  "suggested": "ㄅㄜ-ㄗㄚㄦ",
+  "type": "vowel",
+  "reason": "bazaar /bəˈzɑːr/，第一音節是 schwa"
+ },
+ {
+  "word": "bowel",
+  "current": "ㄅㄛ-ㄨㄝㄦ",
+  "suggested": "ㄅㄠ-ㄜㄦ",
+  "type": "vowel",
+  "reason": "bowel /ˈbaʊəl/"
+ },
+ {
+  "word": "bodyguard",
+  "current": "ㄅㄛ-ㄉㄧ-ㄍㄚㄚㄜㄉ",
+  "suggested": "ㄅㄚ-ㄉㄧ-ㄍㄚㄜㄉ",
+  "type": "vowel",
+  "reason": "重複的 ㄚㄚ 多餘"
+ },
+ {
+  "word": "safeguard",
+  "current": "ㄙㄚ-ㄈㄧ-ㄍㄚㄚㄜㄉ",
+  "suggested": "ㄙㄝㄈ-ㄍㄚㄜㄉ",
+  "type": "chunks-mismatch",
+  "reason": "safe 一個音節，guard 不該有 ㄚㄚ"
+ },
+ {
+  "word": "squad",
+  "current": "ㄙㄎ-ㄚㄚㄉ",
+  "suggested": "ㄙㄎㄨㄚㄉ",
+  "type": "vowel",
+  "reason": "squad /skwɑːd/"
+ },
+ {
+  "word": "truant",
+  "current": "ㄊㄖ-ㄚㄚㄋㄊ",
+  "suggested": "ㄊㄖㄨ-ㄜㄣㄊ",
+  "type": "vowel",
+  "reason": "truant /ˈtruːənt/"
+ },
+ {
+  "word": "undergraduate",
+  "current": "ㄚㄣ-ㄉㄜ-ㄍㄌㄝ-ㄉㄚㄚ-ㄊㄧ",
+  "suggested": "ㄚㄣ-ㄉㄜ-ㄍㄖㄚ-ㄐㄨ-ㄜㄊ",
+  "type": "vowel",
+  "reason": "-graduate 念 /ˈɡrædʒuət/"
+ },
+ {
+  "word": "hi-fi",
+  "current": "ㄏㄞ-ㄈㄜ",
+  "suggested": "ㄏㄞ-ㄈㄞ",
+  "type": "vowel",
+  "reason": "hi-fi 第二音節 fi 念 /faɪ/，非 schwa"
+ },
+ {
+  "word": "feminine",
+  "current": "ㄈㄧ-ㄇㄞ-ㄋㄜ-ㄋㄧ",
+  "suggested": "ㄈㄝ-ㄇㄜ-ㄋㄣ",
+  "type": "chunks-mismatch",
+  "reason": "feminine /ˈfɛmənɪn/ 三音節"
+ },
+ {
+  "word": "glare",
+  "current": "ㄍㄌㄟ-ㄌㄧ",
+  "suggested": "ㄍㄌㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "glare 一個音節 /ɡlɛr/"
+ },
+ {
+  "word": "glamour",
+  "current": "ㄍㄌㄟ-ㄇㄠㄖ",
+  "suggested": "ㄍㄌㄚ-ㄇㄜ",
+  "type": "vowel",
+  "reason": "glamour /ˈɡlæmər/"
+ },
+ {
+  "word": "crater",
+  "current": "ㄎㄖㄟ-ㄊㄜ",
+  "suggested": "ㄎㄖㄝ-ㄊㄜ",
+  "type": "vowel",
+  "reason": "crater /ˈkreɪtər/，已基本 ok"
+ },
+ {
+  "word": "flare",
+  "current": "ㄈㄌㄝ-ㄌㄧ",
+  "suggested": "ㄈㄌㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "flare 一個音節"
+ },
+ {
+  "word": "spare",
+  "current": "ㄙㄆㄚ-ㄌㄧ",
+  "suggested": "ㄙㄆㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "spare /spɛr/ 一個音節"
+ },
+ {
+  "word": "ware",
+  "current": "ㄨㄛ-ㄌㄧ",
+  "suggested": "ㄨㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "ware /wɛr/ 一個音節"
+ },
+ {
+  "word": "wary",
+  "current": "ㄨㄛ-ㄌㄧ",
+  "suggested": "ㄨㄝ-ㄌㄧ",
+  "type": "vowel",
+  "reason": "wary /ˈwɛri/"
+ },
+ {
+  "word": "snare",
+  "current": "ㄙㄋㄚ-ㄌㄧ",
+  "suggested": "ㄙㄋㄝㄜ",
+  "type": "chunks-mismatch",
+  "reason": "snare /snɛr/"
+ },
+ {
+  "word": "snore",
+  "current": "ㄙㄋㄛ-ㄌㄧ",
+  "suggested": "ㄙㄋㄛㄜ",
+  "type": "chunks-mismatch",
+  "reason": "snore /snɔːr/ 一個音節"
+ },
+ {
+  "word": "spire",
+  "current": "ㄙㄆㄞ-ㄌㄧ",
+  "suggested": "ㄙㄆㄞㄜ",
+  "type": "chunks-mismatch",
+  "reason": "spire /spaɪər/"
+ },
+ {
+  "word": "morale",
+  "current": "ㄇㄛ-ㄌㄚ-ㄌㄧ",
+  "suggested": "ㄇㄛ-ㄖㄚㄦ",
+  "type": "chunks-mismatch",
+  "reason": "morale /məˈræl/ 兩音節"
+ },
+ {
+  "word": "lure",
+  "current": "ㄌㄨ-ㄌㄧ",
+  "suggested": "ㄌㄨㄜ",
+  "type": "chunks-mismatch",
+  "reason": "lure /lʊr/ 一個音節"
+ },
+ {
+  "word": "reservoir",
+  "current": "ㄌㄧ-ㄗㄜ-ㄨㄛㄧㄖ",
+  "suggested": "ㄖㄝ-ㄗㄜ-ㄈㄨㄚㄜ",
+  "type": "vowel",
+  "reason": "reservoir /ˈrɛzərvwɑːr/"
+ },
+ {
+  "word": "theatrical",
+  "current": "ㄒㄧㄊ-ㄌㄧ-ㄎㄜ",
+  "suggested": "ㄒㄧ-ㄚㄊ-ㄌㄧ-ㄎㄜ",
+  "type": "chunks-mismatch",
+  "reason": "theatrical 四音節 /θiˈætrɪkəl/"
+ },
+ {
+  "word": "shortsighted",
+  "current": "ㄒㄛㄜ-ㄊㄙㄧㄍ-ㄏㄊㄝㄉ",
+  "suggested": "ㄒㄛㄜㄊ-ㄙㄞ-ㄊㄜㄉ",
+  "type": "vowel",
+  "reason": "-sighted /ˈsaɪtɪd/"
+ },
+ {
+  "word": "barren",
+  "current": "ㄅㄚㄦ-ㄌㄣ",
+  "suggested": "ㄅㄝ-ㄖㄣ",
+  "type": "vowel",
+  "reason": "barren /ˈbɛrən/"
+ },
+ {
+  "word": "delegate",
+  "current": "ㄉㄧ-ㄌㄧ-ㄍㄚ-ㄊㄧ",
+  "suggested": "ㄉㄝ-ㄌㄜ-ㄍㄝㄊ",
+  "type": "vowel",
+  "reason": "delegate /ˈdɛlɪɡət/"
+ },
+ {
+  "word": "emigrate",
+  "current": "ㄧ-ㄇㄧㄍ-ㄌㄚ-ㄊㄧ",
+  "suggested": "ㄝ-ㄇㄜ-ㄍㄖㄝㄊ",
+  "type": "vowel",
+  "reason": "emigrate /ˈɛməɡreɪt/"
+ },
+ {
+  "word": "emigrant",
+  "current": "ㄧ-ㄇㄧㄍ-ㄌㄣㄊ",
+  "suggested": "ㄝ-ㄇㄜ-ㄍㄖㄣㄊ",
+  "type": "vowel",
+  "reason": "emigrant /ˈɛməɡrənt/"
+ },
+ {
+  "word": "emigration",
+  "current": "ㄧ-ㄇㄧㄍ-ㄌㄚ-ㄒㄣ",
+  "suggested": "ㄝ-ㄇㄜ-ㄍㄖㄝ-ㄒㄣ",
+  "type": "vowel",
+  "reason": "e- 在這字念 /ɛ/"
+ },
+ {
+  "word": "sly",
+  "current": "ㄙㄌ-ㄌㄧ",
+  "suggested": "ㄙㄌㄞ",
+  "type": "vowel",
+  "reason": "sly /slaɪ/"
+ },
+ {
+  "word": "swarm",
+  "current": "ㄙㄨ-ㄚㄦㄇ",
+  "suggested": "ㄙㄨㄛㄜㄇ",
+  "type": "vowel",
+  "reason": "swarm /swɔːrm/"
+ },
+ {
+  "word": "slum",
+  "current": "ㄙㄌ-ㄜㄇ",
+  "suggested": "ㄙㄌㄚㄇ",
+  "type": "vowel",
+  "reason": "slum /slʌm/"
+ },
+ {
+  "word": "shriek",
+  "current": "ㄒㄖ-ㄞㄎ",
+  "suggested": "ㄒㄖㄧㄎ",
+  "type": "vowel",
+  "reason": "shriek /ʃriːk/"
+ },
+ {
+  "word": "shrewd",
+  "current": "ㄒㄖ-ㄩㄉ",
+  "suggested": "ㄒㄖㄨㄉ",
+  "type": "vowel",
+  "reason": "shrewd /ʃruːd/"
+ },
+ {
+  "word": "tread",
+  "current": "ㄊㄖ-ㄧㄉ",
+  "suggested": "ㄊㄖㄝㄉ",
+  "type": "vowel",
+  "reason": "tread /trɛd/"
+ },
+ {
+  "word": "breadth",
+  "current": "ㄅㄖ-ㄧㄉㄒ",
+  "suggested": "ㄅㄖㄝㄉㄒ",
+  "type": "vowel",
+  "reason": "breadth /brɛdθ/"
+ },
+ {
+  "word": "brooch",
+  "current": "ㄅㄖ-ㄨㄔ",
+  "suggested": "ㄅㄖㄛㄔ",
+  "type": "vowel",
+  "reason": "brooch /broʊtʃ/"
+ },
+ {
+  "word": "blond",
+  "current": "ㄅㄌ-ㄛㄋㄉ",
+  "suggested": "ㄅㄌㄚㄋㄉ",
+  "type": "vowel",
+  "reason": "blond /blɑːnd/"
+ },
+ {
+  "word": "plow",
+  "current": "ㄆㄌ-ㄛ",
+  "suggested": "ㄆㄌㄠ",
+  "type": "vowel",
+  "reason": "plow /plaʊ/"
+ },
+ {
+  "word": "plight",
+  "current": "ㄆㄌ-ㄧㄊ",
+  "suggested": "ㄆㄌㄞㄊ",
+  "type": "vowel",
+  "reason": "plight /plaɪt/"
+ },
+ {
+  "word": "strangle",
+  "current": "ㄙㄉㄌㄟㄣ-ㄍㄜ",
+  "suggested": "ㄙㄊㄖㄝㄣ-ㄍㄜ",
+  "type": "vowel",
+  "reason": "strangle /ˈstræŋɡəl/"
+ },
+ {
+  "word": "bulge",
+  "current": "ㄅㄨ-ㄐㄧ",
+  "suggested": "ㄅㄚㄦㄐ",
+  "type": "vowel",
+  "reason": "bulge /bʌldʒ/"
+ },
+ {
+  "word": "oblige",
+  "current": "ㄚㄅ-ㄌㄧ-ㄐㄧ",
+  "suggested": "ㄜ-ㄅㄌㄞㄐ",
+  "type": "vowel",
+  "reason": "oblige /əˈblaɪdʒ/"
+ },
+ {
+  "word": "obligation",
+  "current": "ㄚㄅ-ㄌㄧ-ㄍㄚ-ㄒㄣ",
+  "suggested": "ㄚ-ㄅㄌㄜ-ㄍㄝ-ㄒㄣ",
+  "type": "vowel",
+  "reason": "obligation /ˌɑːblɪˈɡeɪʃən/"
+ },
+ {
+  "word": "siege",
+  "current": "ㄙㄞ-ㄐㄧ",
+  "suggested": "ㄙㄧㄐ",
+  "type": "vowel",
+  "reason": "siege /siːdʒ/"
+ },
+ {
+  "word": "besiege",
+  "current": "ㄅㄧ-ㄙㄞ-ㄐㄧ",
+  "suggested": "ㄅㄧ-ㄙㄧㄐ",
+  "type": "vowel",
+  "reason": "besiege /bɪˈsiːdʒ/"
+ },
+ {
+  "word": "outrage",
+  "current": "ㄠㄊ-ㄌㄚ-ㄐㄧ",
+  "suggested": "ㄠㄊ-ㄖㄝㄐ",
+  "type": "vowel",
+  "reason": "-rage /reɪdʒ/"
+ },
+ {
+  "word": "hairstyle",
+  "current": "ㄏㄝㄜ-ㄙㄊㄧ-ㄌㄧ",
+  "suggested": "ㄏㄝㄜ-ㄙㄊㄞㄦ",
+  "type": "vowel",
+  "reason": "-style /staɪl/ 一個音節"
+ },
+ {
+  "word": "despair",
+  "current": "ㄉㄧ-ㄆㄝㄜ",
+  "suggested": "ㄉㄧ-ㄙㄆㄝㄜ",
+  "type": "consonant",
+  "reason": "漏 s"
+ },
+ {
+  "word": "foster",
+  "current": "ㄈㄚ-ㄊㄜ",
+  "suggested": "ㄈㄚ-ㄙㄊㄜ",
+  "type": "consonant",
+  "reason": "foster 漏 s"
+ },
+ {
+  "word": "reflect",
+  "current": "ㄌㄧ-ㄈㄌㄝㄎㄊ",
+  "suggested": "ㄖㄧ-ㄈㄌㄝㄎㄊ",
+  "type": "consonant",
+  "reason": "r 是 ㄖ"
+ },
+ {
+  "word": "reflection",
+  "current": "ㄌㄧ-ㄈㄌㄝㄎ-ㄒㄜㄣ",
+  "suggested": "ㄖㄧ-ㄈㄌㄝㄎ-ㄒㄣ",
+  "type": "consonant",
+  "reason": "r 是 ㄖ"
+ },
+ {
+  "word": "refute",
+  "current": "ㄌㄧ-ㄈㄧㄨ-ㄊㄧ",
+  "suggested": "ㄖㄧ-ㄈㄧㄨㄊ",
+  "type": "consonant",
+  "reason": "r 是 ㄖ"
+ },
+ {
+  "word": "recur",
+  "current": "ㄌㄧ-ㄎㄜ",
+  "suggested": "ㄖㄧ-ㄎㄜ",
+  "type": "consonant",
+  "reason": "r 是 ㄖ"
+ },
+ {
+  "word": "slap",
+  "current": "ㄙㄌ-ㄚ",
+  "suggested": "ㄙㄌㄚㄆ",
+  "type": "consonant",
+  "reason": "slap /slæp/ 漏 ㄆ"
+ },
+ {
+  "word": "slot",
+  "current": "ㄙㄌ-ㄚ",
+  "suggested": "ㄙㄌㄚㄊ",
+  "type": "consonant",
+  "reason": "slot /slɑːt/ 漏 ㄊ"
+ },
+ {
+  "word": "smack",
+  "current": "ㄙㄇ-ㄚ",
+  "suggested": "ㄙㄇㄚㄎ",
+  "type": "consonant",
+  "reason": "smack 漏 ㄎ"
+ },
+ {
+  "word": "trot",
+  "current": "ㄊㄖ-ㄚ",
+  "suggested": "ㄊㄖㄚㄊ",
+  "type": "consonant",
+  "reason": "trot /trɑːt/ 漏 ㄊ"
+ },
+ {
+  "word": "strap",
+  "current": "ㄙㄊㄖ-ㄚ",
+  "suggested": "ㄙㄊㄖㄚㄆ",
+  "type": "consonant",
+  "reason": "strap 漏 ㄆ"
+ },
+ {
+  "word": "gnaw",
+  "current": "ㄍㄋ-ㄛ",
+  "suggested": "ㄋㄛ",
+  "type": "silent-missing",
+  "reason": "gnaw 起首 g 不發音"
+ },
+ {
+  "word": "crumb",
+  "current": "ㄎㄖ-ㄚㄇㄅ",
+  "suggested": "ㄎㄖㄚㄇ",
+  "type": "silent-missing",
+  "reason": "crumb 末尾 b 不發音"
+ },
+ {
+  "word": "brace",
+  "current": "ㄅㄌㄝㄙ",
+  "suggested": "ㄅㄖㄝㄙ",
+  "type": "consonant",
+  "reason": "br 是 ㄅㄖ 非 ㄅㄌ"
+ },
+ {
+  "word": "blot",
+  "current": "ㄅㄌ-ㄚ",
+  "suggested": "ㄅㄌㄚㄊ",
+  "type": "consonant",
+  "reason": "blot 漏 ㄊ"
+ },
+ {
+  "word": "flap",
+  "current": "ㄈㄌ-ㄚ",
+  "suggested": "ㄈㄌㄚㄆ",
+  "type": "consonant",
+  "reason": "flap 漏 ㄆ"
+ },
+ {
+  "word": "massage",
+  "current": "ㄇㄚㄙ-ㄙㄚ-ㄐㄧ",
+  "suggested": "ㄇㄜ-ㄙㄚㄒ",
+  "type": "consonant",
+  "reason": "massage /məˈsɑːʒ/ 末是 ʒ 非 ㄐ"
+ },
+ {
+  "word": "mingle",
+  "current": "ㄇㄧ-ㄍㄜ",
+  "suggested": "ㄇㄧㄣ-ㄍㄜ",
+  "type": "consonant",
+  "reason": "漏 n"
+ },
+ {
+  "word": "sparkle",
+  "current": "ㄙㄆㄚ-ㄎㄜ",
+  "suggested": "ㄙㄆㄚㄦ-ㄎㄜ",
+  "type": "consonant",
+  "reason": "漏 r"
+ },
+ {
+  "word": "stammer",
+  "current": "ㄙㄉㄚ-ㄇㄜ",
+  "suggested": "ㄙㄊㄚ-ㄇㄜ",
+  "type": "consonant",
+  "reason": "st 是 ㄙㄊ"
+ },
+ {
+  "word": "surf",
+  "current": "ㄙㄜㄦㄈ",
+  "suggested": "ㄙㄜㄈ",
+  "type": "error",
+  "reason": "重複的 ㄜㄦ 多餘，/sɜːrf/ 一個音節"
+ },
+ {
+  "word": "heir",
+  "current": "ㄝㄜ",
+  "suggested": "ㄝㄦ",
+  "type": "error",
+  "reason": "heir /ɛr/，子音 h 不發音但母音應為 ㄝㄦ"
+ },
+ {
+  "word": "rear",
+  "current": "ㄚㄦ-ㄦ",
+  "suggested": "ㄖㄧㄜ",
+  "type": "error",
+  "reason": "rear /rɪr/，r 起首是 ㄖ"
+ },
+ {
+  "word": "reign",
+  "current": "ㄚㄦ-ㄌㄣ",
+  "suggested": "ㄖㄟㄣ",
+  "type": "error",
+  "reason": "reign /reɪn/，r 起首是 ㄖ"
+ },
+ {
+  "word": "rip",
+  "current": "ㄚㄦ-ㄌㄧㄆ",
+  "suggested": "ㄖㄧㄆ",
+  "type": "error",
+  "reason": "r 起首是 ㄖ"
+ },
+ {
+  "word": "thorn",
+  "current": "ㄒ-ㄛㄜㄋ",
+  "suggested": "ㄙㄛㄜㄋ",
+  "type": "error",
+  "reason": "th 念 /θ/，常規寫法用 ㄙ 或 ㄒ；ㄒ 後直接接母音"
+ },
+ {
+  "word": "shed",
+  "current": "ㄒ-ㄝㄉ",
+  "suggested": "ㄒㄝㄉ",
+  "type": "error",
+  "reason": "ㄒ 不該獨立 chunk"
+ },
+ {
+  "word": "shun",
+  "current": "ㄒ-ㄚㄣ",
+  "suggested": "ㄒㄚㄣ",
+  "type": "error",
+  "reason": "ㄒ 不該獨立 chunk"
+ },
+ {
+  "word": "chunk",
+  "current": "ㄔ-ㄚㄋㄎ",
+  "suggested": "ㄔㄚㄋㄎ",
+  "type": "error",
+  "reason": "ㄔ 不該獨立 chunk"
+ },
+ {
+  "word": "yeast",
+  "current": "ㄌㄧ-ㄧㄙㄊ",
+  "suggested": "ㄧㄙㄊ",
+  "type": "error",
+  "reason": "yeast /jiːst/，y 起首為半母音 ㄧ，非 ㄌㄧ"
+ },
+ {
+  "word": "zip",
+  "current": "ㄗ-ㄌㄧㄆ",
+  "suggested": "ㄗㄧㄆ",
+  "type": "error",
+  "reason": "zip /zɪp/，無多餘 ㄌ"
+ },
+ {
+  "word": "wit",
+  "current": "ㄨ-ㄧㄊ",
+  "suggested": "ㄨㄧㄊ",
+  "type": "error",
+  "reason": "ㄨ 不該獨立 chunk"
+ },
+ {
+  "word": "witch",
+  "current": "ㄨ-ㄧㄊㄔ",
+  "suggested": "ㄨㄧㄊㄔ",
+  "type": "error",
+  "reason": "ㄨ 不該獨立 chunk"
+ },
+ {
+  "word": "wig",
+  "current": "ㄨ-ㄧㄍ",
+  "suggested": "ㄨㄧㄍ",
+  "type": "error",
+  "reason": "ㄨ 不該獨立 chunk"
+ },
+ {
+  "word": "woe",
+  "current": "ㄨ-ㄛ",
+  "suggested": "ㄨㄛ",
+  "type": "error",
+  "reason": "ㄨ 不該獨立 chunk"
+ },
+ {
+  "word": "pier",
+  "current": "ㄆㄧ-ㄒㄧㄦ",
+  "suggested": "ㄆㄧㄦ",
+  "type": "error",
+  "reason": "pier /pɪr/"
+ },
+ {
+  "word": "prey",
+  "current": "ㄆㄌㄧ-ㄧ",
+  "suggested": "ㄆㄖㄟ",
+  "type": "error",
+  "reason": "prey /preɪ/"
+ },
+ {
+  "word": "prick",
+  "current": "ㄆㄌㄧ-ㄧㄎ",
+  "suggested": "ㄆㄖㄧㄎ",
+  "type": "error",
+  "reason": "prick /prɪk/"
+ },
+ {
+  "word": "prop",
+  "current": "ㄆㄌㄧ-ㄚㄆ",
+  "suggested": "ㄆㄖㄚㄆ",
+  "type": "error",
+  "reason": "prop /prɑːp/"
+ },
+ {
+  "word": "preach",
+  "current": "ㄆㄌㄧ-ㄧㄔ",
+  "suggested": "ㄆㄖㄧㄔ",
+  "type": "error",
+  "reason": "preach /priːtʃ/"
+ },
+ {
+  "word": "prowl",
+  "current": "ㄆㄌㄧ-ㄠㄌ",
+  "suggested": "ㄆㄖㄠㄦ",
+  "type": "error",
+  "reason": "prowl /praʊl/"
+ },
+ {
+  "word": "sleigh",
+  "current": "ㄙㄌ-ㄟ",
+  "suggested": "ㄙㄌㄟ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "split",
+  "current": "ㄙㄆㄌ-ㄧㄊ",
+  "suggested": "ㄙㄆㄌㄧㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "spear",
+  "current": "ㄙㄆ-ㄦ",
+  "suggested": "ㄙㄆㄧㄦ",
+  "type": "error",
+  "reason": "spear /spɪr/"
+ },
+ {
+  "word": "spur",
+  "current": "ㄙㄆ-ㄜ",
+  "suggested": "ㄙㄆㄜ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "sway",
+  "current": "ㄙㄨ-ㄟ",
+  "suggested": "ㄙㄨㄟ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "wail",
+  "current": "ㄨ-ㄝㄦ",
+  "suggested": "ㄨㄝㄦ",
+  "type": "error",
+  "reason": "wail /weɪl/"
+ },
+ {
+  "word": "whirl",
+  "current": "ㄨ-ㄜㄌ",
+  "suggested": "ㄨㄜㄌ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "grip",
+  "current": "ㄍㄖ-ㄌㄧㄆ",
+  "suggested": "ㄍㄖㄧㄆ",
+  "type": "error",
+  "reason": "grip /ɡrɪp/，無多餘 ㄌ"
+ },
+ {
+  "word": "flip",
+  "current": "ㄈㄌ-ㄌㄧㄆ",
+  "suggested": "ㄈㄌㄧㄆ",
+  "type": "error",
+  "reason": "flip /flɪp/，無多餘 ㄌ"
+ },
+ {
+  "word": "sniff",
+  "current": "ㄙㄋ-ㄌㄜㄈ",
+  "suggested": "ㄙㄋㄧㄈ",
+  "type": "error",
+  "reason": "sniff /snɪf/"
+ },
+ {
+  "word": "belongings",
+  "current": "ㄅㄧ-ㄌㄛㄥ-ㄍㄧㄥㄙ",
+  "suggested": "ㄅㄧ-ㄌㄛㄥ-ㄧㄥㄗ",
+  "type": "error",
+  "reason": "-ings 不該有額外 ㄍ"
+ },
+ {
+  "word": "punctual",
+  "current": "ㄆㄚ-ㄎㄊㄚㄚㄌ",
+  "suggested": "ㄆㄚㄋㄎ-ㄔㄨ-ㄜㄦ",
+  "type": "error",
+  "reason": "punctual /ˈpʌŋktʃuəl/"
+ },
+ {
+  "word": "fluency",
+  "current": "ㄈㄌㄩㄋ-ㄒㄧ",
+  "suggested": "ㄈㄌㄨ-ㄜㄣ-ㄒㄧ",
+  "type": "error",
+  "reason": "fluency /ˈfluːənsi/ 三音節"
+ },
+ {
+  "word": "creak",
+  "current": "ㄎㄖ-ㄧㄎ",
+  "suggested": "ㄎㄖㄧㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "thermometer",
+  "current": "ㄉㄜ-ㄇㄛ-ㄇㄝ-ㄊㄜ",
+  "suggested": "ㄒㄜ-ㄇㄚ-ㄇㄜ-ㄊㄜ",
+  "type": "error",
+  "reason": "thermo- 起首 th 是 ㄒ/ㄙ"
+ },
+ {
+  "word": "throne",
+  "current": "ㄙㄌㄛ-ㄋㄧ",
+  "suggested": "ㄒㄖㄛㄣ",
+  "type": "error",
+  "reason": "throne /θroʊn/，不是 ㄙㄌ"
+ },
+ {
+  "word": "rhythmic",
+  "current": "ㄖㄏㄧㄊ-ㄏㄇㄧㄎ",
+  "suggested": "ㄖㄧㄉ-ㄇㄧㄎ",
+  "type": "error",
+  "reason": "rhythmic /ˈrɪðmɪk/"
+ },
+ {
+  "word": "thoughtful",
+  "current": "ㄉㄛ-ㄊㄈㄚㄛ",
+  "suggested": "ㄒㄛㄊ-ㄈㄜ",
+  "type": "error",
+  "reason": "thoughtful /ˈθɔːtfəl/"
+ },
+ {
+  "word": "checkbook",
+  "current": "ㄔㄝㄎ-ㄎㄅㄨㄎ",
+  "suggested": "ㄑㄝㄎ-ㄅㄨㄎ",
+  "type": "error",
+  "reason": "chunk 切割異常，多餘 ㄎ"
+ },
+ {
+  "word": "crossing",
+  "current": "ㄎㄖㄛㄙ-ㄒㄧㄥ",
+  "suggested": "ㄎㄖㄛ-ㄒㄧㄥ",
+  "type": "error",
+  "reason": "-ssing 不需重複 ㄙ"
+ },
+ {
+  "word": "distinctive",
+  "current": "ㄉㄧㄙ-ㄊㄧㄣ-ㄎㄊㄧ-ㄈㄜ",
+  "suggested": "ㄉㄧ-ㄙㄊㄧㄣㄎ-ㄊㄧㄈ",
+  "type": "error",
+  "reason": "切割異常"
+ },
+ {
+  "word": "distinction",
+  "current": "ㄉㄧㄙ-ㄊㄧㄣ-ㄎㄒㄣ",
+  "suggested": "ㄉㄧ-ㄙㄊㄧㄣㄎ-ㄒㄣ",
+  "type": "error",
+  "reason": "切割異常"
+ },
+ {
+  "word": "refresh",
+  "current": "ㄌㄝ-ㄖㄝㄒ",
+  "suggested": "ㄖㄧ-ㄈㄖㄝㄒ",
+  "type": "error",
+  "reason": "refresh /rɪˈfrɛʃ/"
+ },
+ {
+  "word": "reflective",
+  "current": "ㄌㄝ-ㄌㄝㄎ-ㄊㄜ-ㄈㄜ",
+  "suggested": "ㄖㄧ-ㄈㄌㄝㄎ-ㄊㄜ-ㄈㄜ",
+  "type": "error",
+  "reason": "chunk 漏 f"
+ },
+ {
+  "word": "recruit",
+  "current": "ㄌㄝ-ㄖㄨㄊ",
+  "suggested": "ㄖㄧ-ㄎㄖㄨㄊ",
+  "type": "error",
+  "reason": "recruit /rɪˈkruːt/"
+ },
+ {
+  "word": "repress",
+  "current": "ㄌㄝ-ㄖㄝㄙㄙ",
+  "suggested": "ㄖㄧ-ㄆㄖㄝㄙ",
+  "type": "error",
+  "reason": "repress /rɪˈprɛs/"
+ },
+ {
+  "word": "reproduce",
+  "current": "ㄌㄝ-ㄌㄛ-ㄉㄨ-ㄙㄜ",
+  "suggested": "ㄖㄧ-ㄆㄖㄜ-ㄉㄨㄙ",
+  "type": "error",
+  "reason": "reproduce /ˌriːprəˈduːs/"
+ },
+ {
+  "word": "recreational",
+  "current": "ㄌㄝ-ㄌㄝ-ㄒㄛ-ㄋㄦ",
+  "suggested": "ㄖㄝ-ㄎㄖㄧ-ㄝ-ㄒㄜ-ㄋㄜ",
+  "type": "error",
+  "reason": "recreational 漏 cr"
+ },
+ {
+  "word": "sheriff",
+  "current": "ㄒㄝ-ㄖㄧㄈㄈ",
+  "suggested": "ㄒㄝ-ㄖㄧㄈ",
+  "type": "error",
+  "reason": "ff 不重複"
+ },
+ {
+  "word": "thrust",
+  "current": "ㄒㄖ-ㄚㄙㄊ",
+  "suggested": "ㄒㄖㄚㄙㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "sledge",
+  "current": "ㄙㄌㄝㄉ-ㄐㄧ",
+  "suggested": "ㄙㄌㄝㄐ",
+  "type": "error",
+  "reason": "sledge /slɛdʒ/ 一個音節"
+ },
+ {
+  "word": "sneeze",
+  "current": "ㄙㄋㄧ-ㄗㄧ",
+  "suggested": "ㄙㄋㄧㄗ",
+  "type": "error",
+  "reason": "sneeze /sniːz/ 一個音節"
+ },
+ {
+  "word": "slay",
+  "current": "ㄙㄌ-ㄟ",
+  "suggested": "ㄙㄌㄟ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "slam",
+  "current": "ㄙㄌ-ㄚㄇ",
+  "suggested": "ㄙㄌㄚㄇ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "slash",
+  "current": "ㄙㄌ-ㄚㄒ",
+  "suggested": "ㄙㄌㄚㄒ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "slump",
+  "current": "ㄙㄌ-ㄚㄇㄆ",
+  "suggested": "ㄙㄌㄚㄇㄆ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "smash",
+  "current": "ㄙㄇ-ㄚㄒ",
+  "suggested": "ㄙㄇㄚㄒ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "sneak",
+  "current": "ㄙㄋ-ㄧㄎ",
+  "suggested": "ㄙㄋㄧㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "snarl",
+  "current": "ㄙㄋ-ㄚㄜㄌ",
+  "suggested": "ㄙㄋㄚㄜㄌ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "snort",
+  "current": "ㄙㄋ-ㄛㄜㄊ",
+  "suggested": "ㄙㄋㄛㄜㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "snatch",
+  "current": "ㄙㄋ-ㄚㄊㄔ",
+  "suggested": "ㄙㄋㄚㄊㄔ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "sneer",
+  "current": "ㄙㄋ-ㄧㄦ",
+  "suggested": "ㄙㄋㄧㄦ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "shred",
+  "current": "ㄒㄖ-ㄝㄉ",
+  "suggested": "ㄒㄖㄝㄉ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "shrub",
+  "current": "ㄒㄖ-ㄚㄅ",
+  "suggested": "ㄒㄖㄚㄅ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "shrug",
+  "current": "ㄒㄖ-ㄚㄍ",
+  "suggested": "ㄒㄖㄚㄍ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "thrift",
+  "current": "ㄒㄖ-ㄧㄈㄊ",
+  "suggested": "ㄒㄖㄧㄈㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "throb",
+  "current": "ㄒㄖ-ㄚㄅ",
+  "suggested": "ㄒㄖㄚㄅ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "throng",
+  "current": "ㄒㄖ-ㄛㄥ",
+  "suggested": "ㄒㄖㄛㄥ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "thrill",
+  "current": "ㄒㄖ-ㄧㄦ",
+  "suggested": "ㄒㄖㄧㄦ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "trim",
+  "current": "ㄊㄖ-ㄧㄇ",
+  "suggested": "ㄊㄖㄧㄇ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "trout",
+  "current": "ㄊㄖ-ㄠㄊ",
+  "suggested": "ㄊㄖㄠㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "trench",
+  "current": "ㄊㄖ-ㄝㄋㄔ",
+  "suggested": "ㄊㄖㄝㄋㄔ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "trek",
+  "current": "ㄊㄖ-ㄝㄎ",
+  "suggested": "ㄊㄖㄝㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "trait",
+  "current": "ㄊㄖ-ㄟㄊ",
+  "suggested": "ㄊㄖㄟㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "streak",
+  "current": "ㄙㄊㄖ-ㄧㄎ",
+  "suggested": "ㄙㄊㄖㄧㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "strand",
+  "current": "ㄙㄊㄖ-ㄢㄉ",
+  "suggested": "ㄙㄊㄖㄢㄉ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "strain",
+  "current": "ㄙㄊㄖ-ㄟㄋ",
+  "suggested": "ㄙㄊㄖㄟㄣ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "stray",
+  "current": "ㄙㄊㄖ-ㄟ",
+  "suggested": "ㄙㄊㄖㄟ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "stroll",
+  "current": "ㄙㄊㄖ-ㄛㄌㄌ",
+  "suggested": "ㄙㄊㄖㄛㄦ",
+  "type": "error",
+  "reason": "stroll /stroʊl/ ll 不重複"
+ },
+ {
+  "word": "sprawl",
+  "current": "ㄙㄆㄖ-ㄛㄌ",
+  "suggested": "ㄙㄆㄖㄛㄦ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "sprint",
+  "current": "ㄙㄆㄖ-ㄧㄋㄊ",
+  "suggested": "ㄙㄆㄖㄧㄣㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "freak",
+  "current": "ㄈㄖ-ㄧㄎ",
+  "suggested": "ㄈㄖㄧㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "fret",
+  "current": "ㄈㄖ-ㄝㄊ",
+  "suggested": "ㄈㄖㄝㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "groan",
+  "current": "ㄍㄖ-ㄛㄋ",
+  "suggested": "ㄍㄖㄛㄣ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "growl",
+  "current": "ㄍㄖ-ㄠㄌ",
+  "suggested": "ㄍㄖㄠㄦ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "gross",
+  "current": "ㄍㄖ-ㄛㄙㄙ",
+  "suggested": "ㄍㄖㄛㄙ",
+  "type": "error",
+  "reason": "無需斷 chunk，ss 不重複"
+ },
+ {
+  "word": "grease",
+  "current": "ㄍㄖㄧ-ㄙㄜ",
+  "suggested": "ㄍㄖㄧㄙ",
+  "type": "error",
+  "reason": "grease /ɡriːs/ 一個音節"
+ },
+ {
+  "word": "greed",
+  "current": "ㄍㄖ-ㄧㄉ",
+  "suggested": "ㄍㄖㄧㄉ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "gleam",
+  "current": "ㄍㄌ-ㄧㄇ",
+  "suggested": "ㄍㄌㄧㄇ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "glee",
+  "current": "ㄍㄌ-ㄧ",
+  "suggested": "ㄍㄌㄧ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "gloom",
+  "current": "ㄍㄌ-ㄨㄇ",
+  "suggested": "ㄍㄌㄨㄇ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "clasp",
+  "current": "ㄎㄌ-ㄚㄙㄆ",
+  "suggested": "ㄎㄌㄚㄙㄆ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "clam",
+  "current": "ㄎㄌ-ㄚㄇ",
+  "suggested": "ㄎㄌㄚㄇ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "clan",
+  "current": "ㄎㄌ-ㄢ",
+  "suggested": "ㄎㄌㄢ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "cling",
+  "current": "ㄎㄌ-ㄧㄥ",
+  "suggested": "ㄎㄌㄧㄥ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "clutch",
+  "current": "ㄎㄌ-ㄚㄊㄔ",
+  "suggested": "ㄎㄌㄚㄊㄔ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "clench",
+  "current": "ㄎㄌ-ㄝㄋㄔ",
+  "suggested": "ㄎㄌㄝㄋㄔ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "crouch",
+  "current": "ㄎㄖ-ㄠㄔ",
+  "suggested": "ㄎㄖㄠㄔ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "crust",
+  "current": "ㄎㄖ-ㄚㄙㄊ",
+  "suggested": "ㄎㄖㄚㄙㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "crook",
+  "current": "ㄎㄖ-ㄨㄎ",
+  "suggested": "ㄎㄖㄨㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "braid",
+  "current": "ㄅㄖ-ㄝㄉ",
+  "suggested": "ㄅㄖㄝㄉ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "brink",
+  "current": "ㄅㄖ-ㄧㄋㄎ",
+  "suggested": "ㄅㄖㄧㄋㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "brood",
+  "current": "ㄅㄖ-ㄨㄉ",
+  "suggested": "ㄅㄖㄨㄉ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "bleach",
+  "current": "ㄅㄌ-ㄧㄔ",
+  "suggested": "ㄅㄌㄧㄔ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "blur",
+  "current": "ㄅㄌ-ㄜ",
+  "suggested": "ㄅㄌㄜ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "flaw",
+  "current": "ㄈㄌ-ㄛ",
+  "suggested": "ㄈㄌㄛ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "flick",
+  "current": "ㄈㄌ-ㄧㄎ",
+  "suggested": "ㄈㄌㄧㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "fleet",
+  "current": "ㄈㄌ-ㄧㄊ",
+  "suggested": "ㄈㄌㄧㄊ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "fluid",
+  "current": "ㄈㄌ-ㄎㄨㄝㄉ",
+  "suggested": "ㄈㄌㄨ-ㄜㄉ",
+  "type": "error",
+  "reason": "fluid /ˈfluːɪd/"
+ },
+ {
+  "word": "pluck",
+  "current": "ㄆㄌ-ㄚㄎ",
+  "suggested": "ㄆㄌㄚㄎ",
+  "type": "error",
+  "reason": "無需斷 chunk"
+ },
+ {
+  "word": "sledge",
+  "current": "ㄙㄌㄝㄉ-ㄐㄧ",
+  "suggested": "ㄙㄌㄝㄐ",
+  "type": "error",
+  "reason": "sledge 一個音節"
+ },
+ {
+  "word": "hedge",
+  "current": "ㄏㄝㄉ-ㄐㄧ",
+  "suggested": "ㄏㄝㄐ",
+  "type": "error",
+  "reason": "hedge 一個音節"
+ },
+ {
+  "word": "lodge",
+  "current": "ㄌㄛㄉ-ㄐㄧ",
+  "suggested": "ㄌㄚㄐ",
+  "type": "error",
+  "reason": "lodge 一個音節 /lɑːdʒ/"
+ },
+ {
+  "word": "pledge",
+  "current": "ㄆㄜㄉ-ㄐㄧ",
+  "suggested": "ㄆㄌㄝㄐ",
+  "type": "error",
+  "reason": "pledge /plɛdʒ/"
+ },
+ {
+  "word": "gorge",
+  "current": "ㄍㄛㄦ-ㄐㄧ",
+  "suggested": "ㄍㄛㄜㄐ",
+  "type": "error",
+  "reason": "gorge /ɡɔːrdʒ/ 一個音節"
+ },
+ {
+  "word": "urge",
+  "current": "ㄜ-ㄐㄧ",
+  "suggested": "ㄜㄐ",
+  "type": "error",
+  "reason": "urge /ɜːrdʒ/ 一個音節"
+ },
+ {
+  "word": "indulge",
+  "current": "ㄧㄣ-ㄉㄚㄌ-ㄐㄧ",
+  "suggested": "ㄧㄣ-ㄉㄚㄦㄐ",
+  "type": "error",
+  "reason": "-dulge /dʌldʒ/"
+ },
+ {
+  "word": "discharge",
+  "current": "ㄉㄧㄙ-ㄔㄚㄦ-ㄐㄧ",
+  "suggested": "ㄉㄧㄙ-ㄔㄚㄜㄐ",
+  "type": "error",
+  "reason": "discharge 兩音節"
+ },
+ {
+  "word": "ravage",
+  "current": "ㄌㄚ-ㄈㄚ-ㄐㄧ",
+  "suggested": "ㄖㄚ-ㄈㄜㄐ",
+  "type": "error",
+  "reason": "ravage /ˈrævɪdʒ/"
+ },
+ {
+  "word": "merge",
+  "current": "ㄇㄜ-ㄐㄧ",
+  "suggested": "ㄇㄜㄐ",
+  "type": "error",
+  "reason": "merge 一個音節"
+ },
+ {
+  "word": "lounge",
+  "current": "ㄌㄠㄋ-ㄐㄧ",
+  "suggested": "ㄌㄠㄋㄐ",
+  "type": "error",
+  "reason": "lounge 一個音節"
+ },
+ {
+  "word": "revenge",
+  "current": "ㄌㄧ-ㄈㄣ-ㄐㄧ",
+  "suggested": "ㄖㄧ-ㄈㄝㄣㄐ",
+  "type": "error",
+  "reason": "revenge /rɪˈvɛndʒ/"
+ },
+ {
+  "word": "jingle",
+  "current": "ㄐㄧㄋ-ㄍㄜ",
+  "suggested": "ㄐㄧㄣ-ㄍㄜ",
+  "type": "error",
+  "reason": "jingle 第一音節是 ㄐㄧㄣ"
+ },
+ {
+  "word": "tackle",
+  "current": "ㄊㄚㄎ-ㄎㄜ",
+  "suggested": "ㄊㄚ-ㄎㄜ",
+  "type": "error",
+  "reason": "重複的 ㄎ"
+ },
+ {
+  "word": "chuckle",
+  "current": "ㄔㄚㄎ-ㄎㄜ",
+  "suggested": "ㄔㄚ-ㄎㄜ",
+  "type": "error",
+  "reason": "重複的 ㄎ"
+ },
+ {
+  "word": "twinkle",
+  "current": "ㄊㄨㄧㄋ-ㄎㄜ",
+  "suggested": "ㄊㄨㄧㄣ-ㄎㄜ",
+  "type": "error",
+  "reason": "-n- 應為 ㄣ"
+ },
+ {
+  "word": "saddle",
+  "current": "ㄙㄚㄉ-ㄉㄜ",
+  "suggested": "ㄙㄚ-ㄉㄜ",
+  "type": "error",
+  "reason": "重複 ㄉ"
+ },
+ {
+  "word": "paddle",
+  "current": "ㄆㄚㄉ-ㄉㄜ",
+  "suggested": "ㄆㄚ-ㄉㄜ",
+  "type": "error",
+  "reason": "重複 ㄉ"
+ },
+ {
+  "word": "fiddle",
+  "current": "ㄈㄧㄉ-ㄉㄜ",
+  "suggested": "ㄈㄧ-ㄉㄜ",
+  "type": "error",
+  "reason": "重複 ㄉ"
+ },
+ {
+  "word": "nibble",
+  "current": "ㄋㄧㄅ-ㄅㄜ",
+  "suggested": "ㄋㄧ-ㄅㄜ",
+  "type": "error",
+  "reason": "重複 ㄅ"
+ },
+ {
+  "word": "pebble",
+  "current": "ㄆㄝㄅ-ㄅㄜ",
+  "suggested": "ㄆㄝ-ㄅㄜ",
+  "type": "error",
+  "reason": "重複 ㄅ"
+ },
+ {
+  "word": "gobble",
+  "current": "ㄍㄛㄅ-ㄅㄜ",
+  "suggested": "ㄍㄚ-ㄅㄜ",
+  "type": "error",
+  "reason": "重複 ㄅ, gobble /ˈɡɑːbəl/"
+ },
+ {
+  "word": "chatter",
+  "current": "ㄑㄚㄊ-ㄊㄜ",
+  "suggested": "ㄑㄚ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "flutter",
+  "current": "ㄈㄌㄚㄊ-ㄊㄜ",
+  "suggested": "ㄈㄌㄚ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "glitter",
+  "current": "ㄍㄌㄧㄊ-ㄊㄜ",
+  "suggested": "ㄍㄌㄧ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "mutter",
+  "current": "ㄇㄚㄊ-ㄊㄜ",
+  "suggested": "ㄇㄚ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "shatter",
+  "current": "ㄒㄚㄊ-ㄊㄜ",
+  "suggested": "ㄒㄚ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "shudder",
+  "current": "ㄒㄚㄉ-ㄉㄜ",
+  "suggested": "ㄒㄚ-ㄉㄜ",
+  "type": "error",
+  "reason": "重複 ㄉ"
+ },
+ {
+  "word": "shutter",
+  "current": "ㄒㄚㄊ-ㄊㄜ",
+  "suggested": "ㄒㄚ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "stagger",
+  "current": "ㄙㄉㄚㄍ-ㄍㄜ",
+  "suggested": "ㄙㄊㄚ-ㄍㄜ",
+  "type": "error",
+  "reason": "重複 ㄍ"
+ },
+ {
+  "word": "stutter",
+  "current": "ㄙㄊㄚㄊ-ㄊㄜ",
+  "suggested": "ㄙㄊㄚ-ㄊㄜ",
+  "type": "error",
+  "reason": "重複 ㄊ"
+ },
+ {
+  "word": "dwell",
+  "current": "ㄉㄨ-ㄝㄌㄌ",
+  "suggested": "ㄉㄨㄝㄦ",
+  "type": "error",
+  "reason": "dwell /dwɛl/ 一個音節"
+ },
+ {
+  "word": "dwelling",
+  "current": "ㄉㄨㄝㄌ-ㄌㄧㄥ",
+  "suggested": "ㄉㄨㄝ-ㄌㄧㄥ",
+  "type": "error",
+  "reason": "重複 ㄌ"
+ }
+]
