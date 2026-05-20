@@ -1,0 +1,501 @@
+# 字 0-499
+    0 | bedtime                        | 就寢時間                           | 🛏️🕘      | chunks=['bed', 'time'] | py=ㄅㄝㄉ-ㄊㄞㄇ | theme=phonics-compound | stage=0
+    1 | sailboat                       | 帆船                             | ⛵        | chunks=['sail', 'boat'] | py=ㄙㄟㄛ-ㄅㄡㄊ | theme=phonics-compound | stage=0
+    2 | treetop                        | 樹頂                             | 🌳🔝       | chunks=['tree', 'top'] | py=ㄔㄦㄧ-ㄊㄚㄆ | theme=phonics-compound | stage=0
+    3 | raindrop                       | 雨滴                             | 🌧️💧      | chunks=['rain', 'drop'] | py=ㄖㄟㄣ-ㄉㄖㄚㄆ | theme=phonics-compound | stage=0
+    4 | toothbrush                     | 牙刷                             | 🦷🪥       | chunks=['tooth', 'brush'] | py=ㄊㄨㄙ-ㄅㄖㄚㄒ | theme=phonics-compound | stage=0
+    5 | pancake                        | 鬆餅                             | 🥞        | chunks=['pan', 'cake'] | py=ㄆㄢ-ㄎㄟㄎ | theme=phonics-compound | stage=0
+    6 | sunshine                       | 陽光                             | ☀️       | chunks=['sun', 'shine'] | py=ㄙㄢ-ㄒㄞㄣ | theme=phonics-compound | stage=0 [有易混提示]
+    7 | weekend                        | 週末                             | 📅        | chunks=['week', 'end'] | py=ㄨㄧ-ㄎㄝㄣㄉ | theme=phonics-compound | stage=0
+    8 | sunrise                        | 日出                             | ☀️⬆️     | chunks=['sun', 'rise'] | py=ㄙㄢ-ㄖㄞㄗ | theme=phonics-compound | stage=0
+    9 | railroad                       | 鐵路                             | 🚂🛤️      | chunks=['rail', 'road'] | py=ㄖㄟㄛ-ㄖㄡㄉ | theme=phonics-compound | stage=0
+   10 | one                            | 一                              | 1        | chunks=['one'] | py=ㄨㄢ | theme=numbers | stage=0 [有易混提示]
+   11 | two                            | 二                              | 2        | chunks=['tw', 'o'] | py=ㄊㄨ | theme=numbers | stage=0 [有易混提示]
+   12 | three                          | 三                              | 3        | chunks=['thr', 'ee'] | py=ㄔㄦㄧ | theme=numbers | stage=0 [有易混提示]
+   13 | four                           | 四                              | 4        | chunks=['f', 'our'] | py=ㄈㄛ | theme=numbers | stage=0 [有易混提示]
+   14 | five                           | 五                              | 5        | chunks=['f', 'ive'] | py=ㄈㄞㄈ | theme=numbers | stage=0
+   15 | six                            | 六                              | 6        | chunks=['s', 'ix'] | py=ㄒㄧㄎㄙ | theme=numbers | stage=0
+   16 | seven                          | 七                              | 7        | chunks=['se', 'ven'] | py=ㄙㄝ-ㄈㄣ | theme=numbers | stage=0
+   17 | eight                          | 八                              | 8        | chunks=['eigh', 't'] | py=ㄟㄊ | theme=numbers | stage=0 [有易混提示]
+   18 | nine                           | 九                              | 9        | chunks=['n', 'ine'] | py=ㄋㄞㄣ | theme=numbers | stage=0
+   19 | ten                            | 十                              | 10       | chunks=['t', 'en'] | py=ㄊㄝㄣ | theme=numbers | stage=0
+   20 | day                            | 白天、一天                          | ☀️       | chunks=['d', 'ay'] | py=ㄉㄟ | theme=time | stage=0 [有易混提示]
+   21 | night                          | 夜晚                             | 🌃        | chunks=['n', 'ight'] | py=ㄋㄞㄊ | theme=time | stage=0 [有易混提示]
+   22 | morning                        | 早上                             | 🌅        | chunks=['mor', 'ning'] | py=ㄇㄛ-ㄋㄧㄥ | theme=time | stage=0 [有易混提示]
+   23 | today                          | 今天                             | 📅        | chunks=['to', 'day'] | py=ㄊㄨ-ㄉㄟ | theme=time | stage=0
+   24 | tomorrow                       | 明天                             | 📅➡️      | chunks=['to', 'mor', 'row'] | py=ㄊㄨ-ㄇㄚ-ㄖㄡ | theme=time | stage=0
+   25 | week                           | 一週                             | 📆        | chunks=['w', 'eek'] | py=ㄨㄧㄎ | theme=time | stage=0 [有易混提示]
+   26 | month                          | 月份                             | 📅        | chunks=['m', 'onth'] | py=ㄇㄢㄙ | theme=time | stage=0 [有易混提示]
+   27 | year                           | 年                              | 🗓️       | chunks=['y', 'ear'] | py=ㄧㄦ | theme=time | stage=0 [有易混提示]
+   28 | hour                           | 小時                             | ⏰        | chunks=['h', 'our'] | py=ㄠㄦ | theme=time | stage=0 [有易混提示]
+   29 | minute                         | 分鐘                             | ⏱️       | chunks=['mi', 'nute'] | py=ㄇㄧ-ㄋㄧㄊ | theme=time | stage=0 [有易混提示]
+   30 | mom                            | 媽媽                             | 👩        | chunks=['m', 'om'] | py=ㄇㄚㄇ | theme=family | stage=0
+   31 | dad                            | 爸爸                             | 👨        | chunks=['d', 'ad'] | py=ㄉㄝㄉ | theme=family | stage=0
+   32 | family                         | 家庭                             | 👨‍👩‍👧    | chunks=['fa', 'mi', 'ly'] | py=ㄈㄝ-ㄇㄧ-ㄌㄧ | theme=family | stage=0
+   33 | brother                        | 兄弟                             | 👦        | chunks=['bro', 'ther'] | py=ㄅㄖㄚ-ㄉㄜ | theme=family | stage=0
+   34 | sister                         | 姊妹                             | 👧        | chunks=['sis', 'ter'] | py=ㄒㄧㄙ-ㄊㄜ | theme=family | stage=0
+   35 | baby                           | 嬰兒                             | 👶        | chunks=['ba', 'by'] | py=ㄅㄟ-ㄅㄧ | theme=family | stage=0
+   36 | friend                         | 朋友                             | 🧑‍🤝‍🧑    | chunks=['fr', 'iend'] | py=ㄈㄖㄝㄣㄉ | theme=family | stage=0
+   37 | boy                            | 男孩                             | 👦        | chunks=['b', 'oy'] | py=ㄅㄛㄧ | theme=family | stage=0
+   38 | girl                           | 女孩                             | 👧        | chunks=['g', 'irl'] | py=ㄍㄦ | theme=family | stage=0
+   39 | kid                            | 小孩                             | 🧒        | chunks=['k', 'id'] | py=ㄎㄧㄉ | theme=family | stage=0
+   40 | head                           | 頭                              | 👤        | chunks=['h', 'ead'] | py=ㄏㄝㄉ | theme=body | stage=0 [有易混提示]
+   41 | hand                           | 手                              | ✋        | chunks=['h', 'and'] | py=ㄏㄝㄣㄉ | theme=body | stage=0 [有易混提示]
+   42 | foot                           | 腳                              | 🦶        | chunks=['f', 'oot'] | py=ㄈㄨㄊ | theme=body | stage=0 [有易混提示]
+   43 | eye                            | 眼睛                             | 👁️       | chunks=['eye'] | py=ㄞ | theme=body | stage=0 [有易混提示]
+   44 | ear                            | 耳朵                             | 👂        | chunks=['ear'] | py=ㄧㄦ | theme=body | stage=0 [有易混提示]
+   45 | nose                           | 鼻子                             | 👃        | chunks=['n', 'ose'] | py=ㄋㄡㄗ | theme=body | stage=0 [有易混提示]
+   46 | mouth                          | 嘴巴                             | 👄        | chunks=['m', 'outh'] | py=ㄇㄠㄙ | theme=body | stage=0 [有易混提示]
+   47 | hair                           | 頭髮                             | 💇        | chunks=['h', 'air'] | py=ㄏㄟㄦ | theme=body | stage=0
+   48 | arm                            | 手臂                             | 💪        | chunks=['arm'] | py=ㄚㄦㄇ | theme=body | stage=0 [有易混提示]
+   49 | leg                            | 腿                              | 🦵        | chunks=['l', 'eg'] | py=ㄌㄝㄍ | theme=body | stage=0 [有易混提示]
+   50 | red                            | 紅色                             | 🔴        | chunks=['r', 'ed'] | py=ㄖㄝㄉ | theme=colors | stage=0 [有易混提示]
+   51 | blue                           | 藍色                             | 🔵        | chunks=['bl', 'ue'] | py=ㄅㄌㄨ | theme=colors | stage=0 [有易混提示]
+   52 | green                          | 綠色                             | 🟢        | chunks=['gr', 'een'] | py=ㄍㄖㄧㄣ | theme=colors | stage=0
+   53 | yellow                         | 黃色                             | 🟡        | chunks=['yel', 'low'] | py=ㄧㄝ-ㄌㄡ | theme=colors | stage=0
+   54 | black                          | 黑色                             | ⚫        | chunks=['bl', 'ack'] | py=ㄅㄌㄝㄎ | theme=colors | stage=0
+   55 | white                          | 白色                             | ⚪        | chunks=['wh', 'ite'] | py=ㄨㄞㄊ | theme=colors | stage=0
+   56 | pink                           | 粉紅色                            | 🩷        | chunks=['p', 'ink'] | py=ㄆㄧㄣㄎ | theme=colors | stage=0
+   57 | orange                         | 橘色、柳橙                          | 🟠        | chunks=['o', 'range'] | py=ㄛ-ㄖㄣㄐ | theme=colors | stage=0 [有易混提示]
+   58 | purple                         | 紫色                             | 🟣        | chunks=['pur', 'ple'] | py=ㄆㄦ-ㄆㄛ | theme=colors | stage=0
+   59 | brown                          | 棕色                             | 🟤        | chunks=['br', 'own'] | py=ㄅㄖㄠㄣ | theme=colors | stage=0
+   60 | apple                          | 蘋果                             | 🍎        | chunks=['ap', 'ple'] | py=ㄝ-ㄆㄛ | theme=food | stage=0
+   61 | banana                         | 香蕉                             | 🍌        | chunks=['ba', 'na', 'na'] | py=ㄅㄜ-ㄋㄝ-ㄋㄚ | theme=food | stage=0
+   62 | milk                           | 牛奶                             | 🥛        | chunks=['m', 'ilk'] | py=ㄇㄧㄛㄎ | theme=food | stage=0
+   63 | water                          | 水                              | 💧        | chunks=['wa', 'ter'] | py=ㄨㄚ-ㄊㄦ | theme=food | stage=0 [有易混提示]
+   64 | bread                          | 麵包                             | 🍞        | chunks=['br', 'ead'] | py=ㄅㄖㄝㄉ | theme=food | stage=0
+   65 | cake                           | 蛋糕                             | 🍰        | chunks=['c', 'ake'] | py=ㄎㄟㄎ | theme=food | stage=0
+   66 | rice                           | 米飯                             | 🍚        | chunks=['r', 'ice'] | py=ㄖㄞㄙ | theme=food | stage=0
+   67 | fish                           | 魚                              | 🐟        | chunks=['f', 'ish'] | py=ㄈㄧㄒ | theme=food | stage=0 [有易混提示]
+   68 | meat                           | 肉                              | 🍖        | chunks=['m', 'eat'] | py=ㄇㄧㄊ | theme=food | stage=0 [有易混提示]
+   69 | egg                            | 蛋                              | 🥚        | chunks=['e', 'gg'] | py=ㄝㄍ | theme=food | stage=0
+   70 | pizza                          | 披薩                             | 🍕        | chunks=['piz', 'za'] | py=ㄆㄧ-ㄗㄚ | theme=food | stage=0
+   71 | juice                          | 果汁                             | 🧃        | chunks=['j', 'uice'] | py=ㄐㄨㄙ | theme=food | stage=0
+   72 | tea                            | 茶                              | 🍵        | chunks=['t', 'ea'] | py=ㄊㄧ | theme=food | stage=0
+   73 | soup                           | 湯                              | 🍲        | chunks=['s', 'oup'] | py=ㄙㄨㄆ | theme=food | stage=0
+   74 | cheese                         | 起司                             | 🧀        | chunks=['ch', 'eese'] | py=ㄔㄧㄗ | theme=food | stage=0
+   75 | cat                            | 貓                              | 🐱        | chunks=['c', 'at'] | py=ㄎㄝㄊ | theme=animals | stage=0
+   76 | dog                            | 狗                              | 🐶        | chunks=['d', 'og'] | py=ㄉㄚㄍ | theme=animals | stage=0
+   77 | bird                           | 鳥                              | 🐦        | chunks=['b', 'ird'] | py=ㄅㄦㄉ | theme=animals | stage=0
+   78 | cow                            | 牛                              | 🐮        | chunks=['c', 'ow'] | py=ㄎㄠ | theme=animals | stage=0
+   79 | pig                            | 豬                              | 🐷        | chunks=['p', 'ig'] | py=ㄆㄧㄍ | theme=animals | stage=0
+   80 | sheep                          | 綿羊                             | 🐑        | chunks=['sh', 'eep'] | py=ㄒㄧㄆ | theme=animals | stage=0
+   81 | horse                          | 馬                              | 🐴        | chunks=['h', 'orse'] | py=ㄏㄛㄙ | theme=animals | stage=0 [有易混提示]
+   82 | mouse                          | 老鼠                             | 🐭        | chunks=['m', 'ouse'] | py=ㄇㄠㄙ | theme=animals | stage=0 [有易混提示]
+   83 | rabbit                         | 兔子                             | 🐰        | chunks=['rab', 'bit'] | py=ㄖㄝ-ㄅㄧㄊ | theme=animals | stage=0
+   84 | bear                           | 熊                              | 🐻        | chunks=['b', 'ear'] | py=ㄅㄟㄦ | theme=animals | stage=0 [有易混提示]
+   85 | lion                           | 獅子                             | 🦁        | chunks=['li', 'on'] | py=ㄌㄞ-ㄣ | theme=animals | stage=0
+   86 | tiger                          | 老虎                             | 🐯        | chunks=['ti', 'ger'] | py=ㄊㄞ-ㄍㄦ | theme=animals | stage=0
+   87 | monkey                         | 猴子                             | 🐵        | chunks=['mon', 'key'] | py=ㄇㄢ-ㄎㄧ | theme=animals | stage=0
+   88 | duck                           | 鴨子                             | 🦆        | chunks=['d', 'uck'] | py=ㄉㄚㄎ | theme=animals | stage=0 [有易混提示]
+   89 | frog                           | 青蛙                             | 🐸        | chunks=['fr', 'og'] | py=ㄈㄖㄚㄍ | theme=animals | stage=0
+   90 | shirt                          | 襯衫                             | 👕        | chunks=['sh', 'irt'] | py=ㄕㄦㄊ | theme=clothing | stage=0
+   91 | pants                          | 褲子                             | 👖        | chunks=['p', 'ants'] | py=ㄆㄝㄣㄗ | theme=clothing | stage=0
+   92 | hat                            | 帽子                             | 🎩        | chunks=['h', 'at'] | py=ㄏㄝㄊ | theme=clothing | stage=0
+   93 | shoes                          | 鞋子                             | 👟        | chunks=['sh', 'oes'] | py=ㄕㄨㄗ | theme=clothing | stage=0
+   94 | socks                          | 襪子                             | 🧦        | chunks=['s', 'ocks'] | py=ㄙㄚㄎㄙ | theme=clothing | stage=0
+   95 | dress                          | 洋裝                             | 👗        | chunks=['dr', 'ess'] | py=ㄉㄖㄝㄙ | theme=clothing | stage=0
+   96 | coat                           | 外套                             | 🧥        | chunks=['c', 'oat'] | py=ㄎㄡㄊ | theme=clothing | stage=0
+   97 | scarf                          | 圍巾                             | 🧣        | chunks=['sc', 'arf'] | py=ㄙㄎㄚㄈ | theme=clothing | stage=0
+   98 | gloves                         | 手套                             | 🧤        | chunks=['gl', 'oves'] | py=ㄍㄌㄚㄈㄗ | theme=clothing | stage=0
+   99 | belt                           | 皮帶                             | 👖        | chunks=['b', 'elt'] | py=ㄅㄝㄛㄊ | theme=clothing | stage=0
+  100 | sun                            | 太陽                             | ☀️       | chunks=['s', 'un'] | py=ㄙㄢ | theme=weather | stage=0 [有易混提示]
+  101 | rain                           | 雨                              | 🌧️       | chunks=['r', 'ain'] | py=ㄖㄟㄣ | theme=weather | stage=0 [有易混提示]
+  102 | snow                           | 雪                              | ❄️       | chunks=['sn', 'ow'] | py=ㄙㄋㄡ | theme=weather | stage=0
+  103 | wind                           | 風                              | 💨        | chunks=['w', 'ind'] | py=ㄨㄧㄣㄉ | theme=weather | stage=0 [有易混提示]
+  104 | cloud                          | 雲                              | ☁️       | chunks=['cl', 'oud'] | py=ㄎㄌㄠㄉ | theme=weather | stage=0
+  105 | hot                            | 熱                              | 🥵        | chunks=['h', 'ot'] | py=ㄏㄚㄊ | theme=weather | stage=0 [有易混提示]
+  106 | cold                           | 冷                              | 🥶        | chunks=['c', 'old'] | py=ㄎㄡㄉ | theme=weather | stage=0 [有易混提示]
+  107 | warm                           | 溫暖                             | 🌤️       | chunks=['w', 'arm'] | py=ㄨㄛㄦㄇ | theme=weather | stage=0
+  108 | ice                            | 冰                              | 🧊        | chunks=['i', 'ce'] | py=ㄞㄙ | theme=weather | stage=0
+  109 | storm                          | 暴風雨                            | ⛈️       | chunks=['st', 'orm'] | py=ㄙㄊㄛㄦㄇ | theme=weather | stage=0
+  110 | home                           | 家                              | 🏠        | chunks=['h', 'ome'] | py=ㄏㄡㄇ | theme=places | stage=0 [有易混提示]
+  111 | school                         | 學校                             | 🏫        | chunks=['sch', 'ool'] | py=ㄙㄎㄨㄛ | theme=places | stage=0
+  112 | park                           | 公園                             | 🏞️       | chunks=['p', 'ark'] | py=ㄆㄚㄦㄎ | theme=places | stage=0 [有易混提示]
+  113 | store                          | 商店                             | 🏪        | chunks=['st', 'ore'] | py=ㄙㄊㄛ | theme=places | stage=0 [有易混提示]
+  114 | road                           | 馬路                             | 🛣️       | chunks=['r', 'oad'] | py=ㄖㄡㄉ | theme=places | stage=0 [有易混提示]
+  115 | beach                          | 海灘                             | 🏖️       | chunks=['b', 'each'] | py=ㄅㄧㄔ | theme=places | stage=0
+  116 | mountain                       | 山                              | ⛰️       | chunks=['moun', 'tain'] | py=ㄇㄠㄣ-ㄊㄣ | theme=places | stage=0
+  117 | river                          | 河                              | 🌊        | chunks=['ri', 'ver'] | py=ㄖㄧ-ㄈㄦ | theme=places | stage=0
+  118 | garden                         | 花園                             | 🌷        | chunks=['gar', 'den'] | py=ㄍㄚㄦ-ㄉㄣ | theme=places | stage=0
+  119 | kitchen                        | 廚房                             | 🍳        | chunks=['kit', 'chen'] | py=ㄎㄧ-ㄔㄣ | theme=places | stage=0
+  120 | run                            | 跑                              | 🏃        | chunks=['r', 'un'] | py=ㄖㄢ | theme=actions | stage=0 base=run [有易混提示]
+  121 | jump                           | 跳                              | 🤸        | chunks=['j', 'ump'] | py=ㄐㄚㄇㄆ | theme=actions | stage=0 [有易混提示]
+  122 | walk                           | 走                              | 🚶        | chunks=['w', 'alk'] | py=ㄨㄛㄎ | theme=actions | stage=0 [有易混提示]
+  123 | sit                            | 坐                              | 🪑        | chunks=['s', 'it'] | py=ㄒㄧㄊ | theme=actions | stage=0 [有易混提示]
+  124 | stand                          | 站                              | 🕴️       | chunks=['st', 'and'] | py=ㄙㄊㄝㄣㄉ | theme=actions | stage=0
+  125 | sleep                          | 睡                              | 💤        | chunks=['sl', 'eep'] | py=ㄙㄌㄧㄆ | theme=actions | stage=0 [有易混提示]
+  126 | eat                            | 吃                              | 🍴        | chunks=['e', 'at'] | py=ㄧㄊ | theme=actions | stage=0
+  127 | drink                          | 喝                              | 🥤        | chunks=['dr', 'ink'] | py=ㄉㄖㄧㄣㄎ | theme=actions | stage=0
+  128 | read                           | 讀                              | 📖        | chunks=['r', 'ead'] | py=ㄖㄧㄉ | theme=actions | stage=0 base=read [有易混提示]
+  129 | write                          | 寫                              | ✍️       | chunks=['wr', 'ite'] | py=ㄖㄞㄊ | theme=actions | stage=0 [有易混提示]
+  130 | big                            | 大                              | 📏        | chunks=['b', 'ig'] | py=ㄅㄧㄍ | theme=adjectives | stage=0 [有易混提示]
+  131 | small                          | 小                              | 🔬        | chunks=['sm', 'all'] | py=ㄙㄇㄛㄛ | theme=adjectives | stage=0
+  132 | tall                           | 高                              | 📐        | chunks=['t', 'all'] | py=ㄊㄛㄛ | theme=adjectives | stage=0
+  133 | short                          | 短、矮                            | ↔️       | chunks=['sh', 'ort'] | py=ㄕㄛㄦㄊ | theme=adjectives | stage=0 [有易混提示]
+  134 | fast                           | 快                              | ⚡        | chunks=['f', 'ast'] | py=ㄈㄝㄙㄊ | theme=adjectives | stage=0 [有易混提示]
+  135 | slow                           | 慢                              | 🐢        | chunks=['sl', 'ow'] | py=ㄙㄌㄡ | theme=adjectives | stage=0
+  136 | new                            | 新                              | ✨        | chunks=['n', 'ew'] | py=ㄋㄩ | theme=adjectives | stage=0 [有易混提示]
+  137 | old                            | 舊、老                            | 👴        | chunks=['o', 'ld'] | py=ㄡㄉ | theme=adjectives | stage=0 [有易混提示]
+  138 | good                           | 好                              | 👍        | chunks=['g', 'ood'] | py=ㄍㄨㄉ | theme=adjectives | stage=0 [有易混提示]
+  139 | bad                            | 壞                              | 👎        | chunks=['b', 'ad'] | py=ㄅㄝㄉ | theme=adjectives | stage=0
+  140 | car                            | 汽車                             | 🚗        | chunks=['c', 'ar'] | py=ㄎㄚㄦ | theme=transportation | stage=0 [有易混提示]
+  141 | bus                            | 公車                             | 🚌        | chunks=['b', 'us'] | py=ㄅㄚㄙ | theme=transportation | stage=0
+  142 | train                          | 火車                             | 🚂        | chunks=['tr', 'ain'] | py=ㄔㄦㄟㄣ | theme=transportation | stage=0 [有易混提示]
+  143 | plane                          | 飛機                             | ✈️       | chunks=['pl', 'ane'] | py=ㄆㄌㄟㄣ | theme=transportation | stage=0 [有易混提示]
+  144 | bike                           | 腳踏車                            | 🚲        | chunks=['b', 'ike'] | py=ㄅㄞㄎ | theme=transportation | stage=0
+  145 | boat                           | 船                              | ⛵        | chunks=['b', 'oat'] | py=ㄅㄡㄊ | theme=transportation | stage=0
+  146 | taxi                           | 計程車                            | 🚕        | chunks=['tax', 'i'] | py=ㄊㄝㄎ-ㄒㄧ | theme=transportation | stage=0
+  147 | truck                          | 卡車                             | 🚚        | chunks=['tr', 'uck'] | py=ㄔㄦㄚㄎ | theme=transportation | stage=0
+  148 | ship                           | 輪船                             | 🚢        | chunks=['sh', 'ip'] | py=ㄒㄧㄆ | theme=transportation | stage=0 [有易混提示]
+  149 | subway                         | 捷運                             | 🚇        | chunks=['sub', 'way'] | py=ㄙㄚㄅ-ㄨㄟ | theme=transportation | stage=0
+  150 | happy                          | 開心                             | 😊        | chunks=['hap', 'py'] | py=ㄏㄝ-ㄆㄧ | theme=emotions | stage=0
+  151 | sad                            | 難過                             | 😢        | chunks=['s', 'ad'] | py=ㄙㄝㄉ | theme=emotions | stage=0
+  152 | angry                          | 生氣                             | 😠        | chunks=['an', 'gry'] | py=ㄝㄣ-ㄍㄖㄧ | theme=emotions | stage=0
+  153 | scared                         | 害怕的                            | 😨        | chunks=['sc', 'ared'] | py=ㄙㄎㄟㄦㄉ | theme=emotions | stage=0 base=scare
+  154 | tired                          | 疲倦                             | 😴        | chunks=['ti', 'red'] | py=ㄊㄞ-ㄖㄉ | theme=emotions | stage=0 base=tire
+  155 | excited                        | 興奮                             | 🤩        | chunks=['ex', 'ci', 'ted'] | py=ㄧㄎ-ㄙㄞ-ㄊㄉ | theme=emotions | stage=0 base=excite
+  156 | bored                          | 覺得無聊(人)                        | 😑        | chunks=['b', 'ored'] | py=ㄅㄛㄦㄉ | theme=emotions | stage=0 base=bore [有易混提示]
+  157 | love                           | 愛                              | ❤️       | chunks=['l', 'ove'] | py=ㄌㄚㄈ | theme=emotions | stage=0 [有易混提示]
+  158 | shy                            | 害羞                             | 😳        | chunks=['sh', 'y'] | py=ㄒㄞ | theme=emotions | stage=0
+  159 | smile                          | 微笑                             | 🙂        | chunks=['sm', 'ile'] | py=ㄙㄇㄞㄛ | theme=emotions | stage=0 [有易混提示]
+  160 | pen                            | 筆                              | 🖊️       | chunks=['p', 'en'] | py=ㄆㄝㄣ | theme=school | stage=0 [有易混提示]
+  161 | book                           | 書                              | 📚        | chunks=['b', 'ook'] | py=ㄅㄨㄎ | theme=school | stage=0 [有易混提示]
+  162 | paper                          | 紙                              | 📄        | chunks=['pa', 'per'] | py=ㄆㄟ-ㄆㄜ | theme=school | stage=0 [有易混提示]
+  163 | desk                           | 書桌                             | 🪑        | chunks=['d', 'esk'] | py=ㄉㄝㄙㄎ | theme=school | stage=0
+  164 | bag                            | 包包                             | 🎒        | chunks=['b', 'ag'] | py=ㄅㄝㄍ | theme=school | stage=0
+  165 | pencil                         | 鉛筆                             | ✏️       | chunks=['pen', 'cil'] | py=ㄆㄝㄣ-ㄙㄛ | theme=school | stage=0
+  166 | ruler                          | 尺                              | 📏        | chunks=['ru', 'ler'] | py=ㄖㄨ-ㄌㄜ | theme=school | stage=0 base=rule
+  167 | teacher                        | 老師                             | 👨‍🏫      | chunks=['tea', 'cher'] | py=ㄊㄧ-ㄔㄜ | theme=school | stage=0 base=teach
+  168 | student                        | 學生                             | 🧑‍🎓      | chunks=['stu', 'dent'] | py=ㄙㄊㄨ-ㄉㄝㄣㄊ | theme=school | stage=0
+  169 | class                          | 課堂、班級                          | 🏫        | chunks=['cl', 'ass'] | py=ㄎㄌㄝㄙ | theme=school | stage=0 [有易混提示]
+  170 | bed                            | 床                              | 🛏️       | chunks=['b', 'ed'] | py=ㄅㄝㄉ | theme=home-items | stage=0 [有易混提示]
+  171 | chair                          | 椅子                             | 🪑        | chunks=['ch', 'air'] | py=ㄔㄟㄦ | theme=home-items | stage=0
+  172 | table                          | 桌子                             | 🪑        | chunks=['ta', 'ble'] | py=ㄊㄟ-ㄅㄛ | theme=home-items | stage=0 [有易混提示]
+  173 | door                           | 門                              | 🚪        | chunks=['d', 'oor'] | py=ㄉㄛㄦ | theme=home-items | stage=0
+  174 | window                         | 窗                              | 🪟        | chunks=['win', 'dow'] | py=ㄨㄧㄣ-ㄉㄡ | theme=home-items | stage=0 [有易混提示]
+  175 | lamp                           | 燈                              | 💡        | chunks=['l', 'amp'] | py=ㄌㄝㄇㄆ | theme=home-items | stage=0
+  176 | clock                          | 時鐘                             | 🕐        | chunks=['cl', 'ock'] | py=ㄎㄌㄚㄎ | theme=home-items | stage=0 [有易混提示]
+  177 | mirror                         | 鏡子                             | 🪞        | chunks=['mir', 'ror'] | py=ㄇㄧ-ㄖㄜ | theme=home-items | stage=0
+  178 | pillow                         | 枕頭                             | 🛏️       | chunks=['pil', 'low'] | py=ㄆㄧ-ㄌㄡ | theme=home-items | stage=0
+  179 | sofa                           | 沙發                             | 🛋️       | chunks=['so', 'fa'] | py=ㄙㄡ-ㄈㄚ | theme=home-items | stage=0
+  180 | tree                           | 樹                              | 🌳        | chunks=['tr', 'ee'] | py=ㄔㄦㄧ | theme=nature | stage=0
+  181 | flower                         | 花                              | 🌸        | chunks=['flow', 'er'] | py=ㄈㄌㄠ-ㄜ | theme=nature | stage=0 [有易混提示]
+  182 | leaf                           | 葉子                             | 🍃        | chunks=['l', 'eaf'] | py=ㄌㄧㄈ | theme=nature | stage=0
+  183 | rock                           | 石頭                             | 🪨        | chunks=['r', 'ock'] | py=ㄖㄚㄎ | theme=nature | stage=0 [有易混提示]
+  184 | grass                          | 草                              | 🌱        | chunks=['gr', 'ass'] | py=ㄍㄖㄝㄙ | theme=nature | stage=0
+  185 | sand                           | 沙                              | 🏖️       | chunks=['s', 'and'] | py=ㄙㄝㄣㄉ | theme=nature | stage=0 [有易混提示]
+  186 | sky                            | 天空                             | 🌤️       | chunks=['sk', 'y'] | py=ㄙㄎㄞ | theme=nature | stage=0
+  187 | star                           | 星星                             | ⭐        | chunks=['st', 'ar'] | py=ㄙㄊㄚㄦ | theme=nature | stage=0 [有易混提示]
+  188 | moon                           | 月亮                             | 🌙        | chunks=['m', 'oon'] | py=ㄇㄨㄣ | theme=nature | stage=0
+  189 | earth                          | 地球                             | 🌍        | chunks=['ear', 'th'] | py=ㄜㄦㄙ | theme=nature | stage=0 [有易混提示]
+  190 | doctor                         | 醫生                             | 👨‍⚕️     | chunks=['doc', 'tor'] | py=ㄉㄚㄎ-ㄊㄜ | theme=jobs | stage=0
+  191 | nurse                          | 護士                             | 👩‍⚕️     | chunks=['n', 'urse'] | py=ㄋㄦㄙ | theme=jobs | stage=0
+  192 | farmer                         | 農夫                             | 🧑‍🌾      | chunks=['far', 'mer'] | py=ㄈㄚㄦ-ㄇㄜ | theme=jobs | stage=0 base=farm
+  193 | cook                           | 廚師                             | 👨‍🍳      | chunks=['c', 'ook'] | py=ㄎㄨㄎ | theme=jobs | stage=0 [有易混提示]
+  194 | driver                         | 司機                             | 🧑‍✈️     | chunks=['dri', 'ver'] | py=ㄉㄖㄞ-ㄈㄜ | theme=jobs | stage=0 base=drive
+  195 | police                         | 警察                             | 👮        | chunks=['po', 'lice'] | py=ㄆㄛ-ㄌㄧㄙ | theme=jobs | stage=0 [有易混提示]
+  196 | artist                         | 藝術家                            | 🧑‍🎨      | chunks=['art', 'ist'] | py=ㄚㄦ-ㄊㄧㄙㄊ | theme=jobs | stage=0
+  197 | singer                         | 歌手                             | 🎤        | chunks=['sing', 'er'] | py=ㄒㄧㄥ-ㄜ | theme=jobs | stage=0 base=sing [有易混提示]
+  198 | baker                          | 麵包師                            | 🥖        | chunks=['ba', 'ker'] | py=ㄅㄟ-ㄎㄜ | theme=jobs | stage=0 base=bake
+  199 | worker                         | 工人                             | 👷        | chunks=['wor', 'ker'] | py=ㄨㄦ-ㄎㄜ | theme=jobs | stage=0 base=work
+  200 | soccer                         | 足球                             | ⚽        | chunks=['soc', 'cer'] | py=ㄙㄚ-ㄎㄜ | theme=sports | stage=0
+  201 | basketball                     | 籃球                             | 🏀        | chunks=['bas', 'ket', 'ball'] | py=ㄅㄝㄙ-ㄎㄝㄊ-ㄅㄛ | theme=sports | stage=0
+  202 | baseball                       | 棒球                             | ⚾        | chunks=['base', 'ball'] | py=ㄅㄟㄙ-ㄅㄛ | theme=sports | stage=0 [有易混提示]
+  203 | tennis                         | 網球                             | 🎾        | chunks=['ten', 'nis'] | py=ㄊㄝ-ㄋㄧㄙ | theme=sports | stage=0
+  204 | swim                           | 游泳                             | 🏊        | chunks=['sw', 'im'] | py=ㄙㄨㄧㄇ | theme=sports | stage=0
+  205 | dance                          | 跳舞                             | 💃        | chunks=['d', 'ance'] | py=ㄉㄝㄣㄙ | theme=sports | stage=0 [有易混提示]
+  206 | golf                           | 高爾夫                            | ⛳        | chunks=['g', 'olf'] | py=ㄍㄚㄛㄈ | theme=sports | stage=0
+  207 | ball                           | 球                              | 🏀        | chunks=['b', 'all'] | py=ㄅㄛ | theme=sports | stage=0 [有易混提示]
+  208 | skate                          | 溜冰                             | ⛸️       | chunks=['sk', 'ate'] | py=ㄙㄎㄟㄊ | theme=sports | stage=0
+  209 | yoga                           | 瑜伽                             | 🧘        | chunks=['yo', 'ga'] | py=ㄧㄛ-ㄍㄚ | theme=sports | stage=0
+  210 | piano                          | 鋼琴                             | 🎹        | chunks=['pi', 'an', 'o'] | py=ㄆㄧ-ㄝ-ㄋㄛ | theme=music | stage=0 [有易混提示]
+  211 | guitar                         | 吉他                             | 🎸        | chunks=['gui', 'tar'] | py=ㄍㄧ-ㄊㄚㄦ | theme=music | stage=0
+  212 | drum                           | 鼓                              | 🥁        | chunks=['dr', 'um'] | py=ㄉㄖㄚㄇ | theme=music | stage=0 [有易混提示]
+  213 | violin                         | 小提琴                            | 🎻        | chunks=['vi', 'o', 'lin'] | py=ㄈㄞ-ㄛ-ㄌㄧㄣ | theme=music | stage=0
+  214 | flute                          | 笛子                             | 🎶        | chunks=['fl', 'ute'] | py=ㄈㄌㄨㄊ | theme=music | stage=0
+  215 | song                           | 歌                              | 🎵        | chunks=['s', 'ong'] | py=ㄙㄚㄥ | theme=music | stage=0 [有易混提示]
+  216 | music                          | 音樂                             | 🎶        | chunks=['mu', 'sic'] | py=ㄇㄩ-ㄗㄧㄎ | theme=music | stage=0
+  217 | sing                           | 唱                              | 🎤        | chunks=['s', 'ing'] | py=ㄒㄧㄥ | theme=music | stage=0
+  218 | band                           | 樂團                             | 🎷        | chunks=['b', 'and'] | py=ㄅㄝㄣㄉ | theme=music | stage=0 [有易混提示]
+  219 | beat                           | 節拍                             | 👏        | chunks=['b', 'eat'] | py=ㄅㄧㄊ | theme=music | stage=0 base=beat [有易混提示]
+  220 | doll                           | 娃娃                             | 🪆        | chunks=['d', 'oll'] | py=ㄉㄚㄛ | theme=toys | stage=0
+  221 | kite                           | 風箏                             | 🪁        | chunks=['k', 'ite'] | py=ㄎㄞㄊ | theme=toys | stage=0
+  222 | puzzle                         | 拼圖                             | 🧩        | chunks=['puz', 'zle'] | py=ㄆㄚㄗ-ㄛ | theme=toys | stage=0
+  223 | robot                          | 機器人                            | 🤖        | chunks=['ro', 'bot'] | py=ㄖㄡ-ㄅㄚㄊ | theme=toys | stage=0
+  224 | block                          | 積木                             | 🧱        | chunks=['bl', 'ock'] | py=ㄅㄌㄚㄎ | theme=toys | stage=0 [有易混提示]
+  225 | game                           | 遊戲                             | 🎮        | chunks=['g', 'ame'] | py=ㄍㄟㄇ | theme=toys | stage=0 [有易混提示]
+  226 | toy                            | 玩具                             | 🪀        | chunks=['t', 'oy'] | py=ㄊㄛㄧ | theme=toys | stage=0 [有易混提示]
+  227 | balloon                        | 氣球                             | 🎈        | chunks=['bal', 'loon'] | py=ㄅㄚ-ㄌㄨㄣ | theme=toys | stage=0
+  228 | teddy                          | 泰迪熊                            | 🧸        | chunks=['ted', 'dy'] | py=ㄊㄝ-ㄉㄧ | theme=toys | stage=0
+  229 | bubble                         | 泡泡                             | 🫧        | chunks=['bub', 'ble'] | py=ㄅㄚ-ㄅㄛ | theme=toys | stage=0
+  230 | the                            | 這個、那個(定冠詞)                     | 🔖        | chunks=['th', 'e'] | py=ㄉㄜ | theme=sight-words | stage=0 [有易混提示]
+  231 | and                            | 和                              | ➕        | chunks=['a', 'nd'] | py=ㄝㄣㄉ | theme=sight-words | stage=0
+  232 | is                             | 是                              | 🟰        | chunks=['i', 's'] | py=ㄧㄗ | theme=sight-words | stage=0
+  233 | it                             | 它                              | 👆        | chunks=['i', 't'] | py=ㄧㄊ | theme=sight-words | stage=0 [有易混提示]
+  234 | you                            | 你                              | 🫵        | chunks=['y', 'ou'] | py=ㄧㄡ | theme=sight-words | stage=0
+  235 | he                             | 他                              | 👨        | chunks=['h', 'e'] | py=ㄏㄧ | theme=sight-words | stage=0 [有易混提示]
+  236 | she                            | 她                              | 👩        | chunks=['sh', 'e'] | py=ㄒㄧ | theme=sight-words | stage=0 [有易混提示]
+  237 | we                             | 我們                             | 👫        | chunks=['w', 'e'] | py=ㄨㄧ | theme=sight-words | stage=0 [有易混提示]
+  238 | they                           | 他們                             | 👨‍👩‍👧    | chunks=['th', 'ey'] | py=ㄉㄟ | theme=sight-words | stage=0 [有易混提示]
+  239 | was                            | 是(過去)                          | ⏪        | chunks=['w', 'as'] | py=ㄨㄚㄗ | theme=sight-words | stage=0 base=is [有易混提示]
+  240 | cup                            | 杯子                             | ☕        | chunks=['c', 'up'] | py=ㄎㄚㄆ | theme=kitchen-utensils | stage=1
+  241 | plate                          | 盤子                             | 🍽️       | chunks=['pl', 'ate'] | py=ㄆㄌㄟㄊ | theme=kitchen-utensils | stage=1 [有易混提示]
+  242 | bowl                           | 碗                              | 🥣        | chunks=['b', 'owl'] | py=ㄅㄡ | theme=kitchen-utensils | stage=1 [有易混提示]
+  243 | knife                          | 刀                              | 🔪        | chunks=['kn', 'ife'] | py=ㄋㄞㄈ | theme=kitchen-utensils | stage=1 [有易混提示]
+  244 | fork                           | 叉子                             | 🍴        | chunks=['f', 'ork'] | py=ㄈㄛㄦㄎ | theme=kitchen-utensils | stage=1
+  245 | spoon                          | 湯匙                             | 🥄        | chunks=['sp', 'oon'] | py=ㄙㄆㄨㄣ | theme=kitchen-utensils | stage=1
+  246 | pot                            | 鍋                              | 🍲        | chunks=['p', 'ot'] | py=ㄆㄚㄊ | theme=kitchen-utensils | stage=1 [有易混提示]
+  247 | pan                            | 平底鍋                            | 🍳        | chunks=['p', 'an'] | py=ㄆㄝㄣ | theme=kitchen-utensils | stage=1 [有易混提示]
+  248 | kettle                         | 水壺                             | 🫖        | chunks=['ket', 'tle'] | py=ㄎㄝ-ㄊㄛ | theme=kitchen-utensils | stage=1
+  249 | tray                           | 托盤                             | 🥡        | chunks=['tr', 'ay'] | py=ㄔㄦㄟ | theme=kitchen-utensils | stage=1
+  250 | fridge                         | 冰箱                             | 🧊        | chunks=['fr', 'idge'] | py=ㄈㄖㄧㄐ | theme=kitchen-utensils | stage=1
+  251 | oven                           | 烤箱                             | ♨️       | chunks=['o', 'ven'] | py=ㄚ-ㄈㄣ | theme=kitchen-utensils | stage=1
+  252 | jar                            | 罐子                             | 🫙        | chunks=['j', 'ar'] | py=ㄐㄚㄦ | theme=kitchen-utensils | stage=1
+  253 | mug                            | 馬克杯                            | ☕        | chunks=['m', 'ug'] | py=ㄇㄚㄍ | theme=kitchen-utensils | stage=1
+  254 | dish                           | 碟子                             | 🍽️       | chunks=['d', 'ish'] | py=ㄉㄧㄒ | theme=kitchen-utensils | stage=1
+  255 | soap                           | 肥皂                             | 🧼        | chunks=['s', 'oap'] | py=ㄙㄡㄆ | theme=bathroom | stage=1
+  256 | towel                          | 毛巾                             | 🧻        | chunks=['tow', 'el'] | py=ㄊㄠ-ㄛ | theme=bathroom | stage=1
+  257 | toilet                         | 馬桶                             | 🚽        | chunks=['toi', 'let'] | py=ㄊㄛㄧ-ㄌㄝㄊ | theme=bathroom | stage=1
+  258 | shower                         | 蓮蓬頭                            | 🚿        | chunks=['show', 'er'] | py=ㄕㄠ-ㄜ | theme=bathroom | stage=1 [有易混提示]
+  259 | sink                           | 水槽                             | 🚰        | chunks=['s', 'ink'] | py=ㄒㄧㄣㄎ | theme=bathroom | stage=1 [有易混提示]
+  260 | tub                            | 浴缸                             | 🛁        | chunks=['t', 'ub'] | py=ㄊㄚㄅ | theme=bathroom | stage=1
+  261 | brush                          | 刷子                             | 🪥        | chunks=['br', 'ush'] | py=ㄅㄖㄚㄒ | theme=bathroom | stage=1 [有易混提示]
+  262 | comb                           | 梳子                             | 💆        | chunks=['c', 'omb'] | py=ㄎㄡㄇ | theme=bathroom | stage=1
+  263 | shampoo                        | 洗髮精                            | 🧴        | chunks=['sham', 'poo'] | py=ㄕㄝㄇ-ㄆㄨ | theme=bathroom | stage=1
+  264 | razor                          | 刮鬍刀                            | 🪒        | chunks=['ra', 'zor'] | py=ㄖㄟ-ㄗㄜ | theme=bathroom | stage=1
+  265 | tissue                         | 衛生紙                            | 🧻        | chunks=['tis', 'sue'] | py=ㄊㄧ-ㄒㄩ | theme=bathroom | stage=1
+  266 | sponge                         | 海綿                             | 🧽        | chunks=['sp', 'onge'] | py=ㄙㄆㄚㄣㄐ | theme=bathroom | stage=1
+  267 | grape                          | 葡萄                             | 🍇        | chunks=['gr', 'ape'] | py=ㄍㄖㄟㄆ | theme=fruits | stage=1
+  268 | strawberry                     | 草莓                             | 🍓        | chunks=['straw', 'ber', 'ry'] | py=ㄙㄔㄦㄛ-ㄅㄜ-ㄖㄧ | theme=fruits | stage=1
+  269 | watermelon                     | 西瓜                             | 🍉        | chunks=['wa', 'ter', 'mel', 'on'] | py=ㄨㄚ-ㄊㄜ-ㄇㄝ-ㄌㄣ | theme=fruits | stage=1
+  270 | peach                          | 桃子                             | 🍑        | chunks=['p', 'each'] | py=ㄆㄧㄔ | theme=fruits | stage=1 [有易混提示]
+  271 | pear                           | 梨                              | 🍐        | chunks=['p', 'ear'] | py=ㄆㄟㄦ | theme=fruits | stage=1 [有易混提示]
+  272 | lemon                          | 檸檬                             | 🍋        | chunks=['le', 'mon'] | py=ㄌㄝ-ㄇㄣ | theme=fruits | stage=1 [有易混提示]
+  273 | cherry                         | 櫻桃                             | 🍒        | chunks=['cher', 'ry'] | py=ㄔㄝ-ㄖㄧ | theme=fruits | stage=1
+  274 | pineapple                      | 鳳梨                             | 🍍        | chunks=['pine', 'ap', 'ple'] | py=ㄆㄞㄣ-ㄝ-ㄆㄛ | theme=fruits | stage=1
+  275 | mango                          | 芒果                             | 🥭        | chunks=['man', 'go'] | py=ㄇㄝㄣ-ㄍㄛ | theme=fruits | stage=1
+  276 | kiwi                           | 奇異果                            | 🥝        | chunks=['ki', 'wi'] | py=ㄎㄧ-ㄨㄧ | theme=fruits | stage=1
+  277 | coconut                        | 椰子                             | 🥥        | chunks=['co', 'co', 'nut'] | py=ㄎㄛ-ㄎㄛ-ㄋㄚㄊ | theme=fruits | stage=1
+  278 | blueberry                      | 藍莓                             | 🫐        | chunks=['blue', 'ber', 'ry'] | py=ㄅㄌㄨ-ㄅㄜ-ㄖㄧ | theme=fruits | stage=1
+  279 | melon                          | 哈密瓜                            | 🍈        | chunks=['mel', 'on'] | py=ㄇㄝ-ㄌㄣ | theme=fruits | stage=1
+  280 | avocado                        | 酪梨                             | 🥑        | chunks=['av', 'o', 'ca', 'do'] | py=ㄝ-ㄈㄛ-ㄎㄚ-ㄉㄛ | theme=fruits | stage=1
+  281 | plum                           | 李子                             | 🍑        | chunks=['pl', 'um'] | py=ㄆㄌㄚㄇ | theme=fruits | stage=1 [有易混提示]
+  282 | lime                           | 萊姆                             | 🟢        | chunks=['l', 'ime'] | py=ㄌㄞㄇ | theme=fruits | stage=1 [有易混提示]
+  283 | papaya                         | 木瓜                             | 🟠        | chunks=['pa', 'pa', 'ya'] | py=ㄆㄚ-ㄆㄚ-ㄧㄚ | theme=fruits | stage=1
+  284 | fruit                          | 水果                             | 🍎        | chunks=['fr', 'uit'] | py=ㄈㄖㄨㄊ | theme=fruits | stage=1 [有易混提示]
+  285 | berry                          | 莓果                             | 🫐        | chunks=['ber', 'ry'] | py=ㄅㄝ-ㄖㄧ | theme=fruits | stage=1 [有易混提示]
+  286 | carrot                         | 紅蘿蔔                            | 🥕        | chunks=['car', 'rot'] | py=ㄎㄝ-ㄖㄚㄊ | theme=vegetables | stage=1
+  287 | tomato                         | 番茄                             | 🍅        | chunks=['to', 'ma', 'to'] | py=ㄊㄜ-ㄇㄟ-ㄊㄛ | theme=vegetables | stage=1
+  288 | potato                         | 馬鈴薯                            | 🥔        | chunks=['po', 'ta', 'to'] | py=ㄆㄛ-ㄊㄟ-ㄊㄛ | theme=vegetables | stage=1
+  289 | onion                          | 洋蔥                             | 🧅        | chunks=['on', 'ion'] | py=ㄚ-ㄋㄧㄢ | theme=vegetables | stage=1
+  290 | cucumber                       | 黃瓜                             | 🥒        | chunks=['cu', 'cum', 'ber'] | py=ㄎㄧㄨ-ㄎㄚㄇ-ㄅㄜ | theme=vegetables | stage=1
+  291 | broccoli                       | 花椰菜                            | 🥦        | chunks=['broc', 'co', 'li'] | py=ㄅㄖㄚ-ㄎㄛ-ㄌㄧ | theme=vegetables | stage=1
+  292 | lettuce                        | 萵苣                             | 🥬        | chunks=['let', 'tuce'] | py=ㄌㄝ-ㄊㄧㄙ | theme=vegetables | stage=1
+  293 | cabbage                        | 高麗菜                            | 🥬        | chunks=['cab', 'bage'] | py=ㄎㄝ-ㄅㄧㄐ | theme=vegetables | stage=1
+  294 | pumpkin                        | 南瓜                             | 🎃        | chunks=['pump', 'kin'] | py=ㄆㄚㄇㄆ-ㄎㄧㄣ | theme=vegetables | stage=1
+  295 | corn                           | 玉米                             | 🌽        | chunks=['c', 'orn'] | py=ㄎㄛㄦㄣ | theme=vegetables | stage=1 [有易混提示]
+  296 | pepper                         | 辣椒、胡椒                          | 🫑        | chunks=['pep', 'per'] | py=ㄆㄝ-ㄆㄜ | theme=vegetables | stage=1 [有易混提示]
+  297 | mushroom                       | 蘑菇                             | 🍄        | chunks=['mush', 'room'] | py=ㄇㄚㄒ-ㄖㄨㄇ | theme=vegetables | stage=1
+  298 | garlic                         | 大蒜                             | 🧄        | chunks=['gar', 'lic'] | py=ㄍㄚㄦ-ㄌㄧㄎ | theme=vegetables | stage=1
+  299 | ginger                         | 薑                              | 🫚        | chunks=['gin', 'ger'] | py=ㄐㄧㄣ-ㄐㄜ | theme=vegetables | stage=1
+  300 | spinach                        | 菠菜                             | 🥬        | chunks=['spi', 'nach'] | py=ㄙㄆㄧ-ㄋㄧㄔ | theme=vegetables | stage=1
+  301 | pea                            | 豌豆                             | 🟢        | chunks=['p', 'ea'] | py=ㄆㄧ | theme=vegetables | stage=1 [有易混提示]
+  302 | bean                           | 豆                              | 🫘        | chunks=['b', 'ean'] | py=ㄅㄧㄣ | theme=vegetables | stage=1 [有易混提示]
+  303 | vegetable                      | 蔬菜                             | 🥦        | chunks=['veg', 'eta', 'ble'] | py=ㄈㄝㄐ-ㄊㄜ-ㄅㄛ | theme=vegetables | stage=1
+  304 | celery                         | 芹菜                             | 🥬        | chunks=['cel', 'er', 'y'] | py=ㄙㄝ-ㄌㄜ-ㄖㄧ | theme=vegetables | stage=1
+  305 | coffee                         | 咖啡                             | ☕        | chunks=['cof', 'fee'] | py=ㄎㄚ-ㄈㄧ | theme=drinks | stage=1 [有易混提示]
+  306 | soda                           | 汽水                             | 🥤        | chunks=['so', 'da'] | py=ㄙㄛ-ㄉㄚ | theme=drinks | stage=1
+  307 | beer                           | 啤酒                             | 🍺        | chunks=['b', 'eer'] | py=ㄅㄧㄦ | theme=drinks | stage=1
+  308 | wine                           | 紅酒                             | 🍷        | chunks=['w', 'ine'] | py=ㄨㄞㄣ | theme=drinks | stage=1 [有易混提示]
+  309 | cocktail                       | 雞尾酒                            | 🍹        | chunks=['cock', 'tail'] | py=ㄎㄚㄎ-ㄊㄟㄛ | theme=drinks | stage=1
+  310 | lemonade                       | 檸檬水                            | 🍋        | chunks=['le', 'mon', 'ade'] | py=ㄌㄝ-ㄇㄜ-ㄋㄟㄉ | theme=drinks | stage=1
+  311 | smoothie                       | 思慕昔                            | 🥤        | chunks=['smoo', 'thie'] | py=ㄙㄇㄨ-ㄉㄧ | theme=drinks | stage=1
+  312 | cocoa                          | 可可                             | 🍫        | chunks=['co', 'coa'] | py=ㄎㄛ-ㄎㄛ | theme=drinks | stage=1
+  313 | latte                          | 拿鐵                             | ☕        | chunks=['lat', 'te'] | py=ㄌㄚ-ㄊㄟ | theme=drinks | stage=1
+  314 | espresso                       | 濃縮咖啡                           | ☕        | chunks=['es', 'pres', 'so'] | py=ㄝㄙ-ㄆㄖㄝ-ㄙㄛ | theme=drinks | stage=1
+  315 | matcha                         | 抹茶                             | 🍵        | chunks=['mat', 'cha'] | py=ㄇㄚ-ㄔㄚ | theme=drinks | stage=1
+  316 | milkshake                      | 奶昔                             | 🥤        | chunks=['milk', 'shake'] | py=ㄇㄧㄎ-ㄒㄟㄎ | theme=drinks | stage=1
+  317 | cookie                         | 餅乾                             | 🍪        | chunks=['coo', 'kie'] | py=ㄎㄨ-ㄎㄧ | theme=desserts | stage=1
+  318 | candy                          | 糖果                             | 🍬        | chunks=['can', 'dy'] | py=ㄎㄝㄣ-ㄉㄧ | theme=desserts | stage=1
+  319 | chocolate                      | 巧克力                            | 🍫        | chunks=['choc', 'o', 'late'] | py=ㄔㄚㄎ-ㄜ-ㄌㄟㄊ | theme=desserts | stage=1
+  320 | icecream                       | 冰淇淋                            | 🍦        | chunks=['ice', 'cream'] | py=ㄞㄙ-ㄎㄖㄧㄇ | theme=desserts | stage=1
+  321 | donut                          | 甜甜圈                            | 🍩        | chunks=['do', 'nut'] | py=ㄉㄛ-ㄋㄚㄊ | theme=desserts | stage=1
+  322 | pudding                        | 布丁                             | 🍮        | chunks=['pud', 'ding'] | py=ㄆㄨ-ㄉㄧㄥ | theme=desserts | stage=1
+  323 | pie                            | 派                              | 🥧        | chunks=['p', 'ie'] | py=ㄆㄞ | theme=desserts | stage=1 [有易混提示]
+  324 | muffin                         | 馬芬                             | 🧁        | chunks=['muf', 'fin'] | py=ㄇㄚ-ㄈㄧㄣ | theme=desserts | stage=1
+  325 | waffle                         | 鬆餅                             | 🧇        | chunks=['waf', 'fle'] | py=ㄨㄚ-ㄈㄛ | theme=desserts | stage=1
+  326 | brownie                        | 布朗尼                            | 🍫        | chunks=['brow', 'nie'] | py=ㄅㄖㄠ-ㄋㄧ | theme=desserts | stage=1
+  327 | circle                         | 圓                              | ⭕        | chunks=['cir', 'cle'] | py=ㄙㄦ-ㄎㄛ | theme=shapes | stage=1
+  328 | square                         | 正方                             | ⬜        | chunks=['squ', 'are'] | py=ㄙㄎㄨㄟㄦ | theme=shapes | stage=1 [有易混提示]
+  329 | triangle                       | 三角                             | 🔺        | chunks=['tri', 'an', 'gle'] | py=ㄔㄦㄞ-ㄝㄣ-ㄍㄛ | theme=shapes | stage=1
+  330 | rectangle                      | 長方                             | ▭        | chunks=['rec', 'tan', 'gle'] | py=ㄖㄝㄎ-ㄊㄝㄣ-ㄍㄛ | theme=shapes | stage=1
+  331 | oval                           | 橢圓                             | 🥚        | chunks=['o', 'val'] | py=ㄛ-ㄈㄛ | theme=shapes | stage=1
+  332 | diamond                        | 菱形                             | 💎        | chunks=['dia', 'mond'] | py=ㄉㄞ-ㄇㄣㄉ | theme=shapes | stage=1 [有易混提示]
+  333 | line                           | 線                              | ➖        | chunks=['l', 'ine'] | py=ㄌㄞㄣ | theme=shapes | stage=1 [有易混提示]
+  334 | dot                            | 點                              | ⏺️       | chunks=['d', 'ot'] | py=ㄉㄚㄊ | theme=shapes | stage=1
+  335 | cube                           | 立方體                            | 🧊        | chunks=['c', 'ube'] | py=ㄎㄧㄨㄅ | theme=shapes | stage=1
+  336 | shape                          | 形狀                             | 🔷        | chunks=['sh', 'ape'] | py=ㄒㄟㄆ | theme=shapes | stage=1
+  337 | up                             | 上                              | ⬆️       | chunks=['up'] | py=ㄚㄆ | theme=directions | stage=1 [有易混提示]
+  338 | down                           | 下                              | ⬇️       | chunks=['d', 'own'] | py=ㄉㄠㄣ | theme=directions | stage=1 [有易混提示]
+  339 | left                           | 左                              | ⬅️       | chunks=['l', 'eft'] | py=ㄌㄝㄈㄊ | theme=directions | stage=1 [有易混提示]
+  340 | right                          | 右                              | ➡️       | chunks=['r', 'ight'] | py=ㄖㄞㄊ | theme=directions | stage=1 [有易混提示]
+  341 | in                             | 在...裡                          | 📥        | chunks=['in'] | py=ㄧㄣ | theme=directions | stage=1 [有易混提示]
+  342 | out                            | 出、在外                           | 📤        | chunks=['o', 'ut'] | py=ㄠㄊ | theme=directions | stage=1 [有易混提示]
+  343 | on                             | 在...上                          | 🔼        | chunks=['on'] | py=ㄚㄣ | theme=directions | stage=1 [有易混提示]
+  344 | under                          | 在...下                          | 🔽        | chunks=['un', 'der'] | py=ㄚㄣ-ㄉㄜ | theme=directions | stage=1 [有易混提示]
+  345 | over                           | 在...上方                         | ⏫        | chunks=['o', 'ver'] | py=ㄛ-ㄈㄜ | theme=directions | stage=1 [有易混提示]
+  346 | between                        | 在...之間                         | ↔️       | chunks=['be', 'tween'] | py=ㄅㄧ-ㄊㄨㄧㄣ | theme=directions | stage=1 [有易混提示]
+  347 | behind                         | 在...後                          | 🔙        | chunks=['be', 'hind'] | py=ㄅㄧ-ㄏㄞㄣㄉ | theme=directions | stage=1
+  348 | front                          | 前                              | 👆        | chunks=['fr', 'ont'] | py=ㄈㄖㄚㄣㄊ | theme=directions | stage=1 [有易混提示]
+  349 | back                           | 後面、背                           | 🔙        | chunks=['b', 'ack'] | py=ㄅㄝㄎ | theme=directions | stage=1 [有易混提示]
+  350 | near                           | 近                              | 📍        | chunks=['n', 'ear'] | py=ㄋㄧㄦ | theme=directions | stage=1 [有易混提示]
+  351 | far                            | 遠                              | 🛣️       | chunks=['f', 'ar'] | py=ㄈㄚㄦ | theme=directions | stage=1
+  352 | trip                           | 旅行                             | 🧳        | chunks=['tr', 'ip'] | py=ㄔㄦㄧㄆ | theme=travel | stage=1 [有易混提示]
+  353 | airport                        | 機場                             | 🛫        | chunks=['air', 'port'] | py=ㄟㄦ-ㄆㄛㄦㄊ | theme=travel | stage=1
+  354 | hotel                          | 飯店                             | 🏨        | chunks=['ho', 'tel'] | py=ㄏㄛ-ㄊㄝㄛ | theme=travel | stage=1
+  355 | passport                       | 護照                             | 📕        | chunks=['pass', 'port'] | py=ㄆㄝㄙ-ㄆㄛㄦㄊ | theme=travel | stage=1
+  356 | ticket                         | 票                              | 🎫        | chunks=['tic', 'ket'] | py=ㄊㄧ-ㄎㄝㄊ | theme=travel | stage=1
+  357 | luggage                        | 行李                             | 🧳        | chunks=['lug', 'gage'] | py=ㄌㄚ-ㄍㄧㄐ | theme=travel | stage=1
+  358 | map                            | 地圖                             | 🗺️       | chunks=['m', 'ap'] | py=ㄇㄝㄆ | theme=travel | stage=1 [有易混提示]
+  359 | flight                         | 航班                             | ✈️       | chunks=['fl', 'ight'] | py=ㄈㄌㄞㄊ | theme=travel | stage=1 [有易混提示]
+  360 | station                        | 車站                             | 🚉        | chunks=['sta', 'tion'] | py=ㄙㄊㄟ-ㄒㄣ | theme=travel | stage=1 [有易混提示]
+  361 | vacation                       | 假期                             | 🏖️       | chunks=['va', 'ca', 'tion'] | py=ㄈㄟ-ㄎㄟ-ㄒㄣ | theme=travel | stage=1
+  362 | camera                         | 相機                             | 📷        | chunks=['cam', 'e', 'ra'] | py=ㄎㄝ-ㄇㄜ-ㄖㄚ | theme=travel | stage=1
+  363 | souvenir                       | 紀念品                            | 🎁        | chunks=['sou', 've', 'nir'] | py=ㄙㄨ-ㄈㄜ-ㄋㄧㄦ | theme=travel | stage=1
+  364 | suitcase                       | 行李箱                            | 🧳        | chunks=['suit', 'case'] | py=ㄙㄨㄊ-ㄎㄟㄙ | theme=travel | stage=1
+  365 | market                         | 市場                             | 🛒        | chunks=['mar', 'ket'] | py=ㄇㄚㄦ-ㄎㄝㄊ | theme=shopping | stage=1 [有易混提示]
+  366 | mall                           | 購物商場                           | 🏬        | chunks=['m', 'all'] | py=ㄇㄛ | theme=shopping | stage=1
+  367 | cart                           | 購物車                            | 🛒        | chunks=['c', 'art'] | py=ㄎㄚㄦㄊ | theme=shopping | stage=1 [有易混提示]
+  368 | price                          | 價格                             | 💲        | chunks=['pr', 'ice'] | py=ㄆㄖㄞㄙ | theme=shopping | stage=1 [有易混提示]
+  369 | sale                           | 特賣                             | 🏷️       | chunks=['s', 'ale'] | py=ㄙㄟㄛ | theme=shopping | stage=1 [有易混提示]
+  370 | discount                       | 折扣                             | 📉        | chunks=['dis', 'count'] | py=ㄉㄧㄙ-ㄎㄠㄣㄊ | theme=shopping | stage=1
+  371 | cash                           | 現金                             | 💵        | chunks=['c', 'ash'] | py=ㄎㄝㄒ | theme=shopping | stage=1 [有易混提示]
+  372 | card                           | 卡片                             | 💳        | chunks=['c', 'ard'] | py=ㄎㄚㄦㄉ | theme=shopping | stage=1 [有易混提示]
+  373 | buy                            | 買                              | 🛍️       | chunks=['b', 'uy'] | py=ㄅㄞ | theme=shopping | stage=1 [有易混提示]
+  374 | sell                           | 賣                              | 💰        | chunks=['s', 'ell'] | py=ㄙㄝㄛ | theme=shopping | stage=1 [有易混提示]
+  375 | shop                           | 店                              | 🏪        | chunks=['sh', 'op'] | py=ㄒㄚㄆ | theme=shopping | stage=1 [有易混提示]
+  376 | customer                       | 顧客                             | 🧑        | chunks=['cus', 'to', 'mer'] | py=ㄎㄚㄙ-ㄊㄜ-ㄇㄜ | theme=shopping | stage=1
+  377 | menu                           | 菜單                             | 📋        | chunks=['me', 'nu'] | py=ㄇㄝ-ㄋㄧㄨ | theme=restaurant | stage=1 [有易混提示]
+  378 | waiter                         | 服務生                            | 🧑‍🍳      | chunks=['wai', 'ter'] | py=ㄨㄟ-ㄊㄜ | theme=restaurant | stage=1 base=wait
+  379 | chef                           | 主廚                             | 👨‍🍳      | chunks=['ch', 'ef'] | py=ㄒㄝㄈ | theme=restaurant | stage=1
+  380 | order                          | 點餐                             | 📝        | chunks=['or', 'der'] | py=ㄛㄦ-ㄉㄜ | theme=restaurant | stage=1 [有易混提示]
+  381 | meal                           | 一餐                             | 🍱        | chunks=['m', 'eal'] | py=ㄇㄧㄛ | theme=restaurant | stage=1 [有易混提示]
+  382 | breakfast                      | 早餐                             | 🍳        | chunks=['break', 'fast'] | py=ㄅㄖㄝㄎ-ㄈㄝㄙㄊ | theme=restaurant | stage=1
+  383 | lunch                          | 午餐                             | 🍱        | chunks=['l', 'unch'] | py=ㄌㄚㄣㄔ | theme=restaurant | stage=1
+  384 | dinner                         | 晚餐                             | 🍽️       | chunks=['din', 'ner'] | py=ㄉㄧ-ㄋㄜ | theme=restaurant | stage=1 [有易混提示]
+  385 | snack                          | 點心                             | 🥨        | chunks=['sn', 'ack'] | py=ㄙㄋㄝㄎ | theme=restaurant | stage=1 [有易混提示]
+  386 | tip                            | 小費                             | 💵        | chunks=['t', 'ip'] | py=ㄊㄧㄆ | theme=restaurant | stage=1 [有易混提示]
+  387 | reservation                    | 訂位                             | 📅        | chunks=['re', 'ser', 'va', 'tion'] | py=ㄖㄝ-ㄗㄦ-ㄈㄟ-ㄒㄣ | theme=restaurant | stage=1 base=reserve
+  388 | dessert                        | 甜點                             | 🍰        | chunks=['des', 'sert'] | py=ㄉㄧ-ㄗㄦㄊ | theme=restaurant | stage=1 [有易混提示]
+  389 | buffet                         | 自助餐                            | 🍽️       | chunks=['buf', 'fet'] | py=ㄅㄚ-ㄈㄟ | theme=restaurant | stage=1
+  390 | dollar                         | 美元                             | 💵        | chunks=['dol', 'lar'] | py=ㄉㄚ-ㄌㄜ | theme=money | stage=1
+  391 | cent                           | 分                              | 🪙        | chunks=['c', 'ent'] | py=ㄙㄝㄣㄊ | theme=money | stage=1 [有易混提示]
+  392 | coin                           | 硬幣                             | 🪙        | chunks=['c', 'oin'] | py=ㄎㄛㄧㄣ | theme=money | stage=1
+  393 | bank                           | 銀行                             | 🏦        | chunks=['b', 'ank'] | py=ㄅㄝㄣㄎ | theme=money | stage=1 [有易混提示]
+  394 | save                           | 存錢                             | 🐖        | chunks=['s', 'ave'] | py=ㄙㄟㄈ | theme=money | stage=1
+  395 | spend                          | 花錢                             | 💸        | chunks=['sp', 'end'] | py=ㄙㄆㄝㄣㄉ | theme=money | stage=1
+  396 | loan                           | 借款                             | 💴        | chunks=['l', 'oan'] | py=ㄌㄡㄣ | theme=money | stage=1 [有易混提示]
+  397 | debt                           | 債務                             | 📉        | chunks=['d', 'ebt'] | py=ㄉㄝㄊ | theme=money | stage=1
+  398 | rich                           | 富有                             | 💰        | chunks=['r', 'ich'] | py=ㄖㄧㄔ | theme=money | stage=1
+  399 | poor                           | 貧窮                             | 🥲        | chunks=['p', 'oor'] | py=ㄆㄨㄦ | theme=money | stage=1
+  400 | cheap                          | 便宜                             | 💲        | chunks=['ch', 'eap'] | py=ㄔㄧㄆ | theme=money | stage=1
+  401 | expensive                      | 貴                              | 💎        | chunks=['ex', 'pen', 'sive'] | py=ㄧㄎㄙ-ㄆㄝㄣ-ㄒㄧㄈ | theme=money | stage=1 base=expense
+  402 | sick                           | 生病                             | 🤒        | chunks=['s', 'ick'] | py=ㄒㄧㄎ | theme=health | stage=1
+  403 | pain                           | 痛                              | 😣        | chunks=['p', 'ain'] | py=ㄆㄟㄣ | theme=health | stage=1 [有易混提示]
+  404 | cough                          | 咳嗽                             | 😷        | chunks=['c', 'ough'] | py=ㄎㄚㄈ | theme=health | stage=1 [有易混提示]
+  405 | fever                          | 發燒                             | 🤒        | chunks=['fe', 'ver'] | py=ㄈㄧ-ㄈㄜ | theme=health | stage=1
+  406 | flu                            | 流感                             | 🤧        | chunks=['fl', 'u'] | py=ㄈㄌㄨ | theme=health | stage=1 [有易混提示]
+  407 | medicine                       | 藥                              | 💊        | chunks=['me', 'di', 'cine'] | py=ㄇㄝ-ㄉㄧ-ㄒㄣ | theme=health | stage=1 [有易混提示]
+  408 | pill                           | 藥丸                             | 💊        | chunks=['p', 'ill'] | py=ㄆㄧㄛ | theme=health | stage=1
+  409 | hospital                       | 醫院                             | 🏥        | chunks=['hos', 'pi', 'tal'] | py=ㄏㄚㄙ-ㄆㄧ-ㄊㄛ | theme=health | stage=1
+  410 | dentist                        | 牙醫                             | 🦷        | chunks=['den', 'tist'] | py=ㄉㄝㄣ-ㄊㄧㄙㄊ | theme=health | stage=1
+  411 | blood                          | 血                              | 🩸        | chunks=['bl', 'ood'] | py=ㄅㄌㄚㄉ | theme=health | stage=1
+  412 | bone                           | 骨頭                             | 🦴        | chunks=['b', 'one'] | py=ㄅㄛㄣ | theme=health | stage=1 [有易混提示]
+  413 | exercise                       | 運動                             | 🏋️       | chunks=['ex', 'er', 'cise'] | py=ㄝㄎ-ㄗㄦ-ㄙㄞㄗ | theme=health | stage=1 [有易混提示]
+  414 | diet                           | 飲食                             | 🥗        | chunks=['di', 'et'] | py=ㄉㄞ-ㄝㄊ | theme=health | stage=1 [有易混提示]
+  415 | vitamin                        | 維他命                            | 💊        | chunks=['vi', 'ta', 'min'] | py=ㄈㄞ-ㄊㄜ-ㄇㄧㄣ | theme=health | stage=1
+  416 | clinic                         | 診所                             | 🏥        | chunks=['cli', 'nic'] | py=ㄎㄌㄧ-ㄋㄧㄎ | theme=health | stage=1
+  417 | patient                        | 病人                             | 🧑‍⚕️     | chunks=['pa', 'tient'] | py=ㄆㄟ-ㄒㄣㄊ | theme=health | stage=1 [有易混提示]
+  418 | headache                       | 頭痛                             | 🤕        | chunks=['head', 'ache'] | py=ㄏㄝㄉ-ㄟㄎ | theme=health | stage=1
+  419 | computer                       | 電腦                             | 💻        | chunks=['com', 'pu', 'ter'] | py=ㄎㄚㄇ-ㄆㄧㄨ-ㄊㄜ | theme=technology | stage=2 base=compute
+  420 | phone                          | 手機                             | 📱        | chunks=['ph', 'one'] | py=ㄈㄛㄣ | theme=technology | stage=2 [有易混提示]
+  421 | tablet                         | 平板                             | 📱        | chunks=['tab', 'let'] | py=ㄊㄝ-ㄅㄌㄝㄊ | theme=technology | stage=2 [有易混提示]
+  422 | laptop                         | 筆電                             | 💻        | chunks=['lap', 'top'] | py=ㄌㄝㄆ-ㄊㄚㄆ | theme=technology | stage=2
+  423 | keyboard                       | 鍵盤                             | ⌨️       | chunks=['key', 'board'] | py=ㄎㄧ-ㄅㄛㄦㄉ | theme=technology | stage=2
+  424 | screen                         | 螢幕                             | 📺        | chunks=['scr', 'een'] | py=ㄙㄎㄦㄧㄣ | theme=technology | stage=2 [有易混提示]
+  425 | charger                        | 充電器                            | 🔌        | chunks=['char', 'ger'] | py=ㄔㄚㄦ-ㄐㄜ | theme=technology | stage=2 base=charge
+  426 | battery                        | 電池                             | 🔋        | chunks=['bat', 'ter', 'y'] | py=ㄅㄝ-ㄊㄜ-ㄖㄧ | theme=technology | stage=2
+  427 | software                       | 軟體                             | 💿        | chunks=['soft', 'ware'] | py=ㄙㄚㄈㄊ-ㄨㄟㄦ | theme=technology | stage=2
+  428 | wifi                           | Wi-Fi 無線網路                     | 📶        | chunks=['wi', 'fi'] | py=ㄨㄞ-ㄈㄞ | theme=technology | stage=2
+  429 | email                          | 電子郵件                           | 📧        | chunks=['e', 'mail'] | py=ㄧ-ㄇㄟㄛ | theme=technology | stage=2
+  430 | password                       | 密碼                             | 🔒        | chunks=['pass', 'word'] | py=ㄆㄝㄙ-ㄨㄦㄉ | theme=technology | stage=2
+  431 | file                           | 檔案                             | 📄        | chunks=['f', 'ile'] | py=ㄈㄞㄛ | theme=technology | stage=2 [有易混提示]
+  432 | folder                         | 資料夾                            | 📁        | chunks=['fol', 'der'] | py=ㄈㄛㄛ-ㄉㄜ | theme=technology | stage=2 base=fold
+  433 | download                       | 下載                             | ⬇️       | chunks=['down', 'load'] | py=ㄉㄠㄣ-ㄌㄛㄉ | theme=technology | stage=2
+  434 | update                         | 更新                             | 🔄        | chunks=['up', 'date'] | py=ㄚㄆ-ㄉㄟㄊ | theme=technology | stage=2
+  435 | code                           | 程式碼                            | ⌨️       | chunks=['c', 'ode'] | py=ㄎㄛㄉ | theme=technology | stage=2 [有易混提示]
+  436 | go                             | 去                              | 🚶        | chunks=['g', 'o'] | py=ㄍㄛ | theme=actions | stage=0 [有易混提示]
+  437 | come                           | 來                              | 🫴        | chunks=['c', 'ome'] | py=ㄎㄚㄇ | theme=actions | stage=0
+  438 | see                            | 看見                             | 👀        | chunks=['s', 'ee'] | py=ㄒㄧ | theme=actions | stage=0 [有易混提示]
+  439 | look                           | 看                              | 👁️       | chunks=['l', 'ook'] | py=ㄌㄨㄎ | theme=actions | stage=0 [有易混提示]
+  440 | hear                           | 聽到                             | 👂        | chunks=['h', 'ear'] | py=ㄏㄧㄦ | theme=actions | stage=0 [有易混提示]
+  441 | listen                         | 聆聽                             | 🎧        | chunks=['lis', 'ten'] | py=ㄌㄧㄙ-ㄣ | theme=actions | stage=1
+  442 | talk                           | 說話                             | 💬        | chunks=['t', 'alk'] | py=ㄊㄛㄎ | theme=actions | stage=0 [有易混提示]
+  443 | speak                          | 說                              | 🗣️       | chunks=['sp', 'eak'] | py=ㄙㄆㄧㄎ | theme=actions | stage=1 [有易混提示]
+  444 | say                            | 說                              | 💭        | chunks=['s', 'ay'] | py=ㄙㄟ | theme=actions | stage=0 [有易混提示]
+  445 | tell                           | 告訴                             | 📢        | chunks=['t', 'ell'] | py=ㄊㄝㄦ | theme=actions | stage=0 [有易混提示]
+  446 | ask                            | 問                              | ❓        | chunks=['a', 'sk'] | py=ㄚㄙㄎ | theme=actions | stage=0
+  447 | answer                         | 回答                             | ✅        | chunks=['an', 'swer'] | py=ㄢ-ㄙㄜㄦ | theme=actions | stage=1 [有易混提示]
+  448 | think                          | 想                              | 🤔        | chunks=['th', 'ink'] | py=ㄒㄧㄣㄎ | theme=actions | stage=0
+  449 | know                           | 知道                             | 🧠        | chunks=['kn', 'ow'] | py=ㄋㄛ | theme=actions | stage=0 [有易混提示]
+  450 | learn                          | 學習                             | 📚        | chunks=['l', 'earn'] | py=ㄌㄦㄣ | theme=actions | stage=1 [有易混提示]
+  451 | teach                          | 教                              | 👩‍🏫      | chunks=['t', 'each'] | py=ㄊㄧㄑ | theme=actions | stage=1 [有易混提示]
+  452 | study                          | 研讀、用功                          | 📖        | chunks=['stu', 'dy'] | py=ㄙㄉㄚ-ㄉㄧ | theme=actions | stage=1
+  453 | work                           | 工作                             | 💼        | chunks=['w', 'ork'] | py=ㄨㄦㄎ | theme=actions | stage=0 [有易混提示]
+  454 | play                           | 玩                              | 🎮        | chunks=['pl', 'ay'] | py=ㄆㄌㄟ | theme=actions | stage=0 [有易混提示]
+  455 | make                           | 製作                             | 🔨        | chunks=['m', 'ake'] | py=ㄇㄟㄎ | theme=actions | stage=0 [有易混提示]
+  456 | do                             | 做                              | ✔️       | chunks=['d', 'o'] | py=ㄉㄨ | theme=actions | stage=0 [有易混提示]
+  457 | have                           | 有                              | 🤲        | chunks=['h', 'ave'] | py=ㄏㄚㄈ | theme=actions | stage=0 [有易混提示]
+  458 | get                            | 得到                             | 🎁        | chunks=['g', 'et'] | py=ㄍㄝㄊ | theme=actions | stage=0 [有易混提示]
+  459 | give                           | 給                              | 🎀        | chunks=['g', 'ive'] | py=ㄍㄧㄈ | theme=actions | stage=0 [有易混提示]
+  460 | take                           | 拿                              | 🫳        | chunks=['t', 'ake'] | py=ㄊㄟㄎ | theme=actions | stage=0 [有易混提示]
+  461 | put                            | 放                              | 📥        | chunks=['p', 'ut'] | py=ㄆㄨㄊ | theme=actions | stage=0 base=put [有易混提示]
+  462 | bring                          | 帶來                             | 🤲        | chunks=['br', 'ing'] | py=ㄅㄌㄧㄥ | theme=actions | stage=1 [有易混提示]
+  463 | carry                          | 攜帶                             | 🧳        | chunks=['car', 'ry'] | py=ㄎㄚ-ㄌㄧ | theme=actions | stage=1
+  464 | hold                           | 握住                             | ✊        | chunks=['h', 'old'] | py=ㄏㄛㄉ | theme=actions | stage=0 [有易混提示]
+  465 | open                           | 打開                             | 📭        | chunks=['o', 'pen'] | py=ㄛ-ㄆㄣ | theme=actions | stage=0 [有易混提示]
+  466 | close                          | 關閉                             | 🔒        | chunks=['cl', 'ose'] | py=ㄎㄌㄛㄗ | theme=actions | stage=0 [有易混提示]
+  467 | start                          | 開始                             | 🟢        | chunks=['st', 'art'] | py=ㄙㄉㄚㄦㄊ | theme=actions | stage=0 [有易混提示]
+  468 | stop                           | 停止                             | 🛑        | chunks=['st', 'op'] | py=ㄙㄉㄚㄆ | theme=actions | stage=0
+  469 | finish                         | 完成                             | 🏁        | chunks=['fin', 'ish'] | py=ㄈㄧㄣ-ㄧㄒ | theme=actions | stage=1
+  470 | begin                          | 開始                             | 🆕        | chunks=['be', 'gin'] | py=ㄅㄧ-ㄍㄧㄣ | theme=actions | stage=1 [有易混提示]
+  471 | end                            | 結束                             | 🔚        | chunks=['e', 'nd'] | py=ㄝㄣㄉ | theme=actions | stage=0 [有易混提示]
+  472 | wait                           | 等                              | ⏳        | chunks=['w', 'ait'] | py=ㄨㄟㄊ | theme=actions | stage=0 [有易混提示]
+  473 | find                           | 找到                             | 🔍        | chunks=['f', 'ind'] | py=ㄈㄞㄣㄉ | theme=actions | stage=0 [有易混提示]
+  474 | lose                           | 失去                             | 😢        | chunks=['l', 'ose'] | py=ㄌㄨㄗ | theme=actions | stage=1 [有易混提示]
+  475 | pay                            | 付錢                             | 💳        | chunks=['p', 'ay'] | py=ㄆㄟ | theme=actions | stage=0 [有易混提示]
+  476 | use                            | 使用                             | 🔧        | chunks=['u', 'se'] | py=ㄧㄨㄗ | theme=actions | stage=0 [有易混提示]
+  477 | wash                           | 洗                              | 🧼        | chunks=['w', 'ash'] | py=ㄨㄚㄒ | theme=actions | stage=0
+  478 | clean                          | 清潔                             | 🧽        | chunks=['cl', 'ean'] | py=ㄎㄌㄧㄣ | theme=actions | stage=0 [有易混提示]
+  479 | cut                            | 切                              | 🔪        | chunks=['c', 'ut'] | py=ㄎㄚㄊ | theme=actions | stage=0 base=cut [有易混提示]
+  480 | break                          | 打破                             | 💔        | chunks=['br', 'eak'] | py=ㄅㄌㄟㄎ | theme=actions | stage=1 [有易混提示]
+  481 | fix                            | 修理                             | 🛠️       | chunks=['f', 'ix'] | py=ㄈㄧㄎㄙ | theme=actions | stage=0 [有易混提示]
+  482 | build                          | 建造                             | 🏗️       | chunks=['b', 'uild'] | py=ㄅㄧㄦㄉ | theme=actions | stage=1
+  483 | fall                           | 跌倒                             | 🤕        | chunks=['f', 'all'] | py=ㄈㄛㄦ | theme=actions | stage=0 [有易混提示]
+  484 | throw                          | 丟                              | 🤾        | chunks=['thr', 'ow'] | py=ㄙㄌㄛ | theme=actions | stage=1 [有易混提示]
+  485 | catch                          | 接住                             | 🥎        | chunks=['c', 'atch'] | py=ㄎㄚㄑ | theme=actions | stage=1 [有易混提示]
+  486 | push                           | 推                              | 👐        | chunks=['p', 'ush'] | py=ㄆㄨㄒ | theme=actions | stage=0
+  487 | pull                           | 拉                              | 🫳        | chunks=['p', 'ull'] | py=ㄆㄨㄦ | theme=actions | stage=0
+  488 | lift                           | 抬起                             | 🏋️       | chunks=['l', 'ift'] | py=ㄌㄧㄈㄊ | theme=actions | stage=0
+  489 | drop                           | 掉                              | 💧        | chunks=['dr', 'op'] | py=ㄉㄌㄚㄆ | theme=actions | stage=0 [有易混提示]
+  490 | hit                            | 打                              | 👊        | chunks=['h', 'it'] | py=ㄏㄧㄊ | theme=actions | stage=0 base=hit [有易混提示]
+  491 | kick                           | 踢                              | 🦵        | chunks=['k', 'ick'] | py=ㄎㄧㄎ | theme=actions | stage=0
+  492 | ride                           | 騎                              | 🚲        | chunks=['r', 'ide'] | py=ㄌㄞㄉ | theme=actions | stage=0 [有易混提示]
+  493 | drive                          | 開車                             | 🚗        | chunks=['dr', 'ive'] | py=ㄉㄌㄞㄈ | theme=actions | stage=1 [有易混提示]
+  494 | fly                            | 飛                              | ✈️       | chunks=['f', 'ly'] | py=ㄈㄌㄞ | theme=actions | stage=0 [有易混提示]
+  495 | climb                          | 爬                              | 🧗        | chunks=['cl', 'imb'] | py=ㄎㄌㄞㄇ | theme=actions | stage=1
+  496 | laugh                          | 笑                              | 😂        | chunks=['l', 'augh'] | py=ㄌㄚㄈ | theme=actions | stage=1
+  497 | cry                            | 哭                              | 😭        | chunks=['cr', 'y'] | py=ㄎㄌㄞ | theme=actions | stage=0
+  498 | wake                           | 醒來                             | ⏰        | chunks=['w', 'ake'] | py=ㄨㄟㄎ | theme=actions | stage=1 [有易混提示]
+  499 | dream                          | 做夢                             | 💭        | chunks=['dr', 'eam'] | py=ㄉㄌㄧㄇ | theme=actions | stage=1 [有易混提示]

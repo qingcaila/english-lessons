@@ -1,0 +1,501 @@
+# 字 3000-3499
+ 3000 | attorney                       | 律師                             | ⚖️       | chunks=['at', 'tor', 'ney'] | py=ㄚ-ㄊㄜ-ㄋㄧ | theme=jobs-advanced | stage=3
+ 3001 | prosecutor                     | 檢察官                            | ⚖️       | chunks=['pros', 'e', 'cu', 'tor'] | py=ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨ-ㄊㄜ | theme=jobs-advanced | stage=3 base=prosecute
+ 3002 | defendant                      | 被告                             | ⚖️       | chunks=['de', 'fen', 'dant'] | py=ㄉㄧ-ㄈㄝㄣ-ㄉㄣㄊ | theme=jobs-advanced | stage=3
+ 3003 | plaintiff                      | 原告                             | ⚖️       | chunks=['plain', 'tiff'] | py=ㄆㄌㄟㄣ-ㄊㄜㄈ | theme=jobs-advanced | stage=3
+ 3004 | paralegal                      | 律師助理                           | ⚖️       | chunks=['par', 'a', 'le', 'gal'] | py=ㄆㄝ-ㄜ-ㄌㄧ-ㄍㄜ | theme=jobs-advanced | stage=3
+ 3005 | magistrate                     | 地方法官                           | ⚖️       | chunks=['mag', 'is', 'trate'] | py=ㄇㄚ-ㄐㄜ-ㄙㄉㄌㄝㄊ | theme=jobs-advanced | stage=3
+ 3006 | diplomat                       | 外交官                            | 🤝        | chunks=['dip', 'lo', 'mat'] | py=ㄉㄧ-ㄆㄌㄜ-ㄇㄚㄊ | theme=jobs-advanced | stage=3
+ 3007 | ambassador                     | 大使                             | 🤝        | chunks=['am', 'bas', 'sa', 'dor'] | py=ㄚㄇ-ㄅㄚ-ㄙㄜ-ㄉㄜ | theme=jobs-advanced | stage=3
+ 3008 | senator                        | 參議員                            | 🏛️       | chunks=['sen', 'a', 'tor'] | py=ㄙㄝ-ㄋㄜ-ㄊㄜ | theme=jobs-advanced | stage=3 base=senate
+ 3009 | governor                       | 州長                             | 🏛️       | chunks=['gov', 'er', 'nor'] | py=ㄍㄚ-ㄈㄜ-ㄋㄜ | theme=jobs-advanced | stage=2 base=govern
+ 3010 | editor                         | 編輯                             | ✍️       | chunks=['ed', 'i', 'tor'] | py=ㄝ-ㄉㄜ-ㄊㄜ | theme=jobs-advanced | stage=1 base=edit
+ 3011 | reporter                       | 記者                             | 📰        | chunks=['re', 'por', 'ter'] | py=ㄌㄧ-ㄆㄛㄦ-ㄊㄜ | theme=jobs-advanced | stage=1 base=report
+ 3012 | correspondent                  | 特派員                            | 📰        | chunks=['cor', 're', 'spon', 'dent'] | py=ㄎㄛ-ㄌㄧ-ㄙㄆㄚㄣ-ㄉㄣㄊ | theme=jobs-advanced | stage=3 base=correspond
+ 3013 | columnist                      | 專欄作家                           | 📰        | chunks=['col', 'um', 'nist'] | py=ㄎㄚ-ㄌㄚㄇ-ㄋㄧㄙㄊ | theme=jobs-advanced | stage=3 base=column
+ 3014 | blogger                        | 部落客                            | 💻        | chunks=['blog', 'ger'] | py=ㄅㄌㄚ-ㄍㄜ | theme=jobs-advanced | stage=1
+ 3015 | vlogger                        | 影音部落客                          | 📹        | chunks=['vlog', 'ger'] | py=ㄈㄌㄚ-ㄍㄜ | theme=jobs-advanced | stage=2
+ 3016 | podcaster                      | Podcast 主持人                    | 🎙️       | chunks=['pod', 'cas', 'ter'] | py=ㄆㄚㄉ-ㄎㄚㄙ-ㄊㄜ | theme=jobs-advanced | stage=2 base=podcast
+ 3017 | anchor                         | 主播、船錨                          | 📺        | chunks=['an', 'chor'] | py=ㄢ-ㄎㄜ | theme=jobs-advanced | stage=2 [有易混提示]
+ 3018 | technician                     | 技術員                            | 🔧        | chunks=['tech', 'ni', 'cian'] | py=ㄊㄝㄎ-ㄋㄜ-ㄒㄢ | theme=jobs-advanced | stage=2
+ 3019 | locksmith                      | 鎖匠                             | 🔐        | chunks=['lock', 'smith'] | py=ㄌㄚㄎ-ㄙㄇㄧㄙ | theme=jobs-advanced | stage=3
+ 3020 | builder                        | 建築工                            | 👷        | chunks=['buil', 'der'] | py=ㄅㄧㄦ-ㄉㄜ | theme=jobs-advanced | stage=1 base=build
+ 3021 | mason                          | 泥水匠                            | 🧱        | chunks=['ma', 'son'] | py=ㄇㄝ-ㄗㄣ | theme=jobs-advanced | stage=3 [有易混提示]
+ 3022 | priest                         | 神父                             | ⛪        | chunks=['pr', 'iest'] | py=ㄆㄌㄧㄙㄊ | theme=jobs-advanced | stage=1
+ 3023 | pastor                         | 牧師                             | ⛪        | chunks=['pas', 'tor'] | py=ㄆㄚㄙ-ㄊㄜ | theme=jobs-advanced | stage=2
+ 3024 | minister                       | 部長、牧師                          | 🏛️       | chunks=['min', 'is', 'ter'] | py=ㄇㄧ-ㄋㄜ-ㄙㄉㄜ | theme=jobs-advanced | stage=2 [有易混提示]
+ 3025 | monk                           | 僧侶                             | 🧘        | chunks=['m', 'onk'] | py=ㄇㄚㄣㄎ | theme=jobs-advanced | stage=2
+ 3026 | nun                            | 修女                             | ⛪        | chunks=['n', 'un'] | py=ㄋㄚㄣ | theme=jobs-advanced | stage=2
+ 3027 | missionary                     | 傳教士                            | 📖        | chunks=['mis', 'sion', 'a', 'ry'] | py=ㄇㄧ-ㄒㄣ-ㄜ-ㄌㄧ | theme=jobs-advanced | stage=3 base=mission
+ 3028 | officer                        | 軍官                             | 🪖        | chunks=['of', 'fi', 'cer'] | py=ㄛ-ㄈㄜ-ㄙㄜ | theme=jobs-advanced | stage=1 base=office
+ 3029 | sergeant                       | 中士                             | 🪖        | chunks=['ser', 'geant'] | py=ㄙㄚㄦ-ㄐㄣㄊ | theme=jobs-advanced | stage=3
+ 3030 | lieutenant                     | 中尉                             | 🪖        | chunks=['lieu', 'ten', 'ant'] | py=ㄌㄨ-ㄊㄣ-ㄣㄊ | theme=jobs-advanced | stage=3
+ 3031 | admiral                        | 海軍上將                           | ⚓        | chunks=['ad', 'mi', 'ral'] | py=ㄚㄉ-ㄇㄜ-ㄦ | theme=jobs-advanced | stage=3
+ 3032 | spy                            | 間諜                             | 🕵️       | chunks=['sp', 'y'] | py=ㄙㄆㄞ | theme=jobs-advanced | stage=1
+ 3033 | agent                          | 特務                             | 🕵️       | chunks=['a', 'gent'] | py=ㄝ-ㄐㄣㄊ | theme=jobs-advanced | stage=1 [有易混提示]
+ 3034 | detective                      | 偵探                             | 🕵️       | chunks=['de', 'tec', 'tive'] | py=ㄉㄧ-ㄊㄝㄎ-ㄊㄧㄈ | theme=jobs-advanced | stage=1 base=detect
+ 3035 | caregiver                      | 照護者                            | 🧓        | chunks=['care', 'giv', 'er'] | py=ㄎㄝㄜ-ㄍㄧ-ㄈㄜ | theme=jobs-advanced | stage=2
+ 3036 | therapist                      | 治療師                            | 🩺        | chunks=['ther', 'a', 'pist'] | py=ㄙㄝ-ㄌㄜ-ㄆㄧㄙㄊ | theme=jobs-advanced | stage=2 base=therapy
+ 3037 | counselor                      | 諮商師                            | 💬        | chunks=['coun', 'se', 'lor'] | py=ㄎㄠㄣ-ㄙㄜ-ㄌㄜ | theme=jobs-advanced | stage=2 base=counsel
+ 3038 | slim                           | 苗條的                            | 📏        | chunks=['sl', 'im'] | py=ㄙㄌㄧㄇ | theme=appearance | stage=1
+ 3039 | slender                        | 纖細的                            | 📏        | chunks=['slen', 'der'] | py=ㄙㄌㄝㄣ-ㄉㄜ | theme=appearance | stage=2
+ 3040 | skinny                         | 皮包骨                            | 🦴        | chunks=['skin', 'ny'] | py=ㄙㄎㄧ-ㄋㄧ | theme=appearance | stage=1 base=skin
+ 3041 | plump                          | 豐滿的                            | 🍑        | chunks=['pl', 'ump'] | py=ㄆㄌㄚㄇㄆ | theme=appearance | stage=2
+ 3042 | chubby                         | 圓潤                             | 🐹        | chunks=['chub', 'by'] | py=ㄑㄚ-ㄅㄧ | theme=appearance | stage=1
+ 3043 | lean                           | 精瘦的、傾斜                         | 💪        | chunks=['l', 'ean'] | py=ㄌㄧㄣ | theme=appearance | stage=2 [有易混提示]
+ 3044 | muscular                       | 肌肉發達的                          | 💪        | chunks=['mus', 'cu', 'lar'] | py=ㄇㄚㄙ-ㄎㄧㄨ-ㄌㄜ | theme=appearance | stage=2
+ 3045 | beefy                          | 健壯的                            | 💪        | chunks=['bee', 'fy'] | py=ㄅㄧ-ㄈㄧ | theme=appearance | stage=3 base=beef
+ 3046 | bulky                          | 龐大的                            | 🦣        | chunks=['bul', 'ky'] | py=ㄅㄚㄦ-ㄎㄧ | theme=appearance | stage=3 base=bulk
+ 3047 | scrawny                        | 瘦小的                            | 🦴        | chunks=['scraw', 'ny'] | py=ㄙㄎㄌㄛ-ㄋㄧ | theme=appearance | stage=3
+ 3048 | gaunt                          | 憔悴的                            | 💀        | chunks=['g', 'aunt'] | py=ㄍㄛㄣㄊ | theme=appearance | stage=3
+ 3049 | handsome                       | 英俊的                            | 🧔        | chunks=['hand', 'some'] | py=ㄏㄢ-ㄙㄣ | theme=appearance | stage=1
+ 3050 | gorgeous                       | 美艷的                            | 💃        | chunks=['gor', 'geous'] | py=ㄍㄛㄦ-ㄐㄚㄙ | theme=appearance | stage=2 base=gorge
+ 3051 | stunning                       | 驚豔的                            | 😍        | chunks=['stun', 'ning'] | py=ㄙㄉㄚ-ㄋㄧㄥ | theme=appearance | stage=2 base=stun
+ 3052 | attractive                     | 有魅力                            | 💖        | chunks=['at', 'trac', 'tive'] | py=ㄚ-ㄊㄌㄚㄎ-ㄊㄧㄈ | theme=appearance | stage=1 base=attract
+ 3053 | charming                       | 迷人的                            | 💖        | chunks=['charm', 'ing'] | py=ㄑㄚㄦㄇ-ㄧㄥ | theme=appearance | stage=1 base=charm
+ 3054 | elegant                        | 優雅的                            | 👗        | chunks=['el', 'e', 'gant'] | py=ㄝ-ㄌㄜ-ㄍㄣㄊ | theme=appearance | stage=2
+ 3055 | graceful                       | 優雅的                            | 💃        | chunks=['grace', 'ful'] | py=ㄍㄌㄝㄙ-ㄈㄜ | theme=appearance | stage=2 base=grace
+ 3056 | classy                         | 有格調                            | 🎩        | chunks=['clas', 'sy'] | py=ㄎㄌㄚ-ㄒㄧ | theme=appearance | stage=2 base=class
+ 3057 | dapper                         | 瀟灑的                            | 🤵        | chunks=['dap', 'per'] | py=ㄉㄚ-ㄆㄜ | theme=appearance | stage=3
+ 3058 | dashing                        | 瀟灑的                            | 🤵        | chunks=['dash', 'ing'] | py=ㄉㄚㄒ-ㄧㄥ | theme=appearance | stage=3 base=dash
+ 3059 | foxy                           | 性感的                            | 💋        | chunks=['fox', 'y'] | py=ㄈㄚㄎ-ㄒㄧ | theme=appearance | stage=3 base=fox
+ 3060 | sexy                           | 性感的                            | 💋        | chunks=['sex', 'y'] | py=ㄙㄝㄎ-ㄒㄧ | theme=appearance | stage=1
+ 3061 | homely                         | 相貌平凡的(美式)                      | 👵        | chunks=['home', 'ly'] | py=ㄏㄛㄇ-ㄌㄧ | theme=appearance | stage=3
+ 3062 | average                        | 普通的                            | 😐        | chunks=['av', 'er', 'age'] | py=ㄚ-ㄈㄜ-ㄧㄐ | theme=appearance | stage=1
+ 3063 | bald                           | 禿頭的                            | 👨‍🦲      | chunks=['b', 'ald'] | py=ㄅㄛㄦㄉ | theme=appearance | stage=1 [有易混提示]
+ 3064 | bearded                        | 有鬍鬚                            | 🧔        | chunks=['bear', 'ded'] | py=ㄅㄧㄦ-ㄉㄝㄉ | theme=appearance | stage=2 base=beard
+ 3065 | mustached                      | 留小鬍子                           | 🥸        | chunks=['mus', 'tached'] | py=ㄇㄚㄙ-ㄊㄚㄒㄊ | theme=appearance | stage=3
+ 3066 | hairy                          | 多毛的                            | 🧔        | chunks=['hair', 'y'] | py=ㄏㄝㄜ-ㄧ | theme=appearance | stage=1 base=hair
+ 3067 | tanned                         | 曬黑的                            | 🌞        | chunks=['tan', 'ned'] | py=ㄊㄚㄣㄉ | theme=appearance | stage=2 base=tan
+ 3068 | fair                           | 公平、(膚色)白皙                      | ⬜        | chunks=['f', 'air'] | py=ㄈㄝㄜ | theme=appearance | stage=1 [有易混提示]
+ 3069 | sunburned                      | 曬傷的                            | ☀️       | chunks=['sun', 'burned'] | py=ㄙㄚㄣ-ㄅㄜㄣㄉ | theme=appearance | stage=2
+ 3070 | blonde                         | 金髮的、金髮女子                       | 👱        | chunks=['bl', 'onde'] | py=ㄅㄌㄚㄣㄉ | theme=appearance | stage=1 [有易混提示]
+ 3071 | brunette                       | 棕髮                             | 👩        | chunks=['bru', 'nette'] | py=ㄅㄌㄨ-ㄋㄝㄊ | theme=appearance | stage=3
+ 3072 | redhead                        | 紅髮                             | 👩‍🦰      | chunks=['red', 'head'] | py=ㄌㄝㄉ-ㄏㄝㄉ | theme=appearance | stage=2
+ 3073 | curly                          | 捲的                             | 💁        | chunks=['cur', 'ly'] | py=ㄎㄜ-ㄌㄧ | theme=appearance | stage=1 base=curl
+ 3074 | wavy                           | 波浪狀的                           | 〰️       | chunks=['wa', 'vy'] | py=ㄨㄝ-ㄈㄧ | theme=appearance | stage=2 base=wave
+ 3075 | frizzy                         | 毛躁的                            | 🦱        | chunks=['friz', 'zy'] | py=ㄈㄌㄧ-ㄗㄧ | theme=appearance | stage=3
+ 3076 | braided                        | 編成辮子的                          | 👰        | chunks=['braid', 'ed'] | py=ㄅㄌㄝㄉ-ㄝㄉ | theme=appearance | stage=2 base=braid
+ 3077 | glasses                        | 眼鏡                             | 👓        | chunks=['glas', 'ses'] | py=ㄍㄌㄚ-ㄗㄝㄗ | theme=appearance | stage=0 base=glass
+ 3078 | contacts                       | 隱形眼鏡                           | 👁️       | chunks=['con', 'tacts'] | py=ㄎㄚㄣ-ㄊㄚㄎㄗ | theme=appearance | stage=2 [有易混提示]
+ 3079 | mature                         | 成熟的                            | 🧑        | chunks=['ma', 'ture'] | py=ㄇㄚ-ㄑㄜ | theme=appearance | stage=1
+ 3080 | youthful                       | 年輕的                            | 👶        | chunks=['youth', 'ful'] | py=ㄧㄨㄙ-ㄈㄜ | theme=appearance | stage=2 base=youth
+ 3081 | aged                           | 年長的                            | 👴        | chunks=['a', 'ged'] | py=ㄝㄐㄉ | theme=appearance | stage=2 base=age [有易混提示]
+ 3082 | wrinkly                        | 皺巴巴的                           | 👴        | chunks=['wrink', 'ly'] | py=ㄌㄧㄣㄎ-ㄌㄧ | theme=appearance | stage=3 base=wrinkle
+ 3083 | smiley                         | 愛笑的                            | 😊        | chunks=['smi', 'ley'] | py=ㄙㄇㄞ-ㄌㄧ | theme=appearance | stage=2 base=smile
+ 3084 | dimpled                        | 有酒窩                            | 😊        | chunks=['dim', 'pled'] | py=ㄉㄧㄇ-ㄆㄜㄉ | theme=appearance | stage=3 base=dimple
+ 3085 | tattooed                       | 有刺青                            | 💪        | chunks=['tat', 'tooed'] | py=ㄊㄚ-ㄊㄨㄉ | theme=appearance | stage=2
+ 3086 | pierced                        | 穿耳洞                            | 👂        | chunks=['pier', 'ced'] | py=ㄆㄧㄦ-ㄙㄉ | theme=appearance | stage=2 base=pierce
+ 3087 | neat                           | 整潔的                            | ✨        | chunks=['n', 'eat'] | py=ㄋㄧㄊ | theme=appearance | stage=1
+ 3088 | scruffy                        | 邋遢的                            | 👤        | chunks=['scruf', 'fy'] | py=ㄙㄎㄌㄚ-ㄈㄧ | theme=appearance | stage=3
+ 3089 | shabby                         | 破舊的                            | 👤        | chunks=['shab', 'by'] | py=ㄒㄚ-ㄅㄧ | theme=appearance | stage=3
+ 3090 | untidy                         | 凌亂的                            | 🌪️       | chunks=['un', 'ti', 'dy'] | py=ㄚㄣ-ㄊㄞ-ㄉㄧ | theme=appearance | stage=2
+ 3091 | polished                       | 精緻的                            | 💎        | chunks=['pol', 'ished'] | py=ㄆㄚ-ㄌㄧㄒㄉ | theme=appearance | stage=3 base=polish
+ 3092 | refined                        | 優雅的                            | 🎩        | chunks=['re', 'fined'] | py=ㄌㄧ-ㄈㄞㄣㄉ | theme=appearance | stage=3 base=refine
+ 3093 | petite                         | 嬌小的                            | 🤏        | chunks=['pe', 'tite'] | py=ㄆㄜ-ㄊㄧㄊ | theme=appearance | stage=2
+ 3094 | curvy                          | 曲線玲瓏的                          | 〰️       | chunks=['cur', 'vy'] | py=ㄎㄜ-ㄈㄧ | theme=appearance | stage=3 base=curve
+ 3095 | rugged                         | 粗獷的                            | ⛰️       | chunks=['rug', 'ged'] | py=ㄌㄚ-ㄍㄝㄉ | theme=appearance | stage=3
+ 3096 | disheveled                     | 凌亂的                            | 🌪️       | chunks=['di', 'shev', 'eled'] | py=ㄉㄧ-ㄒㄝ-ㄈㄜㄉ | theme=appearance | stage=3
+ 3097 | ambitious                      | 有抱負                            | 🎯        | chunks=['am', 'bi', 'tious'] | py=ㄚㄇ-ㄅㄧ-ㄒㄚㄙ | theme=personality | stage=2 base=ambition
+ 3098 | hardworking                    | 勤奮的                            | 💪        | chunks=['hard', 'work', 'ing'] | py=ㄏㄚㄦㄉ-ㄨㄜㄎ-ㄧㄥ | theme=personality | stage=1
+ 3099 | diligent                       | 勤勉的                            | 📚        | chunks=['dil', 'i', 'gent'] | py=ㄉㄧ-ㄌㄜ-ㄐㄣㄊ | theme=personality | stage=2
+ 3100 | motivated                      | 有動力                            | 🎯        | chunks=['mo', 'ti', 'vat', 'ed'] | py=ㄇㄛ-ㄊㄜ-ㄈㄝㄊ-ㄝㄉ | theme=personality | stage=2 base=motivate
+ 3101 | driven                         | 有衝勁                            | 🚀        | chunks=['dri', 'ven'] | py=ㄉㄌㄧ-ㄈㄣ | theme=personality | stage=2 base=drive
+ 3102 | determined                     | 堅定的                            | 💪        | chunks=['de', 'ter', 'mined'] | py=ㄉㄧ-ㄊㄜ-ㄇㄞㄣㄉ | theme=personality | stage=2 base=determine
+ 3103 | reserved                       | 內斂的                            | 🤐        | chunks=['re', 'served'] | py=ㄌㄧ-ㄗㄜㄈㄉ | theme=personality | stage=3 base=reserve
+ 3104 | outgoing                       | 外向的                            | 🥳        | chunks=['out', 'go', 'ing'] | py=ㄠㄊ-ㄍㄛ-ㄧㄥ | theme=personality | stage=2
+ 3105 | introverted                    | 內向的                            | 🧘        | chunks=['in', 'tro', 'vert', 'ed'] | py=ㄧㄣ-ㄊㄌㄛ-ㄈㄜㄊ-ㄝㄉ | theme=personality | stage=3
+ 3106 | extroverted                    | 外向的                            | 🥳        | chunks=['ex', 'tro', 'vert', 'ed'] | py=ㄝㄎㄙ-ㄊㄌㄛ-ㄈㄜㄊ-ㄝㄉ | theme=personality | stage=3
+ 3107 | unfriendly                     | 不友善                            | 😒        | chunks=['un', 'friend', 'ly'] | py=ㄚㄣ-ㄈㄌㄝㄣ-ㄌㄧ | theme=personality | stage=1
+ 3108 | hostile                        | 有敵意的                           | 😡        | chunks=['hos', 'tile'] | py=ㄏㄚㄙ-ㄊㄜ | theme=personality | stage=3
+ 3109 | distant                        | 冷淡的                            | 🧊        | chunks=['dis', 'tant'] | py=ㄉㄧㄙ-ㄊㄣㄊ | theme=personality | stage=2
+ 3110 | aloof                          | 高傲的                            | 🙅        | chunks=['a', 'loof'] | py=ㄚ-ㄌㄨㄈ | theme=personality | stage=3
+ 3111 | dishonest                      | 不誠實                            | 🤥        | chunks=['dis', 'hon', 'est'] | py=ㄉㄧㄙ-ㄚ-ㄋㄝㄙㄊ | theme=personality | stage=2 base=honest
+ 3112 | sincere                        | 真誠的                            | 💗        | chunks=['sin', 'cere'] | py=ㄒㄧㄣ-ㄒㄧㄦ | theme=personality | stage=2
+ 3113 | candid                         | 坦率的                            | 💬        | chunks=['can', 'did'] | py=ㄎㄢ-ㄉㄧㄉ | theme=personality | stage=3
+ 3114 | blunt                          | 直白的                            | 💬        | chunks=['bl', 'unt'] | py=ㄅㄌㄚㄣㄊ | theme=personality | stage=2 [有易混提示]
+ 3115 | tactful                        | 圓融                             | 🤝        | chunks=['tact', 'ful'] | py=ㄊㄚㄎㄊ-ㄈㄜ | theme=personality | stage=4 base=tact
+ 3116 | diplomatic                     | 圓滑的                            | 🤝        | chunks=['dip', 'lo', 'mat', 'ic'] | py=ㄉㄧ-ㄆㄌㄜ-ㄇㄚ-ㄊㄧㄎ | theme=personality | stage=3
+ 3117 | loyal                          | 忠誠的                            | 🐕        | chunks=['loy', 'al'] | py=ㄌㄛㄧ-ㄦ | theme=personality | stage=1
+ 3118 | faithful                       | 忠實的                            | 💍        | chunks=['faith', 'ful'] | py=ㄈㄝㄒ-ㄈㄜ | theme=personality | stage=2 base=faith
+ 3119 | reliable                       | 可靠的                            | 💪        | chunks=['re', 'li', 'a', 'ble'] | py=ㄌㄧ-ㄌㄞ-ㄜ-ㄅㄜ | theme=personality | stage=1
+ 3120 | dependable                     | 可信賴                            | 💪        | chunks=['de', 'pen', 'da', 'ble'] | py=ㄉㄧ-ㄆㄣ-ㄉㄜ-ㄅㄜ | theme=personality | stage=2 base=depend
+ 3121 | trustworthy                    | 值得信賴                           | 🤝        | chunks=['trust', 'wor', 'thy'] | py=ㄊㄌㄚㄙㄊ-ㄨㄜ-ㄒㄧ | theme=personality | stage=2
+ 3122 | optimistic                     | 樂觀的                            | 😊        | chunks=['op', 'ti', 'mis', 'tic'] | py=ㄚㄆ-ㄊㄜ-ㄇㄧㄙ-ㄊㄧㄎ | theme=personality | stage=2
+ 3123 | pessimistic                    | 悲觀的                            | 😔        | chunks=['pes', 'si', 'mis', 'tic'] | py=ㄆㄝ-ㄙㄜ-ㄇㄧㄙ-ㄊㄧㄎ | theme=personality | stage=2
+ 3124 | realistic                      | 務實的、現實的                        | 💯        | chunks=['re', 'al', 'is', 'tic'] | py=ㄌㄧ-ㄜ-ㄌㄧㄙ-ㄊㄧㄎ | theme=personality | stage=1
+ 3125 | idealistic                     | 理想主義的                          | 💭        | chunks=['i', 'de', 'al', 'is', 'tic'] | py=ㄞ-ㄉㄧ-ㄜ-ㄌㄧㄙ-ㄊㄧㄎ | theme=personality | stage=3
+ 3126 | cynical                        | 憤世嫉俗                           | 😒        | chunks=['cyn', 'i', 'cal'] | py=ㄒㄧ-ㄋㄜ-ㄎㄜ | theme=personality | stage=3
+ 3127 | skeptical                      | 多疑的                            | 🤨        | chunks=['skep', 'ti', 'cal'] | py=ㄙㄎㄝㄆ-ㄊㄜ-ㄎㄜ | theme=personality | stage=3
+ 3128 | creative                       | 有創意                            | 🎨        | chunks=['cre', 'a', 'tive'] | py=ㄎㄌㄧ-ㄝ-ㄊㄧㄈ | theme=personality | stage=1 base=create
+ 3129 | imaginative                    | 有想像力                           | 💭        | chunks=['i', 'mag', 'i', 'na', 'tive'] | py=ㄧ-ㄇㄚ-ㄐㄜ-ㄋㄜ-ㄊㄧㄈ | theme=personality | stage=2
+ 3130 | innovative                     | 創新的                            | 💡        | chunks=['in', 'no', 'va', 'tive'] | py=ㄧ-ㄋㄛ-ㄈㄝ-ㄊㄧㄈ | theme=personality | stage=2 base=innovate
+ 3131 | artistic                       | 藝術的                            | 🎨        | chunks=['ar', 'tis', 'tic'] | py=ㄚㄦ-ㄊㄧㄙ-ㄊㄧㄎ | theme=personality | stage=1
+ 3132 | original                       | 原創                             | ⭐        | chunks=['o', 'rig', 'i', 'nal'] | py=ㄜ-ㄌㄧ-ㄐㄜ-ㄋㄦ | theme=personality | stage=1 base=origin [有易混提示]
+ 3133 | arrogant                       | 自大的                            | 🦚        | chunks=['ar', 'ro', 'gant'] | py=ㄝ-ㄌㄜ-ㄍㄣㄊ | theme=personality | stage=2
+ 3134 | humble                         | 謙虛的                            | 🙏        | chunks=['hum', 'ble'] | py=ㄏㄚㄇ-ㄅㄜ | theme=personality | stage=2
+ 3135 | modest                         | 謙虛的                            | 🙏        | chunks=['mod', 'est'] | py=ㄇㄚ-ㄉㄝㄙㄊ | theme=personality | stage=2 [有易混提示]
+ 3136 | conceited                      | 自負的                            | 😏        | chunks=['con', 'ceit', 'ed'] | py=ㄎㄢ-ㄒㄧㄊ-ㄝㄉ | theme=personality | stage=3
+ 3137 | vain                           | 虛榮的                            | 💄        | chunks=['v', 'ain'] | py=ㄈㄟㄣ | theme=personality | stage=2 [有易混提示]
+ 3138 | pretentious                    | 做作的                            | 🎭        | chunks=['pre', 'ten', 'tious'] | py=ㄆㄌㄧ-ㄊㄣ-ㄒㄚㄙ | theme=personality | stage=3
+ 3139 | generous                       | 慷慨的                            | 🎁        | chunks=['gen', 'er', 'ous'] | py=ㄐㄣ-ㄋㄜ-ㄚㄙ | theme=personality | stage=1
+ 3140 | stingy                         | 小氣的                            | 🤏        | chunks=['stin', 'gy'] | py=ㄙㄉㄧㄣ-ㄐㄧ | theme=personality | stage=2
+ 3141 | selfish                        | 自私的                            | 😒        | chunks=['self', 'ish'] | py=ㄙㄝㄦㄈ-ㄧㄒ | theme=personality | stage=1
+ 3142 | selfless                       | 無私的                            | 🤲        | chunks=['self', 'less'] | py=ㄙㄝㄦㄈ-ㄌㄝㄙ | theme=personality | stage=2 base=self
+ 3143 | charitable                     | 樂善好施的                          | ❤️       | chunks=['char', 'i', 'ta', 'ble'] | py=ㄑㄝ-ㄌㄜ-ㄊㄜ-ㄅㄜ | theme=personality | stage=3
+ 3144 | impatient                      | 沒耐心                            | 😤        | chunks=['im', 'pa', 'tient'] | py=ㄧㄇ-ㄆㄟ-ㄒㄣㄊ | theme=personality | stage=2 base=patient
+ 3145 | emotional                      | 情緒化                            | 😭        | chunks=['e', 'mo', 'tion', 'al'] | py=ㄧ-ㄇㄛ-ㄒㄣ-ㄦ | theme=personality | stage=2 base=emotion
+ 3146 | sensitive                      | 敏感的                            | 💖        | chunks=['sen', 'si', 'tive'] | py=ㄙㄝㄣ-ㄙㄜ-ㄊㄧㄈ | theme=personality | stage=1 [有易混提示]
+ 3147 | sentimental                    | 多愁善感                           | 💗        | chunks=['sen', 'ti', 'men', 'tal'] | py=ㄙㄝㄣ-ㄊㄜ-ㄇㄣ-ㄉㄜ | theme=personality | stage=2 base=sentiment
+ 3148 | romantic                       | 浪漫的                            | 💕        | chunks=['ro', 'man', 'tic'] | py=ㄌㄛ-ㄇㄢ-ㄊㄧㄎ | theme=personality | stage=1 base=romance
+ 3149 | practical                      | 務實的                            | 🔧        | chunks=['prac', 'ti', 'cal'] | py=ㄆㄌㄚㄎ-ㄊㄜ-ㄎㄜ | theme=personality | stage=2 base=practice
+ 3150 | logical                        | 有邏輯                            | 🧠        | chunks=['log', 'i', 'cal'] | py=ㄌㄚ-ㄐㄜ-ㄎㄜ | theme=personality | stage=1 base=logic
+ 3151 | rational                       | 理性的                            | 🧠        | chunks=['ra', 'tion', 'al'] | py=ㄌㄚ-ㄒㄣ-ㄦ | theme=personality | stage=2 [有易混提示]
+ 3152 | irrational                     | 非理性                            | 🌀        | chunks=['ir', 'ra', 'tion', 'al'] | py=ㄧ-ㄌㄚ-ㄒㄣ-ㄦ | theme=personality | stage=3 base=rational
+ 3153 | spontaneous                    | 自發                             | 🎉        | chunks=['spon', 'ta', 'ne', 'ous'] | py=ㄙㄆㄢ-ㄊㄝ-ㄋㄧ-ㄚㄙ | theme=personality | stage=3
+ 3154 | impulsive                      | 衝動的                            | 💥        | chunks=['im', 'pul', 'sive'] | py=ㄧㄇ-ㄆㄚㄦ-ㄒㄧㄈ | theme=personality | stage=2 base=impulse
+ 3155 | reckless                       | 魯莽的                            | 💥        | chunks=['reck', 'less'] | py=ㄌㄝㄎ-ㄌㄝㄙ | theme=personality | stage=3
+ 3156 | cautious                       | 謹慎的                            | ⚠️       | chunks=['cau', 'tious'] | py=ㄎㄛ-ㄒㄚㄙ | theme=personality | stage=2 base=caution
+ 3157 | careful                        | 小心                             | ⚠️       | chunks=['care', 'ful'] | py=ㄎㄝㄜ-ㄈㄜ | theme=personality | stage=0 base=care
+ 3158 | childish                       | 幼稚                             | 👶        | chunks=['child', 'ish'] | py=ㄑㄞㄦㄉ-ㄧㄒ | theme=personality | stage=1 base=child
+ 3159 | immature                       | 不成熟                            | 👶        | chunks=['im', 'ma', 'ture'] | py=ㄧ-ㄇㄚ-ㄑㄜ | theme=personality | stage=2 base=mature
+ 3160 | naive                          | 天真的                            | 👶        | chunks=['na', 'ive'] | py=ㄋㄚ-ㄧㄈ | theme=personality | stage=2
+ 3161 | gullible                       | 易上當                            | 🤡        | chunks=['gul', 'li', 'ble'] | py=ㄍㄚ-ㄌㄜ-ㄅㄜ | theme=personality | stage=3
+ 3162 | witty                          | 機智的                            | 🧠        | chunks=['wit', 'ty'] | py=ㄨㄧ-ㄊㄧ | theme=personality | stage=2
+ 3163 | sarcastic                      | 愛諷刺的                           | 😏        | chunks=['sar', 'cas', 'tic'] | py=ㄙㄚㄦ-ㄎㄚㄙ-ㄊㄧㄎ | theme=personality | stage=3
+ 3164 | humorous                       | 幽默的                            | 😂        | chunks=['hu', 'mor', 'ous'] | py=ㄏㄧㄨ-ㄇㄜ-ㄚㄙ | theme=personality | stage=1 base=humor
+ 3165 | talkative                      | 愛說話                            | 💬        | chunks=['talk', 'a', 'tive'] | py=ㄊㄛㄎ-ㄜ-ㄊㄧㄈ | theme=personality | stage=1 base=talk
+ 3166 | chatty                         | 愛聊天                            | 💬        | chunks=['chat', 'ty'] | py=ㄑㄚ-ㄊㄧ | theme=personality | stage=2
+ 3167 | eloquent                       | 口才好                            | 🗣️       | chunks=['el', 'o', 'quent'] | py=ㄝ-ㄌㄜ-ㄎㄨㄣㄊ | theme=personality | stage=3
+ 3168 | articulate                     | 表達清楚                           | 🗣️       | chunks=['ar', 'tic', 'u', 'late'] | py=ㄚㄦ-ㄊㄧㄎ-ㄐㄜ-ㄌㄝㄊ | theme=personality | stage=2
+ 3169 | moody                          | 情緒化                            | 🎭        | chunks=['moo', 'dy'] | py=ㄇㄨ-ㄉㄧ | theme=personality | stage=2
+ 3170 | temperamental                  | 喜怒無常                           | 🌪️       | chunks=['tem', 'per', 'a', 'men', 'tal'] | py=ㄊㄣ-ㄆㄜ-ㄜ-ㄇㄣ-ㄉㄜ | theme=personality | stage=4 base=temperament
+ 3171 | adventurous                    | 愛冒險                            | 🏔️       | chunks=['ad', 'ven', 'tur', 'ous'] | py=ㄚㄉ-ㄈㄣ-ㄑㄜ-ㄚㄙ | theme=personality | stage=2 base=adventure
+ 3172 | daring                         | 大膽的                            | 🦁        | chunks=['dar', 'ing'] | py=ㄉㄝㄜ-ㄧㄥ | theme=personality | stage=2 base=dare
+ 3173 | bold                           | 勇敢                             | 💪        | chunks=['b', 'old'] | py=ㄅㄛㄦㄉ | theme=personality | stage=1 [有易混提示]
+ 3174 | timid                          | 膽小                             | 🐭        | chunks=['tim', 'id'] | py=ㄊㄧ-ㄇㄝㄉ | theme=personality | stage=2
+ 3175 | cowardly                       | 懦弱                             | 🐔        | chunks=['cow', 'ard', 'ly'] | py=ㄎㄠ-ㄜㄉ-ㄌㄧ | theme=personality | stage=2 base=coward
+ 3176 | warmhearted                    | 熱心                             | 💗        | chunks=['warm', 'heart', 'ed'] | py=ㄨㄛㄦㄇ-ㄏㄚㄦㄊ-ㄝㄉ | theme=personality | stage=3
+ 3177 | friendship                     | 友誼                             | 🤝        | chunks=['friend', 'ship'] | py=ㄈㄌㄝㄣ-ㄒㄧㄆ | theme=relationships | stage=1
+ 3178 | romance                        | 愛情                             | 💕        | chunks=['ro', 'mance'] | py=ㄌㄛ-ㄇㄢㄙ | theme=relationships | stage=1
+ 3179 | dating                         | 約會                             | 💑        | chunks=['dat', 'ing'] | py=ㄉㄝ-ㄊㄧㄥ | theme=relationships | stage=1 base=date
+ 3180 | breakup                        | 分手                             | 💔        | chunks=['break', 'up'] | py=ㄅㄌㄝㄎ-ㄚㄆ | theme=relationships | stage=1
+ 3181 | engagement                     | 訂婚                             | 💍        | chunks=['en', 'gage', 'ment'] | py=ㄣ-ㄍㄝㄐ-ㄇㄣㄊ | theme=relationships | stage=2 base=engage
+ 3182 | proposal                       | 求婚                             | 💍        | chunks=['pro', 'pos', 'al'] | py=ㄆㄜ-ㄆㄛㄗ-ㄦ | theme=relationships | stage=2 base=propose
+ 3183 | propose                        | 求婚                             | 💍        | chunks=['pro', 'pose'] | py=ㄆㄜ-ㄆㄛㄗ | theme=relationships | stage=2
+ 3184 | infatuation                    | 迷戀                             | 💘        | chunks=['in', 'fat', 'u', 'a', 'tion'] | py=ㄧㄣ-ㄈㄚ-ㄐㄜ-ㄝ-ㄒㄣ | theme=relationships | stage=4
+ 3185 | flirt                          | 調情                             | 😘        | chunks=['fl', 'irt'] | py=ㄈㄌㄜㄊ | theme=relationships | stage=2
+ 3186 | flirting                       | 調情                             | 😘        | chunks=['flirt', 'ing'] | py=ㄈㄌㄜㄊ-ㄧㄥ | theme=relationships | stage=2 base=flirt
+ 3187 | courtship                      | 求愛                             | 💕        | chunks=['court', 'ship'] | py=ㄎㄛㄦㄊ-ㄒㄧㄆ | theme=relationships | stage=3
+ 3188 | soulmate                       | 靈魂伴侶                           | 💞        | chunks=['soul', 'mate'] | py=ㄙㄛㄦ-ㄇㄝㄊ | theme=relationships | stage=2 [有易混提示]
+ 3189 | taken                          | 有對象                            | 💑        | chunks=['ta', 'ken'] | py=ㄊㄝ-ㄎㄣ | theme=relationships | stage=2 base=take
+ 3190 | available                      | 單身                             | 🙋        | chunks=['a', 'vail', 'a', 'ble'] | py=ㄚ-ㄈㄝㄦ-ㄜ-ㄅㄜ | theme=relationships | stage=2
+ 3191 | committed                      | 專一                             | 💍        | chunks=['com', 'mit', 'ted'] | py=ㄎㄜ-ㄇㄧ-ㄉㄝㄉ | theme=relationships | stage=2 base=commit
+ 3192 | cheating                       | 劈腿                             | 💔        | chunks=['cheat', 'ing'] | py=ㄑㄧㄊ-ㄧㄥ | theme=relationships | stage=2 base=cheat
+ 3193 | affair                         | 外遇                             | 💔        | chunks=['af', 'fair'] | py=ㄚ-ㄈㄝㄜ | theme=relationships | stage=2
+ 3194 | infidelity                     | 不忠                             | 💔        | chunks=['in', 'fi', 'del', 'i', 'ty'] | py=ㄧㄣ-ㄈㄜ-ㄉㄝ-ㄌㄜ-ㄊㄧ | theme=relationships | stage=4
+ 3195 | communication                  | 溝通                             | 💬        | chunks=['com', 'mu', 'ni', 'ca', 'tion'] | py=ㄎㄜ-ㄇㄧㄨ-ㄋㄜ-ㄎㄝ-ㄒㄣ | theme=relationships | stage=1 base=communicate
+ 3196 | intimacy                       | 親密                             | 💞        | chunks=['in', 'ti', 'ma', 'cy'] | py=ㄧㄣ-ㄊㄜ-ㄇㄜ-ㄒㄧ | theme=relationships | stage=3
+ 3197 | vulnerability                  | 脆弱                             | 💔        | chunks=['vul', 'ner', 'a', 'bil', 'i', 'ty'] | py=ㄈㄚㄦ-ㄋㄜ-ㄜ-ㄅㄧ-ㄌㄜ-ㄊㄧ | theme=relationships | stage=2
+ 3198 | compatibility                  | 契合                             | 💕        | chunks=['com', 'pat', 'i', 'bil', 'i', 'ty'] | py=ㄎㄜㄇ-ㄆㄚ-ㄊㄜ-ㄅㄧ-ㄌㄜ-ㄊㄧ | theme=relationships | stage=2
+ 3199 | argument                       | 爭吵                             | 😡        | chunks=['ar', 'gu', 'ment'] | py=ㄚㄦ-ㄐㄧㄨ-ㄇㄣㄊ | theme=relationships | stage=1 base=argue
+ 3200 | quarrel                        | 爭吵                             | 😡        | chunks=['quar', 'rel'] | py=ㄎㄨㄛ-ㄌㄜ | theme=relationships | stage=2
+ 3201 | conflict                       | 衝突                             | ⚔️       | chunks=['con', 'flict'] | py=ㄎㄚㄣ-ㄈㄌㄧㄎㄊ | theme=relationships | stage=1
+ 3202 | disagreement                   | 意見不合                           | ❌        | chunks=['dis', 'a', 'gree', 'ment'] | py=ㄉㄧㄙ-ㄜ-ㄍㄌㄧ-ㄇㄣㄊ | theme=relationships | stage=2
+ 3203 | dispute                        | 爭執                             | ⚖️       | chunks=['dis', 'pute'] | py=ㄉㄧㄙ-ㄆㄧㄨㄊ | theme=relationships | stage=2
+ 3204 | reconcile                      | 和解                             | 🤝        | chunks=['rec', 'on', 'cile'] | py=ㄌㄝ-ㄎㄣ-ㄙㄞㄦ | theme=relationships | stage=2
+ 3205 | apologize                      | 道歉                             | 🙏        | chunks=['a', 'pol', 'o', 'gize'] | py=ㄚ-ㄆㄚ-ㄌㄜ-ㄐㄞㄗ | theme=relationships | stage=1
+ 3206 | apology                        | 道歉                             | 🙏        | chunks=['a', 'pol', 'o', 'gy'] | py=ㄚ-ㄆㄚ-ㄌㄜ-ㄐㄧ | theme=relationships | stage=2
+ 3207 | forgive                        | 原諒                             | 🙏        | chunks=['for', 'give'] | py=ㄈㄜ-ㄍㄧㄈ | theme=relationships | stage=1
+ 3208 | forgiveness                    | 原諒                             | 🤗        | chunks=['for', 'give', 'ness'] | py=ㄈㄜ-ㄍㄧㄈ-ㄋㄝㄙ | theme=relationships | stage=2 base=forgive
+ 3209 | support                        | 支持                             | 🤝        | chunks=['sup', 'port'] | py=ㄙㄜ-ㄆㄛㄦㄊ | theme=relationships | stage=1
+ 3210 | comfort                        | 安慰                             | 🤗        | chunks=['com', 'fort'] | py=ㄎㄚㄇ-ㄈㄜㄊ | theme=relationships | stage=1
+ 3211 | companionship                  | 陪伴                             | 👫        | chunks=['com', 'pan', 'ion', 'ship'] | py=ㄎㄚㄇ-ㄆㄢ-ㄧㄢ-ㄒㄧㄆ | theme=relationships | stage=3
+ 3212 | connection                     | 連結                             | 🔗        | chunks=['con', 'nec', 'tion'] | py=ㄎㄜ-ㄋㄝㄎ-ㄒㄣ | theme=relationships | stage=1
+ 3213 | colleague                      | 同事                             | 🧑‍💼      | chunks=['col', 'league'] | py=ㄎㄚ-ㄌㄧㄍ | theme=relationships | stage=1
+ 3214 | peer                           | 同儕                             | 👥        | chunks=['p', 'eer'] | py=ㄆㄧㄦ | theme=relationships | stage=2 [有易混提示]
+ 3215 | contact                        | 聯絡                             | 📞        | chunks=['con', 'tact'] | py=ㄎㄚㄣ-ㄊㄚㄎㄊ | theme=relationships | stage=1
+ 3216 | gossip                         | 八卦                             | 💬        | chunks=['gos', 'sip'] | py=ㄍㄚ-ㄒㄧㄆ | theme=relationships | stage=2
+ 3217 | rumor                          | 謠言                             | 💬        | chunks=['ru', 'mor'] | py=ㄌㄨ-ㄇㄜ | theme=relationships | stage=2
+ 3218 | drama                          | 八點檔糾紛、戲劇化衝突                    | 🎭        | chunks=['dra', 'ma'] | py=ㄉㄌㄚ-ㄇㄚ | theme=relationships | stage=1
+ 3219 | mentor                         | 導師                             | 🧑‍🏫      | chunks=['men', 'tor'] | py=ㄇㄣ-ㄊㄜ | theme=relationships | stage=2
+ 3220 | mentee                         | 學員                             | 🧑‍🎓      | chunks=['men', 'tee'] | py=ㄇㄣ-ㄊㄧ | theme=relationships | stage=3
+ 3221 | idol                           | 偶像                             | ⭐        | chunks=['i', 'dol'] | py=ㄞ-ㄉㄜ | theme=relationships | stage=1 [有易混提示]
+ 3222 | dislike                        | 討厭                             | 👎        | chunks=['dis', 'like'] | py=ㄉㄧㄙ-ㄌㄞㄎ | theme=relationships | stage=1
+ 3223 | adore                          | 愛慕                             | 😍        | chunks=['a', 'dore'] | py=ㄚ-ㄉㄛㄦ | theme=relationships | stage=2
+ 3224 | cherish                        | 珍惜                             | 💖        | chunks=['cher', 'ish'] | py=ㄑㄝ-ㄌㄧㄒ | theme=relationships | stage=2
+ 3225 | treasure                       | 珍視                             | 💎        | chunks=['treas', 'ure'] | py=ㄊㄌㄝ-ㄒㄜ | theme=relationships | stage=2
+ 3226 | despise                        | 鄙視                             | 😒        | chunks=['de', 'spise'] | py=ㄉㄧ-ㄙㄆㄞㄗ | theme=relationships | stage=2
+ 3227 | loathe                         | 厭惡                             | 🤢        | chunks=['l', 'oathe'] | py=ㄌㄛㄗ | theme=relationships | stage=4
+ 3228 | detest                         | 憎恨                             | 😡        | chunks=['de', 'test'] | py=ㄉㄧ-ㄊㄝㄙㄊ | theme=relationships | stage=3
+ 3229 | fight                          | 打架                             | 🥊        | chunks=['f', 'ight'] | py=ㄈㄞㄊ | theme=relationships | stage=0 [有易混提示]
+ 3230 | attachment                     | 依戀                             | 🔗        | chunks=['at', 'tach', 'ment'] | py=ㄚ-ㄊㄚㄑ-ㄇㄣㄊ | theme=relationships | stage=2 base=attach
+ 3231 | chemistry                      | 化學反應                           | 💞        | chunks=['chem', 'is', 'try'] | py=ㄎㄝ-ㄇㄜ-ㄙㄉㄌㄧ | theme=relationships | stage=2 [有易混提示]
+ 3232 | hookup                         | 一夜情、隨意性愛                       | 🌙        | chunks=['hook', 'up'] | py=ㄏㄨㄎ-ㄚㄆ | theme=relationships | stage=3
+ 3233 | fling                          | 短暫戀情                           | 💔        | chunks=['fl', 'ing'] | py=ㄈㄌㄧㄥ | theme=relationships | stage=3
+ 3234 | ally                           | 盟友                             | 🤝        | chunks=['al', 'ly'] | py=ㄚ-ㄌㄞ | theme=relationships | stage=2 [有易混提示]
+ 3235 | opponent                       | 對手                             | ⚔️       | chunks=['op', 'po', 'nent'] | py=ㄜ-ㄆㄛ-ㄋㄣㄊ | theme=relationships | stage=2 base=oppose
+ 3236 | foe                            | 敵人                             | ⚔️       | chunks=['f', 'oe'] | py=ㄈㄛ | theme=relationships | stage=3 [有易混提示]
+ 3237 | alliance                       | 聯盟                             | 🤝        | chunks=['al', 'li', 'ance'] | py=ㄚ-ㄌㄞ-ㄢㄙ | theme=relationships | stage=2
+ 3238 | kinship                        | 親屬關係                           | 👨‍👩‍👧    | chunks=['kin', 'ship'] | py=ㄎㄧㄣ-ㄒㄧㄆ | theme=relationships | stage=4
+ 3239 | brotherhood                    | 兄弟情                            | 👬        | chunks=['broth', 'er', 'hood'] | py=ㄅㄌㄚ-ㄉㄜ-ㄏㄨㄉ | theme=relationships | stage=3
+ 3240 | sisterhood                     | 姐妹情                            | 👭        | chunks=['sis', 'ter', 'hood'] | py=ㄒㄧㄙ-ㄊㄜ-ㄏㄨㄉ | theme=relationships | stage=3
+ 3241 | fellowship                     | 友誼                             | 🤝        | chunks=['fel', 'low', 'ship'] | py=ㄈㄝ-ㄌㄛ-ㄒㄧㄆ | theme=relationships | stage=2
+ 3242 | partnership                    | 合夥                             | 🤝        | chunks=['part', 'ner', 'ship'] | py=ㄆㄚㄦㄊ-ㄋㄜ-ㄒㄧㄆ | theme=relationships | stage=2
+ 3243 | bromance                       | 兄弟情                            | 👬        | chunks=['bro', 'mance'] | py=ㄅㄌㄛ-ㄇㄢㄙ | theme=relationships | stage=3
+ 3244 | frenemy                        | 亦敵亦友                           | 😏        | chunks=['fren', 'e', 'my'] | py=ㄈㄌㄝㄣ-ㄋㄜ-ㄇㄧ | theme=relationships | stage=4
+ 3245 | bestie                         | 閨蜜                             | 💕        | chunks=['bes', 'tie'] | py=ㄅㄝㄙ-ㄊㄧ | theme=relationships | stage=2
+ 3246 | ghosting                       | 已讀不回                           | 🙊        | chunks=['ghost', 'ing'] | py=ㄍㄛㄙㄊ-ㄧㄥ | theme=relationships | stage=2 base=ghost
+ 3247 | ghost                          | 突然斷聯、鬼隱                        | 👻        | chunks=['gh', 'ost'] | py=ㄍㄛㄙㄊ | theme=relationships | stage=1 [有易混提示]
+ 3248 | reunion                        | 團聚                             | 🤗        | chunks=['re', 'un', 'ion'] | py=ㄌㄧ-ㄧㄨㄣ-ㄧㄢ | theme=relationships | stage=2 base=reunite
+ 3249 | reunite                        | 重聚                             | 🤗        | chunks=['re', 'u', 'nite'] | py=ㄌㄧ-ㄧㄨ-ㄋㄞㄊ | theme=relationships | stage=3
+ 3250 | separate                       | 分開                             | ↔️       | chunks=['sep', 'a', 'rate'] | py=ㄙㄝ-ㄆㄜ-ㄌㄝㄊ | theme=relationships | stage=1 [有易混提示]
+ 3251 | embrace                        | 擁抱                             | 🤗        | chunks=['em', 'brace'] | py=ㄝㄇ-ㄅㄌㄝㄙ | theme=relationships | stage=2 [有易混提示]
+ 3252 | hug                            | 抱                              | 🤗        | chunks=['h', 'ug'] | py=ㄏㄚㄍ | theme=relationships | stage=0
+ 3253 | kiss                           | 親吻                             | 💋        | chunks=['k', 'iss'] | py=ㄎㄧㄙ | theme=relationships | stage=0
+ 3254 | cuddle                         | 依偎                             | 🤗        | chunks=['cud', 'dle'] | py=ㄎㄚ-ㄉㄜ | theme=relationships | stage=2
+ 3255 | betrayal                       | 背叛                             | 💔        | chunks=['be', 'tray', 'al'] | py=ㄅㄧ-ㄊㄌㄝ-ㄦ | theme=relationships | stage=2 base=betray
+ 3256 | devotion                       | 奉獻                             | 💞        | chunks=['de', 'vo', 'tion'] | py=ㄉㄧ-ㄈㄛ-ㄒㄣ | theme=relationships | stage=3 base=devote
+ 3257 | affection                      | 喜愛                             | 💗        | chunks=['af', 'fec', 'tion'] | py=ㄚ-ㄈㄝㄎ-ㄒㄣ | theme=relationships | stage=1
+ 3258 | plush                          | 絨毛玩具                           | 🧸        | chunks=['pl', 'ush'] | py=ㄆㄌㄚㄒ | theme=toys | stage=1
+ 3259 | figurine                       | 小雕像                            | 🗿        | chunks=['fig', 'u', 'rine'] | py=ㄈㄧ-ㄐㄜ-ㄌㄧㄣ | theme=toys | stage=3
+ 3260 | dollhouse                      | 娃娃屋                            | 🏠        | chunks=['doll', 'house'] | py=ㄉㄚㄦ-ㄏㄠㄙ | theme=toys | stage=1
+ 3261 | marble                         | 彈珠、大理石                         | ⚪        | chunks=['mar', 'ble'] | py=ㄇㄚㄦ-ㄅㄜ | theme=toys | stage=1 [有易混提示]
+ 3262 | spinningtop                    | 陀螺                             | 🌀        | chunks=['spin', 'ning', 'top'] | py=ㄙㄆㄧㄣ-ㄋㄧㄥ-ㄊㄚㄆ | theme=toys | stage=2
+ 3263 | slinky                         | 彈簧玩具                           | 🌀        | chunks=['slin', 'ky'] | py=ㄙㄌㄧㄣ-ㄎㄧ | theme=toys | stage=3
+ 3264 | frisbee                        | 飛盤                             | 🥏        | chunks=['fris', 'bee'] | py=ㄈㄌㄧㄗ-ㄅㄧ | theme=toys | stage=1
+ 3265 | trampoline                     | 彈跳床                            | 🤸        | chunks=['tram', 'po', 'line'] | py=ㄊㄌㄚㄇ-ㄆㄜ-ㄌㄧㄣ | theme=toys | stage=2
+ 3266 | swing                          | 鞦韆                             | 🎢        | chunks=['sw', 'ing'] | py=ㄙㄨㄧㄥ | theme=toys | stage=0 [有易混提示]
+ 3267 | slide                          | 溜滑梯                            | 🛝        | chunks=['sl', 'ide'] | py=ㄙㄌㄞㄉ | theme=toys | stage=0 [有易混提示]
+ 3268 | seesaw                         | 翹翹板                            | ⚖️       | chunks=['see', 'saw'] | py=ㄒㄧ-ㄙㄛ | theme=toys | stage=1
+ 3269 | sandbox                        | 沙坑                             | 🏖️       | chunks=['sand', 'box'] | py=ㄙㄚㄣㄉ-ㄅㄚㄎㄙ | theme=toys | stage=1
+ 3270 | sandcastle                     | 沙堡                             | 🏰        | chunks=['sand', 'cas', 'tle'] | py=ㄙㄚㄣㄉ-ㄎㄚㄙ-ㄜ | theme=toys | stage=2
+ 3271 | pinwheel                       | 風車                             | 🎡        | chunks=['pin', 'wheel'] | py=ㄆㄧㄣ-ㄨㄧㄦ | theme=toys | stage=2
+ 3272 | squirtgun                      | 水槍                             | 🔫        | chunks=['squirt', 'gun'] | py=ㄙㄎㄨㄜㄊ-ㄍㄚㄣ | theme=toys | stage=2
+ 3273 | lego                           | 樂高                             | 🧱        | chunks=['le', 'go'] | py=ㄌㄝ-ㄍㄛ | theme=toys | stage=1
+ 3274 | mecha                          | 機甲                             | 🤖        | chunks=['me', 'cha'] | py=ㄇㄝ-ㄎㄚ | theme=toys | stage=4
+ 3275 | miniature                      | 迷你模型                           | 🚂        | chunks=['min', 'ia', 'ture'] | py=ㄇㄧ-ㄋㄧ-ㄑㄜ | theme=toys | stage=3
+ 3276 | playdough                      | 黏土玩具                           | 🧱        | chunks=['play', 'dough'] | py=ㄆㄌㄟ-ㄉㄛ | theme=toys | stage=1
+ 3277 | boardgame                      | 桌遊                             | 🎲        | chunks=['board', 'game'] | py=ㄅㄛㄦㄉ-ㄍㄝㄇ | theme=toys | stage=1
+ 3278 | cardgame                       | 紙牌遊戲                           | 🃏        | chunks=['card', 'game'] | py=ㄎㄚㄦㄉ-ㄍㄝㄇ | theme=toys | stage=1
+ 3279 | dice                           | 骰子                             | 🎲        | chunks=['d', 'ice'] | py=ㄉㄞㄙ | theme=toys | stage=1 [有易混提示]
+ 3280 | checkers                       | 西洋跳棋                           | ♟️       | chunks=['check', 'ers'] | py=ㄑㄝㄎ-ㄜㄗ | theme=toys | stage=2
+ 3281 | monopoly                       | 大富翁                            | 💰        | chunks=['mo', 'nop', 'o', 'ly'] | py=ㄇㄜ-ㄋㄚ-ㄆㄜ-ㄌㄧ | theme=toys | stage=2
+ 3282 | jigsaw                         | 拼圖                             | 🧩        | chunks=['jig', 'saw'] | py=ㄐㄧㄍ-ㄙㄛ | theme=toys | stage=2
+ 3283 | riddle                         | 謎語                             | 🤔        | chunks=['rid', 'dle'] | py=ㄌㄧ-ㄉㄜ | theme=toys | stage=2
+ 3284 | maze                           | 迷宮                             | 🌀        | chunks=['m', 'aze'] | py=ㄇㄝㄗ | theme=toys | stage=1 [有易混提示]
+ 3285 | labyrinth                      | 迷宮                             | 🌀        | chunks=['lab', 'y', 'rinth'] | py=ㄌㄚ-ㄜ-ㄌㄧㄣㄙ | theme=toys | stage=2
+ 3286 | plushie                        | 絨毛娃娃                           | 🧸        | chunks=['plush', 'ie'] | py=ㄆㄌㄚ-ㄒㄧ | theme=toys | stage=2
+ 3287 | mascot                         | 吉祥物                            | 🐻        | chunks=['mas', 'cot'] | py=ㄇㄚㄙ-ㄎㄚㄊ | theme=toys | stage=2
+ 3288 | bobblehead                     | 搖頭娃娃                           | 🪆        | chunks=['bob', 'ble', 'head'] | py=ㄅㄚ-ㄅㄜ-ㄏㄝㄉ | theme=toys | stage=3
+ 3289 | snowglobe                      | 水晶球                            | ❄️       | chunks=['snow', 'globe'] | py=ㄙㄋㄛ-ㄍㄌㄛㄅ | theme=toys | stage=2
+ 3290 | musicbox                       | 音樂盒                            | 🎵        | chunks=['mu', 'sic', 'box'] | py=ㄇㄧㄨ-ㄗㄧㄎ-ㄅㄚㄎㄙ | theme=toys | stage=1
+ 3291 | rubberduck                     | 橡皮鴨                            | 🦆        | chunks=['rub', 'ber', 'duck'] | py=ㄌㄚ-ㄅㄜ-ㄉㄚㄎ | theme=toys | stage=1
+ 3292 | rockinghorse                   | 搖搖馬                            | 🐎        | chunks=['rock', 'ing', 'horse'] | py=ㄌㄚㄎ-ㄧㄥ-ㄏㄛㄦㄙ | theme=toys | stage=2 [有易混提示]
+ 3293 | walker                         | 學步車                            | 🚶        | chunks=['wal', 'ker'] | py=ㄨㄛ-ㄎㄜ | theme=toys | stage=1 base=walk
+ 3294 | crib                           | 嬰兒床                            | 🛏️       | chunks=['cr', 'ib'] | py=ㄎㄌㄧㄅ | theme=toys | stage=1
+ 3295 | rattle                         | 搖鈴                             | 🪇        | chunks=['rat', 'tle'] | py=ㄌㄚ-ㄉㄜ | theme=toys | stage=1
+ 3296 | pacifier                       | 奶嘴                             | 👶        | chunks=['pa', 'ci', 'fi', 'er'] | py=ㄆㄚ-ㄒㄜ-ㄈㄞ-ㄜ | theme=toys | stage=2
+ 3297 | bib                            | 圍兜                             | 👶        | chunks=['b', 'ib'] | py=ㄅㄧㄅ | theme=toys | stage=1
+ 3298 | kaleidoscope                   | 萬花筒                            | 🌈        | chunks=['ka', 'lei', 'do', 'scope'] | py=ㄎㄜ-ㄌㄞ-ㄉㄜ-ㄙㄎㄛㄆ | theme=toys | stage=3
+ 3299 | prank                          | 惡作劇                            | 🎭        | chunks=['pr', 'ank'] | py=ㄆㄌㄚㄣㄎ | theme=toys | stage=2
+ 3300 | costume                        | 變裝                             | 👗        | chunks=['cos', 'tume'] | py=ㄎㄚㄙ-ㄊㄧㄨㄇ | theme=toys | stage=1
+ 3301 | cape                           | 披風                             | 🦸        | chunks=['c', 'ape'] | py=ㄎㄝㄆ | theme=toys | stage=2 [有易混提示]
+ 3302 | wand                           | 魔杖                             | 🪄        | chunks=['w', 'and'] | py=ㄨㄚㄣㄉ | theme=toys | stage=1
+ 3303 | sword                          | 劍                              | 🗡️       | chunks=['sw', 'ord'] | py=ㄙㄛㄦㄉ | theme=toys | stage=1 [有易混提示]
+ 3304 | dart                           | 飛鏢                             | 🎯        | chunks=['d', 'art'] | py=ㄉㄚㄦㄊ | theme=toys | stage=1 [有易混提示]
+ 3305 | yoyo                           | 溜溜球                            | 🪀        | chunks=['yo', 'yo'] | py=ㄧㄛ-ㄧㄛ | theme=toys | stage=1
+ 3306 | hopscotch                      | 跳房子                            | 🦘        | chunks=['hop', 'scotch'] | py=ㄏㄚㄆ-ㄙㄎㄚㄑ | theme=toys | stage=2
+ 3307 | jumprope                       | 跳繩                             | 🪢        | chunks=['jump', 'rope'] | py=ㄐㄚㄇㄆ-ㄌㄛㄆ | theme=toys | stage=1
+ 3308 | hideandseek                    | 捉迷藏                            | 🙈        | chunks=['hide', 'and', 'seek'] | py=ㄏㄞㄉ-ㄢㄉ-ㄒㄧㄎ | theme=toys | stage=2
+ 3309 | peekaboo                       | 躲貓貓                            | 🙈        | chunks=['peek', 'a', 'boo'] | py=ㄆㄧㄎ-ㄜ-ㄅㄨ | theme=toys | stage=2
+ 3310 | lookalike                      | 相像                             | 👯        | chunks=['look', 'a', 'like'] | py=ㄌㄨㄎ-ㄜ-ㄌㄞㄎ | theme=toys | stage=3
+ 3311 | bauble                         | 小飾品                            | 🎄        | chunks=['bau', 'ble'] | py=ㄅㄛ-ㄅㄜ | theme=toys | stage=3
+ 3312 | gizmo                          | 小玩意                            | 🔧        | chunks=['giz', 'mo'] | py=ㄐㄧㄗ-ㄇㄛ | theme=toys | stage=3
+ 3313 | knickknack                     | 小擺飾                            | 🪞        | chunks=['knick', 'knack'] | py=ㄋㄧㄎ-ㄋㄚㄎ | theme=toys | stage=3
+ 3314 | trinket                        | 小飾品                            | 💍        | chunks=['trin', 'ket'] | py=ㄊㄌㄧㄣ-ㄎㄝㄊ | theme=toys | stage=4
+ 3315 | novelty                        | 新奇、新奇感                         | 🎁        | chunks=['no', 'vel', 'ty'] | py=ㄋㄚ-ㄈㄜ-ㄊㄧ | theme=toys | stage=2 [有易混提示]
+ 3316 | plaything                      | 玩物                             | 🎲        | chunks=['play', 'thing'] | py=ㄆㄌㄟ-ㄒㄧㄥ | theme=toys | stage=2
+ 3317 | drawing                        | 圖畫                             | 🖼️       | chunks=['draw', 'ing'] | py=ㄉㄌㄛ-ㄧㄥ | theme=art | stage=1 base=draw
+ 3318 | sketch                         | 素描                             | ✏️       | chunks=['sk', 'etch'] | py=ㄙㄎㄝㄑ | theme=art | stage=1
+ 3319 | sculpture                      | 雕塑                             | 🗿        | chunks=['sculp', 'ture'] | py=ㄙㄎㄚㄦㄆ-ㄑㄜ | theme=art | stage=2
+ 3320 | statue                         | 雕像                             | 🗽        | chunks=['stat', 'ue'] | py=ㄙㄉㄚ-ㄑㄨ | theme=art | stage=1 [有易混提示]
+ 3321 | portrait                       | 肖像                             | 🖼️       | chunks=['por', 'trait'] | py=ㄆㄛㄦ-ㄊㄌㄝㄊ | theme=art | stage=2
+ 3322 | landscape                      | 風景畫                            | 🏞️       | chunks=['land', 'scape'] | py=ㄌㄢㄉ-ㄙㄎㄝㄆ | theme=art | stage=2
+ 3323 | mural                          | 壁畫                             | 🖼️       | chunks=['mu', 'ral'] | py=ㄇㄧㄨ-ㄦ | theme=art | stage=3
+ 3324 | fresco                         | 濕壁畫                            | 🖼️       | chunks=['fres', 'co'] | py=ㄈㄌㄝㄙ-ㄎㄛ | theme=art | stage=4
+ 3325 | photograph                     | 照片                             | 📷        | chunks=['pho', 'to', 'graph'] | py=ㄈㄛ-ㄊㄜ-ㄍㄌㄚㄈ | theme=art | stage=1
+ 3326 | photo                          | 照片                             | 📷        | chunks=['pho', 'to'] | py=ㄈㄛ-ㄊㄛ | theme=art | stage=0 [有易混提示]
+ 3327 | illustration                   | 插畫                             | 🖼️       | chunks=['il', 'lus', 'tra', 'tion'] | py=ㄧ-ㄌㄚㄙ-ㄊㄌㄝ-ㄒㄣ | theme=art | stage=2
+ 3328 | cartoon                        | 卡通                             | 📺        | chunks=['car', 'toon'] | py=ㄎㄚㄦ-ㄊㄨㄣ | theme=art | stage=0 [有易混提示]
+ 3329 | comic                          | 漫畫                             | 📚        | chunks=['com', 'ic'] | py=ㄎㄚ-ㄇㄧㄎ | theme=art | stage=1 [有易混提示]
+ 3330 | manga                          | 日本漫畫                           | 📚        | chunks=['man', 'ga'] | py=ㄇㄢ-ㄍㄚ | theme=art | stage=1
+ 3331 | anime                          | 動畫                             | 📺        | chunks=['an', 'i', 'me'] | py=ㄚ-ㄋㄜ-ㄇㄝ | theme=art | stage=1
+ 3332 | graffiti                       | 塗鴉                             | 🖌️       | chunks=['graf', 'fi', 'ti'] | py=ㄍㄌㄜ-ㄈㄧ-ㄊㄧ | theme=art | stage=2
+ 3333 | mosaic                         | 馬賽克                            | 🧩        | chunks=['mo', 'sa', 'ic'] | py=ㄇㄛ-ㄗㄝ-ㄧㄎ | theme=art | stage=3
+ 3334 | collage                        | 拼貼                             | 🖼️       | chunks=['col', 'lage'] | py=ㄎㄜ-ㄌㄚㄐ | theme=art | stage=3
+ 3335 | abstract                       | 抽象                             | 🎨        | chunks=['ab', 'stract'] | py=ㄚㄅ-ㄙㄉㄌㄚㄎㄊ | theme=art | stage=2 [有易混提示]
+ 3336 | realism                        | 寫實主義                           | 📷        | chunks=['re', 'al', 'ism'] | py=ㄌㄧ-ㄦ-ㄧㄗㄣ | theme=art | stage=3 base=real
+ 3337 | impressionism                  | 印象派                            | 🌅        | chunks=['im', 'pres', 'sion', 'ism'] | py=ㄧㄇ-ㄆㄌㄝ-ㄒㄣ-ㄧㄗㄣ | theme=art | stage=2
+ 3338 | expressionism                  | 表現主義                           | 😱        | chunks=['ex', 'pres', 'sion', 'ism'] | py=ㄧㄎ-ㄙㄆㄌㄝ-ㄒㄣ-ㄧㄗㄣ | theme=art | stage=3
+ 3339 | surrealism                     | 超現實                            | 🌀        | chunks=['sur', 're', 'al', 'ism'] | py=ㄙㄜ-ㄌㄧ-ㄦ-ㄧㄗㄣ | theme=art | stage=2
+ 3340 | cubism                         | 立體派                            | 🔷        | chunks=['cub', 'ism'] | py=ㄎㄧㄨ-ㄅㄧㄗㄣ | theme=art | stage=3
+ 3341 | exhibition                     | 展覽                             | 🖼️       | chunks=['ex', 'hi', 'bi', 'tion'] | py=ㄝㄎ-ㄙㄜ-ㄅㄧ-ㄒㄣ | theme=art | stage=2 [有易混提示]
+ 3342 | exhibit                        | 展覽                             | 🖼️       | chunks=['ex', 'hib', 'it'] | py=ㄧㄍ-ㄗㄜ-ㄅㄧㄊ | theme=art | stage=2
+ 3343 | masterpiece                    | 傑作                             | 🏆        | chunks=['mas', 'ter', 'piece'] | py=ㄇㄚㄙ-ㄊㄜ-ㄆㄧㄙ | theme=art | stage=2
+ 3344 | sculptor                       | 雕刻家                            | 🗿        | chunks=['sculp', 'tor'] | py=ㄙㄎㄚㄦㄆ-ㄊㄜ | theme=art | stage=3 base=sculpt
+ 3345 | illustrator                    | 插畫家                            | 🎨        | chunks=['il', 'lus', 'tra', 'tor'] | py=ㄧ-ㄌㄚㄙ-ㄊㄌㄝ-ㄊㄜ | theme=art | stage=2 base=illustrate
+ 3346 | animator                       | 動畫師                            | 🎬        | chunks=['an', 'i', 'ma', 'tor'] | py=ㄚ-ㄋㄜ-ㄇㄝ-ㄊㄜ | theme=art | stage=2 base=animate
+ 3347 | calligraphy                    | 書法                             | ✒️       | chunks=['cal', 'lig', 'ra', 'phy'] | py=ㄎㄜ-ㄌㄧ-ㄍㄌㄚ-ㄈㄧ | theme=art | stage=3
+ 3348 | calligrapher                   | 書法家                            | ✒️       | chunks=['cal', 'lig', 'ra', 'pher'] | py=ㄎㄜ-ㄌㄧ-ㄍㄌㄚ-ㄈㄜ | theme=art | stage=3
+ 3349 | origami                        | 摺紙                             | 📄        | chunks=['or', 'i', 'ga', 'mi'] | py=ㄛㄦ-ㄜ-ㄍㄚ-ㄇㄧ | theme=art | stage=1
+ 3350 | pottery                        | 陶藝                             | 🏺        | chunks=['pot', 'ter', 'y'] | py=ㄆㄚ-ㄊㄜ-ㄌㄧ | theme=art | stage=2
+ 3351 | ceramics                       | 陶瓷                             | 🏺        | chunks=['ce', 'ram', 'ics'] | py=ㄙㄜ-ㄌㄚ-ㄇㄧㄎㄙ | theme=art | stage=2
+ 3352 | paintbrush                     | 畫筆                             | 🖌️       | chunks=['paint', 'brush'] | py=ㄆㄟㄣㄊ-ㄅㄌㄚㄒ | theme=art | stage=1
+ 3353 | easel                          | 畫架                             | 🖼️       | chunks=['ea', 'sel'] | py=ㄧ-ㄗㄜ | theme=art | stage=2
+ 3354 | palette                        | 調色盤                            | 🎨        | chunks=['pal', 'ette'] | py=ㄆㄚ-ㄌㄝㄊ | theme=art | stage=2 [有易混提示]
+ 3355 | canvas                         | 畫布                             | 🖼️       | chunks=['can', 'vas'] | py=ㄎㄢ-ㄈㄜㄙ | theme=art | stage=2 [有易混提示]
+ 3356 | sketchbook                     | 素描本                            | 📓        | chunks=['sketch', 'book'] | py=ㄙㄎㄝㄑ-ㄅㄨㄎ | theme=art | stage=1
+ 3357 | ink                            | 墨水                             | 🖋️       | chunks=['i', 'nk'] | py=ㄧㄣㄎ | theme=art | stage=1 [有易混提示]
+ 3358 | watercolor                     | 水彩                             | 🎨        | chunks=['wa', 'ter', 'col', 'or'] | py=ㄨㄛ-ㄊㄜ-ㄎㄚ-ㄌㄜ | theme=art | stage=2
+ 3359 | oilpaint                       | 油畫                             | 🎨        | chunks=['oil', 'paint'] | py=ㄛㄧㄦ-ㄆㄟㄣㄊ | theme=art | stage=2
+ 3360 | acrylic                        | 壓克力                            | 🎨        | chunks=['a', 'cryl', 'ic'] | py=ㄚ-ㄎㄌㄧ-ㄌㄧㄎ | theme=art | stage=2
+ 3361 | pigment                        | 顏料                             | 🎨        | chunks=['pig', 'ment'] | py=ㄆㄧㄍ-ㄇㄣㄊ | theme=art | stage=3 base=pig
+ 3362 | varnish                        | 亮光漆                            | 🖌️       | chunks=['var', 'nish'] | py=ㄈㄚㄦ-ㄋㄧㄒ | theme=art | stage=3
+ 3363 | doodle                         | 塗鴉                             | ✏️       | chunks=['doo', 'dle'] | py=ㄉㄨ-ㄉㄜ | theme=art | stage=2
+ 3364 | design                         | 設計                             | 📐        | chunks=['de', 'sign'] | py=ㄉㄧ-ㄗㄞㄣ | theme=art | stage=1
+ 3365 | draft                          | 草稿、徵兵                          | 📝        | chunks=['dr', 'aft'] | py=ㄉㄌㄚㄈㄊ | theme=art | stage=2 [有易混提示]
+ 3366 | fingerpaint                    | 手指畫                            | 🎨        | chunks=['fin', 'ger', 'paint'] | py=ㄈㄧㄥ-ㄍㄜ-ㄆㄟㄣㄊ | theme=art | stage=1
+ 3367 | gardening                      | 園藝                             | 🌷        | chunks=['gar', 'den', 'ing'] | py=ㄍㄚㄦ-ㄉㄣ-ㄧㄥ | theme=hobbies | stage=1 base=garden
+ 3368 | knitting                       | 編織                             | 🧶        | chunks=['knit', 'ting'] | py=ㄋㄧ-ㄊㄧㄥ | theme=hobbies | stage=1 base=knit
+ 3369 | sewing                         | 縫紉                             | 🪡        | chunks=['sew', 'ing'] | py=ㄙㄛ-ㄧㄥ | theme=hobbies | stage=1 base=sew
+ 3370 | crocheting                     | 鉤針                             | 🧶        | chunks=['cro', 'chet', 'ing'] | py=ㄎㄌㄛ-ㄒㄝ-ㄧㄥ | theme=hobbies | stage=3
+ 3371 | embroidery                     | 刺繡                             | 🧵        | chunks=['em', 'broi', 'der', 'y'] | py=ㄝㄇ-ㄅㄌㄛㄧ-ㄉㄜ-ㄌㄧ | theme=hobbies | stage=3
+ 3372 | quilting                       | 拼布                             | 🪡        | chunks=['quilt', 'ing'] | py=ㄎㄨㄧㄦㄊ-ㄧㄥ | theme=hobbies | stage=3 base=quilt
+ 3373 | scrapbooking                   | 剪貼簿                            | 📔        | chunks=['scrap', 'book', 'ing'] | py=ㄙㄎㄌㄚㄆ-ㄅㄨㄎ-ㄧㄥ | theme=hobbies | stage=3 base=scrapbook
+ 3374 | journaling                     | 寫日記                            | 📔        | chunks=['jour', 'nal', 'ing'] | py=ㄐㄜ-ㄋㄦ-ㄧㄥ | theme=hobbies | stage=2 base=journal
+ 3375 | woodworking                    | 木工                             | 🪚        | chunks=['wood', 'work', 'ing'] | py=ㄨㄨㄉ-ㄨㄜㄎ-ㄧㄥ | theme=hobbies | stage=2
+ 3376 | crafting                       | 手作                             | ✂️       | chunks=['craft', 'ing'] | py=ㄎㄌㄚㄈㄊ-ㄧㄥ | theme=hobbies | stage=1 base=craft
+ 3377 | photography                    | 攝影                             | 📷        | chunks=['pho', 'tog', 'ra', 'phy'] | py=ㄈㄜ-ㄊㄚ-ㄍㄌㄚ-ㄈㄧ | theme=hobbies | stage=1
+ 3378 | videography                    | 錄影                             | 📹        | chunks=['vid', 'e', 'og', 'ra', 'phy'] | py=ㄈㄧ-ㄉㄧ-ㄚ-ㄍㄌㄚ-ㄈㄧ | theme=hobbies | stage=3
+ 3379 | baking                         | 烘焙                             | 🥐        | chunks=['bak', 'ing'] | py=ㄅㄝ-ㄎㄧㄥ | theme=hobbies | stage=1 base=bake
+ 3380 | brewing                        | 釀造                             | 🍺        | chunks=['brew', 'ing'] | py=ㄅㄌㄨ-ㄧㄥ | theme=hobbies | stage=2 base=brew
+ 3381 | fermenting                     | 發酵                             | 🫙        | chunks=['fer', 'ment', 'ing'] | py=ㄈㄜ-ㄇㄣㄊ-ㄧㄥ | theme=hobbies | stage=3
+ 3382 | birding                        | 賞鳥                             | 🦅        | chunks=['bird', 'ing'] | py=ㄅㄜㄉ-ㄧㄥ | theme=hobbies | stage=2 base=bird
+ 3383 | birdwatching                   | 賞鳥                             | 🦅        | chunks=['bird', 'watch', 'ing'] | py=ㄅㄜㄉ-ㄨㄚㄑ-ㄧㄥ | theme=hobbies | stage=2
+ 3384 | stargazing                     | 觀星                             | ⭐        | chunks=['star', 'gaz', 'ing'] | py=ㄙㄉㄚㄦ-ㄍㄝㄗ-ㄧㄥ | theme=hobbies | stage=2
+ 3385 | geocaching                     | 地理藏寶                           | 🗺️       | chunks=['ge', 'o', 'cach', 'ing'] | py=ㄐㄧ-ㄛ-ㄎㄚㄒ-ㄧㄥ | theme=hobbies | stage=3
+ 3386 | beekeeping                     | 養蜂                             | 🐝        | chunks=['bee', 'keep', 'ing'] | py=ㄅㄧ-ㄎㄧㄆ-ㄧㄥ | theme=hobbies | stage=3
+ 3387 | composting                     | 堆肥                             | 🌱        | chunks=['com', 'post', 'ing'] | py=ㄎㄚㄇ-ㄆㄛㄙㄊ-ㄧㄥ | theme=hobbies | stage=3 base=compost
+ 3388 | collecting                     | 收集                             | 🗃️       | chunks=['col', 'lect', 'ing'] | py=ㄎㄜ-ㄌㄝㄎㄊ-ㄧㄥ | theme=hobbies | stage=1 base=collect
+ 3389 | hoarding                       | 囤積                             | 📦        | chunks=['hoard', 'ing'] | py=ㄏㄛㄦㄉ-ㄧㄥ | theme=hobbies | stage=3 base=hoard
+ 3390 | fossilhunting                  | 化石尋寶                           | 🦴        | chunks=['fos', 'sil', 'hunt', 'ing'] | py=ㄈㄚ-ㄗㄦ-ㄏㄚㄣㄊ-ㄧㄥ | theme=hobbies | stage=3
+ 3391 | reading                        | 閱讀                             | 📖        | chunks=['read', 'ing'] | py=ㄌㄧㄉ-ㄧㄥ | theme=hobbies | stage=0 base=read [有易混提示]
+ 3392 | writing                        | 寫作                             | ✍️       | chunks=['writ', 'ing'] | py=ㄌㄞㄊ-ㄧㄥ | theme=hobbies | stage=0 base=write [有易混提示]
+ 3393 | blogging                       | 寫部落格                           | 💻        | chunks=['blog', 'ging'] | py=ㄅㄌㄚ-ㄍㄧㄥ | theme=hobbies | stage=1
+ 3394 | meditation                     | 冥想                             | 🧘        | chunks=['med', 'i', 'ta', 'tion'] | py=ㄇㄝ-ㄉㄜ-ㄊㄝ-ㄒㄣ | theme=hobbies | stage=1
+ 3395 | pilates                        | 皮拉提斯                           | 🧘        | chunks=['pi', 'la', 'tes'] | py=ㄆㄜ-ㄌㄚ-ㄊㄧㄗ | theme=hobbies | stage=2
+ 3396 | taichi                         | 太極                             | 🧘        | chunks=['tai', 'chi'] | py=ㄊㄞ-ㄑㄧ | theme=hobbies | stage=1
+ 3397 | qigong                         | 氣功                             | 🧘        | chunks=['qi', 'gong'] | py=ㄑㄧ-ㄍㄚㄥ | theme=hobbies | stage=2
+ 3398 | karaoke                        | 卡拉OK                           | 🎤        | chunks=['kar', 'a', 'o', 'ke'] | py=ㄎㄚ-ㄌㄚ-ㄛ-ㄎㄝ | theme=hobbies | stage=0
+ 3399 | busking                        | 街頭表演                           | 🎵        | chunks=['busk', 'ing'] | py=ㄅㄚㄙㄎ-ㄧㄥ | theme=hobbies | stage=3
+ 3400 | hobby                          | 嗜好                             | 🎨        | chunks=['hob', 'by'] | py=ㄏㄚ-ㄅㄧ | theme=hobbies | stage=0
+ 3401 | pastime                        | 消遣                             | 🎨        | chunks=['pas', 'time'] | py=ㄆㄚㄙ-ㄊㄞㄇ | theme=hobbies | stage=2
+ 3402 | leisure                        | 閒暇                             | 🛋️       | chunks=['lei', 'sure'] | py=ㄌㄧ-ㄓㄜ | theme=hobbies | stage=2
+ 3403 | recreation                     | 娛樂                             | 🎢        | chunks=['rec', 're', 'a', 'tion'] | py=ㄌㄝ-ㄎㄌㄧ-ㄝ-ㄒㄣ | theme=hobbies | stage=2
+ 3404 | amateur                        | 業餘者                            | 🔰        | chunks=['am', 'a', 'teur'] | py=ㄚ-ㄇㄜ-ㄑㄜ | theme=hobbies | stage=2
+ 3405 | enthusiast                     | 愛好者                            | 🤩        | chunks=['en', 'thu', 'si', 'ast'] | py=ㄧㄣ-ㄙㄧㄨ-ㄗㄧ-ㄚㄙㄊ | theme=hobbies | stage=2
+ 3406 | fanatic                        | 狂熱者                            | 🤩        | chunks=['fa', 'na', 'tic'] | py=ㄈㄜ-ㄋㄚ-ㄊㄧㄎ | theme=hobbies | stage=2
+ 3407 | devotee                        | 愛好者                            | 🙌        | chunks=['dev', 'o', 'tee'] | py=ㄉㄝ-ㄈㄜ-ㄊㄧ | theme=hobbies | stage=3
+ 3408 | novice                         | 新手                             | 🆕        | chunks=['nov', 'ice'] | py=ㄋㄚ-ㄈㄧㄙ | theme=hobbies | stage=2
+ 3409 | expert                         | 專家                             | 🏆        | chunks=['ex', 'pert'] | py=ㄝㄎ-ㄙㄆㄜㄊ | theme=hobbies | stage=1 [有易混提示]
+ 3410 | knitter                        | 編織者                            | 🧶        | chunks=['knit', 'ter'] | py=ㄋㄧ-ㄊㄜ | theme=hobbies | stage=3 base=knit
+ 3411 | weaving                        | 編織                             | 🧵        | chunks=['weav', 'ing'] | py=ㄨㄧ-ㄈㄧㄥ | theme=hobbies | stage=3 base=weave
+ 3412 | doodling                       | 塗鴉                             | ✏️       | chunks=['doo', 'dling'] | py=ㄉㄨ-ㄉㄌㄧㄥ | theme=hobbies | stage=2 base=doodle
+ 3413 | scrapbook                      | 剪貼簿                            | 📔        | chunks=['scrap', 'book'] | py=ㄙㄎㄌㄚㄆ-ㄅㄨㄎ | theme=hobbies | stage=3
+ 3414 | tinkering                      | 修補                             | 🔧        | chunks=['tin', 'ker', 'ing'] | py=ㄊㄧㄣ-ㄎㄜ-ㄧㄥ | theme=hobbies | stage=3
+ 3415 | hobbyist                       | 愛好者                            | 🎨        | chunks=['hob', 'by', 'ist'] | py=ㄏㄚ-ㄅㄧ-ㄧㄙㄊ | theme=hobbies | stage=3
+ 3416 | vlogging                       | 拍影音部落格、拍 vlog                  | 📹        | chunks=['vlog', 'ging'] | py=ㄈㄌㄚ-ㄍㄧㄥ | theme=hobbies | stage=2
+ 3417 | videogame                      | 電玩                             | 🎮        | chunks=['vid', 'e', 'o', 'game'] | py=ㄈㄧ-ㄉㄧ-ㄛ-ㄍㄝㄇ | theme=games | stage=1
+ 3418 | esports                        | 電競                             | 🎮        | chunks=['e', 'sports'] | py=ㄧ-ㄙㄆㄛㄦㄗ | theme=games | stage=1
+ 3419 | mmo                            | 大型多人連線                         | 🌐        | chunks=['m', 'm', 'o'] | py=ㄝㄇ-ㄝㄇ-ㄛ | theme=games | stage=2
+ 3420 | rpg                            | 角色扮演                           | ⚔️       | chunks=['r', 'p', 'g'] | py=ㄚㄦ-ㄆㄧ-ㄐㄧ | theme=games | stage=2
+ 3421 | fps                            | 第一人稱射擊                         | 🔫        | chunks=['f', 'p', 's'] | py=ㄝㄈ-ㄆㄧ-ㄝㄙ | theme=games | stage=2
+ 3422 | mmorpg                         | 大型多人線上角色扮演遊戲                   | ⚔️       | chunks=['mmo', 'r', 'p', 'g'] | py=ㄝㄇ-ㄝㄇ-ㄛ-ㄚㄦ-ㄆㄧ-ㄐㄧ | theme=games | stage=3
+ 3423 | gameplay                       | 遊戲玩法                           | 🎮        | chunks=['game', 'play'] | py=ㄍㄝㄇ-ㄆㄌㄟ | theme=games | stage=2
+ 3424 | levelup                        | 升級                             | ⬆️       | chunks=['lev', 'el', 'up'] | py=ㄌㄝ-ㄈㄦ-ㄚㄆ | theme=games | stage=1
+ 3425 | miniboss                       | 小頭目                            | 👾        | chunks=['mi', 'ni', 'boss'] | py=ㄇㄧ-ㄋㄜ-ㄅㄚㄙ | theme=games | stage=2
+ 3426 | npc                            | 非玩家角色                          | 🤖        | chunks=['n', 'p', 'c'] | py=ㄝㄣ-ㄆㄧ-ㄒㄧ | theme=games | stage=2
+ 3427 | character                      | 角色                             | 🧙        | chunks=['char', 'ac', 'ter'] | py=ㄎㄝ-ㄦㄎ-ㄊㄜ | theme=games | stage=1 [有易混提示]
+ 3428 | avatar                         | 頭像                             | 👤        | chunks=['av', 'a', 'tar'] | py=ㄚ-ㄈㄜ-ㄊㄚㄦ | theme=games | stage=2
+ 3429 | loot                           | 戰利品                            | 💰        | chunks=['l', 'oot'] | py=ㄌㄨㄊ | theme=games | stage=2
+ 3430 | quest                          | 任務                             | 📜        | chunks=['qu', 'est'] | py=ㄎㄨㄝㄙㄊ | theme=games | stage=1
+ 3431 | mission                        | 任務                             | 🎯        | chunks=['mis', 'sion'] | py=ㄇㄧ-ㄒㄣ | theme=games | stage=1 [有易混提示]
+ 3432 | dungeon                        | 地下城                            | 🏰        | chunks=['dun', 'geon'] | py=ㄉㄚㄣ-ㄐㄣ | theme=games | stage=2
+ 3433 | raid                           | 突襲                             | ⚔️       | chunks=['r', 'aid'] | py=ㄌㄝㄉ | theme=games | stage=2 [有易混提示]
+ 3434 | multiplayer                    | 多人遊戲                           | 👥        | chunks=['mul', 'ti', 'play', 'er'] | py=ㄇㄚㄦ-ㄊㄜ-ㄆㄌㄟ-ㄜ | theme=games | stage=2
+ 3435 | singleplayer                   | 單人遊戲                           | 🧑        | chunks=['sin', 'gle', 'play', 'er'] | py=ㄒㄧㄣ-ㄍㄜ-ㄆㄌㄟ-ㄜ | theme=games | stage=2
+ 3436 | lobby                          | 大廳                             | 🏨        | chunks=['lob', 'by'] | py=ㄌㄚ-ㄅㄧ | theme=games | stage=2 [有易混提示]
+ 3437 | lag                            | 延遲                             | ⏱️       | chunks=['l', 'ag'] | py=ㄌㄚㄍ | theme=games | stage=2
+ 3438 | ping                           | 網路延遲                           | 📡        | chunks=['p', 'ing'] | py=ㄆㄧㄥ | theme=games | stage=2 [有易混提示]
+ 3439 | framerate                      | 畫面更新率                          | 📊        | chunks=['frame', 'rate'] | py=ㄈㄌㄝㄇ-ㄌㄝㄊ | theme=games | stage=3
+ 3440 | graphics                       | 畫面                             | 🖼️       | chunks=['graph', 'ics'] | py=ㄍㄌㄚ-ㄈㄧㄎㄙ | theme=games | stage=2
+ 3441 | gamer                          | 玩家                             | 🎮        | chunks=['gam', 'er'] | py=ㄍㄝ-ㄇㄜ | theme=games | stage=1 base=game
+ 3442 | streamer                       | 實況主                            | 📹        | chunks=['stream', 'er'] | py=ㄙㄉㄌㄧㄇ-ㄜ | theme=games | stage=1 base=stream
+ 3443 | walkthrough                    | 攻略                             | 📜        | chunks=['walk', 'through'] | py=ㄨㄛㄎ-ㄙㄌㄨ | theme=games | stage=2
+ 3444 | cheatcode                      | 作弊密技                           | 🃏        | chunks=['cheat', 'code'] | py=ㄑㄧㄊ-ㄎㄛㄉ | theme=games | stage=2
+ 3445 | glitch                         | 程式錯誤                           | 🐛        | chunks=['gl', 'itch'] | py=ㄍㄌㄧㄑ | theme=games | stage=2
+ 3446 | patch                          | 修補檔、補丁                         | 🩹        | chunks=['p', 'atch'] | py=ㄆㄚㄑ | theme=games | stage=2 [有易混提示]
+ 3447 | mod                            | 模組                             | ⚙️       | chunks=['m', 'od'] | py=ㄇㄚㄉ | theme=games | stage=2
+ 3448 | expansion                      | 資料片                            | ➕        | chunks=['ex', 'pan', 'sion'] | py=ㄝㄎ-ㄙㄆㄢ-ㄒㄣ | theme=games | stage=2
+ 3449 | dlc                            | 下載內容                           | 📥        | chunks=['d', 'l', 'c'] | py=ㄉㄧ-ㄝㄦ-ㄒㄧ | theme=games | stage=2
+ 3450 | beta                           | 測試版                            | 🧪        | chunks=['be', 'ta'] | py=ㄅㄝ-ㄊㄚ | theme=games | stage=2 [有易混提示]
+ 3451 | alpha                          | 早期測試                           | 🧪        | chunks=['al', 'pha'] | py=ㄚㄦ-ㄈㄚ | theme=games | stage=2 [有易混提示]
+ 3452 | indie                          | 獨立遊戲                           | 🎮        | chunks=['in', 'die'] | py=ㄧㄣ-ㄉㄧ | theme=games | stage=2
+ 3453 | openworld                      | 開放世界                           | 🌐        | chunks=['o', 'pen', 'world'] | py=ㄛ-ㄆㄣ-ㄨㄜㄦㄉ | theme=games | stage=2
+ 3454 | retro                          | 復古                             | 🕹️       | chunks=['ret', 'ro'] | py=ㄌㄝㄊ-ㄌㄛ | theme=games | stage=2
+ 3455 | arcade                         | 街機                             | 🕹️       | chunks=['ar', 'cade'] | py=ㄚㄦ-ㄎㄝㄉ | theme=games | stage=2
+ 3456 | mahjong                        | 麻將                             | 🀄        | chunks=['mah', 'jong'] | py=ㄇㄚ-ㄓㄚㄥ | theme=games | stage=1
+ 3457 | poker                          | 撲克                             | 🃏        | chunks=['po', 'ker'] | py=ㄆㄛ-ㄎㄜ | theme=games | stage=1 base=poke [有易混提示]
+ 3458 | blackjack                      | 21點                            | 🃏        | chunks=['black', 'jack'] | py=ㄅㄌㄚㄎ-ㄐㄚㄎ | theme=games | stage=2
+ 3459 | solitaire                      | 接龍                             | 🃏        | chunks=['sol', 'i', 'taire'] | py=ㄙㄚ-ㄌㄜ-ㄊㄝㄜ | theme=games | stage=2
+ 3460 | bingo                          | 賓果                             | 🎯        | chunks=['bin', 'go'] | py=ㄅㄧㄥ-ㄍㄛ | theme=games | stage=1
+ 3461 | charades                       | 比手畫腳                           | 🎭        | chunks=['cha', 'rades'] | py=ㄒㄜ-ㄌㄝㄉㄗ | theme=games | stage=3
+ 3462 | scrabble                       | 拼字遊戲                           | 🔤        | chunks=['scrab', 'ble'] | py=ㄙㄎㄌㄚ-ㄅㄜ | theme=games | stage=3
+ 3463 | sudoku                         | 數獨                             | 🔢        | chunks=['su', 'do', 'ku'] | py=ㄙㄨ-ㄉㄛ-ㄎㄨ | theme=games | stage=1
+ 3464 | hangman                        | 猜字                             | 🪢        | chunks=['hang', 'man'] | py=ㄏㄚㄥ-ㄇㄢ | theme=games | stage=2
+ 3465 | tournament                     | 錦標賽                            | 🏆        | chunks=['tour', 'na', 'ment'] | py=ㄊㄨㄦ-ㄋㄜ-ㄇㄣㄊ | theme=games | stage=2
+ 3466 | replay                         | 重玩                             | 🔁        | chunks=['re', 'play'] | py=ㄌㄧ-ㄆㄌㄟ | theme=games | stage=2
+ 3467 | film                           | 電影                             | 🎬        | chunks=['f', 'ilm'] | py=ㄈㄧㄦㄇ | theme=movies-tv | stage=0
+ 3468 | movie                          | 電影                             | 🎬        | chunks=['mov', 'ie'] | py=ㄇㄨ-ㄈㄧ | theme=movies-tv | stage=0
+ 3469 | screening                      | 放映                             | 🎬        | chunks=['screen', 'ing'] | py=ㄙㄎㄌㄧㄣ-ㄧㄥ | theme=movies-tv | stage=2 base=screen
+ 3470 | premier                        | 總理、首映(premiere)                | 🎬        | chunks=['pre', 'mier'] | py=ㄆㄌㄧ-ㄇㄧㄜ | theme=movies-tv | stage=2 [有易混提示]
+ 3471 | trailer                        | 預告片                            | 🎬        | chunks=['trai', 'ler'] | py=ㄊㄌㄝ-ㄌㄜ | theme=movies-tv | stage=1 base=trail [有易混提示]
+ 3472 | sequel                         | 續集                             | ▶️       | chunks=['se', 'quel'] | py=ㄒㄧ-ㄎㄨㄝㄦ | theme=movies-tv | stage=2
+ 3473 | prequel                        | 前傳                             | ◀️       | chunks=['pre', 'quel'] | py=ㄆㄌㄧ-ㄎㄨㄝㄦ | theme=movies-tv | stage=2
+ 3474 | spinoff                        | 衍生作                            | 🔄        | chunks=['spin', 'off'] | py=ㄙㄆㄧㄣ-ㄛㄈ | theme=movies-tv | stage=3
+ 3475 | remake                         | 翻拍                             | 🔄        | chunks=['re', 'make'] | py=ㄌㄧ-ㄇㄝㄎ | theme=movies-tv | stage=2
+ 3476 | reboot                         | 重啟                             | 🔄        | chunks=['re', 'boot'] | py=ㄌㄧ-ㄅㄨㄊ | theme=movies-tv | stage=2
+ 3477 | genre                          | 類型                             | 📚        | chunks=['gen', 're'] | py=ㄓㄚㄣ-ㄌㄜ | theme=movies-tv | stage=2
+ 3478 | comedy                         | 喜劇                             | 😂        | chunks=['com', 'e', 'dy'] | py=ㄎㄚ-ㄇㄜ-ㄉㄧ | theme=movies-tv | stage=1
+ 3479 | tragedy                        | 悲劇                             | 😢        | chunks=['trag', 'e', 'dy'] | py=ㄊㄌㄚ-ㄐㄜ-ㄉㄧ | theme=movies-tv | stage=1
+ 3480 | thriller                       | 驚悚片                            | 😱        | chunks=['thril', 'ler'] | py=ㄙㄌㄧ-ㄌㄜ | theme=movies-tv | stage=1 base=thrill
+ 3481 | horror                         | 恐怖片                            | 👻        | chunks=['hor', 'ror'] | py=ㄏㄛ-ㄌㄜ | theme=movies-tv | stage=1
+ 3482 | mystery                        | 懸疑                             | 🕵️       | chunks=['mys', 'ter', 'y'] | py=ㄇㄧㄙ-ㄊㄜ-ㄌㄧ | theme=movies-tv | stage=1
+ 3483 | action                         | 動作片                            | 💥        | chunks=['ac', 'tion'] | py=ㄚㄎ-ㄒㄣ | theme=movies-tv | stage=1 base=act [有易混提示]
+ 3484 | scifi                          | 科幻                             | 🚀        | chunks=['sci', 'fi'] | py=ㄙㄞ-ㄈㄞ | theme=movies-tv | stage=1
+ 3485 | fantasy                        | 奇幻                             | 🧙        | chunks=['fan', 'ta', 'sy'] | py=ㄈㄚㄣ-ㄊㄜ-ㄒㄧ | theme=movies-tv | stage=1
+ 3486 | documentary                    | 紀錄片                            | 🎬        | chunks=['doc', 'u', 'men', 'ta', 'ry'] | py=ㄉㄚ-ㄐㄨ-ㄇㄣ-ㄊㄜ-ㄌㄧ | theme=movies-tv | stage=1
+ 3487 | biopic                         | 傳記片                            | 🎬        | chunks=['bi', 'o', 'pic'] | py=ㄅㄞ-ㄛ-ㄆㄧㄎ | theme=movies-tv | stage=3
+ 3488 | animation                      | 動畫                             | 🎞️       | chunks=['an', 'i', 'ma', 'tion'] | py=ㄚ-ㄋㄜ-ㄇㄝ-ㄒㄣ | theme=movies-tv | stage=1 base=animate
+ 3489 | musical                        | 音樂劇                            | 🎭        | chunks=['mu', 'si', 'cal'] | py=ㄇㄧㄨ-ㄗㄜ-ㄎㄜ | theme=movies-tv | stage=1 base=music
+ 3490 | western                        | 西部片                            | 🤠        | chunks=['west', 'ern'] | py=ㄨㄝㄙ-ㄊㄣ | theme=movies-tv | stage=2
+ 3491 | screenwriter                   | 編劇                             | ✍️       | chunks=['screen', 'writ', 'er'] | py=ㄙㄎㄌㄧㄣ-ㄌㄞㄊ-ㄜ | theme=movies-tv | stage=2
+ 3492 | cinematographer                | 攝影指導                           | 🎥        | chunks=['cin', 'e', 'ma', 'tog', 'ra', 'pher'] | py=ㄒㄧ-ㄋㄜ-ㄇㄚ-ㄊㄚ-ㄍㄌㄚ-ㄈㄜ | theme=movies-tv | stage=3
+ 3493 | soundtrack                     | 原聲帶                            | 🎵        | chunks=['sound', 'track'] | py=ㄙㄠㄣㄉ-ㄊㄌㄚㄎ | theme=movies-tv | stage=2
+ 3494 | casting                        | 選角                             | 🎭        | chunks=['cast', 'ing'] | py=ㄎㄚㄙㄊ-ㄧㄥ | theme=movies-tv | stage=2 base=cast
+ 3495 | cast                           | 演員陣容                           | 🎭        | chunks=['c', 'ast'] | py=ㄎㄚㄙㄊ | theme=movies-tv | stage=2 base=cast [有易混提示]
+ 3496 | crew                           | 劇組                             | 🎬        | chunks=['cr', 'ew'] | py=ㄎㄌㄨ | theme=movies-tv | stage=2
+ 3497 | lead                           | 主角                             | ⭐        | chunks=['l', 'ead'] | py=ㄌㄧㄉ | theme=movies-tv | stage=1 [有易混提示]
+ 3498 | role                           | 角色                             | 🎭        | chunks=['r', 'ole'] | py=ㄌㄛㄦ | theme=movies-tv | stage=1 [有易混提示]
+ 3499 | dialogue                       | 對白                             | 💬        | chunks=['di', 'a', 'logue'] | py=ㄉㄞ-ㄚ-ㄌㄚㄍ | theme=movies-tv | stage=2
