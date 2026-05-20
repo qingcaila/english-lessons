@@ -1,5 +1,5 @@
 {
-  "vocab_hash_current": "398964d8d11c076903a6174610b89458582eff1ea58eef14194256773ea66beb",
+  "vocab_hash_current": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
   "checks": {
     "L1-all": {
       "last_run": "2026-05-20T05:49:50",
@@ -9,29 +9,28 @@
       "report": "reports/2026-05-20-054950-L1.md"
     },
     "L2-translation": {
-      "last_run": "2026-05-15T10:30:00",
-      "vocab_hash": "7e8158e9c1944449a54422848fbdb09d810bf4ec655724e0763a3024a1261d34",
+      "last_run": "2026-05-20T11:54:57",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "agent_count": 7,
-      "issues_found": 570,
-      "fixes_applied": 458,
-      "report": "(skill 建立前,記錄於 sessions/2026-05-15-quality-audit-and-fixes.md 與 git commit 2e09aca)"
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L2-theme-fit": {
-      "last_run": "2026-05-15T10:50:00",
-      "vocab_hash": "7e8158e9c1944449a54422848fbdb09d810bf4ec655724e0763a3024a1261d34",
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "issues_found": 49,
-      "fixes_applied": 49,
-      "report": "(skill 建立前,記錄於 git commit 1044b00)"
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L2-family-potential": {
-      "last_run": "2026-05-15T17:55:33",
-      "vocab_hash": "18f59e762a4838240f9a22f4c60ef3997b1c65b5e97ce45a9d85d27e70eb3584",
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "issues_found": 650,
-      "fixes_applied": 404,
-      "agent_count": 7
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L2-homophone-potential": {
       "last_run": "2026-05-19T04:07:26",
@@ -52,37 +51,36 @@
       "report": "reports/20260520-emoji-fit-MERGED.json"
     },
     "L2-modernization": {
-      "last_run": "2026-05-15T11:37:52",
-      "vocab_hash": "4b54e52a7fc6889e3e7c4eff604cc23be238f701cdede716c8ffe1fbff3962f9",
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "issues_found": 22,
-      "fixes_applied": 20,
-      "agent_count": 7
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L2-pos-consistency": {
-      "last_run": "2026-05-15T11:44:19",
-      "vocab_hash": "8827d87821bd9d390a8f67b8108c9b45c7aaa623a3422410a164c4e7fc31a359",
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "issues_found": 190,
-      "fixes_applied": 196,
-      "agent_count": 7
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L2-stage-fit": {
-      "last_run": "2026-05-15T11:49:19",
-      "vocab_hash": "d253e9b872a47d31bf7bb2e23ef34ffb55f2018fa635137dee425bc5912431a3",
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "issues_found": 261,
-      "fixes_applied": 260,
-      "agent_count": 7
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L2-family-note-consistency": {
-      "last_run": "2026-05-15T16:35:43",
-      "vocab_hash": "fcea8b29f616fb984f1b0cdaee04d91db64f3b4ed890d2b53a05aaf21a570754",
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
       "vocab_count": 10101,
-      "issues_found": 225,
-      "fixes_applied": 167,
-      "agent_count": 7,
-      "report": "reports/2026-05-15-family-note-consistency.md"
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     },
     "L1-silent-letter": {
       "last_run": "2026-05-20T04:57:48",
@@ -109,6 +107,14 @@
       "fixes_applied": 648,
       "agent_count": 4,
       "report": "reports/20260520-chunks-phonics-MERGED.json"
+    },
+    "L2-tip-coverage": {
+      "last_run": "2026-05-20T11:54:58",
+      "vocab_hash": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
+      "vocab_count": 10101,
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "report": "0"
     }
   },
   "_note": "history.json 由 scripts/run_layer1.py / update_history.py 自動更新。手動編輯前請先備份。method 欄位選填,標示用何種方法跑(規則 vs AI 全字)。"

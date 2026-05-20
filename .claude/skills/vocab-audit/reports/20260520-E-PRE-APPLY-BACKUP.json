@@ -1,0 +1,8682 @@
+{
+  "signal": {
+    "mean": "信號",
+    "theme": "emergencies",
+    "stage": 1,
+    "base": "sign",
+    "family-note": "從 sign 衍生的名詞(信號)",
+    "note": "sig:子音+短母音+子音"
+  },
+  "graduate": {
+    "mean": "准…畢業畢業畢業生",
+    "theme": "school",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "te:開音節,母音唸長音"
+  },
+  "walk": {
+    "mean": "走",
+    "theme": "actions",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "talk": {
+    "mean": "說話",
+    "theme": "actions",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "calm": {
+    "mean": "冷靜",
+    "theme": "emotions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "palm": {
+    "mean": "手掌",
+    "theme": "body",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "half": {
+    "mean": "一半",
+    "theme": "numbers",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "calf": {
+    "mean": "小腿肚",
+    "theme": "body",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "almond": {
+    "mean": "杏仁",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "folk": {
+    "mean": "民謠",
+    "theme": "music",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "yolk": {
+    "mean": "蛋黃",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "stalk": {
+    "mean": "莖",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "ghost": {
+    "mean": "突然斷聯、鬼隱",
+    "theme": "relationships",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "rhyme": {
+    "mean": "押韻",
+    "theme": "literature",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "rhythmic": {
+    "mean": "有節奏的",
+    "theme": "music",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "assign": {
+    "mean": "分派",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "pamphlet": {
+    "mean": "小冊子",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "sky": {
+    "mean": "天空",
+    "theme": "nature",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cry": {
+    "mean": "哭",
+    "theme": "actions",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "try": {
+    "mean": "嘗試",
+    "theme": "actions",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "dry": {
+    "mean": "乾",
+    "theme": "adjectives",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "by": {
+    "mean": "旁邊",
+    "theme": "sight-words",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "spy": {
+    "mean": "間諜",
+    "theme": "jobs-advanced",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "sly": {
+    "mean": "狡猾的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "my": {
+    "mean": "我的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "fry": {
+    "mean": "油炸，油炒炒菜",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "guy": {
+    "mean": "傢伙",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "buy": {
+    "mean": "買",
+    "theme": "shopping",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "sanctions": {
+    "mean": "制裁",
+    "theme": "politics",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "special": {
+    "mean": "特餐",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "crucial": {
+    "mean": "關鍵的",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "especial": {
+    "mean": "特別的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cent": {
+    "mean": "分",
+    "theme": "money",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cell": {
+    "mean": "細胞",
+    "theme": "body",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cite": {
+    "mean": "引用",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "ceo": {
+    "mean": "執行長",
+    "theme": "jobs-advanced",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cities": {
+    "mean": "城市(複數)",
+    "theme": "places",
+    "stage": 1,
+    "base": "city",
+    "family-note": "「很多個」的版本(複數,y 變 ies)",
+    "note": null
+  },
+  "gym": {
+    "mean": "健身房",
+    "theme": "sports",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "gem": {
+    "mean": "寶石",
+    "theme": "nature",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "gel": {
+    "mean": "凝膠",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "gin": {
+    "mean": "琴酒",
+    "theme": "drinks",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "gene": {
+    "mean": "基因",
+    "theme": "science",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "noise": {
+    "mean": "噪音",
+    "theme": "environment",
+    "stage": 1,
+    "base": "no",
+    "family-note": "動詞版本(+ise 把名詞變動詞)",
+    "note": "noi:oi 唸 ㄛㄧ;se:開音節,母音唸長音"
+  },
+  "arrive": {
+    "mean": "到達",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "ar",
+    "family-note": "「會…的」(+ive 形容詞)",
+    "note": "ar:ar 唸 ㄚㄦ(R 控制);ri:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "arise": {
+    "mean": "上升",
+    "theme": "directions",
+    "stage": 3,
+    "base": "ar",
+    "family-note": "動詞版本(+ise 把名詞變動詞)",
+    "note": "ri:開音節,母音唸長音"
+  },
+  "pigment": {
+    "mean": "顏料",
+    "theme": "art",
+    "stage": 3,
+    "base": "pig",
+    "family-note": "這個動作的「結果/事物」(+ment 名詞)",
+    "note": "pig:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "banner": {
+    "mean": "旗幟",
+    "theme": "actions",
+    "stage": 3,
+    "base": "ban",
+    "family-note": "橫幅 (banner 跟 ban 字源不同,僅同形)",
+    "note": "ban:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "archive": {
+    "mean": "封存",
+    "theme": "office",
+    "stage": 2,
+    "base": "arch",
+    "family-note": "動詞版本(arch + ive 當動詞用,封存)",
+    "note": "ar:ar 唸 ㄚㄦ(R 控制);chive:末 e 不發音,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "pollution": {
+    "mean": "污染",
+    "theme": "environment",
+    "stage": 1,
+    "base": "poll",
+    "family-note": "這個動作的「結果/事物」(+ution 名詞)",
+    "note": "pol:子音+短母音+子音;lu:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "solution": {
+    "mean": "解答",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "sole",
+    "family-note": "這個動作的「結果/事物」(+ution 名詞)",
+    "note": "so:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "kitty": {
+    "mean": "小貓",
+    "theme": "animals",
+    "stage": 1,
+    "base": "cat",
+    "family-note": "暱稱版本(小貓的暱稱)",
+    "note": "kit:子音+短母音+子音;ty:開音節,母音唸長音"
+  },
+  "gorgeous": {
+    "mean": "美艷的",
+    "theme": "appearance",
+    "stage": 2,
+    "base": "gorge",
+    "family-note": "「有…的」(+ous 形容詞)",
+    "note": "gor:子音+短母音+子音;geous:ou 唸 ㄠ(可有例外);-ous 字尾唸 ㄜㄙ"
+  },
+  "miserable": {
+    "mean": "悲慘的",
+    "theme": "emotions",
+    "stage": 2,
+    "base": "miser",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 miser)",
+    "note": "mis:子音+短母音+子音;er:er 唸 ㄜㄦ(R 控制);-able 字尾唸 ㄝㄅㄛ"
+  },
+  "weariness": {
+    "mean": "疲憊",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "wear",
+    "family-note": "「…的性質」(y 變 i + ness)",
+    "note": "wea:ea 唸 ㄧ(部分例外);ri:開音節,母音唸長音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "readiness": {
+    "mean": "準備",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "read",
+    "family-note": "「…的性質」(y 變 i + ness)",
+    "note": "rea:ea 唸 ㄧ(部分例外);di:開音節,母音唸長音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "rose": {
+    "mean": "玫瑰色",
+    "theme": "colors",
+    "stage": 1,
+    "base": "rise",
+    "family-note": "已經升起的版本(過去式)",
+    "note": null
+  },
+  "global": {
+    "mean": "球狀的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "globe",
+    "family-note": "形容詞版本(+al,全球的)",
+    "note": "bal:子音+短母音+子音"
+  },
+  "waver": {
+    "mean": "動搖",
+    "theme": "actions",
+    "stage": 3,
+    "base": "wave",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "wa:開音節,母音唸長音;ver:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "fries": {
+    "mean": "薯條",
+    "theme": "food",
+    "stage": 0,
+    "base": "fry",
+    "family-note": "第三人稱單數 / 薯條(y 變 ies)",
+    "note": "ies:ie 唸 ㄞ 或 ㄧ"
+  },
+  "mathematical": {
+    "mean": "數學的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "mathematics",
+    "family-note": "形容詞版本(+al,數學的)",
+    "note": "mat:子音+短母音+子音;he:開音節,母音唸長音"
+  },
+  "organize": {
+    "mean": "組織",
+    "theme": "actions",
+    "stage": 2,
+    "base": "organ",
+    "family-note": "動詞版本(+ize 把名詞變動詞)",
+    "note": "or:or 唸 ㄛㄦ(R 控制);ga:開音節,母音唸長音"
+  },
+  "medical": {
+    "mean": "醫學的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "medicine",
+    "family-note": "形容詞版本(+al,醫療的)",
+    "note": "me:開音節,母音唸長音;cal:子音+短母音+子音"
+  },
+  "predator": {
+    "mean": "掠食者",
+    "theme": "jobs",
+    "stage": 3,
+    "base": "prey",
+    "family-note": "掠食動物(predat + or)",
+    "note": "da:開音節,母音唸長音;tor:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "porter": {
+    "mean": "搬運工人，腳夫",
+    "theme": "jobs",
+    "stage": 3,
+    "base": "port",
+    "family-note": "做這件事的人(port + er,搬運工)",
+    "note": "por:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "foundation": {
+    "mean": "粉底液",
+    "theme": "bathroom",
+    "stage": 2,
+    "base": "found",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "foun:ou 唸 ㄠ(可有例外);da:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "meant": {
+    "mean": "意思是(mean 過去式)",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": "mean",
+    "family-note": "已經意指的版本(過去式)",
+    "note": "eant:ea 唸 ㄧ(部分例外)"
+  },
+  "depress": {
+    "mean": "使…沮喪，使…消沉",
+    "theme": "emotions",
+    "stage": 3,
+    "base": "press",
+    "family-note": "前綴 de-(壓抑)",
+    "note": "dep:子音+短母音+子音"
+  },
+  "discover": {
+    "mean": "發現",
+    "theme": "actions",
+    "stage": 1,
+    "base": "cover",
+    "family-note": "前綴 dis- (dis + cover,發現)",
+    "note": "dis:子音+短母音+子音;co:開音節,母音唸長音;-er 字尾(比較級/人)"
+  },
+  "overcome": {
+    "mean": "戰勝",
+    "theme": "actions",
+    "stage": 3,
+    "base": "come",
+    "family-note": "前綴 over-(克服)",
+    "note": "ver:子音+短母音+子音;co:開音節,母音唸長音"
+  },
+  "overlook": {
+    "mean": "眺望，俯瞰",
+    "theme": "actions",
+    "stage": 3,
+    "base": "look",
+    "family-note": "前綴 over-(忽略)",
+    "note": "ver:子音+短母音+子音;look:oo 唸 ㄨ(可長可短)"
+  },
+  "mislead": {
+    "mean": "誤導",
+    "theme": "actions",
+    "stage": 3,
+    "base": "lead",
+    "family-note": "前綴 mis-(誤導)",
+    "note": "mis:子音+短母音+子音;lead:ea 唸 ㄧ(部分例外)"
+  },
+  "misunderstand": {
+    "mean": "誤會",
+    "theme": "actions",
+    "stage": 3,
+    "base": "understand",
+    "family-note": "前綴 mis-(誤解)",
+    "note": "mi:開音節,母音唸長音;sun:子音+短母音+子音"
+  },
+  "misfortune": {
+    "mean": "不幸",
+    "theme": "actions",
+    "stage": 3,
+    "base": "fortune",
+    "family-note": "前綴 mis-(不幸)",
+    "note": "mis:子音+短母音+子音;tu:開音節,母音唸長音"
+  },
+  "foresee": {
+    "mean": "預見",
+    "theme": "actions",
+    "stage": 4,
+    "base": "see",
+    "family-note": "前綴 fore-(預見)",
+    "note": "fo:開音節,母音唸長音;see:ee 唸 ㄧ 長音"
+  },
+  "reproduce": {
+    "mean": "繁殖",
+    "theme": "actions",
+    "stage": 3,
+    "base": "produce",
+    "family-note": "前綴 re-(再 + produce,繁殖)",
+    "note": "rep:子音+短母音+子音;ro:開音節,母音唸長音"
+  },
+  "underestimate": {
+    "mean": "低估",
+    "theme": "actions",
+    "stage": 4,
+    "base": "estimate",
+    "family-note": "前綴 under-(低估)",
+    "note": "de:開音節,母音唸長音;res:子音+短母音+子音"
+  },
+  "undermine": {
+    "mean": "暗中破壞",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": "mine",
+    "family-note": "前綴 under-(under + mine,破壞)",
+    "note": "der:子音+短母音+子音;mi:開音節,母音唸長音"
+  },
+  "discomfort": {
+    "mean": "不舒適",
+    "theme": "actions",
+    "stage": 4,
+    "base": "comfort",
+    "family-note": "否定版本(dis- + comfort,不舒服)",
+    "note": "dis:子音+短母音+子音;fort:or 唸 ㄛㄦ(R 控制)"
+  },
+  "disable": {
+    "mean": "使失去能力",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": "able",
+    "family-note": "否定版本(dis- + able,使失能)",
+    "note": "di:開音節,母音唸長音;sab:子音+短母音+子音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "disconnect": {
+    "mean": "使分離，分開",
+    "theme": "actions",
+    "stage": 3,
+    "base": "connect",
+    "family-note": "否定版本(dis- + connect,斷開)",
+    "note": "dis:子音+短母音+子音"
+  },
+  "disapprove": {
+    "mean": "不贊同",
+    "theme": "actions",
+    "stage": 4,
+    "base": "approve",
+    "family-note": "否定版本(dis- + approve,不贊同)",
+    "note": "di:開音節,母音唸長音;sap:子音+短母音+子音"
+  },
+  "discourage": {
+    "mean": "使洩氣",
+    "theme": "actions",
+    "stage": 3,
+    "base": "courage",
+    "family-note": "否定版本(dis- + courage,使氣餒)",
+    "note": "dis:子音+短母音+子音;cou:ou 唸 ㄠ(可有例外);ra:開音節,母音唸長音"
+  },
+  "disadvantage": {
+    "mean": "不利",
+    "theme": "actions",
+    "stage": 3,
+    "base": "advantage",
+    "family-note": "否定版本(dis- + advantage,劣勢)",
+    "note": "di:開音節,母音唸長音;sad:子音+短母音+子音"
+  },
+  "distrust": {
+    "mean": "不信任",
+    "theme": "emotions",
+    "stage": 4,
+    "base": "trust",
+    "family-note": "否定版本(dis- + trust,不信任)",
+    "note": "dis:子音+短母音+子音"
+  },
+  "uncover": {
+    "mean": "揭露",
+    "theme": "actions",
+    "stage": 4,
+    "base": "cover",
+    "family-note": "否定版本(un- + cover,揭開)",
+    "note": "co:開音節,母音唸長音;ver:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "dishonest": {
+    "mean": "不誠實",
+    "theme": "personality",
+    "stage": 2,
+    "base": "honest",
+    "family-note": "否定版本(dis- + honest,不誠實的)",
+    "note": "dis:子音+短母音+子音"
+  },
+  "unlawful": {
+    "mean": "違法的",
+    "theme": "law",
+    "stage": 2,
+    "base": "lawful",
+    "family-note": "否定版本(un- + lawful,不合法的)",
+    "note": "law:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "illegal": {
+    "mean": "非法的",
+    "theme": "law",
+    "stage": 1,
+    "base": "legal",
+    "family-note": "否定版本(il- + legal,非法的)",
+    "note": "le:開音節,母音唸長音;gal:子音+短母音+子音"
+  },
+  "impatient": {
+    "mean": "沒耐心",
+    "theme": "personality",
+    "stage": 2,
+    "base": "patient",
+    "family-note": "否定版本(im- + patient,沒耐心的)",
+    "note": "pa:開音節,母音唸長音;tient:ie 唸 ㄞ 或 ㄧ"
+  },
+  "immoral": {
+    "mean": "不道德的",
+    "theme": "philosophy",
+    "stage": 2,
+    "base": "moral",
+    "family-note": "否定版本(im- + moral,不道德的)",
+    "note": "mo:開音節,母音唸長音;ral:子音+短母音+子音"
+  },
+  "immature": {
+    "mean": "不成熟",
+    "theme": "personality",
+    "stage": 2,
+    "base": "mature",
+    "family-note": "否定版本(im- + mature,不成熟的)",
+    "note": "ma:開音節,母音唸長音;ture:末 e 不發音,母音唸長音"
+  },
+  "irrational": {
+    "mean": "非理性",
+    "theme": "personality",
+    "stage": 3,
+    "base": "rational",
+    "family-note": "否定版本(ir- + rational,不理性的)",
+    "note": "ir:ir 唸 ㄜㄦ(R 控制);ra:開音節,母音唸長音"
+  },
+  "injustice": {
+    "mean": "不公",
+    "theme": "philosophy",
+    "stage": 2,
+    "base": "justice",
+    "family-note": "否定版本(in- + justice,不公正)",
+    "note": "jus:子音+短母音+子音;tice:末 e 不發音,母音唸長音"
+  },
+  "unconscious": {
+    "mean": "昏迷",
+    "theme": "emergencies",
+    "stage": 2,
+    "base": "conscious",
+    "family-note": "否定版本(un- + conscious,無意識的)",
+    "note": "con:子音+短母音+子音;scious:ou 唸 ㄠ(可有例外);-ous 字尾唸 ㄜㄙ"
+  },
+  "upset": {
+    "mean": "心煩、不開心",
+    "theme": "emotions",
+    "stage": 1,
+    "base": "upset",
+    "family-note": "形容詞「心煩的」(過去分詞當形容詞);動詞三態同形",
+    "note": "set:子音+短母音+子音"
+  },
+  "polished": {
+    "mean": "精緻的",
+    "theme": "appearance",
+    "stage": 3,
+    "base": "polish",
+    "family-note": "擦亮過的(+ed 形容詞)",
+    "note": "pol:子音+短母音+子音;ished:sh 唸 ㄒ;-ed 過去式"
+  },
+  "refined": {
+    "mean": "優雅的",
+    "theme": "appearance",
+    "stage": 3,
+    "base": "refine",
+    "family-note": "精緻的(+ed 形容詞)",
+    "note": "re:開音節,母音唸長音;-ed 過去式"
+  },
+  "taken": {
+    "mean": "有對象",
+    "theme": "relationships",
+    "stage": 2,
+    "base": "take",
+    "family-note": "已經拿過的版本(過去分詞,配 have 用)",
+    "note": "ta:開音節,母音唸長音;ken:子音+短母音+子音"
+  },
+  "committed": {
+    "mean": "專一",
+    "theme": "relationships",
+    "stage": 2,
+    "base": "commit",
+    "family-note": "已經承諾的(過去式/+ed 形容詞,雙 t)",
+    "note": "com:子音+短母音+子音;-ed 過去式"
+  },
+  "cheating": {
+    "mean": "劈腿",
+    "theme": "relationships",
+    "stage": 2,
+    "base": "cheat",
+    "family-note": "正在偷情/作弊(進行式,+ing)",
+    "note": "cheat:ea 唸 ㄧ(部分例外);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "ghosting": {
+    "mean": "已讀不回",
+    "theme": "relationships",
+    "stage": 2,
+    "base": "ghost",
+    "family-note": "突然消失不聯絡(進行式,+ing)",
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "shredding": {
+    "mean": "減脂",
+    "theme": "fitness",
+    "stage": 3,
+    "base": "shred",
+    "family-note": "正在切碎(進行式,雙 d)",
+    "note": "shred:sh 唸 ㄒ;ding:ng 唸 ㄥ;-ing 進行式"
+  },
+  "spinning": {
+    "mean": "飛輪課、旋轉",
+    "theme": "fitness",
+    "stage": 2,
+    "base": "spin",
+    "family-note": "正在…的版本(進行式,+ing)",
+    "note": "ning:ng 唸 ㄥ;-ing 進行式"
+  },
+  "singular": {
+    "mean": "單數的、單數",
+    "theme": "numbers",
+    "stage": 3,
+    "base": "single",
+    "family-note": "形容詞版本(同根 sing-,單數的)",
+    "note": "sin:子音+短母音+子音;gu:開音節,母音唸長音"
+  },
+  "virtual": {
+    "mean": "虛擬的",
+    "theme": "technology",
+    "stage": 2,
+    "base": "virtue",
+    "family-note": "形容詞版本(+al,從 virtue 來)",
+    "note": "vir:子音+短母音+子音;tu:開音節,母音唸長音"
+  },
+  "missionary": {
+    "mean": "傳教士",
+    "theme": "jobs-advanced",
+    "stage": 3,
+    "base": "mission",
+    "family-note": "做這件事的人(+ary,傳教士)",
+    "note": "mis:子音+短母音+子音;ry:開音節,母音唸長音"
+  },
+  "strategist": {
+    "mean": "策略師",
+    "theme": "jobs-advanced",
+    "stage": 3,
+    "base": "strategy",
+    "family-note": "做這件事的人(+ist,策略家)",
+    "note": "-ist 字尾(人)"
+  },
+  "biologist": {
+    "mean": "生物學家",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "biology",
+    "family-note": "做這件事的人(+ist,生物學家)",
+    "note": "bi:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "chemist": {
+    "mean": "化學家",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "chemistry",
+    "family-note": "做這件事的人(+ist,化學家)",
+    "note": "chem:ch 唸 ㄔ;-ist 字尾(人)"
+  },
+  "physicist": {
+    "mean": "物理學家",
+    "theme": "jobs-advanced",
+    "stage": 3,
+    "base": "physics",
+    "family-note": "做這件事的人(+ist,物理學家)",
+    "note": "phys:ph 唸 ㄈ;-ist 字尾(人)"
+  },
+  "economist": {
+    "mean": "經濟學家",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "economy",
+    "family-note": "做這件事的人(+ist,經濟學家)",
+    "note": "con:子音+短母音+子音;-ist 字尾(人)"
+  },
+  "sociologist": {
+    "mean": "社會學家",
+    "theme": "jobs-advanced",
+    "stage": 3,
+    "base": "sociology",
+    "family-note": "做這件事的人(+ist,社會學家)",
+    "note": "so:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "psychologist": {
+    "mean": "心理學家",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "psychology",
+    "family-note": "做這件事的人(+ist,心理學家)",
+    "note": "字首 p 不發音(ps- 開頭)"
+  },
+  "philosopher": {
+    "mean": "哲學家",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "philosophy",
+    "family-note": "做這件事的人(+er,哲學家)",
+    "note": "phil:ph 唸 ㄈ;pher:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+  },
+  "historian": {
+    "mean": "歷史學家",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "history",
+    "family-note": "做這件事的人(+ian,歷史學家)",
+    "note": "his:子音+短母音+子音"
+  },
+  "pianist": {
+    "mean": "鋼琴家",
+    "theme": "music",
+    "stage": 3,
+    "base": "piano",
+    "family-note": "做這件事的人(+ist,鋼琴家)",
+    "note": "-ist 字尾(人)"
+  },
+  "founder": {
+    "mean": "創辦人",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "found",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "foun:ou 唸 ㄠ(可有例外);der:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "analyst": {
+    "mean": "分析師",
+    "theme": "jobs-advanced",
+    "stage": 2,
+    "base": "analyze",
+    "family-note": "做這件事的人(+yst,分析師)",
+    "note": null
+  },
+  "appetizer": {
+    "mean": "開胃菜",
+    "theme": "restaurant",
+    "stage": 2,
+    "base": "appetite",
+    "family-note": "做這件事的東西(+izer,開胃菜)",
+    "note": "pe:開音節,母音唸長音;zer:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "emergency": {
+    "mean": "急診",
+    "theme": "medical",
+    "stage": 1,
+    "base": "emerge",
+    "family-note": "名詞版本(+ency,緊急)",
+    "note": "mer:子音+短母音+子音;cy:開音節,母音唸長音"
+  },
+  "prayer": {
+    "mean": "祈禱",
+    "theme": "religion",
+    "stage": 1,
+    "base": "pray",
+    "family-note": "這個動作(pray + er,祈禱)",
+    "note": "pray:ay 唸 ㄟ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+  },
+  "prosecution": {
+    "mean": "檢方",
+    "theme": "law",
+    "stage": 3,
+    "base": "prosecute",
+    "family-note": "這個動作的「結果」(+ion 名詞,起訴)",
+    "note": "cu:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "deepen": {
+    "mean": "使變深",
+    "theme": "actions",
+    "stage": 2,
+    "base": "deep",
+    "family-note": "動詞版本(+en,加深)",
+    "note": "dee:ee 唸 ㄧ 長音;pen:子音+短母音+子音"
+  },
+  "frighten": {
+    "mean": "使驚恐",
+    "theme": "actions",
+    "stage": 2,
+    "base": "fright",
+    "family-note": "動詞版本(+en,使害怕)",
+    "note": "gh 不發音(igh 整塊唸長母音)"
+  },
+  "lessen": {
+    "mean": "減少",
+    "theme": "numbers",
+    "stage": 3,
+    "base": "less",
+    "family-note": "動詞版本(+en,減少)",
+    "note": "les:子音+短母音+子音"
+  },
+  "loosen": {
+    "mean": "鬆開，解開",
+    "theme": "actions",
+    "stage": 2,
+    "base": "loose",
+    "family-note": "動詞版本(+n,鬆開)",
+    "note": "loo:oo 唸 ㄨ(可長可短);sen:子音+短母音+子音"
+  },
+  "awaken": {
+    "mean": "醒",
+    "theme": "actions",
+    "stage": 2,
+    "base": "awake",
+    "family-note": "動詞版本(+n,喚醒)",
+    "note": "wa:開音節,母音唸長音;ken:子音+短母音+子音"
+  },
+  "awful": {
+    "mean": "可怕的，嚇人的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "awe",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "aw:aw 唸 ㄛ;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "feelings": {
+    "mean": "感情",
+    "theme": "emotions",
+    "stage": 1,
+    "base": "feel",
+    "family-note": "名詞版本(+ings,感受;複數常用)",
+    "note": "fee:ee 唸 ㄧ 長音;lings:ng 唸 ㄥ"
+  },
+  "earnings": {
+    "mean": "收入，工資",
+    "theme": "actions",
+    "stage": 2,
+    "base": "earn",
+    "family-note": "名詞版本(+ings,收入)",
+    "note": "ear:ea 唸 ㄧ(部分例外);nings:ng 唸 ㄥ"
+  },
+  "savings": {
+    "mean": "儲金，存款",
+    "theme": "money",
+    "stage": 2,
+    "base": "save",
+    "family-note": "名詞版本(+ings,儲蓄)",
+    "note": "sa:開音節,母音唸長音;vings:ng 唸 ㄥ"
+  },
+  "groceries": {
+    "mean": "日用品",
+    "theme": "shopping",
+    "stage": 1,
+    "base": "grocer",
+    "family-note": "「很多個」的版本(複數,y 變 ies)",
+    "note": "cer:子音+短母音+子音;ies:ie 唸 ㄞ 或 ㄧ"
+  },
+  "former": {
+    "mean": "前者、以前的",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": "form",
+    "family-note": "「以前的/前者」(獨立用法,跟 form 字面動作無關)",
+    "note": "for:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "forecast": {
+    "mean": "預報",
+    "theme": "weather",
+    "stage": 1,
+    "base": "forecast",
+    "family-note": "名詞=預報;動詞三態同形 forecast/forecast/forecast",
+    "note": "fore:末 e 不發音,母音唸長音"
+  },
+  "shot": {
+    "mean": "打針、一槍、一杯",
+    "theme": "health",
+    "stage": 1,
+    "base": "shoot",
+    "family-note": "shoot 一下的成果(名詞:一針/一槍/一杯)",
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "bore": {
+    "mean": "承受了",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": "bear",
+    "family-note": "已經承受過的版本(過去式;也指鑽孔)",
+    "note": "ore:or 唸 ㄛㄦ(R 控制)"
+  },
+  "ground": {
+    "mean": "磨碎了",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": "grind",
+    "family-note": "已經研磨的版本(過去式;也指地面)",
+    "note": "ound:ou 唸 ㄠ(可有例外)"
+  },
+  "lay": {
+    "mean": "躺了",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": "lie",
+    "family-note": "躺(過去式;但也是「放置」動詞原形,易混)",
+    "note": "ay:ay 唸 ㄟ"
+  },
+  "born": {
+    "mean": "出生、天生的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": "bear",
+    "family-note": "已經出生的版本(過去分詞;bear 也指生育)",
+    "note": "orn:or 唸 ㄛㄦ(R 控制)"
+  },
+  "however": {
+    "mean": "然而",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "how:子音+短母音+子音;ever:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+  },
+  "therefore": {
+    "mean": "因此",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "there:末 e 不發音,母音唸長音"
+  },
+  "thus": {
+    "mean": "因此",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "th:th 唸 ㄒ 或 ㄉ"
+  },
+  "because": {
+    "mean": "因為",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "be:開音節,母音唸長音;cause:末 e 不發音,母音唸長音"
+  },
+  "although": {
+    "mean": "雖然",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "gh 不發音(ough 整塊唸長母音)"
+  },
+  "though": {
+    "mean": "雖然(口語)",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "gh 不發音,唸 ㄉㄛ"
+  },
+  "unless": {
+    "mean": "除非",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "-less 字尾唸 ㄌㄝㄙ"
+  },
+  "instead": {
+    "mean": "反而",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "stead:ea 唸 ㄧ(部分例外)"
+  },
+  "otherwise": {
+    "mean": "否則",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ther:er 唸 ㄜㄦ(R 控制);wise:末 e 不發音,母音唸長音"
+  },
+  "while": {
+    "mean": "當…時",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "wh:wh 唸 ㄨ"
+  },
+  "until": {
+    "mean": "直到",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "til:子音+短母音+子音"
+  },
+  "since": {
+    "mean": "自從",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "stranger": {
+    "mean": "陌生人",
+    "theme": "family",
+    "stage": 1,
+    "base": "strange",
+    "family-note": "陌生的人(strange + r)",
+    "note": "ger:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "enemy": {
+    "mean": "敵人",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "my:開音節,母音唸長音"
+  },
+  "rival": {
+    "mean": "對手",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ri:開音節,母音唸長音;val:子音+短母音+子音"
+  },
+  "companion": {
+    "mean": "夥伴",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音"
+  },
+  "mate": {
+    "mean": "伙伴",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "buddy": {
+    "mean": "哥們",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "bud:子音+短母音+子音;dy:開音節,母音唸長音"
+  },
+  "pal": {
+    "mean": "夥伴",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "crush": {
+    "mean": "心儀對象",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ush:sh 唸 ㄒ"
+  },
+  "lover": {
+    "mean": "愛人",
+    "theme": "family",
+    "stage": 1,
+    "base": "love",
+    "family-note": "做這件事的人(lov + er,愛某人的人)",
+    "note": "lo:開音節,母音唸長音;ver:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "ex": {
+    "mean": "前任",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "roommate": {
+    "mean": "室友",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "room:oo 唸 ㄨ(可長可短);mate:末 e 不發音,母音唸長音"
+  },
+  "workmate": {
+    "mean": "同事",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "work:or 唸 ㄛㄦ(R 控制);mate:末 e 不發音,母音唸長音"
+  },
+  "teammate": {
+    "mean": "隊友",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "team:ea 唸 ㄧ(部分例外);mate:末 e 不發音,母音唸長音"
+  },
+  "acquaintance": {
+    "mean": "熟人",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "quain:ai 唸 ㄟ"
+  },
+  "boyfriend": {
+    "mean": "男友",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "boy:oy 唸 ㄛㄧ;friend:ie 唸 ㄞ 或 ㄧ"
+  },
+  "girlfriend": {
+    "mean": "女友",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "girl:ir 唸 ㄜㄦ(R 控制);friend:ie 唸 ㄞ 或 ㄧ"
+  },
+  "partner": {
+    "mean": "伴侶",
+    "theme": "family",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "part:ar 唸 ㄚㄦ(R 控制);ner:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "volcano": {
+    "mean": "火山",
+    "theme": "weather",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "vol:子音+短母音+子音;ca:開音節,母音唸長音"
+  },
+  "earthquake": {
+    "mean": "地震",
+    "theme": "weather",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "earth:ea 唸 ㄧ(部分例外);quake:末 e 不發音,母音唸長音"
+  },
+  "tsunami": {
+    "mean": "海嘯",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "na:開音節,母音唸長音"
+  },
+  "avalanche": {
+    "mean": "雪崩",
+    "theme": "weather",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "va:開音節,母音唸長音;lanche:ch 唸 ㄔ"
+  },
+  "eruption": {
+    "mean": "噴發",
+    "theme": "weather",
+    "stage": 3,
+    "base": "erupt",
+    "family-note": "這個動作的「事件」(+tion 名詞,噴發)",
+    "note": "rup:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "flame": {
+    "mean": "火焰",
+    "theme": "weather",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "spark": {
+    "mean": "火花",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ark:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "smoke": {
+    "mean": "煙",
+    "theme": "weather",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "ash": {
+    "mean": "灰燼",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "shadow": {
+    "mean": "影子",
+    "theme": "weather",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "sha:sh 唸 ㄒ;dow:子音+短母音+子音"
+  },
+  "wave": {
+    "mean": "波浪",
+    "theme": "weather",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "tide": {
+    "mean": "潮汐",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "perfume": {
+    "mean": "香水",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "per:子音+短母音+子音;fume:末 e 不發音,母音唸長音"
+  },
+  "cologne": {
+    "mean": "古龍水",
+    "theme": "bathroom",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音"
+  },
+  "makeup": {
+    "mean": "化妝品",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "make:末 e 不發音,母音唸長音"
+  },
+  "mascara": {
+    "mean": "睫毛膏",
+    "theme": "bathroom",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "mas:子音+短母音+子音;ca:開音節,母音唸長音"
+  },
+  "lipstick": {
+    "mean": "口紅",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "lip:子音+短母音+子音;stick:ck 唸 ㄎ"
+  },
+  "eyeliner": {
+    "mean": "眼線",
+    "theme": "bathroom",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eye:ey 唸 ㄧ 或 ㄟ;li:開音節,母音唸長音;ner:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "piece": {
+    "mean": "一片",
+    "theme": "numbers",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "iece:末 e 不發音,母音唸長音"
+  },
+  "part": {
+    "mean": "部分",
+    "theme": "numbers",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "art:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "whole": {
+    "mean": "整個",
+    "theme": "numbers",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "wh:wh 唸 ㄨ"
+  },
+  "list": {
+    "mean": "清單",
+    "theme": "numbers",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "range": {
+    "mean": "範圍",
+    "theme": "numbers",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ange:ng 唸 ㄥ"
+  },
+  "level": {
+    "mean": "等級",
+    "theme": "numbers",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "le:開音節,母音唸長音;vel:子音+短母音+子音"
+  },
+  "area": {
+    "mean": "區域",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "system": {
+    "mean": "系統",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "sys:子音+短母音+子音"
+  },
+  "situation": {
+    "mean": "情況",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sit:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "condition": {
+    "mean": "條件",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;di:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "concept": {
+    "mean": "概念",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音"
+  },
+  "individual": {
+    "mean": "個人",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音;vid:子音+短母音+子音"
+  },
+  "truth": {
+    "mean": "真相",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "uth:th 唸 ㄒ 或 ㄉ"
+  },
+  "force": {
+    "mean": "力量",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "orce:or 唸 ㄛㄦ(R 控制)"
+  },
+  "energy": {
+    "mean": "能量",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "er:er 唸 ㄜㄦ(R 控制);gy:開音節,母音唸長音"
+  },
+  "power": {
+    "mean": "力量",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "po:開音節,母音唸長音;wer:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "region": {
+    "mean": "地區",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "material": {
+    "mean": "材料",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ma:開音節,母音唸長音"
+  },
+  "vehicle": {
+    "mean": "車輛",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ve:開音節,母音唸長音"
+  },
+  "perform": {
+    "mean": "表演",
+    "theme": "music",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "per:子音+短母音+子音;form:or 唸 ㄛㄦ(R 控制)"
+  },
+  "speaker": {
+    "mean": "喇叭",
+    "theme": "music",
+    "stage": 1,
+    "base": "speak",
+    "family-note": "做這件事的人(speak + er,演講者)",
+    "note": "spea:ea 唸 ㄧ(部分例外);ker:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "microphone": {
+    "mean": "麥克風",
+    "theme": "music",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "mi:開音節,母音唸長音;phone:末 e 不發音,母音唸長音"
+  },
+  "headphones": {
+    "mean": "耳機",
+    "theme": "music",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "head:ea 唸 ㄧ(部分例外);phones:ph 唸 ㄈ"
+  },
+  "radio": {
+    "mean": "收音機",
+    "theme": "music",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "ra:開音節,母音唸長音"
+  },
+  "diaper": {
+    "mean": "尿布",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音;per:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "pad": {
+    "mean": "衛生棉",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "tampon": {
+    "mean": "衛生棉條",
+    "theme": "bathroom",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tam:子音+短母音+子音"
+  },
+  "bandage": {
+    "mean": "繃帶",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ban:子音+短母音+子音;dage:末 e 不發音,母音唸長音"
+  },
+  "bandaid": {
+    "mean": "OK繃",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "aid:ai 唸 ㄟ"
+  },
+  "gauze": {
+    "mean": "紗布",
+    "theme": "bathroom",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "auze:末 e 不發音,母音唸長音"
+  },
+  "ointment": {
+    "mean": "藥膏",
+    "theme": "bathroom",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "oint:oi 唸 ㄛㄧ;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "sunscreen": {
+    "mean": "防曬乳",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "sun:子音+短母音+子音;screen:ee 唸 ㄧ 長音"
+  },
+  "vegan": {
+    "mean": "純素",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ve:開音節,母音唸長音;gan:子音+短母音+子音"
+  },
+  "vegetarian": {
+    "mean": "素食",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "veg:子音+短母音+子音"
+  },
+  "savory": {
+    "mean": "鹹的、鹹香的",
+    "theme": "restaurant",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音"
+  },
+  "bitter": {
+    "mean": "苦的",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "bit:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "bland": {
+    "mean": "清淡的、沒味道的",
+    "theme": "restaurant",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "casual": {
+    "mean": "休閒的、隨意的",
+    "theme": "restaurant",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ca:開音節,母音唸長音"
+  },
+  "formal": {
+    "mean": "正式的",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": "form",
+    "family-note": "形容詞版本(+al,從 form 來)",
+    "note": "for:子音+短母音+子音"
+  },
+  "allergy": {
+    "mean": "過敏",
+    "theme": "restaurant",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ler:子音+短母音+子音;gy:開音節,母音唸長音"
+  },
+  "barbecue": {
+    "mean": "燒烤",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "bar:子音+短母音+子音;be:開音節,母音唸長音;cue:ue 唸 ㄩ"
+  },
+  "bbq": {
+    "mean": "燒烤",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "hotpot": {
+    "mean": "火鍋",
+    "theme": "restaurant",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "hot:子音+短母音+子音"
+  },
+  "weep": {
+    "mean": "哭泣",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eep:ee 唸 ㄧ 長音"
+  },
+  "frown": {
+    "mean": "皺眉",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "own:ow 唸 ㄠ 或 ㄛ"
+  },
+  "blush": {
+    "mean": "臉紅",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ush:sh 唸 ㄒ"
+  },
+  "sigh": {
+    "mean": "嘆氣",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "同 high"
+  },
+  "yell": {
+    "mean": "大叫",
+    "theme": "emotions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "scream": {
+    "mean": "尖叫",
+    "theme": "emotions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "eam:ea 唸 ㄧ(部分例外)"
+  },
+  "cheer": {
+    "mean": "歡呼",
+    "theme": "emotions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ;eer:ee 唸 ㄧ 長音;-er 字尾(比較級/人)"
+  },
+  "smile": {
+    "mean": "微笑",
+    "theme": "emotions",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "covid": {
+    "mean": "新冠病毒、COVID-19",
+    "theme": "diseases",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音;vid:子音+短母音+子音"
+  },
+  "facebook": {
+    "mean": "臉書",
+    "theme": "internet",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "face:末 e 不發音,母音唸長音;book:oo 唸 ㄨ(可長可短)"
+  },
+  "instagram": {
+    "mean": "Instagram(IG)社群",
+    "theme": "internet",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "twitter": {
+    "mean": "推特",
+    "theme": "internet",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "ter:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "tiktok": {
+    "mean": "TikTok",
+    "theme": "internet",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "tik:子音+短母音+子音"
+  },
+  "youtube": {
+    "mean": "YouTube 影音平台",
+    "theme": "internet",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "you:ou 唸 ㄠ(可有例外);tube:末 e 不發音,母音唸長音"
+  },
+  "google": {
+    "mean": "Google 搜尋引擎",
+    "theme": "internet",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "goo:oo 唸 ㄨ(可長可短)"
+  },
+  "karaoke": {
+    "mean": "卡拉OK",
+    "theme": "hobbies",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "kar:子音+短母音+子音;ke:開音節,母音唸長音"
+  },
+  "definitely": {
+    "mean": "絕對",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": "definite",
+    "family-note": "副詞版本(+ly,絕對)",
+    "note": "def:子音+短母音+子音;nite:末 e 不發音,母音唸長音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "obviously": {
+    "mean": "顯然",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": "obvious",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "vi:開音節,母音唸長音;ous:ou 唸 ㄠ(可有例外);-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "probably": {
+    "mean": "大概",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": "probable",
+    "family-note": "副詞版本(+ly,可能)",
+    "note": "-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "chickenpox": {
+    "mean": "水痘",
+    "theme": "diseases",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "chick:ch 唸 ㄔ;pox:子音+短母音+子音"
+  },
+  "mantis": {
+    "mean": "螳螂",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "man:子音+短母音+子音"
+  },
+  "weevil": {
+    "mean": "象鼻蟲",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "wee:ee 唸 ㄧ 長音;vil:子音+短母音+子音"
+  },
+  "puffer": {
+    "mean": "河豚",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "puf:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "chinchilla": {
+    "mean": "龍貓",
+    "theme": "animals",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "chin:ch 唸 ㄔ;la:開音節,母音唸長音"
+  },
+  "hydrogen": {
+    "mean": "氫",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hyd:子音+短母音+子音;ro:開音節,母音唸長音"
+  },
+  "liter": {
+    "mean": "公升",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "li:開音節,母音唸長音;ter:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "feasible": {
+    "mean": "可實行的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fea:ea 唸 ㄧ(部分例外);sib:子音+短母音+子音;le:開音節,母音唸長音;-ible 字尾唸 ㄧㄅㄛ"
+  },
+  "aspirin": {
+    "mean": "阿斯匹靈",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pi:開音節,母音唸長音;rin:子音+短母音+子音"
+  },
+  "laser": {
+    "mean": "雷射",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "la:開音節,母音唸長音;ser:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "oboe": {
+    "mean": "雙簧管",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "boe:oe 唸 ㄛ"
+  },
+  "bassoon": {
+    "mean": "低音管",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bas:子音+短母音+子音;soon:oo 唸 ㄨ(可長可短)"
+  },
+  "mandolin": {
+    "mean": "曼陀林",
+    "theme": "music",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "man:子音+短母音+子音;do:開音節,母音唸長音"
+  },
+  "cymbal": {
+    "mean": "鈸",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cym:子音+短母音+子音"
+  },
+  "tuba": {
+    "mean": "低音號",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tu:開音節,母音唸長音"
+  },
+  "viola": {
+    "mean": "中提琴",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "la:開音節,母音唸長音"
+  },
+  "banjo": {
+    "mean": "班卓琴",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ban:子音+短母音+子音;jo:開音節,母音唸長音"
+  },
+  "tambourine": {
+    "mean": "鈴鼓",
+    "theme": "music",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tam:子音+短母音+子音;bou:ou 唸 ㄠ(可有例外);ri:開音節,母音唸長音"
+  },
+  "sleet": {
+    "mean": "凍雨",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "flurry": {
+    "mean": "陣雪",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "flur:ur 唸 ㄜㄦ(R 控制);ry:開音節,母音唸長音"
+  },
+  "hailstone": {
+    "mean": "冰雹",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hail:ai 唸 ㄟ;ne:開音節,母音唸長音"
+  },
+  "whirlwind": {
+    "mean": "旋風",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "whir:ir 唸 ㄜㄦ(R 控制)"
+  },
+  "mudslide": {
+    "mean": "土石流",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "mud:子音+短母音+子音;de:開音節,母音唸長音"
+  },
+  "volcanic": {
+    "mean": "火山的",
+    "theme": "nature",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "vol:子音+短母音+子音;ca:開音節,母音唸長音"
+  },
+  "windmill": {
+    "mean": "風車",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "win:子音+短母音+子音"
+  },
+  "squid": {
+    "mean": "魷魚",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cougar": {
+    "mean": "美洲獅",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cou:ou 唸 ㄠ(可有例外);gar:子音+短母音+子音"
+  },
+  "bobcat": {
+    "mean": "短尾貓",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bob:子音+短母音+子音"
+  },
+  "lynx": {
+    "mean": "山貓",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ly:開音節,母音唸長音"
+  },
+  "weasel": {
+    "mean": "黃鼠狼",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "wea:ea 唸 ㄧ(部分例外);sel:子音+短母音+子音"
+  },
+  "ferret": {
+    "mean": "雪貂",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fer:子音+短母音+子音"
+  },
+  "anteater": {
+    "mean": "食蟻獸",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tea:ea 唸 ㄧ(部分例外);ter:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "badger": {
+    "mean": "獾",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bad:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "falcon": {
+    "mean": "獵鷹",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fal:子音+短母音+子音"
+  },
+  "chipmunk": {
+    "mean": "花栗鼠",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "chip:ch 唸 ㄔ"
+  },
+  "guinea": {
+    "mean": "天竺鼠(guinea pig)",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "gui:ui 唸 ㄨ;nea:ea 唸 ㄧ(部分例外)"
+  },
+  "paella": {
+    "mean": "西班牙海鮮飯",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "la:開音節,母音唸長音"
+  },
+  "quiche": {
+    "mean": "法式鹹派",
+    "theme": "desserts",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "quic:ui 唸 ㄨ;he:開音節,母音唸長音"
+  },
+  "mozzarella": {
+    "mean": "莫扎瑞拉",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "moz:子音+短母音+子音;za:開音節,母音唸長音"
+  },
+  "ricotta": {
+    "mean": "瑞可塔乳酪",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ri:開音節,母音唸長音;cot:子音+短母音+子音"
+  },
+  "risotto": {
+    "mean": "燉飯",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ri:開音節,母音唸長音;sot:子音+短母音+子音"
+  },
+  "omelet": {
+    "mean": "煎蛋捲",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "me:開音節,母音唸長音;let:子音+短母音+子音"
+  },
+  "saffron": {
+    "mean": "番紅花",
+    "theme": "nature",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "saf:子音+短母音+子音"
+  },
+  "salami": {
+    "mean": "薩拉米香腸",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音"
+  },
+  "hummus": {
+    "mean": "鷹嘴豆泥",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hum:子音+短母音+子音"
+  },
+  "baguette": {
+    "mean": "法國麵包",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ba:開音節,母音唸長音;guet:ue 唸 ㄩ"
+  },
+  "croissant": {
+    "mean": "可頌",
+    "theme": "desserts",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "crois:oi 唸 ㄛㄧ"
+  },
+  "cinnamon": {
+    "mean": "肉桂",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cin:子音+短母音+子音;na:開音節,母音唸長音"
+  },
+  "cumin": {
+    "mean": "孜然",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cu:開音節,母音唸長音;min:子音+短母音+子音"
+  },
+  "nutmeg": {
+    "mean": "肉豆蔻",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "nut:子音+短母音+子音"
+  },
+  "paprika": {
+    "mean": "紅椒粉",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pap:子音+短母音+子音;ri:開音節,母音唸長音"
+  },
+  "cardamom": {
+    "mean": "小豆蔻",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "car:子音+短母音+子音;da:開音節,母音唸長音"
+  },
+  "hazelnut": {
+    "mean": "榛果",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ha:開音節,母音唸長音;zel:子音+短母音+子音"
+  },
+  "pistachio": {
+    "mean": "開心果",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pis:子音+短母音+子音"
+  },
+  "pastrami": {
+    "mean": "燻牛肉",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pas:子音+短母音+子音;mi:開音節,母音唸長音"
+  },
+  "prosciutto": {
+    "mean": "義式火腿",
+    "theme": "food",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "to:開音節,母音唸長音"
+  },
+  "cashew": {
+    "mean": "腰果",
+    "theme": "body",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cas:子音+短母音+子音"
+  },
+  "brie": {
+    "mean": "布里乳酪",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ie:ie 唸 ㄞ 或 ㄧ"
+  },
+  "parmesan": {
+    "mean": "帕馬森乳酪",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "par:子音+短母音+子音;me:開音節,母音唸長音"
+  },
+  "cheddar": {
+    "mean": "切達乳酪",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ched:ch 唸 ㄔ;dar:子音+短母音+子音"
+  },
+  "gnocchi": {
+    "mean": "麵疙瘩",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "字首 g 不發音(gn- 開頭)"
+  },
+  "ravioli": {
+    "mean": "義式餃",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ra:開音節,母音唸長音"
+  },
+  "meringue": {
+    "mean": "蛋白霜",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "me:開音節,母音唸長音;rin:子音+短母音+子音;gue:ue 唸 ㄩ"
+  },
+  "marinade": {
+    "mean": "醃料",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ma:開音節,母音唸長音"
+  },
+  "pesto": {
+    "mean": "青醬",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pes:子音+短母音+子音;to:開音節,母音唸長音"
+  },
+  "foie": {
+    "mean": "鵝肝(foie gras)",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fo:開音節,母音唸長音;ie:ie 唸 ㄞ 或 ㄧ"
+  },
+  "wasabi": {
+    "mean": "芥末",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "wa:開音節,母音唸長音"
+  },
+  "teriyaki": {
+    "mean": "照燒",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "te:開音節,母音唸長音"
+  },
+  "crouton": {
+    "mean": "烤麵包丁",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "crou:ou 唸 ㄠ(可有例外);ton:子音+短母音+子音"
+  },
+  "gourmet": {
+    "mean": "美食家",
+    "theme": "appearance",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "gour:ou 唸 ㄠ(可有例外);met:子音+短母音+子音"
+  },
+  "bourbon": {
+    "mean": "波本酒",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bour:ou 唸 ㄠ(可有例外);bon:子音+短母音+子音"
+  },
+  "anchovy": {
+    "mean": "鯷魚",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cho:ch 唸 ㄔ;vy:開音節,母音唸長音"
+  },
+  "beetroot": {
+    "mean": "甜菜根",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "beet:ee 唸 ㄧ 長音;root:oo 唸 ㄨ(可長可短)"
+  },
+  "scallop": {
+    "mean": "扇貝",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "lop:子音+短母音+子音"
+  },
+  "granite": {
+    "mean": "花崗岩",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "titanium": {
+    "mean": "鈦",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ti:開音節,母音唸長音"
+  },
+  "pickaxe": {
+    "mean": "鶴嘴鋤",
+    "theme": "tools",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pick:ck 唸 ㄎ"
+  },
+  "vise": {
+    "mean": "老虎鉗",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "crowbar": {
+    "mean": "撬棍",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "crow:ow 唸 ㄠ 或 ㄛ;bar:子音+短母音+子音"
+  },
+  "chisel": {
+    "mean": "鑿子",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "chis:ch 唸 ㄔ"
+  },
+  "sandpaper": {
+    "mean": "砂紙",
+    "theme": "tools",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pa:開音節,母音唸長音;per:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "trowel": {
+    "mean": "抹刀、小鏟子",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "trow:ow 唸 ㄠ 或 ㄛ"
+  },
+  "pitchfork": {
+    "mean": "乾草叉",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pitch:ch 唸 ㄔ;fork:or 唸 ㄛㄦ(R 控制)"
+  },
+  "shovel": {
+    "mean": "鏟子",
+    "theme": "tools",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "shov:sh 唸 ㄒ"
+  },
+  "spade": {
+    "mean": "鏟子、鍬",
+    "theme": "tools",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "rake": {
+    "mean": "耙子",
+    "theme": "tools",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "linen": {
+    "mean": "亞麻",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lin:子音+短母音+子音"
+  },
+  "polyester": {
+    "mean": "聚酯纖維",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pol:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "porcelain": {
+    "mean": "瓷器",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "por:子音+短母音+子音;ce:開音節,母音唸長音;lain:ai 唸 ㄟ"
+  },
+  "ceramic": {
+    "mean": "陶瓷",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ce:開音節,母音唸長音;ram:子音+短母音+子音"
+  },
+  "velvet": {
+    "mean": "絲絨",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "vel:子音+短母音+子音"
+  },
+  "zinc": {
+    "mean": "鋅",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "aluminum": {
+    "mean": "鋁",
+    "theme": "materials",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "lu:開音節,母音唸長音;num:子音+短母音+子音"
+  },
+  "nylon": {
+    "mean": "尼龍",
+    "theme": "materials",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ny:開音節,母音唸長音;lon:子音+短母音+子音"
+  },
+  "vinegar": {
+    "mean": "醋",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "vi:開音節,母音唸長音;gar:子音+短母音+子音"
+  },
+  "daffodil": {
+    "mean": "黃水仙",
+    "theme": "drinks",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "daf:子音+短母音+子音;fo:開音節,母音唸長音"
+  },
+  "deafen": {
+    "mean": "使聾",
+    "theme": "actions",
+    "stage": 2,
+    "base": "deaf",
+    "family-note": "動詞版本(+en,使聽不見)",
+    "note": "dea:ea 唸 ㄧ(部分例外);fen:子音+短母音+子音"
+  },
+  "tobacco": {
+    "mean": "菸草",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "to:開音節,母音唸長音;bac:子音+短母音+子音"
+  },
+  "buffalo": {
+    "mean": "水牛",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "buf:子音+短母音+子音;fa:開音節,母音唸長音"
+  },
+  "hippopotamus": {
+    "mean": "河馬",
+    "theme": "animals",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "hip:子音+短母音+子音;po:開音節,母音唸長音"
+  },
+  "chimpanzee": {
+    "mean": "黑猩猩",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "chim:ch 唸 ㄔ;pan:子音+短母音+子音;zee:ee 唸 ㄧ 長音"
+  },
+  "dresser": {
+    "mean": "梳妝台",
+    "theme": "home-items",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ser:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "poster": {
+    "mean": "海報",
+    "theme": "home-items",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "pos:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "receptionist": {
+    "mean": "接待員",
+    "theme": "jobs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;cep:子音+短母音+子音;-ist 字尾(人)"
+  },
+  "journalist": {
+    "mean": "記者",
+    "theme": "jobs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "jour:ou 唸 ㄠ(可有例外);na:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "saucer": {
+    "mean": "小碟",
+    "theme": "kitchen-utensils",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sau:au 唸 ㄛ;cer:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "gummy": {
+    "mean": "軟糖",
+    "theme": "desserts",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "gum:子音+短母音+子音;my:開音節,母音唸長音"
+  },
+  "recession": {
+    "mean": "經濟衰退",
+    "theme": "money",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;ces:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "granted": {
+    "mean": "當然",
+    "theme": "connectors",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "-ed 過去式"
+  },
+  "formerly": {
+    "mean": "以前",
+    "theme": "connectors",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "for:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "surveyor": {
+    "mean": "測量員",
+    "theme": "jobs-advanced",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sur:子音+短母音+子音;vey:ey 唸 ㄧ 或 ㄟ;or:or 唸 ㄛㄦ(R 控制);-or 字尾(人/事物)"
+  },
+  "geologist": {
+    "mean": "地質學家",
+    "theme": "jobs-advanced",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ge:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "homely": {
+    "mean": "相貌平凡的(美式)",
+    "theme": "appearance",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "home:末 e 不發音,母音唸長音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "moody": {
+    "mean": "情緒化",
+    "theme": "personality",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "moo:oo 唸 ㄨ(可長可短);dy:開音節,母音唸長音"
+  },
+  "affection": {
+    "mean": "喜愛",
+    "theme": "relationships",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "fec:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "exhibition": {
+    "mean": "展覽",
+    "theme": "art",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hi:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "photography": {
+    "mean": "攝影",
+    "theme": "hobbies",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "pho:ph 唸 ㄈ;tog:子音+短母音+子音;ra:開音節,母音唸長音"
+  },
+  "hobbyist": {
+    "mean": "愛好者",
+    "theme": "hobbies",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "hob:子音+短母音+子音;by:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "allergies": {
+    "mean": "過敏症",
+    "theme": "diseases",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ler:子音+短母音+子音;gies:ie 唸 ㄞ 或 ㄧ"
+  },
+  "briefing": {
+    "mean": "簡報、簡短說明會",
+    "theme": "office",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "brief:ie 唸 ㄞ 或 ㄧ;ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "networking": {
+    "mean": "建立人脈",
+    "theme": "office",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "net:子音+短母音+子音;work:or 唸 ㄛㄦ(R 控制);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "marketing": {
+    "mean": "行銷",
+    "theme": "business",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "mar:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "branding": {
+    "mean": "品牌經營",
+    "theme": "business",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "accounting": {
+    "mean": "會計",
+    "theme": "business",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "count:ou 唸 ㄠ(可有例外);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "hosting": {
+    "mean": "主機代管",
+    "theme": "internet",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "trending": {
+    "mean": "熱門",
+    "theme": "internet",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "procession": {
+    "mean": "行列",
+    "theme": "events",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ces:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "recycling": {
+    "mean": "回收",
+    "theme": "environment",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;cling:ng 唸 ㄥ;-ing 進行式"
+  },
+  "flooding": {
+    "mean": "水災",
+    "theme": "environment",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "flood:oo 唸 ㄨ(可長可短);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "kidnapping": {
+    "mean": "綁架",
+    "theme": "emergencies",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "kid:子音+短母音+子音;ping:ng 唸 ㄥ;-ing 進行式"
+  },
+  "mugging": {
+    "mean": "街頭搶劫",
+    "theme": "emergencies",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "mug:子音+短母音+子音;ging:ng 唸 ㄥ;-ing 進行式"
+  },
+  "drowning": {
+    "mean": "溺水",
+    "theme": "emergencies",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "drown:ow 唸 ㄠ 或 ㄛ;ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "dealing": {
+    "mean": "販毒",
+    "theme": "crime",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "deal:ea 唸 ㄧ(部分例外);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "trespassing": {
+    "mean": "非法侵入",
+    "theme": "crime",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "hearing": {
+    "mean": "聽證會",
+    "theme": "law",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hear:ea 唸 ㄧ(部分例外);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "dismissed": {
+    "mean": "撤銷",
+    "theme": "law",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "dis:子音+短母音+子音;-ed 過去式"
+  },
+  "deposition": {
+    "mean": "證詞",
+    "theme": "law",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "dep:子音+短母音+子音;si:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "polling": {
+    "mean": "民調",
+    "theme": "politics",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "lobbying": {
+    "mean": "遊說",
+    "theme": "politics",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lob:子音+短母音+子音;by:開音節,母音唸長音;ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "legislator": {
+    "mean": "立法者",
+    "theme": "politics",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "leg:子音+短母音+子音;la:開音節,母音唸長音;-or 字尾(人/事物)"
+  },
+  "fasting": {
+    "mean": "禁食",
+    "theme": "religion",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "reasoning": {
+    "mean": "推理",
+    "theme": "philosophy",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "rea:ea 唸 ㄧ(部分例外);son:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "ugliness": {
+    "mean": "醜",
+    "theme": "philosophy",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "li:開音節,母音唸長音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "meaning": {
+    "mean": "意義",
+    "theme": "philosophy",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "mean:ea 唸 ㄧ(部分例外);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "layer": {
+    "mean": "層",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "lay:ay 唸 ㄟ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+  },
+  "reinforce": {
+    "mean": "加強",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;force:or 唸 ㄛㄦ(R 控制)"
+  },
+  "tense": {
+    "mean": "緊張的",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "controversy": {
+    "mean": "爭議",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;sy:開音節,母音唸長音"
+  },
+  "diminish": {
+    "mean": "減少",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音;min:子音+短母音+子音;ish:sh 唸 ㄒ"
+  },
+  "distort": {
+    "mean": "扭曲",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "dis:子音+短母音+子音;tort:or 唸 ㄛㄦ(R 控制)"
+  },
+  "inevitable": {
+    "mean": "不可避免的",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ta:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "minimize": {
+    "mean": "最小化",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "min:子音+短母音+子音;mize:末 e 不發音,母音唸長音"
+  },
+  "predominant": {
+    "mean": "主要的",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "dom:子音+短母音+子音"
+  },
+  "prospect": {
+    "mean": "前景",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "restore": {
+    "mean": "恢復",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;store:末 e 不發音,母音唸長音"
+  },
+  "terminate": {
+    "mean": "終止",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ter:子音+短母音+子音;mi:開音節,母音唸長音;nate:末 e 不發音,母音唸長音"
+  },
+  "unify": {
+    "mean": "統一",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ni:開音節,母音唸長音"
+  },
+  "minimal": {
+    "mean": "最小的",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "min:子音+短母音+子音"
+  },
+  "intermediate": {
+    "mean": "中級的",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ter:子音+短母音+子音;me:開音節,母音唸長音"
+  },
+  "mediate": {
+    "mean": "調解",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "me:開音節,母音唸長音"
+  },
+  "reluctance": {
+    "mean": "不情願",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;luc:子音+短母音+子音"
+  },
+  "intrinsic": {
+    "mean": "內在的",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "sic:子音+短母音+子音"
+  },
+  "persist": {
+    "mean": "堅持",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "per:子音+短母音+子音;-ist 字尾(人)"
+  },
+  "deviate": {
+    "mean": "偏離",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音"
+  },
+  "complement": {
+    "mean": "互補",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "compatible": {
+    "mean": "相容的",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;-ible 字尾唸 ㄧㄅㄛ"
+  },
+  "discern": {
+    "mean": "辨識",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "dis:子音+短母音+子音;cern:er 唸 ㄜㄦ(R 控制)"
+  },
+  "deliberate": {
+    "mean": "審慎考慮",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音;lib:子音+短母音+子音;er:er 唸 ㄜㄦ(R 控制)"
+  },
+  "escalate": {
+    "mean": "升級",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ca:開音節,母音唸長音;late:末 e 不發音,母音唸長音"
+  },
+  "subdue": {
+    "mean": "制服",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "sub:子音+短母音+子音;due:ue 唸 ㄩ"
+  },
+  "administer": {
+    "mean": "管理",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "min:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "resent": {
+    "mean": "怨恨",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "mourn": {
+    "mean": "哀悼",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ourn:ou 唸 ㄠ(可有例外)"
+  },
+  "grieve": {
+    "mean": "悲傷",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ieve:末 e 不發音,母音唸長音"
+  },
+  "keeper": {
+    "mean": "管理者",
+    "theme": "jobs",
+    "stage": 1,
+    "base": "keep",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "kee:ee 唸 ㄧ 長音;per:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "basic": {
+    "mean": "基礎的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ba:開音節,母音唸長音;sic:子音+短母音+子音"
+  },
+  "bathroom": {
+    "mean": "浴室",
+    "theme": "bathroom",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "bat:子音+短母音+子音;hroom:oo 唸 ㄨ(可長可短)"
+  },
+  "believe": {
+    "mean": "相信",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "be:開音節,母音唸長音;lie:ie 唸 ㄞ 或 ㄧ"
+  },
+  "basics": {
+    "mean": "基礎的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ba:開音節,母音唸長音"
+  },
+  "basis": {
+    "mean": "基礎",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ba:開音節,母音唸長音;sis:子音+短母音+子音"
+  },
+  "believable": {
+    "mean": "可信的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "believe",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 believe)",
+    "note": "be:開音節,母音唸長音;lie:ie 唸 ㄞ 或 ㄧ;vab:子音+短母音+子音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "daddy": {
+    "mean": "爸爸",
+    "theme": "family",
+    "stage": 1,
+    "base": "dad",
+    "family-note": "暱稱版本(+dy,爸爸;雙 d)",
+    "note": "dad:子音+短母音+子音;dy:開音節,母音唸長音"
+  },
+  "mommy": {
+    "mean": "媽媽",
+    "theme": "family",
+    "stage": 1,
+    "base": "mom",
+    "family-note": "暱稱版本(+my,媽媽;雙 m)",
+    "note": "mom:子音+短母音+子音;my:開音節,母音唸長音"
+  },
+  "momma": {
+    "mean": "媽媽",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "mom:子音+短母音+子音;ma:開音節,母音唸長音"
+  },
+  "papa": {
+    "mean": "爸爸",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pa:開音節,母音唸長音"
+  },
+  "darkness": {
+    "mean": "黑暗",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "dark",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "dar:子音+短母音+子音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "weakness": {
+    "mean": "弱點",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "weak",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "weak:ea 唸 ㄧ(部分例外);-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "madness": {
+    "mean": "瘋狂",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "mad",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "mad:子音+短母音+子音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "coldness": {
+    "mean": "寒冷、冷漠",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "cold",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "col:子音+短母音+子音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "tiredness": {
+    "mean": "疲倦",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "tired",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "ti:開音節,母音唸長音;red:子音+短母音+子音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "fairness": {
+    "mean": "公平",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "fair",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "fair:ai 唸 ㄟ;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "greatness": {
+    "mean": "偉大",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "great",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "great:ea 唸 ㄧ(部分例外);-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "emptiness": {
+    "mean": "空虛",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "loneliness": {
+    "mean": "孤獨",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lo:開音節,母音唸長音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "calmness": {
+    "mean": "平靜",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "calm",
+    "family-note": "「…的性質」(+ness 把形容詞變名詞)",
+    "note": "cal:子音+短母音+子音;-ness 字尾唸 ㄋㄝㄙ"
+  },
+  "excitement": {
+    "mean": "興奮",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ci:開音節,母音唸長音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "compartment": {
+    "mean": "隔間",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "adoption": {
+    "mean": "收養",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "adopt",
+    "family-note": "這個動作的「結果」(+tion 名詞,收養)",
+    "note": "dop:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "fisher": {
+    "mean": "漁夫",
+    "theme": "jobs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fis:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "villager": {
+    "mean": "村民",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "vil:子音+短母音+子音;la:開音節,母音唸長音;-er 字尾(比較級/人)"
+  },
+  "cyclist": {
+    "mean": "騎腳踏車的人",
+    "theme": "transportation",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cyc:子音+短母音+子音;-ist 字尾(人)"
+  },
+  "terrorist": {
+    "mean": "恐怖份子",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ter:子音+短母音+子音;ro:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "optimist": {
+    "mean": "樂觀者",
+    "theme": "jobs",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ti:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "pessimist": {
+    "mean": "悲觀者",
+    "theme": "jobs",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pes:子音+短母音+子音;si:開音節,母音唸長音;-ist 字尾(人)"
+  },
+  "idealist": {
+    "mean": "理想主義者",
+    "theme": "jobs",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "dea:ea 唸 ㄧ(部分例外);-ist 字尾(人)"
+  },
+  "individuality": {
+    "mean": "個性",
+    "theme": "personality",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音;-ity 字尾唸 ㄜㄊㄧ"
+  },
+  "inferiority": {
+    "mean": "自卑",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fe:開音節,母音唸長音;-ity 字尾唸 ㄜㄊㄧ"
+  },
+  "subtlety": {
+    "mean": "微妙之處",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sub:子音+短母音+子音;ty:開音節,母音唸長音"
+  },
+  "observance": {
+    "mean": "遵守",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "observe",
+    "family-note": "名詞版本(+ance,遵守)",
+    "note": "ser:子音+短母音+子音;ce:開音節,母音唸長音"
+  },
+  "seen": {
+    "mean": "看見",
+    "theme": "actions",
+    "stage": 2,
+    "base": "see",
+    "family-note": "已經看過的版本(過去分詞,配 have 用)",
+    "note": "se:開音節,母音唸長音"
+  },
+  "given": {
+    "mean": "給過(give 的過去分詞)",
+    "theme": "actions",
+    "stage": 2,
+    "base": "give",
+    "family-note": "已經給過的版本(過去分詞,配 have 用)",
+    "note": "gi:開音節,母音唸長音;ven:子音+短母音+子音"
+  },
+  "known": {
+    "mean": "知道過(know 的過去分詞)",
+    "theme": "actions",
+    "stage": 2,
+    "base": "know",
+    "family-note": "已經知道的版本(過去分詞,配 have 用)",
+    "note": "字首 k 不發音(kn- 開頭)"
+  },
+  "sportsman": {
+    "mean": "喜好運動的人",
+    "theme": "sports",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sport:or 唸 ㄛㄦ(R 控制)"
+  },
+  "sportsmanship": {
+    "mean": "運動員精神",
+    "theme": "sports",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sport:or 唸 ㄛㄦ(R 控制);ship:sh 唸 ㄒ"
+  },
+  "strengthen": {
+    "mean": "加強",
+    "theme": "numbers",
+    "stage": 3,
+    "base": "strength",
+    "family-note": "動詞版本(+en,加強)",
+    "note": "streng:ng 唸 ㄥ;then:th 唸 ㄒ 或 ㄉ"
+  },
+  "summarize": {
+    "mean": "總結，概述",
+    "theme": "numbers",
+    "stage": 3,
+    "base": "summary",
+    "family-note": "動詞版本(+ize,總結)",
+    "note": "sum:子音+短母音+子音;ma:開音節,母音唸長音"
+  },
+  "surroundings": {
+    "mean": "環境",
+    "theme": "environment",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sur:子音+短母音+子音;roun:ou 唸 ㄠ(可有例外);dings:ng 唸 ㄥ"
+  },
+  "suspicious": {
+    "mean": "猜疑的，可疑的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sus:子音+短母音+子音;pi:開音節,母音唸長音;cious:ou 唸 ㄠ(可有例外);-ous 字尾唸 ㄜㄙ"
+  },
+  "absolutely": {
+    "mean": "絕對地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "absolute",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "so:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "constantly": {
+    "mean": "不斷地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "constant",
+    "family-note": "副詞版本(+ly,經常)",
+    "note": "con:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "directly": {
+    "mean": "直接地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "direct",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "di:開音節,母音唸長音;rec:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "easily": {
+    "mean": "容易地",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "easy",
+    "family-note": "副詞版本(y 變 i + ly,容易地)",
+    "note": "ea:ea 唸 ㄧ(部分例外);si:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "extremely": {
+    "mean": "極度地、非常",
+    "theme": "sight-words",
+    "stage": 3,
+    "base": "extreme",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "me:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "honestly": {
+    "mean": "老實說",
+    "theme": "sight-words",
+    "stage": 3,
+    "base": "honest",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "ho:開音節,母音唸長音;nes:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "incredibly": {
+    "mean": "令人難以置信地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "incredible",
+    "family-note": "副詞版本(+ly,難以置信)",
+    "note": "dib:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "necessarily": {
+    "mean": "必然地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "necessary",
+    "family-note": "副詞版本(+ily,必然)",
+    "note": "ne:開音節,母音唸長音;ces:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "officially": {
+    "mean": "正式地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "official",
+    "family-note": "副詞版本(+ly,從 official 來)",
+    "note": "fi:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "perfectly": {
+    "mean": "完美地",
+    "theme": "appearance",
+    "stage": 3,
+    "base": "perfect",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "per:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "quickly": {
+    "mean": "快速地",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "quick",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "quic:ui 唸 ㄨ;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "quietly": {
+    "mean": "安靜地",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "quiet",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "quiet:ie 唸 ㄞ 或 ㄧ;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "regularly": {
+    "mean": "定期地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "regular",
+    "family-note": "副詞版本(+ly,規律地)",
+    "note": "re:開音節,母音唸長音;lar:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "relatively": {
+    "mean": "相對地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "relative",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "re:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "rightly": {
+    "mean": "正確地",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "right",
+    "family-note": "副詞版本(+ly,正確地)",
+    "note": "gh 不發音(igh 整塊唸長母音)"
+  },
+  "sadly": {
+    "mean": "悲傷地",
+    "theme": "emotions",
+    "stage": 2,
+    "base": "sad",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "sad:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "seriously": {
+    "mean": "嚴肅地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "serious",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "se:開音節,母音唸長音;rious:ou 唸 ㄠ(可有例外);-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "successfully": {
+    "mean": "成功地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "successful",
+    "family-note": "副詞版本(+ly,成功地)",
+    "note": "suc:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "typically": {
+    "mean": "典型地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "typical",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "ty:開音節,母音唸長音;cal:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "usually": {
+    "mean": "通常",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": "usual",
+    "family-note": "副詞版本(+ly 把形容詞變副詞)",
+    "note": "ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "willingly": {
+    "mean": "願意地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "willing",
+    "family-note": "副詞版本(+ly,願意地)",
+    "note": "wil:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "rebuild": {
+    "mean": "重建",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;build:ui 唸 ㄨ"
+  },
+  "asleep": {
+    "mean": "睡著的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "leep:ee 唸 ㄧ 長音"
+  },
+  "alive": {
+    "mean": "活著的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "li:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "alike": {
+    "mean": "相同的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "li:開音節,母音唸長音"
+  },
+  "aloud": {
+    "mean": "大聲地",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "loud:ou 唸 ㄠ(可有例外)"
+  },
+  "alone": {
+    "mean": "單獨的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "lo:開音節,母音唸長音"
+  },
+  "apartment": {
+    "mean": "公寓房間",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "apart",
+    "family-note": "這個動作的「結果/事物」(+ment 名詞)",
+    "note": "par:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "arithmetic": {
+    "mean": "算術，計算",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "rit:子音+短母音+子音"
+  },
+  "badly": {
+    "mean": "嚴重地、糟糕地",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": "bad",
+    "family-note": "副詞版本(+ly,糟糕地)",
+    "note": "bad:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "baseline": {
+    "mean": "基準",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ba:開音節,母音唸長音"
+  },
+  "beginner": {
+    "mean": "初學者",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "begin",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "be:開音節,母音唸長音;gin:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "bloody": {
+    "mean": "流血的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "blood",
+    "family-note": "形容詞版本(+y,血腥的)",
+    "note": "bloo:oo 唸 ㄨ(可長可短);dy:開音節,母音唸長音"
+  },
+  "bony": {
+    "mean": "骨的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "bone",
+    "family-note": "形容詞版本(+y,描述帶有 bone 特性的)",
+    "note": "bo:開音節,母音唸長音"
+  },
+  "central": {
+    "mean": "中心的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "center",
+    "family-note": "形容詞版本(+al,中心的)",
+    "note": "cen:子音+短母音+子音"
+  },
+  "changeable": {
+    "mean": "易變的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "change",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 change)",
+    "note": "chan:ch 唸 ㄔ;geab:ea 唸 ㄧ(部分例外);le:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "cleaner": {
+    "mean": "清潔工",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "clean",
+    "family-note": "做這件事的人(clean + er,清潔工)",
+    "note": "clea:ea 唸 ㄧ(部分例外);ner:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "clothes": {
+    "mean": "服裝",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hes:子音+短母音+子音"
+  },
+  "clothing": {
+    "mean": "衣服",
+    "theme": "clothing",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "comfortable": {
+    "mean": "舒適的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "comfort",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 comfort)",
+    "note": "com:子音+短母音+子音;le:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "controller": {
+    "mean": "管制者",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "control",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "con:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "conversation": {
+    "mean": "會話",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "converse",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "con:子音+短母音+子音;sa:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "cooker": {
+    "mean": "烹調器具",
+    "theme": "hobbies",
+    "stage": 2,
+    "base": "cook",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "coo:oo 唸 ㄨ(可長可短);ker:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "decision": {
+    "mean": "決定",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "decide",
+    "family-note": "這個動作的結果(decis + ion,決定)",
+    "note": "de:開音節,母音唸長音;-sion 字尾唸 ㄓㄣ"
+  },
+  "difference": {
+    "mean": "差異",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "different",
+    "family-note": "名詞版本(+ence,差別)",
+    "note": "dif:子音+短母音+子音;fe:開音節,母音唸長音"
+  },
+  "difficulty": {
+    "mean": "困難",
+    "theme": "actions",
+    "stage": 2,
+    "base": "difficult",
+    "family-note": "名詞版本(+y,困難)",
+    "note": "dif:子音+短母音+子音;fi:開音節,母音唸長音"
+  },
+  "disappear": {
+    "mean": "消失",
+    "theme": "actions",
+    "stage": 2,
+    "base": "appear",
+    "family-note": "否定版本(dis- + appear,消失)",
+    "note": "di:開音節,母音唸長音;sap:子音+短母音+子音;pear:ea 唸 ㄧ(部分例外)"
+  },
+  "discussion": {
+    "mean": "討論",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "discuss",
+    "family-note": "這個動作的結果(discuss + ion,討論)",
+    "note": "dis:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "education": {
+    "mean": "教育",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "educate",
+    "family-note": "這個動作的結果(educ + ation,教育)",
+    "note": "du:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "effective": {
+    "mean": "有效的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "effect",
+    "family-note": "「會…的」(+ive 形容詞)",
+    "note": "fec:子音+短母音+子音;ti:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "ending": {
+    "mean": "結局",
+    "theme": "actions",
+    "stage": 2,
+    "base": "end",
+    "family-note": "這個動作的結果(end + ing,結局)",
+    "note": "ding:ng 唸 ㄥ;-ing 進行式"
+  },
+  "failure": {
+    "mean": "失敗",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "fail",
+    "family-note": "名詞版本(+ure,失敗)",
+    "note": "fai:ai 唸 ㄟ;lu:開音節,母音唸長音"
+  },
+  "fearful": {
+    "mean": "可怕的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "fear",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "fear:ea 唸 ㄧ(部分例外);ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "fighter": {
+    "mean": "鬥士",
+    "theme": "actions",
+    "stage": 2,
+    "base": "fight",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "gh 不發音(igh 整塊唸長母音)"
+  },
+  "firewoman": {
+    "mean": "消防隊員",
+    "theme": "actions",
+    "stage": 3,
+    "base": "fireman",
+    "family-note": "性別變體(man → woman,女消防員)",
+    "note": "fi:開音節,母音唸長音;man:子音+短母音+子音"
+  },
+  "following": {
+    "mean": "接著的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "follow",
+    "family-note": "正在…的版本(進行式,+ing)",
+    "note": "fol:子音+短母音+子音;lo:開音節,母音唸長音;wing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "foreigner": {
+    "mean": "外國人",
+    "theme": "countries",
+    "stage": 2,
+    "base": "foreign",
+    "family-note": "從外國來的人(foreign + er)",
+    "note": "fo:開音節,母音唸長音;reig:ei 唸 ㄝ 或 ㄟ;ner:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "grassy": {
+    "mean": "長滿草的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "grass",
+    "family-note": "形容詞版本(+y,描述帶有 grass 特性的)",
+    "note": "sy:開音節,母音唸長音"
+  },
+  "greedy": {
+    "mean": "貪食的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "greed",
+    "family-note": "形容詞版本(+y,描述帶有 greed 特性的)",
+    "note": "gree:ee 唸 ㄧ 長音;dy:開音節,母音唸長音"
+  },
+  "handful": {
+    "mean": "一把、一握",
+    "theme": "numbers",
+    "stage": 2,
+    "base": "hand",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "han:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "harmful": {
+    "mean": "有害的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "harm",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "har:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "hateful": {
+    "mean": "可恨的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "hate",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "ha:開音節,母音唸長音;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "helpful": {
+    "mean": "有幫助的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "help",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "hel:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "holder": {
+    "mean": "持有者",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "hold",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "hol:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "hunger": {
+    "mean": "飢餓",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "hun:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "hunter": {
+    "mean": "獵人",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "hunt",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "hun:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "importance": {
+    "mean": "重要性",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "important",
+    "family-note": "名詞版本(+ance,重要性)",
+    "note": "por:子音+短母音+子音;ce:開音節,母音唸長音"
+  },
+  "inspector": {
+    "mean": "檢查員",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "inspect",
+    "family-note": "做這件事的人(+or)",
+    "note": "tor:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "instruction": {
+    "mean": "教學",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "instruct",
+    "family-note": "這個動作的「結果」(+ion 名詞,指示)",
+    "note": "-tion 字尾唸 ㄒㄣ"
+  },
+  "introduction": {
+    "mean": "介紹",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "introduce",
+    "family-note": "這個動作的「結果/事物」(+tion 名詞)",
+    "note": "duc:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "inventor": {
+    "mean": "發明家",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "invent",
+    "family-note": "做這件事的人(+or)",
+    "note": "ven:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "jewelry": {
+    "mean": "珠寶",
+    "theme": "actions",
+    "stage": 2,
+    "base": "jewel",
+    "family-note": "名詞版本(+ry,珠寶)",
+    "note": "je:開音節,母音唸長音;wel:子音+短母音+子音"
+  },
+  "joyful": {
+    "mean": "高興的，充滿喜悅的",
+    "theme": "appearance",
+    "stage": 2,
+    "base": "joy",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "joy:oy 唸 ㄛㄧ;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "leadership": {
+    "mean": "領導",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "leader",
+    "family-note": "名詞版本(+ship,領導力)",
+    "note": "lea:ea 唸 ㄧ(部分例外);der:子音+短母音+子音;ship:sh 唸 ㄒ"
+  },
+  "listener": {
+    "mean": "傾聽者",
+    "theme": "jobs",
+    "stage": 2,
+    "base": "listen",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "lis:子音+短母音+子音;te:開音節,母音唸長音;-er 字尾(比較級/人)"
+  },
+  "lovely": {
+    "mean": "可愛的",
+    "theme": "appearance",
+    "stage": 2,
+    "base": "love",
+    "family-note": "形容詞(+ly,可愛的;這個少數 -ly 是形容詞)",
+    "note": "lo:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "lower": {
+    "mean": "較低的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "low",
+    "family-note": "「更低」的版本(比較級,+er)",
+    "note": "lo:開音節,母音唸長音;wer:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "lucky": {
+    "mean": "幸運的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": "luck",
+    "family-note": "形容詞版本(+y,幸運的)",
+    "note": "luc:子音+短母音+子音;ky:開音節,母音唸長音"
+  },
+  "measurable": {
+    "mean": "可測量的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "measure",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 measure)",
+    "note": "mea:ea 唸 ㄧ(部分例外);su:開音節,母音唸長音;rab:子音+短母音+子音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "movable": {
+    "mean": "可移動的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "move",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 move)",
+    "note": "mo:開音節,母音唸長音;vab:子音+短母音+子音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "national": {
+    "mean": "全國性的",
+    "theme": "countries",
+    "stage": 2,
+    "base": "nation",
+    "family-note": "形容詞版本(+al,國家的)",
+    "note": "na:開音節,母音唸長音;nal:子音+短母音+子音"
+  },
+  "natural": {
+    "mean": "自然的",
+    "theme": "nature",
+    "stage": 2,
+    "base": "nature",
+    "family-note": "形容詞版本(+al,自然的)",
+    "note": "na:開音節,母音唸長音;ral:子音+短母音+子音"
+  },
+  "negative": {
+    "mean": "否定的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "negate",
+    "family-note": "「會…的」(+ive 形容詞)",
+    "note": "ne:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "noisy": {
+    "mean": "喧鬧的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": "noise",
+    "family-note": "形容詞版本(+y,吵的)",
+    "note": "noi:oi 唸 ㄛㄧ;sy:開音節,母音唸長音"
+  },
+  "official": {
+    "mean": "官方的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "office",
+    "family-note": "形容詞版本(+ial,官方的)",
+    "note": "fi:開音節,母音唸長音"
+  },
+  "organization": {
+    "mean": "機構",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "organize",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "or:or 唸 ㄛㄦ(R 控制);ga:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "painful": {
+    "mean": "疼痛的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "pain",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "pain:ai 唸 ㄟ;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "personal": {
+    "mean": "私人的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "person",
+    "family-note": "形容詞版本(+al,個人的)",
+    "note": "per:子音+短母音+子音;so:開音節,母音唸長音"
+  },
+  "playful": {
+    "mean": "愛玩耍的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "play",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "play:ay 唸 ㄟ;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "pleasant": {
+    "mean": "舒適的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "please",
+    "family-note": "形容詞版本(please→pleasant,愉快的)",
+    "note": "plea:ea 唸 ㄧ(部分例外)"
+  },
+  "pleasure": {
+    "mean": "愉快",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "please",
+    "family-note": "名詞版本(+ure,愉悅)",
+    "note": "plea:ea 唸 ㄧ(部分例外);su:開音節,母音唸長音"
+  },
+  "possibility": {
+    "mean": "可能性",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "possible",
+    "family-note": "名詞版本(+ity,可能性)",
+    "note": "pos:子音+短母音+子音;si:開音節,母音唸長音;-ity 字尾唸 ㄜㄊㄧ"
+  },
+  "powerful": {
+    "mean": "強大的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "power",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "po:開音節,母音唸長音;wer:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "presence": {
+    "mean": "出席",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "present",
+    "family-note": "名詞版本(+ence,在場)",
+    "note": "sen:子音+短母音+子音;ce:開音節,母音唸長音"
+  },
+  "prisoner": {
+    "mean": "囚犯",
+    "theme": "crime",
+    "stage": 2,
+    "base": "prison",
+    "family-note": "在裡面的人(prison + er,囚犯)",
+    "note": "so:開音節,母音唸長音;ner:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "responsible": {
+    "mean": "負責任的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "response",
+    "family-note": "「可以…的」版本(+ible 形容詞,可以被 response)",
+    "note": "res:子音+短母音+子音;le:開音節,母音唸長音;-ible 字尾唸 ㄧㄅㄛ"
+  },
+  "rocky": {
+    "mean": "多岩石的",
+    "theme": "nature",
+    "stage": 2,
+    "base": "rock",
+    "family-note": "形容詞版本(+y,描述帶有 rock 特性的)",
+    "note": "roc:子音+短母音+子音;ky:開音節,母音唸長音"
+  },
+  "runner": {
+    "mean": "跑步者",
+    "theme": "sports",
+    "stage": 2,
+    "base": "run",
+    "family-note": "做這件事的人(run + ner,跑者)",
+    "note": "run:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "safety": {
+    "mean": "安全",
+    "theme": "actions",
+    "stage": 2,
+    "base": "safe",
+    "family-note": "名詞版本(+ty,安全)",
+    "note": "sa:開音節,母音唸長音"
+  },
+  "selection": {
+    "mean": "選拔",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "select",
+    "family-note": "這個動作的「結果」(+ion 名詞,選擇)",
+    "note": "se:開音節,母音唸長音;lec:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "spotless": {
+    "mean": "一塵不染的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "spot",
+    "family-note": "「沒…的」(+less 形容詞)",
+    "note": "-less 字尾唸 ㄌㄝㄙ"
+  },
+  "toolbox": {
+    "mean": "工具箱",
+    "theme": "tools",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "tool:oo 唸 ㄨ(可長可短);box:子音+短母音+子音"
+  },
+  "shy": {
+    "mean": "害羞",
+    "theme": "emotions",
+    "stage": 0,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "cheerful": {
+    "mean": "開朗",
+    "theme": "emotions",
+    "stage": 2,
+    "base": "cheer",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "cheer:ee 唸 ㄧ 長音;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "viral": {
+    "mean": "爆紅",
+    "theme": "internet",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "vi:開音節,母音唸長音;ral:子音+短母音+子音"
+  },
+  "attractive": {
+    "mean": "有魅力",
+    "theme": "appearance",
+    "stage": 1,
+    "base": "attract",
+    "family-note": "「會…的」(+ive 形容詞)",
+    "note": "tive:末 e 不發音,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "dental": {
+    "mean": "牙科",
+    "theme": "office",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "den:子音+短母音+子音"
+  },
+  "unfriendly": {
+    "mean": "不友善",
+    "theme": "personality",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "friend:ie 唸 ㄞ 或 ㄧ;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "friendly": {
+    "mean": "友善",
+    "theme": "emotions",
+    "stage": 1,
+    "base": "friend",
+    "family-note": "形容詞版本(+ly 把 friend 變形容詞,友善的;這個 -ly 不是副詞)",
+    "note": "friend:ie 唸 ㄞ 或 ㄧ;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "available": {
+    "mean": "單身",
+    "theme": "relationships",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "vail:ai 唸 ㄟ;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "jobless": {
+    "mean": "失業",
+    "theme": "economy",
+    "stage": 2,
+    "base": "job",
+    "family-note": "「沒…的」(+less 形容詞)",
+    "note": "job:子音+短母音+子音;-less 字尾唸 ㄌㄝㄙ"
+  },
+  "sterile": {
+    "mean": "無菌",
+    "theme": "medical",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ster:er 唸 ㄜㄦ(R 控制)"
+  },
+  "chronic": {
+    "mean": "慢性",
+    "theme": "medical",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "chron:ch 唸 ㄔ"
+  },
+  "acute": {
+    "mean": "急性",
+    "theme": "medical",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cute:末 e 不發音,母音唸長音"
+  },
+  "benign": {
+    "mean": "良性",
+    "theme": "medical",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "be:開音節,母音唸長音"
+  },
+  "malignant": {
+    "mean": "惡性",
+    "theme": "medical",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ma:開音節,母音唸長音;lig:子音+短母音+子音"
+  },
+  "apply": {
+    "mean": "塗",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "means": {
+    "mean": "手段",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eans:ea 唸 ㄧ(部分例外)"
+  },
+  "script": {
+    "mean": "筆跡",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "refer": {
+    "mean": "提到、查閱、歸因於",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;fer:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "reckon": {
+    "mean": "計算",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "rec:子音+短母音+子音"
+  },
+  "rear": {
+    "mean": "後方撫養高聳",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ear:ea 唸 ㄧ(部分例外)"
+  },
+  "mount": {
+    "mean": "登上底座",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ount:ou 唸 ㄠ(可有例外)"
+  },
+  "mold": {
+    "mean": "模型",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "odds": {
+    "mean": "機會",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "odor": {
+    "mean": "氣味(常為臭味)",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "dor:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "offering": {
+    "mean": "供品、祭品、提供物",
+    "theme": "actions",
+    "stage": 4,
+    "base": "offer",
+    "family-note": "名詞版本(+ing 變名詞,offer 出去的東西,供品)",
+    "note": "fe:開音節,母音唸長音;ring:ng 唸 ㄥ;-ing 進行式"
+  },
+  "convict": {
+    "mean": "判...有罪",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音"
+  },
+  "compact": {
+    "mean": "緊密的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音"
+  },
+  "console": {
+    "mean": "安慰",
+    "theme": "emotions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;so:開音節,母音唸長音"
+  },
+  "trim": {
+    "mean": "修剪",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "intent": {
+    "mean": "意圖、熱切的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "intimate": {
+    "mean": "親密的，熟悉的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ti:開音節,母音唸長音"
+  },
+  "divert": {
+    "mean": "轉移",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音;vert:er 唸 ㄜㄦ(R 控制)"
+  },
+  "diversion": {
+    "mean": "轉移",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": "divert",
+    "family-note": "這個動作的「結果」(+sion 名詞,轉移)",
+    "note": "di:開音節,母音唸長音;ver:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "escort": {
+    "mean": "護送者、護送",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "cort:or 唸 ㄛㄦ(R 控制)"
+  },
+  "exhaust": {
+    "mean": "用完，耗盡",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "haust:au 唸 ㄛ"
+  },
+  "fancy": {
+    "mean": "愛好",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fan:子音+短母音+子音;cy:開音節,母音唸長音"
+  },
+  "flesh": {
+    "mean": "肉，肌肉",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "esh:sh 唸 ㄒ"
+  },
+  "flush": {
+    "mean": "沖洗、臉紅",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ush:sh 唸 ㄒ"
+  },
+  "fume": {
+    "mean": "煙，氣",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fu:開音節,母音唸長音"
+  },
+  "fuse": {
+    "mean": "熔合保險絲",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fu:開音節,母音唸長音"
+  },
+  "gay": {
+    "mean": "同性戀的、同性戀者",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ay:ay 唸 ㄟ"
+  },
+  "genuine": {
+    "mean": "真的，非偽造的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ge:開音節,母音唸長音;nui:ui 唸 ㄨ"
+  },
+  "goods": {
+    "mean": "商品",
+    "theme": "business",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "oods:oo 唸 ㄨ(可長可短)"
+  },
+  "gross": {
+    "mean": "總的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "herald": {
+    "mean": "使者、傳達",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "he:開音節,母音唸長音"
+  },
+  "hook": {
+    "mean": "鉤，掛鉤，魚鉤",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ook:oo 唸 ㄨ(可長可短)"
+  },
+  "horizon": {
+    "mean": "地平線",
+    "theme": "nature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ho:開音節,母音唸長音;zon:子音+短母音+子音"
+  },
+  "insult": {
+    "mean": "侮辱，羞辱",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "jack": {
+    "mean": "千斤頂、男人、(撲克)J",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ack:ck 唸 ㄎ"
+  },
+  "lame": {
+    "mean": "跛的、使跛",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "la:開音節,母音唸長音"
+  },
+  "lap": {
+    "mean": "重疊部分",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "livestock": {
+    "mean": "家畜",
+    "theme": "animals",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "li:開音節,母音唸長音;ves:子音+短母音+子音;tock:ck 唸 ㄎ"
+  },
+  "loom": {
+    "mean": "隱現",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lo:開音節,母音唸長音"
+  },
+  "manifest": {
+    "mean": "明顯的、顯露",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ma:開音節,母音唸長音"
+  },
+  "merit": {
+    "mean": "長處，優點",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "me:開音節,母音唸長音;rit:子音+短母音+子音"
+  },
+  "mound": {
+    "mean": "丘",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ound:ou 唸 ㄠ(可有例外)"
+  },
+  "obstinate": {
+    "mean": "頑固的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "na:開音節,母音唸長音"
+  },
+  "orderly": {
+    "mean": "整齊的",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "or:or 唸 ㄛㄦ(R 控制);der:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "ornament": {
+    "mean": "裝飾品",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "or:or 唸 ㄛㄦ(R 控制);na:開音節,母音唸長音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "outline": {
+    "mean": "外形",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "out:ou 唸 ㄠ(可有例外);li:開音節,母音唸長音"
+  },
+  "outlook": {
+    "mean": "觀點",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "out:ou 唸 ㄠ(可有例外);look:oo 唸 ㄨ(可長可短)"
+  },
+  "outright": {
+    "mean": "直率的徹底地",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "gh 不發音(igh 整塊唸長母音)"
+  },
+  "overtake": {
+    "mean": "追上",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ver:子音+短母音+子音;ta:開音節,母音唸長音"
+  },
+  "overhaul": {
+    "mean": "大修",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ver:子音+短母音+子音;haul:au 唸 ㄛ"
+  },
+  "pace": {
+    "mean": "步伐、節奏",
+    "theme": "numbers",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pa:開音節,母音唸長音"
+  },
+  "pane": {
+    "mean": "窗玻璃",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pa:開音節,母音唸長音"
+  },
+  "patrol": {
+    "mean": "巡邏",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pat:子音+短母音+子音"
+  },
+  "peg": {
+    "mean": "栓",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "poach": {
+    "mean": "盜獵",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "oach:oa 唸 ㄛ"
+  },
+  "polish": {
+    "mean": "磨光、擦亮、亮光劑",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "po:開音節,母音唸長音;lish:sh 唸 ㄒ"
+  },
+  "pose": {
+    "mean": "擺姿勢、造成(問題)",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "prick": {
+    "mean": "刺",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ick:ck 唸 ㄎ"
+  },
+  "prop": {
+    "mean": "支柱、支撐、道具",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "prune": {
+    "mean": "梅乾、修剪",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ne:開音節,母音唸長音"
+  },
+  "purport": {
+    "mean": "聲稱",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pur:子音+短母音+子音;port:or 唸 ㄛㄦ(R 控制)"
+  },
+  "quack": {
+    "mean": "呱呱聲",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "uack:ck 唸 ㄎ"
+  },
+  "quart": {
+    "mean": "夸脫",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "uart:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "reign": {
+    "mean": "在位期間",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "g 不發音"
+  },
+  "relish": {
+    "mean": "滋味品嚐可口",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;lish:sh 唸 ㄒ"
+  },
+  "resume": {
+    "mean": "重新開始",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "sane": {
+    "mean": "神志正常的",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音"
+  },
+  "savor": {
+    "mean": "品味",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音;vor:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "shed": {
+    "mean": "棚流出",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ;-ed 過去式"
+  },
+  "shun": {
+    "mean": "躲開",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "signify": {
+    "mean": "表示",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "sig:子音+短母音+子音;ni:開音節,母音唸長音"
+  },
+  "sober": {
+    "mean": "清醒的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "so:開音節,母音唸長音;ber:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "solitary": {
+    "mean": "獨自的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "so:開音節,母音唸長音"
+  },
+  "sow": {
+    "mean": "播種、母豬",
+    "theme": "animals",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ow:ow 唸 ㄠ 或 ㄛ"
+  },
+  "span": {
+    "mean": "跨度",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "spare": {
+    "mean": "分出，騰出",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "stake": {
+    "mean": "樁",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ke:開音節,母音唸長音"
+  },
+  "staple": {
+    "mean": "主食",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "le:開音節,母音唸長音"
+  },
+  "stew": {
+    "mean": "燉、燉肉",
+    "theme": "food",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ew:ew 唸 ㄩ"
+  },
+  "stir": {
+    "mean": "攪拌，攪動",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ir:ir 唸 ㄜㄦ(R 控制)"
+  },
+  "stoop": {
+    "mean": "俯身",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "oop:oo 唸 ㄨ(可長可短)"
+  },
+  "strand": {
+    "mean": "線",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "strap": {
+    "mean": "帶子",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "streak": {
+    "mean": "條紋",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "eak:ea 唸 ㄧ(部分例外)"
+  },
+  "stride": {
+    "mean": "大步走",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音"
+  },
+  "stripe": {
+    "mean": "條紋",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pe:開音節,母音唸長音"
+  },
+  "stunt": {
+    "mean": "絕技阻礙表演絕技",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "sulfur": {
+    "mean": "硫磺",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sul:子音+短母音+子音"
+  },
+  "swap": {
+    "mean": "交換",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "tap": {
+    "mean": "輕拍",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ta:開音節,母音唸長音"
+  },
+  "tear": {
+    "mean": "撕 / 眼淚",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "同字兩唸:撕 唸 ㄊㄝㄜ、眼淚 唸 ㄊㄧㄜ"
+  },
+  "token": {
+    "mean": "象徵",
+    "theme": "animals",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "to:開音節,母音唸長音;ken:子音+短母音+子音"
+  },
+  "toll": {
+    "mean": "通行費",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "tread": {
+    "mean": "踩",
+    "theme": "actions",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "ead:ea 唸 ㄧ(部分例外)"
+  },
+  "upgrade": {
+    "mean": "升級上坡",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音"
+  },
+  "utter": {
+    "mean": "全然的、說出",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ter:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "vow": {
+    "mean": "誓言、發誓",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ow:ow 唸 ㄠ 或 ㄛ"
+  },
+  "wade": {
+    "mean": "涉水",
+    "theme": "drinks",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "wa:開音節,母音唸長音"
+  },
+  "ware": {
+    "mean": "器物、製品",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "wa:開音節,母音唸長音"
+  },
+  "prosecco": {
+    "mean": "普羅賽克",
+    "theme": "drinks",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sec:子音+短母音+子音;co:開音節,母音唸長音"
+  },
+  "halva": {
+    "mean": "芝麻酥糖(哈爾瓦)",
+    "theme": "desserts",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "hal:子音+短母音+子音;va:開音節,母音唸長音"
+  },
+  "trolley": {
+    "mean": "電車、手推車",
+    "theme": "transportation",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ley:ey 唸 ㄧ 或 ㄟ"
+  },
+  "lorry": {
+    "mean": "卡車",
+    "theme": "transportation",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lor:子音+短母音+子音;ry:開音節,母音唸長音"
+  },
+  "pickup": {
+    "mean": "皮卡",
+    "theme": "transportation",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pick:ck 唸 ㄎ"
+  },
+  "frenemy": {
+    "mean": "亦敵亦友",
+    "theme": "relationships",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "my:開音節,母音唸長音"
+  },
+  "bestie": {
+    "mean": "閨蜜",
+    "theme": "relationships",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bes:子音+短母音+子音;tie:ie 唸 ㄞ 或 ㄧ"
+  },
+  "hookup": {
+    "mean": "一夜情、隨意性愛",
+    "theme": "relationships",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "hook:oo 唸 ㄨ(可長可短)"
+  },
+  "daikon": {
+    "mean": "白蘿蔔",
+    "theme": "vegetables",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "dai:ai 唸 ㄟ;kon:子音+短母音+子音"
+  },
+  "fair": {
+    "mean": "公平、(膚色)白皙",
+    "theme": "appearance",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "air:ai 唸 ㄟ"
+  },
+  "drama": {
+    "mean": "八點檔糾紛、戲劇化衝突",
+    "theme": "relationships",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ma:開音節,母音唸長音"
+  },
+  "mind": {
+    "mean": "心智、頭腦、介意",
+    "theme": "body",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "mustache": {
+    "mean": "鬍鬚(上唇)、八字鬍",
+    "theme": "body",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "mus:子音+短母音+子音;tache:ch 唸 ㄔ"
+  },
+  "shin": {
+    "mean": "小腿前側、脛",
+    "theme": "body",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "bent": {
+    "mean": "彎的、折彎的",
+    "theme": "shapes",
+    "stage": 1,
+    "base": "bend",
+    "family-note": "已經彎曲的版本(過去式)",
+    "note": null
+  },
+  "diagonal": {
+    "mean": "對角的、斜的",
+    "theme": "directions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音;nal:子音+短母音+子音"
+  },
+  "brew": {
+    "mean": "釀造飲品、啤酒",
+    "theme": "drinks",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ew:ew 唸 ㄩ"
+  },
+  "may": {
+    "mean": "可以、可能、五月",
+    "theme": "sight-words",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ay:ay 唸 ㄟ"
+  },
+  "carriage": {
+    "mean": "車廂、馬車",
+    "theme": "transportation",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "car:子音+短母音+子音;riage:末 e 不發音,母音唸長音"
+  },
+  "ultimately": {
+    "mean": "最終地、最後",
+    "theme": "sight-words",
+    "stage": 3,
+    "base": "ultimate",
+    "family-note": "副詞版本(+ly,從 ultimate 來)",
+    "note": "ti:開音節,母音唸長音;mate:末 e 不發音,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "frankly": {
+    "mean": "坦白地、坦白說",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": "frank",
+    "family-note": "副詞版本(+ly,從 frank 來)",
+    "note": "ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "lone": {
+    "mean": "單獨的、孤單的",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "mere": {
+    "mean": "僅僅的、只不過",
+    "theme": "sight-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ere:er 唸 ㄜㄦ(R 控制)"
+  },
+  "fondue": {
+    "mean": "起司火鍋、巧克力鍋",
+    "theme": "desserts",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fon:子音+短母音+子音;due:ue 唸 ㄩ"
+  },
+  "sorbet": {
+    "mean": "雪酪、果露冰",
+    "theme": "desserts",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sor:子音+短母音+子音"
+  },
+  "jasmine": {
+    "mean": "茉莉、茉莉花",
+    "theme": "drinks",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "jas:子音+短母音+子音;mine:末 e 不發音,母音唸長音"
+  },
+  "punch": {
+    "mean": "潘趣酒、賓治",
+    "theme": "drinks",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "unch:ch 唸 ㄔ"
+  },
+  "set": {
+    "mean": "一組、設置",
+    "theme": "numbers",
+    "stage": 1,
+    "base": "set",
+    "family-note": "三態同形 set/set/set(動詞);名詞=一組",
+    "note": null
+  },
+  "bored": {
+    "mean": "覺得無聊(人)",
+    "theme": "emotions",
+    "stage": 0,
+    "base": "bore",
+    "family-note": "人覺得無聊的(描述人,+ed 形容詞)",
+    "note": "ored:or 唸 ㄛㄦ(R 控制);-ed 過去式"
+  },
+  "boring": {
+    "mean": "無聊的(事物)",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": "bore",
+    "family-note": "讓人覺得無聊的(描述事物,+ing 形容詞)",
+    "note": "bor:子音+短母音+子音;ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "rainy": {
+    "mean": "多雨的、下雨的",
+    "theme": "weather",
+    "stage": 0,
+    "base": "rain",
+    "family-note": "形容詞版本(+y,下雨的)",
+    "note": "rai:ai 唸 ㄟ;ny:開音節,母音唸長音"
+  },
+  "snowy": {
+    "mean": "多雪的、下雪的",
+    "theme": "weather",
+    "stage": 0,
+    "base": "snow",
+    "family-note": "形容詞版本(+y,下雪的、多雪的)",
+    "note": "snow:ow 唸 ㄠ 或 ㄛ"
+  },
+  "windy": {
+    "mean": "有風的、多風的",
+    "theme": "weather",
+    "stage": 0,
+    "base": "wind",
+    "family-note": "形容詞版本(+y,有風的)",
+    "note": "win:子音+短母音+子音;dy:開音節,母音唸長音"
+  },
+  "foggy": {
+    "mean": "多霧的、起霧的",
+    "theme": "weather",
+    "stage": 1,
+    "base": "fog",
+    "family-note": "形容詞版本(+y,起霧的、多霧的)",
+    "note": "fog:子音+短母音+子音;gy:開音節,母音唸長音"
+  },
+  "afraid": {
+    "mean": "害怕的、擔心的",
+    "theme": "emotions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "fraid:ai 唸 ㄟ"
+  },
+  "grateful": {
+    "mean": "感激的、感謝的",
+    "theme": "emotions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "grate:末 e 不發音,母音唸長音;ful:子音+短母音+子音;-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "presentation": {
+    "mean": "簡報、口頭報告",
+    "theme": "school",
+    "stage": 2,
+    "base": "present",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "sen:子音+短母音+子音;ta:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "assignment": {
+    "mean": "指派作業、任務",
+    "theme": "school",
+    "stage": 2,
+    "base": "assign",
+    "family-note": "這個動作的「結果/事物」(+ment 名詞)",
+    "note": "-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "setting": {
+    "mean": "場景",
+    "theme": "movies-tv",
+    "stage": 1,
+    "base": "set",
+    "family-note": "這個動作的「結果」(+ing 名詞,場景/設定)",
+    "note": "set:子音+短母音+子音;ting:ng 唸 ㄥ;-ing 進行式"
+  },
+  "episode": {
+    "mean": "集數",
+    "theme": "movies-tv",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "sode:末 e 不發音,母音唸長音"
+  },
+  "broadcast": {
+    "mean": "播送",
+    "theme": "movies-tv",
+    "stage": 2,
+    "base": "broadcast",
+    "family-note": "已經播放過的版本(過去式同形)",
+    "note": "broad:oa 唸 ㄛ"
+  },
+  "generic": {
+    "mean": "學名藥",
+    "theme": "medical",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "gen:子音+短母音+子音;er:er 唸 ㄜㄦ(R 控制)"
+  },
+  "plates": {
+    "mean": "槓片、盤子",
+    "theme": "fitness",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "burner": {
+    "mean": "燃脂的東西、爐子",
+    "theme": "fitness",
+    "stage": 3,
+    "base": "burn",
+    "family-note": "做這件事的人/工具(+er)",
+    "note": "burn:ur 唸 ㄜㄦ(R 控制);er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+  },
+  "ptsd": {
+    "mean": "創傷後壓力症",
+    "theme": "diseases",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "acne": {
+    "mean": "痤瘡",
+    "theme": "diseases",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ne:開音節,母音唸長音"
+  },
+  "hayfever": {
+    "mean": "花粉熱",
+    "theme": "diseases",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "hay:ay 唸 ㄟ;fe:開音節,母音唸長音;ver:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "5g": {
+    "mean": "5G",
+    "theme": "internet",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "alternative": {
+    "mean": "另類、替代",
+    "theme": "media",
+    "stage": 2,
+    "base": "alternate",
+    "family-note": "「會…的」(+ive 形容詞)",
+    "note": "ter:子音+短母音+子音;na:開音節,母音唸長音;tive:末 e 不發音,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "smear": {
+    "mean": "抹黑、塗抹",
+    "theme": "media",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ear:ea 唸 ㄧ(部分例外)"
+  },
+  "broadsheet": {
+    "mean": "大版報",
+    "theme": "media",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "broad:oa 唸 ㄛ;sheet:ee 唸 ㄧ 長音"
+  },
+  "rave": {
+    "mean": "狂歡派對",
+    "theme": "events",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "swearin": {
+    "mean": "宣誓就職(swearing-in)",
+    "theme": "events",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "swear:ea 唸 ㄧ(部分例外)"
+  },
+  "sweet16": {
+    "mean": "16歲生日",
+    "theme": "events",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sweet:ee 唸 ㄧ 長音"
+  },
+  "icecap": {
+    "mean": "冰冠",
+    "theme": "geography",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "cap:子音+短母音+子音"
+  },
+  "polarcap": {
+    "mean": "極冠",
+    "theme": "geography",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "po:開音節,母音唸長音;lar:子音+短母音+子音"
+  },
+  "andes": {
+    "mean": "安地斯",
+    "theme": "geography",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "des:子音+短母音+子音"
+  },
+  "meltdown": {
+    "mean": "熔毀",
+    "theme": "emergencies",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "down:ow 唸 ㄠ 或 ㄛ"
+  },
+  "heimlich": {
+    "mean": "哈姆立克",
+    "theme": "emergencies",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "heim:ei 唸 ㄝ 或 ㄟ;lich:ch 唸 ㄔ"
+  },
+  "shooting": {
+    "mean": "槍擊",
+    "theme": "emergencies",
+    "stage": 1,
+    "base": "shoot",
+    "family-note": "這個動作的「事件/結果」(+ing 名詞化,槍擊事件)",
+    "note": "shoot:oo 唸 ㄨ(可長可短);ing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "chaos": {
+    "mean": "混亂",
+    "theme": "emergencies",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cha:ch 唸 ㄔ"
+  },
+  "horn": {
+    "mean": "喇叭",
+    "theme": "emergencies",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "orn:or 唸 ㄛㄦ(R 控制)"
+  },
+  "thuggery": {
+    "mean": "暴行",
+    "theme": "crime",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "thug:th 唸 ㄒ 或 ㄉ;ger:子音+短母音+子音"
+  },
+  "stoicism": {
+    "mean": "斯多葛主義、斯多葛學派",
+    "theme": "philosophy",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cogito": {
+    "mean": "我思故我在",
+    "theme": "philosophy",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音"
+  },
+  "thrice": {
+    "mean": "三次",
+    "theme": "sight-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "thr:th 唸 ㄒ 或 ㄉ"
+  },
+  "amidst": {
+    "mean": "在...之中",
+    "theme": "sight-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "altogether": {
+    "mean": "完全地",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "to:開音節,母音唸長音;geth:th 唸 ㄒ 或 ㄉ;er:er 唸 ㄜㄦ(R 控制);-er 字尾(比較級/人)"
+  },
+  "prose": {
+    "mean": "散文",
+    "theme": "literature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "narrative": {
+    "mean": "敘事",
+    "theme": "literature",
+    "stage": 3,
+    "base": "narrate",
+    "family-note": "從 narrate 衍生的名詞(敘事/故事;也可當形容詞)",
+    "note": "nar:子音+短母音+子音;ra:開音節,母音唸長音;tive:末 e 不發音,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "meter": {
+    "mean": "韻律",
+    "theme": "literature",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "me:開音節,母音唸長音;ter:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "motif": {
+    "mean": "主題元素",
+    "theme": "literature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "mo:開音節,母音唸長音;tif:子音+短母音+子音"
+  },
+  "saga": {
+    "mean": "傳奇故事",
+    "theme": "literature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音"
+  },
+  "data": {
+    "mean": "資料",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "da:開音節,母音唸長音"
+  },
+  "approach": {
+    "mean": "方法",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "proach:oa 唸 ㄛ"
+  },
+  "context": {
+    "mean": "背景",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音"
+  },
+  "derive": {
+    "mean": "衍生",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音;rive:末 e 不發音,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "function": {
+    "mean": "功能",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "-tion 字尾唸 ㄒㄣ"
+  },
+  "factor": {
+    "mean": "因素",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fac:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "norm": {
+    "mean": "標準",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "orm:or 唸 ㄛㄦ(R 控制)"
+  },
+  "ethic": {
+    "mean": "倫理",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "eth:th 唸 ㄒ 或 ㄉ"
+  },
+  "qualitative": {
+    "mean": "質的",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "ta:開音節,母音唸長音;tive:末 e 不發音,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "call on": {
+    "mean": "拜訪",
+    "theme": "phrasal-verbs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "come around": {
+    "mean": "順道過來",
+    "theme": "phrasal-verbs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "hang on": {
+    "mean": "等等",
+    "theme": "phrasal-verbs",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "make up": {
+    "mean": "編造",
+    "theme": "phrasal-verbs",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "move on": {
+    "mean": "向前看",
+    "theme": "phrasal-verbs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "take back": {
+    "mean": "收回",
+    "theme": "phrasal-verbs",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "turn up": {
+    "mean": "出現",
+    "theme": "phrasal-verbs",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "a piece of work": {
+    "mean": "棘手人物",
+    "theme": "idioms",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cooky": {
+    "mean": "餅乾",
+    "theme": "desserts",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "coo:oo 唸 ㄨ(可長可短);ky:開音節,母音唸長音"
+  },
+  "buck": {
+    "mean": "美元(俚)、公鹿",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "uck:ck 唸 ㄎ"
+  },
+  "lack": {
+    "mean": "缺少",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ack:ck 唸 ㄎ"
+  },
+  "land": {
+    "mean": "陸地、降落",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "least": {
+    "mean": "最小的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "east:ea 唸 ㄧ(部分例外)"
+  },
+  "mister": {
+    "mean": "先生",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "mis:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "nope": {
+    "mean": "不是",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "no:開音節,母音唸長音"
+  },
+  "shut": {
+    "mean": "關上",
+    "theme": "directions",
+    "stage": 1,
+    "base": "shut",
+    "family-note": "三態同形 shut/shut/shut",
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "super": {
+    "mean": "極度的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "su:開音節,母音唸長音;per:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "such": {
+    "mean": "如此的",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "uch:ch 唸 ㄔ"
+  },
+  "tummy": {
+    "mean": "肚子",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tum:子音+短母音+子音;my:開音節,母音唸長音"
+  },
+  "plant": {
+    "mean": "植物、栽種、工廠",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "reach": {
+    "mean": "抵達",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "each:ea 唸 ㄧ(部分例外)"
+  },
+  "rub": {
+    "mean": "摩擦",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "shine": {
+    "mean": "發光、擦亮、光亮",
+    "theme": "adjectives",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "shi:sh 唸 ㄒ;ne:開音節,母音唸長音"
+  },
+  "keep": {
+    "mean": "保有",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "eep:ee 唸 ㄧ 長音"
+  },
+  "queen": {
+    "mean": "女王",
+    "theme": "jobs",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ueen:ee 唸 ㄧ 長音"
+  },
+  "king": {
+    "mean": "國王",
+    "theme": "countries",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ing:ng 唸 ㄥ"
+  },
+  "page": {
+    "mean": "頁",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "pa:開音節,母音唸長音"
+  },
+  "pass": {
+    "mean": "經過",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "pool": {
+    "mean": "水池",
+    "theme": "places",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ool:oo 唸 ㄨ(可長可短)"
+  },
+  "copy": {
+    "mean": "複製",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音"
+  },
+  "xerox": {
+    "mean": "複製",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "xe:開音節,母音唸長音;rox:子音+短母音+子音"
+  },
+  "costly": {
+    "mean": "貴重的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cos:子音+短母音+子音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "sense": {
+    "mean": "感官",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "sen:子音+短母音+子音;se:開音節,母音唸長音"
+  },
+  "serve": {
+    "mean": "為…服務",
+    "theme": "actions",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "ser:子音+短母音+子音;ve:開音節,母音唸長音"
+  },
+  "shall": {
+    "mean": "將、會",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ"
+  },
+  "shoot": {
+    "mean": "發射",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "sh:sh 唸 ㄒ;oot:oo 唸 ㄨ(可長可短)"
+  },
+  "sign": {
+    "mean": "招牌",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "g 不發音"
+  },
+  "spot": {
+    "mean": "斑點",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "spread": {
+    "mean": "伸展",
+    "theme": "actions",
+    "stage": 2,
+    "base": "spread",
+    "family-note": "三態同形 spread/spread/spread",
+    "note": "ead:ea 唸 ㄧ(部分例外)"
+  },
+  "stage": {
+    "mean": "舞臺",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ge:開音節,母音唸長音"
+  },
+  "stick": {
+    "mean": "棒狀物、刺、黏住",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ick:ck 唸 ㄎ"
+  },
+  "struggle": {
+    "mean": "奮鬥",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "succeed": {
+    "mean": "成功、繼承",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "suc:子音+短母音+子音;ceed:ee 唸 ㄧ 長音;-ed 過去式"
+  },
+  "swallow": {
+    "mean": "燕子、嚥下",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "low:子音+短母音+子音"
+  },
+  "talent": {
+    "mean": "才能",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ta:開音節,母音唸長音"
+  },
+  "tank": {
+    "mean": "槽",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "teenage": {
+    "mean": "青少年時期",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tee:ee 唸 ㄧ 長音;na:開音節,母音唸長音"
+  },
+  "thief": {
+    "mean": "小偷",
+    "theme": "crime",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "th:th 唸 ㄒ 或 ㄉ;ief:ie 唸 ㄞ 或 ㄧ"
+  },
+  "trouble": {
+    "mean": "麻煩",
+    "theme": "materials",
+    "stage": 1,
+    "base": null,
+    "family-note": null,
+    "note": "troub:ou 唸 ㄠ(可有例外);le:開音節,母音唸長音"
+  },
+  "tube": {
+    "mean": "管",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tu:開音節,母音唸長音"
+  },
+  "used": {
+    "mean": "舊的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "use",
+    "family-note": "用過的(過去分詞當形容詞,二手的、舊的)",
+    "note": "sed:子音+短母音+子音;-ed 過去式"
+  },
+  "video": {
+    "mean": "影片",
+    "theme": "internet",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "vi:開音節,母音唸長音"
+  },
+  "wed": {
+    "mean": "結婚",
+    "theme": "relationships",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "wonder": {
+    "mean": "想知道、奇蹟",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "won:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "worth": {
+    "mean": "有價值",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "orth:or 唸 ㄛㄦ(R 控制)"
+  },
+  "appearance": {
+    "mean": "顯露",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "pea:ea 唸 ㄧ(部分例外);ran:子音+短母音+子音;ce:開音節,母音唸長音"
+  },
+  "announce": {
+    "mean": "宣布，發布，通知",
+    "theme": "materials",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "noun:ou 唸 ㄠ(可有例外);ce:開音節,母音唸長音"
+  },
+  "awake": {
+    "mean": "喚醒、醒來、醒著的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "wa:開音節,母音唸長音"
+  },
+  "bait": {
+    "mean": "餌",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ait:ai 唸 ㄟ"
+  },
+  "bang": {
+    "mean": "砰的一聲、猛擊",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ang:ng 唸 ㄥ"
+  },
+  "barn": {
+    "mean": "穀倉",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "arn:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "barrel": {
+    "mean": "大桶",
+    "theme": "home-items",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bar:子音+短母音+子音"
+  },
+  "beast": {
+    "mean": "野獸",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "east:ea 唸 ㄧ(部分例外)"
+  },
+  "behave": {
+    "mean": "表現",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "be:開音節,母音唸長音"
+  },
+  "being": {
+    "mean": "存在，生命",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eing:ei 唸 ㄝ 或 ㄟ;-ing 進行式"
+  },
+  "biscuit": {
+    "mean": "餅乾，小麵包",
+    "theme": "food",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bis:子音+短母音+子音;cuit:ui 唸 ㄨ"
+  },
+  "bless": {
+    "mean": "保佑，庇護",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "boot": {
+    "mean": "靴",
+    "theme": "clothing",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "oot:oo 唸 ㄨ(可長可短)"
+  },
+  "breath": {
+    "mean": "呼吸，氣息",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eath:ea 唸 ㄧ(部分例外)"
+  },
+  "breathe": {
+    "mean": "呼吸呼出",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "breat:ea 唸 ㄧ(部分例外);he:開音節,母音唸長音"
+  },
+  "bud": {
+    "mean": "芽",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "bump": {
+    "mean": "碰，撞",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "bunch": {
+    "mean": "串，束",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "unch:ch 唸 ㄔ"
+  },
+  "burden": {
+    "mean": "重擔",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bur:子音+短母音+子音"
+  },
+  "burglar": {
+    "mean": "破門盜竊者，夜賊",
+    "theme": "home-items",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bur:子音+短母音+子音;glar:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "bury": {
+    "mean": "埋葬，安葬",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "bu:開音節,母音唸長音"
+  },
+  "buzz": {
+    "mean": "嗡嗡叫",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "cabin": {
+    "mean": "客艙",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ca:開音節,母音唸長音;bin:子音+短母音+子音"
+  },
+  "capture": {
+    "mean": "捕獲",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cap:子音+短母音+子音;tu:開音節,母音唸長音"
+  },
+  "cattle": {
+    "mean": "牛群",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "cat:子音+短母音+子音"
+  },
+  "charm": {
+    "mean": "魅力",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ;arm:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "chat": {
+    "mean": "閒談，聊天",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ"
+  },
+  "chew": {
+    "mean": "咀嚼",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ;ew:ew 唸 ㄩ"
+  },
+  "chill": {
+    "mean": "寒冷",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ"
+  },
+  "chip": {
+    "mean": "碎片",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ"
+  },
+  "chop": {
+    "mean": "砍，劈，斬",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ"
+  },
+  "cigarette": {
+    "mean": "香煙",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ci:開音節,母音唸長音;ret:子音+短母音+子音"
+  },
+  "click": {
+    "mean": "卡嗒聲發出卡嗒聲",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ick:ck 唸 ㄎ"
+  },
+  "clip": {
+    "mean": "剪",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "clue": {
+    "mean": "線索，跡象",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ue:ue 唸 ㄩ"
+  },
+  "colony": {
+    "mean": "殖民地",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音"
+  },
+  "combine": {
+    "mean": "結合",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;bi:開音節,母音唸長音"
+  },
+  "command": {
+    "mean": "命令",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音"
+  },
+  "commercial": {
+    "mean": "電視廣告商業的",
+    "theme": "movies-tv",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音"
+  },
+  "compete": {
+    "mean": "競爭",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;pe:開音節,母音唸長音"
+  },
+  "complaint": {
+    "mean": "抱怨",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;plaint:ai 唸 ㄟ"
+  },
+  "concern": {
+    "mean": "關於",
+    "theme": "sight-words",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;cern:er 唸 ㄜㄦ(R 控制)"
+  },
+  "confuse": {
+    "mean": "使…困惑",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;fu:開音節,母音唸長音"
+  },
+  "conscious": {
+    "mean": "神志清醒的，有知覺的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;scious:ou 唸 ㄠ(可有例外);-ous 字尾唸 ㄜㄙ"
+  },
+  "countable": {
+    "mean": "可計算的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "count",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 count)",
+    "note": "coun:ou 唸 ㄠ(可有例外);tab:子音+短母音+子音;le:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "coward": {
+    "mean": "懦夫，膽怯者",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音;ward:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "crawl": {
+    "mean": "爬",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "awl:aw 唸 ㄛ"
+  },
+  "creep": {
+    "mean": "躡手躡足地走",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eep:ee 唸 ㄧ 長音"
+  },
+  "crutch": {
+    "mean": "撐拐",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "utch:ch 唸 ㄔ"
+  },
+  "dairy": {
+    "mean": "乳品場",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "dai:ai 唸 ㄟ;ry:開音節,母音唸長音"
+  },
+  "dam": {
+    "mean": "水壩",
+    "theme": "nature",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "dare": {
+    "mean": "敢",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "da:開音節,母音唸長音"
+  },
+  "darling": {
+    "mean": "心愛的人",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "dar:子音+短母音+子音;ling:ng 唸 ㄥ;-ing 進行式"
+  },
+  "dash": {
+    "mean": "猛撞",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ash:sh 唸 ㄒ"
+  },
+  "deed": {
+    "mean": "行為",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "eed:ee 唸 ㄧ 長音;-ed 過去式"
+  },
+  "definition": {
+    "mean": "定義",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "define",
+    "family-note": "這個動作的「結果/事物」(+ition 名詞)",
+    "note": "de:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "description": {
+    "mean": "描寫",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "describe",
+    "family-note": "這個動作的「結果」(+ption 名詞,描述)",
+    "note": "des:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "destroy": {
+    "mean": "毀壞，破壞",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "des:子音+短母音+子音;troy:oy 唸 ㄛㄧ"
+  },
+  "determine": {
+    "mean": "決定",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音;ter:子音+短母音+子音"
+  },
+  "dime": {
+    "mean": "一角",
+    "theme": "money",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音"
+  },
+  "dip": {
+    "mean": "浸",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "disco": {
+    "mean": "迪斯可舞廳",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "dis:子音+短母音+子音;co:開音節,母音唸長音"
+  },
+  "ditch": {
+    "mean": "水溝",
+    "theme": "places",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "itch:ch 唸 ㄔ"
+  },
+  "dive": {
+    "mean": "跳水",
+    "theme": "sports",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "di:開音節,母音唸長音"
+  },
+  "dodge": {
+    "mean": "閃開，躲開",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "dod:子音+短母音+子音;ge:開音節,母音唸長音"
+  },
+  "doubtful": {
+    "mean": "懷疑的，疑惑的",
+    "theme": "emotions",
+    "stage": 2,
+    "base": "doubt",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "doub:ou 唸 ㄠ(可有例外);-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "drain": {
+    "mean": "排出",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ain:ai 唸 ㄟ"
+  },
+  "dramatic": {
+    "mean": "戲劇的",
+    "theme": "movies-tv",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ma:開音節,母音唸長音;tic:子音+短母音+子音"
+  },
+  "drip": {
+    "mean": "滴",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "drunk": {
+    "mean": "喝醉的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "drink",
+    "family-note": "喝醉的(過去分詞當形容詞)",
+    "note": null
+  },
+  "due": {
+    "mean": "到期的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ue:ue 唸 ㄩ"
+  },
+  "dust": {
+    "mean": "灰塵，塵土",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "echo": {
+    "mean": "回聲",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ho:開音節,母音唸長音"
+  },
+  "edit": {
+    "mean": "編輯",
+    "theme": "media",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "dit:子音+短母音+子音"
+  },
+  "efficient": {
+    "mean": "效率高的",
+    "theme": "appearance",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fi:開音節,母音唸長音;cient:ie 唸 ㄞ 或 ㄧ"
+  },
+  "elderly": {
+    "mean": "年長的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "der:子音+短母音+子音;ly:開音節,母音唸長音;-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "electric": {
+    "mean": "電的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "lec:子音+短母音+子音"
+  },
+  "employ": {
+    "mean": "僱用",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ploy:oy 唸 ㄛㄧ"
+  },
+  "engage": {
+    "mean": "吸引",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ga:開音節,母音唸長音"
+  },
+  "engine": {
+    "mean": "引擎",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "gi:開音節,母音唸長音"
+  },
+  "enjoyable": {
+    "mean": "快樂的",
+    "theme": "emotions",
+    "stage": 2,
+    "base": "enjoy",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 enjoy)",
+    "note": "joyab:oy 唸 ㄛㄧ;le:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "entry": {
+    "mean": "進入",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "erase": {
+    "mean": "擦掉，抹去",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ra:開音節,母音唸長音"
+  },
+  "escape": {
+    "mean": "逃跑",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ca:開音節,母音唸長音"
+  },
+  "excellence": {
+    "mean": "優秀",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "excellent",
+    "family-note": "名詞版本(+ence,優秀)",
+    "note": "cel:子音+短母音+子音;ce:開音節,母音唸長音"
+  },
+  "expectation": {
+    "mean": "期待",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "expect",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "pec:子音+短母音+子音;ta:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "explode": {
+    "mean": "使爆炸爆炸",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "de:開音節,母音唸長音"
+  },
+  "expression": {
+    "mean": "表達",
+    "theme": "academic-words",
+    "stage": 2,
+    "base": "express",
+    "family-note": "這個動作的「結果」(+ion 名詞,表達)",
+    "note": "-sion 字尾唸 ㄓㄣ"
+  },
+  "expressive": {
+    "mean": "表現的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "express",
+    "family-note": "「會…的」(+ive 形容詞)",
+    "note": "si:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "extreme": {
+    "mean": "極端，末端極端的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "me:開音節,母音唸長音"
+  },
+  "fade": {
+    "mean": "凋謝，枯萎",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fa:開音節,母音唸長音"
+  },
+  "fairy": {
+    "mean": "小妖精",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fai:ai 唸 ㄟ;ry:開音節,母音唸長音"
+  },
+  "fare": {
+    "mean": "票價，車費",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fa:開音節,母音唸長音"
+  },
+  "fashion": {
+    "mean": "流行式樣",
+    "theme": "music",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "fas:子音+短母音+子音"
+  },
+  "fashionable": {
+    "mean": "流行的",
+    "theme": "music",
+    "stage": 2,
+    "base": "fashion",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 fashion)",
+    "note": "fas:子音+短母音+子音;le:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "fasten": {
+    "mean": "紮牢",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "t 不發音"
+  },
+  "flavor": {
+    "mean": "味道",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "vor:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "shady": {
+    "mean": "多蔭的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": "shade",
+    "family-note": "形容詞版本(去 e + y,陰涼的/可疑的)",
+    "note": "sha:sh 唸 ㄒ;dy:開音節,母音唸長音"
+  },
+  "spin": {
+    "mean": "紡",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "stitch": {
+    "mean": "一針",
+    "theme": "numbers",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "itch:ch 唸 ㄔ"
+  },
+  "style": {
+    "mean": "風格，作風",
+    "theme": "weather",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "le:開音節,母音唸長音"
+  },
+  "sip": {
+    "mean": "啜飲",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "ski": {
+    "mean": "滑雪屐",
+    "theme": "sports",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "shortly": {
+    "mean": "立刻，馬上，不久",
+    "theme": "animals",
+    "stage": 2,
+    "base": "short",
+    "family-note": "副詞版本(+ly,短時間後 → 不久、立刻)",
+    "note": "shor:or 唸 ㄛㄦ(R 控制);-ly 字尾(副詞)唸 ㄌㄧ"
+  },
+  "tack": {
+    "mean": "大頭釘",
+    "theme": "body",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ack:ck 唸 ㄎ"
+  },
+  "trail": {
+    "mean": "痕跡",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "ail:ai 唸 ㄟ"
+  },
+  "web": {
+    "mean": "蜘蛛網",
+    "theme": "animals",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "sometime": {
+    "mean": "在某一時候",
+    "theme": "time",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "so:開音節,母音唸長音"
+  },
+  "acquaint": {
+    "mean": "使認識",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "quaint:ai 唸 ㄟ"
+  },
+  "arms": {
+    "mean": "武器",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ar:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "associate": {
+    "mean": "夥伴",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "so:開音節,母音唸長音"
+  },
+  "audio": {
+    "mean": "聽覺的、音響的",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "au:au 唸 ㄛ"
+  },
+  "barrier": {
+    "mean": "障礙物",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "bar:子音+短母音+子音;rier:ie 唸 ㄞ 或 ㄧ;-er 字尾(比較級/人)"
+  },
+  "blessing": {
+    "mean": "賜福",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "chamber": {
+    "mean": "房間",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "cham:ch 唸 ㄔ;ber:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "chirp": {
+    "mean": "發啁啾聲",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ;irp:ir 唸 ㄜㄦ(R 控制)"
+  },
+  "civilization": {
+    "mean": "教化",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "civilize",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "ci:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "composition": {
+    "mean": "寫作",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "compose",
+    "family-note": "這個動作的「結果/事物」(+ition 名詞)",
+    "note": "com:子音+短母音+子音;po:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "conventional": {
+    "mean": "會議的",
+    "theme": "office",
+    "stage": 3,
+    "base": "convention",
+    "family-note": "形容詞版本(+al,從 convention 來)",
+    "note": "con:子音+短母音+子音"
+  },
+  "convey": {
+    "mean": "運送",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;vey:ey 唸 ㄧ 或 ㄟ"
+  },
+  "cord": {
+    "mean": "細繩，粗線",
+    "theme": "tools",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ord:or 唸 ㄛㄦ(R 控制)"
+  },
+  "declare": {
+    "mean": "宣布，宣告",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "dec:子音+短母音+子音;la:開音節,母音唸長音"
+  },
+  "dependent": {
+    "mean": "依靠的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "depend",
+    "family-note": "形容詞版本(+ent,依賴的)",
+    "note": "de:開音節,母音唸長音;pen:子音+短母音+子音"
+  },
+  "economic": {
+    "mean": "經濟上的",
+    "theme": "economy",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "co:開音節,母音唸長音;mic:子音+短母音+子音"
+  },
+  "facility": {
+    "mean": "能力，技能",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fa:開音節,母音唸長音;-ity 字尾唸 ㄜㄊㄧ"
+  },
+  "fame": {
+    "mean": "聲譽，名望",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fa:開音節,母音唸長音"
+  },
+  "fort": {
+    "mean": "堡壘，要塞",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ort:or 唸 ㄛㄦ(R 控制)"
+  },
+  "grammatical": {
+    "mean": "文法的",
+    "theme": "law",
+    "stage": 3,
+    "base": "grammar",
+    "family-note": "形容詞版本(+ical,文法的)",
+    "note": "ma:開音節,母音唸長音;cal:子音+短母音+子音"
+  },
+  "grease": {
+    "mean": "油脂",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "grea:ea 唸 ㄧ(部分例外);se:開音節,母音唸長音"
+  },
+  "hardship": {
+    "mean": "艱難，困苦",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "hard:ar 唸 ㄚㄦ(R 控制);ship:sh 唸 ㄒ"
+  },
+  "horrify": {
+    "mean": "使恐懼，使驚懼",
+    "theme": "emotions",
+    "stage": 3,
+    "base": "horror",
+    "family-note": "動詞版本(+ify,使害怕)",
+    "note": "hor:子音+短母音+子音;ri:開音節,母音唸長音"
+  },
+  "learning": {
+    "mean": "學習",
+    "theme": "actions",
+    "stage": 3,
+    "base": "learn",
+    "family-note": "正在學的版本(進行式,+ing)",
+    "note": "lear:ea 唸 ㄧ(部分例外);ning:ng 唸 ㄥ;-ing 進行式"
+  },
+  "plural": {
+    "mean": "複數的、複數",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ral:子音+短母音+子音"
+  },
+  "portable": {
+    "mean": "手提式的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "port",
+    "family-note": "「可以…的」版本(+able 形容詞,可以被 port)",
+    "note": "por:子音+短母音+子音;le:開音節,母音唸長音;-able 字尾唸 ㄝㄅㄛ"
+  },
+  "preposition": {
+    "mean": "介系詞，前置詞",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "po:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "productive": {
+    "mean": "生產的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "produce",
+    "family-note": "「會…的」(+ive 形容詞,從 produce 來)",
+    "note": "duc:子音+短母音+子音;ti:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "profess": {
+    "mean": "公開承認、聲稱",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "prosper": {
+    "mean": "繁榮，昌盛",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "per:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "reflection": {
+    "mean": "反射",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "reflect",
+    "family-note": "這個動作的「結果」(+ion 名詞,反射)",
+    "note": "ref:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "relieve": {
+    "mean": "緩和，減輕",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;lie:ie 唸 ㄞ 或 ㄧ"
+  },
+  "remark": {
+    "mean": "評論、談到",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;mark:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "resignation": {
+    "mean": "辭職",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "resign",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "re:開音節,母音唸長音;sig:子音+短母音+子音;-tion 字尾唸 ㄒㄣ"
+  },
+  "reward": {
+    "mean": "報答",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;ward:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "scenery": {
+    "mean": "風景，景色",
+    "theme": "weather",
+    "stage": 3,
+    "base": "scene",
+    "family-note": "名詞版本(+ry,風景)",
+    "note": "ne:開音節,母音唸長音"
+  },
+  "sledge": {
+    "mean": "雪橇、乘雪橇",
+    "theme": "weather",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ge:開音節,母音唸長音"
+  },
+  "strive": {
+    "mean": "努力，苦幹，奮鬥",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ve:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "theme": {
+    "mean": "論題，話題",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "the:th 唸 ㄒ 或 ㄉ;me:開音節,母音唸長音"
+  },
+  "tiresome": {
+    "mean": "使人疲勞的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ti:開音節,母音唸長音"
+  },
+  "universal": {
+    "mean": "全體的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ni:開音節,母音唸長音;ver:子音+短母音+子音"
+  },
+  "virgin": {
+    "mean": "處女,未婚女子處女的",
+    "theme": "relationships",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "vir:子音+短母音+子音"
+  },
+  "vocation": {
+    "mean": "行業",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "vo:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "witch": {
+    "mean": "女巫，巫婆",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "itch:ch 唸 ㄔ"
+  },
+  "abolish": {
+    "mean": "廢止",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "bo:開音節,母音唸長音;lish:sh 唸 ㄒ"
+  },
+  "acknowledgement": {
+    "mean": "承認",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "acknowledge",
+    "family-note": "這個動作的「結果/事物」(+ment 名詞)",
+    "note": "know:ow 唸 ㄠ 或 ㄛ;led:子音+短母音+子音;ge:開音節,母音唸長音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "ace": {
+    "mean": "么點",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ce:開音節,母音唸長音"
+  },
+  "appoint": {
+    "mean": "任命，指派",
+    "theme": "desserts",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "point:oi 唸 ㄛㄧ"
+  },
+  "astray": {
+    "mean": "迷途地、離開正道地",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "tray:ay 唸 ㄟ"
+  },
+  "bog": {
+    "mean": "沼澤、陷入泥淖",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "bowel": {
+    "mean": "腸",
+    "theme": "body",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "bo:開音節,母音唸長音;wel:子音+短母音+子音"
+  },
+  "chairperson": {
+    "mean": "議長",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "chair:ai 唸 ㄟ;per:子音+短母音+子音"
+  },
+  "compliment": {
+    "mean": "恭維",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "comprehension": {
+    "mean": "理解力",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "comprehend",
+    "family-note": "這個動作的「結果」(+sion 名詞,理解)",
+    "note": "com:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "consonant": {
+    "mean": "子音",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "con:子音+短母音+子音;so:開音節,母音唸長音"
+  },
+  "crossing": {
+    "mean": "交叉點",
+    "theme": "kitchen-utensils",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sing:ng 唸 ㄥ;-ing 進行式"
+  },
+  "electronics": {
+    "mean": "電子學",
+    "theme": "science",
+    "stage": 3,
+    "base": "electronic",
+    "family-note": "「很多個」的版本(+s 名詞,電子產品)",
+    "note": "lec:子音+短母音+子音"
+  },
+  "extent": {
+    "mean": "廣度，寬度",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "gear": {
+    "mean": "齒輪",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ear:ea 唸 ㄧ(部分例外)"
+  },
+  "glee": {
+    "mean": "快樂",
+    "theme": "emotions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ee:ee 唸 ㄧ 長音"
+  },
+  "halt": {
+    "mean": "暫停，停止",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "haste": {
+    "mean": "急忙，迅速",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "has:子音+短母音+子音;te:開音節,母音唸長音"
+  },
+  "healthful": {
+    "mean": "有益於健康的",
+    "theme": "health",
+    "stage": 3,
+    "base": "health",
+    "family-note": "「充滿…的」(+ful 形容詞)",
+    "note": "healt:ea 唸 ㄧ(部分例外);-ful 字尾唸 ㄈㄚㄛ"
+  },
+  "hover": {
+    "mean": "空中盤旋",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ho:開音節,母音唸長音;ver:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "idle": {
+    "mean": "閒置的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "le:開音節,母音唸長音"
+  },
+  "informative": {
+    "mean": "教育性的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "inform",
+    "family-note": "形容詞版本(+ative,資訊豐富的)",
+    "note": "for:子音+短母音+子音;ma:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "inland": {
+    "mean": "內地的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "itch": {
+    "mean": "癢",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ch:ch 唸 ㄔ"
+  },
+  "jeer": {
+    "mean": "嘲弄",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "eer:ee 唸 ㄧ 長音;-er 字尾(比較級/人)"
+  },
+  "logo": {
+    "mean": "標誌",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "lo:開音節,母音唸長音"
+  },
+  "lousy": {
+    "mean": "不潔的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lou:ou 唸 ㄠ(可有例外);sy:開音節,母音唸長音"
+  },
+  "lump": {
+    "mean": "團",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "mansion": {
+    "mean": "大廈",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "man:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "marvel": {
+    "mean": "驚奇、令人驚奇的事物",
+    "theme": "office",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "mar:子音+短母音+子音"
+  },
+  "mash": {
+    "mean": "糊狀物",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ash:sh 唸 ㄒ"
+  },
+  "mechanics": {
+    "mean": "力學",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "mec:子音+短母音+子音;ha:開音節,母音唸長音"
+  },
+  "midst": {
+    "mean": "中間",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "mode": {
+    "mean": "模式",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "mo:開音節,母音唸長音"
+  },
+  "monarch": {
+    "mean": "君王",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "mo:開音節,母音唸長音;narch:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "nibble": {
+    "mean": "一點一點的嚙咬",
+    "theme": "numbers",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "nib:子音+短母音+子音"
+  },
+  "nickel": {
+    "mean": "鎳",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "nic:子音+短母音+子音"
+  },
+  "oriental": {
+    "mean": "東方的",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "rien:ie 唸 ㄞ 或 ㄧ;tal:子音+短母音+子音"
+  },
+  "outsider": {
+    "mean": "局外人",
+    "theme": "jobs",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "out:ou 唸 ㄠ(可有例外);si:開音節,母音唸長音;der:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "overhear": {
+    "mean": "無意中聽到",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ver:子音+短母音+子音;hear:ea 唸 ㄧ(部分例外)"
+  },
+  "overwhelm": {
+    "mean": "戰勝",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ver:子音+短母音+子音;whelm:wh 唸 ㄨ"
+  },
+  "pacific": {
+    "mean": "和平的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pa:開音節,母音唸長音;fic:子音+短母音+子音"
+  },
+  "patron": {
+    "mean": "贊助者",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "pat:子音+短母音+子音"
+  },
+  "peek": {
+    "mean": "偷看",
+    "theme": "crime",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "eek:ee 唸 ㄧ 長音"
+  },
+  "perch": {
+    "mean": "棲木棲息",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "erch:er 唸 ㄜㄦ(R 控制)"
+  },
+  "personnel": {
+    "mean": "人員",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "per:子音+短母音+子音"
+  },
+  "pier": {
+    "mean": "碼頭",
+    "theme": "body",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ier:ie 唸 ㄞ 或 ㄧ;-er 字尾(比較級/人)"
+  },
+  "plantation": {
+    "mean": "農園",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "plant",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "ta:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "poetic": {
+    "mean": "詩的",
+    "theme": "literature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "poe:oe 唸 ㄛ;tic:子音+短母音+子音"
+  },
+  "profile": {
+    "mean": "輪廓",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "fi:開音節,母音唸長音"
+  },
+  "realm": {
+    "mean": "王國",
+    "theme": "countries",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ealm:ea 唸 ㄧ(部分例外)"
+  },
+  "recommend": {
+    "mean": "推薦",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音;com:子音+短母音+子音"
+  },
+  "revolt": {
+    "mean": "造反使厭惡反叛",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "rim": {
+    "mean": "邊緣",
+    "theme": "directions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "salute": {
+    "mean": "敬禮",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音"
+  },
+  "savage": {
+    "mean": "野蠻的野蠻人",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sa:開音節,母音唸長音"
+  },
+  "scent": {
+    "mean": "香氣",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "scramble": {
+    "mean": "爬行倉促湊成",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "scrap": {
+    "mean": "碎片當廢紙扔掉",
+    "theme": "materials",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "sensation": {
+    "mean": "感覺",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": "sense",
+    "family-note": "這個動作的「結果/事物」(+ation 名詞)",
+    "note": "sen:子音+短母音+子音;sa:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "sentiment": {
+    "mean": "情緒",
+    "theme": "emotions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sen:子音+短母音+子音;ti:開音節,母音唸長音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "shred": {
+    "mean": "碎片切成條狀",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "shr:sh 唸 ㄒ;-ed 過去式"
+  },
+  "slay": {
+    "mean": "殺害",
+    "theme": "crime",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ay:ay 唸 ㄟ"
+  },
+  "sneak": {
+    "mean": "偷偷地走、溜",
+    "theme": "crime",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "eak:ea 唸 ㄧ(部分例外)"
+  },
+  "statistical": {
+    "mean": "統計數字的",
+    "theme": "numbers",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "tis:子音+短母音+子音;ti:開音節,母音唸長音"
+  },
+  "steer": {
+    "mean": "駕駛",
+    "theme": "transportation",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "eer:ee 唸 ㄧ 長音;-er 字尾(比較級/人)"
+  },
+  "steward": {
+    "mean": "男服務員",
+    "theme": "jobs",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ward:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "stylish": {
+    "mean": "流行的",
+    "theme": "music",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "lish:sh 唸 ㄒ"
+  },
+  "substantial": {
+    "mean": "真實的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sub:子音+短母音+子音"
+  },
+  "supreme": {
+    "mean": "最高的",
+    "theme": "appearance",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "sup:子音+短母音+子音;re:開音節,母音唸長音"
+  },
+  "swarm": {
+    "mean": "群",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "arm:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "taunt": {
+    "mean": "嘲弄",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "aunt:au 唸 ㄛ"
+  },
+  "tendency": {
+    "mean": "傾向",
+    "theme": "actions",
+    "stage": 3,
+    "base": "tend",
+    "family-note": "名詞版本(+ency,傾向)",
+    "note": "ten:子音+短母音+子音;cy:開音節,母音唸長音"
+  },
+  "tension": {
+    "mean": "拉緊，繃緊",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ten:子音+短母音+子音;-sion 字尾唸 ㄓㄣ"
+  },
+  "terror": {
+    "mean": "恐怖，驚駭",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ter:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "thrust": {
+    "mean": "猛推",
+    "theme": "actions",
+    "stage": 3,
+    "base": "thrust",
+    "family-note": "原形和過去式長一樣(三態同形)",
+    "note": "thr:th 唸 ㄒ 或 ㄉ"
+  },
+  "timber": {
+    "mean": "木材，木料",
+    "theme": "materials",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tim:子音+短母音+子音;-er 字尾(比較級/人)"
+  },
+  "torment": {
+    "mean": "折磨、使痛苦",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "tor:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "torrent": {
+    "mean": "急流",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "tor:子音+短母音+子音"
+  },
+  "transition": {
+    "mean": "過渡",
+    "theme": "academic-words",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "si:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "tropic": {
+    "mean": "回歸線",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "pic:子音+短母音+子音"
+  },
+  "truant": {
+    "mean": "逃學者逃學的逃學",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "tumble": {
+    "mean": "跌倒",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tum:子音+短母音+子音"
+  },
+  "tutor": {
+    "mean": "家庭教師當…的家教",
+    "theme": "family",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "tu:開音節,母音唸長音;tor:子音+短母音+子音;-or 字尾(人/事物)"
+  },
+  "variety": {
+    "mean": "多樣化，變化",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "va:開音節,母音唸長音;rie:ie 唸 ㄞ 或 ㄧ"
+  },
+  "vacant": {
+    "mean": "空的",
+    "theme": "adjectives",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "va:開音節,母音唸長音"
+  },
+  "verbal": {
+    "mean": "口頭的",
+    "theme": "body",
+    "stage": 3,
+    "base": "verb",
+    "family-note": "形容詞版本(+al,口頭的)",
+    "note": "ver:子音+短母音+子音"
+  },
+  "veteran": {
+    "mean": "老兵",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ve:開音節,母音唸長音;ran:子音+短母音+子音"
+  },
+  "wail": {
+    "mean": "慟哭",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ail:ai 唸 ㄟ"
+  },
+  "warmth": {
+    "mean": "溫暖",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "armth:ar 唸 ㄚㄦ(R 控制)"
+  },
+  "whirl": {
+    "mean": "旋轉",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "wh:wh 唸 ㄨ;irl:ir 唸 ㄜㄦ(R 控制)"
+  },
+  "woe": {
+    "mean": "悲痛、哎喲",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "oe:oe 唸 ㄛ"
+  },
+  "wreath": {
+    "mean": "花環",
+    "theme": "nature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "w 不發音"
+  },
+  "wring": {
+    "mean": "擰蠕動",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "字首 w 不發音(wr- 開頭)"
+  },
+  "yawn": {
+    "mean": "呵欠",
+    "theme": "actions",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "awn:aw 唸 ㄛ"
+  },
+  "zip": {
+    "mean": "拉鍊拉開拉鍊",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "abnormal": {
+    "mean": "異常的",
+    "theme": "adjectives",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "nor:子音+短母音+子音"
+  },
+  "abrupt": {
+    "mean": "突然的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "abstraction": {
+    "mean": "抽象概念",
+    "theme": "animals",
+    "stage": 4,
+    "base": null,
+    "family-note": null,
+    "note": "-tion 字尾唸 ㄒㄣ"
+  },
+  "accomplish": {
+    "mean": "完成，實現，達到",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "com:子音+短母音+子音;plish:sh 唸 ㄒ"
+  },
+  "accuracy": {
+    "mean": "正確",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "cu:開音節,母音唸長音"
+  },
+  "adjustment": {
+    "mean": "調節",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": "adjust",
+    "family-note": "這個動作的「結果/事物」(+ment 名詞)",
+    "note": "jus:子音+短母音+子音;-ment 字尾唸 ㄇㄣㄊ"
+  },
+  "agency": {
+    "mean": "代辦處，經銷處",
+    "theme": "actions",
+    "stage": 3,
+    "base": "agent",
+    "family-note": "名詞版本(+cy,機構)",
+    "note": "gen:子音+短母音+子音;cy:開音節,母音唸長音"
+  },
+  "aggressive": {
+    "mean": "侵略的，有進取精神的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "si:開音節,母音唸長音;-ive 字尾唸 ㄧㄈ"
+  },
+  "airway": {
+    "mean": "呼吸道",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "air:ai 唸 ㄟ;way:ay 唸 ㄟ"
+  },
+  "alien": {
+    "mean": "外國人",
+    "theme": "countries",
+    "stage": 2,
+    "base": null,
+    "family-note": null,
+    "note": "lien:ie 唸 ㄞ 或 ㄧ"
+  },
+  "anthem": {
+    "mean": "讚美詩",
+    "theme": "literature",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "them:th 唸 ㄒ 或 ㄉ"
+  },
+  "application": {
+    "mean": "應用，適用",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ca:開音節,母音唸長音;-tion 字尾唸 ㄒㄣ"
+  },
+  "appliance": {
+    "mean": "器具，用具",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "ce:開音節,母音唸長音"
+  },
+  "appreciation": {
+    "mean": "欣賞",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "-tion 字尾唸 ㄒㄣ"
+  },
+  "apt": {
+    "mean": "有…傾向的",
+    "theme": "adjectives",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": null
+  },
+  "arena": {
+    "mean": "競技場",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "re:開音節,母音唸長音"
+  },
+  "assurance": {
+    "mean": "保證",
+    "theme": "academic-words",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "su:開音節,母音唸長音;ran:子音+短母音+子音"
+  },
+  "atomic": {
+    "mean": "原子的",
+    "theme": "science",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "to:開音節,母音唸長音;mic:子音+短母音+子音"
+  },
+  "backbone": {
+    "mean": "脊椎",
+    "theme": "actions",
+    "stage": 3,
+    "base": null,
+    "family-note": null,
+    "note": "bac:子音+短母音+子音;ne:開音節,母音唸長音"
+  }
+}
