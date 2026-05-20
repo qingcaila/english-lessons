@@ -1,0 +1,7609 @@
+[
+  {
+    "word": "two",
+    "current": [
+      "tw",
+      "o"
+    ],
+    "suggested": [
+      "two"
+    ],
+    "reason": "'tw' 不是發音 onset(w silent),拆 tw+o 誤導學習者把 w 念出;單音節 sight word 應整塊"
+  },
+  {
+    "word": "eight",
+    "current": [
+      "eigh",
+      "t"
+    ],
+    "suggested": [
+      "eight"
+    ],
+    "reason": "eigh 是 vowel team /eɪ/,t 是尾音不該獨立成 chunk;單音節整塊"
+  },
+  {
+    "word": "egg",
+    "current": [
+      "e",
+      "gg"
+    ],
+    "suggested": [
+      "egg"
+    ],
+    "reason": "母音開頭、無 onset,應整塊(類似 arm)"
+  },
+  {
+    "word": "and",
+    "current": [
+      "a",
+      "nd"
+    ],
+    "suggested": [
+      "and"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "is",
+    "current": [
+      "i",
+      "s"
+    ],
+    "suggested": [
+      "is"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "it",
+    "current": [
+      "i",
+      "t"
+    ],
+    "suggested": [
+      "it"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "at",
+    "current": [
+      "a",
+      "t"
+    ],
+    "suggested": [
+      "at"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "of",
+    "current": [
+      "o",
+      "f"
+    ],
+    "suggested": [
+      "of"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "as",
+    "current": [
+      "a",
+      "s"
+    ],
+    "suggested": [
+      "as"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "or",
+    "current": [
+      "o",
+      "r"
+    ],
+    "suggested": [
+      "or"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "if",
+    "current": [
+      "i",
+      "f"
+    ],
+    "suggested": [
+      "if"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "am",
+    "current": [
+      "a",
+      "m"
+    ],
+    "suggested": [
+      "am"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "us",
+    "current": [
+      "u",
+      "s"
+    ],
+    "suggested": [
+      "us"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "an",
+    "current": [
+      "a",
+      "n"
+    ],
+    "suggested": [
+      "an"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "its",
+    "current": [
+      "i",
+      "ts"
+    ],
+    "suggested": [
+      "its"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "our",
+    "current": [
+      "o",
+      "ur"
+    ],
+    "suggested": [
+      "our"
+    ],
+    "reason": "母音開頭、our r-controlled vowel team,應整塊"
+  },
+  {
+    "word": "ice",
+    "current": [
+      "i",
+      "ce"
+    ],
+    "suggested": [
+      "ice"
+    ],
+    "reason": "母音開頭 silent-e 結構,應整塊"
+  },
+  {
+    "word": "add",
+    "current": [
+      "a",
+      "dd"
+    ],
+    "suggested": [
+      "add"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "all",
+    "current": [
+      "a",
+      "ll"
+    ],
+    "suggested": [
+      "all"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "end",
+    "current": [
+      "e",
+      "nd"
+    ],
+    "suggested": [
+      "end"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "eat",
+    "current": [
+      "e",
+      "at"
+    ],
+    "suggested": [
+      "eat"
+    ],
+    "reason": "母音開頭、ea vowel team,應整塊"
+  },
+  {
+    "word": "out",
+    "current": [
+      "o",
+      "ut"
+    ],
+    "suggested": [
+      "out"
+    ],
+    "reason": "母音開頭、ou vowel team,應整塊"
+  },
+  {
+    "word": "old",
+    "current": [
+      "o",
+      "ld"
+    ],
+    "suggested": [
+      "old"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "ask",
+    "current": [
+      "a",
+      "sk"
+    ],
+    "suggested": [
+      "ask"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "off",
+    "current": [
+      "o",
+      "ff"
+    ],
+    "suggested": [
+      "off"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "oil",
+    "current": [
+      "o",
+      "il"
+    ],
+    "suggested": [
+      "oil"
+    ],
+    "reason": "母音開頭、oi vowel team,應整塊"
+  },
+  {
+    "word": "use",
+    "current": [
+      "u",
+      "se"
+    ],
+    "suggested": [
+      "use"
+    ],
+    "reason": "母音開頭 silent-e 結構,應整塊"
+  },
+  {
+    "word": "each",
+    "current": [
+      "ea",
+      "ch"
+    ],
+    "suggested": [
+      "each"
+    ],
+    "reason": "ea vowel team + ch digraph 尾音,單音節整塊"
+  },
+  {
+    "word": "ant",
+    "current": [
+      "a",
+      "nt"
+    ],
+    "suggested": [
+      "ant"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "owl",
+    "current": [
+      "o",
+      "wl"
+    ],
+    "suggested": [
+      "owl"
+    ],
+    "reason": "ow vowel team,不可拆"
+  },
+  {
+    "word": "oats",
+    "current": [
+      "o",
+      "ats"
+    ],
+    "suggested": [
+      "oats"
+    ],
+    "reason": "母音開頭、oa vowel team,應整塊"
+  },
+  {
+    "word": "ash",
+    "current": [
+      "a",
+      "sh"
+    ],
+    "suggested": [
+      "ash"
+    ],
+    "reason": "母音開頭、sh digraph 尾,應整塊"
+  },
+  {
+    "word": "air",
+    "current": [
+      "a",
+      "ir"
+    ],
+    "suggested": [
+      "air"
+    ],
+    "reason": "母音開頭、air r-controlled vowel team,應整塊"
+  },
+  {
+    "word": "are",
+    "current": [
+      "a",
+      "re"
+    ],
+    "suggested": [
+      "are"
+    ],
+    "reason": "母音開頭、r-controlled,應整塊"
+  },
+  {
+    "word": "ex",
+    "current": [
+      "e",
+      "x"
+    ],
+    "suggested": [
+      "ex"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "inn",
+    "current": [
+      "i",
+      "nn"
+    ],
+    "suggested": [
+      "inn"
+    ],
+    "reason": "母音開頭、無 onset,應整塊"
+  },
+  {
+    "word": "earn",
+    "current": [
+      "e",
+      "arn"
+    ],
+    "suggested": [
+      "earn"
+    ],
+    "reason": "ear r-controlled vowel team,應整塊"
+  },
+  {
+    "word": "east",
+    "current": [
+      "e",
+      "ast"
+    ],
+    "suggested": [
+      "east"
+    ],
+    "reason": "母音開頭、ea vowel team,單音節整塊"
+  },
+  {
+    "word": "earth",
+    "current": [
+      "ear",
+      "th"
+    ],
+    "suggested": [
+      "earth"
+    ],
+    "reason": "ear vowel team + th 尾音,單音節應整塊"
+  },
+  {
+    "word": "edge",
+    "current": [
+      "e",
+      "dge"
+    ],
+    "suggested": [
+      "edge"
+    ],
+    "reason": "母音開頭、dge trigraph,單音節應整塊"
+  },
+  {
+    "word": "aisle",
+    "current": [
+      "a",
+      "isle"
+    ],
+    "suggested": [
+      "aisle"
+    ],
+    "reason": "a 不發音,單音節應整塊"
+  },
+  {
+    "word": "orange",
+    "current": [
+      "o",
+      "range"
+    ],
+    "suggested": [
+      "or",
+      "ange"
+    ],
+    "reason": "音節邊界錯;第一音節是 or /ɔːr/,正確 or-ange"
+  },
+  {
+    "word": "oven",
+    "current": [
+      "o",
+      "ven"
+    ],
+    "suggested": [
+      "ov",
+      "en"
+    ],
+    "reason": "短 o /ʌ/ 應與後續 v 同音節:ov-en"
+  },
+  {
+    "word": "olive",
+    "current": [
+      "o",
+      "live"
+    ],
+    "suggested": [
+      "ol",
+      "ive"
+    ],
+    "reason": "短 o 應與 l 同音節:ol-ive"
+  },
+  {
+    "word": "other",
+    "current": [
+      "o",
+      "ther"
+    ],
+    "suggested": [
+      "oth",
+      "er"
+    ],
+    "reason": "短 o + th digraph 同音節:oth-er"
+  },
+  {
+    "word": "another",
+    "current": [
+      "a",
+      "no",
+      "ther"
+    ],
+    "suggested": [
+      "a",
+      "noth",
+      "er"
+    ],
+    "reason": "應為 a-noth-er,noth 含短 o + th"
+  },
+  {
+    "word": "otherwise",
+    "current": [
+      "o",
+      "ther",
+      "wise"
+    ],
+    "suggested": [
+      "oth",
+      "er",
+      "wise"
+    ],
+    "reason": "短 o + th 應同音節:oth-er-wise"
+  },
+  {
+    "word": "honest",
+    "current": [
+      "ho",
+      "nest"
+    ],
+    "suggested": [
+      "hon",
+      "est"
+    ],
+    "reason": "h silent,短 o + n 同音節:hon-est"
+  },
+  {
+    "word": "empty",
+    "current": [
+      "em",
+      "pty"
+    ],
+    "suggested": [
+      "emp",
+      "ty"
+    ],
+    "reason": "音節邊界錯;p 應屬 em(VC.CV):emp-ty"
+  },
+  {
+    "word": "forever",
+    "current": [
+      "for",
+      "e",
+      "ver"
+    ],
+    "suggested": [
+      "for",
+      "ev",
+      "er"
+    ],
+    "reason": "音節邊界錯;中間短 e 應與 v 同音節:for-ev-er"
+  },
+  {
+    "word": "already",
+    "current": [
+      "al",
+      "rea",
+      "dy"
+    ],
+    "suggested": [
+      "al",
+      "read",
+      "y"
+    ],
+    "reason": "音節邊界錯;d 屬於 read:al-read-y"
+  },
+  {
+    "word": "acquaintance",
+    "current": [
+      "ac",
+      "quain",
+      "tance"
+    ],
+    "suggested": [
+      "ac",
+      "quaint",
+      "ance"
+    ],
+    "reason": "音節邊界錯;quaint 為完整字根,t 屬 quaint"
+  },
+  {
+    "word": "who",
+    "current": [
+      "wh",
+      "o"
+    ],
+    "suggested": [
+      "who"
+    ],
+    "reason": "wh 念 /h/、o 念 /uː/;拆 wh+o 誤導,單音節應整塊"
+  },
+  {
+    "word": "to",
+    "current": [
+      "t",
+      "o"
+    ],
+    "suggested": [
+      "to"
+    ],
+    "reason": "sight word /tuː/,o 非規則發音,應整塊"
+  },
+  {
+    "word": "do",
+    "current": [
+      "d",
+      "o"
+    ],
+    "suggested": [
+      "do"
+    ],
+    "reason": "sight word /duː/,o 非規則發音,應整塊"
+  },
+  {
+    "word": "the",
+    "current": [
+      "th",
+      "e"
+    ],
+    "suggested": [
+      "the"
+    ],
+    "reason": "單音節 sight word,建議整塊"
+  },
+  {
+    "word": "she",
+    "current": [
+      "sh",
+      "e"
+    ],
+    "suggested": [
+      "she"
+    ],
+    "reason": "單音節 sight word,建議整塊"
+  },
+  {
+    "word": "he",
+    "current": [
+      "h",
+      "e"
+    ],
+    "suggested": [
+      "he"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "we",
+    "current": [
+      "w",
+      "e"
+    ],
+    "suggested": [
+      "we"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "be",
+    "current": [
+      "b",
+      "e"
+    ],
+    "suggested": [
+      "be"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "so",
+    "current": [
+      "s",
+      "o"
+    ],
+    "suggested": [
+      "so"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "go",
+    "current": [
+      "g",
+      "o"
+    ],
+    "suggested": [
+      "go"
+    ],
+    "reason": "單音節 open syllable,建議整塊"
+  },
+  {
+    "word": "by",
+    "current": [
+      "b",
+      "y"
+    ],
+    "suggested": [
+      "by"
+    ],
+    "reason": "單音節 y-as-vowel,建議整塊"
+  },
+  {
+    "word": "why",
+    "current": [
+      "wh",
+      "y"
+    ],
+    "suggested": [
+      "why"
+    ],
+    "reason": "單音節 wh + y vowel,建議整塊"
+  },
+  {
+    "word": "shy",
+    "current": [
+      "sh",
+      "y"
+    ],
+    "suggested": [
+      "shy"
+    ],
+    "reason": "單音節 sh+y,建議整塊"
+  },
+  {
+    "word": "try",
+    "current": [
+      "tr",
+      "y"
+    ],
+    "suggested": [
+      "try"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "dry",
+    "current": [
+      "dr",
+      "y"
+    ],
+    "suggested": [
+      "dry"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "cry",
+    "current": [
+      "cr",
+      "y"
+    ],
+    "suggested": [
+      "cry"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "sky",
+    "current": [
+      "sk",
+      "y"
+    ],
+    "suggested": [
+      "sky"
+    ],
+    "reason": "單音節 blend+y,建議整塊"
+  },
+  {
+    "word": "fly",
+    "current": [
+      "f",
+      "ly"
+    ],
+    "suggested": [
+      "fly"
+    ],
+    "reason": "fl 是 blend,不該拆成 f|ly;應整塊"
+  },
+  {
+    "word": "key",
+    "current": [
+      "k",
+      "ey"
+    ],
+    "suggested": [
+      "key"
+    ],
+    "reason": "ey vowel team /iː/,單音節整塊"
+  },
+  {
+    "word": "hour",
+    "current": [
+      "h",
+      "our"
+    ],
+    "suggested": [
+      "hour"
+    ],
+    "reason": "h 不發音;our vowel team,應整塊"
+  },
+  {
+    "word": "herb",
+    "current": [
+      "h",
+      "erb"
+    ],
+    "suggested": [
+      "herb"
+    ],
+    "reason": "h 不發音(美式),拆 h 為 onset 誤導,應整塊"
+  },
+  {
+    "word": "sigh",
+    "current": [
+      "s",
+      "igh"
+    ],
+    "suggested": [
+      "sigh"
+    ],
+    "reason": "單音節 s + igh /aɪ/,可整塊"
+  },
+  {
+    "word": "high",
+    "current": [
+      "h",
+      "igh"
+    ],
+    "suggested": [
+      "high"
+    ],
+    "reason": "單音節 igh,建議整塊"
+  },
+  {
+    "word": "thigh",
+    "current": [
+      "th",
+      "igh"
+    ],
+    "suggested": [
+      "thigh"
+    ],
+    "reason": "單音節 th + igh,建議整塊"
+  },
+  {
+    "word": "die",
+    "current": [
+      "d",
+      "ie"
+    ],
+    "suggested": [
+      "die"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "lie",
+    "current": [
+      "l",
+      "ie"
+    ],
+    "suggested": [
+      "lie"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "pie",
+    "current": [
+      "p",
+      "ie"
+    ],
+    "suggested": [
+      "pie"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "tie",
+    "current": [
+      "t",
+      "ie"
+    ],
+    "suggested": [
+      "tie"
+    ],
+    "reason": "ie vowel team,單音節整塊"
+  },
+  {
+    "word": "toe",
+    "current": [
+      "t",
+      "oe"
+    ],
+    "suggested": [
+      "toe"
+    ],
+    "reason": "oe vowel team,單音節整塊"
+  },
+  {
+    "word": "jaw",
+    "current": [
+      "j",
+      "aw"
+    ],
+    "suggested": [
+      "jaw"
+    ],
+    "reason": "單音節 aw vowel team,建議整塊"
+  },
+  {
+    "word": "saw",
+    "current": [
+      "s",
+      "aw"
+    ],
+    "suggested": [
+      "saw"
+    ],
+    "reason": "單音節 aw vowel team,建議整塊"
+  },
+  {
+    "word": "joy",
+    "current": [
+      "j",
+      "oy"
+    ],
+    "suggested": [
+      "joy"
+    ],
+    "reason": "單音節 oy vowel team,建議整塊"
+  },
+  {
+    "word": "boy",
+    "current": [
+      "b",
+      "oy"
+    ],
+    "suggested": [
+      "boy"
+    ],
+    "reason": "單音節 oy vowel team,建議整塊"
+  },
+  {
+    "word": "toy",
+    "current": [
+      "t",
+      "oy"
+    ],
+    "suggested": [
+      "toy"
+    ],
+    "reason": "單音節 oy vowel team,建議整塊"
+  },
+  {
+    "word": "day",
+    "current": [
+      "d",
+      "ay"
+    ],
+    "suggested": [
+      "day"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "way",
+    "current": [
+      "w",
+      "ay"
+    ],
+    "suggested": [
+      "way"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "say",
+    "current": [
+      "s",
+      "ay"
+    ],
+    "suggested": [
+      "say"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "pay",
+    "current": [
+      "p",
+      "ay"
+    ],
+    "suggested": [
+      "pay"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "may",
+    "current": [
+      "m",
+      "ay"
+    ],
+    "suggested": [
+      "may"
+    ],
+    "reason": "單音節 ay vowel team,建議整塊"
+  },
+  {
+    "word": "few",
+    "current": [
+      "f",
+      "ew"
+    ],
+    "suggested": [
+      "few"
+    ],
+    "reason": "單音節 ew vowel team,建議整塊"
+  },
+  {
+    "word": "new",
+    "current": [
+      "n",
+      "ew"
+    ],
+    "suggested": [
+      "new"
+    ],
+    "reason": "單音節 ew vowel team,建議整塊"
+  },
+  {
+    "word": "knew",
+    "current": [
+      "kn",
+      "ew"
+    ],
+    "suggested": [
+      "knew"
+    ],
+    "reason": "kn silent-k digraph + ew vowel team,單音節整塊"
+  },
+  {
+    "word": "low",
+    "current": [
+      "l",
+      "ow"
+    ],
+    "suggested": [
+      "low"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "now",
+    "current": [
+      "n",
+      "ow"
+    ],
+    "suggested": [
+      "now"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "how",
+    "current": [
+      "h",
+      "ow"
+    ],
+    "suggested": [
+      "how"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "know",
+    "current": [
+      "kn",
+      "ow"
+    ],
+    "suggested": [
+      "know"
+    ],
+    "reason": "kn digraph + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "row",
+    "current": [
+      "r",
+      "ow"
+    ],
+    "suggested": [
+      "row"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "cow",
+    "current": [
+      "c",
+      "ow"
+    ],
+    "suggested": [
+      "cow"
+    ],
+    "reason": "單音節 ow vowel team,建議整塊"
+  },
+  {
+    "word": "brow",
+    "current": [
+      "br",
+      "ow"
+    ],
+    "suggested": [
+      "brow"
+    ],
+    "reason": "單音節 br+ow,建議整塊"
+  },
+  {
+    "word": "crow",
+    "current": [
+      "cr",
+      "ow"
+    ],
+    "suggested": [
+      "crow"
+    ],
+    "reason": "單音節 cr+ow,建議整塊"
+  },
+  {
+    "word": "throw",
+    "current": [
+      "thr",
+      "ow"
+    ],
+    "suggested": [
+      "throw"
+    ],
+    "reason": "thr blend + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "snow",
+    "current": [
+      "sn",
+      "ow"
+    ],
+    "suggested": [
+      "snow"
+    ],
+    "reason": "sn blend + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "slow",
+    "current": [
+      "sl",
+      "ow"
+    ],
+    "suggested": [
+      "slow"
+    ],
+    "reason": "sl blend + ow vowel team,單音節整塊"
+  },
+  {
+    "word": "gray",
+    "current": [
+      "gr",
+      "ay"
+    ],
+    "suggested": [
+      "gray"
+    ],
+    "reason": "gr blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "tray",
+    "current": [
+      "tr",
+      "ay"
+    ],
+    "suggested": [
+      "tray"
+    ],
+    "reason": "tr blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "play",
+    "current": [
+      "pl",
+      "ay"
+    ],
+    "suggested": [
+      "play"
+    ],
+    "reason": "pl blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "clay",
+    "current": [
+      "cl",
+      "ay"
+    ],
+    "suggested": [
+      "clay"
+    ],
+    "reason": "cl blend + ay vowel team,單音節整塊"
+  },
+  {
+    "word": "guy",
+    "current": [
+      "g",
+      "uy"
+    ],
+    "suggested": [
+      "guy"
+    ],
+    "reason": "uy 為 silent-u + y vowel team /aɪ/,單音節整塊"
+  },
+  {
+    "word": "buy",
+    "current": [
+      "b",
+      "uy"
+    ],
+    "suggested": [
+      "buy"
+    ],
+    "reason": "uy vowel team,單音節整塊"
+  },
+  {
+    "word": "sea",
+    "current": [
+      "s",
+      "ea"
+    ],
+    "suggested": [
+      "sea"
+    ],
+    "reason": "單音節 ea vowel team,建議整塊"
+  },
+  {
+    "word": "tea",
+    "current": [
+      "t",
+      "ea"
+    ],
+    "suggested": [
+      "tea"
+    ],
+    "reason": "單音節 ea vowel team,建議整塊"
+  },
+  {
+    "word": "pea",
+    "current": [
+      "p",
+      "ea"
+    ],
+    "suggested": [
+      "pea"
+    ],
+    "reason": "單音節 ea vowel team,建議整塊"
+  },
+  {
+    "word": "see",
+    "current": [
+      "s",
+      "ee"
+    ],
+    "suggested": [
+      "see"
+    ],
+    "reason": "單音節 ee vowel team,建議整塊"
+  },
+  {
+    "word": "bee",
+    "current": [
+      "b",
+      "ee"
+    ],
+    "suggested": [
+      "bee"
+    ],
+    "reason": "單音節 ee vowel team,建議整塊"
+  },
+  {
+    "word": "too",
+    "current": [
+      "t",
+      "oo"
+    ],
+    "suggested": [
+      "too"
+    ],
+    "reason": "單音節 oo vowel team,建議整塊"
+  },
+  {
+    "word": "zoo",
+    "current": [
+      "z",
+      "oo"
+    ],
+    "suggested": [
+      "zoo"
+    ],
+    "reason": "單音節 oo vowel team,建議整塊"
+  },
+  {
+    "word": "three",
+    "current": [
+      "thr",
+      "ee"
+    ],
+    "suggested": [
+      "three"
+    ],
+    "reason": "thr blend + ee vowel team,單音節整塊"
+  },
+  {
+    "word": "free",
+    "current": [
+      "fr",
+      "ee"
+    ],
+    "suggested": [
+      "free"
+    ],
+    "reason": "fr blend + ee vowel team,單音節整塊"
+  },
+  {
+    "word": "tree",
+    "current": [
+      "tr",
+      "ee"
+    ],
+    "suggested": [
+      "tree"
+    ],
+    "reason": "tr blend + ee vowel team,單音節整塊"
+  },
+  {
+    "word": "four",
+    "current": [
+      "f",
+      "our"
+    ],
+    "suggested": [
+      "four"
+    ],
+    "reason": "單音節 f + our vowel team,建議整塊"
+  },
+  {
+    "word": "five",
+    "current": [
+      "f",
+      "ive"
+    ],
+    "suggested": [
+      "five"
+    ],
+    "reason": "單音節 silent-e,建議整塊"
+  },
+  {
+    "word": "nine",
+    "current": [
+      "n",
+      "ine"
+    ],
+    "suggested": [
+      "nine"
+    ],
+    "reason": "單音節 silent-e,建議整塊"
+  },
+  {
+    "word": "weather",
+    "current": [
+      "wea",
+      "ther"
+    ],
+    "suggested": [
+      "weath",
+      "er"
+    ],
+    "reason": "音節邊界錯;th 屬 weath:weath-er"
+  },
+  {
+    "word": "sweater",
+    "current": [
+      "swea",
+      "ter"
+    ],
+    "suggested": [
+      "sweat",
+      "er"
+    ],
+    "reason": "音節邊界錯;t 屬於 sweat:sweat-er"
+  },
+  {
+    "word": "leather",
+    "current": [
+      "lea",
+      "ther"
+    ],
+    "suggested": [
+      "leath",
+      "er"
+    ],
+    "reason": "音節邊界錯;th 屬於 leath:leath-er"
+  },
+  {
+    "word": "mother",
+    "current": [
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "moth",
+      "er"
+    ],
+    "reason": "短 o + th 應同音節:moth-er"
+  },
+  {
+    "word": "father",
+    "current": [
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "fath",
+      "er"
+    ],
+    "reason": "短 a + th 應同音節:fath-er"
+  },
+  {
+    "word": "brother",
+    "current": [
+      "bro",
+      "ther"
+    ],
+    "suggested": [
+      "broth",
+      "er"
+    ],
+    "reason": "短 o + th 應同音節:broth-er"
+  },
+  {
+    "word": "grandmother",
+    "current": [
+      "grand",
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "grand",
+      "moth",
+      "er"
+    ],
+    "reason": "同 mother"
+  },
+  {
+    "word": "grandfather",
+    "current": [
+      "grand",
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "grand",
+      "fath",
+      "er"
+    ],
+    "reason": "同 father"
+  },
+  {
+    "word": "stepmother",
+    "current": [
+      "step",
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "step",
+      "moth",
+      "er"
+    ],
+    "reason": "同 mother"
+  },
+  {
+    "word": "stepfather",
+    "current": [
+      "step",
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "step",
+      "fath",
+      "er"
+    ],
+    "reason": "同 father"
+  },
+  {
+    "word": "stepbrother",
+    "current": [
+      "step",
+      "bro",
+      "ther"
+    ],
+    "suggested": [
+      "step",
+      "broth",
+      "er"
+    ],
+    "reason": "同 brother"
+  },
+  {
+    "word": "godfather",
+    "current": [
+      "god",
+      "fa",
+      "ther"
+    ],
+    "suggested": [
+      "god",
+      "fath",
+      "er"
+    ],
+    "reason": "同 father"
+  },
+  {
+    "word": "godmother",
+    "current": [
+      "god",
+      "mo",
+      "ther"
+    ],
+    "suggested": [
+      "god",
+      "moth",
+      "er"
+    ],
+    "reason": "同 mother"
+  },
+  {
+    "word": "rather",
+    "current": [
+      "ra",
+      "ther"
+    ],
+    "suggested": [
+      "rath",
+      "er"
+    ],
+    "reason": "短 a + th 應同音節:rath-er"
+  },
+  {
+    "word": "sailor",
+    "current": [
+      "sai",
+      "lor"
+    ],
+    "suggested": [
+      "sail",
+      "or"
+    ],
+    "reason": "音節邊界錯;sail 為字根:sail-or"
+  },
+  {
+    "word": "waiter",
+    "current": [
+      "wai",
+      "ter"
+    ],
+    "suggested": [
+      "wait",
+      "er"
+    ],
+    "reason": "音節邊界錯;wait 為字根:wait-er"
+  },
+  {
+    "word": "pointer",
+    "current": [
+      "poin",
+      "ter"
+    ],
+    "suggested": [
+      "point",
+      "er"
+    ],
+    "reason": "音節邊界錯;point 為字根:point-er"
+  },
+  {
+    "word": "painter",
+    "current": [
+      "pain",
+      "ter"
+    ],
+    "suggested": [
+      "paint",
+      "er"
+    ],
+    "reason": "音節邊界錯;paint 為字根:paint-er"
+  },
+  {
+    "word": "toaster",
+    "current": [
+      "toas",
+      "ter"
+    ],
+    "suggested": [
+      "toast",
+      "er"
+    ],
+    "reason": "音節邊界錯;toast 為字根:toast-er"
+  },
+  {
+    "word": "coaster",
+    "current": [
+      "coas",
+      "ter"
+    ],
+    "suggested": [
+      "coast",
+      "er"
+    ],
+    "reason": "音節邊界錯;coast 為字根:coast-er"
+  },
+  {
+    "word": "closer",
+    "current": [
+      "clo",
+      "ser"
+    ],
+    "suggested": [
+      "clos",
+      "er"
+    ],
+    "reason": "音節邊界錯;close 去 e + er:clos-er"
+  },
+  {
+    "word": "closet",
+    "current": [
+      "clo",
+      "set"
+    ],
+    "suggested": [
+      "clos",
+      "et"
+    ],
+    "reason": "音節邊界錯;短 o 應與 s 同音節:clos-et"
+  },
+  {
+    "word": "sneakers",
+    "current": [
+      "snea",
+      "kers"
+    ],
+    "suggested": [
+      "sneak",
+      "ers"
+    ],
+    "reason": "音節邊界錯;sneak 為字根:sneak-ers"
+  },
+  {
+    "word": "speaker",
+    "current": [
+      "spea",
+      "ker"
+    ],
+    "suggested": [
+      "speak",
+      "er"
+    ],
+    "reason": "音節邊界錯;speak 為字根:speak-er"
+  },
+  {
+    "word": "teacher",
+    "current": [
+      "tea",
+      "cher"
+    ],
+    "suggested": [
+      "teach",
+      "er"
+    ],
+    "reason": "音節邊界錯;teach 為字根:teach-er"
+  },
+  {
+    "word": "ready",
+    "current": [
+      "rea",
+      "dy"
+    ],
+    "suggested": [
+      "read",
+      "y"
+    ],
+    "reason": "音節邊界錯;read 為字根 + y:read-y"
+  },
+  {
+    "word": "heavy",
+    "current": [
+      "hea",
+      "vy"
+    ],
+    "suggested": [
+      "heav",
+      "y"
+    ],
+    "reason": "音節邊界錯;heav-y(短 e)"
+  },
+  {
+    "word": "heater",
+    "current": [
+      "hea",
+      "ter"
+    ],
+    "suggested": [
+      "heat",
+      "er"
+    ],
+    "reason": "音節邊界錯;heat 為字根:heat-er"
+  },
+  {
+    "word": "healthy",
+    "current": [
+      "heal",
+      "thy"
+    ],
+    "suggested": [
+      "health",
+      "y"
+    ],
+    "reason": "音節邊界錯;health 為字根 + y:health-y"
+  },
+  {
+    "word": "second",
+    "current": [
+      "se",
+      "cond"
+    ],
+    "suggested": [
+      "sec",
+      "ond"
+    ],
+    "reason": "短 e + c 同音節:sec-ond"
+  },
+  {
+    "word": "seven",
+    "current": [
+      "se",
+      "ven"
+    ],
+    "suggested": [
+      "sev",
+      "en"
+    ],
+    "reason": "短 e + v 同音節:sev-en"
+  },
+  {
+    "word": "seventh",
+    "current": [
+      "se",
+      "venth"
+    ],
+    "suggested": [
+      "sev",
+      "enth"
+    ],
+    "reason": "同 seven"
+  },
+  {
+    "word": "seventy",
+    "current": [
+      "se",
+      "ven",
+      "ty"
+    ],
+    "suggested": [
+      "sev",
+      "en",
+      "ty"
+    ],
+    "reason": "同 seven"
+  },
+  {
+    "word": "seventeen",
+    "current": [
+      "se",
+      "ven",
+      "teen"
+    ],
+    "suggested": [
+      "sev",
+      "en",
+      "teen"
+    ],
+    "reason": "同 seven"
+  },
+  {
+    "word": "never",
+    "current": [
+      "ne",
+      "ver"
+    ],
+    "suggested": [
+      "nev",
+      "er"
+    ],
+    "reason": "短 e + v 同音節:nev-er"
+  },
+  {
+    "word": "clever",
+    "current": [
+      "cle",
+      "ver"
+    ],
+    "suggested": [
+      "clev",
+      "er"
+    ],
+    "reason": "短 e + v 同音節:clev-er"
+  },
+  {
+    "word": "river",
+    "current": [
+      "ri",
+      "ver"
+    ],
+    "suggested": [
+      "riv",
+      "er"
+    ],
+    "reason": "短 i + v 同音節:riv-er"
+  },
+  {
+    "word": "liver",
+    "current": [
+      "li",
+      "ver"
+    ],
+    "suggested": [
+      "liv",
+      "er"
+    ],
+    "reason": "短 i + v 同音節:liv-er"
+  },
+  {
+    "word": "lover",
+    "current": [
+      "lo",
+      "ver"
+    ],
+    "suggested": [
+      "lov",
+      "er"
+    ],
+    "reason": "短 o + v 同音節:lov-er"
+  },
+  {
+    "word": "minute",
+    "current": [
+      "mi",
+      "nute"
+    ],
+    "suggested": [
+      "min",
+      "ute"
+    ],
+    "reason": "短 i + n 同音節:min-ute"
+  },
+  {
+    "word": "lemon",
+    "current": [
+      "le",
+      "mon"
+    ],
+    "suggested": [
+      "lem",
+      "on"
+    ],
+    "reason": "短 e + m 同音節:lem-on"
+  },
+  {
+    "word": "flute",
+    "current": [
+      "fl",
+      "ute"
+    ],
+    "suggested": [
+      "flute"
+    ],
+    "reason": "單音節 fl blend + silent-e rime,建議整塊"
+  },
+  {
+    "word": "true",
+    "current": [
+      "tr",
+      "ue"
+    ],
+    "suggested": [
+      "true"
+    ],
+    "reason": "單音節 tr + ue vowel team,建議整塊"
+  },
+  {
+    "word": "blue",
+    "current": [
+      "bl",
+      "ue"
+    ],
+    "suggested": [
+      "blue"
+    ],
+    "reason": "單音節 bl + ue vowel team,建議整塊"
+  },
+  {
+    "word": "glue",
+    "current": [
+      "gl",
+      "ue"
+    ],
+    "suggested": [
+      "glue"
+    ],
+    "reason": "單音節 gl + ue vowel team,建議整塊"
+  },
+  {
+    "word": "brew",
+    "current": [
+      "br",
+      "ew"
+    ],
+    "suggested": [
+      "brew"
+    ],
+    "reason": "單音節 br + ew vowel team,建議整塊"
+  },
+  {
+    "word": "drawer",
+    "current": [
+      "dr",
+      "awer"
+    ],
+    "suggested": [
+      "draw",
+      "er"
+    ],
+    "reason": "音節邊界錯;draw 為字根:draw-er"
+  },
+  {
+    "word": "store",
+    "current": [
+      "st",
+      "ore"
+    ],
+    "suggested": [
+      "store"
+    ],
+    "reason": "單音節 st blend + ore,建議整塊"
+  },
+  {
+    "word": "shore",
+    "current": [
+      "sh",
+      "ore"
+    ],
+    "suggested": [
+      "shore"
+    ],
+    "reason": "單音節 sh digraph + ore,建議整塊"
+  },
+  {
+    "word": "score",
+    "current": [
+      "sc",
+      "ore"
+    ],
+    "suggested": [
+      "score"
+    ],
+    "reason": "單音節 sc + ore,建議整塊"
+  },
+  {
+    "word": "snake",
+    "current": [
+      "sn",
+      "ake"
+    ],
+    "suggested": [
+      "snake"
+    ],
+    "reason": "單音節 sn + ake silent-e,建議整塊"
+  },
+  {
+    "word": "bra",
+    "current": [
+      "br",
+      "a"
+    ],
+    "suggested": [
+      "bra"
+    ],
+    "reason": "單音節 br + a,建議整塊"
+  },
+  {
+    "word": "spa",
+    "current": [
+      "sp",
+      "a"
+    ],
+    "suggested": [
+      "spa"
+    ],
+    "reason": "單音節 sp + a,建議整塊"
+  },
+  {
+    "word": "smile",
+    "current": [
+      "sm",
+      "ile"
+    ],
+    "suggested": [
+      "smile"
+    ],
+    "reason": "單音節 sm + ile silent-e,建議整塊"
+  },
+  {
+    "word": "smoke",
+    "current": [
+      "sm",
+      "oke"
+    ],
+    "suggested": [
+      "smoke"
+    ],
+    "reason": "單音節 sm + oke silent-e,建議整塊"
+  },
+  {
+    "word": "skate",
+    "current": [
+      "sk",
+      "ate"
+    ],
+    "suggested": [
+      "skate"
+    ],
+    "reason": "單音節 sk + ate silent-e,建議整塊"
+  },
+  {
+    "word": "glaze",
+    "current": [
+      "gl",
+      "aze"
+    ],
+    "suggested": [
+      "glaze"
+    ],
+    "reason": "單音節 gl + aze silent-e,建議整塊"
+  },
+  {
+    "word": "flame",
+    "current": [
+      "fl",
+      "ame"
+    ],
+    "suggested": [
+      "flame"
+    ],
+    "reason": "單音節 fl + ame silent-e,建議整塊"
+  },
+  {
+    "word": "choose",
+    "current": [
+      "ch",
+      "oose"
+    ],
+    "suggested": [
+      "choose"
+    ],
+    "reason": "單音節 ch digraph + oose vowel team,建議整塊"
+  },
+  {
+    "word": "cheese",
+    "current": [
+      "ch",
+      "eese"
+    ],
+    "suggested": [
+      "cheese"
+    ],
+    "reason": "單音節 ch + eese vowel team + silent-e,建議整塊"
+  },
+  {
+    "word": "smoothie",
+    "current": [
+      "smoo",
+      "thie"
+    ],
+    "suggested": [
+      "smooth",
+      "ie"
+    ],
+    "reason": "音節邊界錯;smooth 為字根 + ie:smooth-ie"
+  },
+  {
+    "word": "shadow",
+    "current": [
+      "sha",
+      "dow"
+    ],
+    "suggested": [
+      "shad",
+      "ow"
+    ],
+    "reason": "短 a + d 同音節:shad-ow"
+  },
+  {
+    "word": "meadow",
+    "current": [
+      "mea",
+      "dow"
+    ],
+    "suggested": [
+      "mead",
+      "ow"
+    ],
+    "reason": "音節邊界錯;mead 為字根:mead-ow"
+  },
+  {
+    "word": "power",
+    "current": [
+      "po",
+      "wer"
+    ],
+    "suggested": [
+      "pow",
+      "er"
+    ],
+    "reason": "音節邊界錯;ow 屬於 pow:pow-er"
+  },
+  {
+    "word": "jealous",
+    "current": [
+      "jea",
+      "lous"
+    ],
+    "suggested": [
+      "jeal",
+      "ous"
+    ],
+    "reason": "音節邊界錯;jeal-ous(/dʒɛl/)"
+  },
+  {
+    "word": "cousin",
+    "current": [
+      "cou",
+      "sin"
+    ],
+    "suggested": [
+      "cous",
+      "in"
+    ],
+    "reason": "音節邊界錯;短 ou + s 同音節:cous-in"
+  },
+  {
+    "word": "vegetarian",
+    "current": [
+      "veg",
+      "e",
+      "tar",
+      "i",
+      "an"
+    ],
+    "suggested": [
+      "veg",
+      "e",
+      "tar",
+      "ian"
+    ],
+    "reason": "-ian 為常見字尾,應整體拆,不應分 i-an"
+  },
+  {
+    "word": "specialty",
+    "current": [
+      "spe",
+      "cial",
+      "ty"
+    ],
+    "suggested": [
+      "spec",
+      "ial",
+      "ty"
+    ],
+    "reason": "spe 開音節會念 /spiː/,實際念 /ˈspeʃ/,應為 spec-ial-ty(closed syllable)"
+  },
+  {
+    "word": "caterer",
+    "current": [
+      "ca",
+      "ter",
+      "er"
+    ],
+    "suggested": [
+      "cat",
+      "er",
+      "er"
+    ],
+    "reason": "ca 開音節念 /keɪ/ 但實念 /ˈkeɪ/ 在 cater 中其實 OK;但與 cater 的 base 一致性問題,且現存類似字多用 cat- 拆法"
+  },
+  {
+    "word": "profit",
+    "current": [
+      "pro",
+      "fit"
+    ],
+    "suggested": [
+      "prof",
+      "it"
+    ],
+    "reason": "pro 開音節會念 /proʊ/,實念 /ˈprɑːf/,應為 prof-it(closed syllable)"
+  },
+  {
+    "word": "lozenge",
+    "current": [
+      "lo",
+      "zenge"
+    ],
+    "suggested": [
+      "loz",
+      "enge"
+    ],
+    "reason": "lo 開音節會念 /loʊ/,實念 /ˈlɑːz/,應為 loz-enge(closed)"
+  },
+  {
+    "word": "pneumonia",
+    "current": [
+      "pneu",
+      "mo",
+      "ni",
+      "a"
+    ],
+    "suggested": [
+      "pneu",
+      "mo",
+      "nia"
+    ],
+    "reason": "-nia 為常見字尾,應整體拆,ni-a 切分不符多音節常規"
+  },
+  {
+    "word": "basically",
+    "current": [
+      "ba",
+      "si",
+      "cal",
+      "ly"
+    ],
+    "suggested": [
+      "bas",
+      "i",
+      "cal",
+      "ly"
+    ],
+    "reason": "應與 base=basic 拆法 (bas-ic) 一致,bas-i-cal-ly"
+  },
+  {
+    "word": "theirs",
+    "current": [
+      "th",
+      "eirs"
+    ],
+    "suggested": [
+      "theirs"
+    ],
+    "reason": "單音節 sight word,eirs 不為標準 rime,不應拆 th+eirs"
+  },
+  {
+    "word": "others",
+    "current": [
+      "o",
+      "thers"
+    ],
+    "suggested": [
+      "oth",
+      "ers"
+    ],
+    "reason": "o 開音節會念 /oʊ/,實念 /ˈʌ/,應為 oth-ers"
+  },
+  {
+    "word": "browser",
+    "current": [
+      "brow",
+      "ser"
+    ],
+    "suggested": [
+      "brows",
+      "er"
+    ],
+    "reason": "應為 brows-er(base+er),browse 為基本字"
+  },
+  {
+    "word": "figure out",
+    "current": [
+      "fi",
+      "gure",
+      "out"
+    ],
+    "suggested": [
+      "fig",
+      "ure",
+      "out"
+    ],
+    "reason": "fi 開音節念 /faɪ/ 但實念 /ˈfɪɡ/,應為 fig-ure(closed)"
+  },
+  {
+    "word": "founder",
+    "current": [
+      "foun",
+      "der"
+    ],
+    "suggested": [
+      "found",
+      "er"
+    ],
+    "reason": "應為 found-er(base+er),found 為基本字"
+  },
+  {
+    "word": "freelancer",
+    "current": [
+      "free",
+      "lan",
+      "cer"
+    ],
+    "suggested": [
+      "free",
+      "lanc",
+      "er"
+    ],
+    "reason": "應為 free-lanc-er(lance+er,closed)"
+  },
+  {
+    "word": "statistician",
+    "current": [
+      "stat",
+      "is",
+      "ti",
+      "cian"
+    ],
+    "suggested": [
+      "sta",
+      "tis",
+      "ti",
+      "cian"
+    ],
+    "reason": "應為 sta-tis-ti-cian,符 statistic 的 V/CV 切音"
+  },
+  {
+    "word": "glasses",
+    "current": [
+      "glas",
+      "ses"
+    ],
+    "suggested": [
+      "glass",
+      "es"
+    ],
+    "reason": "應為 glass-es(base+suffix),不應拆斷 ss"
+  },
+  {
+    "word": "smiley",
+    "current": [
+      "smi",
+      "ley"
+    ],
+    "suggested": [
+      "smile",
+      "y"
+    ],
+    "reason": "應為 smile-y(base+y),smi 為開音節但不符常見字根拆法"
+  },
+  {
+    "word": "miniature",
+    "current": [
+      "min",
+      "ia",
+      "ture"
+    ],
+    "suggested": [
+      "min",
+      "i",
+      "a",
+      "ture"
+    ],
+    "reason": "ia 不為標準 vowel team,應為 min-i-a-ture"
+  },
+  {
+    "word": "pacifier",
+    "current": [
+      "pa",
+      "ci",
+      "fi",
+      "er"
+    ],
+    "suggested": [
+      "pac",
+      "i",
+      "fi",
+      "er"
+    ],
+    "reason": "pa 開音節念 /peɪ/ 但實念 /ˈpæ/,應為 pac-i-fi-er(closed)"
+  },
+  {
+    "word": "stickynote",
+    "current": [
+      "sti",
+      "cky",
+      "note"
+    ],
+    "suggested": [
+      "stick",
+      "y",
+      "note"
+    ],
+    "reason": "應為 stick-y-note(base+y),不應拆 sti-cky"
+  },
+  {
+    "word": "reminder",
+    "current": [
+      "re",
+      "min",
+      "der"
+    ],
+    "suggested": [
+      "re",
+      "mind",
+      "er"
+    ],
+    "reason": "應為 re-mind-er(remind+er),mind 為完整字根"
+  },
+  {
+    "word": "pacemaker",
+    "current": [
+      "pace",
+      "ma",
+      "ker"
+    ],
+    "suggested": [
+      "pace",
+      "mak",
+      "er"
+    ],
+    "reason": "應為 pace-mak-er(maker = make+er,closed syllable 拆法一致)"
+  },
+  {
+    "word": "defibrillator",
+    "current": [
+      "de",
+      "fi",
+      "bril",
+      "la",
+      "tor"
+    ],
+    "suggested": [
+      "de",
+      "fib",
+      "ril",
+      "la",
+      "tor"
+    ],
+    "reason": "fi 開音節念 /faɪ/ 但實念 /ˈfɪ/,應為 de-fib-ril-la-tor(closed)"
+  },
+  {
+    "word": "phishing",
+    "current": [
+      "phi",
+      "shing"
+    ],
+    "suggested": [
+      "phish",
+      "ing"
+    ],
+    "reason": "應為 phish-ing(base+ing),不應拆斷 sh digraph"
+  },
+  {
+    "word": "editorial",
+    "current": [
+      "ed",
+      "i",
+      "to",
+      "rial"
+    ],
+    "suggested": [
+      "ed",
+      "i",
+      "to",
+      "ri",
+      "al"
+    ],
+    "reason": "rial 不為標準單音節,應為 ed-i-to-ri-al"
+  },
+  {
+    "word": "fundraiser",
+    "current": [
+      "fund",
+      "rai",
+      "ser"
+    ],
+    "suggested": [
+      "fund",
+      "rais",
+      "er"
+    ],
+    "reason": "應為 fund-rais-er(raise+er,base 一致性)"
+  },
+  {
+    "word": "oceania",
+    "current": [
+      "o",
+      "ce",
+      "an",
+      "ia"
+    ],
+    "suggested": [
+      "o",
+      "ce",
+      "an",
+      "i",
+      "a"
+    ],
+    "reason": "ia 不為標準 vowel team,應為 o-ce-an-i-a"
+  },
+  {
+    "word": "lawmaker",
+    "current": [
+      "law",
+      "ma",
+      "ker"
+    ],
+    "suggested": [
+      "law",
+      "mak",
+      "er"
+    ],
+    "reason": "應為 law-mak-er(make+er,closed syllable 拆法一致)"
+  },
+  {
+    "word": "finale",
+    "current": [
+      "fi",
+      "nale"
+    ],
+    "suggested": [
+      "fi",
+      "na",
+      "le"
+    ],
+    "reason": "finale 三音節 /fɪˈnæli/,應為 fi-na-le,nale 不為標準單音節"
+  },
+  {
+    "word": "nietzsche",
+    "current": [
+      "niet",
+      "zsche"
+    ],
+    "suggested": [
+      "nietz",
+      "sche"
+    ],
+    "reason": "split breaks the 'tz' digraph; standard syllable boundary is after tz"
+  },
+  {
+    "word": "descartes",
+    "current": [
+      "des",
+      "cartes"
+    ],
+    "suggested": [
+      "des",
+      "car",
+      "tes"
+    ],
+    "reason": "'cartes' is two syllables, not one"
+  },
+  {
+    "word": "locke",
+    "current": [
+      "lock",
+      "e"
+    ],
+    "suggested": [
+      "locke"
+    ],
+    "reason": "silent-e should not be a separate chunk; 'locke' is one syllable"
+  },
+  {
+    "word": "hume",
+    "current": [
+      "h",
+      "ume"
+    ],
+    "suggested": [
+      "hume"
+    ],
+    "reason": "CVCe one-syllable word should not be split into single consonant + 'ume'"
+  },
+  {
+    "word": "kant",
+    "current": [
+      "k",
+      "ant"
+    ],
+    "suggested": [
+      "kant"
+    ],
+    "reason": "CVCC one-syllable word; single 'k' chunk has no vowel"
+  },
+  {
+    "word": "thrice",
+    "current": [
+      "thr",
+      "ice"
+    ],
+    "suggested": [
+      "thrice"
+    ],
+    "reason": "one-syllable CCCVCe word should not be split; 'thr' has no vowel"
+  },
+  {
+    "word": "self",
+    "current": [
+      "s",
+      "elf"
+    ],
+    "suggested": [
+      "self"
+    ],
+    "reason": "single-syllable CVCC; lone 's' chunk has no vowel"
+  },
+  {
+    "word": "id",
+    "current": [
+      "i",
+      "d"
+    ],
+    "suggested": [
+      "id"
+    ],
+    "reason": "two-letter word should not be split into single letters"
+  },
+  {
+    "word": "verse",
+    "current": [
+      "v",
+      "erse"
+    ],
+    "suggested": [
+      "verse"
+    ],
+    "reason": "one-syllable r-controlled word; lone 'v' chunk has no vowel"
+  },
+  {
+    "word": "rhyme",
+    "current": [
+      "rh",
+      "yme"
+    ],
+    "suggested": [
+      "rhyme"
+    ],
+    "reason": "one-syllable word; 'rh' digraph + 'yme' should stay as one chunk"
+  },
+  {
+    "word": "myth",
+    "current": [
+      "m",
+      "yth"
+    ],
+    "suggested": [
+      "myth"
+    ],
+    "reason": "one-syllable CVC; lone 'm' chunk has no vowel"
+  },
+  {
+    "word": "prose",
+    "current": [
+      "pr",
+      "ose"
+    ],
+    "suggested": [
+      "prose"
+    ],
+    "reason": "one-syllable CVCe word should not be split"
+  },
+  {
+    "word": "phrase",
+    "current": [
+      "phr",
+      "ase"
+    ],
+    "suggested": [
+      "phrase"
+    ],
+    "reason": "one-syllable word; 'phr' blend needs vowel attached"
+  },
+  {
+    "word": "claim",
+    "current": [
+      "cl",
+      "aim"
+    ],
+    "suggested": [
+      "claim"
+    ],
+    "reason": "one-syllable vowel-team word should not be split"
+  },
+  {
+    "word": "pun",
+    "current": [
+      "p",
+      "un"
+    ],
+    "suggested": [
+      "pun"
+    ],
+    "reason": "one-syllable CVC; lone 'p' chunk has no vowel"
+  },
+  {
+    "word": "ode",
+    "current": [
+      "o",
+      "de"
+    ],
+    "suggested": [
+      "ode"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "tense",
+    "current": [
+      "t",
+      "ense"
+    ],
+    "suggested": [
+      "tense"
+    ],
+    "reason": "one-syllable word; lone 't' chunk has no vowel"
+  },
+  {
+    "word": "norm",
+    "current": [
+      "n",
+      "orm"
+    ],
+    "suggested": [
+      "norm"
+    ],
+    "reason": "one-syllable r-controlled word; lone 'n' has no vowel"
+  },
+  {
+    "word": "cease",
+    "current": [
+      "c",
+      "ease"
+    ],
+    "suggested": [
+      "cease"
+    ],
+    "reason": "one-syllable vowel-team word; lone 'c' has no vowel"
+  },
+  {
+    "word": "pose",
+    "current": [
+      "p",
+      "ose"
+    ],
+    "suggested": [
+      "pose"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "intermediate",
+    "current": [
+      "in",
+      "ter",
+      "me",
+      "di",
+      "ate"
+    ],
+    "suggested": [
+      "in",
+      "ter",
+      "me",
+      "diate"
+    ],
+    "reason": "'-diate' should stay as one final syllable per dictionary syllabification"
+  },
+  {
+    "word": "bring about",
+    "current": [
+      "bring",
+      "about"
+    ],
+    "suggested": [
+      "bring",
+      "a",
+      "bout"
+    ],
+    "reason": "about is two syllables a-bout, matches phonics break"
+  },
+  {
+    "word": "easy as pie",
+    "current": [
+      "eas",
+      "y",
+      "as",
+      "pie"
+    ],
+    "suggested": [
+      "ea",
+      "sy",
+      "as",
+      "pie"
+    ],
+    "reason": "easy=ea+sy; 'eas' breaks vowel team 'ea'"
+  },
+  {
+    "word": "easy come easy go",
+    "current": [
+      "eas",
+      "y",
+      "come",
+      "eas",
+      "y",
+      "go"
+    ],
+    "suggested": [
+      "ea",
+      "sy",
+      "come",
+      "ea",
+      "sy",
+      "go"
+    ],
+    "reason": "easy=ea+sy; 'eas' breaks vowel team 'ea'"
+  },
+  {
+    "word": "take it easy",
+    "current": [
+      "take",
+      "it",
+      "eas",
+      "y"
+    ],
+    "suggested": [
+      "take",
+      "it",
+      "ea",
+      "sy"
+    ],
+    "reason": "easy=ea+sy"
+  },
+  {
+    "word": "Greece",
+    "current": [
+      "gr",
+      "eece"
+    ],
+    "suggested": [
+      "greece"
+    ],
+    "reason": "one-syllable vowel-team word; 'gr' has no vowel"
+  },
+  {
+    "word": "Wales",
+    "current": [
+      "w",
+      "ales"
+    ],
+    "suggested": [
+      "wales"
+    ],
+    "reason": "one-syllable CVCe-style word; lone 'w' has no vowel"
+  },
+  {
+    "word": "axe",
+    "current": [
+      "a",
+      "xe"
+    ],
+    "suggested": [
+      "axe"
+    ],
+    "reason": "one-syllable word should not be split"
+  },
+  {
+    "word": "hoe",
+    "current": [
+      "h",
+      "oe"
+    ],
+    "suggested": [
+      "hoe"
+    ],
+    "reason": "one-syllable vowel-team word; lone 'h' has no vowel"
+  },
+  {
+    "word": "vise",
+    "current": [
+      "v",
+      "ise"
+    ],
+    "suggested": [
+      "vise"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "steel",
+    "current": [
+      "st",
+      "eel"
+    ],
+    "suggested": [
+      "steel"
+    ],
+    "reason": "one-syllable vowel-team word; better kept whole"
+  },
+  {
+    "word": "foam",
+    "current": [
+      "f",
+      "oam"
+    ],
+    "suggested": [
+      "foam"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "tin",
+    "current": [
+      "t",
+      "in"
+    ],
+    "suggested": [
+      "tin"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "zinc",
+    "current": [
+      "z",
+      "inc"
+    ],
+    "suggested": [
+      "zinc"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "vague",
+    "current": [
+      "v",
+      "ague"
+    ],
+    "suggested": [
+      "vague"
+    ],
+    "reason": "one-syllable word; lone 'v' has no vowel"
+  },
+  {
+    "word": "grim",
+    "current": [
+      "gr",
+      "im"
+    ],
+    "suggested": [
+      "grim"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "dire",
+    "current": [
+      "d",
+      "ire"
+    ],
+    "suggested": [
+      "dire"
+    ],
+    "reason": "one-syllable r-controlled CVCe word"
+  },
+  {
+    "word": "bleak",
+    "current": [
+      "bl",
+      "eak"
+    ],
+    "suggested": [
+      "bleak"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "lush",
+    "current": [
+      "l",
+      "ush"
+    ],
+    "suggested": [
+      "lush"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "sparse",
+    "current": [
+      "sp",
+      "arse"
+    ],
+    "suggested": [
+      "sparse"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "sheer",
+    "current": [
+      "sh",
+      "eer"
+    ],
+    "suggested": [
+      "sheer"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "scant",
+    "current": [
+      "sc",
+      "ant"
+    ],
+    "suggested": [
+      "scant"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "brisk",
+    "current": [
+      "br",
+      "isk"
+    ],
+    "suggested": [
+      "brisk"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "snug",
+    "current": [
+      "sn",
+      "ug"
+    ],
+    "suggested": [
+      "snug"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "fierce",
+    "current": [
+      "fi",
+      "erce"
+    ],
+    "suggested": [
+      "fierce"
+    ],
+    "reason": "one-syllable r-controlled vowel-team word; breaks 'ie' team"
+  },
+  {
+    "word": "harsh",
+    "current": [
+      "h",
+      "arsh"
+    ],
+    "suggested": [
+      "harsh"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "stern",
+    "current": [
+      "st",
+      "ern"
+    ],
+    "suggested": [
+      "stern"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "stark",
+    "current": [
+      "st",
+      "ark"
+    ],
+    "suggested": [
+      "stark"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "crude",
+    "current": [
+      "cr",
+      "ude"
+    ],
+    "suggested": [
+      "crude"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "vast",
+    "current": [
+      "v",
+      "ast"
+    ],
+    "suggested": [
+      "vast"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "grand",
+    "current": [
+      "gr",
+      "and"
+    ],
+    "suggested": [
+      "grand"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "meek",
+    "current": [
+      "m",
+      "eek"
+    ],
+    "suggested": [
+      "meek"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "frail",
+    "current": [
+      "fr",
+      "ail"
+    ],
+    "suggested": [
+      "frail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "keen",
+    "current": [
+      "k",
+      "een"
+    ],
+    "suggested": [
+      "keen"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "crisp",
+    "current": [
+      "cr",
+      "isp"
+    ],
+    "suggested": [
+      "crisp"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "dense",
+    "current": [
+      "d",
+      "ense"
+    ],
+    "suggested": [
+      "dense"
+    ],
+    "reason": "one-syllable word; lone 'd' has no vowel"
+  },
+  {
+    "word": "grasp",
+    "current": [
+      "gr",
+      "asp"
+    ],
+    "suggested": [
+      "grasp"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "surge",
+    "current": [
+      "s",
+      "urge"
+    ],
+    "suggested": [
+      "surge"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "soar",
+    "current": [
+      "s",
+      "oar"
+    ],
+    "suggested": [
+      "soar"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "plunge",
+    "current": [
+      "pl",
+      "unge"
+    ],
+    "suggested": [
+      "plunge"
+    ],
+    "reason": "one-syllable word; blend needs vowel attached"
+  },
+  {
+    "word": "glide",
+    "current": [
+      "gl",
+      "ide"
+    ],
+    "suggested": [
+      "glide"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "shrink",
+    "current": [
+      "shr",
+      "ink"
+    ],
+    "suggested": [
+      "shrink"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "swell",
+    "current": [
+      "sw",
+      "ell"
+    ],
+    "suggested": [
+      "swell"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "bloom",
+    "current": [
+      "bl",
+      "oom"
+    ],
+    "suggested": [
+      "bloom"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "thrive",
+    "current": [
+      "thr",
+      "ive"
+    ],
+    "suggested": [
+      "thrive"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "mock",
+    "current": [
+      "m",
+      "ock"
+    ],
+    "suggested": [
+      "mock"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "scorn",
+    "current": [
+      "sc",
+      "orn"
+    ],
+    "suggested": [
+      "scorn"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "mourn",
+    "current": [
+      "m",
+      "ourn"
+    ],
+    "suggested": [
+      "mourn"
+    ],
+    "reason": "one-syllable vowel-team r-controlled word"
+  },
+  {
+    "word": "grieve",
+    "current": [
+      "gr",
+      "ieve"
+    ],
+    "suggested": [
+      "grieve"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "ache",
+    "current": [
+      "a",
+      "che"
+    ],
+    "suggested": [
+      "ache"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "crave",
+    "current": [
+      "cr",
+      "ave"
+    ],
+    "suggested": [
+      "crave"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "prime",
+    "current": [
+      "pr",
+      "ime"
+    ],
+    "suggested": [
+      "prime"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "scope",
+    "current": [
+      "sc",
+      "ope"
+    ],
+    "suggested": [
+      "scope"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "trace",
+    "current": [
+      "tr",
+      "ace"
+    ],
+    "suggested": [
+      "trace"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "trend",
+    "current": [
+      "tr",
+      "end"
+    ],
+    "suggested": [
+      "trend"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "seek",
+    "current": [
+      "s",
+      "eek"
+    ],
+    "suggested": [
+      "seek"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "site",
+    "current": [
+      "s",
+      "ite"
+    ],
+    "suggested": [
+      "site"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "text",
+    "current": [
+      "t",
+      "ext"
+    ],
+    "suggested": [
+      "text"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "cite",
+    "current": [
+      "c",
+      "ite"
+    ],
+    "suggested": [
+      "cite"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "aid",
+    "current": [
+      "a",
+      "id"
+    ],
+    "suggested": [
+      "aid"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "core",
+    "current": [
+      "c",
+      "ore"
+    ],
+    "suggested": [
+      "core"
+    ],
+    "reason": "one-syllable r-controlled CVCe word"
+  },
+  {
+    "word": "link",
+    "current": [
+      "l",
+      "ink"
+    ],
+    "suggested": [
+      "link"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "globe",
+    "current": [
+      "gl",
+      "obe"
+    ],
+    "suggested": [
+      "globe"
+    ],
+    "reason": "one-syllable CVCe word"
+  },
+  {
+    "word": "bug",
+    "current": [
+      "b",
+      "ug"
+    ],
+    "suggested": [
+      "bug"
+    ],
+    "reason": "one-syllable CVC word; lone 'b' has no vowel"
+  },
+  {
+    "word": "cub",
+    "current": [
+      "c",
+      "ub"
+    ],
+    "suggested": [
+      "cub"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "cab",
+    "current": [
+      "c",
+      "ab"
+    ],
+    "suggested": [
+      "cab"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "call",
+    "current": [
+      "c",
+      "all"
+    ],
+    "suggested": [
+      "call"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "camp",
+    "current": [
+      "c",
+      "amp"
+    ],
+    "suggested": [
+      "camp"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "chick",
+    "current": [
+      "ch",
+      "ick"
+    ],
+    "suggested": [
+      "chick"
+    ],
+    "reason": "one-syllable word; ch-digraph needs vowel attached"
+  },
+  {
+    "word": "chief",
+    "current": [
+      "ch",
+      "ief"
+    ],
+    "suggested": [
+      "chief"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "xmas",
+    "current": [
+      "xm",
+      "as"
+    ],
+    "suggested": [
+      "x",
+      "mas"
+    ],
+    "reason": "'xm' is not a blend; better to split before 'mas'"
+  },
+  {
+    "word": "clear",
+    "current": [
+      "cl",
+      "ear"
+    ],
+    "suggested": [
+      "clear"
+    ],
+    "reason": "one-syllable vowel-team word; blend needs vowel attached"
+  },
+  {
+    "word": "dead",
+    "current": [
+      "d",
+      "ead"
+    ],
+    "suggested": [
+      "dead"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "dear",
+    "current": [
+      "d",
+      "ear"
+    ],
+    "suggested": [
+      "dear"
+    ],
+    "reason": "one-syllable vowel-team r-controlled word"
+  },
+  {
+    "word": "death",
+    "current": [
+      "d",
+      "eath"
+    ],
+    "suggested": [
+      "death"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "dig",
+    "current": [
+      "d",
+      "ig"
+    ],
+    "suggested": [
+      "dig"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "draw",
+    "current": [
+      "dr",
+      "aw"
+    ],
+    "suggested": [
+      "draw"
+    ],
+    "reason": "one-syllable vowel-team word; blend needs vowel attached"
+  },
+  {
+    "word": "duckling",
+    "current": [
+      "duc",
+      "kling"
+    ],
+    "suggested": [
+      "duck",
+      "ling"
+    ],
+    "reason": "'ck' digraph should not be split; 'duck' + 'ling'"
+  },
+  {
+    "word": "feed",
+    "current": [
+      "f",
+      "eed"
+    ],
+    "suggested": [
+      "feed"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "feel",
+    "current": [
+      "f",
+      "eel"
+    ],
+    "suggested": [
+      "feel"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fill",
+    "current": [
+      "f",
+      "ill"
+    ],
+    "suggested": [
+      "fill"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "fun",
+    "current": [
+      "f",
+      "un"
+    ],
+    "suggested": [
+      "fun"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "glad",
+    "current": [
+      "gl",
+      "ad"
+    ],
+    "suggested": [
+      "glad"
+    ],
+    "reason": "one-syllable CVC word; blend needs vowel attached"
+  },
+  {
+    "word": "granddaughter",
+    "current": [
+      "gran",
+      "ddaug",
+      "hter"
+    ],
+    "suggested": [
+      "grand",
+      "daugh",
+      "ter"
+    ],
+    "reason": "splits break morpheme and gh-digraph; should be grand+daugh+ter"
+  },
+  {
+    "word": "grandson",
+    "current": [
+      "gran",
+      "dson"
+    ],
+    "suggested": [
+      "grand",
+      "son"
+    ],
+    "reason": "morpheme boundary is grand+son"
+  },
+  {
+    "word": "grey",
+    "current": [
+      "gr",
+      "ey"
+    ],
+    "suggested": [
+      "grey"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "grow",
+    "current": [
+      "gr",
+      "ow"
+    ],
+    "suggested": [
+      "grow"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "guess",
+    "current": [
+      "g",
+      "uess"
+    ],
+    "suggested": [
+      "guess"
+    ],
+    "reason": "one-syllable word; 'gu' digraph needs to stay with vowel"
+  },
+  {
+    "word": "gun",
+    "current": [
+      "g",
+      "un"
+    ],
+    "suggested": [
+      "gun"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "health",
+    "current": [
+      "h",
+      "ealth"
+    ],
+    "suggested": [
+      "health"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "hole",
+    "current": [
+      "ho",
+      "le"
+    ],
+    "suggested": [
+      "hole"
+    ],
+    "reason": "one-syllable CVCe word; should not split silent-e"
+  },
+  {
+    "word": "inch",
+    "current": [
+      "in",
+      "ch"
+    ],
+    "suggested": [
+      "inch"
+    ],
+    "reason": "one-syllable word; ch-digraph should stay with preceding vowel"
+  },
+  {
+    "word": "job",
+    "current": [
+      "j",
+      "ob"
+    ],
+    "suggested": [
+      "job"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "join",
+    "current": [
+      "j",
+      "oin"
+    ],
+    "suggested": [
+      "join"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "keep",
+    "current": [
+      "k",
+      "eep"
+    ],
+    "suggested": [
+      "keep"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "kill",
+    "current": [
+      "k",
+      "ill"
+    ],
+    "suggested": [
+      "kill"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "king",
+    "current": [
+      "k",
+      "ing"
+    ],
+    "suggested": [
+      "king"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "lack",
+    "current": [
+      "l",
+      "ack"
+    ],
+    "suggested": [
+      "lack"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "land",
+    "current": [
+      "l",
+      "and"
+    ],
+    "suggested": [
+      "land"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "least",
+    "current": [
+      "l",
+      "east"
+    ],
+    "suggested": [
+      "least"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "less",
+    "current": [
+      "l",
+      "ess"
+    ],
+    "suggested": [
+      "less"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "let",
+    "current": [
+      "l",
+      "et"
+    ],
+    "suggested": [
+      "let"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "mail",
+    "current": [
+      "m",
+      "ail"
+    ],
+    "suggested": [
+      "mail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "me",
+    "current": [
+      "m",
+      "e"
+    ],
+    "suggested": [
+      "me"
+    ],
+    "reason": "two-letter sight word should not be split"
+  },
+  {
+    "word": "meet",
+    "current": [
+      "m",
+      "eet"
+    ],
+    "suggested": [
+      "meet"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "my",
+    "current": [
+      "m",
+      "y"
+    ],
+    "suggested": [
+      "my"
+    ],
+    "reason": "two-letter sight word should not be split"
+  },
+  {
+    "word": "no",
+    "current": [
+      "n",
+      "o"
+    ],
+    "suggested": [
+      "no"
+    ],
+    "reason": "two-letter sight word should not be split"
+  },
+  {
+    "word": "nor",
+    "current": [
+      "n",
+      "or"
+    ],
+    "suggested": [
+      "nor"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "not",
+    "current": [
+      "n",
+      "ot"
+    ],
+    "suggested": [
+      "not"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "own",
+    "current": [
+      "ow",
+      "n"
+    ],
+    "suggested": [
+      "own"
+    ],
+    "reason": "split puts single 'n' as separate chunk; word is one syllable"
+  },
+  {
+    "word": "pa",
+    "current": [
+      "p",
+      "a"
+    ],
+    "suggested": [
+      "pa"
+    ],
+    "reason": "two-letter word should not be split"
+  },
+  {
+    "word": "pass",
+    "current": [
+      "p",
+      "ass"
+    ],
+    "suggested": [
+      "pass"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "pool",
+    "current": [
+      "p",
+      "ool"
+    ],
+    "suggested": [
+      "pool"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "queen",
+    "current": [
+      "q",
+      "ueen"
+    ],
+    "suggested": [
+      "queen"
+    ],
+    "reason": "one-syllable word; qu-digraph + vowel team"
+  },
+  {
+    "word": "quick",
+    "current": [
+      "q",
+      "uick"
+    ],
+    "suggested": [
+      "quick"
+    ],
+    "reason": "one-syllable word; qu-digraph should stay with vowel"
+  },
+  {
+    "word": "rat",
+    "current": [
+      "r",
+      "at"
+    ],
+    "suggested": [
+      "rat"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "reach",
+    "current": [
+      "r",
+      "each"
+    ],
+    "suggested": [
+      "reach"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "rest",
+    "current": [
+      "r",
+      "est"
+    ],
+    "suggested": [
+      "rest"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "roll",
+    "current": [
+      "r",
+      "oll"
+    ],
+    "suggested": [
+      "roll"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "room",
+    "current": [
+      "r",
+      "oom"
+    ],
+    "suggested": [
+      "room"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "rub",
+    "current": [
+      "r",
+      "ub"
+    ],
+    "suggested": [
+      "rub"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "sail",
+    "current": [
+      "s",
+      "ail"
+    ],
+    "suggested": [
+      "sail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "seem",
+    "current": [
+      "s",
+      "eem"
+    ],
+    "suggested": [
+      "seem"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "shall",
+    "current": [
+      "sh",
+      "all"
+    ],
+    "suggested": [
+      "shall"
+    ],
+    "reason": "one-syllable word; sh-digraph needs vowel attached"
+  },
+  {
+    "word": "shout",
+    "current": [
+      "sh",
+      "out"
+    ],
+    "suggested": [
+      "shout"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "shut",
+    "current": [
+      "sh",
+      "ut"
+    ],
+    "suggested": [
+      "shut"
+    ],
+    "reason": "one-syllable CVC word; digraph needs vowel"
+  },
+  {
+    "word": "sight",
+    "current": [
+      "s",
+      "ight"
+    ],
+    "suggested": [
+      "sight"
+    ],
+    "reason": "one-syllable word; 'igh' trigraph needs onset attached"
+  },
+  {
+    "word": "skill",
+    "current": [
+      "sk",
+      "ill"
+    ],
+    "suggested": [
+      "skill"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "smell",
+    "current": [
+      "sm",
+      "ell"
+    ],
+    "suggested": [
+      "smell"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "spell",
+    "current": [
+      "sp",
+      "ell"
+    ],
+    "suggested": [
+      "spell"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "sport",
+    "current": [
+      "sp",
+      "ort"
+    ],
+    "suggested": [
+      "sport"
+    ],
+    "reason": "one-syllable r-controlled word"
+  },
+  {
+    "word": "stair",
+    "current": [
+      "st",
+      "air"
+    ],
+    "suggested": [
+      "stair"
+    ],
+    "reason": "one-syllable vowel-team r-controlled word"
+  },
+  {
+    "word": "stay",
+    "current": [
+      "st",
+      "ay"
+    ],
+    "suggested": [
+      "stay"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "such",
+    "current": [
+      "s",
+      "uch"
+    ],
+    "suggested": [
+      "such"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "tail",
+    "current": [
+      "t",
+      "ail"
+    ],
+    "suggested": [
+      "tail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "thank",
+    "current": [
+      "th",
+      "ank"
+    ],
+    "suggested": [
+      "thank"
+    ],
+    "reason": "one-syllable word; th-digraph needs vowel attached"
+  },
+  {
+    "word": "tool",
+    "current": [
+      "t",
+      "ool"
+    ],
+    "suggested": [
+      "tool"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "touch",
+    "current": [
+      "t",
+      "ouch"
+    ],
+    "suggested": [
+      "touch"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "trouble",
+    "current": [
+      "troub",
+      "le"
+    ],
+    "suggested": [
+      "trou",
+      "ble"
+    ],
+    "reason": "standard syllable boundary is trou-ble, not troub-le"
+  },
+  {
+    "word": "till",
+    "current": [
+      "t",
+      "ill"
+    ],
+    "suggested": [
+      "till"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "view",
+    "current": [
+      "v",
+      "iew"
+    ],
+    "suggested": [
+      "view"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "wear",
+    "current": [
+      "w",
+      "ear"
+    ],
+    "suggested": [
+      "wear"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "weigh",
+    "current": [
+      "w",
+      "eigh"
+    ],
+    "suggested": [
+      "weigh"
+    ],
+    "reason": "one-syllable word; 'eigh' team needs onset"
+  },
+  {
+    "word": "weight",
+    "current": [
+      "w",
+      "eight"
+    ],
+    "suggested": [
+      "weight"
+    ],
+    "reason": "one-syllable word; 'eigh' team needs onset"
+  },
+  {
+    "word": "win",
+    "current": [
+      "w",
+      "in"
+    ],
+    "suggested": [
+      "win"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "worse",
+    "current": [
+      "wor",
+      "se"
+    ],
+    "suggested": [
+      "worse"
+    ],
+    "reason": "one-syllable r-controlled word; should not split silent-e"
+  },
+  {
+    "word": "worst",
+    "current": [
+      "w",
+      "orst"
+    ],
+    "suggested": [
+      "worst"
+    ],
+    "reason": "one-syllable r-controlled CVCC word"
+  },
+  {
+    "word": "yes",
+    "current": [
+      "y",
+      "es"
+    ],
+    "suggested": [
+      "yes"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "yeah",
+    "current": [
+      "y",
+      "eah"
+    ],
+    "suggested": [
+      "yeah"
+    ],
+    "reason": "one-syllable word"
+  },
+  {
+    "word": "aim",
+    "current": [
+      "a",
+      "im"
+    ],
+    "suggested": [
+      "aim"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "beep",
+    "current": [
+      "b",
+      "eep"
+    ],
+    "suggested": [
+      "beep"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "beg",
+    "current": [
+      "b",
+      "eg"
+    ],
+    "suggested": [
+      "beg"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "bind",
+    "current": [
+      "b",
+      "ind"
+    ],
+    "suggested": [
+      "bind"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "bet",
+    "current": [
+      "b",
+      "et"
+    ],
+    "suggested": [
+      "bet"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "boil",
+    "current": [
+      "b",
+      "oil"
+    ],
+    "suggested": [
+      "boil"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "bun",
+    "current": [
+      "b",
+      "un"
+    ],
+    "suggested": [
+      "bun"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "burst",
+    "current": [
+      "b",
+      "urst"
+    ],
+    "suggested": [
+      "burst"
+    ],
+    "reason": "one-syllable r-controlled CVCC word"
+  },
+  {
+    "word": "blackboard",
+    "current": [
+      "blac",
+      "kboard"
+    ],
+    "suggested": [
+      "black",
+      "board"
+    ],
+    "reason": "compound word; ck-digraph should not be split"
+  },
+  {
+    "word": "blank",
+    "current": [
+      "bl",
+      "ank"
+    ],
+    "suggested": [
+      "blank"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "blind",
+    "current": [
+      "bl",
+      "ind"
+    ],
+    "suggested": [
+      "blind"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "broad",
+    "current": [
+      "br",
+      "oad"
+    ],
+    "suggested": [
+      "broad"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "cheat",
+    "current": [
+      "ch",
+      "eat"
+    ],
+    "suggested": [
+      "cheat"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "clap",
+    "current": [
+      "cl",
+      "ap"
+    ],
+    "suggested": [
+      "clap"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "claw",
+    "current": [
+      "cl",
+      "aw"
+    ],
+    "suggested": [
+      "claw"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "clown",
+    "current": [
+      "cl",
+      "own"
+    ],
+    "suggested": [
+      "clown"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "coal",
+    "current": [
+      "c",
+      "oal"
+    ],
+    "suggested": [
+      "coal"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "cock",
+    "current": [
+      "c",
+      "ock"
+    ],
+    "suggested": [
+      "cock"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "roach",
+    "current": [
+      "r",
+      "oach"
+    ],
+    "suggested": [
+      "roach"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "cop",
+    "current": [
+      "c",
+      "op"
+    ],
+    "suggested": [
+      "cop"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "doughnut",
+    "current": [
+      "doug",
+      "hnut"
+    ],
+    "suggested": [
+      "dough",
+      "nut"
+    ],
+    "reason": "compound word; 'gh' digraph should not be split"
+  },
+  {
+    "word": "fail",
+    "current": [
+      "f",
+      "ail"
+    ],
+    "suggested": [
+      "fail"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fault",
+    "current": [
+      "f",
+      "ault"
+    ],
+    "suggested": [
+      "fault"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fighter",
+    "current": [
+      "fig",
+      "hter"
+    ],
+    "suggested": [
+      "figh",
+      "ter"
+    ],
+    "reason": "'gh' digraph should not be split; boundary is figh-ter"
+  },
+  {
+    "word": "firm",
+    "current": [
+      "f",
+      "irm"
+    ],
+    "suggested": [
+      "firm"
+    ],
+    "reason": "one-syllable r-controlled CVCC word"
+  },
+  {
+    "word": "fit",
+    "current": [
+      "f",
+      "it"
+    ],
+    "suggested": [
+      "fit"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "flag",
+    "current": [
+      "fl",
+      "ag"
+    ],
+    "suggested": [
+      "flag"
+    ],
+    "reason": "one-syllable CVC word"
+  },
+  {
+    "word": "flash",
+    "current": [
+      "fl",
+      "ash"
+    ],
+    "suggested": [
+      "flash"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "flow",
+    "current": [
+      "fl",
+      "ow"
+    ],
+    "suggested": [
+      "flow"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "fool",
+    "current": [
+      "f",
+      "ool"
+    ],
+    "suggested": [
+      "fool"
+    ],
+    "reason": "one-syllable vowel-team word"
+  },
+  {
+    "word": "frank",
+    "current": [
+      "fr",
+      "ank"
+    ],
+    "suggested": [
+      "frank"
+    ],
+    "reason": "one-syllable CVCC word"
+  },
+  {
+    "word": "overthrow",
+    "current": [
+      "o",
+      "vert",
+      "hrow"
+    ],
+    "suggested": [
+      "o",
+      "ver",
+      "throw"
+    ],
+    "reason": "th 屬 throw 開頭,不可拆 vert+hrow,破壞 th 二合字母"
+  },
+  {
+    "word": "participle",
+    "current": [
+      "par",
+      "ti",
+      "cip",
+      "le"
+    ],
+    "suggested": [
+      "par",
+      "ti",
+      "ci",
+      "ple"
+    ],
+    "reason": "-ple 是常見尾節 (簡音節);cip 後接 le 破壞 ci-ple 結構"
+  },
+  {
+    "word": "peculiar",
+    "current": [
+      "pe",
+      "cu",
+      "liar"
+    ],
+    "suggested": [
+      "pe",
+      "cu",
+      "li",
+      "ar"
+    ],
+    "reason": "liar 三音素混在一起;cu-li-ar 更貼近 /pɪˈkjuː.li.ər/"
+  },
+  {
+    "word": "quilt",
+    "current": [
+      "q",
+      "uilt"
+    ],
+    "suggested": [
+      "qu",
+      "ilt"
+    ],
+    "reason": "qu 為固定字母組合,不可拆 q+uilt"
+  },
+  {
+    "word": "reflect",
+    "current": [
+      "ref",
+      "lect"
+    ],
+    "suggested": [
+      "re",
+      "flect"
+    ],
+    "reason": "re- 是字首;fl 為起首子音串,應在 fl 前切"
+  },
+  {
+    "word": "reflection",
+    "current": [
+      "ref",
+      "lec",
+      "tion"
+    ],
+    "suggested": [
+      "re",
+      "flec",
+      "tion"
+    ],
+    "reason": "re- 字首;fl- 為合法起首,應切 re-flec-tion"
+  },
+  {
+    "word": "refresh",
+    "current": [
+      "ref",
+      "resh"
+    ],
+    "suggested": [
+      "re",
+      "fresh"
+    ],
+    "reason": "re- 字首,fr- 起首子音串"
+  },
+  {
+    "word": "relieve",
+    "current": [
+      "re",
+      "lie",
+      "ve"
+    ],
+    "suggested": [
+      "re",
+      "lieve"
+    ],
+    "reason": "ie+ve 為一音節 /liːv/,不應切 lie+ve"
+  },
+  {
+    "word": "respectful",
+    "current": [
+      "res",
+      "pec",
+      "tful"
+    ],
+    "suggested": [
+      "res",
+      "pect",
+      "ful"
+    ],
+    "reason": "-ful 是常見後綴,不可拆 t+ful"
+  },
+  {
+    "word": "retreat",
+    "current": [
+      "ret",
+      "reat"
+    ],
+    "suggested": [
+      "re",
+      "treat"
+    ],
+    "reason": "re- 字首,tr- 起首子音串"
+  },
+  {
+    "word": "scold",
+    "current": [
+      "sc",
+      "old"
+    ],
+    "suggested": [
+      "scold"
+    ],
+    "reason": "單音節字應為單 chunk;sc+old 中斷起首+押韻"
+  },
+  {
+    "word": "scratch",
+    "current": [
+      "scr",
+      "atch"
+    ],
+    "suggested": [
+      "scratch"
+    ],
+    "reason": "單音節字單 chunk;tch 為三合字母不可分"
+  },
+  {
+    "word": "shrug",
+    "current": [
+      "shr",
+      "ug"
+    ],
+    "suggested": [
+      "shrug"
+    ],
+    "reason": "單音節字應單 chunk;shr 為起首三字母叢"
+  },
+  {
+    "word": "sleigh",
+    "current": [
+      "sl",
+      "eigh"
+    ],
+    "suggested": [
+      "sleigh"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slight",
+    "current": [
+      "sl",
+      "ight"
+    ],
+    "suggested": [
+      "slight"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sneeze",
+    "current": [
+      "snee",
+      "ze"
+    ],
+    "suggested": [
+      "sneeze"
+    ],
+    "reason": "單音節字單 chunk;ze 是 silent-e 結構"
+  },
+  {
+    "word": "sob",
+    "current": [
+      "s",
+      "ob"
+    ],
+    "suggested": [
+      "sob"
+    ],
+    "reason": "CVC 三字母單音節,不需拆"
+  },
+  {
+    "word": "spear",
+    "current": [
+      "sp",
+      "ear"
+    ],
+    "suggested": [
+      "spear"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "split",
+    "current": [
+      "spl",
+      "it"
+    ],
+    "suggested": [
+      "split"
+    ],
+    "reason": "單音節字單 chunk;spl 為起首三字母叢"
+  },
+  {
+    "word": "surf",
+    "current": [
+      "s",
+      "urf"
+    ],
+    "suggested": [
+      "surf"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sway",
+    "current": [
+      "sw",
+      "ay"
+    ],
+    "suggested": [
+      "sway"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "thoughtful",
+    "current": [
+      "though",
+      "tful"
+    ],
+    "suggested": [
+      "thought",
+      "ful"
+    ],
+    "reason": "-ful 後綴完整,不可拆 t+ful"
+  },
+  {
+    "word": "tomb",
+    "current": [
+      "t",
+      "omb"
+    ],
+    "suggested": [
+      "tomb"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "triumph",
+    "current": [
+      "tr",
+      "iumph"
+    ],
+    "suggested": [
+      "tri",
+      "umph"
+    ],
+    "reason": "tri-umph 兩音節 /ˈtraɪ.əmf/,tr+iumph 不合理"
+  },
+  {
+    "word": "witch",
+    "current": [
+      "w",
+      "itch"
+    ],
+    "suggested": [
+      "witch"
+    ],
+    "reason": "單音節字單 chunk;tch 不分"
+  },
+  {
+    "word": "wit",
+    "current": [
+      "w",
+      "it"
+    ],
+    "suggested": [
+      "wit"
+    ],
+    "reason": "CVC 三字母單音節"
+  },
+  {
+    "word": "verb",
+    "current": [
+      "v",
+      "erb"
+    ],
+    "suggested": [
+      "verb"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "acknowledgement",
+    "current": [
+      "ac",
+      "know",
+      "led",
+      "ge",
+      "ment"
+    ],
+    "suggested": [
+      "ack",
+      "now",
+      "ledge",
+      "ment"
+    ],
+    "reason": "know 為 silent-k 整體,不應分隔;-ledge 為整單元"
+  },
+  {
+    "word": "ass",
+    "current": [
+      "as",
+      "s"
+    ],
+    "suggested": [
+      "ass"
+    ],
+    "reason": "單音節字單 chunk;不能在 ss 中切"
+  },
+  {
+    "word": "astonishment",
+    "current": [
+      "as",
+      "to",
+      "nis",
+      "hment"
+    ],
+    "suggested": [
+      "as",
+      "ton",
+      "ish",
+      "ment"
+    ],
+    "reason": "-ish-ment 是常見組合;nis+hment 破壞 sh 二合字母與 -ment 後綴"
+  },
+  {
+    "word": "apt",
+    "current": [
+      "ap",
+      "t"
+    ],
+    "suggested": [
+      "apt"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "backbone",
+    "current": [
+      "bac",
+      "kbo",
+      "ne"
+    ],
+    "suggested": [
+      "back",
+      "bone"
+    ],
+    "reason": "複合字 back+bone,bac+kbo 完全錯誤"
+  },
+  {
+    "word": "ban",
+    "current": [
+      "b",
+      "an"
+    ],
+    "suggested": [
+      "ban"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "bass",
+    "current": [
+      "b",
+      "ass"
+    ],
+    "suggested": [
+      "bass"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "batch",
+    "current": [
+      "b",
+      "atch"
+    ],
+    "suggested": [
+      "batch"
+    ],
+    "reason": "單音節字單 chunk;tch 不分"
+  },
+  {
+    "word": "bog",
+    "current": [
+      "b",
+      "og"
+    ],
+    "suggested": [
+      "bog"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "braid",
+    "current": [
+      "br",
+      "aid"
+    ],
+    "suggested": [
+      "braid"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "breadth",
+    "current": [
+      "br",
+      "eadth"
+    ],
+    "suggested": [
+      "breadth"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "brooch",
+    "current": [
+      "br",
+      "ooch"
+    ],
+    "suggested": [
+      "brooch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "brood",
+    "current": [
+      "br",
+      "ood"
+    ],
+    "suggested": [
+      "brood"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "bleach",
+    "current": [
+      "bl",
+      "each"
+    ],
+    "suggested": [
+      "bleach"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "blond",
+    "current": [
+      "bl",
+      "ond"
+    ],
+    "suggested": [
+      "blond"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "blot",
+    "current": [
+      "bl",
+      "ot"
+    ],
+    "suggested": [
+      "blot"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "blur",
+    "current": [
+      "bl",
+      "ur"
+    ],
+    "suggested": [
+      "blur"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "carefree",
+    "current": [
+      "ca",
+      "ref",
+      "ree"
+    ],
+    "suggested": [
+      "care",
+      "free"
+    ],
+    "reason": "複合字 care+free,ref 切法破壞 care 與 free"
+  },
+  {
+    "word": "carp",
+    "current": [
+      "c",
+      "arp"
+    ],
+    "suggested": [
+      "carp"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "mash",
+    "current": [
+      "m",
+      "ash"
+    ],
+    "suggested": [
+      "mash"
+    ],
+    "reason": "單音節字單 chunk;sh 不分"
+  },
+  {
+    "word": "midst",
+    "current": [
+      "m",
+      "idst"
+    ],
+    "suggested": [
+      "midst"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "moan",
+    "current": [
+      "m",
+      "oan"
+    ],
+    "suggested": [
+      "moan"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "mound",
+    "current": [
+      "m",
+      "ound"
+    ],
+    "suggested": [
+      "mound"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "mount",
+    "current": [
+      "m",
+      "ount"
+    ],
+    "suggested": [
+      "mount"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "nag",
+    "current": [
+      "n",
+      "ag"
+    ],
+    "suggested": [
+      "nag"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "newscast",
+    "current": [
+      "new",
+      "scast"
+    ],
+    "suggested": [
+      "news",
+      "cast"
+    ],
+    "reason": "複合字 news+cast,不可切 new+scast"
+  },
+  {
+    "word": "oar",
+    "current": [
+      "o",
+      "ar"
+    ],
+    "suggested": [
+      "oar"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "peck",
+    "current": [
+      "p",
+      "eck"
+    ],
+    "suggested": [
+      "peck"
+    ],
+    "reason": "單音節字單 chunk;ck 不分"
+  },
+  {
+    "word": "peek",
+    "current": [
+      "p",
+      "eek"
+    ],
+    "suggested": [
+      "peek"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "peg",
+    "current": [
+      "p",
+      "eg"
+    ],
+    "suggested": [
+      "peg"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "perch",
+    "current": [
+      "p",
+      "erch"
+    ],
+    "suggested": [
+      "perch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "pier",
+    "current": [
+      "p",
+      "ier"
+    ],
+    "suggested": [
+      "pier"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "pinch",
+    "current": [
+      "p",
+      "inch"
+    ],
+    "suggested": [
+      "pinch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "piss",
+    "current": [
+      "p",
+      "iss"
+    ],
+    "suggested": [
+      "piss"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "prick",
+    "current": [
+      "pr",
+      "ick"
+    ],
+    "suggested": [
+      "prick"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "prop",
+    "current": [
+      "pr",
+      "op"
+    ],
+    "suggested": [
+      "prop"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "prey",
+    "current": [
+      "pr",
+      "ey"
+    ],
+    "suggested": [
+      "prey"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "preach",
+    "current": [
+      "pr",
+      "each"
+    ],
+    "suggested": [
+      "preach"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "plow",
+    "current": [
+      "pl",
+      "ow"
+    ],
+    "suggested": [
+      "plow"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "pluck",
+    "current": [
+      "pl",
+      "uck"
+    ],
+    "suggested": [
+      "pluck"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "puff",
+    "current": [
+      "p",
+      "uff"
+    ],
+    "suggested": [
+      "puff"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "quack",
+    "current": [
+      "q",
+      "uack"
+    ],
+    "suggested": [
+      "quack"
+    ],
+    "reason": "qu 固定組合不可分"
+  },
+  {
+    "word": "quart",
+    "current": [
+      "q",
+      "uart"
+    ],
+    "suggested": [
+      "quart"
+    ],
+    "reason": "qu 固定組合"
+  },
+  {
+    "word": "rail",
+    "current": [
+      "r",
+      "ail"
+    ],
+    "suggested": [
+      "rail"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "realm",
+    "current": [
+      "r",
+      "ealm"
+    ],
+    "suggested": [
+      "realm"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "reap",
+    "current": [
+      "r",
+      "eap"
+    ],
+    "suggested": [
+      "reap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "rear",
+    "current": [
+      "r",
+      "ear"
+    ],
+    "suggested": [
+      "rear"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "rim",
+    "current": [
+      "r",
+      "im"
+    ],
+    "suggested": [
+      "rim"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "rip",
+    "current": [
+      "r",
+      "ip"
+    ],
+    "suggested": [
+      "rip"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "rod",
+    "current": [
+      "r",
+      "od"
+    ],
+    "suggested": [
+      "rod"
+    ],
+    "reason": "CVC 單音節字"
+  },
+  {
+    "word": "scan",
+    "current": [
+      "sc",
+      "an"
+    ],
+    "suggested": [
+      "scan"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "scent",
+    "current": [
+      "sc",
+      "ent"
+    ],
+    "suggested": [
+      "scent"
+    ],
+    "reason": "單音節字單 chunk;sc 為靜默 c"
+  },
+  {
+    "word": "scrap",
+    "current": [
+      "scr",
+      "ap"
+    ],
+    "suggested": [
+      "scrap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "shred",
+    "current": [
+      "shr",
+      "ed"
+    ],
+    "suggested": [
+      "shred"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "shriek",
+    "current": [
+      "shr",
+      "iek"
+    ],
+    "suggested": [
+      "shriek"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "shrub",
+    "current": [
+      "shr",
+      "ub"
+    ],
+    "suggested": [
+      "shrub"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slap",
+    "current": [
+      "sl",
+      "ap"
+    ],
+    "suggested": [
+      "slap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slay",
+    "current": [
+      "sl",
+      "ay"
+    ],
+    "suggested": [
+      "slay"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slam",
+    "current": [
+      "sl",
+      "am"
+    ],
+    "suggested": [
+      "slam"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "slump",
+    "current": [
+      "sl",
+      "ump"
+    ],
+    "suggested": [
+      "slump"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sly",
+    "current": [
+      "sl",
+      "y"
+    ],
+    "suggested": [
+      "sly"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "smash",
+    "current": [
+      "sm",
+      "ash"
+    ],
+    "suggested": [
+      "smash"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "snarl",
+    "current": [
+      "sn",
+      "arl"
+    ],
+    "suggested": [
+      "snarl"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "snatch",
+    "current": [
+      "sn",
+      "atch"
+    ],
+    "suggested": [
+      "snatch"
+    ],
+    "reason": "單音節字單 chunk;tch 不分"
+  },
+  {
+    "word": "sneak",
+    "current": [
+      "sn",
+      "eak"
+    ],
+    "suggested": [
+      "sneak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sniff",
+    "current": [
+      "sn",
+      "iff"
+    ],
+    "suggested": [
+      "sniff"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "snort",
+    "current": [
+      "sn",
+      "ort"
+    ],
+    "suggested": [
+      "snort"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "soak",
+    "current": [
+      "s",
+      "oak"
+    ],
+    "suggested": [
+      "soak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "sow",
+    "current": [
+      "s",
+      "ow"
+    ],
+    "suggested": [
+      "sow"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stack",
+    "current": [
+      "st",
+      "ack"
+    ],
+    "suggested": [
+      "stack"
+    ],
+    "reason": "單音節字單 chunk;ck 不分"
+  },
+  {
+    "word": "stain",
+    "current": [
+      "st",
+      "ain"
+    ],
+    "suggested": [
+      "stain"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stalk",
+    "current": [
+      "st",
+      "alk"
+    ],
+    "suggested": [
+      "stalk"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "steer",
+    "current": [
+      "st",
+      "eer"
+    ],
+    "suggested": [
+      "steer"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stew",
+    "current": [
+      "st",
+      "ew"
+    ],
+    "suggested": [
+      "stew"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stink",
+    "current": [
+      "st",
+      "ink"
+    ],
+    "suggested": [
+      "stink"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stoop",
+    "current": [
+      "st",
+      "oop"
+    ],
+    "suggested": [
+      "stoop"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "strain",
+    "current": [
+      "str",
+      "ain"
+    ],
+    "suggested": [
+      "strain"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "strand",
+    "current": [
+      "str",
+      "and"
+    ],
+    "suggested": [
+      "strand"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "strap",
+    "current": [
+      "str",
+      "ap"
+    ],
+    "suggested": [
+      "strap"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stray",
+    "current": [
+      "str",
+      "ay"
+    ],
+    "suggested": [
+      "stray"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "streak",
+    "current": [
+      "str",
+      "eak"
+    ],
+    "suggested": [
+      "streak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stroll",
+    "current": [
+      "str",
+      "oll"
+    ],
+    "suggested": [
+      "stroll"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stump",
+    "current": [
+      "st",
+      "ump"
+    ],
+    "suggested": [
+      "stump"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "stun",
+    "current": [
+      "st",
+      "un"
+    ],
+    "suggested": [
+      "stun"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "swarm",
+    "current": [
+      "sw",
+      "arm"
+    ],
+    "suggested": [
+      "swarm"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "telegram",
+    "current": [
+      "te",
+      "leg",
+      "ram"
+    ],
+    "suggested": [
+      "tel",
+      "e",
+      "gram"
+    ],
+    "reason": "複合字根 tele+gram,leg+ram 切錯重音邊界"
+  },
+  {
+    "word": "telegraph",
+    "current": [
+      "te",
+      "leg",
+      "raph"
+    ],
+    "suggested": [
+      "tel",
+      "e",
+      "graph"
+    ],
+    "reason": "複合字根 tele+graph,leg+raph 切錯;graph 為固定詞根"
+  },
+  {
+    "word": "troublesome",
+    "current": [
+      "troub",
+      "le",
+      "so",
+      "me"
+    ],
+    "suggested": [
+      "trou",
+      "ble",
+      "some"
+    ],
+    "reason": "-some 為整尾詞;trou-ble 而非 troub-le"
+  },
+  {
+    "word": "shortsighted",
+    "current": [
+      "shor",
+      "tsig",
+      "hted"
+    ],
+    "suggested": [
+      "short",
+      "sight",
+      "ed"
+    ],
+    "reason": "複合字 short+sight+ed,tsig 切法亂"
+  },
+  {
+    "word": "sportsman",
+    "current": [
+      "sport",
+      "sman"
+    ],
+    "suggested": [
+      "sports",
+      "man"
+    ],
+    "reason": "複合字 sports+man,sman 不合"
+  },
+  {
+    "word": "sportsmanship",
+    "current": [
+      "sport",
+      "sman",
+      "ship"
+    ],
+    "suggested": [
+      "sports",
+      "man",
+      "ship"
+    ],
+    "reason": "複合字 sports+man+ship"
+  },
+  {
+    "word": "saleswoman",
+    "current": [
+      "sa",
+      "les",
+      "wo",
+      "man"
+    ],
+    "suggested": [
+      "sales",
+      "wo",
+      "man"
+    ],
+    "reason": "複合字 sales+woman;sa-les 切法不對"
+  },
+  {
+    "word": "salesperson",
+    "current": [
+      "sa",
+      "les",
+      "per",
+      "son"
+    ],
+    "suggested": [
+      "sales",
+      "per",
+      "son"
+    ],
+    "reason": "複合字 sales+person"
+  },
+  {
+    "word": "strengthen",
+    "current": [
+      "streng",
+      "then"
+    ],
+    "suggested": [
+      "strength",
+      "en"
+    ],
+    "reason": "複合 strength+en 後綴,streng+then 破壞 -ngth 群"
+  },
+  {
+    "word": "nightingale",
+    "current": [
+      "nig",
+      "htin",
+      "ga",
+      "le"
+    ],
+    "suggested": [
+      "night",
+      "in",
+      "gale"
+    ],
+    "reason": "htin 切法亂;night/in/gale 為合理音節"
+  },
+  {
+    "word": "pacific",
+    "current": [
+      "pa",
+      "ci",
+      "fic"
+    ],
+    "suggested": [
+      "pa",
+      "cif",
+      "ic"
+    ],
+    "reason": "音節邊界應為 /pə.ˈsɪf.ɪk/,ci-fic 切錯"
+  },
+  {
+    "word": "poetic",
+    "current": [
+      "poe",
+      "tic"
+    ],
+    "suggested": [
+      "po",
+      "e",
+      "tic"
+    ],
+    "reason": "poe 應分為 po-e (兩音節)"
+  },
+  {
+    "word": "pocketbook",
+    "current": [
+      "poc",
+      "ket",
+      "book"
+    ],
+    "suggested": [
+      "pock",
+      "et",
+      "book"
+    ],
+    "reason": "ck 不分,poc+ket 破壞 ck"
+  },
+  {
+    "word": "slaughter",
+    "current": [
+      "slaug",
+      "hter"
+    ],
+    "suggested": [
+      "slaugh",
+      "ter"
+    ],
+    "reason": "gh 不分,slaug+hter 破壞"
+  },
+  {
+    "word": "straighten",
+    "current": [
+      "straig",
+      "hten"
+    ],
+    "suggested": [
+      "straight",
+      "en"
+    ],
+    "reason": "-ght 不分,straig+hten 破壞;-en 後綴"
+  },
+  {
+    "word": "silkworm",
+    "current": [
+      "sil",
+      "kworm"
+    ],
+    "suggested": [
+      "silk",
+      "worm"
+    ],
+    "reason": "複合字 silk+worm,kworm 不合"
+  },
+  {
+    "word": "spacecraft",
+    "current": [
+      "spa",
+      "cec",
+      "raft"
+    ],
+    "suggested": [
+      "space",
+      "craft"
+    ],
+    "reason": "複合字 space+craft,cec+raft 切法錯"
+  },
+  {
+    "word": "sprint",
+    "current": [
+      "spr",
+      "int"
+    ],
+    "suggested": [
+      "sprint"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "spur",
+    "current": [
+      "sp",
+      "ur"
+    ],
+    "suggested": [
+      "spur"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "resentment",
+    "current": [
+      "re",
+      "sen",
+      "tment"
+    ],
+    "suggested": [
+      "re",
+      "sent",
+      "ment"
+    ],
+    "reason": "-ment 為後綴,tment 不合"
+  },
+  {
+    "word": "installment",
+    "current": [
+      "in",
+      "stal",
+      "lment"
+    ],
+    "suggested": [
+      "in",
+      "stall",
+      "ment"
+    ],
+    "reason": "-ment 後綴,lment 不合"
+  },
+  {
+    "word": "enrichment",
+    "current": [
+      "en",
+      "ric",
+      "hment"
+    ],
+    "suggested": [
+      "en",
+      "rich",
+      "ment"
+    ],
+    "reason": "ch 不分,ric+hment 破壞"
+  },
+  {
+    "word": "enactment",
+    "current": [
+      "e",
+      "nac",
+      "tment"
+    ],
+    "suggested": [
+      "en",
+      "act",
+      "ment"
+    ],
+    "reason": "en- 字首,act 字根,-ment 後綴"
+  },
+  {
+    "word": "mouthpiece",
+    "current": [
+      "mout",
+      "hpie",
+      "ce"
+    ],
+    "suggested": [
+      "mouth",
+      "piece"
+    ],
+    "reason": "th 不分;mouth+piece 複合字"
+  },
+  {
+    "word": "mournful",
+    "current": [
+      "mour",
+      "nful"
+    ],
+    "suggested": [
+      "mourn",
+      "ful"
+    ],
+    "reason": "-ful 後綴,nful 不合"
+  },
+  {
+    "word": "doom",
+    "current": [
+      "d",
+      "oom"
+    ],
+    "suggested": [
+      "doom"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "dual",
+    "current": [
+      "d",
+      "ual"
+    ],
+    "suggested": [
+      "dual"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "diagram",
+    "current": [
+      "diag",
+      "ram"
+    ],
+    "suggested": [
+      "di",
+      "a",
+      "gram"
+    ],
+    "reason": "di-a-gram 三音節更合理,diag 不自然"
+  },
+  {
+    "word": "ebb",
+    "current": [
+      "eb",
+      "b"
+    ],
+    "suggested": [
+      "ebb"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "enlighten",
+    "current": [
+      "en",
+      "lig",
+      "hten"
+    ],
+    "suggested": [
+      "en",
+      "light",
+      "en"
+    ],
+    "reason": "-ght 群不分,lig+hten 破壞"
+  },
+  {
+    "word": "exert",
+    "current": [
+      "e",
+      "xert"
+    ],
+    "suggested": [
+      "ex",
+      "ert"
+    ],
+    "reason": "ex- 字首,xert 不合"
+  },
+  {
+    "word": "execution",
+    "current": [
+      "e",
+      "xe",
+      "cu",
+      "tion"
+    ],
+    "suggested": [
+      "ex",
+      "e",
+      "cu",
+      "tion"
+    ],
+    "reason": "ex- 字首應為 ex-e 而非 e-xe"
+  },
+  {
+    "word": "exotic",
+    "current": [
+      "e",
+      "xo",
+      "tic"
+    ],
+    "suggested": [
+      "ex",
+      "o",
+      "tic"
+    ],
+    "reason": "ex- 字首,xo 不合"
+  },
+  {
+    "word": "fireproof",
+    "current": [
+      "fi",
+      "rep",
+      "roof"
+    ],
+    "suggested": [
+      "fire",
+      "proof"
+    ],
+    "reason": "複合字 fire+proof,rep+roof 完全錯"
+  },
+  {
+    "word": "fleet",
+    "current": [
+      "fl",
+      "eet"
+    ],
+    "suggested": [
+      "fleet"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "fluid",
+    "current": [
+      "fl",
+      "uid"
+    ],
+    "suggested": [
+      "flu",
+      "id"
+    ],
+    "reason": "兩音節 /ˈfluː.ɪd/,fl+uid 不合"
+  },
+  {
+    "word": "foresee",
+    "current": [
+      "fo",
+      "re",
+      "see"
+    ],
+    "suggested": [
+      "fore",
+      "see"
+    ],
+    "reason": "fore- 字首,fo+re 切錯"
+  },
+  {
+    "word": "freak",
+    "current": [
+      "fr",
+      "eak"
+    ],
+    "suggested": [
+      "freak"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "fret",
+    "current": [
+      "fr",
+      "et"
+    ],
+    "suggested": [
+      "fret"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "grill",
+    "current": [
+      "gr",
+      "ill"
+    ],
+    "suggested": [
+      "grill"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "hunch",
+    "current": [
+      "h",
+      "unch"
+    ],
+    "suggested": [
+      "hunch"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "glassware",
+    "current": [
+      "glas",
+      "swa",
+      "re"
+    ],
+    "suggested": [
+      "glass",
+      "ware"
+    ],
+    "reason": "複合字 glass+ware,swa 切錯"
+  },
+  {
+    "word": "graphic",
+    "current": [
+      "grap",
+      "hic"
+    ],
+    "suggested": [
+      "graph",
+      "ic"
+    ],
+    "reason": "ph 不分,grap+hic 破壞 ph 二合字母"
+  },
+  {
+    "word": "joyous",
+    "current": [
+      "j",
+      "oyous"
+    ],
+    "suggested": [
+      "joy",
+      "ous"
+    ],
+    "reason": "j 單字母不合,joy 為字根+ous 後綴"
+  },
+  {
+    "word": "liable",
+    "current": [
+      "liab",
+      "le"
+    ],
+    "suggested": [
+      "li",
+      "a",
+      "ble"
+    ],
+    "reason": "-ble 為尾節,liab 不合"
+  },
+  {
+    "word": "viable",
+    "current": [
+      "viab",
+      "le"
+    ],
+    "suggested": [
+      "vi",
+      "a",
+      "ble"
+    ],
+    "reason": "-ble 為尾節"
+  },
+  {
+    "word": "vend",
+    "current": [
+      "v",
+      "end"
+    ],
+    "suggested": [
+      "vend"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "verge",
+    "current": [
+      "ver",
+      "ge"
+    ],
+    "suggested": [
+      "verge"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "vogue",
+    "current": [
+      "vo",
+      "gue"
+    ],
+    "suggested": [
+      "vogue"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "vineyard",
+    "current": [
+      "vi",
+      "neyard"
+    ],
+    "suggested": [
+      "vine",
+      "yard"
+    ],
+    "reason": "複合字 vine+yard,vi+neyard 完全錯"
+  },
+  {
+    "word": "woo",
+    "current": [
+      "w",
+      "oo"
+    ],
+    "suggested": [
+      "woo"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "yearn",
+    "current": [
+      "y",
+      "earn"
+    ],
+    "suggested": [
+      "yearn"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "zeal",
+    "current": [
+      "z",
+      "eal"
+    ],
+    "suggested": [
+      "zeal"
+    ],
+    "reason": "單音節字單 chunk"
+  },
+  {
+    "word": "kindness",
+    "current": [
+      "kin",
+      "dness"
+    ],
+    "suggested": [
+      "kind",
+      "ness"
+    ],
+    "reason": "-ness 後綴,dness 不合"
+  },
+  {
+    "word": "darkness",
+    "current": [
+      "dar",
+      "kness"
+    ],
+    "suggested": [
+      "dark",
+      "ness"
+    ],
+    "reason": "-ness 後綴,kness 不合"
+  },
+  {
+    "word": "softness",
+    "current": [
+      "sof",
+      "tness"
+    ],
+    "suggested": [
+      "soft",
+      "ness"
+    ],
+    "reason": "-ness 後綴,tness 不合"
+  },
+  {
+    "word": "coldness",
+    "current": [
+      "col",
+      "dness"
+    ],
+    "suggested": [
+      "cold",
+      "ness"
+    ],
+    "reason": "-ness 後綴,dness 不合"
+  },
+  {
+    "word": "thickness",
+    "current": [
+      "thic",
+      "kness"
+    ],
+    "suggested": [
+      "thick",
+      "ness"
+    ],
+    "reason": "-ness 後綴;ck 不分"
+  },
+  {
+    "word": "quickness",
+    "current": [
+      "quic",
+      "kness"
+    ],
+    "suggested": [
+      "quick",
+      "ness"
+    ],
+    "reason": "-ness 後綴;ck 不分"
+  },
+  {
+    "word": "selfishness",
+    "current": [
+      "sel",
+      "fis",
+      "hness"
+    ],
+    "suggested": [
+      "self",
+      "ish",
+      "ness"
+    ],
+    "reason": "-ness 後綴;sh 不分;self+ish+ness"
+  },
+  {
+    "word": "toughness",
+    "current": [
+      "toug",
+      "hness"
+    ],
+    "suggested": [
+      "tough",
+      "ness"
+    ],
+    "reason": "-ness 後綴;gh 不分"
+  },
+  {
+    "word": "boldness",
+    "current": [
+      "bol",
+      "dness"
+    ],
+    "suggested": [
+      "bold",
+      "ness"
+    ],
+    "reason": "-ness 後綴"
+  },
+  {
+    "word": "compartment",
+    "current": [
+      "com",
+      "par",
+      "tment"
+    ],
+    "suggested": [
+      "com",
+      "part",
+      "ment"
+    ],
+    "reason": "-ment 後綴,tment 不合"
+  },
+  {
+    "word": "judgement",
+    "current": [
+      "jud",
+      "ge",
+      "ment"
+    ],
+    "suggested": [
+      "judge",
+      "ment"
+    ],
+    "reason": "-ment 後綴;judge 整體"
+  },
+  {
+    "word": "placement",
+    "current": [
+      "pla",
+      "ce",
+      "ment"
+    ],
+    "suggested": [
+      "place",
+      "ment"
+    ],
+    "reason": "-ment 後綴;place 整體"
+  },
+  {
+    "word": "movement",
+    "current": [
+      "mo",
+      "ve",
+      "ment"
+    ],
+    "suggested": [
+      "move",
+      "ment"
+    ],
+    "reason": "-ment 後綴;move 整體"
+  },
+  {
+    "word": "improvement",
+    "current": [
+      "im",
+      "pro",
+      "ve",
+      "ment"
+    ],
+    "suggested": [
+      "im",
+      "prove",
+      "ment"
+    ],
+    "reason": "-ment 後綴;prove 整體"
+  },
+  {
+    "word": "excitement",
+    "current": [
+      "ex",
+      "ci",
+      "te",
+      "ment"
+    ],
+    "suggested": [
+      "ex",
+      "cite",
+      "ment"
+    ],
+    "reason": "-ment 後綴;cite 整體"
+  },
+  {
+    "word": "requirement",
+    "current": [
+      "re",
+      "qui",
+      "re",
+      "ment"
+    ],
+    "suggested": [
+      "re",
+      "quire",
+      "ment"
+    ],
+    "reason": "-ment 後綴;quire 整體"
+  },
+  {
+    "word": "punctuation",
+    "current": [
+      "pun",
+      "ctua",
+      "tion"
+    ],
+    "suggested": [
+      "punc",
+      "tu",
+      "a",
+      "tion"
+    ],
+    "reason": "ctua 拆法亂;-tion 應分明"
+  },
+  {
+    "word": "downturn",
+    "current": [
+      "dow",
+      "nturn"
+    ],
+    "suggested": [
+      "down",
+      "turn"
+    ],
+    "reason": "複合字 down+turn"
+  },
+  {
+    "word": "stockholder",
+    "current": [
+      "stoc",
+      "khol",
+      "der"
+    ],
+    "suggested": [
+      "stock",
+      "hold",
+      "er"
+    ],
+    "reason": "複合字 stock+hold+er;ck 不分"
+  },
+  {
+    "word": "takeover",
+    "current": [
+      "ta",
+      "keo",
+      "ver"
+    ],
+    "suggested": [
+      "take",
+      "over"
+    ],
+    "reason": "複合字 take+over;keo 不合"
+  },
+  {
+    "word": "turnover",
+    "current": [
+      "tur",
+      "no",
+      "ver"
+    ],
+    "suggested": [
+      "turn",
+      "over"
+    ],
+    "reason": "複合字 turn+over"
+  },
+  {
+    "word": "toothache",
+    "current": [
+      "toot",
+      "hac",
+      "he"
+    ],
+    "suggested": [
+      "tooth",
+      "ache"
+    ],
+    "reason": "複合字 tooth+ache;th 不分"
+  },
+  {
+    "word": "mindful",
+    "current": [
+      "min",
+      "dful"
+    ],
+    "suggested": [
+      "mind",
+      "ful"
+    ],
+    "reason": "-ful 後綴,dful 不合"
+  },
+  {
+    "word": "watchful",
+    "current": [
+      "watc",
+      "hful"
+    ],
+    "suggested": [
+      "watch",
+      "ful"
+    ],
+    "reason": "-ful 後綴;ch 不分"
+  },
+  {
+    "word": "wishful",
+    "current": [
+      "wis",
+      "hful"
+    ],
+    "suggested": [
+      "wish",
+      "ful"
+    ],
+    "reason": "-ful 後綴;sh 不分"
+  },
+  {
+    "word": "wrongful",
+    "current": [
+      "wron",
+      "gful"
+    ],
+    "suggested": [
+      "wrong",
+      "ful"
+    ],
+    "reason": "-ful 後綴;ng 不分"
+  },
+  {
+    "word": "boundless",
+    "current": [
+      "boun",
+      "dless"
+    ],
+    "suggested": [
+      "bound",
+      "less"
+    ],
+    "reason": "-less 後綴,dless 不合"
+  },
+  {
+    "word": "breathless",
+    "current": [
+      "breat",
+      "hless"
+    ],
+    "suggested": [
+      "breath",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "childless",
+    "current": [
+      "chil",
+      "dless"
+    ],
+    "suggested": [
+      "child",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "countless",
+    "current": [
+      "coun",
+      "tless"
+    ],
+    "suggested": [
+      "count",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "endless",
+    "current": [
+      "en",
+      "dless"
+    ],
+    "suggested": [
+      "end",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "formless",
+    "current": [
+      "for",
+      "mless"
+    ],
+    "suggested": [
+      "form",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "friendless",
+    "current": [
+      "frien",
+      "dless"
+    ],
+    "suggested": [
+      "friend",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "groundless",
+    "current": [
+      "groun",
+      "dless"
+    ],
+    "suggested": [
+      "ground",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "harmless",
+    "current": [
+      "har",
+      "mless"
+    ],
+    "suggested": [
+      "harm",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "helpless",
+    "current": [
+      "hel",
+      "pless"
+    ],
+    "suggested": [
+      "help",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "meaningless",
+    "current": [
+      "mea",
+      "nin",
+      "gless"
+    ],
+    "suggested": [
+      "mean",
+      "ing",
+      "less"
+    ],
+    "reason": "-less 後綴;-ing 後綴;mean+ing+less"
+  },
+  {
+    "word": "pointless",
+    "current": [
+      "poin",
+      "tless"
+    ],
+    "suggested": [
+      "point",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "restless",
+    "current": [
+      "res",
+      "tless"
+    ],
+    "suggested": [
+      "rest",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "ruthless",
+    "current": [
+      "rut",
+      "hless"
+    ],
+    "suggested": [
+      "ruth",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "speechless",
+    "current": [
+      "speec",
+      "hless"
+    ],
+    "suggested": [
+      "speech",
+      "less"
+    ],
+    "reason": "-less 後綴;ch 不分"
+  },
+  {
+    "word": "soundless",
+    "current": [
+      "soun",
+      "dless"
+    ],
+    "suggested": [
+      "sound",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "thankless",
+    "current": [
+      "than",
+      "kless"
+    ],
+    "suggested": [
+      "thank",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "toothless",
+    "current": [
+      "toot",
+      "hless"
+    ],
+    "suggested": [
+      "tooth",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "weightless",
+    "current": [
+      "weigh",
+      "tless"
+    ],
+    "suggested": [
+      "weight",
+      "less"
+    ],
+    "reason": "-less 後綴;-ght 群不分"
+  },
+  {
+    "word": "wordless",
+    "current": [
+      "wor",
+      "dless"
+    ],
+    "suggested": [
+      "word",
+      "less"
+    ],
+    "reason": "-less 後綴"
+  },
+  {
+    "word": "worthless",
+    "current": [
+      "wort",
+      "hless"
+    ],
+    "suggested": [
+      "worth",
+      "less"
+    ],
+    "reason": "-less 後綴;th 不分"
+  },
+  {
+    "word": "forsake",
+    "current": [
+      "for",
+      "sa",
+      "ke"
+    ],
+    "suggested": [
+      "for",
+      "sake"
+    ],
+    "reason": "sake 為整單元 (silent-e),sa+ke 不合"
+  },
+  {
+    "word": "absorbing",
+    "current": [
+      "ab",
+      "sor",
+      "bing"
+    ],
+    "suggested": [
+      "ab",
+      "sorb",
+      "ing"
+    ],
+    "reason": "-ing 後綴;sorb 為字根"
+  },
+  {
+    "word": "appealing",
+    "current": [
+      "ap",
+      "pea",
+      "ling"
+    ],
+    "suggested": [
+      "ap",
+      "peal",
+      "ing"
+    ],
+    "reason": "-ing 後綴;peal 為字根"
+  },
+  {
+    "word": "admiring",
+    "current": [
+      "ad",
+      "mi",
+      "ring"
+    ],
+    "suggested": [
+      "ad",
+      "mir",
+      "ing"
+    ],
+    "reason": "-ing 後綴;mir 字根"
+  },
+  {
+    "word": "astonishing",
+    "current": [
+      "as",
+      "to",
+      "nis",
+      "hing"
+    ],
+    "suggested": [
+      "as",
+      "ton",
+      "ish",
+      "ing"
+    ],
+    "reason": "-ing 後綴;sh 不分;ish 為常見尾"
+  },
+  {
+    "word": "hideous",
+    "current": [
+      "hi",
+      "deous"
+    ],
+    "suggested": [
+      "hid",
+      "e",
+      "ous"
+    ],
+    "reason": "-ous 後綴;deous 不合理"
+  },
+  {
+    "word": "whatsoever",
+    "current": [
+      "what",
+      "soe",
+      "ver"
+    ],
+    "suggested": [
+      "what",
+      "so",
+      "ev",
+      "er"
+    ],
+    "reason": "soe 切法不自然"
+  },
+  {
+    "word": "alleviate",
+    "current": [
+      "al",
+      "le",
+      "via",
+      "te"
+    ],
+    "suggested": [
+      "al",
+      "le",
+      "vi",
+      "ate"
+    ],
+    "reason": "-ate 為尾,vi+ate 較合理"
+  },
+  {
+    "word": "appease",
+    "current": [
+      "ap",
+      "pea",
+      "se"
+    ],
+    "suggested": [
+      "ap",
+      "pease"
+    ],
+    "reason": "pease /piːz/ 為單音節,pea+se 不合"
+  },
+  {
+    "word": "beam",
+    "current": [
+      "be",
+      "am"
+    ],
+    "suggested": [
+      "beam"
+    ],
+    "reason": "單音節字單 chunk,be+am 完全錯"
+  },
+  {
+    "word": "berate",
+    "current": [
+      "be",
+      "ra",
+      "te"
+    ],
+    "suggested": [
+      "be",
+      "rate"
+    ],
+    "reason": "rate 為整單元 (silent-e)"
+  },
+  {
+    "word": "bestow",
+    "current": [
+      "bes",
+      "tow"
+    ],
+    "suggested": [
+      "be",
+      "stow"
+    ],
+    "reason": "be- 字首"
+  },
+  {
+    "word": "chastise",
+    "current": [
+      "chas",
+      "ti",
+      "se"
+    ],
+    "suggested": [
+      "chas",
+      "tise"
+    ],
+    "reason": "-tise /taɪz/ 為整體"
+  },
+  {
+    "word": "coerce",
+    "current": [
+      "coer",
+      "ce"
+    ],
+    "suggested": [
+      "co",
+      "erce"
+    ],
+    "reason": "co- 字首,coer 切錯"
+  },
+  {
+    "word": "construe",
+    "current": [
+      "cons",
+      "true"
+    ],
+    "suggested": [
+      "con",
+      "strue"
+    ],
+    "reason": "con- 字首,cons+true 不合"
+  },
+  {
+    "word": "declaim",
+    "current": [
+      "dec",
+      "laim"
+    ],
+    "suggested": [
+      "de",
+      "claim"
+    ],
+    "reason": "de- 字首,cl- 起首子音串"
+  },
+  {
+    "word": "deplete",
+    "current": [
+      "dep",
+      "le",
+      "te"
+    ],
+    "suggested": [
+      "de",
+      "plete"
+    ],
+    "reason": "de- 字首,plete 為整單元"
+  },
+  {
+    "word": "deplore",
+    "current": [
+      "dep",
+      "lo",
+      "re"
+    ],
+    "suggested": [
+      "de",
+      "plore"
+    ],
+    "reason": "de- 字首,plore 整單元"
+  },
+  {
+    "word": "digress",
+    "current": [
+      "dig",
+      "ress"
+    ],
+    "suggested": [
+      "di",
+      "gress"
+    ],
+    "reason": "di- 字首,gr- 起首子音串"
+  },
+  {
+    "word": "divulge",
+    "current": [
+      "di",
+      "vul",
+      "ge"
+    ],
+    "suggested": [
+      "di",
+      "vulge"
+    ],
+    "reason": "vulge 為整單元"
+  }
+]

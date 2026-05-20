@@ -1,0 +1,6043 @@
+[
+  {
+    "word": "tray",
+    "mean": "托盤",
+    "current": "🥡",
+    "suggested": "🍽️",
+    "reason": "🥡 是外帶餐盒,不是托盤"
+  },
+  {
+    "word": "oven",
+    "mean": "烤箱",
+    "current": "♨️",
+    "suggested": "🔥",
+    "reason": "♨️ 是溫泉符號,跟烤箱無關"
+  },
+  {
+    "word": "comb",
+    "mean": "梳子",
+    "current": "💆",
+    "suggested": "🪮",
+    "reason": "💆 是按摩,不是梳子"
+  },
+  {
+    "word": "jam",
+    "mean": "果醬",
+    "current": "🍞",
+    "suggested": "🍓",
+    "reason": "🍞 是麵包,不是果醬本身"
+  },
+  {
+    "word": "papaya",
+    "mean": "木瓜",
+    "current": "🟠",
+    "suggested": "🥭",
+    "reason": "用了預設橘色圓圈,沒對到木瓜"
+  },
+  {
+    "word": "lime",
+    "mean": "萊姆",
+    "current": "🟢",
+    "suggested": "🍋‍🟩",
+    "reason": "用綠色圓圈太抽象,沒對到萊姆"
+  },
+  {
+    "word": "dozen",
+    "mean": "一打",
+    "current": "🥚",
+    "suggested": "1️⃣2️⃣",
+    "reason": "單一蛋無法表達「一打=12」"
+  },
+  {
+    "word": "flour",
+    "mean": "麵粉",
+    "current": "🌾",
+    "suggested": "🥐",
+    "reason": "🌾 是小麥植物,不是麵粉"
+  },
+  {
+    "word": "say",
+    "mean": "說",
+    "current": "💭",
+    "suggested": "💬",
+    "reason": "💭 是想法泡泡,說話應該是 💬"
+  },
+  {
+    "word": "front",
+    "mean": "前",
+    "current": "👆",
+    "suggested": "⏩",
+    "reason": "👆 是手指向上,跟「前」無關"
+  },
+  {
+    "word": "seahorse",
+    "mean": "海馬",
+    "current": "🐴",
+    "suggested": "🌊🐴",
+    "reason": "🐴 是陸地馬,不是海馬"
+  },
+  {
+    "word": "donkey",
+    "mean": "驢",
+    "current": "🐴",
+    "suggested": "🫏",
+    "reason": "用了馬的 emoji 而非驢"
+  },
+  {
+    "word": "possum",
+    "mean": "負鼠",
+    "current": "🐀",
+    "suggested": "🦝",
+    "reason": "🐀 是老鼠,不是負鼠"
+  },
+  {
+    "word": "mole",
+    "mean": "鼴鼠",
+    "current": "🦫",
+    "suggested": "🐀",
+    "reason": "🦫 是海狸,被 beaver 用過,跟鼴鼠不符"
+  },
+  {
+    "word": "eel",
+    "mean": "鰻",
+    "current": "🐍",
+    "suggested": "🐟",
+    "reason": "🐍 是蛇,不是鰻魚"
+  },
+  {
+    "word": "moth",
+    "mean": "飛蛾",
+    "current": "🐛",
+    "suggested": "🦋",
+    "reason": "🐛 是毛毛蟲,不是飛蛾"
+  },
+  {
+    "word": "wasp",
+    "mean": "黃蜂",
+    "current": "🐝",
+    "suggested": "🐝",
+    "reason": "🐝 是蜜蜂,跟黃蜂混用"
+  },
+  {
+    "word": "swamp",
+    "mean": "沼澤",
+    "current": "🐊",
+    "suggested": "🌿",
+    "reason": "🐊 是鱷魚,不是沼澤本身"
+  },
+  {
+    "word": "apron",
+    "mean": "圍裙",
+    "current": "🥻",
+    "suggested": "👩‍🍳",
+    "reason": "🥻 是紗麗,不是圍裙"
+  },
+  {
+    "word": "robe",
+    "mean": "浴袍",
+    "current": "🥋",
+    "suggested": "🛁",
+    "reason": "🥋 是武術道服,不是浴袍"
+  },
+  {
+    "word": "cardigan",
+    "mean": "開襟毛衣",
+    "current": "🧶",
+    "suggested": "🧥",
+    "reason": "🧶 是毛線球,不是毛衣本體"
+  },
+  {
+    "word": "lace",
+    "mean": "蕾絲",
+    "current": "🪡",
+    "suggested": "👰",
+    "reason": "🪡 是針,跟蕾絲布料不符"
+  },
+  {
+    "word": "silk",
+    "mean": "絲",
+    "current": "🪡",
+    "suggested": "🎀",
+    "reason": "🪡 是針,跟絲料無關"
+  },
+  {
+    "word": "fabric",
+    "mean": "布料",
+    "current": "🧵",
+    "suggested": "🧺",
+    "reason": "🧵 是線軸,不是布料"
+  },
+  {
+    "word": "cotton",
+    "mean": "棉",
+    "current": "☁️",
+    "suggested": "🌱",
+    "reason": "用雲表棉太抽象"
+  },
+  {
+    "word": "chalk",
+    "mean": "粉筆",
+    "current": "📝",
+    "suggested": "✏️",
+    "reason": "📝 是備忘錄,跟粉筆無關"
+  },
+  {
+    "word": "tights",
+    "mean": "褲襪",
+    "current": "🧦",
+    "suggested": "🩱",
+    "reason": "🧦 是襪子,跟 socks 重複"
+  },
+  {
+    "word": "jelly",
+    "mean": "果凍",
+    "current": "🍮",
+    "suggested": "🍡",
+    "reason": "🍮 是布丁,跟 pudding 重複"
+  },
+  {
+    "word": "marshmallow",
+    "mean": "棉花糖",
+    "current": "🍡",
+    "suggested": "🍬",
+    "reason": "🍡 是糰子(dango),不是棉花糖"
+  },
+  {
+    "word": "pajamas",
+    "mean": "睡衣",
+    "current": "🛌",
+    "suggested": "👕",
+    "reason": "🛌 是「人在床上」,不是睡衣本體"
+  },
+  {
+    "word": "chimney",
+    "mean": "煙囪",
+    "current": "🏭",
+    "suggested": "💨",
+    "reason": "🏭 是工廠,不是煙囪本身"
+  },
+  {
+    "word": "closet",
+    "mean": "衣櫥",
+    "current": "🚪",
+    "suggested": "🧥",
+    "reason": "🚪 是門,沒對到衣櫥"
+  },
+  {
+    "word": "wardrobe",
+    "mean": "衣櫃",
+    "current": "🚪",
+    "suggested": "🧥",
+    "reason": "🚪 是門,沒對到衣櫃"
+  },
+  {
+    "word": "hallway",
+    "mean": "走廊",
+    "current": "🚪",
+    "suggested": "➡️",
+    "reason": "🚪 是門,跟走廊不符"
+  },
+  {
+    "word": "doormat",
+    "mean": "門墊",
+    "current": "🚪",
+    "suggested": "🟫",
+    "reason": "🚪 是門,沒對到門墊"
+  },
+  {
+    "word": "dustpan",
+    "mean": "畚箕",
+    "current": "🧹",
+    "suggested": "🗑️",
+    "reason": "🧹 是掃帚,跟 broom 重複"
+  },
+  {
+    "word": "mop",
+    "mean": "拖把",
+    "current": "🧽",
+    "suggested": "🧹",
+    "reason": "🧽 是海綿,跟拖把不符"
+  },
+  {
+    "word": "eraser",
+    "mean": "橡皮擦",
+    "current": "🧽",
+    "suggested": "🩹",
+    "reason": "🧽 是海綿,跟橡皮擦不符"
+  },
+  {
+    "word": "vacuum",
+    "mean": "吸塵器",
+    "current": "🧹",
+    "suggested": "💨",
+    "reason": "🧹 是掃帚,跟吸塵器不同"
+  },
+  {
+    "word": "firefly",
+    "mean": "螢火蟲",
+    "current": "✨",
+    "suggested": "🪲",
+    "reason": "✨ 是閃光,沒對到螢火蟲"
+  },
+  {
+    "word": "seaweed",
+    "mean": "海藻",
+    "current": "🌿",
+    "suggested": "🌱",
+    "reason": "🌿 是陸地香草,跟 herb/moss/fern 重複,沒對到海藻"
+  },
+  {
+    "word": "referee",
+    "mean": "裁判",
+    "current": "🦓",
+    "suggested": "👨‍⚖️",
+    "reason": "🦓 是斑馬,跟裁判職業無直接關聯"
+  },
+  {
+    "word": "recess",
+    "mean": "下課",
+    "current": "⏸️",
+    "suggested": "🔔",
+    "reason": "⏸️ 是暫停符號,太抽象"
+  },
+  {
+    "word": "the",
+    "mean": "這個、那個(定冠詞)",
+    "current": "🔖",
+    "suggested": "👉",
+    "reason": "🔖 是書籤,跟定冠詞無關"
+  },
+  {
+    "word": "xylophone",
+    "mean": "木琴",
+    "current": "🎶",
+    "suggested": "🎹",
+    "reason": "用了通用音符,沒對到木琴"
+  },
+  {
+    "word": "harp",
+    "mean": "豎琴",
+    "current": "🎶",
+    "suggested": "🎵",
+    "reason": "用通用音符,沒對到豎琴"
+  },
+  {
+    "word": "clarinet",
+    "mean": "豎笛",
+    "current": "🎶",
+    "suggested": "🎵",
+    "reason": "用通用音符,沒對到豎笛"
+  },
+  {
+    "word": "ukulele",
+    "mean": "烏克麗麗",
+    "current": "🎶",
+    "suggested": "🎸",
+    "reason": "用通用音符,沒對到烏克麗麗"
+  },
+  {
+    "word": "flute",
+    "mean": "笛子",
+    "current": "🎶",
+    "suggested": "🎵",
+    "reason": "用通用音符,沒對到笛子"
+  },
+  {
+    "word": "oats",
+    "mean": "燕麥",
+    "current": "🌾",
+    "suggested": "🥣",
+    "reason": "🌾 是稻穗,跟 wheat 重複"
+  },
+  {
+    "word": "grain",
+    "mean": "穀物",
+    "current": "🌾",
+    "suggested": "🌾",
+    "reason": "與 wheat 用同一 emoji,無法區分(可考慮其他)"
+  },
+  {
+    "word": "raisin",
+    "mean": "葡萄乾",
+    "current": "🍇",
+    "suggested": "🍇",
+    "reason": "與 grape 同 emoji,無法區分葡萄乾"
+  },
+  {
+    "word": "almond",
+    "mean": "杏仁",
+    "current": "🥜",
+    "suggested": "🥜",
+    "reason": "與 peanut/walnut 共用,無法區分"
+  },
+  {
+    "word": "walnut",
+    "mean": "核桃",
+    "current": "🥜",
+    "suggested": "🥜",
+    "reason": "與 peanut/almond 共用"
+  },
+  {
+    "word": "plum",
+    "mean": "李子",
+    "current": "🍑",
+    "suggested": "🟣",
+    "reason": "🍑 是桃子,跟 peach 重複"
+  },
+  {
+    "word": "spinach",
+    "mean": "菠菜",
+    "current": "🥬",
+    "suggested": "🥬",
+    "reason": "與 cabbage/lettuce 共用,無法區分(若可不同更佳)"
+  },
+  {
+    "word": "cabbage",
+    "mean": "高麗菜",
+    "current": "🥬",
+    "suggested": "🥬",
+    "reason": "與 lettuce/spinach 共用"
+  },
+  {
+    "word": "pea",
+    "mean": "豌豆",
+    "current": "🟢",
+    "suggested": "🫛",
+    "reason": "用了綠色圓圈,沒對到豌豆"
+  },
+  {
+    "word": "matter",
+    "mean": "事情",
+    "current": "❓",
+    "suggested": "💡",
+    "reason": "預設❓沒表達『事情/事務』本意"
+  },
+  {
+    "word": "stranger",
+    "mean": "陌生人",
+    "current": "❓",
+    "suggested": "🚶",
+    "reason": "預設❓抽象,陌生人是具體人物"
+  },
+  {
+    "word": "object",
+    "mean": "物體",
+    "current": "🔷",
+    "suggested": "📦",
+    "reason": "幾何圖形不貼物體,📦更直觀"
+  },
+  {
+    "word": "opportunity",
+    "mean": "機會",
+    "current": "🚪",
+    "suggested": "🍀",
+    "reason": "門不直接=機會,🍀(幸運)更貼近"
+  },
+  {
+    "word": "event",
+    "mean": "事件",
+    "current": "🎪",
+    "suggested": "📅",
+    "reason": "馬戲團太具體,事件用日程符號較中性"
+  },
+  {
+    "word": "forehead",
+    "mean": "額頭",
+    "current": "😀",
+    "suggested": "🤦",
+    "reason": "笑臉沒指出額頭部位"
+  },
+  {
+    "word": "freckle",
+    "mean": "雀斑",
+    "current": "😊",
+    "suggested": "👦",
+    "reason": "笑臉與雀斑無關"
+  },
+  {
+    "word": "dimple",
+    "mean": "酒窩",
+    "current": "😊",
+    "suggested": "😄",
+    "reason": "普通笑臉,改成有酒窩感的咧嘴笑"
+  },
+  {
+    "word": "brow",
+    "mean": "額頭",
+    "current": "😀",
+    "suggested": "🤨",
+    "reason": "笑臉沒突出眉/額,改皺眉表情"
+  },
+  {
+    "word": "waist",
+    "mean": "腰",
+    "current": "👤",
+    "suggested": "🩱",
+    "reason": "預設人形剪影,泳衣/腰圍更貼"
+  },
+  {
+    "word": "hip",
+    "mean": "髖部",
+    "current": "👤",
+    "suggested": "🍑",
+    "reason": "人形剪影太通用"
+  },
+  {
+    "word": "breast",
+    "mean": "胸部",
+    "current": "👤",
+    "suggested": "🤱",
+    "reason": "預設人形,哺乳更貼"
+  },
+  {
+    "word": "navel",
+    "mean": "肚臍",
+    "current": "👤",
+    "suggested": "🤰",
+    "reason": "預設人形與肚臍無關"
+  },
+  {
+    "word": "groin",
+    "mean": "鼠蹊",
+    "current": "👤",
+    "suggested": "🩲",
+    "reason": "預設人形,內褲更貼部位"
+  },
+  {
+    "word": "temple",
+    "mean": "太陽穴",
+    "current": "👤",
+    "suggested": "🤕",
+    "reason": "預設人形,頭部疼痛更貼"
+  },
+  {
+    "word": "tonsil",
+    "mean": "扁桃腺",
+    "current": "👄",
+    "suggested": "😮",
+    "reason": "嘴唇沒表喉嚨內部"
+  },
+  {
+    "word": "gland",
+    "mean": "腺體",
+    "current": "💧",
+    "suggested": "🧬",
+    "reason": "水滴與腺體關聯模糊"
+  },
+  {
+    "word": "adult",
+    "mean": "成人",
+    "current": "🧑",
+    "suggested": "👨",
+    "reason": "中性人不分大小,改用標準男人更明確"
+  },
+  {
+    "word": "teen",
+    "mean": "青少年",
+    "current": "🧑",
+    "suggested": "🧒",
+    "reason": "中性成人不符青少年"
+  },
+  {
+    "word": "citizen",
+    "mean": "公民",
+    "current": "🧑",
+    "suggested": "🪪",
+    "reason": "中性人形抽象,身分證更貼"
+  },
+  {
+    "word": "individual",
+    "mean": "個人",
+    "current": "🧑",
+    "suggested": "☝️",
+    "reason": "用一個人/單獨指更貼『個人』"
+  },
+  {
+    "word": "youth",
+    "mean": "青年",
+    "current": "🧑",
+    "suggested": "🧒",
+    "reason": "中性成人不符青年"
+  },
+  {
+    "word": "godparent",
+    "mean": "教父母",
+    "current": "🧑",
+    "suggested": "⛪",
+    "reason": "中性人形太通用,教堂指代教父母"
+  },
+  {
+    "word": "snowpea",
+    "mean": "豌豆莢",
+    "current": "🟢",
+    "suggested": "🫛",
+    "reason": "預設綠方塊,改用豌豆"
+  },
+  {
+    "word": "chickpea",
+    "mean": "鷹嘴豆",
+    "current": "🟡",
+    "suggested": "🫛",
+    "reason": "預設黃方塊,豌豆更貼"
+  },
+  {
+    "word": "lentil",
+    "mean": "扁豆",
+    "current": "🟫",
+    "suggested": "🫘",
+    "reason": "預設棕方塊,豆子更貼"
+  },
+  {
+    "word": "soybean",
+    "mean": "黃豆",
+    "current": "🟡",
+    "suggested": "🫘",
+    "reason": "預設黃方塊,改用豆子"
+  },
+  {
+    "word": "edamame",
+    "mean": "毛豆",
+    "current": "🟢",
+    "suggested": "🫛",
+    "reason": "預設綠方塊,豆莢更貼"
+  },
+  {
+    "word": "tomatillo",
+    "mean": "墨西哥番茄",
+    "current": "🟢",
+    "suggested": "🍅",
+    "reason": "預設綠方塊,番茄類更直觀"
+  },
+  {
+    "word": "daikon",
+    "mean": "白蘿蔔",
+    "current": "⬜",
+    "suggested": "🥕",
+    "reason": "預設白方塊,改根莖類"
+  },
+  {
+    "word": "lotusroot",
+    "mean": "蓮藕",
+    "current": "⚪",
+    "suggested": "🪷",
+    "reason": "預設白圓,蓮花更貼蓮藕"
+  },
+  {
+    "word": "tamarind",
+    "mean": "羅望子",
+    "current": "🟫",
+    "suggested": "🫛",
+    "reason": "預設棕方塊,豆莢更貼"
+  },
+  {
+    "word": "radish",
+    "mean": "小蘿蔔",
+    "current": "🟥",
+    "suggested": "🥕",
+    "reason": "預設紅方塊,根莖類更直觀"
+  },
+  {
+    "word": "beet",
+    "mean": "甜菜",
+    "current": "🟥",
+    "suggested": "🥕",
+    "reason": "預設紅方塊"
+  },
+  {
+    "word": "turnip",
+    "mean": "蕪菁",
+    "current": "🟣",
+    "suggested": "🥕",
+    "reason": "預設紫方塊"
+  },
+  {
+    "word": "parsnip",
+    "mean": "歐防風",
+    "current": "🟫",
+    "suggested": "🥕",
+    "reason": "預設棕方塊,根莖類更直觀"
+  },
+  {
+    "word": "leek",
+    "mean": "韭蔥",
+    "current": "🟢",
+    "suggested": "🧅",
+    "reason": "預設綠方塊,蔥類更貼"
+  },
+  {
+    "word": "scallion",
+    "mean": "青蔥",
+    "current": "🟢",
+    "suggested": "🧅",
+    "reason": "預設綠方塊"
+  },
+  {
+    "word": "chive",
+    "mean": "細香蔥",
+    "current": "🟢",
+    "suggested": "🌿",
+    "reason": "預設綠方塊,香草更貼"
+  },
+  {
+    "word": "shallot",
+    "mean": "紅蔥頭",
+    "current": "🟫",
+    "suggested": "🧅",
+    "reason": "預設棕方塊,洋蔥類更貼"
+  },
+  {
+    "word": "asparagus",
+    "mean": "蘆筍",
+    "current": "🟢",
+    "suggested": "🥬",
+    "reason": "預設綠方塊"
+  },
+  {
+    "word": "okra",
+    "mean": "秋葵",
+    "current": "🟢",
+    "suggested": "🥒",
+    "reason": "預設綠方塊"
+  },
+  {
+    "word": "taro",
+    "mean": "芋頭",
+    "current": "🟫",
+    "suggested": "🥔",
+    "reason": "預設棕方塊,塊根更貼"
+  },
+  {
+    "word": "yam",
+    "mean": "山藥",
+    "current": "🟫",
+    "suggested": "🥔",
+    "reason": "預設棕方塊"
+  },
+  {
+    "word": "cassava",
+    "mean": "木薯",
+    "current": "🟫",
+    "suggested": "🥔",
+    "reason": "預設棕方塊"
+  },
+  {
+    "word": "jicama",
+    "mean": "涼薯",
+    "current": "🟫",
+    "suggested": "🥔",
+    "reason": "預設棕方塊"
+  },
+  {
+    "word": "lychee",
+    "mean": "荔枝",
+    "current": "🍒",
+    "suggested": "🍈",
+    "reason": "櫻桃不是荔枝形象"
+  },
+  {
+    "word": "longan",
+    "mean": "龍眼",
+    "current": "🍒",
+    "suggested": "🍈",
+    "reason": "櫻桃不是龍眼"
+  },
+  {
+    "word": "jujube",
+    "mean": "棗",
+    "current": "🍒",
+    "suggested": "🌰",
+    "reason": "櫻桃不是棗,堅果類較貼"
+  },
+  {
+    "word": "lingonberry",
+    "mean": "越橘",
+    "current": "🍒",
+    "suggested": "🫐",
+    "reason": "莓類用藍莓較貼"
+  },
+  {
+    "word": "persimmon",
+    "mean": "柿子",
+    "current": "🍊",
+    "suggested": "🍅",
+    "reason": "橘子顏色相近但形狀不同,番茄更貼柿子形"
+  },
+  {
+    "word": "raspberry",
+    "mean": "覆盆子",
+    "current": "🍓",
+    "suggested": "🫐",
+    "reason": "草莓不是覆盆子,莓類用藍莓更通用"
+  },
+  {
+    "word": "rambutan",
+    "mean": "紅毛丹",
+    "current": "🍓",
+    "suggested": "🍈",
+    "reason": "草莓不是紅毛丹"
+  },
+  {
+    "word": "jackfruit",
+    "mean": "波羅蜜",
+    "current": "🥭",
+    "suggested": "🍍",
+    "reason": "芒果非波羅蜜,鳳梨外觀更近"
+  },
+  {
+    "word": "passionfruit",
+    "mean": "百香果",
+    "current": "🥥",
+    "suggested": "🍈",
+    "reason": "椰子不是百香果"
+  },
+  {
+    "word": "mangosteen",
+    "mean": "山竹",
+    "current": "🍇",
+    "suggested": "🍈",
+    "reason": "葡萄不是山竹"
+  },
+  {
+    "word": "currant",
+    "mean": "醋栗",
+    "current": "🍇",
+    "suggested": "🫐",
+    "reason": "葡萄不夠貼,莓類更近"
+  },
+  {
+    "word": "pawpaw",
+    "mean": "巴婆果",
+    "current": "🥭",
+    "suggested": "🍐",
+    "reason": "芒果不是巴婆果"
+  },
+  {
+    "word": "breadfruit",
+    "mean": "麵包果",
+    "current": "🍞",
+    "suggested": "🥭",
+    "reason": "麵包不是水果,熱帶水果更貼"
+  },
+  {
+    "word": "cherimoya",
+    "mean": "釋迦",
+    "current": "🍐",
+    "suggested": "🍈",
+    "reason": "梨不是釋迦"
+  },
+  {
+    "word": "sapote",
+    "mean": "人心果",
+    "current": "🍐",
+    "suggested": "🥝",
+    "reason": "梨不貼人心果"
+  },
+  {
+    "word": "quince",
+    "mean": "榲桲",
+    "current": "🍐",
+    "suggested": "🍎",
+    "reason": "榲桲更像蘋果"
+  },
+  {
+    "word": "loquat",
+    "mean": "枇杷",
+    "current": "🍐",
+    "suggested": "🍊",
+    "reason": "枇杷接近橘黃色小果"
+  },
+  {
+    "word": "ackee",
+    "mean": "阿開木果",
+    "current": "🍐",
+    "suggested": "🍑",
+    "reason": "梨形不貼阿開木果"
+  },
+  {
+    "word": "soursop",
+    "mean": "刺果番荔枝",
+    "current": "🍈",
+    "suggested": "🍐",
+    "reason": "哈密瓜形不貼"
+  },
+  {
+    "word": "pomelo",
+    "mean": "柚子",
+    "current": "🍈",
+    "suggested": "🍊",
+    "reason": "哈密瓜不貼柚子,柑橘類更近"
+  },
+  {
+    "word": "calamansi",
+    "mean": "四季桔",
+    "current": "🍋",
+    "suggested": "🍊",
+    "reason": "檸檬不是橘,柑橘類更貼"
+  },
+  {
+    "word": "hood",
+    "mean": "抽油煙機",
+    "current": "💨",
+    "suggested": "🏠",
+    "reason": "風的符號太抽象"
+  },
+  {
+    "word": "foil",
+    "mean": "鋁箔",
+    "current": "📜",
+    "suggested": "🥡",
+    "reason": "卷軸不貼鋁箔"
+  },
+  {
+    "word": "wrap",
+    "mean": "保鮮膜",
+    "current": "📜",
+    "suggested": "🥡",
+    "reason": "卷軸不貼保鮮膜"
+  },
+  {
+    "word": "mat",
+    "mean": "墊子",
+    "current": "⬜",
+    "suggested": "🧶",
+    "reason": "預設白方塊"
+  },
+  {
+    "word": "mouthwash",
+    "mean": "漱口水",
+    "current": "👄",
+    "suggested": "🪥",
+    "reason": "嘴唇不貼漱口水,牙刷更貼"
+  },
+  {
+    "word": "pad",
+    "mean": "衛生棉",
+    "current": "🩸",
+    "suggested": "🧻",
+    "reason": "血滴抽象,衛生紙更貼"
+  },
+  {
+    "word": "mascara",
+    "mean": "睫毛膏",
+    "current": "👁️",
+    "suggested": "💄",
+    "reason": "眼睛不直接=睫毛膏,化妝品更貼"
+  },
+  {
+    "word": "eyeliner",
+    "mean": "眼線",
+    "current": "👁️",
+    "suggested": "💄",
+    "reason": "眼睛不貼眼線,化妝品更貼"
+  },
+  {
+    "word": "alcohol",
+    "mean": "酒精",
+    "current": "🍶",
+    "suggested": "🧴",
+    "reason": "清酒瓶誤導,藥用酒精用噴瓶較貼"
+  },
+  {
+    "word": "gel",
+    "mean": "凝膠",
+    "current": "🧴",
+    "suggested": "🧴",
+    "reason": "如指髮膠瓶可,但若指洗髮乳重複,可接受"
+  },
+  {
+    "word": "thing",
+    "mean": "東西",
+    "current": "🔵",
+    "suggested": "📦",
+    "reason": "藍圓圈抽象不代表東西"
+  },
+  {
+    "word": "lot",
+    "mean": "很多",
+    "current": "📊",
+    "suggested": "➕",
+    "reason": "圖表不貼『很多』,堆疊符號更貼"
+  },
+  {
+    "word": "stuff",
+    "mean": "東西",
+    "current": "🧳",
+    "suggested": "📦",
+    "reason": "行李箱太具體,東西用紙箱更通用"
+  },
+  {
+    "word": "rival",
+    "mean": "對手",
+    "current": "⚔️",
+    "suggested": "🥊",
+    "reason": "刀劍太戰爭,拳套對手更貼"
+  },
+  {
+    "word": "sphere",
+    "mean": "球體",
+    "current": "🔵",
+    "suggested": "⚽",
+    "reason": "藍圓不夠立體球感"
+  },
+  {
+    "word": "cylinder",
+    "mean": "圓柱",
+    "current": "🥫",
+    "suggested": "🥫",
+    "reason": "罐子尚可保留"
+  },
+  {
+    "word": "prism",
+    "mean": "稜柱",
+    "current": "🔷",
+    "suggested": "💎",
+    "reason": "菱形不夠貼,鑽石更立體"
+  },
+  {
+    "word": "trapezoid",
+    "mean": "梯形",
+    "current": "🔶",
+    "suggested": "📐",
+    "reason": "橙菱形不是梯形"
+  },
+  {
+    "word": "parallelogram",
+    "mean": "平行四邊形",
+    "current": "🔷",
+    "suggested": "📐",
+    "reason": "菱形不是平行四邊形"
+  },
+  {
+    "word": "rhombus",
+    "mean": "菱形",
+    "current": "🔷",
+    "suggested": "♦️",
+    "reason": "圓角菱不夠,改尖角菱"
+  },
+  {
+    "word": "polygon",
+    "mean": "多邊形",
+    "current": "🔶",
+    "suggested": "⬢",
+    "reason": "橙菱形太具體,六邊形更代表多邊形"
+  },
+  {
+    "word": "ellipse",
+    "mean": "橢圓",
+    "current": "🥚",
+    "suggested": "⭕",
+    "reason": "蛋形可,但橢圓較抽象幾何"
+  },
+  {
+    "word": "slab",
+    "mean": "厚板",
+    "current": "⬛",
+    "suggested": "🟫",
+    "reason": "黑方塊抽象,木板更貼"
+  },
+  {
+    "word": "bar",
+    "mean": "條",
+    "current": "📊",
+    "suggested": "🍫",
+    "reason": "圖表不貼『條』(物件)"
+  },
+  {
+    "word": "blob",
+    "mean": "塊狀",
+    "current": "🟦",
+    "suggested": "💧",
+    "reason": "藍方塊抽象,水滴/不規則更貼"
+  },
+  {
+    "word": "axis",
+    "mean": "軸",
+    "current": "📊",
+    "suggested": "➕",
+    "reason": "圖表不直接=軸線"
+  },
+  {
+    "word": "volume",
+    "mean": "體積",
+    "current": "🔊",
+    "suggested": "📦",
+    "reason": "音量喇叭與體積混淆"
+  },
+  {
+    "word": "slope",
+    "mean": "斜坡",
+    "current": "📐",
+    "suggested": "⛰️",
+    "reason": "三角尺不貼斜坡"
+  },
+  {
+    "word": "north",
+    "mean": "北",
+    "current": "⬆️",
+    "suggested": "🧭",
+    "reason": "上箭頭太通用,指南針更貼方位"
+  },
+  {
+    "word": "south",
+    "mean": "南",
+    "current": "⬇️",
+    "suggested": "🧭",
+    "reason": "下箭頭太通用"
+  },
+  {
+    "word": "farther",
+    "mean": "更遠",
+    "current": "➡️",
+    "suggested": "📏",
+    "reason": "右箭頭太抽象,距離尺更貼"
+  },
+  {
+    "word": "closer",
+    "mean": "更近",
+    "current": "📍",
+    "suggested": "🤏",
+    "reason": "地點符號抽象,近=捏指更貼"
+  },
+  {
+    "word": "namely",
+    "mean": "也就是",
+    "current": "➡️",
+    "suggested": "💬",
+    "reason": "箭頭太通用,引述更貼"
+  },
+  {
+    "word": "bond",
+    "mean": "債券",
+    "current": "📄",
+    "suggested": "💵",
+    "reason": "紙張太通用,金融債券改錢符號"
+  },
+  {
+    "word": "check",
+    "mean": "帳單、結帳",
+    "current": "🧾",
+    "suggested": "🧾",
+    "reason": "已合適,保留"
+  },
+  {
+    "word": "casual",
+    "mean": "休閒的、隨意的",
+    "current": "👕",
+    "suggested": "👕",
+    "reason": "已合適"
+  },
+  {
+    "word": "banquet",
+    "mean": "宴會",
+    "current": "🎉",
+    "suggested": "🍽️",
+    "reason": "派對符號抽象,餐桌更貼宴會"
+  },
+  {
+    "word": "peso",
+    "mean": "披索",
+    "current": "💵",
+    "suggested": "💵",
+    "reason": "美元符號代用一般幣,可接受但不精準"
+  },
+  {
+    "word": "ruble",
+    "mean": "盧布",
+    "current": "💵",
+    "suggested": "💴",
+    "reason": "美元符號不準確"
+  },
+  {
+    "word": "rupee",
+    "mean": "盧比",
+    "current": "💵",
+    "suggested": "💴",
+    "reason": "美元符號不準確"
+  },
+  {
+    "word": "baht",
+    "mean": "泰銖",
+    "current": "💵",
+    "suggested": "💴",
+    "reason": "美元符號不準確"
+  },
+  {
+    "word": "interest",
+    "mean": "利息",
+    "current": "💵",
+    "suggested": "📈",
+    "reason": "美元抽象,利息=增長更貼"
+  },
+  {
+    "word": "asset",
+    "mean": "資產",
+    "current": "💎",
+    "suggested": "🏦",
+    "reason": "鑽石窄義,銀行/資產更通用"
+  },
+  {
+    "word": "capital",
+    "mean": "資本",
+    "current": "💰",
+    "suggested": "🏦",
+    "reason": "錢袋窄義,銀行更貼資本"
+  },
+  {
+    "word": "calorie",
+    "mean": "卡路里",
+    "current": "📊",
+    "suggested": "🔥",
+    "reason": "圖表太抽象,卡路里=熱量更貼"
+  },
+  {
+    "word": "diabetes",
+    "mean": "糖尿病",
+    "current": "🍬",
+    "suggested": "💉",
+    "reason": "糖果不貼疾病,胰島素注射更貼"
+  },
+  {
+    "word": "surely",
+    "mean": "當然",
+    "current": "✅",
+    "suggested": "💯",
+    "reason": "勾號太通用,百分百更貼"
+  },
+  {
+    "word": "actually",
+    "mean": "實際上",
+    "current": "💡",
+    "suggested": "💬",
+    "reason": "燈泡不貼『實際上』語氣"
+  },
+  {
+    "word": "basically",
+    "mean": "基本上",
+    "current": "📋",
+    "suggested": "💬",
+    "reason": "剪貼板不貼語氣副詞"
+  },
+  {
+    "word": "generally",
+    "mean": "一般而言",
+    "current": "📋",
+    "suggested": "📊",
+    "reason": "剪貼板不貼,平均/統計更貼"
+  },
+  {
+    "word": "mainly",
+    "mean": "主要地",
+    "current": "📊",
+    "suggested": "🎯",
+    "reason": "統計圖不貼,主要=目標更貼"
+  },
+  {
+    "word": "mostly",
+    "mean": "大多",
+    "current": "📊",
+    "suggested": "📈",
+    "reason": "統計圖不貼"
+  },
+  {
+    "word": "partly",
+    "mean": "部分",
+    "current": "🥧",
+    "suggested": "🥧",
+    "reason": "派形可保留"
+  },
+  {
+    "word": "primarily",
+    "mean": "主要地",
+    "current": "📊",
+    "suggested": "🎯",
+    "reason": "統計圖不貼"
+  },
+  {
+    "word": "specifically",
+    "mean": "具體地",
+    "current": "🎯",
+    "suggested": "🎯",
+    "reason": "已合適"
+  },
+  {
+    "word": "barely",
+    "mean": "勉強",
+    "current": "😅",
+    "suggested": "🤏",
+    "reason": "汗笑不貼勉強,『少量』更貼"
+  },
+  {
+    "word": "nearly",
+    "mean": "幾乎",
+    "current": "🎯",
+    "suggested": "🤏",
+    "reason": "靶心不貼『差一點』"
+  },
+  {
+    "word": "whilst",
+    "mean": "當...時",
+    "current": "⏳",
+    "suggested": "⌛",
+    "reason": "沙漏可,但同時態與when相比較不準"
+  },
+  {
+    "word": "whatever",
+    "mean": "無論什麼",
+    "current": "❓",
+    "suggested": "🤷",
+    "reason": "問號預設,聳肩更貼態度"
+  },
+  {
+    "word": "whichever",
+    "mean": "無論哪個",
+    "current": "❓",
+    "suggested": "🤷",
+    "reason": "預設問號,聳肩更貼"
+  },
+  {
+    "word": "whence",
+    "mean": "從何處",
+    "current": "❓",
+    "suggested": "📍",
+    "reason": "預設問號,從何處用地點更貼"
+  },
+  {
+    "word": "strange",
+    "mean": "奇怪的",
+    "current": "❓",
+    "suggested": "👽",
+    "reason": "預設問號太通用"
+  },
+  {
+    "word": "plainly",
+    "mean": "明顯地",
+    "current": "👁️",
+    "suggested": "💡",
+    "reason": "眼睛抽象,明顯=清楚更貼"
+  },
+  {
+    "word": "apparently",
+    "mean": "顯然",
+    "current": "👁️",
+    "suggested": "💡",
+    "reason": "眼睛抽象"
+  },
+  {
+    "word": "evidently",
+    "mean": "顯然",
+    "current": "👁️",
+    "suggested": "💡",
+    "reason": "眼睛抽象"
+  },
+  {
+    "word": "seemingly",
+    "mean": "看似",
+    "current": "👁️",
+    "suggested": "💭",
+    "reason": "看似=猜想更貼"
+  },
+  {
+    "word": "swiftly",
+    "mean": "迅速地",
+    "current": "⚡",
+    "suggested": "💨",
+    "reason": "閃電太具體,風更貼速度感"
+  },
+  {
+    "word": "approximately",
+    "mean": "大約",
+    "current": "~",
+    "suggested": "🤏",
+    "reason": "波浪非emoji,改捏指『大約』"
+  },
+  {
+    "word": "roughly",
+    "mean": "大致",
+    "current": "~",
+    "suggested": "🤏",
+    "reason": "波浪非emoji"
+  },
+  {
+    "word": "virtually",
+    "mean": "幾乎",
+    "current": "~",
+    "suggested": "🎯",
+    "reason": "波浪非emoji,『接近』用靶心更貼"
+  },
+  {
+    "word": "itself",
+    "mean": "它自己",
+    "current": "🪞",
+    "suggested": "🔁",
+    "reason": "鏡子可但偏物件,自身用迴圈更貼"
+  },
+  {
+    "word": "certain",
+    "mean": "某些",
+    "current": "📋",
+    "suggested": "☝️",
+    "reason": "剪貼板不貼『某些』"
+  },
+  {
+    "word": "general",
+    "mean": "一般",
+    "current": "📋",
+    "suggested": "📊",
+    "reason": "剪貼板不貼"
+  },
+  {
+    "word": "multiple",
+    "mean": "多種",
+    "current": "➕",
+    "suggested": "🔢",
+    "reason": "加號不貼『多種』,數字更貼"
+  },
+  {
+    "word": "mere",
+    "mean": "僅僅的、只不過",
+    "current": "➖",
+    "suggested": "1️⃣",
+    "reason": "減號不貼僅僅"
+  },
+  {
+    "word": "none",
+    "mean": "一個也沒有、無",
+    "current": "🚫",
+    "suggested": "0️⃣",
+    "reason": "禁止符號偏『禁止』,零更貼"
+  },
+  {
+    "word": "oneself",
+    "mean": "自己",
+    "current": "🧑",
+    "suggested": "🪞",
+    "reason": "預設人形,鏡子=自我更貼"
+  },
+  {
+    "word": "client",
+    "mean": "客戶",
+    "current": "🧑",
+    "suggested": "🤝",
+    "reason": "預設人形太通用"
+  },
+  {
+    "word": "native",
+    "mean": "當地人",
+    "current": "🧑",
+    "suggested": "🏡",
+    "reason": "預設人形,本地/家鄉更貼"
+  },
+  {
+    "word": "host",
+    "mean": "主人",
+    "current": "🧑",
+    "suggested": "🤵",
+    "reason": "預設人形,正裝主人更貼"
+  },
+  {
+    "word": "despite",
+    "mean": "儘管",
+    "current": "🤷",
+    "suggested": "🤷",
+    "reason": "聳肩可保留"
+  },
+  {
+    "word": "anyway",
+    "mean": "反正",
+    "current": "🤷",
+    "suggested": "🤷",
+    "reason": "可保留"
+  },
+  {
+    "word": "regardless",
+    "mean": "無論",
+    "current": "🤷",
+    "suggested": "🤷",
+    "reason": "可保留"
+  },
+  {
+    "word": "albeit",
+    "mean": "雖然",
+    "current": "🤷",
+    "suggested": "🤷",
+    "reason": "可保留"
+  },
+  {
+    "word": "notwithstanding",
+    "mean": "儘管",
+    "current": "🤷",
+    "suggested": "🤷",
+    "reason": "可保留"
+  },
+  {
+    "word": "providing",
+    "mean": "假設",
+    "current": "🤔",
+    "suggested": "💭",
+    "reason": "沉思可,但假設用思考泡泡更貼"
+  },
+  {
+    "word": "provided",
+    "mean": "假如",
+    "current": "🤔",
+    "suggested": "💭",
+    "reason": "同上"
+  },
+  {
+    "word": "into",
+    "mean": "進入",
+    "current": "📥",
+    "suggested": "📥",
+    "reason": "已合適"
+  },
+  {
+    "word": "inward",
+    "mean": "向內",
+    "current": "📥",
+    "suggested": "📥",
+    "reason": "已合適"
+  },
+  {
+    "word": "within",
+    "mean": "在…之內",
+    "current": "📥",
+    "suggested": "📦",
+    "reason": "信箱不貼『之內』,容器更貼"
+  },
+  {
+    "word": "hereupon",
+    "mean": "於此",
+    "current": "📍",
+    "suggested": "➡️",
+    "reason": "地點不貼語法連接詞"
+  },
+  {
+    "word": "therein",
+    "mean": "其中",
+    "current": "📍",
+    "suggested": "📦",
+    "reason": "地點不貼『在內』"
+  },
+  {
+    "word": "wherein",
+    "mean": "其中",
+    "current": "📍",
+    "suggested": "📦",
+    "reason": "地點不貼"
+  },
+  {
+    "word": "whereof",
+    "mean": "關於",
+    "current": "📍",
+    "suggested": "💬",
+    "reason": "地點不貼『關於』"
+  },
+  {
+    "word": "elsewhere",
+    "mean": "別處",
+    "current": "📍",
+    "suggested": "🗺️",
+    "reason": "地點針可,但地圖更貼『別處』概念"
+  },
+  {
+    "word": "nearby",
+    "mean": "附近",
+    "current": "📍",
+    "suggested": "📍",
+    "reason": "已合適"
+  },
+  {
+    "word": "life",
+    "mean": "生命",
+    "current": "❤️",
+    "suggested": "🌱",
+    "reason": "愛心偏愛情,生命用萌芽更貼"
+  },
+  {
+    "word": "prefer",
+    "mean": "偏好",
+    "current": "❤️",
+    "suggested": "👍",
+    "reason": "愛心偏愛,偏好用大拇指更貼"
+  },
+  {
+    "word": "power",
+    "mean": "力量",
+    "current": "💪",
+    "suggested": "⚡",
+    "reason": "肌肉偏體能,power可包含能源"
+  },
+  {
+    "word": "smooth",
+    "mean": "光滑的",
+    "current": "🟢",
+    "suggested": "🟦",
+    "reason": "預設綠圓不貼光滑質感"
+  },
+  {
+    "word": "bruise",
+    "mean": "瘀青",
+    "current": "🟣",
+    "suggested": "🩹",
+    "reason": "紫圓抽象,繃帶更貼傷"
+  },
+  {
+    "word": "pimple",
+    "mean": "痘痘",
+    "current": "🔴",
+    "suggested": "😣",
+    "reason": "預設紅圓,改用痘痘臉感"
+  },
+  {
+    "word": "register",
+    "mean": "收銀機、註冊",
+    "current": "💰",
+    "suggested": "🧾",
+    "reason": "錢符不貼收銀機,收據更貼"
+  },
+  {
+    "word": "deal",
+    "mean": "優惠",
+    "current": "💰",
+    "suggested": "🤝",
+    "reason": "錢偏一般,deal=協議更貼"
+  },
+  {
+    "word": "bargain",
+    "mean": "便宜貨",
+    "current": "💰",
+    "suggested": "🏷️",
+    "reason": "錢符不貼便宜貨,標籤更貼"
+  },
+  {
+    "word": "salary",
+    "mean": "薪水",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "錢袋偏資本,薪水用鈔票更貼"
+  },
+  {
+    "word": "wage",
+    "mean": "工資",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "同上"
+  },
+  {
+    "word": "income",
+    "mean": "收入",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "同上"
+  },
+  {
+    "word": "commission",
+    "mean": "佣金",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "同上"
+  },
+  {
+    "word": "allowance",
+    "mean": "零用錢",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "同上"
+  },
+  {
+    "word": "pension",
+    "mean": "退休金",
+    "current": "💰",
+    "suggested": "👴",
+    "reason": "錢袋通用,退休=老人更貼"
+  },
+  {
+    "word": "fund",
+    "mean": "基金",
+    "current": "💰",
+    "suggested": "📊",
+    "reason": "錢袋通用,基金=投資組合"
+  },
+  {
+    "word": "earn",
+    "mean": "賺取",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "錢袋通用"
+  },
+  {
+    "word": "stock",
+    "mean": "存貨",
+    "current": "📊",
+    "suggested": "📦",
+    "reason": "圖表偏股票,存貨用箱更貼"
+  },
+  {
+    "word": "inventory",
+    "mean": "庫存",
+    "current": "📋",
+    "suggested": "📦",
+    "reason": "剪貼板不貼,箱子更貼庫存"
+  },
+  {
+    "word": "feeling",
+    "mean": "感覺",
+    "current": "💭",
+    "suggested": "💖",
+    "reason": "思考泡泡偏想法,感覺用心更貼"
+  },
+  {
+    "word": "reason",
+    "mean": "理由",
+    "current": "💭",
+    "suggested": "💡",
+    "reason": "思考泡泡偏想,理由=想通更貼"
+  },
+  {
+    "word": "meant",
+    "mean": "意思是",
+    "current": "💭",
+    "suggested": "💬",
+    "reason": "思考偏想,意思=說話更貼"
+  },
+  {
+    "word": "felt",
+    "mean": "感覺了",
+    "current": "💭",
+    "suggested": "💖",
+    "reason": "思考偏想,感覺用心"
+  },
+  {
+    "word": "supposedly",
+    "mean": "據說",
+    "current": "💭",
+    "suggested": "💬",
+    "reason": "據說=他人轉述,對話更貼"
+  },
+  {
+    "word": "presumably",
+    "mean": "想必",
+    "current": "💭",
+    "suggested": "🤔",
+    "reason": "想必=推測,沉思更貼"
+  },
+  {
+    "word": "arguably",
+    "mean": "可說",
+    "current": "💭",
+    "suggested": "💬",
+    "reason": "可說=言論,對話更貼"
+  },
+  {
+    "word": "well",
+    "mean": "嗯",
+    "current": "💭",
+    "suggested": "🤔",
+    "reason": "思考泡泡偏想,猶豫的『嗯』用沉思更貼"
+  },
+  {
+    "word": "frankly",
+    "mean": "坦白地、坦白說",
+    "current": "💬",
+    "suggested": "💯",
+    "reason": "對話通用,坦白=百分百直更貼"
+  },
+  {
+    "word": "package",
+    "mean": "包裹、套裝行程",
+    "current": "📮",
+    "suggested": "📦",
+    "reason": "郵筒不貼包裹本體"
+  },
+  {
+    "word": "parcel",
+    "mean": "包裹",
+    "current": "📮",
+    "suggested": "📦",
+    "reason": "郵筒不貼包裹本體"
+  },
+  {
+    "word": "deck",
+    "mean": "露台、甲板",
+    "current": "🚢",
+    "suggested": "🪵",
+    "reason": "船不貼露台,木板更通用"
+  },
+  {
+    "word": "jail",
+    "mean": "監獄",
+    "current": "🔒",
+    "suggested": "👮",
+    "reason": "鎖偏鎖具,監獄改警察/牢房"
+  },
+  {
+    "word": "prison",
+    "mean": "監獄",
+    "current": "🔒",
+    "suggested": "👮",
+    "reason": "同上"
+  },
+  {
+    "word": "stall",
+    "mean": "攤位",
+    "current": "🛒",
+    "suggested": "🏪",
+    "reason": "購物車不貼攤位,商店更貼"
+  },
+  {
+    "word": "kiosk",
+    "mean": "售貨亭",
+    "current": "🛒",
+    "suggested": "🏪",
+    "reason": "購物車不貼售貨亭"
+  },
+  {
+    "word": "booth",
+    "mean": "展位",
+    "current": "🛒",
+    "suggested": "🏪",
+    "reason": "購物車不貼展位"
+  },
+  {
+    "word": "vendor",
+    "mean": "小販",
+    "current": "🛒",
+    "suggested": "🧑‍🍳",
+    "reason": "購物車不貼小販人物"
+  },
+  {
+    "word": "opener",
+    "mean": "開瓶器",
+    "current": "🍾",
+    "suggested": "🍾",
+    "reason": "香檳瓶可保留"
+  },
+  {
+    "word": "coaster",
+    "mean": "杯墊",
+    "current": "☕",
+    "suggested": "☕",
+    "reason": "咖啡杯可保留"
+  },
+  {
+    "word": "saucer",
+    "mean": "小碟",
+    "current": "☕",
+    "suggested": "🍽️",
+    "reason": "咖啡杯不貼碟子本體"
+  },
+  {
+    "word": "jug",
+    "mean": "水罐",
+    "current": "🍶",
+    "suggested": "🫗",
+    "reason": "清酒瓶不貼水罐,倒水更貼"
+  },
+  {
+    "word": "thermos",
+    "mean": "保溫瓶",
+    "current": "♨️",
+    "suggested": "🍶",
+    "reason": "溫泉不貼,瓶子更貼"
+  },
+  {
+    "word": "microwave",
+    "mean": "微波爐",
+    "current": "♨️",
+    "suggested": "♨️",
+    "reason": "溫泉符可勉強保留"
+  },
+  {
+    "word": "hairdryer",
+    "mean": "吹風機",
+    "current": "💨",
+    "suggested": "💇",
+    "reason": "風太通用,理髮更貼"
+  },
+  {
+    "word": "hairspray",
+    "mean": "髮膠",
+    "current": "💨",
+    "suggested": "💇",
+    "reason": "風太通用,理髮更貼"
+  },
+  {
+    "word": "jasmine",
+    "mean": "茉莉、茉莉花",
+    "current": "🍵",
+    "suggested": "🌼",
+    "reason": "茶杯偏茶,茉莉花本身用花更貼"
+  },
+  {
+    "word": "dock",
+    "mean": "碼頭",
+    "current": "⚓",
+    "suggested": "⚓",
+    "reason": "錨可保留"
+  },
+  {
+    "word": "strainer",
+    "mean": "濾網",
+    "current": "🥣",
+    "suggested": "🥣",
+    "reason": "碗可保留"
+  },
+  {
+    "word": "colander",
+    "mean": "濾盆",
+    "current": "🥣",
+    "suggested": "🥣",
+    "reason": "碗可保留"
+  },
+  {
+    "word": "tongs",
+    "mean": "夾子",
+    "current": "🍴",
+    "suggested": "🤏",
+    "reason": "叉子不貼夾子"
+  },
+  {
+    "word": "bachelor",
+    "mean": "單身漢",
+    "current": "👨",
+    "suggested": "🤵",
+    "reason": "普通男人不突出單身,西裝男更貼"
+  },
+  {
+    "word": "caterer",
+    "mean": "外燴業者",
+    "current": "🍽️",
+    "suggested": "🧑‍🍳",
+    "reason": "餐盤不貼業者人物"
+  },
+  {
+    "word": "busboy",
+    "mean": "餐廳助手",
+    "current": "🍽️",
+    "suggested": "🧹",
+    "reason": "餐盤太通用,清理工作更貼"
+  },
+  {
+    "word": "supper",
+    "mean": "晚餐",
+    "current": "🍽️",
+    "suggested": "🌙",
+    "reason": "餐盤通用,晚=夜更貼"
+  },
+  {
+    "word": "entree",
+    "mean": "主菜",
+    "current": "🍽️",
+    "suggested": "🥩",
+    "reason": "餐盤太通用,肉排更貼主菜"
+  },
+  {
+    "word": "maincourse",
+    "mean": "主菜",
+    "current": "🍽️",
+    "suggested": "🥩",
+    "reason": "同上"
+  },
+  {
+    "word": "finedining",
+    "mean": "精緻料理",
+    "current": "🍽️",
+    "suggested": "🥂",
+    "reason": "餐盤太通用,精緻=酒杯更貼"
+  },
+  {
+    "word": "feast",
+    "mean": "盛宴",
+    "current": "🍽️",
+    "suggested": "🎉",
+    "reason": "餐盤太通用,盛宴=慶祝更貼"
+  },
+  {
+    "word": "dine",
+    "mean": "用餐",
+    "current": "🍽️",
+    "suggested": "🍽️",
+    "reason": "已合適"
+  },
+  {
+    "word": "placemat",
+    "mean": "餐墊",
+    "current": "🍽️",
+    "suggested": "🍽️",
+    "reason": "已合適"
+  },
+  {
+    "word": "tablecloth",
+    "mean": "桌巾",
+    "current": "🍽️",
+    "suggested": "🍽️",
+    "reason": "已合適"
+  },
+  {
+    "word": "napkin",
+    "mean": "餐巾",
+    "current": "🍽️",
+    "suggested": "🧻",
+    "reason": "餐盤通用,紙巾更貼"
+  },
+  {
+    "word": "server",
+    "mean": "服務生",
+    "current": "💁",
+    "suggested": "🧑‍🍳",
+    "reason": "資訊台姿勢不貼服務生"
+  },
+  {
+    "word": "specialty",
+    "mean": "招牌菜、專長",
+    "current": "⭐",
+    "suggested": "⭐",
+    "reason": "星可保留"
+  },
+  {
+    "word": "refill",
+    "mean": "續杯",
+    "current": "🥤",
+    "suggested": "🔄",
+    "reason": "飲料杯OK但續=循環更貼"
+  },
+  {
+    "word": "savory",
+    "mean": "鹹的、鹹香的",
+    "current": "🍖",
+    "suggested": "🍖",
+    "reason": "可保留"
+  },
+  {
+    "word": "bitter",
+    "mean": "苦的",
+    "current": "😖",
+    "suggested": "😖",
+    "reason": "可保留"
+  },
+  {
+    "word": "contagious",
+    "mean": "會傳染的",
+    "current": "🦠",
+    "suggested": "🦠",
+    "reason": "可保留"
+  },
+  {
+    "word": "asthma",
+    "mean": "氣喘",
+    "current": "😮‍💨",
+    "suggested": "🫁",
+    "reason": "喘氣表情可,肺更貼器官"
+  },
+  {
+    "word": "chubby",
+    "mean": "圓潤",
+    "current": "🐹",
+    "suggested": "👶",
+    "reason": "圓潤指人較豐滿,倉鼠不直接對應"
+  },
+  {
+    "word": "foxy",
+    "mean": "性感的",
+    "current": "💋",
+    "suggested": "🦊",
+    "reason": "foxy字源是fox,💋已用於sexy重複"
+  },
+  {
+    "word": "homely",
+    "mean": "相貌平凡的(美式)",
+    "current": "👵",
+    "suggested": "😐",
+    "reason": "老婦人emoji與「平凡」字義無關"
+  },
+  {
+    "word": "contacts",
+    "mean": "隱形眼鏡",
+    "current": "👁️",
+    "suggested": "👓",
+    "reason": "眼睛emoji不直接對應隱形眼鏡"
+  },
+  {
+    "word": "tattooed",
+    "mean": "有刺青",
+    "current": "💪",
+    "suggested": "🖋️",
+    "reason": "肌肉emoji與刺青無直接關聯"
+  },
+  {
+    "word": "pierced",
+    "mean": "穿耳洞",
+    "current": "👂",
+    "suggested": "💎",
+    "reason": "耳朵emoji單純,可用耳環代表"
+  },
+  {
+    "word": "untidy",
+    "mean": "凌亂的",
+    "current": "🌪️",
+    "suggested": "🗑️",
+    "reason": "龍捲風指自然現象,凌亂用其他更貼切"
+  },
+  {
+    "word": "distant",
+    "mean": "冷淡的",
+    "current": "🧊",
+    "suggested": "❄️",
+    "reason": "冰塊偏物品,冷淡用雪花更佳"
+  },
+  {
+    "word": "loyal",
+    "mean": "忠誠的",
+    "current": "🐕",
+    "suggested": "🤝",
+    "reason": "狗代表忠誠是文化暗示,人際忠誠用握手更直接"
+  },
+  {
+    "word": "faithful",
+    "mean": "忠實的",
+    "current": "💍",
+    "suggested": "🤝",
+    "reason": "戒指偏婚姻,faithful涵蓋更廣的忠實"
+  },
+  {
+    "word": "vain",
+    "mean": "虛榮的",
+    "current": "💄",
+    "suggested": "🪞",
+    "reason": "虛榮對應鏡子(自戀)更準,口紅偏美妝"
+  },
+  {
+    "word": "emotional",
+    "mean": "情緒化",
+    "current": "😭",
+    "suggested": "🎭",
+    "reason": "哭泣只是一面,情緒化包含多種起伏"
+  },
+  {
+    "word": "reckless",
+    "mean": "魯莽的",
+    "current": "💥",
+    "suggested": "🏃",
+    "reason": "爆炸是結果非性格,魯莽應指衝動行為"
+  },
+  {
+    "word": "talkative",
+    "mean": "愛說話",
+    "current": "💬",
+    "suggested": "🗣️",
+    "reason": "💬已用於多字,愛說話用人說話更具體"
+  },
+  {
+    "word": "available",
+    "mean": "單身",
+    "current": "🙋",
+    "suggested": "💚",
+    "reason": "舉手emoji與單身無直接關聯"
+  },
+  {
+    "word": "taken",
+    "mean": "有對象",
+    "current": "💑",
+    "suggested": "❤️",
+    "reason": "taken字義是已被佔有"
+  },
+  {
+    "word": "committed",
+    "mean": "專一",
+    "current": "💍",
+    "suggested": "🔒",
+    "reason": "戒指偏訂婚/婚姻,專一可用鎖"
+  },
+  {
+    "word": "ghosting",
+    "mean": "已讀不回",
+    "current": "🙊",
+    "suggested": "👻",
+    "reason": "猴子摀嘴與「鬼隱」無關,ghost本義是鬼"
+  },
+  {
+    "word": "frenemy",
+    "mean": "亦敵亦友",
+    "current": "😏",
+    "suggested": "🎭",
+    "reason": "奸笑表情偏單面,亦敵亦友用面具更貼"
+  },
+  {
+    "word": "separate",
+    "mean": "分開",
+    "current": "↔️",
+    "suggested": "💔",
+    "reason": "關係主題分開,雙箭頭抽象,💔更貼"
+  },
+  {
+    "word": "marble",
+    "mean": "彈珠、大理石",
+    "current": "⚪",
+    "suggested": "🔮",
+    "reason": "白圈缺乏彈珠特徵"
+  },
+  {
+    "word": "slinky",
+    "mean": "彈簧玩具",
+    "current": "🌀",
+    "suggested": "〽️",
+    "reason": "漩渦不像彈簧"
+  },
+  {
+    "word": "swing",
+    "mean": "鞦韆",
+    "current": "🎢",
+    "suggested": "🛝",
+    "reason": "雲霄飛車與鞦韆不同"
+  },
+  {
+    "word": "seesaw",
+    "mean": "翹翹板",
+    "current": "⚖️",
+    "suggested": "🛝",
+    "reason": "天平與翹翹板概念不同"
+  },
+  {
+    "word": "pinwheel",
+    "mean": "風車",
+    "current": "🎡",
+    "suggested": "🌬️",
+    "reason": "摩天輪與兒童玩風車不同"
+  },
+  {
+    "word": "sandbox",
+    "mean": "沙坑",
+    "current": "🏖️",
+    "suggested": "🏰",
+    "reason": "海灘emoji偏旅遊,沙坑是兒童遊樂"
+  },
+  {
+    "word": "miniature",
+    "mean": "迷你模型",
+    "current": "🚂",
+    "suggested": "🧸",
+    "reason": "火車過於特定,迷你模型涵蓋更廣"
+  },
+  {
+    "word": "playdough",
+    "mean": "黏土玩具",
+    "current": "🧱",
+    "suggested": "🎨",
+    "reason": "磚塊偏建材,黏土玩具偏創作"
+  },
+  {
+    "word": "mascot",
+    "mean": "吉祥物",
+    "current": "🐻",
+    "suggested": "🎽",
+    "reason": "熊只是一種吉祥物,範圍太窄"
+  },
+  {
+    "word": "rockinghorse",
+    "mean": "搖搖馬",
+    "current": "🐎",
+    "suggested": "🪆",
+    "reason": "馬emoji缺少玩具/搖動感"
+  },
+  {
+    "word": "pacifier",
+    "mean": "奶嘴",
+    "current": "👶",
+    "suggested": "🍼",
+    "reason": "嬰兒emoji太籠統"
+  },
+  {
+    "word": "bib",
+    "mean": "圍兜",
+    "current": "👶",
+    "suggested": "🍼",
+    "reason": "嬰兒emoji太籠統"
+  },
+  {
+    "word": "hopscotch",
+    "mean": "跳房子",
+    "current": "🦘",
+    "suggested": "👟",
+    "reason": "袋鼠跳是動物動作,與兒童遊戲不同"
+  },
+  {
+    "word": "hideandseek",
+    "mean": "捉迷藏",
+    "current": "🙈",
+    "suggested": "🫣",
+    "reason": "看不見的猴子偏不看,捉迷藏應是窺看"
+  },
+  {
+    "word": "peekaboo",
+    "mean": "躲貓貓",
+    "current": "🙈",
+    "suggested": "🫣",
+    "reason": "與hideandseek重複"
+  },
+  {
+    "word": "bauble",
+    "mean": "小飾品",
+    "current": "🎄",
+    "suggested": "💍",
+    "reason": "聖誕樹只是一種用法"
+  },
+  {
+    "word": "trinket",
+    "mean": "小飾品",
+    "current": "💍",
+    "suggested": "📿",
+    "reason": "戒指偏珠寶,trinket是廉價小擺飾"
+  },
+  {
+    "word": "realism",
+    "mean": "寫實主義",
+    "current": "📷",
+    "suggested": "🖼️",
+    "reason": "相機是工具,寫實主義是藝術風格"
+  },
+  {
+    "word": "expressionism",
+    "mean": "表現主義",
+    "current": "😱",
+    "suggested": "🖼️",
+    "reason": "吶喊只是一幅作品,風格本身用畫"
+  },
+  {
+    "word": "cubism",
+    "mean": "立體派",
+    "current": "🔷",
+    "suggested": "🟦",
+    "reason": "藍鑽石不直接代表立體派"
+  },
+  {
+    "word": "fingerpaint",
+    "mean": "手指畫",
+    "current": "🎨",
+    "suggested": "🖐️",
+    "reason": "與其他畫類重複,手指畫應突顯手指"
+  },
+  {
+    "word": "pastime",
+    "mean": "消遣",
+    "current": "🎨",
+    "suggested": "🎲",
+    "reason": "與hobby重複"
+  },
+  {
+    "word": "recreation",
+    "mean": "娛樂",
+    "current": "🎢",
+    "suggested": "🎠",
+    "reason": "雲霄飛車過於特定"
+  },
+  {
+    "word": "devotee",
+    "mean": "愛好者",
+    "current": "🙌",
+    "suggested": "🤩",
+    "reason": "舉雙手偏崇拜"
+  },
+  {
+    "word": "hobbyist",
+    "mean": "愛好者",
+    "current": "🎨",
+    "suggested": "🧑‍🎨",
+    "reason": "與hobby重複"
+  },
+  {
+    "word": "singleplayer",
+    "mean": "單人遊戲",
+    "current": "🧑",
+    "suggested": "🎮",
+    "reason": "人物emoji與單人遊戲關聯弱"
+  },
+  {
+    "word": "cheatcode",
+    "mean": "作弊密技",
+    "current": "🃏",
+    "suggested": "⌨️",
+    "reason": "鬼牌與遊戲密技無關"
+  },
+  {
+    "word": "expansion",
+    "mean": "資料片",
+    "current": "➕",
+    "suggested": "📦",
+    "reason": "加號太抽象,資料片是內容包"
+  },
+  {
+    "word": "dlc",
+    "mean": "下載內容",
+    "current": "📥",
+    "suggested": "📦",
+    "reason": "收件箱偏郵件,DLC是內容包"
+  },
+  {
+    "word": "sequel",
+    "mean": "續集",
+    "current": "▶️",
+    "suggested": "🎬",
+    "reason": "播放鍵不直接代表續集"
+  },
+  {
+    "word": "prequel",
+    "mean": "前傳",
+    "current": "◀️",
+    "suggested": "🎬",
+    "reason": "倒退鍵不直接代表前傳"
+  },
+  {
+    "word": "setting",
+    "mean": "場景",
+    "current": "🌆",
+    "suggested": "🎬",
+    "reason": "城市夜景太特定,場景多樣"
+  },
+  {
+    "word": "viewer",
+    "mean": "觀眾",
+    "current": "👁️",
+    "suggested": "📺",
+    "reason": "眼睛太抽象,觀眾應指看電視"
+  },
+  {
+    "word": "binge",
+    "mean": "狂看",
+    "current": "📺",
+    "suggested": "🛋️",
+    "reason": "電視太籠統,狂看應有沉迷感"
+  },
+  {
+    "word": "recap",
+    "mean": "回顧",
+    "current": "🔁",
+    "suggested": "⏪",
+    "reason": "循環不等於回顧,回顧是倒帶"
+  },
+  {
+    "word": "spoiler",
+    "mean": "劇透",
+    "current": "🚫",
+    "suggested": "🤐",
+    "reason": "禁止符號太泛,劇透應是嘴巴別說"
+  },
+  {
+    "word": "rehab",
+    "mean": "復健",
+    "current": "🩺",
+    "suggested": "🏥",
+    "reason": "聽診器太泛,復健是場所/過程"
+  },
+  {
+    "word": "trauma",
+    "mean": "創傷",
+    "current": "😢",
+    "suggested": "💔",
+    "reason": "哭只是表面,創傷有更深含義"
+  },
+  {
+    "word": "jaundice",
+    "mean": "黃疸",
+    "current": "🟡",
+    "suggested": "🤢",
+    "reason": "黃圓圈太抽象,應指病症"
+  },
+  {
+    "word": "ringworm",
+    "mean": "金錢癬",
+    "current": "🦠",
+    "suggested": "🪱",
+    "reason": "病毒emoji不對,ringworm是真菌"
+  },
+  {
+    "word": "celiac",
+    "mean": "乳糜瀉",
+    "current": "🌾",
+    "suggested": "🚫",
+    "reason": "小麥指食物來源,乳糜瀉是麩質不耐"
+  },
+  {
+    "word": "gallstone",
+    "mean": "膽結石",
+    "current": "🪨",
+    "suggested": "💎",
+    "reason": "普通石頭不像結石"
+  },
+  {
+    "word": "kidneystone",
+    "mean": "腎結石",
+    "current": "🪨",
+    "suggested": "💎",
+    "reason": "普通石頭籠統"
+  },
+  {
+    "word": "menopause",
+    "mean": "更年期",
+    "current": "👵",
+    "suggested": "🌡️",
+    "reason": "老婦不準,更年期是生理變化"
+  },
+  {
+    "word": "rabies",
+    "mean": "狂犬病",
+    "current": "🐕",
+    "suggested": "🦠",
+    "reason": "狗emoji不直接表病"
+  },
+  {
+    "word": "hayfever",
+    "mean": "花粉熱",
+    "current": "🤧",
+    "suggested": "🌾",
+    "reason": "打噴嚏是症狀,可用花粉相關"
+  },
+  {
+    "word": "deficiency",
+    "mean": "缺乏、不足",
+    "current": "📉",
+    "suggested": "❌",
+    "reason": "下降圖偏經濟,缺乏應為不足"
+  },
+  {
+    "word": "deformity",
+    "mean": "畸形",
+    "current": "😢",
+    "suggested": "⚠️",
+    "reason": "哭只是反應,畸形是狀態"
+  },
+  {
+    "word": "workstation",
+    "mean": "工作站",
+    "current": "💻",
+    "suggested": "🪑",
+    "reason": "筆電與多字重複,工作站是位置"
+  },
+  {
+    "word": "signature",
+    "mean": "簽名",
+    "current": "✍️",
+    "suggested": "🖊️",
+    "reason": "寫字偏動作,簽名應有筆跡"
+  },
+  {
+    "word": "shareholder",
+    "mean": "股東",
+    "current": "📊",
+    "suggested": "💼",
+    "reason": "圖表偏資料,股東是人"
+  },
+  {
+    "word": "stakeholder",
+    "mean": "利害關係人",
+    "current": "📊",
+    "suggested": "👥",
+    "reason": "圖表偏資料,利害關係人是人群"
+  },
+  {
+    "word": "markup",
+    "mean": "加價",
+    "current": "📈",
+    "suggested": "💰",
+    "reason": "上升圖偏成長,加價是價格"
+  },
+  {
+    "word": "buyout",
+    "mean": "買斷",
+    "current": "💰",
+    "suggested": "🤝",
+    "reason": "錢太泛,買斷是交易行為"
+  },
+  {
+    "word": "audit",
+    "mean": "審計",
+    "current": "📋",
+    "suggested": "🔍",
+    "reason": "清單偏待辦,審計是檢查"
+  },
+  {
+    "word": "q1",
+    "mean": "第一季",
+    "current": "📅",
+    "suggested": "1️⃣",
+    "reason": "日曆太泛,第一季用數字更直接"
+  },
+  {
+    "word": "q2",
+    "mean": "第二季",
+    "current": "📅",
+    "suggested": "2️⃣",
+    "reason": "日曆太泛"
+  },
+  {
+    "word": "sales",
+    "mean": "銷售",
+    "current": "💰",
+    "suggested": "🛍️",
+    "reason": "錢偏結果,銷售是行為"
+  },
+  {
+    "word": "outreach",
+    "mean": "對外接觸",
+    "current": "🤝",
+    "suggested": "📣",
+    "reason": "握手偏合作,outreach是推廣"
+  },
+  {
+    "word": "boom",
+    "mean": "繁榮",
+    "current": "📈",
+    "suggested": "💥",
+    "reason": "與growth重複,boom更有爆發感"
+  },
+  {
+    "word": "jobless",
+    "mean": "失業",
+    "current": "📉",
+    "suggested": "😞",
+    "reason": "下降圖偏統計,失業是個人狀態"
+  },
+  {
+    "word": "forex",
+    "mean": "外匯",
+    "current": "💱",
+    "suggested": "🌐",
+    "reason": "與exchangerate重複"
+  },
+  {
+    "word": "taxrevenue",
+    "mean": "稅收",
+    "current": "💰",
+    "suggested": "🧾",
+    "reason": "錢太泛,稅收應有收據"
+  },
+  {
+    "word": "fdi",
+    "mean": "外國直接投資",
+    "current": "💰",
+    "suggested": "🌐",
+    "reason": "與多字重複,FDI強調國外"
+  },
+  {
+    "word": "facebook",
+    "mean": "臉書",
+    "current": "📘",
+    "suggested": "👍",
+    "reason": "藍書與臉書關聯弱,讚是FB圖標"
+  },
+  {
+    "word": "reddit",
+    "mean": "Reddit 論壇",
+    "current": "📱",
+    "suggested": "💬",
+    "reason": "手機太泛,Reddit是論壇"
+  },
+  {
+    "word": "post",
+    "mean": "貼文",
+    "current": "📝",
+    "suggested": "📲",
+    "reason": "筆記偏寫作,社群貼文偏手機"
+  },
+  {
+    "word": "reel",
+    "mean": "短影音",
+    "current": "🎞️",
+    "suggested": "📱",
+    "reason": "膠捲偏電影,reel是手機短影音"
+  },
+  {
+    "word": "hacker",
+    "mean": "駭客",
+    "current": "💻",
+    "suggested": "👨‍💻",
+    "reason": "筆電太泛,駭客是人"
+  },
+  {
+    "word": "hack",
+    "mean": "駭入",
+    "current": "💻",
+    "suggested": "🔓",
+    "reason": "與hacker重複,駭入應有破解感"
+  },
+  {
+    "word": "malware",
+    "mean": "惡意軟體",
+    "current": "🦠",
+    "suggested": "🐛",
+    "reason": "病毒emoji偏生物,惡意軟體常用蟲"
+  },
+  {
+    "word": "virality",
+    "mean": "病毒式傳播",
+    "current": "🦠",
+    "suggested": "📈",
+    "reason": "病毒emoji偏疾病,viral傳播是擴散"
+  },
+  {
+    "word": "influencer",
+    "mean": "網紅",
+    "current": "📱",
+    "suggested": "💁",
+    "reason": "手機太泛,網紅是人"
+  },
+  {
+    "word": "opening",
+    "mean": "開幕",
+    "current": "🎬",
+    "suggested": "🎉",
+    "reason": "電影板偏電影,開幕應慶祝"
+  },
+  {
+    "word": "closing",
+    "mean": "閉幕",
+    "current": "🎬",
+    "suggested": "🏁",
+    "reason": "電影板偏電影,閉幕是結束"
+  },
+  {
+    "word": "kickoff",
+    "mean": "開場",
+    "current": "🎬",
+    "suggested": "⚽",
+    "reason": "kickoff原本是足球開球"
+  },
+  {
+    "word": "talentshow",
+    "mean": "才藝表演",
+    "current": "🎤",
+    "suggested": "🌟",
+    "reason": "麥克風偏唱歌,才藝多元"
+  },
+  {
+    "word": "masquerade",
+    "mean": "化妝舞會",
+    "current": "🎭",
+    "suggested": "💃",
+    "reason": "面具雖貼但舞會應有跳舞"
+  },
+  {
+    "word": "pageant",
+    "mean": "選美",
+    "current": "👑",
+    "suggested": "💃",
+    "reason": "皇冠偏王室,選美是表演"
+  },
+  {
+    "word": "venue",
+    "mean": "場地",
+    "current": "🏢",
+    "suggested": "📍",
+    "reason": "辦公樓偏建築,場地較廣"
+  },
+  {
+    "word": "badge",
+    "mean": "識別證",
+    "current": "🆔",
+    "suggested": "📛",
+    "reason": "ID偏電子,識別證是名牌"
+  },
+  {
+    "word": "membership",
+    "mean": "會員資格",
+    "current": "🆔",
+    "suggested": "🎫",
+    "reason": "ID偏身份,會員應有卡/票"
+  },
+  {
+    "word": "sweatband",
+    "mean": "頭帶",
+    "current": "💪",
+    "suggested": "🎽",
+    "reason": "肌肉與頭帶關聯弱"
+  },
+  {
+    "word": "workflow",
+    "mean": "工作流程",
+    "current": "⚙️",
+    "suggested": "🔄",
+    "reason": "齒輪偏機械,流程是循環/步驟"
+  },
+  {
+    "word": "opinion",
+    "mean": "意見",
+    "current": "💭",
+    "suggested": "🗨️",
+    "reason": "思考雲偏想法,意見是表達"
+  },
+  {
+    "word": "expose",
+    "mean": "揭露",
+    "current": "🔍",
+    "suggested": "📢",
+    "reason": "放大鏡偏調查,揭露是公開"
+  },
+  {
+    "word": "sponsor",
+    "mean": "贊助",
+    "current": "💰",
+    "suggested": "🤝",
+    "reason": "錢偏結果,贊助是合作關係"
+  },
+  {
+    "word": "endorsement",
+    "mean": "代言",
+    "current": "📢",
+    "suggested": "👍",
+    "reason": "喇叭偏宣傳,代言是背書"
+  },
+  {
+    "word": "strike",
+    "mean": "罷工",
+    "current": "📢",
+    "suggested": "✊",
+    "reason": "喇叭與其他抗議重複"
+  },
+  {
+    "word": "riot",
+    "mean": "暴動",
+    "current": "🔥",
+    "suggested": "💥",
+    "reason": "火偏單純,暴動是衝突"
+  },
+  {
+    "word": "deficit",
+    "mean": "熱量赤字",
+    "current": "📉",
+    "suggested": "➖",
+    "reason": "下降圖偏經濟"
+  },
+  {
+    "word": "surplus",
+    "mean": "熱量盈餘",
+    "current": "📈",
+    "suggested": "➕",
+    "reason": "上升圖偏經濟"
+  },
+  {
+    "word": "tracker",
+    "mean": "追蹤器",
+    "current": "⌚",
+    "suggested": "📍",
+    "reason": "手錶偏穿戴,追蹤器較廣"
+  },
+  {
+    "word": "bodyfat",
+    "mean": "體脂",
+    "current": "📊",
+    "suggested": "⚖️",
+    "reason": "圖表偏統計,體脂是測量值"
+  },
+  {
+    "word": "plates",
+    "mean": "槓片、盤子",
+    "current": "⚙️",
+    "suggested": "🍽️",
+    "reason": "齒輪不像槓片或盤子"
+  },
+  {
+    "word": "rack",
+    "mean": "深蹲架",
+    "current": "⚙️",
+    "suggested": "🏋️",
+    "reason": "齒輪太抽象"
+  },
+  {
+    "word": "alpha",
+    "mean": "早期測試",
+    "current": "🧪",
+    "suggested": "🅰️",
+    "reason": "與beta重複"
+  },
+  {
+    "word": "beta",
+    "mean": "測試版",
+    "current": "🧪",
+    "suggested": "🅱️",
+    "reason": "與alpha重複"
+  },
+  {
+    "word": "lobby",
+    "mean": "大廳",
+    "current": "🏨",
+    "suggested": "🛋️",
+    "reason": "飯店偏建築,大廳是內部空間"
+  },
+  {
+    "word": "ping",
+    "mean": "網路延遲",
+    "current": "📡",
+    "suggested": "📶",
+    "reason": "天線偏廣播,ping是信號"
+  },
+  {
+    "word": "graphics",
+    "mean": "畫面",
+    "current": "🖼️",
+    "suggested": "🎨",
+    "reason": "相框偏靜態,遊戲畫面動態"
+  },
+  {
+    "word": "patch",
+    "mean": "修補檔",
+    "current": "🩹",
+    "suggested": "🔧",
+    "reason": "OK繃偏醫療,軟體修補可用工具"
+  },
+  {
+    "word": "glitch",
+    "mean": "程式錯誤",
+    "current": "🐛",
+    "suggested": "⚠️",
+    "reason": "蟲已用於malware"
+  },
+  {
+    "word": "loot",
+    "mean": "戰利品",
+    "current": "💰",
+    "suggested": "💎",
+    "reason": "錢只是一種,戰利品多樣"
+  },
+  {
+    "word": "miniboss",
+    "mean": "小頭目",
+    "current": "👾",
+    "suggested": "👹",
+    "reason": "外星人偏可愛,小頭目較惡"
+  },
+  {
+    "word": "raid",
+    "mean": "突襲",
+    "current": "⚔️",
+    "suggested": "💥",
+    "reason": "與其他戰鬥字重複"
+  },
+  {
+    "word": "bingo",
+    "mean": "賓果",
+    "current": "🎯",
+    "suggested": "🎲",
+    "reason": "靶心偏目標,賓果是隨機"
+  },
+  {
+    "word": "hangman",
+    "mean": "猜字",
+    "current": "🪢",
+    "suggested": "🔤",
+    "reason": "繩結太字面,猜字應指字母"
+  },
+  {
+    "word": "settler",
+    "mean": "移居者",
+    "current": "🏘️",
+    "suggested": "🚶",
+    "reason": "房屋偏定居後,settler強調移居"
+  },
+  {
+    "word": "ruin",
+    "mean": "廢墟",
+    "current": "🏛️",
+    "suggested": "🏚️",
+    "reason": "古蹟柱子偏完整,廢墟應殘破"
+  },
+  {
+    "word": "abolition",
+    "mean": "廢除",
+    "current": "📜",
+    "suggested": "⛓️",
+    "reason": "卷軸偏文件,廢除是解除鎖鏈(廢奴)"
+  },
+  {
+    "word": "reform",
+    "mean": "改革",
+    "current": "🔄",
+    "suggested": "📜",
+    "reason": "循環偏交換,改革是政治變動"
+  },
+  {
+    "word": "holocaust",
+    "mean": "大屠殺",
+    "current": "😢",
+    "suggested": "💀",
+    "reason": "哭不足以表達"
+  },
+  {
+    "word": "genocide",
+    "mean": "種族滅絕",
+    "current": "😢",
+    "suggested": "💀",
+    "reason": "哭不足以表達"
+  },
+  {
+    "word": "sound",
+    "mean": "聲音、海峽",
+    "current": "🌊",
+    "suggested": "🔊",
+    "reason": "海浪偏海洋,sound主要是聲音"
+  },
+  {
+    "word": "polar",
+    "mean": "極地",
+    "current": "🐧",
+    "suggested": "❄️",
+    "reason": "企鵝偏動物,極地是地區"
+  },
+  {
+    "word": "antarctic",
+    "mean": "南極",
+    "current": "🐧",
+    "suggested": "🧊",
+    "reason": "企鵝是動物,南極是地區"
+  },
+  {
+    "word": "hemisphere",
+    "mean": "半球",
+    "current": "🌐",
+    "suggested": "🌗",
+    "reason": "地球儀完整,半球應是一半"
+  },
+  {
+    "word": "contemporary",
+    "mean": "當代",
+    "current": "🆕",
+    "suggested": "📅",
+    "reason": "新標籤偏產品,當代是時期"
+  },
+  {
+    "word": "empire",
+    "mean": "帝國",
+    "current": "👑",
+    "suggested": "🏰",
+    "reason": "皇冠偏王室,帝國應是疆域"
+  },
+  {
+    "word": "dynasty",
+    "mean": "王朝",
+    "current": "👑",
+    "suggested": "🏯",
+    "reason": "皇冠與多字重複"
+  },
+  {
+    "word": "succession",
+    "mean": "繼承",
+    "current": "👑",
+    "suggested": "🪑",
+    "reason": "皇冠與多字重複,繼承可用寶座"
+  },
+  {
+    "word": "abdication",
+    "mean": "退位",
+    "current": "👑",
+    "suggested": "👋",
+    "reason": "皇冠與多字重複,退位是讓出"
+  },
+  {
+    "word": "serf",
+    "mean": "農奴",
+    "current": "⛓️",
+    "suggested": "🌾",
+    "reason": "與slave重複,農奴強調務農"
+  },
+  {
+    "word": "cannon",
+    "mean": "大砲",
+    "current": "🛡️",
+    "suggested": "💣",
+    "reason": "盾牌是防禦,大砲是武器"
+  },
+  {
+    "word": "bayonet",
+    "mean": "刺刀",
+    "current": "🔪",
+    "suggested": "🗡️",
+    "reason": "廚刀不像刺刀,可用劍"
+  },
+  {
+    "word": "crusade",
+    "mean": "十字軍",
+    "current": "⚔️",
+    "suggested": "✝️",
+    "reason": "與多字重複,十字軍有宗教意涵"
+  },
+  {
+    "word": "thermodynamics",
+    "mean": "熱力學",
+    "current": "🔥",
+    "suggested": "🌡️",
+    "reason": "火偏熱,熱力學更精確"
+  },
+  {
+    "word": "relativity",
+    "mean": "相對論",
+    "current": "⏳",
+    "suggested": "🌌",
+    "reason": "沙漏偏時間流逝,相對論涉及時空"
+  },
+  {
+    "word": "polluted",
+    "mean": "被污染的",
+    "current": "🏭",
+    "suggested": "☣️",
+    "reason": "與pollution重複"
+  },
+  {
+    "word": "organic",
+    "mean": "有機",
+    "current": "🌱",
+    "suggested": "🥬",
+    "reason": "與多字重複,有機強調食物"
+  },
+  {
+    "word": "litter",
+    "mean": "亂丟垃圾",
+    "current": "🗑️",
+    "suggested": "🚮",
+    "reason": "與其他垃圾字重複,litter是行為"
+  },
+  {
+    "word": "junk",
+    "mean": "垃圾、廢物",
+    "current": "🗑️",
+    "suggested": "📦",
+    "reason": "與其他垃圾字重複"
+  },
+  {
+    "word": "dump",
+    "mean": "垃圾場",
+    "current": "🗑️",
+    "suggested": "🏚️",
+    "reason": "與其他垃圾字重複"
+  },
+  {
+    "word": "reuse",
+    "mean": "再利用",
+    "current": "♻️",
+    "suggested": "🔁",
+    "reason": "與recycle重複"
+  },
+  {
+    "word": "reduce",
+    "mean": "減量",
+    "current": "➖",
+    "suggested": "⬇️",
+    "reason": "減號太抽象,減量是減少"
+  },
+  {
+    "word": "acidrain",
+    "mean": "酸雨",
+    "current": "🌧️",
+    "suggested": "☔",
+    "reason": "普通下雨不夠"
+  },
+  {
+    "word": "preserve",
+    "mean": "保護",
+    "current": "🌿",
+    "suggested": "🛡️",
+    "reason": "葉子偏植物,保護是動作"
+  },
+  {
+    "word": "density",
+    "mean": "密度",
+    "current": "📊",
+    "suggested": "⚖️",
+    "reason": "圖表偏統計,密度是物理量"
+  },
+  {
+    "word": "nonrenewable",
+    "mean": "不可再生",
+    "current": "⚠️",
+    "suggested": "🛢️",
+    "reason": "警告太泛,不可再生指能源"
+  },
+  {
+    "word": "ecoconscious",
+    "mean": "環保意識",
+    "current": "🌱",
+    "suggested": "🧠",
+    "reason": "與多字重複"
+  },
+  {
+    "word": "ecotourism",
+    "mean": "生態旅遊",
+    "current": "🌿",
+    "suggested": "🏕️",
+    "reason": "與多字重複,旅遊是活動"
+  },
+  {
+    "word": "permaculture",
+    "mean": "永續農法",
+    "current": "🌱",
+    "suggested": "🌾",
+    "reason": "與多字重複,農法用作物"
+  },
+  {
+    "word": "plasma",
+    "mean": "電漿",
+    "current": "⚡",
+    "suggested": "🌟",
+    "reason": "電偏單純,電漿是物質狀態"
+  },
+  {
+    "word": "electrolysis",
+    "mean": "電解",
+    "current": "⚡",
+    "suggested": "🔋",
+    "reason": "閃電偏自然,電解是化學"
+  },
+  {
+    "word": "synapse",
+    "mean": "突觸",
+    "current": "⚡",
+    "suggested": "🧠",
+    "reason": "閃電偏自然,突觸在大腦"
+  },
+  {
+    "word": "kinetic",
+    "mean": "動能",
+    "current": "⚡",
+    "suggested": "💨",
+    "reason": "閃電偏電,動能是運動"
+  },
+  {
+    "word": "meteor",
+    "mean": "流星",
+    "current": "☄️",
+    "suggested": "🌠",
+    "reason": "彗星emoji與流星不同"
+  },
+  {
+    "word": "asteroid",
+    "mean": "小行星",
+    "current": "☄️",
+    "suggested": "🪨",
+    "reason": "彗星emoji與小行星不同"
+  },
+  {
+    "word": "continent",
+    "mean": "大陸",
+    "current": "🌍",
+    "suggested": "🗺️",
+    "reason": "地球與多字重複"
+  },
+  {
+    "word": "chatty",
+    "mean": "愛聊天",
+    "current": "💬",
+    "suggested": "🗨️",
+    "reason": "與talkative區分,💬重複多次"
+  },
+  {
+    "word": "abstract",
+    "mean": "抽象",
+    "current": "🎨",
+    "suggested": "🟦",
+    "reason": "調色盤是工具,抽象畫應顯抽象幾何"
+  },
+  {
+    "word": "impressionism",
+    "mean": "印象派",
+    "current": "🌅",
+    "suggested": "🖌️",
+    "reason": "日出籠統,藝術風格用畫筆"
+  },
+  {
+    "word": "prom",
+    "mean": "舞會",
+    "current": "💃",
+    "suggested": "👗",
+    "reason": "跳舞偏動作,prom是學校舞會"
+  },
+  {
+    "word": "sweet16",
+    "mean": "16歲生日",
+    "current": "🎂",
+    "suggested": "🎉",
+    "reason": "蛋糕只是生日,sweet16是特別慶祝"
+  },
+  {
+    "word": "reception",
+    "mean": "接待會",
+    "current": "🥂",
+    "suggested": "🤝",
+    "reason": "乾杯偏酒會,接待會涵蓋更廣"
+  },
+  {
+    "word": "breach",
+    "mean": "資料外洩",
+    "current": "🔓",
+    "suggested": "⚠️",
+    "reason": "開鎖與外洩有差"
+  },
+  {
+    "word": "audience",
+    "mean": "觀眾",
+    "current": "👥",
+    "suggested": "🎬",
+    "reason": "人群偏一般群眾,觀眾應有觀看意涵"
+  },
+  {
+    "word": "mod",
+    "mean": "模組",
+    "current": "⚙️",
+    "suggested": "🛠️",
+    "reason": "齒輪偏通用機械,mod偏改造"
+  },
+  {
+    "word": "rural",
+    "mean": "鄉村的",
+    "current": "🌾",
+    "suggested": "🏡",
+    "reason": "草穗偏農作物;鄉村感用小屋更貼"
+  },
+  {
+    "word": "whistle",
+    "mean": "哨子",
+    "current": "😗",
+    "suggested": "📯",
+    "reason": "吹口型臉與'哨子'物件不配;應用哨子相關器物"
+  },
+  {
+    "word": "hostage",
+    "mean": "人質",
+    "current": "🙇",
+    "suggested": "🆘",
+    "reason": "鞠躬與人質無關;用求救/捆綁意象更貼"
+  },
+  {
+    "word": "shoplifting",
+    "mean": "順手牽羊",
+    "current": "🛒",
+    "suggested": "🚔",
+    "reason": "購物車是合法購物;偷竊應與犯罪/手相關"
+  },
+  {
+    "word": "intruder",
+    "mean": "入侵者",
+    "current": "🚪",
+    "suggested": "🥷",
+    "reason": "門本身不是入侵者;用潛入者更貼"
+  },
+  {
+    "word": "trafficking",
+    "mean": "販運(人口/毒品)",
+    "current": "🚚",
+    "suggested": "🚔",
+    "reason": "卡車是合法運輸;人口/毒品販運是犯罪"
+  },
+  {
+    "word": "contraband",
+    "mean": "違禁品",
+    "current": "🚫",
+    "suggested": "📦",
+    "reason": "禁止標誌過於空泛;違禁品應為被走私的物品"
+  },
+  {
+    "word": "plea",
+    "mean": "答辯",
+    "current": "🙏",
+    "suggested": "⚖️",
+    "reason": "祈禱手與法庭答辯不符"
+  },
+  {
+    "word": "prenup",
+    "mean": "婚前協議",
+    "current": "💍",
+    "suggested": "📜",
+    "reason": "戒指代表婚禮本身;協議應是書面文件"
+  },
+  {
+    "word": "monism",
+    "mean": "一元論",
+    "current": "🟰",
+    "suggested": "1️⃣",
+    "reason": "等號表相等不表'一元';數字1更直接"
+  },
+  {
+    "word": "hedonism",
+    "mean": "享樂主義",
+    "current": "🎉",
+    "suggested": "🍷",
+    "reason": "🎉是慶祝事件;享樂哲學偏感官享受"
+  },
+  {
+    "word": "hedonist",
+    "mean": "享樂主義者",
+    "current": "🎉",
+    "suggested": "🍷",
+    "reason": "同上"
+  },
+  {
+    "word": "solipsism",
+    "mean": "唯我論",
+    "current": "👤",
+    "suggested": "🪞",
+    "reason": "剪影太泛;唯我論強調只有自己存在"
+  },
+  {
+    "word": "ego",
+    "mean": "自我",
+    "current": "🧠",
+    "suggested": "👤",
+    "reason": "腦袋偏意識/思考;ego更貼自我形象"
+  },
+  {
+    "word": "id",
+    "mean": "本我",
+    "current": "🧠",
+    "suggested": "😈",
+    "reason": "本我是原始衝動;單純腦袋不傳達衝動感"
+  },
+  {
+    "word": "cogito",
+    "mean": "我思故我在",
+    "current": "💭",
+    "suggested": "🤔",
+    "reason": "想法泡泡太泛;思考者形象更貼"
+  },
+  {
+    "word": "thrice",
+    "mean": "三次",
+    "current": "3️⃣",
+    "suggested": "🔁",
+    "reason": "3️⃣是數字3不是'三次/三遍'動作"
+  },
+  {
+    "word": "scarcely",
+    "mean": "幾乎不",
+    "current": "🙅",
+    "suggested": "❎",
+    "reason": "拒絕動作不是'幾乎不';應表程度極少"
+  },
+  {
+    "word": "rarely",
+    "mean": "很少",
+    "current": "🦄",
+    "suggested": "⏱️",
+    "reason": "獨角獸代表罕見之物不是頻率副詞;會誤導"
+  },
+  {
+    "word": "seldom",
+    "mean": "罕見地",
+    "current": "🦄",
+    "suggested": "⏱️",
+    "reason": "同上"
+  },
+  {
+    "word": "alas",
+    "mean": "唉",
+    "current": "😩",
+    "suggested": "😢",
+    "reason": "😩偏疲憊厭煩;alas是哀嘆;憂傷淚更貼"
+  },
+  {
+    "word": "amidst",
+    "mean": "在...之中",
+    "current": "🌀",
+    "suggested": "➕",
+    "reason": "漩渦不表'之中'位置介系詞"
+  },
+  {
+    "word": "deeply",
+    "mean": "深深地",
+    "current": "🌊",
+    "suggested": "⬇️",
+    "reason": "海浪是具象;'深深地'是程度副詞;深度箭頭更貼"
+  },
+  {
+    "word": "clearly",
+    "mean": "清楚地",
+    "current": "💎",
+    "suggested": "🔍",
+    "reason": "鑽石代表透明物;clearly是'明顯/清楚'語氣"
+  },
+  {
+    "word": "sublime",
+    "mean": "崇高的",
+    "current": "✨",
+    "suggested": "🏔️",
+    "reason": "閃光太泛;sublime指雄偉莊嚴"
+  },
+  {
+    "word": "ugliness",
+    "mean": "醜",
+    "current": "👹",
+    "suggested": "🤢",
+    "reason": "鬼怪臉偏邪惡而非醜陋"
+  },
+  {
+    "word": "verse",
+    "mean": "詩節",
+    "current": "📜",
+    "suggested": "🎵",
+    "reason": "卷軸與'章節'無關;詩節常伴音律"
+  },
+  {
+    "word": "meter",
+    "mean": "韻律",
+    "current": "📏",
+    "suggested": "🎵",
+    "reason": "尺規是長度單位;此處meter為詩歌韻律"
+  },
+  {
+    "word": "simile",
+    "mean": "明喻",
+    "current": "🔗",
+    "suggested": "💭",
+    "reason": "鎖鏈不傳達比喻意象"
+  },
+  {
+    "word": "limerick",
+    "mean": "打油詩",
+    "current": "😄",
+    "suggested": "📜",
+    "reason": "笑臉不是詩體;應為詩相關"
+  },
+  {
+    "word": "pun",
+    "mean": "雙關語",
+    "current": "😄",
+    "suggested": "💬",
+    "reason": "笑臉太泛;雙關語是語言遊戲"
+  },
+  {
+    "word": "mythology",
+    "mean": "神話學",
+    "current": "🐲",
+    "suggested": "📚",
+    "reason": "龍是神話內容物;神話'學'應為學科"
+  },
+  {
+    "word": "exploit",
+    "mean": "利用",
+    "current": "⛏️",
+    "suggested": "💰",
+    "reason": "鎬頭偏'開採資源';exploit多用於剝削/利用人/機會"
+  },
+  {
+    "word": "trigger",
+    "mean": "觸發",
+    "current": "🔫",
+    "suggested": "⚡",
+    "reason": "槍是字面扳機;'觸發'抽象意更貼閃電/開關"
+  },
+  {
+    "word": "levy",
+    "mean": "徵稅",
+    "current": "💰",
+    "suggested": "💵",
+    "reason": "錢袋太泛;徵稅應更具官方/稅金感"
+  },
+  {
+    "word": "check in",
+    "mean": "報到",
+    "current": "🏨",
+    "suggested": "✅",
+    "reason": "飯店圖示限定旅館;check in也用於機場/活動報到"
+  },
+  {
+    "word": "check out",
+    "mean": "退房",
+    "current": "🏨",
+    "suggested": "👋",
+    "reason": "同上"
+  },
+  {
+    "word": "feeling blue",
+    "mean": "感到憂鬱",
+    "current": "😔",
+    "suggested": "💙",
+    "reason": "片語字面是blue色;心情藍色心更直接"
+  },
+  {
+    "word": "in hot water",
+    "mean": "惹麻煩",
+    "current": "🔥",
+    "suggested": "♨️",
+    "reason": "片語字面是'熱水';火不對"
+  },
+  {
+    "word": "speak of the devil",
+    "mean": "說曹操曹操到",
+    "current": "😈",
+    "suggested": "👹",
+    "reason": "😈偏俏皮;devil的具象更貼"
+  },
+  {
+    "word": "long story short",
+    "mean": "長話短說",
+    "current": "📖",
+    "suggested": "✂️",
+    "reason": "書本不傳達'縮短'之意;剪刀代表精簡"
+  },
+  {
+    "word": "under the table",
+    "mean": "私底下",
+    "current": "🪑",
+    "suggested": "🤫",
+    "reason": "椅子無關;'私底下'是秘密的"
+  },
+  {
+    "word": "bug",
+    "mean": "蟲子",
+    "current": "🐾",
+    "suggested": "🐛",
+    "reason": "動物腳印太泛;蟲子應為毛毛蟲/甲蟲"
+  },
+  {
+    "word": "chick",
+    "mean": "小雞",
+    "current": "🐾",
+    "suggested": "🐥",
+    "reason": "應用小雞圖示"
+  },
+  {
+    "word": "duckling",
+    "mean": "小鴨",
+    "current": "🐾",
+    "suggested": "🦆",
+    "reason": "應為鴨子"
+  },
+  {
+    "word": "kitty",
+    "mean": "小貓",
+    "current": "🐾",
+    "suggested": "🐱",
+    "reason": "應為貓"
+  },
+  {
+    "word": "together",
+    "mean": "一起",
+    "current": "🔢",
+    "suggested": "🤝",
+    "reason": "數字與'一起'無關"
+  },
+  {
+    "word": "sweet potato",
+    "mean": "番薯",
+    "current": "🔗",
+    "suggested": "🍠",
+    "reason": "應為番薯"
+  },
+  {
+    "word": "bun",
+    "mean": "小圓麵包",
+    "current": "🍎",
+    "suggested": "🍞",
+    "reason": "蘋果與麵包不符"
+  },
+  {
+    "word": "steam",
+    "mean": "蒸汽",
+    "current": "🍎",
+    "suggested": "♨️",
+    "reason": "蘋果與蒸汽無關"
+  },
+  {
+    "word": "bean curd",
+    "mean": "豆腐",
+    "current": "🔗",
+    "suggested": "🫘",
+    "reason": "鎖鏈與豆腐無關"
+  },
+  {
+    "word": "wed",
+    "mean": "結婚",
+    "current": "💞",
+    "suggested": "💍",
+    "reason": "心更偏戀愛;結婚應用戒指"
+  },
+  {
+    "word": "air-conditioner",
+    "mean": "冷氣機",
+    "current": "🔨",
+    "suggested": "❄️",
+    "reason": "鎚子與冷氣不符"
+  },
+  {
+    "word": "burglar",
+    "mean": "夜賊",
+    "current": "🛋️",
+    "suggested": "🥷",
+    "reason": "沙發不表夜賊"
+  },
+  {
+    "word": "capture",
+    "mean": "捕獲",
+    "current": "🎓",
+    "suggested": "🪤",
+    "reason": "學士帽與捕獲不符"
+  },
+  {
+    "word": "dive",
+    "mean": "跳水",
+    "current": "🥤",
+    "suggested": "🤿",
+    "reason": "飲料與跳水無關"
+  },
+  {
+    "word": "motif",
+    "mean": "主題元素",
+    "current": "🎨",
+    "suggested": "🔁",
+    "reason": "motif強調反覆出現的主題元素;調色盤偏'藝術創作'"
+  },
+  {
+    "word": "cage",
+    "mean": "獸籠",
+    "current": "🏃",
+    "suggested": "🪤",
+    "reason": "奔跑人與獸籠無關"
+  },
+  {
+    "word": "call",
+    "mean": "呼叫",
+    "current": "🏃",
+    "suggested": "📞",
+    "reason": "奔跑人不表呼叫;打電話更貼"
+  },
+  {
+    "word": "cause",
+    "mean": "原因",
+    "current": "🏃",
+    "suggested": "❓",
+    "reason": "奔跑人與'原因'無關"
+  },
+  {
+    "word": "chief",
+    "mean": "領袖",
+    "current": "🏃",
+    "suggested": "👨‍💼",
+    "reason": "奔跑人不表領袖"
+  },
+  {
+    "word": "christmas",
+    "mean": "聖誕節",
+    "current": "🏃",
+    "suggested": "🎄",
+    "reason": "應為聖誕樹"
+  },
+  {
+    "word": "xmas",
+    "mean": "聖誕節",
+    "current": "🏃",
+    "suggested": "🎄",
+    "reason": "同上"
+  },
+  {
+    "word": "continue",
+    "mean": "繼續",
+    "current": "🏃",
+    "suggested": "▶️",
+    "reason": "奔跑人與'繼續'抽象意不貼"
+  },
+  {
+    "word": "correct",
+    "mean": "正確的",
+    "current": "🎨",
+    "suggested": "✅",
+    "reason": "調色盤不表正確"
+  },
+  {
+    "word": "cover",
+    "mean": "覆蓋",
+    "current": "🏃",
+    "suggested": "🛡️",
+    "reason": "奔跑人不表覆蓋"
+  },
+  {
+    "word": "dead",
+    "mean": "死的",
+    "current": "🎨",
+    "suggested": "💀",
+    "reason": "調色盤完全不配"
+  },
+  {
+    "word": "dear",
+    "mean": "親愛的",
+    "current": "🎨",
+    "suggested": "💗",
+    "reason": "調色盤不表親愛"
+  },
+  {
+    "word": "death",
+    "mean": "死亡",
+    "current": "🏃",
+    "suggested": "💀",
+    "reason": "奔跑人不表死亡"
+  },
+  {
+    "word": "difficult",
+    "mean": "困難的",
+    "current": "🎨",
+    "suggested": "😰",
+    "reason": "調色盤不表困難"
+  },
+  {
+    "word": "dig",
+    "mean": "挖",
+    "current": "🏃",
+    "suggested": "⛏️",
+    "reason": "奔跑人不表挖掘"
+  },
+  {
+    "word": "direct",
+    "mean": "指揮",
+    "current": "🏃",
+    "suggested": "👉",
+    "reason": "奔跑人不表指揮"
+  },
+  {
+    "word": "discover",
+    "mean": "發現",
+    "current": "🏃",
+    "suggested": "🔍",
+    "reason": "奔跑人不表發現"
+  },
+  {
+    "word": "buck",
+    "mean": "美元(俚)、公鹿",
+    "current": "🏃",
+    "suggested": "🦌",
+    "reason": "奔跑人不配;公鹿/美元更貼"
+  },
+  {
+    "word": "downstairs",
+    "mean": "樓下的",
+    "current": "🎨",
+    "suggested": "⬇️",
+    "reason": "調色盤不表樓下"
+  },
+  {
+    "word": "draw",
+    "mean": "畫",
+    "current": "🎨",
+    "suggested": "✏️",
+    "reason": "調色盤是顏色;畫畫應用筆"
+  },
+  {
+    "word": "during",
+    "mean": "在…期間",
+    "current": "🏃",
+    "suggested": "⏳",
+    "reason": "奔跑人不表時間期間"
+  },
+  {
+    "word": "ease",
+    "mean": "輕鬆",
+    "current": "🏃",
+    "suggested": "😌",
+    "reason": "奔跑人不表輕鬆"
+  },
+  {
+    "word": "else",
+    "mean": "其他",
+    "current": "🏃",
+    "suggested": "➕",
+    "reason": "奔跑人不表'其他'"
+  },
+  {
+    "word": "enter",
+    "mean": "進入",
+    "current": "🏃",
+    "suggested": "🚪",
+    "reason": "門更貼進入"
+  },
+  {
+    "word": "examine",
+    "mean": "檢查",
+    "current": "🎨",
+    "suggested": "🔍",
+    "reason": "調色盤不表檢查"
+  },
+  {
+    "word": "feed",
+    "mean": "餵食",
+    "current": "🏃",
+    "suggested": "🍼",
+    "reason": "奔跑人不表餵食"
+  },
+  {
+    "word": "feel",
+    "mean": "觸摸",
+    "current": "🏃",
+    "suggested": "🤚",
+    "reason": "奔跑人不表觸摸"
+  },
+  {
+    "word": "fill",
+    "mean": "填滿",
+    "current": "🏃",
+    "suggested": "🫗",
+    "reason": "奔跑人不表填滿"
+  },
+  {
+    "word": "follow",
+    "mean": "跟隨",
+    "current": "🏃",
+    "suggested": "👣",
+    "reason": "足跡更貼跟隨"
+  },
+  {
+    "word": "forget",
+    "mean": "忘記",
+    "current": "🏃",
+    "suggested": "🤦",
+    "reason": "奔跑人不表忘記"
+  },
+  {
+    "word": "fun",
+    "mean": "樂趣",
+    "current": "🏃",
+    "suggested": "😄",
+    "reason": "奔跑人不表樂趣"
+  },
+  {
+    "word": "grow",
+    "mean": "生長",
+    "current": "🏃",
+    "suggested": "🌱",
+    "reason": "奔跑人不表生長"
+  },
+  {
+    "word": "guess",
+    "mean": "猜測",
+    "current": "🏃",
+    "suggested": "🤔",
+    "reason": "奔跑人不表猜測"
+  },
+  {
+    "word": "gun",
+    "mean": "槍",
+    "current": "🏃",
+    "suggested": "🔫",
+    "reason": "應為槍"
+  },
+  {
+    "word": "haircut",
+    "mean": "理髮",
+    "current": "🏃",
+    "suggested": "💇",
+    "reason": "奔跑人不表理髮"
+  },
+  {
+    "word": "happen",
+    "mean": "發生",
+    "current": "🏃",
+    "suggested": "⚡",
+    "reason": "奔跑人不表發生"
+  },
+  {
+    "word": "hole",
+    "mean": "洞",
+    "current": "🏃",
+    "suggested": "🕳️",
+    "reason": "應為洞"
+  },
+  {
+    "word": "hungry",
+    "mean": "飢餓的",
+    "current": "🎨",
+    "suggested": "😋",
+    "reason": "調色盤不表飢餓"
+  },
+  {
+    "word": "important",
+    "mean": "重要的",
+    "current": "🎨",
+    "suggested": "⭐",
+    "reason": "調色盤不表重要"
+  },
+  {
+    "word": "inch",
+    "mean": "英吋",
+    "current": "🏃",
+    "suggested": "📏",
+    "reason": "應為尺規"
+  },
+  {
+    "word": "job",
+    "mean": "工作",
+    "current": "🏃",
+    "suggested": "💼",
+    "reason": "奔跑人不表工作"
+  },
+  {
+    "word": "join",
+    "mean": "參加",
+    "current": "🏃",
+    "suggested": "🤝",
+    "reason": "奔跑人不表參加"
+  },
+  {
+    "word": "joke",
+    "mean": "玩笑",
+    "current": "🏃",
+    "suggested": "😂",
+    "reason": "奔跑人不表玩笑"
+  },
+  {
+    "word": "keep",
+    "mean": "保有",
+    "current": "🏃",
+    "suggested": "🤲",
+    "reason": "奔跑人不表保有"
+  },
+  {
+    "word": "kill",
+    "mean": "殺死",
+    "current": "🏃",
+    "suggested": "🔪",
+    "reason": "奔跑人不表殺死"
+  },
+  {
+    "word": "lack",
+    "mean": "缺少",
+    "current": "🏃",
+    "suggested": "🚫",
+    "reason": "奔跑人不表缺少"
+  },
+  {
+    "word": "land",
+    "mean": "陸地",
+    "current": "🏃",
+    "suggested": "🌍",
+    "reason": "奔跑人不表陸地"
+  },
+  {
+    "word": "large",
+    "mean": "寬的",
+    "current": "🎨",
+    "suggested": "📏",
+    "reason": "調色盤不表寬大"
+  },
+  {
+    "word": "least",
+    "mean": "最小的",
+    "current": "🎨",
+    "suggested": "🔽",
+    "reason": "調色盤不表最小"
+  },
+  {
+    "word": "less",
+    "mean": "較少的",
+    "current": "🎨",
+    "suggested": "➖",
+    "reason": "調色盤不表較少"
+  },
+  {
+    "word": "let",
+    "mean": "讓",
+    "current": "🏃",
+    "suggested": "👌",
+    "reason": "奔跑人不表讓"
+  },
+  {
+    "word": "likely",
+    "mean": "很可能的",
+    "current": "🎨",
+    "suggested": "🎲",
+    "reason": "調色盤不表機率"
+  },
+  {
+    "word": "little",
+    "mean": "小的",
+    "current": "🏃",
+    "suggested": "🔽",
+    "reason": "奔跑人不表小"
+  },
+  {
+    "word": "lucky",
+    "mean": "幸運的",
+    "current": "🎨",
+    "suggested": "🍀",
+    "reason": "調色盤不表幸運"
+  },
+  {
+    "word": "marry",
+    "mean": "嫁娶",
+    "current": "🏃",
+    "suggested": "💍",
+    "reason": "奔跑人不表結婚"
+  },
+  {
+    "word": "me",
+    "mean": "我",
+    "current": "🏃",
+    "suggested": "🙋",
+    "reason": "奔跑人不表'我'"
+  },
+  {
+    "word": "meet",
+    "mean": "遇見",
+    "current": "🏃",
+    "suggested": "🤝",
+    "reason": "奔跑人不表遇見"
+  },
+  {
+    "word": "mile",
+    "mean": "英里",
+    "current": "🏃",
+    "suggested": "📏",
+    "reason": "奔跑人不表距離單位"
+  },
+  {
+    "word": "mistake",
+    "mean": "錯誤",
+    "current": "🏃",
+    "suggested": "❌",
+    "reason": "奔跑人不表錯誤"
+  },
+  {
+    "word": "more",
+    "mean": "更多",
+    "current": "🏃",
+    "suggested": "➕",
+    "reason": "奔跑人不表更多"
+  },
+  {
+    "word": "mister",
+    "mean": "先生",
+    "current": "🏃",
+    "suggested": "👨",
+    "reason": "奔跑人不表先生"
+  },
+  {
+    "word": "my",
+    "mean": "我的",
+    "current": "🎨",
+    "suggested": "🙋",
+    "reason": "調色盤不表'我的'"
+  },
+  {
+    "word": "no",
+    "mean": "不是",
+    "current": "🏃",
+    "suggested": "🙅",
+    "reason": "奔跑人不表否定"
+  },
+  {
+    "word": "nope",
+    "mean": "不是",
+    "current": "🏃",
+    "suggested": "🙅",
+    "reason": "同上"
+  },
+  {
+    "word": "nor",
+    "mean": "也不",
+    "current": "🏃",
+    "suggested": "🚫",
+    "reason": "奔跑人不表否定"
+  },
+  {
+    "word": "not",
+    "mean": "不",
+    "current": "🏃",
+    "suggested": "❌",
+    "reason": "奔跑人不表否定"
+  },
+  {
+    "word": "nothing",
+    "mean": "沒什麼",
+    "current": "🏃",
+    "suggested": "🚫",
+    "reason": "奔跑人不表'沒什麼'"
+  },
+  {
+    "word": "notice",
+    "mean": "注意",
+    "current": "🏃",
+    "suggested": "👀",
+    "reason": "奔跑人不表注意"
+  },
+  {
+    "word": "own",
+    "mean": "自己的",
+    "current": "🏃",
+    "suggested": "🫳",
+    "reason": "奔跑人不表擁有/自己的"
+  },
+  {
+    "word": "page",
+    "mean": "頁",
+    "current": "🏃",
+    "suggested": "📄",
+    "reason": "應為頁面"
+  },
+  {
+    "word": "plant",
+    "mean": "植物",
+    "current": "🎨",
+    "suggested": "🌱",
+    "reason": "調色盤不表植物"
+  },
+  {
+    "word": "possible",
+    "mean": "可能的",
+    "current": "🎨",
+    "suggested": "❓",
+    "reason": "調色盤不表可能"
+  },
+  {
+    "word": "practice",
+    "mean": "練習",
+    "current": "🏃",
+    "suggested": "📝",
+    "reason": "奔跑人不表練習"
+  },
+  {
+    "word": "prepare",
+    "mean": "準備",
+    "current": "🏃",
+    "suggested": "📋",
+    "reason": "奔跑人不表準備"
+  },
+  {
+    "word": "prove",
+    "mean": "證明",
+    "current": "🏃",
+    "suggested": "✅",
+    "reason": "奔跑人不表證明"
+  },
+  {
+    "word": "public",
+    "mean": "公眾的",
+    "current": "🎨",
+    "suggested": "👥",
+    "reason": "調色盤不表公眾"
+  },
+  {
+    "word": "remember",
+    "mean": "記得",
+    "current": "🏃",
+    "suggested": "🧠",
+    "reason": "奔跑人不表記得"
+  },
+  {
+    "word": "rest",
+    "mean": "休息",
+    "current": "🏃",
+    "suggested": "😴",
+    "reason": "奔跑人與休息相反"
+  },
+  {
+    "word": "rise",
+    "mean": "上升",
+    "current": "🏃",
+    "suggested": "⬆️",
+    "reason": "奔跑人不表上升"
+  },
+  {
+    "word": "roll",
+    "mean": "滾動",
+    "current": "🏃",
+    "suggested": "🌀",
+    "reason": "奔跑人不表滾動"
+  },
+  {
+    "word": "room",
+    "mean": "房間",
+    "current": "🏃",
+    "suggested": "🚪",
+    "reason": "奔跑人不表房間"
+  },
+  {
+    "word": "rub",
+    "mean": "摩擦",
+    "current": "🏃",
+    "suggested": "🤚",
+    "reason": "奔跑人不表摩擦"
+  },
+  {
+    "word": "sail",
+    "mean": "航行",
+    "current": "🏃",
+    "suggested": "⛵",
+    "reason": "奔跑人不表航行"
+  },
+  {
+    "word": "seem",
+    "mean": "似乎",
+    "current": "🏃",
+    "suggested": "🤔",
+    "reason": "奔跑人不表似乎"
+  },
+  {
+    "word": "sense",
+    "mean": "感官",
+    "current": "🏃",
+    "suggested": "🧠",
+    "reason": "奔跑人不表感官"
+  },
+  {
+    "word": "serve",
+    "mean": "為…服務",
+    "current": "🏃",
+    "suggested": "🤝",
+    "reason": "奔跑人不表服務"
+  },
+  {
+    "word": "shall",
+    "mean": "將、會",
+    "current": "🏃",
+    "suggested": "➡️",
+    "reason": "奔跑人不表助動詞"
+  },
+  {
+    "word": "shine",
+    "mean": "發光",
+    "current": "🎨",
+    "suggested": "✨",
+    "reason": "調色盤不表發光"
+  },
+  {
+    "word": "shout",
+    "mean": "呼喊",
+    "current": "🏃",
+    "suggested": "📢",
+    "reason": "奔跑人不表呼喊"
+  },
+  {
+    "word": "shut",
+    "mean": "關上",
+    "current": "🏃",
+    "suggested": "🔒",
+    "reason": "奔跑人不表關上"
+  },
+  {
+    "word": "sight",
+    "mean": "視界",
+    "current": "🏃",
+    "suggested": "👁️",
+    "reason": "奔跑人不表視界"
+  },
+  {
+    "word": "smell",
+    "mean": "聞",
+    "current": "🏃",
+    "suggested": "👃",
+    "reason": "奔跑人不表聞"
+  },
+  {
+    "word": "space",
+    "mean": "空間",
+    "current": "🏃",
+    "suggested": "🌌",
+    "reason": "奔跑人不表空間"
+  },
+  {
+    "word": "spell",
+    "mean": "拼寫",
+    "current": "🏃",
+    "suggested": "🔤",
+    "reason": "奔跑人不表拼寫"
+  },
+  {
+    "word": "stay",
+    "mean": "停留",
+    "current": "🏃",
+    "suggested": "🛑",
+    "reason": "奔跑人與停留相反"
+  },
+  {
+    "word": "such",
+    "mean": "如此的",
+    "current": "🎨",
+    "suggested": "☝️",
+    "reason": "調色盤不表'如此'"
+  },
+  {
+    "word": "super",
+    "mean": "極度的",
+    "current": "🎨",
+    "suggested": "💯",
+    "reason": "調色盤不表極度"
+  },
+  {
+    "word": "sure",
+    "mean": "確信的",
+    "current": "🏃",
+    "suggested": "✅",
+    "reason": "奔跑人不表確信"
+  },
+  {
+    "word": "tail",
+    "mean": "尾巴",
+    "current": "🏃",
+    "suggested": "🐕",
+    "reason": "奔跑人不表尾巴"
+  },
+  {
+    "word": "tale",
+    "mean": "故事",
+    "current": "🏃",
+    "suggested": "📖",
+    "reason": "奔跑人不表故事"
+  },
+  {
+    "word": "taste",
+    "mean": "嚐",
+    "current": "🏃",
+    "suggested": "👅",
+    "reason": "奔跑人不表嚐"
+  },
+  {
+    "word": "tire",
+    "mean": "輪胎",
+    "current": "🏃",
+    "suggested": "🛞",
+    "reason": "奔跑人不表輪胎"
+  },
+  {
+    "word": "touch",
+    "mean": "觸摸",
+    "current": "🏃",
+    "suggested": "🤚",
+    "reason": "奔跑人不表觸摸"
+  },
+  {
+    "word": "t-shirt",
+    "mean": "短袖圓領汗衫",
+    "current": "🏃",
+    "suggested": "👕",
+    "reason": "應為衣服"
+  },
+  {
+    "word": "tummy",
+    "mean": "肚子",
+    "current": "🏃",
+    "suggested": "🤰",
+    "reason": "奔跑人不表肚子"
+  },
+  {
+    "word": "understand",
+    "mean": "理解",
+    "current": "🏃",
+    "suggested": "💡",
+    "reason": "奔跑人不表理解"
+  },
+  {
+    "word": "unit",
+    "mean": "單位",
+    "current": "🏃",
+    "suggested": "📦",
+    "reason": "奔跑人不表單位"
+  },
+  {
+    "word": "till",
+    "mean": "直到…為止",
+    "current": "🏃",
+    "suggested": "⏳",
+    "reason": "奔跑人不表時間"
+  },
+  {
+    "word": "upstairs",
+    "mean": "在樓上",
+    "current": "🏃",
+    "suggested": "⬆️",
+    "reason": "奔跑人不表樓上"
+  },
+  {
+    "word": "useful",
+    "mean": "有用的",
+    "current": "🎨",
+    "suggested": "👍",
+    "reason": "調色盤不表有用"
+  },
+  {
+    "word": "view",
+    "mean": "視野",
+    "current": "🏃",
+    "suggested": "👁️",
+    "reason": "奔跑人不表視野"
+  },
+  {
+    "word": "voice",
+    "mean": "聲音",
+    "current": "🏃",
+    "suggested": "🗣️",
+    "reason": "奔跑人不表聲音"
+  },
+  {
+    "word": "wear",
+    "mean": "穿",
+    "current": "🏃",
+    "suggested": "👕",
+    "reason": "奔跑人不表穿"
+  },
+  {
+    "word": "weigh",
+    "mean": "秤…的重量",
+    "current": "🏃",
+    "suggested": "⚖️",
+    "reason": "奔跑人不表秤重"
+  },
+  {
+    "word": "weight",
+    "mean": "重量",
+    "current": "🏃",
+    "suggested": "⚖️",
+    "reason": "奔跑人不表重量"
+  },
+  {
+    "word": "win",
+    "mean": "贏",
+    "current": "🏃",
+    "suggested": "🏆",
+    "reason": "奔跑人不表贏"
+  },
+  {
+    "word": "worry",
+    "mean": "使擔心",
+    "current": "🏃",
+    "suggested": "😟",
+    "reason": "奔跑人不表擔心"
+  },
+  {
+    "word": "worse",
+    "mean": "更壞的",
+    "current": "🎨",
+    "suggested": "👎",
+    "reason": "調色盤不表更壞"
+  },
+  {
+    "word": "worst",
+    "mean": "最壞的",
+    "current": "🎨",
+    "suggested": "👎",
+    "reason": "調色盤不表最壞"
+  },
+  {
+    "word": "yes",
+    "mean": "是",
+    "current": "🏃",
+    "suggested": "✅",
+    "reason": "奔跑人不表肯定"
+  },
+  {
+    "word": "yeah",
+    "mean": "是",
+    "current": "🏃",
+    "suggested": "✅",
+    "reason": "同上"
+  },
+  {
+    "word": "yucky",
+    "mean": "噁心的",
+    "current": "🎨",
+    "suggested": "🤢",
+    "reason": "調色盤不表噁心"
+  },
+  {
+    "word": "airline",
+    "mean": "航線",
+    "current": "🎨",
+    "suggested": "✈️",
+    "reason": "調色盤不表航線"
+  },
+  {
+    "word": "alike",
+    "mean": "相同的",
+    "current": "🎨",
+    "suggested": "🟰",
+    "reason": "調色盤不表相同"
+  },
+  {
+    "word": "alive",
+    "mean": "活著的",
+    "current": "🎨",
+    "suggested": "💗",
+    "reason": "調色盤不表活著"
+  },
+  {
+    "word": "aloud",
+    "mean": "大聲地",
+    "current": "🎨",
+    "suggested": "📢",
+    "reason": "調色盤不表大聲"
+  },
+  {
+    "word": "anytime",
+    "mean": "任何時候",
+    "current": "🏃",
+    "suggested": "⏰",
+    "reason": "奔跑人不表時間"
+  },
+  {
+    "word": "anyplace",
+    "mean": "在任何地方",
+    "current": "🏃",
+    "suggested": "📍",
+    "reason": "奔跑人不表地點"
+  },
+  {
+    "word": "appetite",
+    "mean": "食慾",
+    "current": "🏃",
+    "suggested": "😋",
+    "reason": "奔跑人不表食慾"
+  },
+  {
+    "word": "arrive",
+    "mean": "到達",
+    "current": "🎨",
+    "suggested": "🛬",
+    "reason": "調色盤不表到達"
+  },
+  {
+    "word": "asleep",
+    "mean": "睡著的",
+    "current": "🎨",
+    "suggested": "😴",
+    "reason": "調色盤不表睡著"
+  },
+  {
+    "word": "attack",
+    "mean": "襲擊",
+    "current": "🏃",
+    "suggested": "⚔️",
+    "reason": "奔跑人不表襲擊"
+  },
+  {
+    "word": "attend",
+    "mean": "出席",
+    "current": "🏃",
+    "suggested": "🙋",
+    "reason": "奔跑人不表出席"
+  },
+  {
+    "word": "avoid",
+    "mean": "避開",
+    "current": "🏃",
+    "suggested": "🚫",
+    "reason": "奔跑人不表避開"
+  },
+  {
+    "word": "baby-sit",
+    "mean": "當臨時保姆",
+    "current": "🏃",
+    "suggested": "👶",
+    "reason": "奔跑人不表照顧嬰兒"
+  },
+  {
+    "word": "bamboo",
+    "mean": "竹子",
+    "current": "🏃",
+    "suggested": "🎋",
+    "reason": "應為竹子"
+  },
+  {
+    "word": "basics",
+    "mean": "基礎的",
+    "current": "🎨",
+    "suggested": "🧱",
+    "reason": "調色盤不表基礎"
+  },
+  {
+    "word": "basis",
+    "mean": "基礎",
+    "current": "🏃",
+    "suggested": "🧱",
+    "reason": "奔跑人不表基礎"
+  },
+  {
+    "word": "bead",
+    "mean": "有孔小珠",
+    "current": "🏃",
+    "suggested": "📿",
+    "reason": "奔跑人不表珠子"
+  },
+  {
+    "word": "beep",
+    "mean": "嗶嗶的聲音",
+    "current": "🏃",
+    "suggested": "🔔",
+    "reason": "奔跑人不表聲音"
+  },
+  {
+    "word": "beg",
+    "mean": "乞討",
+    "current": "🏃",
+    "suggested": "🙏",
+    "reason": "奔跑人不表乞討"
+  },
+  {
+    "word": "believable",
+    "mean": "可信的",
+    "current": "🎨",
+    "suggested": "✅",
+    "reason": "調色盤不表可信"
+  },
+  {
+    "word": "bet",
+    "mean": "打賭",
+    "current": "🏃",
+    "suggested": "🎲",
+    "reason": "奔跑人不表打賭"
+  },
+  {
+    "word": "bind",
+    "mean": "捆",
+    "current": "🏃",
+    "suggested": "🪢",
+    "reason": "奔跑人不表捆綁"
+  },
+  {
+    "word": "blank",
+    "mean": "空白的",
+    "current": "🎨",
+    "suggested": "⬜",
+    "reason": "調色盤不表空白"
+  },
+  {
+    "word": "blind",
+    "mean": "瞎的",
+    "current": "🎨",
+    "suggested": "🦯",
+    "reason": "調色盤不表瞎"
+  },
+  {
+    "word": "bloody",
+    "mean": "流血的",
+    "current": "🎨",
+    "suggested": "🩸",
+    "reason": "調色盤不表流血"
+  },
+  {
+    "word": "boil",
+    "mean": "沸騰",
+    "current": "🏃",
+    "suggested": "♨️",
+    "reason": "奔跑人不表沸騰"
+  },
+  {
+    "word": "bony",
+    "mean": "骨的",
+    "current": "🎨",
+    "suggested": "🦴",
+    "reason": "調色盤不表骨"
+  },
+  {
+    "word": "bother",
+    "mean": "打攪",
+    "current": "🏃",
+    "suggested": "😤",
+    "reason": "奔跑人不表打攪"
+  },
+  {
+    "word": "broad",
+    "mean": "寬的",
+    "current": "🎨",
+    "suggested": "📏",
+    "reason": "調色盤不表寬"
+  },
+  {
+    "word": "bundle",
+    "mean": "捆",
+    "current": "🏃",
+    "suggested": "📦",
+    "reason": "奔跑人不表捆"
+  },
+  {
+    "word": "burst",
+    "mean": "爆炸",
+    "current": "🏃",
+    "suggested": "💥",
+    "reason": "奔跑人不表爆炸"
+  },
+  {
+    "word": "cancel",
+    "mean": "取消",
+    "current": "🏃",
+    "suggested": "❌",
+    "reason": "奔跑人不表取消"
+  },
+  {
+    "word": "cassette",
+    "mean": "卡式錄音帶",
+    "current": "🏃",
+    "suggested": "📼",
+    "reason": "應為卡帶"
+  },
+  {
+    "word": "central",
+    "mean": "中心的",
+    "current": "🎨",
+    "suggested": "🎯",
+    "reason": "調色盤不表中心"
+  },
+  {
+    "word": "cheat",
+    "mean": "欺騙",
+    "current": "🏃",
+    "suggested": "🤥",
+    "reason": "奔跑人不表欺騙"
+  },
+  {
+    "word": "childlike",
+    "mean": "天真的",
+    "current": "🎨",
+    "suggested": "😇",
+    "reason": "調色盤不表天真"
+  },
+  {
+    "word": "choice",
+    "mean": "選擇",
+    "current": "🏃",
+    "suggested": "🤷",
+    "reason": "奔跑人不表選擇"
+  },
+  {
+    "word": "clap",
+    "mean": "拍",
+    "current": "🏃",
+    "suggested": "👏",
+    "reason": "應為拍手"
+  },
+  {
+    "word": "claw",
+    "mean": "腳爪",
+    "current": "🏃",
+    "suggested": "🐾",
+    "reason": "奔跑人不表爪"
+  },
+  {
+    "word": "clothes",
+    "mean": "服裝",
+    "current": "🏃",
+    "suggested": "👕",
+    "reason": "奔跑人不表服裝"
+  },
+  {
+    "word": "clown",
+    "mean": "小丑",
+    "current": "🏃",
+    "suggested": "🤡",
+    "reason": "應為小丑"
+  },
+  {
+    "word": "coal",
+    "mean": "煤",
+    "current": "🏃",
+    "suggested": "🪨",
+    "reason": "奔跑人不表煤"
+  },
+  {
+    "word": "collect",
+    "mean": "收集",
+    "current": "🏃",
+    "suggested": "📥",
+    "reason": "奔跑人不表收集"
+  },
+  {
+    "word": "comfortable",
+    "mean": "舒適的",
+    "current": "🎨",
+    "suggested": "😌",
+    "reason": "調色盤不表舒適"
+  },
+  {
+    "word": "compare",
+    "mean": "比較",
+    "current": "🏃",
+    "suggested": "⚖️",
+    "reason": "奔跑人不表比較"
+  },
+  {
+    "word": "complain",
+    "mean": "抱怨",
+    "current": "🏃",
+    "suggested": "😤",
+    "reason": "奔跑人不表抱怨"
+  },
+  {
+    "word": "complete",
+    "mean": "完成",
+    "current": "🏃",
+    "suggested": "✅",
+    "reason": "奔跑人不表完成"
+  },
+  {
+    "word": "confucius",
+    "mean": "孔子",
+    "current": "🏃",
+    "suggested": "📜",
+    "reason": "奔跑人不表孔子"
+  },
+  {
+    "word": "consider",
+    "mean": "考慮",
+    "current": "🏃",
+    "suggested": "🤔",
+    "reason": "奔跑人不表考慮"
+  },
+  {
+    "word": "contain",
+    "mean": "包含",
+    "current": "🏃",
+    "suggested": "📦",
+    "reason": "奔跑人不表包含"
+  },
+  {
+    "word": "control",
+    "mean": "控制",
+    "current": "🏃",
+    "suggested": "🎛️",
+    "reason": "奔跑人不表控制"
+  },
+  {
+    "word": "shoot",
+    "mean": "發射",
+    "current": "🏃",
+    "suggested": "🔫",
+    "reason": "奔跑人不表發射"
+  },
+  {
+    "word": "sign",
+    "mean": "招牌",
+    "current": "🏃",
+    "suggested": "🪧",
+    "reason": "奔跑人不表招牌"
+  },
+  {
+    "word": "skillful",
+    "mean": "熟練的",
+    "current": "🎨",
+    "suggested": "💪",
+    "reason": "調色盤不表熟練"
+  },
+  {
+    "word": "skilled",
+    "mean": "熟練的",
+    "current": "🎨",
+    "suggested": "💪",
+    "reason": "同上"
+  },
+  {
+    "word": "sleepy",
+    "mean": "想睡的",
+    "current": "🎨",
+    "suggested": "😴",
+    "reason": "調色盤不表想睡"
+  },
+  {
+    "word": "slip",
+    "mean": "滑行",
+    "current": "🏃",
+    "suggested": "🛝",
+    "reason": "奔跑人不表滑行"
+  },
+  {
+    "word": "society",
+    "mean": "社會",
+    "current": "🏃",
+    "suggested": "👥",
+    "reason": "奔跑人不表社會"
+  },
+  {
+    "word": "solve",
+    "mean": "解決",
+    "current": "🏃",
+    "suggested": "✅",
+    "reason": "奔跑人不表解決"
+  },
+  {
+    "word": "soy",
+    "mean": "大豆",
+    "current": "🏃",
+    "suggested": "🫘",
+    "reason": "奔跑人不表大豆"
+  },
+  {
+    "word": "spot",
+    "mean": "斑點",
+    "current": "🏃",
+    "suggested": "⚫",
+    "reason": "奔跑人不表斑點"
+  },
+  {
+    "word": "spread",
+    "mean": "伸展",
+    "current": "🏃",
+    "suggested": "↔️",
+    "reason": "奔跑人不表伸展"
+  },
+  {
+    "word": "stage",
+    "mean": "舞臺",
+    "current": "🏃",
+    "suggested": "🎭",
+    "reason": "奔跑人不表舞臺"
+  },
+  {
+    "word": "stamp",
+    "mean": "郵票",
+    "current": "🏃",
+    "suggested": "📮",
+    "reason": "奔跑人不表郵票"
+  },
+  {
+    "word": "standard",
+    "mean": "標準",
+    "current": "🏃",
+    "suggested": "📏",
+    "reason": "奔跑人不表標準"
+  },
+  {
+    "word": "steal",
+    "mean": "竊取",
+    "current": "🏃",
+    "suggested": "🥷",
+    "reason": "奔跑人不表竊取"
+  },
+  {
+    "word": "stick",
+    "mean": "棒狀物",
+    "current": "🏃",
+    "suggested": "🪵",
+    "reason": "奔跑人不表棒"
+  },
+  {
+    "word": "stove",
+    "mean": "火爐",
+    "current": "🏃",
+    "suggested": "🔥",
+    "reason": "奔跑人不表火爐"
+  },
+  {
+    "word": "strict",
+    "mean": "嚴格的",
+    "current": "🎨",
+    "suggested": "😠",
+    "reason": "調色盤不表嚴格"
+  },
+  {
+    "word": "succeed",
+    "mean": "成功",
+    "current": "🏃",
+    "suggested": "🏆",
+    "reason": "奔跑人不表成功"
+  },
+  {
+    "word": "surface",
+    "mean": "表面",
+    "current": "🏃",
+    "suggested": "🟦",
+    "reason": "奔跑人不表表面"
+  },
+  {
+    "word": "sweep",
+    "mean": "清掃",
+    "current": "🏃",
+    "suggested": "🧹",
+    "reason": "奔跑人不表清掃"
+  },
+  {
+    "word": "talent",
+    "mean": "才能",
+    "current": "🎨",
+    "suggested": "🌟",
+    "reason": "調色盤不表才能"
+  },
+  {
+    "word": "tank",
+    "mean": "槽",
+    "current": "🏃",
+    "suggested": "🛢️",
+    "reason": "奔跑人不表槽"
+  },
+  {
+    "word": "teenage",
+    "mean": "青少年時期",
+    "current": "🏃",
+    "suggested": "🧑",
+    "reason": "奔跑人不表青少年"
+  },
+  {
+    "word": "teenager",
+    "mean": "青年",
+    "current": "🏃",
+    "suggested": "🧑",
+    "reason": "奔跑人不表青年"
+  },
+  {
+    "word": "tent",
+    "mean": "帳篷",
+    "current": "🏃",
+    "suggested": "⛺",
+    "reason": "應為帳篷"
+  },
+  {
+    "word": "terrific",
+    "mean": "極佳的",
+    "current": "🎨",
+    "suggested": "👍",
+    "reason": "調色盤不表極佳"
+  },
+  {
+    "word": "title",
+    "mean": "標題",
+    "current": "🏃",
+    "suggested": "📌",
+    "reason": "奔跑人不表標題"
+  },
+  {
+    "word": "tofu",
+    "mean": "豆腐",
+    "current": "🏃",
+    "suggested": "🍱",
+    "reason": "奔跑人不表豆腐"
+  },
+  {
+    "word": "trap",
+    "mean": "陷阱",
+    "current": "🏃",
+    "suggested": "🪤",
+    "reason": "應為捕鼠器"
+  },
+  {
+    "word": "trick",
+    "mean": "詭計",
+    "current": "🏃",
+    "suggested": "🎩",
+    "reason": "奔跑人不表詭計"
+  },
+  {
+    "word": "tube",
+    "mean": "管",
+    "current": "🏃",
+    "suggested": "🥤",
+    "reason": "奔跑人不表管"
+  },
+  {
+    "word": "tunnel",
+    "mean": "隧道",
+    "current": "🏃",
+    "suggested": "🕳️",
+    "reason": "奔跑人不表隧道"
+  },
+  {
+    "word": "upon",
+    "mean": "在……之上",
+    "current": "🏃",
+    "suggested": "⬆️",
+    "reason": "奔跑人不表介系詞"
+  },
+  {
+    "word": "upper",
+    "mean": "上面的",
+    "current": "🎨",
+    "suggested": "⬆️",
+    "reason": "調色盤不表上面"
+  },
+  {
+    "word": "used",
+    "mean": "舊的",
+    "current": "🎨",
+    "suggested": "♻️",
+    "reason": "調色盤不表舊"
+  },
+  {
+    "word": "usual",
+    "mean": "平常的",
+    "current": "🎨",
+    "suggested": "📅",
+    "reason": "調色盤不表平常"
+  },
+  {
+    "word": "wheel",
+    "mean": "輪子",
+    "current": "🏃",
+    "suggested": "🛞",
+    "reason": "應為輪"
+  },
+  {
+    "word": "whisper",
+    "mean": "耳語",
+    "current": "🏃",
+    "suggested": "🤫",
+    "reason": "奔跑人不表耳語"
+  },
+  {
+    "word": "widen",
+    "mean": "擴大",
+    "current": "🏃",
+    "suggested": "↔️",
+    "reason": "奔跑人不表擴大"
+  },
+  {
+    "word": "wild",
+    "mean": "野生的",
+    "current": "🎨",
+    "suggested": "🦁",
+    "reason": "調色盤不表野生"
+  },
+  {
+    "word": "willing",
+    "mean": "願意的",
+    "current": "🎨",
+    "suggested": "🙋",
+    "reason": "調色盤不表願意"
+  },
+  {
+    "word": "wing",
+    "mean": "翅膀",
+    "current": "🏃",
+    "suggested": "🪽",
+    "reason": "奔跑人不表翅膀"
+  },
+  {
+    "word": "wooden",
+    "mean": "木製的",
+    "current": "🎨",
+    "suggested": "🪵",
+    "reason": "調色盤不表木"
+  },
+  {
+    "word": "worth",
+    "mean": "有價值",
+    "current": "🏃",
+    "suggested": "💎",
+    "reason": "奔跑人不表價值"
+  },
+  {
+    "word": "wound",
+    "mean": "傷口",
+    "current": "🏃",
+    "suggested": "🩹",
+    "reason": "奔跑人不表傷口"
+  },
+  {
+    "word": "acceptable",
+    "mean": "可接受的",
+    "current": "🎨",
+    "suggested": "✅",
+    "reason": "調色盤不表可接受"
+  },
+  {
+    "word": "achievement",
+    "mean": "成就",
+    "current": "🎨",
+    "suggested": "🏆",
+    "reason": "調色盤不表成就"
+  },
+  {
+    "word": "actual",
+    "mean": "實際的",
+    "current": "🎨",
+    "suggested": "💯",
+    "reason": "調色盤不表實際"
+  },
+  {
+    "word": "additional",
+    "mean": "額外的",
+    "current": "🎨",
+    "suggested": "➕",
+    "reason": "調色盤不表額外"
+  },
+  {
+    "word": "admire",
+    "mean": "欽佩",
+    "current": "🏃",
+    "suggested": "🤩",
+    "reason": "奔跑人不表欽佩"
+  },
+  {
+    "word": "admit",
+    "mean": "承認",
+    "current": "🏃",
+    "suggested": "🙋",
+    "reason": "奔跑人不表承認"
+  },
+  {
+    "word": "adopt",
+    "mean": "採取",
+    "current": "🏃",
+    "suggested": "🤝",
+    "reason": "奔跑人不表採取"
+  },
+  {
+    "word": "advanced",
+    "mean": "先進的",
+    "current": "🎨",
+    "suggested": "🚀",
+    "reason": "調色盤不表先進"
+  },
+  {
+    "word": "advantage",
+    "mean": "優點",
+    "current": "🏃",
+    "suggested": "👍",
+    "reason": "奔跑人不表優點"
+  },
+  {
+    "word": "advice",
+    "mean": "勸告",
+    "current": "🏃",
+    "suggested": "💡",
+    "reason": "奔跑人不表勸告"
+  },
+  {
+    "word": "advise",
+    "mean": "勸告",
+    "current": "🏃",
+    "suggested": "💡",
+    "reason": "同上"
+  },
+  {
+    "word": "afford",
+    "mean": "買得起",
+    "current": "🏃",
+    "suggested": "💰",
+    "reason": "奔跑人不表買得起"
+  },
+  {
+    "word": "amaze",
+    "mean": "使大為驚奇",
+    "current": "🏃",
+    "suggested": "😲",
+    "reason": "奔跑人不表驚奇"
+  },
+  {
+    "word": "amazement",
+    "mean": "驚奇",
+    "current": "🎨",
+    "suggested": "😲",
+    "reason": "調色盤不表驚奇"
+  },
+  {
+    "word": "announcement",
+    "mean": "宣告",
+    "current": "🎨",
+    "suggested": "📢",
+    "reason": "調色盤不表宣告"
+  },
+  {
+    "word": "approve",
+    "mean": "贊成",
+    "current": "🏃",
+    "suggested": "👍",
+    "reason": "奔跑人不表贊成"
+  },
+  {
+    "word": "arithmetic",
+    "mean": "算術",
+    "current": "🎨",
+    "suggested": "🔢",
+    "reason": "調色盤不表算術"
+  },
+  {
+    "word": "attract",
+    "mean": "吸引",
+    "current": "🏃",
+    "suggested": "🧲",
+    "reason": "奔跑人不表吸引"
+  },
+  {
+    "word": "automatic",
+    "mean": "自動的",
+    "current": "🎨",
+    "suggested": "⚙️",
+    "reason": "調色盤不表自動"
+  },
+  {
+    "word": "awaken",
+    "mean": "醒",
+    "current": "🏃",
+    "suggested": "😴",
+    "reason": "奔跑人不表醒"
+  },
+  {
+    "word": "award",
+    "mean": "授予",
+    "current": "🏃",
+    "suggested": "🏆",
+    "reason": "奔跑人不表授獎"
+  },
+  {
+    "word": "awful",
+    "mean": "可怕的",
+    "current": "🎨",
+    "suggested": "😱",
+    "reason": "調色盤不表可怕"
+  },
+  {
+    "word": "ax",
+    "mean": "斧",
+    "current": "🏃",
+    "suggested": "🪓",
+    "reason": "應為斧頭"
+  },
+  {
+    "word": "bait",
+    "mean": "餌",
+    "current": "🏃",
+    "suggested": "🎣",
+    "reason": "奔跑人不表餌"
+  },
+  {
+    "word": "bare",
+    "mean": "赤裸的",
+    "current": "🎨",
+    "suggested": "🫥",
+    "reason": "調色盤不表赤裸"
+  },
+  {
+    "word": "shortly",
+    "mean": "立刻，馬上，不久",
+    "current": "⏱️",
+    "suggested": "⏱️",
+    "reason": "emoji 合理,不改"
+  },
+  {
+    "word": "spit",
+    "mean": "吐口水",
+    "current": "💧",
+    "suggested": "🤮",
+    "reason": "水滴 emoji 與吐口水動作不符"
+  },
+  {
+    "word": "stitch",
+    "mean": "一針",
+    "current": "🪡",
+    "suggested": "🪡",
+    "reason": "合理,不改"
+  },
+  {
+    "word": "style",
+    "mean": "風格，作風",
+    "current": "✨",
+    "suggested": "✨",
+    "reason": "勉強合理,但 theme=weather 錯誤"
+  },
+  {
+    "word": "superior",
+    "mean": "較高的，上級的",
+    "current": "⬆️",
+    "suggested": "⬆️",
+    "reason": "勉強"
+  },
+  {
+    "word": "tack",
+    "mean": "大頭釘",
+    "current": "📌",
+    "suggested": "📌",
+    "reason": "合理"
+  },
+  {
+    "word": "thirst",
+    "mean": "渴，口渴",
+    "current": "🏃",
+    "suggested": "💧",
+    "reason": "跑步 emoji 與口渴不符"
+  },
+  {
+    "word": "timber",
+    "mean": "木材，木料",
+    "current": "🪨",
+    "suggested": "🪵",
+    "reason": "石頭 emoji 與木材不符,應為木頭"
+  },
+  {
+    "word": "tow",
+    "mean": "拖，拉",
+    "current": "🏃",
+    "suggested": "🚗",
+    "reason": "拖拉通常與車輛相關,跑步不符"
+  },
+  {
+    "word": "yolk",
+    "mean": "蛋黃",
+    "current": "🍎",
+    "suggested": "🥚",
+    "reason": "蘋果 emoji 與蛋黃不符,應為蛋"
+  },
+  {
+    "word": "acre",
+    "mean": "英畝",
+    "current": "🏃",
+    "suggested": "📐",
+    "reason": "跑步 emoji 與面積單位不符"
+  },
+  {
+    "word": "admiration",
+    "mean": "欽佩，讚美，羨慕",
+    "current": "💁",
+    "suggested": "😍",
+    "reason": "💁 是資訊台姿勢,與欽佩不符"
+  },
+  {
+    "word": "amuse",
+    "mean": "使歡樂，逗…高興",
+    "current": "💁",
+    "suggested": "😄",
+    "reason": "💁 與歡樂不符"
+  },
+  {
+    "word": "annoy",
+    "mean": "惹惱，使生氣",
+    "current": "😊",
+    "suggested": "😠",
+    "reason": "笑臉與惹惱完全相反"
+  },
+  {
+    "word": "appoint",
+    "mean": "任命，指派",
+    "current": "📋",
+    "suggested": "📋",
+    "reason": "勉強,但 theme=desserts 嚴重錯誤"
+  },
+  {
+    "word": "arch",
+    "mean": "拱，拱門，牌樓",
+    "current": "🛋️",
+    "suggested": "🏛️",
+    "reason": "沙發 emoji 與拱門不符"
+  },
+  {
+    "word": "blink",
+    "mean": "眨眼睛",
+    "current": "🦵",
+    "suggested": "👁️",
+    "reason": "腿 emoji 與眨眼不符,應為眼"
+  },
+  {
+    "word": "broil",
+    "mean": "烤，炙",
+    "current": "🍎",
+    "suggested": "🔥",
+    "reason": "蘋果 emoji 與燒烤不符"
+  },
+  {
+    "word": "cigar",
+    "mean": "雪茄",
+    "current": "🚬",
+    "suggested": "🚬",
+    "reason": "合理,但 theme=weather 錯誤"
+  },
+  {
+    "word": "civilian",
+    "mean": "平民，百姓",
+    "current": "👤",
+    "suggested": "👤",
+    "reason": "合理"
+  },
+  {
+    "word": "classification",
+    "mean": "分類",
+    "current": "🌍",
+    "suggested": "📂",
+    "reason": "地球與分類無關"
+  },
+  {
+    "word": "classify",
+    "mean": "將…分類",
+    "current": "🌍",
+    "suggested": "📂",
+    "reason": "地球與分類無關"
+  },
+  {
+    "word": "consequence",
+    "mean": "結果，後果",
+    "current": "➡️",
+    "suggested": "➡️",
+    "reason": "合理"
+  },
+  {
+    "word": "consistent",
+    "mean": "始終如一的、前後一致的",
+    "current": "🎯",
+    "suggested": "🎯",
+    "reason": "勉強合理"
+  },
+  {
+    "word": "conventional",
+    "mean": "會議的",
+    "current": "🏢",
+    "suggested": "📜",
+    "reason": "mean 翻譯有誤,應為「傳統的」,emoji 也不貼"
+  },
+  {
+    "word": "cord",
+    "mean": "細繩，粗線",
+    "current": "🔨",
+    "suggested": "🧵",
+    "reason": "鎚子與繩線不符"
+  },
+  {
+    "word": "pace",
+    "mean": "步伐、節奏",
+    "current": "🔢",
+    "suggested": "🚶",
+    "reason": "數字 emoji 與步伐不符"
+  },
+  {
+    "word": "pedal",
+    "mean": "踏板",
+    "current": "🏃",
+    "suggested": "🚲",
+    "reason": "跑步與踏板不符"
+  },
+  {
+    "word": "perfection",
+    "mean": "完美",
+    "current": "💁",
+    "suggested": "💯",
+    "reason": "💁 與完美不符"
+  },
+  {
+    "word": "permanent",
+    "mean": "永久的、燙髮",
+    "current": "💇",
+    "suggested": "💇",
+    "reason": "勉強,但 theme=food 嚴重錯誤"
+  },
+  {
+    "word": "plural",
+    "mean": "複數的、複數",
+    "current": "🏃",
+    "suggested": "🔢",
+    "reason": "跑步與複數不符"
+  },
+  {
+    "word": "polish",
+    "mean": "磨光、擦亮、亮光劑",
+    "current": "🎨",
+    "suggested": "✨",
+    "reason": "畫板 emoji 與擦亮不符"
+  },
+  {
+    "word": "preposition",
+    "mean": "介系詞，前置詞",
+    "current": "🧭",
+    "suggested": "📝",
+    "reason": "指南針與介系詞無關"
+  },
+  {
+    "word": "primitive",
+    "mean": "原始的",
+    "current": "🎨",
+    "suggested": "🗿",
+    "reason": "畫板 emoji 與原始不符"
+  },
+  {
+    "word": "privacy",
+    "mean": "隱私",
+    "current": "🏃",
+    "suggested": "🔒",
+    "reason": "跑步與隱私不符"
+  },
+  {
+    "word": "promising",
+    "mean": "有希望的，有前途的",
+    "current": "🧭",
+    "suggested": "🌟",
+    "reason": "指南針與有希望不符"
+  },
+  {
+    "word": "recite",
+    "mean": "背誦",
+    "current": "📖",
+    "suggested": "📖",
+    "reason": "合理,但 theme=body 錯誤"
+  },
+  {
+    "word": "seagull",
+    "mean": "海鷗",
+    "current": "🕊️",
+    "suggested": "🐦",
+    "reason": "鴿子 emoji 與海鷗不符"
+  },
+  {
+    "word": "shameful",
+    "mean": "可恥的，丟臉的",
+    "current": "😳",
+    "suggested": "😳",
+    "reason": "合理,但 theme=body 錯誤"
+  },
+  {
+    "word": "sorrowful",
+    "mean": "悲傷的，傷心的",
+    "current": "😊",
+    "suggested": "😢",
+    "reason": "笑臉與悲傷完全相反"
+  },
+  {
+    "word": "sparkle",
+    "mean": "閃耀、火花",
+    "current": "✨",
+    "suggested": "✨",
+    "reason": "合理,但 theme=nature 不太對"
+  },
+  {
+    "word": "strengthen",
+    "mean": "加強",
+    "current": "🏃",
+    "suggested": "💪",
+    "reason": "跑步與加強不太貼"
+  },
+  {
+    "word": "summarize",
+    "mean": "總結，概述",
+    "current": "🏃",
+    "suggested": "📝",
+    "reason": "跑步與總結不符"
+  },
+  {
+    "word": "troublesome",
+    "mean": "麻煩的，棘手的",
+    "current": "😣",
+    "suggested": "😣",
+    "reason": "合理,但 theme=materials 錯誤"
+  },
+  {
+    "word": "tug-of-war",
+    "mean": "拔河",
+    "current": "🪢",
+    "suggested": "🪢",
+    "reason": "合理,但 theme=nature 錯誤"
+  },
+  {
+    "word": "usage",
+    "mean": "使用，用法",
+    "current": "⚖️",
+    "suggested": "📖",
+    "reason": "天秤(法律)與用法不符"
+  },
+  {
+    "word": "virgin",
+    "mean": "處女,未婚女子處女的",
+    "current": "💞",
+    "suggested": "👰",
+    "reason": "愛心與處女不太貼"
+  },
+  {
+    "word": "carnation",
+    "mean": "康乃馨",
+    "current": "🌷",
+    "suggested": "🌷",
+    "reason": "合理,但 theme=academic-words 嚴重錯誤"
+  },
+  {
+    "word": "marvel",
+    "mean": "驚奇、令人驚奇的事物",
+    "current": "😲",
+    "suggested": "😲",
+    "reason": "合理,但 theme=office 錯誤"
+  },
+  {
+    "word": "mayonnaise",
+    "mean": "美乃滋",
+    "current": "🥫",
+    "suggested": "🥫",
+    "reason": "合理,但 theme=appearance 錯誤"
+  },
+  {
+    "word": "miser",
+    "mean": "吝嗇鬼",
+    "current": "🤔",
+    "suggested": "🤑",
+    "reason": "思考與吝嗇鬼不太貼"
+  },
+  {
+    "word": "mound",
+    "mean": "丘",
+    "current": "🏃",
+    "suggested": "⛰️",
+    "reason": "跑步與山丘不符"
+  },
+  {
+    "word": "peek",
+    "mean": "偷看",
+    "current": "👀",
+    "suggested": "👀",
+    "reason": "合理,但 theme=crime 不太對"
+  },
+  {
+    "word": "pier",
+    "mean": "碼頭",
+    "current": "⚓",
+    "suggested": "⚓",
+    "reason": "合理,但 theme=body 嚴重錯誤"
+  },
+  {
+    "word": "pillar",
+    "mean": "柱子",
+    "current": "🏃",
+    "suggested": "🏛️",
+    "reason": "跑步與柱子不符"
+  },
+  {
+    "word": "realm",
+    "mean": "王國",
+    "current": "👑",
+    "suggested": "👑",
+    "reason": "合理,但 theme=countries 勉強"
+  },
+  {
+    "word": "rim",
+    "mean": "邊緣",
+    "current": "🏃",
+    "suggested": "⭕",
+    "reason": "跑步與邊緣不符"
+  },
+  {
+    "word": "spacecraft",
+    "mean": "太空船",
+    "current": "🚗",
+    "suggested": "🚀",
+    "reason": "汽車與太空船不符"
+  },
+  {
+    "word": "sober",
+    "mean": "清醒的",
+    "current": "🧠",
+    "suggested": "🧠",
+    "reason": "勉強,但 theme=adjectives 期望"
+  },
+  {
+    "word": "spur",
+    "mean": "靴刺、激勵",
+    "current": "🥾",
+    "suggested": "🥾",
+    "reason": "勉強"
+  },
+  {
+    "word": "stereotype",
+    "mean": "刻板印象",
+    "current": "🧩",
+    "suggested": "🧩",
+    "reason": "勉強,但 theme=animals 嚴重錯誤"
+  },
+  {
+    "word": "stylish",
+    "mean": "流行的",
+    "current": "👗",
+    "suggested": "👗",
+    "reason": "合理,但 theme=music 嚴重錯誤"
+  },
+  {
+    "word": "dispatch",
+    "mean": "派遣",
+    "current": "📨",
+    "suggested": "📨",
+    "reason": "合理,但 theme=desserts 嚴重錯誤"
+  },
+  {
+    "word": "disgrace",
+    "mean": "丟臉",
+    "current": "😞",
+    "suggested": "😞",
+    "reason": "合理,但 theme=body 錯誤"
+  },
+  {
+    "word": "epidemic",
+    "mean": "傳染病",
+    "current": "🦠",
+    "suggested": "🦠",
+    "reason": "合理"
+  },
+  {
+    "word": "emigrate",
+    "mean": "移居外國",
+    "current": "🌍",
+    "suggested": "🌍",
+    "reason": "合理"
+  },
+  {
+    "word": "expertise",
+    "mean": "專門技術",
+    "current": "🛠️",
+    "suggested": "🛠️",
+    "reason": "合理,但 theme=home-items 不太對"
+  },
+  {
+    "word": "federation",
+    "mean": "聯邦政府",
+    "current": "🏛️",
+    "suggested": "🏛️",
+    "reason": "合理"
+  },
+  {
+    "word": "heroin",
+    "mean": "海洛因",
+    "current": "💉",
+    "suggested": "💉",
+    "reason": "合理,但 theme=nature 嚴重錯誤"
+  },
+  {
+    "word": "morale",
+    "mean": "士氣",
+    "current": "💪",
+    "suggested": "💪",
+    "reason": "合理,但 theme=philosophy 不太對"
+  },
+  {
+    "word": "watertight",
+    "mean": "防水的",
+    "current": "💧",
+    "suggested": "💧",
+    "reason": "合理,但 theme=drinks 錯誤"
+  },
+  {
+    "word": "warfare",
+    "mean": "戰爭",
+    "current": "📜",
+    "suggested": "⚔️",
+    "reason": "卷軸與戰爭不貼,應為武器"
+  },
+  {
+    "word": "encouragement",
+    "mean": "鼓勵",
+    "current": "💪",
+    "suggested": "💪",
+    "reason": "合理,但 theme=music 嚴重錯誤"
+  },
+  {
+    "word": "movement",
+    "mean": "運動",
+    "current": "⚽",
+    "suggested": "🏃",
+    "reason": "足球專指球類,運動應為跑步"
+  },
+  {
+    "word": "victor",
+    "mean": "勝利者",
+    "current": "🏆",
+    "suggested": "🏆",
+    "reason": "合理,但 theme=jobs 不太對"
+  },
+  {
+    "word": "endorse",
+    "mean": "公開支持、背書",
+    "current": "👍",
+    "suggested": "👍",
+    "reason": "合理,但 theme=body 錯誤"
+  },
+  {
+    "word": "blister",
+    "mean": "水泡",
+    "current": "🩹",
+    "suggested": "🩹",
+    "reason": "合理,但 theme=drinks 嚴重錯誤"
+  },
+  {
+    "word": "cardiac",
+    "mean": "心臟的",
+    "current": "🦵",
+    "suggested": "❤️",
+    "reason": "腿與心臟不符"
+  },
+  {
+    "word": "pandemic",
+    "mean": "大流行",
+    "current": "🦠",
+    "suggested": "🦠",
+    "reason": "合理,但 theme=music 嚴重錯誤"
+  },
+  {
+    "word": "clueless",
+    "mean": "毫無頭緒的",
+    "current": "🤷",
+    "suggested": "🤷",
+    "reason": "合理,但 theme=body 錯誤"
+  },
+  {
+    "word": "lawless",
+    "mean": "無法無天的、不守法的",
+    "current": "⚖️",
+    "suggested": "⚖️",
+    "reason": "合理"
+  },
+  {
+    "word": "sleepless",
+    "mean": "失眠的",
+    "current": "😴",
+    "suggested": "😴",
+    "reason": "合理,但 theme=diseases 不太對"
+  },
+  {
+    "word": "unbearable",
+    "mean": "無法忍受的",
+    "current": "😣",
+    "suggested": "😣",
+    "reason": "合理,但 theme=law 嚴重錯誤"
+  },
+  {
+    "word": "stateless",
+    "mean": "無國籍的",
+    "current": "🌍",
+    "suggested": "🌍",
+    "reason": "合理"
+  },
+  {
+    "word": "disseminate",
+    "mean": "散布",
+    "current": "📡",
+    "suggested": "📡",
+    "reason": "合理,但 theme=materials 嚴重錯誤"
+  },
+  {
+    "word": "deplore",
+    "mean": "哀嘆",
+    "current": "😢",
+    "suggested": "😢",
+    "reason": "合理"
+  },
+  {
+    "word": "alleviate",
+    "mean": "減輕",
+    "current": "🏃",
+    "suggested": "💊",
+    "reason": "跑步與減輕不太貼"
+  },
+  {
+    "word": "hideous",
+    "mean": "醜陋的",
+    "current": "🎨",
+    "suggested": "😱",
+    "reason": "畫板與醜陋不貼"
+  },
+  {
+    "word": "predator",
+    "mean": "掠食者",
+    "current": "🦁",
+    "suggested": "🦁",
+    "reason": "合理,但 theme=jobs 嚴重錯誤"
+  },
+  {
+    "word": "confide",
+    "mean": "吐露(秘密)、信賴",
+    "current": "🤫",
+    "suggested": "🤫",
+    "reason": "合理"
+  },
+  {
+    "word": "vineyard",
+    "mean": "葡萄園",
+    "current": "🍇",
+    "suggested": "🍇",
+    "reason": "合理"
+  },
+  {
+    "word": "ambient",
+    "mean": "環境的",
+    "current": "🌍",
+    "suggested": "🌍",
+    "reason": "合理"
+  },
+  {
+    "word": "vulnerable",
+    "mean": "易受傷的",
+    "current": "💊",
+    "suggested": "🩹",
+    "reason": "藥丸 OK,但 emoji 可換更貼"
+  },
+  {
+    "word": "regretful",
+    "mean": "後悔的",
+    "current": "😞",
+    "suggested": "😞",
+    "reason": "合理,但 theme=directions 嚴重錯誤"
+  }
+]
