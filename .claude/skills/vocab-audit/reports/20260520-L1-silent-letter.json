@@ -1,0 +1,12 @@
+{
+  "check": "L1-silent-letter",
+  "run_at": "2026-05-20T04:57:48",
+  "stats": {
+    "correct": 257,
+    "missing": 0,
+    "already_unrule": 0,
+    "mismatch": 0
+  },
+  "missing": [],
+  "mismatch": []
+}

@@ -13,6 +13,7 @@ PROMPTS = os.path.join(SKILL, 'prompts')
 # 所有「該存在」的 check(SKILL.md 定義的完整清單)
 ALL_CHECKS = [
     ('L1-all',                       '機器規則 14 項',           '秒級', True),
+    ('L1-silent-letter',             '不發音字母規則式偵測',     '秒級', True),
     ('L2-translation',               '翻譯品質',                 '分鐘',  True),
     ('L2-family-potential',          '找漏網家族線',             '分鐘',  True),
     ('L2-homophone-potential',       '找漏網同音/易混字',         '分鐘',  True),
