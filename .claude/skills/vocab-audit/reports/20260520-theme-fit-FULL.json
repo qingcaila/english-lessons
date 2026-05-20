@@ -1,0 +1,596 @@
+[
+  {
+    "word": "however",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "轉折連接副詞,是文章閱讀核心連接詞,connectors 主題正是為此設計"
+  },
+  {
+    "word": "therefore",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "因果連接副詞,連接詞主題的標準成員"
+  },
+  {
+    "word": "thus",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "因果連接副詞,屬連接詞範疇"
+  },
+  {
+    "word": "because",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "原因連接詞,連接詞主題核心"
+  },
+  {
+    "word": "although",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "讓步連接詞,連接詞主題核心"
+  },
+  {
+    "word": "though",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "讓步連接詞,屬 connectors"
+  },
+  {
+    "word": "unless",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "條件連接詞,屬 connectors"
+  },
+  {
+    "word": "instead",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "轉折連接副詞,屬 connectors"
+  },
+  {
+    "word": "otherwise",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "條件結果連接副詞,屬 connectors"
+  },
+  {
+    "word": "while",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "時間/對比連接詞,屬 connectors"
+  },
+  {
+    "word": "until",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "時間連接詞,屬 connectors"
+  },
+  {
+    "word": "since",
+    "current": "sight-words",
+    "suggested": "connectors",
+    "reason": "時間/原因連接詞,屬 connectors"
+  },
+  {
+    "word": "stranger",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "陌生人不是家庭成員,屬於關係範疇"
+  },
+  {
+    "word": "enemy",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "敵人不是家庭成員,屬人際關係"
+  },
+  {
+    "word": "rival",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "對手不是家庭成員,屬人際關係"
+  },
+  {
+    "word": "companion",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "夥伴不必然是家人,屬人際關係"
+  },
+  {
+    "word": "mate",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "伙伴/朋友,非家庭成員,屬人際關係"
+  },
+  {
+    "word": "buddy",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "哥們/朋友,非家庭成員,屬人際關係"
+  },
+  {
+    "word": "pal",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "夥伴/朋友,非家庭成員,屬人際關係"
+  },
+  {
+    "word": "crush",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "心儀對象屬戀愛關係,非家庭"
+  },
+  {
+    "word": "lover",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "愛人/戀人屬戀愛關係,非家庭成員"
+  },
+  {
+    "word": "ex",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "前任屬戀愛關係,非家庭"
+  },
+  {
+    "word": "roommate",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "室友是同居者,非家庭成員"
+  },
+  {
+    "word": "workmate",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "同事屬職場人際關係,非家庭"
+  },
+  {
+    "word": "teammate",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "隊友屬團隊關係,非家庭"
+  },
+  {
+    "word": "acquaintance",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "熟人是社交關係,非家庭"
+  },
+  {
+    "word": "boyfriend",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "男友是戀愛關係,非家庭(未婚配偶)"
+  },
+  {
+    "word": "girlfriend",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "女友是戀愛關係,非家庭(未婚配偶)"
+  },
+  {
+    "word": "partner",
+    "current": "family",
+    "suggested": "relationships",
+    "reason": "伴侶/合作夥伴主要是關係概念,可能在家庭也可能不在"
+  },
+  {
+    "word": "volcano",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "火山是地形/地質,不是天氣現象"
+  },
+  {
+    "word": "earthquake",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "地震是地質災害,不是天氣"
+  },
+  {
+    "word": "tsunami",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "海嘯是海洋災害/地震引發,不是天氣"
+  },
+  {
+    "word": "avalanche",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "雪崩是地形災害,不是天氣現象"
+  },
+  {
+    "word": "eruption",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "火山噴發是地質現象,不是天氣"
+  },
+  {
+    "word": "flame",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "火焰不是天氣現象"
+  },
+  {
+    "word": "spark",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "火花不是天氣現象"
+  },
+  {
+    "word": "smoke",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "煙不是天氣現象,可放 nature 或日常物質"
+  },
+  {
+    "word": "ash",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "灰燼不是天氣現象,屬自然/材料"
+  },
+  {
+    "word": "shadow",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "影子不是天氣現象,屬自然現象"
+  },
+  {
+    "word": "wave",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "波浪是海洋現象,不是天氣"
+  },
+  {
+    "word": "tide",
+    "current": "weather",
+    "suggested": "nature",
+    "reason": "潮汐是海洋現象,不是天氣"
+  },
+  {
+    "word": "perfume",
+    "current": "bathroom",
+    "suggested": "clothing",
+    "reason": "香水屬個人配飾/打扮,bathroom 主題不符"
+  },
+  {
+    "word": "cologne",
+    "current": "bathroom",
+    "suggested": "clothing",
+    "reason": "古龍水屬個人香氛,非浴室用品"
+  },
+  {
+    "word": "makeup",
+    "current": "bathroom",
+    "suggested": "appearance",
+    "reason": "化妝品屬外貌打扮類,放 appearance 更貼切"
+  },
+  {
+    "word": "mascara",
+    "current": "bathroom",
+    "suggested": "appearance",
+    "reason": "睫毛膏屬化妝品/外貌"
+  },
+  {
+    "word": "lipstick",
+    "current": "bathroom",
+    "suggested": "appearance",
+    "reason": "口紅屬化妝品/外貌"
+  },
+  {
+    "word": "eyeliner",
+    "current": "bathroom",
+    "suggested": "appearance",
+    "reason": "眼線屬化妝品/外貌"
+  },
+  {
+    "word": "foundation",
+    "current": "bathroom",
+    "suggested": "appearance",
+    "reason": "粉底液屬化妝品/外貌"
+  },
+  {
+    "word": "piece",
+    "current": "numbers",
+    "suggested": "sight-words",
+    "reason": "片/塊本身是量詞名詞,非數字"
+  },
+  {
+    "word": "part",
+    "current": "numbers",
+    "suggested": "sight-words",
+    "reason": "部分是常用名詞,非數字"
+  },
+  {
+    "word": "whole",
+    "current": "numbers",
+    "suggested": "sight-words",
+    "reason": "整個是形容詞/名詞,非數字"
+  },
+  {
+    "word": "list",
+    "current": "numbers",
+    "suggested": "sight-words",
+    "reason": "清單是常見名詞,非數字"
+  },
+  {
+    "word": "range",
+    "current": "numbers",
+    "suggested": "academic-words",
+    "reason": "範圍是抽象名詞,非數字本身"
+  },
+  {
+    "word": "level",
+    "current": "numbers",
+    "suggested": "academic-words",
+    "reason": "等級是抽象概念,非數字"
+  },
+  {
+    "word": "area",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "區域抽象名詞,屬學術詞"
+  },
+  {
+    "word": "system",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "系統屬學術抽象概念"
+  },
+  {
+    "word": "situation",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "情況屬學術抽象詞"
+  },
+  {
+    "word": "condition",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "條件屬學術抽象詞"
+  },
+  {
+    "word": "concept",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "概念屬學術抽象詞"
+  },
+  {
+    "word": "individual",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "個體屬學術抽象詞"
+  },
+  {
+    "word": "truth",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "真相屬抽象學術概念"
+  },
+  {
+    "word": "force",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "力量屬抽象/科學概念"
+  },
+  {
+    "word": "energy",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "能量屬抽象/科學概念"
+  },
+  {
+    "word": "power",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "力量屬抽象學術概念"
+  },
+  {
+    "word": "region",
+    "current": "sight-words",
+    "suggested": "academic-words",
+    "reason": "地區屬抽象詞,可放 geography 或學術詞"
+  },
+  {
+    "word": "material",
+    "current": "sight-words",
+    "suggested": "materials",
+    "reason": "材料專屬主題 materials 存在"
+  },
+  {
+    "word": "vehicle",
+    "current": "academic-words",
+    "suggested": "transportation",
+    "reason": "車輛是具體交通工具類別詞"
+  },
+  {
+    "word": "perform",
+    "current": "music",
+    "suggested": "actions",
+    "reason": "表演是動詞,屬動作"
+  },
+  {
+    "word": "speaker",
+    "current": "music",
+    "suggested": "technology",
+    "reason": "喇叭是電子設備,屬科技"
+  },
+  {
+    "word": "microphone",
+    "current": "music",
+    "suggested": "technology",
+    "reason": "麥克風是電子設備,屬科技"
+  },
+  {
+    "word": "headphones",
+    "current": "music",
+    "suggested": "technology",
+    "reason": "耳機是電子設備,屬科技"
+  },
+  {
+    "word": "radio",
+    "current": "music",
+    "suggested": "technology",
+    "reason": "收音機是電子設備"
+  },
+  {
+    "word": "diaper",
+    "current": "bathroom",
+    "suggested": "family",
+    "reason": "尿布屬嬰兒用品,bathroom 不符;歸 family 或新增類別"
+  },
+  {
+    "word": "pad",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "衛生棉屬個人健康用品"
+  },
+  {
+    "word": "tampon",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "衛生棉條屬個人健康用品"
+  },
+  {
+    "word": "bandage",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "繃帶屬醫療/健康用品,非浴室用品"
+  },
+  {
+    "word": "bandaid",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "OK 繃屬醫療/健康用品"
+  },
+  {
+    "word": "gauze",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "紗布屬醫療用品"
+  },
+  {
+    "word": "ointment",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "藥膏屬醫療/藥品"
+  },
+  {
+    "word": "sunscreen",
+    "current": "bathroom",
+    "suggested": "health",
+    "reason": "防曬乳屬皮膚保健/健康"
+  },
+  {
+    "word": "vegan",
+    "current": "restaurant",
+    "suggested": "food",
+    "reason": "純素是飲食類別概念,非餐廳"
+  },
+  {
+    "word": "vegetarian",
+    "current": "restaurant",
+    "suggested": "food",
+    "reason": "素食是飲食類別,非餐廳"
+  },
+  {
+    "word": "savory",
+    "current": "restaurant",
+    "suggested": "adjectives",
+    "reason": "鹹香的是味覺形容詞"
+  },
+  {
+    "word": "bitter",
+    "current": "restaurant",
+    "suggested": "adjectives",
+    "reason": "苦的是味覺形容詞"
+  },
+  {
+    "word": "bland",
+    "current": "restaurant",
+    "suggested": "adjectives",
+    "reason": "清淡的是味覺形容詞"
+  },
+  {
+    "word": "casual",
+    "current": "restaurant",
+    "suggested": "adjectives",
+    "reason": "休閒的是通用形容詞"
+  },
+  {
+    "word": "formal",
+    "current": "restaurant",
+    "suggested": "adjectives",
+    "reason": "正式的是通用形容詞"
+  },
+  {
+    "word": "allergy",
+    "current": "restaurant",
+    "suggested": "health",
+    "reason": "過敏屬健康/醫療"
+  },
+  {
+    "word": "barbecue",
+    "current": "restaurant",
+    "suggested": "food",
+    "reason": "燒烤是食物/料理方式"
+  },
+  {
+    "word": "bbq",
+    "current": "restaurant",
+    "suggested": "food",
+    "reason": "燒烤是食物/料理方式"
+  },
+  {
+    "word": "hotpot",
+    "current": "restaurant",
+    "suggested": "food",
+    "reason": "火鍋是食物類型"
+  },
+  {
+    "word": "weep",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "哭泣是動作動詞,非情緒本身"
+  },
+  {
+    "word": "frown",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "皺眉是表情動作"
+  },
+  {
+    "word": "blush",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "臉紅是生理反應動作"
+  },
+  {
+    "word": "sigh",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "嘆氣是動作"
+  },
+  {
+    "word": "yell",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "大叫是動作動詞"
+  },
+  {
+    "word": "scream",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "尖叫是動作動詞"
+  },
+  {
+    "word": "cheer",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "歡呼是動作"
+  },
+  {
+    "word": "smile",
+    "current": "emotions",
+    "suggested": "actions",
+    "reason": "微笑是表情動作"
+  }
+]

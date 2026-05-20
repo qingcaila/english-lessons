@@ -1,0 +1,1202 @@
+[
+  {
+    "word": "ruler",
+    "base": "rule",
+    "family-note": "ruler ← rule(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "teacher",
+    "base": "teach",
+    "family-note": "teacher ← teach(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "farmer",
+    "base": "farm",
+    "family-note": "farmer ← farm(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "driver",
+    "base": "drive",
+    "family-note": "driver ← drive(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "singer",
+    "base": "sing",
+    "family-note": "singer ← sing(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "worker",
+    "base": "work",
+    "family-note": "worker ← work(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "shower",
+    "base": "show",
+    "family-note": "shower ← show(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "waiter",
+    "base": "wait",
+    "family-note": "waiter ← wait(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "reservation",
+    "base": "reserve",
+    "family-note": "reservation ← reserve(-tion 名詞)",
+    "reason": "-ation 名詞 (去e)"
+  },
+  {
+    "word": "computer",
+    "base": "compute",
+    "family-note": "computer ← compute(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "charger",
+    "base": "charge",
+    "family-note": "charger ← charge(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "dirty",
+    "base": "dirt",
+    "family-note": "dirty ← dirt(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "beautiful",
+    "base": "beauty",
+    "family-note": "beautiful ← beauty(-ful 形容詞)",
+    "reason": "-ful 形容詞 (y→iful)"
+  },
+  {
+    "word": "boring",
+    "base": "bore",
+    "family-note": "boring ← bore(進行式/動名詞)",
+    "reason": "-ing 形 (去e加ing)"
+  },
+  {
+    "word": "interesting",
+    "base": "interest",
+    "family-note": "interesting ← interest(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "busy",
+    "base": "bus",
+    "family-note": "busy ← bus(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "early",
+    "base": "ear",
+    "family-note": "early ← ear(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "ready",
+    "base": "read",
+    "family-note": "ready ← read(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "salty",
+    "base": "salt",
+    "family-note": "salty ← salt(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "lonely",
+    "base": "lone",
+    "family-note": "lonely ← lone(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "hopeful",
+    "base": "hope",
+    "family-note": "hopeful ← hope(-ful 形容詞)",
+    "reason": "-ful 形容詞"
+  },
+  {
+    "word": "cheerful",
+    "base": "cheer",
+    "family-note": "cheerful ← cheer(-ful 形容詞)",
+    "reason": "-ful 形容詞"
+  },
+  {
+    "word": "friendly",
+    "base": "friend",
+    "family-note": "friendly ← friend(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "really",
+    "base": "real",
+    "family-note": "really ← real(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "went",
+    "base": "go",
+    "family-note": "went ← go(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "gone",
+    "base": "go",
+    "family-note": "gone ← go(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "got",
+    "base": "get",
+    "family-note": "got ← get(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "made",
+    "base": "make",
+    "family-note": "made ← make(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "saw",
+    "base": "see",
+    "family-note": "saw ← see(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "said",
+    "base": "say",
+    "family-note": "said ← say(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "told",
+    "base": "tell",
+    "family-note": "told ← tell(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "took",
+    "base": "take",
+    "family-note": "took ← take(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "gave",
+    "base": "give",
+    "family-note": "gave ← give(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "found",
+    "base": "find",
+    "family-note": "found ← find(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "thought",
+    "base": "think",
+    "family-note": "thought ← think(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "knew",
+    "base": "know",
+    "family-note": "knew ← know(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "daily",
+    "base": "day",
+    "family-note": "daily ← day(-ly 副詞)",
+    "reason": "-ly 副詞 (y→ily)"
+  },
+  {
+    "word": "weekly",
+    "base": "week",
+    "family-note": "weekly ← week(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "monthly",
+    "base": "month",
+    "family-note": "monthly ← month(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "yearly",
+    "base": "year",
+    "family-note": "yearly ← year(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "hourly",
+    "base": "hour",
+    "family-note": "hourly ← hour(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "colorful",
+    "base": "color",
+    "family-note": "colorful ← color(-ful 形容詞)",
+    "reason": "-ful 形容詞"
+  },
+  {
+    "word": "sunny",
+    "base": "sun",
+    "family-note": "sunny ← sun(-y 形容詞)",
+    "reason": "-y 形容詞 (雙寫)"
+  },
+  {
+    "word": "rainy",
+    "base": "rain",
+    "family-note": "rainy ← rain(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "snowy",
+    "base": "snow",
+    "family-note": "snowy ← snow(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "windy",
+    "base": "wind",
+    "family-note": "windy ← wind(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "cloudy",
+    "base": "cloud",
+    "family-note": "cloudy ← cloud(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "foggy",
+    "base": "fog",
+    "family-note": "foggy ← fog(-y 形容詞)",
+    "reason": "-y 形容詞 (雙寫)"
+  },
+  {
+    "word": "assignment",
+    "base": "assign",
+    "family-note": "assignment ← assign(-ment 名詞)",
+    "reason": "-ment 名詞"
+  },
+  {
+    "word": "heater",
+    "base": "heat",
+    "family-note": "heater ← heat(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "dresser",
+    "base": "dress",
+    "family-note": "dresser ← dress(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "painting",
+    "base": "paint",
+    "family-note": "painting ← paint(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "poster",
+    "base": "post",
+    "family-note": "poster ← post(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "designer",
+    "base": "design",
+    "family-note": "designer ← design(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "writer",
+    "base": "write",
+    "family-note": "writer ← write(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "dancer",
+    "base": "dance",
+    "family-note": "dancer ← dance(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "painter",
+    "base": "paint",
+    "family-note": "painter ← paint(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "photographer",
+    "base": "photograph",
+    "family-note": "photographer ← photograph(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "banker",
+    "base": "bank",
+    "family-note": "banker ← bank(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "gardener",
+    "base": "garden",
+    "family-note": "gardener ← garden(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "receptionist",
+    "base": "reception",
+    "family-note": "receptionist ← reception(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "journalist",
+    "base": "journal",
+    "family-note": "journalist ← journal(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "cycling",
+    "base": "cycle",
+    "family-note": "cycling ← cycle(進行式/動名詞)",
+    "reason": "-ing 形 (去e加ing)"
+  },
+  {
+    "word": "fishing",
+    "base": "fish",
+    "family-note": "fishing ← fish(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "rowing",
+    "base": "row",
+    "family-note": "rowing ← row(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "bowling",
+    "base": "bowl",
+    "family-note": "bowling ← bowl(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "player",
+    "base": "play",
+    "family-note": "player ← play(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "loser",
+    "base": "lose",
+    "family-note": "loser ← lose(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "speaker",
+    "base": "speak",
+    "family-note": "speaker ← speak(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "rapper",
+    "base": "rap",
+    "family-note": "rapper ← rap(-er 表人)",
+    "reason": "-er 名詞 (雙寫子音)"
+  },
+  {
+    "word": "conductor",
+    "base": "conduct",
+    "family-note": "conductor ← conduct(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "classical",
+    "base": "classic",
+    "family-note": "classical ← classic(-al 形容詞)",
+    "reason": "-al 形容詞"
+  },
+  {
+    "word": "certainly",
+    "base": "certain",
+    "family-note": "certainly ← certain(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "definitely",
+    "base": "definite",
+    "family-note": "definitely ← definite(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "obviously",
+    "base": "obvious",
+    "family-note": "obviously ← obvious(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "people",
+    "base": "person",
+    "family-note": "people ← person(複數)",
+    "reason": "不規則複數"
+  },
+  {
+    "word": "children",
+    "base": "child",
+    "family-note": "children ← child(複數)",
+    "reason": "不規則複數"
+  },
+  {
+    "word": "building",
+    "base": "build",
+    "family-note": "building ← build(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "stranger",
+    "base": "strange",
+    "family-note": "stranger ← strange(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "lover",
+    "base": "love",
+    "family-note": "lover ← love(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "widower",
+    "base": "widow",
+    "family-note": "widower ← widow(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "sadness",
+    "base": "sad",
+    "family-note": "sadness ← sad(-ness 名詞)",
+    "reason": "-ness 名詞"
+  },
+  {
+    "word": "happiness",
+    "base": "happy",
+    "family-note": "happiness ← happy(-ness 名詞)",
+    "reason": "-ness 名詞 (y→iness)"
+  },
+  {
+    "word": "stressed",
+    "base": "stress",
+    "family-note": "stressed ← stress(過去式)",
+    "reason": "-ed 形 (加e)"
+  },
+  {
+    "word": "peaceful",
+    "base": "peace",
+    "family-note": "peaceful ← peace(-ful 形容詞)",
+    "reason": "-ful 形容詞"
+  },
+  {
+    "word": "guilty",
+    "base": "guilt",
+    "family-note": "guilty ← guilt(-y 形容詞)",
+    "reason": "-y 形容詞"
+  },
+  {
+    "word": "traditional",
+    "base": "tradition",
+    "family-note": "traditional ← tradition(-al 形容詞)",
+    "reason": "-al 形容詞"
+  },
+  {
+    "word": "broken",
+    "base": "break",
+    "family-note": "broken ← break(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "opener",
+    "base": "open",
+    "family-note": "opener ← open(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "coaster",
+    "base": "coast",
+    "family-note": "coaster ← coast(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "saucer",
+    "base": "sauce",
+    "family-note": "saucer ← sauce(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "juicer",
+    "base": "juice",
+    "family-note": "juicer ← juice(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "toaster",
+    "base": "toast",
+    "family-note": "toaster ← toast(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "conditioner",
+    "base": "condition",
+    "family-note": "conditioner ← condition(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "gummy",
+    "base": "gum",
+    "family-note": "gummy ← gum(-y 形容詞)",
+    "reason": "-y 形容詞 (雙寫)"
+  },
+  {
+    "word": "frosting",
+    "base": "frost",
+    "family-note": "frosting ← frost(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "icing",
+    "base": "ice",
+    "family-note": "icing ← ice(進行式/動名詞)",
+    "reason": "-ing 形 (去e加ing)"
+  },
+  {
+    "word": "diner",
+    "base": "dine",
+    "family-note": "diner ← dine(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "consequently",
+    "base": "consequent",
+    "family-note": "consequently ← consequent(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "tourist",
+    "base": "tour",
+    "family-note": "tourist ← tour(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "backpacker",
+    "base": "backpack",
+    "family-note": "backpacker ← backpack(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "boarding",
+    "base": "board",
+    "family-note": "boarding ← board(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "booking",
+    "base": "book",
+    "family-note": "booking ← book(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "shipping",
+    "base": "ship",
+    "family-note": "shipping ← ship(進行式/動名詞)",
+    "reason": "-ing 形 (雙寫子音)"
+  },
+  {
+    "word": "buyer",
+    "base": "buy",
+    "family-note": "buyer ← buy(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "seller",
+    "base": "sell",
+    "family-note": "seller ← sell(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "starter",
+    "base": "start",
+    "family-note": "starter ← start(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "formal",
+    "base": "form",
+    "family-note": "formal ← form(-al 形容詞)",
+    "reason": "-al 形容詞"
+  },
+  {
+    "word": "investment",
+    "base": "invest",
+    "family-note": "investment ← invest(-ment 名詞)",
+    "reason": "-ment 名詞"
+  },
+  {
+    "word": "recession",
+    "base": "recess",
+    "family-note": "recession ← recess(-sion 名詞)",
+    "reason": "-sion 名詞"
+  },
+  {
+    "word": "treatment",
+    "base": "treat",
+    "family-note": "treatment ← treat(-ment 名詞)",
+    "reason": "-ment 名詞"
+  },
+  {
+    "word": "healing",
+    "base": "heal",
+    "family-note": "healing ← heal(進行式/動名詞)",
+    "reason": "-ing 形"
+  },
+  {
+    "word": "wellness",
+    "base": "well",
+    "family-note": "wellness ← well(-ness 名詞)",
+    "reason": "-ness 名詞"
+  },
+  {
+    "word": "latest",
+    "base": "late",
+    "family-note": "latest ← late(最高級)",
+    "reason": "-est 最高級 (去e)"
+  },
+  {
+    "word": "generally",
+    "base": "general",
+    "family-note": "generally ← general(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "particularly",
+    "base": "particular",
+    "family-note": "particularly ← particular(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "partly",
+    "base": "part",
+    "family-note": "partly ← part(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "totally",
+    "base": "total",
+    "family-note": "totally ← total(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "fairly",
+    "base": "fair",
+    "family-note": "fairly ← fair(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "hardly",
+    "base": "hard",
+    "family-note": "hardly ← hard(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "nearly",
+    "base": "near",
+    "family-note": "nearly ← near(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "precisely",
+    "base": "precise",
+    "family-note": "precisely ← precise(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "approximately",
+    "base": "approximate",
+    "family-note": "approximately ← approximate(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "roughly",
+    "base": "rough",
+    "family-note": "roughly ← rough(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "hopefully",
+    "base": "hopeful",
+    "family-note": "hopefully ← hopeful(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "finally",
+    "base": "final",
+    "family-note": "finally ← final(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "ultimately",
+    "base": "ultimate",
+    "family-note": "ultimately ← ultimate(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "similarly",
+    "base": "similar",
+    "family-note": "similarly ← similar(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "alternatively",
+    "base": "alternative",
+    "family-note": "alternatively ← alternative(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "apparently",
+    "base": "apparent",
+    "family-note": "apparently ← apparent(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "evidently",
+    "base": "evident",
+    "family-note": "evidently ← evident(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "namely",
+    "base": "name",
+    "family-note": "namely ← name(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "technically",
+    "base": "technical",
+    "family-note": "technically ← technical(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "excluding",
+    "base": "exclude",
+    "family-note": "excluding ← exclude(進行式/動名詞)",
+    "reason": "-ing 形 (去e加ing)"
+  },
+  {
+    "word": "virtually",
+    "base": "virtual",
+    "family-note": "virtually ← virtual(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "primarily",
+    "base": "primary",
+    "family-note": "primarily ← primary(-ly 副詞)",
+    "reason": "-ly 副詞 (y→ily)"
+  },
+  {
+    "word": "plainly",
+    "base": "plain",
+    "family-note": "plainly ← plain(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "printer",
+    "base": "print",
+    "family-note": "printer ← print(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "router",
+    "base": "route",
+    "family-note": "router ← route(-er 表人)",
+    "reason": "-er 名詞 (去e)"
+  },
+  {
+    "word": "processor",
+    "base": "process",
+    "family-note": "processor ← process(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "digital",
+    "base": "digit",
+    "family-note": "digital ← digit(-al 形容詞)",
+    "reason": "-al 形容詞"
+  },
+  {
+    "word": "bought",
+    "base": "buy",
+    "family-note": "bought ← buy(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "paid",
+    "base": "pay",
+    "family-note": "paid ← pay(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "brought",
+    "base": "bring",
+    "family-note": "brought ← bring(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "caught",
+    "base": "catch",
+    "family-note": "caught ← catch(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "taught",
+    "base": "teach",
+    "family-note": "taught ← teach(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "meant",
+    "base": "mean",
+    "family-note": "meant ← mean(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "slept",
+    "base": "sleep",
+    "family-note": "slept ← sleep(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "dealt",
+    "base": "deal",
+    "family-note": "dealt ← deal(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "learnt",
+    "base": "learn",
+    "family-note": "learnt ← learn(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "ran",
+    "base": "run",
+    "family-note": "ran ← run(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "broke",
+    "base": "break",
+    "family-note": "broke ← break(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "woke",
+    "base": "wake",
+    "family-note": "woke ← wake(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "spoke",
+    "base": "speak",
+    "family-note": "spoke ← speak(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "chose",
+    "base": "choose",
+    "family-note": "chose ← choose(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "drove",
+    "base": "drive",
+    "family-note": "drove ← drive(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "rode",
+    "base": "ride",
+    "family-note": "rode ← ride(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "wrote",
+    "base": "write",
+    "family-note": "wrote ← write(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "ate",
+    "base": "eat",
+    "family-note": "ate ← eat(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "stood",
+    "base": "stand",
+    "family-note": "stood ← stand(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "swam",
+    "base": "swim",
+    "family-note": "swam ← swim(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "drank",
+    "base": "drink",
+    "family-note": "drank ← drink(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "sang",
+    "base": "sing",
+    "family-note": "sang ← sing(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "rang",
+    "base": "ring",
+    "family-note": "rang ← ring(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "swung",
+    "base": "swing",
+    "family-note": "swung ← swing(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "lit",
+    "base": "light",
+    "family-note": "lit ← light(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "shook",
+    "base": "shake",
+    "family-note": "shook ← shake(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "lost",
+    "base": "lose",
+    "family-note": "lost ← lose(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "flung",
+    "base": "fling",
+    "family-note": "flung ← fling(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "equally",
+    "base": "equal",
+    "family-note": "equally ← equal(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "firstly",
+    "base": "first",
+    "family-note": "firstly ← first(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "secondly",
+    "base": "second",
+    "family-note": "secondly ← second(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "thirdly",
+    "base": "third",
+    "family-note": "thirdly ← third(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "lastly",
+    "base": "last",
+    "family-note": "lastly ← last(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "significantly",
+    "base": "significant",
+    "family-note": "significantly ← significant(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "granted",
+    "base": "grant",
+    "family-note": "granted ← grant(過去式)",
+    "reason": "-ed 形 (加e)"
+  },
+  {
+    "word": "subsequently",
+    "base": "subsequent",
+    "family-note": "subsequently ← subsequent(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "formerly",
+    "base": "former",
+    "family-note": "formerly ← former(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "initially",
+    "base": "initial",
+    "family-note": "initially ← initial(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "originally",
+    "base": "original",
+    "family-note": "originally ← original(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "curiously",
+    "base": "curious",
+    "family-note": "curiously ← curious(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "founder",
+    "base": "found",
+    "family-note": "founder ← found(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "investor",
+    "base": "invest",
+    "family-note": "investor ← invest(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "contractor",
+    "base": "contract",
+    "family-note": "contractor ← contract(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "surveyor",
+    "base": "survey",
+    "family-note": "surveyor ← survey(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "biologist",
+    "base": "biology",
+    "family-note": "biologist ← biology(-ist 表人)",
+    "reason": "-ologist 名詞"
+  },
+  {
+    "word": "geologist",
+    "base": "geology",
+    "family-note": "geologist ← geology(-ist 表人)",
+    "reason": "-ologist 名詞"
+  },
+  {
+    "word": "psychologist",
+    "base": "psychology",
+    "family-note": "psychologist ← psychology(-ist 表人)",
+    "reason": "-ologist 名詞"
+  },
+  {
+    "word": "prosecutor",
+    "base": "prosecute",
+    "family-note": "prosecutor ← prosecute(-or 表人)",
+    "reason": "-or 名詞 (去e)"
+  },
+  {
+    "word": "senator",
+    "base": "senate",
+    "family-note": "senator ← senate(-or 表人)",
+    "reason": "-or 名詞 (去e)"
+  },
+  {
+    "word": "reporter",
+    "base": "report",
+    "family-note": "reporter ← report(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "columnist",
+    "base": "column",
+    "family-note": "columnist ← column(-ist 表人)",
+    "reason": "-ist 名詞"
+  },
+  {
+    "word": "builder",
+    "base": "build",
+    "family-note": "builder ← build(-er 表人/物)",
+    "reason": "-er 名詞"
+  },
+  {
+    "word": "counselor",
+    "base": "counsel",
+    "family-note": "counselor ← counsel(-or 表人)",
+    "reason": "-or 名詞"
+  },
+  {
+    "word": "skinny",
+    "base": "skin",
+    "family-note": "skinny ← skin(-y 形容詞)",
+    "reason": "-y 形容詞 (雙寫)"
+  },
+  {
+    "word": "homely",
+    "base": "home",
+    "family-note": "homely ← home(-ly 副詞)",
+    "reason": "-ly 副詞"
+  },
+  {
+    "word": "tanned",
+    "base": "tan",
+    "family-note": "tanned ← tan(過去式)",
+    "reason": "-ed 形 (雙寫子音)"
+  },
+  {
+    "word": "rugged",
+    "base": "rug",
+    "family-note": "rugged ← rug(過去式)",
+    "reason": "-ed 形 (雙寫子音)"
+  },
+  {
+    "word": "driven",
+    "base": "drive",
+    "family-note": "driven ← drive(過去式/過去分詞)",
+    "reason": "不規則動詞變化"
+  },
+  {
+    "word": "faithful",
+    "base": "faith",
+    "family-note": "faithful ← faith(-ful 形容詞)",
+    "reason": "-ful 形容詞"
+  }
+]

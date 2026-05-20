@@ -1,0 +1,14 @@
+[
+  {"word":"covid","current_stage":0,"suggested_stage":2,"reason":"專業醫學病名,不屬於 stage 0 超級基礎(且為近期專有縮寫)"},
+  {"word":"facebook","current_stage":0,"suggested_stage":1,"reason":"專有品牌名,長詞拼字,不適合放 stage 0 超級基礎"},
+  {"word":"instagram","current_stage":0,"suggested_stage":1,"reason":"專有品牌長詞,3 音節以上,不屬於 stage 0"},
+  {"word":"twitter","current_stage":0,"suggested_stage":1,"reason":"專有品牌名,非超級基礎字"},
+  {"word":"tiktok","current_stage":0,"suggested_stage":1,"reason":"專有品牌名"},
+  {"word":"youtube","current_stage":0,"suggested_stage":1,"reason":"專有品牌名,2 音節英文,放 stage 1 較合理"},
+  {"word":"google","current_stage":0,"suggested_stage":1,"reason":"專有品牌名,非超級基礎"},
+  {"word":"karaoke","current_stage":0,"suggested_stage":1,"reason":"4 音節外來語,放 stage 0 偏難"},
+  {"word":"definitely","current_stage":1,"suggested_stage":2,"reason":"4 音節抽象副詞,非基礎字"},
+  {"word":"obviously","current_stage":1,"suggested_stage":2,"reason":"4 音節抽象副詞,適合 stage 2"},
+  {"word":"probably","current_stage":1,"suggested_stage":2,"reason":"3 音節抽象副詞,推到 stage 2 較合理"},
+  {"word":"chickenpox","current_stage":2,"suggested_stage":3,"reason":"專業醫學病名,非中等難度"}
+]
