@@ -1,0 +1,501 @@
+# 字 8500-8999
+ 8500 | designate                      | 指定                             | 🏃        | chunks=['de', 'sig', 'na', 'te'] | py=ㄉㄧ-ㄒㄧㄍ-ㄋㄚ-ㄊㄧ | theme=actions | stage=4
+ 8501 | destined                       | 命中注定的                          | 🎨        | chunks=['des', 'ti', 'ned'] | py=ㄉㄧ-ㄊㄜ-ㄋㄝㄉ | theme=adjectives | stage=4
+ 8502 | detach                         | 分開                             | 🏃        | chunks=['de', 'tach'] | py=ㄉㄧ-ㄊㄚㄑ | theme=actions | stage=4
+ 8503 | deter                          | 威懾住                            | 🏃        | chunks=['de', 'ter'] | py=ㄉㄧ-ㄊㄜ | theme=actions | stage=4
+ 8504 | detergent                      | 洗潔劑                            | 🎨        | chunks=['de', 'ter', 'gent'] | py=ㄉㄧ-ㄊㄜ-ㄐㄣㄊ | theme=adjectives | stage=4
+ 8505 | deteriorate                    | 惡化                             | 🏃        | chunks=['de', 'te', 'rio', 'ra', 'te'] | py=ㄉㄧ-ㄊㄧ-ㄖㄧㄛ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8506 | devalue                        | 降低...的價值                       | 🏃        | chunks=['de', 'va', 'lue'] | py=ㄉㄧ-ㄈㄚ-ㄌㄩ | theme=actions | stage=4
+ 8507 | diagram                        | 圖表                             | 🏃        | chunks=['diag', 'ram'] | py=ㄉㄧㄚㄍ-ㄌㄚ | theme=actions | stage=4
+ 8508 | dictate                        | 口授                             | 🏃        | chunks=['dic', 'ta', 'te'] | py=ㄉㄧㄎ-ㄊㄝ-ㄊㄧ | theme=actions | stage=4
+ 8509 | dictation                      | 聽寫                             | 🎓        | chunks=['dic', 'ta', 'tion'] | py=ㄉㄧㄎ-ㄊㄝ-ㄒㄣ | theme=academic-words | stage=4 base=dictate
+ 8510 | dictator                       | 獨裁者                            | 👨‍⚕️     | chunks=['dic', 'ta', 'tor'] | py=ㄉㄧㄎ-ㄊㄝ-ㄊㄜ | theme=jobs | stage=4 base=dictate
+ 8511 | dilemma                        | 進退兩難                           | 🏃        | chunks=['di', 'lem', 'ma'] | py=ㄉㄧ-ㄅㄌㄣ-ㄇㄚ | theme=actions | stage=4
+ 8512 | directory                      | 電話號碼簿                          | 🎨        | chunks=['di', 'rec', 'to', 'ry'] | py=ㄉㄧ-ㄌㄝ-ㄊㄛ-ㄌㄧ | theme=adjectives | stage=4
+ 8513 | disability                     | 無能                             | 🎓        | chunks=['di', 'sa', 'bi', 'li', 'ty'] | py=ㄉㄧ-ㄙㄚ-ㄅㄞ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8514 | disable                        | 使失去能力                          | 🎨        | chunks=['di', 'sab', 'le'] | py=ㄉㄧ-ㄙㄚㄅ-ㄌㄧ | theme=adjectives | stage=4 base=able
+ 8515 | disapprove                     | 不贊同                            | 🏃        | chunks=['di', 'sap', 'pro', 've'] | py=ㄉㄧ-ㄙㄚ-ㄆㄜ-ㄈㄜ | theme=actions | stage=4 base=approve
+ 8516 | disastrous                     | 災難的                            | 🎨        | chunks=['di', 'sas', 'trous'] | py=ㄉㄧ-ㄙㄚ-ㄊㄖㄜㄙ | theme=adjectives | stage=4 base=disaster
+ 8517 | discharge                      | 排出                             | 🏃        | chunks=['dis', 'char', 'ge'] | py=ㄉㄧㄙ-ㄔㄚㄜㄐ | theme=actions | stage=4
+ 8518 | disciplinary                   | 紀律的                            | 🎨        | chunks=['dis', 'cip', 'li', 'na', 'ry'] | py=ㄉㄧㄙ-ㄎㄧㄆ-ㄌㄧ-ㄋㄚ-ㄌㄧ | theme=adjectives | stage=4
+ 8519 | disclose                       | 揭發                             | 🏃        | chunks=['dis', 'clo', 'se'] | py=ㄉㄧㄙ-ㄎㄌㄛ-ㄙㄜ | theme=actions | stage=4
+ 8520 | disclosure                     | 揭發                             | 🎓        | chunks=['dis', 'clo', 'su', 're'] | py=ㄉㄧㄙ-ㄎㄌㄛ-ㄙㄨ-ㄌㄧ | theme=academic-words | stage=4 base=disclose
+ 8521 | discomfort                     | 不舒適                            | 🏃        | chunks=['dis', 'com', 'fort'] | py=ㄉㄧㄙ-ㄎㄚㄇ-ㄈㄜㄊ | theme=actions | stage=4 base=comfort
+ 8522 | discreet                       | 謹慎的                            | 🤔        | chunks=['dis', 'creet'] | py=ㄉㄧㄙ-ㄎㄖㄧㄊ | theme=personality | stage=4 [有易混提示]
+ 8523 | discrimination                 | 辨別                             | 🎓        | chunks=['dis', 'cri', 'mi', 'na', 'tion'] | py=ㄉㄧㄙ-ㄎㄌㄞ-ㄇㄞ-ㄋㄚ-ㄒㄣ | theme=academic-words | stage=4 base=discriminate
+ 8524 | disgrace                       | 丟臉                             | 😞        | chunks=['dis', 'gra', 'ce'] | py=ㄉㄧㄙ-ㄍㄌㄝ-ㄙㄜ | theme=body | stage=4
+ 8525 | disgraceful                    | 不名譽的                           | 🎨        | chunks=['dis', 'gra', 'ce', 'ful'] | py=ㄉㄧㄙ-ㄍㄌㄝ-ㄙㄜ-ㄈㄜ | theme=adjectives | stage=4 base=disgrace
+ 8526 | dismantle                      | 拆卸                             | 🏃        | chunks=['dis', 'man', 'tle'] | py=ㄉㄧㄙ-ㄇㄢ-ㄉㄜ | theme=actions | stage=4
+ 8527 | dismay                         | 驚慌                             | 🏃        | chunks=['dis', 'may'] | py=ㄉㄧㄙ-ㄇㄟ | theme=actions | stage=4
+ 8528 | dispatch                       | 派遣                             | 📨        | chunks=['dis', 'patch'] | py=ㄉㄧㄙ-ㄆㄚㄊㄔ | theme=desserts | stage=4
+ 8529 | dispensable                    | 非必要的                           | 🎨        | chunks=['dis', 'pen', 'sab', 'le'] | py=ㄉㄧㄙ-ㄆㄣ-ㄙㄚㄅ-ㄌㄧ | theme=adjectives | stage=4 base=dispense
+ 8530 | displease                      | 使人不高興                          | 💁        | chunks=['dis', 'plea', 'se'] | py=ㄉㄧㄙ-ㄆㄌㄧ-ㄙㄜ | theme=appearance | stage=4
+ 8531 | disposable                     | 可任意處理的                         | 🎨        | chunks=['dis', 'po', 'sab', 'le'] | py=ㄉㄧㄙ-ㄆㄛ-ㄙㄚㄅ-ㄌㄧ | theme=adjectives | stage=4 base=dispose
+ 8532 | disposal                       | 處理                             | 🏃        | chunks=['dis', 'po', 'sal'] | py=ㄉㄧㄙ-ㄆㄛ-ㄙㄚㄦ | theme=actions | stage=4 base=dispose
+ 8533 | disregard                      | 不顧                             | 🏃        | chunks=['dis', 're', 'gard'] | py=ㄉㄧㄙ-ㄌㄧ-ㄍㄚㄦㄉ | theme=actions | stage=4
+ 8534 | dissident                      | 意見不同的                          | 🎨        | chunks=['dis', 'si', 'dent'] | py=ㄉㄧㄙ-ㄗㄜ-ㄉㄣㄊ | theme=adjectives | stage=4
+ 8535 | dissolve                       | 分解                             | 🏃        | chunks=['dis', 'sol', 've'] | py=ㄉㄧㄙ-ㄙㄚ-ㄈㄜ | theme=actions | stage=4
+ 8536 | dissuade                       | 勸阻                             | 🏃        | chunks=['dis', 'sua', 'de'] | py=ㄉㄧㄙ-ㄙㄨㄟ-ㄉㄧ | theme=actions | stage=4
+ 8537 | distract                       | 使分心                            | 🏃        | chunks=['dis', 'tract'] | py=ㄉㄧㄙ-ㄊㄌㄚㄎㄊ | theme=actions | stage=4
+ 8538 | distraction                    | 分心                             | 🎓        | chunks=['dis', 'trac', 'tion'] | py=ㄉㄧㄙ-ㄊㄌㄚㄎ-ㄒㄣ | theme=academic-words | stage=4 base=distract
+ 8539 | distrust                       | 不信任                            | 🤨        | chunks=['dis', 'trust'] | py=ㄉㄧㄙ-ㄊㄌㄚㄙㄊ | theme=emotions | stage=4 base=trust
+ 8540 | disturbance                    | 擾亂                             | 🎓        | chunks=['dis', 'tur', 'ban', 'ce'] | py=ㄉㄧㄙ-ㄊㄜ-ㄅㄢ-ㄙㄜ | theme=academic-words | stage=4 base=disturb
+ 8541 | diversify                      | 使多樣化                           | 🏃        | chunks=['di', 'ver', 'si', 'fy'] | py=ㄉㄧ-ㄈㄜ-ㄗㄜ-ㄈㄞ | theme=actions | stage=4 base=diverse
+ 8542 | diversion                      | 轉移                             | 🎓        | chunks=['di', 'ver', 'sion'] | py=ㄉㄧ-ㄈㄜ-ㄒㄣ | theme=academic-words | stage=4 base=divert
+ 8543 | diversity                      | 差異                             | 🎓        | chunks=['di', 'ver', 'si', 'ty'] | py=ㄉㄧ-ㄈㄜ-ㄗㄜ-ㄊㄧ | theme=academic-words | stage=4
+ 8544 | divert                         | 轉移                             | 🏃        | chunks=['di', 'vert'] | py=ㄉㄧ-ㄈㄜㄊ | theme=actions | stage=4
+ 8545 | dome                           | 圓屋頂                            | 🏃        | chunks=['do', 'me'] | py=ㄉㄛ-ㄇㄝ | theme=actions | stage=3
+ 8546 | donate                         | 捐贈                             | 🏃        | chunks=['do', 'na', 'te'] | py=ㄉㄛ-ㄋㄚ-ㄊㄧ | theme=actions | stage=3
+ 8547 | donation                       | 捐贈                             | 🎓        | chunks=['do', 'na', 'tion'] | py=ㄉㄛ-ㄋㄚ-ㄒㄣ | theme=academic-words | stage=3 base=donate
+ 8548 | donor                          | 捐贈者                            | 👨‍⚕️     | chunks=['do', 'nor'] | py=ㄉㄛ-ㄋㄜ | theme=jobs | stage=4 base=donate
+ 8549 | doom                           | 厄運                             | 🏃        | chunks=['d', 'oom'] | py=ㄉㄨㄇ | theme=actions | stage=4
+ 8550 | drastic                        | 猛烈的                            | 🎨        | chunks=['dras', 'tic'] | py=ㄉㄖㄚㄙ-ㄊㄧㄎ | theme=adjectives | stage=4
+ 8551 | drawback                       | 缺點                             | 🏃        | chunks=['draw', 'back'] | py=ㄉㄌㄛ-ㄅㄚㄎ | theme=actions | stage=4
+ 8552 | dual                           | 雙重的、二元的                        | 🎨        | chunks=['d', 'ual'] | py=ㄉㄨㄜㄦ | theme=adjectives | stage=4 [有易混提示]
+ 8553 | dubious                        | 半信半疑的                          | 🎨        | chunks=['du', 'bious'] | py=ㄉㄨ-ㄅㄧㄜㄙ | theme=adjectives | stage=4
+ 8554 | ebb                            | 退潮                             | 🏃        | chunks=['eb', 'b'] | py=ㄝㄅ-ㄅㄧ | theme=actions | stage=4
+ 8555 | eccentric                      | 古怪的                            | 🎨        | chunks=['ec', 'cen', 'tric'] | py=ㄝㄎ-ㄙㄝㄣ-ㄊㄖㄧㄎ | theme=adjectives | stage=4
+ 8556 | ecstasy                        | 狂喜                             | 🏃        | chunks=['ec', 'sta', 'sy'] | py=ㄝㄎ-ㄙㄉㄝ-ㄗㄧ | theme=actions | stage=4
+ 8557 | edible                         | 可食的                            | 🎨        | chunks=['e', 'dib', 'le'] | py=ㄧ-ㄉㄧㄅ-ㄌㄧ | theme=adjectives | stage=4
+ 8558 | eligible                       | 有資格當選的                         | 🎨        | chunks=['e', 'li', 'gib', 'le'] | py=ㄧ-ㄌㄧ-ㄍㄧㄅ-ㄌㄧ | theme=adjectives | stage=4
+ 8559 | elite                          | 精英                             | 🏃        | chunks=['e', 'li', 'te'] | py=ㄧ-ㄌㄧ-ㄊㄧ | theme=actions | stage=4
+ 8560 | eloquence                      | 雄辯                             | 🎓        | chunks=['e', 'lo', 'quen', 'ce'] | py=ㄧ-ㄌㄛ-ㄎㄨㄝㄋ-ㄙㄜ | theme=academic-words | stage=4
+ 8561 | embark                         | 上船                             | 🚗        | chunks=['em', 'bark'] | py=ㄝㄇ-ㄅㄚㄜㄎ | theme=transportation | stage=4
+ 8562 | emigrant                       | 移民                             | 🎨        | chunks=['e', 'mig', 'rant'] | py=ㄝ-ㄇㄜ-ㄍㄖㄣㄊ | theme=adjectives | stage=4 base=emigrate
+ 8563 | emigrate                       | 移居外國                           | 🌍        | chunks=['e', 'mig', 'ra', 'te'] | py=ㄝ-ㄇㄜ-ㄍㄖㄝㄊ | theme=countries | stage=4 [有易混提示]
+ 8564 | emigration                     | 移居                             | 🎓        | chunks=['e', 'mig', 'ra', 'tion'] | py=ㄝ-ㄇㄜ-ㄍㄖㄝ-ㄒㄣ | theme=academic-words | stage=4 base=emigrate
+ 8565 | emphatic                       | 強調的                            | 🎨        | chunks=['em', 'pha', 'tic'] | py=ㄝㄇ-ㄈㄚ-ㄊㄧㄎ | theme=adjectives | stage=4
+ 8566 | enact                          | 制定                             | 🏃        | chunks=['e', 'nact'] | py=ㄧ-ㄋㄚㄎㄊ | theme=actions | stage=4
+ 8567 | enactment                      | 制定                             | 🎨        | chunks=['e', 'nac', 'tment'] | py=ㄧ-ㄋㄚㄎ-ㄊㄇㄣㄊ | theme=adjectives | stage=4 base=enact
+ 8568 | enclosure                      | 圍住                             | 🎓        | chunks=['en', 'clo', 'su', 're'] | py=ㄣ-ㄎㄌㄛ-ㄙㄨ-ㄌㄧ | theme=academic-words | stage=4 base=enclose
+ 8569 | encyclopedia                   | 百科全書                           | 🔢        | chunks=['en', 'cyc', 'lo', 'pe', 'dia'] | py=ㄣ-ㄎㄧㄎ-ㄌㄛ-ㄆㄜ-ㄉㄞ | theme=numbers | stage=4
+ 8570 | enhancement                    | 增加                             | 🎨        | chunks=['en', 'han', 'ce', 'ment'] | py=ㄣ-ㄏㄢ-ㄙㄜ-ㄇㄣㄊ | theme=adjectives | stage=4 base=enhance
+ 8571 | enlighten                      | 啟發                             | 🏃        | chunks=['en', 'lig', 'hten'] | py=ㄣ-ㄌㄧ-ㄏㄊㄝㄋ | theme=actions | stage=4
+ 8572 | enrich                         | 使豐富                            | 🏃        | chunks=['en', 'rich'] | py=ㄣ-ㄖㄧㄔ | theme=actions | stage=4
+ 8573 | enrichment                     | 豐富                             | 🎨        | chunks=['en', 'ric', 'hment'] | py=ㄣ-ㄌㄧㄎ-ㄏㄇㄣㄊ | theme=adjectives | stage=4 base=enrich
+ 8574 | epidemic                       | 傳染病                            | 🦠        | chunks=['e', 'pi', 'de', 'mic'] | py=ㄧ-ㄆㄧ-ㄉㄧ-ㄇㄧㄎ | theme=diseases | stage=3
+ 8575 | eq                             | 情緒商數(EQ)                       | 🏃        | chunks=['e', 'q'] | py=ㄧ-ㄎㄧㄨ | theme=actions | stage=4
+ 8576 | eternity                       | 永恆                             | 🎓        | chunks=['e', 'ter', 'ni', 'ty'] | py=ㄧ-ㄊㄜ-ㄋㄜ-ㄊㄧ | theme=academic-words | stage=4 base=eternal
+ 8577 | ethical                        | 倫理的                            | 🎨        | chunks=['et', 'hi', 'cal'] | py=ㄝㄊ-ㄏㄞ-ㄎㄜ | theme=adjectives | stage=4
+ 8578 | excerpt                        | 摘錄                             | 🏃        | chunks=['ex', 'cerpt'] | py=ㄝㄎㄙ-ㄎㄜㄆㄊ | theme=actions | stage=4
+ 8579 | excessive                      | 過度的                            | 🎨        | chunks=['ex', 'ces', 'si', 've'] | py=ㄝㄎㄙ-ㄙㄝ-ㄗㄜ-ㄈㄜ | theme=adjectives | stage=4 base=excess
+ 8580 | execution                      | 執行                             | 🎓        | chunks=['e', 'xe', 'cu', 'tion'] | py=ㄧ-ㄎㄙㄝ-ㄎㄧㄨ-ㄒㄣ | theme=academic-words | stage=4 base=execute
+ 8581 | exert                          | 盡                              | 🏃        | chunks=['e', 'xert'] | py=ㄧ-ㄎㄙㄜㄊ | theme=actions | stage=4
+ 8582 | exotic                         | 異國情調的                          | 🌍        | chunks=['e', 'xo', 'tic'] | py=ㄧ-ㄎㄙㄛ-ㄊㄧㄎ | theme=countries | stage=4
+ 8583 | expel                          | 驅逐                             | 🏃        | chunks=['ex', 'pel'] | py=ㄝㄎㄙ-ㄆㄦ | theme=actions | stage=4
+ 8584 | expertise                      | 專門技術                           | 🛠️       | chunks=['ex', 'per', 'ti', 'se'] | py=ㄝㄎㄙ-ㄆㄜ-ㄊㄜ-ㄙㄜ | theme=home-items | stage=4 base=expert
+ 8585 | expiration                     | 終結                             | 🎓        | chunks=['ex', 'pi', 'ra', 'tion'] | py=ㄝㄎㄙ-ㄆㄧ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4 base=expire
+ 8586 | expire                         | 滿期                             | 🏃        | chunks=['ex', 'pi', 're'] | py=ㄝㄎㄙ-ㄆㄧ-ㄌㄧ | theme=actions | stage=4
+ 8587 | extracurricular                | 課外的                            | 🎨        | chunks=['ex', 'tra', 'cur', 'ri', 'cu', 'lar'] | py=ㄝㄎㄙ-ㄊㄌㄚ-ㄎㄜ-ㄌㄧ-ㄎㄧㄨ-ㄌㄜ | theme=adjectives | stage=4
+ 8588 | eyesight                       | 視力                             | 🏃        | chunks=['eye', 'sight'] | py=ㄞ-ㄙㄞㄊ | theme=actions | stage=4
+ 8589 | fabulous                       | 驚人的                            | 🎨        | chunks=['fa', 'bu', 'lous'] | py=ㄈㄚ-ㄅㄧㄨ-ㄌㄚㄙ | theme=adjectives | stage=4
+ 8590 | faculty                        | 全體教職員                          | 🏃        | chunks=['fa', 'cul', 'ty'] | py=ㄈㄚ-ㄎㄦ-ㄊㄧ | theme=actions | stage=4
+ 8591 | familiarity                    | 熟悉                             | 🎓        | chunks=['fa', 'mi', 'lia', 'ri', 'ty'] | py=ㄈㄚ-ㄇㄞ-ㄌㄧㄚ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8592 | fascination                    | 魅力                             | 🎓        | chunks=['fas', 'ci', 'na', 'tion'] | py=ㄈㄚㄙ-ㄙㄜ-ㄋㄚ-ㄒㄣ | theme=academic-words | stage=4 base=fascinate
+ 8593 | feasible                       | 可實行的                           | 🎨        | chunks=['fea', 'sib', 'le'] | py=ㄈㄧ-ㄒㄧㄅ-ㄌㄧ | theme=adjectives | stage=3
+ 8594 | federation                     | 聯邦政府                           | 🏛️       | chunks=['fe', 'de', 'ra', 'tion'] | py=ㄈㄧ-ㄉㄧ-ㄌㄚ-ㄒㄣ | theme=politics | stage=4
+ 8595 | feedback                       | 回饋                             | 🏃        | chunks=['feed', 'back'] | py=ㄈㄧㄉ-ㄅㄚㄎ | theme=actions | stage=3
+ 8596 | fertility                      | 肥沃                             | 🎓        | chunks=['fer', 'ti', 'li', 'ty'] | py=ㄈㄜ-ㄊㄜ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4 base=fertile
+ 8597 | fidelity                       | 忠貞                             | 🎓        | chunks=['fi', 'de', 'li', 'ty'] | py=ㄈㄜ-ㄉㄧ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8598 | fireproof                      | 防火的                            | 🎨        | chunks=['fi', 'rep', 'roof'] | py=ㄈㄜ-ㄌㄝ-ㄖㄨㄈ | theme=adjectives | stage=4
+ 8599 | flare                          | 閃耀                             | 🏃        | chunks=['fla', 're'] | py=ㄈㄌㄝㄜ | theme=actions | stage=4 [有易混提示]
+ 8600 | fleet                          | 艦隊                             | 🏃        | chunks=['fl', 'eet'] | py=ㄈㄌㄧㄊ | theme=actions | stage=4
+ 8601 | flicker                        | 閃爍                             | 🏃        | chunks=['flic', 'ker'] | py=ㄈㄌㄧㄎ-ㄎㄜ | theme=actions | stage=4
+ 8602 | fluid                          | 流體、液體                          | 🎨        | chunks=['fl', 'uid'] | py=ㄈㄌㄨ-ㄜㄉ | theme=adjectives | stage=4
+ 8603 | flutter                        | 振翼                             | 🏃        | chunks=['flut', 'ter'] | py=ㄈㄌㄚ-ㄊㄜ | theme=actions | stage=4
+ 8604 | foresee                        | 預見                             | 🏃        | chunks=['fo', 're', 'see'] | py=ㄈㄜ-ㄌㄧ-ㄒㄧ | theme=actions | stage=4 base=see
+ 8605 | formidable                     | 可怕的                            | 🎨        | chunks=['for', 'mi', 'dab', 'le'] | py=ㄈㄛ-ㄇㄞ-ㄉㄚㄅ-ㄌㄧ | theme=adjectives | stage=4
+ 8606 | formulate                      | 使公式化                           | 🏃        | chunks=['for', 'mu', 'la', 'te'] | py=ㄈㄛ-ㄇㄧㄨ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8607 | forsake                        | 遺棄                             | 🏃        | chunks=['for', 'sa', 'ke'] | py=ㄈㄛ-ㄙㄚ-ㄎㄟ | theme=actions | stage=4
+ 8608 | fortify                        | 加強                             | 🏃        | chunks=['for', 'ti', 'fy'] | py=ㄈㄛ-ㄊㄜ-ㄈㄞ | theme=numbers | stage=4
+ 8609 | foster                         | 養育                             | 🏃        | chunks=['fos', 'ter'] | py=ㄈㄚ-ㄙㄊㄜ | theme=actions | stage=4
+ 8610 | fragment                       | 碎片                             | 🎨        | chunks=['frag', 'ment'] | py=ㄈㄖㄚ-ㄇㄣㄊ | theme=adjectives | stage=4
+ 8611 | freak                          | 怪誕的行動                          | 🏃        | chunks=['fr', 'eak'] | py=ㄈㄖㄧㄎ | theme=actions | stage=4
+ 8612 | fret                           | 使苦惱                            | 🏃        | chunks=['fr', 'et'] | py=ㄈㄖㄝㄊ | theme=actions | stage=4
+ 8613 | friction                       | 摩擦                             | 🎓        | chunks=['fric', 'tion'] | py=ㄈㄖㄧㄎ-ㄒㄣ | theme=academic-words | stage=4
+ 8614 | generalize                     | 泛論                             | 🏃        | chunks=['ge', 'ne', 'ra', 'li', 'ze'] | py=ㄐㄧ-ㄋㄧ-ㄌㄚ-ㄌㄧ-ㄗㄧ | theme=actions | stage=4 base=general
+ 8615 | generator                      | 發電機                            | 🔨        | chunks=['ge', 'ne', 'ra', 'tor'] | py=ㄐㄧ-ㄋㄧ-ㄌㄚ-ㄊㄜ | theme=tools | stage=4 base=generate
+ 8616 | genetic                        | 遺傳的、基因的                        | 🎨        | chunks=['ge', 'ne', 'tic'] | py=ㄐㄧ-ㄋㄧ-ㄊㄧㄎ | theme=adjectives | stage=4
+ 8617 | glamour                        | 魅力                             | 🏃        | chunks=['gla', 'mour'] | py=ㄍㄌㄚ-ㄇㄜ | theme=actions | stage=4
+ 8618 | glassware                      | 玻璃器皿                           | 🪨        | chunks=['glas', 'swa', 're'] | py=ㄍㄌㄚ-ㄙㄨㄚ-ㄌㄧ | theme=materials | stage=4
+ 8619 | glisten                        | 閃耀                             | 🏃        | chunks=['glis', 'ten'] | py=ㄍㄌㄧㄙ-ㄊㄣ | theme=actions | stage=4
+ 8620 | genetically modified organism  | 基因改造生                          | 🔬        | chunks=['ge', 'ne', 'ti', 'cal', 'ly', 'mo', 'di', 'fied', 'or', 'ga', 'nism'] | py=ㄍㄝㄋㄝㄊㄧㄎㄚㄌㄌㄧ-ㄇㄛㄉㄧㄈㄞㄉ-ㄛㄜㄍㄚㄋㄧㄙㄇ | theme=science | stage=4
+ 8621 | graphic                        | 寫實的                            | 🎨        | chunks=['grap', 'hic'] | py=ㄍㄖㄚㄆ-ㄏㄧㄎ | theme=adjectives | stage=4
+ 8622 | grill                          | 烤架烤                            | 🍳        | chunks=['gr', 'ill'] | py=ㄍㄖ-ㄧㄦ | theme=food | stage=4
+ 8623 | grocer                         | 食品雜貨商                          | 🏃        | chunks=['gro', 'cer'] | py=ㄍㄌㄛ-ㄙㄜ | theme=actions | stage=4
+ 8624 | grope                          | 摸索                             | 🏃        | chunks=['gro', 'pe'] | py=ㄍㄌㄛ-ㄆㄜ | theme=actions | stage=4
+ 8625 | guerrilla                      | 游擊戰                            | 🏃        | chunks=['guer', 'ril', 'la'] | py=ㄍㄩㄖ-ㄦ-ㄌㄚ | theme=actions | stage=4
+ 8626 | harass                         | 使…煩惱                           | 🏃        | chunks=['ha', 'rass'] | py=ㄏㄜ-ㄌㄚㄙ | theme=actions | stage=4
+ 8627 | hazard                         | 危害                             | 🏃        | chunks=['ha', 'zard'] | py=ㄏㄜ-ㄗㄜㄉ | theme=actions | stage=4
+ 8628 | heroin                         | 海洛因                            | 💉        | chunks=['he', 'roin'] | py=ㄏㄝ-ㄖㄛㄧㄋ | theme=nature | stage=4
+ 8629 | honorary                       | 名譽上的                           | 🎨        | chunks=['ho', 'no', 'ra', 'ry'] | py=ㄏㄚ-ㄋㄛ-ㄌㄚ-ㄌㄧ | theme=adjectives | stage=4
+ 8630 | hospitable                     | 好客的                            | 🎨        | chunks=['hos', 'pi', 'tab', 'le'] | py=ㄏㄚㄙ-ㄆㄧ-ㄊㄚ-ㄌㄧ | theme=adjectives | stage=4
+ 8631 | hospitality                    | 好客                             | 🎓        | chunks=['hos', 'pi', 'ta', 'li', 'ty'] | py=ㄏㄚㄙ-ㄆㄧ-ㄊㄝ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8632 | hospitalize                    | 使…住院治療                         | 🏃        | chunks=['hos', 'pi', 'ta', 'li', 'ze'] | py=ㄏㄚㄙ-ㄆㄧ-ㄊㄝ-ㄌㄧ-ㄗㄧ | theme=actions | stage=4 base=hospital
+ 8633 | hostility                      | 敵意                             | 🎓        | chunks=['hos', 'ti', 'li', 'ty'] | py=ㄏㄚㄙ-ㄊㄜ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4 base=hostile
+ 8634 | humanitarian                   | 人道主義的                          | 🎨        | chunks=['hu', 'ma', 'ni', 'ta', 'rian'] | py=ㄏㄧㄨ-ㄇㄚ-ㄋㄜ-ㄊㄝ-ㄖㄧㄚㄋ | theme=adjectives | stage=4
+ 8635 | humiliate                      | 羞辱                             | 🏃        | chunks=['hu', 'mi', 'lia', 'te'] | py=ㄏㄧㄨ-ㄇㄞ-ㄌㄧㄚ-ㄊㄧ | theme=actions | stage=4
+ 8636 | hunch                          | 預感                             | 🏃        | chunks=['h', 'unch'] | py=ㄏㄚㄋㄔ | theme=actions | stage=4
+ 8637 | hurdle                         | 跳欄                             | 🏃        | chunks=['hur', 'dle'] | py=ㄏㄜ-ㄉㄜ | theme=actions | stage=4
+ 8638 | hygiene                        | 衛生                             | 🏃        | chunks=['hy', 'gie', 'ne'] | py=ㄏㄞ-ㄍㄞ-ㄋㄧ | theme=actions | stage=4
+ 8639 | hypocrisy                      | 偽善                             | 🏃        | chunks=['hy', 'poc', 'ri', 'sy'] | py=ㄏㄞ-ㄆㄚ-ㄌㄧ-ㄗㄧ | theme=actions | stage=4
+ 8640 | hypocrite                      | 偽君子                            | 🏃        | chunks=['hy', 'poc', 'ri', 'te'] | py=ㄏㄞ-ㄆㄚ-ㄌㄧ-ㄊㄧ | theme=actions | stage=4
+ 8641 | hysterical                     | 歇斯底里的                          | 🎨        | chunks=['hys', 'te', 'ri', 'cal'] | py=ㄏㄧㄙ-ㄊㄧ-ㄌㄧ-ㄎㄜ | theme=adjectives | stage=4
+ 8642 | illuminate                     | 照亮                             | 🏃        | chunks=['il', 'lu', 'mi', 'na', 'te'] | py=ㄧ-ㄌㄨ-ㄇㄞ-ㄋㄚ-ㄊㄧ | theme=actions | stage=4
+ 8643 | illusion                       | 幻覺                             | 🎓        | chunks=['il', 'lu', 'sion'] | py=ㄧ-ㄌㄨ-ㄒㄣ | theme=academic-words | stage=4
+ 8644 | imperative                     | 必要的                            | 🎨        | chunks=['im', 'pe', 'ra', 'ti', 've'] | py=ㄧㄇ-ㄆㄜ-ㄌㄚ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4
+ 8645 | implication                    | 暗示                             | 🎓        | chunks=['im', 'pli', 'ca', 'tion'] | py=ㄧㄇ-ㄆㄌㄜ-ㄎㄚ-ㄒㄣ | theme=academic-words | stage=4
+ 8646 | imposing                       | 壯觀的                            | 🎨        | chunks=['im', 'po', 'sing'] | py=ㄧㄇ-ㄆㄛ-ㄒㄧㄥ | theme=adjectives | stage=4
+ 8647 | imprison                       | 監禁                             | 🏃        | chunks=['im', 'pri', 'son'] | py=ㄧㄇ-ㄆㄌㄞ-ㄗㄣ | theme=actions | stage=4
+ 8648 | imprisonment                   | 監禁                             | 🎨        | chunks=['im', 'pri', 'son', 'ment'] | py=ㄧㄇ-ㄆㄌㄞ-ㄗㄣ-ㄇㄣㄊ | theme=adjectives | stage=4 base=imprison
+ 8649 | incidental                     | 附帶的                            | 🎨        | chunks=['in', 'ci', 'den', 'tal'] | py=ㄧㄣ-ㄙㄜ-ㄉㄣ-ㄉㄜ | theme=adjectives | stage=4
+ 8650 | inclusive                      | 包含的                            | 🎨        | chunks=['in', 'clu', 'si', 've'] | py=ㄧㄣ-ㄎㄌㄨ-ㄗㄜ-ㄈㄜ | theme=adjectives | stage=4
+ 8651 | indignation                    | 憤慨                             | 😠        | chunks=['in', 'dig', 'na', 'tion'] | py=ㄧㄣ-ㄉㄧ-ㄋㄚ-ㄒㄣ | theme=emotions | stage=4 base=indignant
+ 8652 | infectious                     | 傳染性的                           | 🎨        | chunks=['in', 'fec', 'tious'] | py=ㄧㄣ-ㄈㄝㄎ-ㄒㄚㄙ | theme=adjectives | stage=4
+ 8653 | ingenious                      | 巧妙的                            | 🎨        | chunks=['in', 'ge', 'nious'] | py=ㄧㄣ-ㄐㄧ-ㄋㄧㄜㄙ | theme=adjectives | stage=4
+ 8654 | ingenuity                      | 足智多謀                           | 🎓        | chunks=['in', 'ge', 'nui', 'ty'] | py=ㄧㄣ-ㄐㄧ-ㄋㄨ-ㄊㄧ | theme=academic-words | stage=4
+ 8655 | inhabit                        | 棲息於…                           | 🏃        | chunks=['in', 'ha', 'bit'] | py=ㄧㄣ-ㄏㄜ-ㄅㄧㄊ | theme=actions | stage=4
+ 8656 | inhabitant                     | 居民                             | 🎨        | chunks=['in', 'ha', 'bi', 'tant'] | py=ㄧㄣ-ㄏㄜ-ㄅㄞ-ㄊㄣㄊ | theme=adjectives | stage=4 base=inhabit
+ 8657 | initiative                     | 創始的倡議                          | 🎨        | chunks=['i', 'ni', 'tia', 'ti', 've'] | py=ㄌㄜ-ㄋㄜ-ㄒㄜ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4 base=initiate
+ 8658 | inject                         | 注射                             | 🏃        | chunks=['in', 'ject'] | py=ㄧㄣ-ㄐㄝㄎㄊ | theme=actions | stage=4
+ 8659 | innovation                     | 改革                             | 🎓        | chunks=['in', 'no', 'va', 'tion'] | py=ㄧㄣ-ㄋㄛ-ㄈㄚ-ㄒㄣ | theme=academic-words | stage=4 base=innovate
+ 8660 | inquiry                        | 詢問                             | 🏃        | chunks=['in', 'qui', 'ry'] | py=ㄧㄣ-ㄎㄧ-ㄌㄧ | theme=actions | stage=4 base=inquire
+ 8661 | insistence                     | 堅持                             | 🎓        | chunks=['in', 'sis', 'ten', 'ce'] | py=ㄧㄣ-ㄒㄜㄙ-ㄊㄣ-ㄙㄜ | theme=academic-words | stage=4 base=insist
+ 8662 | installation                   | 就任                             | 🎓        | chunks=['in', 'stal', 'la', 'tion'] | py=ㄧㄣ-ㄙㄊㄚㄌ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4 base=install
+ 8663 | installment                    | 分期付款                           | 🎨        | chunks=['in', 'stal', 'lment'] | py=ㄧㄣ-ㄙㄊㄚㄌ-ㄌㄇㄣㄊ | theme=adjectives | stage=4 base=install
+ 8664 | institution                    | 制度                             | 🎓        | chunks=['in', 'sti', 'tu', 'tion'] | py=ㄧㄣ-ㄙㄊㄜ-ㄑㄨ-ㄒㄣ | theme=academic-words | stage=4
+ 8665 | intact                         | 完整無缺的                          | 🎨        | chunks=['in', 'tact'] | py=ㄧㄣ-ㄊㄚㄎㄊ | theme=adjectives | stage=4
+ 8666 | integration                    | 整合                             | 🎓        | chunks=['in', 'teg', 'ra', 'tion'] | py=ㄧㄣ-ㄊㄝ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4
+ 8667 | intellect                      | 智力                             | 🏃        | chunks=['in', 'tel', 'lect'] | py=ㄧㄣ-ㄊㄝㄦ-ㄌㄝㄎㄊ | theme=actions | stage=4
+ 8668 | intersection                   | 十字路口                           | 🔢        | chunks=['in', 'ter', 'sec', 'tion'] | py=ㄧㄣ-ㄊㄜ-ㄙㄝㄎ-ㄒㄣ | theme=numbers | stage=4
+ 8669 | intervention                   | 干涉                             | 🎓        | chunks=['in', 'ter', 'ven', 'tion'] | py=ㄧㄣ-ㄊㄜ-ㄈㄣ-ㄒㄣ | theme=academic-words | stage=4 base=intervene
+ 8670 | intimidate                     | 威嚇                             | 🏃        | chunks=['in', 'ti', 'mi', 'da', 'te'] | py=ㄧㄣ-ㄊㄜ-ㄇㄞ-ㄉㄚ-ㄊㄧ | theme=actions | stage=4
+ 8671 | intrude                        | 侵入                             | 🏃        | chunks=['in', 'tru', 'de'] | py=ㄧㄣ-ㄊㄌㄨ-ㄉㄧ | theme=actions | stage=4
+ 8672 | invaluable                     | 無價的                            | 🎨        | chunks=['in', 'va', 'luab', 'le'] | py=ㄧㄣ-ㄈㄚ-ㄌㄚㄚㄅ-ㄌㄧ | theme=adjectives | stage=4
+ 8673 | investigator                   | 調查者                            | 👨‍⚕️     | chunks=['in', 'ves', 'ti', 'ga', 'tor'] | py=ㄧㄣ-ㄈㄝㄙ-ㄊㄜ-ㄍㄚ-ㄊㄜ | theme=jobs | stage=4
+ 8674 | iq                             | 智力商數                           | 🏃        | chunks=['i', 'q'] | py=ㄌㄜ-ㄎㄧㄨ | theme=actions | stage=4
+ 8675 | intelligence quotient          | 智力商數                           | 🔗        | chunks=['in', 'tel', 'li', 'gen', 'ce', 'quo', 'tient'] | py=ㄧㄋㄊㄝㄌㄌㄧㄍㄣㄙ-ㄎㄨㄛㄊㄞㄋㄊ | theme=phrasal-verbs | stage=4
+ 8676 | ironic                         | 冷嘲的                            | 🎨        | chunks=['i', 'ro', 'nic'] | py=ㄌㄜ-ㄌㄛ-ㄋㄧㄎ | theme=adjectives | stage=4
+ 8677 | irritable                      | 易怒的                            | 🎨        | chunks=['ir', 'ri', 'tab', 'le'] | py=ㄧ-ㄌㄧ-ㄊㄚ-ㄌㄧ | theme=adjectives | stage=4
+ 8678 | irritate                       | 使惱怒                            | 🏃        | chunks=['ir', 'ri', 'ta', 'te'] | py=ㄧ-ㄌㄧ-ㄊㄝ-ㄊㄧ | theme=actions | stage=4
+ 8679 | irritation                     | 惱怒                             | 🎓        | chunks=['ir', 'ri', 'ta', 'tion'] | py=ㄧ-ㄌㄧ-ㄊㄝ-ㄒㄣ | theme=academic-words | stage=4 base=irritate
+ 8680 | joyous                         | 快樂的                            | 😊        | chunks=['j', 'oyous'] | py=ㄐ-ㄛㄧㄜㄙ | theme=emotions | stage=4 base=joy
+ 8681 | legitimate                     | 合法的                            | ⚖️       | chunks=['le', 'gi', 'ti', 'ma', 'te'] | py=ㄌㄧ-ㄐㄜ-ㄊㄜ-ㄇㄚ-ㄊㄧ | theme=law | stage=4
+ 8682 | lengthy                        | 長的                             | 🎨        | chunks=['leng', 'thy'] | py=ㄌㄝㄥ-ㄒㄧ | theme=adjectives | stage=4
+ 8683 | liable                         | 易...的                          | 🎨        | chunks=['liab', 'le'] | py=ㄌㄧㄚㄅ-ㄌㄧ | theme=adjectives | stage=4 [有易混提示]
+ 8684 | liberate                       | 解放                             | 🏃        | chunks=['li', 'be', 'ra', 'te'] | py=ㄌㄧ-ㄅㄧ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8685 | limousine                      | 大型豪華轎車                         | 🚗        | chunks=['li', 'mou', 'si', 'ne'] | py=ㄌㄧ-ㄇㄠ-ㄗㄜ-ㄋㄧ | theme=transportation | stage=4
+ 8686 | liner                          | 班機                             | 🔨        | chunks=['li', 'ner'] | py=ㄌㄧ-ㄋㄜ | theme=tools | stage=4
+ 8687 | linguist                       | 語言學者                           | 👨‍⚕️     | chunks=['lin', 'guist'] | py=ㄌㄧ-ㄍㄨㄙㄊ | theme=jobs | stage=4
+ 8688 | liter                          | 公升                             | 🏃        | chunks=['li', 'ter'] | py=ㄌㄧ-ㄊㄜ | theme=actions | stage=2
+ 8689 | literacy                       | 識字                             | 🏃        | chunks=['li', 'te', 'ra', 'cy'] | py=ㄌㄧ-ㄊㄧ-ㄌㄚ-ㄒㄧ | theme=actions | stage=4 base=literate
+ 8690 | literal                        | 照字面的                           | 🎨        | chunks=['li', 'te', 'ral'] | py=ㄌㄧ-ㄊㄧ-ㄦ | theme=adjectives | stage=4
+ 8691 | literate                       | 能讀寫的                           | 🎨        | chunks=['li', 'te', 'ra', 'te'] | py=ㄌㄧ-ㄊㄧ-ㄌㄚ-ㄊㄧ | theme=adjectives | stage=4
+ 8692 | longevity                      | 長壽                             | 🎓        | chunks=['lon', 'ge', 'vi', 'ty'] | py=ㄌㄚㄣ-ㄐㄧ-ㄈㄞ-ㄊㄧ | theme=academic-words | stage=4
+ 8693 | lounge                         | 休息室                            | 🏃        | chunks=['loun', 'ge'] | py=ㄌㄠㄋㄐ | theme=actions | stage=4
+ 8694 | lunatic                        | 瘋的                             | 🎨        | chunks=['lu', 'na', 'tic'] | py=ㄌㄨ-ㄋㄚ-ㄊㄧㄎ | theme=adjectives | stage=4
+ 8695 | lure                           | 引誘                             | 🏃        | chunks=['lu', 're'] | py=ㄌㄨㄜ | theme=actions | stage=4
+ 8696 | magnitude                      | 重要                             | 🎓        | chunks=['mag', 'ni', 'tu', 'de'] | py=ㄇㄚ-ㄋㄜ-ㄑㄨ-ㄉㄧ | theme=academic-words | stage=4
+ 8697 | mar                            | 污點                             | 🏃        | chunks=['m', 'ar'] | py=ㄇㄚㄦ | theme=actions | stage=4
+ 8698 | massacre                       | 大屠殺                            | 🏃        | chunks=['mas', 'sac', 're'] | py=ㄇㄚㄙ-ㄙㄚ-ㄌㄧ | theme=actions | stage=4
+ 8699 | mastery                        | 支配                             | 🏃        | chunks=['mas', 'te', 'ry'] | py=ㄇㄚㄙ-ㄊㄧ-ㄌㄧ | theme=actions | stage=4
+ 8700 | meditate                       | 沉思、冥想                          | 🏃        | chunks=['me', 'di', 'ta', 'te'] | py=ㄇㄝ-ㄉㄧ-ㄊㄝ-ㄊㄧ | theme=actions | stage=4
+ 8701 | melancholy                     | 憂鬱                             | 😔        | chunks=['me', 'lan', 'cho', 'ly'] | py=ㄇㄝ-ㄌㄢ-ㄎㄛ-ㄌㄧ | theme=emotions | stage=4
+ 8702 | mentality                      | 智力                             | 🎓        | chunks=['men', 'ta', 'li', 'ty'] | py=ㄇㄣ-ㄊㄝ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4 base=mental
+ 8703 | merchandise                    | 商品                             | 🏃        | chunks=['mer', 'chan', 'di', 'se'] | py=ㄇㄜ-ㄑㄚ-ㄉㄧ-ㄙㄜ | theme=actions | stage=4
+ 8704 | merge                          | 合併                             | 🏃        | chunks=['mer', 'ge'] | py=ㄇㄜㄐ | theme=actions | stage=3
+ 8705 | migration                      | 遷移                             | 🎓        | chunks=['mig', 'ra', 'tion'] | py=ㄇㄧㄍ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4 base=migrate
+ 8706 | militant                       | 好戰的好戰者                         | 🎨        | chunks=['mi', 'li', 'tant'] | py=ㄇㄞ-ㄌㄧ-ㄊㄣㄊ | theme=adjectives | stage=4
+ 8707 | miller                         | 磨坊主                            | 🏃        | chunks=['mil', 'ler'] | py=ㄇㄧ-ㄌㄜ | theme=actions | stage=4
+ 8708 | mimic                          | 模仿善模仿的人                        | 🎨        | chunks=['mi', 'mic'] | py=ㄇㄞ-ㄇㄧㄎ | theme=adjectives | stage=4
+ 8709 | miraculous                     | 奇蹟般的                           | 🎨        | chunks=['mi', 'ra', 'cu', 'lous'] | py=ㄇㄞ-ㄌㄚ-ㄎㄧㄨ-ㄌㄚㄙ | theme=adjectives | stage=4 base=miracle
+ 8710 | mischievous                    | 惡作劇的                           | 🎨        | chunks=['mis', 'chie', 'vous'] | py=ㄇㄧㄙ-ㄔㄞ-ㄈㄚㄙ | theme=adjectives | stage=4
+ 8711 | mobilize                       | 動員                             | 🏃        | chunks=['mo', 'bi', 'li', 'ze'] | py=ㄇㄛ-ㄅㄞ-ㄌㄧ-ㄗㄧ | theme=actions | stage=4 base=mobile
+ 8712 | modernization                  | 現代化                            | 📜        | chunks=['mo', 'der', 'ni', 'za', 'tion'] | py=ㄇㄛ-ㄉㄜ-ㄋㄜ-ㄗㄝ-ㄒㄣ | theme=history | stage=4 base=modernize
+ 8713 | mold                           | 模型                             | 🏃        | chunks=['m', 'old'] | py=ㄇㄛㄌㄉ | theme=actions | stage=3 [有易混提示]
+ 8714 | monotonous                     | 單調的                            | 🎨        | chunks=['mo', 'no', 'to', 'nous'] | py=ㄇㄛ-ㄋㄛ-ㄊㄛ-ㄋㄜㄙ | theme=adjectives | stage=4
+ 8715 | monotony                       | 單調                             | 🏃        | chunks=['mo', 'no', 'to', 'ny'] | py=ㄇㄛ-ㄋㄛ-ㄊㄛ-ㄋㄧ | theme=actions | stage=4
+ 8716 | morale                         | 士氣                             | 💪        | chunks=['mo', 'ra', 'le'] | py=ㄇㄛ-ㄖㄚㄦ | theme=philosophy | stage=4
+ 8717 | motto                          | 座右銘                            | 🧭        | chunks=['mot', 'to'] | py=ㄇㄛㄊ-ㄊㄛ | theme=directions | stage=4
+ 8718 | mournful                       | 憂傷的                            | 🎨        | chunks=['mour', 'nful'] | py=ㄇㄛㄜㄣ-ㄈㄜ | theme=adjectives | stage=4 base=mourn
+ 8719 | mouthpiece                     | 吹口                             | 🏃        | chunks=['mout', 'hpie', 'ce'] | py=ㄇㄠㄊ-ㄏㄆㄞ-ㄙㄜ | theme=actions | stage=4
+ 8720 | spokesperson                   | 代言人                            | 🏃        | chunks=['spo', 'kes', 'per', 'son'] | py=ㄙㄆㄛ-ㄎㄝㄙ-ㄆㄜ-ㄗㄣ | theme=actions | stage=4
+ 8721 | municipal                      | 市政的                            | 🎨        | chunks=['mu', 'ni', 'ci', 'pal'] | py=ㄇㄧㄨ-ㄋㄜ-ㄙㄜ-ㄆㄜ | theme=adjectives | stage=4
+ 8722 | mute                           | 沈默的                            | 🎨        | chunks=['mu', 'te'] | py=ㄇㄧㄨ-ㄊㄧ | theme=adjectives | stage=4 [有易混提示]
+ 8723 | narrate                        | 敘述                             | 🏃        | chunks=['nar', 'ra', 'te'] | py=ㄋㄚ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8724 | naturalist                     | 博物學家                           | 👨‍⚕️     | chunks=['na', 'tu', 'ra', 'list'] | py=ㄋㄚ-ㄑㄨ-ㄌㄚ-ㄌㄧㄙㄊ | theme=jobs | stage=4
+ 8725 | naval                          | 海軍的                            | ⚓        | chunks=['na', 'val'] | py=ㄋㄚ-ㄈㄜ | theme=nature | stage=4 [有易混提示]
+ 8726 | newlywed                       | 新婚夫婦                           | 🏃        | chunks=['new', 'ly', 'wed'] | py=ㄋㄧㄨ-ㄌㄧ-ㄨㄝ | theme=actions | stage=4
+ 8727 | newscaster                     | 新聞廣播員                          | 📰        | chunks=['new', 'scas', 'ter'] | py=ㄋㄧㄨ-ㄙㄎㄚㄙ-ㄊㄜ | theme=media | stage=4 base=newscast
+ 8728 | notorious                      | 惡名昭彰的                          | 🎨        | chunks=['no', 'to', 'rious'] | py=ㄋㄛ-ㄊㄛ-ㄖㄧㄜㄙ | theme=adjectives | stage=4
+ 8729 | nourish                        | 養育                             | 🎨        | chunks=['nou', 'rish'] | py=ㄋㄨ-ㄖㄧㄒ | theme=adjectives | stage=4
+ 8730 | nourishment                    | 營養、養分                          | 🎨        | chunks=['nou', 'ris', 'hment'] | py=ㄋㄨ-ㄌㄧㄙ-ㄏㄇㄣㄊ | theme=adjectives | stage=4 base=nourish
+ 8731 | nuisance                       | 討厭的人                           | 🎓        | chunks=['nui', 'san', 'ce'] | py=ㄋㄨ-ㄗㄣ-ㄙㄜ | theme=academic-words | stage=4
+ 8732 | nurture                        | 教養                             | 🎓        | chunks=['nur', 'tu', 're'] | py=ㄋㄜ-ㄑㄨ-ㄌㄧ | theme=academic-words | stage=4
+ 8733 | nutrient                       | 營養的營養物                         | 🎨        | chunks=['nut', 'rient'] | py=ㄋㄚㄊ-ㄖㄞㄋㄊ | theme=adjectives | stage=4
+ 8734 | nutritious                     | 有營養的                           | 🎨        | chunks=['nut', 'ri', 'tious'] | py=ㄋㄚㄊ-ㄌㄧ-ㄒㄚㄙ | theme=adjectives | stage=4
+ 8735 | obligation                     | 義務                             | 🎓        | chunks=['ob', 'li', 'ga', 'tion'] | py=ㄚ-ㄅㄌㄜ-ㄍㄝ-ㄒㄣ | theme=academic-words | stage=4 base=oblige
+ 8736 | oblige                         | 迫使                             | 🏃        | chunks=['ob', 'li', 'ge'] | py=ㄜ-ㄅㄌㄞㄐ | theme=actions | stage=4
+ 8737 | obscure                        | 暗的                             | 🎨        | chunks=['ob', 'scu', 're'] | py=ㄚㄅ-ㄙㄎㄚ-ㄌㄧ | theme=adjectives | stage=4
+ 8738 | offering                       | 供品、祭品、提供物                      | 🏃        | chunks=['of', 'fe', 'ring'] | py=ㄚㄈ-ㄈㄧ-ㄌㄧㄥ | theme=actions | stage=4 base=offer
+ 8739 | offspring                      | 子女                             | 🏃        | chunks=['off', 'spring'] | py=ㄛㄈ-ㄙㄆㄖㄧㄥ | theme=actions | stage=4
+ 8740 | operational                    | 操作上的                           | 🎨        | chunks=['o', 'pe', 'ra', 'tio', 'nal'] | py=ㄛ-ㄆㄜ-ㄌㄚ-ㄒㄛ-ㄋㄦ | theme=adjectives | stage=4
+ 8741 | opposition                     | 反對                             | 🎓        | chunks=['op', 'po', 'si', 'tion'] | py=ㄚㄆ-ㄆㄛ-ㄗㄜ-ㄒㄣ | theme=academic-words | stage=4 base=oppose
+ 8742 | oppress                        | 壓迫                             | 🏃        | chunks=['op', 'press'] | py=ㄚㄆ-ㄆㄌㄝㄙ | theme=actions | stage=4
+ 8743 | oppression                     | 壓迫                             | 🎓        | chunks=['op', 'pres', 'sion'] | py=ㄚㄆ-ㄆㄌㄝ-ㄒㄣ | theme=academic-words | stage=4 base=oppress
+ 8744 | optional                       | 非必要的                           | 🎨        | chunks=['op', 'tio', 'nal'] | py=ㄚㄆ-ㄒㄛ-ㄋㄦ | theme=adjectives | stage=4 base=option
+ 8745 | ordeal                         | 苦難                             | 🏃        | chunks=['or', 'deal'] | py=ㄛㄦ-ㄉㄧ | theme=actions | stage=4
+ 8746 | orderly                        | 整齊的                            | 🎨        | chunks=['or', 'der', 'ly'] | py=ㄛㄦ-ㄉㄜ-ㄌㄧ | theme=adjectives | stage=4
+ 8747 | originality                    | 創意                             | 🎓        | chunks=['o', 'ri', 'gi', 'na', 'li', 'ty'] | py=ㄛ-ㄌㄧ-ㄐㄜ-ㄋㄚ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8748 | originate                      | 發源引起                           | 🏃        | chunks=['o', 'ri', 'gi', 'na', 'te'] | py=ㄛ-ㄌㄧ-ㄐㄜ-ㄋㄚ-ㄊㄧ | theme=actions | stage=4 base=origin
+ 8749 | outbreak                       | 爆發                             | 🏃        | chunks=['out', 'break'] | py=ㄠㄊ-ㄅㄌㄝㄎ | theme=actions | stage=4
+ 8750 | outfit                         | 全套服裝裝備                         | 🏃        | chunks=['out', 'fit'] | py=ㄠㄊ-ㄈㄧㄊ | theme=actions | stage=4
+ 8751 | outing                         | 郊遊                             | 🏃        | chunks=['ou', 'ting'] | py=ㄠ-ㄊㄧㄥ | theme=actions | stage=4
+ 8752 | outlaw                         | 罪犯宣布…為不合法                      | ⚖️       | chunks=['out', 'law'] | py=ㄠㄊ-ㄌㄛ | theme=crime | stage=4
+ 8753 | outlook                        | 觀點                             | 🏃        | chunks=['out', 'look'] | py=ㄠㄊ-ㄌㄨㄎ | theme=actions | stage=4
+ 8754 | outnumber                      | 數量上超過                          | 🏃        | chunks=['out', 'num', 'ber'] | py=ㄠㄊ-ㄋㄚㄇ-ㄅㄜ | theme=numbers | stage=4
+ 8755 | outrage                        | 激怒惡行                           | 🏃        | chunks=['out', 'ra', 'ge'] | py=ㄠㄊ-ㄖㄝㄐ | theme=actions | stage=4
+ 8756 | outrageous                     | 粗暴的,可憎的                        | 🎨        | chunks=['out', 'ra', 'geous'] | py=ㄠㄊ-ㄌㄚ-ㄐㄚㄙ | theme=adjectives | stage=4 base=outrage
+ 8757 | outright                       | 直率的徹底地                         | 🎨        | chunks=['out', 'right'] | py=ㄠㄊ-ㄌㄞㄊ | theme=adjectives | stage=4
+ 8758 | outset                         | 最初                             | 🏃        | chunks=['out', 'set'] | py=ㄠㄊ-ㄙㄝㄊ | theme=actions | stage=4
+ 8759 | overturn                       | 傾覆                             | 🏃        | chunks=['o', 'ver', 'turn'] | py=ㄛ-ㄈㄜ-ㄊㄜㄣ | theme=actions | stage=4
+ 8760 | pamphlet                       | 小冊子                            | 🏃        | chunks=['pamp', 'hlet'] | py=ㄆㄚㄇㄆ-ㄏㄌㄝㄊ | theme=actions | stage=4
+ 8761 | paralyze                       | 使麻痺,使癱瘓                        | 🦽        | chunks=['pa', 'ra', 'ly', 'ze'] | py=ㄆㄜ-ㄌㄚ-ㄌㄧ-ㄗㄧ | theme=materials | stage=4
+ 8762 | pathetic                       | 可憐的                            | 🎨        | chunks=['pat', 'he', 'tic'] | py=ㄆㄚ-ㄏㄝ-ㄊㄧㄎ | theme=adjectives | stage=4
+ 8763 | patriotic                      | 愛國的                            | 🌍        | chunks=['pat', 'rio', 'tic'] | py=ㄆㄚ-ㄖㄧㄛ-ㄊㄧㄎ | theme=countries | stage=4
+ 8764 | peddle                         | 叫賣                             | 🏃        | chunks=['ped', 'dle'] | py=ㄆㄝㄉ-ㄉㄜ | theme=actions | stage=4
+ 8765 | pedestrian                     | 行人徒步的                          | 🎨        | chunks=['pe', 'des', 'trian'] | py=ㄆㄜ-ㄉㄧ-ㄊㄖㄧㄚㄋ | theme=adjectives | stage=4
+ 8766 | perseverance                   | 堅持不懈                           | 🎓        | chunks=['per', 'se', 've', 'ran', 'ce'] | py=ㄆㄜ-ㄙㄜ-ㄈㄜ-ㄌㄚㄣ-ㄙㄜ | theme=academic-words | stage=4
+ 8767 | persevere                      | 堅持不懈                           | 🏃        | chunks=['per', 'se', 've', 're'] | py=ㄆㄜ-ㄙㄜ-ㄈㄜ-ㄌㄧ | theme=actions | stage=4
+ 8768 | persistence                    | 堅持                             | 🎓        | chunks=['per', 'sis', 'ten', 'ce'] | py=ㄆㄜ-ㄒㄜㄙ-ㄊㄣ-ㄙㄜ | theme=academic-words | stage=4 base=persist
+ 8769 | persistent                     | 堅持不懈的                          | 🎨        | chunks=['per', 'sis', 'tent'] | py=ㄆㄜ-ㄒㄜㄙ-ㄊㄣㄊ | theme=adjectives | stage=4 base=persist
+ 8770 | petroleum                      | 石油                             | 🏃        | chunks=['pet', 'ro', 'leum'] | py=ㄆㄝㄊ-ㄌㄛ-ㄌㄝㄚㄇ | theme=actions | stage=4
+ 8771 | pharmacist                     | 藥劑師                            | 🏥        | chunks=['phar', 'ma', 'cist'] | py=ㄈㄚㄦ-ㄇㄚ-ㄒㄧㄙㄊ | theme=medical | stage=4 base=pharmacy
+ 8772 | photographic                   | 攝影的                            | 🎮        | chunks=['pho', 'tog', 'rap', 'hic'] | py=ㄈㄛ-ㄊㄚ-ㄌㄚ-ㄏㄧㄎ | theme=hobbies | stage=4
+ 8773 | picturesque                    | 圖畫般的                           | 🎨        | chunks=['pic', 'tu', 'res', 'que'] | py=ㄆㄧㄎ-ㄑㄨ-ㄌㄝㄙ-ㄎㄜ | theme=art | stage=4
+ 8774 | pierce                         | 刺穿                             | 🏃        | chunks=['pier', 'ce'] | py=ㄆㄧㄦ-ㄙㄜ | theme=actions | stage=4
+ 8775 | piety                          | 虔誠                             | 🏃        | chunks=['pie', 'ty'] | py=ㄆㄞ-ㄊㄧ | theme=actions | stage=4
+ 8776 | pious                          | 虔誠的                            | 🎨        | chunks=['p', 'ious'] | py=ㄆㄧ-ㄌㄧㄚㄙ | theme=adjectives | stage=4
+ 8777 | pipeline                       | 導管                             | 🎨        | chunks=['pi', 'pe', 'li', 'ne'] | py=ㄆㄧ-ㄆㄜ-ㄌㄧ-ㄋㄧ | theme=adjectives | stage=4
+ 8778 | plight                         | 困境、苦境                          | 🏃        | chunks=['pl', 'ight'] | py=ㄆㄌㄞㄊ | theme=actions | stage=4
+ 8779 | poach                          | 盜獵                             | 🏃        | chunks=['p', 'oach'] | py=ㄆㄛㄔ | theme=actions | stage=4
+ 8780 | poacher                        | 盜獵者                            | 👨‍⚕️     | chunks=['poac', 'her'] | py=ㄆㄛㄎ-ㄏㄜ | theme=jobs | stage=4
+ 8781 | pollutant                      | 污染物                            | 🌍        | chunks=['pol', 'lu', 'tant'] | py=ㄆㄚ-ㄌㄨ-ㄊㄣㄊ | theme=environment | stage=4
+ 8782 | populate                       | 居住於…                           | 🏃        | chunks=['po', 'pu', 'la', 'te'] | py=ㄆㄛ-ㄆㄧㄨ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8783 | precision                      | 精確                             | 🎓        | chunks=['pre', 'ci', 'sion'] | py=ㄆㄌㄧ-ㄙㄜ-ㄒㄣ | theme=academic-words | stage=4 base=precise
+ 8784 | predecessor                    | 前任                             | 🧭        | chunks=['pre', 'de', 'ces', 'sor'] | py=ㄆㄌㄧ-ㄉㄧ-ㄙㄝ-ㄗㄜ | theme=directions | stage=4
+ 8785 | prediction                     | 預言                             | 🎓        | chunks=['pre', 'dic', 'tion'] | py=ㄆㄌㄧ-ㄉㄧㄎ-ㄒㄣ | theme=academic-words | stage=4 base=predict
+ 8786 | prejudice                      | 偏見                             | 🏃        | chunks=['pre', 'ju', 'di', 'ce'] | py=ㄆㄌㄧ-ㄐㄨ-ㄉㄧ-ㄙㄜ | theme=actions | stage=4
+ 8787 | premature                      | 過早的                            | 🎨        | chunks=['pre', 'ma', 'tu', 're'] | py=ㄆㄌㄧ-ㄇㄚ-ㄑㄨ-ㄌㄧ | theme=adjectives | stage=4
+ 8788 | prescribe                      | 規定                             | 🏃        | chunks=['pres', 'cri', 'be'] | py=ㄆㄌㄝ-ㄎㄌㄞ-ㄅㄧ | theme=actions | stage=4
+ 8789 | preside                        | 主持                             | 🏃        | chunks=['pre', 'si', 'de'] | py=ㄆㄌㄧ-ㄗㄜ-ㄉㄧ | theme=actions | stage=4
+ 8790 | presidency                     | 總統職位、總統任期                      | 🏛️       | chunks=['pre', 'si', 'den', 'cy'] | py=ㄆㄌㄧ-ㄗㄜ-ㄉㄣ-ㄒㄧ | theme=politics | stage=4 base=president [有易混提示]
+ 8791 | presidential                   | 總統的                            | 🏛️       | chunks=['pre', 'si', 'den', 'tial'] | py=ㄆㄌㄧ-ㄗㄜ-ㄉㄣ-ㄒㄦ | theme=politics | stage=4
+ 8792 | prestige                       | 名望                             | 🏃        | chunks=['pres', 'ti', 'ge'] | py=ㄆㄌㄝ-ㄊㄜ-ㄐㄧ | theme=actions | stage=4
+ 8793 | preventive                     | 預防的                            | 🎨        | chunks=['pre', 'ven', 'ti', 've'] | py=ㄆㄌㄧ-ㄈㄣ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4 base=prevent
+ 8794 | proficiency                    | 精通                             | 🏃        | chunks=['pro', 'fi', 'cien', 'cy'] | py=ㄆㄜ-ㄈㄜ-ㄒㄣ-ㄒㄧ | theme=actions | stage=4
+ 8795 | progressive                    | 進步的                            | 🎨        | chunks=['prog', 'res', 'si', 've'] | py=ㄆㄖㄛㄍ-ㄌㄝㄙ-ㄗㄜ-ㄈㄜ | theme=adjectives | stage=4 base=progress
+ 8796 | prohibition                    | 禁止                             | 🎓        | chunks=['pro', 'hi', 'bi', 'tion'] | py=ㄆㄜ-ㄏㄞ-ㄅㄞ-ㄒㄣ | theme=academic-words | stage=4 base=prohibit
+ 8797 | projection                     | 設計                             | 🎓        | chunks=['pro', 'jec', 'tion'] | py=ㄆㄜ-ㄐㄝㄎ-ㄒㄣ | theme=academic-words | stage=4 base=project
+ 8798 | prone                          | 易於...的                         | 🎨        | chunks=['pro', 'ne'] | py=ㄆㄜ-ㄋㄧ | theme=adjectives | stage=4 [有易混提示]
+ 8799 | propel                         | 推進                             | 🏃        | chunks=['pro', 'pel'] | py=ㄆㄜ-ㄆㄦ | theme=actions | stage=4
+ 8800 | propeller                      | 螺旋槳                            | 🏃        | chunks=['pro', 'pel', 'ler'] | py=ㄆㄜ-ㄆㄦ-ㄌㄜ | theme=actions | stage=4 base=propel
+ 8801 | prospective                    | 預期的                            | 🎨        | chunks=['pros', 'pec', 'ti', 've'] | py=ㄆㄌㄚ-ㄆㄝㄎ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4 base=prospect
+ 8802 | provincial                     | 省的                             | 🎨        | chunks=['pro', 'vin', 'cial'] | py=ㄆㄜ-ㄈㄧ-ㄒㄦ | theme=adjectives | stage=4
+ 8803 | provoke                        | 對...挑釁                         | 🏃        | chunks=['pro', 'vo', 'ke'] | py=ㄆㄜ-ㄈㄛ-ㄎㄟ | theme=actions | stage=4
+ 8804 | prowl                          | 潛行                             | 🏃        | chunks=['pr', 'owl'] | py=ㄆㄖㄠㄦ | theme=actions | stage=4
+ 8805 | punctual                       | 準時的                            | 🎨        | chunks=['pun', 'ctual'] | py=ㄆㄚㄋㄎ-ㄔㄨ-ㄜㄦ | theme=adjectives | stage=4
+ 8806 | purify                         | 淨化                             | 🏃        | chunks=['pu', 'ri', 'fy'] | py=ㄆㄧㄨ-ㄌㄧ-ㄈㄞ | theme=actions | stage=4 base=pure
+ 8807 | purity                         | 純淨                             | 🎓        | chunks=['pu', 'ri', 'ty'] | py=ㄆㄧㄨ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4 base=pure
+ 8808 | qualification                  | 資格                             | 🎓        | chunks=['qua', 'li', 'fi', 'ca', 'tion'] | py=ㄎㄨㄝ-ㄌㄧ-ㄈㄜ-ㄎㄚ-ㄒㄣ | theme=academic-words | stage=4 base=qualify
+ 8809 | quarrelsome                    | 喜歡爭吵的                          | 🎨        | chunks=['quar', 'rel', 'so', 'me'] | py=ㄎㄨㄛ-ㄌㄝ-ㄙㄛ-ㄇㄝ | theme=adjectives | stage=4
+ 8810 | quench                         | 熄滅解                            | 🏃        | chunks=['q', 'uench'] | py=ㄎㄧㄨ-ㄩㄋㄔ | theme=actions | stage=4
+ 8811 | query                          | 詢問                             | 🏃        | chunks=['que', 'ry'] | py=ㄎㄜ-ㄌㄧ | theme=actions | stage=4
+ 8812 | questionnaire                  | 問卷                             | 🏃        | chunks=['ques', 'tion', 'nai', 're'] | py=ㄎㄨㄝㄙ-ㄒㄜ-ㄋㄝㄜ | theme=actions | stage=4
+ 8813 | racism                         | 種族主義                           | 🎓        | chunks=['ra', 'cism'] | py=ㄌㄚ-ㄒㄧㄗㄣ | theme=academic-words | stage=4
+ 8814 | radiant                        | 光芒四射的                          | ✨        | chunks=['ra', 'diant'] | py=ㄌㄚ-ㄉㄧㄚㄋㄊ | theme=numbers | stage=4
+ 8815 | radiate                        | 輻射散發                           | 🏃        | chunks=['ra', 'dia', 'te'] | py=ㄌㄚ-ㄉㄞ-ㄊㄧ | theme=actions | stage=4
+ 8816 | ransom                         | 贖金                             | 🏃        | chunks=['ran', 'som'] | py=ㄌㄚㄣ-ㄙㄚ | theme=actions | stage=4
+ 8817 | ravage                         | 使荒蕪毀滅                          | 🏃        | chunks=['ra', 'va', 'ge'] | py=ㄖㄚ-ㄈㄜㄐ | theme=actions | stage=4
+ 8818 | realization                    | 領悟                             | 🎓        | chunks=['rea', 'li', 'za', 'tion'] | py=ㄌㄝ-ㄌㄧ-ㄗㄝ-ㄒㄣ | theme=academic-words | stage=4 base=realize
+ 8819 | recipient                      | 接受者接受的                         | 🎨        | chunks=['re', 'ci', 'pient'] | py=ㄌㄧ-ㄙㄜ-ㄆㄞㄋㄊ | theme=adjectives | stage=4
+ 8820 | recommendation                 | 推薦                             | 🎓        | chunks=['re', 'com', 'men', 'da', 'tion'] | py=ㄌㄧ-ㄎㄚㄇ-ㄇㄣ-ㄉㄚ-ㄒㄣ | theme=academic-words | stage=3 base=recommend
+ 8821 | recreational                   | 消遣的                            | 🎨        | chunks=['rec', 'rea', 'tio', 'nal'] | py=ㄖㄝ-ㄎㄖㄧ-ㄝ-ㄒㄜ-ㄋㄜ | theme=adjectives | stage=4
+ 8822 | recruit                        | 徵募新兵                           | 🏃        | chunks=['rec', 'ruit'] | py=ㄖㄧ-ㄎㄖㄨㄊ | theme=actions | stage=4
+ 8823 | recur                          | 再發生                            | 🏃        | chunks=['re', 'cur'] | py=ㄖㄧ-ㄎㄜ | theme=actions | stage=4
+ 8824 | redundant                      | 多餘的                            | 🎨        | chunks=['re', 'dun', 'dant'] | py=ㄌㄧ-ㄉㄚㄣ-ㄉㄣㄊ | theme=adjectives | stage=4
+ 8825 | refinement                     | 提煉                             | 🎨        | chunks=['re', 'fi', 'ne', 'ment'] | py=ㄌㄧ-ㄈㄜ-ㄋㄧ-ㄇㄣㄊ | theme=adjectives | stage=4 base=refine
+ 8826 | reflective                     | 反射的                            | 🎨        | chunks=['ref', 'lec', 'ti', 've'] | py=ㄖㄧ-ㄈㄌㄝㄎ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4 base=reflect
+ 8827 | refreshment                    | 精力恢復                           | 🎨        | chunks=['ref', 'res', 'hment'] | py=ㄖㄧ-ㄈㄖㄝㄒ-ㄇㄣㄊ | theme=adjectives | stage=4 base=refresh
+ 8828 | rehearsal                      | 排練                             | 🏃        | chunks=['re', 'hear', 'sal'] | py=ㄌㄧ-ㄏㄧㄦ-ㄙㄚㄦ | theme=actions | stage=4 base=rehearse
+ 8829 | rehearse                       | 排練                             | 🏃        | chunks=['re', 'hear', 'se'] | py=ㄌㄧ-ㄏㄧㄦ-ㄙㄜ | theme=actions | stage=4
+ 8830 | rein                           | 韁繩駕馭勒馬                         | 🐎        | chunks=['r', 'ein'] | py=ㄖㄟㄣ | theme=animals | stage=4 [有易混提示]
+ 8831 | relay                          | 接力賽跑轉播                         | 🏃        | chunks=['re', 'lay'] | py=ㄌㄧ-ㄌㄟ | theme=actions | stage=4
+ 8832 | reliance                       | 信賴                             | 🎓        | chunks=['re', 'lian', 'ce'] | py=ㄌㄧ-ㄌㄧㄚㄋ-ㄙㄜ | theme=academic-words | stage=4 base=rely
+ 8833 | relish                         | 滋味品嚐可口                         | 🎨        | chunks=['re', 'lish'] | py=ㄌㄧ-ㄅㄌㄧㄒ | theme=adjectives | stage=4
+ 8834 | remainder                      | 剩餘物                            | 🏃        | chunks=['re', 'main', 'der'] | py=ㄌㄧ-ㄇㄟㄣ-ㄉㄜ | theme=actions | stage=4
+ 8835 | removal                        | 移去                             | 🏃        | chunks=['re', 'mo', 'val'] | py=ㄌㄧ-ㄇㄛ-ㄈㄜ | theme=actions | stage=4 base=remove
+ 8836 | render                         | 使成為                            | 🏃        | chunks=['ren', 'der'] | py=ㄌㄣ-ㄉㄜ | theme=actions | stage=4
+ 8837 | renowned                       | 有名的                            | 🎨        | chunks=['re', 'now', 'ned'] | py=ㄌㄧ-ㄋㄠ-ㄋㄝㄉ | theme=adjectives | stage=4
+ 8838 | rental                         | 租金                             | 🏃        | chunks=['ren', 'tal'] | py=ㄌㄣ-ㄉㄜ | theme=actions | stage=4 base=rent
+ 8839 | repress                        | 抑制                             | 🏃        | chunks=['rep', 'ress'] | py=ㄖㄧ-ㄆㄖㄝㄙ | theme=actions | stage=4
+ 8840 | resemblance                    | 相似                             | 🎓        | chunks=['re', 'sem', 'blan', 'ce'] | py=ㄌㄧ-ㄙㄝ-ㄅㄌㄢ-ㄙㄜ | theme=academic-words | stage=4 base=resemble
+ 8841 | reservoir                      | 蓄水庫                            | 💧        | chunks=['re', 'ser', 'voir'] | py=ㄖㄝ-ㄗㄜ-ㄈㄨㄚㄜ | theme=drinks | stage=4
+ 8842 | residential                    | 居住的                            | 🎨        | chunks=['re', 'si', 'den', 'tial'] | py=ㄌㄧ-ㄗㄜ-ㄉㄣ-ㄒㄦ | theme=adjectives | stage=4
+ 8843 | resistant                      | 抵抗的抵抗者                         | 🎨        | chunks=['re', 'sis', 'tant'] | py=ㄌㄧ-ㄒㄜㄙ-ㄊㄣㄊ | theme=adjectives | stage=4
+ 8844 | resolute                       | 堅決的、堅定的                        | 🎨        | chunks=['re', 'so', 'lu', 'te'] | py=ㄌㄧ-ㄙㄛ-ㄌㄨ-ㄊㄧ | theme=adjectives | stage=4
+ 8845 | respective                     | 各自的                            | 🎨        | chunks=['res', 'pec', 'ti', 've'] | py=ㄌㄝㄙ-ㄆㄝㄎ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4 base=respect
+ 8846 | restoration                    | 恢復                             | 🎓        | chunks=['res', 'to', 'ra', 'tion'] | py=ㄌㄝㄙ-ㄊㄛ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4 base=restore
+ 8847 | restraint                      | 抑制                             | 🏃        | chunks=['res', 'traint'] | py=ㄌㄝㄙ-ㄊㄖㄟㄋㄊ | theme=actions | stage=4
+ 8848 | retaliate                      | 報復                             | 🏃        | chunks=['re', 'ta', 'lia', 'te'] | py=ㄌㄧ-ㄊㄝ-ㄌㄧㄚ-ㄊㄧ | theme=actions | stage=4
+ 8849 | retrieve                       | 重獲                             | 🏃        | chunks=['ret', 'rie', 've'] | py=ㄌㄝㄊ-ㄌㄧ-ㄈㄜ | theme=actions | stage=4
+ 8850 | revelation                     | 揭示                             | 🎓        | chunks=['re', 've', 'la', 'tion'] | py=ㄌㄧ-ㄈㄜ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4
+ 8851 | revival                        | 甦醒                             | 🏃        | chunks=['re', 'vi', 'val'] | py=ㄌㄧ-ㄈㄞ-ㄈㄜ | theme=actions | stage=4
+ 8852 | rhythmic                       | 有節奏的                           | 🎵        | chunks=['rhyt', 'hmic'] | py=ㄖㄧㄉ-ㄇㄧㄎ | theme=music | stage=4
+ 8853 | ridicule                       | 嘲笑                             | 🏃        | chunks=['ri', 'di', 'cu', 'le'] | py=ㄌㄧ-ㄉㄧ-ㄎㄧㄨ-ㄌㄧ | theme=actions | stage=4
+ 8854 | rigorous                       | 嚴格的                            | 🎨        | chunks=['ri', 'go', 'rous'] | py=ㄌㄧ-ㄍㄛ-ㄌㄨ | theme=adjectives | stage=4
+ 8855 | rite                           | 儀式                             | 🎉        | chunks=['ri', 'te'] | py=ㄌㄧ-ㄊㄧ | theme=events | stage=4 [有易混提示]
+ 8856 | rivalry                        | 競爭                             | 🏃        | chunks=['ri', 'val', 'ry'] | py=ㄌㄧ-ㄈㄜ-ㄌㄧ | theme=actions | stage=4 base=rival
+ 8857 | rotate                         | 旋轉,輪流                          | 🏃        | chunks=['ro', 'ta', 'te'] | py=ㄌㄛ-ㄊㄝ-ㄊㄧ | theme=actions | stage=4
+ 8858 | rotation                       | 旋轉                             | 🎓        | chunks=['ro', 'ta', 'tion'] | py=ㄌㄛ-ㄊㄝ-ㄒㄣ | theme=academic-words | stage=4
+ 8859 | safeguard                      | 保護                             | 🏃        | chunks=['sa', 'fe', 'guard'] | py=ㄙㄝㄈ-ㄍㄚㄜㄉ | theme=actions | stage=4
+ 8860 | saloon                         | 交誼廳                            | 🍺        | chunks=['sa', 'loon'] | py=ㄙㄚ-ㄌㄨㄣ | theme=actions | stage=4
+ 8861 | sane                           | 神志正常的                          | 🎨        | chunks=['sa', 'ne'] | py=ㄙㄚ-ㄋㄧ | theme=adjectives | stage=4 [有易混提示]
+ 8862 | sanitation                     | 公共衛生                           | 🎓        | chunks=['sa', 'ni', 'ta', 'tion'] | py=ㄙㄚ-ㄋㄜ-ㄊㄝ-ㄒㄣ | theme=academic-words | stage=4
+ 8863 | scenic                         | 風景的                            | 🎨        | chunks=['sce', 'nic'] | py=ㄙㄜ-ㄋㄧㄎ | theme=adjectives | stage=4
+ 8864 | script                         | 筆跡                             | 🏃        | chunks=['scr', 'ipt'] | py=ㄙㄎㄖ-ㄧㄆㄊ | theme=actions | stage=3
+ 8865 | seduce                         | 誘惑                             | 🏃        | chunks=['se', 'du', 'ce'] | py=ㄙㄜ-ㄉㄨ-ㄙㄜ | theme=actions | stage=4
+ 8866 | selective                      | 有選擇性的                          | 🎨        | chunks=['se', 'lec', 'ti', 've'] | py=ㄙㄜ-ㄌㄝㄎ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=4 base=select
+ 8867 | serenity                       | 晴朗                             | 🎓        | chunks=['se', 're', 'ni', 'ty'] | py=ㄙㄜ-ㄌㄧ-ㄋㄜ-ㄊㄧ | theme=academic-words | stage=4
+ 8868 | serving                        | 服務                             | 🏃        | chunks=['ser', 'ving'] | py=ㄗㄜ-ㄈㄧㄥ | theme=actions | stage=4 base=serve
+ 8869 | session                        | 會議                             | 🏢        | chunks=['ses', 'sion'] | py=ㄗㄝㄗ-ㄒㄣ | theme=office | stage=4
+ 8870 | setback                        | 挫折                             | 🏃        | chunks=['set', 'back'] | py=ㄙㄝㄊ-ㄅㄚㄎ | theme=actions | stage=4
+ 8871 | sewer                          | 污水管                            | 🚽        | chunks=['se', 'wer'] | py=ㄙㄜ-ㄜ | theme=drinks | stage=4
+ 8872 | shed                           | 棚流出                            | 🏃        | chunks=['sh', 'ed'] | py=ㄒㄝㄉ | theme=actions | stage=3 [有易混提示]
+ 8873 | shilling                       | 先令                             | 🏃        | chunks=['shil', 'ling'] | py=ㄒㄧㄌ-ㄌㄧㄥ | theme=actions | stage=4
+ 8874 | shoplift                       | 在商店內順手牽羊                       | 🛍️       | chunks=['shop', 'lift'] | py=ㄒㄚㄆ-ㄌㄧㄈㄊ | theme=animals | stage=4
+ 8875 | shrewd                         | 精明的                            | 🎨        | chunks=['shr', 'ewd'] | py=ㄒㄖㄨㄉ | theme=adjectives | stage=4
+ 8876 | shun                           | 躲開                             | 🏃        | chunks=['sh', 'un'] | py=ㄒㄚㄣ | theme=actions | stage=4
+ 8877 | siege                          | 圍攻                             | 🏃        | chunks=['sie', 'ge'] | py=ㄙㄧㄐ | theme=actions | stage=4
+ 8878 | signify                        | 表示                             | 🏃        | chunks=['sig', 'ni', 'fy'] | py=ㄒㄧㄍ-ㄋㄜ-ㄈㄞ | theme=actions | stage=4
+ 8879 | silicon                        | 矽                              | 🏃        | chunks=['si', 'li', 'con'] | py=ㄗㄜ-ㄌㄧ-ㄎㄚㄣ | theme=actions | stage=4
+ 8880 | simplicity                     | 簡單                             | 🎓        | chunks=['sim', 'pli', 'ci', 'ty'] | py=ㄒㄧ-ㄆㄌㄜ-ㄙㄜ-ㄊㄧ | theme=academic-words | stage=4 base=simple
+ 8881 | simplify                       | 簡化                             | 🏃        | chunks=['sim', 'pli', 'fy'] | py=ㄒㄧ-ㄆㄌㄜ-ㄈㄞ | theme=actions | stage=4 base=simple
+ 8882 | simultaneous                   | 同步的                            | 🎨        | chunks=['si', 'mul', 'ta', 'neous'] | py=ㄗㄜ-ㄇㄚㄦ-ㄊㄝ-ㄋㄝㄜㄙ | theme=adjectives | stage=4
+ 8883 | skim                           | 掠過                             | 🏃        | chunks=['sk', 'im'] | py=ㄙㄎ-ㄧㄇ | theme=actions | stage=4
+ 8884 | slang                          | 俚語                             | 🏃        | chunks=['sl', 'ang'] | py=ㄙㄌ-ㄚㄥ | theme=actions | stage=4
+ 8885 | slash                          | 砍                              | 🏃        | chunks=['sl', 'ash'] | py=ㄙㄌㄚㄒ | theme=actions | stage=4
+ 8886 | slot                           | 狹縫                             | 🏃        | chunks=['sl', 'ot'] | py=ㄙㄌㄚㄊ | theme=actions | stage=4
+ 8887 | slum                           | 貧民窟                            | 🏃        | chunks=['sl', 'um'] | py=ㄙㄌㄚㄇ | theme=actions | stage=4
+ 8888 | smack                          | 摑巴掌                            | 🏃        | chunks=['sm', 'ack'] | py=ㄙㄇㄚㄎ | theme=actions | stage=4
+ 8889 | smother                        | 窒息                             | 🏃        | chunks=['smot', 'her'] | py=ㄙㄇㄛㄊ-ㄏㄜ | theme=actions | stage=4
+ 8890 | smuggle                        | 走私                             | ⚖️       | chunks=['smug', 'gle'] | py=ㄙㄇㄚ-ㄍㄜ | theme=crime | stage=4
+ 8891 | snare                          | 圈套捕捉                           | 🏃        | chunks=['sna', 're'] | py=ㄙㄋㄝㄜ | theme=actions | stage=4
+ 8892 | sneaky                         | 鬼鬼祟祟的                          | 🎨        | chunks=['snea', 'ky'] | py=ㄙㄋㄧ-ㄎㄧ | theme=adjectives | stage=4 base=sneak
+ 8893 | sneer                          | 嘲諷,冷笑                          | 🏃        | chunks=['sn', 'eer'] | py=ㄙㄋㄧㄦ | theme=actions | stage=4
+ 8894 | sociable                       | 好交際的                           | 🎨        | chunks=['so', 'ciab', 'le'] | py=ㄙㄛ-ㄎㄧㄚㄅ-ㄌㄧ | theme=adjectives | stage=4
+ 8895 | socialist                      | 社會主義者                          | 👨‍⚕️     | chunks=['so', 'cia', 'list'] | py=ㄙㄛ-ㄎㄧㄚ-ㄌㄧㄙㄊ | theme=jobs | stage=4
+ 8896 | socialize                      | 交際                             | 🏃        | chunks=['so', 'cia', 'li', 'ze'] | py=ㄙㄛ-ㄎㄧㄚ-ㄌㄧ-ㄗㄧ | theme=actions | stage=4 base=social
+ 8897 | sociology                      | 社會學                            | 🏃        | chunks=['so', 'cio', 'lo', 'gy'] | py=ㄙㄛ-ㄎㄧㄛ-ㄌㄛ-ㄐㄧ | theme=actions | stage=4
+ 8898 | sodium                         | 鈉                              | 🏃        | chunks=['so', 'dium'] | py=ㄙㄛ-ㄉㄧㄚㄇ | theme=actions | stage=4
+ 8899 | solidarity                     | 團結                             | 🎓        | chunks=['so', 'li', 'da', 'ri', 'ty'] | py=ㄙㄛ-ㄌㄧ-ㄉㄚ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8900 | solitude                       | 孤獨                             | 🎓        | chunks=['so', 'li', 'tu', 'de'] | py=ㄙㄛ-ㄌㄧ-ㄑㄨ-ㄉㄧ | theme=academic-words | stage=4
+ 8901 | soothe                         | 安慰                             | 🏃        | chunks=['soot', 'he'] | py=ㄙㄨㄊ-ㄏㄝ | theme=emotions | stage=4
+ 8902 | sophisticated                  | 世故的                            | 🎨        | chunks=['sop', 'his', 'ti', 'ca', 'ted'] | py=ㄙㄚㄆ-ㄏㄧㄙ-ㄊㄜ-ㄎㄚ-ㄉㄜ | theme=adjectives | stage=4
+ 8903 | spacious                       | 寬敞的                            | 🎨        | chunks=['spa', 'cious'] | py=ㄙㄆㄚ-ㄒㄜㄙ | theme=adjectives | stage=4
+ 8904 | span                           | 跨度                             | 🏃        | chunks=['sp', 'an'] | py=ㄙㄆ-ㄢ | theme=actions | stage=3
+ 8905 | specialize                     | 專攻使專門化                         | 🎯        | chunks=['spe', 'cia', 'li', 'ze'] | py=ㄙㄆㄝ-ㄎㄧㄚ-ㄌㄧ-ㄗㄧ | theme=home-items | stage=4 base=special
+ 8906 | spectacular                    | 壯觀的                            | 🎨        | chunks=['spec', 'ta', 'cu', 'lar'] | py=ㄙㄆㄝ-ㄊㄝ-ㄎㄧㄨ-ㄌㄜ | theme=adjectives | stage=4 base=spectacle
+ 8907 | spectrum                       | 光譜                             | 🏃        | chunks=['spec', 'trum'] | py=ㄙㄆㄝ-ㄊㄌㄚㄇ | theme=actions | stage=4
+ 8908 | speculate                      | 思索推測                           | 🏃        | chunks=['spe', 'cu', 'la', 'te'] | py=ㄙㄆㄝ-ㄎㄧㄨ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8909 | spike                          | 大釘                             | 🏃        | chunks=['spi', 'ke'] | py=ㄙㄆㄞ-ㄎㄟ | theme=actions | stage=4
+ 8910 | spire                          | 尖塔給…裝尖頂聳立                      | ⛪        | chunks=['spi', 're'] | py=ㄙㄆㄞㄜ | theme=desserts | stage=4
+ 8911 | spokesman                      | 發言人                            | 📰        | chunks=['spo', 'kes', 'man'] | py=ㄙㄆㄛ-ㄎㄝㄙ-ㄇㄢ | theme=media | stage=4
+ 8912 | spokeswoman                    | 發言人                            | 📰        | chunks=['spo', 'kes', 'wo', 'man'] | py=ㄙㄆㄛ-ㄎㄝㄙ-ㄨㄨ-ㄇㄢ | theme=media | stage=4
+ 8913 | spouse                         | 配偶                             | 🏃        | chunks=['spou', 'se'] | py=ㄙㄆㄠ-ㄙㄜ | theme=actions | stage=4
+ 8914 | sprawl                         | 伸開四肢躺                          | 🛌        | chunks=['spr', 'awl'] | py=ㄙㄆㄖㄛㄦ | theme=numbers | stage=4
+ 8915 | squad                          | 小隊                             | 🏃        | chunks=['sq', 'uad'] | py=ㄙㄎㄨㄚㄉ | theme=actions | stage=4
+ 8916 | stability                      | 穩定                             | 🎓        | chunks=['sta', 'bi', 'li', 'ty'] | py=ㄙㄉㄝ-ㄅㄞ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8917 | stabilize                      | 穩定                             | 🏃        | chunks=['sta', 'bi', 'li', 'ze'] | py=ㄙㄉㄝ-ㄅㄞ-ㄌㄧ-ㄗㄧ | theme=actions | stage=4 base=stable
+ 8918 | stammer                        | 口吃                             | 🏃        | chunks=['stam', 'mer'] | py=ㄙㄊㄚ-ㄇㄜ | theme=actions | stage=4
+ 8919 | staple                         | 主食                             | 🏃        | chunks=['stap', 'le'] | py=ㄙㄊㄚㄆ-ㄌㄧ | theme=actions | stage=4
+ 8920 | starch                         | 澱粉                             | 🏃        | chunks=['st', 'arch'] | py=ㄙㄊ-ㄚㄦㄑ | theme=actions | stage=4
+ 8921 | starvation                     | 飢餓                             | 🎓        | chunks=['star', 'va', 'tion'] | py=ㄙㄉㄚㄦ-ㄈㄚ-ㄒㄣ | theme=academic-words | stage=4 base=starve
+ 8922 | stationary                     | 不動的                            | 🎨        | chunks=['sta', 'tio', 'na', 'ry'] | py=ㄙㄉㄝ-ㄒㄛ-ㄋㄚ-ㄌㄧ | theme=adjectives | stage=4 [有易混提示]
+ 8923 | stationery                     | 文具                             | 📚        | chunks=['sta', 'tio', 'ne', 'ry'] | py=ㄙㄉㄝ-ㄒㄛ-ㄋㄧ-ㄌㄧ | theme=school | stage=4 [有易混提示]
+ 8924 | stature                        | 身高                             | 💁        | chunks=['sta', 'tu', 're'] | py=ㄙㄉㄝ-ㄑㄨ-ㄌㄧ | theme=appearance | stage=4
+ 8925 | stimulate                      | 刺激                             | 🏃        | chunks=['sti', 'mu', 'la', 'te'] | py=ㄙㄊㄜ-ㄇㄧㄨ-ㄌㄚ-ㄊㄧ | theme=actions | stage=4
+ 8926 | stimulation                    | 刺激                             | 🎓        | chunks=['sti', 'mu', 'la', 'tion'] | py=ㄙㄊㄜ-ㄇㄧㄨ-ㄌㄚ-ㄒㄣ | theme=academic-words | stage=4 base=stimulate
+ 8927 | strangle                       | 勒死                             | 🏃        | chunks=['stran', 'gle'] | py=ㄙㄊㄖㄝㄣ-ㄍㄜ | theme=actions | stage=4
+ 8928 | strategic                      | 戰略的                            | 🎨        | chunks=['stra', 'te', 'gic'] | py=ㄙㄉㄌㄝ-ㄊㄧ-ㄐㄧㄎ | theme=adjectives | stage=4
+ 8929 | stunt                          | 絕技阻礙表演絕技                       | 🏃        | chunks=['st', 'unt'] | py=ㄙㄊ-ㄚㄋㄊ | theme=actions | stage=4
+ 8930 | subscribe                      | 認捐                             | 🏃        | chunks=['subs', 'cri', 'be'] | py=ㄙㄚㄅㄙ-ㄎㄌㄞ-ㄅㄧ | theme=actions | stage=4
+ 8931 | substitution                   | 代替                             | 🎓        | chunks=['sub', 'sti', 'tu', 'tion'] | py=ㄙㄚㄅ-ㄙㄊㄜ-ㄑㄨ-ㄒㄣ | theme=academic-words | stage=4
+ 8932 | successive                     | 連續的                            | 🎨        | chunks=['suc', 'ces', 'si', 've'] | py=ㄙㄚㄎ-ㄙㄝ-ㄗㄜ-ㄈㄜ | theme=adjectives | stage=4 base=success
+ 8933 | suite                          | 套房                             | 🏃        | chunks=['sui', 'te'] | py=ㄙㄨ-ㄊㄧ | theme=actions | stage=4 [有易混提示]
+ 8934 | superb                         | 堂皇的                            | 🎨        | chunks=['su', 'perb'] | py=ㄙㄨ-ㄆㄜㄅ | theme=adjectives | stage=4
+ 8935 | superiority                    | 優越                             | 🎓        | chunks=['su', 'pe', 'rio', 'ri', 'ty'] | py=ㄙㄨ-ㄆㄜ-ㄖㄧㄛ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8936 | supersonic                     | 超音波                            | 🏥        | chunks=['su', 'per', 'so', 'nic'] | py=ㄙㄨ-ㄆㄜ-ㄙㄛ-ㄋㄧㄎ | theme=medical | stage=4
+ 8937 | superstitious                  | 迷信的                            | 🎨        | chunks=['su', 'per', 'sti', 'tious'] | py=ㄙㄨ-ㄆㄜ-ㄙㄊㄜ-ㄒㄚㄙ | theme=adjectives | stage=4 base=superstition
+ 8938 | supervision                    | 監督                             | 🎓        | chunks=['su', 'per', 'vi', 'sion'] | py=ㄙㄨ-ㄆㄜ-ㄈㄞ-ㄒㄣ | theme=academic-words | stage=4
+ 8939 | surpass                        | 勝過                             | 🏃        | chunks=['sur', 'pass'] | py=ㄙㄜ-ㄆㄚㄙ | theme=actions | stage=4
+ 8940 | suspense                       | 懸而不決                           | 🏃        | chunks=['sus', 'pen', 'se'] | py=ㄙㄜ-ㄆㄣ-ㄙㄜ | theme=actions | stage=4
+ 8941 | suspension                     | 懸吊                             | 🎓        | chunks=['sus', 'pen', 'sion'] | py=ㄙㄜ-ㄆㄣ-ㄒㄣ | theme=academic-words | stage=4
+ 8942 | swap                           | 交換                             | 🏃        | chunks=['sw', 'ap'] | py=ㄙㄨ-ㄚ | theme=actions | stage=3
+ 8943 | symbolic                       | 象徵的                            | 🔣        | chunks=['sym', 'bo', 'lic'] | py=ㄒㄧㄇ-ㄅㄛ-ㄌㄧㄎ | theme=animals | stage=4 base=symbol
+ 8944 | symbolize                      | 象徵                             | 🔣        | chunks=['sym', 'bo', 'li', 'ze'] | py=ㄒㄧㄇ-ㄅㄛ-ㄌㄧ-ㄗㄧ | theme=animals | stage=4 base=symbol
+ 8945 | symmetry                       | 對稱                             | 🏃        | chunks=['sym', 'met', 'ry'] | py=ㄒㄧㄇ-ㄇㄝㄊ-ㄌㄧ | theme=actions | stage=4
+ 8946 | symptom                        | 症狀                             | 💊        | chunks=['sym', 'ptom'] | py=ㄒㄧㄇ-ㄆㄊㄛㄇ | theme=health | stage=3
+ 8947 | synonym                        | 同義字                            | 🏃        | chunks=['sy', 'no', 'nym'] | py=ㄗㄧ-ㄋㄛ-ㄋㄧㄇ | theme=actions | stage=4
+ 8948 | synthetic                      | 合成的                            | 🎨        | chunks=['syn', 'the', 'tic'] | py=ㄒㄧㄣ-ㄉㄚ-ㄊㄧㄎ | theme=adjectives | stage=4
+ 8949 | tact                           | 老練                             | 🏃        | chunks=['t', 'act'] | py=ㄊㄚㄎㄊ | theme=actions | stage=4
+ 8950 | tedious                        | 冗長乏味的                          | 🎨        | chunks=['te', 'dious'] | py=ㄊㄧ-ㄉㄧㄜㄙ | theme=adjectives | stage=4
+ 8951 | temperament                    | 氣質                             | 🎨        | chunks=['tem', 'pe', 'ra', 'ment'] | py=ㄊㄣ-ㄆㄜ-ㄌㄚ-ㄇㄣㄊ | theme=adjectives | stage=4
+ 8952 | tempest                        | 暴風雨                            | 🏃        | chunks=['tem', 'pest'] | py=ㄊㄣ-ㄆㄝㄙㄊ | theme=weather | stage=4
+ 8953 | textile                        | 紡織品紡織的                         | 🎨        | chunks=['tex', 'ti', 'le'] | py=ㄊㄝㄎㄙ-ㄊㄜ-ㄌㄧ | theme=adjectives | stage=4
+ 8954 | texture                        | 質地                             | 🎨        | chunks=['tex', 'tu', 're'] | py=ㄊㄝㄎㄙ-ㄑㄨ-ㄌㄧ | theme=adjectives | stage=4
+ 8955 | theatrical                     | 戲劇的                            | 🎬        | chunks=['theat', 'ri', 'cal'] | py=ㄒㄧ-ㄚㄊ-ㄌㄧ-ㄎㄜ | theme=movies-tv | stage=4
+ 8956 | thermometer                    | 溫度計                            | 🏃        | chunks=['ther', 'mo', 'me', 'ter'] | py=ㄒㄜ-ㄇㄚ-ㄇㄜ-ㄊㄜ | theme=actions | stage=4
+ 8957 | threshold                      | 門檻                             | 🛋️       | chunks=['thres', 'hold'] | py=ㄒㄖㄝㄒ-ㄏㄛㄦㄉ | theme=home-items | stage=4
+ 8958 | thrift                         | 節儉                             | 🏃        | chunks=['thr', 'ift'] | py=ㄒㄖㄧㄈㄊ | theme=actions | stage=4
+ 8959 | thrifty                        | 節儉的                            | 🎨        | chunks=['thrif', 'ty'] | py=ㄒㄖㄧㄈ-ㄊㄧ | theme=adjectives | stage=4 base=thrift
+ 8960 | throb                          | 跳動                             | 🏃        | chunks=['thr', 'ob'] | py=ㄒㄖㄚㄅ | theme=actions | stage=4
+ 8961 | toll                           | 通行費                            | 🏃        | chunks=['t', 'oll'] | py=ㄊㄛㄌ | theme=actions | stage=4 [有易混提示]
+ 8962 | topple                         | 倒塌                             | 🏃        | chunks=['top', 'ple'] | py=ㄊㄚㄆ-ㄆㄜ | theme=actions | stage=4
+ 8963 | trait                          | 特徵                             | 🏃        | chunks=['tr', 'ait'] | py=ㄊㄖㄟㄊ | theme=actions | stage=3 [有易混提示]
+ 8964 | tranquil                       | 平靜的                            | 🎨        | chunks=['tran', 'quil'] | py=ㄊㄌㄚㄣ-ㄎㄨㄧㄌ | theme=adjectives | stage=4
+ 8965 | tranquilizer                   | 鎮定劑                            | 🏃        | chunks=['tran', 'qui', 'li', 'zer'] | py=ㄊㄌㄚㄣ-ㄎㄧ-ㄌㄧ-ㄗㄜ | theme=actions | stage=4
+ 8966 | transaction                    | 交易                             | 🎓        | chunks=['tran', 'sac', 'tion'] | py=ㄊㄌㄚㄣ-ㄙㄚ-ㄒㄣ | theme=academic-words | stage=4
+ 8967 | transcript                     | 抄本                             | 🏃        | chunks=['trans', 'cript'] | py=ㄊㄖㄢㄙ-ㄎㄖㄧㄆㄊ | theme=actions | stage=4
+ 8968 | transformation                 | 轉變                             | 🎓        | chunks=['tran', 'sfor', 'ma', 'tion'] | py=ㄊㄌㄚㄣ-ㄙㄈㄛㄜ-ㄇㄚ-ㄒㄣ | theme=academic-words | stage=4 base=transform
+ 8969 | transistor                     | 電晶體                            | 🏃        | chunks=['tran', 'sis', 'tor'] | py=ㄊㄌㄚㄣ-ㄒㄜㄙ-ㄊㄜ | theme=actions | stage=4
+ 8970 | transition                     | 過渡                             | 🎓        | chunks=['tran', 'si', 'tion'] | py=ㄊㄌㄚㄣ-ㄗㄜ-ㄒㄣ | theme=academic-words | stage=4
+ 8971 | transmission                   | 傳輸                             | 🎓        | chunks=['tran', 'smis', 'sion'] | py=ㄊㄌㄚㄣ-ㄙㄇㄧㄙ-ㄒㄣ | theme=academic-words | stage=4
+ 8972 | tread                          | 踩                              | 🏃        | chunks=['tr', 'ead'] | py=ㄊㄖㄝㄉ | theme=actions | stage=4 [有易混提示]
+ 8973 | treason                        | 叛國罪                            | ⚖️       | chunks=['trea', 'son'] | py=ㄊㄌㄧ-ㄗㄣ | theme=countries | stage=4
+ 8974 | trek                           | 移居                             | 🏃        | chunks=['tr', 'ek'] | py=ㄊㄖㄝㄎ | theme=actions | stage=4
+ 8975 | tremor                         | 顫抖                             | 🏃        | chunks=['tre', 'mor'] | py=ㄊㄌㄜ-ㄇㄜ | theme=actions | stage=4
+ 8976 | triumphant                     | 勝利的                            | 🎨        | chunks=['trium', 'phant'] | py=ㄊㄖㄧㄚㄇ-ㄈㄢㄊ | theme=adjectives | stage=4 base=triumph
+ 8977 | tropic                         | 回歸線                            | 🎨        | chunks=['tro', 'pic'] | py=ㄊㄌㄛ-ㄆㄧㄎ | theme=adjectives | stage=4
+ 8978 | truant                         | 逃學者逃學的逃學                       | 🎨        | chunks=['tr', 'uant'] | py=ㄊㄖㄨ-ㄜㄣㄊ | theme=adjectives | stage=4
+ 8979 | truce                          | 停戰                             | 🏃        | chunks=['tru', 'ce'] | py=ㄊㄌㄨ-ㄙㄜ | theme=actions | stage=4
+ 8980 | turmoil                        | 騷動                             | 🏃        | chunks=['tur', 'moil'] | py=ㄊㄜ-ㄇㄛㄧㄌ | theme=actions | stage=4
+ 8981 | twilight                       | 薄暮昏暗的                          | 🎨        | chunks=['twi', 'light'] | py=ㄊㄨㄧ-ㄌㄞㄊ | theme=adjectives | stage=4
+ 8982 | tyranny                        | 暴政                             | 🏃        | chunks=['ty', 'ran', 'ny'] | py=ㄊㄧ-ㄌㄚㄣ-ㄋㄧ | theme=actions | stage=4
+ 8983 | unanimous                      | 一致同意的                          | 🔢        | chunks=['u', 'na', 'ni', 'mous'] | py=ㄧㄨ-ㄋㄚ-ㄋㄜ-ㄇㄚㄙ | theme=numbers | stage=4
+ 8984 | uncover                        | 揭露                             | 🏃        | chunks=['un', 'co', 'ver'] | py=ㄚㄣ-ㄎㄛ-ㄈㄜ | theme=actions | stage=4 base=cover
+ 8985 | underestimate                  | 低估                             | 🏃        | chunks=['un', 'de', 'res', 'ti', 'ma', 'te'] | py=ㄚㄣ-ㄉㄧ-ㄌㄝㄙ-ㄊㄜ-ㄇㄚ-ㄊㄧ | theme=actions | stage=4 base=estimate
+ 8986 | undermine                      | 暗中破壞                           | 🎨        | chunks=['un', 'der', 'mi', 'ne'] | py=ㄚㄣ-ㄉㄜ-ㄇㄞ-ㄋㄧ | theme=adjectives | stage=4 base=mine
+ 8987 | undo                           | 解開                             | 🏃        | chunks=['un', 'do'] | py=ㄚㄣ-ㄉㄛ | theme=actions | stage=2
+ 8988 | unfold                         | 展開                             | 🏃        | chunks=['un', 'fold'] | py=ㄚㄣ-ㄈㄛㄌㄉ | theme=actions | stage=3
+ 8989 | unlock                         | 開…的鎖                           | 🏃        | chunks=['un', 'lock'] | py=ㄚㄣ-ㄌㄚㄎ | theme=actions | stage=2
+ 8990 | unpack                         | 打開包裹                           | 🏃        | chunks=['un', 'pack'] | py=ㄚㄣ-ㄆㄚㄎ | theme=actions | stage=2
+ 8991 | upbringing                     | 養育                             | 🏃        | chunks=['up', 'brin', 'ging'] | py=ㄚㄆ-ㄅㄖㄧㄋ-ㄍㄧㄥ | theme=actions | stage=4
+ 8992 | upgrade                        | 升級上坡                           | 🏃        | chunks=['up', 'gra', 'de'] | py=ㄚㄆ-ㄍㄌㄝ-ㄉㄧ | theme=directions | stage=3
+ 8993 | uphold                         | 舉起                             | 🏃        | chunks=['up', 'hold'] | py=ㄚㄆ-ㄏㄛㄉ | theme=actions | stage=4
+ 8994 | uranium                        | 鈾                              | 🏃        | chunks=['u', 'ra', 'nium'] | py=ㄧㄨ-ㄌㄚ-ㄋㄧㄚㄇ | theme=actions | stage=4
+ 8995 | urine                          | 尿                              | 🎨        | chunks=['u', 'ri', 'ne'] | py=ㄧㄨ-ㄌㄧ-ㄋㄧ | theme=adjectives | stage=4
+ 8996 | usher                          | 引座員招待                          | 👨‍⚕️     | chunks=['us', 'her'] | py=ㄚㄙ-ㄏㄜ | theme=jobs | stage=4
+ 8997 | utensil                        | 器皿                             | 🏃        | chunks=['u', 'ten', 'sil'] | py=ㄧㄨ-ㄊㄣ-ㄗㄦ | theme=actions | stage=4
+ 8998 | utility                        | 效用                             | 🎓        | chunks=['u', 'ti', 'li', 'ty'] | py=ㄧㄨ-ㄊㄜ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=4
+ 8999 | utmost                         | 極度的極度                          | 🏃        | chunks=['ut', 'most'] | py=ㄚ-ㄇㄛㄙㄊ | theme=actions | stage=4

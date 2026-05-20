@@ -1,0 +1,501 @@
+# 字 6000-6499
+ 6000 | bug                            | 蟲子                             | 🐾        | chunks=['b', 'ug'] | py=ㄅㄧ-ㄚㄍ | theme=animals | stage=1
+ 6001 | cage                           | 獸籠                             | 🏃        | chunks=['ca', 'ge'] | py=ㄎㄚ-ㄐㄧ | theme=animals | stage=1
+ 6002 | call                           | 呼叫                             | 🏃        | chunks=['c', 'all'] | py=ㄒㄧ-ㄛ | theme=actions | stage=1 [有易混提示]
+ 6003 | camp                           | 營地                             | ⛺        | chunks=['c', 'amp'] | py=ㄒㄧ-ㄚㄇㄆ | theme=adjectives | stage=1 [有易混提示]
+ 6004 | cause                          | 原因                             | 🏃        | chunks=['cau', 'se'] | py=ㄎㄛ-ㄙㄜ | theme=actions | stage=1
+ 6005 | chase                          | 追捕                             | 🏃        | chunks=['cha', 'se'] | py=ㄎㄚ-ㄙㄜ | theme=actions | stage=1 [有易混提示]
+ 6006 | chick                          | 小雞                             | 🐾        | chunks=['ch', 'ick'] | py=ㄔ-ㄧㄎ | theme=animals | stage=1
+ 6007 | chief                          | 領袖                             | 🏃        | chunks=['ch', 'ief'] | py=ㄔ-ㄞㄈ | theme=jobs | stage=2 [有易混提示]
+ 6008 | christmas                      | 聖誕節                            | 🏃        | chunks=['chris', 'tmas'] | py=ㄎㄌㄧㄙ-ㄊㄇㄚㄙ | theme=events | stage=1
+ 6009 | xmas                           | 聖誕節                            | 🏃        | chunks=['xm', 'as'] | py=ㄎㄙㄇ-ㄚ | theme=events | stage=2
+ 6010 | clear                          | 清晰的                            | 🎨        | chunks=['cl', 'ear'] | py=ㄎㄌ-ㄦ | theme=adjectives | stage=1 [有易混提示]
+ 6011 | cola                           | 可樂                             | 🥤        | chunks=['co', 'la'] | py=ㄎㄛ-ㄌㄚ | theme=drinks | stage=1
+ 6012 | coke                           | 可樂                             | 🥤        | chunks=['co', 'ke'] | py=ㄎㄛ-ㄎㄟ | theme=drinks | stage=1
+ 6013 | continue                       | 繼續                             | 🏃        | chunks=['con', 'ti', 'nue'] | py=ㄎㄜㄣ-ㄊㄧ-ㄋㄧㄨ | theme=actions | stage=1 [有易混提示]
+ 6014 | cooky                          | 餅乾                             | 🍪        | chunks=['coo', 'ky'] | py=ㄎㄨ-ㄎㄧ | theme=desserts | stage=2
+ 6015 | correct                        | 正確的                            | 🎨        | chunks=['cor', 'rect'] | py=ㄎㄜ-ㄖㄝㄎㄊ | theme=adjectives | stage=1
+ 6016 | cover                          | 覆蓋                             | 🏃        | chunks=['co', 'ver'] | py=ㄎㄚ-ㄈㄜ | theme=actions | stage=1 [有易混提示]
+ 6017 | cowboy                         | 牛仔                             | 🤠        | chunks=['cow', 'boy'] | py=ㄎㄠ-ㄅㄛㄧ | theme=animals | stage=2
+ 6018 | cub                            | 幼獸                             | 🐻        | chunks=['c', 'ub'] | py=ㄒㄧ-ㄚㄅ | theme=animals | stage=2
+ 6019 | daddy                          | 爸爸                             | 👨‍👩‍👧    | chunks=['dad', 'dy'] | py=ㄉㄚㄉ-ㄉㄧ | theme=family | stage=1 base=dad
+ 6020 | papa                           | 爸爸                             | 👨‍👩‍👧    | chunks=['pa', 'pa'] | py=ㄆㄚ-ㄆㄚ | theme=family | stage=2
+ 6021 | pa                             | 爸爸                             | 👨‍👩‍👧    | chunks=['p', 'a'] | py=ㄆㄧ-ㄜ | theme=family | stage=2
+ 6022 | danger                         | 危險                             | ⚠️       | chunks=['dan', 'ger'] | py=ㄉㄢ-ㄍㄜ | theme=emergencies | stage=1
+ 6023 | dead                           | 死的                             | 🎨        | chunks=['d', 'ead'] | py=ㄉㄧ-ㄧㄉ | theme=adjectives | stage=1 [有易混提示]
+ 6024 | dear                           | 親愛的                            | 🎨        | chunks=['d', 'ear'] | py=ㄉㄧ-ㄦ | theme=adjectives | stage=1 [有易混提示]
+ 6025 | death                          | 死亡                             | 🏃        | chunks=['d', 'eath'] | py=ㄉㄧ-ㄧㄒ | theme=actions | stage=1
+ 6026 | difficult                      | 困難的                            | 🎨        | chunks=['dif', 'fi', 'cult'] | py=ㄉㄧ-ㄈㄜ-ㄎㄜㄌㄊ | theme=adjectives | stage=1
+ 6027 | dig                            | 挖                              | 🏃        | chunks=['d', 'ig'] | py=ㄉㄧ-ㄧㄍ | theme=actions | stage=1
+ 6028 | direct                         | 指揮                             | 🏃        | chunks=['di', 'rect'] | py=ㄉㄧ-ㄖㄝㄎㄊ | theme=actions | stage=1 [有易混提示]
+ 6029 | discover                       | 發現                             | 🏃        | chunks=['dis', 'co', 'ver'] | py=ㄉㄧㄙ-ㄎㄚ-ㄈㄜ | theme=actions | stage=1 base=cover
+ 6030 | buck                           | 美元(俚)、公鹿                       | 🏃        | chunks=['b', 'uck'] | py=ㄅㄧ-ㄚㄎ | theme=actions | stage=2
+ 6031 | downstairs                     | 樓下的                            | 🎨        | chunks=['down', 'stairs'] | py=ㄉㄠㄣ-ㄙㄊㄝㄜㄙ | theme=adjectives | stage=2 base=stair
+ 6032 | draw                           | 畫                              | 🎨        | chunks=['dr', 'aw'] | py=ㄉㄖ-ㄛ | theme=art | stage=1 [有易混提示]
+ 6033 | duckling                       | 小鴨                             | 🐾        | chunks=['duc', 'kling'] | py=ㄉㄚㄎ-ㄎㄌㄧㄥ | theme=animals | stage=1 base=duck
+ 6034 | during                         | 在…期間                           | 🏃        | chunks=['du', 'ring'] | py=ㄉㄨ-ㄌㄧㄥ | theme=sight-words | stage=1
+ 6035 | ease                           | 輕鬆、緩和                          | 🏃        | chunks=['ea', 'se'] | py=ㄧ-ㄙㄜ | theme=actions | stage=1 [有易混提示]
+ 6036 | else                           | 其他                             | 🏃        | chunks=['el', 'se'] | py=ㄝ-ㄙㄜ | theme=actions | stage=1
+ 6037 | enter                          | 進入                             | 🏃        | chunks=['en', 'ter'] | py=ㄣ-ㄊㄜ | theme=actions | stage=1
+ 6038 | examine                        | 檢查                             | 🎨        | chunks=['e', 'xa', 'mi', 'ne'] | py=ㄧ-ㄎㄙㄚ-ㄇㄞ-ㄋㄧ | theme=adjectives | stage=1
+ 6039 | feed                           | 餵食                             | 🏃        | chunks=['f', 'eed'] | py=ㄝㄈ-ㄧㄉ | theme=actions | stage=1
+ 6040 | feel                           | 觸摸                             | 🏃        | chunks=['f', 'eel'] | py=ㄝㄈ-ㄧㄌ | theme=actions | stage=1 [有易混提示]
+ 6041 | feelings                       | 感情                             | 💗        | chunks=['fee', 'lings'] | py=ㄈㄧ-ㄌㄧㄥㄙ | theme=emotions | stage=1 base=feel
+ 6042 | fill                           | 填滿                             | 🏃        | chunks=['f', 'ill'] | py=ㄝㄈ-ㄧㄦ | theme=actions | stage=1 [有易混提示]
+ 6043 | follow                         | 跟隨                             | 🏃        | chunks=['fol', 'low'] | py=ㄈㄛㄛ-ㄌㄛ | theme=actions | stage=1
+ 6044 | forget                         | 忘記                             | 🏃        | chunks=['for', 'get'] | py=ㄈㄜ-ㄍㄝㄊ | theme=actions | stage=1
+ 6045 | fun                            | 樂趣                             | 🏃        | chunks=['f', 'un'] | py=ㄝㄈ-ㄚㄣ | theme=actions | stage=1
+ 6046 | glad                           | 高興的                            | 😄        | chunks=['gl', 'ad'] | py=ㄍㄌ-ㄚㄉ | theme=appearance | stage=1
+ 6047 | grandchild                     | 孫子女                            | 👨‍👩‍👧    | chunks=['grand', 'child'] | py=ㄍㄌㄚㄣ-ㄑㄞㄦㄉ | theme=family | stage=2
+ 6048 | granddaughter                  | 孫女                             | 👨‍👩‍👧    | chunks=['gran', 'ddaug', 'hter'] | py=ㄍㄌㄚ-ㄉㄉㄛㄍ-ㄏㄊㄜ | theme=family | stage=2
+ 6049 | grandson                       | 孫子                             | 👨‍👩‍👧    | chunks=['gran', 'dson'] | py=ㄍㄌㄚ-ㄉㄙㄛㄋ | theme=family | stage=2
+ 6050 | grey                           | 灰色的                            | 🩶        | chunks=['gr', 'ey'] | py=ㄍㄖ-ㄧ | theme=colors | stage=1
+ 6051 | grow                           | 生長                             | 🏃        | chunks=['gr', 'ow'] | py=ㄍㄖ-ㄛ | theme=actions | stage=1
+ 6052 | guess                          | 猜測                             | 🏃        | chunks=['g', 'uess'] | py=ㄐㄧ-ㄩㄙㄙ | theme=actions | stage=1
+ 6053 | gun                            | 槍                              | 🏃        | chunks=['g', 'un'] | py=ㄐㄧ-ㄚㄣ | theme=actions | stage=1
+ 6054 | haircut                        | 理髮                             | 🏃        | chunks=['hair', 'cut'] | py=ㄏㄝㄜ-ㄎㄚㄊ | theme=actions | stage=1
+ 6055 | happen                         | 發生                             | 🏃        | chunks=['hap', 'pen'] | py=ㄏㄚ-ㄆㄜㄣ | theme=actions | stage=1
+ 6056 | health                         | 健康                             | 💊        | chunks=['h', 'ealth'] | py=ㄝㄑ-ㄧㄌㄒ | theme=health | stage=1
+ 6057 | hole                           | 洞                              | 🏃        | chunks=['ho', 'le'] | py=ㄏㄛㄦ | theme=actions | stage=1 [有易混提示]
+ 6058 | hungry                         | 飢餓的                            | 🎨        | chunks=['hun', 'gry'] | py=ㄏㄚㄥ-ㄍㄖㄧ | theme=adjectives | stage=1 base=hunger
+ 6059 | important                      | 重要的                            | 🎨        | chunks=['im', 'por', 'tant'] | py=ㄧㄇ-ㄆㄛ-ㄊㄣㄊ | theme=adjectives | stage=1
+ 6060 | inch                           | 英吋                             | 🏃        | chunks=['in', 'ch'] | py=ㄧㄣ-ㄔ | theme=actions | stage=1 [有易混提示]
+ 6061 | job                            | 工作                             | 🏃        | chunks=['j', 'ob'] | py=ㄐ-ㄚㄅ | theme=actions | stage=1
+ 6062 | join                           | 參加                             | 🏃        | chunks=['j', 'oin'] | py=ㄐ-ㄛㄧㄋ | theme=actions | stage=1
+ 6063 | joke                           | 玩笑                             | 🏃        | chunks=['jo', 'ke'] | py=ㄐㄛ-ㄎㄟ | theme=actions | stage=1
+ 6064 | keep                           | 保有                             | 🏃        | chunks=['k', 'eep'] | py=ㄎㄟ-ㄧㄆ | theme=actions | stage=1 [有易混提示]
+ 6065 | keeper                         | 管理者                            | 👨‍⚕️     | chunks=['kee', 'per'] | py=ㄎㄧ-ㄆㄜ | theme=jobs | stage=1 base=keep
+ 6066 | kill                           | 殺死                             | 🏃        | chunks=['k', 'ill'] | py=ㄎㄟ-ㄧㄦ | theme=actions | stage=1
+ 6067 | king                           | 國王                             | 👑        | chunks=['k', 'ing'] | py=ㄎㄟ-ㄧㄥ | theme=countries | stage=1
+ 6068 | kitten                         | 小貓                             | 🐱        | chunks=['kit', 'ten'] | py=ㄎㄧㄊ-ㄊㄣ | theme=animals | stage=1
+ 6069 | kitty                          | 小貓                             | 🐾        | chunks=['kit', 'ty'] | py=ㄎㄧㄊ-ㄊㄧ | theme=animals | stage=1 base=cat
+ 6070 | lack                           | 缺少                             | 🏃        | chunks=['l', 'ack'] | py=ㄝㄦ-ㄚ | theme=actions | stage=1
+ 6071 | land                           | 陸地、降落                          | 🏃        | chunks=['l', 'and'] | py=ㄝㄦ-ㄢㄉ | theme=actions | stage=1 [有易混提示]
+ 6072 | large                          | 寬的                             | 🎨        | chunks=['lar', 'ge'] | py=ㄌㄜ-ㄐㄧ | theme=adjectives | stage=1
+ 6073 | least                          | 最小的                            | 🎨        | chunks=['l', 'east'] | py=ㄝㄦ-ㄧㄙㄊ | theme=adjectives | stage=1
+ 6074 | leave                          | 離開                             | 🏃        | chunks=['lea', 've'] | py=ㄌㄝ-ㄈㄜ | theme=actions | stage=1 [有易混提示]
+ 6075 | less                           | 較少的                            | 🎨        | chunks=['l', 'ess'] | py=ㄝㄦ-ㄊㄝㄙ | theme=adjectives | stage=1
+ 6076 | let                            | 讓                              | 🏃        | chunks=['l', 'et'] | py=ㄝㄦ-ㄝㄊ | theme=actions | stage=1 base=let [有易混提示]
+ 6077 | letter                         | 信件、字母                          | ✉️       | chunks=['let', 'ter'] | py=ㄌㄝㄊ-ㄊㄜ | theme=actions | stage=1 [有易混提示]
+ 6078 | likely                         | 很可能的                           | 🎨        | chunks=['li', 'ke', 'ly'] | py=ㄌㄧ-ㄎㄟ-ㄌㄧ | theme=adjectives | stage=1
+ 6079 | lily                           | 百合                             | 🌷        | chunks=['li', 'ly'] | py=ㄌㄧ-ㄌㄧ | theme=nature | stage=2
+ 6080 | little                         | 小的、少                           | 🏃        | chunks=['lit', 'tle'] | py=ㄌㄧ-ㄉㄜ | theme=actions | stage=1 [有易混提示]
+ 6081 | lucky                          | 幸運的                            | 🎨        | chunks=['luc', 'ky'] | py=ㄌㄚㄎ-ㄎㄧ | theme=adjectives | stage=1 base=luck
+ 6082 | luncheon                       | 午餐                             | 🍱        | chunks=['lun', 'cheon'] | py=ㄌㄚㄋ-ㄔㄝㄛㄋ | theme=food | stage=3
+ 6083 | mail                           | 郵件                             | 📬        | chunks=['m', 'ail'] | py=ㄝㄇ-ㄝㄦ | theme=actions | stage=1 [有易混提示]
+ 6084 | marry                          | 嫁娶                             | 🏃        | chunks=['mar', 'ry'] | py=ㄇㄚㄦ-ㄌㄧ | theme=actions | stage=1
+ 6085 | master                         | 主人、精通                          | 👨‍⚕️     | chunks=['mas', 'ter'] | py=ㄇㄚㄙ-ㄊㄜ | theme=jobs | stage=1
+ 6086 | me                             | 我                              | 🏃        | chunks=['m', 'e'] | py=ㄝㄇ-ㄧ | theme=actions | stage=1
+ 6087 | meet                           | 遇見                             | 🏃        | chunks=['m', 'eet'] | py=ㄝㄇ-ㄧㄊ | theme=actions | stage=1 [有易混提示]
+ 6088 | mile                           | 英里                             | 🏃        | chunks=['mi', 'le'] | py=ㄇㄞ-ㄌㄧ | theme=actions | stage=1 [有易混提示]
+ 6089 | mistake                        | 錯誤                             | 🏃        | chunks=['mis', 'ta', 'ke'] | py=ㄇㄧㄙ-ㄊㄝ-ㄎㄟ | theme=actions | stage=1
+ 6090 | mommy                          | 媽媽                             | 👨‍👩‍👧    | chunks=['mom', 'my'] | py=ㄇㄛㄇ-ㄇㄧ | theme=family | stage=1 base=mom
+ 6091 | momma                          | 媽媽                             | 👨‍👩‍👧    | chunks=['mom', 'ma'] | py=ㄇㄛㄇ-ㄇㄚ | theme=family | stage=2
+ 6092 | money                          | 錢                              | 💰        | chunks=['mo', 'ney'] | py=ㄇㄛ-ㄋㄧ | theme=money | stage=1
+ 6093 | more                           | 更多                             | 🏃        | chunks=['mo', 're'] | py=ㄇㄛ-ㄌㄧ | theme=actions | stage=1 base=many
+ 6094 | mister                         | 先生                             | 🏃        | chunks=['mis', 'ter'] | py=ㄇㄧㄙ-ㄊㄜ | theme=actions | stage=1
+ 6095 | my                             | 我的                             | 🎨        | chunks=['m', 'y'] | py=ㄝㄇ-ㄌㄧ | theme=adjectives | stage=1 [有易混提示]
+ 6096 | nature                         | 大自然                            | 🌳        | chunks=['na', 'tu', 're'] | py=ㄋㄚ-ㄑㄨ-ㄌㄧ | theme=nature | stage=1
+ 6097 | no                             | 不是                             | 🏃        | chunks=['n', 'o'] | py=ㄝㄣ-ㄛ | theme=actions | stage=1 [有易混提示]
+ 6098 | nope                           | 不是                             | 🏃        | chunks=['no', 'pe'] | py=ㄋㄛ-ㄆㄜ | theme=actions | stage=1
+ 6099 | noise                          | 噪音                             | 📢        | chunks=['noi', 'se'] | py=ㄋㄛㄧ-ㄙㄜ | theme=environment | stage=1 base=no
+ 6100 | noisy                          | 喧鬧的                            | 🎨        | chunks=['noi', 'sy'] | py=ㄋㄛㄧ-ㄗㄧ | theme=adjectives | stage=1 base=noise
+ 6101 | nor                            | 也不                             | 🏃        | chunks=['n', 'or'] | py=ㄝㄣ-ㄛㄦ | theme=actions | stage=1
+ 6102 | not                            | 不                              | 🏃        | chunks=['n', 'ot'] | py=ㄝㄣ-ㄚ | theme=actions | stage=1 [有易混提示]
+ 6103 | nothing                        | 沒什麼                            | 🏃        | chunks=['not', 'hing'] | py=ㄋㄚㄊ-ㄏㄧㄥ | theme=actions | stage=1
+ 6104 | notice                         | 注意                             | 🏃        | chunks=['no', 'ti', 'ce'] | py=ㄋㄛ-ㄊㄜ-ㄙㄜ | theme=actions | stage=1
+ 6105 | office                         | 辦公室                            | 🏢        | chunks=['of', 'fi', 'ce'] | py=ㄚㄈ-ㄈㄜ-ㄙㄜ | theme=office | stage=1
+ 6106 | own                            | 自己的、擁有                         | 🏃        | chunks=['ow', 'n'] | py=ㄛ-ㄝㄣ | theme=actions | stage=1 [有易混提示]
+ 6107 | page                           | 頁                              | 🏃        | chunks=['pa', 'ge'] | py=ㄆㄜ-ㄐㄧ | theme=actions | stage=1 [有易混提示]
+ 6108 | trousers                       | 褲子                             | 👖        | chunks=['trou', 'sers'] | py=ㄊㄖㄠ-ㄙㄜㄙ | theme=clothing | stage=2
+ 6109 | pass                           | 經過                             | 🏃        | chunks=['p', 'ass'] | py=ㄆㄧ-ㄚㄙㄙ | theme=actions | stage=1 [有易混提示]
+ 6110 | picture                        | 圖像                             | 🎓        | chunks=['pic', 'tu', 're'] | py=ㄆㄧㄎ-ㄑㄨ-ㄌㄧ | theme=academic-words | stage=1
+ 6111 | plant                          | 植物、栽種、工廠                       | 🎨        | chunks=['pl', 'ant'] | py=ㄆㄌ-ㄣㄊ | theme=adjectives | stage=1 [有易混提示]
+ 6112 | policeman                      | 警察                             | 🚨        | chunks=['po', 'li', 'ce', 'man'] | py=ㄆㄛ-ㄌㄧ-ㄙㄜ-ㄇㄢ | theme=emergencies | stage=1
+ 6113 | cop                            | 警察                             | 🚨        | chunks=['c', 'op'] | py=ㄒㄧ-ㄚㄆ | theme=emergencies | stage=1
+ 6114 | pool                           | 水池                             | 🏊        | chunks=['p', 'ool'] | py=ㄆㄧ-ㄨㄌ | theme=places | stage=1 [有易混提示]
+ 6115 | possible                       | 可能的                            | 🎨        | chunks=['pos', 'sib', 'le'] | py=ㄆㄚ-ㄒㄧㄅ-ㄌㄧ | theme=adjectives | stage=1
+ 6116 | practice                       | 練習                             | 🏃        | chunks=['prac', 'ti', 'ce'] | py=ㄆㄌㄚㄎ-ㄊㄜ-ㄙㄜ | theme=actions | stage=1
+ 6117 | prepare                        | 準備                             | 🏃        | chunks=['pre', 'pa', 're'] | py=ㄆㄌㄜ-ㄆㄝㄜ | theme=actions | stage=1
+ 6118 | prove                          | 證明                             | 🏃        | chunks=['pro', 've'] | py=ㄆㄖㄨㄈ | theme=actions | stage=1
+ 6119 | public                         | 公眾的                            | 🎨        | chunks=['pub', 'lic'] | py=ㄆㄚ-ㄅㄌㄧㄎ | theme=adjectives | stage=1
+ 6120 | queen                          | 女王                             | 👸        | chunks=['q', 'ueen'] | py=ㄎㄧㄨ-ㄩㄝㄋ | theme=jobs | stage=1
+ 6121 | question                       | 問題                             | ❓        | chunks=['ques', 'tion'] | py=ㄎㄨㄝㄙ-ㄒㄣ | theme=academic-words | stage=1
+ 6122 | quick                          | 快的、快速的                         | 🏃        | chunks=['q', 'uick'] | py=ㄎㄧㄨ-ㄨㄎ | theme=actions | stage=1 [有易混提示]
+ 6123 | rat                            | 老鼠                             | 🐀        | chunks=['r', 'at'] | py=ㄚㄦ-ㄚ | theme=animals | stage=1
+ 6124 | reach                          | 抵達                             | 🏃        | chunks=['r', 'each'] | py=ㄚㄦ-ㄧㄔ | theme=actions | stage=1
+ 6125 | remember                       | 記得                             | 🏃        | chunks=['re', 'mem', 'ber'] | py=ㄌㄜ-ㄇㄝㄇ-ㄅㄜ | theme=actions | stage=1
+ 6126 | rest                           | 休息                             | 🏃        | chunks=['r', 'est'] | py=ㄚㄦ-ㄝㄙㄊ | theme=actions | stage=1 [有易混提示]
+ 6127 | rise                           | 上升                             | 🏃        | chunks=['ri', 'se'] | py=ㄌㄧ-ㄙㄜ | theme=directions | stage=1 [有易混提示]
+ 6128 | roll                           | 滾動                             | 🏃        | chunks=['r', 'oll'] | py=ㄚㄦ-ㄛㄌㄌ | theme=actions | stage=1 [有易混提示]
+ 6129 | room                           | 房間                             | 🏃        | chunks=['r', 'oom'] | py=ㄚㄦ-ㄨㄇ | theme=actions | stage=1
+ 6130 | rub                            | 摩擦                             | 🏃        | chunks=['r', 'ub'] | py=ㄚㄦ-ㄚㄅ | theme=actions | stage=1
+ 6131 | sail                           | 航行                             | 🏃        | chunks=['s', 'ail'] | py=ㄝㄙ-ㄝㄦ | theme=actions | stage=1 [有易混提示]
+ 6132 | scare                          | 使恐懼                            | 😱        | chunks=['sca', 're'] | py=ㄙㄎㄚ-ㄌㄧ | theme=emotions | stage=1
+ 6133 | seem                           | 似乎                             | 🏃        | chunks=['s', 'eem'] | py=ㄝㄙ-ㄧㄇ | theme=actions | stage=1 [有易混提示]
+ 6134 | sense                          | 感官                             | 🏃        | chunks=['sen', 'se'] | py=ㄙㄝㄣ-ㄙㄜ | theme=actions | stage=1 [有易混提示]
+ 6135 | serve                          | 為…服務                           | 🏃        | chunks=['ser', 've'] | py=ㄗㄜ-ㄈㄜ | theme=actions | stage=1
+ 6136 | shall                          | 將、會                            | 🏃        | chunks=['sh', 'all'] | py=ㄒ-ㄛ | theme=actions | stage=2
+ 6137 | shine                          | 發光、擦亮、光亮                       | 🎨        | chunks=['shi', 'ne'] | py=ㄒㄧ-ㄋㄧ | theme=adjectives | stage=1 [有易混提示]
+ 6138 | shout                          | 呼喊                             | 🏃        | chunks=['sh', 'out'] | py=ㄒ-ㄠㄊ | theme=actions | stage=1
+ 6139 | shut                           | 關上                             | 🏃        | chunks=['sh', 'ut'] | py=ㄒ-ㄚ | theme=directions | stage=1 base=shut [有易混提示]
+ 6140 | sight                          | 視界                             | 🏃        | chunks=['s', 'ight'] | py=ㄝㄙ-ㄧㄊ | theme=actions | stage=1 [有易混提示]
+ 6141 | skill                          | 技術                             | 💻        | chunks=['sk', 'ill'] | py=ㄙㄎ-ㄧㄦ | theme=technology | stage=1
+ 6142 | smell                          | 聞                              | 🏃        | chunks=['sm', 'ell'] | py=ㄙㄇ-ㄝㄌㄌ | theme=actions | stage=1
+ 6143 | space                          | 空間                             | 🏃        | chunks=['spa', 'ce'] | py=ㄙㄆㄚ-ㄙㄜ | theme=actions | stage=1
+ 6144 | spell                          | 拼寫                             | 🏃        | chunks=['sp', 'ell'] | py=ㄙㄆ-ㄝㄌㄌ | theme=actions | stage=1 [有易混提示]
+ 6145 | sport                          | 運動                             | ⚽        | chunks=['sp', 'ort'] | py=ㄙㄆ-ㄛㄜㄊ | theme=sports | stage=1
+ 6146 | stair                          | 階梯                             | 🪜        | chunks=['st', 'air'] | py=ㄙㄊ-ㄟㄦ | theme=tools | stage=1 [有易混提示]
+ 6147 | stay                           | 停留                             | 🏃        | chunks=['st', 'ay'] | py=ㄙㄊ-ㄟ | theme=actions | stage=1 [有易混提示]
+ 6148 | such                           | 如此的                            | 🎨        | chunks=['s', 'uch'] | py=ㄝㄙ-ㄚㄔ | theme=adjectives | stage=1
+ 6149 | super                          | 極度的                            | 🎨        | chunks=['su', 'per'] | py=ㄙㄨ-ㄆㄜ | theme=adjectives | stage=1
+ 6150 | sure                           | 確信的、當然                         | 🏃        | chunks=['su', 're'] | py=ㄙㄨ-ㄌㄧ | theme=actions | stage=1
+ 6151 | surprise                       | 使吃驚                            | 😲        | chunks=['sur', 'pri', 'se'] | py=ㄙㄜ-ㄆㄌㄞㄗ | theme=emotions | stage=1
+ 6152 | tail                           | 尾巴                             | 🏃        | chunks=['t', 'ail'] | py=ㄊㄧ-ㄝㄦ | theme=actions | stage=1 [有易混提示]
+ 6153 | tale                           | 故事                             | 🏃        | chunks=['ta', 'le'] | py=ㄊㄝ-ㄌㄧ | theme=actions | stage=1 [有易混提示]
+ 6154 | taste                          | 嚐                              | 🏃        | chunks=['tas', 'te'] | py=ㄊㄚㄙ-ㄊㄧ | theme=actions | stage=1
+ 6155 | cab                            | 計程車                            | 🚗        | chunks=['c', 'ab'] | py=ㄒㄧ-ㄚㄅ | theme=transportation | stage=1
+ 6156 | thank                          | 感謝                             | 🙏        | chunks=['th', 'ank'] | py=ㄒ-ㄚㄋㄎ | theme=emotions | stage=1
+ 6157 | time                           | 時間                             | ⏰        | chunks=['ti', 'me'] | py=ㄊㄜ-ㄇㄝ | theme=time | stage=1
+ 6158 | tire                           | 輪胎、使疲倦                         | 🏃        | chunks=['ti', 're'] | py=ㄊㄜ-ㄌㄧ | theme=actions | stage=1 [有易混提示]
+ 6159 | together                       | 一起                             | 🔢        | chunks=['to', 'get', 'her'] | py=ㄊㄜ-ㄍㄝ-ㄉㄜ | theme=sight-words | stage=1
+ 6160 | tool                           | 工具                             | 🔨        | chunks=['t', 'ool'] | py=ㄊㄧ-ㄨㄌ | theme=tools | stage=1 [有易混提示]
+ 6161 | touch                          | 觸摸                             | 🏃        | chunks=['t', 'ouch'] | py=ㄊㄧ-ㄠㄔ | theme=actions | stage=1 [有易混提示]
+ 6162 | trouble                        | 麻煩                             | ⚠️       | chunks=['troub', 'le'] | py=ㄊㄖㄠㄅ-ㄌㄧ | theme=materials | stage=1
+ 6163 | t-shirt                        | 短袖圓領汗衫                         | 🏃        | chunks=['t', 'shirt'] | py=ㄊㄧ-ㄒㄜㄊ | theme=actions | stage=1
+ 6164 | tummy                          | 肚子                             | 🏃        | chunks=['tum', 'my'] | py=ㄊㄣ-ㄇㄧ | theme=actions | stage=2
+ 6165 | understand                     | 理解                             | 🏃        | chunks=['un', 'der', 'stand'] | py=ㄚㄣ-ㄉㄜ-ㄙㄊㄢㄉ | theme=actions | stage=1
+ 6166 | unit                           | 單位                             | 🏃        | chunks=['u', 'nit'] | py=ㄧㄨ-ㄋㄧㄊ | theme=actions | stage=1
+ 6167 | till                           | 直到…為止                          | 🏃        | chunks=['t', 'ill'] | py=ㄊㄧ-ㄧㄦ | theme=actions | stage=1
+ 6168 | upstairs                       | 在樓上                            | 🏃        | chunks=['up', 'stairs'] | py=ㄚㄆ-ㄙㄊㄝㄜㄙ | theme=directions | stage=2 base=stair
+ 6169 | useful                         | 有用的                            | 🎨        | chunks=['u', 'se', 'ful'] | py=ㄧㄨㄙ-ㄈㄜ | theme=adjectives | stage=1 base=use
+ 6170 | view                           | 視野                             | 🏃        | chunks=['v', 'iew'] | py=ㄈㄧ-ㄞㄨ | theme=actions | stage=1
+ 6171 | visit                          | 參觀                             | 🏃        | chunks=['vi', 'sit'] | py=ㄈㄞ-ㄒㄧㄊ | theme=actions | stage=1
+ 6172 | voice                          | 聲音                             | 🏃        | chunks=['voi', 'ce'] | py=ㄨㄛㄧ-ㄙㄜ | theme=actions | stage=1
+ 6173 | wear                           | 穿                              | 🏃        | chunks=['w', 'ear'] | py=ㄨ-ㄦ | theme=actions | stage=1 [有易混提示]
+ 6174 | weigh                          | 秤…的重量                          | 🏃        | chunks=['w', 'eigh'] | py=ㄨ-ㄟ | theme=actions | stage=2 [有易混提示]
+ 6175 | weight                         | 重量                             | 🏃        | chunks=['w', 'eight'] | py=ㄨ-ㄝㄊ | theme=actions | stage=1 [有易混提示]
+ 6176 | win                            | 贏                              | 🏃        | chunks=['w', 'in'] | py=ㄨ-ㄧㄣ | theme=actions | stage=1 [有易混提示]
+ 6177 | worry                          | 使擔心                            | 🏃        | chunks=['wor', 'ry'] | py=ㄨㄜ-ㄌㄧ | theme=actions | stage=1
+ 6178 | worse                          | 更壞的                            | 🎨        | chunks=['wor', 'se'] | py=ㄨㄜㄙ | theme=adjectives | stage=1 base=bad
+ 6179 | worst                          | 最壞的                            | 🎨        | chunks=['w', 'orst'] | py=ㄨ-ㄛㄜㄙㄊ | theme=adjectives | stage=1 base=bad
+ 6180 | sweet potato                   | 番薯                             | 🔗        | chunks=['sw', 'eet', 'po', 'ta', 'to'] | py=ㄙㄨㄧㄊ-ㄆㄛㄊㄚㄊㄛ | theme=phrasal-verbs | stage=1
+ 6181 | yes                            | 是                              | 🏃        | chunks=['y', 'es'] | py=ㄌㄧ-ㄝㄙ | theme=actions | stage=1 [有易混提示]
+ 6182 | yeah                           | 是                              | 🏃        | chunks=['y', 'eah'] | py=ㄌㄧ-ㄧㄏ | theme=actions | stage=1
+ 6183 | yucky                          | 噁心的                            | 🎨        | chunks=['yuc', 'ky'] | py=ㄧㄚㄎ-ㄎㄧ | theme=adjectives | stage=2
+ 6184 | ability                        | 能力                             | 🎓        | chunks=['a', 'bi', 'li', 'ty'] | py=ㄜ-ㄅㄞ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=2
+ 6185 | absence                        | 缺席                             | 🎓        | chunks=['ab', 'sen', 'ce'] | py=ㄚㄅ-ㄙㄣㄙ | theme=academic-words | stage=2 base=absent [有易混提示]
+ 6186 | absent                         | 缺席的                            | 🎨        | chunks=['ab', 'sent'] | py=ㄚㄅ-ㄙㄣㄊ | theme=adjectives | stage=2 base=absence
+ 6187 | active                         | 活潑的                            | ⚡        | chunks=['ac', 'ti', 've'] | py=ㄚㄎ-ㄊㄜ-ㄈㄜ | theme=personality | stage=2 base=act
+ 6188 | addition                       | 附加                             | 🎓        | chunks=['ad', 'di', 'tion'] | py=ㄚㄉ-ㄉㄧ-ㄒㄣ | theme=academic-words | stage=2 base=add
+ 6189 | advance                        | 促進                             | 🎓        | chunks=['ad', 'van', 'ce'] | py=ㄚㄉ-ㄈㄚㄣ-ㄙㄜ | theme=academic-words | stage=2
+ 6190 | aim                            | 把……瞄準                          | 🏃        | chunks=['a', 'im'] | py=ㄜ-ㄧㄇ | theme=actions | stage=2 [有易混提示]
+ 6191 | aircraft                       | 飛機                             | 🚗        | chunks=['air', 'craft'] | py=ㄟㄦ-ㄎㄌㄚㄈㄊ | theme=transportation | stage=2
+ 6192 | airline                        | 航線                             | 🎨        | chunks=['air', 'li', 'ne'] | py=ㄟㄦ-ㄌㄧ-ㄋㄧ | theme=adjectives | stage=2
+ 6193 | alike                          | 相同的                            | 🎨        | chunks=['a', 'li', 'ke'] | py=ㄜ-ㄌㄧ-ㄎㄟ | theme=adjectives | stage=2
+ 6194 | alive                          | 活著的                            | 🎨        | chunks=['a', 'li', 've'] | py=ㄜ-ㄌㄧ-ㄈㄜ | theme=adjectives | stage=2
+ 6195 | aloud                          | 大聲地                            | 🎨        | chunks=['a', 'loud'] | py=ㄜ-ㄌㄠㄉ | theme=adjectives | stage=2 [有易混提示]
+ 6196 | anytime                        | 任何時候                           | 🏃        | chunks=['a', 'ny', 'ti', 'me'] | py=ㄜ-ㄋㄧ-ㄊㄜ-ㄇㄝ | theme=actions | stage=2
+ 6197 | anyplace                       | 在任何地方                          | 🏃        | chunks=['a', 'nyp', 'la', 'ce'] | py=ㄜ-ㄋㄧㄆ-ㄌㄚ-ㄙㄜ | theme=places | stage=2
+ 6198 | apartment                      | 公寓房間                           | 🏢        | chunks=['a', 'par', 'tment'] | py=ㄜ-ㄆㄚㄦ-ㄇㄣㄊ | theme=adjectives | stage=2 base=apart
+ 6199 | appearance                     | 顯露                             | 🎓        | chunks=['ap', 'pea', 'ran', 'ce'] | py=ㄜ-ㄆㄧ-ㄌㄜㄣ-ㄙㄜ | theme=academic-words | stage=2
+ 6200 | appetite                       | 食慾                             | 🏃        | chunks=['ap', 'pe', 'ti', 'te'] | py=ㄚ-ㄆㄜ-ㄊㄞㄊ | theme=actions | stage=2
+ 6201 | apply                          | 塗                              | 🖌️       | chunks=['ap', 'ply'] | py=ㄚ-ㄆㄌㄞ | theme=sight-words | stage=2 [有易混提示]
+ 6202 | armchair                       | 扶手椅                            | 🛋️       | chunks=['arm', 'chair'] | py=ㄚㄦㄇ-ㄑㄝㄜ | theme=home-items | stage=2
+ 6203 | arrive                         | 到達                             | 🎨        | chunks=['ar', 'ri', 've'] | py=ㄚㄦ-ㄌㄧ-ㄈㄜ | theme=adjectives | stage=2 base=ar
+ 6204 | asleep                         | 睡著的                            | 🎨        | chunks=['as', 'leep'] | py=ㄚ-ㄌㄧㄆ | theme=adjectives | stage=2
+ 6205 | attack                         | 襲擊                             | 🏃        | chunks=['at', 'tack'] | py=ㄚ-ㄊㄚㄎ | theme=actions | stage=2
+ 6206 | attend                         | 出席                             | 🏃        | chunks=['at', 'tend'] | py=ㄚ-ㄊㄝㄋㄉ | theme=actions | stage=2
+ 6207 | attention                      | 注意力                            | 🎓        | chunks=['at', 'ten', 'tion'] | py=ㄜ-ㄊㄝㄣ-ㄒㄣ | theme=academic-words | stage=2
+ 6208 | avoid                          | 避開                             | 🏃        | chunks=['a', 'void'] | py=ㄜ-ㄨㄛㄧㄉ | theme=actions | stage=2
+ 6209 | baby-sit                       | 當臨時保姆                          | 🏃        | chunks=['baby', 'sit'] | py=ㄅㄚㄅㄧ-ㄒㄧㄊ | theme=actions | stage=3
+ 6210 | baby-sitter                    | 臨時替人看小孩者                       | 👨‍⚕️     | chunks=['baby', 'sitter'] | py=ㄅㄚㄅㄧ-ㄙㄧㄊㄊㄜ | theme=jobs | stage=3 base=baby-sit
+ 6211 | bake                           | 烘，烤                            | 🍎        | chunks=['ba', 'ke'] | py=ㄅㄟ-ㄎㄟ | theme=food | stage=2
+ 6212 | bamboo                         | 竹子                             | 🏃        | chunks=['bam', 'boo'] | py=ㄅㄚㄇ-ㄅㄨ | theme=actions | stage=3
+ 6213 | basics                         | 基礎的                            | 🎨        | chunks=['ba', 'sics'] | py=ㄅㄟ-ㄙㄧㄎㄙ | theme=adjectives | stage=2
+ 6214 | basis                          | 基礎                             | 🏃        | chunks=['ba', 'sis'] | py=ㄅㄟ-ㄙㄜㄙ | theme=actions | stage=2 [有易混提示]
+ 6215 | bead                           | 有孔小珠                           | 🏃        | chunks=['b', 'ead'] | py=ㄅㄧ-ㄧㄉ | theme=actions | stage=2 [有易混提示]
+ 6216 | beep                           | 嗶嗶的聲音                          | 🏃        | chunks=['b', 'eep'] | py=ㄅㄧ-ㄧㄆ | theme=actions | stage=2
+ 6217 | beg                            | 乞討                             | 🏃        | chunks=['b', 'eg'] | py=ㄅㄧ-ㄝㄍ | theme=actions | stage=2 [有易混提示]
+ 6218 | beginner                       | 初學者                            | 👨‍⚕️     | chunks=['be', 'gin', 'ner'] | py=ㄅㄜ-ㄍㄧㄣ-ㄋㄜ | theme=jobs | stage=2 base=begin
+ 6219 | believable                     | 可信的                            | 🎨        | chunks=['be', 'lie', 'vab', 'le'] | py=ㄅㄜ-ㄌㄧ-ㄈㄜ-ㄅㄜ | theme=adjectives | stage=2 base=believe
+ 6220 | bench                          | 長椅                             | 🛋️       | chunks=['b', 'ench'] | py=ㄅㄧ-ㄝㄋㄔ | theme=home-items | stage=2
+ 6221 | bet                            | 打賭                             | 🏃        | chunks=['b', 'et'] | py=ㄅㄧ-ㄝㄊ | theme=actions | stage=2 base=bet
+ 6222 | bind                           | 捆                              | 🏃        | chunks=['b', 'ind'] | py=ㄅㄧ-ㄧㄋㄉ | theme=actions | stage=2 [有易混提示]
+ 6223 | blackboard                     | 黑板                             | 📚        | chunks=['blac', 'kboard'] | py=ㄅㄌㄚㄎ-ㄎㄅㄛㄖㄉ | theme=school | stage=2
+ 6224 | blank                          | 空白的                            | 🎨        | chunks=['bl', 'ank'] | py=ㄅㄌ-ㄚㄋㄎ | theme=adjectives | stage=2 [有易混提示]
+ 6225 | blind                          | 瞎的                             | 🎨        | chunks=['bl', 'ind'] | py=ㄅㄌ-ㄧㄋㄉ | theme=adjectives | stage=2 [有易混提示]
+ 6226 | bloody                         | 流血的                            | 🎨        | chunks=['bloo', 'dy'] | py=ㄅㄌㄨ-ㄉㄧ | theme=adjectives | stage=2 base=blood
+ 6227 | boil                           | 沸騰                             | 🏃        | chunks=['b', 'oil'] | py=ㄅㄧ-ㄛㄧㄦ | theme=actions | stage=2
+ 6228 | bony                           | 骨的                             | 🎨        | chunks=['bo', 'ny'] | py=ㄅㄛ-ㄋㄧ | theme=adjectives | stage=2 base=bone [有易混提示]
+ 6229 | bother                         | 打攪                             | 🏃        | chunks=['bot', 'her'] | py=ㄅㄚ-ㄏㄜ | theme=actions | stage=2
+ 6230 | broad                          | 寬的                             | 🎨        | chunks=['br', 'oad'] | py=ㄅㄖ-ㄛㄉ | theme=adjectives | stage=2
+ 6231 | bun                            | 小圓麵包                           | 🍎        | chunks=['b', 'un'] | py=ㄅㄧ-ㄚㄣ | theme=food | stage=2 [有易混提示]
+ 6232 | bundle                         | 捆                              | 🏃        | chunks=['bun', 'dle'] | py=ㄅㄚㄋ-ㄉㄜ | theme=actions | stage=2
+ 6233 | burst                          | 爆炸                             | 🏃        | chunks=['b', 'urst'] | py=ㄅㄧ-ㄜㄙㄊ | theme=actions | stage=2 base=burst [有易混提示]
+ 6234 | business                       | 職業                             | 🎓        | chunks=['bu', 'si', 'ness'] | py=ㄅㄧㄗ-ㄋㄜㄙ | theme=academic-words | stage=2 [有易混提示]
+ 6235 | cafeteria                      | 自助餐館                           | 🍽️       | chunks=['ca', 'fe', 'te', 'ria'] | py=ㄎㄚ-ㄈㄧ-ㄊㄧ-ㄖㄧㄚ | theme=restaurant | stage=2
+ 6236 | cancel                         | 取消                             | 🏃        | chunks=['can', 'cel'] | py=ㄎㄢ-ㄙㄝ | theme=actions | stage=2 [有易混提示]
+ 6237 | cassette                       | 卡式錄音帶                          | 🏃        | chunks=['cas', 'set', 'te'] | py=ㄎㄚㄙ-ㄙㄝㄊ-ㄊㄧ | theme=actions | stage=3
+ 6238 | castle                         | 城堡                             | 🏰        | chunks=['cas', 'tle'] | py=ㄎㄚㄙ-ㄉㄜ | theme=actions | stage=2
+ 6239 | central                        | 中心的                            | 🎨        | chunks=['cen', 'tral'] | py=ㄙㄝㄣ-ㄊㄌㄦ | theme=adjectives | stage=2 base=center
+ 6240 | change                         | 改變、零錢                          | 💰        | chunks=['chan', 'ge'] | py=ㄑㄚ-ㄐㄧ | theme=money | stage=2 [有易混提示]
+ 6241 | cheat                          | 欺騙                             | 🏃        | chunks=['ch', 'eat'] | py=ㄔ-ㄧㄊ | theme=actions | stage=2 [有易混提示]
+ 6242 | childlike                      | 天真的                            | 🎨        | chunks=['chil', 'dli', 'ke'] | py=ㄑㄧ-ㄉㄌㄧ-ㄎㄟ | theme=adjectives | stage=2
+ 6243 | choice                         | 選擇                             | 🏃        | chunks=['choi', 'ce'] | py=ㄔㄛㄧ-ㄙㄜ | theme=actions | stage=2 [有易混提示]
+ 6244 | clap                           | 拍                              | 🏃        | chunks=['cl', 'ap'] | py=ㄎㄌ-ㄚ | theme=actions | stage=2
+ 6245 | claw                           | 腳爪                             | 🏃        | chunks=['cl', 'aw'] | py=ㄎㄌ-ㄛ | theme=actions | stage=2 [有易混提示]
+ 6246 | cleaner                        | 清潔工                            | 👨‍⚕️     | chunks=['clea', 'ner'] | py=ㄎㄌㄧ-ㄋㄜ | theme=jobs | stage=2 base=clean
+ 6247 | cloth                          | 布                              | 🪨        | chunks=['cl', 'oth'] | py=ㄎㄌ-ㄛㄒ | theme=materials | stage=2 [有易混提示]
+ 6248 | clothe                         | 給……穿衣                          | 🏃        | chunks=['clot', 'he'] | py=ㄎㄌㄛㄊ-ㄏㄝ | theme=clothing | stage=2 [有易混提示]
+ 6249 | clothes                        | 服裝                             | 🏃        | chunks=['clot', 'hes'] | py=ㄎㄌㄛㄊ-ㄏㄝ | theme=actions | stage=2
+ 6250 | clothing                       | 衣服                             | 👕        | chunks=['clot', 'hing'] | py=ㄎㄌㄛㄊ-ㄏㄧㄥ | theme=clothing | stage=2
+ 6251 | clown                          | 小丑                             | 🏃        | chunks=['cl', 'own'] | py=ㄎㄌ-ㄠㄋ | theme=actions | stage=2
+ 6252 | coal                           | 煤                              | 🏃        | chunks=['c', 'oal'] | py=ㄒㄧ-ㄛㄌ | theme=actions | stage=2
+ 6253 | cock                           | 公雞                             | 🐾        | chunks=['c', 'ock'] | py=ㄒㄧ-ㄛㄎ | theme=animals | stage=2
+ 6254 | roach                          | 蟑螂                             | 🐾        | chunks=['r', 'oach'] | py=ㄚㄦ-ㄛㄔ | theme=animals | stage=2
+ 6255 | collect                        | 收集                             | 🏃        | chunks=['col', 'lect'] | py=ㄎㄚ-ㄌㄝㄎㄊ | theme=actions | stage=2
+ 6256 | comfortable                    | 舒適的                            | 🎨        | chunks=['com', 'for', 'tab', 'le'] | py=ㄎㄚㄇ-ㄈㄜ-ㄊㄜ-ㄅㄜ | theme=adjectives | stage=2 base=comfort
+ 6257 | company                        | 公司                             | 💼        | chunks=['com', 'pa', 'ny'] | py=ㄎㄚㄇ-ㄆㄜ-ㄋㄧ | theme=business | stage=2
+ 6258 | compare                        | 比較                             | 🏃        | chunks=['com', 'pa', 're'] | py=ㄎㄜㄇ-ㄆㄝㄜ | theme=actions | stage=2
+ 6259 | complain                       | 抱怨                             | 🏃        | chunks=['com', 'plain'] | py=ㄎㄚㄇ-ㄆㄌㄟㄣ | theme=actions | stage=2
+ 6260 | complete                       | 完成、完整的                         | 🏃        | chunks=['com', 'ple', 'te'] | py=ㄎㄜㄇ-ㄆㄌㄧㄊ | theme=actions | stage=2 [有易混提示]
+ 6261 | confucius                      | 孔子                             | 🏃        | chunks=['con', 'fu', 'cius'] | py=ㄎㄚㄣ-ㄈㄧㄨ-ㄎㄧㄚㄙ | theme=actions | stage=3
+ 6262 | consider                       | 考慮                             | 🏃        | chunks=['con', 'si', 'der'] | py=ㄎㄜㄣ-ㄙㄧ-ㄉㄜ | theme=actions | stage=2
+ 6263 | contain                        | 包含                             | 🏃        | chunks=['con', 'tain'] | py=ㄎㄜㄣ-ㄊㄟㄣ | theme=actions | stage=2
+ 6264 | control                        | 控制                             | 🏃        | chunks=['con', 'trol'] | py=ㄎㄜㄣ-ㄊㄌㄛㄦ | theme=actions | stage=2
+ 6265 | controller                     | 管制者                            | 👨‍⚕️     | chunks=['con', 'trol', 'ler'] | py=ㄎㄚㄣ-ㄊㄌㄚ-ㄌㄜ | theme=jobs | stage=2 base=control
+ 6266 | convenient                     | 便利的                            | 🎨        | chunks=['con', 've', 'nient'] | py=ㄎㄜㄣ-ㄈㄧ-ㄋㄧㄣㄊ | theme=adjectives | stage=2
+ 6267 | conversation                   | 會話                             | 🎓        | chunks=['con', 'ver', 'sa', 'tion'] | py=ㄎㄚㄣ-ㄈㄜ-ㄙㄟ-ㄒㄣ | theme=academic-words | stage=2 base=converse
+ 6268 | cooker                         | 烹調器具                           | 🎮        | chunks=['coo', 'ker'] | py=ㄎㄨ-ㄎㄜ | theme=hobbies | stage=2 base=cook
+ 6269 | copy                           | 複製                             | 🏃        | chunks=['co', 'py'] | py=ㄎㄛ-ㄆㄧ | theme=actions | stage=2 [有易混提示]
+ 6270 | xerox                          | 複製                             | 🏃        | chunks=['xe', 'rox'] | py=ㄎㄙㄝ-ㄖㄛㄎㄙ | theme=actions | stage=3
+ 6271 | costly                         | 貴重的                            | 🎨        | chunks=['cos', 'tly'] | py=ㄎㄚㄙ-ㄊㄌㄧ | theme=adjectives | stage=2
+ 6272 | countryside                    | 鄉間                             | 🏃        | chunks=['coun', 'try', 'si', 'de'] | py=ㄎㄠㄣ-ㄊㄌㄧ-ㄗㄜ-ㄉㄧ | theme=actions | stage=2
+ 6273 | courage                        | 勇氣                             | 🏃        | chunks=['cou', 'ra', 'ge'] | py=ㄎㄚ-ㄌㄚ-ㄐㄧ | theme=actions | stage=2
+ 6274 | crane                          | 鶴                              | 🏃        | chunks=['cra', 'ne'] | py=ㄎㄌㄟ-ㄋㄧ | theme=actions | stage=2 [有易混提示]
+ 6275 | crazy                          | 瘋狂的                            | 🎨        | chunks=['cra', 'zy'] | py=ㄎㄌㄟ-ㄗㄧ | theme=adjectives | stage=2
+ 6276 | crop                           | 作物                             | 🏃        | chunks=['cr', 'op'] | py=ㄎㄖ-ㄚㄆ | theme=actions | stage=2
+ 6277 | crowd                          | 人群                             | 🏃        | chunks=['cr', 'owd'] | py=ㄎㄖ-ㄠㄉ | theme=actions | stage=2
+ 6278 | cruel                          | 殘忍的                            | 🎨        | chunks=['cr', 'uel'] | py=ㄎㄖ-ㄩㄌ | theme=adjectives | stage=2
+ 6279 | cure                           | 治癒、療法                          | ⚖️       | chunks=['cu', 're'] | py=ㄎㄧㄨ-ㄌㄧ | theme=health | stage=2 [有易混提示]
+ 6280 | drape                          | 窗簾                             | 🛋️       | chunks=['dra', 'pe'] | py=ㄉㄌㄚ-ㄆㄜ | theme=home-items | stage=2
+ 6281 | custom                         | 慣例                             | 🏃        | chunks=['cus', 'tom'] | py=ㄎㄚㄙ-ㄉㄣ | theme=actions | stage=2
+ 6282 | damage                         | 損害                             | 🏃        | chunks=['da', 'ma', 'ge'] | py=ㄉㄚ-ㄇㄚ-ㄐㄧ | theme=actions | stage=2
+ 6283 | deaf                           | 聾的                             | 🎨        | chunks=['d', 'eaf'] | py=ㄉㄧ-ㄧㄈ | theme=adjectives | stage=2 [有易混提示]
+ 6284 | decision                       | 決定                             | 🎓        | chunks=['de', 'ci', 'sion'] | py=ㄉㄧ-ㄙㄜ-ㄒㄣ | theme=academic-words | stage=2 base=decide
+ 6285 | decorate                       | 裝飾                             | 🏃        | chunks=['de', 'co', 'ra', 'te'] | py=ㄉㄧ-ㄎㄛ-ㄌㄚ-ㄊㄧ | theme=actions | stage=2
+ 6286 | delay                          | 延緩                             | 🏃        | chunks=['de', 'lay'] | py=ㄉㄧ-ㄌㄟ | theme=actions | stage=2 [有易混提示]
+ 6287 | depend                         | 信賴                             | 🏃        | chunks=['de', 'pend'] | py=ㄉㄧ-ㄆㄣㄉ | theme=actions | stage=2
+ 6288 | describe                       | 描寫                             | 🏃        | chunks=['des', 'cri', 'be'] | py=ㄉㄜ-ㄙㄎㄖㄞㄅ | theme=actions | stage=2
+ 6289 | dial                           | 刻度盤、撥號                         | 🏃        | chunks=['d', 'ial'] | py=ㄉㄧ-ㄧㄚㄌ | theme=actions | stage=2 [有易混提示]
+ 6290 | diary                          | 日記                             | 🎨        | chunks=['dia', 'ry'] | py=ㄉㄞ-ㄌㄧ | theme=adjectives | stage=2
+ 6291 | difference                     | 差異                             | 🎓        | chunks=['dif', 'fe', 'ren', 'ce'] | py=ㄉㄧ-ㄈㄧ-ㄌㄣ-ㄙㄜ | theme=academic-words | stage=2 base=different
+ 6292 | difficulty                     | 困難                             | 🏃        | chunks=['dif', 'fi', 'cul', 'ty'] | py=ㄉㄧ-ㄈㄜ-ㄎㄜ-ㄊㄧ | theme=actions | stage=2 base=difficult
+ 6293 | disappear                      | 消失                             | 🏃        | chunks=['di', 'sap', 'pear'] | py=ㄉㄧ-ㄙㄚ-ㄆㄧㄜ | theme=actions | stage=2 base=appear
+ 6294 | discuss                        | 討論                             | 🏃        | chunks=['dis', 'cuss'] | py=ㄉㄧㄙ-ㄎㄚㄙ | theme=actions | stage=2
+ 6295 | discussion                     | 討論                             | 🎓        | chunks=['dis', 'cus', 'sion'] | py=ㄉㄧㄙ-ㄎㄚㄙ-ㄒㄣ | theme=academic-words | stage=2 base=discuss
+ 6296 | dizzy                          | 頭暈目眩的                          | 🦵        | chunks=['diz', 'zy'] | py=ㄉㄧㄗ-ㄗㄧ | theme=body | stage=2
+ 6297 | doughnut                       | 甜甜圈                            | 🍪        | chunks=['doug', 'hnut'] | py=ㄉㄠㄍ-ㄏㄋㄚㄊ | theme=desserts | stage=2
+ 6298 | drag                           | 拖                              | 🏃        | chunks=['dr', 'ag'] | py=ㄉㄖ-ㄚㄍ | theme=actions | stage=2
+ 6299 | dragon                         | 龍                              | 🐉        | chunks=['dra', 'gon'] | py=ㄉㄌㄚ-ㄍㄚㄣ | theme=actions | stage=2
+ 6300 | dryer                          | 烘乾機                            | 🔨        | chunks=['dr', 'yer'] | py=ㄉㄖ-ㄧㄜ | theme=tools | stage=2 base=dry [有易混提示]
+ 6301 | duty                           | 義務                             | 🏃        | chunks=['du', 'ty'] | py=ㄉㄨ-ㄊㄧ | theme=actions | stage=2
+ 6302 | eastern                        | 東方的                            | 🧭        | chunks=['eas', 'tern'] | py=ㄧ-ㄊㄜㄣ | theme=directions | stage=2
+ 6303 | education                      | 教育                             | 🎓        | chunks=['e', 'du', 'ca', 'tion'] | py=ㄝ-ㄐㄜ-ㄎㄟ-ㄒㄣ | theme=academic-words | stage=2 base=educate
+ 6304 | effect                         | 影響                             | 🏃        | chunks=['ef', 'fect'] | py=ㄧ-ㄈㄝㄎㄊ | theme=actions | stage=2 [有易混提示]
+ 6305 | effective                      | 有效的                            | 🎨        | chunks=['ef', 'fec', 'ti', 've'] | py=ㄧ-ㄈㄝㄎ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=2 base=effect
+ 6306 | effort                         | 努力                             | 🏃        | chunks=['ef', 'fort'] | py=ㄝ-ㄈㄜㄊ | theme=actions | stage=2 [有易混提示]
+ 6307 | elect                          | 推選                             | 🏃        | chunks=['e', 'lect'] | py=ㄧ-ㄌㄝㄎㄊ | theme=actions | stage=2
+ 6308 | elevator                       | 電梯                             | 🔨        | chunks=['e', 'le', 'va', 'tor'] | py=ㄝ-ㄌㄜ-ㄈㄟ-ㄊㄜ | theme=tools | stage=2
+ 6309 | ending                         | 結局                             | 🏃        | chunks=['en', 'ding'] | py=ㄣ-ㄉㄧㄥ | theme=actions | stage=2 base=end
+ 6310 | entire                         | 全部的                            | 🎨        | chunks=['en', 'ti', 're'] | py=ㄣ-ㄊㄜ-ㄌㄧ | theme=adjectives | stage=2
+ 6311 | envelope                       | 信封                             | ✉️       | chunks=['en', 've', 'lo', 'pe'] | py=ㄣ-ㄈㄜ-ㄌㄛ-ㄆㄜ | theme=actions | stage=2
+ 6312 | exact                          | 確切的                            | 🎨        | chunks=['e', 'xact'] | py=ㄧ-ㄎㄙㄚㄎㄊ | theme=adjectives | stage=2 [有易混提示]
+ 6313 | excellent                      | 傑出的                            | 🎨        | chunks=['ex', 'cel', 'lent'] | py=ㄝㄎㄙ-ㄙㄝ-ㄌㄣㄊ | theme=adjectives | stage=2
+ 6314 | excuse                         | 藉口                             | 🏃        | chunks=['ex', 'cu', 'se'] | py=ㄝㄎㄙ-ㄎㄧㄨ-ㄙㄜ | theme=actions | stage=2
+ 6315 | exist                          | 存在                             | 🏃        | chunks=['e', 'xist'] | py=ㄧ-ㄎㄙㄧㄙㄊ | theme=actions | stage=2
+ 6316 | experience                     | 經驗                             | 🎓        | chunks=['ex', 'pe', 'rien', 'ce'] | py=ㄝㄎㄙ-ㄆㄜ-ㄖㄞㄋ-ㄙㄜ | theme=academic-words | stage=2
+ 6317 | explain                        | 解釋                             | 🏃        | chunks=['ex', 'plain'] | py=ㄝㄎㄙ-ㄆㄌㄟㄣ | theme=actions | stage=2
+ 6318 | express                        | 表達                             | 🏃        | chunks=['ex', 'press'] | py=ㄝㄎㄙ-ㄆㄌㄝㄙ | theme=actions | stage=2 [有易混提示]
+ 6319 | fail                           | 失敗                             | 🏃        | chunks=['f', 'ail'] | py=ㄝㄈ-ㄝㄦ | theme=actions | stage=2 [有易混提示]
+ 6320 | failure                        | 失敗                             | ❌        | chunks=['fai', 'lu', 're'] | py=ㄈㄟ-ㄌㄧㄜ | theme=academic-words | stage=2 base=fail
+ 6321 | fault                          | 缺點                             | 🏃        | chunks=['f', 'ault'] | py=ㄝㄈ-ㄛㄌㄊ | theme=actions | stage=2 [有易混提示]
+ 6322 | favor                          | 贊成                             | 🏃        | chunks=['fa', 'vor'] | py=ㄈㄟ-ㄈㄜ | theme=actions | stage=2 [有易混提示]
+ 6323 | favorite                       | 特別喜愛的                          | 🎨        | chunks=['fa', 'vo', 'ri', 'te'] | py=ㄈㄟ-ㄈㄜ-ㄌㄜㄊ | theme=adjectives | stage=2
+ 6324 | fearful                        | 可怕的                            | 🎨        | chunks=['fear', 'ful'] | py=ㄈㄧㄜ-ㄈㄜ | theme=adjectives | stage=2 base=fear
+ 6325 | female                         | 女性                             | 🏃        | chunks=['fe', 'ma', 'le'] | py=ㄈㄧ-ㄇㄟㄦ | theme=actions | stage=2
+ 6326 | fence                          | 柵欄                             | 🏃        | chunks=['fen', 'ce'] | py=ㄈㄣ-ㄙㄜ | theme=actions | stage=2
+ 6327 | fighter                        | 鬥士                             | 🏃        | chunks=['fig', 'hter'] | py=ㄈㄧ-ㄏㄊㄜ | theme=actions | stage=2 base=fight
+ 6328 | figure                         | 體形                             | 🎓        | chunks=['fi', 'gu', 're'] | py=ㄈㄜ-ㄍㄧㄨ-ㄌㄧ | theme=academic-words | stage=2
+ 6329 | fireman                        | 消防隊員                           | 🏃        | chunks=['fi', 're', 'man'] | py=ㄈㄜ-ㄌㄧ-ㄇㄢ | theme=actions | stage=2
+ 6330 | firewoman                      | 消防隊員                           | 🏃        | chunks=['fi', 're', 'wo', 'man'] | py=ㄈㄜ-ㄌㄧ-ㄨㄨ-ㄇㄢ | theme=actions | stage=3 base=fireman
+ 6331 | firm                           | 穩固的                            | 🎨        | chunks=['f', 'irm'] | py=ㄝㄈ-ㄜㄇ | theme=adjectives | stage=2 [有易混提示]
+ 6332 | fisherman                      | 漁夫                             | 👨‍⚕️     | chunks=['fis', 'her', 'man'] | py=ㄈㄧㄙ-ㄏㄜ-ㄇㄢ | theme=jobs | stage=2
+ 6333 | fit                            | 合身                             | 🏃        | chunks=['f', 'it'] | py=ㄝㄈ-ㄧㄊ | theme=actions | stage=2 [有易混提示]
+ 6334 | flag                           | 旗                              | 🏃        | chunks=['fl', 'ag'] | py=ㄈㄌ-ㄚㄍ | theme=actions | stage=2
+ 6335 | flash                          | 閃爍                             | 🏃        | chunks=['fl', 'ash'] | py=ㄈㄌ-ㄚㄒ | theme=actions | stage=2 [有易混提示]
+ 6336 | flow                           | 流動                             | 🏃        | chunks=['fl', 'ow'] | py=ㄈㄌ-ㄛ | theme=actions | stage=2 [有易混提示]
+ 6337 | following                      | 接著的                            | 🎨        | chunks=['fol', 'lo', 'wing'] | py=ㄈㄛㄛ-ㄌㄛ-ㄨㄧㄥ | theme=adjectives | stage=2 base=follow
+ 6338 | fool                           | 傻瓜、欺騙                          | 🏃        | chunks=['f', 'ool'] | py=ㄝㄈ-ㄨㄌ | theme=actions | stage=2 [有易混提示]
+ 6339 | foreigner                      | 外國人                            | 🌍        | chunks=['fo', 'reig', 'ner'] | py=ㄈㄛ-ㄌㄜ-ㄋㄜ | theme=countries | stage=2 base=foreign
+ 6340 | frank                          | 坦白的                            | 🎨        | chunks=['fr', 'ank'] | py=ㄈㄖ-ㄚㄋㄎ | theme=adjectives | stage=2
+ 6341 | fright                         | 驚嚇                             | 😱        | chunks=['fr', 'ight'] | py=ㄈㄖ-ㄧㄊ | theme=emotions | stage=2
+ 6342 | frighten                       | 使驚恐                            | 🏃        | chunks=['frig', 'hten'] | py=ㄈㄖㄧㄍ-ㄏㄊㄝㄋ | theme=actions | stage=2 base=fright
+ 6343 | further                        | 更遠的                            | 🎨        | chunks=['fur', 'ther'] | py=ㄈㄦ-ㄉㄜ | theme=adjectives | stage=2 [有易混提示]
+ 6344 | golden                         | 金色的                            | 🎨        | chunks=['gol', 'den'] | py=ㄍㄛㄌ-ㄉㄣ | theme=colors | stage=2
+ 6345 | grassy                         | 長滿草的                           | 🎨        | chunks=['gras', 'sy'] | py=ㄍㄖㄚㄙ-ㄗㄧ | theme=adjectives | stage=2 base=grass
+ 6346 | greedy                         | 貪食的                            | 🎨        | chunks=['gree', 'dy'] | py=ㄍㄌㄧ-ㄉㄧ | theme=adjectives | stage=2 base=greed
+ 6347 | greet                          | 問候                             | 🏃        | chunks=['gr', 'eet'] | py=ㄍㄖ-ㄧㄊ | theme=actions | stage=2
+ 6348 | guard                          | 守衛                             | 🏃        | chunks=['g', 'uard'] | py=ㄐㄧ-ㄚㄚㄜㄉ | theme=actions | stage=2
+ 6349 | habit                          | 習慣                             | 🏃        | chunks=['ha', 'bit'] | py=ㄏㄜ-ㄅㄧㄊ | theme=actions | stage=2
+ 6350 | hamburger                      | 漢堡                             | 🍔        | chunks=['ham', 'bur', 'ger'] | py=ㄏㄚㄇ-ㄅㄜ-ㄍㄜ | theme=food | stage=2
+ 6351 | handkerchief                   | 手帕                             | 🏃        | chunks=['han', 'dker', 'chief'] | py=ㄏㄢ-ㄉㄎㄜ-ㄑㄧㄈ | theme=actions | stage=2
+ 6352 | handle                         | 把手、處理                          | 🏃        | chunks=['han', 'dle'] | py=ㄏㄢ-ㄉㄜ | theme=actions | stage=2
+ 6353 | hang                           | 懸掛                             | 🏃        | chunks=['h', 'ang'] | py=ㄝㄑ-ㄚㄥ | theme=actions | stage=2 [有易混提示]
+ 6354 | hateful                        | 可恨的                            | 🎨        | chunks=['ha', 'te', 'ful'] | py=ㄏㄜ-ㄊㄧ-ㄈㄜ | theme=adjectives | stage=2 base=hate
+ 6355 | helpful                        | 有幫助的                           | 🎨        | chunks=['hel', 'pful'] | py=ㄏㄝ-ㄆㄈㄚㄛ | theme=adjectives | stage=2 base=help
+ 6356 | hero                           | 英雄                             | 🏃        | chunks=['he', 'ro'] | py=ㄏㄝ-ㄌㄛ | theme=actions | stage=2
+ 6357 | hide                           | 隱藏                             | 🏃        | chunks=['hi', 'de'] | py=ㄏㄞ-ㄉㄧ | theme=actions | stage=2 [有易混提示]
+ 6358 | highway                        | 公路                             | 🏃        | chunks=['hig', 'hway'] | py=ㄏㄧㄍ-ㄏㄨㄟ | theme=actions | stage=2
+ 6359 | hippopotamus                   | 河馬                             | 🐾        | chunks=['hip', 'po', 'po', 'ta', 'mus'] | py=ㄏㄧ-ㄆㄛ-ㄆㄛ-ㄊㄝ-ㄇㄚㄙ | theme=animals | stage=3
+ 6360 | holder                         | 持有者                            | 👨‍⚕️     | chunks=['hol', 'der'] | py=ㄏㄛ-ㄉㄜ | theme=jobs | stage=2 base=hold
+ 6361 | homesick                       | 懷鄉病的                           | 🎨        | chunks=['ho', 'me', 'sick'] | py=ㄏㄛㄇ-ㄒㄧㄎ | theme=adjectives | stage=2
+ 6362 | hop                            | 單足跳                            | 🏃        | chunks=['h', 'op'] | py=ㄝㄑ-ㄚㄆ | theme=actions | stage=2 [有易混提示]
+ 6363 | hum                            | 發嗡嗡聲                           | 🏃        | chunks=['h', 'um'] | py=ㄝㄑ-ㄜㄇ | theme=actions | stage=2 [有易混提示]
+ 6364 | humor                          | 幽默感                            | 🏃        | chunks=['hu', 'mor'] | py=ㄏㄧㄨ-ㄇㄜ | theme=actions | stage=2
+ 6365 | hunger                         | 飢餓                             | 🏃        | chunks=['hun', 'ger'] | py=ㄏㄚㄣ-ㄍㄜ | theme=actions | stage=2
+ 6366 | hunt                           | 追獵                             | 🏃        | chunks=['h', 'unt'] | py=ㄝㄑ-ㄚㄋㄊ | theme=actions | stage=2 [有易混提示]
+ 6367 | hunter                         | 獵人                             | 👨‍⚕️     | chunks=['hun', 'ter'] | py=ㄏㄚㄣ-ㄊㄜ | theme=jobs | stage=2 base=hunt
+ 6368 | hurry                          | 催促                             | 🏃        | chunks=['hur', 'ry'] | py=ㄏㄜ-ㄌㄧ | theme=actions | stage=2 [有易混提示]
+ 6369 | ignore                         | 忽視                             | 🏃        | chunks=['ig', 'no', 're'] | py=ㄧㄍ-ㄋㄛ-ㄌㄧ | theme=actions | stage=2
+ 6370 | ill                            | 生病的                            | 🎨        | chunks=['il', 'l'] | py=ㄧ-ㄝㄦ | theme=adjectives | stage=2 [有易混提示]
+ 6371 | imagine                        | 想像                             | 🎨        | chunks=['i', 'ma', 'gi', 'ne'] | py=ㄧ-ㄇㄚ-ㄐㄜㄣ | theme=adjectives | stage=2
+ 6372 | importance                     | 重要性                            | 🎓        | chunks=['im', 'por', 'tan', 'ce'] | py=ㄧㄇ-ㄆㄜ-ㄊㄢ-ㄙㄜ | theme=academic-words | stage=2 base=important
+ 6373 | include                        | 包含                             | 🏃        | chunks=['in', 'clu', 'de'] | py=ㄧㄣ-ㄎㄌㄨㄉ | theme=actions | stage=2
+ 6374 | increase                       | 增加                             | 🏃        | chunks=['in', 'crea', 'se'] | py=ㄧㄣ-ㄎㄖㄧㄙ | theme=actions | stage=2
+ 6375 | influence                      | 影響                             | 🎓        | chunks=['in', 'fluen', 'ce'] | py=ㄧㄣ-ㄈㄌㄩㄋ-ㄙㄜ | theme=academic-words | stage=2
+ 6376 | insect                         | 昆蟲                             | 🐾        | chunks=['in', 'sect'] | py=ㄧㄣ-ㄙㄝㄎㄊ | theme=animals | stage=2
+ 6377 | insist                         | 堅持                             | 🏃        | chunks=['in', 'sist'] | py=ㄧㄣ-ㄙㄧㄙㄊ | theme=actions | stage=2
+ 6378 | introduce                      | 介紹                             | 🏃        | chunks=['in', 'tro', 'du', 'ce'] | py=ㄧㄣ-ㄊㄌㄜ-ㄉㄩㄙ | theme=actions | stage=2
+ 6379 | invent                         | 發明                             | 🎨        | chunks=['in', 'vent'] | py=ㄧㄣ-ㄈㄣㄊ | theme=adjectives | stage=2
+ 6380 | invite                         | 邀請                             | 🏃        | chunks=['in', 'vi', 'te'] | py=ㄧㄣ-ㄈㄞ-ㄊㄧ | theme=actions | stage=2
+ 6381 | jeep                           | 吉普車                            | 🏃        | chunks=['j', 'eep'] | py=ㄐ-ㄧㄆ | theme=actions | stage=2
+ 6382 | jog                            | 慢跑                             | 🏃        | chunks=['j', 'og'] | py=ㄐ-ㄚ | theme=sports | stage=2
+ 6383 | catsup                         | 番茄醬                            | 🍅        | chunks=['cat', 'sup'] | py=ㄎㄚ-ㄙㄜ | theme=food | stage=3
+ 6384 | knock                          | 敲、敲門                           | 🏃        | chunks=['kn', 'ock'] | py=ㄎㄋ-ㄛㄎ | theme=actions | stage=2 [有易混提示]
+ 6385 | language                       | 語言                             | 🏃        | chunks=['lan', 'gua', 'ge'] | py=ㄌㄚㄥ-ㄍㄨㄝㄐ | theme=actions | stage=2
+ 6386 | lantern                        | 燈籠                             | 🛋️       | chunks=['lan', 'tern'] | py=ㄌㄢ-ㄊㄜㄣ | theme=home-items | stage=2
+ 6387 | lap                            | 重疊部分                           | 🏃        | chunks=['l', 'ap'] | py=ㄝㄦ-ㄚ | theme=actions | stage=2 [有易混提示]
+ 6388 | leadership                     | 領導                             | 🎓        | chunks=['lea', 'der', 'ship'] | py=ㄌㄝ-ㄉㄜ-ㄒㄧㄆ | theme=academic-words | stage=2 base=leader
+ 6389 | lend                           | 把……借給                          | 🏃        | chunks=['l', 'end'] | py=ㄝㄦ-ㄝㄣㄉ | theme=actions | stage=2 [有易混提示]
+ 6390 | lick                           | 舔                              | 🏃        | chunks=['l', 'ick'] | py=ㄝㄦ-ㄧㄎ | theme=actions | stage=2 [有易混提示]
+ 6391 | limit                          | 界限、限制                          | 🏃        | chunks=['li', 'mit'] | py=ㄌㄧ-ㄇㄧㄊ | theme=actions | stage=2 [有易混提示]
+ 6392 | listener                       | 傾聽者                            | 👨‍⚕️     | chunks=['lis', 'te', 'ner'] | py=ㄌㄧㄙ-ㄊㄧ-ㄋㄜ | theme=jobs | stage=2 base=listen
+ 6393 | loaf                           | 一條                             | 🍞        | chunks=['l', 'oaf'] | py=ㄝㄦ-ㄛㄈ | theme=food | stage=2 [有易混提示]
+ 6394 | local                          | 地方性的                           | 🎨        | chunks=['lo', 'cal'] | py=ㄌㄛ-ㄎㄜ | theme=adjectives | stage=2 [有易混提示]
+ 6395 | lock                           | 鎖                              | 🏃        | chunks=['l', 'ock'] | py=ㄝㄦ-ㄛㄎ | theme=actions | stage=2 [有易混提示]
+ 6396 | log                            | 圓木                             | 🏃        | chunks=['l', 'og'] | py=ㄝㄦ-ㄚ | theme=actions | stage=2 [有易混提示]
+ 6397 | lovely                         | 可愛的                            | 💁        | chunks=['lo', 've', 'ly'] | py=ㄌㄛ-ㄈㄜ-ㄌㄧ | theme=appearance | stage=2 base=love
+ 6398 | lower                          | 較低的                            | 🎨        | chunks=['lo', 'wer'] | py=ㄌㄛ-ㄜ | theme=adjectives | stage=2 base=low
+ 6399 | luck                           | 運氣                             | 🏃        | chunks=['l', 'uck'] | py=ㄝㄦ-ㄚㄎ | theme=actions | stage=2
+ 6400 | magic                          | 魔法                             | ✨        | chunks=['ma', 'gic'] | py=ㄇㄚ-ㄐㄧㄎ | theme=law | stage=2
+ 6401 | magician                       | 魔術師                            | 👨‍⚕️     | chunks=['ma', 'gi', 'cian'] | py=ㄇㄜ-ㄐㄧ-ㄒㄣ | theme=jobs | stage=2
+ 6402 | main                           | 主要的                            | 🎨        | chunks=['m', 'ain'] | py=ㄝㄇ-ㄟㄋ | theme=adjectives | stage=2 [有易混提示]
+ 6403 | male                           | 男性                             | 🏃        | chunks=['ma', 'le'] | py=ㄇㄚ-ㄌㄧ | theme=actions | stage=2 [有易混提示]
+ 6404 | manner                         | 方法                             | 🛠️       | chunks=['man', 'ner'] | py=ㄇㄢ-ㄋㄜ | theme=law | stage=2
+ 6405 | mark                           | 痕跡、標記                          | 🏃        | chunks=['m', 'ark'] | py=ㄝㄇ-ㄚㄜㄎ | theme=actions | stage=2 [有易混提示]
+ 6406 | mask                           | 假面具                            | 🏃        | chunks=['m', 'ask'] | py=ㄝㄇ-ㄚㄙㄎ | theme=actions | stage=2 [有易混提示]
+ 6407 | means                          | 手段                             | 🏃        | chunks=['m', 'eans'] | py=ㄝㄇ-ㄧㄋㄙ | theme=actions | stage=2 [有易混提示]
+ 6408 | measurable                     | 可測量的                           | 🎨        | chunks=['mea', 'su', 'rab', 'le'] | py=ㄇㄧ-ㄙㄨ-ㄖㄝ-ㄌㄧ | theme=adjectives | stage=2 base=measure
+ 6409 | memory                         | 記憶                             | 🎨        | chunks=['me', 'mo', 'ry'] | py=ㄇㄝ-ㄇㄜ-ㄌㄧ | theme=adjectives | stage=2
+ 6410 | message                        | 消息                             | 🏃        | chunks=['mes', 'sa', 'ge'] | py=ㄇㄝㄙ-ㄙㄜㄐ | theme=actions | stage=2
+ 6411 | military                       | 軍事的                            | 🎨        | chunks=['mi', 'li', 'ta', 'ry'] | py=ㄇㄧ-ㄌㄜ-ㄊㄝ-ㄌㄧ | theme=adjectives | stage=2
+ 6412 | mix                            | 混和                             | 🏃        | chunks=['m', 'ix'] | py=ㄝㄇ-ㄧㄎㄙ | theme=actions | stage=2 [有易混提示]
+ 6413 | monster                        | 怪物                             | 🏃        | chunks=['mon', 'ster'] | py=ㄇㄚㄣ-ㄙㄊㄜ | theme=actions | stage=2
+ 6414 | motion                         | 姿態                             | 🎓        | chunks=['mo', 'tion'] | py=ㄇㄛ-ㄒㄣ | theme=academic-words | stage=2 [有易混提示]
+ 6415 | movable                        | 可移動的                           | 🎨        | chunks=['mo', 'vab', 'le'] | py=ㄇㄛ-ㄨㄚㄅ-ㄌㄧ | theme=adjectives | stage=2 base=move
+ 6416 | mule                           | 騾                              | 🦓        | chunks=['mu', 'le'] | py=ㄇㄧㄨ-ㄌㄧ | theme=actions | stage=2
+ 6417 | naked                          | 裸體的                            | 🎨        | chunks=['na', 'ked'] | py=ㄋㄚ-ㄎㄝㄉ | theme=adjectives | stage=2 [有易混提示]
+ 6418 | national                       | 全國性的                           | 🌍        | chunks=['na', 'tio', 'nal'] | py=ㄋㄚ-ㄒㄜ-ㄋㄜ | theme=countries | stage=2 base=nation
+ 6419 | natural                        | 自然的                            | 🌳        | chunks=['na', 'tu', 'ral'] | py=ㄋㄚ-ㄑㄜ-ㄖㄜ | theme=nature | stage=2 base=nature
+ 6420 | naughty                        | 頑皮的                            | 🎨        | chunks=['naug', 'hty'] | py=ㄋㄛㄍ-ㄏㄊㄧ | theme=adjectives | stage=2
+ 6421 | necessary                      | 必要的                            | 🎨        | chunks=['ne', 'ces', 'sa', 'ry'] | py=ㄋㄝ-ㄙㄜ-ㄙㄝ-ㄌㄧ | theme=adjectives | stage=2
+ 6422 | necklace                       | 項鍊                             | 📿        | chunks=['nec', 'kla', 'ce'] | py=ㄋㄝㄎ-ㄎㄌㄚ-ㄙㄜ | theme=actions | stage=2
+ 6423 | needle                         | 針                              | 🏃        | chunks=['need', 'le'] | py=ㄋㄧㄉ-ㄌㄧ | theme=actions | stage=2
+ 6424 | negative                       | 否定的                            | 🎨        | chunks=['ne', 'ga', 'ti', 've'] | py=ㄋㄧ-ㄍㄚ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=2 base=negate
+ 6425 | nest                           | 巢                              | 🏃        | chunks=['n', 'est'] | py=ㄝㄣ-ㄝㄙㄊ | theme=actions | stage=2 [有易混提示]
+ 6426 | net                            | 網                              | 🏃        | chunks=['n', 'et'] | py=ㄝㄣ-ㄝㄊ | theme=actions | stage=2 [有易混提示]
+ 6427 | nod                            | 點頭                             | 🦵        | chunks=['n', 'od'] | py=ㄝㄣ-ㄚㄉ | theme=body | stage=2 [有易混提示]
+ 6428 | noodle                         | 麵條                             | 🍜        | chunks=['nood', 'le'] | py=ㄋㄨㄉ-ㄌㄧ | theme=food | stage=2
+ 6429 | northern                       | 北方的                            | 🧭        | chunks=['nor', 'thern'] | py=ㄋㄜ-ㄒㄜㄋ | theme=directions | stage=2
+ 6430 | obey                           | 服從                             | 🏃        | chunks=['o', 'bey'] | py=ㄛ-ㄅㄧ | theme=actions | stage=2
+ 6431 | official                       | 官方的                            | 🎨        | chunks=['of', 'fi', 'cial'] | py=ㄚㄈ-ㄈㄜ-ㄒㄦ | theme=adjectives | stage=2 base=office
+ 6432 | omit                           | 省略                             | 🏃        | chunks=['o', 'mit'] | py=ㄛ-ㄇㄧㄊ | theme=actions | stage=2
+ 6433 | operate                        | 營運                             | 🏃        | chunks=['o', 'pe', 'ra', 'te'] | py=ㄛ-ㄆㄜ-ㄌㄚ-ㄊㄧ | theme=actions | stage=2
+ 6434 | organization                   | 機構                             | 🎓        | chunks=['or', 'ga', 'ni', 'za', 'tion'] | py=ㄛㄦ-ㄍㄜ-ㄋㄜ-ㄗㄟ-ㄒㄣ | theme=academic-words | stage=2 base=organize
+ 6435 | organize                       | 組織                             | 🏃        | chunks=['or', 'ga', 'ni', 'ze'] | py=ㄛㄦ-ㄍㄜ-ㄋㄞㄗ | theme=actions | stage=2 base=organ
+ 6436 | overpass                       | 越過                             | 🏃        | chunks=['o', 'ver', 'pass'] | py=ㄛ-ㄈㄜ-ㄆㄚㄙ | theme=actions | stage=2
+ 6437 | ox                             | 公牛                             | 🐂        | chunks=['o', 'x'] | py=ㄛ-ㄝㄎㄙ | theme=animals | stage=2 [有易混提示]
+ 6438 | pack                           | 包                              | 🏃        | chunks=['p', 'ack'] | py=ㄆㄧ-ㄚ | theme=actions | stage=2 [有易混提示]
+ 6439 | painful                        | 疼痛的                            | 🎨        | chunks=['pain', 'ful'] | py=ㄆㄟㄣ-ㄈㄜ | theme=adjectives | stage=2 base=pain
+ 6440 | pardon                         | 原諒                             | 🏃        | chunks=['par', 'don'] | py=ㄆㄚㄦ-ㄉㄣ | theme=actions | stage=2
+ 6441 | passenger                      | 乘客                             | 🚗        | chunks=['pas', 'sen', 'ger'] | py=ㄆㄚㄙ-ㄙㄜㄣ-ㄐㄜ | theme=transportation | stage=2
+ 6442 | paste                          | 用漿糊黏貼糊狀物                       | 🏃        | chunks=['pas', 'te'] | py=ㄆㄚㄙ-ㄊㄧ | theme=actions | stage=2
+ 6443 | pat                            | 輕拍                             | 🏃        | chunks=['p', 'at'] | py=ㄆㄧ-ㄚ | theme=actions | stage=2 [有易混提示]
+ 6444 | pattern                        | 圖案                             | 🏃        | chunks=['pat', 'tern'] | py=ㄆㄚ-ㄊㄜㄣ | theme=actions | stage=2
+ 6445 | per                            | 透過                             | 🏃        | chunks=['p', 'er'] | py=ㄆㄧ-ㄜ | theme=actions | stage=2 [有易混提示]
+ 6446 | personal                       | 私人的                            | 🎨        | chunks=['per', 'so', 'nal'] | py=ㄆㄜ-ㄙㄜ-ㄋㄜ | theme=adjectives | stage=2 base=person
+ 6447 | pin                            | 大頭針釘住                          | 📌        | chunks=['p', 'in'] | py=ㄆㄧ-ㄧㄣ | theme=body | stage=2 [有易混提示]
+ 6448 | pipe                           | 管                              | 🏃        | chunks=['pi', 'pe'] | py=ㄆㄧ-ㄆㄜ | theme=actions | stage=2 [有易混提示]
+ 6449 | pitch                          | 音高扔                            | ⚾        | chunks=['p', 'itch'] | py=ㄆㄧ-ㄧㄊㄔ | theme=appearance | stage=2 [有易混提示]
+ 6450 | playful                        | 愛玩耍的                           | 🎨        | chunks=['play', 'ful'] | py=ㄆㄌㄟ-ㄈㄜ | theme=adjectives | stage=2 base=play
+ 6451 | pleasant                       | 舒適的                            | 🎨        | chunks=['plea', 'sant'] | py=ㄆㄌㄧ-ㄙㄚㄋㄊ | theme=adjectives | stage=2 base=please
+ 6452 | pleasure                       | 愉快                             | 🎓        | chunks=['plea', 'su', 're'] | py=ㄆㄌㄧ-ㄙㄨ-ㄌㄧ | theme=academic-words | stage=2 base=please
+ 6453 | popular                        | 大眾的                            | 🎨        | chunks=['po', 'pu', 'lar'] | py=ㄆㄚ-ㄆㄧㄨ-ㄌㄜ | theme=adjectives | stage=2
+ 6454 | possibility                    | 可能性                            | 🎓        | chunks=['pos', 'si', 'bi', 'li', 'ty'] | py=ㄆㄚ-ㄙㄜ-ㄅㄜ-ㄌㄧ-ㄊㄧ | theme=academic-words | stage=2 base=possible
+ 6455 | powerful                       | 強大的                            | 🎨        | chunks=['po', 'wer', 'ful'] | py=ㄆㄠ-ㄜ-ㄈㄜ | theme=adjectives | stage=2 base=power
+ 6456 | praise                         | 讚揚                             | 🏃        | chunks=['prai', 'se'] | py=ㄆㄌㄝ-ㄙㄜ | theme=actions | stage=2
+ 6457 | presence                       | 出席                             | 🎓        | chunks=['pre', 'sen', 'ce'] | py=ㄆㄌㄝ-ㄗㄜㄣㄙ | theme=academic-words | stage=2 base=present
+ 6458 | pride                          | 得意                             | 🏃        | chunks=['pri', 'de'] | py=ㄆㄌㄞ-ㄉㄧ | theme=actions | stage=2 [有易混提示]
+ 6459 | prisoner                       | 囚犯                             | 🏃        | chunks=['pri', 'so', 'ner'] | py=ㄆㄌㄞ-ㄙㄛ-ㄋㄜ | theme=crime | stage=2 base=prison
+ 6460 | private                        | 私人的                            | 🎨        | chunks=['pri', 'va', 'te'] | py=ㄆㄌㄞ-ㄈㄜㄊ | theme=adjectives | stage=2
+ 6461 | prize                          | 獎賞                             | 🏃        | chunks=['pri', 'ze'] | py=ㄆㄌㄞ-ㄗㄧ | theme=actions | stage=2 [有易混提示]
+ 6462 | produce                        | 出產、農產品                         | 🏃        | chunks=['pro', 'du', 'ce'] | py=ㄆㄌㄜ-ㄉㄩㄙ | theme=actions | stage=2 [有易混提示]
+ 6463 | progress                       | 進行、進步                          | 🏃        | chunks=['prog', 'ress'] | py=ㄆㄖㄛㄍ-ㄖㄝㄙㄙ | theme=actions | stage=2 [有易混提示]
+ 6464 | promise                        | 承諾                             | 🏃        | chunks=['pro', 'mi', 'se'] | py=ㄆㄌㄚ-ㄇㄜㄙ | theme=actions | stage=2
+ 6465 | pronounce                      | 發音                             | 🏃        | chunks=['pro', 'noun', 'ce'] | py=ㄆㄌㄜ-ㄋㄠㄣㄙ | theme=actions | stage=2
+ 6466 | protect                        | 保護                             | 🏃        | chunks=['pro', 'tect'] | py=ㄆㄌㄜ-ㄊㄝㄎㄊ | theme=actions | stage=2
+ 6467 | provide                        | 提供                             | 🏃        | chunks=['pro', 'vi', 'de'] | py=ㄆㄌㄜ-ㄈㄞㄉ | theme=actions | stage=2
+ 6468 | pump                           | 打氣                             | 🏃        | chunks=['p', 'ump'] | py=ㄆㄧ-ㄚㄇㄆ | theme=actions | stage=2 [有易混提示]
+ 6469 | puppet                         | 木偶                             | 🏃        | chunks=['pup', 'pet'] | py=ㄆㄚㄆ-ㄆㄝㄊ | theme=actions | stage=2
+ 6470 | puppy                          | 小狗                             | 🐶        | chunks=['pup', 'py'] | py=ㄆㄚㄆ-ㄆㄧ | theme=animals | stage=2
+ 6471 | quantity                       | 數量                             | 🎓        | chunks=['quan', 'ti', 'ty'] | py=ㄎㄨㄢ-ㄊㄜ-ㄊㄧ | theme=academic-words | stage=2
+ 6472 | quit                           | 退出                             | 🏃        | chunks=['q', 'uit'] | py=ㄎㄧㄨ-ㄨㄊ | theme=actions | stage=2 base=quit [有易混提示]
+ 6473 | rapid                          | 迅速的                            | 🎨        | chunks=['ra', 'pid'] | py=ㄌㄚ-ㄆㄜㄉ | theme=adjectives | stage=2 [有易混提示]
+ 6474 | reality                        | 現實                             | 🎓        | chunks=['rea', 'li', 'ty'] | py=ㄌㄧ-ㄚ-ㄌㄜ-ㄊㄧ | theme=academic-words | stage=2
+ 6475 | realize                        | 了解                             | 🏃        | chunks=['rea', 'li', 'ze'] | py=ㄌㄧ-ㄜ-ㄌㄞㄗ | theme=actions | stage=2 base=real
+ 6476 | refrigerator                   | 冰箱                             | 🏃        | chunks=['ref', 'ri', 'ge', 'ra', 'tor'] | py=ㄌㄜ-ㄈㄌㄧ-ㄐㄜ-ㄌㄟ-ㄊㄜ | theme=actions | stage=2
+ 6477 | icebox                         | 冰箱                             | 🏃        | chunks=['i', 'ce', 'box'] | py=ㄞㄙ-ㄅㄚㄎㄙ | theme=actions | stage=3
+ 6478 | refuse                         | 拒絕                             | 🏃        | chunks=['re', 'fu', 'se'] | py=ㄌㄜ-ㄈㄧㄨㄗ | theme=actions | stage=2 [有易混提示]
+ 6479 | regard                         | 關心、注重                          | 🏃        | chunks=['re', 'gard'] | py=ㄌㄜ-ㄍㄚㄦㄉ | theme=actions | stage=2
+ 6480 | regular                        | 有規律的                           | 🎨        | chunks=['re', 'gu', 'lar'] | py=ㄖㄝ-ㄍㄧㄨ-ㄌㄜ | theme=adjectives | stage=2
+ 6481 | relation                       | 關係                             | 💞        | chunks=['re', 'la', 'tion'] | py=ㄌㄜ-ㄌㄟ-ㄒㄣ | theme=relationships | stage=2 base=relate
+ 6482 | relationship                   | 關係                             | 💞        | chunks=['re', 'la', 'tion', 'ship'] | py=ㄌㄜ-ㄌㄟ-ㄒㄣ-ㄒㄧㄆ | theme=relationships | stage=2
+ 6483 | repeat                         | 重複                             | 🏃        | chunks=['re', 'peat'] | py=ㄌㄧ-ㄆㄧㄊ | theme=actions | stage=2
+ 6484 | reply                          | 答覆                             | 💬        | chunks=['rep', 'ly'] | py=ㄌㄝ-ㄌㄧ | theme=sight-words | stage=2
+ 6485 | respect                        | 敬重                             | 🏃        | chunks=['res', 'pect'] | py=ㄌㄜ-ㄙㄆㄝㄎㄊ | theme=actions | stage=2
+ 6486 | responsible                    | 負責任的                           | 🎨        | chunks=['res', 'pon', 'sib', 'le'] | py=ㄌㄜ-ㄙㄆㄚㄣ-ㄙㄜ-ㄅㄜ | theme=adjectives | stage=2 base=response
+ 6487 | restroom                       | 洗手間                            | 🏃        | chunks=['res', 'troom'] | py=ㄌㄝㄙ-ㄊㄖㄨㄇ | theme=actions | stage=2
+ 6488 | rest room                      | 洗手間                            | 🔗        | chunks=['rest', 'room'] | py=ㄖㄝㄙㄊ-ㄖㄨㄇ | theme=phrasal-verbs | stage=2
+ 6489 | riches                         | 財富                             | 🏃        | chunks=['ric', 'hes'] | py=ㄌㄧㄎ-ㄏㄝ | theme=actions | stage=2
+ 6490 | rocky                          | 多岩石的                           | 🌳        | chunks=['roc', 'ky'] | py=ㄌㄚ-ㄎㄧ | theme=nature | stage=2 base=rock
+ 6491 | runner                         | 跑步者                            | ⚽        | chunks=['run', 'ner'] | py=ㄌㄚㄣ-ㄋㄜ | theme=sports | stage=2 base=run
+ 6492 | rush                           | 奔                              | 🏃        | chunks=['r', 'ush'] | py=ㄚㄦ-ㄚㄒ | theme=actions | stage=2
+ 6493 | safety                         | 安全                             | 🏃        | chunks=['sa', 'fe', 'ty'] | py=ㄙㄚ-ㄈㄧ-ㄊㄧ | theme=actions | stage=2 base=safe
+ 6494 | satisfy                        | 使滿意                            | 🏃        | chunks=['sa', 'tis', 'fy'] | py=ㄙㄚ-ㄊㄜㄙ-ㄈㄞ | theme=actions | stage=2
+ 6495 | scissors                       | 剪刀                             | ✂️       | chunks=['scis', 'sors'] | py=ㄙㄎㄧㄙ-ㄙㄛㄜㄙ | theme=kitchen-utensils | stage=2
+ 6496 | selection                      | 選拔                             | 🎓        | chunks=['se', 'lec', 'tion'] | py=ㄙㄜ-ㄌㄝㄎ-ㄒㄣ | theme=academic-words | stage=2 base=select
+ 6497 | servant                        | 僕人                             | 🎨        | chunks=['ser', 'vant'] | py=ㄙㄜ-ㄈㄜㄣㄊ | theme=adjectives | stage=2
+ 6498 | shell                          | 殼                              | 🏃        | chunks=['sh', 'ell'] | py=ㄒ-ㄝㄌㄌ | theme=actions | stage=2 [有易混提示]
+ 6499 | shock                          | 衝撞                             | 🏃        | chunks=['sh', 'ock'] | py=ㄒ-ㄛㄎ | theme=actions | stage=2
