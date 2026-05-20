@@ -1,12 +1,12 @@
 {
-  "vocab_hash_current": "ec044f0e8e472cbe2203c81fd325b01e351c1c206bba47445575de4367568f5a",
+  "vocab_hash_current": "1580b0cae26d5d2bc03033cb0a70f92127a0bdfa5aab71020145b6e822cd9b3a",
   "checks": {
     "L1-all": {
-      "last_run": "2026-05-20T05:49:50",
-      "vocab_hash": "c3b01d020016bc15cb601d3a006c0b2e027938a1027adf6f6a47d014ee74bc97",
+      "last_run": "2026-05-20T14:28:43",
+      "vocab_hash": "1580b0cae26d5d2bc03033cb0a70f92127a0bdfa5aab71020145b6e822cd9b3a",
       "vocab_count": 10101,
-      "issues_total": 4,
-      "report": "reports/2026-05-20-054950-L1.md"
+      "issues_total": 24,
+      "report": "reports/2026-05-20-142843-L1.md"
     },
     "L2-translation": {
       "last_run": "2026-05-20T11:54:57",
