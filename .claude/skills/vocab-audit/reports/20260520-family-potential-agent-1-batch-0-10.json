@@ -1182,12 +1182,6 @@
     "reason": "-ed 形 (雙寫子音)"
   },
   {
-    "word": "rugged",
-    "base": "rug",
-    "family-note": "rugged ← rug(過去式)",
-    "reason": "-ed 形 (雙寫子音)"
-  },
-  {
     "word": "driven",
     "base": "drive",
     "family-note": "driven ← drive(過去式/過去分詞)",
@@ -1198,5 +1192,11 @@
     "base": "faith",
     "family-note": "faithful ← faith(-ful 形容詞)",
     "reason": "-ful 形容詞"
+  },
+  {
+    "word": "emotional",
+    "base": "emotion",
+    "family-note": "emotional ← emotion(-al 形容詞)",
+    "reason": "-al 形容詞"
   }
 ]

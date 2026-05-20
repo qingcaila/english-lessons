@@ -1,0 +1,20 @@
+[
+  {"word":"shy","current_mean":"害羞","suggested_mean":"害羞的","reason":"shy 為形容詞,建議加「的」與其他形容詞如 cute/可愛、proud 等情緒形容詞一致"},
+  {"word":"calm","current_mean":"冷靜","suggested_mean":"冷靜的","reason":"calm 形容詞,類似 nervous/緊張、relaxed/放鬆的"},
+  {"word":"cheerful","current_mean":"開朗","suggested_mean":"開朗的","reason":"cheerful 形容詞,類似 hopeful/充滿希望、grateful/感激的"},
+  {"word":"viral","current_mean":"爆紅","suggested_mean":"爆紅的、瘋傳的","reason":"viral 形容詞,「爆紅」較像動詞/短語,加「的」更貼合詞性"},
+  {"word":"trending","current_mean":"熱門","suggested_mean":"熱門的、正流行的","reason":"trending 是現在分詞作形容詞"},
+  {"word":"attractive","current_mean":"有魅力","suggested_mean":"有魅力的","reason":"attractive 是形容詞"},
+  {"word":"dental","current_mean":"牙科","suggested_mean":"牙科的","reason":"dental 是形容詞,如 dental insurance 牙科保險"},
+  {"word":"unfriendly","current_mean":"不友善","suggested_mean":"不友善的","reason":"unfriendly 為形容詞"},
+  {"word":"friendly","current_mean":"友善","suggested_mean":"友善的","reason":"friendly 是形容詞,類似 polite/有禮貌"},
+  {"word":"available","current_mean":"單身","suggested_mean":"(感情)單身的、有空的","reason":"available 是形容詞,且常用義不限「感情單身」,還有「有空、可取得」"},
+  {"word":"taken","current_mean":"有對象","suggested_mean":"有對象的、名花有主的","reason":"taken 此處作為形容詞表狀態"},
+  {"word":"committed","current_mean":"專一","suggested_mean":"專一的、認真交往的","reason":"committed 是形容詞"},
+  {"word":"jobless","current_mean":"失業","suggested_mean":"失業的","reason":"jobless 為形容詞"},
+  {"word":"sterile","current_mean":"無菌","suggested_mean":"無菌的","reason":"sterile 為形容詞"},
+  {"word":"chronic","current_mean":"慢性","suggested_mean":"慢性的","reason":"chronic 為形容詞,如 chronic disease 慢性疾病"},
+  {"word":"acute","current_mean":"急性","suggested_mean":"急性的","reason":"acute 為形容詞"},
+  {"word":"benign","current_mean":"良性","suggested_mean":"良性的","reason":"benign 為形容詞"},
+  {"word":"malignant","current_mean":"惡性","suggested_mean":"惡性的","reason":"malignant 為形容詞"}
+]
