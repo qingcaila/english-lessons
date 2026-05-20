@@ -1,185 +1,1202 @@
 [
-  {"word":"reinforce","base":"force","family-note":"re(再)+in+force(力量)→ reinforce(加強)","reason":"reinforce 由 force 加 re-in- 前綴構成"},
-  {"word":"tense","base":"tension","family-note":"tense(緊張的)、tension(緊張)同源","reason":"tense + tension 反向 family pair"},
-  {"word":"controversy","base":"converse","family-note":"contra(相反)+verse(轉)→ controversy(爭議)","reason":"與 converse 同字根 vers-,皆指『轉』"},
-  {"word":"diminish","base":"minimize","family-note":"與 minimize 同字根 mini- → diminish(減少)","reason":"皆源自 minus(較小)"},
-  {"word":"distort","base":"torture","family-note":"dis+tort(扭)→ distort(扭曲)","reason":"與 torture 同字根 tort-(扭)"},
-  {"word":"inevitable","base":"avoid","family-note":"in(否定)+evit(避免,同 avoid)+able → inevitable(不可避免的)","reason":"inevitable 字根 evit 等於 avoid"},
-  {"word":"minimize","base":"minimal","family-note":"minimal(最小的)的動詞形 → minimize(最小化)","reason":"皆源自 minimum"},
-  {"word":"predominant","base":"dominant","family-note":"pre(前)+dominant(支配的)→ predominant(主要的)","reason":"已有 dominant 在 vocab"},
-  {"word":"prospect","base":"inspect","family-note":"pro+spect(看)→ prospect(前景)","reason":"與 inspect 同字根 spect-(看)"},
-  {"word":"restore","base":"restoration","family-note":"restore(恢復)是 restoration 的動詞","reason":"反向 family,restoration 已有"},
-  {"word":"terminate","base":"terminal","family-note":"terminal(終端的)+ate → terminate(終止)","reason":"vocab 有 terminal 字根"},
-  {"word":"unify","base":"unite","family-note":"與 unite 同字根 uni- → unify(統一)","reason":"皆源自 unus(一)"},
-  {"word":"minimal","base":"minimum","family-note":"minimum(最小量)的形容詞 → minimal(最小的)","reason":"皆源自 minimum"},
-  {"word":"intermediate","base":"medium","family-note":"inter(中間)+medi(中)→ intermediate(中級的)","reason":"與 medium 同字根 medi-"},
-  {"word":"mediate","base":"medium","family-note":"與 medium 同字根 medi-(中) → mediate(調解)","reason":"皆指『在中間』"},
-  {"word":"reluctance","base":"reluctant","family-note":"reluctant(不情願的)的名詞 → reluctance(不情願)","reason":"reluctant 在 batch 中"},
-  {"word":"intrinsic","base":"interior","family-note":"intrin(內)+sic → intrinsic(內在的)","reason":"與 interior 同字根 intra-"},
-  {"word":"persist","base":"persistent","family-note":"persist(堅持)的形容詞為 persistent","reason":"persistent 在 vocab"},
-  {"word":"deviate","base":"via","family-note":"de+via(經由)→ deviate(偏離)","reason":"與 via 同字根 via(路)"},
-  {"word":"complement","base":"complete","family-note":"與 complete 同字根 ple-(填滿) → complement(互補)","reason":"皆源自 plere(填滿)"},
-  {"word":"compatible","base":"sympathy","family-note":"com(共)+pat(感受)→ compatible(相容的)","reason":"與 sympathy 同字根 pat-/path-(感受)"},
-  {"word":"discern","base":"concern","family-note":"dis+cern(辨別)→ discern(辨識)","reason":"與 concern 同字根 cern-"},
-  {"word":"deliberate","base":"liberate","family-note":"de+liber(自由)→ deliberate(深思熟慮)","reason":"與 liberate 同字根 liber-"},
-  {"word":"escalate","base":"escalator","family-note":"escalator(電扶梯)同源 → escalate(升級)","reason":"皆指『爬升』"},
-  {"word":"subdue","base":"subordinate","family-note":"sub(下)+du(導引)→ subdue(制服)","reason":"與 subordinate 同前綴 sub-"},
-  {"word":"administer","base":"administrator","family-note":"administer(管理)的人 → administrator(管理者)","reason":"administrator 在 vocab"},
-  {"word":"defy","base":"defiance","family-note":"defy(反抗)的名詞 → defiance","reason":"與 confide(信任)字根 fid-(信任)反義"},
-  {"word":"deceive","base":"deception","family-note":"deceive(欺騙)的名詞 → deception","reason":"動名 family"},
-  {"word":"resent","base":"resentment","family-note":"resent(怨恨)的名詞 → resentment(怨恨)","reason":"resentment 在 vocab"},
-  {"word":"mourn","base":"mournful","family-note":"mourn(哀悼)的形容詞 → mournful(憂傷的)","reason":"mournful 在 vocab"},
-  {"word":"grieve","base":"grief","family-note":"grief(悲痛)的動詞 → grieve(悲傷)","reason":"vocab 有 grief"},
-  {"word":"prevail","base":"prevalent","family-note":"prevail(勝出)的形容詞 → prevalent","reason":"前綴 pre+val-(力量)"},
-  {"word":"keeper","base":"keep","family-note":"keep(保有)的人 → keeper(管理者)","reason":"keep + er"},
-  {"word":"basic","base":"base","family-note":"base(基礎)的形容詞 → basic(基礎的)","reason":"base 在 vocab"},
-  {"word":"bathroom","base":"bath","family-note":"bath(洗澡)+room → bathroom(浴室)","reason":"bath 在 vocab"},
-  {"word":"believe","base":"belief","family-note":"belief(信仰)的動詞 → believe(相信)","reason":"歷史對應字"},
-  {"word":"basics","base":"basic","family-note":"basic(基礎的)的複數名詞 → basics(基礎)","reason":"basic 在 batch 中"},
-  {"word":"basis","base":"base","family-note":"與 base(基礎)同源 → basis(基礎)","reason":"皆源自 basis(基礎)"},
-  {"word":"believable","base":"believe","family-note":"believe(相信)+able → believable(可信的)","reason":"believe 在 batch 中"},
-  {"word":"daddy","base":"dad","family-note":"dad(爸)的暱稱 → daddy(爸爸)","reason":"已標"},
-  {"word":"mommy","base":"mom","family-note":"mom(媽)的暱稱 → mommy(媽媽)","reason":"已標"},
-  {"word":"momma","base":"mom","family-note":"mom(媽)的另一暱稱 → momma(媽媽)","reason":"vocab 有 mom"},
-  {"word":"papa","base":"pa","family-note":"pa(爸)的暱稱 → papa(爸爸)","reason":"pa 在 batch 中"},
-  {"word":"darkness","base":"dark","family-note":"dark(黑暗的)+ness → darkness(黑暗)","reason":"已標"},
-  {"word":"weakness","base":"weak","family-note":"weak(弱的)+ness → weakness(弱點)","reason":"已標"},
-  {"word":"madness","base":"mad","family-note":"mad(瘋的)+ness → madness(瘋狂)","reason":"已標"},
-  {"word":"coldness","base":"cold","family-note":"cold(冷的)+ness → coldness(寒冷)","reason":"已標"},
-  {"word":"tiredness","base":"tired","family-note":"tired(疲倦的)+ness → tiredness(疲倦)","reason":"已標"},
-  {"word":"fairness","base":"fair","family-note":"fair(公平的)+ness → fairness(公平)","reason":"已標"},
-  {"word":"greatness","base":"great","family-note":"great(偉大的)+ness → greatness(偉大)","reason":"已標"},
-  {"word":"emptiness","base":"empty","family-note":"empty(空的)+ness → emptiness(空虛)","reason":"empty 在 vocab"},
-  {"word":"loneliness","base":"lonely","family-note":"lonely(孤獨的)+ness → loneliness(孤獨)","reason":"lonely 在 vocab"},
-  {"word":"calmness","base":"calm","family-note":"calm(平靜的)+ness → calmness(平靜)","reason":"已標"},
-  {"word":"excitement","base":"excite","family-note":"excite(使興奮)+ment → excitement(興奮)","reason":"excite 在 vocab"},
-  {"word":"compartment","base":"part","family-note":"com+part(部分)+ment → compartment(隔間)","reason":"與 part 同字根"},
-  {"word":"adoption","base":"adopt","family-note":"adopt(收養)的名詞 → adoption(收養)","reason":"已標"},
-  {"word":"punctuation","base":"punctuate","family-note":"punctuate(加標點)的名詞 → punctuation(標點)","reason":"皆源自 punct(點)"},
-  {"word":"fisher","base":"fish","family-note":"fish(釣魚)的人 → fisher(漁夫)","reason":"vocab 有 fish"},
-  {"word":"villager","base":"village","family-note":"village(村莊)的人 → villager(村民)","reason":"vocab 有 village"},
-  {"word":"cyclist","base":"cycle","family-note":"cycle(腳踏車)+ist → cyclist(騎腳踏車的人)","reason":"vocab 有 cycle/bicycle"},
-  {"word":"terrorist","base":"terror","family-note":"terror(恐怖)+ist → terrorist(恐怖份子)","reason":"vocab 有 terror"},
-  {"word":"optimist","base":"optimism","family-note":"optimism(樂觀)的人 → optimist(樂觀者)","reason":"optimism 在 vocab"},
-  {"word":"pessimist","base":"pessimism","family-note":"pessimism(悲觀)的人 → pessimist(悲觀者)","reason":"pessimism 在 vocab"},
-  {"word":"idealist","base":"ideal","family-note":"ideal(理想)+ist → idealist(理想主義者)","reason":"vocab 有 ideal"},
-  {"word":"individuality","base":"individual","family-note":"individual(個人的)+ity → individuality(個性)","reason":"vocab 有 individual"},
-  {"word":"inferiority","base":"inferior","family-note":"inferior(較差的)的名詞 → inferiority(自卑)","reason":"vocab 有 inferior"},
-  {"word":"insanity","base":"insane","family-note":"insane(瘋的)的名詞 → insanity(瘋狂)","reason":"vocab 應有 sane"},
-  {"word":"subtlety","base":"subtle","family-note":"subtle(微妙的)的名詞 → subtlety(微妙之處)","reason":"vocab 有 subtle"},
-  {"word":"observance","base":"observe","family-note":"observe(觀察)的名詞 → observance(遵守)","reason":"已標"},
-  {"word":"seen","base":"see","family-note":"see(看見)的過去分詞 → seen(看見)","reason":"已標"},
-  {"word":"given","base":"give","family-note":"give(給)的過去分詞 → given","reason":"已標"},
-  {"word":"known","base":"know","family-note":"know(知道)的過去分詞 → known","reason":"已標"},
-  {"word":"sportsman","base":"sport","family-note":"sport(運動)+man → sportsman(運動員)","reason":"vocab 有 sport"},
-  {"word":"sportsmanship","base":"sport","family-note":"sportsman(運動員)+ship → sportsmanship(運動員精神)","reason":"vocab 有 sport"},
-  {"word":"strengthen","base":"strength","family-note":"strength(力量)+en → strengthen(加強)","reason":"已標"},
-  {"word":"summarize","base":"summary","family-note":"summary(摘要)+ize → summarize(總結)","reason":"已標"},
-  {"word":"surroundings","base":"surround","family-note":"surround(圍繞)的名詞 → surroundings(環境)","reason":"vocab 有 surround"},
-  {"word":"suspicious","base":"suspicion","family-note":"suspicion(懷疑)的形容詞 → suspicious(可疑的)","reason":"suspicion 在 vocab"},
-  {"word":"absolutely","base":"absolute","family-note":"absolute(絕對的)+ly → absolutely(絕對地)","reason":"已標"},
-  {"word":"constantly","base":"constant","family-note":"constant(不變的)+ly → constantly(不斷地)","reason":"vocab 有 constant"},
-  {"word":"directly","base":"direct","family-note":"direct(直接的)+ly → directly(直接地)","reason":"已標"},
-  {"word":"easily","base":"easy","family-note":"easy(容易的)+ly → easily(容易地)","reason":"已標"},
-  {"word":"extremely","base":"extreme","family-note":"extreme(極端的)+ly → extremely(極度地)","reason":"已標"},
-  {"word":"honestly","base":"honest","family-note":"honest(誠實的)+ly → honestly(老實說)","reason":"已標"},
-  {"word":"incredibly","base":"incredible","family-note":"incredible(難以置信的)+ly → incredibly","reason":"已標"},
-  {"word":"necessarily","base":"necessary","family-note":"necessary(必要的)+ly → necessarily(必然地)","reason":"已標"},
-  {"word":"officially","base":"official","family-note":"official(官方的)+ly → officially(正式地)","reason":"已標"},
-  {"word":"perfectly","base":"perfect","family-note":"perfect(完美的)+ly → perfectly(完美地)","reason":"已標"},
-  {"word":"quickly","base":"quick","family-note":"quick(快的)+ly → quickly(快速地)","reason":"已標"},
-  {"word":"quietly","base":"quiet","family-note":"quiet(安靜的)+ly → quietly(安靜地)","reason":"已標"},
-  {"word":"regularly","base":"regular","family-note":"regular(規律的)+ly → regularly(定期地)","reason":"已標"},
-  {"word":"relatively","base":"relative","family-note":"relative(相對的)+ly → relatively(相對地)","reason":"已標"},
-  {"word":"rightly","base":"right","family-note":"right(對的)+ly → rightly(正確地)","reason":"已標"},
-  {"word":"sadly","base":"sad","family-note":"sad(悲傷的)+ly → sadly(悲傷地)","reason":"已標"},
-  {"word":"seriously","base":"serious","family-note":"serious(嚴肅的)+ly → seriously(嚴肅地)","reason":"已標"},
-  {"word":"successfully","base":"successful","family-note":"successful(成功的)+ly → successfully(成功地)","reason":"已標"},
-  {"word":"typically","base":"typical","family-note":"typical(典型的)+ly → typically(典型地)","reason":"已標"},
-  {"word":"usually","base":"usual","family-note":"usual(平常的)+ly → usually(通常)","reason":"已標"},
-  {"word":"willingly","base":"willing","family-note":"willing(願意的)+ly → willingly(願意地)","reason":"已標"},
-  {"word":"rebuild","base":"build","family-note":"re(再)+build(建造)→ rebuild(重建)","reason":"vocab 有 build"},
-  {"word":"asleep","base":"sleep","family-note":"a+sleep(睡)→ asleep(睡著的)","reason":"vocab 有 sleep"},
-  {"word":"alive","base":"live","family-note":"a+live(活)→ alive(活著的)","reason":"vocab 有 live"},
-  {"word":"alike","base":"like","family-note":"a+like(像)→ alike(相同的)","reason":"vocab 有 like"},
-  {"word":"aloud","base":"loud","family-note":"a+loud(大聲)→ aloud(大聲地)","reason":"vocab 有 loud"},
-  {"word":"alone","base":"lone","family-note":"a+lone(單獨)→ alone(單獨的)","reason":"vocab 有 lonely"},
-  {"word":"apartment","base":"apart","family-note":"apart(分開)+ment → apartment(公寓)","reason":"已標"},
-  {"word":"arithmetic","base":"art","family-note":"與 art 同字根 ar-(技藝)→ arithmetic(算術)","reason":"皆源自 ars(技藝)"},
-  {"word":"awaken","base":"awake","family-note":"awake(醒著的)+en → awaken(喚醒)","reason":"已標"},
-  {"word":"awful","base":"awe","family-note":"awe(敬畏)+ful → awful(可怕的)","reason":"已標"},
-  {"word":"badly","base":"bad","family-note":"bad(壞的)+ly → badly(嚴重地)","reason":"已標"},
-  {"word":"baseline","base":"base","family-note":"base(基準)+line → baseline(基準)","reason":"vocab 有 base"},
-  {"word":"beginner","base":"begin","family-note":"begin(開始)的人 → beginner(初學者)","reason":"已標"},
-  {"word":"bloody","base":"blood","family-note":"blood(血)+y → bloody(流血的)","reason":"已標"},
-  {"word":"bony","base":"bone","family-note":"bone(骨)+y → bony(骨的)","reason":"已標"},
-  {"word":"central","base":"center","family-note":"center(中心)的形容詞 → central(中心的)","reason":"已標"},
-  {"word":"changeable","base":"change","family-note":"change(改變)+able → changeable(易變的)","reason":"已標"},
-  {"word":"cleaner","base":"clean","family-note":"clean(清潔)的人 → cleaner(清潔工)","reason":"已標"},
-  {"word":"clothes","base":"cloth","family-note":"cloth(布)的複數延伸 → clothes(衣服)","reason":"vocab 有 cloth"},
-  {"word":"clothing","base":"cloth","family-note":"cloth(布)+ing → clothing(衣物)","reason":"vocab 有 cloth"},
-  {"word":"comfortable","base":"comfort","family-note":"comfort(舒適)+able → comfortable(舒適的)","reason":"已標"},
-  {"word":"controller","base":"control","family-note":"control(控制)的人 → controller(管制者)","reason":"已標"},
-  {"word":"conversation","base":"converse","family-note":"converse(交談)的名詞 → conversation(會話)","reason":"已標"},
-  {"word":"cooker","base":"cook","family-note":"cook(煮)+er → cooker(烹調器具)","reason":"已標"},
-  {"word":"decision","base":"decide","family-note":"decide(決定)的名詞 → decision(決定)","reason":"已標"},
-  {"word":"difference","base":"different","family-note":"different(不同的)的名詞 → difference(差異)","reason":"已標"},
-  {"word":"difficulty","base":"difficult","family-note":"difficult(困難的)的名詞 → difficulty(困難)","reason":"已標"},
-  {"word":"disappear","base":"appear","family-note":"dis(否定)+appear(出現)→ disappear(消失)","reason":"已標"},
-  {"word":"discussion","base":"discuss","family-note":"discuss(討論)的名詞 → discussion(討論)","reason":"已標"},
-  {"word":"education","base":"educate","family-note":"educate(教育)的名詞 → education(教育)","reason":"已標"},
-  {"word":"effective","base":"effect","family-note":"effect(效果)的形容詞 → effective(有效的)","reason":"已標"},
-  {"word":"ending","base":"end","family-note":"end(結束)+ing → ending(結局)","reason":"已標"},
-  {"word":"failure","base":"fail","family-note":"fail(失敗)的名詞 → failure(失敗)","reason":"已標"},
-  {"word":"fearful","base":"fear","family-note":"fear(恐懼)+ful → fearful(可怕的)","reason":"已標"},
-  {"word":"fighter","base":"fight","family-note":"fight(打鬥)的人 → fighter(鬥士)","reason":"已標"},
-  {"word":"firewoman","base":"fireman","family-note":"fireman(消防員)的女性版 → firewoman","reason":"已標"},
-  {"word":"following","base":"follow","family-note":"follow(跟隨)的形容詞 → following(接著的)","reason":"已標"},
-  {"word":"foreigner","base":"foreign","family-note":"foreign(外國的)的人 → foreigner(外國人)","reason":"已標"},
-  {"word":"frighten","base":"fright","family-note":"fright(驚嚇)的動詞 → frighten(使驚恐)","reason":"已標"},
-  {"word":"grassy","base":"grass","family-note":"grass(草)+y → grassy(長滿草的)","reason":"已標"},
-  {"word":"greedy","base":"greed","family-note":"greed(貪心)+y → greedy(貪食的)","reason":"已標"},
-  {"word":"handful","base":"hand","family-note":"hand(手)+ful → handful(一把)","reason":"已標"},
-  {"word":"harmful","base":"harm","family-note":"harm(傷害)+ful → harmful(有害的)","reason":"已標"},
-  {"word":"hateful","base":"hate","family-note":"hate(恨)+ful → hateful(可恨的)","reason":"已標"},
-  {"word":"helpful","base":"help","family-note":"help(幫助)+ful → helpful(有幫助的)","reason":"已標"},
-  {"word":"holder","base":"hold","family-note":"hold(持有)的人 → holder(持有者)","reason":"已標"},
-  {"word":"hunger","base":"hungry","family-note":"與 hungry 同源 → hunger(飢餓)","reason":"反向 family,hungry 已標 base=hunger"},
-  {"word":"hunter","base":"hunt","family-note":"hunt(獵)的人 → hunter(獵人)","reason":"已標"},
-  {"word":"importance","base":"important","family-note":"important(重要的)的名詞 → importance(重要性)","reason":"已標"},
-  {"word":"inspector","base":"inspect","family-note":"inspect(檢查)的人 → inspector(檢查員)","reason":"已標"},
-  {"word":"instruction","base":"instruct","family-note":"instruct(指示)的名詞 → instruction(教學)","reason":"已標"},
-  {"word":"introduction","base":"introduce","family-note":"introduce(介紹)的名詞 → introduction(介紹)","reason":"已標"},
-  {"word":"inventor","base":"invent","family-note":"invent(發明)的人 → inventor(發明家)","reason":"已標"},
-  {"word":"jewelry","base":"jewel","family-note":"jewel(寶石)+ry → jewelry(珠寶)","reason":"已標"},
-  {"word":"joyful","base":"joy","family-note":"joy(喜悅)+ful → joyful(高興的)","reason":"已標"},
-  {"word":"leadership","base":"leader","family-note":"leader(領導者)+ship → leadership(領導)","reason":"已標"},
-  {"word":"listener","base":"listen","family-note":"listen(聽)的人 → listener(傾聽者)","reason":"已標"},
-  {"word":"lovely","base":"love","family-note":"love(愛)+ly → lovely(可愛的)","reason":"已標"},
-  {"word":"lower","base":"low","family-note":"low(低的)的比較級 → lower(較低的)","reason":"已標"},
-  {"word":"lucky","base":"luck","family-note":"luck(運氣)+y → lucky(幸運的)","reason":"已標"},
-  {"word":"measurable","base":"measure","family-note":"measure(測量)+able → measurable(可測量的)","reason":"已標"},
-  {"word":"movable","base":"move","family-note":"move(移動)+able → movable(可移動的)","reason":"已標"},
-  {"word":"national","base":"nation","family-note":"nation(國家)的形容詞 → national(全國性的)","reason":"已標"},
-  {"word":"natural","base":"nature","family-note":"nature(自然)的形容詞 → natural(自然的)","reason":"已標"},
-  {"word":"negative","base":"negate","family-note":"negate(否定)的形容詞 → negative(否定的)","reason":"已標"},
-  {"word":"noisy","base":"noise","family-note":"noise(噪音)+y → noisy(喧鬧的)","reason":"已標"},
-  {"word":"official","base":"office","family-note":"office(辦公)的形容詞 → official(官方的)","reason":"已標"},
-  {"word":"organization","base":"organize","family-note":"organize(組織)的名詞 → organization(機構)","reason":"已標"},
-  {"word":"painful","base":"pain","family-note":"pain(疼痛)+ful → painful(疼痛的)","reason":"已標(已列上)"},
-  {"word":"personal","base":"person","family-note":"person(個人)的形容詞 → personal(私人的)","reason":"已標"},
-  {"word":"playful","base":"play","family-note":"play(玩)+ful → playful(愛玩耍的)","reason":"已標"},
-  {"word":"pleasant","base":"please","family-note":"please(取悅)的形容詞 → pleasant(舒適的)","reason":"已標"},
-  {"word":"pleasure","base":"please","family-note":"please(取悅)的名詞 → pleasure(愉快)","reason":"已標"},
-  {"word":"possibility","base":"possible","family-note":"possible(可能的)的名詞 → possibility(可能性)","reason":"已標"},
-  {"word":"powerful","base":"power","family-note":"power(力量)+ful → powerful(強大的)","reason":"已標"},
-  {"word":"presence","base":"present","family-note":"present(出席的)的名詞 → presence(出席)","reason":"已標"},
-  {"word":"prisoner","base":"prison","family-note":"prison(監獄)的人 → prisoner(囚犯)","reason":"已標"},
-  {"word":"responsible","base":"response","family-note":"response(回應)+ible → responsible(負責任的)","reason":"已標"},
-  {"word":"rocky","base":"rock","family-note":"rock(岩石)+y → rocky(多岩石的)","reason":"已標"},
-  {"word":"runner","base":"run","family-note":"run(跑)的人 → runner(跑步者)","reason":"已標"},
-  {"word":"safety","base":"safe","family-note":"safe(安全的)的名詞 → safety(安全)","reason":"已標"},
-  {"word":"selection","base":"select","family-note":"select(選擇)的名詞 → selection(選拔)","reason":"已標"},
-  {"word":"spotless","base":"spot","family-note":"spot(斑點)+less → spotless(一塵不染的)","reason":"已標"},
-  {"word":"toolbox","base":"tool","family-note":"tool(工具)+box → toolbox(工具箱)","reason":"vocab 有 tool"}
+  {
+    "word": "reinforce",
+    "base": "force",
+    "family-note": "re(再)+in+force(力量)→ reinforce(加強)",
+    "reason": "reinforce 由 force 加 re-in- 前綴構成,force 在 vocab"
+  },
+  {
+    "word": "restore",
+    "base": "store",
+    "family-note": "re(再)+store(儲存)→ restore(恢復)",
+    "reason": "re+store 構成"
+  },
+  {
+    "word": "minimize",
+    "base": "minimal",
+    "family-note": "minimal(最小的)的動詞 → minimize(最小化)",
+    "reason": "皆源自 minimum,minimal 在 batch 11"
+  },
+  {
+    "word": "unify",
+    "base": "unite",
+    "family-note": "與 unite 同字根 uni- → unify(統一)",
+    "reason": "unite 在 batch 14"
+  },
+  {
+    "word": "intermediate",
+    "base": "medium",
+    "family-note": "inter(中間)+med(中)→ intermediate(中級的)",
+    "reason": "與 medium 同字根 med-"
+  },
+  {
+    "word": "mediate",
+    "base": "medium",
+    "family-note": "與 medium 同字根 med-(中)→ mediate(調解)",
+    "reason": "皆指『在中間』,medium 在 batch 13"
+  },
+  {
+    "word": "minimal",
+    "base": "minimum",
+    "family-note": "minimum(最小量)的形容詞 → minimal(最小的)",
+    "reason": "minimum 在 vocab"
+  },
+  {
+    "word": "basics",
+    "base": "basic",
+    "family-note": "basic(基礎的)的名詞 → basics(基礎)",
+    "reason": "basic 在 batch 11"
+  },
+  {
+    "word": "basis",
+    "base": "base",
+    "family-note": "與 base 同源 → basis(基礎)",
+    "reason": "皆源自 basis"
+  },
+  {
+    "word": "believable",
+    "base": "believe",
+    "family-note": "believe(相信)+able → believable(可信的)",
+    "reason": "believe 在 batch 11"
+  },
+  {
+    "word": "clothing",
+    "base": "cloth",
+    "family-note": "cloth(布)+ing → clothing(衣物)",
+    "reason": "vocab 有 cloth"
+  },
+  {
+    "word": "clothes",
+    "base": "cloth",
+    "family-note": "cloth(布)的延伸 → clothes(衣服)",
+    "reason": "vocab 有 cloth"
+  },
+  {
+    "word": "clothe",
+    "base": "cloth",
+    "family-note": "cloth(布)的動詞 → clothe(穿衣)",
+    "reason": "vocab 有 cloth"
+  },
+  {
+    "word": "intensify",
+    "base": "intense",
+    "family-note": "intense(強烈的)+ify → intensify(加強)",
+    "reason": "intense 在 vocab"
+  },
+  {
+    "word": "intensity",
+    "base": "intense",
+    "family-note": "intense(強烈的)的名詞 → intensity(強度)",
+    "reason": "intense 在 vocab"
+  },
+  {
+    "word": "intensive",
+    "base": "intense",
+    "family-note": "intense(強烈的)的形容詞變體 → intensive(加強的)",
+    "reason": "intense 在 vocab"
+  },
+  {
+    "word": "intention",
+    "base": "intend",
+    "family-note": "intend(打算)的名詞 → intention(意圖)",
+    "reason": "intend 在 vocab"
+  },
+  {
+    "word": "invention",
+    "base": "invent",
+    "family-note": "invent(發明)的名詞 → invention(發明)",
+    "reason": "invent 在 vocab"
+  },
+  {
+    "word": "invasion",
+    "base": "invade",
+    "family-note": "invade(侵入)的名詞 → invasion",
+    "reason": "invade 在 vocab"
+  },
+  {
+    "word": "jewelry",
+    "base": "jewel",
+    "family-note": "jewel(寶石)+ry → jewelry(珠寶)",
+    "reason": "jewel 在 vocab"
+  },
+  {
+    "word": "joyful",
+    "base": "joy",
+    "family-note": "joy(喜悅)+ful → joyful(高興的)",
+    "reason": "joy 在 vocab"
+  },
+  {
+    "word": "limitation",
+    "base": "limit",
+    "family-note": "limit(限制)的名詞 → limitation(限制)",
+    "reason": "limit 在 vocab"
+  },
+  {
+    "word": "locker",
+    "base": "lock",
+    "family-note": "lock(鎖)+er → locker(衣物櫃)",
+    "reason": "lock 在 vocab"
+  },
+  {
+    "word": "lively",
+    "base": "life",
+    "family-note": "life(生命)+ly → lively(活潑的)",
+    "reason": "life 在 vocab,標 base=live 但實際源自 life"
+  },
+  {
+    "word": "loyalty",
+    "base": "loyal",
+    "family-note": "loyal(忠誠的)的名詞 → loyalty(忠誠)",
+    "reason": "loyal 在 vocab"
+  },
+  {
+    "word": "luxurious",
+    "base": "luxury",
+    "family-note": "luxury(奢侈)+ious → luxurious(奢侈的)",
+    "reason": "luxury 在 vocab"
+  },
+  {
+    "word": "machinery",
+    "base": "machine",
+    "family-note": "machine(機器)+ry → machinery(機器)",
+    "reason": "machine 在 vocab"
+  },
+  {
+    "word": "magnetic",
+    "base": "magnet",
+    "family-note": "magnet(磁鐵)+ic → magnetic(磁性的)",
+    "reason": "magnet 在 vocab"
+  },
+  {
+    "word": "manufacturer",
+    "base": "manufacture",
+    "family-note": "manufacture(製造)的人 → manufacturer(廠商)",
+    "reason": "manufacture 在 vocab"
+  },
+  {
+    "word": "marvelous",
+    "base": "marvel",
+    "family-note": "marvel(驚奇)+ous → marvelous(令人驚歎的)",
+    "reason": "marvel 在 vocab"
+  },
+  {
+    "word": "mathematical",
+    "base": "mathematics",
+    "family-note": "mathematics(數學)的形容詞 → mathematical(數學的)",
+    "reason": "mathematics 在 vocab"
+  },
+  {
+    "word": "meaningful",
+    "base": "meaning",
+    "family-note": "meaning(意義)+ful → meaningful(有意義的)",
+    "reason": "meaning 在 vocab"
+  },
+  {
+    "word": "medical",
+    "base": "medicine",
+    "family-note": "medicine(醫學)的形容詞 → medical(醫學的)",
+    "reason": "medicine 在 vocab"
+  },
+  {
+    "word": "memorize",
+    "base": "memory",
+    "family-note": "memory(記憶)+ize → memorize(記住)",
+    "reason": "memory 在 vocab"
+  },
+  {
+    "word": "merchandise",
+    "base": "merchant",
+    "family-note": "merchant(商人)的相關名詞 → merchandise(商品)",
+    "reason": "merchant 在 vocab"
+  },
+  {
+    "word": "mighty",
+    "base": "might",
+    "family-note": "might(力量)+y → mighty(強大的)",
+    "reason": "might 在 vocab"
+  },
+  {
+    "word": "miner",
+    "base": "mine",
+    "family-note": "mine(礦)的人 → miner(礦工)",
+    "reason": "mine 在 vocab"
+  },
+  {
+    "word": "minority",
+    "base": "minor",
+    "family-note": "minor(次要的)+ity → minority(少數)",
+    "reason": "minor 在 vocab"
+  },
+  {
+    "word": "misfortune",
+    "base": "fortune",
+    "family-note": "mis(否定)+fortune(命運)→ misfortune(不幸)",
+    "reason": "fortune 在 vocab"
+  },
+  {
+    "word": "mislead",
+    "base": "lead",
+    "family-note": "mis(錯)+lead(引導)→ mislead(誤導)",
+    "reason": "lead 在 vocab"
+  },
+  {
+    "word": "misunderstand",
+    "base": "understand",
+    "family-note": "mis(錯)+understand(理解)→ misunderstand(誤會)",
+    "reason": "understand 在 vocab"
+  },
+  {
+    "word": "motivation",
+    "base": "motive",
+    "family-note": "motive(動機)+ation → motivation(動機)",
+    "reason": "motive 在 vocab"
+  },
+  {
+    "word": "mountainous",
+    "base": "mountain",
+    "family-note": "mountain(山)+ous → mountainous(多山的)",
+    "reason": "mountain 在 vocab"
+  },
+  {
+    "word": "muddy",
+    "base": "mud",
+    "family-note": "mud(泥)+y → muddy(多泥的)",
+    "reason": "mud 在 vocab"
+  },
+  {
+    "word": "murderer",
+    "base": "murder",
+    "family-note": "murder(謀殺)的人 → murderer(兇手)",
+    "reason": "murder 在 vocab"
+  },
+  {
+    "word": "mysterious",
+    "base": "mystery",
+    "family-note": "mystery(神祕)+ious → mysterious(神祕的)",
+    "reason": "mystery 在 vocab"
+  },
+  {
+    "word": "nationality",
+    "base": "nation",
+    "family-note": "nation(國家)+ality → nationality(國籍)",
+    "reason": "nation 在 vocab"
+  },
+  {
+    "word": "needy",
+    "base": "need",
+    "family-note": "need(需要)+y → needy(貧窮的)",
+    "reason": "need 在 vocab"
+  },
+  {
+    "word": "noticeable",
+    "base": "notice",
+    "family-note": "notice(注意)+able → noticeable(顯著的)",
+    "reason": "notice 在 vocab"
+  },
+  {
+    "word": "notify",
+    "base": "notice",
+    "family-note": "與 notice 同字根 not-(知道)→ notify(通知)",
+    "reason": "皆源自 notus(已知)"
+  },
+  {
+    "word": "obedience",
+    "base": "obey",
+    "family-note": "obey(服從)的名詞 → obedience(服從)",
+    "reason": "obey 在 vocab"
+  },
+  {
+    "word": "obedient",
+    "base": "obey",
+    "family-note": "obey(服從)的形容詞 → obedient(服從的)",
+    "reason": "obey 在 vocab"
+  },
+  {
+    "word": "observer",
+    "base": "observe",
+    "family-note": "observe(觀察)的人 → observer(觀測員)",
+    "reason": "observe 在 vocab"
+  },
+  {
+    "word": "occasional",
+    "base": "occasion",
+    "family-note": "occasion(場合)+al → occasional(偶爾的)",
+    "reason": "occasion 在 vocab"
+  },
+  {
+    "word": "operator",
+    "base": "operate",
+    "family-note": "operate(操作)的人 → operator(操作者)",
+    "reason": "operate 在 vocab"
+  },
+  {
+    "word": "opposition",
+    "base": "oppose",
+    "family-note": "oppose(反對)的名詞 → opposition(反對)",
+    "reason": "oppose 在 vocab"
+  },
+  {
+    "word": "oppression",
+    "base": "oppress",
+    "family-note": "oppress(壓迫)的名詞 → oppression(壓迫)",
+    "reason": "oppress 在 vocab"
+  },
+  {
+    "word": "organizer",
+    "base": "organize",
+    "family-note": "organize(組織)的人 → organizer(組織者)",
+    "reason": "organize 在 vocab"
+  },
+  {
+    "word": "originate",
+    "base": "origin",
+    "family-note": "origin(起源)+ate → originate(發源)",
+    "reason": "origin 在 vocab"
+  },
+  {
+    "word": "ownership",
+    "base": "owner",
+    "family-note": "owner(擁有者)+ship → ownership(所有權)",
+    "reason": "owner 在 vocab"
+  },
+  {
+    "word": "passage",
+    "base": "pass",
+    "family-note": "pass(經過)+age → passage(通行)",
+    "reason": "pass 在 vocab"
+  },
+  {
+    "word": "patience",
+    "base": "patient",
+    "family-note": "patient(耐心的)的名詞 → patience(耐心)",
+    "reason": "patient 在 vocab"
+  },
+  {
+    "word": "pavement",
+    "base": "pave",
+    "family-note": "pave(鋪設)的名詞 → pavement(人行道)",
+    "reason": "pave 在 vocab"
+  },
+  {
+    "word": "perfection",
+    "base": "perfect",
+    "family-note": "perfect(完美的)的名詞 → perfection(完美)",
+    "reason": "perfect 在 vocab"
+  },
+  {
+    "word": "permission",
+    "base": "permit",
+    "family-note": "permit(允許)的名詞 → permission(允許)",
+    "reason": "permit 在 vocab"
+  },
+  {
+    "word": "persistence",
+    "base": "persist",
+    "family-note": "persist(堅持)的名詞 → persistence(堅持)",
+    "reason": "persist 在 vocab"
+  },
+  {
+    "word": "persistent",
+    "base": "persist",
+    "family-note": "persist(堅持)的形容詞 → persistent(堅持不懈的)",
+    "reason": "persist 在 vocab"
+  },
+  {
+    "word": "personality",
+    "base": "person",
+    "family-note": "person(個人)+ality → personality(個性)",
+    "reason": "person 在 vocab"
+  },
+  {
+    "word": "pianist",
+    "base": "piano",
+    "family-note": "piano(鋼琴)+ist → pianist(鋼琴家)",
+    "reason": "piano 在 vocab"
+  },
+  {
+    "word": "poisonous",
+    "base": "poison",
+    "family-note": "poison(毒)+ous → poisonous(有毒的)",
+    "reason": "poison 在 vocab"
+  },
+  {
+    "word": "popularity",
+    "base": "popular",
+    "family-note": "popular(受歡迎的)+ity → popularity(受歡迎程度)",
+    "reason": "popular 在 vocab"
+  },
+  {
+    "word": "possession",
+    "base": "possess",
+    "family-note": "possess(擁有)的名詞 → possession(擁有)",
+    "reason": "possess 在 vocab"
+  },
+  {
+    "word": "preferable",
+    "base": "prefer",
+    "family-note": "prefer(偏好)+able → preferable(更好的)",
+    "reason": "prefer 在 vocab"
+  },
+  {
+    "word": "preference",
+    "base": "prefer",
+    "family-note": "prefer(偏好)的名詞 → preference(偏好)",
+    "reason": "prefer 在 vocab"
+  },
+  {
+    "word": "pregnancy",
+    "base": "pregnant",
+    "family-note": "pregnant(懷孕的)的名詞 → pregnancy(懷孕)",
+    "reason": "pregnant 在 vocab"
+  },
+  {
+    "word": "preparation",
+    "base": "prepare",
+    "family-note": "prepare(準備)的名詞 → preparation(準備)",
+    "reason": "prepare 在 vocab"
+  },
+  {
+    "word": "preservation",
+    "base": "preserve",
+    "family-note": "preserve(保護)的名詞 → preservation(保護)",
+    "reason": "preserve 在 vocab"
+  },
+  {
+    "word": "prevention",
+    "base": "prevent",
+    "family-note": "prevent(預防)的名詞 → prevention(預防)",
+    "reason": "prevent 在 vocab"
+  },
+  {
+    "word": "production",
+    "base": "produce",
+    "family-note": "produce(生產)的名詞 → production(生產)",
+    "reason": "produce 在 vocab"
+  },
+  {
+    "word": "productive",
+    "base": "produce",
+    "family-note": "produce(生產)的形容詞 → productive(生產的)",
+    "reason": "produce 在 vocab"
+  },
+  {
+    "word": "profession",
+    "base": "profess",
+    "family-note": "profess(聲稱)的名詞 → profession(職業)",
+    "reason": "profess 在 vocab"
+  },
+  {
+    "word": "profitable",
+    "base": "profit",
+    "family-note": "profit(利益)+able → profitable(有利的)",
+    "reason": "profit 在 vocab"
+  },
+  {
+    "word": "prohibition",
+    "base": "prohibit",
+    "family-note": "prohibit(禁止)的名詞 → prohibition(禁止)",
+    "reason": "prohibit 在 vocab"
+  },
+  {
+    "word": "projection",
+    "base": "project",
+    "family-note": "project(計畫)的名詞 → projection(設計)",
+    "reason": "project 在 vocab"
+  },
+  {
+    "word": "promising",
+    "base": "promise",
+    "family-note": "promise(承諾)+ing → promising(有希望的)",
+    "reason": "promise 在 vocab"
+  },
+  {
+    "word": "pronunciation",
+    "base": "pronounce",
+    "family-note": "pronounce(發音)的名詞 → pronunciation(發音)",
+    "reason": "pronounce 在 vocab"
+  },
+  {
+    "word": "prosperous",
+    "base": "prosper",
+    "family-note": "prosper(繁榮)+ous → prosperous(興旺的)",
+    "reason": "prosper 在 vocab"
+  },
+  {
+    "word": "protection",
+    "base": "protect",
+    "family-note": "protect(保護)的名詞 → protection(保護)",
+    "reason": "protect 在 vocab"
+  },
+  {
+    "word": "protective",
+    "base": "protect",
+    "family-note": "protect(保護)+ive → protective(保護的)",
+    "reason": "protect 在 vocab"
+  },
+  {
+    "word": "purify",
+    "base": "pure",
+    "family-note": "pure(純淨的)+ify → purify(淨化)",
+    "reason": "pure 在 vocab"
+  },
+  {
+    "word": "purity",
+    "base": "pure",
+    "family-note": "pure(純淨的)的名詞 → purity(純淨)",
+    "reason": "pure 在 vocab"
+  },
+  {
+    "word": "qualification",
+    "base": "qualify",
+    "family-note": "qualify(取得資格)的名詞 → qualification(資格)",
+    "reason": "qualify 在 vocab"
+  },
+  {
+    "word": "reaction",
+    "base": "react",
+    "family-note": "react(反應)的名詞 → reaction(反應)",
+    "reason": "react 在 vocab"
+  },
+  {
+    "word": "reasonable",
+    "base": "reason",
+    "family-note": "reason(理由)+able → reasonable(合理的)",
+    "reason": "reason 在 vocab"
+  },
+  {
+    "word": "receiver",
+    "base": "receive",
+    "family-note": "receive(收到)的人 → receiver(收件人)",
+    "reason": "receive 在 vocab"
+  },
+  {
+    "word": "recommendation",
+    "base": "recommend",
+    "family-note": "recommend(推薦)的名詞 → recommendation(推薦)",
+    "reason": "recommend 在 vocab"
+  },
+  {
+    "word": "recorder",
+    "base": "record",
+    "family-note": "record(記錄)的人 → recorder(記錄者)",
+    "reason": "record 在 vocab"
+  },
+  {
+    "word": "refer",
+    "base": "reference",
+    "family-note": "reference(參考)的動詞 → refer(提到)",
+    "reason": "reference 在 vocab"
+  },
+  {
+    "word": "reflection",
+    "base": "reflect",
+    "family-note": "reflect(反射)的名詞 → reflection(反射)",
+    "reason": "reflect 在 vocab"
+  },
+  {
+    "word": "refresh",
+    "base": "fresh",
+    "family-note": "re(再)+fresh(新鮮)→ refresh(使恢復)",
+    "reason": "fresh 在 vocab"
+  },
+  {
+    "word": "refusal",
+    "base": "refuse",
+    "family-note": "refuse(拒絕)的名詞 → refusal(拒絕)",
+    "reason": "refuse 在 vocab"
+  },
+  {
+    "word": "regional",
+    "base": "region",
+    "family-note": "region(區域)+al → regional(地區的)",
+    "reason": "region 在 vocab"
+  },
+  {
+    "word": "rejection",
+    "base": "reject",
+    "family-note": "reject(拒絕)的名詞 → rejection(拒絕)",
+    "reason": "reject 在 vocab"
+  },
+  {
+    "word": "relaxation",
+    "base": "relax",
+    "family-note": "relax(放鬆)的名詞 → relaxation(放鬆)",
+    "reason": "relax 在 vocab"
+  },
+  {
+    "word": "remarkable",
+    "base": "remark",
+    "family-note": "remark(評論)+able → remarkable(值得注意的)",
+    "reason": "remark 在 vocab"
+  },
+  {
+    "word": "replacement",
+    "base": "replace",
+    "family-note": "replace(取代)的名詞 → replacement(取代)",
+    "reason": "replace 在 vocab"
+  },
+  {
+    "word": "representative",
+    "base": "represent",
+    "family-note": "represent(代表)+ative → representative(代表)",
+    "reason": "represent 在 vocab"
+  },
+  {
+    "word": "resemblance",
+    "base": "resemble",
+    "family-note": "resemble(相似)的名詞 → resemblance(相似)",
+    "reason": "resemble 在 vocab"
+  },
+  {
+    "word": "residence",
+    "base": "reside",
+    "family-note": "reside(居住)的名詞 → residence(住所)",
+    "reason": "reside 在 vocab"
+  },
+  {
+    "word": "resignation",
+    "base": "resign",
+    "family-note": "resign(辭職)的名詞 → resignation(辭職)",
+    "reason": "resign 在 vocab"
+  },
+  {
+    "word": "resistance",
+    "base": "resist",
+    "family-note": "resist(抵抗)的名詞 → resistance(抵抗)",
+    "reason": "resist 在 vocab"
+  },
+  {
+    "word": "respectable",
+    "base": "respect",
+    "family-note": "respect(尊敬)+able → respectable(可尊敬的)",
+    "reason": "respect 在 vocab"
+  },
+  {
+    "word": "respectful",
+    "base": "respect",
+    "family-note": "respect(尊敬)+ful → respectful(恭敬的)",
+    "reason": "respect 在 vocab"
+  },
+  {
+    "word": "responsibility",
+    "base": "responsible",
+    "family-note": "responsible(負責任的)的名詞 → responsibility(責任)",
+    "reason": "responsible 在 vocab"
+  },
+  {
+    "word": "restoration",
+    "base": "restore",
+    "family-note": "restore(恢復)的名詞 → restoration(恢復)",
+    "reason": "restore 在 vocab"
+  },
+  {
+    "word": "restriction",
+    "base": "restrict",
+    "family-note": "restrict(限制)的名詞 → restriction(限制)",
+    "reason": "restrict 在 vocab"
+  },
+  {
+    "word": "revision",
+    "base": "revise",
+    "family-note": "revise(修訂)的名詞 → revision(修訂)",
+    "reason": "revise 在 vocab"
+  },
+  {
+    "word": "rotten",
+    "base": "rot",
+    "family-note": "rot(腐爛)+ten → rotten(腐爛的)",
+    "reason": "rot 在 vocab"
+  },
+  {
+    "word": "satisfaction",
+    "base": "satisfy",
+    "family-note": "satisfy(滿足)的名詞 → satisfaction(滿意)",
+    "reason": "satisfy 在 vocab"
+  },
+  {
+    "word": "satisfactory",
+    "base": "satisfy",
+    "family-note": "satisfy(滿足)+ory → satisfactory(令人滿意的)",
+    "reason": "satisfy 在 vocab"
+  },
+  {
+    "word": "sensation",
+    "base": "sense",
+    "family-note": "sense(感官)+ation → sensation(感覺)",
+    "reason": "sense 在 vocab"
+  },
+  {
+    "word": "silence",
+    "base": "silent",
+    "family-note": "silent(寂靜的)的名詞 → silence(寂靜)",
+    "reason": "silent 在 vocab"
+  },
+  {
+    "word": "skilled",
+    "base": "skill",
+    "family-note": "skill(技術)+ed → skilled(熟練的)",
+    "reason": "skill 在 vocab"
+  },
+  {
+    "word": "society",
+    "base": "social",
+    "family-note": "與 social 同字根 → society(社會)",
+    "reason": "social 在 vocab"
+  },
+  {
+    "word": "solution",
+    "base": "solve",
+    "family-note": "solve(解決)的名詞 → solution(解答)",
+    "reason": "solve 在 vocab"
+  },
+  {
+    "word": "spelling",
+    "base": "spell",
+    "family-note": "spell(拼寫)+ing → spelling(拼字)",
+    "reason": "spell 在 vocab"
+  },
+  {
+    "word": "spread",
+    "base": "widespread",
+    "family-note": "與 widespread 同字根 → spread(伸展)",
+    "reason": "widespread 在 vocab"
+  },
+  {
+    "word": "success",
+    "base": "succeed",
+    "family-note": "succeed(成功)的名詞 → success(成就)",
+    "reason": "succeed 在 vocab"
+  },
+  {
+    "word": "successful",
+    "base": "success",
+    "family-note": "success(成功)+ful → successful(成功的)",
+    "reason": "success 在 vocab"
+  },
+  {
+    "word": "surge",
+    "base": "resurge",
+    "family-note": "surge(激增)為 resurge 同字根",
+    "reason": "皆源自 surgere(上升)"
+  },
+  {
+    "word": "survival",
+    "base": "survive",
+    "family-note": "survive(倖存)的名詞 → survival(倖存)",
+    "reason": "survive 在 vocab"
+  },
+  {
+    "word": "tasty",
+    "base": "taste",
+    "family-note": "taste(味道)+y → tasty(美味的)",
+    "reason": "taste 在 vocab"
+  },
+  {
+    "word": "teenager",
+    "base": "teenage",
+    "family-note": "teenage(青少年時期)的人 → teenager(青年)",
+    "reason": "teenage 在 vocab"
+  },
+  {
+    "word": "television",
+    "base": "tv",
+    "family-note": "television(電視)縮寫為 tv",
+    "reason": "tv 在 vocab"
+  },
+  {
+    "word": "thirsty",
+    "base": "thirst",
+    "family-note": "thirst(口渴)+y → thirsty(口乾的)",
+    "reason": "thirst 在 vocab"
+  },
+  {
+    "word": "upstairs",
+    "base": "stair",
+    "family-note": "up(上)+stair(階梯)→ upstairs(在樓上)",
+    "reason": "stair 在 vocab"
+  },
+  {
+    "word": "useful",
+    "base": "use",
+    "family-note": "use(使用)+ful → useful(有用的)",
+    "reason": "use 在 vocab"
+  },
+  {
+    "word": "user",
+    "base": "use",
+    "family-note": "use(使用)的人 → user(使用者)",
+    "reason": "use 在 vocab"
+  },
+  {
+    "word": "valuable",
+    "base": "value",
+    "family-note": "value(價值)+able → valuable(值錢的)",
+    "reason": "value 在 vocab"
+  },
+  {
+    "word": "visitor",
+    "base": "visit",
+    "family-note": "visit(參觀)的人 → visitor(參觀者)",
+    "reason": "visit 在 vocab"
+  },
+  {
+    "word": "wonderful",
+    "base": "wonder",
+    "family-note": "wonder(奇蹟)+ful → wonderful(極好的)",
+    "reason": "wonder 在 vocab"
+  },
+  {
+    "word": "worse",
+    "base": "bad",
+    "family-note": "bad(壞的)的比較級 → worse(更壞的)",
+    "reason": "bad 在 vocab"
+  },
+  {
+    "word": "worst",
+    "base": "bad",
+    "family-note": "bad(壞的)的最高級 → worst(最壞的)",
+    "reason": "bad 在 vocab"
+  },
+  {
+    "word": "yawn",
+    "base": "yawning",
+    "family-note": "yawn(打哈欠)的名詞 → yawning",
+    "reason": "動名 pair"
+  },
+  {
+    "word": "discomfort",
+    "base": "comfort",
+    "family-note": "dis(否定)+comfort(舒適)→ discomfort(不舒適)",
+    "reason": "comfort 在 vocab"
+  },
+  {
+    "word": "disconnect",
+    "base": "connect",
+    "family-note": "dis(否定)+connect(連接)→ disconnect(切斷)",
+    "reason": "connect 在 vocab"
+  },
+  {
+    "word": "distrust",
+    "base": "trust",
+    "family-note": "dis(否定)+trust(信任)→ distrust(不信任)",
+    "reason": "trust 在 vocab"
+  },
+  {
+    "word": "disable",
+    "base": "able",
+    "family-note": "dis(否定)+able(能)→ disable(使失去能力)",
+    "reason": "able 在 vocab"
+  },
+  {
+    "word": "disapprove",
+    "base": "approve",
+    "family-note": "dis(否定)+approve(贊成)→ disapprove(不贊同)",
+    "reason": "approve 在 vocab"
+  },
+  {
+    "word": "disastrous",
+    "base": "disaster",
+    "family-note": "disaster(災難)的形容詞 → disastrous(災難的)",
+    "reason": "disaster 在 vocab"
+  },
+  {
+    "word": "disgraceful",
+    "base": "disgrace",
+    "family-note": "disgrace(丟臉)+ful → disgraceful(不名譽的)",
+    "reason": "disgrace 在 vocab"
+  },
+  {
+    "word": "dispensable",
+    "base": "dispense",
+    "family-note": "dispense(分配)+able → dispensable(非必要的)",
+    "reason": "dispense 在 vocab"
+  },
+  {
+    "word": "disposable",
+    "base": "dispose",
+    "family-note": "dispose(處理)+able → disposable(可任意處理的)",
+    "reason": "dispose 在 vocab"
+  },
+  {
+    "word": "disposal",
+    "base": "dispose",
+    "family-note": "dispose(處理)的名詞 → disposal(處理)",
+    "reason": "dispose 在 vocab"
+  },
+  {
+    "word": "disturbance",
+    "base": "disturb",
+    "family-note": "disturb(打擾)的名詞 → disturbance(擾亂)",
+    "reason": "disturb 在 vocab"
+  },
+  {
+    "word": "diversify",
+    "base": "diverse",
+    "family-note": "diverse(多樣的)+ify → diversify(使多樣化)",
+    "reason": "diverse 在 vocab"
+  },
+  {
+    "word": "diversion",
+    "base": "divert",
+    "family-note": "divert(轉移)的名詞 → diversion(轉移)",
+    "reason": "divert 在 vocab"
+  },
+  {
+    "word": "donation",
+    "base": "donate",
+    "family-note": "donate(捐贈)的名詞 → donation(捐贈)",
+    "reason": "donate 在 vocab"
+  },
+  {
+    "word": "donor",
+    "base": "donate",
+    "family-note": "donate(捐贈)的人 → donor(捐贈者)",
+    "reason": "donate 在 vocab"
+  },
+  {
+    "word": "educate",
+    "base": "education",
+    "family-note": "education(教育)的動詞 → educate(教育)",
+    "reason": "education 在 vocab"
+  },
+  {
+    "word": "educational",
+    "base": "education",
+    "family-note": "education(教育)+al → educational(教育的)",
+    "reason": "education 在 vocab"
+  },
+  {
+    "word": "emigrant",
+    "base": "emigrate",
+    "family-note": "emigrate(移居)的人 → emigrant(移民)",
+    "reason": "emigrate 在 vocab"
+  },
+  {
+    "word": "emigration",
+    "base": "emigrate",
+    "family-note": "emigrate(移居)的名詞 → emigration(移居)",
+    "reason": "emigrate 在 vocab"
+  },
+  {
+    "word": "enclosure",
+    "base": "enclose",
+    "family-note": "enclose(圍住)的名詞 → enclosure(圍欄)",
+    "reason": "enclose 在 vocab"
+  },
+  {
+    "word": "enlargement",
+    "base": "enlarge",
+    "family-note": "enlarge(放大)的名詞 → enlargement(放大)",
+    "reason": "enlarge 在 vocab"
+  },
+  {
+    "word": "enrichment",
+    "base": "enrich",
+    "family-note": "enrich(豐富)的名詞 → enrichment(豐富)",
+    "reason": "enrich 在 vocab"
+  },
+  {
+    "word": "establishment",
+    "base": "establish",
+    "family-note": "establish(建立)的名詞 → establishment(建立)",
+    "reason": "establish 在 vocab"
+  },
+  {
+    "word": "expiration",
+    "base": "expire",
+    "family-note": "expire(滿期)的名詞 → expiration(終結)",
+    "reason": "expire 在 vocab"
+  },
+  {
+    "word": "explanation",
+    "base": "explain",
+    "family-note": "explain(解釋)的名詞 → explanation(說明)",
+    "reason": "explain 在 vocab"
+  },
+  {
+    "word": "explosive",
+    "base": "explode",
+    "family-note": "explode(爆炸)的形容詞 → explosive(爆炸的)",
+    "reason": "explode 在 vocab"
+  },
+  {
+    "word": "expression",
+    "base": "express",
+    "family-note": "express(表達)的名詞 → expression(表達)",
+    "reason": "express 在 vocab"
+  },
+  {
+    "word": "expressive",
+    "base": "express",
+    "family-note": "express(表達)+ive → expressive(表現的)",
+    "reason": "express 在 vocab"
+  },
+  {
+    "word": "exposure",
+    "base": "expose",
+    "family-note": "expose(暴露)的名詞 → exposure(暴露)",
+    "reason": "expose 在 vocab"
+  },
+  {
+    "word": "familiarity",
+    "base": "familiar",
+    "family-note": "familiar(熟悉的)的名詞 → familiarity(熟悉)",
+    "reason": "familiar 在 vocab"
+  },
+  {
+    "word": "fascination",
+    "base": "fascinate",
+    "family-note": "fascinate(使著迷)的名詞 → fascination(魅力)",
+    "reason": "fascinate 在 vocab"
+  },
+  {
+    "word": "fertility",
+    "base": "fertile",
+    "family-note": "fertile(肥沃的)的名詞 → fertility(肥沃)",
+    "reason": "fertile 在 vocab"
+  },
+  {
+    "word": "foresee",
+    "base": "see",
+    "family-note": "fore(前)+see(看)→ foresee(預見)",
+    "reason": "see 在 vocab"
+  },
+  {
+    "word": "forgetful",
+    "base": "forget",
+    "family-note": "forget(忘記)+ful → forgetful(健忘的)",
+    "reason": "forget 在 vocab"
+  },
+  {
+    "word": "formation",
+    "base": "form",
+    "family-note": "form(形式)+ation → formation(形成)",
+    "reason": "form 在 vocab"
+  },
+  {
+    "word": "fortunate",
+    "base": "fortune",
+    "family-note": "fortune(命運)+ate → fortunate(幸運的)",
+    "reason": "fortune 在 vocab"
+  },
+  {
+    "word": "fragrance",
+    "base": "fragrant",
+    "family-note": "fragrant(芳香的)的名詞 → fragrance(芬芳)",
+    "reason": "fragrant 在 vocab"
+  },
+  {
+    "word": "frustration",
+    "base": "frustrate",
+    "family-note": "frustrate(挫敗)的名詞 → frustration(挫折)",
+    "reason": "frustrate 在 vocab"
+  },
+  {
+    "word": "fulfillment",
+    "base": "fulfill",
+    "family-note": "fulfill(實現)的名詞 → fulfillment(履行)",
+    "reason": "fulfill 在 vocab"
+  },
+  {
+    "word": "generator",
+    "base": "generate",
+    "family-note": "generate(產生)的工具 → generator(發電機)",
+    "reason": "generate 在 vocab"
+  },
+  {
+    "word": "glorify",
+    "base": "glory",
+    "family-note": "glory(光榮)+ify → glorify(頌揚)",
+    "reason": "glory 在 vocab"
+  },
+  {
+    "word": "glorious",
+    "base": "glory",
+    "family-note": "glory(光榮)+ous → glorious(光榮的)",
+    "reason": "glory 在 vocab"
+  },
+  {
+    "word": "gracious",
+    "base": "grace",
+    "family-note": "grace(優美)+ious → gracious(親切的)",
+    "reason": "grace 在 vocab"
+  },
+  {
+    "word": "gradual",
+    "base": "graduate",
+    "family-note": "與 graduate 同字根 grad-(階梯)→ gradual(逐漸的)",
+    "reason": "皆源自 gradus"
+  },
+  {
+    "word": "grammatical",
+    "base": "grammar",
+    "family-note": "grammar(文法)+ical → grammatical(文法的)",
+    "reason": "grammar 在 vocab"
+  },
+  {
+    "word": "healthful",
+    "base": "health",
+    "family-note": "health(健康)+ful → healthful(有益健康的)",
+    "reason": "health 在 vocab"
+  },
+  {
+    "word": "hesitation",
+    "base": "hesitate",
+    "family-note": "hesitate(猶豫)的名詞 → hesitation(躊躇)",
+    "reason": "hesitate 在 vocab"
+  },
+  {
+    "word": "honorable",
+    "base": "honor",
+    "family-note": "honor(榮譽)+able → honorable(可尊敬的)",
+    "reason": "honor 在 vocab"
+  },
+  {
+    "word": "horrify",
+    "base": "horror",
+    "family-note": "horror(恐懼)+ify → horrify(使恐懼)",
+    "reason": "horror 在 vocab"
+  },
+  {
+    "word": "humanity",
+    "base": "human",
+    "family-note": "human(人)+ity → humanity(人性)",
+    "reason": "human 在 vocab"
+  },
+  {
+    "word": "identification",
+    "base": "identify",
+    "family-note": "identify(辨認)的名詞 → identification(認出)",
+    "reason": "identify 在 vocab"
+  },
+  {
+    "word": "imitation",
+    "base": "imitate",
+    "family-note": "imitate(模仿)的名詞 → imitation(模仿)",
+    "reason": "imitate 在 vocab"
+  },
+  {
+    "word": "imagination",
+    "base": "imagine",
+    "family-note": "imagine(想像)的名詞 → imagination(想像力)",
+    "reason": "imagine 在 vocab"
+  },
+  {
+    "word": "impression",
+    "base": "impress",
+    "family-note": "impress(印象)的名詞 → impression(印象)",
+    "reason": "impress 在 vocab"
+  },
+  {
+    "word": "impressive",
+    "base": "impress",
+    "family-note": "impress(印象)+ive → impressive(深刻的)",
+    "reason": "impress 在 vocab"
+  },
+  {
+    "word": "inhabitant",
+    "base": "inhabit",
+    "family-note": "inhabit(居住)的人 → inhabitant(居民)",
+    "reason": "inhabit 在 vocab"
+  }
 ]
