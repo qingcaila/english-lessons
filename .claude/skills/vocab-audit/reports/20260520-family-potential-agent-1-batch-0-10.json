@@ -1,11 +1,5 @@
 [
   {
-    "word": "shower",
-    "base": "show",
-    "family-note": "shower ← show(-er 表人/物)",
-    "reason": "-er 名詞"
-  },
-  {
     "word": "dresser",
     "base": "dress",
     "family-note": "dresser ← dress(-er 表人/物)",
@@ -28,12 +22,6 @@
     "base": "journal",
     "family-note": "journalist ← journal(-ist 表人)",
     "reason": "-ist 名詞"
-  },
-  {
-    "word": "coaster",
-    "base": "coast",
-    "family-note": "coaster ← coast(-er 表人/物)",
-    "reason": "-er 名詞"
   },
   {
     "word": "saucer",
