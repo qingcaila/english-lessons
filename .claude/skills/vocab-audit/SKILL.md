@@ -84,6 +84,15 @@ Vocab 自上次檢查:[沒變動 / 變動了 X 字]
 2. 列給學習者確認
 3. 套用後跑 `scripts/update_history.py {check_type}` 紀錄這次跑的 hash + issue 數 + report 路徑
 
+## Layer 1 規則式檢查項目(秒級)
+
+| Check ID | 用途 | 自動寫入 vocab? | 腳本 |
+|---|---|---|---|
+| `L1-all` | 14 項機器規則:欄位完整 / chunks 合法 / theme/stage / 重複 / 亂符號等 | 否,只報告 | `run_layer1.py` |
+| `L1-silent-letter` | 規則式偵測不發音字母(13 群,kn-/wr-/-mb/gh/-stle 等) | `--apply` 可寫入 | `run_silent_letter.py` |
+
+> **L1 vs L2 差別**:L1 是 deterministic(同 vocab 同結果),L2 要 AI 判斷(同 vocab 跑兩次結果可能不同)。L1 適合做「規則明確的標籤補齊」,L2 做「需要語義判斷的審查」。
+
 ## 12 項 Layer 2 AI 檢查項目
 
 | Check ID | 用途 | 建議頻率 |

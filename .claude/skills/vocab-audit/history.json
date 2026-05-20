@@ -1,5 +1,5 @@
 {
-  "vocab_hash_current": "488888dc21839ecc10788850902e766d495c8d383f230f5c71de68b211f86c56",
+  "vocab_hash_current": "482eaa605c7b3d5651c7cc99befd2e1e67c67c11d6000e591ec41d711441cf57",
   "checks": {
     "L1-all": {
       "last_run": "2026-05-15T11:17:20",
@@ -82,6 +82,14 @@
       "fixes_applied": 167,
       "agent_count": 7,
       "report": "reports/2026-05-15-family-note-consistency.md"
+    },
+    "L1-silent-letter": {
+      "last_run": "2026-05-20T04:57:48",
+      "vocab_hash": "482eaa605c7b3d5651c7cc99befd2e1e67c67c11d6000e591ec41d711441cf57",
+      "issues_found": 0,
+      "fixes_applied": 0,
+      "tagged_total": 257,
+      "report": "reports/20260520-L1-silent-letter.json"
     }
   },
   "_note": "history.json 由 scripts/run_layer1.py / update_history.py 自動更新。手動編輯前請先備份。method 欄位選填,標示用何種方法跑(規則 vs AI 全字)。"
