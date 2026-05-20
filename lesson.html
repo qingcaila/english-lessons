@@ -166,7 +166,8 @@
       "num wordline meaning actions"
       "img split    meaning actions"
       "family family family actions"
-      "homo   homo   homo   actions";
+      "homo   homo   homo   actions"
+      "silent silent silent actions";
     column-gap: 5px; row-gap: 1px;
     align-items: center;
     min-height: calc(72px * var(--fs-scale));
@@ -203,6 +204,22 @@
     line-height: 1.3;
     border-left: 2px solid #d4a72c;
   }
+  .silent-line {
+    grid-area: silent;
+    font-size: calc(11px * var(--fs-scale));
+    color: #6b4ba8;
+    background: #ece4f7;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-top: 2px;
+    width: fit-content;
+    max-width: 100%;
+    cursor: pointer;
+    line-height: 1.3;
+    border-left: 2px solid #8b6cc7;
+  }
+  .silent-line:hover { background: #d8c9eb; }
+  .silent-line .count { color: #6b4ba8aa; margin-left: 4px; }
   /* split 內 note 允許自由換行,卡片高度隨內容 */
   .split { word-wrap: break-word; white-space: normal; }
   tbody tr.is-review { border-left: 3px solid var(--accent); }
@@ -518,6 +535,55 @@ function closeVoiceModal() {
   document.getElementById("voiceModal").classList.remove("show");
 }
 
+// Silent letter 分類 → label
+const SILENT_LABELS = {
+  "k":     "🤐 silent k (kn-)",
+  "w":     "🤐 silent w (wr-)",
+  "b-mb":  "🤐 silent b (-mb)",
+  "b-bt":  "🤐 silent b (bt)",
+  "l":     "🤐 silent l",
+  "h":     "🤐 silent h",
+  "gh":    "🤐 silent gh (igh/eigh/ough)",
+  "g":     "🤐 silent g (gn)",
+  "t":     "🤐 silent t (stle/sten)",
+  "p":     "🤐 silent p (ps-/pn-)",
+  "n":     "🤐 silent n (-mn)",
+  "s":     "🤐 silent s (isl-)",
+  "gh-f":  "🔉 gh 唸 /f/ (不規則)",
+};
+function silentLabel(key) { return SILENT_LABELS[key] || ("🤐 silent " + key); }
+
+// 預算各 silent letter 群組字數
+let SILENT_GROUP_COUNTS = {};
+function computeSilentCounts() {
+  SILENT_GROUP_COUNTS = {};
+  for (const v of VOCAB) {
+    const k = v["silent-letter"];
+    if (k) SILENT_GROUP_COUNTS[k] = (SILENT_GROUP_COUNTS[k] || 0) + 1;
+  }
+}
+function silentChipText(key) {
+  const cnt = SILENT_GROUP_COUNTS[key] || 0;
+  return silentLabel(key) + ` · 共 ${cnt} 字`;
+}
+
+// 點 silent chip → 列出同類所有字
+function showSilentGroup(key, ev) {
+  if (ev) ev.stopPropagation();
+  if (!VOCAB || VOCAB.length === 0) {
+    alert("vocab 尚未載入完成");
+    return;
+  }
+  const sameGroup = VOCAB.filter(v => v["silent-letter"] === key);
+  const label = silentLabel(key);
+  const total = sameGroup.length;
+  // 排序:Stage 低先 → 字母順序
+  sameGroup.sort((a, b) => (a.stage - b.stage) || a.word.localeCompare(b.word));
+  const list = sameGroup.map(v => `  ${v.word.padEnd(20)} ${v.mean}`).join("\n");
+  const msg = `${label}\n本字典共 ${total} 字\n──────────────────\n${list}\n──────────────────\n💡 規則:這些字共用同一個「${key.replace('-','/')}」不發音模式,學會一個就能類推其他。`;
+  alert(msg);
+}
+
 // 回到頂部 — 滾超過 300px 才顯示按鈕
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -538,6 +604,7 @@ async function loadData() {
     fetch("themes.json").then(r => r.json())
   ]);
   VOCAB = v.words;
+  computeSilentCounts();
   return { vocab: v, themes: t };
 }
 
@@ -637,6 +704,9 @@ function render() {
     const homoHtml = w['homophone-note']
       ? `<td class="homophone-line">${w['homophone-note']}</td>`
       : '';
+    const silentHtml = w['silent-letter']
+      ? `<td class="silent-line" onclick="showSilentGroup('${w['silent-letter']}', event)">${silentChipText(w['silent-letter'])}</td>`
+      : '';
     tr.innerHTML = `
       <td class="num">${w.n}${w.isReview ? '<span class="repeat-mark">🔁</span>' : ""}</td>
       <td class="meaning">
@@ -656,6 +726,7 @@ function render() {
       </td>
       ${familyHtml}
       ${homoHtml}
+      ${silentHtml}
     `;
     tbody.appendChild(tr);
   });
