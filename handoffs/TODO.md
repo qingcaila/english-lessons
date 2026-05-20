@@ -153,6 +153,57 @@
 - [ ] L2-pinyin(AI 不擅長注音判斷)
 - [ ] L2-tip-coverage(vocab 沒對應 `tip` 欄位)
 
+### 2026-05-20 大規模 vocab 品質審查 + silent-letter 系統化
+
+用 vocab-audit skill 對 10,101 字做接近完整的 14 項 audit 全掃。
+
+**今日總成果一覽**
+
+| 項目 | 改動字數 |
+|------|---------|
+| 🤐 silent-letter 新欄位 + UI(13 群) | **+257** |
+| L2-pinyin R1+R2 注音再審查(含 schwa 弱讀) | **2,166** |
+| L2-emoji-fit emoji 配字義 | **775** |
+| L2-chunks-phonics chunks 拆字 | **648** |
+| L2-translation 翻譯漏主意思 | **458** |
+| L2-family-potential 漏網家族線 | **222** |
+| L2-pos-consistency 詞性 / 多義漏 | **126** |
+| L2-stage-fit 階級不合 | **112** |
+| L2-theme-fit 主題分類錯 | **99** |
+| L2-family-note-consistency(改+移除假家族)| **97** |
+| L2-tip-coverage 不規則字漏 💡 | **40** |
+| L2-modernization(graduate 損壞字串等)| **2** |
+| **合計獨立修正字數** | **~5,002 unique 字**(因有重複交集) |
+
+**新增 UI / 資料欄位**
+
+- [x] 卡片新增 🤐 silent letter chip(淡紫,grid 加 silent area)
+- [x] 點 chip 跳 alert 顯示同類所有字(動態統計每群字數)
+- [x] help.html §6 加 silent letter 教學節
+- [x] vocab.json 加 `silent-letter` 欄位(257 字 / 13 群)
+- [x] vocab.json `py` 欄位升級加 schwa /ə/ 弱讀標記(ㄜ)
+- [x] script `tag_silent_letters.py` 整合進 vocab-audit skill 成
+      `L1-silent-letter`(規則式偵測,可重複跑)
+
+**新檢測流程確立**
+
+- [x] L1-silent-letter 加入 ALL_CHECKS,show_status.py 列入
+- [x] vocab-audit SKILL.md 新增 Layer 1 規則式檢查項目表
+- [x] prompts/pinyin.md 升級加 schwa 維度
+
+**Audit 報告留檔(可用於未來增量檢查)**
+
+- `.claude/skills/vocab-audit/reports/20260520-*.json` 共 40+ 檔
+  - 7 個 check 各有 7 agent 結果 + MERGED 合併檔
+  - 各 apply 前的 PRE-APPLY-BACKUP.json(可回滾)
+  - `apply_*.py` 腳本(emoji/chunks/pinyin/E)留作可重複跑
+
+**未做但可選**
+
+- [ ] split 欄位 phonics 規則註重生(D 套用後失去 (CVC)/(silent-e) 註)
+- [ ] vocab 大改動後實際使用一段時間,確認沒副作用
+- [ ] 後續加新字後跑 L1-silent-letter + L2-homophone-potential 增量檢查
+
 ### 2026-05-19 voice 選擇器 + 速度擴充 + UI 修正 + AI 全字掃 ⚠️ note
 
 延續 5/18 的發音線索,繼續打磨;晚上跑 vocab-audit AI 全字掃。
