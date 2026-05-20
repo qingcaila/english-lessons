@@ -472,30 +472,30 @@
  5970 | able                           | 能，可以                           | 💪        | chunks=['ab', 'le'] | py=ㄚㄅ-ㄌㄧ | theme=actions | stage=1
  5971 | about                          | 關於                             | 🏃        | chunks=['a', 'bout'] | py=ㄜ-ㄅㄠㄊ | theme=sight-words | stage=1
  5972 | according to                   | 根據                             | 🔗        | chunks=['ac', 'cor', 'ding', 'to'] | py=ㄚㄎㄎㄛㄜㄉㄧㄥ-ㄊㄛ | theme=phrasal-verbs | stage=1
- 5973 | act                            | 行動、扮演                          | 🎭        | chunks=['ac', 't'] | py=ㄚㄎ-ㄊㄧ | theme=actions | stage=1
- 5974 | address                        | 地址、演說、處理                       | 📮        | chunks=['ad', 'dress'] | py=ㄚㄉ-ㄉㄌㄝㄙ | theme=places | stage=1
- 5975 | airmail                        | 航空郵件                           | ✉️       | chunks=['air', 'mail'] | py=ㄟㄦ-ㄇㄝㄦ | theme=actions | stage=1
- 5976 | airplane                       | 飛機                             | ✈️       | chunks=['air', 'pla', 'ne'] | py=ㄟㄦ-ㄆㄌㄚ-ㄋㄧ | theme=transportation | stage=1
- 5977 | allow                          | 允許                             | ✅        | chunks=['al', 'low'] | py=ㄦ-ㄌㄛ | theme=actions | stage=1
- 5978 | almost                         | 幾乎                             | 🏃        | chunks=['al', 'most'] | py=ㄦ-ㄇㄛㄙㄊ | theme=sight-words | stage=1 [有易混提示]
- 5979 | alone                          | 單獨的                            | 🧍        | chunks=['a', 'lo', 'ne'] | py=ㄜ-ㄌㄛ-ㄋㄧ | theme=adjectives | stage=1 [有易混提示]
- 5980 | animal                         | 動物                             | 🐾        | chunks=['a', 'ni', 'mal'] | py=ㄜ-ㄋㄜ-ㄇㄜ | theme=animals | stage=1
+ 5973 | act                            | 行動、扮演                          | 🎭        | chunks=['ac', 't'] | py=ㄚㄎㄊ | theme=actions | stage=1
+ 5974 | address                        | 地址、演說、處理                       | 📮        | chunks=['ad', 'dress'] | py=ㄜ-ㄉㄖㄝㄙ | theme=places | stage=1
+ 5975 | airmail                        | 航空郵件                           | ✉️       | chunks=['air', 'mail'] | py=ㄝㄜ-ㄇㄟㄛ | theme=actions | stage=1
+ 5976 | airplane                       | 飛機                             | ✈️       | chunks=['air', 'pla', 'ne'] | py=ㄝㄜ-ㄆㄌㄟㄣ | theme=transportation | stage=1
+ 5977 | allow                          | 允許                             | ✅        | chunks=['al', 'low'] | py=ㄜ-ㄌㄠ | theme=actions | stage=1
+ 5978 | almost                         | 幾乎                             | 🏃        | chunks=['al', 'most'] | py=ㄛ-ㄇㄛㄙㄊ | theme=sight-words | stage=1 [有易混提示]
+ 5979 | alone                          | 單獨的                            | 🧍        | chunks=['a', 'lo', 'ne'] | py=ㄜ-ㄌㄛㄣ | theme=adjectives | stage=1 [有易混提示]
+ 5980 | animal                         | 動物                             | 🐾        | chunks=['a', 'ni', 'mal'] | py=ㄚ-ㄋㄜ-ㄇㄛ | theme=animals | stage=1
  5981 | anything                       | 任何東西                           | ❓        | chunks=['a', 'nyt', 'hing'] | py=ㄜ-ㄋㄧㄊ-ㄏㄧㄥ | theme=sight-words | stage=1
  5982 | appear                         | 出現                             | 👀        | chunks=['ap', 'pear'] | py=ㄚ-ㄆㄧㄜ | theme=actions | stage=1
- 5983 | art                            | 藝術                             | 🎨        | chunks=['ar', 't'] | py=ㄚㄦ-ㄊㄧ | theme=art | stage=1
+ 5983 | art                            | 藝術                             | 🎨        | chunks=['ar', 't'] | py=ㄚㄜㄊ | theme=art | stage=1
  5984 | auntie                         | 阿姨、姑姑、伯母                       | 👩        | chunks=['aun', 'tie'] | py=ㄛㄋ-ㄊㄧ | theme=family | stage=1
  5985 | aunty                          | 阿姨                             | 👩        | chunks=['aun', 'ty'] | py=ㄛㄋ-ㄊㄧ | theme=family | stage=1
  5986 | base                           | 基礎、基地                          | 🧱        | chunks=['ba', 'se'] | py=ㄅㄟ-ㄙㄜ | theme=actions | stage=1
  5987 | basic                          | 基礎的                            | 🧱        | chunks=['ba', 'sic'] | py=ㄅㄟ-ㄗㄧㄎ | theme=adjectives | stage=1
- 5988 | bath                           | 洗澡、浴缸                          | 🛁        | chunks=['b', 'ath'] | py=ㄅㄧ-ㄚㄙ | theme=bathroom | stage=1 [有易混提示]
- 5989 | bathe                          | 洗澡、沐浴                          | 🛁        | chunks=['bat', 'he'] | py=ㄅㄝ-ㄏㄝ | theme=bathroom | stage=1 [有易混提示]
- 5990 | bathroom                       | 浴室                             | 🚿        | chunks=['bat', 'hroom'] | py=ㄅㄝ-ㄏㄖㄨㄇ | theme=bathroom | stage=1
- 5991 | become                         | 成為                             | 🦋        | chunks=['be', 'co', 'me'] | py=ㄅㄧ-ㄎㄛ-ㄇㄝ | theme=actions | stage=1 base=become
- 5992 | believe                        | 相信                             | 🙏        | chunks=['be', 'lie', 've'] | py=ㄅㄧ-ㄌㄞ-ㄈㄜ | theme=actions | stage=1
+ 5988 | bath                           | 洗澡、浴缸                          | 🛁        | chunks=['b', 'ath'] | py=ㄅㄚㄙ | theme=bathroom | stage=1 [有易混提示]
+ 5989 | bathe                          | 洗澡、沐浴                          | 🛁        | chunks=['bat', 'he'] | py=ㄅㄟㄗ | theme=bathroom | stage=1 [有易混提示]
+ 5990 | bathroom                       | 浴室                             | 🚿        | chunks=['bat', 'hroom'] | py=ㄅㄚㄙ-ㄖㄨㄇ | theme=bathroom | stage=1
+ 5991 | become                         | 成為                             | 🦋        | chunks=['be', 'co', 'me'] | py=ㄅㄧ-ㄎㄚㄇ | theme=actions | stage=1 base=become
+ 5992 | believe                        | 相信                             | 🙏        | chunks=['be', 'lie', 've'] | py=ㄅㄧ-ㄌㄧㄈ | theme=actions | stage=1
  5993 | belong                         | 屬於                             | 🔗        | chunks=['be', 'long'] | py=ㄅㄧ-ㄌㄛㄥ | theme=actions | stage=1
- 5994 | best                           | 最好的                            | 🏆        | chunks=['b', 'est'] | py=ㄅㄧ-ㄝㄙㄊ | theme=adjectives | stage=1 base=good
+ 5994 | best                           | 最好的                            | 🏆        | chunks=['b', 'est'] | py=ㄅㄝㄙㄊ | theme=adjectives | stage=1 base=good
  5995 | better                         | 較好的                            | 👍        | chunks=['bet', 'ter'] | py=ㄅㄝㄊ-ㄊㄜ | theme=adjectives | stage=1 base=good
- 5996 | bite                           | 咬                              | 🦷        | chunks=['bi', 'te'] | py=ㄅㄞ-ㄊㄧ | theme=actions | stage=1
+ 5996 | bite                           | 咬                              | 🦷        | chunks=['bi', 'te'] | py=ㄅㄞㄊ | theme=actions | stage=1
  5997 | blow                           | 吹                              | 💨        | chunks=['bl', 'ow'] | py=ㄅㄌ-ㄛ | theme=actions | stage=1 [有易混提示]
- 5998 | born                           | 出生、天生的                         | 👶        | chunks=['b', 'orn'] | py=ㄅㄧ-ㄛㄜㄋ | theme=adjectives | stage=1 base=bear
- 5999 | box                            | 箱子                             | 📦        | chunks=['b', 'ox'] | py=ㄅㄧ-ㄚㄎ | theme=home-items | stage=1 [有易混提示]
+ 5998 | born                           | 出生、天生的                         | 👶        | chunks=['b', 'orn'] | py=ㄅㄛㄜㄣ | theme=adjectives | stage=1 base=bear
+ 5999 | box                            | 箱子                             | 📦        | chunks=['b', 'ox'] | py=ㄅㄚㄎㄙ | theme=home-items | stage=1 [有易混提示]

@@ -459,8 +459,8 @@
  2957 | paradoxically                  | 矛盾地                            | 🤔        | chunks=['par', 'a', 'dox', 'i', 'cal', 'ly'] | py=ㄆㄝ-ㄜ-ㄉㄚㄎ-ㄜ-ㄎㄜ-ㄌㄧ | theme=connectors | stage=3
  2958 | ceo                            | 執行長                            | 💼        | chunks=['c', 'e', 'o'] | py=ㄒㄧ-ㄧ-ㄛ | theme=jobs-advanced | stage=1
  2959 | cfo                            | 財務長                            | 💼        | chunks=['c', 'f', 'o'] | py=ㄒㄧ-ㄝㄈ-ㄛ | theme=jobs-advanced | stage=2
- 2960 | executive                      | 主管                             | 💼        | chunks=['ex', 'ec', 'u', 'tive'] | py=ㄧㄍ-ㄗㄝㄎ-ㄐㄜ-ㄊㄧㄈ | theme=jobs-advanced | stage=2 base=execute [有易混提示]
- 2961 | entrepreneur                   | 創業家                            | 💼        | chunks=['en', 'tre', 'pre', 'neur'] | py=ㄚㄣ-ㄊㄌㄜ-ㄆㄌㄜ-ㄋㄜ | theme=jobs-advanced | stage=3
+ 2960 | executive                      | 主管                             | 💼        | chunks=['ex', 'ec', 'u', 'tive'] | py=ㄧㄍ-ㄗㄝㄎ-ㄐㄜ-ㄊㄜㄈ | theme=jobs-advanced | stage=2 base=execute [有易混提示]
+ 2961 | entrepreneur                   | 創業家                            | 💼        | chunks=['en', 'tre', 'pre', 'neur'] | py=ㄚㄣ-ㄊㄌㄜ-ㄆㄌㄜ-ㄋㄜㄦ | theme=jobs-advanced | stage=3
  2962 | founder                        | 創辦人                            | 💼        | chunks=['foun', 'der'] | py=ㄈㄠㄣ-ㄉㄜ | theme=jobs-advanced | stage=2 base=found [有易混提示]
  2963 | investor                       | 投資人                            | 💰        | chunks=['in', 'ves', 'tor'] | py=ㄧㄣ-ㄈㄝㄙ-ㄊㄜ | theme=jobs-advanced | stage=2 base=invest
  2964 | freelancer                     | 自由工作者                          | 💻        | chunks=['free', 'lan', 'cer'] | py=ㄈㄌㄧ-ㄌㄢ-ㄙㄜ | theme=jobs-advanced | stage=2
@@ -484,7 +484,7 @@
  2982 | economist                      | 經濟學家                           | 📈        | chunks=['e', 'con', 'o', 'mist'] | py=ㄧ-ㄎㄚ-ㄋㄜ-ㄇㄧㄙㄊ | theme=jobs-advanced | stage=2 base=economy
  2983 | statistician                   | 統計學家                           | 📊        | chunks=['stat', 'is', 'ti', 'cian'] | py=ㄙㄉㄚ-ㄊㄜ-ㄒㄜ-ㄒㄢ | theme=jobs-advanced | stage=3
  2984 | philosopher                    | 哲學家                            | 📚        | chunks=['phil', 'os', 'o', 'pher'] | py=ㄈㄜ-ㄌㄚ-ㄗㄜ-ㄈㄜ | theme=jobs-advanced | stage=2 base=philosophy
- 2985 | historian                      | 歷史學家                           | 📜        | chunks=['his', 'tor', 'i', 'an'] | py=ㄏㄧㄙ-ㄊㄛㄦ-ㄧ-ㄣ | theme=jobs-advanced | stage=2 base=history
+ 2985 | historian                      | 歷史學家                           | 📜        | chunks=['his', 'tor', 'i', 'an'] | py=ㄏㄧㄙ-ㄊㄛㄦ-ㄧ-ㄜㄣ | theme=jobs-advanced | stage=2 base=history
  2986 | surgeon                        | 外科醫生                           | 🩺        | chunks=['sur', 'geon'] | py=ㄙㄜ-ㄐㄣ | theme=jobs-advanced | stage=2
  2987 | physician                      | 內科醫生                           | 🩺        | chunks=['phy', 'si', 'cian'] | py=ㄈㄜ-ㄗㄧ-ㄒㄢ | theme=jobs-advanced | stage=2
  2988 | pediatrician                   | 小兒科醫生                          | 👶        | chunks=['pe', 'di', 'a', 'tri', 'cian'] | py=ㄆㄧ-ㄉㄧ-ㄜ-ㄊㄌㄧ-ㄒㄢ | theme=jobs-advanced | stage=3
@@ -496,6 +496,6 @@
  2994 | oncologist                     | 腫瘤科醫生                          | 🎗️       | chunks=['on', 'col', 'o', 'gist'] | py=ㄚㄣ-ㄎㄚ-ㄌㄜ-ㄐㄧㄙㄊ | theme=jobs-advanced | stage=3
  2995 | gynecologist                   | 婦科醫生                           | 🩺        | chunks=['gy', 'ne', 'col', 'o', 'gist'] | py=ㄍㄞ-ㄋㄜ-ㄎㄚ-ㄌㄜ-ㄐㄧㄙㄊ | theme=jobs-advanced | stage=3
  2996 | neurologist                    | 神經科醫生                          | 🧠        | chunks=['neu', 'rol', 'o', 'gist'] | py=ㄋㄨ-ㄌㄚ-ㄌㄜ-ㄐㄧㄙㄊ | theme=jobs-advanced | stage=3
- 2997 | veterinarian                   | 獸醫                             | 🐕        | chunks=['vet', 'er', 'i', 'nar', 'i', 'an'] | py=ㄈㄝ-ㄊㄜ-ㄜ-ㄋㄝㄦ-ㄧ-ㄣ | theme=jobs-advanced | stage=2
+ 2997 | veterinarian                   | 獸醫                             | 🐕        | chunks=['vet', 'er', 'i', 'nar', 'i', 'an'] | py=ㄈㄝ-ㄊㄜ-ㄜ-ㄋㄝㄦ-ㄧ-ㄜㄣ | theme=jobs-advanced | stage=2
  2998 | paramedic                      | 急救員                            | 🚑        | chunks=['par', 'a', 'med', 'ic'] | py=ㄆㄝ-ㄜ-ㄇㄝ-ㄉㄧㄎ | theme=jobs-advanced | stage=3
  2999 | midwife                        | 助產士                            | 👶        | chunks=['mid', 'wife'] | py=ㄇㄧㄉ-ㄨㄞㄈ | theme=jobs-advanced | stage=3

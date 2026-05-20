@@ -9,7 +9,7 @@
  4507 | dune                           | 沙丘                             | 🏜️       | chunks=['d', 'une'] | py=ㄉㄧㄨㄣ | theme=geography | stage=3
  4508 | tributary                      | 支流                             | 🏞️       | chunks=['trib', 'u', 'tar', 'y'] | py=ㄊㄌㄧ-ㄅㄧㄨ-ㄊㄝ-ㄌㄧ | theme=geography | stage=3
  4509 | basin                          | 流域                             | 🏞️       | chunks=['ba', 'sin'] | py=ㄅㄝ-ㄗㄣ | theme=geography | stage=2 [有易混提示]
- 4510 | rainforest                     | 雨林                             | 🌳        | chunks=['rain', 'for', 'est'] | py=ㄌㄝㄣ-ㄈㄛ-ㄝㄙㄊ | theme=geography | stage=1
+ 4510 | rainforest                     | 雨林                             | 🌳        | chunks=['rain', 'for', 'est'] | py=ㄖㄝㄣ-ㄈㄛ-ㄜㄙㄊ | theme=geography | stage=1
  4511 | icecap                         | 冰冠                             | 🧊        | chunks=['ice', 'cap'] | py=ㄞㄙ-ㄎㄚㄆ | theme=geography | stage=3
  4512 | icesheet                       | 冰原                             | 🧊        | chunks=['ice', 'sheet'] | py=ㄞㄙ-ㄒㄧㄊ | theme=geography | stage=3
  4513 | polarcap                       | 極冠                             | 🧊        | chunks=['po', 'lar', 'cap'] | py=ㄆㄛ-ㄌㄜ-ㄎㄚㄆ | theme=geography | stage=3
@@ -49,7 +49,7 @@
  4547 | catastrophe                    | 大災難                            | 💥        | chunks=['ca', 'tas', 'tro', 'phe'] | py=ㄎㄜ-ㄊㄚㄙ-ㄊㄌㄜ-ㄈㄧ | theme=emergencies | stage=3
  4548 | calamity                       | 災禍                             | 💥        | chunks=['ca', 'lam', 'i', 'ty'] | py=ㄎㄜ-ㄌㄚ-ㄇㄜ-ㄊㄧ | theme=emergencies | stage=3
  4549 | wildfire                       | 野火                             | 🔥        | chunks=['wild', 'fire'] | py=ㄨㄞㄦㄉ-ㄈㄞㄜ | theme=emergencies | stage=2
- 4550 | forestfire                     | 森林大火                           | 🔥        | chunks=['for', 'est', 'fire'] | py=ㄈㄛ-ㄝㄙㄊ-ㄈㄞㄜ | theme=emergencies | stage=2
+ 4550 | forestfire                     | 森林大火                           | 🔥        | chunks=['for', 'est', 'fire'] | py=ㄈㄛ-ㄜㄙㄊ-ㄈㄞㄜ | theme=emergencies | stage=2
  4551 | arson                          | 縱火                             | 🔥        | chunks=['ar', 'son'] | py=ㄚㄦ-ㄗㄣ | theme=emergencies | stage=3
  4552 | blaze                          | 烈火                             | 🔥        | chunks=['bl', 'aze'] | py=ㄅㄌㄝㄗ | theme=emergencies | stage=2
  4553 | explosion                      | 爆炸                             | 💥        | chunks=['ex', 'plo', 'sion'] | py=ㄝㄎㄙ-ㄆㄌㄛ-ㄓㄣ | theme=emergencies | stage=1
@@ -83,13 +83,13 @@
  4581 | mugging                        | 街頭搶劫                           | 🦹        | chunks=['mug', 'ging'] | py=ㄇㄚ-ㄍㄧㄥ | theme=emergencies | stage=3
  4582 | shooting                       | 槍擊                             | 🔫        | chunks=['shoot', 'ing'] | py=ㄒㄨㄊ-ㄧㄥ | theme=emergencies | stage=1 base=shoot
  4583 | panic                          | 恐慌                             | 😱        | chunks=['pan', 'ic'] | py=ㄆㄚ-ㄋㄧㄎ | theme=emergencies | stage=1
- 4584 | hysteria                       | 歇斯底里                           | 😱        | chunks=['hys', 'ter', 'i', 'a'] | py=ㄏㄧㄙ-ㄊㄝ-ㄌㄧ-ㄜ | theme=emergencies | stage=3
+ 4584 | hysteria                       | 歇斯底里                           | 😱        | chunks=['hys', 'ter', 'i', 'a'] | py=ㄏㄧㄙ-ㄊㄧ-ㄖㄧ-ㄜ | theme=emergencies | stage=3
  4585 | chaos                          | 混亂                             | 🌪️       | chunks=['cha', 'os'] | py=ㄎㄝ-ㄚㄙ | theme=emergencies | stage=2
  4586 | mayhem                         | 混亂                             | 🌪️       | chunks=['may', 'hem'] | py=ㄇㄝ-ㄏㄝㄇ | theme=emergencies | stage=3
  4587 | shelter                        | 避難所                            | 🏠        | chunks=['shel', 'ter'] | py=ㄒㄝㄦ-ㄊㄜ | theme=emergencies | stage=1
  4588 | refugee                        | 難民                             | 🧳        | chunks=['ref', 'u', 'gee'] | py=ㄌㄝ-ㄈㄧㄨ-ㄐㄧ | theme=emergencies | stage=2
  4589 | refuge                         | 避難                             | 🏠        | chunks=['ref', 'uge'] | py=ㄌㄝ-ㄈㄧㄨㄐ | theme=emergencies | stage=2
- 4590 | asylum                         | 庇護                             | 🏛️       | chunks=['a', 'sy', 'lum'] | py=ㄚ-ㄙㄞ-ㄌㄣ | theme=emergencies | stage=3
+ 4590 | asylum                         | 庇護                             | 🏛️       | chunks=['a', 'sy', 'lum'] | py=ㄜ-ㄙㄞ-ㄌㄜㄇ | theme=emergencies | stage=3
  4591 | warning                        | 警告                             | ⚠️       | chunks=['warn', 'ing'] | py=ㄨㄛㄦㄣ-ㄧㄥ | theme=emergencies | stage=1 base=warn
  4592 | signal                         | 信號                             | 🚦        | chunks=['sig', 'nal'] | py=ㄒㄧㄍ-ㄋㄦ | theme=emergencies | stage=1 base=sign
  4593 | siren                          | 警笛                             | 🚨        | chunks=['si', 'ren'] | py=ㄙㄞ-ㄌㄣ | theme=emergencies | stage=2
@@ -109,7 +109,7 @@
  4607 | lockdown                       | 封城                             | 🔒        | chunks=['lock', 'down'] | py=ㄌㄚㄎ-ㄉㄠㄣ | theme=emergencies | stage=2
  4608 | curfew                         | 宵禁                             | 🌃        | chunks=['cur', 'few'] | py=ㄎㄜ-ㄈㄧㄨ | theme=emergencies | stage=3
  4609 | evacuee                        | 被疏散者                           | 🏃        | chunks=['e', 'vac', 'u', 'ee'] | py=ㄧ-ㄈㄚ-ㄎㄧㄨ-ㄧ | theme=emergencies | stage=3
- 4610 | distress                       | 困境                             | 😰        | chunks=['dis', 'tress'] | py=ㄉㄧ-ㄙㄉㄌㄝㄙ | theme=emergencies | stage=2
+ 4610 | distress                       | 困境                             | 😰        | chunks=['dis', 'tress'] | py=ㄉㄧ-ㄙㄊㄖㄝㄙ | theme=emergencies | stage=2
  4611 | vital                          | 至關重要的                          | ❗        | chunks=['vi', 'tal'] | py=ㄈㄞ-ㄉㄦ | theme=emergencies | stage=2
  4612 | fatal                          | 致命的                            | 💀        | chunks=['fa', 'tal'] | py=ㄈㄝ-ㄉㄦ | theme=emergencies | stage=2
  4613 | lethal                         | 致命的                            | 💀        | chunks=['le', 'thal'] | py=ㄌㄧ-ㄙㄦ | theme=emergencies | stage=3
@@ -118,16 +118,16 @@
  4616 | drowning                       | 溺水                             | 🌊        | chunks=['drown', 'ing'] | py=ㄉㄌㄠㄣ-ㄧㄥ | theme=emergencies | stage=2
  4617 | suffocate                      | 窒息                             | 😵        | chunks=['suf', 'fo', 'cate'] | py=ㄙㄚ-ㄈㄜ-ㄎㄝㄊ | theme=emergencies | stage=3
  4618 | crime                          | 罪                              | 🚔        | chunks=['cr', 'ime'] | py=ㄎㄌㄞㄇ | theme=crime | stage=1
- 4619 | criminal                       | 罪犯                             | 🚔        | chunks=['crim', 'i', 'nal'] | py=ㄎㄌㄧ-ㄇㄜ-ㄋㄦ | theme=crime | stage=1
+ 4619 | criminal                       | 罪犯                             | 🚔        | chunks=['crim', 'i', 'nal'] | py=ㄎㄖㄧ-ㄇㄜ-ㄋㄛ | theme=crime | stage=1
  4620 | felon                          | 重罪犯                            | 🚔        | chunks=['fel', 'on'] | py=ㄈㄝ-ㄌㄣ | theme=crime | stage=3
  4621 | suspect                        | 嫌犯                             | 🕵️       | chunks=['sus', 'pect'] | py=ㄙㄚㄙ-ㄆㄝㄎㄊ | theme=crime | stage=1 [有易混提示]
  4622 | accomplice                     | 共犯                             | 🚔        | chunks=['ac', 'com', 'plice'] | py=ㄚ-ㄎㄚㄇ-ㄆㄌㄧㄙ | theme=crime | stage=3
  4623 | murder                         | 謀殺                             | 🔪        | chunks=['mur', 'der'] | py=ㄇㄜ-ㄉㄜ | theme=crime | stage=1
  4624 | homicide                       | 殺人                             | 🔪        | chunks=['hom', 'i', 'cide'] | py=ㄏㄚ-ㄇㄜ-ㄙㄞㄉ | theme=crime | stage=3
  4625 | manslaughter                   | 過失殺人                           | 🔪        | chunks=['man', 'slaugh', 'ter'] | py=ㄇㄢ-ㄙㄌㄛ-ㄊㄜ | theme=crime | stage=3
- 4626 | assassination                  | 暗殺                             | 🔫        | chunks=['as', 'sas', 'si', 'na', 'tion'] | py=ㄚ-ㄙㄚ-ㄗㄜ-ㄋㄝ-ㄒㄣ | theme=crime | stage=3
+ 4626 | assassination                  | 暗殺                             | 🔫        | chunks=['as', 'sas', 'si', 'na', 'tion'] | py=ㄜ-ㄙㄚ-ㄙㄜ-ㄋㄟ-ㄒㄣ | theme=crime | stage=3
  4627 | theft                          | 竊盜                             | 🚔        | chunks=['th', 'eft'] | py=ㄙㄝㄈㄊ | theme=crime | stage=1
- 4628 | burglary                       | 入室竊盜                           | 🚔        | chunks=['bur', 'gla', 'ry'] | py=ㄅㄜ-ㄍㄌㄜ-ㄌㄧ | theme=crime | stage=3
+ 4628 | burglary                       | 入室竊盜                           | 🚔        | chunks=['bur', 'gla', 'ry'] | py=ㄅㄜ-ㄍㄌㄜ-ㄖㄧ | theme=crime | stage=3
  4629 | shoplifting                    | 順手牽羊                           | 🛒        | chunks=['shop', 'lift', 'ing'] | py=ㄒㄚㄆ-ㄌㄧㄈㄊ-ㄧㄥ | theme=crime | stage=2
  4630 | larceny                        | 竊盜罪                            | 🚔        | chunks=['lar', 'ce', 'ny'] | py=ㄌㄚㄦ-ㄙㄜ-ㄋㄧ | theme=crime | stage=3
  4631 | pickpocket                     | 扒手                             | 🚔        | chunks=['pick', 'pock', 'et'] | py=ㄆㄧㄎ-ㄆㄚ-ㄎㄝㄊ | theme=crime | stage=2
@@ -136,9 +136,9 @@
  4634 | scammer                        | 騙子                             | 🎭        | chunks=['scam', 'mer'] | py=ㄙㄎㄚ-ㄇㄜ | theme=crime | stage=2 base=scam
  4635 | swindle                        | 行騙                             | 🎭        | chunks=['swin', 'dle'] | py=ㄙㄨㄧㄣ-ㄉㄜ | theme=crime | stage=3
  4636 | embezzlement                   | 侵吞                             | 💰        | chunks=['em', 'bez', 'zle', 'ment'] | py=ㄝㄇ-ㄅㄝ-ㄗㄜ-ㄇㄣㄊ | theme=crime | stage=3 base=embezzle
- 4637 | forgery                        | 偽造                             | 📝        | chunks=['for', 'ger', 'y'] | py=ㄈㄛㄦ-ㄐㄜ-ㄌㄧ | theme=crime | stage=3
- 4638 | bribery                        | 賄賂                             | 💰        | chunks=['brib', 'er', 'y'] | py=ㄅㄌㄞ-ㄅㄜ-ㄌㄧ | theme=crime | stage=3
- 4639 | corruption                     | 貪污                             | 💰        | chunks=['cor', 'rup', 'tion'] | py=ㄎㄜ-ㄌㄚㄆ-ㄒㄣ | theme=crime | stage=2
+ 4637 | forgery                        | 偽造                             | 📝        | chunks=['for', 'ger', 'y'] | py=ㄈㄛㄦ-ㄐㄜ-ㄖㄧ | theme=crime | stage=3
+ 4638 | bribery                        | 賄賂                             | 💰        | chunks=['brib', 'er', 'y'] | py=ㄅㄖㄞ-ㄅㄜ-ㄖㄧ | theme=crime | stage=3
+ 4639 | corruption                     | 貪污                             | 💰        | chunks=['cor', 'rup', 'tion'] | py=ㄎㄜ-ㄖㄚㄆ-ㄒㄣ | theme=crime | stage=2
  4640 | blackmail                      | 勒索                             | 💰        | chunks=['black', 'mail'] | py=ㄅㄌㄚㄎ-ㄇㄝㄦ | theme=crime | stage=3
  4641 | extortion                      | 勒索                             | 💰        | chunks=['ex', 'tor', 'tion'] | py=ㄝㄎㄙ-ㄊㄛㄦ-ㄒㄣ | theme=crime | stage=3
  4642 | assault                        | 攻擊                             | ⚔️       | chunks=['as', 'sault'] | py=ㄚ-ㄙㄛㄦㄊ | theme=crime | stage=2
@@ -170,13 +170,13 @@
  4668 | getaway                        | 逃跑                             | 🚗        | chunks=['get', 'a', 'way'] | py=ㄍㄝㄊ-ㄜ-ㄨㄝ | theme=crime | stage=2
  4669 | arrest                         | 逮捕                             | 🚔        | chunks=['ar', 'rest'] | py=ㄚ-ㄌㄝㄙㄊ | theme=crime | stage=1
  4670 | witness                        | 目擊者                            | 👁️       | chunks=['wit', 'ness'] | py=ㄨㄧㄊ-ㄋㄝㄙ | theme=crime | stage=2
- 4671 | interrogate                    | 審問                             | 🕵️       | chunks=['in', 'ter', 'ro', 'gate'] | py=ㄧㄣ-ㄊㄝ-ㄌㄜ-ㄍㄝㄊ | theme=crime | stage=3
- 4672 | interrogation                  | 審問                             | 🕵️       | chunks=['in', 'ter', 'ro', 'ga', 'tion'] | py=ㄧㄣ-ㄊㄝ-ㄌㄜ-ㄍㄝ-ㄒㄣ | theme=crime | stage=3 base=interrogate
+ 4671 | interrogate                    | 審問                             | 🕵️       | chunks=['in', 'ter', 'ro', 'gate'] | py=ㄧㄣ-ㄊㄝ-ㄖㄜ-ㄍㄟㄊ | theme=crime | stage=3
+ 4672 | interrogation                  | 審問                             | 🕵️       | chunks=['in', 'ter', 'ro', 'ga', 'tion'] | py=ㄧㄣ-ㄊㄝ-ㄖㄜ-ㄍㄟ-ㄒㄣ | theme=crime | stage=3 base=interrogate
  4673 | detain                         | 拘留                             | 🔒        | chunks=['de', 'tain'] | py=ㄉㄧ-ㄊㄝㄣ | theme=crime | stage=3
  4674 | custody                        | 監護                             | 🔒        | chunks=['cus', 'to', 'dy'] | py=ㄎㄚㄙ-ㄊㄜ-ㄉㄧ | theme=crime | stage=2
  4675 | investigation                  | 調查                             | 🕵️       | chunks=['in', 'ves', 'ti', 'ga', 'tion'] | py=ㄧㄣ-ㄈㄝㄙ-ㄊㄜ-ㄍㄝ-ㄒㄣ | theme=crime | stage=2 base=investigate
  4676 | evidence                       | 證據                             | 🔍        | chunks=['ev', 'i', 'dence'] | py=ㄝ-ㄈㄜ-ㄉㄣㄙ | theme=crime | stage=2
- 4677 | crimescene                     | 犯罪現場                           | 🚨        | chunks=['crime', 'scene'] | py=ㄎㄌㄞㄇ-ㄒㄧㄣ | theme=crime | stage=2
+ 4677 | crimescene                     | 犯罪現場                           | 🚨        | chunks=['crime', 'scene'] | py=ㄎㄖㄞㄇ-ㄒㄧㄣ | theme=crime | stage=2
  4678 | autopsy                        | 解剖                             | ⚰️       | chunks=['au', 'top', 'sy'] | py=ㄛ-ㄊㄚㄆ-ㄒㄧ | theme=crime | stage=3
  4679 | forensic                       | 法醫的                            | 🔬        | chunks=['fo', 'ren', 'sic'] | py=ㄈㄜ-ㄌㄣ-ㄙㄧㄎ | theme=crime | stage=3
  4680 | forensics                      | 鑑識                             | 🔬        | chunks=['fo', 'ren', 'sics'] | py=ㄈㄜ-ㄌㄣ-ㄙㄧㄎㄙ | theme=crime | stage=3
@@ -206,10 +206,10 @@
  4704 | juror                          | 陪審員                            | ⚖️       | chunks=['ju', 'ror'] | py=ㄐㄨ-ㄌㄜ | theme=law | stage=3
  4705 | hearing                        | 聽證會                            | ⚖️       | chunks=['hear', 'ing'] | py=ㄏㄧㄦ-ㄧㄥ | theme=law | stage=2 [有易混提示]
  4706 | appeal                         | 上訴                             | ⚖️       | chunks=['ap', 'peal'] | py=ㄚ-ㄆㄧㄦ | theme=law | stage=2 [有易混提示]
- 4707 | retrial                        | 重審                             | ⚖️       | chunks=['re', 'tri', 'al'] | py=ㄌㄧ-ㄊㄌㄞ-ㄦ | theme=law | stage=3
+ 4707 | retrial                        | 重審                             | ⚖️       | chunks=['re', 'tri', 'al'] | py=ㄖㄧ-ㄊㄖㄞ-ㄛ | theme=law | stage=3
  4708 | penalty                        | 刑罰                             | ⚖️       | chunks=['pen', 'al', 'ty'] | py=ㄆㄝ-ㄋㄦ-ㄊㄧ | theme=law | stage=2
  4709 | punishment                     | 處罰                             | ⚖️       | chunks=['pun', 'ish', 'ment'] | py=ㄆㄚ-ㄋㄧㄒ-ㄇㄣㄊ | theme=law | stage=1 base=punish
- 4710 | capitalpunishment              | 死刑                             | ⚖️       | chunks=['cap', 'i', 'tal', 'pun', 'ish', 'ment'] | py=ㄎㄚ-ㄆㄜ-ㄉㄦ-ㄆㄚ-ㄋㄧㄒ-ㄇㄣㄊ | theme=law | stage=3
+ 4710 | capitalpunishment              | 死刑                             | ⚖️       | chunks=['cap', 'i', 'tal', 'pun', 'ish', 'ment'] | py=ㄎㄚ-ㄆㄜ-ㄉㄛ-ㄆㄚ-ㄋㄧㄒ-ㄇㄣㄊ | theme=law | stage=3
  4711 | deathpenalty                   | 死刑                             | ⚖️       | chunks=['death', 'pen', 'al', 'ty'] | py=ㄉㄝㄙ-ㄆㄝ-ㄋㄦ-ㄊㄧ | theme=law | stage=2
  4712 | statute                        | 法令                             | 📜        | chunks=['stat', 'ute'] | py=ㄙㄉㄚ-ㄑㄨㄊ | theme=law | stage=3 [有易混提示]
  4713 | amendment                      | 修正案                            | 📜        | chunks=['a', 'mend', 'ment'] | py=ㄚ-ㄇㄣㄉ-ㄇㄣㄊ | theme=law | stage=2 base=amend
@@ -237,42 +237,42 @@
  4735 | negligence                     | 疏忽                             | ⚠️       | chunks=['neg', 'li', 'gence'] | py=ㄋㄝㄍ-ㄌㄜ-ㄐㄣㄙ | theme=law | stage=3
  4736 | slander                        | 誹謗                             | 💬        | chunks=['slan', 'der'] | py=ㄙㄌㄚㄣ-ㄉㄜ | theme=law | stage=3
  4737 | libel                          | 誹謗罪                            | 📰        | chunks=['li', 'bel'] | py=ㄌㄞ-ㄅㄜ | theme=law | stage=3 [有易混提示]
- 4738 | defamation                     | 中傷                             | 💬        | chunks=['def', 'a', 'ma', 'tion'] | py=ㄉㄝ-ㄈㄜ-ㄇㄝ-ㄒㄣ | theme=law | stage=3
- 4739 | jurisdiction                   | 管轄權                            | ⚖️       | chunks=['ju', 'ris', 'dic', 'tion'] | py=ㄐㄨ-ㄌㄧㄙ-ㄉㄧㄎ-ㄒㄣ | theme=law | stage=3
- 4740 | federal                        | 聯邦的                            | 🏛️       | chunks=['fed', 'er', 'al'] | py=ㄈㄝ-ㄉㄜ-ㄦ | theme=law | stage=2
+ 4738 | defamation                     | 中傷                             | 💬        | chunks=['def', 'a', 'ma', 'tion'] | py=ㄉㄝ-ㄈㄜ-ㄇㄟ-ㄒㄣ | theme=law | stage=3
+ 4739 | jurisdiction                   | 管轄權                            | ⚖️       | chunks=['ju', 'ris', 'dic', 'tion'] | py=ㄐㄨ-ㄖㄧㄙ-ㄉㄧㄎ-ㄒㄣ | theme=law | stage=3
+ 4740 | federal                        | 聯邦的                            | 🏛️       | chunks=['fed', 'er', 'al'] | py=ㄈㄝ-ㄉㄜ-ㄖㄛ | theme=law | stage=2
  4741 | supremecourt                   | 最高法院                           | ⚖️       | chunks=['su', 'preme', 'court'] | py=ㄙㄨ-ㄆㄌㄧㄇ-ㄎㄛㄦㄊ | theme=law | stage=2
- 4742 | prosecution                    | 檢方                             | ⚖️       | chunks=['pros', 'e', 'cu', 'tion'] | py=ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨ-ㄒㄣ | theme=law | stage=3 base=prosecute
+ 4742 | prosecution                    | 檢方                             | ⚖️       | chunks=['pros', 'e', 'cu', 'tion'] | py=ㄆㄖㄚ-ㄙㄜ-ㄎㄧㄨ-ㄒㄣ | theme=law | stage=3 base=prosecute
  4743 | defense                        | 辯方                             | ⚖️       | chunks=['de', 'fense'] | py=ㄉㄧ-ㄈㄣㄙ | theme=law | stage=2 [有易混提示]
  4744 | felony                         | 重罪                             | ⚖️       | chunks=['fel', 'o', 'ny'] | py=ㄈㄝ-ㄌㄜ-ㄋㄧ | theme=law | stage=3
  4745 | misdemeanor                    | 輕罪                             | ⚖️       | chunks=['mis', 'de', 'mea', 'nor'] | py=ㄇㄧㄙ-ㄉㄜ-ㄇㄧ-ㄋㄜ | theme=law | stage=3
  4746 | mediation                      | 調解                             | 🤝        | chunks=['me', 'di', 'a', 'tion'] | py=ㄇㄧ-ㄉㄧ-ㄝ-ㄒㄣ | theme=law | stage=3
  4747 | arbitration                    | 仲裁                             | ⚖️       | chunks=['ar', 'bi', 'tra', 'tion'] | py=ㄚㄦ-ㄅㄜ-ㄊㄌㄝ-ㄒㄣ | theme=law | stage=3
- 4748 | loophole                       | 漏洞                             | 🕳️       | chunks=['loop', 'hole'] | py=ㄌㄨㄆ-ㄏㄛㄦ | theme=law | stage=3
+ 4748 | loophole                       | 漏洞                             | 🕳️       | chunks=['loop', 'hole'] | py=ㄌㄨㄆ-ㄏㄛㄛ | theme=law | stage=3
  4749 | precedent                      | 判例                             | 📜        | chunks=['pre', 'ce', 'dent'] | py=ㄆㄌㄝ-ㄙㄜ-ㄉㄣㄊ | theme=law | stage=3
  4750 | gavel                          | 法槌                             | ⚖️       | chunks=['gav', 'el'] | py=ㄍㄚ-ㄈㄦ | theme=law | stage=3
- 4751 | solicitor                      | 事務律師                           | ⚖️       | chunks=['so', 'lic', 'i', 'tor'] | py=ㄙㄜ-ㄌㄧ-ㄗㄜ-ㄊㄜ | theme=law | stage=3
- 4752 | barrister                      | 出庭律師                           | ⚖️       | chunks=['bar', 'ris', 'ter'] | py=ㄅㄝ-ㄌㄧㄙ-ㄊㄜ | theme=law | stage=3
+ 4751 | solicitor                      | 事務律師                           | ⚖️       | chunks=['so', 'lic', 'i', 'tor'] | py=ㄙㄜ-ㄌㄧ-ㄙㄜ-ㄊㄜ | theme=law | stage=3
+ 4752 | barrister                      | 出庭律師                           | ⚖️       | chunks=['bar', 'ris', 'ter'] | py=ㄅㄝ-ㄖㄧㄙ-ㄊㄜ | theme=law | stage=3
  4753 | counsel                        | 法律顧問                           | ⚖️       | chunks=['coun', 'sel'] | py=ㄎㄠㄣ-ㄙㄜ | theme=law | stage=3 [有易混提示]
  4754 | justice                        | 正義                             | ⚖️       | chunks=['jus', 'tice'] | py=ㄐㄚㄙ-ㄊㄧㄙ | theme=law | stage=2
  4755 | judgment                       | 判決                             | ⚖️       | chunks=['judg', 'ment'] | py=ㄐㄚㄐ-ㄇㄣㄊ | theme=law | stage=2 base=judge
- 4756 | ruling                         | 裁決                             | ⚖️       | chunks=['rul', 'ing'] | py=ㄌㄨ-ㄌㄧㄥ | theme=law | stage=2 base=rule
+ 4756 | ruling                         | 裁決                             | ⚖️       | chunks=['rul', 'ing'] | py=ㄖㄨ-ㄌㄧㄥ | theme=law | stage=2 base=rule
  4757 | dismissed                      | 撤銷                             | ⚖️       | chunks=['dis', 'missed'] | py=ㄉㄧㄙ-ㄇㄧㄙㄊ | theme=law | stage=2
  4758 | dismiss                        | 撤銷                             | ⚖️       | chunks=['dis', 'miss'] | py=ㄉㄧㄙ-ㄇㄧㄙ | theme=law | stage=2
  4759 | accuse                         | 指控                             | ⚖️       | chunks=['ac', 'cuse'] | py=ㄚ-ㄎㄧㄨㄗ | theme=law | stage=2
  4760 | accusation                     | 指控                             | ⚖️       | chunks=['ac', 'cu', 'sa', 'tion'] | py=ㄚ-ㄎㄧㄨ-ㄗㄝ-ㄒㄣ | theme=law | stage=2 base=accuse
  4761 | plead                          | 答辯                             | 🙏        | chunks=['pl', 'ead'] | py=ㄆㄌㄧㄉ | theme=law | stage=2 [有易混提示]
- 4762 | mistrial                       | 審判無效                           | ⚖️       | chunks=['mis', 'tri', 'al'] | py=ㄇㄧㄙ-ㄊㄌㄞ-ㄦ | theme=law | stage=3
- 4763 | tribunal                       | 特別法庭                           | ⚖️       | chunks=['tri', 'bu', 'nal'] | py=ㄊㄌㄞ-ㄅㄧㄨ-ㄋㄦ | theme=law | stage=3
+ 4762 | mistrial                       | 審判無效                           | ⚖️       | chunks=['mis', 'tri', 'al'] | py=ㄇㄧㄙ-ㄊㄖㄞ-ㄛ | theme=law | stage=3
+ 4763 | tribunal                       | 特別法庭                           | ⚖️       | chunks=['tri', 'bu', 'nal'] | py=ㄊㄖㄞ-ㄅㄧㄨ-ㄋㄛ | theme=law | stage=3
  4764 | deposition                     | 證詞                             | 📜        | chunks=['dep', 'o', 'si', 'tion'] | py=ㄉㄝ-ㄆㄜ-ㄗㄜ-ㄒㄣ | theme=law | stage=3
  4765 | affidavit                      | 宣誓書                            | 📜        | chunks=['af', 'fi', 'da', 'vit'] | py=ㄚ-ㄈㄜ-ㄉㄝ-ㄈㄧㄊ | theme=law | stage=3
  4766 | indictment                     | 起訴書                            | 📜        | chunks=['in', 'dict', 'ment'] | py=ㄧㄣ-ㄉㄞㄊ-ㄇㄣㄊ | theme=law | stage=3
- 4767 | prosecute                      | 起訴                             | ⚖️       | chunks=['pros', 'e', 'cute'] | py=ㄆㄌㄚ-ㄗㄜ-ㄎㄧㄨㄊ | theme=law | stage=2
+ 4767 | prosecute                      | 起訴                             | ⚖️       | chunks=['pros', 'e', 'cute'] | py=ㄆㄖㄚ-ㄙㄜ-ㄎㄧㄨㄊ | theme=law | stage=2
  4768 | sue                            | 控告                             | ⚖️       | chunks=['s', 'ue'] | py=ㄙㄨ | theme=law | stage=2 [有易混提示]
  4769 | lawbreaker                     | 違法者                            | 🚔        | chunks=['law', 'break', 'er'] | py=ㄌㄛ-ㄅㄌㄝㄎ-ㄜ | theme=law | stage=3
- 4770 | counterclaim                   | 反訴                             | ⚖️       | chunks=['coun', 'ter', 'claim'] | py=ㄎㄠㄣ-ㄊㄜ-ㄎㄌㄝㄇ | theme=law | stage=3
+ 4770 | counterclaim                   | 反訴                             | ⚖️       | chunks=['coun', 'ter', 'claim'] | py=ㄎㄠㄣ-ㄊㄜ-ㄎㄌㄟㄇ | theme=law | stage=3
  4771 | lawmaker                       | 立法者                            | 🏛️       | chunks=['law', 'ma', 'ker'] | py=ㄌㄛ-ㄇㄝ-ㄎㄜ | theme=law | stage=2
  4772 | judiciary                      | 司法                             | ⚖️       | chunks=['ju', 'di', 'ci', 'ar', 'y'] | py=ㄐㄨ-ㄉㄧ-ㄒㄜ-ㄝ-ㄌㄧ | theme=law | stage=3
- 4773 | arraignment                    | 提審                             | ⚖️       | chunks=['ar', 'raign', 'ment'] | py=ㄚ-ㄌㄝㄣ-ㄇㄣㄊ | theme=law | stage=3
+ 4773 | arraignment                    | 提審                             | ⚖️       | chunks=['ar', 'raign', 'ment'] | py=ㄜ-ㄖㄟㄣ-ㄇㄣㄊ | theme=law | stage=3
  4774 | summons                        | 傳喚                             | 📜        | chunks=['sum', 'mons'] | py=ㄙㄚ-ㄇㄣㄗ | theme=law | stage=3
  4775 | ordinance                      | 法令                             | 📜        | chunks=['or', 'di', 'nance'] | py=ㄛㄦ-ㄉㄜ-ㄋㄢㄙ | theme=law | stage=3
  4776 | executor                       | 執行人                            | 📜        | chunks=['ex', 'ec', 'u', 'tor'] | py=ㄝㄎㄙ-ㄝㄎ-ㄐㄜ-ㄊㄜ | theme=law | stage=3
@@ -285,7 +285,7 @@
  4783 | governance                     | 治理                             | 🏛️       | chunks=['gov', 'er', 'nance'] | py=ㄍㄚ-ㄈㄜ-ㄋㄢㄙ | theme=politics | stage=2 base=govern
  4784 | administration                 | 政府、行政                          | 🏛️       | chunks=['ad', 'min', 'is', 'tra', 'tion'] | py=ㄚㄉ-ㄇㄜ-ㄋㄜ-ㄙㄉㄌㄝ-ㄒㄣ | theme=politics | stage=2
  4785 | regime                         | 政權                             | 🏛️       | chunks=['re', 'gime'] | py=ㄌㄝ-ㄐㄧㄇ | theme=politics | stage=2
- 4786 | primeminister                  | 總理                             | 🏛️       | chunks=['prime', 'min', 'is', 'ter'] | py=ㄆㄌㄞㄇ-ㄇㄜ-ㄋㄜ-ㄙㄉㄜ | theme=politics | stage=2
+ 4786 | primeminister                  | 總理                             | 🏛️       | chunks=['prime', 'min', 'is', 'ter'] | py=ㄆㄖㄞㄇ-ㄇㄧ-ㄋㄜ-ㄙㄊㄜ | theme=politics | stage=2
  4787 | chancellor                     | 首相                             | 🏛️       | chunks=['chan', 'cel', 'lor'] | py=ㄑㄢ-ㄙㄜ-ㄌㄜ | theme=politics | stage=3
  4788 | deputy                         | 副手                             | 🧑‍💼      | chunks=['dep', 'u', 'ty'] | py=ㄉㄝ-ㄆㄧㄨ-ㄊㄧ | theme=politics | stage=2
  4789 | aide                           | 助理                             | 🧑‍💼      | chunks=['a', 'ide'] | py=ㄝㄉ | theme=politics | stage=3 [有易混提示]
@@ -304,8 +304,8 @@
  4802 | centrist                       | 中間派                            | ⚖️       | chunks=['cen', 'trist'] | py=ㄙㄝㄣ-ㄊㄌㄧㄙㄊ | theme=politics | stage=3
  4803 | radical                        | 激進的                            | 🚩        | chunks=['rad', 'i', 'cal'] | py=ㄌㄚ-ㄉㄜ-ㄎㄜ | theme=politics | stage=2
  4804 | extremist                      | 極端主義者                          | 🚩        | chunks=['ex', 'trem', 'ist'] | py=ㄝㄎㄙ-ㄊㄌㄧㄇ-ㄧㄙㄊ | theme=politics | stage=3
- 4805 | democrat                       | 民主黨人                           | 🚩        | chunks=['dem', 'o', 'crat'] | py=ㄉㄝ-ㄇㄜ-ㄎㄌㄚㄊ | theme=politics | stage=2
- 4806 | republican                     | 共和黨人                           | 🚩        | chunks=['re', 'pub', 'li', 'can'] | py=ㄌㄧ-ㄆㄚ-ㄅㄌㄜ-ㄎㄣ | theme=politics | stage=2
+ 4805 | democrat                       | 民主黨人                           | 🚩        | chunks=['dem', 'o', 'crat'] | py=ㄉㄝ-ㄇㄜ-ㄎㄖㄚㄊ | theme=politics | stage=2
+ 4806 | republican                     | 共和黨人                           | 🚩        | chunks=['re', 'pub', 'li', 'can'] | py=ㄖㄧ-ㄆㄚ-ㄅㄌㄜ-ㄎㄜㄣ | theme=politics | stage=2
  4807 | ideology                       | 意識形態                           | 💭        | chunks=['i', 'de', 'ol', 'o', 'gy'] | py=ㄞ-ㄉㄧ-ㄚ-ㄌㄜ-ㄐㄧ | theme=politics | stage=2
  4808 | doctrine                       | 教條                             | 📜        | chunks=['doc', 'trine'] | py=ㄉㄚㄎ-ㄊㄌㄧㄣ | theme=politics | stage=3
  4809 | manifesto                      | 宣言                             | 📜        | chunks=['man', 'i', 'fes', 'to'] | py=ㄇㄚ-ㄋㄜ-ㄈㄝㄙ-ㄊㄛ | theme=politics | stage=3
@@ -323,7 +323,7 @@
  4821 | debate                         | 辯論                             | 💬        | chunks=['de', 'bate'] | py=ㄉㄧ-ㄅㄝㄊ | theme=politics | stage=1
  4822 | speech                         | 演講                             | 🎤        | chunks=['sp', 'eech'] | py=ㄙㄆㄧㄑ | theme=politics | stage=1
  4823 | referendum                     | 公投                             | 🗳️       | chunks=['ref', 'er', 'en', 'dum'] | py=ㄌㄝ-ㄈㄜ-ㄝㄣ-ㄉㄣ | theme=politics | stage=3
- 4824 | recall                         | 罷免                             | 🗳️       | chunks=['re', 'call'] | py=ㄌㄧ-ㄎㄛㄦ | theme=politics | stage=2 [有易混提示]
+ 4824 | recall                         | 罷免                             | 🗳️       | chunks=['re', 'call'] | py=ㄖㄧ-ㄎㄛ | theme=politics | stage=2 [有易混提示]
  4825 | constituency                   | 選區                             | 🗺️       | chunks=['con', 'stit', 'u', 'en', 'cy'] | py=ㄎㄚㄣ-ㄙㄉㄧ-ㄐㄜ-ㄣ-ㄒㄧ | theme=politics | stage=3
  4826 | voter                          | 選民                             | 🗳️       | chunks=['vo', 'ter'] | py=ㄈㄛ-ㄊㄜ | theme=politics | stage=1 base=vote
  4827 | electorate                     | 選民群                            | 🗳️       | chunks=['e', 'lec', 'tor', 'ate'] | py=ㄧ-ㄌㄝㄎ-ㄊㄜ-ㄝㄊ | theme=politics | stage=3
@@ -334,7 +334,7 @@
  4832 | accord                         | 協議                             | 📜        | chunks=['ac', 'cord'] | py=ㄚ-ㄎㄛㄦㄉ | theme=politics | stage=3
  4833 | pact                           | 條約                             | 📜        | chunks=['p', 'act'] | py=ㄆㄚㄎㄊ | theme=politics | stage=2 [有易混提示]
  4834 | sanctions                      | 制裁                             | 🚫        | chunks=['sanc', 'tions'] | py=ㄙㄚㄣㄎ-ㄒㄣㄗ | theme=politics | stage=2
- 4835 | sovereignty                    | 主權                             | 👑        | chunks=['sov', 'er', 'eign', 'ty'] | py=ㄙㄚ-ㄈㄜ-ㄣ-ㄊㄧ | theme=politics | stage=3
+ 4835 | sovereignty                    | 主權                             | 👑        | chunks=['sov', 'er', 'eign', 'ty'] | py=ㄙㄚ-ㄈㄜ-ㄖㄣ-ㄊㄧ | theme=politics | stage=3
  4836 | autonomy                       | 自治                             | 🏛️       | chunks=['au', 'ton', 'o', 'my'] | py=ㄛ-ㄊㄚ-ㄋㄜ-ㄇㄧ | theme=politics | stage=2
  4837 | independence                   | 獨立                             | 🕊️       | chunks=['in', 'de', 'pen', 'dence'] | py=ㄧㄣ-ㄉㄧ-ㄆㄣ-ㄉㄣㄙ | theme=politics | stage=1
  4838 | statehood                      | 建國地位、國家地位                      | 🏛️       | chunks=['state', 'hood'] | py=ㄙㄉㄝㄊ-ㄏㄨㄉ | theme=politics | stage=3
@@ -349,12 +349,12 @@
  4847 | impeach                        | 彈劾                             | ⚖️       | chunks=['im', 'peach'] | py=ㄧㄇ-ㄆㄧㄑ | theme=politics | stage=3
  4848 | impeachment                    | 彈劾                             | ⚖️       | chunks=['im', 'peach', 'ment'] | py=ㄧㄇ-ㄆㄧㄑ-ㄇㄣㄊ | theme=politics | stage=3 base=impeach
  4849 | veto                           | 否決                             | 🚫        | chunks=['ve', 'to'] | py=ㄈㄧ-ㄊㄛ | theme=politics | stage=2
- 4850 | override                       | 推翻                             | 🔄        | chunks=['o', 'ver', 'ride'] | py=ㄛ-ㄈㄜ-ㄌㄞㄉ | theme=politics | stage=3
- 4851 | gridlock                       | 僵局                             | 🚧        | chunks=['grid', 'lock'] | py=ㄍㄌㄧㄉ-ㄌㄚㄎ | theme=politics | stage=3
+ 4850 | override                       | 推翻                             | 🔄        | chunks=['o', 'ver', 'ride'] | py=ㄛ-ㄈㄜ-ㄖㄞㄉ | theme=politics | stage=3
+ 4851 | gridlock                       | 僵局                             | 🚧        | chunks=['grid', 'lock'] | py=ㄍㄖㄧㄉ-ㄌㄚㄎ | theme=politics | stage=3
  4852 | filibuster                     | 冗長辯論                           | 🗣️       | chunks=['fil', 'i', 'bus', 'ter'] | py=ㄈㄜ-ㄌㄜ-ㄅㄚㄙ-ㄊㄜ | theme=politics | stage=3
  4853 | nationalism                    | 民族主義                           | 🚩        | chunks=['na', 'tion', 'al', 'ism'] | py=ㄋㄚ-ㄒㄣ-ㄦ-ㄧㄗㄣ | theme=politics | stage=2
- 4854 | patriotism                     | 愛國主義                           | 🚩        | chunks=['pa', 'tri', 'o', 'tism'] | py=ㄆㄝ-ㄊㄌㄧ-ㄜ-ㄊㄧㄗㄣ | theme=politics | stage=2
- 4855 | patriot                        | 愛國者                            | 🚩        | chunks=['pa', 'tri', 'ot'] | py=ㄆㄝ-ㄊㄌㄧ-ㄚㄊ | theme=politics | stage=2
+ 4854 | patriotism                     | 愛國主義                           | 🚩        | chunks=['pa', 'tri', 'o', 'tism'] | py=ㄆㄟ-ㄊㄖㄧ-ㄜ-ㄊㄧㄗㄣ | theme=politics | stage=2
+ 4855 | patriot                        | 愛國者                            | 🚩        | chunks=['pa', 'tri', 'ot'] | py=ㄆㄟ-ㄊㄖㄧ-ㄜㄊ | theme=politics | stage=2
  4856 | nationalist                    | 民族主義者                          | 🚩        | chunks=['na', 'tion', 'al', 'ist'] | py=ㄋㄚ-ㄒㄣ-ㄦ-ㄧㄙㄊ | theme=politics | stage=2
  4857 | geopolitics                    | 地緣政治                           | 🌐        | chunks=['ge', 'o', 'pol', 'i', 'tics'] | py=ㄐㄧ-ㄛ-ㄆㄚ-ㄌㄜ-ㄊㄧㄎㄙ | theme=politics | stage=3
  4858 | geopolitical                   | 地緣政治的                          | 🌐        | chunks=['ge', 'o', 'po', 'lit', 'i', 'cal'] | py=ㄐㄧ-ㄛ-ㄆㄜ-ㄌㄧ-ㄊㄜ-ㄎㄜ | theme=politics | stage=3
@@ -377,8 +377,8 @@
  4875 | term                           | 任期                             | ⏳        | chunks=['t', 'erm'] | py=ㄊㄜㄇ | theme=politics | stage=1 [有易混提示]
  4876 | tenure                         | 任期                             | ⏳        | chunks=['ten', 'ure'] | py=ㄊㄣ-ㄐㄜ | theme=politics | stage=3 [有易混提示]
  4877 | gerrymander                    | 不公平劃選區                         | 🗺️       | chunks=['ger', 'ry', 'man', 'der'] | py=ㄐㄝ-ㄌㄧ-ㄇㄚㄣ-ㄉㄜ | theme=politics | stage=3
- 4878 | religion                       | 宗教                             | ⛪        | chunks=['re', 'li', 'gion'] | py=ㄌㄧ-ㄌㄧ-ㄐㄣ | theme=religion | stage=1
- 4879 | religious                      | 宗教的                            | ⛪        | chunks=['re', 'li', 'gious'] | py=ㄌㄧ-ㄌㄧ-ㄐㄚㄙ | theme=religion | stage=1 base=religion
+ 4878 | religion                       | 宗教                             | ⛪        | chunks=['re', 'li', 'gion'] | py=ㄖㄧ-ㄌㄧ-ㄐㄣ | theme=religion | stage=1
+ 4879 | religious                      | 宗教的                            | ⛪        | chunks=['re', 'li', 'gious'] | py=ㄖㄧ-ㄌㄧ-ㄐㄜㄙ | theme=religion | stage=1 base=religion
  4880 | faith                          | 信仰                             | 🙏        | chunks=['f', 'aith'] | py=ㄈㄝㄙ | theme=religion | stage=1 [有易混提示]
  4881 | belief                         | 信念                             | 🙏        | chunks=['be', 'lief'] | py=ㄅㄧ-ㄌㄧㄈ | theme=religion | stage=1 [有易混提示]
  4882 | believer                       | 信徒                             | 🙏        | chunks=['be', 'liev', 'er'] | py=ㄅㄧ-ㄌㄧㄈ-ㄜ | theme=religion | stage=2 base=believe
@@ -389,9 +389,9 @@
  4887 | divinity                       | 神性                             | ✨        | chunks=['di', 'vin', 'i', 'ty'] | py=ㄉㄜ-ㄈㄧ-ㄋㄜ-ㄊㄧ | theme=religion | stage=3
  4888 | divine                         | 神聖的                            | ✨        | chunks=['di', 'vine'] | py=ㄉㄜ-ㄈㄞㄣ | theme=religion | stage=2
  4889 | holy                           | 神聖的                            | ✨        | chunks=['ho', 'ly'] | py=ㄏㄛ-ㄌㄧ | theme=religion | stage=1 [有易混提示]
- 4890 | sacred                         | 神聖的                            | ✨        | chunks=['sa', 'cred'] | py=ㄙㄝ-ㄎㄌㄝㄉ | theme=religion | stage=2
- 4891 | christianity                   | 基督教                            | ✝️       | chunks=['chris', 'tian', 'i', 'ty'] | py=ㄎㄌㄧㄙ-ㄑㄢ-ㄋㄜ-ㄊㄧ | theme=religion | stage=2
- 4892 | christian                      | 基督徒                            | ✝️       | chunks=['chris', 'tian'] | py=ㄎㄌㄧㄙ-ㄑㄢ | theme=religion | stage=2
+ 4890 | sacred                         | 神聖的                            | ✨        | chunks=['sa', 'cred'] | py=ㄙㄟ-ㄎㄖㄝㄉ | theme=religion | stage=2
+ 4891 | christianity                   | 基督教                            | ✝️       | chunks=['chris', 'tian', 'i', 'ty'] | py=ㄎㄖㄧㄙ-ㄑㄧ-ㄚ-ㄋㄜ-ㄊㄧ | theme=religion | stage=2
+ 4892 | christian                      | 基督徒                            | ✝️       | chunks=['chris', 'tian'] | py=ㄎㄖㄧㄙ-ㄑㄣ | theme=religion | stage=2
  4893 | catholic                       | 天主教徒、天主教的                      | ✝️       | chunks=['cath', 'o', 'lic'] | py=ㄎㄚㄙ-ㄜ-ㄌㄧㄎ | theme=religion | stage=2
  4894 | protestant                     | 新教徒、新教的                        | ✝️       | chunks=['prot', 'es', 'tant'] | py=ㄆㄌㄚ-ㄊㄝㄙ-ㄊㄣㄊ | theme=religion | stage=2
  4895 | orthodox                       | 東正教                            | ✝️       | chunks=['or', 'tho', 'dox'] | py=ㄛㄦ-ㄙㄜ-ㄉㄚㄎㄙ | theme=religion | stage=3
@@ -409,7 +409,7 @@
  4907 | dharma                         | 佛法、法(dharma)                   | ☸️       | chunks=['dhar', 'ma'] | py=ㄉㄚㄦ-ㄇㄚ | theme=religion | stage=3
  4908 | karma                          | 因果業力                           | ☸️       | chunks=['kar', 'ma'] | py=ㄎㄚㄦ-ㄇㄚ | theme=religion | stage=2
  4909 | nirvana                        | 涅槃                             | ☸️       | chunks=['nir', 'va', 'na'] | py=ㄋㄜ-ㄈㄚ-ㄋㄚ | theme=religion | stage=3
- 4910 | reincarnation                  | 輪迴                             | 🔄        | chunks=['re', 'in', 'car', 'na', 'tion'] | py=ㄌㄧ-ㄧㄣ-ㄎㄚㄦ-ㄋㄝ-ㄒㄣ | theme=religion | stage=3
+ 4910 | reincarnation                  | 輪迴                             | 🔄        | chunks=['re', 'in', 'car', 'na', 'tion'] | py=ㄖㄧ-ㄧㄣ-ㄎㄚㄦ-ㄋㄟ-ㄒㄣ | theme=religion | stage=3
  4911 | hinduism                       | 印度教                            | 🕉️       | chunks=['hin', 'du', 'ism'] | py=ㄏㄧㄣ-ㄉㄨ-ㄧㄗㄣ | theme=religion | stage=2
  4912 | hindu                          | 印度教徒                           | 🕉️       | chunks=['hin', 'du'] | py=ㄏㄧㄣ-ㄉㄨ | theme=religion | stage=2
  4913 | judaism                        | 猶太教                            | ✡️       | chunks=['ju', 'da', 'ism'] | py=ㄐㄨ-ㄉㄝ-ㄧㄗㄣ | theme=religion | stage=2
@@ -427,15 +427,15 @@
  4925 | secular                        | 世俗的                            | 🌍        | chunks=['sec', 'u', 'lar'] | py=ㄙㄝ-ㄎㄧㄨ-ㄌㄜ | theme=religion | stage=2
  4926 | spiritual                      | 精神的                            | ✨        | chunks=['spir', 'i', 'tu', 'al'] | py=ㄙㄆㄧ-ㄌㄜ-ㄑㄨ-ㄦ | theme=religion | stage=2
  4927 | soul                           | 靈魂                             | 👻        | chunks=['s', 'oul'] | py=ㄙㄛㄦ | theme=religion | stage=1 [有易混提示]
- 4928 | prayer                         | 祈禱                             | 🙏        | chunks=['pray', 'er'] | py=ㄆㄌㄝ-ㄜ | theme=religion | stage=1 base=pray
- 4929 | pray                           | 祈禱                             | 🙏        | chunks=['pr', 'ay'] | py=ㄆㄌㄟ | theme=religion | stage=1 [有易混提示]
+ 4928 | prayer                         | 祈禱                             | 🙏        | chunks=['pray', 'er'] | py=ㄆㄖㄟ-ㄜ | theme=religion | stage=1 base=pray
+ 4929 | pray                           | 祈禱                             | 🙏        | chunks=['pr', 'ay'] | py=ㄆㄖㄟ | theme=religion | stage=1 [有易混提示]
  4930 | chant                          | 頌唱                             | 🎵        | chunks=['ch', 'ant'] | py=ㄑㄚㄣㄊ | theme=religion | stage=2 [有易混提示]
  4931 | hymn                           | 聖歌                             | 🎵        | chunks=['hy', 'mn'] | py=ㄏㄧㄇ | theme=religion | stage=3 [有易混提示]
  4932 | psalm                          | 詩篇                             | 📜        | chunks=['ps', 'alm'] | py=ㄙㄚㄇ | theme=religion | stage=3
  4933 | mantra                         | 咒語                             | 📿        | chunks=['man', 'tra'] | py=ㄇㄚㄣ-ㄊㄌㄚ | theme=religion | stage=3
  4934 | bible                          | 聖經                             | 📖        | chunks=['bi', 'ble'] | py=ㄅㄞ-ㄅㄜ | theme=religion | stage=1 [有易混提示]
  4935 | quran                          | 古蘭經                            | 📖        | chunks=['qu', 'ran'] | py=ㄎㄜ-ㄌㄚㄣ | theme=religion | stage=2
- 4936 | scripture                      | 經文                             | 📖        | chunks=['scrip', 'ture'] | py=ㄙㄎㄌㄧㄆ-ㄑㄜ | theme=religion | stage=2
+ 4936 | scripture                      | 經文                             | 📖        | chunks=['scrip', 'ture'] | py=ㄙㄎㄖㄧㄆ-ㄑㄜ | theme=religion | stage=2
  4937 | gospel                         | 福音                             | 📖        | chunks=['gos', 'pel'] | py=ㄍㄚㄙ-ㄆㄦ | theme=religion | stage=2
  4938 | heaven                         | 天堂                             | ☁️       | chunks=['heav', 'en'] | py=ㄏㄝ-ㄈㄣ | theme=religion | stage=1 [有易混提示]
  4939 | hell                           | 地獄                             | 🔥        | chunks=['h', 'ell'] | py=ㄏㄝㄦ | theme=religion | stage=1 [有易混提示]
@@ -445,9 +445,9 @@
  4943 | demon                          | 惡魔                             | 👹        | chunks=['de', 'mon'] | py=ㄉㄧ-ㄇㄣ | theme=religion | stage=1 [有易混提示]
  4944 | devil                          | 魔鬼                             | 😈        | chunks=['dev', 'il'] | py=ㄉㄝ-ㄈㄦ | theme=religion | stage=1 [有易混提示]
  4945 | satan                          | 撒旦                             | 😈        | chunks=['sa', 'tan'] | py=ㄙㄝ-ㄊㄣ | theme=religion | stage=2
- 4946 | miracle                        | 奇蹟                             | ✨        | chunks=['mir', 'a', 'cle'] | py=ㄇㄧ-ㄌㄜ-ㄎㄜ | theme=religion | stage=2
- 4947 | prophecy                       | 預言                             | 🔮        | chunks=['proph', 'e', 'cy'] | py=ㄆㄌㄚ-ㄈㄜ-ㄒㄧ | theme=religion | stage=3
- 4948 | prophet                        | 先知                             | 🙏        | chunks=['proph', 'et'] | py=ㄆㄌㄚ-ㄈㄝㄊ | theme=religion | stage=2 [有易混提示]
+ 4946 | miracle                        | 奇蹟                             | ✨        | chunks=['mir', 'a', 'cle'] | py=ㄇㄧ-ㄖㄜ-ㄎㄛ | theme=religion | stage=2
+ 4947 | prophecy                       | 預言                             | 🔮        | chunks=['proph', 'e', 'cy'] | py=ㄆㄖㄚ-ㄈㄜ-ㄒㄧ | theme=religion | stage=3
+ 4948 | prophet                        | 先知                             | 🙏        | chunks=['proph', 'et'] | py=ㄆㄖㄚ-ㄈㄜㄊ | theme=religion | stage=2 [有易混提示]
  4949 | messiah                        | 彌賽亞                            | 🙏        | chunks=['mes', 'si', 'ah'] | py=ㄇㄜ-ㄙㄞ-ㄚ | theme=religion | stage=4
  4950 | savior                         | 救世主                            | 🙏        | chunks=['sav', 'ior'] | py=ㄙㄝ-ㄈㄧㄜ | theme=religion | stage=2
  4951 | sin                            | 罪                              | 😔        | chunks=['s', 'in'] | py=ㄒㄧㄣ | theme=religion | stage=1 [有易混提示]
@@ -455,33 +455,33 @@
  4953 | vice                           | 惡習                             | 😈        | chunks=['v', 'ice'] | py=ㄈㄞㄙ | theme=religion | stage=2 [有易混提示]
  4954 | repent                         | 懺悔                             | 🙏        | chunks=['re', 'pent'] | py=ㄌㄧ-ㄆㄣㄊ | theme=religion | stage=3
  4955 | confession                     | 告解                             | 🙏        | chunks=['con', 'fes', 'sion'] | py=ㄎㄣ-ㄈㄝ-ㄒㄣ | theme=religion | stage=2
- 4956 | redemption                     | 救贖                             | 🙏        | chunks=['re', 'demp', 'tion'] | py=ㄌㄧ-ㄉㄝㄇㄆ-ㄒㄣ | theme=religion | stage=3
+ 4956 | redemption                     | 救贖                             | 🙏        | chunks=['re', 'demp', 'tion'] | py=ㄖㄧ-ㄉㄝㄇㄆ-ㄒㄣ | theme=religion | stage=3
  4957 | salvation                      | 救恩                             | 🙏        | chunks=['sal', 'va', 'tion'] | py=ㄙㄦ-ㄈㄝ-ㄒㄣ | theme=religion | stage=3
  4958 | baptize                        | 施洗                             | 💧        | chunks=['bap', 'tize'] | py=ㄅㄚㄆ-ㄊㄞㄗ | theme=religion | stage=3
  4959 | communion                      | 聖餐                             | 🙏        | chunks=['com', 'mun', 'ion'] | py=ㄎㄜ-ㄇㄧㄨ-ㄋㄧㄢ | theme=religion | stage=3
  4960 | eucharist                      | 聖體                             | 🙏        | chunks=['eu', 'cha', 'rist'] | py=ㄧㄨ-ㄎㄜ-ㄌㄧㄙㄊ | theme=religion | stage=3
- 4961 | sacrament                      | 聖禮                             | 🙏        | chunks=['sac', 'ra', 'ment'] | py=ㄙㄚ-ㄎㄌㄜ-ㄇㄣㄊ | theme=religion | stage=3
+ 4961 | sacrament                      | 聖禮                             | 🙏        | chunks=['sac', 'ra', 'ment'] | py=ㄙㄚ-ㄎㄖㄜ-ㄇㄣㄊ | theme=religion | stage=3
  4962 | pope                           | 教宗                             | ⛪        | chunks=['p', 'ope'] | py=ㄆㄛㄆ | theme=religion | stage=1 [有易混提示]
  4963 | cardinal                       | 樞機主教                           | ⛪        | chunks=['car', 'di', 'nal'] | py=ㄎㄚㄦ-ㄉㄜ-ㄋㄦ | theme=religion | stage=3
  4964 | bishop                         | 主教                             | ⛪        | chunks=['bish', 'op'] | py=ㄅㄧ-ㄒㄚㄆ | theme=religion | stage=2
  4965 | archbishop                     | 大主教                            | ⛪        | chunks=['arch', 'bish', 'op'] | py=ㄚㄦㄑ-ㄅㄧ-ㄒㄚㄆ | theme=religion | stage=3
- 4966 | monastery                      | 修道院                            | ⛪        | chunks=['mon', 'as', 'ter', 'y'] | py=ㄇㄚ-ㄋㄜㄙ-ㄊㄝ-ㄌㄧ | theme=religion | stage=3
+ 4966 | monastery                      | 修道院                            | ⛪        | chunks=['mon', 'as', 'ter', 'y'] | py=ㄇㄚ-ㄋㄜㄙ-ㄊㄝ-ㄖㄧ | theme=religion | stage=3
  4967 | convent                        | 女修道院                           | ⛪        | chunks=['con', 'vent'] | py=ㄎㄚㄣ-ㄈㄣㄊ | theme=religion | stage=3 [有易混提示]
- 4968 | pilgrimage                     | 朝聖                             | 🙏        | chunks=['pil', 'grim', 'age'] | py=ㄆㄧㄦ-ㄍㄌㄧㄇ-ㄧㄐ | theme=religion | stage=3
- 4969 | pilgrim                        | 朝聖者                            | 🙏        | chunks=['pil', 'grim'] | py=ㄆㄧㄦ-ㄍㄌㄧㄇ | theme=religion | stage=3
+ 4968 | pilgrimage                     | 朝聖                             | 🙏        | chunks=['pil', 'grim', 'age'] | py=ㄆㄧㄛ-ㄍㄖㄧ-ㄇㄧㄐ | theme=religion | stage=3
+ 4969 | pilgrim                        | 朝聖者                            | 🙏        | chunks=['pil', 'grim'] | py=ㄆㄧㄛ-ㄍㄖㄧㄇ | theme=religion | stage=3
  4970 | fasting                        | 禁食                             | 🚫        | chunks=['fast', 'ing'] | py=ㄈㄚㄙㄊ-ㄧㄥ | theme=religion | stage=2
- 4971 | ramadan                        | 齋戒月                            | ☪️       | chunks=['ram', 'a', 'dan'] | py=ㄌㄚ-ㄇㄜ-ㄉㄚㄣ | theme=religion | stage=3
- 4972 | heretic                        | 異教徒                            | 🔥        | chunks=['her', 'e', 'tic'] | py=ㄏㄝ-ㄌㄜ-ㄊㄧㄎ | theme=religion | stage=3
+ 4971 | ramadan                        | 齋戒月                            | ☪️       | chunks=['ram', 'a', 'dan'] | py=ㄖㄚ-ㄇㄜ-ㄉㄚㄣ | theme=religion | stage=3
+ 4972 | heretic                        | 異教徒                            | 🔥        | chunks=['her', 'e', 'tic'] | py=ㄏㄝ-ㄖㄜ-ㄊㄧㄎ | theme=religion | stage=3
  4973 | blasphemy                      | 褻瀆                             | 😱        | chunks=['blas', 'phe', 'my'] | py=ㄅㄌㄚㄙ-ㄈㄜ-ㄇㄧ | theme=religion | stage=3
  4974 | saint                          | 聖人                             | 😇        | chunks=['s', 'aint'] | py=ㄙㄝㄣㄊ | theme=religion | stage=1 [有易混提示]
  4975 | fate                           | 命運                             | 🔮        | chunks=['f', 'ate'] | py=ㄈㄝㄊ | theme=religion | stage=2 [有易混提示]
- 4976 | paradise                       | 天堂                             | 🏝️       | chunks=['par', 'a', 'dise'] | py=ㄆㄝ-ㄌㄜ-ㄉㄞㄙ | theme=religion | stage=2
+ 4976 | paradise                       | 天堂                             | 🏝️       | chunks=['par', 'a', 'dise'] | py=ㄆㄝ-ㄖㄜ-ㄉㄞㄙ | theme=religion | stage=2
  4977 | sermon                         | 佈道                             | 🙏        | chunks=['ser', 'mon'] | py=ㄙㄜ-ㄇㄣ | theme=religion | stage=3
  4978 | creed                          | 信條                             | 📜        | chunks=['cr', 'eed'] | py=ㄎㄌㄧㄉ | theme=religion | stage=3 [有易混提示]
  4979 | philosophy                     | 哲學                             | 📚        | chunks=['phi', 'los', 'o', 'phy'] | py=ㄈㄜ-ㄌㄚ-ㄗㄜ-ㄈㄧ | theme=philosophy | stage=2
  4980 | philosophical                  | 哲學的                            | 📚        | chunks=['phil', 'o', 'soph', 'i', 'cal'] | py=ㄈㄧ-ㄌㄜ-ㄗㄚ-ㄈㄜ-ㄎㄜ | theme=philosophy | stage=2 base=philosophy
- 4981 | morality                       | 道德                             | ⚖️       | chunks=['mo', 'ral', 'i', 'ty'] | py=ㄇㄜ-ㄌㄚ-ㄋㄜ-ㄊㄧ | theme=philosophy | stage=2
- 4982 | moral                          | 道德的                            | ⚖️       | chunks=['mo', 'ral'] | py=ㄇㄛ-ㄦ | theme=philosophy | stage=1 [有易混提示]
+ 4981 | morality                       | 道德                             | ⚖️       | chunks=['mo', 'ral', 'i', 'ty'] | py=ㄇㄜ-ㄖㄚ-ㄌㄜ-ㄊㄧ | theme=philosophy | stage=2
+ 4982 | moral                          | 道德的                            | ⚖️       | chunks=['mo', 'ral'] | py=ㄇㄛ-ㄖㄛ | theme=philosophy | stage=1 [有易混提示]
  4983 | immoral                        | 不道德的                           | ⚠️       | chunks=['im', 'mo', 'ral'] | py=ㄧ-ㄇㄛ-ㄦ | theme=philosophy | stage=2 base=moral
  4984 | amoral                         | 無關道德                           | 🤷        | chunks=['a', 'mo', 'ral'] | py=ㄝ-ㄇㄛ-ㄦ | theme=philosophy | stage=3
  4985 | logic                          | 邏輯                             | 🧠        | chunks=['log', 'ic'] | py=ㄌㄚ-ㄐㄧㄎ | theme=philosophy | stage=2 [有易混提示]

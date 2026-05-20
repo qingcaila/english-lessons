@@ -76,14 +76,14 @@
  4074 | vr                             | 虛擬實境                           | 🥽        | chunks=['v', 'r'] | py=ㄈㄧ-ㄚㄦ | theme=internet | stage=1
  4075 | ar                             | 擴增實境                           | 🥽        | chunks=['a', 'r'] | py=ㄝ-ㄚㄦ | theme=internet | stage=1
  4076 | influencer                     | 網紅                             | 📱        | chunks=['in', 'flu', 'en', 'cer'] | py=ㄧㄣ-ㄈㄌㄨ-ㄣ-ㄙㄜ | theme=internet | stage=1 base=influence
- 4077 | virality                       | 病毒式傳播                          | 🦠        | chunks=['vi', 'ral', 'i', 'ty'] | py=ㄈㄞ-ㄌㄦ-ㄦ-ㄊㄧ | theme=internet | stage=3 base=viral
+ 4077 | virality                       | 病毒式傳播                          | 🦠        | chunks=['vi', 'ral', 'i', 'ty'] | py=ㄈㄞ-ㄌㄚ-ㄌㄜ-ㄊㄧ | theme=internet | stage=3 base=viral
  4078 | news                           | 新聞                             | 📰        | chunks=['n', 'ews'] | py=ㄋㄧㄨㄗ | theme=media | stage=0
  4079 | newspaper                      | 報紙                             | 📰        | chunks=['news', 'pa', 'per'] | py=ㄋㄧㄨㄗ-ㄆㄝ-ㄆㄜ | theme=media | stage=0
  4080 | magazine                       | 雜誌                             | 📖        | chunks=['mag', 'a', 'zine'] | py=ㄇㄚ-ㄍㄜ-ㄗㄧㄣ | theme=media | stage=1
  4081 | headline                       | 頭條                             | 📰        | chunks=['head', 'line'] | py=ㄏㄝㄉ-ㄌㄞㄣ | theme=media | stage=1
  4082 | article                        | 文章                             | 📰        | chunks=['ar', 'ti', 'cle'] | py=ㄚㄦ-ㄊㄜ-ㄎㄜ | theme=media | stage=1
  4083 | primetime                      | 黃金時段                           | 📺        | chunks=['prime', 'time'] | py=ㄆㄌㄞㄇ-ㄊㄞㄇ | theme=media | stage=2
- 4084 | propaganda                     | 政治宣傳                           | 📢        | chunks=['prop', 'a', 'gan', 'da'] | py=ㄆㄌㄚ-ㄆㄜ-ㄍㄢ-ㄉㄚ | theme=media | stage=3
+ 4084 | propaganda                     | 政治宣傳                           | 📢        | chunks=['prop', 'a', 'gan', 'da'] | py=ㄆㄌㄚ-ㄆㄜ-ㄍㄚㄣ-ㄉㄜ | theme=media | stage=3
  4085 | cable                          | 有線電視                           | 📺        | chunks=['ca', 'ble'] | py=ㄎㄝ-ㄅㄜ | theme=media | stage=2
  4086 | channel                        | 頻道                             | 📺        | chunks=['chan', 'nel'] | py=ㄑㄚ-ㄋㄜ | theme=media | stage=1
  4087 | talkshow                       | 脫口秀                            | 🎙️       | chunks=['talk', 'show'] | py=ㄊㄛㄎ-ㄒㄛ | theme=media | stage=1
@@ -114,7 +114,7 @@
  4112 | bias                           | 偏見                             | ⚖️       | chunks=['bi', 'as'] | py=ㄅㄞ-ㄚㄙ | theme=media | stage=2 [有易混提示]
  4113 | partisan                       | 黨派                             | 🚩        | chunks=['par', 'ti', 'san'] | py=ㄆㄚㄦ-ㄊㄜ-ㄗㄣ | theme=media | stage=3
  4114 | clickbait                      | 標題黨                            | 🎣        | chunks=['click', 'bait'] | py=ㄎㄌㄧㄎ-ㄅㄝㄊ | theme=media | stage=2
- 4115 | sensational                    | 煽情                             | 📰        | chunks=['sen', 'sa', 'tion', 'al'] | py=ㄙㄝㄣ-ㄙㄝ-ㄒㄣ-ㄦ | theme=media | stage=3 base=sensation
+ 4115 | sensational                    | 煽情                             | 📰        | chunks=['sen', 'sa', 'tion', 'al'] | py=ㄙㄝㄣ-ㄙㄝ-ㄒㄜ-ㄋㄦ | theme=media | stage=3 base=sensation
  4116 | tabloid                        | 小報                             | 📰        | chunks=['tab', 'loid'] | py=ㄊㄚ-ㄅㄌㄛㄧㄉ | theme=media | stage=3
  4117 | journalism                     | 新聞學                            | 📰        | chunks=['jour', 'nal', 'ism'] | py=ㄐㄜ-ㄋㄦ-ㄧㄗㄣ | theme=media | stage=2
  4118 | ethics                         | 倫理                             | ⚖️       | chunks=['eth', 'ics'] | py=ㄝ-ㄙㄧㄎㄙ | theme=media | stage=2
@@ -123,8 +123,8 @@
  4121 | readership                     | 讀者群                            | 📖        | chunks=['read', 'er', 'ship'] | py=ㄌㄧ-ㄉㄜ-ㄒㄧㄆ | theme=media | stage=3
  4122 | bulletin                       | 公報                             | 📋        | chunks=['bul', 'le', 'tin'] | py=ㄅㄨ-ㄌㄜ-ㄊㄣ | theme=media | stage=3
  4123 | exclusive                      | 獨家                             | ⭐        | chunks=['ex', 'clu', 'sive'] | py=ㄝㄎㄙ-ㄎㄌㄨ-ㄒㄧㄈ | theme=media | stage=2 [有易混提示]
- 4124 | opinion                        | 意見                             | 💭        | chunks=['o', 'pin', 'ion'] | py=ㄚ-ㄆㄧㄣ-ㄧㄢ | theme=media | stage=1 [有易混提示]
- 4125 | editorial                      | 社論                             | 📰        | chunks=['ed', 'i', 'to', 'rial'] | py=ㄝ-ㄉㄜ-ㄊㄛ-ㄌㄦ | theme=media | stage=2
+ 4124 | opinion                        | 意見                             | 💭        | chunks=['o', 'pin', 'ion'] | py=ㄜ-ㄆㄧㄣ-ㄧㄢ | theme=media | stage=1 [有易混提示]
+ 4125 | editorial                      | 社論                             | 📰        | chunks=['ed', 'i', 'to', 'rial'] | py=ㄝ-ㄉㄜ-ㄊㄛ-ㄌㄧㄦ | theme=media | stage=2
  4126 | expose                         | 揭露、醜聞報導                        | 🔍        | chunks=['ex', 'pose'] | py=ㄧㄎ-ㄙㄆㄛㄗ | theme=media | stage=2 [有易混提示]
  4127 | scoop                          | 獨家報導                           | 🗞️       | chunks=['sc', 'oop'] | py=ㄙㄎㄨㄆ | theme=media | stage=3 [有易混提示]
  4128 | leak                           | 洩漏(消息)、漏水                      | 💧        | chunks=['l', 'eak'] | py=ㄌㄧㄎ | theme=media | stage=2 [有易混提示]
@@ -136,7 +136,7 @@
  4134 | censorship                     | 審查                             | 🚫        | chunks=['cen', 'sor', 'ship'] | py=ㄙㄝㄣ-ㄗㄜ-ㄒㄧㄆ | theme=media | stage=3
  4135 | interview                      | 訪問                             | 🎤        | chunks=['in', 'ter', 'view'] | py=ㄧㄣ-ㄊㄜ-ㄈㄧㄨ | theme=media | stage=1
  4136 | source                         | 消息來源                           | 📰        | chunks=['s', 'ource'] | py=ㄙㄛㄦㄙ | theme=media | stage=1 [有易混提示]
- 4137 | anonymous                      | 匿名                             | 🎭        | chunks=['a', 'non', 'y', 'mous'] | py=ㄚ-ㄋㄚ-ㄋㄜ-ㄇㄚㄙ | theme=media | stage=2
+ 4137 | anonymous                      | 匿名                             | 🎭        | chunks=['a', 'non', 'y', 'mous'] | py=ㄜ-ㄋㄚ-ㄋㄜ-ㄇㄜㄙ | theme=media | stage=2
  4138 | byline                         | 署名                             | ✍️       | chunks=['by', 'line'] | py=ㄅㄞ-ㄌㄞㄣ | theme=media | stage=3
  4139 | dateline                       | 日期欄                            | 📅        | chunks=['date', 'line'] | py=ㄉㄝㄊ-ㄌㄞㄣ | theme=media | stage=3
  4140 | copyeditor                     | 文字編輯                           | ✍️       | chunks=['cop', 'y', 'ed', 'i', 'tor'] | py=ㄎㄚ-ㄆㄧ-ㄝ-ㄉㄜ-ㄊㄜ | theme=media | stage=3
@@ -258,7 +258,7 @@
  4256 | reduce                         | 減量                             | ➖        | chunks=['re', 'duce'] | py=ㄌㄧ-ㄉㄧㄨㄙ | theme=environment | stage=1
  4257 | microplastic                   | 塑膠微粒                           | 🥤        | chunks=['mi', 'cro', 'plas', 'tic'] | py=ㄇㄞ-ㄎㄌㄛ-ㄆㄌㄚㄙ-ㄊㄧㄎ | theme=environment | stage=3
  4258 | oilspill                       | 漏油                             | 🛢️       | chunks=['oil', 'spill'] | py=ㄛㄧㄦ-ㄙㄆㄧㄦ | theme=environment | stage=3
- 4259 | contamination                  | 污染                             | ☣️       | chunks=['con', 'tam', 'i', 'na', 'tion'] | py=ㄎㄢ-ㄊㄚ-ㄇㄜ-ㄋㄝ-ㄒㄣ | theme=environment | stage=3 base=contaminate
+ 4259 | contamination                  | 污染                             | ☣️       | chunks=['con', 'tam', 'i', 'na', 'tion'] | py=ㄎㄜㄣ-ㄊㄚ-ㄇㄜ-ㄋㄝ-ㄒㄣ | theme=environment | stage=3 base=contaminate
  4260 | acidrain                       | 酸雨                             | 🌧️       | chunks=['ac', 'id', 'rain'] | py=ㄚ-ㄗㄜ-ㄌㄝㄣ | theme=environment | stage=3
  4261 | smog                           | 煙霧                             | 💨        | chunks=['sm', 'og'] | py=ㄙㄇㄚㄍ | theme=environment | stage=2
  4262 | conservation                   | 保育                             | 🌳        | chunks=['con', 'ser', 'va', 'tion'] | py=ㄎㄢ-ㄗㄜ-ㄈㄝ-ㄒㄣ | theme=environment | stage=2 base=conserve
@@ -267,8 +267,8 @@
  4265 | sanctuary                      | 保護區                            | 🏞️       | chunks=['sanc', 'tu', 'ar', 'y'] | py=ㄙㄚㄣㄎ-ㄑㄨ-ㄝ-ㄌㄧ | theme=environment | stage=3 [有易混提示]
  4266 | reserve                        | 保留區                            | 🌳        | chunks=['re', 'serve'] | py=ㄌㄧ-ㄗㄜㄈ | theme=environment | stage=2 [有易混提示]
  4267 | wildlife                       | 野生生物                           | 🦌        | chunks=['wild', 'life'] | py=ㄨㄞㄦㄉ-ㄌㄞㄈ | theme=environment | stage=1
- 4268 | fauna                          | 動物群                            | 🐾        | chunks=['fau', 'na'] | py=ㄈㄛ-ㄋㄚ | theme=environment | stage=3
- 4269 | flora                          | 植物群                            | 🌸        | chunks=['flo', 'ra'] | py=ㄈㄌㄛ-ㄌㄚ | theme=environment | stage=3
+ 4268 | fauna                          | 動物群                            | 🐾        | chunks=['fau', 'na'] | py=ㄈㄛ-ㄋㄜ | theme=environment | stage=3
+ 4269 | flora                          | 植物群                            | 🌸        | chunks=['flo', 'ra'] | py=ㄈㄌㄛ-ㄌㄜ | theme=environment | stage=3
  4270 | vegetation                     | 植被                             | 🌿        | chunks=['veg', 'e', 'ta', 'tion'] | py=ㄈㄝ-ㄐㄜ-ㄊㄝ-ㄒㄣ | theme=environment | stage=2
  4271 | flooding                       | 水災                             | 🌊        | chunks=['flood', 'ing'] | py=ㄈㄌㄚㄉ-ㄧㄥ | theme=environment | stage=2
  4272 | erosion                        | 侵蝕                             | 🪨        | chunks=['e', 'ro', 'sion'] | py=ㄧ-ㄌㄛ-ㄓㄣ | theme=environment | stage=3
@@ -305,7 +305,7 @@
  4303 | mass                           | 質量                             | ⚖️       | chunks=['m', 'ass'] | py=ㄇㄚㄙ | theme=science | stage=2 [有易混提示]
  4304 | momentum                       | 動量                             | ➡️       | chunks=['mo', 'men', 'tum'] | py=ㄇㄜ-ㄇㄣ-ㄊㄣ | theme=science | stage=3
  4305 | velocity                       | 速度                             | 💨        | chunks=['ve', 'loc', 'i', 'ty'] | py=ㄈㄜ-ㄌㄚ-ㄙㄜ-ㄊㄧ | theme=science | stage=3
- 4306 | acceleration                   | 加速度                            | 💨        | chunks=['ac', 'cel', 'er', 'a', 'tion'] | py=ㄚㄎ-ㄙㄝ-ㄌㄜ-ㄝ-ㄒㄣ | theme=science | stage=3
+ 4306 | acceleration                   | 加速度                            | 💨        | chunks=['ac', 'cel', 'er', 'a', 'tion'] | py=ㄚㄎ-ㄙㄝ-ㄌㄜ-ㄌㄝ-ㄒㄣ | theme=science | stage=3
  4307 | kinetic                        | 動能                             | ⚡        | chunks=['ki', 'net', 'ic'] | py=ㄎㄜ-ㄋㄝ-ㄊㄧㄎ | theme=science | stage=3
  4308 | potential                      | 位能、潛力                          | 🔋        | chunks=['po', 'ten', 'tial'] | py=ㄆㄜ-ㄊㄣ-ㄒㄦ | theme=science | stage=2 [有易混提示]
  4309 | magnetism                      | 磁性                             | 🧲        | chunks=['mag', 'net', 'ism'] | py=ㄇㄚㄍ-ㄋㄜ-ㄊㄧㄗㄣ | theme=science | stage=3
@@ -314,8 +314,8 @@
  4312 | hypothesis                     | 假設                             | 💭        | chunks=['hy', 'poth', 'e', 'sis'] | py=ㄏㄞ-ㄆㄚ-ㄙㄜ-ㄒㄜㄙ | theme=science | stage=3
  4313 | theory                         | 理論                             | 📚        | chunks=['the', 'o', 'ry'] | py=ㄒㄧ-ㄜ-ㄌㄧ | theme=science | stage=1 [有易混提示]
  4314 | principle                      | 原理                             | 📜        | chunks=['prin', 'ci', 'ple'] | py=ㄆㄌㄧㄣ-ㄙㄜ-ㄆㄜ | theme=science | stage=2 [有易混提示]
- 4315 | formula                        | 公式                             | 📐        | chunks=['for', 'mu', 'la'] | py=ㄈㄛㄦ-ㄇㄧㄨ-ㄌㄚ | theme=science | stage=2
- 4316 | equation                       | 方程式                            | 📐        | chunks=['e', 'qua', 'tion'] | py=ㄧ-ㄎㄨㄝ-ㄒㄣ | theme=science | stage=2
+ 4315 | formula                        | 公式                             | 📐        | chunks=['for', 'mu', 'la'] | py=ㄈㄛㄦ-ㄇㄧㄨ-ㄌㄜ | theme=science | stage=2
+ 4316 | equation                       | 方程式                            | 📐        | chunks=['e', 'qua', 'tion'] | py=ㄧ-ㄎㄨㄝ-ㄓㄣ | theme=science | stage=2
  4317 | laboratory                     | 實驗室                            | 🧪        | chunks=['lab', 'o', 'ra', 'to', 'ry'] | py=ㄌㄚ-ㄅㄜ-ㄌㄜ-ㄊㄛ-ㄌㄧ | theme=science | stage=1
  4318 | lab                            | 實驗室                            | 🧪        | chunks=['l', 'ab'] | py=ㄌㄚㄅ | theme=science | stage=1
  4319 | microscope                     | 顯微鏡                            | 🔬        | chunks=['mi', 'cro', 'scope'] | py=ㄇㄞ-ㄎㄌㄜ-ㄙㄎㄛㄆ | theme=science | stage=1
@@ -326,7 +326,7 @@
  4324 | measurement                    | 測量                             | 📏        | chunks=['meas', 'ure', 'ment'] | py=ㄇㄝ-ㄓㄜ-ㄇㄣㄊ | theme=science | stage=2 base=measure
  4325 | liquid                         | 液體                             | 💧        | chunks=['liq', 'uid'] | py=ㄌㄧ-ㄎㄨㄝㄉ | theme=science | stage=1
  4326 | gas                            | 氣體、汽油                          | 💨        | chunks=['g', 'as'] | py=ㄍㄚㄙ | theme=science | stage=1 [有易混提示]
- 4327 | plasma                         | 電漿                             | ⚡        | chunks=['plas', 'ma'] | py=ㄆㄌㄚㄙ-ㄇㄚ | theme=science | stage=3 [有易混提示]
+ 4327 | plasma                         | 電漿                             | ⚡        | chunks=['plas', 'ma'] | py=ㄆㄌㄚㄙ-ㄇㄜ | theme=science | stage=3 [有易混提示]
  4328 | vapor                          | 蒸氣                             | 💨        | chunks=['va', 'por'] | py=ㄈㄝ-ㄆㄜ | theme=science | stage=2
  4329 | acid                           | 酸                              | ⚗️       | chunks=['ac', 'id'] | py=ㄚ-ㄗㄜㄉ | theme=science | stage=2 [有易混提示]
  4330 | ion                            | 離子                             | ⚛️       | chunks=['i', 'on'] | py=ㄞ-ㄢ | theme=science | stage=3
@@ -358,12 +358,12 @@
  4356 | planet                         | 行星                             | 🪐        | chunks=['plan', 'et'] | py=ㄆㄌㄚ-ㄋㄝㄊ | theme=science | stage=1
  4357 | comet                          | 彗星                             | ☄️       | chunks=['co', 'met'] | py=ㄎㄚ-ㄇㄝㄊ | theme=science | stage=2
  4358 | meteor                         | 流星                             | ☄️       | chunks=['me', 'te', 'or'] | py=ㄇㄧ-ㄊㄧ-ㄜ | theme=science | stage=2
- 4359 | asteroid                       | 小行星                            | ☄️       | chunks=['as', 'ter', 'oid'] | py=ㄚㄙ-ㄊㄜ-ㄛㄧㄉ | theme=science | stage=2
+ 4359 | asteroid                       | 小行星                            | ☄️       | chunks=['as', 'ter', 'oid'] | py=ㄚㄙ-ㄊㄜ-ㄌㄛㄧㄉ | theme=science | stage=2
  4360 | orbit                          | 軌道                             | 🌍        | chunks=['or', 'bit'] | py=ㄛㄦ-ㄅㄜㄊ | theme=science | stage=2 [有易混提示]
  4361 | eclipse                        | 日食、月食                          | 🌒        | chunks=['e', 'clipse'] | py=ㄧ-ㄎㄌㄧㄆㄙ | theme=science | stage=2
  4362 | supernova                      | 超新星                            | 💥        | chunks=['su', 'per', 'no', 'va'] | py=ㄙㄨ-ㄆㄜ-ㄋㄛ-ㄈㄚ | theme=science | stage=3
  4363 | blackhole                      | 黑洞                             | 🕳️       | chunks=['black', 'hole'] | py=ㄅㄌㄚㄎ-ㄏㄛㄦ | theme=science | stage=2
- 4364 | nebula                         | 星雲                             | 🌌        | chunks=['neb', 'u', 'la'] | py=ㄋㄝ-ㄅㄧㄨ-ㄌㄚ | theme=science | stage=3
+ 4364 | nebula                         | 星雲                             | 🌌        | chunks=['neb', 'u', 'la'] | py=ㄋㄝ-ㄅㄧㄨ-ㄌㄜ | theme=science | stage=3
  4365 | quantum                        | 量子                             | ⚛️       | chunks=['quan', 'tum'] | py=ㄎㄨㄢ-ㄊㄣ | theme=science | stage=3 [有易混提示]
  4366 | relativity                     | 相對論                            | ⏳        | chunks=['rel', 'a', 'tiv', 'i', 'ty'] | py=ㄌㄝ-ㄌㄜ-ㄊㄧ-ㄈㄜ-ㄊㄧ | theme=science | stage=3
  4367 | dinosaur                       | 恐龍                             | 🦕        | chunks=['di', 'no', 'saur'] | py=ㄉㄞ-ㄋㄜ-ㄙㄛㄦ | theme=science | stage=1
@@ -384,13 +384,13 @@
  4382 | medieval                       | 中世紀                            | 🏰        | chunks=['me', 'di', 'e', 'val'] | py=ㄇㄧ-ㄉㄧ-ㄧ-ㄈㄦ | theme=history | stage=2
  4383 | renaissance                    | 文藝復興                           | 🎨        | chunks=['re', 'nais', 'sance'] | py=ㄌㄝ-ㄋㄜ-ㄙㄢㄙ | theme=history | stage=2
  4384 | enlightenment                  | 啟蒙運動                           | 💡        | chunks=['en', 'light', 'en', 'ment'] | py=ㄧㄣ-ㄌㄞㄊ-ㄣ-ㄇㄣㄊ | theme=history | stage=3 base=enlighten
- 4385 | contemporary                   | 當代                             | 🆕        | chunks=['con', 'tem', 'po', 'rar', 'y'] | py=ㄎㄜㄣ-ㄊㄣ-ㄆㄜ-ㄌㄝㄜ-ㄧ | theme=history | stage=2 [有易混提示]
+ 4385 | contemporary                   | 當代                             | 🆕        | chunks=['con', 'tem', 'po', 'rar', 'y'] | py=ㄎㄜㄣ-ㄊㄣ-ㄆㄜ-ㄌㄝ-ㄌㄧ | theme=history | stage=2 [有易混提示]
  4386 | empire                         | 帝國                             | 👑        | chunks=['em', 'pire'] | py=ㄝㄇ-ㄆㄞㄜ | theme=history | stage=1
  4387 | dynasty                        | 王朝                             | 👑        | chunks=['dy', 'nas', 'ty'] | py=ㄉㄞ-ㄋㄚㄙ-ㄊㄧ | theme=history | stage=2
  4388 | kingdom                        | 王國                             | 👑        | chunks=['king', 'dom'] | py=ㄎㄧㄥ-ㄉㄣ | theme=history | stage=1
  4389 | monarchy                       | 君主制                            | 👑        | chunks=['mon', 'ar', 'chy'] | py=ㄇㄚ-ㄋㄜ-ㄎㄧ | theme=history | stage=2
  4390 | republic                       | 共和國                            | 🏛️       | chunks=['re', 'pub', 'lic'] | py=ㄌㄧ-ㄆㄚ-ㄅㄌㄧㄎ | theme=history | stage=1
- 4391 | democracy                      | 民主                             | 🗳️       | chunks=['de', 'moc', 'ra', 'cy'] | py=ㄉㄧ-ㄇㄚ-ㄎㄌㄜ-ㄒㄧ | theme=history | stage=1
+ 4391 | democracy                      | 民主                             | 🗳️       | chunks=['de', 'moc', 'ra', 'cy'] | py=ㄉㄜ-ㄇㄚ-ㄎㄌㄜ-ㄒㄧ | theme=history | stage=1
  4392 | dictatorship                   | 獨裁                             | 👤        | chunks=['dic', 'ta', 'tor', 'ship'] | py=ㄉㄧㄎ-ㄊㄝ-ㄊㄜ-ㄒㄧㄆ | theme=history | stage=2
  4393 | emperor                        | 皇帝                             | 👑        | chunks=['em', 'per', 'or'] | py=ㄝㄇ-ㄆㄜ-ㄜ | theme=history | stage=1
  4394 | empress                        | 女皇                             | 👑        | chunks=['em', 'press'] | py=ㄝㄇ-ㄆㄌㄝㄙ | theme=history | stage=2
@@ -405,7 +405,7 @@
  4403 | invasion                       | 入侵                             | ⚔️       | chunks=['in', 'va', 'sion'] | py=ㄧㄣ-ㄈㄝ-ㄓㄣ | theme=history | stage=2 base=invade
  4404 | conquest                       | 征服                             | ⚔️       | chunks=['con', 'quest'] | py=ㄎㄚㄣ-ㄎㄨㄝㄙㄊ | theme=history | stage=2
  4405 | occupation                     | 佔領                             | ⚔️       | chunks=['oc', 'cu', 'pa', 'tion'] | py=ㄚ-ㄎㄧㄨ-ㄆㄝ-ㄒㄣ | theme=history | stage=2 base=occupy [有易混提示]
- 4406 | liberation                     | 解放                             | 🕊️       | chunks=['lib', 'er', 'a', 'tion'] | py=ㄌㄧ-ㄅㄜ-ㄝ-ㄒㄣ | theme=history | stage=2 base=liberate
+ 4406 | liberation                     | 解放                             | 🕊️       | chunks=['lib', 'er', 'a', 'tion'] | py=ㄌㄧ-ㄅㄜ-ㄌㄝ-ㄒㄣ | theme=history | stage=2 base=liberate
  4407 | revolution                     | 革命                             | ✊        | chunks=['rev', 'o', 'lu', 'tion'] | py=ㄌㄝ-ㄈㄜ-ㄌㄨ-ㄒㄣ | theme=history | stage=1 [有易混提示]
  4408 | rebellion                      | 叛亂                             | ⚔️       | chunks=['re', 'bel', 'lion'] | py=ㄌㄧ-ㄅㄝ-ㄌㄧㄢ | theme=history | stage=2 base=rebel
  4409 | uprising                       | 起義                             | ✊        | chunks=['up', 'ris', 'ing'] | py=ㄚㄆ-ㄌㄞㄗ-ㄧㄥ | theme=history | stage=2
@@ -426,7 +426,7 @@
  4424 | musket                         | 火槍                             | 🔫        | chunks=['mus', 'ket'] | py=ㄇㄚㄙ-ㄎㄝㄊ | theme=history | stage=3
  4425 | bayonet                        | 刺刀                             | 🔪        | chunks=['bay', 'o', 'net'] | py=ㄅㄝ-ㄜ-ㄋㄝㄊ | theme=history | stage=3
  4426 | discovery                      | 發現                             | 🔍        | chunks=['dis', 'cov', 'er', 'y'] | py=ㄉㄧㄙ-ㄎㄚ-ㄈㄜ-ㄌㄧ | theme=history | stage=1 base=discover
- 4427 | exploration                    | 探索                             | 🗺️       | chunks=['ex', 'plor', 'a', 'tion'] | py=ㄝㄎㄙ-ㄆㄌㄛ-ㄝ-ㄒㄣ | theme=history | stage=2 base=explore
+ 4427 | exploration                    | 探索                             | 🗺️       | chunks=['ex', 'plor', 'a', 'tion'] | py=ㄝㄎㄙ-ㄆㄌㄛ-ㄌㄝ-ㄒㄣ | theme=history | stage=2 base=explore
  4428 | colonization                   | 殖民                             | 🚩        | chunks=['col', 'o', 'ni', 'za', 'tion'] | py=ㄎㄚ-ㄌㄜ-ㄋㄜ-ㄗㄝ-ㄒㄣ | theme=history | stage=3
  4429 | colonist                       | 殖民者                            | 🚩        | chunks=['col', 'o', 'nist'] | py=ㄎㄚ-ㄌㄜ-ㄋㄧㄙㄊ | theme=history | stage=3
  4430 | settler                        | 移居者                            | 🏘️       | chunks=['set', 'tler'] | py=ㄙㄝ-ㄉㄌㄜ | theme=history | stage=2 base=settle
@@ -458,16 +458,16 @@
  4456 | atrocity                       | 暴行                             | 💀        | chunks=['a', 'troc', 'i', 'ty'] | py=ㄚ-ㄊㄌㄚ-ㄙㄜ-ㄊㄧ | theme=history | stage=3
  4457 | coup                           | 政變                             | ⚔️       | chunks=['c', 'oup'] | py=ㄎㄨ | theme=history | stage=3 [有易混提示]
  4458 | succession                     | 繼承                             | 👑        | chunks=['suc', 'ces', 'sion'] | py=ㄙㄚㄎ-ㄙㄝ-ㄒㄣ | theme=history | stage=3 [有易混提示]
- 4459 | abdication                     | 退位                             | 👑        | chunks=['ab', 'di', 'ca', 'tion'] | py=ㄚㄅ-ㄉㄧ-ㄎㄝ-ㄒㄣ | theme=history | stage=3
+ 4459 | abdication                     | 退位                             | 👑        | chunks=['ab', 'di', 'ca', 'tion'] | py=ㄚㄅ-ㄉㄜ-ㄎㄝ-ㄒㄣ | theme=history | stage=3
  4460 | regiment                       | 軍團、團級部隊                        | 🪖        | chunks=['reg', 'i', 'ment'] | py=ㄌㄝ-ㄐㄜ-ㄇㄣㄊ | theme=history | stage=3
  4461 | sovereign                      | 君主                             | 👑        | chunks=['sov', 'er', 'eign'] | py=ㄙㄚ-ㄈㄜ-ㄌㄣ | theme=history | stage=3 [有易混提示]
- 4462 | continent                      | 大陸                             | 🌍        | chunks=['con', 'ti', 'nent'] | py=ㄎㄚㄣ-ㄊㄜ-ㄋㄣㄊ | theme=geography | stage=1 [有易混提示]
- 4463 | africa                         | 非洲                             | 🌍        | chunks=['af', 'ri', 'ca'] | py=ㄚ-ㄈㄌㄧ-ㄎㄚ | theme=geography | stage=1
+ 4462 | continent                      | 大陸                             | 🌍        | chunks=['con', 'ti', 'nent'] | py=ㄎㄚㄣ-ㄊㄜ-ㄋㄜㄣㄊ | theme=geography | stage=1 [有易混提示]
+ 4463 | africa                         | 非洲                             | 🌍        | chunks=['af', 'ri', 'ca'] | py=ㄚ-ㄈㄌㄧ-ㄎㄜ | theme=geography | stage=1
  4464 | asia                           | 亞洲                             | 🌏        | chunks=['a', 'sia'] | py=ㄝ-ㄓㄜ | theme=geography | stage=1
  4465 | europe                         | 歐洲                             | 🌍        | chunks=['eu', 'rope'] | py=ㄧㄨ-ㄌㄛㄆ | theme=geography | stage=1
- 4466 | antarctica                     | 南極洲                            | 🌐        | chunks=['ant', 'arc', 'ti', 'ca'] | py=ㄚㄣㄊ-ㄚㄦㄎ-ㄊㄜ-ㄎㄚ | theme=geography | stage=2
- 4467 | americas                       | 美洲                             | 🌎        | chunks=['a', 'mer', 'i', 'cas'] | py=ㄚ-ㄇㄝ-ㄌㄜ-ㄎㄗ | theme=geography | stage=2
- 4468 | oceania                        | 大洋洲                            | 🌏        | chunks=['o', 'ce', 'an', 'ia'] | py=ㄛ-ㄒㄧ-ㄚ-ㄋㄧㄚ | theme=geography | stage=3
+ 4466 | antarctica                     | 南極洲                            | 🌐        | chunks=['ant', 'arc', 'ti', 'ca'] | py=ㄚㄣㄊ-ㄚㄦㄎ-ㄊㄜ-ㄎㄜ | theme=geography | stage=2
+ 4467 | americas                       | 美洲                             | 🌎        | chunks=['a', 'mer', 'i', 'cas'] | py=ㄜ-ㄇㄝ-ㄌㄜ-ㄎㄗ | theme=geography | stage=2
+ 4468 | oceania                        | 大洋洲                            | 🌏        | chunks=['o', 'ce', 'an', 'ia'] | py=ㄛ-ㄒㄧ-ㄚ-ㄋㄧㄜ | theme=geography | stage=3
  4469 | border                         | 國界                             | 🗺️       | chunks=['bor', 'der'] | py=ㄅㄛㄦ-ㄉㄜ | theme=geography | stage=1 [有易混提示]
  4470 | frontier                       | 邊疆                             | 🗺️       | chunks=['fron', 'tier'] | py=ㄈㄌㄚㄣ-ㄊㄧㄜ | theme=geography | stage=3
  4471 | boundary                       | 邊界                             | 🗺️       | chunks=['bound', 'a', 'ry'] | py=ㄅㄠㄣㄉ-ㄝ-ㄌㄧ | theme=geography | stage=2 [有易混提示]
@@ -484,12 +484,12 @@
  4482 | altitude                       | 高度                             | 📈        | chunks=['al', 'ti', 'tude'] | py=ㄚㄦ-ㄊㄜ-ㄊㄧㄨㄉ | theme=geography | stage=2 [有易混提示]
  4483 | sealevel                       | 海平面                            | 🌊        | chunks=['sea', 'lev', 'el'] | py=ㄒㄧ-ㄌㄝ-ㄈㄦ | theme=geography | stage=2 [有易混提示]
  4484 | plateau                        | 高原                             | ⛰️       | chunks=['pla', 'teau'] | py=ㄆㄌㄚ-ㄊㄛ | theme=geography | stage=3
- 4485 | peninsula                      | 半島                             | 🏝️       | chunks=['pen', 'in', 'su', 'la'] | py=ㄆㄜ-ㄋㄧㄣ-ㄙㄜ-ㄌㄚ | theme=geography | stage=2
+ 4485 | peninsula                      | 半島                             | 🏝️       | chunks=['pen', 'in', 'su', 'la'] | py=ㄆㄜ-ㄋㄧㄣ-ㄙㄜ-ㄌㄜ | theme=geography | stage=2
  4486 | isthmus                        | 地峽                             | 🌐        | chunks=['isth', 'mus'] | py=ㄧㄙ-ㄇㄚㄙ | theme=geography | stage=3
  4487 | archipelago                    | 群島                             | 🏝️       | chunks=['ar', 'chi', 'pel', 'a', 'go'] | py=ㄚㄦ-ㄎㄜ-ㄆㄝ-ㄌㄜ-ㄍㄛ | theme=geography | stage=3
  4488 | atoll                          | 環礁                             | 🏝️       | chunks=['a', 'toll'] | py=ㄚ-ㄊㄛㄦ | theme=geography | stage=3
  4489 | reef                           | 礁                              | 🪸        | chunks=['r', 'eef'] | py=ㄌㄧㄈ | theme=geography | stage=2 [有易混提示]
- 4490 | delta                          | 三角洲                            | 🌊        | chunks=['del', 'ta'] | py=ㄉㄝㄦ-ㄊㄚ | theme=geography | stage=3 [有易混提示]
+ 4490 | delta                          | 三角洲                            | 🌊        | chunks=['del', 'ta'] | py=ㄉㄝㄦ-ㄊㄜ | theme=geography | stage=3 [有易混提示]
  4491 | estuary                        | 河口                             | 🌊        | chunks=['es', 'tu', 'ar', 'y'] | py=ㄝㄙ-ㄑㄨ-ㄝ-ㄌㄧ | theme=geography | stage=3
  4492 | fjord                          | 峽灣                             | 🏞️       | chunks=['fj', 'ord'] | py=ㄈㄧㄛㄦㄉ | theme=geography | stage=3
  4493 | gulf                           | 海灣                             | 🌊        | chunks=['g', 'ulf'] | py=ㄍㄚㄦㄈ | theme=geography | stage=2 [有易混提示]
@@ -497,5 +497,5 @@
  4495 | strait                         | 海峽                             | 🌊        | chunks=['str', 'ait'] | py=ㄙㄉㄌㄝㄊ | theme=geography | stage=2 [有易混提示]
  4496 | sound                          | 聲音、海峽                          | 🌊        | chunks=['s', 'ound'] | py=ㄙㄠㄣㄉ | theme=geography | stage=2 [有易混提示]
  4497 | geyser                         | 間歇泉                            | ♨️       | chunks=['gey', 'ser'] | py=ㄍㄞ-ㄗㄜ | theme=geography | stage=3
- 4498 | tundra                         | 凍原                             | 🌨️       | chunks=['tun', 'dra'] | py=ㄊㄚㄣ-ㄉㄌㄚ | theme=geography | stage=3
- 4499 | savanna                        | 草原                             | 🦒        | chunks=['sa', 'van', 'na'] | py=ㄙㄜ-ㄈㄚ-ㄋㄚ | theme=geography | stage=3
+ 4498 | tundra                         | 凍原                             | 🌨️       | chunks=['tun', 'dra'] | py=ㄊㄚㄣ-ㄉㄌㄜ | theme=geography | stage=3
+ 4499 | savanna                        | 草原                             | 🦒        | chunks=['sa', 'van', 'na'] | py=ㄙㄜ-ㄈㄚ-ㄋㄜ | theme=geography | stage=3

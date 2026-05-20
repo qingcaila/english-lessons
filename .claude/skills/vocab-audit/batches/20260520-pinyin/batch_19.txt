@@ -33,7 +33,7 @@
  9531 | toothache                      | 牙痛                             | 🏃        | chunks=['toot', 'hac', 'he'] | py=ㄊㄨㄊ-ㄏㄚㄎ-ㄏㄝ | theme=actions | stage=3
  9532 | toxin                          | 毒素                             | 🏃        | chunks=['to', 'xin'] | py=ㄊㄛ-ㄎㄙㄧㄋ | theme=actions | stage=3
  9533 | wheeze                         | 喘鳴                             | 🏃        | chunks=['whee', 'ze'] | py=ㄨㄧ-ㄗㄧ | theme=actions | stage=3
- 9534 | alkaline                       | 鹼性的                            | 🎨        | chunks=['al', 'ka', 'li', 'ne'] | py=ㄦ-ㄎㄚ-ㄌㄧ-ㄋㄧ | theme=adjectives | stage=3
+ 9534 | alkaline                       | 鹼性的                            | 🎨        | chunks=['al', 'ka', 'li', 'ne'] | py=ㄚㄦ-ㄎㄜ-ㄌㄞㄋ | theme=adjectives | stage=3
  9535 | amino                          | 胺基(的)                          | 🏃        | chunks=['a', 'mi', 'no'] | py=ㄜ-ㄇㄞ-ㄋㄛ | theme=actions | stage=3
  9536 | bacterium                      | 細菌                             | 🏃        | chunks=['bac', 'te', 'rium'] | py=ㄅㄚㄎ-ㄊㄧ-ㄖㄧㄚㄇ | theme=actions | stage=3
  9537 | photon                         | 光子                             | 🏃        | chunks=['pho', 'ton'] | py=ㄈㄛ-ㄉㄣ | theme=actions | stage=3
@@ -44,38 +44,38 @@
  9542 | addictive                      | 上癮的                            | 🎨        | chunks=['ad', 'dic', 'ti', 've'] | py=ㄚㄉ-ㄉㄧㄎ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=3 base=addict
  9543 | adept                          | 熟練的                            | 🎨        | chunks=['a', 'dept'] | py=ㄜ-ㄉㄝㄆㄊ | theme=adjectives | stage=3
  9544 | admiring                       | 欽佩的                            | 🎨        | chunks=['ad', 'mi', 'ring'] | py=ㄚㄉ-ㄇㄞ-ㄌㄧㄥ | theme=adjectives | stage=3
- 9545 | adorable                       | 可愛的                            | 💁        | chunks=['a', 'do', 'rab', 'le'] | py=ㄜ-ㄉㄛ-ㄖㄝ-ㄌㄧ | theme=appearance | stage=3 base=adore
+ 9545 | adorable                       | 可愛的                            | 💁        | chunks=['a', 'do', 'rab', 'le'] | py=ㄜ-ㄉㄛ-ㄖㄜ-ㄅㄜ | theme=appearance | stage=3 base=adore
  9546 | affordable                     | 負擔得起的                          | 🎨        | chunks=['af', 'for', 'dab', 'le'] | py=ㄚㄈ-ㄈㄛ-ㄉㄚㄅ-ㄌㄧ | theme=adjectives | stage=3 base=afford
- 9547 | alleged                        | 涉嫌的                            | 🎨        | chunks=['al', 'le', 'ged'] | py=ㄦ-ㄌㄧ-ㄍㄝㄉ | theme=adjectives | stage=3
+ 9547 | alleged                        | 涉嫌的                            | 🎨        | chunks=['al', 'le', 'ged'] | py=ㄜ-ㄌㄝㄐㄉ | theme=adjectives | stage=3
  9548 | alphabetical                   | 按字母順序的                         | 🎨        | chunks=['al', 'pha', 'be', 'ti', 'cal'] | py=ㄦ-ㄈㄚ-ㄅㄧ-ㄊㄜ-ㄎㄜ | theme=adjectives | stage=3
- 9549 | ambient                        | 環境的                            | 🌍        | chunks=['am', 'bient'] | py=ㄚㄇ-ㄅㄞㄋㄊ | theme=environment | stage=3
+ 9549 | ambient                        | 環境的                            | 🌍        | chunks=['am', 'bient'] | py=ㄚㄇ-ㄅㄧㄜㄋㄊ | theme=environment | stage=3
  9550 | amphibious                     | 兩棲的                            | 🐾        | chunks=['am', 'phi', 'bious'] | py=ㄚㄇ-ㄈㄧ-ㄅㄧㄜㄙ | theme=animals | stage=3
- 9551 | answerable                     | 有責任的                           | 🎨        | chunks=['an', 'swe', 'rab', 'le'] | py=ㄢ-ㄙㄨㄧ-ㄖㄝ-ㄌㄧ | theme=adjectives | stage=3 base=answer
+ 9551 | answerable                     | 有責任的                           | 🎨        | chunks=['an', 'swe', 'rab', 'le'] | py=ㄚㄣ-ㄙㄜ-ㄖㄜ-ㄅㄜ | theme=adjectives | stage=3 base=answer
  9552 | appealing                      | 吸引人的                           | 🎨        | chunks=['ap', 'pea', 'ling'] | py=ㄚ-ㄆㄧ-ㄌㄧㄥ | theme=adjectives | stage=3
  9553 | archaic                        | 古老的                            | 🎨        | chunks=['ar', 'chaic'] | py=ㄚㄦ-ㄔㄟㄎ | theme=adjectives | stage=3
  9554 | arid                           | 乾旱的                            | 🎨        | chunks=['a', 'rid'] | py=ㄜ-ㄌㄧ | theme=adjectives | stage=3
  9555 | aromatic                       | 芳香的                            | 🎨        | chunks=['a', 'ro', 'ma', 'tic'] | py=ㄜ-ㄌㄛ-ㄇㄚ-ㄊㄧㄎ | theme=adjectives | stage=3
  9556 | assertive                      | 果斷的                            | 🎨        | chunks=['as', 'ser', 'ti', 've'] | py=ㄚ-ㄗㄜ-ㄊㄜ-ㄈㄜ | theme=adjectives | stage=3 base=assert
  9557 | astonishing                    | 驚人的                            | 🎨        | chunks=['as', 'to', 'nis', 'hing'] | py=ㄚ-ㄊㄛ-ㄋㄧㄙ-ㄏㄧㄥ | theme=adjectives | stage=3
- 9558 | astronomical                   | 天文的                            | 🎨        | chunks=['as', 'tro', 'no', 'mi', 'cal'] | py=ㄚ-ㄊㄌㄛ-ㄋㄛ-ㄇㄞ-ㄎㄜ | theme=adjectives | stage=3
+ 9558 | astronomical                   | 天文的                            | 🎨        | chunks=['as', 'tro', 'no', 'mi', 'cal'] | py=ㄚ-ㄊㄜ-ㄋㄛ-ㄇㄧ-ㄎㄜ | theme=adjectives | stage=3
  9559 | audible                        | 可聽見的                           | 🎨        | chunks=['au', 'dib', 'le'] | py=ㄛ-ㄉㄧㄅ-ㄌㄧ | theme=adjectives | stage=3
- 9560 | autonomous                     | 自治的                            | 🎨        | chunks=['au', 'to', 'no', 'mous'] | py=ㄛ-ㄊㄛ-ㄋㄛ-ㄇㄚㄙ | theme=adjectives | stage=3
- 9561 | mindful                        | 留心的                            | 🎨        | chunks=['min', 'dful'] | py=ㄇㄧ-ㄉㄈㄚㄛ | theme=adjectives | stage=3 base=mind
+ 9560 | autonomous                     | 自治的                            | 🎨        | chunks=['au', 'to', 'no', 'mous'] | py=ㄛ-ㄊㄚ-ㄋㄜ-ㄇㄜㄙ | theme=adjectives | stage=3
+ 9561 | mindful                        | 留心的                            | 🎨        | chunks=['min', 'dful'] | py=ㄇㄞㄋㄉ-ㄈㄜ | theme=adjectives | stage=3 base=mind
  9562 | purposeful                     | 有目的的                           | 🎨        | chunks=['pur', 'po', 'se', 'ful'] | py=ㄆㄜ-ㄆㄛ-ㄙㄜ-ㄈㄜ | theme=adjectives | stage=3 base=purpose
  9563 | regretful                      | 後悔的                            | 😞        | chunks=['reg', 'ret', 'ful'] | py=ㄌㄝ-ㄌㄝㄊ-ㄈㄜ | theme=directions | stage=3 base=regret
  9564 | resourceful                    | 足智多謀的                          | 🎨        | chunks=['re', 'sour', 'ce', 'ful'] | py=ㄌㄧ-ㄙㄠㄜ-ㄙㄜ-ㄈㄜ | theme=adjectives | stage=3 base=resource
  9565 | tearful                        | 含淚的                            | 🎨        | chunks=['tear', 'ful'] | py=ㄊㄧㄜ-ㄈㄜ | theme=adjectives | stage=3
  9566 | vengeful                       | 報復的                            | 🎨        | chunks=['ven', 'ge', 'ful'] | py=ㄈㄣ-ㄐㄧ-ㄈㄜ | theme=adjectives | stage=3
  9567 | wakeful                        | 警覺的                            | 🎨        | chunks=['wa', 'ke', 'ful'] | py=ㄨㄛ-ㄎㄟ-ㄈㄜ | theme=adjectives | stage=3 base=wake
- 9568 | watchful                       | 警戒的                            | 🎨        | chunks=['watc', 'hful'] | py=ㄨㄚㄊㄎ-ㄏㄈㄚㄛ | theme=adjectives | stage=3 base=watch
- 9569 | wishful                        | 渴望的                            | 🎨        | chunks=['wis', 'hful'] | py=ㄨㄧㄗ-ㄏㄈㄚㄛ | theme=adjectives | stage=3 base=wish
- 9570 | wrongful                       | 不正當的                           | 🎨        | chunks=['wron', 'gful'] | py=ㄨㄖㄛㄋ-ㄍㄈㄚㄛ | theme=adjectives | stage=3 base=wrong
+ 9568 | watchful                       | 警戒的                            | 🎨        | chunks=['watc', 'hful'] | py=ㄨㄚㄔ-ㄈㄜ | theme=adjectives | stage=3 base=watch
+ 9569 | wishful                        | 渴望的                            | 🎨        | chunks=['wis', 'hful'] | py=ㄨㄧㄒ-ㄈㄜ | theme=adjectives | stage=3 base=wish
+ 9570 | wrongful                       | 不正當的                           | 🎨        | chunks=['wron', 'gful'] | py=ㄖㄛㄥ-ㄈㄜ | theme=adjectives | stage=3 base=wrong
  9571 | aimless                        | 無目的的                           | 🎨        | chunks=['aim', 'less'] | py=ㄟㄇ-ㄌㄝㄙ | theme=adjectives | stage=3 base=aim
  9572 | blameless                      | 無可指責的                          | 🎨        | chunks=['bla', 'me', 'less'] | py=ㄅㄌㄟ-ㄇㄝ-ㄌㄝㄙ | theme=adjectives | stage=3 base=blame
  9573 | boundless                      | 無邊的                            | 🎨        | chunks=['boun', 'dless'] | py=ㄅㄠㄋ-ㄉㄌㄝㄙ | theme=adjectives | stage=3 base=bound
  9574 | breathless                     | 喘不過氣的                          | 🎨        | chunks=['breat', 'hless'] | py=ㄅㄖㄧㄊ-ㄏㄌㄝㄙ | theme=adjectives | stage=3 base=breath
  9575 | careless                       | 粗心的                            | 🎨        | chunks=['ca', 're', 'less'] | py=ㄎㄚ-ㄌㄧ-ㄌㄝㄙ | theme=adjectives | stage=3 base=care
- 9576 | childless                      | 無子女的                           | 🎨        | chunks=['chil', 'dless'] | py=ㄑㄧ-ㄉㄌㄝㄙ | theme=adjectives | stage=3 base=child
+ 9576 | childless                      | 無子女的                           | 🎨        | chunks=['chil', 'dless'] | py=ㄔㄞㄦㄉ-ㄌㄜㄙ | theme=adjectives | stage=3 base=child
  9577 | clueless                       | 毫無頭緒的                          | 🤷        | chunks=['clue', 'less'] | py=ㄎㄌㄩ-ㄌㄝㄙ | theme=body | stage=3 base=clue
  9578 | countless                      | 無數的                            | 🎨        | chunks=['coun', 'tless'] | py=ㄎㄠㄣ-ㄊㄌㄝㄙ | theme=adjectives | stage=3 base=count
  9579 | endless                        | 無盡的                            | 🎨        | chunks=['en', 'dless'] | py=ㄣ-ㄉㄌㄝㄙ | theme=adjectives | stage=3 base=end
@@ -93,7 +93,7 @@
  9591 | lawless                        | 無法無天的、不守法的                     | ⚖️       | chunks=['law', 'less'] | py=ㄌㄛ-ㄌㄝㄙ | theme=law | stage=3 base=law
  9592 | limitless                      | 無限的                            | 🎨        | chunks=['li', 'mit', 'less'] | py=ㄌㄧ-ㄇㄧㄊ-ㄌㄝㄙ | theme=adjectives | stage=3 base=limit
  9593 | meaningless                    | 無意義的                           | 🎨        | chunks=['mea', 'nin', 'gless'] | py=ㄇㄧ-ㄋㄧㄣ-ㄍㄌㄝㄙ | theme=adjectives | stage=3 base=meaning
- 9594 | motherless                     | 無母的                            | 🎨        | chunks=['mot', 'her', 'less'] | py=ㄇㄛㄊ-ㄏㄜ-ㄌㄝㄙ | theme=adjectives | stage=3 base=mother
+ 9594 | motherless                     | 無母的                            | 🎨        | chunks=['mot', 'her', 'less'] | py=ㄇㄚ-ㄉㄜ-ㄌㄜㄙ | theme=adjectives | stage=3 base=mother
  9595 | motionless                     | 靜止的                            | 🎨        | chunks=['mo', 'tion', 'less'] | py=ㄇㄛ-ㄒㄣ-ㄌㄝㄙ | theme=adjectives | stage=3 base=motion
  9596 | nameless                       | 無名的                            | 🎨        | chunks=['na', 'me', 'less'] | py=ㄋㄚ-ㄇㄝ-ㄌㄝㄙ | theme=adjectives | stage=3 base=name
  9597 | needless                       | 不必要的                           | 🎨        | chunks=['need', 'less'] | py=ㄋㄧㄉ-ㄌㄝㄙ | theme=adjectives | stage=3 base=need
@@ -109,13 +109,13 @@
  9607 | shameless                      | 無恥的                            | 🎨        | chunks=['sha', 'me', 'less'] | py=ㄒㄚ-ㄇㄝ-ㄌㄝㄙ | theme=adjectives | stage=3 base=shame
  9608 | sleepless                      | 失眠的                            | 😴        | chunks=['sleep', 'less'] | py=ㄙㄌㄧ-ㄌㄝㄙ | theme=diseases | stage=3 base=sleep
  9609 | soundless                      | 無聲的                            | 🎨        | chunks=['soun', 'dless'] | py=ㄙㄠㄋ-ㄉㄌㄝㄙ | theme=adjectives | stage=3 base=sound
- 9610 | speechless                     | 說不出話的                          | 🎨        | chunks=['speec', 'hless'] | py=ㄙㄆㄧㄎ-ㄏㄌㄝㄙ | theme=adjectives | stage=3 base=speech
+ 9610 | speechless                     | 說不出話的                          | 🎨        | chunks=['speec', 'hless'] | py=ㄙㄆㄧㄔ-ㄌㄜㄙ | theme=adjectives | stage=3 base=speech
  9611 | stainless                      | 不鏽的                            | 🎨        | chunks=['stain', 'less'] | py=ㄙㄊㄟㄋ-ㄌㄝㄙ | theme=adjectives | stage=3 base=stain
  9612 | stateless                      | 無國籍的                           | 🌍        | chunks=['sta', 'te', 'less'] | py=ㄙㄉㄝ-ㄊㄧ-ㄌㄝㄙ | theme=countries | stage=3 base=state
  9613 | tasteless                      | 無味的                            | 🎨        | chunks=['tas', 'te', 'less'] | py=ㄊㄚㄙ-ㄊㄧ-ㄌㄝㄙ | theme=adjectives | stage=3 base=taste
- 9614 | thankless                      | 吃力不討好的                         | 🎨        | chunks=['than', 'kless'] | py=ㄉㄢ-ㄎㄌㄝㄙ | theme=adjectives | stage=3 base=thank
- 9615 | timeless                       | 永恆的                            | 🎨        | chunks=['ti', 'me', 'less'] | py=ㄊㄜ-ㄇㄝ-ㄌㄝㄙ | theme=adjectives | stage=3 base=time
- 9616 | tireless                       | 不知疲倦的                          | 🎨        | chunks=['ti', 're', 'less'] | py=ㄊㄜ-ㄌㄧ-ㄌㄝㄙ | theme=adjectives | stage=3 base=tire
+ 9614 | thankless                      | 吃力不討好的                         | 🎨        | chunks=['than', 'kless'] | py=ㄒㄚㄋㄎ-ㄌㄜㄙ | theme=adjectives | stage=3 base=thank
+ 9615 | timeless                       | 永恆的                            | 🎨        | chunks=['ti', 'me', 'less'] | py=ㄊㄞㄇ-ㄌㄜㄙ | theme=adjectives | stage=3 base=time
+ 9616 | tireless                       | 不知疲倦的                          | 🎨        | chunks=['ti', 're', 'less'] | py=ㄊㄞㄜ-ㄌㄜㄙ | theme=adjectives | stage=3 base=tire
  9617 | toothless                      | 沒牙的                            | 🎨        | chunks=['toot', 'hless'] | py=ㄊㄨㄊ-ㄏㄌㄝㄙ | theme=adjectives | stage=3 base=tooth
  9618 | useless                        | 無用的                            | 🎨        | chunks=['u', 'se', 'less'] | py=ㄧㄨ-ㄙㄜ-ㄌㄝㄙ | theme=adjectives | stage=3 base=use
  9619 | voiceless                      | 沒聲音的                           | 🎨        | chunks=['voi', 'ce', 'less'] | py=ㄨㄛㄧ-ㄙㄜ-ㄌㄝㄙ | theme=adjectives | stage=3 base=voice
@@ -124,16 +124,16 @@
  9622 | worthless                      | 無價值的                           | 🎨        | chunks=['wort', 'hless'] | py=ㄨㄛㄜㄊ-ㄏㄌㄝㄙ | theme=adjectives | stage=3 base=worth
  9623 | amorous                        | 多情的                            | 🎨        | chunks=['a', 'mo', 'rous'] | py=ㄜ-ㄇㄛ-ㄌㄨ | theme=adjectives | stage=3
  9624 | barbarous                      | 野蠻的                            | 🎨        | chunks=['bar', 'ba', 'rous'] | py=ㄅㄚㄦ-ㄅㄟ-ㄌㄨ | theme=adjectives | stage=4
- 9625 | hideous                        | 醜陋的                            | 🎨        | chunks=['hi', 'deous'] | py=ㄏㄞ-ㄉㄝㄜㄙ | theme=adjectives | stage=3 base=hide
- 9626 | infamous                       | 惡名昭彰的                          | 🎨        | chunks=['in', 'fa', 'mous'] | py=ㄧㄣ-ㄈㄚ-ㄇㄚㄙ | theme=adjectives | stage=3
+ 9625 | hideous                        | 醜陋的                            | 🎨        | chunks=['hi', 'deous'] | py=ㄏㄧ-ㄉㄧㄜㄙ | theme=adjectives | stage=3 base=hide
+ 9626 | infamous                       | 惡名昭彰的                          | 🎨        | chunks=['in', 'fa', 'mous'] | py=ㄧㄣ-ㄈㄜ-ㄇㄜㄙ | theme=adjectives | stage=3
  9627 | obnoxious                      | 令人討厭的                          | 🎨        | chunks=['ob', 'no', 'xious'] | py=ㄚㄅ-ㄋㄛ-ㄎㄙㄧㄜㄙ | theme=adjectives | stage=4
- 9628 | ominous                        | 不祥的                            | 🎨        | chunks=['o', 'mi', 'nous'] | py=ㄛ-ㄇㄞ-ㄋㄜㄙ | theme=adjectives | stage=3
+ 9628 | ominous                        | 不祥的                            | 🎨        | chunks=['o', 'mi', 'nous'] | py=ㄚ-ㄇㄜ-ㄋㄜㄙ | theme=adjectives | stage=3
  9629 | precarious                     | 危險的                            | 🎨        | chunks=['pre', 'ca', 'rious'] | py=ㄆㄌㄧ-ㄎㄚ-ㄖㄧㄜㄙ | theme=adjectives | stage=4
  9630 | strenuous                      | 費力的                            | 🎨        | chunks=['stre', 'nuous'] | py=ㄙㄊㄖㄝ-ㄋㄚㄜㄙ | theme=adjectives | stage=3
  9631 | studious                       | 勤奮的                            | 🤔        | chunks=['stu', 'dious'] | py=ㄙㄉㄨ-ㄉㄧㄜㄙ | theme=personality | stage=3
  9632 | virtuous                       | 善良的                            | 🤔        | chunks=['vir', 'tuous'] | py=ㄈㄜ-ㄊㄚㄜㄙ | theme=personality | stage=3 base=virtue
  9633 | achievable                     | 可達成的                           | 🎨        | chunks=['ac', 'hie', 'vab', 'le'] | py=ㄚㄎ-ㄏㄞ-ㄨㄚㄅ-ㄌㄧ | theme=adjectives | stage=3 base=achieve
- 9634 | adaptable                      | 適應力強的                          | 🎨        | chunks=['a', 'dap', 'tab', 'le'] | py=ㄜ-ㄉㄚ-ㄊㄚ-ㄌㄧ | theme=adjectives | stage=3 base=adapt
+ 9634 | adaptable                      | 適應力強的                          | 🎨        | chunks=['a', 'dap', 'tab', 'le'] | py=ㄜ-ㄉㄚㄆ-ㄊㄜ-ㄅㄜ | theme=adjectives | stage=3 base=adapt
  9635 | alterable                      | 可改變的                           | 🎨        | chunks=['al', 'te', 'rab', 'le'] | py=ㄦ-ㄊㄧ-ㄖㄝ-ㄌㄧ | theme=adjectives | stage=3 base=alter
  9636 | approachable                   | 平易近人的                          | 🎨        | chunks=['ap', 'proac', 'hab', 'le'] | py=ㄚ-ㄆㄖㄛㄎ-ㄏㄚㄅ-ㄌㄧ | theme=adjectives | stage=3 base=approach
  9637 | avoidable                      | 可避免的                           | 🎨        | chunks=['a', 'voi', 'dab', 'le'] | py=ㄜ-ㄨㄛㄧ-ㄉㄚㄅ-ㄌㄧ | theme=adjectives | stage=3 base=avoid
@@ -266,7 +266,7 @@
  9764 | glorify                        | 頌揚                             | 🏃        | chunks=['glo', 'ri', 'fy'] | py=ㄍㄌㄛ-ㄌㄧ-ㄈㄞ | theme=actions | stage=3 base=glory
  9765 | grapple                        | 抓住                             | 🏃        | chunks=['grap', 'ple'] | py=ㄍㄖㄚㄆ-ㄆㄜ | theme=actions | stage=3
  9766 | hoard                          | 囤積                             | 🏃        | chunks=['hoa', 'rd'] | py=ㄏㄛ-ㄖㄉ | theme=actions | stage=3
- 9767 | idolize                        | 崇拜                             | 🏃        | chunks=['i', 'do', 'li', 'ze'] | py=ㄌㄜ-ㄉㄛ-ㄌㄧ-ㄗㄧ | theme=actions | stage=3 base=idol
+ 9767 | idolize                        | 崇拜                             | 🏃        | chunks=['i', 'do', 'li', 'ze'] | py=ㄞ-ㄉㄜ-ㄌㄞㄗ | theme=actions | stage=3 base=idol
  9768 | ignite                         | 點燃                             | 🏃        | chunks=['ig', 'ni', 'te'] | py=ㄧㄍ-ㄋㄜ-ㄊㄧ | theme=actions | stage=3
  9769 | immobilize                     | 使不能動                           | 🏃        | chunks=['im', 'mo', 'bi', 'li', 'ze'] | py=ㄧㄇ-ㄇㄛ-ㄅㄞ-ㄌㄧ-ㄗㄧ | theme=actions | stage=3
  9770 | impair                         | 損害                             | 🏃        | chunks=['im', 'pair'] | py=ㄧㄇ-ㄆㄝㄜ | theme=actions | stage=3
@@ -274,7 +274,7 @@
  9772 | impede                         | 阻礙                             | 🏃        | chunks=['im', 'pe', 'de'] | py=ㄧㄇ-ㄆㄜ-ㄉㄧ | theme=actions | stage=3
  9773 | implore                        | 懇求                             | 🏃        | chunks=['im', 'plo', 're'] | py=ㄧㄇ-ㄆㄌㄛ-ㄌㄧ | theme=actions | stage=3
  9774 | improvise                      | 即興                             | 🏃        | chunks=['im', 'pro', 'vi', 'se'] | py=ㄧㄇ-ㄆㄜ-ㄈㄞ-ㄙㄜ | theme=actions | stage=3
- 9775 | inaugurate                     | 就職                             | 🏃        | chunks=['i', 'nau', 'gu', 'ra', 'te'] | py=ㄌㄜ-ㄋㄛ-ㄍㄧㄨ-ㄌㄚ-ㄊㄧ | theme=actions | stage=3
+ 9775 | inaugurate                     | 就職                             | 🏃        | chunks=['i', 'nau', 'gu', 'ra', 'te'] | py=ㄧ-ㄋㄛ-ㄍㄧㄨ-ㄖㄟㄊ | theme=actions | stage=3
  9776 | incite                         | 煽動                             | 🏃        | chunks=['in', 'ci', 'te'] | py=ㄧㄣ-ㄙㄜ-ㄊㄧ | theme=actions | stage=3
  9777 | infiltrate                     | 滲透                             | 🏃        | chunks=['in', 'fil', 'tra', 'te'] | py=ㄧㄣ-ㄈㄜ-ㄊㄌㄚ-ㄊㄧ | theme=actions | stage=3
  9778 | inflate                        | 膨脹                             | 🏃        | chunks=['in', 'fla', 'te'] | py=ㄧㄣ-ㄈㄌㄝ-ㄊㄧ | theme=actions | stage=3
@@ -283,7 +283,7 @@
  9781 | intercept                      | 攔截                             | 🏃        | chunks=['in', 'ter', 'cept'] | py=ㄧㄣ-ㄊㄜ-ㄙㄝㄆㄊ | theme=actions | stage=3
  9782 | intermingle                    | 混合                             | 🏃        | chunks=['in', 'ter', 'min', 'gle'] | py=ㄧㄣ-ㄊㄜ-ㄇㄧ-ㄍㄜ | theme=actions | stage=3
  9783 | intrigue                       | 吸引                             | 🏃        | chunks=['in', 'tri', 'gue'] | py=ㄧㄣ-ㄊㄌㄧ-ㄍㄝ | theme=actions | stage=3
- 9784 | inundate                       | 淹沒                             | 🏃        | chunks=['i', 'nun', 'da', 'te'] | py=ㄌㄜ-ㄋㄚㄋ-ㄉㄚ-ㄊㄧ | theme=actions | stage=3
+ 9784 | inundate                       | 淹沒                             | 🏃        | chunks=['i', 'nun', 'da', 'te'] | py=ㄧ-ㄋㄚㄋ-ㄉㄟㄊ | theme=actions | stage=3
  9785 | jeopardize                     | 危及                             | 🏃        | chunks=['jeo', 'par', 'di', 'ze'] | py=ㄐㄝㄛ-ㄆㄚㄦ-ㄉㄧ-ㄗㄧ | theme=actions | stage=3
  9786 | juxtapose                      | 並置                             | 🏃        | chunks=['jux', 'ta', 'po', 'se'] | py=ㄐㄚㄎㄙ-ㄊㄝ-ㄆㄛ-ㄙㄜ | theme=actions | stage=4
  9787 | languish                       | 變憔悴、凋零                         | 🎨        | chunks=['lan', 'guish'] | py=ㄌㄢ-ㄍㄨㄧㄒ | theme=adjectives | stage=3

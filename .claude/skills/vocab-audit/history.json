@@ -2,11 +2,11 @@
   "vocab_hash_current": "c3b01d020016bc15cb601d3a006c0b2e027938a1027adf6f6a47d014ee74bc97",
   "checks": {
     "L1-all": {
-      "last_run": "2026-05-15T11:17:20",
-      "vocab_hash": "7e8158e9c1944449a54422848fbdb09d810bf4ec655724e0763a3024a1261d34",
+      "last_run": "2026-05-20T05:49:50",
+      "vocab_hash": "c3b01d020016bc15cb601d3a006c0b2e027938a1027adf6f6a47d014ee74bc97",
       "vocab_count": 10101,
-      "issues_total": 0,
-      "report": "reports/2026-05-15-111720-L1.md"
+      "issues_total": 4,
+      "report": "reports/2026-05-20-054950-L1.md"
     },
     "L2-translation": {
       "last_run": "2026-05-15T10:30:00",
