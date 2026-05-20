@@ -1,0 +1,4665 @@
+{
+  "two": {
+    "chunks": [
+      "tw",
+      "o"
+    ],
+    "split": "tw(w 不發音)+ o"
+  },
+  "eight": {
+    "chunks": [
+      "eigh",
+      "t"
+    ],
+    "split": "eigh(整塊唸 ㄟ,gh 不發音)+ t"
+  },
+  "egg": {
+    "chunks": [
+      "e",
+      "gg"
+    ],
+    "split": "e + gg(雙子音表前面短母音)"
+  },
+  "and": {
+    "chunks": [
+      "a",
+      "nd"
+    ],
+    "split": "a + nd (nd 尾)"
+  },
+  "is": {
+    "chunks": [
+      "i",
+      "s"
+    ],
+    "split": "i + s(s 在母音後唸 z)"
+  },
+  "it": {
+    "chunks": [
+      "i",
+      "t"
+    ],
+    "split": "i + t (CVC)"
+  },
+  "at": {
+    "chunks": [
+      "a",
+      "t"
+    ],
+    "split": "a + t"
+  },
+  "of": {
+    "chunks": [
+      "o",
+      "f"
+    ],
+    "split": "o + f (f→v sound)"
+  },
+  "as": {
+    "chunks": [
+      "a",
+      "s"
+    ],
+    "split": "a + s"
+  },
+  "or": {
+    "chunks": [
+      "o",
+      "r"
+    ],
+    "split": "o + r"
+  },
+  "if": {
+    "chunks": [
+      "i",
+      "f"
+    ],
+    "split": "i + f"
+  },
+  "am": {
+    "chunks": [
+      "a",
+      "m"
+    ],
+    "split": "a + m"
+  },
+  "us": {
+    "chunks": [
+      "u",
+      "s"
+    ],
+    "split": "u + s"
+  },
+  "an": {
+    "chunks": [
+      "a",
+      "n"
+    ],
+    "split": "a + n"
+  },
+  "its": {
+    "chunks": [
+      "i",
+      "ts"
+    ],
+    "split": "i + ts"
+  },
+  "our": {
+    "chunks": [
+      "o",
+      "ur"
+    ],
+    "split": "o + ur"
+  },
+  "ice": {
+    "chunks": [
+      "i",
+      "ce"
+    ],
+    "split": "i + ce(soft c + silent-e)"
+  },
+  "add": {
+    "chunks": [
+      "a",
+      "dd"
+    ],
+    "split": "a + dd"
+  },
+  "all": {
+    "chunks": [
+      "a",
+      "ll"
+    ],
+    "split": "a + ll"
+  },
+  "end": {
+    "chunks": [
+      "e",
+      "nd"
+    ],
+    "split": "e + nd"
+  },
+  "eat": {
+    "chunks": [
+      "e",
+      "at"
+    ],
+    "split": "e + at(ea 拆開強調母音團)"
+  },
+  "out": {
+    "chunks": [
+      "o",
+      "ut"
+    ],
+    "split": "o + ut"
+  },
+  "old": {
+    "chunks": [
+      "o",
+      "ld"
+    ],
+    "split": "o + ld"
+  },
+  "ask": {
+    "chunks": [
+      "a",
+      "sk"
+    ],
+    "split": "a + sk"
+  },
+  "off": {
+    "chunks": [
+      "o",
+      "ff"
+    ],
+    "split": "o + ff"
+  },
+  "oil": {
+    "chunks": [
+      "o",
+      "il"
+    ],
+    "split": "o + il"
+  },
+  "use": {
+    "chunks": [
+      "u",
+      "se"
+    ],
+    "split": "u + se (silent-e)"
+  },
+  "each": {
+    "chunks": [
+      "ea",
+      "ch"
+    ],
+    "split": "ea + ch"
+  },
+  "ant": {
+    "chunks": [
+      "a",
+      "nt"
+    ],
+    "split": "a + nt"
+  },
+  "owl": {
+    "chunks": [
+      "o",
+      "wl"
+    ],
+    "split": "o + wl"
+  },
+  "oats": {
+    "chunks": [
+      "o",
+      "ats"
+    ],
+    "split": "o + ats"
+  },
+  "ash": {
+    "chunks": [
+      "a",
+      "sh"
+    ],
+    "split": "a + sh"
+  },
+  "air": {
+    "chunks": [
+      "a",
+      "ir"
+    ],
+    "split": "a + ir"
+  },
+  "are": {
+    "chunks": [
+      "a",
+      "re"
+    ],
+    "split": "a + re"
+  },
+  "ex": {
+    "chunks": [
+      "e",
+      "x"
+    ],
+    "split": "e + x"
+  },
+  "inn": {
+    "chunks": [
+      "i",
+      "nn"
+    ],
+    "split": "i + nn"
+  },
+  "earn": {
+    "chunks": [
+      "e",
+      "arn"
+    ],
+    "split": "e + arn"
+  },
+  "east": {
+    "chunks": [
+      "e",
+      "ast"
+    ],
+    "split": "e + ast"
+  },
+  "earth": {
+    "chunks": [
+      "ear",
+      "th"
+    ],
+    "split": "ear + th"
+  },
+  "edge": {
+    "chunks": [
+      "e",
+      "dge"
+    ],
+    "split": "e + dge"
+  },
+  "aisle": {
+    "chunks": [
+      "a",
+      "isle"
+    ],
+    "split": "a + isle (silent s)"
+  },
+  "orange": {
+    "chunks": [
+      "o",
+      "range"
+    ],
+    "split": "o + range"
+  },
+  "oven": {
+    "chunks": [
+      "o",
+      "ven"
+    ],
+    "split": "o + ven"
+  },
+  "olive": {
+    "chunks": [
+      "o",
+      "live"
+    ],
+    "split": "o + live (silent-e)"
+  },
+  "other": {
+    "chunks": [
+      "o",
+      "ther"
+    ],
+    "split": "o + ther"
+  },
+  "another": {
+    "chunks": [
+      "a",
+      "no",
+      "ther"
+    ],
+    "split": "a + no + ther"
+  },
+  "otherwise": {
+    "chunks": [
+      "o",
+      "ther",
+      "wise"
+    ],
+    "split": "o + ther + wise"
+  },
+  "honest": {
+    "chunks": [
+      "ho",
+      "nest"
+    ],
+    "split": "ho + nest (silent h)"
+  },
+  "empty": {
+    "chunks": [
+      "em",
+      "pty"
+    ],
+    "split": "em + pty"
+  },
+  "forever": {
+    "chunks": [
+      "for",
+      "e",
+      "ver"
+    ],
+    "split": "for + e + ver"
+  },
+  "already": {
+    "chunks": [
+      "al",
+      "rea",
+      "dy"
+    ],
+    "split": "al + rea + dy"
+  },
+  "acquaintance": {
+    "chunks": [
+      "ac",
+      "quain",
+      "tance"
+    ],
+    "split": "ac + quain + tance"
+  },
+  "who": {
+    "chunks": [
+      "wh",
+      "o"
+    ],
+    "split": "wh + o (silent w)"
+  },
+  "to": {
+    "chunks": [
+      "t",
+      "o"
+    ],
+    "split": "t + o"
+  },
+  "do": {
+    "chunks": [
+      "d",
+      "o"
+    ],
+    "split": "d + o"
+  },
+  "the": {
+    "chunks": [
+      "th",
+      "e"
+    ],
+    "split": "高頻不規則(th 弱化,母音弱讀)"
+  },
+  "she": {
+    "chunks": [
+      "sh",
+      "e"
+    ],
+    "split": "sh + e (open)"
+  },
+  "he": {
+    "chunks": [
+      "h",
+      "e"
+    ],
+    "split": "h + e (open syllable)"
+  },
+  "we": {
+    "chunks": [
+      "w",
+      "e"
+    ],
+    "split": "w + e (open)"
+  },
+  "be": {
+    "chunks": [
+      "b",
+      "e"
+    ],
+    "split": "b + e"
+  },
+  "so": {
+    "chunks": [
+      "s",
+      "o"
+    ],
+    "split": "s + o"
+  },
+  "go": {
+    "chunks": [
+      "g",
+      "o"
+    ],
+    "split": "g + o"
+  },
+  "by": {
+    "chunks": [
+      "b",
+      "y"
+    ],
+    "split": "b + y"
+  },
+  "why": {
+    "chunks": [
+      "wh",
+      "y"
+    ],
+    "split": "wh + y"
+  },
+  "shy": {
+    "chunks": [
+      "sh",
+      "y"
+    ],
+    "split": "sh + y"
+  },
+  "try": {
+    "chunks": [
+      "tr",
+      "y"
+    ],
+    "split": "tr + y"
+  },
+  "dry": {
+    "chunks": [
+      "dr",
+      "y"
+    ],
+    "split": "dr + y"
+  },
+  "cry": {
+    "chunks": [
+      "cr",
+      "y"
+    ],
+    "split": "cr + y"
+  },
+  "sky": {
+    "chunks": [
+      "sk",
+      "y"
+    ],
+    "split": "sk + y"
+  },
+  "fly": {
+    "chunks": [
+      "f",
+      "ly"
+    ],
+    "split": "f + ly"
+  },
+  "key": {
+    "chunks": [
+      "k",
+      "ey"
+    ],
+    "split": "k + ey"
+  },
+  "hour": {
+    "chunks": [
+      "h",
+      "our"
+    ],
+    "split": "h(silent h)+ our"
+  },
+  "herb": {
+    "chunks": [
+      "h",
+      "erb"
+    ],
+    "split": "h + erb (silent h)"
+  },
+  "sigh": {
+    "chunks": [
+      "s",
+      "igh"
+    ],
+    "split": "s + igh (silent gh)"
+  },
+  "high": {
+    "chunks": [
+      "h",
+      "igh"
+    ],
+    "split": "h + igh (silent gh)"
+  },
+  "thigh": {
+    "chunks": [
+      "th",
+      "igh"
+    ],
+    "split": "th + igh (silent gh)"
+  },
+  "die": {
+    "chunks": [
+      "d",
+      "ie"
+    ],
+    "split": "d + ie"
+  },
+  "lie": {
+    "chunks": [
+      "l",
+      "ie"
+    ],
+    "split": "l + ie"
+  },
+  "pie": {
+    "chunks": [
+      "p",
+      "ie"
+    ],
+    "split": "p + ie"
+  },
+  "tie": {
+    "chunks": [
+      "t",
+      "ie"
+    ],
+    "split": "t + ie"
+  },
+  "toe": {
+    "chunks": [
+      "t",
+      "oe"
+    ],
+    "split": "t + oe"
+  },
+  "jaw": {
+    "chunks": [
+      "j",
+      "aw"
+    ],
+    "split": "j + aw"
+  },
+  "saw": {
+    "chunks": [
+      "s",
+      "aw"
+    ],
+    "split": "s + aw (past of see)"
+  },
+  "joy": {
+    "chunks": [
+      "j",
+      "oy"
+    ],
+    "split": "j + oy"
+  },
+  "boy": {
+    "chunks": [
+      "b",
+      "oy"
+    ],
+    "split": "b + oy (diphthong)"
+  },
+  "toy": {
+    "chunks": [
+      "t",
+      "oy"
+    ],
+    "split": "t + oy"
+  },
+  "day": {
+    "chunks": [
+      "d",
+      "ay"
+    ],
+    "split": "d + ay"
+  },
+  "way": {
+    "chunks": [
+      "w",
+      "ay"
+    ],
+    "split": "w + ay"
+  },
+  "say": {
+    "chunks": [
+      "s",
+      "ay"
+    ],
+    "split": "s + ay"
+  },
+  "pay": {
+    "chunks": [
+      "p",
+      "ay"
+    ],
+    "split": "p + ay"
+  },
+  "may": {
+    "chunks": [
+      "m",
+      "ay"
+    ],
+    "split": "m + ay"
+  },
+  "few": {
+    "chunks": [
+      "f",
+      "ew"
+    ],
+    "split": "f + ew"
+  },
+  "new": {
+    "chunks": [
+      "n",
+      "ew"
+    ],
+    "split": "n + ew"
+  },
+  "knew": {
+    "chunks": [
+      "kn",
+      "ew"
+    ],
+    "split": "silent k + new"
+  },
+  "low": {
+    "chunks": [
+      "l",
+      "ow"
+    ],
+    "split": "l + ow"
+  },
+  "now": {
+    "chunks": [
+      "n",
+      "ow"
+    ],
+    "split": "n + ow"
+  },
+  "how": {
+    "chunks": [
+      "h",
+      "ow"
+    ],
+    "split": "h + ow"
+  },
+  "know": {
+    "chunks": [
+      "kn",
+      "ow"
+    ],
+    "split": "silent k + now"
+  },
+  "row": {
+    "chunks": [
+      "r",
+      "ow"
+    ],
+    "split": "r + ow"
+  },
+  "cow": {
+    "chunks": [
+      "c",
+      "ow"
+    ],
+    "split": "c + ow (diphthong)"
+  },
+  "brow": {
+    "chunks": [
+      "br",
+      "ow"
+    ],
+    "split": "br + ow"
+  },
+  "crow": {
+    "chunks": [
+      "cr",
+      "ow"
+    ],
+    "split": "cr + ow"
+  },
+  "throw": {
+    "chunks": [
+      "thr",
+      "ow"
+    ],
+    "split": "thr + ow"
+  },
+  "snow": {
+    "chunks": [
+      "sn",
+      "ow"
+    ],
+    "split": "sn + ow"
+  },
+  "slow": {
+    "chunks": [
+      "sl",
+      "ow"
+    ],
+    "split": "sl + ow"
+  },
+  "gray": {
+    "chunks": [
+      "gr",
+      "ay"
+    ],
+    "split": "gr + ay"
+  },
+  "tray": {
+    "chunks": [
+      "tr",
+      "ay"
+    ],
+    "split": "tr + ay"
+  },
+  "play": {
+    "chunks": [
+      "pl",
+      "ay"
+    ],
+    "split": "pl + ay"
+  },
+  "clay": {
+    "chunks": [
+      "cl",
+      "ay"
+    ],
+    "split": "cl + ay"
+  },
+  "guy": {
+    "chunks": [
+      "g",
+      "uy"
+    ],
+    "split": "g + uy"
+  },
+  "buy": {
+    "chunks": [
+      "b",
+      "uy"
+    ],
+    "split": "b + uy"
+  },
+  "sea": {
+    "chunks": [
+      "s",
+      "ea"
+    ],
+    "split": "s + ea"
+  },
+  "tea": {
+    "chunks": [
+      "t",
+      "ea"
+    ],
+    "split": "t + ea"
+  },
+  "pea": {
+    "chunks": [
+      "p",
+      "ea"
+    ],
+    "split": "p + ea"
+  },
+  "see": {
+    "chunks": [
+      "s",
+      "ee"
+    ],
+    "split": "s + ee (vowel team)"
+  },
+  "bee": {
+    "chunks": [
+      "b",
+      "ee"
+    ],
+    "split": "b + ee"
+  },
+  "too": {
+    "chunks": [
+      "t",
+      "oo"
+    ],
+    "split": "t + oo"
+  },
+  "zoo": {
+    "chunks": [
+      "z",
+      "oo"
+    ],
+    "split": "z + oo"
+  },
+  "three": {
+    "chunks": [
+      "thr",
+      "ee"
+    ],
+    "split": "thr (blend) + ee"
+  },
+  "free": {
+    "chunks": [
+      "fr",
+      "ee"
+    ],
+    "split": "fr + ee"
+  },
+  "tree": {
+    "chunks": [
+      "tr",
+      "ee"
+    ],
+    "split": "tr + ee"
+  },
+  "four": {
+    "chunks": [
+      "f",
+      "our"
+    ],
+    "split": "f + our"
+  },
+  "five": {
+    "chunks": [
+      "f",
+      "ive"
+    ],
+    "split": "f + ive (silent-e)"
+  },
+  "nine": {
+    "chunks": [
+      "n",
+      "ine"
+    ],
+    "split": "n + ine (silent-e)"
+  },
+  "weather": {
+    "chunks": [
+      "wea",
+      "ther"
+    ],
+    "split": "wea + ther"
+  },
+  "sweater": {
+    "chunks": [
+      "swea",
+      "ter"
+    ],
+    "split": "swea + ter"
+  },
+  "leather": {
+    "chunks": [
+      "lea",
+      "ther"
+    ],
+    "split": "lea + ther (irregular ea)"
+  },
+  "mother": {
+    "chunks": [
+      "mo",
+      "ther"
+    ],
+    "split": "mo + ther"
+  },
+  "father": {
+    "chunks": [
+      "fa",
+      "ther"
+    ],
+    "split": "fa + ther"
+  },
+  "brother": {
+    "chunks": [
+      "bro",
+      "ther"
+    ],
+    "split": "br + th + er"
+  },
+  "grandmother": {
+    "chunks": [
+      "grand",
+      "mo",
+      "ther"
+    ],
+    "split": "grand + mo + ther"
+  },
+  "grandfather": {
+    "chunks": [
+      "grand",
+      "fa",
+      "ther"
+    ],
+    "split": "grand + fa + ther"
+  },
+  "stepmother": {
+    "chunks": [
+      "step",
+      "mo",
+      "ther"
+    ],
+    "split": "step + mo + ther"
+  },
+  "stepfather": {
+    "chunks": [
+      "step",
+      "fa",
+      "ther"
+    ],
+    "split": "step + fa + ther"
+  },
+  "stepbrother": {
+    "chunks": [
+      "step",
+      "bro",
+      "ther"
+    ],
+    "split": "step + bro + ther"
+  },
+  "godfather": {
+    "chunks": [
+      "god",
+      "fa",
+      "ther"
+    ],
+    "split": "god + fa + ther"
+  },
+  "godmother": {
+    "chunks": [
+      "god",
+      "mo",
+      "ther"
+    ],
+    "split": "god + mo + ther"
+  },
+  "rather": {
+    "chunks": [
+      "ra",
+      "ther"
+    ],
+    "split": "ra + ther"
+  },
+  "sailor": {
+    "chunks": [
+      "sai",
+      "lor"
+    ],
+    "split": "sai + lor"
+  },
+  "waiter": {
+    "chunks": [
+      "wai",
+      "ter"
+    ],
+    "split": "wai + ter"
+  },
+  "pointer": {
+    "chunks": [
+      "poin",
+      "ter"
+    ],
+    "split": "poin + ter"
+  },
+  "painter": {
+    "chunks": [
+      "pain",
+      "ter"
+    ],
+    "split": "pain + ter"
+  },
+  "toaster": {
+    "chunks": [
+      "toas",
+      "ter"
+    ],
+    "split": "toas + ter"
+  },
+  "coaster": {
+    "chunks": [
+      "coas",
+      "ter"
+    ],
+    "split": "coas + ter"
+  },
+  "closer": {
+    "chunks": [
+      "clo",
+      "ser"
+    ],
+    "split": "clo + ser"
+  },
+  "closet": {
+    "chunks": [
+      "clo",
+      "set"
+    ],
+    "split": "clo + set"
+  },
+  "sneakers": {
+    "chunks": [
+      "snea",
+      "kers"
+    ],
+    "split": "snea + kers"
+  },
+  "speaker": {
+    "chunks": [
+      "spea",
+      "ker"
+    ],
+    "split": "spea + ker"
+  },
+  "teacher": {
+    "chunks": [
+      "tea",
+      "cher"
+    ],
+    "split": "tea + cher"
+  },
+  "ready": {
+    "chunks": [
+      "rea",
+      "dy"
+    ],
+    "split": "rea + dy"
+  },
+  "heavy": {
+    "chunks": [
+      "hea",
+      "vy"
+    ],
+    "split": "hea + vy"
+  },
+  "heater": {
+    "chunks": [
+      "hea",
+      "ter"
+    ],
+    "split": "hea + ter"
+  },
+  "healthy": {
+    "chunks": [
+      "heal",
+      "thy"
+    ],
+    "split": "heal + thy"
+  },
+  "second": {
+    "chunks": [
+      "se",
+      "cond"
+    ],
+    "split": "se + cond"
+  },
+  "seven": {
+    "chunks": [
+      "se",
+      "ven"
+    ],
+    "split": "se + ven (兩 CVC)"
+  },
+  "seventh": {
+    "chunks": [
+      "se",
+      "venth"
+    ],
+    "split": "se + venth"
+  },
+  "seventy": {
+    "chunks": [
+      "se",
+      "ven",
+      "ty"
+    ],
+    "split": "se + ven + ty"
+  },
+  "seventeen": {
+    "chunks": [
+      "se",
+      "ven",
+      "teen"
+    ],
+    "split": "se + ven + teen"
+  },
+  "never": {
+    "chunks": [
+      "ne",
+      "ver"
+    ],
+    "split": "ne + ver"
+  },
+  "clever": {
+    "chunks": [
+      "cle",
+      "ver"
+    ],
+    "split": "cle + ver"
+  },
+  "river": {
+    "chunks": [
+      "ri",
+      "ver"
+    ],
+    "split": "ri + ver"
+  },
+  "liver": {
+    "chunks": [
+      "li",
+      "ver"
+    ],
+    "split": "li + ver"
+  },
+  "lover": {
+    "chunks": [
+      "lo",
+      "ver"
+    ],
+    "split": "lo + ver"
+  },
+  "minute": {
+    "chunks": [
+      "mi",
+      "nute"
+    ],
+    "split": "mi + nute"
+  },
+  "lemon": {
+    "chunks": [
+      "le",
+      "mon"
+    ],
+    "split": "le + mon"
+  },
+  "flute": {
+    "chunks": [
+      "fl",
+      "ute"
+    ],
+    "split": "fl + ute"
+  },
+  "true": {
+    "chunks": [
+      "tr",
+      "ue"
+    ],
+    "split": "tr + ue"
+  },
+  "blue": {
+    "chunks": [
+      "bl",
+      "ue"
+    ],
+    "split": "bl + ue"
+  },
+  "glue": {
+    "chunks": [
+      "gl",
+      "ue"
+    ],
+    "split": "gl + ue"
+  },
+  "brew": {
+    "chunks": [
+      "br",
+      "ew"
+    ],
+    "split": "br + ew"
+  },
+  "drawer": {
+    "chunks": [
+      "dr",
+      "awer"
+    ],
+    "split": "dr + awer"
+  },
+  "store": {
+    "chunks": [
+      "st",
+      "ore"
+    ],
+    "split": "st + ore (R + silent-e)"
+  },
+  "shore": {
+    "chunks": [
+      "sh",
+      "ore"
+    ],
+    "split": "sh + ore (silent-e)"
+  },
+  "score": {
+    "chunks": [
+      "sc",
+      "ore"
+    ],
+    "split": "sc + ore (silent-e)"
+  },
+  "snake": {
+    "chunks": [
+      "sn",
+      "ake"
+    ],
+    "split": "sn + ake (silent-e)"
+  },
+  "bra": {
+    "chunks": [
+      "br",
+      "a"
+    ],
+    "split": "br + a"
+  },
+  "spa": {
+    "chunks": [
+      "sp",
+      "a"
+    ],
+    "split": "sp + a"
+  },
+  "smile": {
+    "chunks": [
+      "sm",
+      "ile"
+    ],
+    "split": "sm + ile"
+  },
+  "smoke": {
+    "chunks": [
+      "sm",
+      "oke"
+    ],
+    "split": "sm + oke (silent-e)"
+  },
+  "skate": {
+    "chunks": [
+      "sk",
+      "ate"
+    ],
+    "split": "sk + ate (silent-e)"
+  },
+  "glaze": {
+    "chunks": [
+      "gl",
+      "aze"
+    ],
+    "split": "gl + aze"
+  },
+  "flame": {
+    "chunks": [
+      "fl",
+      "ame"
+    ],
+    "split": "fl + ame (silent-e)"
+  },
+  "choose": {
+    "chunks": [
+      "ch",
+      "oose"
+    ],
+    "split": "ch + oose"
+  },
+  "cheese": {
+    "chunks": [
+      "ch",
+      "eese"
+    ],
+    "split": "ch + eese"
+  },
+  "smoothie": {
+    "chunks": [
+      "smoo",
+      "thie"
+    ],
+    "split": "smoo + thie"
+  },
+  "shadow": {
+    "chunks": [
+      "sha",
+      "dow"
+    ],
+    "split": "sha + dow"
+  },
+  "meadow": {
+    "chunks": [
+      "mea",
+      "dow"
+    ],
+    "split": "mea + dow (irregular ea)"
+  },
+  "power": {
+    "chunks": [
+      "po",
+      "wer"
+    ],
+    "split": "po + wer"
+  },
+  "jealous": {
+    "chunks": [
+      "jea",
+      "lous"
+    ],
+    "split": "jea + lous"
+  },
+  "cousin": {
+    "chunks": [
+      "cou",
+      "sin"
+    ],
+    "split": "cou + sin"
+  },
+  "vegetarian": {
+    "chunks": [
+      "veg",
+      "e",
+      "tar",
+      "i",
+      "an"
+    ],
+    "split": "veg + e + tar + i + an"
+  },
+  "specialty": {
+    "chunks": [
+      "spe",
+      "cial",
+      "ty"
+    ],
+    "split": "spe + cial + ty"
+  },
+  "caterer": {
+    "chunks": [
+      "ca",
+      "ter",
+      "er"
+    ],
+    "split": "ca + ter + er"
+  },
+  "profit": {
+    "chunks": [
+      "pro",
+      "fit"
+    ],
+    "split": "pro + fit"
+  },
+  "lozenge": {
+    "chunks": [
+      "lo",
+      "zenge"
+    ],
+    "split": "lo + zenge"
+  },
+  "pneumonia": {
+    "chunks": [
+      "pneu",
+      "mo",
+      "ni",
+      "a"
+    ],
+    "split": "pneu + mo + ni + a (silent p)"
+  },
+  "basically": {
+    "chunks": [
+      "ba",
+      "si",
+      "cal",
+      "ly"
+    ],
+    "split": "ba + si + cal + ly"
+  },
+  "theirs": {
+    "chunks": [
+      "th",
+      "eirs"
+    ],
+    "split": "th + eirs"
+  },
+  "others": {
+    "chunks": [
+      "o",
+      "thers"
+    ],
+    "split": "o + thers"
+  },
+  "browser": {
+    "chunks": [
+      "brow",
+      "ser"
+    ],
+    "split": "brow + ser"
+  },
+  "figure out": {
+    "chunks": [
+      "fi",
+      "gure",
+      "out"
+    ],
+    "split": "fi + gure + out"
+  },
+  "founder": {
+    "chunks": [
+      "foun",
+      "der"
+    ],
+    "split": "foun + der"
+  },
+  "freelancer": {
+    "chunks": [
+      "free",
+      "lan",
+      "cer"
+    ],
+    "split": "free + lan + cer"
+  },
+  "statistician": {
+    "chunks": [
+      "stat",
+      "is",
+      "ti",
+      "cian"
+    ],
+    "split": "stat + is + ti + cian"
+  },
+  "glasses": {
+    "chunks": [
+      "glas",
+      "ses"
+    ],
+    "split": "glas + ses"
+  },
+  "smiley": {
+    "chunks": [
+      "smi",
+      "ley"
+    ],
+    "split": "smi + ley"
+  },
+  "miniature": {
+    "chunks": [
+      "min",
+      "ia",
+      "ture"
+    ],
+    "split": "min + ia + ture"
+  },
+  "pacifier": {
+    "chunks": [
+      "pa",
+      "ci",
+      "fi",
+      "er"
+    ],
+    "split": "pa + ci + fi + er"
+  },
+  "stickynote": {
+    "chunks": [
+      "sti",
+      "cky",
+      "note"
+    ],
+    "split": "sti + cky + note"
+  },
+  "reminder": {
+    "chunks": [
+      "re",
+      "min",
+      "der"
+    ],
+    "split": "re + min + der"
+  },
+  "pacemaker": {
+    "chunks": [
+      "pace",
+      "ma",
+      "ker"
+    ],
+    "split": "pace + ma + ker"
+  },
+  "defibrillator": {
+    "chunks": [
+      "de",
+      "fi",
+      "bril",
+      "la",
+      "tor"
+    ],
+    "split": "de + fi + bril + la + tor"
+  },
+  "phishing": {
+    "chunks": [
+      "phi",
+      "shing"
+    ],
+    "split": "phi + shing (ph→f)"
+  },
+  "editorial": {
+    "chunks": [
+      "ed",
+      "i",
+      "to",
+      "rial"
+    ],
+    "split": "ed + i + to + rial"
+  },
+  "fundraiser": {
+    "chunks": [
+      "fund",
+      "rai",
+      "ser"
+    ],
+    "split": "fund + rai + ser"
+  },
+  "oceania": {
+    "chunks": [
+      "o",
+      "ce",
+      "an",
+      "ia"
+    ],
+    "split": "o + ce + an + ia"
+  },
+  "lawmaker": {
+    "chunks": [
+      "law",
+      "ma",
+      "ker"
+    ],
+    "split": "law + ma + ker"
+  },
+  "finale": {
+    "chunks": [
+      "fi",
+      "nale"
+    ],
+    "split": "fi + nale"
+  },
+  "nietzsche": {
+    "chunks": [
+      "niet",
+      "zsche"
+    ],
+    "split": "niet + zsche"
+  },
+  "descartes": {
+    "chunks": [
+      "des",
+      "cartes"
+    ],
+    "split": "des + cartes"
+  },
+  "locke": {
+    "chunks": [
+      "lock",
+      "e"
+    ],
+    "split": "lock + e"
+  },
+  "hume": {
+    "chunks": [
+      "h",
+      "ume"
+    ],
+    "split": "h + ume"
+  },
+  "kant": {
+    "chunks": [
+      "k",
+      "ant"
+    ],
+    "split": "k + ant"
+  },
+  "thrice": {
+    "chunks": [
+      "thr",
+      "ice"
+    ],
+    "split": "thr + ice"
+  },
+  "self": {
+    "chunks": [
+      "s",
+      "elf"
+    ],
+    "split": "s + elf"
+  },
+  "id": {
+    "chunks": [
+      "i",
+      "d"
+    ],
+    "split": "i + d"
+  },
+  "verse": {
+    "chunks": [
+      "v",
+      "erse"
+    ],
+    "split": "v + erse"
+  },
+  "rhyme": {
+    "chunks": [
+      "rh",
+      "yme"
+    ],
+    "split": "rh + yme"
+  },
+  "myth": {
+    "chunks": [
+      "m",
+      "yth"
+    ],
+    "split": "m + yth"
+  },
+  "prose": {
+    "chunks": [
+      "pr",
+      "ose"
+    ],
+    "split": "pr + ose"
+  },
+  "phrase": {
+    "chunks": [
+      "phr",
+      "ase"
+    ],
+    "split": "phr + ase"
+  },
+  "claim": {
+    "chunks": [
+      "cl",
+      "aim"
+    ],
+    "split": "cl + aim"
+  },
+  "pun": {
+    "chunks": [
+      "p",
+      "un"
+    ],
+    "split": "p + un"
+  },
+  "ode": {
+    "chunks": [
+      "o",
+      "de"
+    ],
+    "split": "o + de"
+  },
+  "tense": {
+    "chunks": [
+      "t",
+      "ense"
+    ],
+    "split": "t + ense"
+  },
+  "norm": {
+    "chunks": [
+      "n",
+      "orm"
+    ],
+    "split": "n + orm"
+  },
+  "cease": {
+    "chunks": [
+      "c",
+      "ease"
+    ],
+    "split": "c + ease"
+  },
+  "pose": {
+    "chunks": [
+      "p",
+      "ose"
+    ],
+    "split": "p + ose"
+  },
+  "intermediate": {
+    "chunks": [
+      "in",
+      "ter",
+      "me",
+      "di",
+      "ate"
+    ],
+    "split": "in + ter + me + di + ate"
+  },
+  "bring about": {
+    "chunks": [
+      "bring",
+      "about"
+    ],
+    "split": "bring + about"
+  },
+  "easy as pie": {
+    "chunks": [
+      "eas",
+      "y",
+      "as",
+      "pie"
+    ],
+    "split": "eas + y + as + pie"
+  },
+  "easy come easy go": {
+    "chunks": [
+      "eas",
+      "y",
+      "come",
+      "eas",
+      "y",
+      "go"
+    ],
+    "split": "eas + y + come + eas + y + go"
+  },
+  "take it easy": {
+    "chunks": [
+      "take",
+      "it",
+      "eas",
+      "y"
+    ],
+    "split": "take + it + eas + y"
+  },
+  "axe": {
+    "chunks": [
+      "a",
+      "xe"
+    ],
+    "split": "a + xe"
+  },
+  "hoe": {
+    "chunks": [
+      "h",
+      "oe"
+    ],
+    "split": "h + oe"
+  },
+  "vise": {
+    "chunks": [
+      "v",
+      "ise"
+    ],
+    "split": "v + ise"
+  },
+  "steel": {
+    "chunks": [
+      "st",
+      "eel"
+    ],
+    "split": "st + eel"
+  },
+  "foam": {
+    "chunks": [
+      "f",
+      "oam"
+    ],
+    "split": "f + oam"
+  },
+  "tin": {
+    "chunks": [
+      "t",
+      "in"
+    ],
+    "split": "t + in"
+  },
+  "zinc": {
+    "chunks": [
+      "z",
+      "inc"
+    ],
+    "split": "z + inc"
+  },
+  "vague": {
+    "chunks": [
+      "v",
+      "ague"
+    ],
+    "split": "v + ague"
+  },
+  "grim": {
+    "chunks": [
+      "gr",
+      "im"
+    ],
+    "split": "gr + im"
+  },
+  "dire": {
+    "chunks": [
+      "d",
+      "ire"
+    ],
+    "split": "d + ire"
+  },
+  "bleak": {
+    "chunks": [
+      "bl",
+      "eak"
+    ],
+    "split": "bl + eak"
+  },
+  "lush": {
+    "chunks": [
+      "l",
+      "ush"
+    ],
+    "split": "l + ush"
+  },
+  "sparse": {
+    "chunks": [
+      "sp",
+      "arse"
+    ],
+    "split": "sp + arse"
+  },
+  "sheer": {
+    "chunks": [
+      "sh",
+      "eer"
+    ],
+    "split": "sh + eer"
+  },
+  "scant": {
+    "chunks": [
+      "sc",
+      "ant"
+    ],
+    "split": "sc + ant"
+  },
+  "brisk": {
+    "chunks": [
+      "br",
+      "isk"
+    ],
+    "split": "br + isk"
+  },
+  "snug": {
+    "chunks": [
+      "sn",
+      "ug"
+    ],
+    "split": "sn + ug"
+  },
+  "fierce": {
+    "chunks": [
+      "fi",
+      "erce"
+    ],
+    "split": "fi + erce"
+  },
+  "harsh": {
+    "chunks": [
+      "h",
+      "arsh"
+    ],
+    "split": "h + arsh"
+  },
+  "stern": {
+    "chunks": [
+      "st",
+      "ern"
+    ],
+    "split": "st + ern"
+  },
+  "stark": {
+    "chunks": [
+      "st",
+      "ark"
+    ],
+    "split": "st + ark"
+  },
+  "crude": {
+    "chunks": [
+      "cr",
+      "ude"
+    ],
+    "split": "cr + ude"
+  },
+  "vast": {
+    "chunks": [
+      "v",
+      "ast"
+    ],
+    "split": "v + ast"
+  },
+  "grand": {
+    "chunks": [
+      "gr",
+      "and"
+    ],
+    "split": "gr + and"
+  },
+  "meek": {
+    "chunks": [
+      "m",
+      "eek"
+    ],
+    "split": "m + eek"
+  },
+  "frail": {
+    "chunks": [
+      "fr",
+      "ail"
+    ],
+    "split": "fr + ail"
+  },
+  "keen": {
+    "chunks": [
+      "k",
+      "een"
+    ],
+    "split": "k + een"
+  },
+  "crisp": {
+    "chunks": [
+      "cr",
+      "isp"
+    ],
+    "split": "cr + isp"
+  },
+  "dense": {
+    "chunks": [
+      "d",
+      "ense"
+    ],
+    "split": "d + ense"
+  },
+  "grasp": {
+    "chunks": [
+      "gr",
+      "asp"
+    ],
+    "split": "gr + asp"
+  },
+  "surge": {
+    "chunks": [
+      "s",
+      "urge"
+    ],
+    "split": "s + urge"
+  },
+  "soar": {
+    "chunks": [
+      "s",
+      "oar"
+    ],
+    "split": "s + oar"
+  },
+  "plunge": {
+    "chunks": [
+      "pl",
+      "unge"
+    ],
+    "split": "pl + unge"
+  },
+  "glide": {
+    "chunks": [
+      "gl",
+      "ide"
+    ],
+    "split": "gl + ide"
+  },
+  "shrink": {
+    "chunks": [
+      "shr",
+      "ink"
+    ],
+    "split": "shr + ink"
+  },
+  "swell": {
+    "chunks": [
+      "sw",
+      "ell"
+    ],
+    "split": "sw + ell"
+  },
+  "bloom": {
+    "chunks": [
+      "bl",
+      "oom"
+    ],
+    "split": "bl + oom"
+  },
+  "thrive": {
+    "chunks": [
+      "thr",
+      "ive"
+    ],
+    "split": "thr + ive"
+  },
+  "mock": {
+    "chunks": [
+      "m",
+      "ock"
+    ],
+    "split": "m + ock"
+  },
+  "scorn": {
+    "chunks": [
+      "sc",
+      "orn"
+    ],
+    "split": "sc + orn"
+  },
+  "mourn": {
+    "chunks": [
+      "m",
+      "ourn"
+    ],
+    "split": "m + ourn"
+  },
+  "grieve": {
+    "chunks": [
+      "gr",
+      "ieve"
+    ],
+    "split": "gr + ieve"
+  },
+  "ache": {
+    "chunks": [
+      "a",
+      "che"
+    ],
+    "split": "a + che"
+  },
+  "crave": {
+    "chunks": [
+      "cr",
+      "ave"
+    ],
+    "split": "cr + ave"
+  },
+  "prime": {
+    "chunks": [
+      "pr",
+      "ime"
+    ],
+    "split": "pr + ime"
+  },
+  "scope": {
+    "chunks": [
+      "sc",
+      "ope"
+    ],
+    "split": "sc + ope"
+  },
+  "trace": {
+    "chunks": [
+      "tr",
+      "ace"
+    ],
+    "split": "tr + ace"
+  },
+  "trend": {
+    "chunks": [
+      "tr",
+      "end"
+    ],
+    "split": "tr + end"
+  },
+  "seek": {
+    "chunks": [
+      "s",
+      "eek"
+    ],
+    "split": "s + eek"
+  },
+  "site": {
+    "chunks": [
+      "s",
+      "ite"
+    ],
+    "split": "s + ite"
+  },
+  "text": {
+    "chunks": [
+      "t",
+      "ext"
+    ],
+    "split": "t + ext"
+  },
+  "cite": {
+    "chunks": [
+      "c",
+      "ite"
+    ],
+    "split": "c + ite"
+  },
+  "aid": {
+    "chunks": [
+      "a",
+      "id"
+    ],
+    "split": "a + id"
+  },
+  "core": {
+    "chunks": [
+      "c",
+      "ore"
+    ],
+    "split": "c + ore"
+  },
+  "link": {
+    "chunks": [
+      "l",
+      "ink"
+    ],
+    "split": "l + ink"
+  },
+  "globe": {
+    "chunks": [
+      "gl",
+      "obe"
+    ],
+    "split": "gl + obe"
+  },
+  "bug": {
+    "chunks": [
+      "b",
+      "ug"
+    ],
+    "split": "b + ug"
+  },
+  "cub": {
+    "chunks": [
+      "c",
+      "ub"
+    ],
+    "split": "c + ub"
+  },
+  "cab": {
+    "chunks": [
+      "c",
+      "ab"
+    ],
+    "split": "c + ab"
+  },
+  "call": {
+    "chunks": [
+      "c",
+      "all"
+    ],
+    "split": "c + all"
+  },
+  "camp": {
+    "chunks": [
+      "c",
+      "amp"
+    ],
+    "split": "c + amp"
+  },
+  "chick": {
+    "chunks": [
+      "ch",
+      "ick"
+    ],
+    "split": "ch (ch) + ick"
+  },
+  "chief": {
+    "chunks": [
+      "ch",
+      "ief"
+    ],
+    "split": "ch (ch) + ief (ie)"
+  },
+  "xmas": {
+    "chunks": [
+      "xm",
+      "as"
+    ],
+    "split": "xm + as"
+  },
+  "clear": {
+    "chunks": [
+      "cl",
+      "ear"
+    ],
+    "split": "cl + ear (ea)"
+  },
+  "dead": {
+    "chunks": [
+      "d",
+      "ead"
+    ],
+    "split": "d + ead (ea)"
+  },
+  "dear": {
+    "chunks": [
+      "d",
+      "ear"
+    ],
+    "split": "d + ear (ea)"
+  },
+  "death": {
+    "chunks": [
+      "d",
+      "eath"
+    ],
+    "split": "d + eath (ea)"
+  },
+  "dig": {
+    "chunks": [
+      "d",
+      "ig"
+    ],
+    "split": "d + ig"
+  },
+  "draw": {
+    "chunks": [
+      "dr",
+      "aw"
+    ],
+    "split": "dr + aw (aw)"
+  },
+  "duckling": {
+    "chunks": [
+      "duc",
+      "kling"
+    ],
+    "split": "duc (CVC) + kling"
+  },
+  "feed": {
+    "chunks": [
+      "f",
+      "eed"
+    ],
+    "split": "f + eed (ee)"
+  },
+  "feel": {
+    "chunks": [
+      "f",
+      "eel"
+    ],
+    "split": "f + eel (ee)"
+  },
+  "fill": {
+    "chunks": [
+      "f",
+      "ill"
+    ],
+    "split": "f + ill"
+  },
+  "fun": {
+    "chunks": [
+      "f",
+      "un"
+    ],
+    "split": "f + un"
+  },
+  "glad": {
+    "chunks": [
+      "gl",
+      "ad"
+    ],
+    "split": "gl + ad"
+  },
+  "granddaughter": {
+    "chunks": [
+      "gran",
+      "ddaug",
+      "hter"
+    ],
+    "split": "gran (gr- 子音群) + ddaug (au) + hter (er)"
+  },
+  "grandson": {
+    "chunks": [
+      "gran",
+      "dson"
+    ],
+    "split": "gran (gr- 子音群) + dson"
+  },
+  "grey": {
+    "chunks": [
+      "gr",
+      "ey"
+    ],
+    "split": "gr + ey (ey)"
+  },
+  "grow": {
+    "chunks": [
+      "gr",
+      "ow"
+    ],
+    "split": "gr + ow (ow)"
+  },
+  "guess": {
+    "chunks": [
+      "g",
+      "uess"
+    ],
+    "split": "g + uess (ue)"
+  },
+  "gun": {
+    "chunks": [
+      "g",
+      "un"
+    ],
+    "split": "g + un"
+  },
+  "health": {
+    "chunks": [
+      "h",
+      "ealth"
+    ],
+    "split": "h + ealth (ea)"
+  },
+  "hole": {
+    "chunks": [
+      "ho",
+      "le"
+    ],
+    "split": "ho (open) + le"
+  },
+  "inch": {
+    "chunks": [
+      "in",
+      "ch"
+    ],
+    "split": "in + ch (ch)"
+  },
+  "job": {
+    "chunks": [
+      "j",
+      "ob"
+    ],
+    "split": "j + ob"
+  },
+  "join": {
+    "chunks": [
+      "j",
+      "oin"
+    ],
+    "split": "j + oin (oi)"
+  },
+  "keep": {
+    "chunks": [
+      "k",
+      "eep"
+    ],
+    "split": "k + eep (ee)"
+  },
+  "kill": {
+    "chunks": [
+      "k",
+      "ill"
+    ],
+    "split": "k + ill"
+  },
+  "king": {
+    "chunks": [
+      "k",
+      "ing"
+    ],
+    "split": "k + ing"
+  },
+  "lack": {
+    "chunks": [
+      "l",
+      "ack"
+    ],
+    "split": "l + ack"
+  },
+  "land": {
+    "chunks": [
+      "l",
+      "and"
+    ],
+    "split": "l + and"
+  },
+  "least": {
+    "chunks": [
+      "l",
+      "east"
+    ],
+    "split": "l + east (ea)"
+  },
+  "less": {
+    "chunks": [
+      "l",
+      "ess"
+    ],
+    "split": "l + ess"
+  },
+  "let": {
+    "chunks": [
+      "l",
+      "et"
+    ],
+    "split": "l + et"
+  },
+  "mail": {
+    "chunks": [
+      "m",
+      "ail"
+    ],
+    "split": "m + ail (ai)"
+  },
+  "me": {
+    "chunks": [
+      "m",
+      "e"
+    ],
+    "split": "m + e"
+  },
+  "meet": {
+    "chunks": [
+      "m",
+      "eet"
+    ],
+    "split": "m + eet (ee)"
+  },
+  "my": {
+    "chunks": [
+      "m",
+      "y"
+    ],
+    "split": "m + y"
+  },
+  "no": {
+    "chunks": [
+      "n",
+      "o"
+    ],
+    "split": "n + o"
+  },
+  "nor": {
+    "chunks": [
+      "n",
+      "or"
+    ],
+    "split": "n + or (or)"
+  },
+  "not": {
+    "chunks": [
+      "n",
+      "ot"
+    ],
+    "split": "n + ot"
+  },
+  "own": {
+    "chunks": [
+      "ow",
+      "n"
+    ],
+    "split": "ow (ow) + n"
+  },
+  "pa": {
+    "chunks": [
+      "p",
+      "a"
+    ],
+    "split": "p + a"
+  },
+  "pass": {
+    "chunks": [
+      "p",
+      "ass"
+    ],
+    "split": "p + ass"
+  },
+  "pool": {
+    "chunks": [
+      "p",
+      "ool"
+    ],
+    "split": "p + ool (oo)"
+  },
+  "queen": {
+    "chunks": [
+      "q",
+      "ueen"
+    ],
+    "split": "q + ueen (ee)"
+  },
+  "quick": {
+    "chunks": [
+      "q",
+      "uick"
+    ],
+    "split": "q + uick (ui)"
+  },
+  "rat": {
+    "chunks": [
+      "r",
+      "at"
+    ],
+    "split": "r + at"
+  },
+  "reach": {
+    "chunks": [
+      "r",
+      "each"
+    ],
+    "split": "r + each (ea)"
+  },
+  "rest": {
+    "chunks": [
+      "r",
+      "est"
+    ],
+    "split": "r + est"
+  },
+  "roll": {
+    "chunks": [
+      "r",
+      "oll"
+    ],
+    "split": "r + oll"
+  },
+  "room": {
+    "chunks": [
+      "r",
+      "oom"
+    ],
+    "split": "r + oom (oo)"
+  },
+  "rub": {
+    "chunks": [
+      "r",
+      "ub"
+    ],
+    "split": "r + ub"
+  },
+  "sail": {
+    "chunks": [
+      "s",
+      "ail"
+    ],
+    "split": "s + ail (ai)"
+  },
+  "seem": {
+    "chunks": [
+      "s",
+      "eem"
+    ],
+    "split": "s + eem (ee)"
+  },
+  "shall": {
+    "chunks": [
+      "sh",
+      "all"
+    ],
+    "split": "sh (sh) + all"
+  },
+  "shout": {
+    "chunks": [
+      "sh",
+      "out"
+    ],
+    "split": "sh (sh) + out (ou)"
+  },
+  "shut": {
+    "chunks": [
+      "sh",
+      "ut"
+    ],
+    "split": "sh (sh) + ut"
+  },
+  "sight": {
+    "chunks": [
+      "s",
+      "ight"
+    ],
+    "split": "s + ight"
+  },
+  "skill": {
+    "chunks": [
+      "sk",
+      "ill"
+    ],
+    "split": "sk + ill"
+  },
+  "smell": {
+    "chunks": [
+      "sm",
+      "ell"
+    ],
+    "split": "sm + ell"
+  },
+  "spell": {
+    "chunks": [
+      "sp",
+      "ell"
+    ],
+    "split": "sp + ell"
+  },
+  "sport": {
+    "chunks": [
+      "sp",
+      "ort"
+    ],
+    "split": "sp + ort (or)"
+  },
+  "stair": {
+    "chunks": [
+      "st",
+      "air"
+    ],
+    "split": "st + air (ai)"
+  },
+  "stay": {
+    "chunks": [
+      "st",
+      "ay"
+    ],
+    "split": "st + ay (ay)"
+  },
+  "such": {
+    "chunks": [
+      "s",
+      "uch"
+    ],
+    "split": "s + uch"
+  },
+  "tail": {
+    "chunks": [
+      "t",
+      "ail"
+    ],
+    "split": "t + ail (ai)"
+  },
+  "thank": {
+    "chunks": [
+      "th",
+      "ank"
+    ],
+    "split": "th (th) + ank"
+  },
+  "tool": {
+    "chunks": [
+      "t",
+      "ool"
+    ],
+    "split": "t + ool (oo)"
+  },
+  "touch": {
+    "chunks": [
+      "t",
+      "ouch"
+    ],
+    "split": "t + ouch (ou)"
+  },
+  "trouble": {
+    "chunks": [
+      "troub",
+      "le"
+    ],
+    "split": "troub (tr- 子音群) + le (open)"
+  },
+  "till": {
+    "chunks": [
+      "t",
+      "ill"
+    ],
+    "split": "t + ill"
+  },
+  "view": {
+    "chunks": [
+      "v",
+      "iew"
+    ],
+    "split": "v + iew (ie)"
+  },
+  "wear": {
+    "chunks": [
+      "w",
+      "ear"
+    ],
+    "split": "w + ear (ea)"
+  },
+  "weigh": {
+    "chunks": [
+      "w",
+      "eigh"
+    ],
+    "split": "w + eigh (ei)"
+  },
+  "weight": {
+    "chunks": [
+      "w",
+      "eight"
+    ],
+    "split": "w + eight (ei)"
+  },
+  "win": {
+    "chunks": [
+      "w",
+      "in"
+    ],
+    "split": "w + in"
+  },
+  "worse": {
+    "chunks": [
+      "wor",
+      "se"
+    ],
+    "split": "wor (CVC) + se (open)"
+  },
+  "worst": {
+    "chunks": [
+      "w",
+      "orst"
+    ],
+    "split": "w + orst (or)"
+  },
+  "yes": {
+    "chunks": [
+      "y",
+      "es"
+    ],
+    "split": "y + es"
+  },
+  "yeah": {
+    "chunks": [
+      "y",
+      "eah"
+    ],
+    "split": "y + eah (ea)"
+  },
+  "aim": {
+    "chunks": [
+      "a",
+      "im"
+    ],
+    "split": "a + im"
+  },
+  "beep": {
+    "chunks": [
+      "b",
+      "eep"
+    ],
+    "split": "b + eep (ee)"
+  },
+  "beg": {
+    "chunks": [
+      "b",
+      "eg"
+    ],
+    "split": "b + eg"
+  },
+  "bind": {
+    "chunks": [
+      "b",
+      "ind"
+    ],
+    "split": "b + ind"
+  },
+  "bet": {
+    "chunks": [
+      "b",
+      "et"
+    ],
+    "split": "b + et"
+  },
+  "boil": {
+    "chunks": [
+      "b",
+      "oil"
+    ],
+    "split": "b + oil (oi)"
+  },
+  "bun": {
+    "chunks": [
+      "b",
+      "un"
+    ],
+    "split": "b + un"
+  },
+  "burst": {
+    "chunks": [
+      "b",
+      "urst"
+    ],
+    "split": "b + urst (ur)"
+  },
+  "blackboard": {
+    "chunks": [
+      "blac",
+      "kboard"
+    ],
+    "split": "blac (bl- 子音群) + kboard (oa)"
+  },
+  "blank": {
+    "chunks": [
+      "bl",
+      "ank"
+    ],
+    "split": "bl + ank"
+  },
+  "blind": {
+    "chunks": [
+      "bl",
+      "ind"
+    ],
+    "split": "bl + ind"
+  },
+  "broad": {
+    "chunks": [
+      "br",
+      "oad"
+    ],
+    "split": "br + oad (oa)"
+  },
+  "cheat": {
+    "chunks": [
+      "ch",
+      "eat"
+    ],
+    "split": "ch (ch) + eat (ea)"
+  },
+  "clap": {
+    "chunks": [
+      "cl",
+      "ap"
+    ],
+    "split": "cl + ap"
+  },
+  "claw": {
+    "chunks": [
+      "cl",
+      "aw"
+    ],
+    "split": "cl + aw (aw)"
+  },
+  "clown": {
+    "chunks": [
+      "cl",
+      "own"
+    ],
+    "split": "cl + own (ow)"
+  },
+  "coal": {
+    "chunks": [
+      "c",
+      "oal"
+    ],
+    "split": "c + oal (oa)"
+  },
+  "cock": {
+    "chunks": [
+      "c",
+      "ock"
+    ],
+    "split": "c + ock"
+  },
+  "roach": {
+    "chunks": [
+      "r",
+      "oach"
+    ],
+    "split": "r + oach (oa)"
+  },
+  "cop": {
+    "chunks": [
+      "c",
+      "op"
+    ],
+    "split": "c + op"
+  },
+  "doughnut": {
+    "chunks": [
+      "doug",
+      "hnut"
+    ],
+    "split": "doug (ou) + hnut"
+  },
+  "fail": {
+    "chunks": [
+      "f",
+      "ail"
+    ],
+    "split": "f + ail (ai)"
+  },
+  "fault": {
+    "chunks": [
+      "f",
+      "ault"
+    ],
+    "split": "f + ault (au)"
+  },
+  "fighter": {
+    "chunks": [
+      "fig",
+      "hter"
+    ],
+    "split": "fig (CVC) + hter (er)"
+  },
+  "firm": {
+    "chunks": [
+      "f",
+      "irm"
+    ],
+    "split": "f + irm (ir)"
+  },
+  "fit": {
+    "chunks": [
+      "f",
+      "it"
+    ],
+    "split": "f + it"
+  },
+  "flag": {
+    "chunks": [
+      "fl",
+      "ag"
+    ],
+    "split": "fl + ag"
+  },
+  "flash": {
+    "chunks": [
+      "fl",
+      "ash"
+    ],
+    "split": "fl + ash"
+  },
+  "flow": {
+    "chunks": [
+      "fl",
+      "ow"
+    ],
+    "split": "fl + ow (ow)"
+  },
+  "fool": {
+    "chunks": [
+      "f",
+      "ool"
+    ],
+    "split": "f + ool (oo)"
+  },
+  "frank": {
+    "chunks": [
+      "fr",
+      "ank"
+    ],
+    "split": "fr + ank"
+  },
+  "overthrow": {
+    "chunks": [
+      "o",
+      "vert",
+      "hrow"
+    ],
+    "split": "o + vert (er) + hrow (ow)"
+  },
+  "participle": {
+    "chunks": [
+      "par",
+      "ti",
+      "cip",
+      "le"
+    ],
+    "split": "par (CVC) + ti (open) + cip + le"
+  },
+  "peculiar": {
+    "chunks": [
+      "pe",
+      "cu",
+      "liar"
+    ],
+    "split": "pe (open) + cu + liar (ar)"
+  },
+  "quilt": {
+    "chunks": [
+      "q",
+      "uilt"
+    ],
+    "split": "q + uilt (ui)"
+  },
+  "reflect": {
+    "chunks": [
+      "ref",
+      "lect"
+    ],
+    "split": "ref (CVC) + lect"
+  },
+  "reflection": {
+    "chunks": [
+      "ref",
+      "lec",
+      "tion"
+    ],
+    "split": "ref (CVC) + lec + tion"
+  },
+  "refresh": {
+    "chunks": [
+      "ref",
+      "resh"
+    ],
+    "split": "ref (CVC) + resh"
+  },
+  "relieve": {
+    "chunks": [
+      "re",
+      "lie",
+      "ve"
+    ],
+    "split": "re (open) + lie (ie) + ve"
+  },
+  "respectful": {
+    "chunks": [
+      "res",
+      "pec",
+      "tful"
+    ],
+    "split": "res (CVC) + pec + tful"
+  },
+  "retreat": {
+    "chunks": [
+      "ret",
+      "reat"
+    ],
+    "split": "ret (CVC) + reat (ea)"
+  },
+  "scold": {
+    "chunks": [
+      "sc",
+      "old"
+    ],
+    "split": "sc + old"
+  },
+  "scratch": {
+    "chunks": [
+      "scr",
+      "atch"
+    ],
+    "split": "scr (sc- 子音群) + atch"
+  },
+  "shrug": {
+    "chunks": [
+      "shr",
+      "ug"
+    ],
+    "split": "shr (sh) + ug"
+  },
+  "sleigh": {
+    "chunks": [
+      "sl",
+      "eigh"
+    ],
+    "split": "sl + eigh (ei)"
+  },
+  "slight": {
+    "chunks": [
+      "sl",
+      "ight"
+    ],
+    "split": "sl + ight"
+  },
+  "sneeze": {
+    "chunks": [
+      "snee",
+      "ze"
+    ],
+    "split": "snee (sn- 子音群) + ze (open)"
+  },
+  "sob": {
+    "chunks": [
+      "s",
+      "ob"
+    ],
+    "split": "s + ob"
+  },
+  "spear": {
+    "chunks": [
+      "sp",
+      "ear"
+    ],
+    "split": "sp + ear (ea)"
+  },
+  "split": {
+    "chunks": [
+      "spl",
+      "it"
+    ],
+    "split": "spl (sp- 子音群) + it"
+  },
+  "surf": {
+    "chunks": [
+      "s",
+      "urf"
+    ],
+    "split": "s + urf (ur)"
+  },
+  "sway": {
+    "chunks": [
+      "sw",
+      "ay"
+    ],
+    "split": "sw + ay (ay)"
+  },
+  "thoughtful": {
+    "chunks": [
+      "though",
+      "tful"
+    ],
+    "split": "though (ou) + tful"
+  },
+  "tomb": {
+    "chunks": [
+      "t",
+      "omb"
+    ],
+    "split": "t + omb"
+  },
+  "triumph": {
+    "chunks": [
+      "tr",
+      "iumph"
+    ],
+    "split": "tr + iumph"
+  },
+  "witch": {
+    "chunks": [
+      "w",
+      "itch"
+    ],
+    "split": "w + itch"
+  },
+  "wit": {
+    "chunks": [
+      "w",
+      "it"
+    ],
+    "split": "w + it"
+  },
+  "verb": {
+    "chunks": [
+      "v",
+      "erb"
+    ],
+    "split": "v + erb (er)"
+  },
+  "acknowledgement": {
+    "chunks": [
+      "ac",
+      "know",
+      "led",
+      "ge",
+      "ment"
+    ],
+    "split": "ac + know (ow) + led (CVC) + ge (open) + ment"
+  },
+  "ass": {
+    "chunks": [
+      "as",
+      "s"
+    ],
+    "split": "as + s"
+  },
+  "astonishment": {
+    "chunks": [
+      "as",
+      "to",
+      "nis",
+      "hment"
+    ],
+    "split": "as + to (open) + nis (CVC) + hment"
+  },
+  "apt": {
+    "chunks": [
+      "ap",
+      "t"
+    ],
+    "split": "ap + t"
+  },
+  "backbone": {
+    "chunks": [
+      "bac",
+      "kbo",
+      "ne"
+    ],
+    "split": "bac (CVC) + kbo + ne (open)"
+  },
+  "ban": {
+    "chunks": [
+      "b",
+      "an"
+    ],
+    "split": "b + an"
+  },
+  "bass": {
+    "chunks": [
+      "b",
+      "ass"
+    ],
+    "split": "b + ass"
+  },
+  "batch": {
+    "chunks": [
+      "b",
+      "atch"
+    ],
+    "split": "b + atch"
+  },
+  "bog": {
+    "chunks": [
+      "b",
+      "og"
+    ],
+    "split": "b + og"
+  },
+  "braid": {
+    "chunks": [
+      "br",
+      "aid"
+    ],
+    "split": "br + aid (ai)"
+  },
+  "breadth": {
+    "chunks": [
+      "br",
+      "eadth"
+    ],
+    "split": "br + eadth (ea)"
+  },
+  "brooch": {
+    "chunks": [
+      "br",
+      "ooch"
+    ],
+    "split": "br + ooch (oo)"
+  },
+  "brood": {
+    "chunks": [
+      "br",
+      "ood"
+    ],
+    "split": "br + ood (oo)"
+  },
+  "bleach": {
+    "chunks": [
+      "bl",
+      "each"
+    ],
+    "split": "bl + each (ea)"
+  },
+  "blond": {
+    "chunks": [
+      "bl",
+      "ond"
+    ],
+    "split": "bl + ond"
+  },
+  "blot": {
+    "chunks": [
+      "bl",
+      "ot"
+    ],
+    "split": "bl + ot"
+  },
+  "blur": {
+    "chunks": [
+      "bl",
+      "ur"
+    ],
+    "split": "bl + ur (ur)"
+  },
+  "carefree": {
+    "chunks": [
+      "ca",
+      "ref",
+      "ree"
+    ],
+    "split": "ca (open) + ref (CVC) + ree (ee)"
+  },
+  "carp": {
+    "chunks": [
+      "c",
+      "arp"
+    ],
+    "split": "c + arp (ar)"
+  },
+  "mash": {
+    "chunks": [
+      "m",
+      "ash"
+    ],
+    "split": "m + ash"
+  },
+  "midst": {
+    "chunks": [
+      "m",
+      "idst"
+    ],
+    "split": "m + idst"
+  },
+  "moan": {
+    "chunks": [
+      "m",
+      "oan"
+    ],
+    "split": "m + oan (oa)"
+  },
+  "mound": {
+    "chunks": [
+      "m",
+      "ound"
+    ],
+    "split": "m + ound (ou)"
+  },
+  "mount": {
+    "chunks": [
+      "m",
+      "ount"
+    ],
+    "split": "m + ount (ou)"
+  },
+  "nag": {
+    "chunks": [
+      "n",
+      "ag"
+    ],
+    "split": "n + ag"
+  },
+  "newscast": {
+    "chunks": [
+      "new",
+      "scast"
+    ],
+    "split": "new (CVC) + scast (sc- 子音群)"
+  },
+  "oar": {
+    "chunks": [
+      "o",
+      "ar"
+    ],
+    "split": "o + ar (ar)"
+  },
+  "peck": {
+    "chunks": [
+      "p",
+      "eck"
+    ],
+    "split": "p + eck"
+  },
+  "peek": {
+    "chunks": [
+      "p",
+      "eek"
+    ],
+    "split": "p + eek (ee)"
+  },
+  "peg": {
+    "chunks": [
+      "p",
+      "eg"
+    ],
+    "split": "p + eg"
+  },
+  "perch": {
+    "chunks": [
+      "p",
+      "erch"
+    ],
+    "split": "p + erch (er)"
+  },
+  "pier": {
+    "chunks": [
+      "p",
+      "ier"
+    ],
+    "split": "p + ier (ie)"
+  },
+  "pinch": {
+    "chunks": [
+      "p",
+      "inch"
+    ],
+    "split": "p + inch"
+  },
+  "piss": {
+    "chunks": [
+      "p",
+      "iss"
+    ],
+    "split": "p + iss"
+  },
+  "prick": {
+    "chunks": [
+      "pr",
+      "ick"
+    ],
+    "split": "pr + ick"
+  },
+  "prop": {
+    "chunks": [
+      "pr",
+      "op"
+    ],
+    "split": "pr + op"
+  },
+  "prey": {
+    "chunks": [
+      "pr",
+      "ey"
+    ],
+    "split": "pr + ey (ey)"
+  },
+  "preach": {
+    "chunks": [
+      "pr",
+      "each"
+    ],
+    "split": "pr + each (ea)"
+  },
+  "plow": {
+    "chunks": [
+      "pl",
+      "ow"
+    ],
+    "split": "pl + ow (ow)"
+  },
+  "pluck": {
+    "chunks": [
+      "pl",
+      "uck"
+    ],
+    "split": "pl + uck"
+  },
+  "puff": {
+    "chunks": [
+      "p",
+      "uff"
+    ],
+    "split": "p + uff"
+  },
+  "quack": {
+    "chunks": [
+      "q",
+      "uack"
+    ],
+    "split": "q + uack"
+  },
+  "quart": {
+    "chunks": [
+      "q",
+      "uart"
+    ],
+    "split": "q + uart (ar)"
+  },
+  "rail": {
+    "chunks": [
+      "r",
+      "ail"
+    ],
+    "split": "r + ail (ai)"
+  },
+  "realm": {
+    "chunks": [
+      "r",
+      "ealm"
+    ],
+    "split": "r + ealm (ea)"
+  },
+  "reap": {
+    "chunks": [
+      "r",
+      "eap"
+    ],
+    "split": "r + eap (ea)"
+  },
+  "rear": {
+    "chunks": [
+      "r",
+      "ear"
+    ],
+    "split": "r + ear (ea)"
+  },
+  "rim": {
+    "chunks": [
+      "r",
+      "im"
+    ],
+    "split": "r + im"
+  },
+  "rip": {
+    "chunks": [
+      "r",
+      "ip"
+    ],
+    "split": "r + ip"
+  },
+  "rod": {
+    "chunks": [
+      "r",
+      "od"
+    ],
+    "split": "r + od"
+  },
+  "scan": {
+    "chunks": [
+      "sc",
+      "an"
+    ],
+    "split": "sc + an"
+  },
+  "scent": {
+    "chunks": [
+      "sc",
+      "ent"
+    ],
+    "split": "sc + ent"
+  },
+  "scrap": {
+    "chunks": [
+      "scr",
+      "ap"
+    ],
+    "split": "scr (sc- 子音群) + ap"
+  },
+  "shred": {
+    "chunks": [
+      "shr",
+      "ed"
+    ],
+    "split": "shr (sh) + ed"
+  },
+  "shriek": {
+    "chunks": [
+      "shr",
+      "iek"
+    ],
+    "split": "shr (sh) + iek (ie)"
+  },
+  "shrub": {
+    "chunks": [
+      "shr",
+      "ub"
+    ],
+    "split": "shr (sh) + ub"
+  },
+  "slap": {
+    "chunks": [
+      "sl",
+      "ap"
+    ],
+    "split": "sl + ap"
+  },
+  "slay": {
+    "chunks": [
+      "sl",
+      "ay"
+    ],
+    "split": "sl + ay (ay)"
+  },
+  "slam": {
+    "chunks": [
+      "sl",
+      "am"
+    ],
+    "split": "sl + am"
+  },
+  "slump": {
+    "chunks": [
+      "sl",
+      "ump"
+    ],
+    "split": "sl + ump"
+  },
+  "sly": {
+    "chunks": [
+      "sl",
+      "y"
+    ],
+    "split": "sl + y"
+  },
+  "smash": {
+    "chunks": [
+      "sm",
+      "ash"
+    ],
+    "split": "sm + ash"
+  },
+  "snarl": {
+    "chunks": [
+      "sn",
+      "arl"
+    ],
+    "split": "sn + arl (ar)"
+  },
+  "snatch": {
+    "chunks": [
+      "sn",
+      "atch"
+    ],
+    "split": "sn + atch"
+  },
+  "sneak": {
+    "chunks": [
+      "sn",
+      "eak"
+    ],
+    "split": "sn + eak (ea)"
+  },
+  "sniff": {
+    "chunks": [
+      "sn",
+      "iff"
+    ],
+    "split": "sn + iff"
+  },
+  "snort": {
+    "chunks": [
+      "sn",
+      "ort"
+    ],
+    "split": "sn + ort (or)"
+  },
+  "soak": {
+    "chunks": [
+      "s",
+      "oak"
+    ],
+    "split": "s + oak (oa)"
+  },
+  "sow": {
+    "chunks": [
+      "s",
+      "ow"
+    ],
+    "split": "s + ow (ow)"
+  },
+  "stack": {
+    "chunks": [
+      "st",
+      "ack"
+    ],
+    "split": "st + ack"
+  },
+  "stain": {
+    "chunks": [
+      "st",
+      "ain"
+    ],
+    "split": "st + ain (ai)"
+  },
+  "stalk": {
+    "chunks": [
+      "st",
+      "alk"
+    ],
+    "split": "st + alk"
+  },
+  "steer": {
+    "chunks": [
+      "st",
+      "eer"
+    ],
+    "split": "st + eer (ee)"
+  },
+  "stew": {
+    "chunks": [
+      "st",
+      "ew"
+    ],
+    "split": "st + ew (ew)"
+  },
+  "stink": {
+    "chunks": [
+      "st",
+      "ink"
+    ],
+    "split": "st + ink"
+  },
+  "stoop": {
+    "chunks": [
+      "st",
+      "oop"
+    ],
+    "split": "st + oop (oo)"
+  },
+  "strain": {
+    "chunks": [
+      "str",
+      "ain"
+    ],
+    "split": "str (st- 子音群) + ain (ai)"
+  },
+  "strand": {
+    "chunks": [
+      "str",
+      "and"
+    ],
+    "split": "str (st- 子音群) + and"
+  },
+  "strap": {
+    "chunks": [
+      "str",
+      "ap"
+    ],
+    "split": "str (st- 子音群) + ap"
+  },
+  "stray": {
+    "chunks": [
+      "str",
+      "ay"
+    ],
+    "split": "str (st- 子音群) + ay (ay)"
+  },
+  "streak": {
+    "chunks": [
+      "str",
+      "eak"
+    ],
+    "split": "str (st- 子音群) + eak (ea)"
+  },
+  "stroll": {
+    "chunks": [
+      "str",
+      "oll"
+    ],
+    "split": "str (st- 子音群) + oll"
+  },
+  "stump": {
+    "chunks": [
+      "st",
+      "ump"
+    ],
+    "split": "st + ump"
+  },
+  "stun": {
+    "chunks": [
+      "st",
+      "un"
+    ],
+    "split": "st + un"
+  },
+  "swarm": {
+    "chunks": [
+      "sw",
+      "arm"
+    ],
+    "split": "sw + arm (ar)"
+  },
+  "telegram": {
+    "chunks": [
+      "te",
+      "leg",
+      "ram"
+    ],
+    "split": "te (open) + leg (CVC) + ram"
+  },
+  "telegraph": {
+    "chunks": [
+      "te",
+      "leg",
+      "raph"
+    ],
+    "split": "te (open) + leg (CVC) + raph"
+  },
+  "troublesome": {
+    "chunks": [
+      "troub",
+      "le",
+      "so",
+      "me"
+    ],
+    "split": "troub (tr- 子音群) + le (open) + so + me"
+  },
+  "shortsighted": {
+    "chunks": [
+      "shor",
+      "tsig",
+      "hted"
+    ],
+    "split": "shor (or) + tsig + hted"
+  },
+  "sportsman": {
+    "chunks": [
+      "sport",
+      "sman"
+    ],
+    "split": "sport (sp- 子音群) + sman (sm- 子音群)"
+  },
+  "sportsmanship": {
+    "chunks": [
+      "sport",
+      "sman",
+      "ship"
+    ],
+    "split": "sport (sp- 子音群) + sman (sm- 子音群) + ship (sh)"
+  },
+  "saleswoman": {
+    "chunks": [
+      "sa",
+      "les",
+      "wo",
+      "man"
+    ],
+    "split": "sa (open) + les (CVC) + wo + man"
+  },
+  "salesperson": {
+    "chunks": [
+      "sa",
+      "les",
+      "per",
+      "son"
+    ],
+    "split": "sa (open) + les (CVC) + per + son"
+  },
+  "strengthen": {
+    "chunks": [
+      "streng",
+      "then"
+    ],
+    "split": "streng (str- 子音群) + then (th)"
+  },
+  "nightingale": {
+    "chunks": [
+      "nig",
+      "htin",
+      "ga",
+      "le"
+    ],
+    "split": "nig (CVC) + htin + ga (open) + le"
+  },
+  "pacific": {
+    "chunks": [
+      "pa",
+      "ci",
+      "fic"
+    ],
+    "split": "pa (open) + ci + fic (CVC)"
+  },
+  "poetic": {
+    "chunks": [
+      "poe",
+      "tic"
+    ],
+    "split": "poe (oe) + tic (CVC)"
+  },
+  "pocketbook": {
+    "chunks": [
+      "poc",
+      "ket",
+      "book"
+    ],
+    "split": "poc (CVC) + ket + book (oo)"
+  },
+  "slaughter": {
+    "chunks": [
+      "slaug",
+      "hter"
+    ],
+    "split": "slaug (sl- 子音群) + hter (er)"
+  },
+  "straighten": {
+    "chunks": [
+      "straig",
+      "hten"
+    ],
+    "split": "straig (str- 子音群) + hten"
+  },
+  "silkworm": {
+    "chunks": [
+      "sil",
+      "kworm"
+    ],
+    "split": "sil (CVC) + kworm (or)"
+  },
+  "spacecraft": {
+    "chunks": [
+      "spa",
+      "cec",
+      "raft"
+    ],
+    "split": "spa (sp- 子音群) + cec (CVC) + raft"
+  },
+  "sprint": {
+    "chunks": [
+      "spr",
+      "int"
+    ],
+    "split": "spr (sp- 子音群) + int"
+  },
+  "spur": {
+    "chunks": [
+      "sp",
+      "ur"
+    ],
+    "split": "sp + ur (ur)"
+  },
+  "resentment": {
+    "chunks": [
+      "re",
+      "sen",
+      "tment"
+    ],
+    "split": "re (open) + sen (CVC) + tment"
+  },
+  "installment": {
+    "chunks": [
+      "in",
+      "stal",
+      "lment"
+    ],
+    "split": "in + stal (st- 子音群) + lment"
+  },
+  "enrichment": {
+    "chunks": [
+      "en",
+      "ric",
+      "hment"
+    ],
+    "split": "en + ric (CVC) + hment"
+  },
+  "enactment": {
+    "chunks": [
+      "e",
+      "nac",
+      "tment"
+    ],
+    "split": "e + nac (CVC) + tment"
+  },
+  "mouthpiece": {
+    "chunks": [
+      "mout",
+      "hpie",
+      "ce"
+    ],
+    "split": "mout (ou) + hpie (ie) + ce (open)"
+  },
+  "mournful": {
+    "chunks": [
+      "mour",
+      "nful"
+    ],
+    "split": "mour (ou) + nful"
+  },
+  "doom": {
+    "chunks": [
+      "d",
+      "oom"
+    ],
+    "split": "d + oom (oo)"
+  },
+  "dual": {
+    "chunks": [
+      "d",
+      "ual"
+    ],
+    "split": "d + ual"
+  },
+  "diagram": {
+    "chunks": [
+      "diag",
+      "ram"
+    ],
+    "split": "diag + ram (CVC)"
+  },
+  "ebb": {
+    "chunks": [
+      "eb",
+      "b"
+    ],
+    "split": "eb + b"
+  },
+  "enlighten": {
+    "chunks": [
+      "en",
+      "lig",
+      "hten"
+    ],
+    "split": "en + lig (CVC) + hten"
+  },
+  "exert": {
+    "chunks": [
+      "e",
+      "xert"
+    ],
+    "split": "e + xert (er)"
+  },
+  "execution": {
+    "chunks": [
+      "e",
+      "xe",
+      "cu",
+      "tion"
+    ],
+    "split": "e + xe (open) + cu + tion"
+  },
+  "exotic": {
+    "chunks": [
+      "e",
+      "xo",
+      "tic"
+    ],
+    "split": "e + xo (open) + tic (CVC)"
+  },
+  "fireproof": {
+    "chunks": [
+      "fi",
+      "rep",
+      "roof"
+    ],
+    "split": "fi (open) + rep (CVC) + roof (oo)"
+  },
+  "fleet": {
+    "chunks": [
+      "fl",
+      "eet"
+    ],
+    "split": "fl + eet (ee)"
+  },
+  "fluid": {
+    "chunks": [
+      "fl",
+      "uid"
+    ],
+    "split": "fl + uid (ui)"
+  },
+  "foresee": {
+    "chunks": [
+      "fo",
+      "re",
+      "see"
+    ],
+    "split": "fo (open) + re + see (ee)"
+  },
+  "freak": {
+    "chunks": [
+      "fr",
+      "eak"
+    ],
+    "split": "fr + eak (ea)"
+  },
+  "fret": {
+    "chunks": [
+      "fr",
+      "et"
+    ],
+    "split": "fr + et"
+  },
+  "grill": {
+    "chunks": [
+      "gr",
+      "ill"
+    ],
+    "split": "gr + ill"
+  },
+  "hunch": {
+    "chunks": [
+      "h",
+      "unch"
+    ],
+    "split": "h + unch"
+  },
+  "glassware": {
+    "chunks": [
+      "glas",
+      "swa",
+      "re"
+    ],
+    "split": "glas (gl- 子音群) + swa (sw- 子音群) + re (open)"
+  },
+  "graphic": {
+    "chunks": [
+      "grap",
+      "hic"
+    ],
+    "split": "grap (gr- 子音群) + hic (CVC)"
+  },
+  "joyous": {
+    "chunks": [
+      "j",
+      "oyous"
+    ],
+    "split": "j + oyous (ou)"
+  },
+  "liable": {
+    "chunks": [
+      "liab",
+      "le"
+    ],
+    "split": "liab + le (open) (-able 字尾)"
+  },
+  "viable": {
+    "chunks": [
+      "viab",
+      "le"
+    ],
+    "split": "viab + le (open) (-able 字尾)"
+  },
+  "vend": {
+    "chunks": [
+      "v",
+      "end"
+    ],
+    "split": "v + end"
+  },
+  "verge": {
+    "chunks": [
+      "ver",
+      "ge"
+    ],
+    "split": "ver (CVC) + ge (open)"
+  },
+  "vogue": {
+    "chunks": [
+      "vo",
+      "gue"
+    ],
+    "split": "vo (open) + gue (ue)"
+  },
+  "vineyard": {
+    "chunks": [
+      "vi",
+      "neyard"
+    ],
+    "split": "vi (open) + neyard (ey)"
+  },
+  "woo": {
+    "chunks": [
+      "w",
+      "oo"
+    ],
+    "split": "w + oo (oo)"
+  },
+  "yearn": {
+    "chunks": [
+      "y",
+      "earn"
+    ],
+    "split": "y + earn (ea)"
+  },
+  "zeal": {
+    "chunks": [
+      "z",
+      "eal"
+    ],
+    "split": "z + eal (ea)"
+  },
+  "kindness": {
+    "chunks": [
+      "kin",
+      "dness"
+    ],
+    "split": "kin (CVC) + dness"
+  },
+  "darkness": {
+    "chunks": [
+      "dar",
+      "kness"
+    ],
+    "split": "dar (CVC) + kness"
+  },
+  "softness": {
+    "chunks": [
+      "sof",
+      "tness"
+    ],
+    "split": "sof (CVC) + tness"
+  },
+  "coldness": {
+    "chunks": [
+      "col",
+      "dness"
+    ],
+    "split": "col (CVC) + dness"
+  },
+  "thickness": {
+    "chunks": [
+      "thic",
+      "kness"
+    ],
+    "split": "thic (th) + kness"
+  },
+  "quickness": {
+    "chunks": [
+      "quic",
+      "kness"
+    ],
+    "split": "quic (ui) + kness"
+  },
+  "selfishness": {
+    "chunks": [
+      "sel",
+      "fis",
+      "hness"
+    ],
+    "split": "sel (CVC) + fis + hness"
+  },
+  "toughness": {
+    "chunks": [
+      "toug",
+      "hness"
+    ],
+    "split": "toug (ou) + hness"
+  },
+  "boldness": {
+    "chunks": [
+      "bol",
+      "dness"
+    ],
+    "split": "bol (CVC) + dness"
+  },
+  "compartment": {
+    "chunks": [
+      "com",
+      "par",
+      "tment"
+    ],
+    "split": "com (CVC) + par + tment"
+  },
+  "judgement": {
+    "chunks": [
+      "jud",
+      "ge",
+      "ment"
+    ],
+    "split": "jud (CVC) + ge (open) + ment"
+  },
+  "placement": {
+    "chunks": [
+      "pla",
+      "ce",
+      "ment"
+    ],
+    "split": "pla (pl- 子音群) + ce (open) + ment"
+  },
+  "movement": {
+    "chunks": [
+      "mo",
+      "ve",
+      "ment"
+    ],
+    "split": "mo (open) + ve + ment"
+  },
+  "improvement": {
+    "chunks": [
+      "im",
+      "pro",
+      "ve",
+      "ment"
+    ],
+    "split": "im + pro (pr- 子音群) + ve (open) + ment"
+  },
+  "excitement": {
+    "chunks": [
+      "ex",
+      "ci",
+      "te",
+      "ment"
+    ],
+    "split": "ex + ci (open) + te + ment"
+  },
+  "requirement": {
+    "chunks": [
+      "re",
+      "qui",
+      "re",
+      "ment"
+    ],
+    "split": "re (open) + qui (ui) + re + ment"
+  },
+  "punctuation": {
+    "chunks": [
+      "pun",
+      "ctua",
+      "tion"
+    ],
+    "split": "pun (CVC) + ctua + tion"
+  },
+  "downturn": {
+    "chunks": [
+      "dow",
+      "nturn"
+    ],
+    "split": "dow (CVC) + nturn (ur)"
+  },
+  "stockholder": {
+    "chunks": [
+      "stoc",
+      "khol",
+      "der"
+    ],
+    "split": "stoc (st- 子音群) + khol + der (CVC)"
+  },
+  "takeover": {
+    "chunks": [
+      "ta",
+      "keo",
+      "ver"
+    ],
+    "split": "ta (open) + keo + ver (CVC)"
+  },
+  "turnover": {
+    "chunks": [
+      "tur",
+      "no",
+      "ver"
+    ],
+    "split": "tur (CVC) + no (open) + ver"
+  },
+  "toothache": {
+    "chunks": [
+      "toot",
+      "hac",
+      "he"
+    ],
+    "split": "toot (oo) + hac (CVC) + he (open)"
+  },
+  "mindful": {
+    "chunks": [
+      "min",
+      "dful"
+    ],
+    "split": "min (CVC) + dful"
+  },
+  "watchful": {
+    "chunks": [
+      "watc",
+      "hful"
+    ],
+    "split": "watc + hful"
+  },
+  "wishful": {
+    "chunks": [
+      "wis",
+      "hful"
+    ],
+    "split": "wis (CVC) + hful"
+  },
+  "wrongful": {
+    "chunks": [
+      "wron",
+      "gful"
+    ],
+    "split": "wron + gful"
+  },
+  "boundless": {
+    "chunks": [
+      "boun",
+      "dless"
+    ],
+    "split": "boun (ou) + dless"
+  },
+  "breathless": {
+    "chunks": [
+      "breat",
+      "hless"
+    ],
+    "split": "breat (br- 子音群) + hless"
+  },
+  "childless": {
+    "chunks": [
+      "chil",
+      "dless"
+    ],
+    "split": "chil (ch) + dless"
+  },
+  "countless": {
+    "chunks": [
+      "coun",
+      "tless"
+    ],
+    "split": "coun (ou) + tless"
+  },
+  "endless": {
+    "chunks": [
+      "en",
+      "dless"
+    ],
+    "split": "en + dless"
+  },
+  "formless": {
+    "chunks": [
+      "for",
+      "mless"
+    ],
+    "split": "for (CVC) + mless"
+  },
+  "friendless": {
+    "chunks": [
+      "frien",
+      "dless"
+    ],
+    "split": "frien (fr- 子音群) + dless"
+  },
+  "groundless": {
+    "chunks": [
+      "groun",
+      "dless"
+    ],
+    "split": "groun (gr- 子音群) + dless"
+  },
+  "harmless": {
+    "chunks": [
+      "har",
+      "mless"
+    ],
+    "split": "har (CVC) + mless"
+  },
+  "helpless": {
+    "chunks": [
+      "hel",
+      "pless"
+    ],
+    "split": "hel (CVC) + pless (pl- 子音群)"
+  },
+  "meaningless": {
+    "chunks": [
+      "mea",
+      "nin",
+      "gless"
+    ],
+    "split": "mea (ea) + nin (CVC) + gless (gl- 子音群)"
+  },
+  "pointless": {
+    "chunks": [
+      "poin",
+      "tless"
+    ],
+    "split": "poin (oi) + tless"
+  },
+  "restless": {
+    "chunks": [
+      "res",
+      "tless"
+    ],
+    "split": "res (CVC) + tless"
+  },
+  "ruthless": {
+    "chunks": [
+      "rut",
+      "hless"
+    ],
+    "split": "rut (CVC) + hless"
+  },
+  "speechless": {
+    "chunks": [
+      "speec",
+      "hless"
+    ],
+    "split": "speec (sp- 子音群) + hless"
+  },
+  "soundless": {
+    "chunks": [
+      "soun",
+      "dless"
+    ],
+    "split": "soun (ou) + dless"
+  },
+  "thankless": {
+    "chunks": [
+      "than",
+      "kless"
+    ],
+    "split": "than (th) + kless"
+  },
+  "toothless": {
+    "chunks": [
+      "toot",
+      "hless"
+    ],
+    "split": "toot (oo) + hless"
+  },
+  "weightless": {
+    "chunks": [
+      "weigh",
+      "tless"
+    ],
+    "split": "weigh (ei) + tless"
+  },
+  "wordless": {
+    "chunks": [
+      "wor",
+      "dless"
+    ],
+    "split": "wor (CVC) + dless"
+  },
+  "worthless": {
+    "chunks": [
+      "wort",
+      "hless"
+    ],
+    "split": "wort (or) + hless"
+  },
+  "forsake": {
+    "chunks": [
+      "for",
+      "sa",
+      "ke"
+    ],
+    "split": "for (CVC) + sa (open) + ke"
+  },
+  "absorbing": {
+    "chunks": [
+      "ab",
+      "sor",
+      "bing"
+    ],
+    "split": "ab + sor (CVC) + bing"
+  },
+  "appealing": {
+    "chunks": [
+      "ap",
+      "pea",
+      "ling"
+    ],
+    "split": "ap + pea (ea) + ling"
+  },
+  "admiring": {
+    "chunks": [
+      "ad",
+      "mi",
+      "ring"
+    ],
+    "split": "ad + mi (open) + ring"
+  },
+  "astonishing": {
+    "chunks": [
+      "as",
+      "to",
+      "nis",
+      "hing"
+    ],
+    "split": "as + to (open) + nis (CVC) + hing"
+  },
+  "hideous": {
+    "chunks": [
+      "hi",
+      "deous"
+    ],
+    "split": "hi (open) + deous (ou)"
+  },
+  "whatsoever": {
+    "chunks": [
+      "what",
+      "soe",
+      "ver"
+    ],
+    "split": "what (wh) + soe (oe) + ver (CVC)"
+  },
+  "alleviate": {
+    "chunks": [
+      "al",
+      "le",
+      "via",
+      "te"
+    ],
+    "split": "al + le (open) + via + te"
+  },
+  "appease": {
+    "chunks": [
+      "ap",
+      "pea",
+      "se"
+    ],
+    "split": "ap + pea (ea) + se (open)"
+  },
+  "beam": {
+    "chunks": [
+      "be",
+      "am"
+    ],
+    "split": "be (open) + am"
+  },
+  "berate": {
+    "chunks": [
+      "be",
+      "ra",
+      "te"
+    ],
+    "split": "be (open) + ra + te"
+  },
+  "bestow": {
+    "chunks": [
+      "bes",
+      "tow"
+    ],
+    "split": "bes (CVC) + tow"
+  },
+  "chastise": {
+    "chunks": [
+      "chas",
+      "ti",
+      "se"
+    ],
+    "split": "chas (ch) + ti (open) + se"
+  },
+  "coerce": {
+    "chunks": [
+      "coer",
+      "ce"
+    ],
+    "split": "coer (oe) + ce (open)"
+  },
+  "construe": {
+    "chunks": [
+      "cons",
+      "true"
+    ],
+    "split": "cons + true (tr- 子音群)"
+  },
+  "declaim": {
+    "chunks": [
+      "dec",
+      "laim"
+    ],
+    "split": "dec (CVC) + laim (ai)"
+  },
+  "deplete": {
+    "chunks": [
+      "dep",
+      "le",
+      "te"
+    ],
+    "split": "dep (CVC) + le (open) + te"
+  },
+  "deplore": {
+    "chunks": [
+      "dep",
+      "lo",
+      "re"
+    ],
+    "split": "dep (CVC) + lo (open) + re"
+  },
+  "digress": {
+    "chunks": [
+      "dig",
+      "ress"
+    ],
+    "split": "dig (CVC) + ress"
+  },
+  "divulge": {
+    "chunks": [
+      "di",
+      "vul",
+      "ge"
+    ],
+    "split": "di (open) + vul (CVC) + ge"
+  }
+}
